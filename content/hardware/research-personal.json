@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "ray-ban-meta-gen-2",
+    "name": "Ray-Ban Meta Wayfarer（Gen 2）",
+    "brand": "Ray-Ban × Meta",
+    "category": "glasses",
+    "tagline": "把拍摄、通话和视觉问答装进日常眼镜",
+    "officialUrl": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+    "status": "on_sale",
+    "statusEvidence": "核查时美国官方 SKU 页显示 $379、Add to bag 和配送入口；页面同时引导选购 Gen 3，故确认旧款仍列售，不等同所有配色均有库存。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "英国",
+      "澳大利亚",
+      "欧洲部分国家"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已核查页面未提供中国大陆官方销售与完整 Meta AI 服务保障。支持中文功能不等于大陆渠道已开放；跨境购买的激活、服务与保修需单独确认。"
+    },
+    "price": {
+      "text": "US$379 起",
+      "note": "美国官网 Wayfarer Gen 2 所见价格；镜片、度数、税费和地区会改变总价，不与 Gen 3 或 Headliner 的价格混用。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "视觉/语音输入结合 Meta AI 问答、提醒及翻译；摄影与蓝牙音频本身不等同 AI。",
+      "dependency": "依赖兼容手机、Meta AI App、账户及适用地区服务；各 AI 功能的联网和语言条件以当地支持页为准。"
+    },
+    "highlights": [
+      "12MP 摄像头与 3K 视频",
+      "开放式音频，无镜内显示",
+      "官方典型使用续航最长 8 小时",
+      "保留在售，适合作为代际比较样本"
+    ],
+    "analysis": {
+      "demand": "需求假设：拍孩子、做饭或步行时，拿手机会打断动作。第一视角采集能降低启动成本，但真正值得验证的是用户是否持续拍摄与调用问答，而不是初次体验的新鲜感。",
+      "userProfile": "画像推断：已经日常戴眼镜、经常旅行或创作短内容的人更容易接受这一形态；只偶尔需要 AI 问答的人可能继续使用手机。应区分配镜刚需与为了技术额外戴镜两类用户。",
+      "competition": "案头判断：与同品牌 Gen 3、Rokid Style、手机和耳机争夺同一使用时刻，属于拥挤方向。品牌、配镜和售后渠道构成门槛；此判断没有销量统计、用户访谈或份额证据。",
+      "supplyChain": "官方能确认 Ray-Ban 与 Meta 的产品协作及 EssilorLuxottica 保修角色；本次未取得整机代工厂、摄像头供应商或成本资料。推断难点在镜腿集成、装配一致性与配镜售后。",
+      "technology": "官方披露摄像头、五麦克风、蓝牙、Wi-Fi 与存储；生成式能力通过 Meta AI 呈现。端侧降噪与云端问答如何细分并未完整公开，不能由功能列表反推出精确芯片或模型部署。",
+      "aesthetics": "官网图示延续 Wayfarer 的日常眼镜比例，能减少明显的设备感；镜腿体积和摄像头仍会影响他人的感知。外观判断来自图片，鼻梁压力、滑落和长时佩戴舒适度尚未实测。",
+      "risks": "主要风险是拍摄对旁人的影响、不同地区 AI 功能差异，以及照片导出和账号服务的长期依赖。语音回答仍需核验；有摄像头并不意味着设备适合持续记录所有工作或生活场景。",
+      "opportunity": "市场差异在于第一视角输入、日常框型和成熟配镜渠道共同降低使用门槛。尚待验证的购买理由是用户是否频繁调用这些能力，以及Gen 2相对较低价格能否覆盖旧代设备的取舍。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "日常相机 AI 眼镜已有多品牌直接竞品和手机替代；这是案头竞争判断，不是市场份额结论。"
+    },
+    "architecture": [
+      {
+        "name": "环境输入",
+        "detail": "12MP 摄像头与五麦克风采集画面、语音；以下为功能架构，非拆机图。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备处理",
+        "detail": "存储照片视频并响应按键、触控；具体算力分工未完整披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与应用",
+        "detail": "蓝牙、Wi-Fi 与 Meta AI App 管理、同步内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI 服务",
+        "detail": "Meta AI 提供问答、提醒及适用地区翻译；精确端云路由不公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "反馈与复核",
+        "detail": "通过开放式音频输出；内容在手机端查看、分享和人工核验。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Meta Store · Wayfarer Gen 2 SKU",
+        "url": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，包含价格、加入购物袋、规格与 App 说明；未实际下单。"
+      },
+      {
+        "title": "Meta Store · Ray-Ban Meta 产品比较",
+        "url": "https://www.meta.com/ai-glasses/ray-ban-meta/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "competition",
+          "technology"
+        ],
+        "note": "已打开，当前并列展示 Gen 2 与 Gen 3；避免跨代混用参数。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "ray-ban-meta-gen-3",
+    "name": "Ray-Ban Meta（Gen 3）",
+    "brand": "Ray-Ban × Meta",
+    "category": "glasses",
+    "tagline": "用佩戴与交互的迭代争取全天使用",
+    "officialUrl": "https://www.meta.com/ai-glasses/ray-ban-meta/",
+    "status": "on_sale",
+    "statusEvidence": "当前美国官方系列页显示 Gen 3、US$449 起与 Shop；另已打开瑞士 Wayfarer Gen 3 变色镜片 SKU，显示 CHF559 与 Add to bag。不同地区配置价格分开记录。",
+    "regions": [
+      "美国",
+      "瑞士",
+      "其他开放销售市场（以当地官网为准）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实中国大陆官方购买入口或完整服务承诺。海外商品页、中文翻译能力与大陆官方可用性是不同事项。"
+    },
+    "price": {
+      "text": "美国官网 US$449 起",
+      "note": "这是系列起价；已核查的瑞士变色镜片 SKU 为 CHF559，不能按汇率视作同一配置。税费、镜片和配镜另依地区结算。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "结合视觉、语音与 Meta AI，对话、翻译和情境查询通过镜架完成。",
+      "dependency": "需兼容手机与 Meta 账户/App；部分功能可有离线条件，不能推断全部 AI 在眼镜本机运行。"
+    },
+    "highlights": [
+      "官网已展示第三代销售入口",
+      "可自定义动作按键",
+      "六麦克风与开放式音频",
+      "官方典型续航最长 9 小时"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户需要的可能是更少充电、更容易触发和更适合长期佩戴，而非新的功能名称。第三代适合研究一个问题：小幅体验改进能否让偶尔戴镜变成稳定习惯。",
+      "userProfile": "画像推断：重度第一视角创作者、已有上一代设备且遇到续航或贴合问题的人，是值得访谈的对象。首次用户仍需证明额外设备的价值，不能把代际升级人群等同全部潜在用户。",
+      "competition": "案头判断：除外部品牌，还面对仍在售且较便宜的 Gen 2。竞争焦点偏向框型、舒适度、交互与渠道，而非单一模型指标；未依据销量、用户访谈或价格弹性调查判定市场规模。",
+      "supplyChain": "品牌与渠道协作可以从官方确认，但第三代整机代工、传感器型号、良率和采购价格均不明。推断更细镜腿与可调整结构，会增加电子布局、热管理及光学门店调整的协同要求。",
+      "technology": "官网披露六麦克风、动作按键、3K 拍摄与续航改进；这些是硬件交互事实，不足以证明模型质量提升。对生成式 AI 的推理位置、所用模型版本和性能边界，应继续保持未披露状态。",
+      "aesthetics": "图示观察：Wayfarer、Aviator 与 Zena 扩大框型选择，技术逐渐依附服饰风格。审美价值在于适合不同脸型和日常搭配；官网渲染不能代替试戴，也不能证明镜腿更细就一定更舒适。",
+      "risks": "需注意代际宣传与个人实际体验的差距，标称续航并非连续拍摄时长。应用、账号与地区差异仍然存在；购买时还应区分标准镜片、变色镜片和处方镜片，避免用起价误算总成本。",
+      "opportunity": "市场差异主要体现为佩戴、动作按键与续航的迭代。尚待验证的购买理由是这些变化是否解决上一代的真实痛点，以及首次用户是否愿意为同一类核心任务承担更高的购置成本。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "同品牌多代并售，外部无显示 AI 眼镜也直接竞争；不是无人进入的细分市场。"
+    },
+    "architecture": [
+      {
+        "name": "视觉与声音",
+        "detail": "摄像头和六麦克风提供输入；此为官网功能抽象，非物理拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机交互",
+        "detail": "拍摄键、自定义动作键与设备存储负责快捷操作和内容保留。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机桥接",
+        "detail": "与手机连接完成通话、应用设置及内容管理。",
+        "evidence": "official"
+      },
+      {
+        "name": "理解与生成",
+        "detail": "Meta AI 执行情境问答和翻译，精确端云分工未公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "输出与生态",
+        "detail": "开放式扬声器回应，并通过关联应用消费、分享内容。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Meta Store · Ray-Ban Meta Gen 3",
+        "url": "https://www.meta.com/ai-glasses/ray-ban-meta/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开美国系列页，显示 Gen 3、US$449 起和 Shop 入口。"
+      },
+      {
+        "title": "Meta Store 瑞士 · Gen 3 Wayfarer 变色镜片",
+        "url": "https://www.meta.com/ch/en/ai-glasses/ray-ban-meta-gen-3-wayfarer-shiny-black-grey-transitions/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions",
+          "price"
+        ],
+        "note": "已打开，CHF559 与 Add to bag；仅证明该地区、该配置列售。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "oakley-meta-hstn",
+    "name": "Oakley Meta HSTN",
+    "brand": "Oakley × Meta",
+    "category": "glasses",
+    "tagline": "从运动生活方式切入的相机 AI 眼镜",
+    "officialUrl": "https://www.meta.com/ai-glasses/oakley-meta-hstn/",
+    "status": "on_sale",
+    "statusEvidence": "美国 Meta 官方页显示 US$399 起和 Shop now，并提供具体镜框与镜片选择的商品页；该结论不代表全部颜色或处方库存。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "英国",
+      "澳大利亚",
+      "欧洲部分国家"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未找到本次可验证的大陆官方在售入口；Meta AI 及保修按销售地区判断，不因 Oakley 在中国有门店就推定智能款已销售。"
+    },
+    "price": {
+      "text": "US$399 起",
+      "note": "美国官方系列起价，Prizm、偏光、变色与处方配置可能不同；以实际地区 SKU 为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "用镜框摄像头与语音访问 Meta AI，同时提供拍摄、通话和音乐。",
+      "dependency": "官方明确 Meta AI App 为必要组件；需手机、账户和适用网络，AI 能力按地区与语言开放。"
+    },
+    "highlights": [
+      "12MP 摄像头、3K 拍摄",
+      "五麦克风与开放式音频",
+      "IPX4 防泼溅",
+      "运动品牌框型与镜片选择"
+    ],
+    "analysis": {
+      "demand": "需求假设：高尔夫、散步和轻户外活动中，用户希望同时遮阳、听音频与记录片段。产品把多件随身物品合成一副眼镜，但并不自动替代专业运动记录、导航或训练设备。",
+      "userProfile": "画像推断：偏好 Oakley 风格、已有太阳镜习惯且需要轻量记录的人，比追求镜内显示的用户更匹配。高强度运动者则需要另测贴合、汗水、风噪与安全，不能只按品牌来推断。",
+      "competition": "案头判断：与 Ray-Ban Meta、Vanguard、运动相机和开放式耳机重叠，差异主要来自场景与设计。细分并非无人竞争；没有销售数据或访谈证据支持其比日常眼镜更容易获客。",
+      "supplyChain": "公开资料能确认 Oakley 镜架镜片与 Meta 技术合作；具体代工厂和音频、相机供应商本次不明。推断生产难点是把防汗、铰链和电子集成控制在可售后维修的眼镜结构中。",
+      "technology": "官方披露五麦克风、12MP 摄像头和 Meta AI App；没有镜内显示。IPX4 仅应按防泼溅理解，不能延伸成游泳能力；音频处理、视觉理解和生成回答的详细计算拓扑未公开。",
+      "aesthetics": "图示观察：圆角镜框与较粗镜腿强调运动休闲，适合有明确风格偏好的人。审美是一种用户筛选，不是性能证据；不同脸型、头盔或帽子搭配的舒适度仍需要真实试戴确认。",
+      "risks": "风险集中在把轻户外宣传误读成全运动适用，以及对环境音、风噪和防水的过高预期。拍摄他人、运动中分心和地区 AI 差异也需考虑；AI 回答不能替代安全判断或训练指导。",
+      "opportunity": "市场差异在于运动休闲品牌、镜片和框型，而非完全不同的AI服务。尚待验证的购买理由是用户是否更愿意在轻户外持续佩戴，以及这种场景匹配是否足以抵消手机与普通耳机的替代。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "运动休闲定位有差异，但与相机眼镜、运动相机及开放式耳机高度重叠。"
+    },
+    "architecture": [
+      {
+        "name": "采集",
+        "detail": "12MP 摄像头及五麦克风；功能结构示意，不代表真实拆机布局。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备控制",
+        "detail": "触控、拍摄键和语音触发本机操作。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机连接",
+        "detail": "Meta AI App 负责设置、照片导入和助手入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI 理解",
+        "detail": "视觉与语音进入 Meta AI 服务，端云处理比例未披露。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "音频与分享",
+        "detail": "开放式扬声器输出，手机应用承接消息与媒体分享。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Meta Store · Oakley Meta HSTN",
+        "url": "https://www.meta.com/ai-glasses/oakley-meta-hstn/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "regions"
+        ],
+        "note": "已打开，US$399 起、Shop now；含五麦克风、IPX4 和 App 必需说明。"
+      },
+      {
+        "title": "Meta Store · HSTN 配置购买页",
+        "url": "https://www.meta.com/ai-glasses/oakley-meta-hstn-glasses/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "aesthetics"
+        ],
+        "note": "已打开具体镜片/框型配置页，未提交订单。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "oakley-meta-vanguard",
+    "name": "Oakley Meta Vanguard",
+    "brand": "Oakley × Meta",
+    "category": "glasses",
+    "tagline": "让第一视角影像与运动数据汇合",
+    "officialUrl": "https://www.oakley.com/en-us/product/W0OW8001",
+    "status": "on_sale",
+    "statusEvidence": "已打开 Oakley 美国官方黑框 Prizm Black SKU，显示 US$499 和 ADD TO BAG。另有 Meta 官方产品说明；未按其他地区自动重定向价格替代美元报价。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "英国",
+      "澳大利亚",
+      "欧洲部分国家"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "美国官网列出的支持市场未包含中国大陆；不能据此确认国内正式销售。手机、Meta 服务和 Garmin 集成功能还需按地区核验。"
+    },
+    "price": {
+      "text": "US$499",
+      "note": "美国黑框 Prizm Black 配置所见价；其他镜片、税费、配件和地区价格可能不同。Garmin 兼容设备需另购。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "以语音调用 Meta AI，并结合兼容 Garmin 设备提供运动信息；相机记录与运动数据可协同呈现。",
+      "dependency": "需 Meta AI App、手机与账户；运动数据能力依赖兼容 Garmin 设备或 Strava 集成，不是眼镜独立测得所有指标。"
+    },
+    "highlights": [
+      "中置第一视角摄像头",
+      "官方 IP67 等级",
+      "Garmin 与 Strava 集成",
+      "开放式音频、官方典型续航最长 9 小时"
+    ],
+    "analysis": {
+      "demand": "需求假设：骑行和跑步时，用户希望少看手机又能获得训练信息、留下运动影像。关键价值可能是数据与瞬间的关联，而非拍摄画质本身；是否降低操作负担需要在运动中验证。",
+      "userProfile": "画像推断：已有 Garmin 或 Strava 使用习惯、规律训练并愿意分享影像的人更匹配。偶尔运动、需要处方镜片或对头盔兼容敏感的人，应先确认配置与佩戴，不宜直接套用同一画像。",
+      "competition": "案头判断：高强度运动与数据结合比通用拍照更窄，但仍受到运动相机、运动耳机和手表替代。归为专业细分仅描述用途，不代表竞争少；没有销量、渠道毛利或访谈证据。",
+      "supplyChain": "官方公开 O Matter 镜架、Prizm 镜片和电子功能，但未披露本次所需的整机工厂、镜头供应商或良率。推断难点包含运动冲击、密封、重心与头盔适配，无法凭品牌估计物料成本。",
+      "technology": "官方披露五麦克风、摄像头、无线连接和运动平台集成。应把眼镜采集、外部设备测量与 AI 解释分开：运动指标并不都来自镜架传感器，生成回答也不等同独立训练评估。",
+      "aesthetics": "图示观察：包覆式大镜片与中置摄像头呈现鲜明运动器材感，对专业场景是识别优势，对办公室则未必合适。外观与头盔兼容的宣传需通过不同头围、鼻梁和运动强度的试戴检验。",
+      "risks": "主要风险是运动中分心、摄像头录制范围、风噪和对防护等级的误读。兼容手表、第三方账号和手机连接增加故障环节；标称典型续航不能用于推算持续录像或长距离赛事的保障。",
+      "opportunity": "市场差异在于运动影像与已有训练数据的结合，并强化包覆式运动形态。尚待验证的购买理由是多设备连接是否稳定、记录是否有助复盘，以及相较运动相机和耳机能否减少携带与操作负担。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "围绕高强度运动、第一视角与运动数据的专业场景；细分用途不意味着低竞争或已证明需求。"
+    },
+    "architecture": [
+      {
+        "name": "现场输入",
+        "detail": "摄像头与五麦克风采集；这是概念功能架构，非拆机物料清单。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机与控制",
+        "detail": "镜架处理拍摄、存储、触控和语音交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接层",
+        "detail": "Meta AI App 与手机管理眼镜，Garmin/Strava 提供兼容运动数据。",
+        "evidence": "official"
+      },
+      {
+        "name": "解释与关联",
+        "detail": "将语音请求和运动上下文组织为回复；具体模型与数据路由未公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "反馈",
+        "detail": "开放式扬声器回应，影像可结合运动指标分享。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oakley US · Meta Vanguard OW8001",
+        "url": "https://www.oakley.com/en-us/product/W0OW8001",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开并定位 ADD TO BAG、US$499、IP67、连接和支持市场；标称参数未实测。"
+      },
+      {
+        "title": "Meta Store · Vanguard 产品说明",
+        "url": "https://www.meta.com/kr/en/ai-glasses/oakley-meta-vanguard/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "访问时重定向韩国英文页，确认 Garmin 设备另购；不将韩元价格混入美国报价。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "even-g2",
+    "name": "Even G2",
+    "brand": "Even Realities",
+    "category": "glasses",
+    "tagline": "不用摄像头，以文字提示辅助真实对话",
+    "officialUrl": "https://www.evenrealities.com/smart-glasses",
+    "status": "on_sale",
+    "statusEvidence": "已打开 G2 A 官方配置页，显示 US$599、Buy now、镜片选项与 Add to cart；处方镜片为定制订单，交付时间随配置变化。",
+    "regions": [
+      "美国官网",
+      "官网支持配送地区与授权眼镜店（逐地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未取得大陆官方销售/配送确认。官网中文文字、镜片生产来源或支持翻译中文，均不能证明大陆渠道与应用服务已正式开放。"
+    },
+    "price": {
+      "text": "US$599 起",
+      "note": "G2 A 非处方配置起价；官网单光处方镜片 US$159 起，R1 等配件另计。特殊框色和地区价格以结算为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Conversate 通过语音转写提供对话提示与摘要，并支持 Even AI、翻译和提词等功能。",
+      "dependency": "依赖 Even Realities App；联网、云处理与同意设置因功能而异。没有摄像头不代表不处理谈话数据。"
+    },
+    "highlights": [
+      "无摄像头设计",
+      "双目 Micro LED 与光波导文字显示",
+      "四麦克风语音输入",
+      "可选 R1 指环控制、处方镜片服务"
+    ],
+    "analysis": {
+      "demand": "需求假设：会议、外语交流或演讲时，用户想获得提示却不愿低头看手机。与拍摄眼镜不同，这里应验证眼前文字是否减少遗忘，还是增加阅读负担，并比较提词器与手机字幕。",
+      "userProfile": "画像推断：已有配镜习惯、频繁演讲或跨语言沟通的人更值得访谈。实时字幕也可能吸引听力困难用户，但本研究没有临床验证，不能把消费级显示功能写成医疗辅助效果承诺。",
+      "competition": "案头判断：无摄像头、低干扰的文字辅助属于正在形成的细分，仍与手机字幕、耳机翻译和其他显示眼镜竞争。没有访谈或销量数据支持其需求强度，较少曝光不等于市场空白。",
+      "supplyChain": "官方披露 Micro LED、双目光波导，并列出三井化学镜片材料；整机代工厂、光机供应商和光学校准良率仍不明。推断光学一致性、处方适配与返修流程比单纯电子装配更关键。",
+      "technology": "官方明确四麦克风输入、无摄像头及文字显示功能；Conversate 结合转写、提示与摘要。详细端云计算比例、模型供应商和任务延迟未完整公开，不能把眼前显示误认为全部离线推理。",
+      "aesthetics": "图示观察：细框、透明镜片与克制的显示形式接近日常光学眼镜。无摄像头能降低部分社交疑虑，但不能消除录音问题；显示清晰度、焦点舒适与他人是否看见光影仍需实际试戴。",
+      "risks": "关键风险是谈话识别错误后生成不准确提示、注意力被字幕牵引，以及处方定制后的退换限制。还需确认不同网络地区的可用性；官方光学参数不等同个人连续阅读的舒适保证。",
+      "opportunity": "市场差异是无摄像头的文字显示与对话提示，而非第一视角摄影。尚待验证的购买理由是提示时机、字数与阅读舒适是否帮助交流，以及用户在不看手机的情况下是否仍能保持注意力。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "无摄像头的文字辅助定位有辨识度，但需求和竞争程度仍需用户研究验证。"
+    },
+    "architecture": [
+      {
+        "name": "语音与手动输入",
+        "detail": "四麦克风、预设提纲与操作输入；功能示意，非真实拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机协调",
+        "detail": "Even Realities App 管理眼镜和内容，可选 R1 通过 App 协同控制。",
+        "evidence": "official"
+      },
+      {
+        "name": "转写与理解",
+        "detail": "Conversate 和 Even AI 完成转写、上下文提示与摘要，计算位置未完全披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "信息编排",
+        "detail": "把答案与提词转成短文本，并控制出现时机；具体软件流程为推断。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "视觉反馈",
+        "detail": "双目 Micro LED / 光波导显示，App 保存可复查摘要。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Even Realities · G2 A 官方配置商店",
+        "url": "https://www.evenrealities.com/products/g2-a",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "aesthetics"
+        ],
+        "note": "已打开，US$599、Buy now 和 Add to cart；处方与配件加价单列。"
+      },
+      {
+        "title": "Even Realities · G2 规格与 FAQ",
+        "url": "https://www.evenrealities.com/smart-glasses",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "supplyChain",
+          "architecture",
+          "dependency"
+        ],
+        "note": "已打开，明确无摄像头、Micro LED、光波导、四麦克风及 Conversate。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "rokid-ai-glasses-style",
+    "name": "Rokid AI Glasses Style",
+    "brand": "Rokid",
+    "category": "glasses",
+    "tagline": "无显示、轻量化的语音与视觉 AI 入口",
+    "officialUrl": "https://global.rokid.com/products/rokid-ai-glasses-style",
+    "status": "on_sale",
+    "statusEvidence": "国际官网商品页显示 US$329、Add To Cart、配送与退换说明。该条仅对应 Non-Display Style，不将 Rokid 带显示款、AR Spatial 或国内其他版本混入。",
+    "regions": [
+      "美国",
+      "国际站支持配送地区（结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实的是全球版 Style。Rokid 为中国品牌并不能替代对该 SKU 大陆官方渠道、应用版本、模型服务和保修的核查。"
+    },
+    "price": {
+      "text": "国际站 US$329",
+      "note": "核查时促销标价，划线价 US$399；镜片、充电盒及不同配置可能另计，未据此推导中国售价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "以语音与相机支持视觉识别、问答、翻译及会议摘要，无镜内显示。",
+      "dependency": "通过 Rokid AI App 设置与访问适用 AI 服务；全球版与地区版模型、账号、网络条件不可假定一致。"
+    },
+    "highlights": [
+      "官方标称 38.5g，无显示",
+      "12MP 第一视角相机",
+      "开放式音频与处方镜片选项",
+      "官方披露双芯片思路，具体工厂未公开"
+    ],
+    "analysis": {
+      "demand": "需求假设：想使用视觉问答和随手拍摄的用户，可能更愿意接受没有屏幕、重量较低的眼镜。需要验证省去显示后语音反馈是否足够，以及在嘈杂或不方便出声的场景中是否失效。",
+      "userProfile": "画像推断：对价格和重量敏感、接受手机配套应用的旅行者或轻量创作者更匹配。需要长文阅读、实时字幕或空间屏幕的人属于另一需求，不能把所有智能眼镜用户放入一个画像。",
+      "competition": "案头判断：与 Ray-Ban Meta 正面竞争，同时受到手机摄像头和耳机替代。更低展示价格或更轻机身只能形成待验证卖点；未进行销量研究、品牌偏好访谈或跨地区渠道调研。",
+      "supplyChain": "官网披露双芯片设计及镜框、镜片配置，但本次未取得整机工厂、核心器件采购合同或良率资料。推断轻量结构要求电池、铰链、声学和热设计协同，不能把重量直接转换成成本优势。",
+      "technology": "官方披露相机、语音阵列、双芯片及 Rokid AI App。哪些能力离线运行、哪些调用服务器，以及地区版本用何模型仍需逐项确认；页面功能展示不是独立测得的准确率或延迟证据。",
+      "aesthetics": "图示观察：较厚上框与普通太阳镜轮廓弱化了显示设备感，镜片颜色可帮助日常搭配。轻量是可测指标，外观轻巧则是主观判断；鼻托、镜腿和处方镜片组合需要实际试戴评估。",
+      "risks": "风险在于全球版和本地版服务差异、可选镜片与充电配件使总价变化，以及语音和视觉识别在真实环境中的误差。拍摄需要尊重现场边界，不能用厂商全天续航宣传代替连续工作测试。",
+      "opportunity": "市场差异在于轻量、无显示和多种镜片配置的组合。尚待验证的购买理由是全球版服务在具体地区能否稳定运行、实际续航是否适合日常任务，以及总配置成本相对其他相机眼镜是否有吸引力。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "无显示相机眼镜直接进入已有品牌竞争；轻量与地区适配属于差异假设。"
+    },
+    "architecture": [
+      {
+        "name": "场景采集",
+        "detail": "12MP 相机与语音输入，作为功能架构示意，非物理拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备协同",
+        "detail": "官网描述双芯片处理与本机控制，本文不补写未披露的分工。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机应用",
+        "detail": "Rokid AI App 完成设备配置、媒体管理和 AI 服务入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别与生成",
+        "detail": "视觉问答、翻译和会议摘要；精确模型及端云路由待核实。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音与归档",
+        "detail": "开放式音频回应，媒体与摘要在 App 内查看。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Rokid Global · AI Glasses Style 商品页",
+        "url": "https://global.rokid.com/products/rokid-ai-glasses-style",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，US$329 与 Add To Cart；产品明确为 Non-Display。"
+      },
+      {
+        "title": "Rokid · Style 官方介绍",
+        "url": "https://global.rokid.com/pages/rokid-ai-glasses-style",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "aesthetics",
+          "dependency"
+        ],
+        "note": "已打开，轻量与配镜服务说明；不把其他 Rokid AR 产品当成此款 AI 能力。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "plaud-note",
+    "name": "Plaud Note",
+    "brand": "Plaud",
+    "category": "recording",
+    "tagline": "贴在手机背面的双模式 AI 录音卡片",
+    "officialUrl": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+    "status": "on_sale",
+    "statusEvidence": "已打开国际官方商店，Note 独立商品页显示 US$159、Shop Now、颜色选择及配送说明；页面同时列出新款，未将 Note Pro 的参数算入本款。",
+    "regions": [
+      "美国/国际官网",
+      "其他地区依当地官方站点与结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实国际版产品，未取得同款大陆正式购买与数据服务所在地的官方证据；品牌来源或中文识别能力不作为大陆销售证明。"
+    },
+    "price": {
+      "text": "US$159",
+      "note": "硬件含每月300分钟基础转写额度；超额或高级服务可能需订阅。税费、促销与当地版本以地区官网为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "录音经过语音识别、说话人标记，再由 AI 生成摘要并支持检索问答。",
+      "dependency": "硬件可存储录音；转写、摘要与跨平台管理依赖 Plaud 应用和服务额度，不应视作完整离线 AI。"
+    },
+    "highlights": [
+      "面谈与电话双模式录音",
+      "官方披露2 MEMS与1 VPU",
+      "64GB本地存储",
+      "含基础转写额度，持续使用成本需另算"
+    ],
+    "analysis": {
+      "demand": "需求假设：通话或会议密集的人，愿意为少一步启动录音和会后整理付费。真实需求应以查回原话、完成跟进的频率检验，不能只用生成摘要数量证明设备有价值。",
+      "userProfile": "画像推断：销售、访谈者、顾问和经常需要会后复盘的人较匹配。对偶发录音者，手机可能已足够；对高度保密团队，则需要先评估数据流程，而不是只比较硬件外形。",
+      "competition": "案头判断：与手机录音、软件会议助手、同品牌 Note Pro 及其他卡片录音器直接竞争，属于拥挤方向。没有用户访谈、销量或转化数据，不能把官网用户规模宣传当成需求验证。",
+      "supplyChain": "官网披露拾音器件类型与本地存储，但麦克风厂商、整机代工、材料成本和良率未公开。推断卡片机身中的电池布局、手机振动耦合与磁吸外壳，是区别于普通录音笔的制造重点。",
+      "technology": "官方明确面谈与电话模式、MEMS 与振动相关拾音组件，软件提供转写和生成摘要。底层模型版本与云端路由未完整披露；物理采集成功、转写准确和摘要可靠是三个不同环节。",
+      "aesthetics": "图示观察：扁平金属感卡片和纵向纹理接近商务配件，附着手机减少额外携带动作。手机厚度、握持与充电配件冲突需要实测；低调外观不应被理解成可以不告知就录音。",
+      "risks": "需关注通话拾音受机型、手机壳和摆位影响，转写中人名金额可能错误，摘要也可能遗漏条件。基础额度不足时会增加持续费用；敏感谈话的告知、访问权限和导出能力同样重要。",
+      "opportunity": "市场差异在于电话与面谈共用一块随身硬件，以及录音后的整理服务。尚待验证的购买理由是操作和复盘是否持续比手机方便，而不是卡片本身能否录音或能够调用通用大模型。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "卡片录音器和会议摘要服务已有直接竞品，手机软件替代也强；为案头判断。"
+    },
+    "architecture": [
+      {
+        "name": "声音采集",
+        "detail": "面谈麦克风与电话振动相关拾音；功能架构，非拆机图。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机录音",
+        "detail": "按键控制、模式选择及64GB本地存储。",
+        "evidence": "official"
+      },
+      {
+        "name": "同步管理",
+        "detail": "Plaud App/Web/Desktop承接音频与笔记管理。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别与生成",
+        "detail": "语音转写、说话人标签、摘要与Ask Plaud；具体模型路由未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "工作输出",
+        "detail": "笔记分享、导出和原始内容复核构成最终工作流。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Plaud · Note 官方商店",
+        "url": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，价格、Shop Now、双模式和本地存储可见；未测试结算或实机。"
+      },
+      {
+        "title": "Plaud · 官方设备比较",
+        "url": "https://www.plaud.ai/pages/plaud-device-comparison",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "competition"
+        ],
+        "note": "已打开，用于区分Note、Note Pro和NotePin，未推断未披露供应商。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "plaud-note-pro",
+    "name": "Plaud Note Pro",
+    "brand": "Plaud",
+    "category": "recording",
+    "tagline": "以拾音、模式判断和状态反馈服务密集会议",
+    "officialUrl": "https://www.plaud.ai/products/plaud-note-pro",
+    "status": "on_sale",
+    "statusEvidence": "官方独立商品页显示 US$189、Shop Now、颜色选项，并标明通常1–2个工作日发货；这属于官网列售证据，实际订单库存仍以结算为准。",
+    "regions": [
+      "美国/国际官网",
+      "其他地区依当地官方站点与结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次确认的是国际商店版本；没有以中国品牌身份推定大陆同型号渠道、服务区域和保修均已开放。"
+    },
+    "price": {
+      "text": "US$189",
+      "note": "核查时硬件所见价，附基础300分钟/月转写；高级计划另计。模式、地区、促销及税费需在当地官网确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "自动区分部分录音场景，并以转写、摘要和问答把声音变成可检索笔记。",
+      "dependency": "录音和存储在设备侧；AI整理依赖Plaud软件服务与额度。官方未完整公开所有模型及端云分工。"
+    },
+    "highlights": [
+      "四麦克风及自动双模式",
+      "状态显示屏",
+      "官方增强模式30小时、耐久模式50小时录音",
+      "64GB存储与基础转写计划"
+    ],
+    "analysis": {
+      "demand": "需求假设：连续会议与重要访谈更在意能否确认录音正常、是否漏切模式、远处声音是否可用。升级价值来自减少采集失败，而不是只多生成一份摘要，需结合真实会议环境判断。",
+      "userProfile": "画像推断：每天频繁在电话和现场会议之间切换、且遗漏记录代价较高的专业人士更匹配。低频用户未必需要升级；不能因产品强调专业就认为它适合所有监管严格的业务。",
+      "competition": "案头判断：同品牌基础 Note 与 NotePin 会分流需求，手机会议助手也能处理已有音频。此款竞争点偏采集可靠性和状态反馈；没有访谈、独立失败率或销量数据支持溢价合理性。",
+      "supplyChain": "官方披露四麦克风、振动相关采集和显示屏，但组件供应商、整机工厂与成本未公开。推断超薄结构还需兼顾声学开孔、电池、屏幕与装配公差，不能仅凭售价估计硬件毛利。",
+      "technology": "官方区分增强与耐久录音模式，所以30小时和50小时不是同一条件下的冲突参数。自动模式识别属于采集侧便利，摘要属于后续AI处理；具体分类算法与模型部署仍未完整披露。",
+      "aesthetics": "图示观察：薄卡片顶部加入显示区域，能在保留商务外形的同时展示录音和电量状态。它让设备状态更易被看见，但屏幕可读性、手机附着后的手感和磁吸稳定性尚未实际测试。",
+      "risks": "远距离拾音、噪声和多人交叠会共同影响文字质量，屏幕显示正在录音并不保证内容可用。还需考虑订阅成本、敏感音频权限及生成摘要的事实遗漏，重要结论应回到原录音复核。",
+      "opportunity": "市场差异在于把专业用户对采集确定性的要求做成可见硬件升级。尚待验证的购买理由是失败减少与会后节省时间是否覆盖差价，以及用户是否真正需要自动模式和更长录音时长。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "专业录音与AI会议笔记均有成熟替代；Pro属于细分升级而非新空白市场。"
+    },
+    "architecture": [
+      {
+        "name": "多路拾音",
+        "detail": "四麦克风和振动相关输入；概念功能架构，非真实拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "模式与状态",
+        "detail": "自动双模式、录音状态显示和本地存储。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容同步",
+        "detail": "Plaud应用和网页承接录音、文字、图片等上下文。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI整理",
+        "detail": "转写、摘要、问答与生成工作成果；具体模型服务未完全公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "复查与交付",
+        "detail": "人工确认原文与关键结论后导出或分享。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Plaud · Note Pro 官方商店",
+        "url": "https://www.plaud.ai/products/plaud-note-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开；明确区分30小时增强与50小时耐久模式，标称数据未经实测。"
+      },
+      {
+        "title": "Plaud · 官方设备比较",
+        "url": "https://www.plaud.ai/pages/plaud-device-comparison",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "competition"
+        ],
+        "note": "已打开；用于比较不同采集形态，不代表同品牌软件永久免费。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "plaud-notepin",
+    "name": "Plaud NotePin",
+    "brand": "Plaud",
+    "category": "recording",
+    "tagline": "面向走动交谈的可佩戴 AI 录音胶囊",
+    "officialUrl": "https://www.plaud.ai/products/plaud-notepin",
+    "status": "on_sale",
+    "statusEvidence": "官方NotePin页面显示 US$159、Shop Now及通常1–2个工作日发货说明；与另列的NotePin S区分，不能把S款按钮或售价算入本款。",
+    "regions": [
+      "美国/国际官网",
+      "其他地区依当地官方站点与结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实本型号大陆官方销售与服务承诺；本次价格和功能基于国际版NotePin，不等同其他地区版本。"
+    },
+    "price": {
+      "text": "US$159",
+      "note": "核查时基础NotePin价格，含磁吸扣、夹子及基础300分钟/月转写额度；腕带等具体配件需查看所选套装。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "现场语音转写、说话人区分、摘要与对记录的检索问答。",
+      "dependency": "需Plaud应用处理和管理笔记；可本地录音不等于离线生成摘要。官网明确本款没有电话振动传感器，不支持相应电话录音模式。"
+    },
+    "highlights": [
+      "可夹、佩戴或放置采集",
+      "两颗MEMS麦克风、64GB存储",
+      "官方最长20小时连续录音",
+      "不具备Note系列的电话振动拾音模式"
+    ],
+    "analysis": {
+      "demand": "需求假设：走动讲解、现场接待或随手口述时，固定佩戴比反复摆放手机更方便。价值取决于收音距离和启动动作是否稳定，不能因为设备一直带在身上就推断它会自动记录一切。",
+      "userProfile": "画像推断：工作中频繁移动的顾问、讲解者、现场协调人员更匹配；主要做电话访谈的用户应比较Note系列。具体职业只是待验证情境，不能直接据官网行业案例推导该职业普遍需求。",
+      "competition": "案头判断：与Omi、Bee、胸前麦克风和手机录音争夺现场采集任务。佩戴方式是差异，但摘要服务趋同；此处没有用户访谈、使用留存或销量证据，不能据小型外观称之为蓝海。",
+      "supplyChain": "官方披露两颗MEMS和本地存储，佩戴配件涉及夹具与磁吸结构；实际工厂、麦克风厂商与良率不明。推断衣料摩擦、固定可靠性和充电触点寿命会影响长期体验及售后成本。",
+      "technology": "官网明确没有电话振动传导传感器，因此不能用Note的电话录音能力描述NotePin。设备侧负责采集与保存，软件侧负责转写摘要；精准算法、模型供应商与部署边界未完整公开。",
+      "aesthetics": "图示观察：圆角胶囊比传统录音笔更像衣物配件，灰色与简洁表面有利于日常佩戴。不同衣料、夹放位置和挂绳会改变外观与收音；图片无法证明运动中不晃动或不会产生摩擦音。",
+      "risks": "最容易误购的风险是把现场录音当成手机通话录音。佩戴位置、衣物遮挡和旁人知情也影响使用；磁性配件需遵守官方使用说明，转写与摘要中的金额、姓名等内容仍需人工复核。",
+      "opportunity": "市场差异在于把输入入口从手机背面移到身体，服务移动对话。尚待验证的是用户是否愿意每天佩戴、是否记得开启，以及佩戴录音相比手机能否明显提高可用记录的比例。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "佩戴式工作记录仍在探索稳定习惯，但已有多款直接竞品，不能把新形态等同低竞争。"
+    },
+    "architecture": [
+      {
+        "name": "现场拾音",
+        "detail": "两颗MEMS采集现场声音；功能结构示意，非拆机图。",
+        "evidence": "official"
+      },
+      {
+        "name": "录音与保存",
+        "detail": "用户启动录音，设备本地存储；不包含电话振动拾音模式。",
+        "evidence": "official"
+      },
+      {
+        "name": "同步层",
+        "detail": "连接Plaud App并在网页等平台管理。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI处理",
+        "detail": "转写、说话人标签、摘要、Ask Plaud检索。",
+        "evidence": "official"
+      },
+      {
+        "name": "笔记输出",
+        "detail": "查看来源、调整摘要并导出分享。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Plaud · NotePin 官方商店与FAQ",
+        "url": "https://www.plaud.ai/products/plaud-notepin",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开，FAQ明确无V.C.S、不支持电话录音；未引用NotePin S规格。"
+      },
+      {
+        "title": "Plaud · 官方设备比较",
+        "url": "https://www.plaud.ai/pages/plaud-device-comparison",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "competition"
+        ],
+        "note": "已打开，区分可佩戴采集与卡片双模式录音。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "limitless-pendant",
+    "name": "Limitless Pendant",
+    "brand": "Limitless（已被Meta收购）",
+    "category": "recording",
+    "tagline": "停售案例：硬件寿命依赖云端服务承诺",
+    "officialUrl": "https://www.limitless.ai/",
+    "status": "discontinued",
+    "statusEvidence": "官方公告及FAQ明确：自2025-12-05起不再销售Pendant；现有客户服务支持贯穿2026年。中国、欧盟、英国等列入停止服务区域。本条为历史与退出风险样本，不是购买推荐。",
+    "regions": [
+      "不再向新客户销售",
+      "部分现有客户支持贯穿2026年，按官方区域名单限制"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官网明确中国自2025-12-05起不再提供服务，不能把二手硬件可购视为官方产品可用。"
+    },
+    "price": {
+      "text": "已停售，无当前官方购买价格",
+      "note": "不把历史硬件价或二手转售价展示为在售价。官网表示继续服务的现有客户免费获得Unlimited计划。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "历史定位为采集现实谈话并转为可检索转写的个人记忆服务。",
+      "dependency": "核心价值依赖配套软件、账户与服务持续运营；官方承诺仅能据原文写到2026年，不能推定其后继续可用。"
+    },
+    "highlights": [
+      "官方已确认停售",
+      "中国等区域停止服务",
+      "提供数据导出/删除说明",
+      "用于研究服务退出，不计入可购产品"
+    ],
+    "analysis": {
+      "demand": "历史需求假设：用户希望事后查回没有手动记下的谈话细节。停售并不能单独证明需求不存在，也不能证明产品成功；只能确认依赖服务的记忆设备会受到公司战略变化直接影响。",
+      "userProfile": "画像推断：现有持有者最关心数据导出、过渡期限和历史内容可访问性；新用户不应被归入当前可购买画像。本条不把二手买家或第三方改装用户当作官方继续销售的证据。",
+      "competition": "案头判断：Omi、Bee及会议录音产品承接类似任务，但无法据此推算原客户迁移方向。没有销量、流失率或访谈资料；这里记录服务退出事实，不对收购成败作市场因果判断。",
+      "supplyChain": "当前官方公告未披露整机工厂、器件供应商或后续备件安排，本次均记为不明。硬件仍存在也不代表售后和云服务仍存在；不能从公司被收购推断原供应链被继续用于其他产品。",
+      "technology": "官方当前页面确认Pendant服务、历史转写和导出机制，并未保留完整硬件规格。本目录仅给采集到检索的概念架构，未核实芯片、麦克风数量或离线模型，不以旧宣传补齐空白。",
+      "aesthetics": "形态观察：吊坠把记忆采集变成随身物品，但佩戴接受度与云服务可持续性是不同问题。此处仅讨论产品形态，不对停售后的实物成色、佩戴舒适或第三方适配能力作判断。",
+      "risks": "确定风险是停售、地区退出及支持期限；具体2026年之后的安排不能自行预测。现有用户应依据官方导出与账号说明处理数据，第三方兼容方案也不等同原厂服务或原有隐私承诺。",
+      "opportunity": "市场观察价值在于展示硬件销售与服务存续必须分开评估。购买个人记忆设备时，数据可导出性、退出安排和本地功能边界都是比较维度；本条不提出新产品idea或继续购买建议。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "个人记忆穿戴是探索中的形态；本产品已经退出销售，仅用于生命周期比较。"
+    },
+    "architecture": [
+      {
+        "name": "佩戴采集",
+        "detail": "从历史Pendant用途抽象语音采集层；非拆机，不声明传感器型号。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "设备到应用",
+        "detail": "采集数据需进入配套软件；当前公告未披露详细传输拓扑。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "记录服务",
+        "detail": "官方仍讨论现有用户的转写与账户数据访问。",
+        "evidence": "official"
+      },
+      {
+        "name": "记忆检索",
+        "detail": "将记录组织为可回查内容，是用途层抽象，不代表当前所有功能继续可用。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "退出与导出",
+        "detail": "官方提供数据导出和删除帮助，并列明区域与时间限制。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Limitless · 被Meta收购公告与现有客户FAQ",
+        "url": "https://www.limitless.ai/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "regions",
+          "china",
+          "dependency",
+          "risks"
+        ],
+        "note": "已打开，明确2025-12-05停售、支持贯穿2026年、中国等地区退出；不依赖新闻推断。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "bee-frontier",
+    "name": "Bee Frontier",
+    "brand": "Bee / Amazon",
+    "category": "recording",
+    "tagline": "以一键、长续航和生活上下文组织记忆",
+    "officialUrl": "https://bee.computer/products/frontier",
+    "status": "on_sale",
+    "statusEvidence": "Bee官方Frontier产品页显示 US$74.99、Buy on Amazon及Prime配送说明；当前官网已采用Frontier命名，不沿用旧Pioneer的售价或功能。",
+    "regions": [
+      "美国（官网导向Amazon.com）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "没有核实大陆官方销售、账号服务或配套应用可用性。Amazon.com购买入口不等同能配送或完整服务中国大陆。"
+    },
+    "price": {
+      "text": "US$74.99",
+      "note": "官网所见硬件价；部分记忆、任务与应用集成功能需Bee Pro订阅，具体计划和地区价格以官网为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "语音识别结合摘要、记忆搜索与待办建议，并可关联授权应用上下文。",
+      "dependency": "依赖Bee应用与账户，部分能力需Pro；官网披露端侧处理，但未完整公开端云任务边界，不据此宣称全离线。"
+    },
+    "highlights": [
+      "手腕或衣物两种佩戴方式",
+      "显式开始/停止按钮与LED",
+      "官方标称7天以上电池续航",
+      "部分功能关联Google、Alexa和Amazon.com"
+    ],
+    "analysis": {
+      "demand": "需求假设：日常碎片承诺和临时安排容易忘记，随身设备可减少掏手机记事的摩擦。需求强度取决于回查是否准确有用，以及用户能否接受在社交场景中明确开启声音处理。",
+      "userProfile": "画像推断：日程较碎、频繁移动并愿意使用配套应用的人可能适合；并非所有健忘用户都需要持续记录。官网的生活场景描述不能作为改善记忆障碍或任何健康问题的疗效证据。",
+      "competition": "案头判断：与Omi、NotePin、智能手表语音备忘和手机助手重叠，低硬件价格并不决定总使用成本。没有用户访谈、销量或续费证据，不能以Amazon生态推断产品必然被广泛采用。",
+      "supplyChain": "官网可确认Bee产品及Amazon销售关系、外形、接口和佩戴附件；整机工厂、麦克风供应商与物料成本不明。推断防水、按键寿命和夹具可靠性会影响长期佩戴与售后负担。",
+      "technology": "官方披露端侧处理、语音识别和摘要检索，但没有完整模型拓扑。应用集成意味着除硬件外还存在授权数据源；端侧处理一词不足以证明所有转写、记忆和建议都不经过远程服务。",
+      "aesthetics": "图示观察：小型圆角设备接近运动手环，可夹衣服且配色柔和，降低商务设备感。佩戴形态同时影响收音和可见性；图片中的轻巧不代表实际佩戴、洗手或衣料摩擦体验已经验证。",
+      "risks": "主要风险是谈话内容与关联账号形成更丰富的个人档案，以及长期记忆中误归因或错误建议。需区分硬件价格与订阅功能；官方隐私描述属于厂商承诺，本研究没有独立审计或实机验证。",
+      "opportunity": "市场差异在于把录音笔记延伸到日程与生活上下文，而非单场会议纪要。尚待验证的购买理由是主动建议是否足够准确、适时和可控，以及用户愿意授予哪些应用访问权限。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "生活记忆与应用上下文结合仍在探索，已有多款可佩戴竞争产品；非量化结论。"
+    },
+    "architecture": [
+      {
+        "name": "声音与操作",
+        "detail": "麦克风、开始/停止按钮、LED；概念功能架构，非拆机图。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备处理",
+        "detail": "官网披露部分端侧处理，未公开完整离线能力边界。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用上下文",
+        "detail": "Bee应用与经授权的Google、Alexa等集成，部分需Pro。",
+        "evidence": "official"
+      },
+      {
+        "name": "记忆生成",
+        "detail": "转写、摘要、搜索与待办建议；具体计算任务位置未完全披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户回查",
+        "detail": "用户在应用内回看、搜索并决定是否采纳建议。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bee · Frontier 官方产品页",
+        "url": "https://bee.computer/products/frontier",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，US$74.99、Buy on Amazon与Prime配送；未把旧Shopify模板页当成商品证据。"
+      },
+      {
+        "title": "Bee · 当前官方首页",
+        "url": "https://bee.computer/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "dependency",
+          "technology"
+        ],
+        "note": "已打开，区分Frontier与Coming Soon的Eclipse；隐私与集成均作为厂商陈述。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "bee-eclipse",
+    "name": "Bee Eclipse",
+    "brand": "Bee / Amazon",
+    "category": "recording",
+    "tagline": "已公布的磁吸电话记忆设备，尚未确认开售",
+    "officialUrl": "https://bee.computer/products/eclipse",
+    "status": "needs_check",
+    "statusEvidence": "官方首页仍标为Coming Soon，产品页使用will be available for $99.99与Learn more，而非已确认购买/预订。无明确接受预订证据，因此不标为on_sale或preorder。",
+    "regions": [
+      "美国官方发布入口；开售地区待核实"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "尚未确认全球正式开售，更未确认大陆官方渠道与服务。不得把同品牌Frontier的购买入口视作Eclipse已可购买。"
+    },
+    "price": {
+      "text": "公布价 US$99.99（未确认开售）",
+      "note": "官方前瞻性公布价，不是已经成交或当前可结算的商品价；部分AI功能预计依赖Bee Pro，具体以最终销售说明为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方公布用途为电话双方与现场谈话的转写、摘要、记忆和待办建议。",
+      "dependency": "需要Bee应用与账户，部分功能需Pro；已公布端侧处理，但整体端云边界与实售功能仍需核查。"
+    },
+    "highlights": [
+      "Coming Soon，未计入在售",
+      "磁吸手机背面形态",
+      "官方公布电话双方内容处理",
+      "一键开始/停止与状态LED"
+    ],
+    "analysis": {
+      "demand": "需求假设：经常通话的人希望把双方表达整理成可回查的行动项，并减少会后手工输入。由于尚未确认开售，不能把宣传演示当成真实需求验证，也无法判断不同手机上的收音稳定性。",
+      "userProfile": "画像推断：电话沟通密集且已使用Bee应用的人可能更容易理解这一形态；佩戴意愿低但随身带手机的人也值得关注。当前没有实售用户调查，不能用品牌其他产品反馈替代本款证据。",
+      "competition": "案头判断：磁吸卡片录音已与Plaud Note系列直接重叠，新增品牌并不等于新类别。生态集成可能成为差异，但没有销量、独立实测或访谈支持其优势，更不能依据公布价推断市场份额。",
+      "supplyChain": "官方公布磁吸结构、按键和接口外形，但尚未确认量产交付，本次工厂、核心拾音器件及良率均不明。不能从渲染图推算成本，也不能把同品牌另一设备的制造链直接套用到此款。",
+      "technology": "官方描述电话双方处理与部分端侧能力，但未完整解释拾音路径、机型限制和模型部署。架构仅按公布功能抽象；不得将长期电池宣传理解为相同时间的连续录音或离线AI推理。",
+      "aesthetics": "图示观察：扁平磁吸形态接近手机配件，配色更生活化；相较手腕设备减少额外佩戴负担。厚度、磁吸稳定性、与无线充电及手机壳的关系仍需实售版本和实机才能判断。",
+      "risks": "首要风险是把发布、候补和正式开售混为一谈，其次是电话捕获能力与具体机型、网络和软件版本的限制。厂商公布的功能、价格与续航可能变化，目前不宜据此计算确定的采购方案。",
+      "opportunity": "市场差异待观察的是Bee能否把电话记录与既有生活记忆服务连接起来。当前最有意义的比较维度是发布承诺、交付状态和最终可用功能之间的差距，而不是提前给出购买结论。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "卡片录音是已有竞品的方向；本款尚未确认开售，不能用公布状态代表市场表现。"
+    },
+    "architecture": [
+      {
+        "name": "电话与现场输入",
+        "detail": "官方公布处理双方电话和面谈；为概念功能图，非拆机或交付验证。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机状态",
+        "detail": "开始/停止按钮、LED与部分端侧处理，内部器件不明。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机关联",
+        "detail": "磁吸手机并通过Bee应用管理，具体拾音和传输路径未完整披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI记忆",
+        "detail": "公布的转写、摘要和待办功能，实际开放范围待开售核实。",
+        "evidence": "official"
+      },
+      {
+        "name": "查询与行动",
+        "detail": "由应用承接搜索和建议使用，是根据用途推导的工作流。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bee · Eclipse 官方产品介绍",
+        "url": "https://bee.computer/products/eclipse",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，原文为will be available；未确认预订或结算。"
+      },
+      {
+        "title": "Bee · 官方首页销售状态",
+        "url": "https://bee.computer/",
+        "kind": "official-spec",
+        "supports": [
+          "status"
+        ],
+        "note": "已打开，Eclipse标明Coming Soon；因此归needs_check而非在售或预订。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "omi-ai-pendant",
+    "name": "Omi AI Pendant",
+    "brand": "Omi",
+    "category": "recording",
+    "tagline": "以持续采集与可查询记忆为核心的吊坠",
+    "officialUrl": "https://www.omi.me/pages/product",
+    "status": "on_sale",
+    "statusEvidence": "官方产品页明确In stock、US$169及1–4个工作日发货，并提供购买链接；本次对应当前Omi Pendant，不沿用旧开发版US$89报价。",
+    "regions": [
+      "国际官网购买；实际配送国家以结算为准"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实大陆官方渠道、应用商店分发、云服务可用性与跨境保修。官网可访问不代表完整购买和使用链路已确认。"
+    },
+    "price": {
+      "text": "US$169（官网促销）",
+      "note": "核查时划线价US$229；免费计划含手机端转写及有限云额度，Pro另计。仅记录当前官网，不沿用历史开发版价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "持续语音采集、转写、总结与任务提取，并通过问答检索自己的过往记录。",
+      "dependency": "需配对应用；免费与Pro的云额度、提问量和保存功能不同。官网披露手机端转写不代表所有功能都在吊坠本机完成。"
+    },
+    "highlights": [
+      "当前官网明确有货",
+      "两麦克风、蓝牙与Wi-Fi",
+      "官方标称10–14小时电池",
+      "可查询记忆、摘要与行动项"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户想在日后查回谈话细节，而不是预先判断哪些值得记。持续采集降低启动负担，也增加无用内容，关键是检索能否正确找回事实，并让用户快速确认答案来源。",
+      "userProfile": "画像推断：会议多、经常边走边聊并愿意佩戴吊坠的人可能匹配。对敏感工作、共享空间或低频记录用户，持续采集未必是优势；不应把记忆辅助描述成健康问题的治疗方案。",
+      "competition": "案头判断：与Bee、NotePin、手机备忘和会议软件竞争，差异在持续记录与查询体验。没有访谈、销量或留存资料，官网用户数与评价不能直接用来证明全天佩戴的广泛接受度。",
+      "supplyChain": "官方披露两麦克风、无线连接与外形尺寸，但整机代工厂、电池和音频芯片供应商本次不明。推断吊坠佩戴的摩擦噪声、充电触点和小电池寿命会影响可用性，不能据尺寸推算成本。",
+      "technology": "官网区分手机端转写与云端额度，并提供摘要、任务和记忆问答。设备、手机与服务端各承担多少推理未完全公开；问答能引用记录不意味着不会错误归因、漏掉上下文或生成错误结论。",
+      "aesthetics": "图示观察：小型吊坠可使用链条或腕带，试图接近日常饰品。饰品感与可见录音状态之间存在张力；不同衣物、走动姿态和收音距离的表现仍需测试，不能由产品照片得出舒适结论。",
+      "risks": "持续采集会扩大旁人知情、个人信息积累与删除管理的负担；忘记暂停可能比忘记录音更敏感。还需区分免费与付费可用范围，验证数据导出与长期服务承诺，避免把检索答案直接当事实。",
+      "opportunity": "市场差异是以长期可查询记忆组织记录，而非单次会议文件。尚待验证的购买理由包括回查成功率、引用可复核性、持续佩戴习惯和订阅接受度；本目录不据此推断市场规模或提出新产品。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "持续个人记忆仍在验证习惯和社交接受度，已有直接竞争者；不等于冷门无竞争。"
+    },
+    "architecture": [
+      {
+        "name": "持续声音输入",
+        "detail": "两麦克风采集；官网描述配对佩戴时持续记录，功能图非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "保存与连接",
+        "detail": "支持离线记录后同步，蓝牙/Wi-Fi连接配套应用。",
+        "evidence": "official"
+      },
+      {
+        "name": "转写层",
+        "detail": "手机端转写与云额度并存；具体分配依计划与版本。",
+        "evidence": "official"
+      },
+      {
+        "name": "记忆与生成",
+        "detail": "摘要、任务提取和Ask Omi检索过往记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用反馈",
+        "detail": "用户查看、查询、删除内容并决定如何采用任务建议。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Omi · 当前Pendant官方商品页",
+        "url": "https://www.omi.me/pages/product",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开，In stock、US$169、1–4工作日发货；不采用旧开发版规格。"
+      },
+      {
+        "title": "Omi · 官方首页与计划说明",
+        "url": "https://www.omi.me/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "price"
+        ],
+        "note": "已打开，免费与Pro区别可见；市场用户规模宣传未用于需求或销量结论。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "timekettle-w4-pro",
+    "name": "Timekettle W4 Pro",
+    "brand": "Timekettle / 时空壶",
+    "category": "audio",
+    "tagline": "面向电话、远程会议与面谈的翻译耳机",
+    "officialUrl": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+    "status": "on_sale",
+    "statusEvidence": "2026国际官方商品页有价格、颜色选择、支付与预计配送说明；中国官网W4 Pro页提供指向京东的立即购买入口。确认官方列售，未实际提交订单。",
+    "regions": [
+      "中国大陆",
+      "美国",
+      "日本",
+      "英国",
+      "欧洲及其他官网支持配送地区"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已打开时空壶中文官网W4 Pro页面，存在立即购买并指向京东。中国配置、App及语言包应以该入口最终SKU为准，不混用国际促销价。"
+    },
+    "price": {
+      "text": "国际站 US$404.10（核查时促销）",
+      "note": "划线价US$449；不是中国售价。国际页面与中文版本需分开确认，税费、优惠及服务方案以当地结算为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "语音识别、语义分段、翻译与语音输出，并支持会后AI纪要。",
+      "dependency": "需要Timekettle手机App；在线与下载离线包能力不同，电话和会议兼容范围依系统及软件。完整AI功能不等于耳机独立运行。"
+    },
+    "highlights": [
+      "开放式耳机形态",
+      "面对面、电话和媒体翻译",
+      "可保存文本与导出AI纪要",
+      "中国官网有正式购买入口"
+    ],
+    "analysis": {
+      "demand": "需求假设：跨语言商务沟通需要少停顿、少传递手机，并能会后回查。是否值得购买取决于真实语言组合、环境噪声和对方接受度，而不是支持语言总数或宣传中的最高准确率。",
+      "userProfile": "画像推断：经常接待海外客户、跨境协作或频繁打外语电话的人更匹配。偶发旅游用户可能用手机即可；复杂谈判仍需要能判断原意的人，不能把翻译耳机视为专业口译的无条件替代。",
+      "competition": "案头判断：与手机翻译、普通耳机系统翻译、同品牌W4 Plus及人工口译竞争。用途较专业不代表竞争弱；本次没有销量、用户访谈或语种覆盖成本研究，不能据标价推断支付意愿。",
+      "supplyChain": "官方披露多麦克风与开放式耳机结构，但整机代工、芯片型号和声学供应商不明。推断硬件难点是佩戴与拾音，服务侧难点是多语言质量维护；仅依据总部所在地不能确认生产工厂。",
+      "technology": "官方提供电话、媒体翻译与AI纪要，并说明手机App依赖。页面不同段落的语言和离线包数量存在差异，因此本目录不合并成一个精确总数；在线识别、翻译和纪要也应分开评估。",
+      "aesthetics": "图示观察：开放式挂耳轮廓表达商务沟通工具属性，长时佩戴与不遮挡环境音有明确使用逻辑。审美偏功能导向；双耳分享、眼镜搭配及耳廓贴合仍需试戴，不能据图判断舒适度。",
+      "risks": "翻译延迟、专有名词、口音和多人打断可能影响沟通结果；电话兼容也受平台限制。敏感谈话需确认处理路径，重要金额、日期和承诺应复述核对，不能照搬厂商准确率作为现场保障。",
+      "opportunity": "市场差异在于把多种沟通入口与会后纪要放入同一套耳机流程。尚待验证的购买理由是特定语对与常用通话平台上是否稳定省事，以及每次准备和配对的成本是否低于手机翻译。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "聚焦跨语言沟通任务，但手机、系统翻译和其他耳机均构成替代；为非量化案头分类。"
+    },
+    "architecture": [
+      {
+        "name": "语音采集",
+        "detail": "耳机麦克风采集声音；以下是功能架构而非真实拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机与场景",
+        "detail": "Timekettle App选择面谈、电话或媒体等工作模式。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别与翻译",
+        "detail": "在线语音识别和翻译，部分语对提供下载离线包。",
+        "evidence": "official"
+      },
+      {
+        "name": "同步输出",
+        "detail": "耳机声音与手机文本承接翻译，表现受网络和语对影响。",
+        "evidence": "official"
+      },
+      {
+        "name": "会后整理",
+        "detail": "保存文本、生成和导出AI纪要，用户复核关键信息。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Timekettle · W4 Pro 2026国际商品页",
+        "url": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "regions",
+          "architecture"
+        ],
+        "note": "已打开，价格与配送可见；语言数量在页面不同部分不一致，未拼成确定指标。"
+      },
+      {
+        "title": "时空壶中国官网 · W4 PRO",
+        "url": "https://cn.timekettle.co/pages/w4-pro-ai-interpreter-earbuds",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "china",
+          "technology"
+        ],
+        "note": "已打开，立即购买指向京东；没有把国际售价当国内售价。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "timekettle-w4-plus",
+    "name": "Timekettle W4 Plus",
+    "brand": "Timekettle / 时空壶",
+    "category": "audio",
+    "tagline": "把拾音与灵活收费方案放进日常翻译耳机",
+    "officialUrl": "https://www.timekettle.co/products/w4-plus-ai-interpreter-earbuds",
+    "status": "on_sale",
+    "statusEvidence": "官方国际商品页提供一次购买和订阅版本的价格与选择；中文官网W4 Plus页面有立即购买并链接京东。不是把旧W4的商品页视为Plus已开售。",
+    "regions": [
+      "中国大陆",
+      "美国",
+      "日本",
+      "英国",
+      "欧洲及其他官网支持配送地区"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "中文官网存在W4 Plus正式购买入口，指向京东；国际站两个收费版本是否均在大陆提供，需按国内SKU核实。"
+    },
+    "price": {
+      "text": "国际站 US$299 起；一次购买版 US$348.68",
+      "note": "核查时促销价格：US$299为订阅版硬件，US$348.68为一次购买版。两者功能付费条件不同，不将较低价视为全部功能永久价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "骨声纹相关拾音与语音翻译，支持术语、上下文和会议摘要等AI工具。",
+      "dependency": "需Timekettle App；在线和离线语对范围不同。订阅版的电话、媒体与高级AI试用后需付费，一次购买版按官网另有授权条件。"
+    },
+    "highlights": [
+      "官方披露骨声纹与混合拾音",
+      "面谈、旁听和电话/媒体翻译",
+      "一次购买与订阅两种方案",
+      "中国官方W4 Plus购买链接可核验"
+    ],
+    "analysis": {
+      "demand": "需求假设：日常跨语言交流的障碍既有听不懂，也有嘈杂时采集不到自己的声音。产品要同时解决输入和理解，价值需用用户常遇到的环境测试，而不是只比较模型功能清单。",
+      "userProfile": "画像推断：跨境生活、学习或商务接待频率较高的人更可能形成使用习惯。轻度用户与长期用户对硬件首付、订阅和永久版本的接受方式不同，不能将两个价位混为同一人群。",
+      "competition": "案头判断：同品牌W4 Pro、手机翻译和系统级耳机功能都是替代。骨声纹宣传是技术差异线索，不是独立效果证明；未做销量、访谈或价格实验，因此不判定哪个版本更受欢迎。",
+      "supplyChain": "中文官网披露骨声纹传感器与双麦混合拾音；实际器件厂商、整机工厂与校准流程未公开。推断接触位置、耳廓差异和噪声算法配合影响效果，不能只按传感器数量估算竞争壁垒。",
+      "technology": "语音输入先被识别，再翻译并以声音或文字输出，会议摘要另属生成式处理。具体算法和芯片未完整披露；骨声纹拾音不是骨传导扬声器，也不意味着所有环境中的对方声音都能隔离。",
+      "aesthetics": "图示观察：小型耳塞与硅胶耳翼更接近日常耳机，弱化独立翻译器的器材感。戴得像普通耳机不代表对话双方理解其用途；共享耳机、卫生和耳廓贴合都影响真实接受度。",
+      "risks": "两种收费版本容易造成总成本误解，试用结束后的可用功能需核对。翻译中的专有名词与上下文可能失真，媒体和电话支持还受App及平台影响；重要信息应通过原文和复述交叉确认。",
+      "opportunity": "市场差异是拾音方式与收费版本共同决定使用门槛。尚待验证的购买理由包括实际嘈杂环境成功率、软件准备成本，以及用户是否愿意为电话和高级AI功能持续付费，而不是只看起价。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "跨语言高频沟通是专业用途，竞争含手机与耳机生态；此分类不表示市场规模或低竞争。"
+    },
+    "architecture": [
+      {
+        "name": "混合拾音",
+        "detail": "骨声纹传感器结合麦克风；概念功能架构，非拆机清单。",
+        "evidence": "official"
+      },
+      {
+        "name": "App控制",
+        "detail": "Timekettle App组织双人、旁听、电话和媒体模式。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音理解",
+        "detail": "识别、翻译、术语和上下文功能，具体端云路由未完整公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "双语反馈",
+        "detail": "耳机播放与手机字幕，部分离线语对需预先下载。",
+        "evidence": "official"
+      },
+      {
+        "name": "纪要与授权",
+        "detail": "AI摘要等能力受所购版本和订阅授权影响。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Timekettle · W4 Plus国际商店",
+        "url": "https://www.timekettle.co/products/w4-plus-ai-interpreter-earbuds",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "dependency",
+          "technology"
+        ],
+        "note": "已打开，明确一次购买与订阅版本的价格和功能条件；促销非永久报价。"
+      },
+      {
+        "title": "时空壶中国官网 · W4 Plus",
+        "url": "https://cn.timekettle.co/pages/w4-plus-al-interpreter-earbuds",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "china",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，京东购买入口及骨声纹/双麦混合拾音描述可见。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "timekettle-x1-meeting",
+    "name": "Timekettle X1 Meeting",
+    "brand": "Timekettle / 时空壶",
+    "category": "audio",
+    "tagline": "从个人耳机扩展到多人多语会议终端",
+    "officialUrl": "https://www.timekettle.co/products/x1-meeting-interpreter-hub",
+    "status": "on_sale",
+    "statusEvidence": "国际官网X1 Meeting独立商品页有US$806.55促销价与配送说明；中文官网同名页面提供京东立即购买入口。与早期X1版本分开，不沿用旧版价格和人数上限。",
+    "regions": [
+      "中国大陆",
+      "美国",
+      "日本",
+      "英国",
+      "欧洲及其他官网支持配送地区"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已打开中国官网X1 Meeting页面并确认京东购买入口；具体会议模式、终端数量和语言上限应按国内最终规格确认。"
+    },
+    "price": {
+      "text": "国际站 US$806.55（核查时促销）",
+      "note": "划线价US$849，非中国售价。多终端部署、配件和会场规模会改变采购总成本，不能将单台价格视为整场会议费用。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "语音识别、多人多语翻译与智能会议纪要，集成在专用终端及耳机工作流中。",
+      "dependency": "官方描述为独立终端、无需手机App启动核心终端功能；在线服务、网络、多个终端或参与端仍影响会议模式，并非所有模式完全离线。"
+    },
+    "highlights": [
+      "独立会议翻译终端",
+      "多语言、多参与端会议场景",
+      "翻译与会议纪要结合",
+      "官方页面人数口径不一，未硬填单一上限"
+    ],
+    "analysis": {
+      "demand": "需求假设：跨国小组讨论需要让多名参与者持续听懂，而不是轮流传手机。组织方真正购买的是会议顺畅程度，终端部署、加入方式和会后记录的便利度可能与翻译质量同样重要。",
+      "userProfile": "画像推断：有重复跨语言会议、培训或接待需求的组织，比偶发旅行者更适合评估独立终端。会议主持人、设备管理员与参与者是不同角色，不能仅凭个人耳机体验推断团体使用体验。",
+      "competition": "案头判断：与人工同传、会议平台字幕、便携翻译器和多人耳机方案竞争，属于专业场景。没有采购访谈、部署数量或服务成本数据，无法认定硬件方案普遍比软件或人工更经济。",
+      "supplyChain": "官方披露独立终端和配套耳机，但工厂、主芯片、屏幕供应商与多机质检流程未公开。推断除了声学硬件，还需考虑终端充电、网络连接和批量维护；不能由品牌所在地推断生产位置。",
+      "technology": "官方页面支持独立终端与多参与端，但不同段落出现不同人数口径，可能对应不同模式或版本。本目录保留多语会议能力而不拼接上限，要求采购前按具体模式核实网络和设备条件。",
+      "aesthetics": "图示观察：带屏幕的口袋主机与耳机盒式组织更像会议工具，状态可见性强于纯耳机。它更适合桌面或组织管理，但多设备摆放、携带和消毒流程的便利度需要在真实会场检验。",
+      "risks": "多人重叠发言、网络波动和专业术语可能共同降低可理解性；人数上限与实际体验也不是一回事。公开页面口径差异应在采购前确认，重要合同和政策内容不能只凭机器翻译定稿。",
+      "opportunity": "市场差异在于会议组织和多参与端管理，而不只是个人翻译。尚待验证的购买理由是重复部署是否方便、参与者是否无需培训便能加入，以及组织方是否能稳定取得可复核的双语记录。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "多人会议终端面向更明确的组织任务，但仍与软件字幕及人工服务竞争；为案头定位。"
+    },
+    "architecture": [
+      {
+        "name": "参与端采集",
+        "detail": "终端及配套耳机接收发言；此为概念功能图，不代表内部硬件布局。",
+        "evidence": "official"
+      },
+      {
+        "name": "会议控制",
+        "detail": "独立主机组织会议与参与端，核心终端可不依赖手机App。",
+        "evidence": "official"
+      },
+      {
+        "name": "网络与翻译",
+        "detail": "在线识别翻译与部分离线语对；不同模式条件需逐一核实。",
+        "evidence": "official"
+      },
+      {
+        "name": "多语分发",
+        "detail": "按参与语言分发语音或文本，是依据功能抽象的逻辑层。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "记录输出",
+        "detail": "生成会议转写、译文与AI纪要供组织方复核。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Timekettle · X1 Meeting国际商品页",
+        "url": "https://www.timekettle.co/products/x1-meeting-interpreter-hub",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开，价格和配送可见；不同人数表述未合成为单一上限，厂商准确率未经独立验证。"
+      },
+      {
+        "title": "时空壶中国官网 · X1 Meeting",
+        "url": "https://cn.timekettle.co/pages/x1-meeting-interpreter-hub",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "china",
+          "technology"
+        ],
+        "note": "已打开，明确同名产品和京东购买入口，未把旧X1规格代入。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]

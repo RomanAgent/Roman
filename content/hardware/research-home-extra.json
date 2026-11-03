@@ -1,0 +1,202 @@
+[
+  {
+    "id": "creality-k2-plus-combo",
+    "name": "Creality K2 Plus Combo",
+    "brand": "Creality",
+    "category": "maker",
+    "tagline": "用双 AI 相机辅助监控和校准的桌面多色 3D 打印平台",
+    "officialUrl": "https://store.creality.com/products/creality-k2-plus-combo-3d-printer",
+    "status": "on_sale",
+    "statusEvidence": "Creality 美国官方商店显示 K2 Plus + CFS×1 套装 US$1,199、Add To Cart 与 Buy Now。页面预计发货日期仍显示过去时间，交付时间须在结账重新确认。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实美国官方套餐，未核实中国大陆同套餐的官方现货、人民币报价和区域固件；品牌来自中国不等于该海外 SKU 可直接在国内购买。"
+    },
+    "price": {
+      "text": "US$1,199（K2 Plus + CFS×1）",
+      "note": "美国官方套餐价格快照；单机、四套 CFS 和激光套装价格不同，勿把扩展宣传中的16色配置视为基础套餐全部包含。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方列出用于监控及校准的两类 AI 相机；识别打印异常和辅助校准属于机器视觉，并非自动完成产品设计。",
+      "dependency": "可通过局域网传输与控制；绑定 Creality Cloud 后提供远程操作等服务。具体 AI 检测与切片、固件版本之间的兼容性需按当前手册确认。"
+    },
+    "highlights": [
+      "AI 监控与校准相机",
+      "多材料系统 CFS 连接打印流程",
+      "局域网控制与可选云端管理"
+    ],
+    "analysis": {
+      "demand": "需求假设：长时间打印失败会浪费材料与机时，用户希望更早发现问题。应以同类模型的失败发现时延、误报和报废量验证 AI 价值，而不是把相机存在等同无人值守成功。",
+      "userProfile": "画像假设：创客、小型设计工作室、模型制作人及学校实验室。高频使用者更关注维护、重复性和材料兼容；偶尔打印玩具的用户未必能消化大机身和多材料系统的复杂度。",
+      "competition": "竞争判断：桌面 FDM 打印已有 Bambu Lab、Prusa 等生态与成熟设备，AI 监控是增强能力。新项目要同时面对机器精度、材料体系、切片软件和售后竞争，不能只围绕算法宣传。",
+      "supplyChain": "供应链推断：运动框架、导轨、电机、挤出热端、加热平台、温度传感器与相机共同构成系统。具体供应商、代工安排与 BOM 未披露；重复精度、耗材通路、热稳定和维修件是重点。",
+      "technology": "官方支持页明确列出监控及校准 AI 相机，并支持局域网控制。技术判断：视觉异常识别有材料颜色和光照边界，检测到问题后的停止与恢复更重要；不能把打印监控视为自动生成可制造设计。",
+      "aesthetics": "审美判断：封闭方箱与上置耗材模块更像工作设备，秩序感较强但体积显著。门体开启、换料路径、可见线缆和噪声影响工作台体验；工业设计应服务维修与清洁，不只遮住机械结构。",
+      "risks": "风险判断：高温、活动机构和不同材料释放物需要按厂商要求通风与操作，AI 相机不是安全认证。误报停机会影响长时打印；云端模型文件与摄像画面也有保密需求。",
+      "opportunity": "可验证机会：为打印农场或学校开发透明的异常复核和维护记录，先验证能否节省人工巡检。若用户痛点在切片、材料或售后，不应仅因 AI 检测热度而另造整机。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "桌面3D打印是成熟制造工具市场，AI监控增加可用性但并未消除强竞争；专业用途可进一步细分。"
+    },
+    "architecture": [
+      {
+        "name": "设计与切片",
+        "detail": "用户提供模型，经切片生成打印路径；AI监控不等于模型设计。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "视觉监测",
+        "detail": "官方列监控和校准AI相机。",
+        "evidence": "official"
+      },
+      {
+        "name": "运动与挤出",
+        "detail": "运动系统、热端及加热平台执行材料成型。",
+        "evidence": "official"
+      },
+      {
+        "name": "材料管理",
+        "detail": "基础Combo含一套CFS，更多色数需额外扩展。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与复核",
+        "detail": "局域网传输，绑定云服务后可远程操作；异常恢复仍需用户判断。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Creality K2 Plus Combo 美国官方商店",
+        "url": "https://store.creality.com/products/creality-k2-plus-combo-3d-printer",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已打开并核实套装、购物入口；旧产品URL跳转到此页，预计发货时间显示过期日期，需重查。"
+      },
+      {
+        "title": "Creality K2 Plus 官方支持及规格",
+        "url": "https://www.creality.com/uk/support/creality-k2-plus-cfs-combo",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开；明确AI监控/校准相机和LAN控制；云功能表述应按当前固件再核对。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "swarovski-ax-visio",
+    "name": "SWAROVSKI OPTIK AX Visio 10×32",
+    "brand": "SWAROVSKI OPTIK",
+    "category": "imaging",
+    "tagline": "将机内物种识别融入传统光学观察的 AI 双筒望远镜",
+    "officialUrl": "https://www.swarovskioptik.com/at/en/hunting/products/binoculars/ax-visio/ax-visio-binoculars/ax-visio",
+    "status": "on_sale",
+    "statusEvidence": "奥地利官方商店显示 €4,690、Add to Cart 与 2—3 个工作日配送说明；本条不是以2024年发布新闻推断现货。",
+    "regions": [
+      "奥地利"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未核实中国大陆授权经销商现货、官方报价与本地服务；官网有中文内容不等于支持中国大陆在线购买。"
+    },
+    "price": {
+      "text": "€4,690",
+      "note": "奥地利官方页价格快照；跨境税费、保修范围和运输不由本条推定。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "设备集成 NPU，帮助识别鸟类和其他野生动物，并结合摄像记录观察；传统光学观察不依赖启用智能功能。",
+      "dependency": "识别使用机内智能组件，App用于个性化及内容共享；具体离线物种包、更新和地区覆盖需按当前官方服务确认。"
+    },
+    "highlights": [
+      "NPU辅助野生动物识别",
+      "高性能双筒光学与数字影像结合",
+      "开放接口支持第三方扩展"
+    ],
+    "analysis": {
+      "demand": "需求假设：观察者在看到鸟之后，希望及时知道是什么而不反复拿手机或翻图鉴。应比较一次观察中断次数、识别正确率与学习效果，不能把按键识别等同培养了长期自然观察兴趣。",
+      "userProfile": "画像假设：愿意为光学质量和观察体验支付高价的观鸟爱好者、自然教育者与专业导览人员。入门亲子家庭可能更适合普通双筒加手机；高客单价会限制大众覆盖面。",
+      "competition": "竞争判断：高端光学具有品牌和制造门槛，但用户可用普通双筒、长焦相机与物种识别App组合替代。AI双筒属于专业细分，需求窄并不自动意味着低获客成本或高利润。",
+      "supplyChain": "官方介绍展示金属加工、表面处理、装配与校验过程，并披露机内NPU。具体芯片供应商和BOM未披露；分析认为光路精度、防水、重量平衡及光学与显示标定是主要制造门槛。",
+      "technology": "官方确认机内NPU用于物种识别，传统光学在不启用智能功能时仍可用。技术判断：遮挡、远距离、幼鸟羽色与地区相似物种容易造成不确定，应向用户展示置信与候选，而非只给唯一答案。",
+      "aesthetics": "审美判断：保留传统双筒握持语言，同时把数字模块整合进整体外壳；厂商注明设计由Marc Newson参与。观察设备需要兼顾戴手套操作、眼镜用户、长时悬挂与重心，外观独特不是全部价值。",
+      "risks": "风险判断：识别错误可能误导自然记录，电池与软件更新也引入传统光学没有的维护环节。影像和定位记录涉及使用者隐私；不能用于替代专家物种确认或作为野生动物安全接近的依据。",
+      "opportunity": "可验证机会：为自然教育与导览补充多语言解释、观察记录和课程内容，先利用开放接口试验。若要做更低价硬件，应验证能否保留光学体验，避免以廉价屏幕取代用户真正珍视的观察感受。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "高价光学观鸟属于专业爱好者场景，AI集成较少见，但有传统光学和手机识别替代，不等于商业竞争弱。"
+    },
+    "architecture": [
+      {
+        "name": "模拟光学",
+        "detail": "10×32双筒光学，智能功能关闭时仍可观察。",
+        "evidence": "official"
+      },
+      {
+        "name": "数字采集",
+        "detail": "集成相机记录观察对象与影像。",
+        "evidence": "official"
+      },
+      {
+        "name": "机内识别",
+        "detail": "NPU支持鸟类及野生动物识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "显示与交互",
+        "detail": "识别结果、按键与分享发现功能形成观察交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "App与扩展",
+        "detail": "Outdoor App及开放API提供传感器、图像、视频和显示访问。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AX Visio 奥地利官方商店",
+        "url": "https://www.swarovskioptik.com/at/en/hunting/products/binoculars/ax-visio/ax-visio-binoculars/ax-visio",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "aesthetics"
+        ],
+        "note": "已打开；列€4,690、购物及配送信息，产品说明注明工业设计参与者。"
+      },
+      {
+        "title": "SWAROVSKI OPTIK 官方制造与技术介绍",
+        "url": "https://www.swarovskioptik.com/int/en/hunting/stories/ax-visio-a-story-of-innovations",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "supplyChain"
+        ],
+        "note": "已打开；说明NPU、机内相机、光学独立使用，以及加工装配过程；不能据此推算成本。"
+      },
+      {
+        "title": "SWAROVSKI OPTIK 官方开发者站",
+        "url": "https://developers.swarovskioptik.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开；说明API可访问显示、传感器、相机图像与视频流。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]

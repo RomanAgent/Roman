@@ -1,0 +1,704 @@
+[
+  {
+    "id": "unitree-g1",
+    "name": "Unitree G1",
+    "brand": "Unitree 宇树",
+    "category": "robotics",
+    "tagline": "面向机器人探索的人形平台，标准版与 EDU 的开发权限要分开看。",
+    "officialUrl": "https://shop.unitree.com/products/unitree-g1",
+    "status": "preorder",
+    "statusEvidence": "官方商店有 Add to Cart，同时明确 G1 为 backordered，待恢复库存发货；归为接受延期订单，不能视为现货。",
+    "regions": [
+      "官方国际商店；目的地须确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌为中国企业，但本轮证据来自国际商店。国内版价格、开发权限、保修和交付批次需向宇树确认，不能把国际美元报价当国内到手价。"
+    },
+    "price": {
+      "text": "US$13,500 起",
+      "note": "国际商店 G1 标价，另有运费、税费；EDU 需联系销售。标准版不支持二次开发，不能套用 EDU 配置。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方描述模仿学习、强化学习驱动的运动能力及人形平台；可选灵巧手、关节数量和开发能力随配置变化。",
+      "dependency": "动作和任务能力受固件与版本约束。标准版商店明确不支持二次开发；不能由演示视频推定可自主完成通用家务。"
+    },
+    "highlights": [
+      "交互与任务接口",
+      "感知与计算",
+      "学习与运动控制"
+    ],
+    "analysis": {
+      "demand": "需求假设：研究机构与展示客户需要低于定制人形平台成本的实体载体。真正采购理由应是可重复的研究任务或演示交付，而不是“能做人类所有工作”；本轮没有项目利用率或采购规模证据。",
+      "userProfile": "画像推断：具备机械、电控和机器学习能力的高校实验室、机器人团队及展陈服务商；预算不仅包括机身，还要覆盖场地、维护和工程人员。普通家庭并不是已被验证的核心用户。",
+      "competition": "市场判断：人形机器人受到大量关注，不能称冷门蓝海。对手包括其他人形平台、传统机械臂和仿真工具；如果任务可以用固定工位自动化完成，人形外观不一定带来经济优势。",
+      "supplyChain": "公开资料披露关节电机、编码器、电池及多种配置。具体上游供应商和完整 BOM 未核实。供应链关键点推断为减速传动、关节一致性、装配校准、备件与售后，不提供未经证实的代工厂名单。",
+      "technology": "官方区分 G1 与 G1 EDU，介绍学习控制和多关节运动。分析上应把运动控制、感知、任务规划和端到端智能分开；能稳定行走不等于可靠执行开放场景操作任务。",
+      "aesthetics": "设计观察：人形比例与外露关节让技术能力易于展示，折叠能力有利运输。另一方面，家庭场景中的噪声、机械感和跌倒风险会影响接受度，外观吸引力不能代替交互可靠性。",
+      "risks": "关键风险是标准版开发权限、延期交付及人员接触环境中的可靠性。展示能力、选配能力和交付版本须逐项核对；潜在客户还应测重复任务成功率、维护工时和停机损失。",
+      "opportunity": "待验证购买理由更适合具体课程、控制算法研究或重复展演。市场研究下一步应访谈已有实验室的使用频次和备件消耗，而不是用社交媒体播放量推算真实付费需求。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "人形平台是关注度高、产品仍快速变化的竞争市场；专业采购有门槛，不等于竞争少。"
+    },
+    "architecture": [
+      {
+        "name": "交互与任务接口",
+        "detail": "标准版与 EDU 的开发权限不同；不能假设开放相同接口。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知与计算",
+        "detail": "公开规格含计算与传感选项，须按具体配置核对。",
+        "evidence": "official"
+      },
+      {
+        "name": "学习与运动控制",
+        "detail": "官方介绍模仿学习、强化学习及关节运动能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "执行与结构",
+        "detail": "关节、传动与可选手部结构组成实体运动平台。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电与维护",
+        "detail": "电池、散热和维护体系共同限制持续工作；可靠性需实测。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Unitree G1 官方商店",
+        "url": "https://shop.unitree.com/products/unitree-g1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "可加购但标记 backordered；标准版不支持二次开发。"
+      },
+      {
+        "title": "Unitree G1 规格与版本对比",
+        "url": "https://www.unitree.com/g1/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "design"
+        ],
+        "note": "区分 G1 与 EDU 的关节、计算及配置。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "unitree-go2-pro",
+    "name": "Unitree Go2 Pro",
+    "brand": "Unitree 宇树",
+    "category": "robotics",
+    "tagline": "四足运动、环境感知与交互，先核清 Pro 和 EDU 的能力边界。",
+    "officialUrl": "https://shop.unitree.com/products/unitree-go2",
+    "status": "preorder",
+    "statusEvidence": "官方商店所选 Go2 Pro（without controller）可加购但标记 backordered，具体发货待库存恢复。",
+    "regions": [
+      "官方国际商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查国际商店而非国内结算。中国销售配置、控制器套装、保修和开发支持需以国内官方渠道答复为准。"
+    },
+    "price": {
+      "text": "具体配置以商店结算为准",
+      "note": "产品页“US$1,600 起”为系列起价，不等于本条 Pro 配置报价；运费、税费及控制器可能另计。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方介绍 4D LiDAR 感知、学习驱动运动和大模型交互。实际可用功能取决于版本、地区和软件，不能将 EDU 开发能力默认赋给 Pro。",
+      "dependency": "联网交互与本体运动应分别验证；云端服务、App、语言与固件支持可能改变可用体验。"
+    },
+    "highlights": [
+      "语音与 App",
+      "空间感知",
+      "运动控制"
+    ],
+    "analysis": {
+      "demand": "需求假设：四足形态用于运动教学、展示及可移动感知，比固定桌面设备更容易展示环境适应性。若只是室内移动拍摄，低成本轮式平台可能已足够，需要验证四足跨障能力是否真的有价值。",
+      "userProfile": "画像推断：机器人爱好者、高校课程组织者、内容创作者以及购买演示设备的机构。具备工程开发需求的客户应先确认 EDU，而非仅按最低机身价决定购买。",
+      "competition": "市场判断：四足机器人已经有多个成熟平台和明显替代方案，专业应用的难点在可靠交付。消费娱乐与工业巡检是不同市场，不能把体验型机器狗的订单理解为工业需求。",
+      "supplyChain": "官方披露 LiDAR 与运动机构，未提供完整供应商表。分析关键点为关节驱动、传感器安装精度、电池、脚端耗材和售后；零件寿命与跨地区维修会显著影响总拥有成本。",
+      "technology": "技术应拆成感知、状态估计、学习控制、路径行为及语音服务。官方展示的动作是特定条件下的能力；地面摩擦、载荷和光照变化后的稳定性需要实际试验，不能直接外推。",
+      "aesthetics": "设计观察：低重心四足结构让运动能力可被直观看到，外露关节表达工具属性。相对宠物化的外观虽有趣，但噪声和机械运动可能使儿童、动物或公共空间旁观者不适。",
+      "risks": "主要风险是延期交付、配置误购及开放场景可靠性。未经证实的负载任务、楼梯和人员密集环境不应按演示承诺规划；采购需明确维修、运输和软件支持周期。",
+      "opportunity": "待验证差异化购买理由是“必须四足才能完成”的具体任务。后续应比较轮式平台与四足设备的任务成功率、人工介入次数和维护成本，本轮未进行这类现场验证。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "四足平台的用户较专业，但已有竞争与轮式替代；窄场景不等于容易盈利。"
+    },
+    "architecture": [
+      {
+        "name": "语音与 App",
+        "detail": "官方介绍大模型交互和 App 控制，功能需按版本确认。",
+        "evidence": "official"
+      },
+      {
+        "name": "空间感知",
+        "detail": "4D LiDAR 与其他传感部件支持环境感知。",
+        "evidence": "official"
+      },
+      {
+        "name": "运动控制",
+        "detail": "官方展示学习驱动的步态和动作能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "关节与腿部",
+        "detail": "关节执行器把控制指令转为四足运动。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源与运维",
+        "detail": "电池、热管理和脚端磨损限制持续任务，需要实测评估。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Unitree Go2 官方商店",
+        "url": "https://shop.unitree.com/products/unitree-go2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "当前所选 Pro 配置可加购但延期等待库存。"
+      },
+      {
+        "title": "Unitree Go2 官方介绍",
+        "url": "https://www.unitree.com/go2/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "design",
+          "price"
+        ],
+        "note": "系列起价与各版本功能不等同于当前结算配置。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "reachy-mini-wireless",
+    "name": "Reachy Mini Wireless",
+    "brand": "Pollen Robotics / Hugging Face",
+    "category": "robotics",
+    "tagline": "可自行装配、可编程的桌面机器人，强调开发与交互实验。",
+    "officialUrl": "https://store.pollen-robotics.com/collections/reachy-mini",
+    "status": "preorder",
+    "statusEvidence": "官方商店 Wireless 有 Add to Cart。官方产品页说明购买后 90 天内发货、可能更早；这是有交期的套件，不是已验证现货。",
+    "regions": [
+      "欧盟 / 英国",
+      "美国 / 加拿大",
+      "其他地区经指定 Seeed 渠道"
+    ],
+    "china": {
+      "availability": "import",
+      "note": "官方将欧盟/英国和美国/加拿大以外的订单导向 Seeed Studio。中国大陆具体送达、含税价与保修需在指定经销渠道确认。"
+    },
+    "price": {
+      "text": "US$499 / 欧洲店 €435",
+      "note": "同一 Wireless 版本的区域标价；不含运费及进口税费。Lite 是另一个需外接电脑的版本，不能混用其报价或参数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方提供对话能力与可编程应用生态，Wireless 内置 Raspberry Pi CM4；相机、麦克风和运动机构让模型输出成为实体交互。",
+      "dependency": "模型与应用不同，联网、API 费用和隐私行为不同。开放硬件和 SDK 不意味着所有 AI 能力都能离线或免费运行。"
+    },
+    "highlights": [
+      "表情与外壳",
+      "视觉与音频",
+      "本机计算"
+    ],
+    "analysis": {
+      "demand": "需求假设：开发者需要低风险的实体交互实验载体，把语音、视觉与运动放在同一平台验证。与一体化陪伴产品相比，它更看重可修改性；装配和调试本身也可能成为普通用户的阻力。",
+      "userProfile": "画像推断：AI 开发者、交互研究人员、创客和有技术辅导资源的课程。购买者愿意为开放接口及社区应用付费，但不同用户对可编程性与开箱即用有相反优先级。",
+      "competition": "市场判断：与封闭陪伴机器人、开发板加舵机套件和纯软件角色竞争。其优势假设是将机械集成与应用生态一起提供，而不是参数堆叠；没有证据说明社区规模等于持续付费用户。",
+      "supplyChain": "官方资料明确 CM4、DIY 装配及指定经销渠道，Seeed 文档说明制造协作。供应链分析要关注舵机一致性、结构公差、麦克风装配和包装教程；不能据此推断每个部件的真实采购成本。",
+      "technology": "技术分为本机控制、音视频输入、应用编排和可选模型服务。头部运动与天线增加表达空间，但情绪表现不等于真实情感或通用理解；响应延迟与动作同步应单独测试。",
+      "aesthetics": "设计观察：白色外壳、简化脸部与可动天线减少工业机器人的压迫感，结构装配图也利于理解。桌面占地、动作噪声及停机姿态仍会影响它作为长期日用品的接受度。",
+      "risks": "风险是装配成本、交期和应用生态依赖。社区应用的质量、权限及模型费用各异，不能把平台支持的所有功能当作购买即获；公共空间使用相机与麦克风也需明确提示。",
+      "opportunity": "值得验证的购买理由是减少从模型到实体互动的集成时间。可用同一个交互任务比较自制套件与 Reachy 的首次运行耗时、每周使用频率和开发维护成本，而非只看展示视频。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "开放桌面机器人面向开发与研究的窄场景；技术社区并不等于低竞争的大众消费蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "表情与外壳",
+        "detail": "官方装配资料列出天线、头部、机身等结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉与音频",
+        "detail": "相机、四麦克风与扬声器为交互提供输入输出。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机计算",
+        "detail": "Wireless 内置 Raspberry Pi CM4、Wi-Fi 与电池。",
+        "evidence": "official"
+      },
+      {
+        "name": "运动机构",
+        "detail": "头颈、电机和底座参与实体动作，参见官方装配图。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用与模型",
+        "detail": "应用生态可连接模型；每个应用的云依赖需要分别核查。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Reachy Mini 官方商店",
+        "url": "https://store.pollen-robotics.com/collections/reachy-mini",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "Wireless 有加购入口，区域报价与税费另行确认。"
+      },
+      {
+        "title": "Reachy Mini 官方能力与装配介绍",
+        "url": "https://pollen-robotics.com/reachy-mini/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "design",
+          "status"
+        ],
+        "note": "区分 Wireless 与 Lite；说明最长90天交付及提供装配拆分示意。"
+      },
+      {
+        "title": "Seeed Studio Reachy Mini 文档",
+        "url": "https://wiki.seeedstudio.com/reachymini_getting_started/",
+        "kind": "official-spec",
+        "supports": [
+          "supplyChain",
+          "technology"
+        ],
+        "note": "说明 Pollen/Hugging Face 与 Seeed 的开发制造协作；旧价格不用于当前报价。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "visual": {
+      "url": "https://pollen-robotics.com/assets/build/reachy-mini-plate.webp",
+      "caption": "Reachy Mini 官方装配部件示意（版权归原权利人）",
+      "sourceUrl": "https://pollen-robotics.com/reachy-mini/"
+    }
+  },
+  {
+    "id": "jetson-orin-nano-super",
+    "name": "Jetson Orin Nano Super Developer Kit",
+    "brand": "NVIDIA",
+    "category": "maker",
+    "tagline": "把生成式与视觉 AI 放到边缘设备的开发套件，不是量产整机。",
+    "officialUrl": "https://developer.nvidia.com/embedded/faq",
+    "status": "on_sale",
+    "statusEvidence": "官方 FAQ 说明可由 NVIDIA 及分销商购买，并列出现行建议价与地区 SKU；未逐一确认分销商实时库存。",
+    "regions": [
+      "全球授权分销",
+      "中国大陆有地区 SKU"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "官方 FAQ 地区 SKU 列表包含 CN，并提供授权分销购买指引；具体库存与含税价以授权商结算为准。开发套件与生产模块不可混用。"
+    },
+    "price": {
+      "text": "官方 FAQ 参考 US$399",
+      "note": "较早产品宣传页仍出现 US$249，属于官方页面价格不一致。本目录保留冲突，以当前区域销售结算报价为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "支持边缘视觉、语言及多模态模型开发。官方说明 Super 性能提升可由软件优化解锁，不能将宣传算力直接换算成所有模型的响应速度。",
+      "dependency": "可运行本地模型，但需要开发者部署软件、模型及外设。下载、更新或选择云模型时仍需联网；不会自动附带完整终端产品。"
+    },
+    "highlights": [
+      "模型与软件",
+      "计算模块",
+      "载板与接口"
+    ],
+    "analysis": {
+      "demand": "需求假设：团队在原型阶段需要较低门槛验证本地视觉、语言及机器人应用，降低搭建软硬件链路的时间。实际需求取决于模型兼容、延迟和功耗约束，而不是单看 TOPS。",
+      "userProfile": "画像推断：嵌入式开发者、研究人员和机器视觉原型团队。使用者有 Linux、模型部署和传感器集成能力；想直接获得聊天助手的普通消费者通常还需要更完整的软件产品。",
+      "competition": "市场判断：边缘 AI 开发板面对不同架构加速器、迷你 PC 与云计算的替代。CUDA 和软件生态是重要比较维度，但高生态粘性也意味着迁移成本，不能把开发者熟悉度当作终端需求。",
+      "supplyChain": "官方区分开发套件与生产模块，并明确套件不是生产用途。量产需重新规划模块、载板、散热、供电、认证与生命周期；开发板零售价不是可直接复用的整机 BOM。",
+      "technology": "官方披露最高67 TOPS、8GB内存及软件升级路径。分析应关注实际模型的内存占用、算子支持和端到端吞吐；稀疏INT8峰值不代表FP16或大语言模型真实性能。",
+      "aesthetics": "设计观察：裸板和散热结构偏向工程访问和接口便利，适合开发工作台，不是消费级外观完成品。面向家庭终端时仍需要外壳、状态反馈、噪声控制与电气保护设计。",
+      "risks": "风险包括内存容量约束、散热功耗和开发套件供货策略。官方 FAQ 不保证开发套件长期供应；不能用短期买到开发板的事实推导未来产品的大规模交付保障。",
+      "opportunity": "值得验证的是在目标任务上本地部署能否改善隐私、离线能力和延迟。需要对比端侧模型与云方案的准确率、每小时能耗和工程维护成本，本轮未给未经测试的跑分或回本预测。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "开发与边缘计算属于专业工具市场，竞争基础是生态和部署成本；不是面向大众的新奇硬件蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "模型与软件",
+        "detail": "JetPack 和模型部署工具链承载应用。",
+        "evidence": "official"
+      },
+      {
+        "name": "计算模块",
+        "detail": "Orin Nano 的 GPU、CPU 和内存承担推理与控制。",
+        "evidence": "official"
+      },
+      {
+        "name": "载板与接口",
+        "detail": "开发套件带参考载板，可连接存储和外设。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电与散热",
+        "detail": "更高功耗模式需要相应电源及热设计。",
+        "evidence": "official"
+      },
+      {
+        "name": "产品化外壳",
+        "detail": "消费终端需要额外结构、可靠性与认证设计。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NVIDIA Jetson FAQ 与购买说明",
+        "url": "https://developer.nvidia.com/embedded/faq",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "china"
+        ],
+        "note": "公开现行建议价、CN地区SKU及开发套件与生产模块边界。"
+      },
+      {
+        "title": "Jetson Orin Nano Super 开发资料",
+        "url": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "说明边缘模型开发用途与软件栈。"
+      },
+      {
+        "title": "NVIDIA 原产品页",
+        "url": "https://www.nvidia.com/en-in/autonomous-machines/embedded-systems/jetson-orin/nano-super-developer-kit/",
+        "kind": "official-spec",
+        "supports": [
+          "price"
+        ],
+        "note": "较早宣传页价格与当前FAQ冲突，保留不确定性。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "raspberry-pi-ai-hat-plus-2",
+    "name": "Raspberry Pi AI HAT+ 2",
+    "brand": "Raspberry Pi / Hailo",
+    "category": "maker",
+    "tagline": "为 Raspberry Pi 5 增加本地生成式和视觉推理能力的扩展板。",
+    "officialUrl": "https://www.raspberrypi.com/products/ai-hat-plus-2/",
+    "status": "needs_check",
+    "statusEvidence": "官方产品页有地区经销商购买组件，但该组件需要 JavaScript，本轮未核实具体地区经销商的可下单库存。先列观察，不计入可购产品。",
+    "regions": [
+      "按授权经销商地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方提供地区经销商选择，尚未核实中国大陆具体库存和保修。本条仅确认产品与功能存在，不确认国内可购。"
+    },
+    "price": {
+      "text": "待地区经销商核价",
+      "note": "不将发布时价格或不同代AI HAT的报价套用；另需 Raspberry Pi 5、电源、存储与可能的散热部件。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方披露 Hailo-10H、8GB板载RAM和40 TOPS INT4，支持兼容的生成式模型与视觉处理，属于需要集成的开发硬件。",
+      "dependency": "模型需经过兼容工具链部署；支持某类模型不代表任意模型可直接运行。可离线推理的范围取决于模型和应用实现。"
+    },
+    "highlights": [
+      "应用与模型",
+      "AI 加速器",
+      "内存"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有树莓派项目希望扩展本地语音、视觉和轻量生成式能力，避免换整个平台。需求应从可运行的模型和外设链路出发验证，而不是把加速板视作万能AI升级。",
+      "userProfile": "画像推断：创客、嵌入式工程师、课程开发者及低成本原型团队。购买者可能已有 Raspberry Pi 5，但首次使用者还需理解主板、扩展板和完整系统成本的区别。",
+      "competition": "市场判断：与 Jetson、USB 加速器和迷你 PC 竞争，价格、软件兼容及社区支持会影响选择。树莓派生态有吸引力，但特殊模型转换可能增加工程成本，本轮未做开发者访谈。",
+      "supplyChain": "官方披露 Hailo-10H 与板载内存。分析关注加速器、内存、电源完整性、连接器和热管理；未核查整板代工厂与采购合同，不能给出确定 BOM 或产能判断。",
+      "technology": "技术重点是模型编译、算子覆盖与树莓派摄像头软件集成。40 TOPS 属 INT4 口径，官方也区分计算机视觉性能；不应直接与另一平台 INT8 算力数字排序。",
+      "aesthetics": "设计观察：扩展板延续模块化工具形态，利于观察和组合硬件。堆叠高度、散热片和连接空间会影响外壳设计；面向非技术用户的产品还需要完整封装与明确的运行状态反馈。",
+      "risks": "主要风险是兼容模型限制、供电散热和实际采购可达性。对嵌入式项目而言，官方长期生产承诺不等于每个经销商随时有货，需要单独核查供期和替代料策略。",
+      "opportunity": "可验证的购买理由是复用已有树莓派系统，并在可接受功耗内运行目标模型。建议用真实音视频任务比较总系统成本和调试时间；本轮没有相同条件下的性能实测数据。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "AI 扩展板属于技术用户细分市场，竞争集中在适配成本和软件支持，不以大众知名度判断蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "应用与模型",
+        "detail": "运行 Hailo 工具链支持的视觉和生成式模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI 加速器",
+        "detail": "Hailo-10H 提供官方标称40 TOPS INT4。",
+        "evidence": "official"
+      },
+      {
+        "name": "内存",
+        "detail": "板载8GB RAM服务兼容模型推理。",
+        "evidence": "official"
+      },
+      {
+        "name": "主机与接口",
+        "detail": "作为 Raspberry Pi 5 的扩展板集成。",
+        "evidence": "official"
+      },
+      {
+        "name": "散热与装配",
+        "detail": "官方提供可选散热片和叠装附件说明。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Raspberry Pi AI HAT+ 2 官方产品页",
+        "url": "https://www.raspberrypi.com/products/ai-hat-plus-2/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "design"
+        ],
+        "note": "产品与购买组件存在，但本轮未确认具体经销商库存。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "macbook-air-m5",
+    "name": "MacBook Air M5（13 / 15 英寸）",
+    "brand": "Apple",
+    "category": "computing",
+    "tagline": "通用电脑上的端侧 AI 能力，是独立 AI 硬件的重要替代方案。",
+    "officialUrl": "https://www.apple.com/macbook-air/",
+    "status": "on_sale",
+    "statusEvidence": "Apple 美国官网有购买入口，中国大陆官方商店列出 M5 型号与可选配置。不同内存、尺寸和交付地区需单独选择。",
+    "regions": [
+      "美国",
+      "中国大陆",
+      "其他 Apple 销售地区"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "中国大陆 Apple 官方商店可选择 M5 MacBook Air。硬件可购不等于所有 Apple Intelligence / Siri AI 功能在当地均可用；需逐项核对软件版本、语言、账户和地区。"
+    },
+    "price": {
+      "text": "美国官网 US$1,299 起",
+      "note": "为美国13英寸基础配置参考；15英寸、内存与存储升级另计。中国大陆价格不由美元换算，按中国官方商店报价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方介绍 M5 GPU、Neural Engine、统一内存及 Apple Intelligence，用于本地 AI 工作流和系统集成功能。具体应用也可能调用云模型。",
+      "dependency": "离线可用性取决于应用、模型及系统功能。云服务、地区功能限制与第三方订阅需分别确认；不能把硬件性能当成所有AI服务权益。"
+    },
+    "highlights": [
+      "应用与系统",
+      "输入与显示",
+      "芯片与统一内存"
+    ],
+    "analysis": {
+      "demand": "需求假设：大量用户首先需要可靠的通用电脑，AI 是既有工作流的能力增量。因此它也是独立AI设备的强替代品：新硬件必须说明为何不能用现有电脑完成同一任务。",
+      "userProfile": "画像推断：学生、移动办公者、轻量创作者与使用本地模型的技术用户。不同内存配置适合的模型规模不同，是否为了AI而升级设备需依据实际任务频率判断。",
+      "competition": "市场判断：AI PC 已是多品牌参与的成熟竞争场，不能因加入新模型功能就称冷门赛道。竞争同时来自 Windows AI PC、旧款电脑与云工具，换机理由受性能、续航和生态共同影响。",
+      "supplyChain": "公开资料确认 Apple 芯片和统一内存架构，完整供应链与单机成本未在本轮核查。分析侧重芯片封装、内存、屏幕、机身加工与全球售后，不能把供应商行业传闻写成该SKU的确定配套。",
+      "technology": "官方披露 M5 的神经网络相关加速和无风扇设计。对AI任务的分析应考察可用内存、持续负载和软件适配；峰值性能或厂家“快几倍”描述需要对应测试条件，不视为本轮实测。",
+      "aesthetics": "设计观察：薄型铝合金笔记本延续成熟的工作工具外观，既有认知成本低。无风扇有利安静场景，但长时间高负载的设计取舍应通过实际任务验证，而非由外观推断性能。",
+      "risks": "主要风险是把跨地区AI能力一概视作可用，以及低估内存需求、模型下载和云订阅成本。硬件购买、系统AI权限和第三方服务订阅是三件不同的事。",
+      "opportunity": "值得研究的是AI究竟改善了哪些高频工作步骤。应比较使用现有电脑加软件与购买新设备的任务完成时间和质量，避免把AI营销标签等同于可归因的换机需求。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "通用AI电脑有成熟渠道和强替代品，硬件形态与品牌生态竞争激烈；本目录将其作为独立AI硬件的参照。"
+    },
+    "architecture": [
+      {
+        "name": "应用与系统",
+        "detail": "Apple Intelligence 及第三方AI应用承载用户任务。",
+        "evidence": "official"
+      },
+      {
+        "name": "输入与显示",
+        "detail": "键盘、触控板、麦克风、摄像头和屏幕构成通用交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "芯片与统一内存",
+        "detail": "M5 与统一内存支持计算及模型运行。",
+        "evidence": "official"
+      },
+      {
+        "name": "机身与被动散热",
+        "detail": "官方说明无风扇薄型设计。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端与服务",
+        "detail": "部分模型或系统功能依赖网络、账户及地区支持。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "MacBook Air 官方产品与购买入口",
+        "url": "https://www.apple.com/macbook-air/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "design"
+        ],
+        "note": "核查页面为M5，区分13和15英寸。"
+      },
+      {
+        "title": "Apple 美国 Mac 商店",
+        "url": "https://www.apple.com/shop/buy-mac",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "美国区域 MacBook Air 起价为1299美元。"
+      },
+      {
+        "title": "Apple 中国大陆 MacBook Air 商店",
+        "url": "https://www.apple.com.cn/shop/buy-mac/macbook-air",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "china"
+        ],
+        "note": "展示中国大陆M5配置购买入口；AI功能可用性须另行核查。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "google-pixel-11-pro",
+    "name": "Google Pixel 11 Pro",
+    "brand": "Google",
+    "category": "computing",
+    "tagline": "把 Gemini 与影像 AI 集成到随身手机，而非额外携带一件设备。",
+    "officialUrl": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+    "status": "on_sale",
+    "statusEvidence": "Google Store 美国产品页有 Buy 入口与正在进行的限定促销。优惠存在以旧换新和型号条件，本条不把最低促销展示价当无条件售价。",
+    "regions": [
+      "美国官方商店",
+      "其他 Google Store 支持地区需分别确认"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "Google Store 地区选择器未列中国大陆。跨境购机不能保证当地的 Gemini、运营商功能、保修和Google服务正常可用；本轮未核实代购渠道。"
+    },
+    "price": {
+      "text": "美国参考标价 US$1,099",
+      "note": "官网另显示折扣及合资格以旧换新后低价，不应直接用于价格横比。套餐、容量、税费和活动期限以结算页为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方描述 Gemini Intelligence、影像AI与 Tensor G6 平台。AI能力可融入手机应用及任务流程，但不同功能有账户、地区和订阅条件。",
+      "dependency": "云端 Gemini 与设备侧能力并存，部分功能需要联网、订阅或特定语言地区。本目录未独立测试任务执行的可靠性或隐私行为。"
+    },
+    "highlights": [
+      "系统与任务层",
+      "交互与感知",
+      "计算平台"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望在现有手机里完成搜索、翻译、影像处理和日常任务，不再携带额外AI终端。它既是AI产品，也是其他随身设备必须比较的默认替代方案。",
+      "userProfile": "画像推断：深度使用Google服务、重视摄影与Android体验的用户，以及愿意尝试系统智能功能的早期采用者。中国大陆用户的网络和售后条件与美国用户显著不同，不能共用同一画像。",
+      "competition": "市场判断：旗舰手机的竞争非常密集，AI增强只是其中一个维度。对手还包括旧手机加相同云应用；必须辨别硬件专属能力和软件可迁移能力，才能判断AI对购买决策的贡献。",
+      "supplyChain": "公开产品资料披露 Tensor G6 和主要硬件规格，未核实完整供应商与组装工厂。分析关注芯片、摄像头模组、屏幕、内存及区域认证；厂商服务生态也是难以从BOM体现的交付要素。",
+      "technology": "技术要区分端侧推理、云端模型、系统权限与多应用任务执行。官方的功能演示不代表所有应用和地区都支持，也不能用芯片名称直接推导实际成功率和耗电。",
+      "aesthetics": "设计观察：成熟的触屏和相机形态具有低学习成本，产品审美更多体现在机身、摄像头区域和系统界面一致性。相较单用途硬件，它的优势是日常随身，弱点是仍需屏幕注意力。",
+      "risks": "关键风险包括服务地区限制、促销价误读、AI订阅权益到期和多步骤任务出错。对中国使用场景，应先验证服务与售后可达，再讨论硬件参数；不能把国外发布能力直接搬到国内市场。",
+      "opportunity": "值得验证的购买理由是AI功能是否在原有手机体验之外形成可感知增量。后续应比较同一任务的手动操作次数、结果质量和持续使用率，本轮没有用户留存或销量归因数据。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "旗舰手机市场高度成熟，AI是系统生态竞争的一部分，不能视作独立冷门新品类。"
+    },
+    "architecture": [
+      {
+        "name": "系统与任务层",
+        "detail": "Gemini及系统功能连接日常用户任务，支持范围有条件。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互与感知",
+        "detail": "触屏、相机和音频输入构成多模态使用入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "计算平台",
+        "detail": "官方列出 Tensor G6 平台与内存配置。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源与结构",
+        "detail": "电池、屏幕及热设计影响高负载任务体验。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "账户与云服务",
+        "detail": "云端功能受网络、账户、语言、地区与订阅条件影响。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Pixel 11 Pro 官方美国商店",
+        "url": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "design"
+        ],
+        "note": "有购买入口，低价含优惠及以旧换新条件。"
+      },
+      {
+        "title": "Google Store 官方地区选择",
+        "url": "https://store.google.com/regionpicker",
+        "kind": "official-spec",
+        "supports": [
+          "china"
+        ],
+        "note": "核查时地区列表没有中国大陆；不推定非官方进口渠道可用。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]

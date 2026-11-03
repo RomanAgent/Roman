@@ -1,0 +1,315 @@
+[
+  {
+    "id": "iflytek-ebox-pro",
+    "name": "讯飞AI英语宝 EBOX Pro",
+    "brand": "科大讯飞",
+    "category": "education",
+    "tagline": "围绕英语听说训练扩展答疑与对话",
+    "officialUrl": "https://www.xunfei.cn/goods?goodsId=2345",
+    "status": "on_sale",
+    "statusEvidence": "讯飞官方商城当前陈列EBOX Pro 128G橙色款及¥999标价，并链接商品页和小程序购买。已核实官方商品说明图中的答疑与百科问答；未登录小程序核验即时库存。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "品牌官方商城陈列并提供小程序购买，按所选容量、颜色和小程序实时库存交付；网页详情的¥0.00为未载入模板，不是售价。"
+    },
+    "price": {
+      "text": "官方目录：128G款 ¥999",
+      "note": "来自官方商城目录，不采用详情页未载入的0元模板；不同容量、颜色及优惠以官方小程序结算为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方说明图展示英语听说、口语相关练习与AI伴学，并新增分步答疑、百科问答和日常对话；未公开完整模型与端云分工。",
+      "dependency": "基础内容和AI服务的离线边界、账户及订阅权益需按当前版本核对；本记录不假设所有对话都在设备本地完成。"
+    },
+    "highlights": [
+      "英语听说专用场景",
+      "分步答疑与百科问答",
+      "便携形态区别于大屏学习机"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望用专门设备完成英语听说练习，避免每次都借用手机或打开大平板。研究应区分听力素材播放、跟读练习和自由问答的使用频率，不能仅因新增对话就推断学习有效。",
+      "userProfile": "用户画像推断：有固定英语练习任务、希望设备便携且家长愿意选内容的学生家庭较匹配。对成人商务翻译或全科长时间课堂学习的需求，这种小型听说设备未必是同等合适的选择。",
+      "competition": "竞争判断：英语听力机、词典笔、手机口语应用和学习机都能覆盖部分需求，竞争已较密集。EBOX的比较重点应是听说流程是否连续、素材是否适配，以及额外AI功能会否分散主要任务。",
+      "supplyChain": "供应链推断：屏幕、扬声器、输入部件和便携外壳需支持频繁儿童使用，内容维护也是交付成本。官方未披露制造工厂；容量和颜色SKU以及小程序渠道需要一致的权益与售后说明。",
+      "technology": "已查看官方说明图，新增能力包括答疑、百科问答和对话，但未公布完整模型部署。推断应分别核验发音反馈、听力内容及生成回答的准确性，不能把营销中的“秒懂”作为实测结论。",
+      "aesthetics": "审美判断：橙色机身和便携屏幕更接近学习播放器，降低大平板的存在感，角色动画则强化儿童兴趣。色彩与图标密度可能影响不同年龄接受度，不能把活泼外观直接当作学习动力。",
+      "risks": "风险判断：官方目录可购买不代表所有容量和地区立即有货，最终由小程序确认。生成答疑可能出现错误，情绪化对话也不应替代家长沟通；本目录不承诺提分或心理改善效果。",
+      "opportunity": "市场观察：此条补充了大屏学习机之外的专用听说设备。比较时应同时列出基础素材、口语反馈、生成问答及联网权益，避免把单科工具与全科平板仅按价格放在同一排名中。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "专门英语听说设备比通用学习机更聚焦，但已有多种软硬件替代。"
+    },
+    "architecture": [
+      {
+        "name": "学习输入",
+        "detail": "通过界面进入听力、单词及口语相关任务。",
+        "evidence": "official"
+      },
+      {
+        "name": "练习与反馈",
+        "detail": "听说训练与练习反馈构成基础学习路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI答疑",
+        "detail": "官方图展示分步讲题、百科问答与对话。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容与权限",
+        "detail": "题目、素材、账户和网络服务的功能分层示意。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "讯飞官方商城目录",
+        "url": "https://www.xunfei.cn/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china"
+        ],
+        "note": "当前列EBOX Pro 128G款及¥999，并导向官方商品页。"
+      },
+      {
+        "title": "EBOX Pro官方商品页",
+        "url": "https://www.xunfei.cn/goods?goodsId=2345",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "官方页面采用小程序购买；正文图片已逐张查看，未将0元模板当售价。"
+      },
+      {
+        "title": "EBOX Pro官方功能图：答疑",
+        "url": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "从官方商品页打开并查看图像，展示新增答疑伴学。"
+      },
+      {
+        "title": "EBOX Pro官方功能图：问答与对话",
+        "url": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已查看图像；营销效果描述未作为独立验证结果。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "iflytek-dictionary-x9-pro",
+    "name": "讯飞AI词典笔 X9 Pro",
+    "brand": "科大讯飞",
+    "category": "education",
+    "tagline": "扫描查词与双模型讲题结合的便携学习工具",
+    "officialUrl": "https://www.xunfei.cn/goods?goodsId=2383",
+    "status": "on_sale",
+    "statusEvidence": "讯飞官方商城当前列出AI词典笔X9Pro、¥999及官方商品链接，详情提供小程序购买；已查看商品原图确认星火与DeepSeek双模型宣传，未登录小程序确认实时库存。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "官方商城销售目录与小程序购买渠道已确认；具体颜色、库存和联网权益仍以结算及使用协议为准。"
+    },
+    "price": {
+      "text": "官方目录 ¥999",
+      "note": "以官方商城当前目录为准；详情页0元是未载入模板。优惠、库存与套装需在官方小程序确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "扫描查词和发音评测与AI讲题结合。官方商品图明确写星火+DeepSeek双模型；不据此声称全部模型在笔内运行。",
+      "dependency": "查词、评测和大模型讲题的联网要求需分别核实，官方图片未给出完整端云边界及模型版本，不外推离线生成能力。"
+    },
+    "highlights": [
+      "纸面扫描的低步骤入口",
+      "官方标明星火+DeepSeek双模型",
+      "发音评测和查词讲题同设备"
+    ],
+    "analysis": {
+      "demand": "需求假设：学生阅读纸质材料时希望快速查词或解释题目，扫描笔减少从书本切换到手机的步骤。应验证识别容错、查阅速度与解释是否被理解，不能把更长回答直接视为更有帮助。",
+      "userProfile": "用户画像推断：经常读纸质英语或教材、需要随手查阅的学生较适合，家长也可能希望减少通用手机干扰。若主要任务是长篇写作、视频课程或复杂图形题，小屏幕交互会成为限制。",
+      "competition": "竞争判断：有道、讯飞及多家学习品牌已有词典笔产品，属于拥挤赛道。模型名称容易趋同，真正差异在扫描成功率、词典内容质量、发音反馈及后续学习记录是否能够连贯使用。",
+      "supplyChain": "供应链推断：扫描光学、窄屏、外壳握持和电池要在体积内协调，镜头脏污与跌落也影响识别体验。官方未披露制造工厂；词典授权和模型服务成本应与硬件物料一起计算。",
+      "technology": "官方图确认扫描查词、发音评测及双模型讲题。推断应将OCR、词典检索、语音评分和生成解释分开测试，不能因接入两个模型就假设错误率下降，更不能把模型品牌当作质量背书。",
+      "aesthetics": "审美判断：细长笔形与纸面阅读动作自然关联，深色机身突出工具属性。屏幕加大有利于显示解释，却可能削弱握持与扫描轻便性；实体按键和笔头位置会直接影响单手操作。",
+      "risks": "风险判断：当前官方目录提供销售入口，但最终库存需小程序确认。生成讲题可能有错误，词典授权范围和联网能力也应明确；不把“查词讲题更精准”等宣传表述作为独立对比结论。",
+      "opportunity": "市场观察：该产品补足纸面输入这一硬件入口，与便携听力机和大屏学习机形成不同使用路径。目录比较应固定题目类型、扫描环境及功能权限，而不是只按屏幕或模型数量排序。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "扫描查词硬件已有长期竞争，生成式讲题增加能力但未消除同质化。"
+    },
+    "architecture": [
+      {
+        "name": "纸面输入",
+        "detail": "笔头扫描把纸面内容带入设备。",
+        "evidence": "official"
+      },
+      {
+        "name": "检索与识别",
+        "detail": "查词和词典内容构成基础回答路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "模型讲解",
+        "detail": "官方标明星火与DeepSeek双模型用于讲题。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音与显示",
+        "detail": "发音评测和屏幕解释形成学习反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "服务边界",
+        "detail": "本地检索与联网生成分工尚未完整公开的功能示意。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "讯飞官方商城词典笔目录",
+        "url": "https://www.xunfei.cn/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china"
+        ],
+        "note": "当前列X9Pro与¥999，链接官方商品页。"
+      },
+      {
+        "title": "X9 Pro官方商品页",
+        "url": "https://www.xunfei.cn/goods?goodsId=2383",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "提供小程序购买；未实际下单确认库存。"
+      },
+      {
+        "title": "X9 Pro官方功能说明图",
+        "url": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2383-20260227/X9Pro_01.jpg",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已从官网打开并查看，写明星火+DeepSeek、查词与发音评测。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "samsung-galaxy-ring",
+    "name": "Samsung Galaxy Ring",
+    "brand": "Samsung",
+    "category": "wearables",
+    "tagline": "以机器学习能量得分连接指环与手机健康应用",
+    "officialUrl": "https://www.samsung.com.cn/rings/galaxy-ring/buy/",
+    "status": "needs_check",
+    "statusEvidence": "中国官方购买配置页仍存在，但所核银色12号商品页显示已售完，购买页也提示部分尺码缺货且交付时间不保证。因此保守标待确认，不将产品存在等同全尺码现货。",
+    "regions": [
+      "中国大陆官方渠道"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "中国官方渠道已确认；具体颜色尺码页显示售完或组合不可用，需在官网确认可交付SKU，不代表所有型号全面停售。"
+    },
+    "price": {
+      "text": "当前可交付SKU价格待确认",
+      "note": "不把旧活动建议零售价当作当前可成交价。需先确认尺寸及库存，再以官网结算金额为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "中国官方说明能量得分基于机器学习，使用睡眠、活动等同步数据提供个性化状态信息；不将其描述为戒指内运行的聊天大模型。",
+      "dependency": "健康AI需要将数据同步至Samsung Health及兼容手机；部分手势要求指定Samsung Galaxy系统版本，功能与账户条件需逐项核对。"
+    },
+    "highlights": [
+      "国行明确的机器学习能量得分",
+      "无屏幕三传感器记录",
+      "手机与账户生态条件清晰"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有Samsung生态的用户可能希望在不佩戴手表时保留日常与睡眠记录，指环可减少屏幕干扰。验证重点是佩戴舒适及数据连续性，而不是把能量分数当作客观健康等级。",
+      "userProfile": "用户画像推断：使用兼容手机、愿意试戴并主要通过应用看结果的人较匹配。需要独立屏幕、频繁操作消息或手指容易受压的人，可能更适合腕表；选择应先看习惯和身体适配。",
+      "competition": "竞争判断：Oura、Ultrahuman和RingConn等已提供智能指环，属于拥挤市场。Samsung的差异主要是手机健康生态与设备协同，而非单独一种传感器；同样需要比较地区功能和拥有成本。",
+      "supplyChain": "供应链推断：多尺寸金属结构、微型电池和传感接触需要稳定封装，试戴和尺码库存影响交付。官方未披露具体组装工厂；缺码和售后更换不能仅靠统一产品页面解决。",
+      "technology": "官方明确三类传感输入、应用同步和机器学习能量得分。推断系统价值来自长期数据处理与手机展示，不应称为戒指端生成式推理；模型估计与个人身体感受仍需保持区别。",
+      "aesthetics": "审美判断：凹面轮廓与金属表面强化首饰属性，无屏幕有利于日常搭配。指环在真实工作和睡眠时的厚度、刮擦及尺寸感，比宣传图中的轻盈视觉更影响长期佩戴意愿。",
+      "risks": "风险判断：当前具体尺码已售完，用户应避免把官方配置页理解为可即时交付。健康数据和机器学习提示不用于诊断或治疗；兼容手机、账户及地区差异也可能限制完整功能。",
+      "opportunity": "市场观察：它补充了中国有官方渠道的智能指环样本，但本次库存证据不足以标现售。对比时将能量算法、手机要求及尺码交付放在同一层，比用Galaxy AI名称概括全部价值更准确。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "智能指环已有多个品牌，Samsung生态是区别，当前尺码库存仍需确认。"
+    },
+    "architecture": [
+      {
+        "name": "传感记录",
+        "detail": "加速度、心率相关与皮肤温度传感器记录数据。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机同步",
+        "detail": "健康AI需要同步至Samsung Health应用。",
+        "evidence": "official"
+      },
+      {
+        "name": "状态估计",
+        "detail": "官方说明能量得分使用机器学习。",
+        "evidence": "official"
+      },
+      {
+        "name": "结果反馈",
+        "detail": "应用提供状态与个性化健康睡眠信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "生态条件",
+        "detail": "部分手势和功能需要特定Galaxy手机及系统。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "三星中国Galaxy Ring购买配置",
+        "url": "https://www.samsung.com.cn/rings/galaxy-ring/buy/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "china",
+          "dependency"
+        ],
+        "note": "购买页仍在，说明部分尺寸缺货且交期可能无法保证。"
+      },
+      {
+        "title": "三星中国Galaxy Ring银色12号",
+        "url": "https://www.samsung.com.cn/rings/galaxy-ring/galaxy-ring-titanium-silver-size-12-sm-q502nzsachc/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "具体SKU显示已售完，同时给出传感、机器学习及兼容条件。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]

@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "lovot-3",
+    "name": "LOVOT 3.0",
+    "brand": "GROOVE X",
+    "category": "companion",
+    "tagline": "以触碰、目光和自主行动形成陪伴关系",
+    "officialUrl": "https://lovot.life/pricing",
+    "status": "on_sale",
+    "statusEvidence": "日本官网价格页列出LOVOT 3.0本体价格、月费及购买入口。中国大陆有官方单独入口；日本版不支持在中国大陆使用，不能跨地区等同。",
+    "regions": [
+      "日本",
+      "中国大陆（中国规格）"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "官网链接中国官方旗舰店；官方FAQ明确日本版无法在中国大陆进行契约确认，需中国规格，具体型号与库存向中国渠道核对。"
+    },
+    "price": {
+      "text": "日本本体 ¥577,500；月费 ¥9,900 起",
+      "note": "日元，日本官网标价；本体与服务费分开，颜色、手续费和交付条件以结算为准，不套用中国售价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "视觉、距离与触碰感知支持人物互动、自主移动和回充；重点是行为适应，不是通用大模型聊天。",
+      "dependency": "机内AI计算配合持续软件服务与账户；官网说明软件使用、更新及个性备份包含在月费中，跨地区服务有限制。"
+    },
+    "highlights": [
+      "机内AI计算与自主回充",
+      "柔软外衣、触碰反馈和眼神交互",
+      "本体购买之外需要持续月费"
+    ],
+    "analysis": {
+      "demand": "需求假设：无法养真实宠物但希望家中有回应的用户，可能更在意靠近、触碰与被记住，而非问答效率。验证应观察数周后的主动互动频率，不能以首日新奇感替代长期陪伴需求。",
+      "userProfile": "用户画像推断：预算较高、接受日常维护并有适合机器人移动空间的家庭或展示场所。购买者和主要互动者可能不同，送礼前需确认对方是否愿意承担月费和设备照护。",
+      "competition": "竞争判断：高价自主移动陪伴属专业细分，但它仍与真实宠物、普通玩偶和家庭娱乐预算竞争。不是竞争者少就容易进入；可信行为、长期售后和品牌信任共同抬高门槛。",
+      "supplyChain": "供应链推断：软性外衣、驱动机构、传感器和充电座需联合验证耐用性与清洁维护；本次资料未披露具体制造工厂。官方已有维修和保养服务，售后能力是产品成本的一部分。",
+      "technology": "官方技术重心是传感融合、机内计算、自主导航和动作表达。推断难点在动作与感知延迟的协调，以及多人、低光和家具变化下的稳定表现；增加聊天功能不等于补齐这些能力。",
+      "aesthetics": "审美判断：圆润体态、布料触感和非人形面部降低机械感，适合家庭空间。温度、声音与目光也属于体验设计；新品牌应形成可辨识的角色规则，避免只复制圆眼睛外壳。",
+      "risks": "风险判断：高客单价加持续月费增加使用承诺，活动机构需要维修，家庭摄像与人物识别涉及隐私。官方禁止将日本版直接用于中国大陆，跨境购入前必须核实规格及服务。",
+      "opportunity": "机会假设：可研究更低维护、明确边界的家庭陪伴，而非直接复制完整移动机器人。先验证用户愿意为哪种非语言互动持续付费，再决定是否承担自主移动和上门服务的成本。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "高客单与机电服务门槛形成细分市场；冷门不代表低成本进入。"
+    },
+    "architecture": [
+      {
+        "name": "感知入口",
+        "detail": "摄像头、距离与触碰传感器感知人和环境。",
+        "evidence": "official"
+      },
+      {
+        "name": "机内判断",
+        "detail": "官方列出Jetson Orin NX及AI计算，用于机器人感知和行为。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作表达",
+        "detail": "轮式移动、眼部显示和合成声音构成反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "持续服务",
+        "detail": "软件使用、更新、备份和维护纳入月度服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "LOVOT 日本价格与购买",
+        "url": "https://lovot.life/pricing",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "dependency"
+        ],
+        "note": "列出本体、服务费和购买入口；仅代表日本报价。"
+      },
+      {
+        "title": "LOVOT 技术说明",
+        "url": "https://lovot.life/en/technology/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "官方组件与功能说明，不是拆机。"
+      },
+      {
+        "title": "LOVOT 海外使用FAQ",
+        "url": "https://www.pa-solution.net/as/scope3/groove-x/lovot/jp/detail.aspx?a=102&id=230&isCrawler=1",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "regions",
+          "risks"
+        ],
+        "note": "明确日本版在中国大陆不能使用，并链接中国规格渠道。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "casio-moflin",
+    "name": "Moflin",
+    "brand": "CASIO",
+    "category": "companion",
+    "tagline": "没有屏幕的毛绒触觉陪伴",
+    "officialUrl": "https://www.casio.com/us/moflin/",
+    "status": "on_sale",
+    "statusEvidence": "美国官网列出多个颜色及BUY NOW入口，日本官网列出可加入购物袋的型号；中国官网已设Moflin栏目和售后服务。具体颜色与批次库存仍以区域商店为准。",
+    "regions": [
+      "美国",
+      "日本",
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "卡西欧中国官网已有Moflin产品栏目及大陆洗护维修服务。动态商店未完整返回库存，国行颜色及现货需在官方渠道确认。"
+    },
+    "price": {
+      "text": "以地区官网为准",
+      "note": "本次可读页面未稳定返回各地区具体型号售价；不把旧款、不同充电仓或跨境价混为同价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "根据声音、触碰和姿态等信号调整情绪状态与动作，属于感知和行为适应，不宣称大模型自由对话。",
+      "dependency": "配套MofLife应用提供状态与维护相关功能；具体模型运行位置及全部云端边界未在本次资料中完整披露。"
+    },
+    "highlights": [
+      "毛绒外观与两轴头部动作",
+      "声音、触碰、姿态等传感输入",
+      "大陆官网提供洗护及毛发换新服务"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望桌边或怀中有安静回应、又不想持续看屏幕的人，可能接受低语言密度的陪伴。应验证触碰反馈是否让人反复使用，而不是把“情绪AI”直接等同心理改善。",
+      "userProfile": "用户画像推断：偏好柔软触感、可随手抱起的小型物件，并愿意进行充电与清洁的成年人或家庭。对毛绒材质过敏、希望明确问答能力的用户，可能不适合这一交互取向。",
+      "competition": "竞争判断：毛绒情感机器人仍属新兴细分，但要与普通毛绒玩具、桌面宠物和电子陪伴应用比较。真正差异可能在长期状态变化是否可信，而不是宣称能识别多少种情绪。",
+      "supplyChain": "供应链推断：毛绒外套的触感、耐脏与可维修性，需与电池和小型运动机构一起设计；本次未披露制造工厂。官方大陆沙龙提供洗护和换毛，说明持续外观维护不能忽略。",
+      "technology": "官方列出麦克风、光照、触碰及惯性传感器和两轴动作。推断产品难点是把有限动作与声音组合成持续可辨识的状态，避免随机反馈被用户误解为真正理解其心理。",
+      "aesthetics": "审美判断：弱化面孔、以毛发和体态表达情绪，更接近可以触碰的居家物件。小幅动作可减少视觉打扰；但材质老化、机械声音和充电姿态都可能破坏整体的生物感。",
+      "risks": "风险判断：用户可能把厂商情绪描述当作医疗或心理疗效保证，研究中不作这种推断。清洁、续航及App地区支持影响真实使用，送给儿童或长者也需要合适的使用陪同。",
+      "opportunity": "机会假设：可以探索不依赖语言和屏幕的细小互动，例如固定休息时段的触觉陪伴。先测触感、反馈节奏和长期接受度，再决定是否增加联网对话，避免把复杂度当成价值。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "非语言毛绒陪伴与聊天机器人有明显区隔，长期留存仍需实际验证。"
+    },
+    "architecture": [
+      {
+        "name": "环境输入",
+        "detail": "麦克风、照度、触碰、加速度与陀螺仪信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "状态调整",
+        "detail": "官网描述随互动形成情绪与个性差异。",
+        "evidence": "official"
+      },
+      {
+        "name": "物理反馈",
+        "detail": "头部旋转与倾斜、扬声器形成低语言互动。",
+        "evidence": "official"
+      },
+      {
+        "name": "维护闭环",
+        "detail": "充电小窝、MofLife与区域售后共同支持使用。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "CASIO 美国Moflin页面",
+        "url": "https://www.casio.com/us/moflin/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，含购买入口、传感器与运动规格。"
+      },
+      {
+        "title": "CASIO 日本Moflin商店",
+        "url": "https://www.casio.com/jp/moflin/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "列出颜色和可加购物袋的型号。"
+      },
+      {
+        "title": "CASIO 中国Moflin栏目",
+        "url": "https://www.casio.com.cn/moflin",
+        "kind": "official-store",
+        "supports": [
+          "china"
+        ],
+        "note": "动态库存未完整读取，不以模板价格判断现货。"
+      },
+      {
+        "title": "CASIO 中国Moflin沙龙",
+        "url": "https://www.casio.com.cn/support/moflin/salon",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "supplyChain"
+        ],
+        "note": "官方说明大陆洗护、换毛和取件维修服务。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "livingai-emo",
+    "name": "EMO",
+    "brand": "LivingAI",
+    "category": "companion",
+    "tagline": "以表情、动作和人物识别陪伴桌面时光",
+    "officialUrl": "https://living.ai/product/emo/",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页显示US$279、Add to cart，并写明下单后约两周发货；这属于可订购商品，未把旧介绍页的预售措辞当作当前状态。",
+    "regions": [
+      "国际官网（收货地区待结算）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实中国大陆官方销售、中文能力和本地售后，不能从美元商店推断国行可用。"
+    },
+    "price": {
+      "text": "US$279",
+      "note": "官网标准EMO套装标价；自动回充款EMO GO HOME是另一SKU，运税与收货地区以结算为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方说明内置神经网络处理器与AI模型，支持人物识别、声音定位和桌面行为；本记录不将所有问答宣称为已核实的大模型能力。",
+      "dependency": "人物与桌面感知有机内处理说明；天气、联网问答和更新涉及网络服务，完整离线能力与云端分工需另核。"
+    },
+    "highlights": [
+      "桌面自主探索和多种表情动作",
+      "人物识别与声音定位",
+      "标准套装与GO HOME回充套装需区分"
+    ],
+    "analysis": {
+      "demand": "需求假设：长时间在电脑前工作的用户，可能想要一个偶尔回应的桌面角色，而不是再增加任务管理工具。应观察是否打断工作、多久主动互动，以及新鲜感过去后仍保留哪些动作。",
+      "userProfile": "用户画像推断：机器人爱好者、桌搭玩家及希望低成本尝试电子宠物的人更可能理解其能力边界。桌面空间较小、噪声敏感或把它当成可靠工作助理的用户，需要单独验证适配。",
+      "competition": "竞争判断：桌面机器人已面对Eilik、Loona等不同形态及手机宠物应用的竞争。中等价位不等于空白市场；角色性格、持续内容和购后体验比单次演示的动作数量更重要。",
+      "supplyChain": "供应链推断：小型驱动、显示屏、感知模组和充电配件需共同控制成本及跌落风险；官方未披露具体工厂。标准款和自动回充款的配件差异，还会增加库存、说明书与售后复杂度。",
+      "technology": "官方核心是人物识别、声音跟随及神经网络处理。推断关键在桌缘感知与动作可靠性、识别延迟和反馈节奏；网页仍列部分未来功能，不能把规划中的能力算作现有产品优势。",
+      "aesthetics": "审美判断：耳机、滑板和屏幕表情形成鲜明桌面角色，更接近潮流玩具而非家电。优点是易形成视觉记忆；限制是强风格未必适合安静办公和黑白极简空间，可研究更克制版本。",
+      "risks": "风险判断：桌缘保护不应被理解为任何环境绝不会跌落；高低差、遮挡和杂物仍需实测。境外云服务、保修回寄与未兑现的开发中功能，也可能影响中国用户的长期体验。",
+      "opportunity": "机会假设：可围绕不打断工作的轻陪伴建立更窄的场景，例如明确休息提示和可解释的互动状态。先验证桌面安全与静音体验，再扩展问答和物联网控制，减少使用预期错位。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "桌面宠物已有多个成熟角色与相近价位，细分场景仍可区分。"
+    },
+    "architecture": [
+      {
+        "name": "输入感知",
+        "detail": "声音、人物与多种内部传感数据进入系统。",
+        "evidence": "official"
+      },
+      {
+        "name": "机内识别",
+        "detail": "官方说明神经网络处理器及AI模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "角色行为",
+        "detail": "动作、面部动画和声音响应组成互动。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网扩展",
+        "detail": "天气与在线内容通过服务形成补充，具体分工示意。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "LivingAI EMO商品页",
+        "url": "https://living.ai/product/emo/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "明确加购及约两周发货。"
+      },
+      {
+        "title": "LivingAI EMO能力介绍",
+        "url": "https://living.ai/emo/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "risks"
+        ],
+        "note": "网页中的开发中功能不计入已交付能力。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "loona-petbot",
+    "name": "Loona Petbot Premium",
+    "brand": "KEYI Tech",
+    "category": "companion",
+    "tagline": "轮式家庭宠物与GPT对话结合",
+    "officialUrl": "https://keyirobot.com/products/petbot",
+    "status": "on_sale",
+    "statusEvidence": "官方Petbot商品页显示Premium套装、US$429和Buy Now；本记录对应Petbot，不把官网新Deskmate或Space Edition混入同一产品。",
+    "regions": [
+      "国际官网（配送地区以结算为准）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已确认国际官网在售；本次没有完整核实大陆版本、GPT服务可达性和本地保修，不直接标为国行可用。"
+    },
+    "price": {
+      "text": "US$429",
+      "note": "核查时Premium页面促销价；充电座、游戏道具及不同版本需按所选SKU确认，优惠可能变化。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "人脸、声音定位与环境感知结合GPT对话、故事及图像相关互动，运动控制和生成式服务分别承担不同职责。",
+      "dependency": "自主感知与执行由机身处理系统支持；GPT互动依赖联网服务，地区、语言和账户条件应在购买前核对。"
+    },
+    "highlights": [
+      "轮式移动与环境感知",
+      "GPT对话、故事和视觉互动",
+      "官方披露摄像头、ToF和多麦克风规格"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望机器人能跟随、玩游戏又回答问题，物理移动带来的共同活动可能比单纯聊天更有价值。应测试孩子是否愿意持续主动玩耍，以及家长是否认可占地和充电成本。",
+      "userProfile": "用户画像推断：有足够地面活动空间、愿意设置网络并参与互动的家庭更适合。不同年龄儿童对故事、追逐和编程的偏好可能差异很大，不能用一个“儿童AI伙伴”标签代替用户分层。",
+      "competition": "竞争判断：移动宠物与生成式语音玩具两条赛道都在增加产品，属于拥挤交叉市场。仅接入同类大模型难形成壁垒，稳定导航、动作性格和持续可玩的内容才有可能提高留存。",
+      "supplyChain": "供应链推断：多电机、轮胎、摄像头、ToF和电池需要兼顾噪声、耐摔与散热；官方披露功能模组但未披露制造工厂。充电接点和地面适应性应纳入量产测试，而不只是跑通样机。",
+      "technology": "官网明确视觉、声源定位、环境导航和GPT互动。推断难点是把云端生成回复与实时运动安全隔离，避免网络延迟影响碰撞防护；问答聪明与走得稳是两套需要分别验收的能力。",
+      "aesthetics": "审美判断：轮足、可动耳朵和大屏眼睛让机器人在动作中形成识别度，也强化玩具属性。身体比例和待机姿态会决定其是否能自然留在客厅，而不只是短视频中的表演设备。",
+      "risks": "风险判断：儿童语音、家庭画面和云端生成内容需要明确权限及家长控制。复杂地毯、楼梯和杂物会考验移动边界；国际版本的模型服务可达性不能从品牌来源直接推断。",
+      "opportunity": "机会假设：围绕一两种可重复家庭游戏建立可靠的实体交互，比堆叠聊天、画图和巡逻更容易验证。可先量化共同游戏时长、家长干预次数和每周活跃，再决定扩展功能。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "实体陪伴与GPT问答的组合已有多品牌，需靠可靠互动细分。"
+    },
+    "architecture": [
+      {
+        "name": "环境感知",
+        "detail": "RGB摄像头、3D ToF、触碰及麦克风阵列。",
+        "evidence": "official"
+      },
+      {
+        "name": "本体计算",
+        "detail": "官方列出AI计算、协处理器和音频处理器。",
+        "evidence": "official"
+      },
+      {
+        "name": "生成服务",
+        "detail": "官网展示GPT对话、描述、故事与创作互动。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作与反馈",
+        "detail": "轮式驱动、身体及耳部电机、LCD与扬声器。",
+        "evidence": "official"
+      },
+      {
+        "name": "安全边界",
+        "detail": "将实时运动与联网生成路径分开理解的功能示意。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Loona Petbot官方商品与规格",
+        "url": "https://keyirobot.com/products/petbot",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，明确产品版本、购买入口及传感和执行规格。"
+      },
+      {
+        "title": "KEYI Tech官方首页",
+        "url": "https://keyirobot.com/",
+        "kind": "official-spec",
+        "supports": [
+          "product-line"
+        ],
+        "note": "官网同时列Petbot与Deskmate，本记录仅研究Petbot。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "eilik-ai-station",
+    "name": "Eilik + AI Station",
+    "brand": "EnergizeLab",
+    "category": "companion",
+    "tagline": "从触碰表情玩具扩展为可对话的桌面组合",
+    "officialUrl": "https://store.energizelab.com/products/ai-station",
+    "status": "on_sale",
+    "statusEvidence": "Eilik和AI Station两个官方商品页均有加购入口。AI Station页面明确需搭配Eilik，本体单独销售；基础Eilik不能被直接描述为具备这套生成式能力。",
+    "regions": [
+      "国际官网（配送地区待结算）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实的是国际美元商店，未核实大陆店铺与国内模型服务；不能把品牌中文背景等同中国版本可用。"
+    },
+    "price": {
+      "text": "Eilik US$139.99；AI Station US$99",
+      "note": "核查时分别显示的促销价，合计仅为两件标价相加；运税、套装折扣和颜色以实际结算为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "基础Eilik以触碰和预设角色反应为主；加AI Station后，官方描述支持上下文对话、人脸及物体识别和AI生成故事。",
+      "dependency": "需要两件硬件及配套应用；自然对话的模型、云端地域与完整离线边界未充分披露，应按联网服务核查而非假设端侧完成。"
+    },
+    "highlights": [
+      "基础本体与生成式底座能力明确分开",
+      "带相机隐私遮盖",
+      "上下文对话、识人和生成故事"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有桌面角色的用户可能愿意为更丰富的对话升级，而初次购买者更在意总成本与是否真会持续使用。应分别验证本体用户的升级意愿和新用户对组合价值的理解。",
+      "userProfile": "用户画像推断：喜欢表情动画、收藏玩具与桌面互动的人更可能接受固定位置的角色。希望设备主动走动、完成家庭任务或长期不联网的人，可能对这一组合产生不同预期。",
+      "competition": "竞争判断：固定桌面陪伴已较拥挤，但“旧本体升级AI底座”具有存量用户切入方式。它与一体式新机器人竞争时，需要证明组合后的体验足够连贯，而不是两个产品拼接。",
+      "supplyChain": "供应链推断：本体运动机构与新增相机底座分开供应，能够复用存量硬件，也增加线缆、接口和兼容性管理。官方未披露代工厂；两件产品的保修与配对流程应一起评估。",
+      "technology": "官方把上下文对话、视觉识别和生成故事归于AI Station。推断系统难点在识别、对话记忆与本体动画的同步，并应区分真实模型输出与预设动作，避免把基础触发动画都称作AI。",
+      "aesthetics": "审美判断：小体积、圆润肢体和屏幕表情保留桌面玩具的亲近感；加入底座后应检查整体比例、线缆和摆位。功能扩展若破坏原有一体感，会削弱用户为角色本身付费的理由。",
+      "risks": "风险判断：生成故事和视觉识别会引入家庭图像及语音处理问题，隐私遮盖只覆盖相机而非所有数据路径。基础本体、底座及订阅条件需要清晰说明，避免消费者误买不完整组合。",
+      "opportunity": "机会假设：给既有玩具或陪伴物增加可选智能模块，可能比重新制造整机更快验证需求。应先确认升级后的实际使用频次和售后复杂度，再扩展角色、应用市场或长期内容服务。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "桌面陪伴拥挤，但可升级底座是不同于整机替换的切口。"
+    },
+    "architecture": [
+      {
+        "name": "基础互动",
+        "detail": "Eilik通过触碰、表情与动作进行互动。",
+        "evidence": "official"
+      },
+      {
+        "name": "新增感知",
+        "detail": "AI Station提供相机、熟人识别及物体相关交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "对话生成",
+        "detail": "上下文对话、生成故事与角色扮演。",
+        "evidence": "official"
+      },
+      {
+        "name": "输出组合",
+        "detail": "把语音和生成内容映射至本体动作的功能理解。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "隐私与维护",
+        "detail": "相机遮盖、Type-C供电和持续功能更新。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eilik AI Station官方商品",
+        "url": "https://store.energizelab.com/products/ai-station",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "明确单独销售、需配Eilik，以及AI对话与视觉能力。"
+      },
+      {
+        "title": "Eilik本体官方商品",
+        "url": "https://store.energizelab.com/products/eilik",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "基础触碰互动与另购AI Station的边界有明确说明。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "sony-aibo-ers1000",
+    "name": "aibo ERS-1000",
+    "brand": "Sony",
+    "category": "companion",
+    "tagline": "以持续行为学习形成个性的机器犬",
+    "officialUrl": "https://electronics.sony.com/more/aibo/p/ers1000",
+    "status": "needs_check",
+    "statusEvidence": "美国Sony商店仍显示US$3,199.99及ADD TO CART；日本官方2026-06-25通知库存耗尽即结束国内销售，日本官网搜索结果已显示销售结束。地区状态不同，保守列待确认。",
+    "regions": [
+      "美国（商店仍列购入）",
+      "日本（官方已公告结束国内销售）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实大陆官方新机渠道；区域云计划、账户和维修安排需分别确认，不建议把境外商品页视为大陆服务承诺。"
+    },
+    "price": {
+      "text": "美国官网 US$3,199.99",
+      "note": "所列白色SKU含三年AI Cloud Plan；美国页面仍可加购但需核实现货及地区资格，不代表日本仍在售。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方说明通过日常互动和深度学习形成不同个性，识别人、触碰与声音，并用机器犬动作响应；不等同通用生成式聊天。",
+      "dependency": "完整My aibo功能需要AI Cloud Plan、账户和应用；日本停售公告同时说明相关服务继续，停售不等于立即停服。"
+    },
+    "highlights": [
+      "机器犬动作与长期个性变化",
+      "云计划是完整体验的一部分",
+      "日本停售与美国商店状态需分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户购买的是可长期相处的机器犬角色，而不是家务效率或知识问答。研究要关注照护习惯、角色记忆与多年后继续使用的动机，不能用短期功能清单替代关系价值。",
+      "userProfile": "用户画像推断：机器人爱好者、预算较高且愿意接受专属服务计划的人更适合。机器犬也可能作为家庭礼物，但需确认实际使用者接受机械声、充电和维修等待等日常条件。",
+      "competition": "竞争判断：高价机器犬陪伴是专业细分，品牌历史和运动控制构成门槛。它同时面对更便宜的轮式宠物及真实养宠选择；区域停售提醒创业者，长期产品存在并不保证市场持续扩张。",
+      "supplyChain": "供应链推断：多关节驱动、结构件、传感器和专用充电系统需要长期备件维护；本次未获得制造工厂信息。官方日本公告继续维修等服务，说明退市后的支持也属于供应链责任。",
+      "technology": "官方强调深度学习、人物识别及随互动改变的行为。推断重点在动作自然度、个体状态保存与云服务协同；生成式语言并非必要前提，应先研究非语言反馈能否建立持续使用习惯。",
+      "aesthetics": "审美判断：明确机器犬形象降低用户对“像人”的期待，关节动作和眼部表达承担性格塑造。相较毛绒产品，硬质外壳更突出机械美感，也更依赖运动节奏来传递亲近感。",
+      "risks": "风险判断：日本地区结束销售与美国商店仍可购造成状态理解成本，购买前应核实真实库存及服务地区。云计划、无退货条款和特定美国地区限制都需要在当地官方条件下评估。",
+      "opportunity": "机会假设：值得研究的不是复制完整机器犬，而是长期服务、角色状态迁移及可维修设计。若团队无法承诺多年的云服务和备件，宜先选择结构更简单、退出机制更明确的产品。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "高价格、多关节控制和长期服务使其成为专业细分，区域退市增加核查要求。"
+    },
+    "architecture": [
+      {
+        "name": "人物与触碰输入",
+        "detail": "官方列识别人、声音及触碰的响应能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "行为学习",
+        "detail": "日常互动逐步影响个性与反应。",
+        "evidence": "official"
+      },
+      {
+        "name": "机器犬表达",
+        "detail": "自然动作与面部表达构成陪伴反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端与应用",
+        "detail": "AI Cloud Plan及My aibo支持完整应用功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "生命周期服务",
+        "detail": "日本结束新机销售后仍继续相关云计划和维修服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sony美国aibo商店",
+        "url": "https://electronics.sony.com/more/aibo/p/ers1000",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "当前有加购入口、云计划说明及地区限制，未实际下单。"
+      },
+      {
+        "title": "Sony日本国内销售结束公告",
+        "url": "https://info.aibo.sony.jp/info/2026/06/20260625-01.html",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "risks",
+          "dependency"
+        ],
+        "note": "2026-06-25公告库存售罄后结束日本销售，同时说明服务继续；不推断全球停产。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "miko-3",
+    "name": "Miko 3",
+    "brand": "Miko",
+    "category": "education",
+    "tagline": "语音互动、学习内容与家长应用结合的儿童机器人",
+    "officialUrl": "https://miko.ai/products/miko-3",
+    "status": "needs_check",
+    "statusEvidence": "官方商品页显示US$299，但抓取文本同时出现Sold out、Add To Cart及Buy Now；未能确认具体颜色的实时库存，因此列待确认，不以加购模板单独断言在售。",
+    "regions": [
+      "美国官网"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官网列普通话为支持语言之一，但语言支持不等于中国大陆销售及云服务可达性；本次未核实大陆官方购买和售后。"
+    },
+    "price": {
+      "text": "官网展示 US$299；部分内容另需Miko Max",
+      "note": "库存待确认；Max按地区及周期收费，页面列部分功能免费、部分需会员，不能把全部内容算作随硬件永久提供。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官网列人脸和语音识别、知识对话、学习伙伴及Story Maker，结合感知与AI内容互动；底层模型及生成范围未完整公开。",
+      "dependency": "需要安全Wi-Fi与手机应用设置；部分学习、故事和娱乐内容受Miko Max会员权限限制。"
+    },
+    "highlights": [
+      "人物和声音识别",
+      "STEAM学习内容与故事互动",
+      "家长应用及分层会员内容"
+    ],
+    "analysis": {
+      "demand": "需求假设：部分家庭希望孩子以对话和游戏接触知识，同时获得可管理的屏幕使用方式。需分别衡量孩子是否主动使用、家长管理是否方便，不能把互动次数直接解释为学习效果。",
+      "userProfile": "用户画像推断：愿意参与设置和内容选择、能接受持续会员费用的家庭较适合。家长是购买和控制者，儿童是使用者；语言、年龄、阅读水平和设备共有方式会造成不同体验。",
+      "competition": "竞争判断：儿童机器人同时面对平板教育软件、智能音箱和实体玩具，属于拥挤市场。版权内容和家长工具可形成差异，但单靠“会聊天”无法证明其比现有家庭设备更值得保留。",
+      "supplyChain": "供应链推断：机身移动、屏幕、麦克风与扬声器需要耐用且便于清洁，内容授权也构成持续成本。官方列传感与外壳信息但未披露制造工厂；地区内容权限应与硬件SKU联动管理。",
+      "technology": "官方披露人脸语音识别、距离和里程感知，以及学习内容和故事功能。推断关键是儿童发音识别、年龄适配与内容边界；需要独立核查回答正确率，不能由深度学习标签推导教育质量。",
+      "aesthetics": "审美判断：明亮机身、屏幕表情和可移动形态强调玩伴感，比成人电子设备更有角色属性。屏幕和动作容易吸引注意，但家庭接受度取决于音量、待机状态及是否显得过度刺激。",
+      "risks": "风险判断：官方页面库存文本相互冲突，购买前须确认颜色及交付；儿童音视频处理和会员续费亦需清楚说明。官网宣传的学习进步不在本研究中当作已独立验证的效果证据。",
+      "opportunity": "市场观察：应把它与同价教育平板、智能音箱按内容权限、家长控制、语言和实体互动比较。目录记录的主要价值在于呈现完整拥有成本，而不是从单一AI标签判断哪款更先进。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "教育内容、儿童对话和玩具三方竞争重叠；家长信任是关键门槛。"
+    },
+    "architecture": [
+      {
+        "name": "儿童输入",
+        "detail": "摄像与双麦克风支持人物、声音相关互动。",
+        "evidence": "official"
+      },
+      {
+        "name": "环境感知",
+        "detail": "官方列ToF距离和里程传感信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "学习交互",
+        "detail": "识别、知识对话与故事功能连接学习内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "家长与会员",
+        "detail": "Parent App管理使用，Miko Max决定部分内容权限。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Miko 3官方商品与FAQ",
+        "url": "https://miko.ai/products/miko-3",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "同页存在Sold out及加购文案，因此库存保守标待确认；技术和语言来自产品说明。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "luka-reading-robot",
+    "name": "Luka Kids Reading Robot",
+    "brand": "Luka",
+    "category": "education",
+    "tagline": "围绕真实绘本进行朗读、提问与互动",
+    "officialUrl": "https://luka.world/products/luka-reading-robot",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页显示US$219.99、Buy now和Add to cart，页面说明1–3天发货；包含前三个月VIP，后续会员另计。未实际下单验证物流。",
+    "regions": [
+      "国际官网（英语、西班牙语、德语、中文版本）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次确认的是Luka.world国际版。中文支持已列出，但与中国既有Luka型号、书库、账号和大陆现货的关系未完整核实。"
+    },
+    "price": {
+      "text": "US$219.99；VIP试用后另计",
+      "note": "官网列3个月VIP，之后月付US$9.99或年付折合US$7.99/月；订阅范围和配送税费以地区结算为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "前额摄像头识别书页、文字与人脸，机内意图模型配合朗读、提问和回应；对话生成的模型供应商未公开。",
+      "dependency": "高级互动依赖VIP权限与配套服务；机内意图能力不代表全部绘本识别和对话都能离线，断网边界需另核。"
+    },
+    "highlights": [
+      "使用真实纸质绘本",
+      "四种语言及互动式提问",
+      "机内意图识别与前额摄像头"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望孩子继续翻纸质书，同时在成人暂时无法陪读时获得朗读与问答支持。应验证书页识别成功率和孩子实际翻读行为，不能以无屏幕外观直接推断阅读习惯改善。",
+      "userProfile": "用户画像推断：已有绘本、重视亲子阅读和多语言接触的家庭更可能理解价值。不同书本开合角度、插图密度及儿童自主操作能力会改变体验，使用者年龄不宜仅靠营销范围判断。",
+      "competition": "竞争判断：绘本机器人面对音频故事机、点读笔与手机识别应用，属于有明确任务的专业细分。差异在于能否跟随实体阅读过程，而不是内容总量或把普通扬声器包装成伙伴。",
+      "supplyChain": "供应链推断：相机位置、头部运动和灯光提示直接影响纸页识别与摆放容错；官方未披露制造工厂。书库授权、语言本地化及VIP后台同样是交付链的一部分，不只计算硬件成本。",
+      "technology": "官方说明前额视觉识别、机内意图模型和朗读提问能力。推断需要区分真实OCR、已收录绘本匹配与生成式回答三种路径，实际覆盖范围及错误恢复应通过具体书目逐本测试。",
+      "aesthetics": "审美判断：猫头鹰式读书伙伴与实体书场景一致，弱屏幕表达可减少视觉竞争。头部朝向、眼部灯光与阅读音色共同决定角色感；桌面摆放也应避免遮住书页或干扰亲子视线。",
+      "risks": "风险判断：官网“任何书可读”是厂商表达，本目录不视为对所有纸张和语言的保证。摄像头可能拍入儿童和家庭环境，VIP到期后的功能边界、国际版与国内书库差异需确认。",
+      "opportunity": "市场观察：适合与点读笔、音频故事机并列比较识别方式、纸书覆盖、离线功能和年费。明确版本及会员条件比单列“AI阅读”更有用，也有助于辨别实体阅读与屏幕学习的差异。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "纸质绘本伴读任务明确，区别于通用儿童问答；书目与语言适配是门槛。"
+    },
+    "architecture": [
+      {
+        "name": "纸页与人物输入",
+        "detail": "前额相机识别图片、文字及人脸。",
+        "evidence": "official"
+      },
+      {
+        "name": "意图判断",
+        "detail": "官方说明机内意图模型用于回应儿童。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容交互",
+        "detail": "朗读、提问、倾听和回应围绕书本展开。",
+        "evidence": "official"
+      },
+      {
+        "name": "实体表达",
+        "detail": "头部朝向、LED眼睛与声音形成反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容权限",
+        "detail": "VIP决定部分高级能力，具体版本权限按官网。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Luka官方阅读机器人商店",
+        "url": "https://luka.world/products/luka-reading-robot",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "列购买入口、1–3天发货、四语及VIP条件；功能按官方说明记录，未实测书目覆盖。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "iflytek-t30-pro",
+    "name": "讯飞AI学习机 T30 Pro",
+    "brand": "科大讯飞",
+    "category": "education",
+    "tagline": "以星火模型讲题与学科诊断辅助课后学习",
+    "officialUrl": "https://ly.xunfei.cn/goods/k8AuU6yWkvGx",
+    "status": "needs_check",
+    "statusEvidence": "讯飞官方领用商城该型号页面显示剩余0件和商品无库存，价格文本也异常；官方教育站确认产品及能力，但未核实当前普通零售渠道库存，因此不标在售或停售。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已核实官方品牌、产品和国内服务渠道存在，但本次商店该SKU为0库存。官方渠道存在与当前可买是两回事，实时在售状态仍待确认。"
+    },
+    "price": {
+      "text": "当前有效售价待确认",
+      "note": "官方领用商城显示“价格无效”及异常数字，不将该数值作为零售价，也不引用第三方历史促销价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方2024介绍列星火模型支持语数英一对一讲解、语音或圈画提问和多模态板书，并提供学科知识薄弱点诊断。",
+      "dependency": "模型能力与学科内容依赖厂商软件服务；具体离线课程、网络条件及后续机型升级权益需以该型号当前规则确认。"
+    },
+    "highlights": [
+      "星火支持的语数英讲题",
+      "语音、圈画和板书互动",
+      "学科诊断与同步内容"
+    ],
+    "analysis": {
+      "demand": "需求假设：家长希望孩子遇到难题时获得及时解释，同时减少重复查找答案的时间。应区分真正理解解题步骤与直接抄写答案的行为，不把设备完成讲解视为孩子已经掌握。",
+      "userProfile": "用户画像推断：使用中国学校教材、课后练习较多且家长愿意管理学习节奏的家庭更适合。孩子年级、学科薄弱点与自主学习能力差异明显，不能把高配置平板默认推荐给所有学生。",
+      "competition": "竞争判断：中国学习机已有讯飞、作业帮、学而思、小度等品牌，属于拥挤市场。题库、教研、讲解正确性和本地服务比模型名称更重要，屏幕尺寸或参数提升不一定改变核心体验。",
+      "supplyChain": "供应链推断：平板主板、显示、相机和支架属于硬件基础，课程授权与题目维护构成更长周期投入。官方未在本次资料中披露制造工厂，不能仅凭品牌或外观推断代工关系。",
+      "technology": "官方介绍星火模型、多模态讲题和学科诊断。推断难点是题目识别、知识点归因、分步解释与追问的一致性；不同版本内容更新不应假设自动覆盖所有老机型，需逐SKU核对。",
+      "aesthetics": "审美判断：学习机以大屏、支架和书桌使用姿态突出工具属性，家长更容易将其归入学习投入。视觉设计仍应观察信息密度、字号和干扰内容，而不是把“护眼”外观当作健康保证。",
+      "risks": "风险判断：当前官方页面无库存不能推出该型号已全面停售，也不能代表零售库存。大模型可能讲错题，使用时间和家长监督仍重要；本目录不承诺提分、治疗视力或替代教师。",
+      "opportunity": "市场观察：该条适合作为国内大模型学习机的历史与能力参照，但当前购买状态应单列待确认。与新型号比较时，应核对讲题方式、教材适配和权益，而非将旧款价格简单外推。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "国内课后辅学需求明确，但教研、渠道和品牌竞争已密集。"
+    },
+    "architecture": [
+      {
+        "name": "问题输入",
+        "detail": "语音、圈画及题目等多种输入进入讲题流程。",
+        "evidence": "official"
+      },
+      {
+        "name": "学科理解",
+        "detail": "官方介绍知识薄弱点诊断与同步AI学习。",
+        "evidence": "official"
+      },
+      {
+        "name": "模型讲解",
+        "detail": "星火支持分步讲解、图示和重点板书。",
+        "evidence": "official"
+      },
+      {
+        "name": "追问反馈",
+        "detail": "通过语音、圈画或点击板书继续提问。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容维护",
+        "detail": "教材、课程及模型服务组成持续更新层的功能示意。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "讯飞领用商城T30 Pro",
+        "url": "https://ly.xunfei.cn/goods/k8AuU6yWkvGx",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china"
+        ],
+        "note": "页面明确无库存、价格无效，因此保守待确认。"
+      },
+      {
+        "title": "科大讯飞智慧教育T30 Pro介绍",
+        "url": "https://edu.iflytek.com/about-us/news/special-column/1355.html",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "2024-09官方产品介绍可支持能力，不作为2026实时库存证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "oura-ring-4",
+    "name": "Oura Ring 4",
+    "brand": "Oura",
+    "category": "wearables",
+    "tagline": "指环采集与应用中的AI解释结合",
+    "officialUrl": "https://ouraring.com/store/rings/oura-ring-4/silver",
+    "status": "on_sale",
+    "statusEvidence": "官方Ring 4银色商店页显示US$349、尺码选择和Add to Cart。Oura Advisor官方支持页确认Gen3及以后且有效会员可使用。",
+    "regions": [
+      "美国官网"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实中国大陆官方配送和地区订阅。境外购买、App可下载与完整会员功能可用需要分别确认。"
+    },
+    "price": {
+      "text": "银色 US$349；会员另计",
+      "note": "材质颜色、延长保障及地区会员价格不同；Advisor需要有效会员，不能把一次性戒指售价当作全部使用成本。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "生理感知算法整理睡眠、活动等指标，Oura Advisor结合大语言模型解释个人记录并回答问题；指环本身不是聊天终端。",
+      "dependency": "需要配套Oura App；Advisor要求Gen3或更新硬件及有效会员，使用个人资料、标签和历史数据形成建议。"
+    },
+    "highlights": [
+      "无屏幕指环形态",
+      "Smart Sensing与持续数据记录",
+      "大语言模型Advisor需有效会员"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户想了解睡眠和日常状态，又不愿夜间佩戴手表，可能接受更低存在感的指环。应观察长期佩戴、充电中断和记录后是否改变习惯，不能把更多指标当作健康收益。",
+      "userProfile": "用户画像推断：习惯查看个人数据、愿意正确选尺码并支付订阅的人较匹配。需要精准运动实时显示、经常手工劳动或指部佩戴不适的人，可能更适合其他穿戴形态而非指环。",
+      "competition": "竞争判断：智能指环已有Oura、Ultrahuman、Samsung和RingConn等品牌，属于拥挤市场。算法解释、佩戴舒适、服务生态和总体费用比外形类似更能区分产品，不能单用传感器数排名。",
+      "supplyChain": "供应链推断：不同尺码造成电池、壳体和库存组合管理难度，微型封装和长期皮肤接触需稳定质量。官方未披露本型号具体代工工厂；试戴套件与尺寸相关退换也是交付成本。",
+      "technology": "官方说明Smart Sensing与Advisor的算法加大语言模型组合。推断应把信号质量、指标估计和语言解释分层评估，模型回答流畅不能证明底层测量准确，也不能代替医学诊断。",
+      "aesthetics": "审美判断：钛材和接近首饰的外形有助于与日常穿搭共存，无屏幕也减少打断。颜色、厚度和表面磨损影响长期佩戴意愿；不同手型的舒适感应通过试戴而非渲染图判断。",
+      "risks": "风险判断：睡眠等数据属于敏感个人信息，AI解释可能让用户过度关注单日分数。官方明确非医疗设备；本目录只分析消费级记录能力，不据此提供诊断、用药或治疗结论。",
+      "opportunity": "市场观察：比较时应把戒指价格、会员要求、地区App和AI功能权限列在一起。指环的主要区分在于长期数据质量与解释方式，不能把一段Advisor演示等同完整产品优势。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "首饰形态健康追踪已有多个品牌，订阅和算法解释形成差异。"
+    },
+    "architecture": [
+      {
+        "name": "指环采集",
+        "detail": "Smart Sensing支持持续生理与活动记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "指标估计",
+        "detail": "健康感知算法整理分数与相关贡献因素。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用上下文",
+        "detail": "App中的活动、标签、资料及互动历史。",
+        "evidence": "official"
+      },
+      {
+        "name": "语言解释",
+        "detail": "Advisor将算法结果与大语言模型结合回答问题。",
+        "evidence": "official"
+      },
+      {
+        "name": "权限与展示",
+        "detail": "有效会员通过手机应用访问Advisor。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oura Ring 4官方商店",
+        "url": "https://ouraring.com/store/rings/oura-ring-4/silver",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "列尺码、银色价格和加购入口。"
+      },
+      {
+        "title": "Oura Advisor官方支持",
+        "url": "https://ouraringhelp.zendesk.com/hc/en-us/articles/39512345699219-Oura-Advisor",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "risks"
+        ],
+        "note": "说明LLM、会员、数据来源及非医疗设备边界。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "whoop-5",
+    "name": "WHOOP 5.0",
+    "brand": "WHOOP",
+    "category": "wearables",
+    "tagline": "以连续记录和会员制AI教练服务训练人群",
+    "officialUrl": "https://www.whoop.com/us/en/membership/",
+    "status": "on_sale",
+    "statusEvidence": "官方会员购买页提供加入入口，One和Peak均明确包含WHOOP 5.0；Life搭配MG，不能将MG专属能力写到本条5.0上。",
+    "regions": [
+      "美国官网"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实中国大陆官方销售和会员开通条件；硬件流通不能证明云端会员及全部功能在当地可用。"
+    },
+    "price": {
+      "text": "会员制；当前地区套餐价为准",
+      "note": "不同地区、首年优惠、续订和硬件组合存在差异；本条不把旧会员报价或MG套餐当作5.0统一价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "连续生理与训练记录结合WHOOP应用中的AI指导，围绕恢复、负荷与习惯解释个人数据，属于感知算法加语言服务。",
+      "dependency": "硬件与WHOOP会员服务绑定，AI指导在手机应用中使用；所含功能随One、Peak等套餐变化。"
+    },
+    "highlights": [
+      "无屏幕连续佩戴",
+      "训练、恢复和睡眠记录",
+      "硬件与持续会员打包"
+    ],
+    "analysis": {
+      "demand": "需求假设：有固定训练安排的人希望将睡眠、负荷和恢复放在一起查看，减少只凭感觉安排训练的困惑。应测试建议是否帮助用户理解状态，而不把恢复分数视为绝对训练指令。",
+      "userProfile": "用户画像推断：愿意持续佩戴、记录生活习惯并理解会员制的运动人群较适合。仅需要计步、消息或偶尔看时间的用户，可能无法从无屏幕形态和长期订阅中获得同等价值。",
+      "competition": "竞争判断：训练恢复服务与运动手表、无屏幕手环和指环交叉竞争，属于拥挤赛道。WHOOP的差异是会员服务与长期行为数据结合；新旧硬件和套餐也使比较不能只看购入价格。",
+      "supplyChain": "供应链推断：长时佩戴要求表带透气、传感接触稳定且充电便利，配件更替会影响复购与兼容。官方未披露本型号制造工厂；会员支持和设备保障是持续运营成本，不能忽略。",
+      "technology": "官网把连续数据、训练指标与AI指导结合。推断技术挑战在于不同运动的信号误差、个人基线变化和建议解释一致性；5.0与MG应分开，不能把后者的专属健康功能混入本条。",
+      "aesthetics": "审美判断：取消屏幕降低通知和视觉负担，织物表带更接近日常配饰。代价是查看结果仍需手机；汗后清洁、睡觉压迫感与配色选择，对长期佩戴可能比硬件正面造型更重要。",
+      "risks": "风险判断：会员持续收费和套餐变化影响长期成本，单一分数也可能诱发过度解读。个人训练建议不等于医学诊断；未经当地授权的健康功能、跨境会员及数据使用条款需单独确认。",
+      "opportunity": "市场观察：应将WHOOP视为持续数据服务附带硬件，与一次性买断手表分别比较。目录重点记录套餐、5.0与MG边界及地区服务，避免用更高级套餐的功能美化基础产品。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "运动恢复监测竞争密集，无屏幕与会员服务是定位而非无人竞争。"
+    },
+    "architecture": [
+      {
+        "name": "连续记录",
+        "detail": "5.0持续采集与睡眠、训练和恢复相关的数据。",
+        "evidence": "official"
+      },
+      {
+        "name": "指标整理",
+        "detail": "应用组织负荷、恢复和个人趋势。",
+        "evidence": "official"
+      },
+      {
+        "name": "上下文积累",
+        "detail": "生活记录与长期历史为指导提供背景的功能示意。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI指导",
+        "detail": "官方2026说明应用中的个性化AI教练体验。",
+        "evidence": "official"
+      },
+      {
+        "name": "会员交付",
+        "detail": "One与Peak的5.0硬件及服务权限按套餐交付。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "WHOOP会员与硬件购买页",
+        "url": "https://www.whoop.com/us/en/membership/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "dependency",
+          "product-line"
+        ],
+        "note": "可加入会员，明确5.0与MG套餐区分。"
+      },
+      {
+        "title": "WHOOP AI指导官方说明",
+        "url": "https://www.whoop.com/us/en/thelocker/new-ai-guidance-from-whoop/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "2026官方说明AI指导在应用中的定位。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "ultrahuman-ring-air",
+    "name": "Ultrahuman Ring AIR",
+    "brand": "Ultrahuman",
+    "category": "wearables",
+    "tagline": "无屏幕生理记录与应用中的状态解释",
+    "officialUrl": "https://www.ultrahuman.com/mc/ring/buy/",
+    "status": "on_sale",
+    "statusEvidence": "已打开的摩纳哥地区官方商店提供Ring AIR的Buy now及加购流程；美国通用购买入口已转向Ring PRO，因此本条只确认所核地区，不推断AIR在美国同样现售。",
+    "regions": [
+      "摩纳哥官网",
+      "瑞士官网（产品介绍）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实中国大陆官方渠道、物流和全部服务权限；不同地区官网和不同代际不能互相替代。"
+    },
+    "price": {
+      "text": "以地区官网Ring AIR结算价为准",
+      "note": "需注意通用购买入口可能跳转Ring PRO；附加PowerPlugs与保护计划不等于基础记录服务，不能混报两代价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方睡眠说明明确以机器学习推断睡眠阶段；2026官方介绍Jade向Ultrahuman用户推出，用于整合记录、解释趋势与提供交互。",
+      "dependency": "需配套应用同步和查看数据；Jade、PowerPlugs及跨设备功能受地区和版本影响，不能假设所有能力在戒指端离线完成。"
+    },
+    "highlights": [
+      "无屏幕轻量指环",
+      "机器学习睡眠阶段估计",
+      "应用与附加功能服务组成完整体验"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望在较少佩戴负担下了解睡眠和生活节律，并把数据用于日常习惯回顾。需要观察连续佩戴和指标理解，而不是把一个分数的提升直接视为身体状态改善。",
+      "userProfile": "用户画像推断：喜欢指环形态、愿意试戴选码并使用手机看趋势的人较匹配。经常抓握器械、手指容易肿胀或需要实时屏幕反馈的用户，可能需要先比较手环和运动手表。",
+      "competition": "竞争判断：智能指环市场已经有多家品牌，竞争集中在佩戴、续航、算法与订阅结构。AIR与新PRO并存时，还需要说明代际边界；品牌推出新机不意味着旧机在每个国家都可购。",
+      "supplyChain": "供应链推断：尺码多、微型电池和金属外壳使备货及质量控制复杂，长期密封和皮肤接触也重要。官方本次资料未披露AIR具体制造工厂；跨地区配送和换新是实际交付的一部分。",
+      "technology": "官方说明以机器学习估计睡眠阶段，并发布Jade数据解释层。推断应分别评估采集质量、阶段估计和语言回复，且不能把PRO公布的处理器或新传感结构直接写成AIR硬件参数。",
+      "aesthetics": "审美判断：接近普通金属戒指的外观能降低运动设备存在感，也更依赖尺寸、表面处理和磨损后的观感。无屏幕提高穿搭兼容，但把所有解释留给手机，形成不同于腕表的使用习惯。",
+      "risks": "风险判断：不同地区产品路径及售卖代际不一致，全球可访问网页并非全球可交付。睡眠阶段是消费级估计，不应据此诊断疾病；指环数据、账户和AI互动需要清晰的权限说明。",
+      "opportunity": "市场观察：比较AIR时应固定国家和代际，再对照基础服务、附加插件与售后。其研究价值在于展示指环如何从数据记录延伸到解释服务，而不是将厂商AI描述直接当作效果验证。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "指环健康记录已有多个对手，地区渠道和代际差异会影响选择。"
+    },
+    "architecture": [
+      {
+        "name": "指端记录",
+        "detail": "指环读取生理与运动信号，形成连续记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "阶段估计",
+        "detail": "官方说明机器学习模型推断睡眠阶段。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用汇总",
+        "detail": "在应用中查看状态、趋势和相关上下文。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI解释",
+        "detail": "Jade面向Ultrahuman用户整合生态数据。",
+        "evidence": "official"
+      },
+      {
+        "name": "附加服务",
+        "detail": "插件、版本及地区决定部分拓展功能。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ultrahuman摩纳哥地区Ring AIR商店",
+        "url": "https://www.ultrahuman.com/mc/ring/buy/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions",
+          "dependency"
+        ],
+        "note": "明确Ring AIR购买入口；仅确认该地区页面，未下单。"
+      },
+      {
+        "title": "Ultrahuman睡眠阶段算法说明",
+        "url": "https://www.ultrahuman.com/science/explainers/sleep-stages/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "说明机器学习估计路径，不将其视为医疗诊断。"
+      },
+      {
+        "title": "Ultrahuman 2026 Jade官方发布",
+        "url": "https://cyborg.ultrahuman.com/press-releases/ultrahuman-unveils-ring-pro-with-category-defining-15-day-battery-and-jade-worlds-first-real-time-biointelligence-ai",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "product-line"
+        ],
+        "note": "Jade面向全体用户推出；其中PRO硬件参数不移植到AIR。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "amazfit-balance-2",
+    "name": "Amazfit Balance 2",
+    "brand": "Amazfit / Zepp Health",
+    "category": "wearables",
+    "tagline": "多运动记录与语音控制、AI训练计划结合",
+    "officialUrl": "https://us.amazfit.com/products/balance-2",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商品页显示US$299.99及Add to cart，并在同页区分Balance 2、Balance 3与Balance Ultra；本条只记录Balance 2。",
+    "regions": [
+      "美国官网",
+      "日本官网"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次仅完整核实美国官方商店；大陆版本与Zepp Flow语言、地区能力尚未对齐，不把海外AI语音功能直接套用国行。"
+    },
+    "price": {
+      "text": "美国官网 US$299.99",
+      "note": "官网当前Balance 2版本标价；同页另有新代际及高级款，不应混入其价格和参数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "生理和运动感知支持Zepp Coach个性化AI训练计划；Zepp Flow提供自然语音控制以及消息回复建议和翻译。",
+      "dependency": "需要Zepp App；Zepp Flow仅在选定地区和语言可用，官网列出的语言不包含中文，部分回复功能要求Android连接。"
+    },
+    "highlights": [
+      "Zepp Coach个性化训练计划",
+      "Zepp Flow语音控制与回复辅助",
+      "明确地区、语言及手机平台条件"
+    ],
+    "analysis": {
+      "demand": "需求假设：运动用户希望在训练、恢复和日常使用之间减少切换，语音操作能在不便触屏时提供价值。应比较它是否减少操作步骤，而不是以支持AI助手作为购买价值的充分证明。",
+      "userProfile": "用户画像推断：有跑步、力量或混合运动安排，愿意用应用查看训练计划的人较匹配。手腕大小、所用手机、语言和习惯运动种类都会影响体验，不能只按宣传运动模式数量选择。",
+      "competition": "竞争判断：运动智能手表处于拥挤市场，面对Garmin、Huawei、Apple及其他品牌。差异来自训练与恢复流程、续航和跨场景体验；“AI计划”本身不是没有替代产品的细分。",
+      "supplyChain": "供应链推断：显示玻璃、金属框架、防水结构、光学传感和表带需在佩戴舒适与耐用间平衡。官方列出材料及传感器但未披露制造工厂，地区固件和地图也增加交付配置复杂度。",
+      "technology": "官网明确Zepp Coach、Zepp Flow及生理感知功能。推断运动算法、训练建议和语音任务执行应分别验收，语音回复流畅不能证明运动测量准确；不同手机的权限会改变实际功能。",
+      "aesthetics": "审美判断：圆形表盘和运动材料可覆盖训练与日常穿搭，屏幕信息组织比静态表壳更影响使用。较大尺寸与丰富指标也可能让小腕用户或轻度用户感到负担，应结合真实佩戴判断。",
+      "risks": "风险判断：Zepp Flow有明确地区和语言限制，海外网页能力不能直接等同中国版本。生理指标及训练建议属于消费级参考，不据此作诊疗或保证运动表现；续航也随使用方式变化。",
+      "opportunity": "市场观察：目录应将语言、手机平台、训练计划、地图和基础服务费用并列。Balance 2仍有购买入口不代表它是最新型号，明确代际可避免用新品宣传误导对旧款能力的理解。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "运动手表和AI训练服务已有多家品牌，平台与语言限制影响细分定位。"
+    },
+    "architecture": [
+      {
+        "name": "运动生理输入",
+        "detail": "官方列PPG、运动传感器与定位能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "算法与计划",
+        "detail": "运动恢复指标连接Zepp Coach训练计划。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音任务",
+        "detail": "Zepp Flow控制设置并辅助消息回复。",
+        "evidence": "official"
+      },
+      {
+        "name": "腕上反馈",
+        "detail": "AMOLED、声音和震动提供即时反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机与地区层",
+        "detail": "Zepp App、手机平台及支持语言决定服务范围。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amazfit美国Balance 2官方商店",
+        "url": "https://us.amazfit.com/products/balance-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "含当前加购、规格、Zepp Flow语言及Android限制。"
+      },
+      {
+        "title": "Amazfit日本Balance 2商店",
+        "url": "https://www.amazfit.jp/products/amazfit-balance2",
+        "kind": "official-store",
+        "supports": [
+          "regions"
+        ],
+        "note": "已打开日本官方地区商品页；不据此推断中国大陆版本能力。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "samsung-galaxy-watch8",
+    "name": "Samsung Galaxy Watch8",
+    "brand": "Samsung",
+    "category": "wearables",
+    "tagline": "腕上助手与健康数据服务结合的生态型手表",
+    "officialUrl": "https://www.samsung.com/us/watches/galaxy-watch8/",
+    "status": "on_sale",
+    "statusEvidence": "美国官方页面提供Buy now及US$299.99起信息；三星中国官网也有Watch8购买配置页。不同国家的语音助手和健康功能不能视为完全相同。",
+    "regions": [
+      "美国",
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已打开三星中国Watch8官方购买页。美国宣传的Gemini、健康功能及账户条件必须与国行页面分别核对，不能据此保证国行功能相同。"
+    },
+    "price": {
+      "text": "美国官网 US$299.99 起；国行以官方配置价为准",
+      "note": "尺寸、蓝牙/LTE、配件及促销会改变价格；不把折抵换新优惠当作无条件售价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "海外版将腕上生成式助手与健康算法服务结合，基于穿戴记录提供能量、睡眠和活动相关信息；功能随区域与账户条件变化。",
+      "dependency": "依赖兼容Android/部分Samsung Galaxy手机、Samsung Health及账号；海外语音助手联网与地区要求需单独确认，不能推广到国行。"
+    },
+    "highlights": [
+      "腕上自然语言助手（海外版）",
+      "Samsung Health与个人状态信息",
+      "中国与海外均有官方购买入口"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有Android或Samsung生态的用户，希望在手腕完成短任务并查看日常状态，可能更看重设备协同而非单一AI功能。应验证常用任务是否真能离开手机完成，减少重复操作。",
+      "userProfile": "用户画像推断：持续佩戴手表、使用兼容手机并愿意设置多个账户的人较匹配。iPhone使用者、追求极简无通知或只想记录睡眠的人，需要先比较生态限制和充电习惯再决定。",
+      "competition": "竞争判断：通用智能手表是高度拥挤市场，竞争不只在硬件，还涉及应用、手机生态与服务地区。腕上助手可提升便利性，但往往受平台策略影响，不能把它视为独立小硬件的全部价值。",
+      "supplyChain": "供应链推断：高集成芯片、显示、无线连接、防水结构与多传感系统需要规模化验证。三星品牌不等于本型号所有部件自制，本次未披露具体组装工厂，因此不猜测供应商关系。",
+      "technology": "官方将Galaxy AI、状态分析和海外腕上助手结合。推断应把测量、健康算法及自然语言任务执行分层看待，同时核对功能实际运行在手表、手机还是云端，避免误称全部端侧AI。",
+      "aesthetics": "审美判断：表盘与缓冲式轮廓在运动设备和日常配饰之间取得平衡，表带贴合也影响传感接触。界面信息和通知密度会改变高级感与安静感，单靠材质或表壳渲染不足以判断。",
+      "risks": "风险判断：中国和海外服务存在差异，语言、账号、联网和兼容手机限制会影响体验。健康指标与AI建议不构成诊断；涉及特定健康功能时，应按当地许可和官方使用条件核查。",
+      "opportunity": "市场观察：该产品适合作为生态型智能穿戴参照，比较应固定地区、手机和版本。目录明确腕上任务与健康算法两条能力路径，比笼统称为“AI手表”更能帮助理解实际竞争关系。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "通用智能腕表已有成熟手机生态竞争，地区与平台适配是决定性约束。"
+    },
+    "architecture": [
+      {
+        "name": "穿戴记录",
+        "detail": "手表采集活动与健康相关信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "个人状态",
+        "detail": "Samsung Health整理睡眠和活动等状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "腕上助手",
+        "detail": "海外页面列AI助手交互，与国行分别理解。",
+        "evidence": "official"
+      },
+      {
+        "name": "生态连接",
+        "detail": "兼容手机、账户和网络连接构成服务条件。",
+        "evidence": "official"
+      },
+      {
+        "name": "使用反馈",
+        "detail": "屏幕、声音与应用完成任务反馈的功能示意。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Samsung美国Watch8产品及购买",
+        "url": "https://www.samsung.com/us/watches/galaxy-watch8/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "美国版能力和购买入口；不推导国行功能。"
+      },
+      {
+        "title": "Samsung中国Watch8购买页",
+        "url": "https://www.samsung.com.cn/watches/galaxy-watch8/buy/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "china"
+        ],
+        "note": "确认大陆官方购买配置入口，不以动态模板推断具体库存。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]

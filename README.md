@@ -20,7 +20,7 @@
 | --- | --- | --- |
 | **01 · 行业 AI 历程** | 技术演进、关键节点与值得继续追问的问题 | 有一手资料来源的历史时间线，以及行业观察编辑初稿 |
 | **02 · 我的创业经历** | 每段经历的背景、选择、行动、结果与复盘 | 序章编辑初稿、经历填写模板，等待真实材料逐篇补充 |
-| **03 · 智能硬件方向** | 面向具体使用场景的想法、问题与后续验证 | 预留探索入口，随实际进展持续完善 |
+| **03 · 智能硬件方向** | 面向具体使用场景的想法、问题与后续验证 | 全球市场目录：60款 / 系列、14类、逐款八维分析与产品对比 |
 
 ## 01 · 行业 AI 历程
 
@@ -57,11 +57,25 @@
 
 [阅读全文](docs/journal.md) · [开始提交一段经历](content/journey-template.md)
 
-## 03 · 智能硬件方向
+## 03 · AI 智能硬件市场目录
 
-为未来方向留下一份持续更新的研究记录：先描述使用场景与问题，再写下产品假设、验证方式和实际反馈。当前是栏目框架，尚未宣称存在已开发产品或验证结果。
+[打开市场目录](https://romanagent.github.io/Roman/#hardware) · [GitHub 分类阅读版](docs/hardware-market.md) · [市场横向观察](docs/hardware-market-insights.md) · [研究方法](docs/hardware-methodology.md)
 
-[阅读智能硬件方向初稿](content/ai-notes.md#02--智能硬件先找到值得存在的场景)
+[![市场目录界面](assets/hardware-preview.jpg)](https://romanagent.github.io/Roman/#hardware)
+
+首轮核查 **60 款 / 系列、14 个分类**，核查日期 **2026-11-04**。其中 48 款有官方在售依据、3 款接受预订或延期订单、8 款待复核、1 款停售观察。默认网页只显示在售与预售 / 延期订单；地区库存、型号与交付条件保留在详情中。
+
+覆盖 AI 眼镜、录音与记忆、翻译音频、健康穿戴、手机与 AI PC、陪伴宠物、教育学习、家庭安防、清洁机器人、庭院自然、厨房烹饪、影像创作、具身机器人、开发与制造。
+
+- 每款包含需求、用户画像、竞争、供应链、技术、审美、风险、市场空间八项案头分析。
+- 支持产品 / 品牌 / AI能力搜索，销售状态、国内购买情况、竞争类型和AI类型筛选。
+- 最多三款产品横向对比；可导出当前筛选结果的完整研究 JSON。
+- 每款有来源、核查日期、服务依赖与功能分层图。概念图不是实物拆机；Reachy Mini 另附官方装配示意。
+- 内容可直接在 GitHub 阅读，无需打开网站。
+
+**边界：这是首轮代表性案头研究，不是全球全部 SKU 的穷尽清单。** 未开展用户访谈、销量审计或实物测试；“细分专业”不等于蓝海。厂商声明、资料事实与分析推断分开标注，不虚构未披露供应商、BOM 成本或成功概率。
+
+Idea 投稿与在线 AI 分析按当前要求暂缓。
 
 ## 本地预览
 
@@ -83,11 +97,21 @@ python3 -m http.server 4173
 | [`content/ai-articles.json`](content/ai-articles.json) | 行业与智能硬件观察文章；生成 [`content/ai-notes.md`](content/ai-notes.md) |
 | [`content/journal.json`](content/journal.json) | 创业手记文章及展示状态；生成 [`docs/journal.md`](docs/journal.md) |
 | [`content/journey-template.md`](content/journey-template.md) | 逐篇提交真实经历的模板 |
+| [`content/hardware/metadata.json`](content/hardware/metadata.json) | 硬件分类、研究边界与覆盖缺口 |
+| [`content/hardware/`](content/hardware/) 中的 `research-*.json` | 逐产品原始研究记录；合并生成 `catalog.json` 与 `docs/hardware/` |
+| [`docs/hardware-market-insights.md`](docs/hardware-market-insights.md) | 本轮跨产品观察与后续真实调研计划；同步进入网页 |
 
 修改 JSON 后，在项目目录执行以下命令，同步更新 GitHub 阅读版；此步骤使用 Node.js，无需安装任何依赖：
 
 ```sh
 node scripts/export-content.mjs
+```
+
+硬件目录的研究记录或市场观察更新后运行：
+
+```sh
+npm run catalog
+npm run check
 ```
 
 将修改后的 JSON 和生成的 Markdown 一起提交。网页读取 JSON，GitHub 直接展示 Markdown，两种阅读方式保持相同的正文与资料来源。

@@ -1,0 +1,420 @@
+[
+  {
+    "id": "dingtalk-a1-personal",
+    "name": "DingTalk A1（个人版·云享版）",
+    "brand": "钉钉",
+    "category": "recording",
+    "tagline": "连接钉钉工作流的实体语音记录入口",
+    "officialUrl": "https://market.aliyun.com/detail/cmiot00073017",
+    "status": "on_sale",
+    "statusEvidence": "已打开阿里云市场商品，商家标识为钉钉-云市场精选店、自营；列出个人云享版899元/台、硬件颜色、IoT交付和立即购买。与A1 Pro、A2及企业套餐分开记录。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "阿里云市场钉钉自营入口可核验，提供实际套餐和购买控件；订单交付地区、包含的软件权益与续费条件以所选版本确认。"
+    },
+    "price": {
+      "text": "¥899/台（个人云享版）",
+      "note": "当前钉钉自营云市场价；企业版、尊享版和Pro价格不同。页面标有权益有效期，不能把硬件购置理解为所有AI服务永久无限使用。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "语音识别、发言人区分、AI纪要与待办整理，依托钉钉应用和工作流。",
+      "dependency": "需要钉钉账户及适用服务；个人版与企业设备管理、部署和权益不同，不能把企业方案能力默认算给个人硬件。"
+    },
+    "highlights": [
+      "中国官方自营购买入口",
+      "录音到纪要、待办的工作流",
+      "个人与企业版本需要区分",
+      "不将A1 Pro或A2参数混入本款"
+    ],
+    "analysis": {
+      "demand": "需求假设：已经在钉钉中协作的人，希望线下交流也能进入现有任务与文档流程。设备价值需要用会后跟进是否更完整衡量，而不是只看生成了多少文字，或是否贴上大模型标签。",
+      "userProfile": "画像推断：日常使用钉钉、会议和客户交流密集的个人更匹配；企业管理员另有设备及数据管理需求。个人与组织的购买决策不同，不能依据企业功能推断每位员工都需要额外硬件。",
+      "competition": "案头判断：与Plaud、讯飞录音器、手机和钉钉软件听记本身竞争，硬件录音方向拥挤。生态整合是差异线索，未做访谈、销量或投入产出研究，不能据软件用户规模推算硬件需求。",
+      "supplyChain": "自营商店明确交付硬件与服务，但整机代工厂、元器件采购和良率未披露。公开营销页面的芯片和续航口径未全部交叉核实，因此不补写厂商；推断制造难点仍在小体积拾音与可靠性。",
+      "technology": "已核查自营页明确声纹相关识别、纪要和钉钉协同。完整芯片、声学及模型部署未在可读规格中披露；另一个官网推广页标为AI生成，未将其夸张效率数字或续航文字作为技术事实。",
+      "aesthetics": "图示与形态观察：录音卡减少传统长条录音笔的存在感，更像办公配件。状态可见性、手机附着和桌面摆放是否方便仍需实测；硬件低调不应削弱对录音状态与参与者告知的重视。",
+      "risks": "主要风险是版本与软件权益混淆，以及记录进入组织流程后权限边界不清。纪要和行动项仍可能误归属，不能把AI对人员的推断直接用于决策；当前套餐有效期与续费需按订单核对。",
+      "opportunity": "市场差异是已有协作生态承接录音后的工作成果。尚待验证的购买理由是用户是否愿意把线下记录沉淀在钉钉，以及硬件比手机软件入口是否显著更可靠、更容易在日常工作中坚持使用。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "录音卡已有多家竞品，钉钉工作流整合是具体差异，而非已验证的低竞争市场。"
+    },
+    "architecture": [
+      {
+        "name": "实体采集",
+        "detail": "录音硬件承担线下语音输入；概念功能架构，非拆机图。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备到应用",
+        "detail": "连接钉钉账户与应用，将录音纳入工作内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别与整理",
+        "detail": "声纹相关区分、语音识别与AI纪要生成。",
+        "evidence": "official"
+      },
+      {
+        "name": "工作流承接",
+        "detail": "纪要、待办和分析报告进入钉钉协同；企业管理能力按版本提供。",
+        "evidence": "official"
+      },
+      {
+        "name": "权限与复核",
+        "detail": "用户确认归属、权限和任务内容后使用，作为工作流程建议而非自动正确保证。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "阿里云市场 · 钉钉自营DingTalk A1",
+        "url": "https://market.aliyun.com/detail/cmiot00073017",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china",
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，钉钉自营标识、IoT交付、¥899个人云享版和立即购买可见；未实际下单。"
+      },
+      {
+        "title": "钉钉官网 · A1工作流介绍与购买链接",
+        "url": "https://www.dingtalk.com/qidian/page-gNYonOit.html",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "dependency"
+        ],
+        "note": "已打开并沿官方链接访问产品页及天猫；该文章注明通义千问生成，仅用作入口和生态说明，不采用其效能、续航或权益数字。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "iflytek-magic-recorder",
+    "name": "讯飞AI录音笔 Magic",
+    "brand": "科大讯飞",
+    "category": "recording",
+    "tagline": "把语音输入、随身记录与电脑工作连接起来",
+    "officialUrl": "https://www.iflyrecorder.com/magic",
+    "status": "on_sale",
+    "statusEvidence": "讯飞录音笔官方产品目录和参数页均列Magic为¥899，产品页提供京东立即购买，并提供Windows和Mac客户端。属于当前官方列售，未核验具体收货地区实时库存。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已打开讯飞录音笔官网商品与参数页，并访问其京东购买链接。国内零售价、促销及批次配置以最终SKU为准。"
+    },
+    "price": {
+      "text": "¥899（官网标价）",
+      "note": "官方目录与参数页一致；实际平台促销、套装及软件权益可能不同，不推断所有AI服务永久免费。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "语音转写、方言识别和AI指令，结合会议摘要、重点与待办整理。",
+      "dependency": "电脑语音输入依赖Windows/Mac客户端，手机查看依赖讯飞录音笔App；具体在线、离线能力和服务额度应按功能核实。"
+    },
+    "highlights": [
+      "语音直接输入电脑的工作场景",
+      "随身闪念与会议记录",
+      "官方三麦克风、64GB存储",
+      "Windows、Mac及手机查看入口"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户既要会后整理，也要在电脑前更快输入想法。把录音笔与语音输入连接能覆盖更多时刻，但需要验证语音修订、环境噪声和电脑软件兼容是否比键盘或普通麦克风方便。",
+      "userProfile": "画像推断：经常写文档、回消息、参加访谈并愿意用语音组织思路的人更匹配。安静共享办公区或习惯精确键盘编辑的人可能不愿出声，不能把识别准确率直接等同输入效率提升。",
+      "competition": "案头判断：与手机录音、电脑听写、USB麦克风和AI会议工具都存在重叠，竞争较拥挤。跨场景是待验证卖点；没有销量、使用留存或访谈数据，不能据多功能判断用户愿意多带设备。",
+      "supplyChain": "官方披露OLED、三麦克风、RTOS和无线连接，但主控、屏幕厂商、整机工厂及良率不明。推断语音入口产品还需要稳定的客户端维护和跨系统支持，不能只按录音硬件估算成本。",
+      "technology": "可核实的能力包括语音输入、转写、说话人区分与摘要；硬件有本地存储和无线连接。端云任务边界与底层模型未完整披露，不能因为设备能录音就认为生成式功能无需电脑或网络。",
+      "aesthetics": "图示观察：细长机身、窄屏与实体按键延续录音工具的可识别性，也便于看见状态。它不像隐藏式吊坠那样弱化用途；屏幕可读性、口袋携带及单手操作仍需实际试用才能判断。",
+      "risks": "风险包括客户端兼容、语音输入误触发、会议转写遗漏与AI摘要错误。日常办公录音还涉及参与者知情和内容权限；多端访问便利会同时增加文件管理和设备丢失后的访问控制要求。",
+      "opportunity": "市场差异在于语音作为电脑输入方式与录音后整理共用一个设备。尚待验证的购买理由是用户是否在多个场景重复使用，还是大多数时候被已有手机、电脑麦克风和软件功能替代。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "录音与电脑听写均有成熟软件/硬件替代，跨端整合属于差异线索而非市场空白。"
+    },
+    "architecture": [
+      {
+        "name": "语音与按键",
+        "detail": "一颗定向加两颗全向麦克风及录音/Mark键；概念功能图，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机记录",
+        "detail": "RTOS设备、64GB存储和屏幕显示状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "多端连接",
+        "detail": "Wi-Fi/蓝牙连接，Windows、Mac客户端与手机App承接不同用途。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别与生成",
+        "detail": "语音输入、转写、AI指令和会议要点整理，部署细节未公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "输入与笔记输出",
+        "detail": "文字进入电脑工作、会议结果在应用中查看和复核。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "讯飞录音笔官网 · Magic产品与购买入口",
+        "url": "https://www.iflyrecorder.com/magic",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "china",
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，立即购买指向京东，Windows/Mac客户端与核心工作场景可见。"
+      },
+      {
+        "title": "讯飞录音笔官网 · Magic产品参数",
+        "url": "https://www.iflyrecorder.com/Goods_parms/1/601.html",
+        "kind": "official-spec",
+        "supports": [
+          "price",
+          "technology",
+          "architecture",
+          "aesthetics"
+        ],
+        "note": "已打开，¥899、三麦克风、64GB、RTOS等；两个发布日期不擅自解释成两个硬件代际。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "iflytek-s8-offline",
+    "name": "讯飞AI录音笔 S8离线版",
+    "brand": "科大讯飞",
+    "category": "recording",
+    "tagline": "无无线通信、强调本地识别的独立记录终端",
+    "officialUrl": "https://www.iflyrecorder.com/Goods_desc/1/598.html",
+    "status": "on_sale",
+    "statusEvidence": "当前官方目录、产品页与参数页列出S8离线版，标价¥6999并提供京东立即购买入口。官方参数明确无线通信方式为无；不是仅凭旧发布新闻认定在售。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已打开国内官方产品、参数与京东入口。实际地区库存及单位采购条件仍需以订单和自身信息管理制度为准。"
+    },
+    "price": {
+      "text": "¥6999（官网标价）",
+      "note": "官方参数价；不同套装、渠道与采购合同可能不同。本地处理并不自动意味着适合任何保密等级或免除额外管理成本。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "本型号已核实的核心AI为离线语音转写、翻译与OCR等识别能力；未把系列通用生成式摘要宣传自动算给S8。",
+      "dependency": "无无线通信，数据与语言包通过本地设备和有线流程管理。具体语种、版本与更新方式应查本型号说明，不等同云端全功能。"
+    },
+    "highlights": [
+      "官方明确无无线通信",
+      "本地语音转写与翻译定位",
+      "屏幕、相机及多麦克风输入",
+      "独立安全芯片为厂商披露，非本研究审计"
+    ],
+    "analysis": {
+      "demand": "需求假设：某些工作环境要求音频不进入公网服务，同时仍希望减少手工转写。这里的关键价值是部署边界可控，而不是联网AI功能更多；需求应由真实信息管理要求和使用流程确认。",
+      "userProfile": "画像推断：有明确离线记录流程的组织人员，比普通轻度消费者更匹配。厂商面向政企的定位不能直接视为通过所有保密审查，实际采购仍需机构依据自己的规范进行设备和软件评估。",
+      "competition": "案头判断：与传统离线录音器、本地电脑转写及受控私有化方案竞争，属于专业细分。没有采购访谈、销量或总成本数据，不能据较高价格判断壁垒，也不能把少量竞品误作市场空间。",
+      "supplyChain": "官网公开八核处理器、存储、麦克风布局和屏幕规格，但芯片供应商及整机工厂仍不明。厂商年报提及独立安全芯片；本研究没有芯片型号、认证报告或制造审计，不能扩写成全面安全保证。",
+      "technology": "参数页明确无无线通信，厂商报告说明本型号支持转写、翻译及文件加密。它证明AI硬件可以以识别为核心，不必拥有云端聊天；未核实的生成式纪要、模型大小和语种表现均不补写。",
+      "aesthetics": "参数与图示呈现较大的带屏独立终端，金属与皮革材料偏正式办公。相比小录音卡更便于本机查看，但携带负担也不同；外观商务化不意味着采集质量或数据安全更高。",
+      "risks": "离线减少网络依赖，却不消除丢失、口令、导出介质和人员操作风险。识别错误仍可能发生，语言包更新也要管理；不能把厂商安全定位等同所有组织的准入认证或法律合规结论。",
+      "opportunity": "市场差异在于以本地处理和无无线通信作为明确边界。尚待验证的购买理由是用户是否真的需要这一限制、是否能接受功能与更新方式的取舍，以及本机流程是否比受控电脑方案更省事。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "以离线与受控记录流程为主要用途；专业细分不等于自动满足任何安全标准。"
+    },
+    "architecture": [
+      {
+        "name": "声音与图像输入",
+        "detail": "定向/全向麦克风与相机，概念功能架构，非拆机物料图。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地计算",
+        "detail": "八核处理器与本机存储，官方明确无无线通信。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别处理",
+        "detail": "本型号离线转写、翻译及OCR；不默认包含云端系列功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "存储与访问",
+        "detail": "厂商披露独立安全芯片和文件加密；本研究未进行安全验证。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机查看与导出",
+        "detail": "屏幕查看，通过有线方式管理内容；具体机构流程需另行配置。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "讯飞录音笔官网 · S8离线版与购买入口",
+        "url": "https://www.iflyrecorder.com/Goods_desc/1/598.html",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "china"
+        ],
+        "note": "已打开，明确本型号并有京东立即购买入口；未完成结算验证。"
+      },
+      {
+        "title": "讯飞录音笔官网 · S8离线版参数",
+        "url": "https://www.iflyrecorder.com/Goods_parms/1/598.html",
+        "kind": "official-spec",
+        "supports": [
+          "price",
+          "technology",
+          "architecture",
+          "aesthetics"
+        ],
+        "note": "已打开，¥6999、无线通信方式无、八核处理器等；未补写芯片厂商。"
+      },
+      {
+        "title": "科大讯飞2024年年报 · S8离线版说明（第28页）",
+        "url": "https://static.cninfo.com.cn/finalpage/2025-04-22/1223191180.PDF",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "userProfile"
+        ],
+        "note": "已打开并定位本型号段落，支持转写、翻译和安全芯片厂商陈述；不采用系列销量宣传推算本型号市场。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "rabbit-r1",
+    "name": "rabbit r1",
+    "brand": "rabbit",
+    "category": "computing",
+    "tagline": "用独立口袋终端访问对话、视觉与记录能力",
+    "officialUrl": "https://www.rabbit.tech/rabbit-r1",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方r1产品页仍显示US$199、buy now及3个工作日发货。可确认当前列售，不能据此确认仍持续生产；未用论坛停产传闻将官方库存销售改成停售。",
+    "regions": [
+      "国际官网支持配送地区（逐地结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实中国大陆官方销售、激活、云端连接与售后保障。具备中文翻译示例不等同大陆已正式支持。"
+    },
+    "price": {
+      "text": "US$199",
+      "note": "官网r1购置价并标示核心服务无订阅；网络流量、第三方模型、代理或其他外部服务的费用不能据此推定全部包含。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "语音和相机理解、翻译、录音转写摘要及生成式个性化，当前官方以rabbit OS3说明。",
+      "dependency": "需rabbit账户与联网激活；核心AI需网络。录音可离线保存，但回网后才上传并生成标题、摘要与转写；第三方代理另有依赖。"
+    },
+    "highlights": [
+      "官网仍有购买与发货承诺",
+      "屏幕、摄像头、滚轮与按键交互",
+      "离线录音与联网生成分开",
+      "当前文档对应OS3而非首发能力清单"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户可能希望有一个不被手机消息打断的独立AI入口，用实体按键快速提问或记录。核心问题是独立设备是否减少操作负担，还是增加充电、联网和随身携带的成本。",
+      "userProfile": "画像推断：愿意体验独立交互形态、使用语音或视觉工具的技术爱好者更匹配；需要成熟手机应用全覆盖的人不应默认适合。研究不能用早期关注度代替长期留存或日常任务成功率。",
+      "competition": "案头判断：外形相近的产品较少，但手机助手、录音器和浏览器AI都是强替代。属于新形态探索不代表低竞争；没有访谈、销量审计或实际任务测试，不能仅凭独特设计判断市场空间。",
+      "supplyChain": "官方明确teenage engineering参与工业设计，但设计合作不等于整机代工；当前工厂、备件和继续生产安排未披露。推断带屏、相机与独立网络使可靠性和软件维护范围大于单纯录音吊坠。",
+      "technology": "当前文档区分本地录音与联网后的AI生成，并提供OS3账户、相机与多种输入。不能沿用首发时所有承诺描述现状；第三方代理与自带模型连接也不代表硬件本机拥有对应模型算力。",
+      "aesthetics": "图示观察：高辨识度橙色、实体滚轮与小屏幕具有复古电子产品气质，容易形成记忆点。视觉独特性并不证明任务效率；单手操作、屏幕信息密度和公开场景语音使用仍需实测。",
+      "risks": "官方录音帮助页提示续航与联网、亮度等相关，长会需外接电源；功能持续演进也可能改变熟悉流程。云服务、账户及第三方代理增加依赖，核心服务免订阅不能解释成永久服务保证。",
+      "opportunity": "市场差异是以独立终端承载对话和视觉任务，而非手机里的一个应用。尚待验证的购买理由是实体控制与低干扰体验能否形成稳定使用习惯，并覆盖额外携带、充电和连接管理的成本。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "独立口袋AI终端仍在探索，但面临手机和软件助手强替代；不以形态稀少推断需求。"
+    },
+    "architecture": [
+      {
+        "name": "多模态输入",
+        "detail": "相机、麦克风、触屏、滚轮与按键；功能架构，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机界面与记录",
+        "detail": "设备可离线录音、保存和播放，显示当前交互状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "账户与网络",
+        "detail": "通过网络连接rabbit账户和OS3；激活及AI功能依赖网络。",
+        "evidence": "official"
+      },
+      {
+        "name": "理解与生成",
+        "detail": "云端或关联服务处理问答、视觉、转写摘要；第三方代理独立配置。",
+        "evidence": "official"
+      },
+      {
+        "name": "反馈与导出",
+        "detail": "设备语音/屏幕反馈，OS3中查看、下载或删除记录。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "rabbit · r1当前官方商品页",
+        "url": "https://www.rabbit.tech/rabbit-r1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "supplyChain"
+        ],
+        "note": "已打开，US$199和3工作日发货；仅确认销售而非持续生产。"
+      },
+      {
+        "title": "rabbit · r1用户指南（2026-09-22更新）",
+        "url": "https://www.rabbit.tech/r1-user-guide",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开，按当前OS3说明，不把首发宣传直接视为现有功能。"
+      },
+      {
+        "title": "rabbit · Magic Recorder使用与离线边界",
+        "url": "https://www.rabbit.tech/support/article/rabbit-r1-voice-recorder",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "risks",
+          "architecture"
+        ],
+        "note": "已打开，明确本地录音、联网后转写摘要与电池限制。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]

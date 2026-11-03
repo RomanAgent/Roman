@@ -1,0 +1,31 @@
+{
+  "title": "AI 智能硬件市场目录",
+  "edition": "2026.11 / 第一轮研究",
+  "checkedAt": "2026-11-04",
+  "scope": "全球市场，按具体型号或产品系列收录，单独标注中国大陆购买与服务限制。首轮是可追溯的代表性产品研究，不是全球全部 SKU 的穷尽清单。",
+  "methodology": "销售状态以核查日可读取的官方商店、订购入口及交付说明为依据；未完成支付或实际收货验证。产品页存在本身不代表现货，地区库存冲突归入待复核。",
+  "analysisNote": "分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。",
+  "categories": [
+    {"id":"glasses","name":"AI 眼镜","description":"视觉理解、显示与随身助手","group":"个人设备"},
+    {"id":"recording","name":"录音与记忆","description":"会议、转写与个人知识记录","group":"个人设备"},
+    {"id":"audio","name":"翻译与音频","description":"跨语言对话与语音交互","group":"个人设备"},
+    {"id":"wearables","name":"健康与穿戴","description":"运动、睡眠与健康信息解读","group":"个人设备"},
+    {"id":"computing","name":"手机与 AI PC","description":"通用终端上的个人智能能力","group":"个人设备"},
+    {"id":"companion","name":"陪伴与宠物","description":"情感交互、桌面与家庭机器人","group":"家庭与生活"},
+    {"id":"education","name":"教育与学习","description":"阅读、辅导与学习交互","group":"家庭与生活"},
+    {"id":"home-security","name":"家庭安防","description":"门铃、摄像头与事件识别","group":"家庭与生活"},
+    {"id":"cleaning","name":"清洁机器人","description":"环境识别、避障与自主清洁","group":"家庭与生活"},
+    {"id":"garden","name":"庭院与自然","description":"割草、户外感知与物种识别","group":"家庭与生活"},
+    {"id":"kitchen","name":"厨房与烹饪","description":"食材识别、温控与烹饪辅助","group":"家庭与生活"},
+    {"id":"imaging","name":"影像与创作","description":"自动构图、跟拍与内容制作","group":"生产与开发"},
+    {"id":"robotics","name":"具身机器人","description":"人形、四足与可编程实体交互","group":"生产与开发"},
+    {"id":"maker","name":"开发与制造","description":"边缘算力、开发套件与制造工具","group":"生产与开发"}
+  ],
+  "coverageBacklog": [
+    {"category":"工业与商业设备","note":"工业机械臂、仓储 AMR、商用服务机器人、农业自动化：大量为询价制，尚未逐个核验可交付配置。"},
+    {"category":"医疗与辅助设备","note":"助听、康复、医疗影像与无障碍设备：需补充地区准入、临床或性能证据，不能依据AI宣传推导疗效。"},
+    {"category":"汽车、无人机与出行","note":"车辆辅助驾驶、消费无人机、骑行与运动相机：首轮尚未全量展开车型、软件包及地区差异。"},
+    {"category":"手机、电脑、电视与家电长尾","note":"首轮仅收代表性终端；不同配置、地区 SKU 和传统AI家电未逐款穷尽。"},
+    {"category":"众筹与预售长尾","note":"未能确认仍可付款预订、交付地区与时间的项目，不进入已核查在售／预售清单。"}
+  ]
+}

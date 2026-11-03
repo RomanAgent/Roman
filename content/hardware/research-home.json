@@ -1,0 +1,1303 @@
+[
+  {
+    "id": "roborock-saros-10r",
+    "name": "Roborock Saros 10R",
+    "brand": "Roborock",
+    "category": "cleaning",
+    "tagline": "将视觉感知、低矮机身与自动维护结合的扫拖机器人",
+    "officialUrl": "https://ro.roborock.com/products/roborock-saros-10r",
+    "status": "on_sale",
+    "statusEvidence": "罗马尼亚官方商店显示 7,219 lei 与加入购物车、购买入口；美国官方页同时显示缺货。此条在售仅指已核实的罗马尼亚市场，不代表全球现货。",
+    "regions": [
+      "罗马尼亚"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未核实中国大陆以 Saros 10R 同名销售的官方入口；不可直接把国内相近型号当作同一 SKU。"
+    },
+    "price": {
+      "text": "7,219 lei",
+      "note": "罗马尼亚官方页快照；美国页虽列 $1,099.99，但显示缺货，不作为可购买报价。税运、库存与活动以当地结账为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "StarSight 2.0 用于环境和障碍识别，SmartPlan 使用 AI 调整清洁策略；并非通用对话机器人。",
+      "dependency": "核心移动与清洁在设备端执行；地图管理、远程设置及部分语音服务需要 App、网络或第三方服务。"
+    },
+    "highlights": [
+      "视觉与距离感知协同导航",
+      "7.98 cm 机身，降低家具底部进入门槛",
+      "自动维护基站减少日常清理步骤"
+    ],
+    "analysis": {
+      "demand": "需求假设：养宠或混合地面家庭购买的不是模型本身，而是少捡杂物、少处理缠毛和漏扫。应通过连续两周家庭试用记录人工接管次数，验证自动化是否真正减少劳动。",
+      "userProfile": "画像假设：有一定居住面积、家具较低且愿为家务省时付费的家庭；购买者也承担基站补水与维护。小户型租客可能更在意基站占地、噪声和搬家成本，不能用同一卖点覆盖。",
+      "competition": "竞争判断：扫拖属于成熟拥挤赛道，Dreame、Narwal 等已有视觉避障与自清洁产品。差异更依赖特殊家庭环境下的稳定性、维修和耗材体验，而非单项吸力或 AI 名称。",
+      "supplyChain": "供应链推断：需要深度感知、图像模组、驱动轮组、风机、电池和水路基站协同。具体芯片厂商、代工厂与 BOM 成本未披露；防水、防缠毛机构和长期耗材供应是量产评估重点。",
+      "technology": "已披露 StarSight 2.0、SmartPlan 与可抬升组件。技术判断：产品价值来自感知—规划—执行闭环；低光、反光、细电线和可移动杂物需要实测。官网能力说明不能替代真实家庭成功率。",
+      "aesthetics": "审美判断：低矮圆形主机降低地面存在感，但完整产品仍包含较显眼的基站。简洁外壳适合现代家居；应连同线缆、补水空间与开盖操作评估，不能只看主机正面渲染图。",
+      "risks": "风险判断：视觉采集涉及家庭环境信息；越障与水路增加维护环节。地区型号、云服务、耗材与保修存在差异，且美站本次缺货说明购买可达性需按地区持续复核。",
+      "opportunity": "可验证机会：围绕老家具、宠物事故和远程照护家庭设计清洁异常提示与可修复耗材服务。先比较人工接管与维护时间，再决定是否值得另做整机，不能从拥挤市场直接推断没有机会。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "观察到多个品牌以视觉避障和基站自动维护竞争；这是定性竞争判断，没有采用销量或市场份额数据。"
+    },
+    "architecture": [
+      {
+        "name": "环境感知",
+        "detail": "StarSight 2.0 与侧向避障感知；功能层示意，不是实际拆机布局。",
+        "evidence": "official"
+      },
+      {
+        "name": "导航与策略",
+        "detail": "SmartPlan 根据环境选择清洁策略。",
+        "evidence": "official"
+      },
+      {
+        "name": "移动与清洁",
+        "detail": "抬升底盘、边刷、滚刷与双旋转拖布。",
+        "evidence": "official"
+      },
+      {
+        "name": "基站维护",
+        "detail": "集尘、拖布清洗及充电等集成维护功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与网络",
+        "detail": "将 App、地图与远程控制抽象为服务层，内部计算边界未完全披露。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Roborock 罗马尼亚官方商店",
+        "url": "https://ro.roborock.com/products/roborock-saros-10r",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开；列价格与购物入口。"
+      },
+      {
+        "title": "Roborock 美国官方商店",
+        "url": "https://us.roborock.com/products/roborock-saros-10r",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "已打开；显示 Out of stock，地区状态与罗马尼亚不同。"
+      },
+      {
+        "title": "Roborock Saros 10R 官方功能页",
+        "url": "https://global.roborock.com/pages/roborock-saros-10r",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开；说明 StarSight 和 SmartPlan。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "dreame-x50-ultra",
+    "name": "Dreame X50 Ultra",
+    "brand": "Dreame",
+    "category": "cleaning",
+    "tagline": "把视觉避障与机械越障结合的高端扫拖机器人",
+    "officialUrl": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+    "status": "on_sale",
+    "statusEvidence": "美国官方产品页提供 X50 Ultra 选项、加入购物车与购买按钮，并列 2—5 个工作日配送说明；优惠券和套装价格不同。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本条核查美国 X50 Ultra 型号；中国大陆相近产品的名称、固件、保修和配件一致性未核实。"
+    },
+    "price": {
+      "text": "US$999.99",
+      "note": "页面基础价快照，另有优惠券及套装；不将会员价或券后价当作人人适用成交价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI RGB 摄像头与 3D 结构光识别障碍，配合升降传感器与运动机构完成清洁路线。",
+      "dependency": "基础导航和动作由整机执行；远程地图、设置与语音生态依赖 App 或网络。"
+    },
+    "highlights": [
+      "AI RGB 与 3D 结构光避障",
+      "可伸缩机构用于跨越门槛",
+      "升降感知组件适应低矮家具"
+    ],
+    "analysis": {
+      "demand": "需求假设：有门槛、地毯和低柜的家庭更容易遇到机器人卡住或漏扫。需求重点是不同房间能否自主通行。应测量每天救援次数与漏扫面积，而不是直接把实验室越障高度等同家庭可用性。",
+      "userProfile": "画像假设：愿购买旗舰清洁设备的养宠家庭、多房间住户和重视自动化的双职工家庭。安装者、日常维护者与付款者可能不同，需要分别验证基站操作、异常恢复及维护成本。",
+      "competition": "竞争判断：机械越障与高端扫拖已被多品牌追逐，上市时间和更新频率都压缩单一功能优势。若新团队进入，应比较全寿命维护、底盘通过性和故障恢复，而非复刻旗舰参数清单。",
+      "supplyChain": "供应链推断：伸缩机构会增加电机、减速结构、位置检测与结构可靠性要求；水路和热洗系统另有寿命测试。具体零部件供应商、代工厂和采购价未披露，不能据宣传图推算真实 BOM。",
+      "technology": "官网披露 RGB 视觉、结构光和升降 DToF。技术判断：AI 决策必须与机械安全约束协同，尤其面对衣物、电线与宠物排泄物。应验证识别失败后的停止策略，不能只复述识别类别数量。",
+      "aesthetics": "审美判断：圆形主体和较统一的基站轮廓便于融入家居，机械创新主要隐藏在底部。体量、配件收纳和污水维护仍会决定生活中的整洁感，外壳精致不代表维护过程同样体面。",
+      "risks": "风险判断：复杂机构的磨损、积灰与毛发缠绕会影响长期通过能力；家庭相机隐私和不同地区云服务也需评估。购买前应确认具体版本、门槛条件、耗材供货和售后覆盖。",
+      "opportunity": "可验证机会：在复杂门槛家庭建立自动化程度基准，提供场景适配与维护服务。对于创业者，先证明用户愿为可靠通过与低维护付费，再决定机械复杂度是否值得增加。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "高端扫拖已有成熟品牌及快速更新，越障是细分功能竞争而非无人覆盖的新市场。"
+    },
+    "architecture": [
+      {
+        "name": "感知",
+        "detail": "RGB 相机、3D 结构光与升降 DToF。",
+        "evidence": "official"
+      },
+      {
+        "name": "理解与避障",
+        "detail": "识别障碍类别并结合空间距离选择路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "机电执行",
+        "detail": "伸缩越障机构、移动底盘、滚刷和拖布。",
+        "evidence": "official"
+      },
+      {
+        "name": "基站与能源",
+        "detail": "充电、集尘与拖布维护系统。",
+        "evidence": "official"
+      },
+      {
+        "name": "可靠性边界",
+        "detail": "安全控制和故障恢复按功能推断；未取得控制板或固件拆解。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dreame X50 Ultra 美国官方商店",
+        "url": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开并定位购物按钮和 AI RGB / 3D structured light 说明；参数为厂商声明。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "narwal-flow-2",
+    "name": "Narwal Flow 2",
+    "brand": "Narwal",
+    "category": "cleaning",
+    "tagline": "以持续自清洁履带拖布和视觉决策处理脏污",
+    "officialUrl": "https://us.narwal.com/products/flow-2-robot-vacuum-and-mop",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商店显示 Flow 2 Basic Dock、US$1,299.99、加入购物车与购买入口；本次页面未显示所选整机缺货。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实的是美国 Flow 2；中国大陆对应型号与官方购买链接尚未逐项核查。"
+    },
+    "price": {
+      "text": "US$1,299.99",
+      "note": "Basic Dock 页面价格快照；上下水和套装价格不同，活动、税费及配送以结账为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "双视觉感知用于障碍识别、清洁决策及宠物区域适配；履带拖布的自清洁是机械水路能力，不应全部算作 AI。",
+      "dependency": "基础清洁控制在设备端；App 管理和部分场景功能需要联网，端云任务边界未完全公开。"
+    },
+    "highlights": [
+      "双 1080P 相机的 TwinAI Dodge 避障",
+      "FlowWash 履带拖布持续自清洁",
+      "宠物区域与地毯相关清洁策略"
+    ],
+    "analysis": {
+      "demand": "需求假设：厨房油污、脚印和养宠家庭更在意拖完是否干净，而不只是完成一次巡航。应通过同一区域重复清洁、残留与污水维护时间观察收益，避免把热水温度等同最终清洁效果。",
+      "userProfile": "画像假设：以硬地板为主、愿意承担基站占地的家庭，以及经常需要处理脚印和食物残渣的用户。长毛地毯家庭或狭小租房可能并非最合适对象，需要按地面结构细分。",
+      "competition": "竞争判断：高端扫拖中，拖布形态和自动维护正成为主要差异点。与旋转拖布、滚筒等路线相比，履带方案需要证明清洁覆盖与耐用性，而不是仅凭机械形态新颖取得市场优势。",
+      "supplyChain": "供应链推断：履带、刮污结构、泵阀、密封件和加热水路构成较高集成难度；视觉模组还涉及标定。具体芯片、代工厂及单机成本未披露，耗材替换周期与可清洗性应单独验证。",
+      "technology": "官网披露双摄像头避障、履带拖布与宠物清洁模式。技术判断：视觉分类、脏污判断与路径控制必须协同；大颗粒、湿垃圾和强反光地板是应测试的失效条件，不能只依靠厂商演示。",
+      "aesthetics": "审美判断：机身和基站采用家电化整体设计，降低机器人感；但水箱、滤网与湿部件的暴露方式影响实际体验。好看的机身应配合容易清洁、可触达且不易滴漏的维护路径。",
+      "risks": "风险判断：水路和加热维护提高了整机复杂度，异味、漏水及履带耗材的长期体验有待实测。AI 宠物模式不能承诺完全避开动物或排泄物，应保留异常告警和人工接管。",
+      "opportunity": "可验证机会：建立以实际污渍和维护劳动为核心的对照实验，寻找小户型或养宠场景中的局部产品机会。若无法证明明显减少人工擦地，复杂水路未必能支撑用户溢价。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "扫拖市场成熟；履带自清洁是一种差异化技术路线，不能据此称为冷门赛道。"
+    },
+    "architecture": [
+      {
+        "name": "双目视觉",
+        "detail": "官方披露的双 1080P 相机及 TwinAI Dodge 感知。",
+        "evidence": "official"
+      },
+      {
+        "name": "决策",
+        "detail": "避障、宠物区域与清洁模式选择。",
+        "evidence": "official"
+      },
+      {
+        "name": "清洁执行",
+        "detail": "履带拖布与吸尘刷组执行清洁。",
+        "evidence": "official"
+      },
+      {
+        "name": "水路维护",
+        "detail": "FlowWash 热水与持续自清洁系统。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制服务",
+        "detail": "App、调度及设备日志构成功能服务层；此处不代表实际硬件分层。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Narwal Flow 2 美国官方商店",
+        "url": "https://us.narwal.com/products/flow-2-robot-vacuum-and-mop",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开；基础基站版本可购买，双摄与 FlowWash 说明来自厂商。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "segway-navimow-i105",
+    "name": "Segway Navimow i105",
+    "brand": "Segway Navimow",
+    "category": "garden",
+    "tagline": "面向小型草坪的无埋线视觉割草机器人",
+    "officialUrl": "https://navimow.com/products/navimow-i105",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商店列 US$799 购买选项、加入购物车与 Buy now；欧洲 i105e 页面显示售罄，不能把美版在售延伸到所有地区。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实该美国 i105 型号在中国大陆的官方购买和定位服务覆盖；庭院条件、频段和售后须单独确认。"
+    },
+    "price": {
+      "text": "US$799",
+      "note": "美国购买价快照。页面另列按月方案，其产品和服务条件不同，不与买断价混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI 辅助建图与 VisionFence 图像避障用于识别边界及绕开物体，EFLS 2.0 提供定位。",
+      "dependency": "室外定位、App 和地区网络服务共同决定体验；不能假定任意地区均可使用同样的 Network RTK。"
+    },
+    "highlights": [
+      "AI 辅助建图与视觉避障",
+      "针对较小草坪的分区管理",
+      "无需传统边界线的安装方式"
+    ],
+    "analysis": {
+      "demand": "需求假设：草坪面积不大但需要频繁维护的家庭，希望减少重复割草劳动而不施工埋线。应测量首次安装、修边及救援时间，总劳动下降才是价值，机器运行时间本身不代表省时。",
+      "userProfile": "画像假设：有私家草坪、愿自行安装智能设备的房主；付款者通常也负责草坪维护。公寓住户没有同等需求，跨国市场还取决于独立住宅比例、草种、地形和当地人工服务价格。",
+      "competition": "竞争判断：割草不是空白市场，传统园林品牌和机器人品牌均已进入。小草坪可负担性与安装简易性是细分切入点；产品必须与人工、普通电动割草机和园艺服务同时竞争。",
+      "supplyChain": "供应链推断：定位模组、视觉摄像头、电池、轮驱和刀盘是主要模块；防水、碰撞、刀盘防护和庭院维修能力尤其重要。具体工厂、模组供应商与 BOM 未披露，不能按室内机器人经验直接套用。",
+      "technology": "已披露 EFLS 2.0、AI 建图与 VisionFence。技术判断：树荫、窄通道、草高变化和临时玩具会挑战定位与识别；应比较不同季节的边界稳定性，地区定位覆盖需要按官方当前地图核对。",
+      "aesthetics": "审美判断：低重心机身与实用轮组强调工具属性，适合在草坪中保持低存在感。院内停靠站、定位天线或线缆的摆放也属于外观体验，不能只以草地上的单机图片判断。",
+      "risks": "风险判断：旋转刀盘带来实物安全风险，儿童、宠物和野生动物活动时应遵循操作规程。冬季收纳、雨天打滑、边缘漏割与联网覆盖都会影响实际可用性，视觉避障不是绝对安全保证。",
+      "opportunity": "可验证机会：面向小草坪提供安装评估、边界复核和季节保养，将产品可用性转成服务。新硬件想法应先验证一季使用的人工介入成本，再追求更复杂的自动化。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "需求高度依赖私家庭院，地域性强；相对通用家电属于专业场景，但已有明显竞争，不能称为无人市场。"
+    },
+    "architecture": [
+      {
+        "name": "定位与视觉",
+        "detail": "EFLS 2.0 定位及 VisionFence 图像输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "地图决策",
+        "detail": "AI 辅助建图、分区及路径规划。",
+        "evidence": "official"
+      },
+      {
+        "name": "机电切割",
+        "detail": "轮驱、刀盘与割草高度调整。",
+        "evidence": "official"
+      },
+      {
+        "name": "充电与防护",
+        "detail": "停靠充电、电池与户外防护共同保障运行。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "App 服务",
+        "detail": "调度、区域管理及地区定位服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Navimow i105 美国官方商店",
+        "url": "https://navimow.com/products/navimow-i105",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开；列购买与 AI 功能。"
+      },
+      {
+        "title": "Navimow i105e 欧洲官方商店",
+        "url": "https://navimow.segway.com/collections/robot-lawn-mower/products/navimow-i105",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "已查看；页面显示 Sold Out，地区情况不同。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "mammotion-luba-3-awd",
+    "name": "Mammotion LUBA 3 AWD",
+    "brand": "Mammotion",
+    "category": "garden",
+    "tagline": "结合激光、视觉和定位服务的复杂地形割草平台",
+    "officialUrl": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+    "status": "needs_check",
+    "statusEvidence": "官方页面存在规格选择、Add to Cart 和 Out of Stock / Notify me 混合状态，不同型号与高度版本库存不一致。本轮未完成具体收货地区和 SKU 的现货确认，暂列待复核而非预售。",
+    "regions": [
+      "美国（库存待复核）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实中国大陆对应型号的官方零售和 NetRTK 服务覆盖；不能从中国品牌身份推断本地可购买或可用。"
+    },
+    "price": {
+      "text": "按具体型号与地区官方结账页确认",
+      "note": "页面不同选项同时显示促销和售罄，避免将某一选项价格当作全系列可成交报价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "将 360° LiDAR、双摄 AI 视觉与定位方案组合，用于庭院理解、障碍感知和路径导航；具体组合随型号变化。",
+      "dependency": "定位和部分远程能力依赖地区服务及网络；1500 与更大型号的定位配置不能直接等同。"
+    },
+    "highlights": [
+      "面向坡地与复杂庭院的全轮驱动",
+      "双摄 AI 视觉与激光感知",
+      "按面积和割草高度划分多个型号"
+    ],
+    "analysis": {
+      "demand": "需求假设：大面积、坡度明显或多区庭院的房主需要减少割草与搬运设备的劳动。价值在复杂条件下持续完成任务，应以完整一季的接管次数、漏割和草坪损伤验证，不看单次演示。",
+      "userProfile": "画像假设：维护较大私家庭院的房主、别墅管理者及少量专业园艺人员。其预算通常与庭院维护成本比较；平坦小草坪用户可能无法利用多传感器和四驱带来的溢价。",
+      "competition": "竞争判断：复杂地形机器人属于较专业市场，但 Navimow、Husqvarna 等替代选择意味着并不空白。新团队的门槛更多是户外可靠性、服务网络与地形适配，模型名称本身难形成优势。",
+      "supplyChain": "供应链推断：全轮驱动、户外激光模组、双摄标定、大容量电池和刀盘防护增加系统集成难度。具体芯片、工厂及成本未披露；量产需重点验证密封、泥沙、振动和维修件可得性。",
+      "technology": "官方披露多传感器导航，但不同容量型号配置并不完全一致。技术判断：需要融合定位置信度并设计失效降级；低光、树冠、湿地与窄通道的可靠性应实测，不能把传感器数量当作成功率。",
+      "aesthetics": "审美判断：外露大轮和宽机身传达专业工具感，适合庭院场景，却可能增加重量感和收纳压力。停靠、清洗、搬运把手与非工作季摆放方式同样需要纳入工业设计评估。",
+      "risks": "风险判断：购买状态尚未按 SKU 核清；定位服务期限、后续联网成本和区域限制需确认。刀盘、坡地滑移和动物识别都需要安全边界，不能以 AI 避障替代物理防护及用户监督。",
+      "opportunity": "可验证机会：针对树荫多、窄连接道或特殊草种建立地形适配数据库和服务。先证明某类复杂庭院的稳定完成率，再考虑做专用小型平台，避免一开始承担全地形整机的复杂度。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "复杂地形草坪是地域性专业场景，竞争门槛高；本条未使用市场份额或销量判断。"
+    },
+    "architecture": [
+      {
+        "name": "环境感知",
+        "detail": "360° LiDAR 与双摄 AI 视觉，具体配置按型号。",
+        "evidence": "official"
+      },
+      {
+        "name": "定位服务",
+        "detail": "部分型号组合 NetRTK；地区覆盖与机型需核对。",
+        "evidence": "official"
+      },
+      {
+        "name": "融合规划",
+        "detail": "多传感器定位融合及失效降级为功能推断，不是固件拆解。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "驱动切割",
+        "detail": "全轮驱动和刀盘执行割草。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源维护",
+        "detail": "电池、充电与室外维护系统。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mammotion LUBA 3 美国官方商店",
+        "url": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "已打开；不同规格出现购物入口与缺货信息，故谨慎列待复核。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "birdbuddy-nook-solar",
+    "name": "Birdbuddy Nook Solar",
+    "brand": "Birdbuddy",
+    "category": "garden",
+    "tagline": "将鸟类识别与家庭自然观察结合的太阳能喂鸟器",
+    "officialUrl": "https://mybirdbuddy.com/product/birdbuddy-nook-solar/",
+    "status": "on_sale",
+    "statusEvidence": "官方商店展示 Nook Solar US$159 选项与 Buy Now。页面将自动识别与 Family Premium 订阅关联，不能把硬件价当作完整 AI 服务总价。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未找到中国大陆官方销售与本地 App 服务承诺；识别范围、网络、物流和售后需进一步确认。"
+    },
+    "price": {
+      "text": "US$159 + 可选 Family Premium",
+      "note": "官方页快照：自动识别对应 Family Premium，展示首月免费后 US$98.99/年；基础档含影像但为手动辨鸟。以当前地区方案为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "摄像头捕获访鸟，AI 对鸟类物种进行识别；自动物种识别受当前订阅方案约束。",
+      "dependency": "需要 2.4GHz Wi-Fi 与 Birdbuddy App；识别服务和会员能力不应视作完全离线或永久随硬件提供。"
+    },
+    "highlights": [
+      "可拆相机模块与太阳能屋顶",
+      "AI 鸟种识别连接家庭观察体验",
+      "硬件、App 和会员内容构成完整产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户购买的是更容易发现院内自然、记录和分享访鸟的体验，而非安防录像。应验证连续四周的打开频次、分享行为和实际喂养维护投入，礼物购买并不等于长期活跃。",
+      "userProfile": "画像假设：有可放置喂鸟器空间的自然爱好者、亲子家庭及为父母选礼物的人。购买者与使用者可能不同；用户还需愿意补粮、清洁及正确照护野鸟，不能只用科技爱好者画像解释需求。",
+      "competition": "竞争判断：智能喂鸟器是比通用摄像头更窄的生活方式市场，但 Birdfy 等已有替代方案。差异可能来自识别、内容社区、外观与易清洁结构；这里的专业性不等于已证明的高增长。",
+      "supplyChain": "供应链推断：防水相机、电池、太阳能板、塑料食仓和挂装结构是主要模块。具体传感器供应商与制造工厂未披露；防晒老化、啮咬、积水和食物接触材料比通用桌面相机更需验证。",
+      "technology": "官方披露 AI 鸟种识别与相机模块。技术判断：遮挡、不同季节羽色和地区物种差异会影响识别，鸟类健康提示不能当诊断。模型更新、误识纠正和弱网传输是持续体验的重要部分。",
+      "aesthetics": "审美判断：小型屋顶与食仓让技术融入园艺物件，外观更像亲和的生活用品。镜头位置、鸟落脚空间和清洗便利应协同设计；可爱的造型不能妨碍补粮或使食物长期受潮。",
+      "risks": "风险判断：自动识别依赖订阅，用户可能低估长期费用；相机也可能拍入邻居或访客。喂养位置、清洁频率与当地野生动物规则应由使用者核对，不能把物种识别准确性作无条件承诺。",
+      "opportunity": "可验证机会：研究本地鸟种、老人友好分享和学校自然观察场景。先以普通相机与小规模标注验证观察需求及留存，再设计专用外壳，避免仅因 AI 与宠物话题热度进入。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "属于自然观察与园艺爱好者的细分场景，需求有空间与习惯门槛；已有同类品牌，非无人赛道。"
+    },
+    "architecture": [
+      {
+        "name": "外壳与食仓",
+        "detail": "喂鸟器、落脚件、挂装与太阳能屋顶。",
+        "evidence": "official"
+      },
+      {
+        "name": "影像与拾音",
+        "detail": "相机模组采集访鸟照片、视频及声音。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源网络",
+        "detail": "电池、USB-C 充电和 2.4GHz Wi-Fi。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别服务",
+        "detail": "物种识别与 App 内容，自动识别按会员方案。",
+        "evidence": "official"
+      },
+      {
+        "name": "观察记录",
+        "detail": "按访鸟事件组织内容的功能层示意，不是设备拆机结构。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Birdbuddy Nook Solar 官方商店",
+        "url": "https://mybirdbuddy.com/product/birdbuddy-nook-solar/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "subscription"
+        ],
+        "note": "已打开；商品选项、订阅区分和 AI 物种识别均有明确说明。"
+      },
+      {
+        "title": "Birdbuddy 官方产品目录",
+        "url": "https://mybirdbuddy.com/shop/",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "已打开；Nook Solar 列价并提供购买入口。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "ring-wired-doorbell-4k-pro",
+    "name": "Ring Wired Doorbell 4K Pro",
+    "brand": "Ring",
+    "category": "home-security",
+    "tagline": "把门口影像转换成可读事件提醒的联网门铃",
+    "officialUrl": "https://ring.com/products/wired-doorbell-pro",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商店以 Wired Doorbell 4K Pro 名称列出 US$249.99、颜色选项及 Add to Cart；AI 事件描述等功能需要兼容订阅与支持地区。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未核实中国大陆官方零售及 AI 订阅服务可用性；购买海外硬件不等于视频描述或账号服务在国内可用。"
+    },
+    "price": {
+      "text": "US$249.99",
+      "note": "美国硬件价快照；安装、配件及兼容 Ring 订阅另计，不能按单机价评估长期使用成本。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "设备捕捉门口事件，服务提供 Video Descriptions、熟人提示和事件合并等智能理解；能力受套餐和地区限制。",
+      "dependency": "AI 描述、录像历史和部分识别依赖 Ring 网络服务及兼容订阅；无云端不能假定保留全部 AI 功能。"
+    },
+    "highlights": [
+      "门口事件的文字描述",
+      "熟人和合并事件提醒按套餐开放",
+      "有线门铃与安装服务共同构成体验"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望迅速知道门外发生了什么，减少无意义通知与打开录像的次数。应以包裹、访客和路人等真实事件测试误报与漏报，文字描述是否节省注意力需验证。",
+      "userProfile": "画像假设：频繁接收快递、已有门铃布线且在外时间较多的家庭。与房主不同，租户可能受安装授权限制；老人或多语言家庭更需要简洁通知，但不能预设所有语言均受支持。",
+      "competition": "竞争判断：视频门铃已有大量品牌和摄像头替代方案，AI 描述是服务体验差异。新创业项目需面对账号生态、安装渠道和订阅关系的竞争，单独增加生成式文案不一定形成独立需求。",
+      "supplyChain": "供应链推断：摄像头、广角光学、麦克风、扬声器、无线模组和有线供电需要在窄机身集成。具体代工厂、芯片和采购价未披露；防水、变压器兼容、夜间成像与安装公差是关键。",
+      "technology": "官方页面列出 Video Descriptions 与订阅要求。技术判断：视觉事件理解应保留原始片段供核对，描述可能错误归因；边缘检测与云端语义服务的分工应透明，不能把描述当作事实证明。",
+      "aesthetics": "审美判断：窄长门铃可融入门框，多种饰面适应门面材料；明显镜头提供识别感，也可能影响访客感受。工业设计应兼顾按钮可见性、灯光打扰、隐私提示与安装后的完整度。",
+      "risks": "风险判断：存在家庭影像、访客知情、面部识别和订阅依赖问题；地区限制明确存在。AI 文字只能辅助查阅，无法保证威胁识别或事件事实准确，断网和断电场景需提前测试。",
+      "opportunity": "可验证机会：围绕通知疲劳、快递交接及多住户权限设计服务，而不是复制摄像头。先比较普通事件标签与文字描述带来的确认时间、误解率和订阅意愿，再决定智能化程度。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "门铃安防成熟且有多品牌与平台竞争，AI 描述是一种增强能力，并非独立空白赛道。"
+    },
+    "architecture": [
+      {
+        "name": "门口采集",
+        "detail": "摄像头、麦克风与门铃触发。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备连接",
+        "detail": "有线供电和 Wi-Fi 将设备接入 Ring 服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "事件理解",
+        "detail": "文字描述、熟人提醒与事件合并，按地区和套餐。",
+        "evidence": "official"
+      },
+      {
+        "name": "通知与回看",
+        "detail": "手机 App、订阅录像历史及提醒。",
+        "evidence": "official"
+      },
+      {
+        "name": "权限与安全",
+        "detail": "访问控制和保留策略为架构评估维度，不代表已审计内部实现。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ring Wired Doorbell 4K Pro 官方商店",
+        "url": "https://ring.com/products/wired-doorbell-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "subscription"
+        ],
+        "note": "已打开；购物入口、Video Descriptions 和套餐限制明确。"
+      },
+      {
+        "title": "Amazon 关于 Ring 对话 AI 的官方说明",
+        "url": "https://www.aboutamazon.com/news/devices/alexa-ring-doorbell-ai-greetings",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "regions"
+        ],
+        "note": "已打开；说明部分机型、美国/加拿大英语和订阅条件，不能泛化为所有地区。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "google-nest-cam-battery",
+    "name": "Google Nest Cam（电池版）",
+    "brand": "Google",
+    "category": "home-security",
+    "tagline": "用人物、车辆与动物分类减少家庭摄像头无效提醒",
+    "officialUrl": "https://store.google.com/product/nest_cam_battery?hl=en-US",
+    "status": "on_sale",
+    "statusEvidence": "美国 Google Store 显示 From US$199.99 与 Buy 按钮，并说明内置分类及 Google Home Premium 付费能力。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实中国大陆官方销售与 Google Home 服务支持；跨境购买不代表网络、账号与订阅可用。"
+    },
+    "price": {
+      "text": "US$199.99 起",
+      "note": "美国单机页面快照；套装、支架、供电配件和 Google Home Premium 订阅另计。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "内置智能区分人物、动物和车辆；熟悉面孔等能力需 Google Home Premium。",
+      "dependency": "安装和管理需要 Google Home App；云端事件历史和部分识别能力依赖网络与订阅。"
+    },
+    "highlights": [
+      "人物、动物与车辆提醒",
+      "电池供电适合缺少插座的位置",
+      "熟人识别和更长回看按订阅开放"
+    ],
+    "analysis": {
+      "demand": "需求假设：需要看护门前或院内但不想布线的家庭，核心目标是减少误报并能快速核对事件。应测量电池充电频率、漏报和通知确认时间，不能将安装方便等同长期免维护。",
+      "userProfile": "画像假设：已使用 Google Home 生态、希望室内外统一管理的房主或租户。具备现成供电且需要全天录像的用户可能有不同选择；家庭成员权限与替换电池操作需分别评估。",
+      "competition": "竞争判断：电池摄像头与本地存储摄像头均有大量选择，生态整合与持续服务是主要竞争点。对新团队而言，独立硬件必须证明特定场景价值，不能仅靠人物识别与推送建立优势。",
+      "supplyChain": "供应链推断：低功耗图像传感器、无线芯片、电池、红外组件及磁吸安装结构需要协同优化。具体芯片型号与代工厂未披露；低温、电池衰减、密封和安装牢固度是重要测试项。",
+      "technology": "官网披露内置人物、动物和车辆智能提醒。技术判断：端侧感知减少无关唤醒，长时回看仍涉及网络服务；必须区分基础检测、熟人识别和连续录像条件，不能把所有能力视为免费。",
+      "aesthetics": "审美判断：圆润浅色外壳更接近家居用品，弱化传统监控器材的压迫感；磁吸安装提高摆放自由度。镜头方向、充电取下动作和防盗需求可能相互冲突，需要完整场景评估。",
+      "risks": "风险判断：电池频繁充电、弱网和云服务不可达会影响覆盖；熟人识别涉及家庭成员及访客隐私。分类并不能证明事件性质，不能用于保证儿童、老人或宠物的安全。",
+      "opportunity": "可验证机会：为低频使用者优化可理解的电量与离线告警，或研究不依赖长期云订阅的场景。先验证真实家庭对回看、通知和数据保留的取舍，再设计新的商业方案。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "家庭摄像头和电池安防已有成熟竞争，差异集中在生态、低功耗、订阅及隐私体验。"
+    },
+    "architecture": [
+      {
+        "name": "影像感知",
+        "detail": "相机、夜视和内置事件分类。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源安装",
+        "detail": "可充电电池与磁吸式安装。",
+        "evidence": "official"
+      },
+      {
+        "name": "网络控制",
+        "detail": "Google Home App 与联网服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "高级识别与历史",
+        "detail": "熟人识别和更长事件历史按 Google Home Premium。",
+        "evidence": "official"
+      },
+      {
+        "name": "数据治理",
+        "detail": "权限及保留周期为功能示意层，未获得后台实现细节。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Nest Cam 电池版官方商店",
+        "url": "https://store.google.com/product/nest_cam_battery?hl=en-US",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "subscription"
+        ],
+        "note": "已打开；Buy、内置识别与会员差异均列明。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "reolink-trackmix-wifi",
+    "name": "Reolink TrackMix WiFi",
+    "brand": "Reolink",
+    "category": "home-security",
+    "tagline": "同时保留全景与目标细节的双镜头自动追踪摄像头",
+    "officialUrl": "https://reolink.com/us/product/reolink-trackmix-wifi/",
+    "status": "needs_check",
+    "statusEvidence": "官方功能页和 TrackMix 系列商店仍存在；搜索索引显示购买入口，但本次打开美国商店返回 No Product Found，无法确认当前具体 SKU 的库存与成交入口，暂不计入已确认在售。",
+    "regions": [
+      "美国（销售状态待复核）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未核实中国大陆官方同型号销售与售后入口；海外官网存在不等于国内可购买。"
+    },
+    "price": {
+      "text": "待地区商店确认",
+      "note": "未将搜索摘要的欧元价格与美国站型号混用；需要按 WiFi、PoE、电池和 AI 新旧版本重新核对。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "人物、车辆和动物分类配合云台与双镜头追踪，减少背景运动触发；本条未把新版本 AI 搜索能力混入所有版本。",
+      "dependency": "官方说明 App/Client 基本服务不强制订阅；远程查看需要网络，本地录像方式按具体 SKU 和存储设备核对。"
+    },
+    "highlights": [
+      "双镜头提供广角与目标视角",
+      "人物、车辆、动物分类",
+      "云台自动跟随目标"
+    ],
+    "analysis": {
+      "demand": "需求假设：车道、院子和小店门口用户希望保留全貌又看清移动目标。应测试目标遮挡、多人分叉和夜间追踪的失败情况，额外镜头是否减少盲区比静态分辨率更值得关注。",
+      "userProfile": "画像假设：愿安装固定供电、重视本地录像或已有 NVR 的房主和小店经营者。其购买逻辑更接近安防工具；不愿配置网络或无法布电的租房用户可能不适合这一形态。",
+      "competition": "竞争判断：PTZ 摄像头与目标识别并不冷门，双镜头组合是一种功能细分。新团队可以研究容易误报的业务场景，但应同时比较固定多摄像头、普通云台和专业安防系统的总成本。",
+      "supplyChain": "供应链推断：双光学模组、云台电机、传动件、补光、电源和防水外壳共同决定成本与可靠性。具体制造商、芯片供应链与 BOM 未披露；双镜标定和长期转动寿命需要验证。",
+      "technology": "官方披露双视角、自动追踪及分类检测。技术判断：跟随一个对象时仍可能丢失其他区域信息，需评估转向时延与多目标策略。不同硬件版本的 Wi-Fi 和 AI 搜索能力不能混为一谈。",
+      "aesthetics": "审美判断：突出的云台和双镜头传达明显安防属性，有威慑感但较难融入精简住宅立面。线缆、支架与夜间补光属于整体外观；小店功能性和家庭隐蔽性可能需要不同方案。",
+      "risks": "风险判断：本次库存尚未验证，不宜直接给出购买建议；远程访问、局域网设置与镜头覆盖邻居均有使用边界。运动分类不能代替安防事件确认，录像保留和设备安全更新也需持续关注。",
+      "opportunity": "可验证机会：针对小店收货区或车道设计明确事件规则与回看工具，先用现成摄像头验证需求。若价值主要在工作流，软件集成可能比自建整套云台硬件更合适。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "安防云台属于成熟市场，双镜追踪是细分功能，现有竞品和传统方案都构成替代。"
+    },
+    "architecture": [
+      {
+        "name": "双镜光学",
+        "detail": "广角与细节视角。",
+        "evidence": "official"
+      },
+      {
+        "name": "目标分类",
+        "detail": "人物、车辆、动物检测。",
+        "evidence": "official"
+      },
+      {
+        "name": "追踪执行",
+        "detail": "云台转动与自动变焦跟踪。",
+        "evidence": "official"
+      },
+      {
+        "name": "录像与网络",
+        "detail": "App/Client、本地存储或 NVR 按型号配置。",
+        "evidence": "official"
+      },
+      {
+        "name": "场景规则",
+        "detail": "多目标优先级及异常规则为分析层推断，不是官方已承诺能力。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Reolink TrackMix WiFi 官方功能与规格页",
+        "url": "https://reolink.com/us/product/reolink-trackmix-wifi/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开；列分类与追踪，未返回可确认购物控件。"
+      },
+      {
+        "title": "Reolink TrackMix 美国官方商店",
+        "url": "https://store.reolink.com/us/trackmix-series-cameras/",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "已打开；本次返回 No Product Found，因此标注待复核。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "insta360-link-2",
+    "name": "Insta360 Link 2",
+    "brand": "Insta360",
+    "category": "imaging",
+    "tagline": "通过自动跟随、构图与降噪减少视频表达负担",
+    "officialUrl": "https://store.insta360.com/cn/product/link-2",
+    "status": "on_sale",
+    "statusEvidence": "中国大陆官方商店显示 Link 2 石墨黑标准套餐 ¥998、加入购物车及预计 2 天内发货；海外官方商店也有对应产品页面。",
+    "regions": [
+      "中国大陆",
+      "美国"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "中国大陆官方商城提供人民币价格、顺丰或京东物流包邮、预计发货时间与加入购物车。"
+    },
+    "price": {
+      "text": "¥998（标准套餐）",
+      "note": "中国大陆页面优惠价快照；Link 2C 为另一版本，不能将 2C 起售价当作带云台 Link 2 的价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI 追踪、自动构图和智能降噪服务于视频通话与直播；并不生成内容或自主担任完整摄制团队。",
+      "dependency": "通过电脑和 Link Controller 设置高级功能，使用时还依赖会议或直播软件；不等同独立移动网络摄像机。"
+    },
+    "highlights": [
+      "带云台的 AI 追踪与构图",
+      "AI 降噪面向日常语音",
+      "中国大陆有官方购买与售后入口"
+    ],
+    "analysis": {
+      "demand": "需求假设：站立授课、产品讲解和远程会议用户需要移动时仍留在画面中，减少手动调镜头。应比较普通固定摄像头下的中断次数、观众可见性和设置时间，不是所有会议都需要追踪。",
+      "userProfile": "画像假设：线上教师、远程咨询者、演示型主播及高频视频工作者。购买者通常自己安装电脑设备，但不同软件权限和画面比例会改变需求；普通偶发会议用户可能更看重价格与简单。",
+      "competition": "竞争判断：AI 云台摄像头已有 OBSBOT 等直接替代，也受高质量手机和笔记本摄像头竞争。应比较实际声音、弱光和自动构图稳定性，无法单凭 4K 或 AI 字样证明差异。",
+      "supplyChain": "供应链推断：图像传感器、镜头、小型云台电机、麦克风、USB 控制和磁吸安装件构成主要模块。供应商、工厂和物料成本未公开；标定、震动、接口兼容与散热是工程重点。",
+      "technology": "官方披露追踪、构图与降噪。技术判断：算法应在主体丢失、多人进入和转身时保持可预测行为；需要验证不同电脑性能与会议软件兼容性，不能把本地摄像头算法等同云端大模型。",
+      "aesthetics": "审美判断：紧凑桌面设备和磁吸结构适合显示器边缘，黑白选项易与工作台搭配。云台运动可见性与镜头朝向影响隐私感；收纳和遮挡状态最好明确，减少摄像头是否开启的不确定。",
+      "risks": "风险判断：自动跟踪可能产生镜头抖动、误跟随或意外拍到背景；不同系统的软件功能有差别。远程教学和直播仍需用户确认隐私边界，视频质量也受光照与网络压缩限制。",
+      "opportunity": "可验证机会：垂直场景如桌面工艺教学、无障碍演示或多人讨论可形成专门工作流。先观察摄像机是否减少讲课中断，再决定增加云台、广角或场景识别，避免为了功能而复杂化。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "桌面摄像头成熟，自动追踪细分也有直接竞品；可在特定内容生产场景中寻找差异。"
+    },
+    "architecture": [
+      {
+        "name": "镜头与采集",
+        "detail": "4K 图像与语音输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI 感知",
+        "detail": "人物追踪、构图与降噪。",
+        "evidence": "official"
+      },
+      {
+        "name": "云台",
+        "detail": "带云台 Link 2 的跟随动作，不能与固定式 2C 混同。",
+        "evidence": "official"
+      },
+      {
+        "name": "电脑接口",
+        "detail": "USB 连接、Link Controller 与会议/直播软件。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装与隐私",
+        "detail": "磁吸支架及镜头朝向构成功能示意，不是拆机布局。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Insta360 Link 2 中国大陆官方商店",
+        "url": "https://store.insta360.com/cn/product/link-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china",
+          "technology"
+        ],
+        "note": "已打开；明确套餐、人民币价格与预计发货。"
+      },
+      {
+        "title": "Insta360 Link 2 海外官方商店",
+        "url": "https://store.insta360.com/product/link-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "已打开；AI 追踪与降噪产品信息。"
+      },
+      {
+        "title": "Insta360 Link 系列官方连接指南",
+        "url": "https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "官方指南说明与电脑连接方式，不等同手机 App 摄像机。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "obsbot-tiny-2",
+    "name": "OBSBOT Tiny 2",
+    "brand": "OBSBOT",
+    "category": "imaging",
+    "tagline": "将小型云台追踪、手势与语音控制带入桌面视频",
+    "officialUrl": "https://www.obsbot.com/store/products/tiny-2",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示 Tiny 2 标准包 US$299、Add to Cart 和 3—5 天配送说明；不同组合和地区税费另计。",
+    "regions": [
+      "美国",
+      "官方国际商店覆盖地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "国际官网可购买不等于已核实中国大陆发货；本轮未取得大陆同型号官方零售及服务条款。"
+    },
+    "price": {
+      "text": "US$299",
+      "note": "官方标准包页面价格快照，税费未含；遥控器和直播套装价格不同。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI 人物追踪与自动变焦配合动态手势、语音控制，让演示者不必持续触碰电脑。",
+      "dependency": "核心摄像与追踪结合设备及桌面软件；会议/直播输出依赖电脑，软件功能与系统兼容需核对。"
+    },
+    "highlights": [
+      "AI 跟随与自动变焦",
+      "手势和语音控制降低触控中断",
+      "小型云台摄像头形态"
+    ],
+    "analysis": {
+      "demand": "需求假设：演示者一边走动、一边操作实物时，不方便用鼠标调整取景。应实测每次手势触发成功率、误触发和教学中断，自动化价值要用完整工作流衡量，而不是看演示动作是否酷炫。",
+      "userProfile": "画像假设：远程讲师、线上培训者、个体主播和高频演示工作人员。对固定坐姿的普通办公用户，追踪价值可能很低；付费意愿可能更多来自画质、音频和可控的取景。",
+      "competition": "竞争判断：与 Insta360 Link 系列及普通高端摄像头直接竞争，也被手机加支架替代。差异在手势、语音、追踪稳定性与软件整合；该细分有竞争但仍需具体场景验证。",
+      "supplyChain": "供应链推断：大尺寸图像传感器、小型云台、电机驱动、麦克风和 USB 通路需要高度集成。具体芯片供应商与制造工厂未披露；量产关键在自动对焦、云台寿命和软件版本一致性。",
+      "technology": "官网披露 AI Tracking with Auto Zoom、手势及语音控制。技术判断：人体动作可能与控制手势冲突，应设计可见的触发反馈和快速关闭方式；不能假定所有口音、光照与多人场景同样可靠。",
+      "aesthetics": "审美判断：体积紧凑且功能结构外露，显得专业而明确；显示器上方的云台带来轻微机械感。支架夹持、线缆走向和隐私姿态应一起设计，桌面用户在意的是长期在场而非开箱外观。",
+      "risks": "风险判断：误跟随、手势误触发和软件兼容会打断正式会议；背景中的人或文件可能被自动摄入。高级设置增加学习成本，长期固件与操作系统适配也属于真实使用成本。",
+      "opportunity": "可验证机会：围绕实物演示建立可靠的取景预设与低误触交互，或为小团队提供即插即用的教学套件。先检验用户每周实际使用的模式，再决定是否值得自研新的摄像机硬件。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "AI 桌面 PTZ 摄像头已有多个直接竞品及低价替代，需要以细分工作流形成区别。"
+    },
+    "architecture": [
+      {
+        "name": "光学",
+        "detail": "镜头与 1/1.5 英寸 CMOS，按官方规格。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知",
+        "detail": "AI 追踪、自动变焦、手势及语音识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "云台驱动",
+        "detail": "小型运动机构调整画面方向。",
+        "evidence": "official"
+      },
+      {
+        "name": "桌面软件",
+        "detail": "USB 视频输出及控制软件。",
+        "evidence": "official"
+      },
+      {
+        "name": "系统可靠性",
+        "detail": "误触防护与故障恢复是分析维度，未获得内部实现。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OBSBOT Tiny 2 官方商店",
+        "url": "https://www.obsbot.com/store/products/tiny-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开；标准包报价、购物入口及控制功能明确。"
+      },
+      {
+        "title": "OBSBOT Tiny 2 官方规格",
+        "url": "https://www.obsbot.com/service/products/obsbot-tiny-2",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已查阅官方规格，图像传感器和视频格式来自厂商。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "obsbot-tail-air",
+    "name": "OBSBOT Tail Air",
+    "brand": "OBSBOT",
+    "category": "imaging",
+    "tagline": "面向小型直播制作的 AI 自动跟拍 PTZ 摄像机",
+    "officialUrl": "https://www.obsbot.com/store/products/obsbot-tail-air",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示 NDI Activated 版 US$598、Add to Cart 及 3—5 个工作日配送；标准版与 NDI 版必须分别核对。",
+    "regions": [
+      "官方国际商店覆盖地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际商店页面，未核实中国大陆直接发货、定价和同版本售后条件。"
+    },
+    "price": {
+      "text": "US$598（NDI Activated 版）",
+      "note": "官网价格快照，税费未含；不把 NDI 激活版、标准版、遥控套装和多机套装混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "自动识别并追踪主体，结合 PTZ 与直播连接降低人工摄像操作；不等于自动完成节目编导。",
+      "dependency": "拍摄、追踪与输出依赖设备及控制软件；多机制作还需要网络、导播端和对应协议授权。"
+    },
+    "highlights": [
+      "AI 自动追踪主体",
+      "4K/30fps 或 1080p/60fps",
+      "NDI 版适合网络化多机制作"
+    ],
+    "analysis": {
+      "demand": "需求假设：小型讲座、音乐表演、培训和直播团队希望一人管理多个机位。应在完整活动中测量可用镜头比例、掉线与人工干预，而不是只测试单人在空场走动的追踪效果。",
+      "userProfile": "画像假设：预算有限但需要稳定多机位输出的活动制作团队、讲师、机构直播负责人。其购买决策涉及操作者培训和现场网络；偶尔开视频会议的人通常不需要这套连接复杂度。",
+      "competition": "竞争判断：与传统 PTZ、相机加采集卡和人工摄影都存在替代关系。AI 降低人力门槛，但不能替代镜头语言与现场判断；真正差异在多机可控性和部署速度，不只是能自动跟随。",
+      "supplyChain": "供应链推断：摄像模组、运动云台、编码处理、无线与多接口形成核心模块。供应商和代工厂未公开；散热、持续供电、同步以及连接可靠性比消费短视频设备更受重视。",
+      "technology": "官方列出 AI 追踪、NDI 与多接口。技术判断：多人交错、舞台逆光和遮挡会影响主体保持；网络延迟与编码链路还会影响导播。应明确目标锁定、人工接管和失跟后的稳定姿态。",
+      "aesthetics": "审美判断：紧凑摄像机保留专业设备语义，适合放在活动现场而不遮挡观众。接口线缆、支架安全和移动收纳比单机造型更重要；拍摄中的运动和指示灯也会影响现场观感。",
+      "risks": "风险判断：NDI 授权、网络容量、不同视频格式和控制软件可能增加集成成本；自动镜头仍可能错过关键内容。正式活动不能仅依赖未演练的自动跟拍，应有固定安全机位和人工接管。",
+      "opportunity": "可验证机会：聚焦培训、宗教活动或小型演出提供完整场景方案，降低非专业用户的设置和救场成本。先以现成设备验证付费工作流，再评估是否存在值得自研的专用硬件缺口。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "小型直播制作是专业细分场景；存在传统 PTZ 和制作方案竞争，并非冷门等于无竞品。"
+    },
+    "architecture": [
+      {
+        "name": "影像采集",
+        "detail": "最高 4K/30fps 或 1080p/60fps。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI 跟拍",
+        "detail": "主体识别与自动跟随。",
+        "evidence": "official"
+      },
+      {
+        "name": "运动",
+        "detail": "PTZ 云台调整镜头方向和构图。",
+        "evidence": "official"
+      },
+      {
+        "name": "传输",
+        "detail": "NDI 激活版及多种视频连接方式。",
+        "evidence": "official"
+      },
+      {
+        "name": "导播协同",
+        "detail": "控制 App 与多机制作流程；同步和调度细节按方案核实。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OBSBOT Tail Air 官方商店",
+        "url": "https://www.obsbot.com/store/products/obsbot-tail-air",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开；当前默认 NDI Activated 版，避免与标准版价格混淆。"
+      },
+      {
+        "title": "OBSBOT 官方全产品商店",
+        "url": "https://www.obsbot.com/store",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "已查阅；Tail Air 列价并提供 Buy Now。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "brisk-it-zelos-450",
+    "name": "Brisk It Zelos-450",
+    "brand": "Brisk It",
+    "category": "kitchen",
+    "tagline": "把生成式食谱连接到颗粒烧烤炉的烹饪流程",
+    "officialUrl": "https://briskit.ai/products/brisk-it-zelos-450-a-i-powered-and-wifi-grill",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示 US$349.99、Available In Stock 与 Add to Cart。页面同时提示价格不含订阅，配送范围以结账为准。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实中国大陆官方销售、认证和售后；进口还需确认供电、燃料、使用场地及联网服务条件。"
+    },
+    "price": {
+      "text": "US$349.99",
+      "note": "官方促销页面快照，订阅、运费、税费、燃料和配件另计；非完整使用成本。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "根据偏好、食材或图片生成个性化食谱，并将烹饪步骤与温度、时间控制连接。",
+      "dependency": "生成式能力和远程控制依赖 App、联网与服务方案；实体加热仍应受独立的安全控制约束。"
+    },
+    "highlights": [
+      "个性化 AI 食谱",
+      "联网监控与烹饪程序控制",
+      "传统木颗粒炉与软件服务组合"
+    ],
+    "analysis": {
+      "demand": "需求假设：烧烤新手既缺食谱选择也担心温度与时间控制，希望更稳定地完成食物。应比较同等食材下的完成率、操作负担与重复使用，不能把自动生成食谱等同口味好或更安全。",
+      "userProfile": "画像假设：有合适户外空间、喜欢家庭聚会但烹饪经验有限的人；有经验的烧烤玩家可能更重视可手动控制与设备品质。消费者需同时愿意承担清洁、燃料补充和户外收纳。",
+      "competition": "竞争判断：联网颗粒炉已有 Traeger、Weber 等成熟替代，生成式食谱是较新服务层。机会不是简单增加聊天框，而是能否把实际烹饪状态、异常处理和可信执行连成闭环。",
+      "supplyChain": "供应链推断：钣金炉体、送料机构、点火、温度探头、控制板与无线模组构成基础。具体工厂、芯片与 BOM 未披露；高温、油脂、腐蚀和清洁耐受决定长期可靠性，模型调用不是主要制造门槛。",
+      "technology": "官网宣称食谱生成及自动管理温度、时间。技术判断：文本计划需转成受限烹饪程序，必须处理食材尺寸、探头误差与燃料中断。模型输出不能绕过实体限温和用户安全操作。",
+      "aesthetics": "审美判断：黑色工具化炉体符合户外烧烤场景，AI 并未要求额外拟人形象。面板易读性、热区提示、挂钩和清洁路径比屏幕尺寸更重要，应让复杂软件退到可靠烹饪操作之后。",
+      "risks": "风险判断：生熟判断、食品过敏与高温明火不能仅依赖生成式建议。远程控制也不能取消现场监管，必须遵守厂商操作规程；订阅停用、断网或服务终止后的基础功能需要购买前确认。",
+      "opportunity": "可验证机会：从一种明确菜系或重复性烹饪任务切入，记录用户失败原因与能否安全恢复。用已有控温硬件验证辅助价值，再决定整机创新，避免用 AI 掩盖基本热工与清洁体验不足。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "生成式食谱接入实体烹饪是发展中的服务组合，但颗粒炉和联网控温本身已有成熟竞争。"
+    },
+    "architecture": [
+      {
+        "name": "食材与意图",
+        "detail": "用户输入偏好、食材或图片。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI 食谱",
+        "detail": "生成个性化烹饪建议。",
+        "evidence": "official"
+      },
+      {
+        "name": "执行计划",
+        "detail": "将食谱转为受约束温度与时间步骤，具体内部实现未公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "炉体控制",
+        "detail": "加热、送料、测温和烹饪执行。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "App 与监督",
+        "detail": "远程查看及调整，现场安全仍由用户与设备保护承担。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Brisk It Zelos-450 官方商店",
+        "url": "https://briskit.ai/products/brisk-it-zelos-450-a-i-powered-and-wifi-grill",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "subscription"
+        ],
+        "note": "已打开；列库存、购物入口、AI 生成食谱和订阅提示，自动烹饪效果为厂商声明。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "brisk-it-neoma-oven",
+    "name": "Brisk It Neoma AI Oven",
+    "brand": "Brisk It",
+    "category": "kitchen",
+    "tagline": "连接周餐计划、食谱与台式烤箱的 AI 厨房产品",
+    "officialUrl": "https://briskit.ai/products/neomaoven",
+    "status": "on_sale",
+    "statusEvidence": "官方产品页列 Neoma AI Multi-function Oven、US$249、Available In Stock 与 Add to Cart；不是仅有新闻发布或众筹概念。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实中国大陆官方购买、食品接触认证、电源版本及本地服务，不能直接从海外可购买推断国内适用。"
+    },
+    "price": {
+      "text": "US$249",
+      "note": "官方促销价快照；页面提示不含订阅，运费和地区税费按结账确认。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "根据口味或目标生成周餐计划和购物清单，并将食谱加载到联网烤箱；生成内容需用户确认。",
+      "dependency": "AI 计划、购物清单和远程控制依赖联网 App 与服务，第三方购物能力有地区限制。"
+    },
+    "highlights": [
+      "生成周餐计划与食谱",
+      "食谱加载到烤箱执行",
+      "多功能台式炉体与云端计划组合"
+    ],
+    "analysis": {
+      "demand": "需求假设：工作日家庭的痛点可能是决定吃什么、采购和安排步骤，而不只是加热。需要观察一周内计划采纳、食材浪费与清理时间；如果用户不按计划采购，智能烤箱也无法自动补齐流程。",
+      "userProfile": "画像假设：愿意尝试餐食规划、厨房空间有限的家庭或个人。消费者的饮食偏好和过敏要求差异大；偏爱中式炒菜的人可能不适合以烤箱为中心的周餐计划，不能直接搬用海外画像。",
+      "competition": "竞争判断：台式烤箱、空气炸锅和手机食谱应用都是替代品，生成式规划仍在探索。应证明软硬件闭环明显优于普通烤箱加手机，而不是假设把两个成熟品类相连就形成新市场。",
+      "supplyChain": "供应链推断：加热组件、风机、隔热材料、温控探头、食品接触内腔和联网控制板是关键。具体制造商与成本未披露；热工一致性、密封、易清洗和电气安全比模型品牌更直接影响质量。",
+      "technology": "官方披露餐单生成、购物清单与配方加载。技术判断：食谱需映射为可解释参数和物理控制边界；实际食材重量与初温会影响结果，不能把文字推理能力视为可靠测熟能力。",
+      "aesthetics": "审美判断：黑色台式家电有利于与现代厨房搭配，但大面积门体、把手与操作区要适应油污和频繁触摸。体积、开门空间和清洁路径决定它能否长期留在台面，而不仅是发布图片好看。",
+      "risks": "风险判断：生成式餐单可能不适合过敏、特殊疾病或儿童营养需求，不能作为医疗营养建议。联网服务和第三方购物有地区依赖，食材准备、放入取出与清洁仍需人完成。",
+      "opportunity": "可验证机会：聚焦固定食材、少步骤和可复现的一人食或家庭餐流程，验证用户是否持续采用。若主要价值在采购与计划，先做软件原型可能比立即开发完整烤箱更有效。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "生成式餐食规划与实体烤箱连接是新组合；烤箱与食谱服务本身并不冷门，需求仍需验证。"
+    },
+    "architecture": [
+      {
+        "name": "偏好输入",
+        "detail": "口味、餐食目标与食材偏好。",
+        "evidence": "official"
+      },
+      {
+        "name": "生成计划",
+        "detail": "AI 周餐计划与购物清单。",
+        "evidence": "official"
+      },
+      {
+        "name": "配方传递",
+        "detail": "食谱加载到设备及远程设置。",
+        "evidence": "official"
+      },
+      {
+        "name": "实体烹饪",
+        "detail": "多功能加热炉体、风机和温控为功能架构推断。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "人工环节",
+        "detail": "备料、放入取出、清洁与结果确认仍由用户完成。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Brisk It Neoma AI Oven 官方商店",
+        "url": "https://briskit.ai/products/neomaoven",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "subscription"
+        ],
+        "note": "已打开；库存、购物入口、AI 餐单和订阅提示明确。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]
