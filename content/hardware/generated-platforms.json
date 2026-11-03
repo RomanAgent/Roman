@@ -1,0 +1,141 @@
+[
+  {
+    "id": "reachy-mini-wireless",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/reachy-mini-wireless/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Reachy Mini 的AI生成爆炸示意，展示头部、音视频、关节、计算和供电的概念关系",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/reachy-mini-wireless.txt",
+        "referencePaths": [
+          "assets/hardware/reachy-mini-wireless/product.webp",
+          "assets/hardware/reachy-mini-wireless/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "unitree-g1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/unitree-g1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "unitree-g1 AI生成结构爆炸概念图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/unitree-g1.txt",
+        "referencePaths": [
+          "assets/hardware/unitree-g1/product.jpg",
+          "assets/hardware/unitree-g1/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "unitree-go2-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/unitree-go2-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "unitree-go2-pro AI生成结构爆炸概念图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/unitree-go2-pro.txt",
+        "referencePaths": [
+          "assets/hardware/unitree-go2-pro/product.png",
+          "assets/hardware/unitree-go2-pro/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "macbook-air-m5",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/macbook-air-m5/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "macbook-air-m5 AI生成结构爆炸概念图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/macbook-air-m5.txt",
+        "referencePaths": [
+          "assets/hardware/macbook-air-m5/product.png",
+          "assets/hardware/macbook-air-m5/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "google-pixel-11-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/google-pixel-11-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "google-pixel-11-pro AI生成结构爆炸概念图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/google-pixel-11-pro.txt",
+        "referencePaths": [
+          "assets/hardware/google-pixel-11-pro/product.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "jetson-orin-nano-super",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/jetson-orin-nano-super/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "jetson-orin-nano-super AI生成结构爆炸概念图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/jetson-orin-nano-super.txt",
+        "referencePaths": [
+          "assets/hardware/jetson-orin-nano-super/product.jpg",
+          "assets/hardware/jetson-orin-nano-super/reference-layout.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "raspberry-pi-ai-hat-plus-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/raspberry-pi-ai-hat-plus-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "raspberry-pi-ai-hat-plus-2 AI生成结构爆炸概念图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/raspberry-pi-ai-hat-plus-2.txt",
+        "referencePaths": [
+          "assets/hardware/raspberry-pi-ai-hat-plus-2/product.png",
+          "assets/hardware/raspberry-pi-ai-hat-plus-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  }
+]

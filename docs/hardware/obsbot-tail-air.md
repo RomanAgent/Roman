@@ -4,6 +4,30 @@
 
 面向小型直播制作的 AI 自动跟拍 PTZ 摄像机
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：Tail Air 直播云台相机](../../assets/hardware/obsbot-tail-air/product.png)
+
+官方商品图：Tail Air 直播云台相机 · 来源：[OBSBOT · 官方图片](<https://www.obsbot.com/store/products/obsbot-tail-air>) · [原始图片](<https://resource-cdn.obsbothk.com/product_system_back/product_img/7b10e5d218274c61b743.png>)
+
+### 参考图
+
+![官方接线场景：Tail Air 背部、连接线与外部设备](../../assets/hardware/obsbot-tail-air/reference.jpg)
+
+官方接线场景：Tail Air 背部、连接线与外部设备 · 来源：[OBSBOT · 官方图片](<https://www.obsbot.com/store/products/obsbot-tail-air>) · [原始图片](<https://resource-cdn.obsbothk.com/product_system_back/product_img/04_3x_d038e22de205.jpg>)
+
+### AI 生成爆炸示意
+
+![OBSBOT Tail Air AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/obsbot-tail-air/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/obsbot-tail-air.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

@@ -4,6 +4,30 @@
 
 结合激光、视觉和定位服务的复杂地形割草平台
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：LUBA 3 AWD 主机斜视](../../assets/hardware/mammotion-luba-3-awd/product.png)
+
+官方商品图：LUBA 3 AWD 主机斜视 · 来源：[Mammotion · 官方图片](<https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower>) · [原始图片](<https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_3_right_side_view.png?v=1790136395&width=1200>)
+
+### 参考图
+
+![官方底部视图：双刀盘、轮组与机身底盘，非爆炸图](../../assets/hardware/mammotion-luba-3-awd/reference.png)
+
+官方底部视图：双刀盘、轮组与机身底盘，非爆炸图 · 来源：[Mammotion · 官方图片](<https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower>) · [原始图片](<https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_3_bottom_view.png?v=1790136395&width=1200>)
+
+### AI 生成爆炸示意
+
+![Mammotion LUBA 3 AWD AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/mammotion-luba-3-awd/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/mammotion-luba-3-awd.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

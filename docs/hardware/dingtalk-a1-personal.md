@@ -4,6 +4,32 @@
 
 连接钉钉工作流的实体语音记录入口
 
+## 产品图片与结构参考
+
+### 产品图
+
+![钉钉官方 A1 旗舰形态银色录音卡宣传图](../../assets/hardware/dingtalk-a1-personal/product.png)
+
+钉钉官方 A1 旗舰形态银色录音卡宣传图 · 来源：[钉钉 · 官方产品图片](<https://page.dingtalk.com/wow/dingtalk/default/dingtalk/ENSdJDWVpi1L44lqSr3Zz?dd_mini_app_id=5000000004997171>) · [原始图片](<https://gw.alicdn.com/imgextra/i2/O1CN0139M6H11fcsSxbbWId_!!6000000004028-2-tps-1802-1306.png>)
+
+### 参考图
+
+![钉钉官方 A1 银黑配色历史宣传图，所示价格和权益不代表当前套餐](../../assets/hardware/dingtalk-a1-personal/reference.webp)
+
+钉钉官方 A1 银黑配色历史宣传图，所示价格和权益不代表当前套餐 · 来源：[钉钉 · 官方产品图片](<https://page.dingtalk.com/wow/dingtalk/default/dingtalk/VWKdjhj4kVMU9YvdgMTy?dd_mini_app_id=5000000004997171>) · [原始图片](<https://gw.alicdn.com/imgextra/i1/O1CN01hjlHg91Sq4rNf8fTv_%21%216000000002297-0-tps-3840-1474.jpg>)
+
+### AI 生成爆炸示意
+
+![DingTalk A1（个人版·云享版）的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/dingtalk-a1-personal/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/dingtalk-a1-personal.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
+> A1个人云享版属于服务套餐，参考图用于同款A1硬件形态；历史宣传图价格和权益不用于当前报价。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

@@ -4,6 +4,30 @@
 
 让第一视角影像与运动数据汇合
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方 Vanguard 黑框 Prizm Black 正面图](../../assets/hardware/oakley-meta-vanguard/product.webp)
+
+官方 Vanguard 黑框 Prizm Black 正面图 · 来源：[Oakley × Meta · 官方产品图片](<https://www.oakley.com/en-us/product/W0OW8001>) · [原始图片](<https://assets2.oakley.com/prod-onecp-record-files/pieyewear/dfbf31c3-b65d-4ec4-990d-b410014fc06d/0OW8001__800107__P21__shad__fr.png?impolicy=OO_ratio&width=768>)
+
+### 参考图
+
+![官方 Vanguard 黑框侧面与镜腿参考](../../assets/hardware/oakley-meta-vanguard/reference.webp)
+
+官方 Vanguard 黑框侧面与镜腿参考 · 来源：[Oakley × Meta · 官方产品图片](<https://www.oakley.com/en-us/product/W0OW8001>) · [原始图片](<https://assets2.oakley.com/prod-onecp-record-files/pieyewear/762cc332-a20c-4917-b9a9-b410014fc070/0OW8001__800107__P21__shad__lt.png?impolicy=OO_ratio&width=768>)
+
+### AI 生成爆炸示意
+
+![Oakley Meta Vanguard的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/oakley-meta-vanguard/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/oakley-meta-vanguard.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

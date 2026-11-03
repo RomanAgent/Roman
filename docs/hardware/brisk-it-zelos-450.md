@@ -4,6 +4,30 @@
 
 把生成式食谱连接到颗粒烧烤炉的烹饪流程
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：Zelos-450 烧烤炉正面](../../assets/hardware/brisk-it-zelos-450/product.png)
+
+官方商品图：Zelos-450 烧烤炉正面 · 来源：[Brisk It · 官方图片](<https://briskit.ai/products/brisk-it-zelos-450-a-i-powered-and-wifi-grill>) · [原始图片](<https://cdn.shopify.com/s/files/1/0568/4271/5314/files/briskit-zelos450-black-front-1445x1445.png?v=1787731679&width=1200>)
+
+### 参考图
+
+![官方后视参考：Zelos-450 炉体、支腿与料仓](../../assets/hardware/brisk-it-zelos-450/reference.png)
+
+官方后视参考：Zelos-450 炉体、支腿与料仓 · 来源：[Brisk It · 官方图片](<https://briskit.ai/products/brisk-it-zelos-450-a-i-powered-and-wifi-grill>) · [原始图片](<https://cdn.shopify.com/s/files/1/0568/4271/5314/files/ZELOS_BACK_RESIZE_V1.png?v=1776118186&width=1200>)
+
+### AI 生成爆炸示意
+
+![Brisk It Zelos-450 AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/brisk-it-zelos-450/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/brisk-it-zelos-450.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

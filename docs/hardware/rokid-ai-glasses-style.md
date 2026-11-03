@@ -4,6 +4,30 @@
 
 无显示、轻量化的语音与视觉 AI 入口
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方 Rokid AI Glasses Style 无显示款产品图](../../assets/hardware/rokid-ai-glasses-style/product.webp)
+
+官方 Rokid AI Glasses Style 无显示款产品图 · 来源：[Rokid · 官方产品图片](<https://global.rokid.com/products/rokid-ai-glasses-style>) · [原始图片](<https://cdn.shopify.com/s/files/1/0628/5636/4211/files/002_bec55c7c-a573-496d-8894-64dfd966cede.jpg?v=1788761083&width=1200>)
+
+### 参考图
+
+![官方骑行佩戴场景示意，非独立实测](../../assets/hardware/rokid-ai-glasses-style/reference.webp)
+
+官方骑行佩戴场景示意，非独立实测 · 来源：[Rokid · 官方产品图片](<https://global.rokid.com/products/rokid-ai-glasses-style>) · [原始图片](<https://cdn.shopify.com/s/files/1/0628/5636/4211/files/23714d83d1faac4a6127afe09e9b41d3.jpg?v=1789385146&width=1200>)
+
+### AI 生成爆炸示意
+
+![Rokid AI Glasses Style的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/rokid-ai-glasses-style/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/rokid-ai-glasses-style.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

@@ -4,6 +4,26 @@
 
 四足运动、环境感知与交互，先核清 Pro 和 EDU 的能力边界。
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方产品主图](../../assets/hardware/unitree-go2-pro/product.png)
+
+官方产品主图 · 来源：[Unitree 宇树](<https://shop.unitree.com/products/unitree-go2>) · [原始图片](<https://cdn.shopify.com/s/files/1/0620/4932/1193/files/df9f333424ff6cc6164ce421b019fb94_a6f832b0-479e-4294-ac75-6516208b91f4.png?v=1718274082>)
+
+### 参考图
+
+![官方产品角度 / 规格参考图](../../assets/hardware/unitree-go2-pro/reference.png)
+
+官方产品角度 / 规格参考图 · 来源：[Unitree 宇树](<https://shop.unitree.com/products/unitree-go2>) · [原始图片](<https://cdn.shopify.com/s/files/1/0620/4932/1193/files/21.png?v=1718274083>)
+
+### AI 生成爆炸示意
+
+![unitree-go2-pro AI生成结构爆炸概念图，隐藏内部为功能推断](../../assets/hardware/unitree-go2-pro/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/unitree-go2-pro.txt)
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

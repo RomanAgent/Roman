@@ -1,0 +1,376 @@
+[
+  {
+    "id": "lovot-3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/lovot-3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "LOVOT 3.0 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/lovot-3.txt",
+        "referencePaths": [
+          "assets/hardware/lovot-3/product.webp",
+          "assets/hardware/lovot-3/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "casio-moflin",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/casio-moflin/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Moflin 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/casio-moflin.txt",
+        "referencePaths": [
+          "assets/hardware/casio-moflin/product.png",
+          "assets/hardware/casio-moflin/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "livingai-emo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/livingai-emo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "EMO 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/livingai-emo.txt",
+        "referencePaths": [
+          "assets/hardware/livingai-emo/product.jpg",
+          "assets/hardware/livingai-emo/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "loona-petbot",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/loona-petbot/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Loona Petbot Premium 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/loona-petbot.txt",
+        "referencePaths": [
+          "assets/hardware/loona-petbot/product.png",
+          "assets/hardware/loona-petbot/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "eilik-ai-station",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/eilik-ai-station/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Eilik + AI Station 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/eilik-ai-station.txt",
+        "referencePaths": [
+          "assets/hardware/eilik-ai-station/product.jpg",
+          "assets/hardware/eilik-ai-station/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "sony-aibo-ers1000",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/sony-aibo-ers1000/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "aibo ERS-1000 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/sony-aibo-ers1000.txt",
+        "referencePaths": [
+          "assets/hardware/sony-aibo-ers1000/product.jpg",
+          "assets/hardware/sony-aibo-ers1000/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "miko-3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/miko-3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Miko 3 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/miko-3.txt",
+        "referencePaths": [
+          "assets/hardware/miko-3/product.png",
+          "assets/hardware/miko-3/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "luka-reading-robot",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/luka-reading-robot/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Luka Kids Reading Robot 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/luka-reading-robot.txt",
+        "referencePaths": [
+          "assets/hardware/luka-reading-robot/product.png",
+          "assets/hardware/luka-reading-robot/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "iflytek-t30-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/iflytek-t30-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "讯飞AI学习机 T30 Pro 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/iflytek-t30-pro.txt",
+        "referencePaths": [
+          "assets/hardware/iflytek-t30-pro/product.webp",
+          "assets/hardware/iflytek-t30-pro/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "oura-ring-4",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/oura-ring-4/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Oura Ring 4 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/oura-ring-4.txt",
+        "referencePaths": [
+          "assets/hardware/oura-ring-4/product.png",
+          "assets/hardware/oura-ring-4/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "whoop-5",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/whoop-5/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "WHOOP 5.0 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/whoop-5.txt",
+        "referencePaths": [
+          "assets/hardware/whoop-5/product.webp",
+          "assets/hardware/whoop-5/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "ultrahuman-ring-air",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ultrahuman-ring-air/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Ultrahuman Ring AIR 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ultrahuman-ring-air.txt",
+        "referencePaths": [
+          "assets/hardware/ultrahuman-ring-air/product.jpg",
+          "assets/hardware/ultrahuman-ring-air/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "amazfit-balance-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/amazfit-balance-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Amazfit Balance 2 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/amazfit-balance-2.txt",
+        "referencePaths": [
+          "assets/hardware/amazfit-balance-2/product.jpg",
+          "assets/hardware/amazfit-balance-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-watch8",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/samsung-galaxy-watch8/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Samsung Galaxy Watch8 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/samsung-galaxy-watch8.txt",
+        "referencePaths": [
+          "assets/hardware/samsung-galaxy-watch8/product.jpg",
+          "assets/hardware/samsung-galaxy-watch8/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "iflytek-ebox-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/iflytek-ebox-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "讯飞AI英语宝 EBOX Pro 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/iflytek-ebox-pro.txt",
+        "referencePaths": [
+          "assets/hardware/iflytek-ebox-pro/product.webp",
+          "assets/hardware/iflytek-ebox-pro/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "iflytek-dictionary-x9-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/iflytek-dictionary-x9-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "讯飞AI词典笔 X9 Pro 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/iflytek-dictionary-x9-pro.txt",
+        "referencePaths": [
+          "assets/hardware/iflytek-dictionary-x9-pro/product.webp",
+          "assets/hardware/iflytek-dictionary-x9-pro/reference-package.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-ring",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/samsung-galaxy-ring/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Samsung Galaxy Ring 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/samsung-galaxy-ring.txt",
+        "referencePaths": [
+          "assets/hardware/samsung-galaxy-ring/product.png",
+          "assets/hardware/samsung-galaxy-ring/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+    ]
+  }
+]

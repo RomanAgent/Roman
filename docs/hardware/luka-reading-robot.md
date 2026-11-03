@@ -4,6 +4,28 @@
 
 围绕真实绘本进行朗读、提问与互动
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Luka Reading Robot 官方正面产品图](../../assets/hardware/luka-reading-robot/product.png)
+
+Luka Reading Robot 官方正面产品图 · 来源：[Luka · 官方图片](<https://luka.world/products/luka-reading-robot>) · [原始图片](<https://cdn.shopify.com/s/files/1/0642/2426/4277/files/Luka_95978182-d73a-49e8-bd7a-84db710be340.png?v=1776998127&width=3840>)
+
+### 参考图
+
+![Luka Reading Robot 官方侧前方参考](../../assets/hardware/luka-reading-robot/reference.png)
+
+Luka Reading Robot 官方侧前方参考 · 来源：[Luka · 官方图片](<https://luka.world/products/luka-reading-robot>) · [原始图片](<https://cdn.shopify.com/s/files/1/0642/2426/4277/files/Luka_45_-2_8ba21f77-40b0-4c81-bd00-9919a784af30.png?v=1776998127&width=3840>)
+
+### AI 生成爆炸示意
+
+![Luka Kids Reading Robot 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/luka-reading-robot/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/luka-reading-robot.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

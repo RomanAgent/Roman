@@ -4,6 +4,26 @@
 
 面向机器人探索的人形平台，标准版与 EDU 的开发权限要分开看。
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方产品主图](../../assets/hardware/unitree-g1/product.jpg)
+
+官方产品主图 · 来源：[Unitree 宇树](<https://shop.unitree.com/products/unitree-g1>) · [原始图片](<https://cdn.shopify.com/s/files/1/0620/4932/1193/files/2_3769ceea-b323-4ebc-a1f4-e27a9624706b.jpg?v=1717575246>)
+
+### 参考图
+
+![官方产品角度 / 规格参考图](../../assets/hardware/unitree-g1/reference.jpg)
+
+官方产品角度 / 规格参考图 · 来源：[Unitree 宇树](<https://shop.unitree.com/products/unitree-g1>) · [原始图片](<https://cdn.shopify.com/s/files/1/0620/4932/1193/files/1_968fd08b-9aaf-4f32-b895-5c786285ee52.jpg?v=1717575256>)
+
+### AI 生成爆炸示意
+
+![unitree-g1 AI生成结构爆炸概念图，隐藏内部为功能推断](../../assets/hardware/unitree-g1/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/unitree-g1.txt)
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

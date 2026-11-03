@@ -4,6 +4,30 @@
 
 面向小型草坪的无埋线视觉割草机器人
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：Navimow i105 斜前视角](../../assets/hardware/segway-navimow-i105/product.png)
+
+官方商品图：Navimow i105 斜前视角 · 来源：[Segway Navimow · 官方图片](<https://navimow.com/products/navimow-i105>) · [原始图片](<https://cdn.shopify.com/s/files/1/0676/6896/7561/files/Nav_Bar_i105.png?v=1766745896>)
+
+### 参考图
+
+![官方参考图：i105 俯视，可见控制区与前部视觉模组](../../assets/hardware/segway-navimow-i105/reference.png)
+
+官方参考图：i105 俯视，可见控制区与前部视觉模组 · 来源：[Segway Navimow · 官方图片](<https://navimow.com/products/navimow-i105>) · [原始图片](<https://cdn.shopify.com/s/files/1/0676/6896/7561/files/i105-square-top_427d4620-5a60-4b13-b41f-a9c52ab13dfa.png?v=1766745896&width=1200>)
+
+### AI 生成爆炸示意
+
+![Segway Navimow i105 AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/segway-navimow-i105/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/segway-navimow-i105.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

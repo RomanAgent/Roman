@@ -4,6 +4,26 @@
 
 可自行装配、可编程的桌面机器人，强调开发与交互实验。
 
+## 产品图片与结构参考
+
+### 产品图
+
+![白色 Reachy Mini Wireless 桌面机器人正面偏侧视图](../../assets/hardware/reachy-mini-wireless/product.webp)
+
+Reachy Mini 官方产品外观图 · 来源：[Pollen Robotics / Hugging Face](<https://pollen-robotics.com/reachy-mini/>) · [原始图片](<https://pollen-robotics.com/assets/talk/reachy-3d-still-facing-right.webp>)
+
+### 官方结构参考
+
+![Reachy Mini 天线、头部、机身、关节、电机与底座官方分解示意](../../assets/hardware/reachy-mini-wireless/reference.webp)
+
+官方装配部件参考图 · 来源：[Pollen Robotics / Hugging Face](<https://pollen-robotics.com/reachy-mini/>) · [原始图片](<https://pollen-robotics.com/assets/build/reachy-mini-plate.webp>)
+
+### AI 生成爆炸示意
+
+![Reachy Mini 的AI生成爆炸示意，展示头部、音视频、关节、计算和供电的概念关系](../../assets/hardware/reachy-mini-wireless/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/reachy-mini-wireless.txt)
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

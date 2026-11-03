@@ -4,6 +4,30 @@
 
 以连续记录和会员制AI教练服务训练人群
 
+## 产品图片与结构参考
+
+### 产品图
+
+![WHOOP 5.0 One 官方设备与应用展示](../../assets/hardware/whoop-5/product.webp)
+
+WHOOP 5.0 One 官方设备与应用展示 · 来源：[WHOOP · 官方图片](<https://www.whoop.com/ch/en/membership/>) · [原始图片](<https://images.ctfassets.net/rbzqg6pelgqa/3waVHtJ6R9HOTAreGiUP5a/e9a8df7e641adb0cbf3adc005d31a278/One_card__1_.png?fm=webp&q=25&w=3840>)
+
+### 参考图
+
+![WHOOP 5.0 Peak 官方表带与应用参考](../../assets/hardware/whoop-5/reference.webp)
+
+WHOOP 5.0 Peak 官方表带与应用参考 · 来源：[WHOOP · 官方图片](<https://www.whoop.com/ch/en/membership/>) · [原始图片](<https://images.ctfassets.net/rbzqg6pelgqa/2L5W622UNiYxlnHE3hHGAL/d3443637b907fe3541f32a8d9fe58cbc/Peak_card__1_.png?fm=webp&q=25&w=3840>)
+
+### AI 生成爆炸示意
+
+![WHOOP 5.0 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/whoop-5/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/whoop-5.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
+> One与Peak图片均来自官网对应WHOOP 5.0栏目，非MG；应用中的数值是官方展示画面，不是本项目实测。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

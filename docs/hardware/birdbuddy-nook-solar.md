@@ -4,6 +4,30 @@
 
 将鸟类识别与家庭自然观察结合的太阳能喂鸟器
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：Nook Solar 机身与太阳能顶板](../../assets/hardware/birdbuddy-nook-solar/product.webp)
+
+官方商品图：Nook Solar 机身与太阳能顶板 · 来源：[Birdbuddy · 官方图片](<https://mybirdbuddy.com/product/birdbuddy-nook-solar/>) · [原始图片](<https://mybirdbuddy.com/wp-content/uploads/2026/10/nook-solar-product.webp>)
+
+### 参考图
+
+![官方场景图：Nook Solar 屋顶、镜头与访鸟位置](../../assets/hardware/birdbuddy-nook-solar/reference.webp)
+
+官方场景图：Nook Solar 屋顶、镜头与访鸟位置 · 来源：[Birdbuddy · 官方图片](<https://mybirdbuddy.com/product/birdbuddy-nook-solar/>) · [原始图片](<https://mybirdbuddy.com/wp-content/uploads/2026/10/nook-solar-hero.webp>)
+
+### AI 生成爆炸示意
+
+![Birdbuddy Nook Solar AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/birdbuddy-nook-solar/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/birdbuddy-nook-solar.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

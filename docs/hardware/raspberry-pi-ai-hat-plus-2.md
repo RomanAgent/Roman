@@ -4,6 +4,26 @@
 
 为 Raspberry Pi 5 增加本地生成式和视觉推理能力的扩展板。
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Raspberry Pi AI HAT+ 2 加速板官方正面图](../../assets/hardware/raspberry-pi-ai-hat-plus-2/product.png)
+
+AI HAT+ 2 官方主图（叠装 Raspberry Pi 5 参考） · 来源：[Raspberry Pi](<https://www.raspberrypi.com/products/ai-hat-plus-2/>) · [原始图片](<https://assets.raspberrypi.com/static/f0d909cef0e7e6609acf92ae2921a60d/f2024/hero.png>)
+
+### 参考图
+
+![AI HAT+ 2 官方板载内存与芯片参考](../../assets/hardware/raspberry-pi-ai-hat-plus-2/reference.jpg)
+
+AI HAT+ 2 官方板载内存与芯片参考 · 来源：[Raspberry Pi](<https://www.raspberrypi.com/products/ai-hat-plus-2/>) · [原始图片](<https://assets.raspberrypi.com/static/92df577a5d419ed0b4d57a3b16fe59a2/8dbcc/ram.jpg>)
+
+### AI 生成爆炸示意
+
+![raspberry-pi-ai-hat-plus-2 AI生成结构爆炸概念图，隐藏内部为功能推断](../../assets/hardware/raspberry-pi-ai-hat-plus-2/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/raspberry-pi-ai-hat-plus-2.txt)
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

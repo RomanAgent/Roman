@@ -4,6 +4,30 @@
 
 通过自动跟随、构图与降噪减少视频表达负担
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：带云台的 Insta360 Link 2（非 Link 2C）](../../assets/hardware/insta360-link-2/product.png)
+
+官方商品图：带云台的 Insta360 Link 2（非 Link 2C） · 来源：[Insta360 · 官方图片](<https://store.insta360.com/cn/product/link-2>) · [原始图片](<https://res.insta360.com/dynamic/store/ba50458073ace427f278f8bf4bf52a93/2300_313f0fea-379b-42d7-ba3a-4e1319790080.png>)
+
+### 参考图
+
+![官方标准套餐与桌面授课场景，配件以实际套餐为准](../../assets/hardware/insta360-link-2/reference.jpg)
+
+官方标准套餐与桌面授课场景，配件以实际套餐为准 · 来源：[Insta360 · 官方图片](<https://store.insta360.com/cn/product/link-2>) · [原始图片](<https://res.insta360.com/dynamic/store/f650b90c419de4ae6447bd55913e1437/353_cce7ce43-baf6-46c0-8466-cf5315d064b5.jpg>)
+
+### AI 生成爆炸示意
+
+![Insta360 Link 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/insta360-link-2/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/insta360-link-2.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

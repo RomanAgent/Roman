@@ -7,6 +7,7 @@
     "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
     "export": "node scripts/export-content.mjs",
     "check": "node --check app.js && node --check hardware.js && node scripts/check-content.mjs && node scripts/check-hardware.mjs",
-    "catalog": "node scripts/build-hardware.mjs"
+    "catalog": "node scripts/build-hardware.mjs",
+    "media:check": "node scripts/check-hardware-media.mjs"
   }
 }

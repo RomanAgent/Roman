@@ -1,5 +1,7 @@
-import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, readdir, writeFile, mkdir, stat } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import assert from 'node:assert/strict';
+import {assertMediaPath,assertPromptPath,assertImageSignature} from './hardware-media-contract.mjs';
 const root = new URL('../', import.meta.url);
 const dir = new URL('content/hardware/', root);
 const metadata = JSON.parse(await readFile(new URL('metadata.json', dir), 'utf8'));
@@ -20,14 +22,54 @@ for (const p of products) {
   for(const source of p.sources) assert.equal(new URL(source.url).protocol,'https:');
   assert(p.architecture.length >= 3 && p.architecture.every(a => ['official','inferred'].includes(a.evidence)));
 }
+const mediaFiles=(await readdir(dir)).filter(f=>/^(media|generated)-.+\.json$/.test(f)).sort();
+const mediaRows=(await Promise.all(mediaFiles.map(async f=>JSON.parse(await readFile(new URL(f,dir),'utf8'))))).flat();
+const mediaMap=new Map();
+for(const row of mediaRows){
+ assert(ids.has(row.id),`图片记录对应未知产品 ${row.id}`);
+ const entry=mediaMap.get(row.id)||{images:[],notes:[]};
+ for(const im of row.images){
+  assert(['product','reference','official-structure','ai-exploded'].includes(im.kind),`未知图片类型 ${im.kind}`);
+  assertMediaPath(im.path,row.id);
+  assert(/\.(png|jpg|jpeg|webp|avif|gif)$/i.test(im.path),`图片格式不支持 ${im.path}`);
+  assert(im.verified===true,`图片未经检查 ${im.path}`);
+  assert(im.caption&&im.alt&&im.credit,`缺少图片说明 ${im.path}`);
+  assert(!entry.images.some(x=>x.path===im.path),`重复图片 ${im.path}`);
+  const bytes=await readFile(new URL(im.path,root));
+  assert(bytes.length>1000,`图片文件异常 ${im.path}`);
+  assertImageSignature(bytes,im.path);
+  if(im.kind==='ai-exploded'){
+   assert(im.promptPath&&im.referencePaths?.length,`缺生成溯源 ${row.id}`);
+   assertPromptPath(im.promptPath,row.id);
+   for(const ref of im.referencePaths)assertMediaPath(ref,row.id);
+   await stat(new URL(im.promptPath,root));
+   for(const ref of im.referencePaths)await stat(new URL(ref,root));
+  } else {
+   assert.equal(new URL(im.sourceUrl).protocol,'https:');
+   assert.equal(new URL(im.sourceImageUrl).protocol,'https:');
+  }
+  entry.images.push({...im,bytes:bytes.length,sha256:createHash('sha256').update(bytes).digest('hex')});
+ }
+ entry.notes.push(...(row.notes||[]));mediaMap.set(row.id,entry);
+}
+const mediaOrder={product:0,reference:1,'official-structure':1,'ai-exploded':2};
+for(const p of products){const m=mediaMap.get(p.id);p.images=(m?.images||[]).sort((a,b)=>mediaOrder[a.kind]-mediaOrder[b.kind]);p.mediaNotes=m?.notes||[];}
+metadata.mediaCoverage={products:products.filter(p=>p.images.some(i=>i.kind==='product')).length,references:products.filter(p=>p.images.some(i=>['reference','official-structure'].includes(i.kind))).length,aiExploded:products.filter(p=>p.images.some(i=>i.kind==='ai-exploded')).length,totalImages:products.reduce((n,p)=>n+p.images.length,0)};
 products.sort((a,b)=>metadata.categories.findIndex(c=>c.id===a.category)-metadata.categories.findIndex(c=>c.id===b.category)||a.brand.localeCompare(b.brand));
 await writeFile(new URL('catalog.json',dir),JSON.stringify({...metadata,products},null,2)+'\n');
 const labels={on_sale:'在售',preorder:'预售 / 接受延期订单',needs_check:'待复核',discontinued:'停售'};
 const md = s=>String(s).replace(/[|]/g,' / ').replace(/</g,'&lt;');
 await mkdir(new URL('docs/hardware/',root),{recursive:true});
 const pages = [];
+function mediaMarkdown(p){
+ return p.images.length?['## 产品图片与结构参考',...p.images.flatMap(im=>[
+  `### ${im.kind==='ai-exploded'?'AI 生成爆炸示意':im.kind==='official-structure'?'官方结构参考':im.kind==='product'?'产品图':'参考图'}`,
+  `![${md(im.alt)}](../../${im.path})`,
+  im.kind==='ai-exploded'?`**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../${im.promptPath})`:`${md(im.caption)} · 来源：[${md(im.credit)}](<${im.sourceUrl}>) · [原始图片](<${im.sourceImageUrl}>)`,
+ ]),...p.mediaNotes.map(n=>`> ${md(n)}`)]:[];
+}
 for (const p of products) {
- const text=[`# ${md(p.name)}`,`**${p.brand}** · ${metadata.categories.find(c=>c.id===p.category).name} · 核查 ${p.checkedAt}`,p.tagline,`> ${metadata.analysisNote}`,`## 销售与购买`,`- 状态：${labels[p.status]}。${p.statusEvidence}`,`- 地区：${p.regions.join('、')}`,`- 价格：${p.price.text}。${p.price.note}`,`- 中国大陆：${p.china.note}`,`- [官方产品 / 商店](<${p.officialUrl}>)`,`## AI 的实际作用`,p.ai.description,`服务与联网依赖：${p.ai.dependency}`,`## 是否冷门`,`${p.niche.level === 'crowded'?'竞争密集':p.niche.level==='emerging'?'新兴竞争':'细分专业'}（研究判断）：${p.niche.reason}`,...Object.entries(dimensions).flatMap(([key,label])=>[`## ${label}`,p.analysis[key]]),`## 功能分层示意`,`这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。`,...p.architecture.map((a,i)=>`${i+1}. **${a.name}**：${a.detail}（${a.evidence==='official'?'官方披露':'分析推断'}）`),`## 来源`,...p.sources.map((s,i)=>`${i+1}. [${s.title}](<${s.url}>) — ${s.note || s.supports.join('、')}`),`[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/${p.id})`].join('\n\n');
+ const text=[`# ${md(p.name)}`,`**${p.brand}** · ${metadata.categories.find(c=>c.id===p.category).name} · 核查 ${p.checkedAt}`,p.tagline,...mediaMarkdown(p),`> ${metadata.analysisNote}`,`## 销售与购买`,`- 状态：${labels[p.status]}。${p.statusEvidence}`,`- 地区：${p.regions.join('、')}`,`- 价格：${p.price.text}。${p.price.note}`,`- 中国大陆：${p.china.note}`,`- [官方产品 / 商店](<${p.officialUrl}>)`,`## AI 的实际作用`,p.ai.description,`服务与联网依赖：${p.ai.dependency}`,`## 是否冷门`,`${p.niche.level === 'crowded'?'竞争密集':p.niche.level==='emerging'?'新兴竞争':'细分专业'}（研究判断）：${p.niche.reason}`,...Object.entries(dimensions).flatMap(([key,label])=>[`## ${label}`,p.analysis[key]]),`## 功能分层示意`,`这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。`,...p.architecture.map((a,i)=>`${i+1}. **${a.name}**：${a.detail}（${a.evidence==='official'?'官方披露':'分析推断'}）`),`## 来源`,...p.sources.map((s,i)=>`${i+1}. [${s.title}](<${s.url}>) — ${s.note || s.supports.join('、')}`),`[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/${p.id})`].join('\n\n');
  pages.push(writeFile(new URL(`docs/hardware/${p.id}.md`,root),text+'\n'));
 }
 await Promise.all(pages);
@@ -36,4 +78,10 @@ const index=['# AI 智能硬件市场目录',`核查日期：${metadata.checkedA
  return [`## ${c.name}`, ['| 产品 | 销售状态 | 已查地区 | 价格参考 |', '| --- | --- | --- | --- |',...group.map(p=>`| [${md(p.name)}](hardware/${p.id}.md) | ${labels[p.status]} | ${md(p.regions.join('、'))} | ${md(p.price.text)} |`)].join('\n')];
 }),'## 尚待扩展的范围',...metadata.coverageBacklog.map(b=>`- **${b.category}**：${b.note}`),'[研究方法](hardware-methodology.md) · [项目首页](../README.md)'].join('\n\n');
 await writeFile(new URL('docs/hardware-market.md',root),index+'\n');
-console.log(JSON.stringify({products:products.length,categories:new Set(products.map(p=>p.category)).size,statuses:Object.fromEntries(Object.keys(labels).map(k=>[k,products.filter(p=>p.status===k).length]))}));
+const mediaIndex=['# 产品图像档案',`核查与生成日期：2026-11-04。当前 ${metadata.mediaCoverage.products} 款有产品图、${metadata.mediaCoverage.references} 款有参考图、${metadata.mediaCoverage.aiExploded} 款有独立 AI 爆炸示意，共 ${metadata.mediaCoverage.totalImages} 张图片。`,'真实来源图片保留来源与原始外观。AI 图使用内置 ImageGen 按产品分别生成，仅表达概念结构；不是实物拆机、精确 BOM 或维修依据。每款提示词与参考图路径保存在对应 JSON 清单中。','| 产品 | 产品图 / 来源 | 参考图 / 来源 | AI 爆炸示意 | 提示词 |','| --- | --- | --- | --- | --- |',...products.map(p=>{
+ const photo=p.images.find(i=>i.kind==='product'),ref=p.images.find(i=>['reference','official-structure'].includes(i.kind)),ai=p.images.find(i=>i.kind==='ai-exploded');
+ const original=im=>im?`[图片](../${im.path}) · [${md(im.credit)}](<${im.sourceUrl}>)`:'待补充';
+ return `| [${md(p.name)}](hardware/${p.id}.md) | ${original(photo)} | ${original(ref)} | ${ai?`[AI 生成图](../${ai.path})`:'待补充'} | ${ai?`[完整提示词](../${ai.promptPath})`:'待补充'} |`;
+})].join('\n\n').replace(/\|\n\n\|/g,'|\n|');
+await writeFile(new URL('docs/hardware-media-index.md',root),mediaIndex+'\n');
+console.log(JSON.stringify({products:products.length,categories:new Set(products.map(p=>p.category)).size,statuses:Object.fromEntries(Object.keys(labels).map(k=>[k,products.filter(p=>p.status===k).length])),media:metadata.mediaCoverage}));

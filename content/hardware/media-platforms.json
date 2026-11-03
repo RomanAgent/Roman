@@ -1,0 +1,198 @@
+[
+  {
+    "id": "reachy-mini-wireless",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/reachy-mini-wireless/product.webp",
+        "sourceUrl": "https://pollen-robotics.com/reachy-mini/",
+        "sourceImageUrl": "https://pollen-robotics.com/assets/talk/reachy-3d-still-facing-right.webp",
+        "caption": "Reachy Mini 官方产品外观图",
+        "alt": "白色 Reachy Mini Wireless 桌面机器人正面偏侧视图",
+        "credit": "Pollen Robotics / Hugging Face",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "official-structure",
+        "path": "assets/hardware/reachy-mini-wireless/reference.webp",
+        "sourceUrl": "https://pollen-robotics.com/reachy-mini/",
+        "sourceImageUrl": "https://pollen-robotics.com/assets/build/reachy-mini-plate.webp",
+        "caption": "官方装配部件参考图",
+        "alt": "Reachy Mini 天线、头部、机身、关节、电机与底座官方分解示意",
+        "credit": "Pollen Robotics / Hugging Face",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "unitree-g1",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/unitree-g1/product.jpg",
+        "sourceUrl": "https://shop.unitree.com/products/unitree-g1",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0620/4932/1193/files/2_3769ceea-b323-4ebc-a1f4-e27a9624706b.jpg?v=1717575246",
+        "caption": "官方产品主图",
+        "alt": "官方产品主图",
+        "credit": "Unitree 宇树",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/unitree-g1/reference.jpg",
+        "sourceUrl": "https://shop.unitree.com/products/unitree-g1",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0620/4932/1193/files/1_968fd08b-9aaf-4f32-b895-5c786285ee52.jpg?v=1717575256",
+        "caption": "官方产品角度 / 规格参考图",
+        "alt": "官方产品角度 / 规格参考图",
+        "credit": "Unitree 宇树",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "unitree-go2-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/unitree-go2-pro/product.png",
+        "sourceUrl": "https://shop.unitree.com/products/unitree-go2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0620/4932/1193/files/df9f333424ff6cc6164ce421b019fb94_a6f832b0-479e-4294-ac75-6516208b91f4.png?v=1718274082",
+        "caption": "官方产品主图",
+        "alt": "官方产品主图",
+        "credit": "Unitree 宇树",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/unitree-go2-pro/reference.png",
+        "sourceUrl": "https://shop.unitree.com/products/unitree-go2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0620/4932/1193/files/21.png?v=1718274083",
+        "caption": "官方产品角度 / 规格参考图",
+        "alt": "官方产品角度 / 规格参考图",
+        "credit": "Unitree 宇树",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "macbook-air-m5",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/macbook-air-m5/product.png",
+        "sourceUrl": "https://www.apple.com/macbook-air/",
+        "sourceImageUrl": "https://www.apple.com/v/macbook-air/z/images/overview/hero/hero_static__c9sislzzicq6_large.png",
+        "caption": "MacBook Air M5 官方13与15英寸产品图",
+        "alt": "MacBook Air M5 官方13与15英寸产品图",
+        "credit": "Apple",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/macbook-air-m5/reference.jpg",
+        "sourceUrl": "https://www.apple.com/macbook-air/",
+        "sourceImageUrl": "https://www.apple.com/v/macbook-air/z/images/overview/design/color/design_side_skyblue__dtyt9gw4nfiq_large.jpg",
+        "caption": "官方侧视结构与接口参考图",
+        "alt": "官方侧视结构与接口参考图",
+        "credit": "Apple",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "jetson-orin-nano-super",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/jetson-orin-nano-super/product.jpg",
+        "sourceUrl": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/",
+        "sourceImageUrl": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/_images/jetson-orin-nano-super-developer-kit-hero.jpg",
+        "caption": "Jetson Orin Nano Super 开发套件官方图",
+        "alt": "Jetson Orin Nano Super 开发套件官方图",
+        "credit": "NVIDIA",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "official-structure",
+        "path": "assets/hardware/jetson-orin-nano-super/reference-layout.png",
+        "sourceUrl": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/hardware_layout.html",
+        "sourceImageUrl": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/_images/jetson-orin-nano-qtr_numbered.png",
+        "caption": "官方编号板卡布局参考（Nano 与 Super 同一硬件）",
+        "alt": "Jetson Orin Nano 开发板接口和部件编号参考",
+        "credit": "NVIDIA",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "raspberry-pi-ai-hat-plus-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/raspberry-pi-ai-hat-plus-2/product.png",
+        "sourceUrl": "https://www.raspberrypi.com/products/ai-hat-plus-2/",
+        "sourceImageUrl": "https://assets.raspberrypi.com/static/f0d909cef0e7e6609acf92ae2921a60d/f2024/hero.png",
+        "caption": "AI HAT+ 2 官方主图（叠装 Raspberry Pi 5 参考）",
+        "alt": "Raspberry Pi AI HAT+ 2 加速板官方正面图",
+        "credit": "Raspberry Pi",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/raspberry-pi-ai-hat-plus-2/reference.jpg",
+        "sourceUrl": "https://www.raspberrypi.com/products/ai-hat-plus-2/",
+        "sourceImageUrl": "https://assets.raspberrypi.com/static/92df577a5d419ed0b4d57a3b16fe59a2/8dbcc/ram.jpg",
+        "caption": "AI HAT+ 2 官方板载内存与芯片参考",
+        "alt": "AI HAT+ 2 官方板载内存与芯片参考",
+        "credit": "Raspberry Pi",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "google-pixel-11-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/google-pixel-11-pro/product.webp",
+        "sourceUrl": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+        "sourceImageUrl": "https://lh3.googleusercontent.com/3pMI8aPBk68eTXiu5pU2TexANdpvMtOJgi8UkXaYYHbHgoSvUF3qerABrExqUrZud6YalGDCCUbfp_a6SWmHoJfpN5tlmbSC62k%3Dw560-h700-rw-nu",
+        "caption": "Pixel 11 Pro 官方产品背面图",
+        "alt": "Pixel 11 Pro Canyon 配色背部和相机横条",
+        "credit": "Google",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/google-pixel-11-pro/reference.webp",
+        "sourceUrl": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+        "sourceImageUrl": "https://lh3.googleusercontent.com/w6ZLQp4YT4M8m23WVqBV3puDiXQudwvi4D0JS0yvUFYgR-0Pv9xLMfm1tW9Et9NCufoE5EJhYxtpfDCMobpstQoEPRYsUir7QA%3Dw1132-h1132-rw-nu",
+        "caption": "Google Pixel 11 Pro 官方使用场景参考",
+        "alt": "Google Pixel 11 Pro 官方使用场景参考",
+        "credit": "Google",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  }
+]

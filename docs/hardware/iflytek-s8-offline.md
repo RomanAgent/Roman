@@ -4,6 +4,32 @@
 
 无无线通信、强调本地识别的独立记录终端
 
+## 产品图片与结构参考
+
+### 产品图
+
+![讯飞官方 S8 离线版正面界面图](../../assets/hardware/iflytek-s8-offline/product.jpg)
+
+讯飞官方 S8 离线版正面界面图 · 来源：[科大讯飞 · 官方产品图片](<https://www.iflyrecorder.com/Goods_desc/1/598.html>) · [原始图片](<https://www.iflyrecorder.com/filespath/images/goods/1733912262.jpg>)
+
+### 参考图
+
+![极客公园 S8 离线版发布报道的桌面场景配图](../../assets/hardware/iflytek-s8-offline/reference.jpg)
+
+极客公园 S8 离线版发布报道的桌面场景配图 · 来源：[极客公园 · 讯飞S8离线版发布报道配图](<https://www.geekpark.net/news/344287>) · [原始图片](<https://imgslim.geekpark.net/uploads/image/file/c8/8e/c88ea774dad84d1160eee9c2c9f69ae5.jpeg>)
+
+### AI 生成爆炸示意
+
+![讯飞AI录音笔 S8离线版的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/iflytek-s8-offline/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/iflytek-s8-offline.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
+> 主图为官方；第二张为注明来源的发布报道配图。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

@@ -4,6 +4,26 @@
 
 把生成式与视觉 AI 放到边缘设备的开发套件，不是量产整机。
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Jetson Orin Nano Super 开发套件官方图](../../assets/hardware/jetson-orin-nano-super/product.jpg)
+
+Jetson Orin Nano Super 开发套件官方图 · 来源：[NVIDIA](<https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/>) · [原始图片](<https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/_images/jetson-orin-nano-super-developer-kit-hero.jpg>)
+
+### 官方结构参考
+
+![Jetson Orin Nano 开发板接口和部件编号参考](../../assets/hardware/jetson-orin-nano-super/reference-layout.png)
+
+官方编号板卡布局参考（Nano 与 Super 同一硬件） · 来源：[NVIDIA](<https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/hardware_layout.html>) · [原始图片](<https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/_images/jetson-orin-nano-qtr_numbered.png>)
+
+### AI 生成爆炸示意
+
+![jetson-orin-nano-super AI生成结构爆炸概念图，隐藏内部为功能推断](../../assets/hardware/jetson-orin-nano-super/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/jetson-orin-nano-super.txt)
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

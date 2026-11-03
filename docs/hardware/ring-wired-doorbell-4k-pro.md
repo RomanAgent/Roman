@@ -4,6 +4,30 @@
 
 把门口影像转换成可读事件提醒的联网门铃
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：Wired Doorbell 4K Pro 深银色外观](../../assets/hardware/ring-wired-doorbell-4k-pro/product.jpg)
+
+官方商品图：Wired Doorbell 4K Pro 深银色外观 · 来源：[Ring · 官方图片](<https://ring.com/products/wired-doorbell-pro>) · [原始图片](<https://images.ctfassets.net/a3peezndovsu/3gjfLsAnG7SwdB6Z5oA2sD/282c8d4a9582f349c92cdd4236dd828b/ring_wired_doorbell_pro_4k_1500x1500__1_.jpg>)
+
+### 参考图
+
+![官方安装场景：4K Pro 与门框、门锁的尺寸关系](../../assets/hardware/ring-wired-doorbell-4k-pro/reference.jpg)
+
+官方安装场景：4K Pro 与门框、门锁的尺寸关系 · 来源：[Ring · 官方图片](<https://ring.com/products/wired-doorbell-pro>) · [原始图片](<https://images.ctfassets.net/a3peezndovsu/4js315WXCQv1XF4U4OiHQ3/78e40555200ff6dab5302b3408b1da33/ring_wired_doorbell_pro_4k_front_door_outlined_1500x1500.jpg>)
+
+### AI 生成爆炸示意
+
+![Ring Wired Doorbell 4K Pro AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/ring-wired-doorbell-4k-pro/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/ring-wired-doorbell-4k-pro.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

@@ -4,6 +4,28 @@
 
 以表情、动作和人物识别陪伴桌面时光
 
+## 产品图片与结构参考
+
+### 产品图
+
+![EMO 标准款官方正面产品图](../../assets/hardware/livingai-emo/product.jpg)
+
+EMO 标准款官方正面产品图 · 来源：[LivingAI · 官方图片](<https://living.ai/product/emo/>) · [原始图片](<https://i0.wp.com/living.ai/wp-content/uploads/2020/12/product1-2.jpg?fit=2000%2C2000&quality=89&ssl=1>)
+
+### 参考图
+
+![EMO 官方套装与配件参考图](../../assets/hardware/livingai-emo/reference.jpg)
+
+EMO 官方套装与配件参考图 · 来源：[LivingAI · 官方图片](<https://living.ai/product/emo/>) · [原始图片](<https://i0.wp.com/living.ai/wp-content/uploads/2025/04/2026010606.jpg?fit=2000%2C2000&quality=89&ssl=1>)
+
+### AI 生成爆炸示意
+
+![EMO 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/livingai-emo/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/livingai-emo.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

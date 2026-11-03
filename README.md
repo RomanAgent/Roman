@@ -59,7 +59,7 @@
 
 ## 03 · AI 智能硬件市场目录
 
-[打开市场目录](https://romanagent.github.io/Roman/#hardware) · [GitHub 分类阅读版](docs/hardware-market.md) · [市场横向观察](docs/hardware-market-insights.md) · [研究方法](docs/hardware-methodology.md)
+[打开市场目录](https://romanagent.github.io/Roman/#hardware) · [GitHub 分类阅读版](docs/hardware-market.md) · [市场横向观察](docs/hardware-market-insights.md) · [研究方法](docs/hardware-methodology.md) · [180张图像与生成记录](docs/hardware-media-index.md)
 
 [![市场目录界面](assets/hardware-preview.jpg)](https://romanagent.github.io/Roman/#hardware)
 
@@ -70,8 +70,11 @@
 - 每款包含需求、用户画像、竞争、供应链、技术、审美、风险、市场空间八项案头分析。
 - 支持产品 / 品牌 / AI能力搜索，销售状态、国内购买情况、竞争类型和AI类型筛选。
 - 最多三款产品横向对比；可导出当前筛选结果的完整研究 JSON。
-- 每款有来源、核查日期、服务依赖与功能分层图。概念图不是实物拆机；Reachy Mini 另附官方装配示意。
+- 每款均有真实产品图、参考图及单独生成的 AI 爆炸示意；来源和图像类型明确标注，支持切换、放大和打开原图。
+- AI 爆炸示意由内置 ImageGen 生成，内部未知部分为概念推断，不是实际拆机或精确 BOM；生成提示词与引用图片一并保存。
 - 内容可直接在 GitHub 阅读，无需打开网站。
+
+[![产品视觉档案与AI示意](assets/hardware-gallery-preview.jpg)](https://romanagent.github.io/Roman/#hardware/product/reachy-mini-wireless)
 
 **边界：这是首轮代表性案头研究，不是全球全部 SKU 的穷尽清单。** 未开展用户访谈、销量审计或实物测试；“细分专业”不等于蓝海。厂商声明、资料事实与分析推断分开标注，不虚构未披露供应商、BOM 成本或成功概率。
 
@@ -99,6 +102,9 @@ python3 -m http.server 4173
 | [`content/journey-template.md`](content/journey-template.md) | 逐篇提交真实经历的模板 |
 | [`content/hardware/metadata.json`](content/hardware/metadata.json) | 硬件分类、研究边界与覆盖缺口 |
 | [`content/hardware/`](content/hardware/) 中的 `research-*.json` | 逐产品原始研究记录；合并生成 `catalog.json` 与 `docs/hardware/` |
+| `content/hardware/media-*.json`、`generated-*.json` | 原始图片与AI图的来源、核查记录和生成溯源 |
+| [`assets/hardware/`](assets/hardware/) | 每个产品自己的原始图、参考图和AI爆炸图 |
+| [`content/hardware/prompts/`](content/hardware/prompts/) | 每款实际使用的 ImageGen 提示词 |
 | [`docs/hardware-market-insights.md`](docs/hardware-market-insights.md) | 本轮跨产品观察与后续真实调研计划；同步进入网页 |
 
 修改 JSON 后，在项目目录执行以下命令，同步更新 GitHub 阅读版；此步骤使用 Node.js，无需安装任何依赖：
@@ -112,6 +118,7 @@ node scripts/export-content.mjs
 ```sh
 npm run catalog
 npm run check
+npm run media:check
 ```
 
 将修改后的 JSON 和生成的 Markdown 一起提交。网页读取 JSON，GitHub 直接展示 Markdown，两种阅读方式保持相同的正文与资料来源。

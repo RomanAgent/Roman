@@ -4,6 +4,30 @@
 
 把拾音与灵活收费方案放进日常翻译耳机
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方 W4 Plus 耳机与充电盒](../../assets/hardware/timekettle-w4-plus/product.webp)
+
+官方 W4 Plus 耳机与充电盒 · 来源：[Timekettle / 时空壶 · 官方产品图片](<https://www.timekettle.co/products/w4-plus-ai-interpreter-earbuds>) · [原始图片](<https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4_plus_58cc39aa-3ecb-4f7d-9d34-48a92124767a.png?v=1790566818>)
+
+### 参考图
+
+![官方 W4 Plus 配套软件功能示意，权益以实际版本为准](../../assets/hardware/timekettle-w4-plus/reference.webp)
+
+官方 W4 Plus 配套软件功能示意，权益以实际版本为准 · 来源：[Timekettle / 时空壶 · 官方产品图片](<https://www.timekettle.co/products/w4-plus-ai-interpreter-earbuds>) · [原始图片](<https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4_P.jpg?v=1787208421&width=1200>)
+
+### AI 生成爆炸示意
+
+![Timekettle W4 Plus的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/timekettle-w4-plus/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/timekettle-w4-plus.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

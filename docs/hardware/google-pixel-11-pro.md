@@ -4,6 +4,26 @@
 
 把 Gemini 与影像 AI 集成到随身手机，而非额外携带一件设备。
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Pixel 11 Pro Canyon 配色背部和相机横条](../../assets/hardware/google-pixel-11-pro/product.webp)
+
+Pixel 11 Pro 官方产品背面图 · 来源：[Google](<https://store.google.com/product/pixel_11_pro?hl=en-US>) · [原始图片](<https://lh3.googleusercontent.com/3pMI8aPBk68eTXiu5pU2TexANdpvMtOJgi8UkXaYYHbHgoSvUF3qerABrExqUrZud6YalGDCCUbfp_a6SWmHoJfpN5tlmbSC62k%3Dw560-h700-rw-nu>)
+
+### 参考图
+
+![Google Pixel 11 Pro 官方使用场景参考](../../assets/hardware/google-pixel-11-pro/reference.webp)
+
+Google Pixel 11 Pro 官方使用场景参考 · 来源：[Google](<https://store.google.com/product/pixel_11_pro?hl=en-US>) · [原始图片](<https://lh3.googleusercontent.com/w6ZLQp4YT4M8m23WVqBV3puDiXQudwvi4D0JS0yvUFYgR-0Pv9xLMfm1tW9Et9NCufoE5EJhYxtpfDCMobpstQoEPRYsUir7QA%3Dw1132-h1132-rw-nu>)
+
+### AI 生成爆炸示意
+
+![google-pixel-11-pro AI生成结构爆炸概念图，隐藏内部为功能推断](../../assets/hardware/google-pixel-11-pro/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/google-pixel-11-pro.txt)
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

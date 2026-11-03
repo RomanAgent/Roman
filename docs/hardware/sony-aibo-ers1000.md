@@ -4,6 +4,30 @@
 
 以持续行为学习形成个性的机器犬
 
+## 产品图片与结构参考
+
+### 产品图
+
+![aibo ERS-1000 官方生活场景图](../../assets/hardware/sony-aibo-ers1000/product.jpg)
+
+aibo ERS-1000 官方生活场景图 · 来源：[Sony · 官方图片](<https://us.aibo.com/>) · [原始图片](<https://us.aibo.com/images/intro-mv-pc-0.jpg>)
+
+### 参考图
+
+![aibo ERS-1000 官方背面参考](../../assets/hardware/sony-aibo-ers1000/reference.png)
+
+aibo ERS-1000 官方背面参考 · 来源：[Sony · 官方图片](<https://us.aibo.com/>) · [原始图片](<https://us.aibo.com/share/images/feature/product-feature-0.png>)
+
+### AI 生成爆炸示意
+
+![aibo ERS-1000 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/sony-aibo-ers1000/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/sony-aibo-ers1000.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
+> 参考图保留官网提供的284×422原始分辨率，没有人工放大。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

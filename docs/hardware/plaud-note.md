@@ -4,6 +4,30 @@
 
 贴在手机背面的双模式 AI 录音卡片
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方 Plaud Note 基础款正面图](../../assets/hardware/plaud-note/product.webp)
+
+官方 Plaud Note 基础款正面图 · 来源：[Plaud · 官方产品图片](<https://www.plaud.ai/products/plaud-note-ai-voice-recorder>) · [原始图片](<https://cdn.shopify.com/s/files/1/0918/0171/5051/files/BL-plaud-note-052526.webp?v=1779709941&width=1200>)
+
+### 参考图
+
+![官方 Plaud Note 侧面薄度参考](../../assets/hardware/plaud-note/reference.webp)
+
+官方 Plaud Note 侧面薄度参考 · 来源：[Plaud · 官方产品图片](<https://www.plaud.ai/products/plaud-note-ai-voice-recorder>) · [原始图片](<https://cdn.shopify.com/s/files/1/0918/0171/5051/files/4_e10f8969-6ac3-4641-971f-2514b6c6b3c1.png?v=1774430233&width=1200>)
+
+### AI 生成爆炸示意
+
+![Plaud Note的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/plaud-note/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/plaud-note.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

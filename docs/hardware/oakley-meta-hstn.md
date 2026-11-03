@@ -4,6 +4,30 @@
 
 从运动生活方式切入的相机 AI 眼镜
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方 HSTN 黑框 Prizm Dark Golf 镜片斜视图](../../assets/hardware/oakley-meta-hstn/product.webp)
+
+官方 HSTN 黑框 Prizm Dark Golf 镜片斜视图 · 来源：[Oakley × Meta · 官方产品图片](<https://www.meta.com/ai-glasses/oakley-meta-hstn-glasses/>) · [原始图片](<https://lookaside.fbsbx.com/elementpath/media/?media_id=1668617304335399&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1773756725>)
+
+### 参考图
+
+![官方 HSTN 同款另一侧视图](../../assets/hardware/oakley-meta-hstn/reference.webp)
+
+官方 HSTN 同款另一侧视图 · 来源：[Oakley × Meta · 官方产品图片](<https://www.meta.com/ai-glasses/oakley-meta-hstn-glasses/>) · [原始图片](<https://lookaside.fbsbx.com/elementpath/media/?media_id=1921746139228297&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1773756725>)
+
+### AI 生成爆炸示意
+
+![Oakley Meta HSTN的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/oakley-meta-hstn/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/oakley-meta-hstn.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

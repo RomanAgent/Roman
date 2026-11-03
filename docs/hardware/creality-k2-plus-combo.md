@@ -4,6 +4,34 @@
 
 用双 AI 相机辅助监控和校准的桌面多色 3D 打印平台
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：K2 Plus Combo 主机与顶部 CFS](../../assets/hardware/creality-k2-plus-combo/product.png)
+
+官方商品图：K2 Plus Combo 主机与顶部 CFS · 来源：[Creality · 官方图片](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [原始图片](<https://cdn.shopify.com/s/files/1/0893/0603/8637/files/output.lin.png?v=1762200442&width=1200>)
+
+### 参考图
+
+![官方参考图：K2 Plus 主机侧视（未安装顶部 CFS）](../../assets/hardware/creality-k2-plus-combo/reference.png)
+
+官方参考图：K2 Plus 主机侧视（未安装顶部 CFS） · 来源：[Creality · 官方图片](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [原始图片](<https://cdn.shopify.com/s/files/1/0893/0603/8637/files/K2_plus_45_cfs.png?v=1766129203&width=1200>)
+
+### AI 生成爆炸示意
+
+![Creality K2 Plus Combo AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/creality-k2-plus-combo/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/creality-k2-plus-combo.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 经过一次定向修订：将相机安装位置改为抽象概念块，修订提示见 content/hardware/prompts/creality-k2-plus-combo-revision.txt。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
+> 主图展示Combo；参考图展示同款K2 Plus主机，未显示顶部CFS，不代表基础套餐缺少CFS。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

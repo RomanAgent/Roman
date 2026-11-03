@@ -4,6 +4,32 @@
 
 以持续自清洁履带拖布和视觉决策处理脏污
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：Flow 2 白色版与清洁模组展示](../../assets/hardware/narwal-flow-2/product.png)
+
+官方商品图：Flow 2 白色版与清洁模组展示 · 来源：[Narwal · 官方图片](<https://us.narwal.com/products/flow-2-robot-vacuum-and-mop>) · [原始图片](<https://cdn.shopify.com/s/files/1/0550/6200/3893/files/X30_____03_2.png?v=1784170331&width=1200>)
+
+### 参考图
+
+![官方参考图：Flow 2 黑色版、履带拖布与 App 展示](../../assets/hardware/narwal-flow-2/reference.jpg)
+
+官方参考图：Flow 2 黑色版、履带拖布与 App 展示 · 来源：[Narwal · 官方图片](<https://us.narwal.com/products/flow-2-robot-vacuum-and-mop>) · [原始图片](<https://cdn.shopify.com/s/files/1/0550/6200/3893/files/X30___App_01.jpg?v=1776109876&width=1200>)
+
+### AI 生成爆炸示意
+
+![Narwal Flow 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/narwal-flow-2/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/narwal-flow-2.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
+> 两图分别为官方白色与黑色版本，均为 Flow 2，不将颜色不同当作不同产品。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

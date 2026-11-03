@@ -4,6 +4,30 @@
 
 从个人耳机扩展到多人多语会议终端
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方 X1 Meeting 主机与耳机产品图](../../assets/hardware/timekettle-x1-meeting/product.webp)
+
+官方 X1 Meeting 主机与耳机产品图 · 来源：[Timekettle / 时空壶 · 官方产品图片](<https://www.timekettle.co/products/x1-meeting-interpreter-hub>) · [原始图片](<https://www.timekettle.co/cdn/shop/files/X1_M_e2234a49-0dd3-4419-87ed-3230724b0be0.png?v=1786948521&width=499>)
+
+### 参考图
+
+![官方多人会议场景示意；图中人数宣传不用于本目录性能确认](../../assets/hardware/timekettle-x1-meeting/reference.webp)
+
+官方多人会议场景示意；图中人数宣传不用于本目录性能确认 · 来源：[Timekettle / 时空壶 · 官方产品图片](<https://www.timekettle.co/products/x1-meeting-interpreter-hub>) · [原始图片](<https://www.timekettle.co/cdn/shop/files/X1_M..jpg?v=1787197411&width=1254>)
+
+### AI 生成爆炸示意
+
+![Timekettle X1 Meeting的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/timekettle-x1-meeting/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/timekettle-x1-meeting.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

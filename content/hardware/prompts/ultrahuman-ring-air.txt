@@ -1,0 +1,12 @@
+Use case: infographic-diagram.
+Create a distinct premium industrial exploded-view CONCEPT plate for ULTRAHUMAN RING AIR, for a Chinese hardware research catalog. This is a new explanatory raster image, not an alteration of the official photographs. The attached official images are reference for external appearance only.
+Appearance invariants: Maintain the low-profile smooth circular Ring AIR shape and inner optical windows shown in the official references. Do not use Ring PRO dimensions or charger. Render gold reference materials in neutral grayscale.
+Show these broad functional module groups, with clean spatial separation: outer band shell; abstract optical sensing layer; generic curved processing and connectivity segment; compact curved power segment; inner contact liner. This is an explanatory concept, not factual miniaturized electronics placement.
+Use a wide landscape composition, pure white background, black/white/gray palette only, restrained studio CAD-like rendering, fine gray leader lines, generous whitespace and subtle realistic shadows. Main subject occupies about 70 percent of the canvas. Include a small assembled exterior reference view in the upper-right corner, clearly separated from the exploded view. Keep external proportions recognizably tied to the supplied product, not a generic reusable gadget.
+Use only 4-6 concise English functional labels. Every imagined internal module layout must be explicitly marked INFERRED LAYOUT, preferably as one clear note next to the exploded stack. Display abstract sealed blocks where internals are unknown. Do not invent exact chip names, PCB traces, motor counts, screw patterns, wiring layouts, proprietary specifications or anatomical accuracy claims. This is not a manufacturing drawing and not evidence of actual internal construction. Do not add unsupported cameras, screens or capabilities.
+Exact title at upper left: ULTRAHUMAN RING AIR
+Exact note near the exploded assembly: INTERNAL ARRANGEMENT INFERRED
+Exact footer, legible and centered: AI CONCEPT · NOT A TEARDOWN
+Avoid decorative AI symbols, glowing neon, colored gradients, sci-fi parts, extra products, promotional price badges, people, brand-logo embellishment and dense paragraphs. Preserve accurate outer silhouette while making the diagram calmly legible.
+
+Do not add specifications, numeric performance, battery capacities, chip part numbers, or health claims not explicitly supplied. Prefer short functional labels only.

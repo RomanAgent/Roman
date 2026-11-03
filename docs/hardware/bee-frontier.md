@@ -4,6 +4,30 @@
 
 以一键、长续航和生活上下文组织记忆
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Bee Frontier 官方腕带佩戴形态渲染](../../assets/hardware/bee-frontier/product.png)
+
+Bee Frontier 官方腕带佩戴形态渲染 · 来源：[Bee / Amazon · 官方产品图片](<https://bee.computer/products/frontier>) · [原始图片](<https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6a0426a8bbd4f2f5c1ba22bb_specs-hero.png>)
+
+### 参考图
+
+![Bee Frontier 官方夹持形态与多角度配色参考](../../assets/hardware/bee-frontier/reference.png)
+
+Bee Frontier 官方夹持形态与多角度配色参考 · 来源：[Bee / Amazon · 官方产品图片](<https://bee.computer/products/frontier>) · [原始图片](<https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6acd924c69d698571edbf9de_AMZ-BEE-D-Feature-Carousel-Modular-B.png>)
+
+### AI 生成爆炸示意
+
+![Bee Frontier的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/bee-frontier/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/bee-frontier.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

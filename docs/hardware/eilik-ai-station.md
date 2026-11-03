@@ -4,6 +4,30 @@
 
 从触碰表情玩具扩展为可对话的桌面组合
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Eilik 与 AI Station 组合官方产品图](../../assets/hardware/eilik-ai-station/product.jpg)
+
+Eilik 与 AI Station 组合官方产品图 · 来源：[EnergizeLab · 官方图片](<https://store.energizelab.com/products/ai-station>) · [原始图片](<https://cdn.shopify.com/s/files/1/0601/5349/5720/files/aistatin-main-blue.jpg?v=1764326651>)
+
+### 参考图
+
+![AI Station 底座官方参考图（Eilik本体另售）](../../assets/hardware/eilik-ai-station/reference.jpg)
+
+AI Station 底座官方参考图（Eilik本体另售） · 来源：[EnergizeLab · 官方图片](<https://store.energizelab.com/products/ai-station>) · [原始图片](<https://cdn.shopify.com/s/files/1/0601/5349/5720/files/aistation-main.jpg?v=1764326651>)
+
+### AI 生成爆炸示意
+
+![Eilik + AI Station 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/eilik-ai-station/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/eilik-ai-station.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
+> 主图明确展示机器人与另购AI Station组合；参考图只展示底座。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

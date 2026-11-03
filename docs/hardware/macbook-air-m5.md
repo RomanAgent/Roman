@@ -4,6 +4,26 @@
 
 通用电脑上的端侧 AI 能力，是独立 AI 硬件的重要替代方案。
 
+## 产品图片与结构参考
+
+### 产品图
+
+![MacBook Air M5 官方13与15英寸产品图](../../assets/hardware/macbook-air-m5/product.png)
+
+MacBook Air M5 官方13与15英寸产品图 · 来源：[Apple](<https://www.apple.com/macbook-air/>) · [原始图片](<https://www.apple.com/v/macbook-air/z/images/overview/hero/hero_static__c9sislzzicq6_large.png>)
+
+### 参考图
+
+![官方侧视结构与接口参考图](../../assets/hardware/macbook-air-m5/reference.jpg)
+
+官方侧视结构与接口参考图 · 来源：[Apple](<https://www.apple.com/macbook-air/>) · [原始图片](<https://www.apple.com/v/macbook-air/z/images/overview/design/color/design_side_skyblue__dtyt9gw4nfiq_large.jpg>)
+
+### AI 生成爆炸示意
+
+![macbook-air-m5 AI生成结构爆炸概念图，隐藏内部为功能推断](../../assets/hardware/macbook-air-m5/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/macbook-air-m5.txt)
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

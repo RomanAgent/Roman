@@ -4,6 +4,28 @@
 
 轮式家庭宠物与GPT对话结合
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Loona Petbot Premium 官方动作产品图](../../assets/hardware/loona-petbot/product.png)
+
+Loona Petbot Premium 官方动作产品图 · 来源：[KEYI Tech · 官方图片](<https://keyirobot.com/products/petbot>) · [原始图片](<https://cdn.shopify.com/s/files/1/0750/4170/2077/files/gallery-loona-petbot-premium-1-v2.webp?v=1780474015&width=1200>)
+
+### 参考图
+
+![Loona Petbot Premium 官方侧前方参考](../../assets/hardware/loona-petbot/reference.png)
+
+Loona Petbot Premium 官方侧前方参考 · 来源：[KEYI Tech · 官方图片](<https://keyirobot.com/products/petbot>) · [原始图片](<https://cdn.shopify.com/s/files/1/0750/4170/2077/files/gallery-loona-petbot-premium-2-v2.webp?v=1780474015&width=1200>)
+
+### AI 生成爆炸示意
+
+![Loona Petbot Premium 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/loona-petbot/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/loona-petbot.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

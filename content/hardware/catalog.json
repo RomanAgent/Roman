@@ -114,6 +114,12 @@
     }
   ],
   "insightsMarkdown": "# AI 智能硬件：本轮样本的横向观察\n\n核查日期：2026 年 11 月 4 日。本文只依据本轮目录中已收录的产品和来源，讨论可比较的产品差异。样本不是完整市场，未开展用户访谈，也没有销量、留存率或市场份额估计。以下需求与竞争判断是案头假设，不能当作商业成功预测。\n\n## 1. 买到硬件，不等于买到完整服务\n\n[Oura Ring 4](hardware/oura-ring-4.md) 的 Advisor 要求有效会员，[WHOOP 5.0](hardware/whoop-5.md) 则把硬件与会员一起交付。两者不能只比较设备标价。对消费者更有意义的是一年或三年的完整费用、续费后保留的功能、取消订阅后的数据获取方式，以及换手机或换地区时的迁移成本。会员既可能支持持续更新，也可能形成使用门槛，不能单凭收费方式判断价值。\n\n## 2. 中国能买到，不等于服务在中国可用\n\n[LOVOT 3.0](hardware/lovot-3.md) 的官方说明明确区分日本版与中国规格；[Ray-Ban Meta Gen 2](hardware/ray-ban-meta-gen-2.md) 的国际购买入口也不能证明大陆的完整服务保障。渠道、物流、激活、语言、模型服务和保修是不同问题。比较时应固定国家与具体版本，分别记录已确认和待确认的环节；品牌来自中国，或支持中文，都不能替代这些核查。\n\n## 3. 手机替代不了的，常常是输入动作\n\n[Plaud NotePin](hardware/plaud-notepin.md) 把记录入口移到身体，[Timekettle W4 Pro](hardware/timekettle-w4-pro.md) 则试图减少跨语言交流时传递手机的动作。它们的购买理由应通过真实场景验证：是否更快启动、收音是否更稳定、是否减少沟通中断。转写、翻译和摘要已经能在手机上完成，硬件若没有改善完整流程，仅展示相似的模型输出不足以证明额外设备的必要性。\n\n## 4. 陪伴产品要经历新鲜感之后的检验\n\n[Moflin](hardware/casio-moflin.md) 以触感和小幅动作回应，[aibo](hardware/sony-aibo-ers1000.md) 更强调机器犬行为和长期个性。非语言互动也能构成产品定位，但官网描述不能证明用户会长期依恋。需区分送礼者和使用者，并观察数周后是否仍主动互动、愿不愿充电清洁，以及设备故障或服务变化时是否继续使用。短视频里的可爱和首次体验的惊喜都不是留存证据。\n\n## 5. 低热度不等于没有竞争\n\n[Birdbuddy Nook Solar](hardware/birdbuddy-nook-solar.md) 与 [AX Visio](hardware/swarovski-ax-visio.md) 都围绕自然观察，前者依赖空间和喂养习惯，后者面向更专业的光学使用。它们仍与普通相机、传统双筒和手机识别应用竞争。细分场景可能更容易描述需求，也可能限制人数和使用频率。“专业细分”只是样本分类，不代表低获客成本、高增长或尚未开发的市场。\n\n## 6. 交付与维护决定能力能否被使用\n\n[Unitree G1](hardware/unitree-g1.md) 需要区分延期订单、标准版与开发版本；[Creality K2 Plus Combo](hardware/creality-k2-plus-combo.md) 则要明确套装、耗材和监控能力边界。网页演示不能替代重复运行。采购比较应包含校准、场地、备件、维护工时和失败恢复方式。未披露的工厂、供应商及成本不能由外观猜测；AI识别异常也不等于设备可以安全、可靠地无人值守。\n\n## 下一步如何验证\n\n先用一周做十二场探索性访谈：现有使用者、已停用者和考虑购买但尚未购买者各四人。这个规模用于发现问题，不用于推算市场比例。优先问具体事件：上一次需要这个功能是什么时候？原来怎样完成？为什么换设备？最近一次失败后做了什么？订阅或维护费用由谁承担？哪些功能过去一周完全没用？避免只问“你愿不愿意买”。\n\n再选择两类明确任务，让少量参与者分别使用现有手机方案和专用硬件，各记录一周，交换使用顺序。记录任务是否完成、总耗时、人工纠错、准备步骤、维护时间及真实费用。不要只记模型回答是否流畅；金额、姓名、翻译含义等关键结果需要人工复核。陪伴产品另设至少四周观察，记录主动互动、闲置原因及照护负担，不把持续开机当作主动使用。\n\n最后按具体场景总结“谁受益、什么条件下受益、何时不如已有方案”，保留不支持原假设的结果。若用户主要痛点在内容、售后或网络，不应预先认定需要新硬件。模型评分、参数数量和社交热度都不能预测商业成功，更不能代替付费行为与长期使用证据。\n\n## 当前覆盖缺口\n\n本轮偏重消费级产品与公开商店，部分国内教育产品只取得展示页或小程序入口，实时库存仍待核实；地区、语言与年龄覆盖也不均衡。尚缺真实成交与续费记录、长期故障和退货资料、拆机与供应商证据，以及儿童、长者等群体的实际使用研究。企业采购、工业与医疗场景未作系统覆盖，因此本文不能代表全球 AI 硬件市场全貌。\n\n[返回项目首页](../README.md)\n",
+  "mediaCoverage": {
+    "products": 60,
+    "references": 60,
+    "aiExploded": 60,
+    "totalImages": 180
+  },
   "products": [
     {
       "id": "even-g2",
@@ -213,7 +219,55 @@
           "note": "已打开，明确无摄像头、Micro LED、光波导、四麦克风及 Conversate。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/even-g2/product.webp",
+          "sourceUrl": "https://www.evenrealities.com/products/g2-a",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0600/4513/1891/files/even-g2-a-smart-glasses-three-quarter-view-grey.png?v=1762242843&width=1200",
+          "caption": "官方 Even G2 A 灰色镜框三分之四视图",
+          "alt": "官方 Even G2 A 灰色镜框三分之四视图",
+          "credit": "Even Realities · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 49644,
+          "sha256": "e7c5a2677eb179b1dd2b73be7237ba667264cc8e3a1d42f56af56dc3aaf8781a"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/even-g2/reference.webp",
+          "sourceUrl": "https://www.evenrealities.com/products/g2-a",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0600/4513/1891/files/even-g2-a-smart-glasses-side-view-grey.png?v=1762242843&width=1200",
+          "caption": "官方 Even G2 A 同色侧视图",
+          "alt": "官方 Even G2 A 同色侧视图",
+          "credit": "Even Realities · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 18406,
+          "sha256": "45e65893b84596fed13bdb7414807c01c919140e06f1ddb07a7807d3290bc8a0"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/even-g2/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Even G2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/even-g2.txt",
+          "referencePaths": [
+            "assets/hardware/even-g2/product.webp",
+            "assets/hardware/even-g2/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1541065,
+          "sha256": "cbaa003a9a6bb69a2662a6d7cef4f13d85306afecb684a1ba5f55d777a729cca"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "oakley-meta-hstn",
@@ -315,7 +369,55 @@
           "note": "已打开具体镜片/框型配置页，未提交订单。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/oakley-meta-hstn/product.webp",
+          "sourceUrl": "https://www.meta.com/ai-glasses/oakley-meta-hstn-glasses/",
+          "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1668617304335399&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1773756725",
+          "caption": "官方 HSTN 黑框 Prizm Dark Golf 镜片斜视图",
+          "alt": "官方 HSTN 黑框 Prizm Dark Golf 镜片斜视图",
+          "credit": "Oakley × Meta · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 114794,
+          "sha256": "9908ae7c642cb83e61c4e9e2bf7699a151b42401c37f2340bb839b127c00ab7b"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/oakley-meta-hstn/reference.webp",
+          "sourceUrl": "https://www.meta.com/ai-glasses/oakley-meta-hstn-glasses/",
+          "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1921746139228297&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1773756725",
+          "caption": "官方 HSTN 同款另一侧视图",
+          "alt": "官方 HSTN 同款另一侧视图",
+          "credit": "Oakley × Meta · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 116130,
+          "sha256": "2708fc458f393358198f5a8d463d5a71fea4cf543de7fe294eb9664c6276c458"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/oakley-meta-hstn/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Oakley Meta HSTN的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/oakley-meta-hstn.txt",
+          "referencePaths": [
+            "assets/hardware/oakley-meta-hstn/product.webp",
+            "assets/hardware/oakley-meta-hstn/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1804691,
+          "sha256": "9ede9191518c166994b5fa5dced9aea6b01c99b9ba2263936e4ee63fad73e50e"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "oakley-meta-vanguard",
@@ -418,7 +520,55 @@
           "note": "访问时重定向韩国英文页，确认 Garmin 设备另购；不将韩元价格混入美国报价。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/oakley-meta-vanguard/product.webp",
+          "sourceUrl": "https://www.oakley.com/en-us/product/W0OW8001",
+          "sourceImageUrl": "https://assets2.oakley.com/prod-onecp-record-files/pieyewear/dfbf31c3-b65d-4ec4-990d-b410014fc06d/0OW8001__800107__P21__shad__fr.png?impolicy=OO_ratio&width=768",
+          "caption": "官方 Vanguard 黑框 Prizm Black 正面图",
+          "alt": "官方 Vanguard 黑框 Prizm Black 正面图",
+          "credit": "Oakley × Meta · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 17962,
+          "sha256": "e25f55a8e44acc39df6fdb4b8446d171d2139906a0cabfdb36d0b0afbaaf9bba"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/oakley-meta-vanguard/reference.webp",
+          "sourceUrl": "https://www.oakley.com/en-us/product/W0OW8001",
+          "sourceImageUrl": "https://assets2.oakley.com/prod-onecp-record-files/pieyewear/762cc332-a20c-4917-b9a9-b410014fc070/0OW8001__800107__P21__shad__lt.png?impolicy=OO_ratio&width=768",
+          "caption": "官方 Vanguard 黑框侧面与镜腿参考",
+          "alt": "官方 Vanguard 黑框侧面与镜腿参考",
+          "credit": "Oakley × Meta · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 20644,
+          "sha256": "e75871609de328e39b1576bca5044d19f825f33c66ce1555bf463b7c1dd14e76"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/oakley-meta-vanguard/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Oakley Meta Vanguard的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/oakley-meta-vanguard.txt",
+          "referencePaths": [
+            "assets/hardware/oakley-meta-vanguard/product.webp",
+            "assets/hardware/oakley-meta-vanguard/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1613023,
+          "sha256": "65361815b8f9041c83b9a7b48ef09fa8606d2467ffbf8d86a80f1f517bfbf8fb"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "ray-ban-meta-gen-2",
@@ -521,7 +671,55 @@
           "note": "已打开，当前并列展示 Gen 2 与 Gen 3；避免跨代混用参数。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/ray-ban-meta-gen-2/product.webp",
+          "sourceUrl": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+          "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1424958092109664&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1777898936",
+          "caption": "官方 Wayfarer Gen 2 正面斜视图（黑框透明镜片）",
+          "alt": "官方 Wayfarer Gen 2 正面斜视图（黑框透明镜片）",
+          "credit": "Ray-Ban × Meta · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 73554,
+          "sha256": "6394871e9c7c71b0bbd582a978c7416f4868115abb9ac6d0ce7f8d69d23547a9"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/ray-ban-meta-gen-2/reference.webp",
+          "sourceUrl": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+          "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1825608818050904&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1777898936",
+          "caption": "官方 Wayfarer Gen 2 后侧视图",
+          "alt": "官方 Wayfarer Gen 2 后侧视图",
+          "credit": "Ray-Ban × Meta · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 69198,
+          "sha256": "20e51cd7a58efda6968de8de8288f177dcafb6b282e02c37a7494ade3de5eb40"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/ray-ban-meta-gen-2/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Ray-Ban Meta Wayfarer（Gen 2）的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/ray-ban-meta-gen-2.txt",
+          "referencePaths": [
+            "assets/hardware/ray-ban-meta-gen-2/product.webp",
+            "assets/hardware/ray-ban-meta-gen-2/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1595147,
+          "sha256": "b1e5532e5fc8e903446af388c0c1925c5f2d1720261376eb91617ab0237be16e"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "ray-ban-meta-gen-3",
@@ -622,7 +820,55 @@
           "note": "已打开，CHF559 与 Add to bag；仅证明该地区、该配置列售。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/ray-ban-meta-gen-3/product.jpg",
+          "sourceUrl": "https://www.meta.com/in/ai-glasses/ray-ban-meta-gen-3-wayfarer-shiny-black-grey-transitions/",
+          "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?cb=v2&media_id=2549805485445447&resize_height=2048&resize_width=2048&version=2549804535445542&vp=1",
+          "caption": "官方 Wayfarer Gen 3 主展示图（亮黑框变色镜片款）",
+          "alt": "官方 Wayfarer Gen 3 主展示图（亮黑框变色镜片款）",
+          "credit": "Ray-Ban × Meta · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 74016,
+          "sha256": "380d90f8274b6f24e11564158267ab34a2f1a4c9d9e6ca8a3be41d1cb9f2be48"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/ray-ban-meta-gen-3/reference.webp",
+          "sourceUrl": "https://www.meta.com/in/ai-glasses/ray-ban-meta-gen-3-wayfarer-shiny-black-grey-transitions/",
+          "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1041308381833715&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1790189413",
+          "caption": "官方 Wayfarer Gen 3 后视图，变色镜片呈深色状态",
+          "alt": "官方 Wayfarer Gen 3 后视图，变色镜片呈深色状态",
+          "credit": "Ray-Ban × Meta · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 69146,
+          "sha256": "b2c794e84fa69e9ad638047e8a9a982d6af3596dc8d2128ec3b2c4937e21c4f4"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/ray-ban-meta-gen-3/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Ray-Ban Meta（Gen 3）的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/ray-ban-meta-gen-3.txt",
+          "referencePaths": [
+            "assets/hardware/ray-ban-meta-gen-3/product.jpg",
+            "assets/hardware/ray-ban-meta-gen-3/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1624732,
+          "sha256": "b4167907cf6376cfb5e905628b5b28b77841cdc37458f35213f8ea11a3365b9f"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "rokid-ai-glasses-style",
@@ -722,7 +968,55 @@
           "note": "已打开，轻量与配镜服务说明；不把其他 Rokid AR 产品当成此款 AI 能力。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/rokid-ai-glasses-style/product.webp",
+          "sourceUrl": "https://global.rokid.com/products/rokid-ai-glasses-style",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0628/5636/4211/files/002_bec55c7c-a573-496d-8894-64dfd966cede.jpg?v=1788761083&width=1200",
+          "caption": "官方 Rokid AI Glasses Style 无显示款产品图",
+          "alt": "官方 Rokid AI Glasses Style 无显示款产品图",
+          "credit": "Rokid · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 22984,
+          "sha256": "e8277fd772e3d0198509e357617c2412223c7357e1bcfa4d88e630ae9b02fdbd"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/rokid-ai-glasses-style/reference.webp",
+          "sourceUrl": "https://global.rokid.com/products/rokid-ai-glasses-style",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0628/5636/4211/files/23714d83d1faac4a6127afe09e9b41d3.jpg?v=1789385146&width=1200",
+          "caption": "官方骑行佩戴场景示意，非独立实测",
+          "alt": "官方骑行佩戴场景示意，非独立实测",
+          "credit": "Rokid · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 133084,
+          "sha256": "83523497430fb161d66e45c8f171863e9a7afbbfa13c659c7931b5a8ae0a59f2"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/rokid-ai-glasses-style/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Rokid AI Glasses Style的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/rokid-ai-glasses-style.txt",
+          "referencePaths": [
+            "assets/hardware/rokid-ai-glasses-style/product.webp",
+            "assets/hardware/rokid-ai-glasses-style/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1540643,
+          "sha256": "d2eec5d38945bc2a086fdbaf4af331b263c35f65eb5349facfa2976253ed07f0"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "bee-frontier",
@@ -821,7 +1115,55 @@
           "note": "已打开，区分Frontier与Coming Soon的Eclipse；隐私与集成均作为厂商陈述。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/bee-frontier/product.png",
+          "sourceUrl": "https://bee.computer/products/frontier",
+          "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6a0426a8bbd4f2f5c1ba22bb_specs-hero.png",
+          "caption": "Bee Frontier 官方腕带佩戴形态渲染",
+          "alt": "Bee Frontier 官方腕带佩戴形态渲染",
+          "credit": "Bee / Amazon · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 365947,
+          "sha256": "2988a12ae211972e6ccea6808cd3a51396994746c1e3bc4ce351d237fb284e66"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/bee-frontier/reference.png",
+          "sourceUrl": "https://bee.computer/products/frontier",
+          "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6acd924c69d698571edbf9de_AMZ-BEE-D-Feature-Carousel-Modular-B.png",
+          "caption": "Bee Frontier 官方夹持形态与多角度配色参考",
+          "alt": "Bee Frontier 官方夹持形态与多角度配色参考",
+          "credit": "Bee / Amazon · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 1022237,
+          "sha256": "c4a5826a63fca050e56b6fd6cc5da644ea7cb98348998ac69c099a402ad23275"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/bee-frontier/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Bee Frontier的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/bee-frontier.txt",
+          "referencePaths": [
+            "assets/hardware/bee-frontier/product.png",
+            "assets/hardware/bee-frontier/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1419582,
+          "sha256": "4b98bcdaf843ec96c2deeb4305000e5ecc597003c0a2df5cd02277e2b7dda0c7"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "bee-eclipse",
@@ -918,7 +1260,55 @@
           "note": "已打开，Eclipse标明Coming Soon；因此归needs_check而非在售或预订。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/bee-eclipse/product.png",
+          "sourceUrl": "https://bee.computer/products/eclipse",
+          "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6abc98eaa973bad1b69f5cde_AMZ-Rosey-PDP-D-Specs-Product.png",
+          "caption": "Bee Eclipse 官方公布的产品渲染（尚未确认开售）",
+          "alt": "Bee Eclipse 官方公布的产品渲染（尚未确认开售）",
+          "credit": "Bee / Amazon · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 200775,
+          "sha256": "462c38bd0c8cf5e53a0787e4b0a108e4c47fb7e1bb798c86807782f220189df3"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/bee-eclipse/reference.png",
+          "sourceUrl": "https://bee.computer/products/eclipse",
+          "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6ac589b8fa63957e61c1546b_AMZ-Rosey-PDP-M-Specs-Product-View-2.png",
+          "caption": "Bee Eclipse 官方按键、指示灯与侧面参考",
+          "alt": "Bee Eclipse 官方按键、指示灯与侧面参考",
+          "credit": "Bee / Amazon · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 474551,
+          "sha256": "d0432e6a79279150923cfb6a094da145638a382b3545562eb6d74b4d0202aa63"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/bee-eclipse/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Bee Eclipse的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/bee-eclipse.txt",
+          "referencePaths": [
+            "assets/hardware/bee-eclipse/product.png",
+            "assets/hardware/bee-eclipse/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1560824,
+          "sha256": "f4b9bb733b5a4246e8deeb2adfb640497e8f316ac416584759158ad03b0ce874"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "limitless-pendant",
@@ -1008,7 +1398,56 @@
           "note": "已打开，明确2025-12-05停售、支持贯穿2026年、中国等地区退出；不依赖新闻推断。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/limitless-pendant/product.webp",
+          "sourceUrl": "https://www.limitless.ai/pendant",
+          "sourceImageUrl": "https://www.limitless.ai/media/pendant/black/pendant-front.webp",
+          "caption": "Limitless 官方历史黑色 Pendant 正面图",
+          "alt": "Limitless 官方历史黑色 Pendant 正面图",
+          "credit": "Limitless（已被Meta收购） · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 223896,
+          "sha256": "451b465ad3859f1e19ce42342463945008b7435dfc7ccdfe4fb03eb7d4ca80fa"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/limitless-pendant/reference.webp",
+          "sourceUrl": "https://www.limitless.ai/pendant",
+          "sourceImageUrl": "https://www.limitless.ai/media/pendant/black/pendant-open.webp",
+          "caption": "Limitless 官方历史 Pendant 夹持结构展开图",
+          "alt": "Limitless 官方历史 Pendant 夹持结构展开图",
+          "credit": "Limitless（已被Meta收购） · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 75354,
+          "sha256": "a94f088744250dbc93324a403794bdd86af669bdd8e2cb3fcdfa830a3755e880"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/limitless-pendant/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Limitless Pendant的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/limitless-pendant.txt",
+          "referencePaths": [
+            "assets/hardware/limitless-pendant/product.webp",
+            "assets/hardware/limitless-pendant/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1674442,
+          "sha256": "cf16f7798463ff1fee7d67908a154a390ece76ebe9090b3c8b918051535e851f"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。",
+        "产品已停售；沿图片搜索索引找回仍存放在官方域名的历史产品原图。"
+      ]
     },
     {
       "id": "omi-ai-pendant",
@@ -1108,7 +1547,55 @@
           "note": "已打开，免费与Pro区别可见；市场用户规模宣传未用于需求或销量结论。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/omi-ai-pendant/product.webp",
+          "sourceUrl": "https://www.omi.me/pages/product",
+          "sourceImageUrl": "https://www.omi.me/cdn/shop/t/87/assets/omi-lf-hero-white.webp?v=36404367431359975201793402396",
+          "caption": "Omi 官方圆形 Pendant 与项链产品图",
+          "alt": "Omi 官方圆形 Pendant 与项链产品图",
+          "credit": "Omi · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 35966,
+          "sha256": "e77957cbbe8dfc8d9f8fb1ff0876ca8ccecd61b5697f6369e3ab293f97153b0a"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/omi-ai-pendant/reference.webp",
+          "sourceUrl": "https://www.omi.me/pages/product",
+          "sourceImageUrl": "https://www.omi.me/cdn/shop/t/87/assets/omi-lf-knit.webp?v=55039599753399124671793402397",
+          "caption": "Omi 官方项链佩戴场景参考",
+          "alt": "Omi 官方项链佩戴场景参考",
+          "credit": "Omi · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 194030,
+          "sha256": "e4abb6bf7b126f37247ab78d92e4e55b597a3c29786d2718766a0af5ec1a18b1"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/omi-ai-pendant/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Omi AI Pendant的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/omi-ai-pendant.txt",
+          "referencePaths": [
+            "assets/hardware/omi-ai-pendant/product.webp",
+            "assets/hardware/omi-ai-pendant/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1496537,
+          "sha256": "43a8c7619ffd306d98fd70a54f44dd80022bc468c842d7585a473bd798b571e4"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "plaud-note",
@@ -1207,7 +1694,55 @@
           "note": "已打开，用于区分Note、Note Pro和NotePin，未推断未披露供应商。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/plaud-note/product.webp",
+          "sourceUrl": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/BL-plaud-note-052526.webp?v=1779709941&width=1200",
+          "caption": "官方 Plaud Note 基础款正面图",
+          "alt": "官方 Plaud Note 基础款正面图",
+          "credit": "Plaud · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 22432,
+          "sha256": "b66f8d5360cea399f981b3be6a107224c8455f96dfb8d9bbcd578028897270a2"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/plaud-note/reference.webp",
+          "sourceUrl": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/4_e10f8969-6ac3-4641-971f-2514b6c6b3c1.png?v=1774430233&width=1200",
+          "caption": "官方 Plaud Note 侧面薄度参考",
+          "alt": "官方 Plaud Note 侧面薄度参考",
+          "credit": "Plaud · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 29606,
+          "sha256": "53411a3f9278e17ae3f644b537062405e09ce9dc45924dd768969e879ae3a209"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/plaud-note/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Plaud Note的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/plaud-note.txt",
+          "referencePaths": [
+            "assets/hardware/plaud-note/product.webp",
+            "assets/hardware/plaud-note/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1518613,
+          "sha256": "2696d5c1c888d223595ec8d8b80775a8ef679b21ac8b7f13f3e1bc354041dd79"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "plaud-note-pro",
@@ -1306,7 +1841,55 @@
           "note": "已打开；用于比较不同采集形态，不代表同品牌软件永久免费。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/plaud-note-pro/product.webp",
+          "sourceUrl": "https://www.plaud.ai/products/plaud-note-pro",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/NotePro-_-2_fdc31980-a483-420d-b385-3723c698c9b7.png?v=1779783768&width=1200",
+          "caption": "官方 Plaud Note Pro 正面图",
+          "alt": "官方 Plaud Note Pro 正面图",
+          "credit": "Plaud · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 13774,
+          "sha256": "3eaa37b451b2d96ca6f032de1b47d5320307057e0b0e6c34a4c3daf25345e79f"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/plaud-note-pro/reference.webp",
+          "sourceUrl": "https://www.plaud.ai/products/plaud-note-pro",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/Plaud_Note_Pro-side-black_e0ab6b2a-c29f-4906-a5da-4067210906ce.webp?v=1766042075&width=1200",
+          "caption": "官方 Plaud Note Pro 侧面参考",
+          "alt": "官方 Plaud Note Pro 侧面参考",
+          "credit": "Plaud · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 5786,
+          "sha256": "e8c9f609d9a8fa2dedf4db39c34e66901ecdf5ea8225f81b1b3e9ca19ed4d18f"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/plaud-note-pro/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Plaud Note Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/plaud-note-pro.txt",
+          "referencePaths": [
+            "assets/hardware/plaud-note-pro/product.webp",
+            "assets/hardware/plaud-note-pro/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1562969,
+          "sha256": "119dbb998ae7d0209a68f4fb13938770735af871f6a124a269b3016a3425f709"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "plaud-notepin",
@@ -1406,7 +1989,55 @@
           "note": "已打开，区分可佩戴采集与卡片双模式录音。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/plaud-notepin/product.webp",
+          "sourceUrl": "https://www.plaud.ai/products/plaud-notepin",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/plaud-notepin-gray-0225.webp?v=1774430287&width=1200",
+          "caption": "官方 Plaud NotePin 胶囊录音器产品图",
+          "alt": "官方 Plaud NotePin 胶囊录音器产品图",
+          "credit": "Plaud · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 15748,
+          "sha256": "66a2461918992e55be3459f87b8aef33af52e61060c10674c8c9ca8adea90734"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/plaud-notepin/reference.webp",
+          "sourceUrl": "https://www.plaud.ai/products/plaud-notepin",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/plaud-notepin-weight-0225.webp?v=1774430287&width=1200",
+          "caption": "官方手持比例示意图，图中文字为厂商宣传",
+          "alt": "官方手持比例示意图，图中文字为厂商宣传",
+          "credit": "Plaud · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 41482,
+          "sha256": "cf32ede9969fa885b63b3774fcad94cecf02d2f7b9db2f357a49297b89af5e4a"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/plaud-notepin/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Plaud NotePin的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/plaud-notepin.txt",
+          "referencePaths": [
+            "assets/hardware/plaud-notepin/product.webp",
+            "assets/hardware/plaud-notepin/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1567861,
+          "sha256": "e7be88ab77fb96a1f47c7f3fdf8b84c57620cb8079d7fe2fa88980002c23bb0f"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "iflytek-magic-recorder",
@@ -1506,7 +2137,55 @@
           "note": "已打开，¥899、三麦克风、64GB、RTOS等；两个发布日期不擅自解释成两个硬件代际。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/iflytek-magic-recorder/product.png",
+          "sourceUrl": "https://www.iflyrecorder.com/magic",
+          "sourceImageUrl": "https://www.iflyrecorder.com/assets/magic-product/hero.png",
+          "caption": "讯飞官方 Magic 两款配色与外形展示",
+          "alt": "讯飞官方 Magic 两款配色与外形展示",
+          "credit": "科大讯飞 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 1278140,
+          "sha256": "68bf0a35d85eaf0d1334ef01ff53da44d78cd5b057d3d2c5236498f209c5e157"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/iflytek-magic-recorder/reference.png",
+          "sourceUrl": "https://www.iflyrecorder.com/magic",
+          "sourceImageUrl": "https://www.iflyrecorder.com/assets/magic-product/office.png",
+          "caption": "讯飞官方 Magic 电脑语音输入场景示意",
+          "alt": "讯飞官方 Magic 电脑语音输入场景示意",
+          "credit": "科大讯飞 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 1000035,
+          "sha256": "307d9577d8ff5fff77d5b98294ca6345dae252669467ad33f4b04b62839e232c"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/iflytek-magic-recorder/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "讯飞AI录音笔 Magic的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/iflytek-magic-recorder.txt",
+          "referencePaths": [
+            "assets/hardware/iflytek-magic-recorder/product.png",
+            "assets/hardware/iflytek-magic-recorder/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1685413,
+          "sha256": "861f55ce3cd3e692f0ccc4caef62007d7c9ff988dac17d29886c579bbf229e7e"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "iflytek-s8-offline",
@@ -1614,7 +2293,56 @@
           "note": "已打开并定位本型号段落，支持转写、翻译和安全芯片厂商陈述；不采用系列销量宣传推算本型号市场。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/iflytek-s8-offline/product.jpg",
+          "sourceUrl": "https://www.iflyrecorder.com/Goods_desc/1/598.html",
+          "sourceImageUrl": "https://www.iflyrecorder.com/filespath/images/goods/1733912262.jpg",
+          "caption": "讯飞官方 S8 离线版正面界面图",
+          "alt": "讯飞官方 S8 离线版正面界面图",
+          "credit": "科大讯飞 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 175256,
+          "sha256": "4bc1398200abe1b8187592511108d7bdc263e20368f57ee95896d4ed30885065"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/iflytek-s8-offline/reference.jpg",
+          "sourceUrl": "https://www.geekpark.net/news/344287",
+          "sourceImageUrl": "https://imgslim.geekpark.net/uploads/image/file/c8/8e/c88ea774dad84d1160eee9c2c9f69ae5.jpeg",
+          "caption": "极客公园 S8 离线版发布报道的桌面场景配图",
+          "alt": "极客公园 S8 离线版发布报道的桌面场景配图",
+          "credit": "极客公园 · 讯飞S8离线版发布报道配图",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 102232,
+          "sha256": "7bb7e7b21c83224e65a185e164b00458691b6ca9f80577733a97c9f43f0c71e4"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/iflytek-s8-offline/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "讯飞AI录音笔 S8离线版的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/iflytek-s8-offline.txt",
+          "referencePaths": [
+            "assets/hardware/iflytek-s8-offline/product.jpg",
+            "assets/hardware/iflytek-s8-offline/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1672154,
+          "sha256": "2d9d8d118d994e0e5173acc1332dad3f2cf2b15734e91495287c055fd01cd72e"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。",
+        "主图为官方；第二张为注明来源的发布报道配图。"
+      ]
     },
     {
       "id": "dingtalk-a1-personal",
@@ -1713,7 +2441,56 @@
           "note": "已打开并沿官方链接访问产品页及天猫；该文章注明通义千问生成，仅用作入口和生态说明，不采用其效能、续航或权益数字。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/dingtalk-a1-personal/product.png",
+          "sourceUrl": "https://page.dingtalk.com/wow/dingtalk/default/dingtalk/ENSdJDWVpi1L44lqSr3Zz?dd_mini_app_id=5000000004997171",
+          "sourceImageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN0139M6H11fcsSxbbWId_!!6000000004028-2-tps-1802-1306.png",
+          "caption": "钉钉官方 A1 旗舰形态银色录音卡宣传图",
+          "alt": "钉钉官方 A1 旗舰形态银色录音卡宣传图",
+          "credit": "钉钉 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 1013765,
+          "sha256": "a4f36cfbf4803ea906afb243854a1a961c2699ddffbe5713377e705d2d0d46b7"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/dingtalk-a1-personal/reference.webp",
+          "sourceUrl": "https://page.dingtalk.com/wow/dingtalk/default/dingtalk/VWKdjhj4kVMU9YvdgMTy?dd_mini_app_id=5000000004997171",
+          "sourceImageUrl": "https://gw.alicdn.com/imgextra/i1/O1CN01hjlHg91Sq4rNf8fTv_%21%216000000002297-0-tps-3840-1474.jpg",
+          "caption": "钉钉官方 A1 银黑配色历史宣传图，所示价格和权益不代表当前套餐",
+          "alt": "钉钉官方 A1 银黑配色历史宣传图，所示价格和权益不代表当前套餐",
+          "credit": "钉钉 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 85774,
+          "sha256": "504bbf61574ce2117e2fc9ba63f3cc60cd7ed8c0f5d798dad6b4858f5d0a5ee7"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/dingtalk-a1-personal/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "DingTalk A1（个人版·云享版）的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/dingtalk-a1-personal.txt",
+          "referencePaths": [
+            "assets/hardware/dingtalk-a1-personal/product.png",
+            "assets/hardware/dingtalk-a1-personal/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1520747,
+          "sha256": "fac1336653a635dc9c850a997e65a1a683d6fbc9724c2928638682654fb451bf"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。",
+        "A1个人云享版属于服务套餐，参考图用于同款A1硬件形态；历史宣传图价格和权益不用于当前报价。"
+      ]
     },
     {
       "id": "timekettle-w4-pro",
@@ -1817,7 +2594,55 @@
           "note": "已打开，立即购买指向京东；没有把国际售价当国内售价。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/timekettle-w4-pro/product.webp",
+          "sourceUrl": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4-Pro_226cf539-8307-4cda-8da5-a18b6ce499ef.png?v=1776672758",
+          "caption": "官方 W4 Pro 耳挂式耳机与充电盒",
+          "alt": "官方 W4 Pro 耳挂式耳机与充电盒",
+          "credit": "Timekettle / 时空壶 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 24296,
+          "sha256": "bbb38800492e44f18616048c8c78b88f24bcbd533a6b11f131502a42c5bb2206"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/timekettle-w4-pro/reference.webp",
+          "sourceUrl": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/4_74fd83de-e1a2-47d0-be23-5f5a49d271af.jpg?v=1776672758&width=1200",
+          "caption": "官方远程会议使用场景示意",
+          "alt": "官方远程会议使用场景示意",
+          "credit": "Timekettle / 时空壶 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 95556,
+          "sha256": "c1d0afbd47d2bbe14af0611e641da3091f8fac9364dac6aec3f88aea5eae9ce4"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/timekettle-w4-pro/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Timekettle W4 Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/timekettle-w4-pro.txt",
+          "referencePaths": [
+            "assets/hardware/timekettle-w4-pro/product.webp",
+            "assets/hardware/timekettle-w4-pro/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1567409,
+          "sha256": "8f4a291f046767a416fbf72a3c164bb1aedb5cd220bab2f94c0a529157cd4154"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "timekettle-w4-plus",
@@ -1921,7 +2746,55 @@
           "note": "已打开，京东购买入口及骨声纹/双麦混合拾音描述可见。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/timekettle-w4-plus/product.webp",
+          "sourceUrl": "https://www.timekettle.co/products/w4-plus-ai-interpreter-earbuds",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4_plus_58cc39aa-3ecb-4f7d-9d34-48a92124767a.png?v=1790566818",
+          "caption": "官方 W4 Plus 耳机与充电盒",
+          "alt": "官方 W4 Plus 耳机与充电盒",
+          "credit": "Timekettle / 时空壶 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 24554,
+          "sha256": "49cb0772ae53cdd22fe6175cc3a68dee107925babdfbdc55556b9c86c309d7f4"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/timekettle-w4-plus/reference.webp",
+          "sourceUrl": "https://www.timekettle.co/products/w4-plus-ai-interpreter-earbuds",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4_P.jpg?v=1787208421&width=1200",
+          "caption": "官方 W4 Plus 配套软件功能示意，权益以实际版本为准",
+          "alt": "官方 W4 Plus 配套软件功能示意，权益以实际版本为准",
+          "credit": "Timekettle / 时空壶 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 74120,
+          "sha256": "e015198be07f0f4b010cbb87c130a21dfbb959c85692b9cf7bfa33fbeb0bf37e"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/timekettle-w4-plus/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Timekettle W4 Plus的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/timekettle-w4-plus.txt",
+          "referencePaths": [
+            "assets/hardware/timekettle-w4-plus/product.webp",
+            "assets/hardware/timekettle-w4-plus/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1547636,
+          "sha256": "82594c5d456b99406fa7e0f4ac8a4cc4b47325451a0b62a51858d2fc89b515ed"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "timekettle-x1-meeting",
@@ -2025,7 +2898,55 @@
           "note": "已打开，明确同名产品和京东购买入口，未把旧X1规格代入。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/timekettle-x1-meeting/product.webp",
+          "sourceUrl": "https://www.timekettle.co/products/x1-meeting-interpreter-hub",
+          "sourceImageUrl": "https://www.timekettle.co/cdn/shop/files/X1_M_e2234a49-0dd3-4419-87ed-3230724b0be0.png?v=1786948521&width=499",
+          "caption": "官方 X1 Meeting 主机与耳机产品图",
+          "alt": "官方 X1 Meeting 主机与耳机产品图",
+          "credit": "Timekettle / 时空壶 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 22538,
+          "sha256": "7dbb30e0c44ec4ee6fec2d97ac17327d096023573492a1398b2ab50fa335a7e7"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/timekettle-x1-meeting/reference.webp",
+          "sourceUrl": "https://www.timekettle.co/products/x1-meeting-interpreter-hub",
+          "sourceImageUrl": "https://www.timekettle.co/cdn/shop/files/X1_M..jpg?v=1787197411&width=1254",
+          "caption": "官方多人会议场景示意；图中人数宣传不用于本目录性能确认",
+          "alt": "官方多人会议场景示意；图中人数宣传不用于本目录性能确认",
+          "credit": "Timekettle / 时空壶 · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 132348,
+          "sha256": "b251ae992dbd682a965b22b64f67b873d60889ce487a5bc16f2cb14898d74450"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/timekettle-x1-meeting/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Timekettle X1 Meeting的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/timekettle-x1-meeting.txt",
+          "referencePaths": [
+            "assets/hardware/timekettle-x1-meeting/product.webp",
+            "assets/hardware/timekettle-x1-meeting/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1590426,
+          "sha256": "6bfbf25bf4ac8e785d8e38f2ce7d0ac792293964e4388cf913929073e8228e7a"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "amazfit-balance-2",
@@ -2122,7 +3043,54 @@
           "note": "已打开日本官方地区商品页；不据此推断中国大陆版本能力。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/amazfit-balance-2/product.jpg",
+          "sourceUrl": "https://us.amazfit.com/products/balance-2",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0406/4500/1379/files/Main_Image_3.jpg?v=1784187735",
+          "caption": "Amazfit Balance 2 官方产品图",
+          "alt": "Amazfit Balance 2 官方产品图",
+          "credit": "Amazfit / Zepp Health · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 178096,
+          "sha256": "96ed2713891e32391d4c1751884566d14566fef8dc2266ee3f86f643e7e5ee87"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/amazfit-balance-2/reference.jpg",
+          "sourceUrl": "https://us.amazfit.com/products/balance-2",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0406/4500/1379/files/Main_Image__2.jpg?v=1789373522",
+          "caption": "Amazfit Balance 2 官方包装与配件参考",
+          "alt": "Amazfit Balance 2 官方包装与配件参考",
+          "credit": "Amazfit / Zepp Health · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 135870,
+          "sha256": "ef2fcd96da80a67ec62585d43dc3033a4d2c732cbe4f1105e24e409fba944fb3"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/amazfit-balance-2/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Amazfit Balance 2 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/amazfit-balance-2.txt",
+          "referencePaths": [
+            "assets/hardware/amazfit-balance-2/product.jpg",
+            "assets/hardware/amazfit-balance-2/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1613286,
+          "sha256": "c68eb3b8ce4ebea6600cc401e38af19ef04ba3f0631e0de869dabe203bc17d04"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "oura-ring-4",
@@ -2219,7 +3187,54 @@
           "note": "说明LLM、会员、数据来源及非医疗设备边界。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/oura-ring-4/product.png",
+          "sourceUrl": "https://ouraring.com/store/rings/oura-ring-4/silver",
+          "sourceImageUrl": "https://ourahealth.imgix.net/hardware-pdp/hero-carousel/or4-silver-front-view.png?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=1200&s=a9f2a840d8abdf221c81e9272c0c11aa",
+          "caption": "Oura Ring 4 银色官方正面图",
+          "alt": "Oura Ring 4 银色官方正面图",
+          "credit": "Oura · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 411810,
+          "sha256": "20f7fc03836837b1623cb95fc6db7ebe40ea4fb8e290820cd4fd238522bed4f6"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/oura-ring-4/reference.png",
+          "sourceUrl": "https://ouraring.com/store/rings/oura-ring-4/silver",
+          "sourceImageUrl": "https://ourahealth.imgix.net/hardware-pdp/hero-carousel/or4-silver-angle-view.png?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=1200&s=76421b0734824e2f13c4b71f449a648a",
+          "caption": "Oura Ring 4 银色官方角度与内侧参考",
+          "alt": "Oura Ring 4 银色官方角度与内侧参考",
+          "credit": "Oura · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 616676,
+          "sha256": "d5be94f45fb868b32ddf52d007321c5832fe9a6dd74199faffa71038e67f2feb"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/oura-ring-4/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Oura Ring 4 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/oura-ring-4.txt",
+          "referencePaths": [
+            "assets/hardware/oura-ring-4/product.png",
+            "assets/hardware/oura-ring-4/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1558127,
+          "sha256": "44abad0fadf7e71e39a67664fb8898d271bea70b434134ee48922007a54505db"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "samsung-galaxy-ring",
@@ -2316,7 +3331,55 @@
           "note": "具体SKU显示已售完，同时给出传感、机器学习及兼容条件。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/samsung-galaxy-ring/product.png",
+          "sourceUrl": "https://www.samsung.com.cn/rings/galaxy-ring/galaxy-ring-titanium-silver-size-12-sm-q502nzsachc/",
+          "sourceImageUrl": "https://images.samsung.com.cn/cn/galaxy-ring/feature/galaxy-ring-color-silver-pc.png",
+          "caption": "Galaxy Ring 银色官方产品图",
+          "alt": "Galaxy Ring 银色官方产品图",
+          "credit": "Samsung · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 103332,
+          "sha256": "ccf8766dc470739c0543e3519f357e674dff6f4966bc621001dbf2c8b02d9208"
+        },
+        {
+          "kind": "official-structure",
+          "path": "assets/hardware/samsung-galaxy-ring/reference.jpg",
+          "sourceUrl": "https://www.samsung.com.cn/rings/galaxy-ring/galaxy-ring-titanium-silver-size-12-sm-q502nzsachc/",
+          "sourceImageUrl": "https://images.samsung.com.cn/is/image/samsung/assets/cn/rings/galaxy-ring/galaxy-ring-sensor-pc_0808.jpg",
+          "caption": "Galaxy Ring 官方传感位置示意（非实物拆机）",
+          "alt": "Galaxy Ring 官方传感位置示意（非实物拆机）",
+          "credit": "Samsung · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 43901,
+          "sha256": "ece092293c4cbbde93a29ee142819e5218c28e7634b62a423700dcc532678095"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/samsung-galaxy-ring/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Samsung Galaxy Ring 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/samsung-galaxy-ring.txt",
+          "referencePaths": [
+            "assets/hardware/samsung-galaxy-ring/product.png",
+            "assets/hardware/samsung-galaxy-ring/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1572770,
+          "sha256": "2a78783d41a258ff25300202d609874a1bfe2fd2bf60b564050d1beefea50299"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+        "主图为银色，传感示意使用同系列金色外观；官方传感说明不等于完整内部拆机。"
+      ]
     },
     {
       "id": "samsung-galaxy-watch8",
@@ -2414,7 +3477,54 @@
           "note": "确认大陆官方购买配置入口，不以动态模板推断具体库存。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/samsung-galaxy-watch8/product.jpg",
+          "sourceUrl": "https://www.samsung.com/us/watches/galaxy-watch8/",
+          "sourceImageUrl": "https://image-us.samsung.com/us/watches/galaxy-watch8/images/galaxy-watch8-design-colors-silver-perspective.jpg?imbypass=true",
+          "caption": "Galaxy Watch8 银色官方角度图",
+          "alt": "Galaxy Watch8 银色官方角度图",
+          "credit": "Samsung · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 27266,
+          "sha256": "95efd62b848195ae000d9d9c070ca589db6e86eab8c831c5edd4f91f0ef264dd"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/samsung-galaxy-watch8/reference.jpg",
+          "sourceUrl": "https://www.samsung.com/us/watches/galaxy-watch8/",
+          "sourceImageUrl": "https://image-us.samsung.com/us/watches/galaxy-watch8/images/galaxy-watch8-design-colors-silver-side.jpg?imbypass=true",
+          "caption": "Galaxy Watch8 银色官方侧面参考",
+          "alt": "Galaxy Watch8 银色官方侧面参考",
+          "credit": "Samsung · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 23558,
+          "sha256": "4d2c251edfe81d7dce3239741add161572af70766d78667ba4684139aa32bac1"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/samsung-galaxy-watch8/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Samsung Galaxy Watch8 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/samsung-galaxy-watch8.txt",
+          "referencePaths": [
+            "assets/hardware/samsung-galaxy-watch8/product.jpg",
+            "assets/hardware/samsung-galaxy-watch8/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1563978,
+          "sha256": "978b109c5b7882d52d65308c7cbcd33793fbca4c33959323f8fb9ad027730aa6"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "ultrahuman-ring-air",
@@ -2521,7 +3631,54 @@
           "note": "Jade面向全体用户推出；其中PRO硬件参数不移植到AIR。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/ultrahuman-ring-air/product.jpg",
+          "sourceUrl": "https://www.ultrahuman.com/mc/ring/buy/",
+          "sourceImageUrl": "https://cdn.speedsize.com/3f711f28-1488-44dc-b013-5e43284ac4b0/https://public-web-assets.uh-static.com/web_v2/ring-buy/carousel-assets-new/full/bionic-gold/1.png",
+          "caption": "Ultrahuman Ring AIR 金色官方产品图",
+          "alt": "Ultrahuman Ring AIR 金色官方产品图",
+          "credit": "Ultrahuman · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 690294,
+          "sha256": "b7375aa23fc9a8a94368f200b6ea1db2553db8df3921fb47f52b484a2c13d4c9"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/ultrahuman-ring-air/reference.jpg",
+          "sourceUrl": "https://www.ultrahuman.com/mc/ring/buy/",
+          "sourceImageUrl": "https://cdn.speedsize.com/3f711f28-1488-44dc-b013-5e43284ac4b0/https://public-web-assets.uh-static.com/web_v2/ring-buy/carousel-assets-new/full/bionic-gold/3.png/w_2000",
+          "caption": "Ultrahuman Ring AIR 官方佩戴场景参考",
+          "alt": "Ultrahuman Ring AIR 官方佩戴场景参考",
+          "credit": "Ultrahuman · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 856686,
+          "sha256": "aa90d89371b05398dc9c6ca551cd70fbd05421aba49fa711d0249df5c4ef370e"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/ultrahuman-ring-air/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Ultrahuman Ring AIR 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/ultrahuman-ring-air.txt",
+          "referencePaths": [
+            "assets/hardware/ultrahuman-ring-air/product.jpg",
+            "assets/hardware/ultrahuman-ring-air/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1561880,
+          "sha256": "4b2c9188e3a1e7b507d50f5e6cd456a625429f76a29b4531f6c3599b2d77ca97"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "whoop-5",
@@ -2616,7 +3773,55 @@
           "note": "2026官方说明AI指导在应用中的定位。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/whoop-5/product.webp",
+          "sourceUrl": "https://www.whoop.com/ch/en/membership/",
+          "sourceImageUrl": "https://images.ctfassets.net/rbzqg6pelgqa/3waVHtJ6R9HOTAreGiUP5a/e9a8df7e641adb0cbf3adc005d31a278/One_card__1_.png?fm=webp&q=25&w=3840",
+          "caption": "WHOOP 5.0 One 官方设备与应用展示",
+          "alt": "WHOOP 5.0 One 官方设备与应用展示",
+          "credit": "WHOOP · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 41694,
+          "sha256": "4c40853f9af0e078d7dd980e4cee49fe33e863ceb1cb4fb321089d888dec726b"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/whoop-5/reference.webp",
+          "sourceUrl": "https://www.whoop.com/ch/en/membership/",
+          "sourceImageUrl": "https://images.ctfassets.net/rbzqg6pelgqa/2L5W622UNiYxlnHE3hHGAL/d3443637b907fe3541f32a8d9fe58cbc/Peak_card__1_.png?fm=webp&q=25&w=3840",
+          "caption": "WHOOP 5.0 Peak 官方表带与应用参考",
+          "alt": "WHOOP 5.0 Peak 官方表带与应用参考",
+          "credit": "WHOOP · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 42512,
+          "sha256": "872d305d392f6134085c8e074a5e1fea3133bed3f1615b7fa125cba500444932"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/whoop-5/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "WHOOP 5.0 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/whoop-5.txt",
+          "referencePaths": [
+            "assets/hardware/whoop-5/product.webp",
+            "assets/hardware/whoop-5/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1834622,
+          "sha256": "cb723e155a65c3b31539380812f3920ab0e3bca7bd24992ff4b1cdb2ec026fdb"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+        "One与Peak图片均来自官网对应WHOOP 5.0栏目，非MG；应用中的数值是官方展示画面，不是本项目实测。"
+      ]
     },
     {
       "id": "macbook-air-m5",
@@ -2724,7 +3929,52 @@
           "note": "展示中国大陆M5配置购买入口；AI功能可用性须另行核查。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/macbook-air-m5/product.png",
+          "sourceUrl": "https://www.apple.com/macbook-air/",
+          "sourceImageUrl": "https://www.apple.com/v/macbook-air/z/images/overview/hero/hero_static__c9sislzzicq6_large.png",
+          "caption": "MacBook Air M5 官方13与15英寸产品图",
+          "alt": "MacBook Air M5 官方13与15英寸产品图",
+          "credit": "Apple",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 325487,
+          "sha256": "08c8207030f1315f6e8e98aee47452f81da0afc89c3d08440d8ff5ba48647cb2"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/macbook-air-m5/reference.jpg",
+          "sourceUrl": "https://www.apple.com/macbook-air/",
+          "sourceImageUrl": "https://www.apple.com/v/macbook-air/z/images/overview/design/color/design_side_skyblue__dtyt9gw4nfiq_large.jpg",
+          "caption": "官方侧视结构与接口参考图",
+          "alt": "官方侧视结构与接口参考图",
+          "credit": "Apple",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 5372,
+          "sha256": "abe7c16a7a63d2773332fe9465b0a921526589863238d3bb41bdbb623b7bc860"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/macbook-air-m5/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "macbook-air-m5 AI生成结构爆炸概念图，隐藏内部为功能推断",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/macbook-air-m5.txt",
+          "referencePaths": [
+            "assets/hardware/macbook-air-m5/product.png",
+            "assets/hardware/macbook-air-m5/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1824980,
+          "sha256": "fd5c723aecba7a96f19a8a542ed8fc6d759026867e1e4ba981a799bea3fe40d6"
+        }
+      ],
+      "mediaNotes": []
     },
     {
       "id": "google-pixel-11-pro",
@@ -2821,7 +4071,51 @@
           "note": "核查时地区列表没有中国大陆；不推定非官方进口渠道可用。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/google-pixel-11-pro/product.webp",
+          "sourceUrl": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+          "sourceImageUrl": "https://lh3.googleusercontent.com/3pMI8aPBk68eTXiu5pU2TexANdpvMtOJgi8UkXaYYHbHgoSvUF3qerABrExqUrZud6YalGDCCUbfp_a6SWmHoJfpN5tlmbSC62k%3Dw560-h700-rw-nu",
+          "caption": "Pixel 11 Pro 官方产品背面图",
+          "alt": "Pixel 11 Pro Canyon 配色背部和相机横条",
+          "credit": "Google",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 8294,
+          "sha256": "113ad29c59f3fe0dd983bf8a48847d6a6133bbc71be973d1d7097a7522ff7e8d"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/google-pixel-11-pro/reference.webp",
+          "sourceUrl": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+          "sourceImageUrl": "https://lh3.googleusercontent.com/w6ZLQp4YT4M8m23WVqBV3puDiXQudwvi4D0JS0yvUFYgR-0Pv9xLMfm1tW9Et9NCufoE5EJhYxtpfDCMobpstQoEPRYsUir7QA%3Dw1132-h1132-rw-nu",
+          "caption": "Google Pixel 11 Pro 官方使用场景参考",
+          "alt": "Google Pixel 11 Pro 官方使用场景参考",
+          "credit": "Google",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 92894,
+          "sha256": "ec42db5bdca7f91765c77fd23a5fe8dd5591db91616ff649df1a58373d1b012b"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/google-pixel-11-pro/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "google-pixel-11-pro AI生成结构爆炸概念图，隐藏内部为功能推断",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/google-pixel-11-pro.txt",
+          "referencePaths": [
+            "assets/hardware/google-pixel-11-pro/product.webp"
+          ],
+          "verified": true,
+          "bytes": 1604903,
+          "sha256": "65ac05d7486badc5fcf4da6f2e4c286b82cd948b4dc2b85a9f5a1803beb17f0d"
+        }
+      ],
+      "mediaNotes": []
     },
     {
       "id": "rabbit-r1",
@@ -2932,7 +4226,55 @@
           "note": "已打开，明确本地录音、联网后转写摘要与电池限制。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/rabbit-r1/product.webp",
+          "sourceUrl": "https://www.rabbit.tech/rabbit-r1",
+          "sourceImageUrl": "https://www.rabbit.tech/_next/image?url=%2Fmedia%2Fr1%2Fr1_hardwarespec.png&w=750&q=75",
+          "caption": "rabbit 官方 r1 正面与控制部件标注图",
+          "alt": "rabbit 官方 r1 正面与控制部件标注图",
+          "credit": "rabbit · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 26770,
+          "sha256": "e89e700b6c6fd95b58fd413dbab8ae4a0bdd8930cedeb7e2b725bbe5638e8392"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/rabbit-r1/reference.webp",
+          "sourceUrl": "https://www.rabbit.tech/rabbit-r1",
+          "sourceImageUrl": "https://www.rabbit.tech/_next/image?url=%2Fmedia%2Fr1%2Fr1_inhand_mobile.webp&w=1080&q=75",
+          "caption": "rabbit 官方 r1 手持背面与侧面参考",
+          "alt": "rabbit 官方 r1 手持背面与侧面参考",
+          "credit": "rabbit · 官方产品图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 38652,
+          "sha256": "1246bbdc2df6623622b93cccbc7cc8cc7e357a1e2126af15716bb121bb106584"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/rabbit-r1/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "rabbit r1的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/rabbit-r1.txt",
+          "referencePaths": [
+            "assets/hardware/rabbit-r1/product.webp",
+            "assets/hardware/rabbit-r1/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1607419,
+          "sha256": "2b4903a2bb40593ff50dfbc1890dace8fe2344b57e05b46afa7923f294500f68"
+        }
+      ],
+      "mediaNotes": [
+        "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+        "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+      ]
     },
     {
       "id": "casio-moflin",
@@ -3044,7 +4386,55 @@
           "note": "官方说明大陆洗护、换毛和取件维修服务。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/casio-moflin/product.png",
+          "sourceUrl": "https://www.casio.com/us/moflin/",
+          "sourceImageUrl": "https://www.casio.com/content/dam/casio/product-info/locales/us/en/moflin/product/P/PE/PEM/PE-M10SR/assets/pe-m10sr_001.png.transform/main-visual-sp/image.png",
+          "caption": "Moflin 银色官方产品图",
+          "alt": "Moflin 银色官方产品图",
+          "credit": "CASIO · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 787887,
+          "sha256": "992a02ada7392b774ca1d09e86af4e6c72b0b2b127ab6c4852d1683d3647ce24"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/casio-moflin/reference.png",
+          "sourceUrl": "https://www.casio.com/us/moflin/",
+          "sourceImageUrl": "https://www.casio.com/content/casio/locales/us/en/products/moflin/_jcr_content/root/responsivegrid/container/container_847828903_/container/container/container_2004498952/container/container/container/image.casiocoreimg.png/1791229549458/always-bg-01.png",
+          "caption": "Moflin 官方触摸互动场景参考",
+          "alt": "Moflin 官方触摸互动场景参考",
+          "credit": "CASIO · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 209325,
+          "sha256": "22ed15ebc73a5d9260937f1c6bed42b6db68322a157c57c1c185e1feab19d8d9"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/casio-moflin/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Moflin 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/casio-moflin.txt",
+          "referencePaths": [
+            "assets/hardware/casio-moflin/product.png",
+            "assets/hardware/casio-moflin/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1893694,
+          "sha256": "e08ddc2b54350e6f2885d65363af0fb84c06bc3503426269222b2b534287acdd"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+        "主图为银色型号，参考图为同系列触摸场景；未将颜色差异解读为型号差异。"
+      ]
     },
     {
       "id": "eilik-ai-station",
@@ -3142,7 +4532,55 @@
           "note": "基础触碰互动与另购AI Station的边界有明确说明。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/eilik-ai-station/product.jpg",
+          "sourceUrl": "https://store.energizelab.com/products/ai-station",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0601/5349/5720/files/aistatin-main-blue.jpg?v=1764326651",
+          "caption": "Eilik 与 AI Station 组合官方产品图",
+          "alt": "Eilik 与 AI Station 组合官方产品图",
+          "credit": "EnergizeLab · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 90570,
+          "sha256": "4212b1e5cf06c3fa2458e00e880ff0f7257dc6342c60b60466fa2317421c1104"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/eilik-ai-station/reference.jpg",
+          "sourceUrl": "https://store.energizelab.com/products/ai-station",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0601/5349/5720/files/aistation-main.jpg?v=1764326651",
+          "caption": "AI Station 底座官方参考图（Eilik本体另售）",
+          "alt": "AI Station 底座官方参考图（Eilik本体另售）",
+          "credit": "EnergizeLab · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 66927,
+          "sha256": "d3b3a2bbe6a1909ebc1763c2c69d43de0f95e8e74972964f1e70269ae53df909"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/eilik-ai-station/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Eilik + AI Station 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/eilik-ai-station.txt",
+          "referencePaths": [
+            "assets/hardware/eilik-ai-station/product.jpg",
+            "assets/hardware/eilik-ai-station/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1351872,
+          "sha256": "98fa6d7079b74bca389b8833981724705146fcaa744b39be40898ad58c44c2b5"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+        "主图明确展示机器人与另购AI Station组合；参考图只展示底座。"
+      ]
     },
     {
       "id": "lovot-3",
@@ -3245,7 +4683,54 @@
           "note": "明确日本版在中国大陆不能使用，并链接中国规格渠道。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/lovot-3/product.webp",
+          "sourceUrl": "https://lovot.life/pricing",
+          "sourceImageUrl": "https://lovot.life/_nuxt/lovot_3.Btat68zG.webp",
+          "caption": "LOVOT 3.0 官方产品与充电座图",
+          "alt": "LOVOT 3.0 官方产品与充电座图",
+          "credit": "GROOVE X · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 7784,
+          "sha256": "40058aaeed20943a60b0ee06bc96acefe6dbea1c296a090dc030570e67d7df2b"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/lovot-3/reference.webp",
+          "sourceUrl": "https://lovot.life/lovot-3/",
+          "sourceImageUrl": "https://lovot.life/_nuxt/kv_sp.DjMHhOQ1.webp",
+          "caption": "LOVOT 3.0 官方拥抱场景参考",
+          "alt": "LOVOT 3.0 官方拥抱场景参考",
+          "credit": "GROOVE X · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 32880,
+          "sha256": "d6f5d6fdc0a3e50ac75b4325c7a69967b036c547acf1ae83379fd5deca2e69fd"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/lovot-3/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "LOVOT 3.0 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/lovot-3.txt",
+          "referencePaths": [
+            "assets/hardware/lovot-3/product.webp",
+            "assets/hardware/lovot-3/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1636419,
+          "sha256": "861ebf9c9ad81ce7495511fbb8a086a6a89ed8746d4979b02dd7126044517f41"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "loona-petbot",
@@ -3341,7 +4826,54 @@
           "note": "官网同时列Petbot与Deskmate，本记录仅研究Petbot。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/loona-petbot/product.png",
+          "sourceUrl": "https://keyirobot.com/products/petbot",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0750/4170/2077/files/gallery-loona-petbot-premium-1-v2.webp?v=1780474015&width=1200",
+          "caption": "Loona Petbot Premium 官方动作产品图",
+          "alt": "Loona Petbot Premium 官方动作产品图",
+          "credit": "KEYI Tech · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 211946,
+          "sha256": "a98ba0634ec08a0f9ff39a54edba42a42b2a947be804ab76780665368e03b854"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/loona-petbot/reference.png",
+          "sourceUrl": "https://keyirobot.com/products/petbot",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0750/4170/2077/files/gallery-loona-petbot-premium-2-v2.webp?v=1780474015&width=1200",
+          "caption": "Loona Petbot Premium 官方侧前方参考",
+          "alt": "Loona Petbot Premium 官方侧前方参考",
+          "credit": "KEYI Tech · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 188262,
+          "sha256": "0f574da059deeb88b9927102b204126b750f93e6cf9242621790d3ae9b0ea6ab"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/loona-petbot/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Loona Petbot Premium 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/loona-petbot.txt",
+          "referencePaths": [
+            "assets/hardware/loona-petbot/product.png",
+            "assets/hardware/loona-petbot/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1476209,
+          "sha256": "d68c964c0db9a4b204dab8d33b6007250a7df47554f9bc7968617711e049fe12"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "livingai-emo",
@@ -3432,7 +4964,54 @@
           "note": "网页中的开发中功能不计入已交付能力。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/livingai-emo/product.jpg",
+          "sourceUrl": "https://living.ai/product/emo/",
+          "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2020/12/product1-2.jpg?fit=2000%2C2000&quality=89&ssl=1",
+          "caption": "EMO 标准款官方正面产品图",
+          "alt": "EMO 标准款官方正面产品图",
+          "credit": "LivingAI · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 494595,
+          "sha256": "9ac8d6847e71025e7026f4632b81361ef57b4a9754660a8040f085f2622e57e6"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/livingai-emo/reference.jpg",
+          "sourceUrl": "https://living.ai/product/emo/",
+          "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2025/04/2026010606.jpg?fit=2000%2C2000&quality=89&ssl=1",
+          "caption": "EMO 官方套装与配件参考图",
+          "alt": "EMO 官方套装与配件参考图",
+          "credit": "LivingAI · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 95785,
+          "sha256": "a393209d2211cf296b5f292a650572bf01bcc7425a5da7eed0b8e4432018f400"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/livingai-emo/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "EMO 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/livingai-emo.txt",
+          "referencePaths": [
+            "assets/hardware/livingai-emo/product.jpg",
+            "assets/hardware/livingai-emo/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1433188,
+          "sha256": "030320e8bc5827fb396cd8199fbac1f6987dda91790c28e1a8d4b2c3d3ed9ec0"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "sony-aibo-ers1000",
@@ -3531,7 +5110,55 @@
           "note": "2026-06-25公告库存售罄后结束日本销售，同时说明服务继续；不推断全球停产。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/sony-aibo-ers1000/product.jpg",
+          "sourceUrl": "https://us.aibo.com/",
+          "sourceImageUrl": "https://us.aibo.com/images/intro-mv-pc-0.jpg",
+          "caption": "aibo ERS-1000 官方生活场景图",
+          "alt": "aibo ERS-1000 官方生活场景图",
+          "credit": "Sony · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 439403,
+          "sha256": "135e9da2b192d78ceb7bcdba72b1e65545e1779b5b4d55ba814b0f5ce01183c4"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/sony-aibo-ers1000/reference.png",
+          "sourceUrl": "https://us.aibo.com/",
+          "sourceImageUrl": "https://us.aibo.com/share/images/feature/product-feature-0.png",
+          "caption": "aibo ERS-1000 官方背面参考",
+          "alt": "aibo ERS-1000 官方背面参考",
+          "credit": "Sony · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 66419,
+          "sha256": "fc9c69350228133a9b54405fb0464e42897d4b29dd458b795e276830e4e09e44"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/sony-aibo-ers1000/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "aibo ERS-1000 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/sony-aibo-ers1000.txt",
+          "referencePaths": [
+            "assets/hardware/sony-aibo-ers1000/product.jpg",
+            "assets/hardware/sony-aibo-ers1000/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1520931,
+          "sha256": "e198270aba4d0d2f922db7f24195579611aa17285e7e9d540b07fce5ce25de96"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+        "参考图保留官网提供的284×422原始分辨率，没有人工放大。"
+      ]
     },
     {
       "id": "luka-reading-robot",
@@ -3618,7 +5245,54 @@
           "note": "列购买入口、1–3天发货、四语及VIP条件；功能按官方说明记录，未实测书目覆盖。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/luka-reading-robot/product.png",
+          "sourceUrl": "https://luka.world/products/luka-reading-robot",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0642/2426/4277/files/Luka_95978182-d73a-49e8-bd7a-84db710be340.png?v=1776998127&width=3840",
+          "caption": "Luka Reading Robot 官方正面产品图",
+          "alt": "Luka Reading Robot 官方正面产品图",
+          "credit": "Luka · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 380239,
+          "sha256": "2c373e65bf109559818a277b74a691d2e74a6f4c4b4edc2f7c1e48bc5a3ffb3d"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/luka-reading-robot/reference.png",
+          "sourceUrl": "https://luka.world/products/luka-reading-robot",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0642/2426/4277/files/Luka_45_-2_8ba21f77-40b0-4c81-bd00-9919a784af30.png?v=1776998127&width=3840",
+          "caption": "Luka Reading Robot 官方侧前方参考",
+          "alt": "Luka Reading Robot 官方侧前方参考",
+          "credit": "Luka · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 353287,
+          "sha256": "452833ad118726dd4ca98b23a940a2b682566e7d943b11a00f57e489a0a4100a"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/luka-reading-robot/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Luka Kids Reading Robot 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/luka-reading-robot.txt",
+          "referencePaths": [
+            "assets/hardware/luka-reading-robot/product.png",
+            "assets/hardware/luka-reading-robot/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1455722,
+          "sha256": "d6387d78d164366625ef1271a23f8754f2a8a8535bc931ddc4df61207d989e65"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "miko-3",
@@ -3700,7 +5374,54 @@
           "note": "同页存在Sold out及加购文案，因此库存保守标待确认；技术和语言来自产品说明。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/miko-3/product.png",
+          "sourceUrl": "https://miko.ai/products/miko-3",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0685/0383/0762/files/miko-red_1_88c13e0f-d894-4ab1-a7a9-d85d83f6ddad.png?v=1763631213",
+          "caption": "Miko 3 红色官方正面产品图",
+          "alt": "Miko 3 红色官方正面产品图",
+          "credit": "Miko · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 541677,
+          "sha256": "9e420107202c46ef846c7b8953dd2cde2cba4f3cf32273dd147eb0636af81e5c"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/miko-3/reference.jpg",
+          "sourceUrl": "https://miko.ai/products/miko-3",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0685/0383/0762/files/Copy_of_M3-red-side_direct.webp?v=1763631213",
+          "caption": "Miko 3 红色官方侧面参考",
+          "alt": "Miko 3 红色官方侧面参考",
+          "credit": "Miko · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 18024,
+          "sha256": "cb623c1bc4b6b80614e052394b8b4344dc1c54c04ba92c336642967f44f19631"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/miko-3/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Miko 3 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/miko-3.txt",
+          "referencePaths": [
+            "assets/hardware/miko-3/product.png",
+            "assets/hardware/miko-3/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1479529,
+          "sha256": "94a9b039684d000f654d517fe6728471c9075771abfd734e1249a192db99e423"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+      ]
     },
     {
       "id": "iflytek-ebox-pro",
@@ -3810,7 +5531,55 @@
           "note": "已查看图像；营销效果描述未作为独立验证结果。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/iflytek-ebox-pro/product.webp",
+          "sourceUrl": "https://www.xunfei.cn/goods?goodsId=2345",
+          "sourceImageUrl": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro01.jpg?q=80&c=1&f=webp",
+          "caption": "讯飞 EBOX Pro 官方产品宣传图",
+          "alt": "讯飞 EBOX Pro 官方产品宣传图",
+          "credit": "科大讯飞 · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 66382,
+          "sha256": "0742aedb56dfa93ae546bf53d4fc7d12e7195a97410ceb7cc29f6d14a5f53fc9"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/iflytek-ebox-pro/reference.webp",
+          "sourceUrl": "https://www.xunfei.cn/goods?goodsId=2345",
+          "sourceImageUrl": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg?q=80&c=1&f=webp",
+          "caption": "讯飞 EBOX Pro 官方界面与使用参考",
+          "alt": "讯飞 EBOX Pro 官方界面与使用参考",
+          "credit": "科大讯飞 · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 68922,
+          "sha256": "1950a8fe8cdee4749e9d81d564e0ed892fab96f92285e6f4b028948d9a82c36b"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/iflytek-ebox-pro/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "讯飞AI英语宝 EBOX Pro 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/iflytek-ebox-pro.txt",
+          "referencePaths": [
+            "assets/hardware/iflytek-ebox-pro/product.webp",
+            "assets/hardware/iflytek-ebox-pro/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1526081,
+          "sha256": "e676315a1ab3d4ea72ed10eebf353f071dfb7bae24126e5e84f56644f66204bc"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+        "官方原图为含人物和文案的宣传图，未裁造独立实拍；营销描述不作为独立效果证据。"
+      ]
     },
     {
       "id": "iflytek-dictionary-x9-pro",
@@ -3916,7 +5685,55 @@
           "note": "已从官网打开并查看，写明星火+DeepSeek、查词与发音评测。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/iflytek-dictionary-x9-pro/product.webp",
+          "sourceUrl": "https://www.xunfei.cn/goods?goodsId=2383",
+          "sourceImageUrl": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2383-20260227/X9Pro_01.jpg?q=80&c=1&f=webp",
+          "caption": "讯飞 X9 Pro 官方产品宣传图",
+          "alt": "讯飞 X9 Pro 官方产品宣传图",
+          "credit": "科大讯飞 · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 71078,
+          "sha256": "cf2d394b993a2bf98ce305ddf8e07a97eef6c24c28748219746ff2541c5a0985"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/iflytek-dictionary-x9-pro/reference-package.jpg",
+          "sourceUrl": "https://www.xunfei.cn/goods?goodsId=2383",
+          "sourceImageUrl": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2383-20260227/X9pro_19.jpg",
+          "caption": "X9 Pro 官方包装套装与规格参考图（厂商资料）",
+          "alt": "X9 Pro 官方包装套装与规格参考图（厂商资料）",
+          "credit": "科大讯飞 · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 470365,
+          "sha256": "caad71c47a4f3d4236f1a6a8af33580b300bd290f43e3a4e7785c68efc947012"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/iflytek-dictionary-x9-pro/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "讯飞AI词典笔 X9 Pro 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/iflytek-dictionary-x9-pro.txt",
+          "referencePaths": [
+            "assets/hardware/iflytek-dictionary-x9-pro/product.webp",
+            "assets/hardware/iflytek-dictionary-x9-pro/reference-package.jpg"
+          ],
+          "verified": true,
+          "bytes": 1475260,
+          "sha256": "81f1f7e7036187d9cdc65fc93adafca176eb95714cf1fcb3655406892f35ad12"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+        "保留官方长幅产品图，未裁造实拍。第二张为官方包装套装与规格图；资质文字图片未收录。"
+      ]
     },
     {
       "id": "iflytek-t30-pro",
@@ -4012,7 +5829,55 @@
           "note": "2024-09官方产品介绍可支持能力，不作为2026实时库存证据。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/iflytek-t30-pro/product.webp",
+          "sourceUrl": "https://ly.xunfei.cn/goods/k8AuU6yWkvGx",
+          "sourceImageUrl": "https://img.xunfei.cn/lyoa/prod/ifly-mall-vip-service/business/ifly-mall-vip-service/business/private/202503251547004905.jpg?q=80&c=1&f=webp&o=2",
+          "caption": "讯飞 T30 Pro 官方产品宣传图",
+          "alt": "讯飞 T30 Pro 官方产品宣传图",
+          "credit": "科大讯飞 · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 62778,
+          "sha256": "623f062fe15d65c0f88e0cbb4a0eef90582443eaf3cf9ba2f1d17b9bde1ae71b"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/iflytek-t30-pro/reference.webp",
+          "sourceUrl": "https://ly.xunfei.cn/goods/k8AuU6yWkvGx",
+          "sourceImageUrl": "https://img.xunfei.cn/lyoa/prod/ifly-mall-vip-service/business/ifly-mall-vip-service/business/private/202503251547007834.jpg?q=80&c=1&f=webp&o=2",
+          "caption": "讯飞 T30 Pro 官方显示屏角度参考",
+          "alt": "讯飞 T30 Pro 官方显示屏角度参考",
+          "credit": "科大讯飞 · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 75982,
+          "sha256": "aef9d9954a2e1c5538a82fa84ba60f816c260373c7503ded86b8267a1be841bc"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/iflytek-t30-pro/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "讯飞AI学习机 T30 Pro 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/iflytek-t30-pro.txt",
+          "referencePaths": [
+            "assets/hardware/iflytek-t30-pro/product.webp",
+            "assets/hardware/iflytek-t30-pro/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1487669,
+          "sha256": "d1624a0eb396d693434262c6f6f6852e2dae5fc3ada0a901c85dcd9954ca6ed4"
+        }
+      ],
+      "mediaNotes": [
+        "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+        "保留官方宣传图原始文案与颜色；仅作为型号和外观参考，非本项目功效验证。"
+      ]
     },
     {
       "id": "google-nest-cam-battery",
@@ -4099,7 +5964,57 @@
           "note": "已打开；Buy、内置识别与会员差异均列明。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/google-nest-cam-battery/product.jpg",
+          "sourceUrl": "https://blog.google/products-and-platforms/devices/google-nest/11-things-love-about-new-nest-cam-and-doorbell/",
+          "sourceImageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Nest_Cam_battery_white_background.jpg",
+          "caption": "Google 官方历史发布图：Nest Cam 电池版外观",
+          "alt": "Google 官方历史发布图：Nest Cam 电池版外观",
+          "credit": "Google · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 1101922,
+          "sha256": "9d4101f46f8131f0ecbfa14f54ca5677e88cc1f2ee71c378a35aef07489d3d1e"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/google-nest-cam-battery/reference-web.webp",
+          "sourceUrl": "https://blog.google/products-and-platforms/devices/google-nest/11-things-love-about-new-nest-cam-and-doorbell/",
+          "sourceImageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Nest_Cam_battery_Outdoor_rain_16x.width-500.format-webp.webp",
+          "caption": "Google 官方历史场景图：Nest Cam 电池版室外雨天安装",
+          "alt": "Google 官方历史场景图：Nest Cam 电池版室外雨天安装",
+          "credit": "Google · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 5892,
+          "sha256": "28c078816ce8fd95c216180888419488f2e2f52dccf748668a48f5a7aca09d51"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/google-nest-cam-battery/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Google Nest Cam（电池版） AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/google-nest-cam-battery.txt",
+          "referencePaths": [
+            "assets/hardware/google-nest-cam-battery/product.jpg",
+            "assets/hardware/google-nest-cam-battery/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1501455,
+          "sha256": "5e520b9546becf05a392b363f73b924b4e6f3859fd7161e75b4de0366b62991b"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。",
+        "来自 Google 2021 年官方发布文章的同型号历史照片；图片本身不证明当前销售状态。",
+        "网页雨天参考图使用 Google 官方提供的 500px WebP 版本，未自行编辑图片；高分辨率原图保留为 AI 生成输入溯源。"
+      ]
     },
     {
       "id": "reolink-trackmix-wifi",
@@ -4192,7 +6107,55 @@
           "note": "已打开；本次返回 No Product Found，因此标注待复核。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/reolink-trackmix-wifi/product.png",
+          "sourceUrl": "https://reolink.com/us/product/reolink-trackmix-wifi/",
+          "sourceImageUrl": "https://home-cdn.reolink.us/wp-content/uploads/2022/06/280627421656397662.0035.png",
+          "caption": "官方商品图：TrackMix WiFi 双镜头云台机身",
+          "alt": "官方商品图：TrackMix WiFi 双镜头云台机身",
+          "credit": "Reolink · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 78049,
+          "sha256": "dc582fb6903a637d4c85f55578555761c7b36472ac1a6c5cb65340690b19bc66"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/reolink-trackmix-wifi/reference.jpg",
+          "sourceUrl": "https://reolink.com/us/product/reolink-trackmix-wifi/",
+          "sourceImageUrl": "https://home-cdn.reolink.us/wp-content/assets/trackmix-wifi-specs-2.jpg",
+          "caption": "官方底部与接口标注图，非拆机图",
+          "alt": "官方底部与接口标注图，非拆机图",
+          "credit": "Reolink · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 49842,
+          "sha256": "3220623aea15e7655ca1eb728cbc088b97cc5b958b4e3bbc3ccdb7e6686f90e9"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/reolink-trackmix-wifi/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Reolink TrackMix WiFi AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/reolink-trackmix-wifi.txt",
+          "referencePaths": [
+            "assets/hardware/reolink-trackmix-wifi/product.png",
+            "assets/hardware/reolink-trackmix-wifi/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1496999,
+          "sha256": "e4635916c09f58f9bd9d9c7b493146d0c421b4b842fd32c6eb769e25526efc4b"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "ring-wired-doorbell-4k-pro",
@@ -4289,7 +6252,55 @@
           "note": "已打开；说明部分机型、美国/加拿大英语和订阅条件，不能泛化为所有地区。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/ring-wired-doorbell-4k-pro/product.jpg",
+          "sourceUrl": "https://ring.com/products/wired-doorbell-pro",
+          "sourceImageUrl": "https://images.ctfassets.net/a3peezndovsu/3gjfLsAnG7SwdB6Z5oA2sD/282c8d4a9582f349c92cdd4236dd828b/ring_wired_doorbell_pro_4k_1500x1500__1_.jpg",
+          "caption": "官方商品图：Wired Doorbell 4K Pro 深银色外观",
+          "alt": "官方商品图：Wired Doorbell 4K Pro 深银色外观",
+          "credit": "Ring · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 69978,
+          "sha256": "308da99d9c102c14bee6c0204ae879286d4839d4d985e8a151363863b81887e9"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/ring-wired-doorbell-4k-pro/reference.jpg",
+          "sourceUrl": "https://ring.com/products/wired-doorbell-pro",
+          "sourceImageUrl": "https://images.ctfassets.net/a3peezndovsu/4js315WXCQv1XF4U4OiHQ3/78e40555200ff6dab5302b3408b1da33/ring_wired_doorbell_pro_4k_front_door_outlined_1500x1500.jpg",
+          "caption": "官方安装场景：4K Pro 与门框、门锁的尺寸关系",
+          "alt": "官方安装场景：4K Pro 与门框、门锁的尺寸关系",
+          "credit": "Ring · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 163930,
+          "sha256": "8bb54f8b318a7e01d32663556687a23b5b9e575a67db4a46a5fe4c2dea0b8808"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/ring-wired-doorbell-4k-pro/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Ring Wired Doorbell 4K Pro AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/ring-wired-doorbell-4k-pro.txt",
+          "referencePaths": [
+            "assets/hardware/ring-wired-doorbell-4k-pro/product.jpg",
+            "assets/hardware/ring-wired-doorbell-4k-pro/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1650081,
+          "sha256": "79f13e31eaa743e75ff0f33a01a1963053d5a7f3821c368ad7724419533cfd2d"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "dreame-x50-ultra",
@@ -4375,7 +6386,55 @@
           "note": "已打开并定位购物按钮和 AI RGB / 3D structured light 说明；参数为厂商声明。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/dreame-x50-ultra/product.jpg",
+          "sourceUrl": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0553/1320/3405/files/X50-W_1.webp?v=1767170718&width=1200",
+          "caption": "官方商品图：X50 Ultra 白色主机与基站",
+          "alt": "官方商品图：X50 Ultra 白色主机与基站",
+          "credit": "Dreame · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 57996,
+          "sha256": "c9177f11e2618ee246ac447ea6cd676ee94dbdecd8dd43343e9d892191ed6514"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/dreame-x50-ultra/reference.jpg",
+          "sourceUrl": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0553/1320/3405/files/2-ProLeapSystem6cm_08c02e40-02e4-49ce-87fe-0ebe0776dfaa.jpg?v=1772789393&width=1200",
+          "caption": "官方越障机构与门槛条件示意，性能数字为厂商声明",
+          "alt": "官方越障机构与门槛条件示意，性能数字为厂商声明",
+          "credit": "Dreame · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 184807,
+          "sha256": "b6e46ad6bb128432ea5f6fe85daa0c2ac0a9cfd78aeca077f0a036398fb79899"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/dreame-x50-ultra/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Dreame X50 Ultra AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/dreame-x50-ultra.txt",
+          "referencePaths": [
+            "assets/hardware/dreame-x50-ultra/product.jpg",
+            "assets/hardware/dreame-x50-ultra/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1491846,
+          "sha256": "373ca0a7fc96c5616ba375333016ed022c5cb20e101df799ebf72c66a825b6b0"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "narwal-flow-2",
@@ -4461,7 +6520,56 @@
           "note": "已打开；基础基站版本可购买，双摄与 FlowWash 说明来自厂商。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/narwal-flow-2/product.png",
+          "sourceUrl": "https://us.narwal.com/products/flow-2-robot-vacuum-and-mop",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/6200/3893/files/X30_____03_2.png?v=1784170331&width=1200",
+          "caption": "官方商品图：Flow 2 白色版与清洁模组展示",
+          "alt": "官方商品图：Flow 2 白色版与清洁模组展示",
+          "credit": "Narwal · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 539819,
+          "sha256": "c95428b6773752be68503ffc656067e9d3ea4e770266546778b2cb38b3706cdb"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/narwal-flow-2/reference.jpg",
+          "sourceUrl": "https://us.narwal.com/products/flow-2-robot-vacuum-and-mop",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/6200/3893/files/X30___App_01.jpg?v=1776109876&width=1200",
+          "caption": "官方参考图：Flow 2 黑色版、履带拖布与 App 展示",
+          "alt": "官方参考图：Flow 2 黑色版、履带拖布与 App 展示",
+          "credit": "Narwal · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 56995,
+          "sha256": "a359c5bce2f5d648837c1d896f0e222b69b4358efc9a1a365ead306d64df5751"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/narwal-flow-2/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Narwal Flow 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/narwal-flow-2.txt",
+          "referencePaths": [
+            "assets/hardware/narwal-flow-2/product.png",
+            "assets/hardware/narwal-flow-2/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1667581,
+          "sha256": "c3c3fb5433aec492e9521e8930205242fb4b49e08c5de84499f7d07bb275b3b9"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。",
+        "两图分别为官方白色与黑色版本，均为 Flow 2，不将颜色不同当作不同产品。"
+      ]
     },
     {
       "id": "roborock-saros-10r",
@@ -4565,7 +6673,55 @@
           "note": "已打开；说明 StarSight 和 SmartPlan。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/roborock-saros-10r/product.png",
+          "sourceUrl": "https://ro.roborock.com/products/roborock-saros-10r",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0708/9324/0540/files/1_d7693e94-a754-4fe5-93b7-bd0a0ede3f8e.png?v=1756179244&width=1200",
+          "caption": "官方商品图：Saros 10R 主机与维护基站",
+          "alt": "官方商品图：Saros 10R 主机与维护基站",
+          "credit": "Roborock · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 722993,
+          "sha256": "e4b62907bef496bfee6c5be0637c476152d7f58c8064c97f5dc3ab98bb2dbc73"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/roborock-saros-10r/reference.png",
+          "sourceUrl": "https://ro.roborock.com/products/roborock-saros-10r",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0708/9324/0540/files/2_f799eb4f-e814-4cab-ad14-05d1443c7d4c.png?v=1756179244&width=1200",
+          "caption": "官方 StarSight 避障与低矮机身示意（罗马尼亚语营销图，非独立实测）",
+          "alt": "官方 StarSight 避障与低矮机身示意（罗马尼亚语营销图，非独立实测）",
+          "credit": "Roborock · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 1786000,
+          "sha256": "1778963412e01ed42a1ca0ee94d1ea757930b4a48868cc82c421042b79e0b4bf"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/roborock-saros-10r/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Roborock Saros 10R AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/roborock-saros-10r.txt",
+          "referencePaths": [
+            "assets/hardware/roborock-saros-10r/product.png",
+            "assets/hardware/roborock-saros-10r/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1687874,
+          "sha256": "06d7737b855e9bde095e7b6971d7bfe76674e33e768f67f57e3b207f0eb9bd6a"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "birdbuddy-nook-solar",
@@ -4661,7 +6817,55 @@
           "note": "已打开；Nook Solar 列价并提供购买入口。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/birdbuddy-nook-solar/product.webp",
+          "sourceUrl": "https://mybirdbuddy.com/product/birdbuddy-nook-solar/",
+          "sourceImageUrl": "https://mybirdbuddy.com/wp-content/uploads/2026/10/nook-solar-product.webp",
+          "caption": "官方商品图：Nook Solar 机身与太阳能顶板",
+          "alt": "官方商品图：Nook Solar 机身与太阳能顶板",
+          "credit": "Birdbuddy · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 32404,
+          "sha256": "524c499c167f11cbf64a37b61c6bef0db2123b5d2d071ef9da256332758b7694"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/birdbuddy-nook-solar/reference.webp",
+          "sourceUrl": "https://mybirdbuddy.com/product/birdbuddy-nook-solar/",
+          "sourceImageUrl": "https://mybirdbuddy.com/wp-content/uploads/2026/10/nook-solar-hero.webp",
+          "caption": "官方场景图：Nook Solar 屋顶、镜头与访鸟位置",
+          "alt": "官方场景图：Nook Solar 屋顶、镜头与访鸟位置",
+          "credit": "Birdbuddy · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 149968,
+          "sha256": "605e8644d20c16b5cfb4aac68ae4423107ca1bc21a82ebf2d36d60d881d86715"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/birdbuddy-nook-solar/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Birdbuddy Nook Solar AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/birdbuddy-nook-solar.txt",
+          "referencePaths": [
+            "assets/hardware/birdbuddy-nook-solar/product.webp",
+            "assets/hardware/birdbuddy-nook-solar/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1545036,
+          "sha256": "d759d3671494c01bdb2a21307de75367cb63ab36196aac1b24fae64019f40475"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "mammotion-luba-3-awd",
@@ -4746,7 +6950,55 @@
           "note": "已打开；不同规格出现购物入口与缺货信息，故谨慎列待复核。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/mammotion-luba-3-awd/product.png",
+          "sourceUrl": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_3_right_side_view.png?v=1790136395&width=1200",
+          "caption": "官方商品图：LUBA 3 AWD 主机斜视",
+          "alt": "官方商品图：LUBA 3 AWD 主机斜视",
+          "credit": "Mammotion · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 350795,
+          "sha256": "83072650ee3f4f51c4b3eadf9f8c004d73ccca3d1b439c589ba32823158c4c20"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/mammotion-luba-3-awd/reference.png",
+          "sourceUrl": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_3_bottom_view.png?v=1790136395&width=1200",
+          "caption": "官方底部视图：双刀盘、轮组与机身底盘，非爆炸图",
+          "alt": "官方底部视图：双刀盘、轮组与机身底盘，非爆炸图",
+          "credit": "Mammotion · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 646597,
+          "sha256": "212f1f82db73d5b1379d5461c09c4489c4b687c2b2c4768951822d147ef7e180"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/mammotion-luba-3-awd/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Mammotion LUBA 3 AWD AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/mammotion-luba-3-awd.txt",
+          "referencePaths": [
+            "assets/hardware/mammotion-luba-3-awd/product.png",
+            "assets/hardware/mammotion-luba-3-awd/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1891304,
+          "sha256": "f7130e320a331eb78a7bc2c732dcc5eaf7fe3197ec12e78e15a6115c131f2b93"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "segway-navimow-i105",
@@ -4841,7 +7093,55 @@
           "note": "已查看；页面显示 Sold Out，地区情况不同。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/segway-navimow-i105/product.png",
+          "sourceUrl": "https://navimow.com/products/navimow-i105",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0676/6896/7561/files/Nav_Bar_i105.png?v=1766745896",
+          "caption": "官方商品图：Navimow i105 斜前视角",
+          "alt": "官方商品图：Navimow i105 斜前视角",
+          "credit": "Segway Navimow · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 904153,
+          "sha256": "25ccbe12938bb94dc07fcf110300cd6afbe596433af9bd84b75088c3fc449a61"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/segway-navimow-i105/reference.png",
+          "sourceUrl": "https://navimow.com/products/navimow-i105",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0676/6896/7561/files/i105-square-top_427d4620-5a60-4b13-b41f-a9c52ab13dfa.png?v=1766745896&width=1200",
+          "caption": "官方参考图：i105 俯视，可见控制区与前部视觉模组",
+          "alt": "官方参考图：i105 俯视，可见控制区与前部视觉模组",
+          "credit": "Segway Navimow · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 577728,
+          "sha256": "66b7c8001786b68b577d84ee3d3995d7166c6138d5560abc5216f7b4539f895a"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/segway-navimow-i105/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Segway Navimow i105 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/segway-navimow-i105.txt",
+          "referencePaths": [
+            "assets/hardware/segway-navimow-i105/product.png",
+            "assets/hardware/segway-navimow-i105/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1847533,
+          "sha256": "3a7a8f1533f93c638e46f7d1b1a41eb151aa207243114ee892ae98854d967dd4"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "brisk-it-zelos-450",
@@ -4928,7 +7228,55 @@
           "note": "已打开；列库存、购物入口、AI 生成食谱和订阅提示，自动烹饪效果为厂商声明。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/brisk-it-zelos-450/product.png",
+          "sourceUrl": "https://briskit.ai/products/brisk-it-zelos-450-a-i-powered-and-wifi-grill",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0568/4271/5314/files/briskit-zelos450-black-front-1445x1445.png?v=1787731679&width=1200",
+          "caption": "官方商品图：Zelos-450 烧烤炉正面",
+          "alt": "官方商品图：Zelos-450 烧烤炉正面",
+          "credit": "Brisk It · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 999222,
+          "sha256": "cbebfa5c25353672fc7ededd64cc77d14e42ebe5e9377754530182aa5f6c956c"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/brisk-it-zelos-450/reference.png",
+          "sourceUrl": "https://briskit.ai/products/brisk-it-zelos-450-a-i-powered-and-wifi-grill",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0568/4271/5314/files/ZELOS_BACK_RESIZE_V1.png?v=1776118186&width=1200",
+          "caption": "官方后视参考：Zelos-450 炉体、支腿与料仓",
+          "alt": "官方后视参考：Zelos-450 炉体、支腿与料仓",
+          "credit": "Brisk It · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 52320,
+          "sha256": "ca8563c8d2ec8045e9517681cefe8776ed892f0490155873010dc645055b6d56"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/brisk-it-zelos-450/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Brisk It Zelos-450 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/brisk-it-zelos-450.txt",
+          "referencePaths": [
+            "assets/hardware/brisk-it-zelos-450/product.png",
+            "assets/hardware/brisk-it-zelos-450/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1512555,
+          "sha256": "a6873589ee2313404a2267f082f151161b655a089c981859361ece78a9604510"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "brisk-it-neoma-oven",
@@ -5015,7 +7363,55 @@
           "note": "已打开；库存、购物入口、AI 餐单和订阅提示明确。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/brisk-it-neoma-oven/product.jpg",
+          "sourceUrl": "https://briskit.ai/products/neomaoven",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0568/4271/5314/files/cream_background_1.jpg?v=1788854608&width=1200",
+          "caption": "官方商品图：Neoma 烤箱、面板与配套 App",
+          "alt": "官方商品图：Neoma 烤箱、面板与配套 App",
+          "credit": "Brisk It · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 83579,
+          "sha256": "b3540b342d4676c50a9d80c7b4b66c3b47c298c2525c532bd78f8a67e68c8a9b"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/brisk-it-neoma-oven/reference.png",
+          "sourceUrl": "https://briskit.ai/products/neomaoven",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0568/4271/5314/files/briskit-neomaopenracks-1445x1445.png?v=1787879697&width=1200",
+          "caption": "官方开门场景：Neoma 烤架与食物放取路径",
+          "alt": "官方开门场景：Neoma 烤架与食物放取路径",
+          "credit": "Brisk It · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 2309692,
+          "sha256": "6ffc6eb1a1c1441a893dee31bca1d6eaec7412d7804d6eb793d1103215a429a2"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/brisk-it-neoma-oven/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Brisk It Neoma AI Oven AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/brisk-it-neoma-oven.txt",
+          "referencePaths": [
+            "assets/hardware/brisk-it-neoma-oven/product.jpg",
+            "assets/hardware/brisk-it-neoma-oven/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1666278,
+          "sha256": "fd6513bf05e66744623c94e67eb9703097398a60da5fc39943d08c3366e4020e"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "insta360-link-2",
@@ -5122,7 +7518,55 @@
           "note": "官方指南说明与电脑连接方式，不等同手机 App 摄像机。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/insta360-link-2/product.png",
+          "sourceUrl": "https://store.insta360.com/cn/product/link-2",
+          "sourceImageUrl": "https://res.insta360.com/dynamic/store/ba50458073ace427f278f8bf4bf52a93/2300_313f0fea-379b-42d7-ba3a-4e1319790080.png",
+          "caption": "官方商品图：带云台的 Insta360 Link 2（非 Link 2C）",
+          "alt": "官方商品图：带云台的 Insta360 Link 2（非 Link 2C）",
+          "credit": "Insta360 · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 566313,
+          "sha256": "8011063a16ee6f656174a4b54db68c3bc6ae312407bd5f713707f777cda7f482"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/insta360-link-2/reference.jpg",
+          "sourceUrl": "https://store.insta360.com/cn/product/link-2",
+          "sourceImageUrl": "https://res.insta360.com/dynamic/store/f650b90c419de4ae6447bd55913e1437/353_cce7ce43-baf6-46c0-8466-cf5315d064b5.jpg",
+          "caption": "官方标准套餐与桌面授课场景，配件以实际套餐为准",
+          "alt": "官方标准套餐与桌面授课场景，配件以实际套餐为准",
+          "credit": "Insta360 · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 148066,
+          "sha256": "015664cc2106abeb578e2d9f1e57e71e70b262896429e49d7cebc4fee6bc26e9"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/insta360-link-2/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Insta360 Link 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/insta360-link-2.txt",
+          "referencePaths": [
+            "assets/hardware/insta360-link-2/product.png",
+            "assets/hardware/insta360-link-2/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1585159,
+          "sha256": "8361f2b42398d06e885bc4ad2b643c01dbae03c19af626a7686358c68d61418c"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "obsbot-tiny-2",
@@ -5218,7 +7662,55 @@
           "note": "已查阅官方规格，图像传感器和视频格式来自厂商。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/obsbot-tiny-2/product.png",
+          "sourceUrl": "https://www.obsbot.com/store/products/tiny-2",
+          "sourceImageUrl": "https://resource-cdn.obsbothk.com/product_system_back/product_img/7af5859692f345bcb703.png",
+          "caption": "官方商品图：Tiny 2 云台摄像头",
+          "alt": "官方商品图：Tiny 2 云台摄像头",
+          "credit": "OBSBOT · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 565718,
+          "sha256": "ff9d721fcb80cbab2e9b4238e347e21c0724e92475f7669e2cbfaa60c35ac2e8"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/obsbot-tiny-2/reference.jpg",
+          "sourceUrl": "https://www.obsbot.com/store/products/tiny-2",
+          "sourceImageUrl": "https://resource-cdn.obsbothk.com/product_system_back/product_img/e837df94db4b45068537.jpg",
+          "caption": "官方 AI 追踪与自动变焦场景示意，非效果实测",
+          "alt": "官方 AI 追踪与自动变焦场景示意，非效果实测",
+          "credit": "OBSBOT · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 379972,
+          "sha256": "1cae7e08a57bd3b167697538cbf92dc689eb82444b30213c00a9c99f85c5a760"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/obsbot-tiny-2/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "OBSBOT Tiny 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/obsbot-tiny-2.txt",
+          "referencePaths": [
+            "assets/hardware/obsbot-tiny-2/product.png",
+            "assets/hardware/obsbot-tiny-2/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1510078,
+          "sha256": "e5d4bdc0040a630203940279b7f608099b69940bdb7a44de48f7a242ff0e94fa"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "obsbot-tail-air",
@@ -5313,7 +7805,55 @@
           "note": "已查阅；Tail Air 列价并提供 Buy Now。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/obsbot-tail-air/product.png",
+          "sourceUrl": "https://www.obsbot.com/store/products/obsbot-tail-air",
+          "sourceImageUrl": "https://resource-cdn.obsbothk.com/product_system_back/product_img/7b10e5d218274c61b743.png",
+          "caption": "官方商品图：Tail Air 直播云台相机",
+          "alt": "官方商品图：Tail Air 直播云台相机",
+          "credit": "OBSBOT · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 929908,
+          "sha256": "b4f222ae973790404a72a55f9dbacc69fcdb4c10540a75e53e9f2d78c63b8547"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/obsbot-tail-air/reference.jpg",
+          "sourceUrl": "https://www.obsbot.com/store/products/obsbot-tail-air",
+          "sourceImageUrl": "https://resource-cdn.obsbothk.com/product_system_back/product_img/04_3x_d038e22de205.jpg",
+          "caption": "官方接线场景：Tail Air 背部、连接线与外部设备",
+          "alt": "官方接线场景：Tail Air 背部、连接线与外部设备",
+          "credit": "OBSBOT · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 387924,
+          "sha256": "2c329665dc843fbc62b58ff9204ec6cd3c8a6ef34d52639f2c0f5f60dc054ad8"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/obsbot-tail-air/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "OBSBOT Tail Air AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/obsbot-tail-air.txt",
+          "referencePaths": [
+            "assets/hardware/obsbot-tail-air/product.png",
+            "assets/hardware/obsbot-tail-air/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1460799,
+          "sha256": "0b1807bf112004bd83819969f0973bef734b11372ecf6d56a9f5b1f7145eb8ce"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "swarovski-ax-visio",
@@ -5419,7 +7959,55 @@
           "note": "已打开；说明API可访问显示、传感器、相机图像与视频流。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/swarovski-ax-visio/product.webp",
+          "sourceUrl": "https://www.swarovskioptik.com/at/en/hunting/products/binoculars/ax-visio/ax-visio-binoculars/ax-visio",
+          "sourceImageUrl": "https://images.ctfassets.net/pvkenuwtinkd/2YYaGRLtftfDbYKZeaJVaK/8ba524433607c2db08f73af3b0028a65/K22_AX_Visio_04_Top_Frontal_13_RGB.png?fm=webp&q=80&w=1000",
+          "caption": "官方商品图：AX Visio 10×32 正面外形",
+          "alt": "官方商品图：AX Visio 10×32 正面外形",
+          "credit": "SWAROVSKI OPTIK · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 21556,
+          "sha256": "e2ed6382d871df8ced31eee9e37539b1801fef5ecedb870a6b5249fc9bb75759"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/swarovski-ax-visio/reference.webp",
+          "sourceUrl": "https://www.swarovskioptik.com/at/en/hunting/products/binoculars/ax-visio/ax-visio-binoculars/ax-visio",
+          "sourceImageUrl": "https://images.ctfassets.net/pvkenuwtinkd/17DDDxBk6P47krxqayy77D/7249349b19f22cd366bbef33469ee15c/K22_AX_Visio_10_Backside_Top_13_RGB.png?fm=webp&q=80&w=1000",
+          "caption": "官方参考图：AX Visio 目镜侧与控制区",
+          "alt": "官方参考图：AX Visio 目镜侧与控制区",
+          "credit": "SWAROVSKI OPTIK · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 38390,
+          "sha256": "8853e879db456197d7a63f1d2d447c802052cd7fa95c20886b36b18297a2bc16"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/swarovski-ax-visio/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "SWAROVSKI OPTIK AX Visio 10×32 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/swarovski-ax-visio.txt",
+          "referencePaths": [
+            "assets/hardware/swarovski-ax-visio/product.webp",
+            "assets/hardware/swarovski-ax-visio/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1728869,
+          "sha256": "cb9e15fd56258b20c6908fda21496f85e8750a17117942838db1c71deff68ffe"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+      ]
     },
     {
       "id": "reachy-mini-wireless",
@@ -5532,7 +8120,52 @@
         "url": "https://pollen-robotics.com/assets/build/reachy-mini-plate.webp",
         "caption": "Reachy Mini 官方装配部件示意（版权归原权利人）",
         "sourceUrl": "https://pollen-robotics.com/reachy-mini/"
-      }
+      },
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/reachy-mini-wireless/product.webp",
+          "sourceUrl": "https://pollen-robotics.com/reachy-mini/",
+          "sourceImageUrl": "https://pollen-robotics.com/assets/talk/reachy-3d-still-facing-right.webp",
+          "caption": "Reachy Mini 官方产品外观图",
+          "alt": "白色 Reachy Mini Wireless 桌面机器人正面偏侧视图",
+          "credit": "Pollen Robotics / Hugging Face",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 45476,
+          "sha256": "a7fce4fd0862ac71f1b3605bac7c725422be6ae45a4099245d29a2783ed140e5"
+        },
+        {
+          "kind": "official-structure",
+          "path": "assets/hardware/reachy-mini-wireless/reference.webp",
+          "sourceUrl": "https://pollen-robotics.com/reachy-mini/",
+          "sourceImageUrl": "https://pollen-robotics.com/assets/build/reachy-mini-plate.webp",
+          "caption": "官方装配部件参考图",
+          "alt": "Reachy Mini 天线、头部、机身、关节、电机与底座官方分解示意",
+          "credit": "Pollen Robotics / Hugging Face",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 30904,
+          "sha256": "ba58519e0e4ef2f21a33cdf7197897c8f9e3dba19d29bbf134c029c5a9313d08"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/reachy-mini-wireless/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Reachy Mini 的AI生成爆炸示意，展示头部、音视频、关节、计算和供电的概念关系",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/reachy-mini-wireless.txt",
+          "referencePaths": [
+            "assets/hardware/reachy-mini-wireless/product.webp",
+            "assets/hardware/reachy-mini-wireless/reference.webp"
+          ],
+          "verified": true,
+          "bytes": 1194653,
+          "sha256": "4bbdd1a095cefa04e8163397281e6e015b7a301881d746ce10abdd9bf1421b65"
+        }
+      ],
+      "mediaNotes": []
     },
     {
       "id": "unitree-g1",
@@ -5628,7 +8261,52 @@
           "note": "区分 G1 与 EDU 的关节、计算及配置。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/unitree-g1/product.jpg",
+          "sourceUrl": "https://shop.unitree.com/products/unitree-g1",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0620/4932/1193/files/2_3769ceea-b323-4ebc-a1f4-e27a9624706b.jpg?v=1717575246",
+          "caption": "官方产品主图",
+          "alt": "官方产品主图",
+          "credit": "Unitree 宇树",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 30819,
+          "sha256": "0817978a3fc2b266907991f9db1cdfc377ceb7d3e2ccbb96ed179b1342135e5a"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/unitree-g1/reference.jpg",
+          "sourceUrl": "https://shop.unitree.com/products/unitree-g1",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0620/4932/1193/files/1_968fd08b-9aaf-4f32-b895-5c786285ee52.jpg?v=1717575256",
+          "caption": "官方产品角度 / 规格参考图",
+          "alt": "官方产品角度 / 规格参考图",
+          "credit": "Unitree 宇树",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 23208,
+          "sha256": "e5f2fdac8fe1c5d07049d105a4321b84b0b1ba4c079b358d8c98cd642dcd01d8"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/unitree-g1/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "unitree-g1 AI生成结构爆炸概念图，隐藏内部为功能推断",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/unitree-g1.txt",
+          "referencePaths": [
+            "assets/hardware/unitree-g1/product.jpg",
+            "assets/hardware/unitree-g1/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1675409,
+          "sha256": "82ff11be817a5eb206b92d89d0c3129f0f139ba0d14f0bd86fef3645feedf89a"
+        }
+      ],
+      "mediaNotes": []
     },
     {
       "id": "unitree-go2-pro",
@@ -5724,7 +8402,52 @@
           "note": "系列起价与各版本功能不等同于当前结算配置。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/unitree-go2-pro/product.png",
+          "sourceUrl": "https://shop.unitree.com/products/unitree-go2",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0620/4932/1193/files/df9f333424ff6cc6164ce421b019fb94_a6f832b0-479e-4294-ac75-6516208b91f4.png?v=1718274082",
+          "caption": "官方产品主图",
+          "alt": "官方产品主图",
+          "credit": "Unitree 宇树",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 238294,
+          "sha256": "17d01abe96da2f16f94cd8a71ad73447ab5de1d87fb7724ccd21276e6f5d70ff"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/unitree-go2-pro/reference.png",
+          "sourceUrl": "https://shop.unitree.com/products/unitree-go2",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0620/4932/1193/files/21.png?v=1718274083",
+          "caption": "官方产品角度 / 规格参考图",
+          "alt": "官方产品角度 / 规格参考图",
+          "credit": "Unitree 宇树",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 388552,
+          "sha256": "3b624dda46d3b6987cd61fa6ab9a8ebd7508a966edce86e5deab64e764666873"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/unitree-go2-pro/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "unitree-go2-pro AI生成结构爆炸概念图，隐藏内部为功能推断",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/unitree-go2-pro.txt",
+          "referencePaths": [
+            "assets/hardware/unitree-go2-pro/product.png",
+            "assets/hardware/unitree-go2-pro/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1720438,
+          "sha256": "204422519ce63a9843321aae70b16d83751422fe64d762710764eb5590cb856a"
+        }
+      ],
+      "mediaNotes": []
     },
     {
       "id": "creality-k2-plus-combo",
@@ -5818,7 +8541,57 @@
           "note": "已打开；明确AI监控/校准相机和LAN控制；云功能表述应按当前固件再核对。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/creality-k2-plus-combo/product.png",
+          "sourceUrl": "https://store.creality.com/products/creality-k2-plus-combo-3d-printer",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0893/0603/8637/files/output.lin.png?v=1762200442&width=1200",
+          "caption": "官方商品图：K2 Plus Combo 主机与顶部 CFS",
+          "alt": "官方商品图：K2 Plus Combo 主机与顶部 CFS",
+          "credit": "Creality · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 267866,
+          "sha256": "d25089bd9f3edd9a161ce4ad50af9db22b34ca69db64ff12184b8654627255b8"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/creality-k2-plus-combo/reference.png",
+          "sourceUrl": "https://store.creality.com/products/creality-k2-plus-combo-3d-printer",
+          "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0893/0603/8637/files/K2_plus_45_cfs.png?v=1766129203&width=1200",
+          "caption": "官方参考图：K2 Plus 主机侧视（未安装顶部 CFS）",
+          "alt": "官方参考图：K2 Plus 主机侧视（未安装顶部 CFS）",
+          "credit": "Creality · 官方图片",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 402586,
+          "sha256": "8ff5ddfebfcc1e55716e2b3cb37fe382fa06118d43c111320c7cd27556a4c10f"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/creality-k2-plus-combo/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "Creality K2 Plus Combo AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/creality-k2-plus-combo.txt",
+          "referencePaths": [
+            "assets/hardware/creality-k2-plus-combo/product.png",
+            "assets/hardware/creality-k2-plus-combo/reference.png"
+          ],
+          "verified": true,
+          "bytes": 1899803,
+          "sha256": "d32137f9c66ed83512947dbf80b03055c15c3d91279c7c5f387e70f19439b3cb"
+        }
+      ],
+      "mediaNotes": [
+        "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+        "经过一次定向修订：将相机安装位置改为抽象概念块，修订提示见 content/hardware/prompts/creality-k2-plus-combo-revision.txt。",
+        "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。",
+        "主图展示Combo；参考图展示同款K2 Plus主机，未显示顶部CFS，不代表基础套餐缺少CFS。"
+      ]
     },
     {
       "id": "jetson-orin-nano-super",
@@ -5924,7 +8697,52 @@
           "note": "较早宣传页价格与当前FAQ冲突，保留不确定性。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/jetson-orin-nano-super/product.jpg",
+          "sourceUrl": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/",
+          "sourceImageUrl": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/_images/jetson-orin-nano-super-developer-kit-hero.jpg",
+          "caption": "Jetson Orin Nano Super 开发套件官方图",
+          "alt": "Jetson Orin Nano Super 开发套件官方图",
+          "credit": "NVIDIA",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 955412,
+          "sha256": "13a73a1750ef876d099c2135e066f0d092e06bbcf4a45714721428bcec00fd83"
+        },
+        {
+          "kind": "official-structure",
+          "path": "assets/hardware/jetson-orin-nano-super/reference-layout.png",
+          "sourceUrl": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/hardware_layout.html",
+          "sourceImageUrl": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/_images/jetson-orin-nano-qtr_numbered.png",
+          "caption": "官方编号板卡布局参考（Nano 与 Super 同一硬件）",
+          "alt": "Jetson Orin Nano 开发板接口和部件编号参考",
+          "credit": "NVIDIA",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 2411726,
+          "sha256": "a961cccb670e025ee1eb35cd01f9331e72d3ea1b6d5d57f69a52f2faf5318a50"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/jetson-orin-nano-super/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "jetson-orin-nano-super AI生成结构爆炸概念图，隐藏内部为功能推断",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/jetson-orin-nano-super.txt",
+          "referencePaths": [
+            "assets/hardware/jetson-orin-nano-super/product.jpg",
+            "assets/hardware/jetson-orin-nano-super/reference-layout.png"
+          ],
+          "verified": true,
+          "bytes": 2001210,
+          "sha256": "3a29608954ed78e5a668fe7bd8dac52f2c82501f4255ad7a19231a39a5b9076f"
+        }
+      ],
+      "mediaNotes": []
     },
     {
       "id": "raspberry-pi-ai-hat-plus-2",
@@ -6010,7 +8828,52 @@
           "note": "产品与购买组件存在，但本轮未确认具体经销商库存。"
         }
       ],
-      "checkedAt": "2026-11-04"
+      "checkedAt": "2026-11-04",
+      "images": [
+        {
+          "kind": "product",
+          "path": "assets/hardware/raspberry-pi-ai-hat-plus-2/product.png",
+          "sourceUrl": "https://www.raspberrypi.com/products/ai-hat-plus-2/",
+          "sourceImageUrl": "https://assets.raspberrypi.com/static/f0d909cef0e7e6609acf92ae2921a60d/f2024/hero.png",
+          "caption": "AI HAT+ 2 官方主图（叠装 Raspberry Pi 5 参考）",
+          "alt": "Raspberry Pi AI HAT+ 2 加速板官方正面图",
+          "credit": "Raspberry Pi",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 37606,
+          "sha256": "fe10cb703740378cebc693f619b6ef0b8bd64f772b24edfb59a3572f83294333"
+        },
+        {
+          "kind": "reference",
+          "path": "assets/hardware/raspberry-pi-ai-hat-plus-2/reference.jpg",
+          "sourceUrl": "https://www.raspberrypi.com/products/ai-hat-plus-2/",
+          "sourceImageUrl": "https://assets.raspberrypi.com/static/92df577a5d419ed0b4d57a3b16fe59a2/8dbcc/ram.jpg",
+          "caption": "AI HAT+ 2 官方板载内存与芯片参考",
+          "alt": "AI HAT+ 2 官方板载内存与芯片参考",
+          "credit": "Raspberry Pi",
+          "checkedAt": "2026-11-04",
+          "verified": true,
+          "bytes": 65946,
+          "sha256": "cd28d24efd12400de0c1ec6cc0166a4deb5247a176ef89e8369b13a2041dc05b"
+        },
+        {
+          "kind": "ai-exploded",
+          "path": "assets/hardware/raspberry-pi-ai-hat-plus-2/ai-exploded.png",
+          "caption": "AI 生成爆炸示意 · 非实物拆机",
+          "alt": "raspberry-pi-ai-hat-plus-2 AI生成结构爆炸概念图，隐藏内部为功能推断",
+          "credit": "ImageGen · AI生成",
+          "generatedAt": "2026-11-04",
+          "promptPath": "content/hardware/prompts/raspberry-pi-ai-hat-plus-2.txt",
+          "referencePaths": [
+            "assets/hardware/raspberry-pi-ai-hat-plus-2/product.png",
+            "assets/hardware/raspberry-pi-ai-hat-plus-2/reference.jpg"
+          ],
+          "verified": true,
+          "bytes": 1755577,
+          "sha256": "e782151d3ff2844032e6d96ddf4efd2afc8958059b2b5eb4064bf00fc6ac4d67"
+        }
+      ],
+      "mediaNotes": []
     }
   ]
 }

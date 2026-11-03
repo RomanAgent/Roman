@@ -1,0 +1,486 @@
+[
+  {
+    "id": "roborock-saros-10r",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/roborock-saros-10r/product.png",
+        "sourceUrl": "https://ro.roborock.com/products/roborock-saros-10r",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0708/9324/0540/files/1_d7693e94-a754-4fe5-93b7-bd0a0ede3f8e.png?v=1756179244&width=1200",
+        "caption": "官方商品图：Saros 10R 主机与维护基站",
+        "alt": "官方商品图：Saros 10R 主机与维护基站",
+        "credit": "Roborock · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/roborock-saros-10r/reference.png",
+        "sourceUrl": "https://ro.roborock.com/products/roborock-saros-10r",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0708/9324/0540/files/2_f799eb4f-e814-4cab-ad14-05d1443c7d4c.png?v=1756179244&width=1200",
+        "caption": "官方 StarSight 避障与低矮机身示意（罗马尼亚语营销图，非独立实测）",
+        "alt": "官方 StarSight 避障与低矮机身示意（罗马尼亚语营销图，非独立实测）",
+        "credit": "Roborock · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "dreame-x50-ultra",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dreame-x50-ultra/product.jpg",
+        "sourceUrl": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0553/1320/3405/files/X50-W_1.webp?v=1767170718&width=1200",
+        "caption": "官方商品图：X50 Ultra 白色主机与基站",
+        "alt": "官方商品图：X50 Ultra 白色主机与基站",
+        "credit": "Dreame · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dreame-x50-ultra/reference.jpg",
+        "sourceUrl": "https://www.dreametech.com/products/x50-ultra-robot-vacuum",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0553/1320/3405/files/2-ProLeapSystem6cm_08c02e40-02e4-49ce-87fe-0ebe0776dfaa.jpg?v=1772789393&width=1200",
+        "caption": "官方越障机构与门槛条件示意，性能数字为厂商声明",
+        "alt": "官方越障机构与门槛条件示意，性能数字为厂商声明",
+        "credit": "Dreame · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "narwal-flow-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/narwal-flow-2/product.png",
+        "sourceUrl": "https://us.narwal.com/products/flow-2-robot-vacuum-and-mop",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/6200/3893/files/X30_____03_2.png?v=1784170331&width=1200",
+        "caption": "官方商品图：Flow 2 白色版与清洁模组展示",
+        "alt": "官方商品图：Flow 2 白色版与清洁模组展示",
+        "credit": "Narwal · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/narwal-flow-2/reference.jpg",
+        "sourceUrl": "https://us.narwal.com/products/flow-2-robot-vacuum-and-mop",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/6200/3893/files/X30___App_01.jpg?v=1776109876&width=1200",
+        "caption": "官方参考图：Flow 2 黑色版、履带拖布与 App 展示",
+        "alt": "官方参考图：Flow 2 黑色版、履带拖布与 App 展示",
+        "credit": "Narwal · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。",
+      "两图分别为官方白色与黑色版本，均为 Flow 2，不将颜色不同当作不同产品。"
+    ]
+  },
+  {
+    "id": "segway-navimow-i105",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/segway-navimow-i105/product.png",
+        "sourceUrl": "https://navimow.com/products/navimow-i105",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0676/6896/7561/files/Nav_Bar_i105.png?v=1766745896",
+        "caption": "官方商品图：Navimow i105 斜前视角",
+        "alt": "官方商品图：Navimow i105 斜前视角",
+        "credit": "Segway Navimow · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/segway-navimow-i105/reference.png",
+        "sourceUrl": "https://navimow.com/products/navimow-i105",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0676/6896/7561/files/i105-square-top_427d4620-5a60-4b13-b41f-a9c52ab13dfa.png?v=1766745896&width=1200",
+        "caption": "官方参考图：i105 俯视，可见控制区与前部视觉模组",
+        "alt": "官方参考图：i105 俯视，可见控制区与前部视觉模组",
+        "credit": "Segway Navimow · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "mammotion-luba-3-awd",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/mammotion-luba-3-awd/product.png",
+        "sourceUrl": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_3_right_side_view.png?v=1790136395&width=1200",
+        "caption": "官方商品图：LUBA 3 AWD 主机斜视",
+        "alt": "官方商品图：LUBA 3 AWD 主机斜视",
+        "credit": "Mammotion · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/mammotion-luba-3-awd/reference.png",
+        "sourceUrl": "https://us.mammotion.com/products/luba-3-awd-robot-lawn-mower",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0744/3310/2122/files/LUBA_3_bottom_view.png?v=1790136395&width=1200",
+        "caption": "官方底部视图：双刀盘、轮组与机身底盘，非爆炸图",
+        "alt": "官方底部视图：双刀盘、轮组与机身底盘，非爆炸图",
+        "credit": "Mammotion · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "birdbuddy-nook-solar",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/birdbuddy-nook-solar/product.webp",
+        "sourceUrl": "https://mybirdbuddy.com/product/birdbuddy-nook-solar/",
+        "sourceImageUrl": "https://mybirdbuddy.com/wp-content/uploads/2026/10/nook-solar-product.webp",
+        "caption": "官方商品图：Nook Solar 机身与太阳能顶板",
+        "alt": "官方商品图：Nook Solar 机身与太阳能顶板",
+        "credit": "Birdbuddy · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/birdbuddy-nook-solar/reference.webp",
+        "sourceUrl": "https://mybirdbuddy.com/product/birdbuddy-nook-solar/",
+        "sourceImageUrl": "https://mybirdbuddy.com/wp-content/uploads/2026/10/nook-solar-hero.webp",
+        "caption": "官方场景图：Nook Solar 屋顶、镜头与访鸟位置",
+        "alt": "官方场景图：Nook Solar 屋顶、镜头与访鸟位置",
+        "credit": "Birdbuddy · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "ring-wired-doorbell-4k-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ring-wired-doorbell-4k-pro/product.jpg",
+        "sourceUrl": "https://ring.com/products/wired-doorbell-pro",
+        "sourceImageUrl": "https://images.ctfassets.net/a3peezndovsu/3gjfLsAnG7SwdB6Z5oA2sD/282c8d4a9582f349c92cdd4236dd828b/ring_wired_doorbell_pro_4k_1500x1500__1_.jpg",
+        "caption": "官方商品图：Wired Doorbell 4K Pro 深银色外观",
+        "alt": "官方商品图：Wired Doorbell 4K Pro 深银色外观",
+        "credit": "Ring · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ring-wired-doorbell-4k-pro/reference.jpg",
+        "sourceUrl": "https://ring.com/products/wired-doorbell-pro",
+        "sourceImageUrl": "https://images.ctfassets.net/a3peezndovsu/4js315WXCQv1XF4U4OiHQ3/78e40555200ff6dab5302b3408b1da33/ring_wired_doorbell_pro_4k_front_door_outlined_1500x1500.jpg",
+        "caption": "官方安装场景：4K Pro 与门框、门锁的尺寸关系",
+        "alt": "官方安装场景：4K Pro 与门框、门锁的尺寸关系",
+        "credit": "Ring · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "google-nest-cam-battery",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/google-nest-cam-battery/product.jpg",
+        "sourceUrl": "https://blog.google/products-and-platforms/devices/google-nest/11-things-love-about-new-nest-cam-and-doorbell/",
+        "sourceImageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Nest_Cam_battery_white_background.jpg",
+        "caption": "Google 官方历史发布图：Nest Cam 电池版外观",
+        "alt": "Google 官方历史发布图：Nest Cam 电池版外观",
+        "credit": "Google · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/google-nest-cam-battery/reference-web.webp",
+        "sourceUrl": "https://blog.google/products-and-platforms/devices/google-nest/11-things-love-about-new-nest-cam-and-doorbell/",
+        "sourceImageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Nest_Cam_battery_Outdoor_rain_16x.width-500.format-webp.webp",
+        "caption": "Google 官方历史场景图：Nest Cam 电池版室外雨天安装",
+        "alt": "Google 官方历史场景图：Nest Cam 电池版室外雨天安装",
+        "credit": "Google · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。",
+      "来自 Google 2021 年官方发布文章的同型号历史照片；图片本身不证明当前销售状态。",
+      "网页雨天参考图使用 Google 官方提供的 500px WebP 版本，未自行编辑图片；高分辨率原图保留为 AI 生成输入溯源。"
+    ]
+  },
+  {
+    "id": "reolink-trackmix-wifi",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/reolink-trackmix-wifi/product.png",
+        "sourceUrl": "https://reolink.com/us/product/reolink-trackmix-wifi/",
+        "sourceImageUrl": "https://home-cdn.reolink.us/wp-content/uploads/2022/06/280627421656397662.0035.png",
+        "caption": "官方商品图：TrackMix WiFi 双镜头云台机身",
+        "alt": "官方商品图：TrackMix WiFi 双镜头云台机身",
+        "credit": "Reolink · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/reolink-trackmix-wifi/reference.jpg",
+        "sourceUrl": "https://reolink.com/us/product/reolink-trackmix-wifi/",
+        "sourceImageUrl": "https://home-cdn.reolink.us/wp-content/assets/trackmix-wifi-specs-2.jpg",
+        "caption": "官方底部与接口标注图，非拆机图",
+        "alt": "官方底部与接口标注图，非拆机图",
+        "credit": "Reolink · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "insta360-link-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/insta360-link-2/product.png",
+        "sourceUrl": "https://store.insta360.com/cn/product/link-2",
+        "sourceImageUrl": "https://res.insta360.com/dynamic/store/ba50458073ace427f278f8bf4bf52a93/2300_313f0fea-379b-42d7-ba3a-4e1319790080.png",
+        "caption": "官方商品图：带云台的 Insta360 Link 2（非 Link 2C）",
+        "alt": "官方商品图：带云台的 Insta360 Link 2（非 Link 2C）",
+        "credit": "Insta360 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/insta360-link-2/reference.jpg",
+        "sourceUrl": "https://store.insta360.com/cn/product/link-2",
+        "sourceImageUrl": "https://res.insta360.com/dynamic/store/f650b90c419de4ae6447bd55913e1437/353_cce7ce43-baf6-46c0-8466-cf5315d064b5.jpg",
+        "caption": "官方标准套餐与桌面授课场景，配件以实际套餐为准",
+        "alt": "官方标准套餐与桌面授课场景，配件以实际套餐为准",
+        "credit": "Insta360 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "obsbot-tiny-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/obsbot-tiny-2/product.png",
+        "sourceUrl": "https://www.obsbot.com/store/products/tiny-2",
+        "sourceImageUrl": "https://resource-cdn.obsbothk.com/product_system_back/product_img/7af5859692f345bcb703.png",
+        "caption": "官方商品图：Tiny 2 云台摄像头",
+        "alt": "官方商品图：Tiny 2 云台摄像头",
+        "credit": "OBSBOT · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/obsbot-tiny-2/reference.jpg",
+        "sourceUrl": "https://www.obsbot.com/store/products/tiny-2",
+        "sourceImageUrl": "https://resource-cdn.obsbothk.com/product_system_back/product_img/e837df94db4b45068537.jpg",
+        "caption": "官方 AI 追踪与自动变焦场景示意，非效果实测",
+        "alt": "官方 AI 追踪与自动变焦场景示意，非效果实测",
+        "credit": "OBSBOT · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "obsbot-tail-air",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/obsbot-tail-air/product.png",
+        "sourceUrl": "https://www.obsbot.com/store/products/obsbot-tail-air",
+        "sourceImageUrl": "https://resource-cdn.obsbothk.com/product_system_back/product_img/7b10e5d218274c61b743.png",
+        "caption": "官方商品图：Tail Air 直播云台相机",
+        "alt": "官方商品图：Tail Air 直播云台相机",
+        "credit": "OBSBOT · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/obsbot-tail-air/reference.jpg",
+        "sourceUrl": "https://www.obsbot.com/store/products/obsbot-tail-air",
+        "sourceImageUrl": "https://resource-cdn.obsbothk.com/product_system_back/product_img/04_3x_d038e22de205.jpg",
+        "caption": "官方接线场景：Tail Air 背部、连接线与外部设备",
+        "alt": "官方接线场景：Tail Air 背部、连接线与外部设备",
+        "credit": "OBSBOT · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "brisk-it-zelos-450",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/brisk-it-zelos-450/product.png",
+        "sourceUrl": "https://briskit.ai/products/brisk-it-zelos-450-a-i-powered-and-wifi-grill",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0568/4271/5314/files/briskit-zelos450-black-front-1445x1445.png?v=1787731679&width=1200",
+        "caption": "官方商品图：Zelos-450 烧烤炉正面",
+        "alt": "官方商品图：Zelos-450 烧烤炉正面",
+        "credit": "Brisk It · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/brisk-it-zelos-450/reference.png",
+        "sourceUrl": "https://briskit.ai/products/brisk-it-zelos-450-a-i-powered-and-wifi-grill",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0568/4271/5314/files/ZELOS_BACK_RESIZE_V1.png?v=1776118186&width=1200",
+        "caption": "官方后视参考：Zelos-450 炉体、支腿与料仓",
+        "alt": "官方后视参考：Zelos-450 炉体、支腿与料仓",
+        "credit": "Brisk It · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "brisk-it-neoma-oven",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/brisk-it-neoma-oven/product.jpg",
+        "sourceUrl": "https://briskit.ai/products/neomaoven",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0568/4271/5314/files/cream_background_1.jpg?v=1788854608&width=1200",
+        "caption": "官方商品图：Neoma 烤箱、面板与配套 App",
+        "alt": "官方商品图：Neoma 烤箱、面板与配套 App",
+        "credit": "Brisk It · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/brisk-it-neoma-oven/reference.png",
+        "sourceUrl": "https://briskit.ai/products/neomaoven",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0568/4271/5314/files/briskit-neomaopenracks-1445x1445.png?v=1787879697&width=1200",
+        "caption": "官方开门场景：Neoma 烤架与食物放取路径",
+        "alt": "官方开门场景：Neoma 烤架与食物放取路径",
+        "credit": "Brisk It · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  },
+  {
+    "id": "creality-k2-plus-combo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/creality-k2-plus-combo/product.png",
+        "sourceUrl": "https://store.creality.com/products/creality-k2-plus-combo-3d-printer",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0893/0603/8637/files/output.lin.png?v=1762200442&width=1200",
+        "caption": "官方商品图：K2 Plus Combo 主机与顶部 CFS",
+        "alt": "官方商品图：K2 Plus Combo 主机与顶部 CFS",
+        "credit": "Creality · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/creality-k2-plus-combo/reference.png",
+        "sourceUrl": "https://store.creality.com/products/creality-k2-plus-combo-3d-printer",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0893/0603/8637/files/K2_plus_45_cfs.png?v=1766129203&width=1200",
+        "caption": "官方参考图：K2 Plus 主机侧视（未安装顶部 CFS）",
+        "alt": "官方参考图：K2 Plus 主机侧视（未安装顶部 CFS）",
+        "credit": "Creality · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。",
+      "主图展示Combo；参考图展示同款K2 Plus主机，未显示顶部CFS，不代表基础套餐缺少CFS。"
+    ]
+  },
+  {
+    "id": "swarovski-ax-visio",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/swarovski-ax-visio/product.webp",
+        "sourceUrl": "https://www.swarovskioptik.com/at/en/hunting/products/binoculars/ax-visio/ax-visio-binoculars/ax-visio",
+        "sourceImageUrl": "https://images.ctfassets.net/pvkenuwtinkd/2YYaGRLtftfDbYKZeaJVaK/8ba524433607c2db08f73af3b0028a65/K22_AX_Visio_04_Top_Frontal_13_RGB.png?fm=webp&q=80&w=1000",
+        "caption": "官方商品图：AX Visio 10×32 正面外形",
+        "alt": "官方商品图：AX Visio 10×32 正面外形",
+        "credit": "SWAROVSKI OPTIK · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/swarovski-ax-visio/reference.webp",
+        "sourceUrl": "https://www.swarovskioptik.com/at/en/hunting/products/binoculars/ax-visio/ax-visio-binoculars/ax-visio",
+        "sourceImageUrl": "https://images.ctfassets.net/pvkenuwtinkd/17DDDxBk6P47krxqayy77D/7249349b19f22cd366bbef33469ee15c/K22_AX_Visio_10_Backside_Top_13_RGB.png?fm=webp&q=80&w=1000",
+        "caption": "官方参考图：AX Visio 目镜侧与控制区",
+        "alt": "官方参考图：AX Visio 目镜侧与控制区",
+        "credit": "SWAROVSKI OPTIK · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。"
+    ]
+  }
+]

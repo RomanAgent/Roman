@@ -4,6 +4,30 @@
 
 已公布的磁吸电话记忆设备，尚未确认开售
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Bee Eclipse 官方公布的产品渲染（尚未确认开售）](../../assets/hardware/bee-eclipse/product.png)
+
+Bee Eclipse 官方公布的产品渲染（尚未确认开售） · 来源：[Bee / Amazon · 官方产品图片](<https://bee.computer/products/eclipse>) · [原始图片](<https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6abc98eaa973bad1b69f5cde_AMZ-Rosey-PDP-D-Specs-Product.png>)
+
+### 参考图
+
+![Bee Eclipse 官方按键、指示灯与侧面参考](../../assets/hardware/bee-eclipse/reference.png)
+
+Bee Eclipse 官方按键、指示灯与侧面参考 · 来源：[Bee / Amazon · 官方产品图片](<https://bee.computer/products/eclipse>) · [原始图片](<https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6ac589b8fa63957e61c1546b_AMZ-Rosey-PDP-M-Specs-Product-View-2.png>)
+
+### AI 生成爆炸示意
+
+![Bee Eclipse的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/bee-eclipse/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/bee-eclipse.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

@@ -4,6 +4,30 @@
 
 连接周餐计划、食谱与台式烤箱的 AI 厨房产品
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：Neoma 烤箱、面板与配套 App](../../assets/hardware/brisk-it-neoma-oven/product.jpg)
+
+官方商品图：Neoma 烤箱、面板与配套 App · 来源：[Brisk It · 官方图片](<https://briskit.ai/products/neomaoven>) · [原始图片](<https://cdn.shopify.com/s/files/1/0568/4271/5314/files/cream_background_1.jpg?v=1788854608&width=1200>)
+
+### 参考图
+
+![官方开门场景：Neoma 烤架与食物放取路径](../../assets/hardware/brisk-it-neoma-oven/reference.png)
+
+官方开门场景：Neoma 烤架与食物放取路径 · 来源：[Brisk It · 官方图片](<https://briskit.ai/products/neomaoven>) · [原始图片](<https://cdn.shopify.com/s/files/1/0568/4271/5314/files/briskit-neomaopenracks-1445x1445.png?v=1787879697&width=1200>)
+
+### AI 生成爆炸示意
+
+![Brisk It Neoma AI Oven AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/brisk-it-neoma-oven/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/brisk-it-neoma-oven.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

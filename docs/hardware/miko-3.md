@@ -4,6 +4,28 @@
 
 语音互动、学习内容与家长应用结合的儿童机器人
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Miko 3 红色官方正面产品图](../../assets/hardware/miko-3/product.png)
+
+Miko 3 红色官方正面产品图 · 来源：[Miko · 官方图片](<https://miko.ai/products/miko-3>) · [原始图片](<https://cdn.shopify.com/s/files/1/0685/0383/0762/files/miko-red_1_88c13e0f-d894-4ab1-a7a9-d85d83f6ddad.png?v=1763631213>)
+
+### 参考图
+
+![Miko 3 红色官方侧面参考](../../assets/hardware/miko-3/reference.jpg)
+
+Miko 3 红色官方侧面参考 · 来源：[Miko · 官方图片](<https://miko.ai/products/miko-3>) · [原始图片](<https://cdn.shopify.com/s/files/1/0685/0383/0762/files/Copy_of_M3-red-side_direct.webp?v=1763631213>)
+
+### AI 生成爆炸示意
+
+![Miko 3 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/miko-3/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/miko-3.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

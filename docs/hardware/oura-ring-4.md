@@ -4,6 +4,28 @@
 
 指环采集与应用中的AI解释结合
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Oura Ring 4 银色官方正面图](../../assets/hardware/oura-ring-4/product.png)
+
+Oura Ring 4 银色官方正面图 · 来源：[Oura · 官方图片](<https://ouraring.com/store/rings/oura-ring-4/silver>) · [原始图片](<https://ourahealth.imgix.net/hardware-pdp/hero-carousel/or4-silver-front-view.png?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=1200&s=a9f2a840d8abdf221c81e9272c0c11aa>)
+
+### 参考图
+
+![Oura Ring 4 银色官方角度与内侧参考](../../assets/hardware/oura-ring-4/reference.png)
+
+Oura Ring 4 银色官方角度与内侧参考 · 来源：[Oura · 官方图片](<https://ouraring.com/store/rings/oura-ring-4/silver>) · [原始图片](<https://ourahealth.imgix.net/hardware-pdp/hero-carousel/or4-silver-angle-view.png?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=1200&s=76421b0734824e2f13c4b71f449a648a>)
+
+### AI 生成爆炸示意
+
+![Oura Ring 4 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/oura-ring-4/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/oura-ring-4.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

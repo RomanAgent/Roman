@@ -4,6 +4,32 @@
 
 停售案例：硬件寿命依赖云端服务承诺
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Limitless 官方历史黑色 Pendant 正面图](../../assets/hardware/limitless-pendant/product.webp)
+
+Limitless 官方历史黑色 Pendant 正面图 · 来源：[Limitless（已被Meta收购） · 官方产品图片](<https://www.limitless.ai/pendant>) · [原始图片](<https://www.limitless.ai/media/pendant/black/pendant-front.webp>)
+
+### 参考图
+
+![Limitless 官方历史 Pendant 夹持结构展开图](../../assets/hardware/limitless-pendant/reference.webp)
+
+Limitless 官方历史 Pendant 夹持结构展开图 · 来源：[Limitless（已被Meta收购） · 官方产品图片](<https://www.limitless.ai/pendant>) · [原始图片](<https://www.limitless.ai/media/pendant/black/pendant-open.webp>)
+
+### AI 生成爆炸示意
+
+![Limitless Pendant的AI概念爆炸示意，展示简化功能模块而非真实内部结构](../../assets/hardware/limitless-pendant/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/limitless-pendant.txt)
+
+> 外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。
+
+> 图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。
+
+> 产品已停售；沿图片搜索索引找回仍存放在官方域名的历史产品原图。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

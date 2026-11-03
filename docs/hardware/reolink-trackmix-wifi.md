@@ -4,6 +4,30 @@
 
 同时保留全景与目标细节的双镜头自动追踪摄像头
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：TrackMix WiFi 双镜头云台机身](../../assets/hardware/reolink-trackmix-wifi/product.png)
+
+官方商品图：TrackMix WiFi 双镜头云台机身 · 来源：[Reolink · 官方图片](<https://reolink.com/us/product/reolink-trackmix-wifi/>) · [原始图片](<https://home-cdn.reolink.us/wp-content/uploads/2022/06/280627421656397662.0035.png>)
+
+### 参考图
+
+![官方底部与接口标注图，非拆机图](../../assets/hardware/reolink-trackmix-wifi/reference.jpg)
+
+官方底部与接口标注图，非拆机图 · 来源：[Reolink · 官方图片](<https://reolink.com/us/product/reolink-trackmix-wifi/>) · [原始图片](<https://home-cdn.reolink.us/wp-content/assets/trackmix-wifi-specs-2.jpg>)
+
+### AI 生成爆炸示意
+
+![Reolink TrackMix WiFi AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/reolink-trackmix-wifi/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/reolink-trackmix-wifi.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

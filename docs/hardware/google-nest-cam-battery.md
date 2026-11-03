@@ -4,6 +4,34 @@
 
 用人物、车辆与动物分类减少家庭摄像头无效提醒
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Google 官方历史发布图：Nest Cam 电池版外观](../../assets/hardware/google-nest-cam-battery/product.jpg)
+
+Google 官方历史发布图：Nest Cam 电池版外观 · 来源：[Google · 官方图片](<https://blog.google/products-and-platforms/devices/google-nest/11-things-love-about-new-nest-cam-and-doorbell/>) · [原始图片](<https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Nest_Cam_battery_white_background.jpg>)
+
+### 参考图
+
+![Google 官方历史场景图：Nest Cam 电池版室外雨天安装](../../assets/hardware/google-nest-cam-battery/reference-web.webp)
+
+Google 官方历史场景图：Nest Cam 电池版室外雨天安装 · 来源：[Google · 官方图片](<https://blog.google/products-and-platforms/devices/google-nest/11-things-love-about-new-nest-cam-and-doorbell/>) · [原始图片](<https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Nest_Cam_battery_Outdoor_rain_16x.width-500.format-webp.webp>)
+
+### AI 生成爆炸示意
+
+![Google Nest Cam（电池版） AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/google-nest-cam-battery/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/google-nest-cam-battery.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
+> 来自 Google 2021 年官方发布文章的同型号历史照片；图片本身不证明当前销售状态。
+
+> 网页雨天参考图使用 Google 官方提供的 500px WebP 版本，未自行编辑图片；高分辨率原图保留为 AI 生成输入溯源。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

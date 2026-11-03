@@ -4,6 +4,30 @@
 
 围绕英语听说训练扩展答疑与对话
 
+## 产品图片与结构参考
+
+### 产品图
+
+![讯飞 EBOX Pro 官方产品宣传图](../../assets/hardware/iflytek-ebox-pro/product.webp)
+
+讯飞 EBOX Pro 官方产品宣传图 · 来源：[科大讯飞 · 官方图片](<https://www.xunfei.cn/goods?goodsId=2345>) · [原始图片](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro01.jpg?q=80&c=1&f=webp>)
+
+### 参考图
+
+![讯飞 EBOX Pro 官方界面与使用参考](../../assets/hardware/iflytek-ebox-pro/reference.webp)
+
+讯飞 EBOX Pro 官方界面与使用参考 · 来源：[科大讯飞 · 官方图片](<https://www.xunfei.cn/goods?goodsId=2345>) · [原始图片](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg?q=80&c=1&f=webp>)
+
+### AI 生成爆炸示意
+
+![讯飞AI英语宝 EBOX Pro 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/iflytek-ebox-pro/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/iflytek-ebox-pro.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
+> 官方原图为含人物和文案的宣传图，未裁造独立实拍；营销描述不作为独立效果证据。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

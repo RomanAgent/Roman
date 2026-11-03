@@ -1,0 +1,605 @@
+[
+  {
+    "id": "ray-ban-meta-gen-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ray-ban-meta-gen-2/product.webp",
+        "sourceUrl": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+        "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1424958092109664&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1777898936",
+        "caption": "官方 Wayfarer Gen 2 正面斜视图（黑框透明镜片）",
+        "alt": "官方 Wayfarer Gen 2 正面斜视图（黑框透明镜片）",
+        "credit": "Ray-Ban × Meta · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ray-ban-meta-gen-2/reference.webp",
+        "sourceUrl": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+        "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1825608818050904&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1777898936",
+        "caption": "官方 Wayfarer Gen 2 后侧视图",
+        "alt": "官方 Wayfarer Gen 2 后侧视图",
+        "credit": "Ray-Ban × Meta · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "ray-ban-meta-gen-3",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ray-ban-meta-gen-3/product.jpg",
+        "sourceUrl": "https://www.meta.com/in/ai-glasses/ray-ban-meta-gen-3-wayfarer-shiny-black-grey-transitions/",
+        "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?cb=v2&media_id=2549805485445447&resize_height=2048&resize_width=2048&version=2549804535445542&vp=1",
+        "caption": "官方 Wayfarer Gen 3 主展示图（亮黑框变色镜片款）",
+        "alt": "官方 Wayfarer Gen 3 主展示图（亮黑框变色镜片款）",
+        "credit": "Ray-Ban × Meta · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ray-ban-meta-gen-3/reference.webp",
+        "sourceUrl": "https://www.meta.com/in/ai-glasses/ray-ban-meta-gen-3-wayfarer-shiny-black-grey-transitions/",
+        "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1041308381833715&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1790189413",
+        "caption": "官方 Wayfarer Gen 3 后视图，变色镜片呈深色状态",
+        "alt": "官方 Wayfarer Gen 3 后视图，变色镜片呈深色状态",
+        "credit": "Ray-Ban × Meta · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "oakley-meta-hstn",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/oakley-meta-hstn/product.webp",
+        "sourceUrl": "https://www.meta.com/ai-glasses/oakley-meta-hstn-glasses/",
+        "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1668617304335399&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1773756725",
+        "caption": "官方 HSTN 黑框 Prizm Dark Golf 镜片斜视图",
+        "alt": "官方 HSTN 黑框 Prizm Dark Golf 镜片斜视图",
+        "credit": "Oakley × Meta · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/oakley-meta-hstn/reference.webp",
+        "sourceUrl": "https://www.meta.com/ai-glasses/oakley-meta-hstn-glasses/",
+        "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1921746139228297&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1773756725",
+        "caption": "官方 HSTN 同款另一侧视图",
+        "alt": "官方 HSTN 同款另一侧视图",
+        "credit": "Oakley × Meta · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "oakley-meta-vanguard",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/oakley-meta-vanguard/product.webp",
+        "sourceUrl": "https://www.oakley.com/en-us/product/W0OW8001",
+        "sourceImageUrl": "https://assets2.oakley.com/prod-onecp-record-files/pieyewear/dfbf31c3-b65d-4ec4-990d-b410014fc06d/0OW8001__800107__P21__shad__fr.png?impolicy=OO_ratio&width=768",
+        "caption": "官方 Vanguard 黑框 Prizm Black 正面图",
+        "alt": "官方 Vanguard 黑框 Prizm Black 正面图",
+        "credit": "Oakley × Meta · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/oakley-meta-vanguard/reference.webp",
+        "sourceUrl": "https://www.oakley.com/en-us/product/W0OW8001",
+        "sourceImageUrl": "https://assets2.oakley.com/prod-onecp-record-files/pieyewear/762cc332-a20c-4917-b9a9-b410014fc070/0OW8001__800107__P21__shad__lt.png?impolicy=OO_ratio&width=768",
+        "caption": "官方 Vanguard 黑框侧面与镜腿参考",
+        "alt": "官方 Vanguard 黑框侧面与镜腿参考",
+        "credit": "Oakley × Meta · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "even-g2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/even-g2/product.webp",
+        "sourceUrl": "https://www.evenrealities.com/products/g2-a",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0600/4513/1891/files/even-g2-a-smart-glasses-three-quarter-view-grey.png?v=1762242843&width=1200",
+        "caption": "官方 Even G2 A 灰色镜框三分之四视图",
+        "alt": "官方 Even G2 A 灰色镜框三分之四视图",
+        "credit": "Even Realities · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/even-g2/reference.webp",
+        "sourceUrl": "https://www.evenrealities.com/products/g2-a",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0600/4513/1891/files/even-g2-a-smart-glasses-side-view-grey.png?v=1762242843&width=1200",
+        "caption": "官方 Even G2 A 同色侧视图",
+        "alt": "官方 Even G2 A 同色侧视图",
+        "credit": "Even Realities · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "rokid-ai-glasses-style",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/rokid-ai-glasses-style/product.webp",
+        "sourceUrl": "https://global.rokid.com/products/rokid-ai-glasses-style",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0628/5636/4211/files/002_bec55c7c-a573-496d-8894-64dfd966cede.jpg?v=1788761083&width=1200",
+        "caption": "官方 Rokid AI Glasses Style 无显示款产品图",
+        "alt": "官方 Rokid AI Glasses Style 无显示款产品图",
+        "credit": "Rokid · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/rokid-ai-glasses-style/reference.webp",
+        "sourceUrl": "https://global.rokid.com/products/rokid-ai-glasses-style",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0628/5636/4211/files/23714d83d1faac4a6127afe09e9b41d3.jpg?v=1789385146&width=1200",
+        "caption": "官方骑行佩戴场景示意，非独立实测",
+        "alt": "官方骑行佩戴场景示意，非独立实测",
+        "credit": "Rokid · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "plaud-note",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/plaud-note/product.webp",
+        "sourceUrl": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/BL-plaud-note-052526.webp?v=1779709941&width=1200",
+        "caption": "官方 Plaud Note 基础款正面图",
+        "alt": "官方 Plaud Note 基础款正面图",
+        "credit": "Plaud · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/plaud-note/reference.webp",
+        "sourceUrl": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/4_e10f8969-6ac3-4641-971f-2514b6c6b3c1.png?v=1774430233&width=1200",
+        "caption": "官方 Plaud Note 侧面薄度参考",
+        "alt": "官方 Plaud Note 侧面薄度参考",
+        "credit": "Plaud · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "plaud-note-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/plaud-note-pro/product.webp",
+        "sourceUrl": "https://www.plaud.ai/products/plaud-note-pro",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/NotePro-_-2_fdc31980-a483-420d-b385-3723c698c9b7.png?v=1779783768&width=1200",
+        "caption": "官方 Plaud Note Pro 正面图",
+        "alt": "官方 Plaud Note Pro 正面图",
+        "credit": "Plaud · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/plaud-note-pro/reference.webp",
+        "sourceUrl": "https://www.plaud.ai/products/plaud-note-pro",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/Plaud_Note_Pro-side-black_e0ab6b2a-c29f-4906-a5da-4067210906ce.webp?v=1766042075&width=1200",
+        "caption": "官方 Plaud Note Pro 侧面参考",
+        "alt": "官方 Plaud Note Pro 侧面参考",
+        "credit": "Plaud · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "plaud-notepin",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/plaud-notepin/product.webp",
+        "sourceUrl": "https://www.plaud.ai/products/plaud-notepin",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/plaud-notepin-gray-0225.webp?v=1774430287&width=1200",
+        "caption": "官方 Plaud NotePin 胶囊录音器产品图",
+        "alt": "官方 Plaud NotePin 胶囊录音器产品图",
+        "credit": "Plaud · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/plaud-notepin/reference.webp",
+        "sourceUrl": "https://www.plaud.ai/products/plaud-notepin",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/plaud-notepin-weight-0225.webp?v=1774430287&width=1200",
+        "caption": "官方手持比例示意图，图中文字为厂商宣传",
+        "alt": "官方手持比例示意图，图中文字为厂商宣传",
+        "credit": "Plaud · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "limitless-pendant",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/limitless-pendant/product.webp",
+        "sourceUrl": "https://www.limitless.ai/pendant",
+        "sourceImageUrl": "https://www.limitless.ai/media/pendant/black/pendant-front.webp",
+        "caption": "Limitless 官方历史黑色 Pendant 正面图",
+        "alt": "Limitless 官方历史黑色 Pendant 正面图",
+        "credit": "Limitless（已被Meta收购） · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/limitless-pendant/reference.webp",
+        "sourceUrl": "https://www.limitless.ai/pendant",
+        "sourceImageUrl": "https://www.limitless.ai/media/pendant/black/pendant-open.webp",
+        "caption": "Limitless 官方历史 Pendant 夹持结构展开图",
+        "alt": "Limitless 官方历史 Pendant 夹持结构展开图",
+        "credit": "Limitless（已被Meta收购） · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。",
+      "产品已停售；沿图片搜索索引找回仍存放在官方域名的历史产品原图。"
+    ]
+  },
+  {
+    "id": "bee-frontier",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/bee-frontier/product.png",
+        "sourceUrl": "https://bee.computer/products/frontier",
+        "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6a0426a8bbd4f2f5c1ba22bb_specs-hero.png",
+        "caption": "Bee Frontier 官方腕带佩戴形态渲染",
+        "alt": "Bee Frontier 官方腕带佩戴形态渲染",
+        "credit": "Bee / Amazon · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/bee-frontier/reference.png",
+        "sourceUrl": "https://bee.computer/products/frontier",
+        "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6acd924c69d698571edbf9de_AMZ-BEE-D-Feature-Carousel-Modular-B.png",
+        "caption": "Bee Frontier 官方夹持形态与多角度配色参考",
+        "alt": "Bee Frontier 官方夹持形态与多角度配色参考",
+        "credit": "Bee / Amazon · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "bee-eclipse",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/bee-eclipse/product.png",
+        "sourceUrl": "https://bee.computer/products/eclipse",
+        "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6abc98eaa973bad1b69f5cde_AMZ-Rosey-PDP-D-Specs-Product.png",
+        "caption": "Bee Eclipse 官方公布的产品渲染（尚未确认开售）",
+        "alt": "Bee Eclipse 官方公布的产品渲染（尚未确认开售）",
+        "credit": "Bee / Amazon · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/bee-eclipse/reference.png",
+        "sourceUrl": "https://bee.computer/products/eclipse",
+        "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6ac589b8fa63957e61c1546b_AMZ-Rosey-PDP-M-Specs-Product-View-2.png",
+        "caption": "Bee Eclipse 官方按键、指示灯与侧面参考",
+        "alt": "Bee Eclipse 官方按键、指示灯与侧面参考",
+        "credit": "Bee / Amazon · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "omi-ai-pendant",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/omi-ai-pendant/product.webp",
+        "sourceUrl": "https://www.omi.me/pages/product",
+        "sourceImageUrl": "https://www.omi.me/cdn/shop/t/87/assets/omi-lf-hero-white.webp?v=36404367431359975201793402396",
+        "caption": "Omi 官方圆形 Pendant 与项链产品图",
+        "alt": "Omi 官方圆形 Pendant 与项链产品图",
+        "credit": "Omi · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/omi-ai-pendant/reference.webp",
+        "sourceUrl": "https://www.omi.me/pages/product",
+        "sourceImageUrl": "https://www.omi.me/cdn/shop/t/87/assets/omi-lf-knit.webp?v=55039599753399124671793402397",
+        "caption": "Omi 官方项链佩戴场景参考",
+        "alt": "Omi 官方项链佩戴场景参考",
+        "credit": "Omi · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "timekettle-w4-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/timekettle-w4-pro/product.webp",
+        "sourceUrl": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4-Pro_226cf539-8307-4cda-8da5-a18b6ce499ef.png?v=1776672758",
+        "caption": "官方 W4 Pro 耳挂式耳机与充电盒",
+        "alt": "官方 W4 Pro 耳挂式耳机与充电盒",
+        "credit": "Timekettle / 时空壶 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/timekettle-w4-pro/reference.webp",
+        "sourceUrl": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/4_74fd83de-e1a2-47d0-be23-5f5a49d271af.jpg?v=1776672758&width=1200",
+        "caption": "官方远程会议使用场景示意",
+        "alt": "官方远程会议使用场景示意",
+        "credit": "Timekettle / 时空壶 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "timekettle-w4-plus",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/timekettle-w4-plus/product.webp",
+        "sourceUrl": "https://www.timekettle.co/products/w4-plus-ai-interpreter-earbuds",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4_plus_58cc39aa-3ecb-4f7d-9d34-48a92124767a.png?v=1790566818",
+        "caption": "官方 W4 Plus 耳机与充电盒",
+        "alt": "官方 W4 Plus 耳机与充电盒",
+        "credit": "Timekettle / 时空壶 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/timekettle-w4-plus/reference.webp",
+        "sourceUrl": "https://www.timekettle.co/products/w4-plus-ai-interpreter-earbuds",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4_P.jpg?v=1787208421&width=1200",
+        "caption": "官方 W4 Plus 配套软件功能示意，权益以实际版本为准",
+        "alt": "官方 W4 Plus 配套软件功能示意，权益以实际版本为准",
+        "credit": "Timekettle / 时空壶 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "timekettle-x1-meeting",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/timekettle-x1-meeting/product.webp",
+        "sourceUrl": "https://www.timekettle.co/products/x1-meeting-interpreter-hub",
+        "sourceImageUrl": "https://www.timekettle.co/cdn/shop/files/X1_M_e2234a49-0dd3-4419-87ed-3230724b0be0.png?v=1786948521&width=499",
+        "caption": "官方 X1 Meeting 主机与耳机产品图",
+        "alt": "官方 X1 Meeting 主机与耳机产品图",
+        "credit": "Timekettle / 时空壶 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/timekettle-x1-meeting/reference.webp",
+        "sourceUrl": "https://www.timekettle.co/products/x1-meeting-interpreter-hub",
+        "sourceImageUrl": "https://www.timekettle.co/cdn/shop/files/X1_M..jpg?v=1787197411&width=1254",
+        "caption": "官方多人会议场景示意；图中人数宣传不用于本目录性能确认",
+        "alt": "官方多人会议场景示意；图中人数宣传不用于本目录性能确认",
+        "credit": "Timekettle / 时空壶 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "dingtalk-a1-personal",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dingtalk-a1-personal/product.png",
+        "sourceUrl": "https://page.dingtalk.com/wow/dingtalk/default/dingtalk/ENSdJDWVpi1L44lqSr3Zz?dd_mini_app_id=5000000004997171",
+        "sourceImageUrl": "https://gw.alicdn.com/imgextra/i2/O1CN0139M6H11fcsSxbbWId_!!6000000004028-2-tps-1802-1306.png",
+        "caption": "钉钉官方 A1 旗舰形态银色录音卡宣传图",
+        "alt": "钉钉官方 A1 旗舰形态银色录音卡宣传图",
+        "credit": "钉钉 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dingtalk-a1-personal/reference.webp",
+        "sourceUrl": "https://page.dingtalk.com/wow/dingtalk/default/dingtalk/VWKdjhj4kVMU9YvdgMTy?dd_mini_app_id=5000000004997171",
+        "sourceImageUrl": "https://gw.alicdn.com/imgextra/i1/O1CN01hjlHg91Sq4rNf8fTv_%21%216000000002297-0-tps-3840-1474.jpg",
+        "caption": "钉钉官方 A1 银黑配色历史宣传图，所示价格和权益不代表当前套餐",
+        "alt": "钉钉官方 A1 银黑配色历史宣传图，所示价格和权益不代表当前套餐",
+        "credit": "钉钉 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。",
+      "A1个人云享版属于服务套餐，参考图用于同款A1硬件形态；历史宣传图价格和权益不用于当前报价。"
+    ]
+  },
+  {
+    "id": "iflytek-magic-recorder",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/iflytek-magic-recorder/product.png",
+        "sourceUrl": "https://www.iflyrecorder.com/magic",
+        "sourceImageUrl": "https://www.iflyrecorder.com/assets/magic-product/hero.png",
+        "caption": "讯飞官方 Magic 两款配色与外形展示",
+        "alt": "讯飞官方 Magic 两款配色与外形展示",
+        "credit": "科大讯飞 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/iflytek-magic-recorder/reference.png",
+        "sourceUrl": "https://www.iflyrecorder.com/magic",
+        "sourceImageUrl": "https://www.iflyrecorder.com/assets/magic-product/office.png",
+        "caption": "讯飞官方 Magic 电脑语音输入场景示意",
+        "alt": "讯飞官方 Magic 电脑语音输入场景示意",
+        "credit": "科大讯飞 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  },
+  {
+    "id": "iflytek-s8-offline",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/iflytek-s8-offline/product.jpg",
+        "sourceUrl": "https://www.iflyrecorder.com/Goods_desc/1/598.html",
+        "sourceImageUrl": "https://www.iflyrecorder.com/filespath/images/goods/1733912262.jpg",
+        "caption": "讯飞官方 S8 离线版正面界面图",
+        "alt": "讯飞官方 S8 离线版正面界面图",
+        "credit": "科大讯飞 · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/iflytek-s8-offline/reference.jpg",
+        "sourceUrl": "https://www.geekpark.net/news/344287",
+        "sourceImageUrl": "https://imgslim.geekpark.net/uploads/image/file/c8/8e/c88ea774dad84d1160eee9c2c9f69ae5.jpeg",
+        "caption": "极客公园 S8 离线版发布报道的桌面场景配图",
+        "alt": "极客公园 S8 离线版发布报道的桌面场景配图",
+        "credit": "极客公园 · 讯飞S8离线版发布报道配图",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。",
+      "主图为官方；第二张为注明来源的发布报道配图。"
+    ]
+  },
+  {
+    "id": "rabbit-r1",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/rabbit-r1/product.webp",
+        "sourceUrl": "https://www.rabbit.tech/rabbit-r1",
+        "sourceImageUrl": "https://www.rabbit.tech/_next/image?url=%2Fmedia%2Fr1%2Fr1_hardwarespec.png&w=750&q=75",
+        "caption": "rabbit 官方 r1 正面与控制部件标注图",
+        "alt": "rabbit 官方 r1 正面与控制部件标注图",
+        "credit": "rabbit · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/rabbit-r1/reference.webp",
+        "sourceUrl": "https://www.rabbit.tech/rabbit-r1",
+        "sourceImageUrl": "https://www.rabbit.tech/_next/image?url=%2Fmedia%2Fr1%2Fr1_inhand_mobile.webp&w=1080&q=75",
+        "caption": "rabbit 官方 r1 手持背面与侧面参考",
+        "alt": "rabbit 官方 r1 手持背面与侧面参考",
+        "credit": "rabbit · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+    ]
+  }
+]

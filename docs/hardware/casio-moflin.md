@@ -4,6 +4,30 @@
 
 没有屏幕的毛绒触觉陪伴
 
+## 产品图片与结构参考
+
+### 产品图
+
+![Moflin 银色官方产品图](../../assets/hardware/casio-moflin/product.png)
+
+Moflin 银色官方产品图 · 来源：[CASIO · 官方图片](<https://www.casio.com/us/moflin/>) · [原始图片](<https://www.casio.com/content/dam/casio/product-info/locales/us/en/moflin/product/P/PE/PEM/PE-M10SR/assets/pe-m10sr_001.png.transform/main-visual-sp/image.png>)
+
+### 参考图
+
+![Moflin 官方触摸互动场景参考](../../assets/hardware/casio-moflin/reference.png)
+
+Moflin 官方触摸互动场景参考 · 来源：[CASIO · 官方图片](<https://www.casio.com/us/moflin/>) · [原始图片](<https://www.casio.com/content/casio/locales/us/en/products/moflin/_jcr_content/root/responsivegrid/container/container_847828903_/container/container/container_2004498952/container/container/container/image.casiocoreimg.png/1791229549458/always-bg-01.png>)
+
+### AI 生成爆炸示意
+
+![Moflin 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/casio-moflin/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/casio-moflin.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
+> 主图为银色型号，参考图为同系列触摸场景；未将颜色差异解读为型号差异。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

@@ -4,6 +4,30 @@
 
 将机内物种识别融入传统光学观察的 AI 双筒望远镜
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：AX Visio 10×32 正面外形](../../assets/hardware/swarovski-ax-visio/product.webp)
+
+官方商品图：AX Visio 10×32 正面外形 · 来源：[SWAROVSKI OPTIK · 官方图片](<https://www.swarovskioptik.com/at/en/hunting/products/binoculars/ax-visio/ax-visio-binoculars/ax-visio>) · [原始图片](<https://images.ctfassets.net/pvkenuwtinkd/2YYaGRLtftfDbYKZeaJVaK/8ba524433607c2db08f73af3b0028a65/K22_AX_Visio_04_Top_Frontal_13_RGB.png?fm=webp&q=80&w=1000>)
+
+### 参考图
+
+![官方参考图：AX Visio 目镜侧与控制区](../../assets/hardware/swarovski-ax-visio/reference.webp)
+
+官方参考图：AX Visio 目镜侧与控制区 · 来源：[SWAROVSKI OPTIK · 官方图片](<https://www.swarovskioptik.com/at/en/hunting/products/binoculars/ax-visio/ax-visio-binoculars/ax-visio>) · [原始图片](<https://images.ctfassets.net/pvkenuwtinkd/17DDDxBk6P47krxqayy77D/7249349b19f22cd366bbef33469ee15c/K22_AX_Visio_10_Backside_Top_13_RGB.png?fm=webp&q=80&w=1000>)
+
+### AI 生成爆炸示意
+
+![SWAROVSKI OPTIK AX Visio 10×32 AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/swarovski-ax-visio/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/swarovski-ax-visio.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

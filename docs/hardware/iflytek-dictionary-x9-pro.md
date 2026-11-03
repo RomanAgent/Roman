@@ -4,6 +4,30 @@
 
 扫描查词与双模型讲题结合的便携学习工具
 
+## 产品图片与结构参考
+
+### 产品图
+
+![讯飞 X9 Pro 官方产品宣传图](../../assets/hardware/iflytek-dictionary-x9-pro/product.webp)
+
+讯飞 X9 Pro 官方产品宣传图 · 来源：[科大讯飞 · 官方图片](<https://www.xunfei.cn/goods?goodsId=2383>) · [原始图片](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2383-20260227/X9Pro_01.jpg?q=80&c=1&f=webp>)
+
+### 参考图
+
+![X9 Pro 官方包装套装与规格参考图（厂商资料）](../../assets/hardware/iflytek-dictionary-x9-pro/reference-package.jpg)
+
+X9 Pro 官方包装套装与规格参考图（厂商资料） · 来源：[科大讯飞 · 官方图片](<https://www.xunfei.cn/goods?goodsId=2383>) · [原始图片](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2383-20260227/X9pro_19.jpg>)
+
+### AI 生成爆炸示意
+
+![讯飞AI词典笔 X9 Pro 的AI生成结构爆炸示意，内部布局为推断，非实物拆机](../../assets/hardware/iflytek-dictionary-x9-pro/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/iflytek-dictionary-x9-pro.txt)
+
+> 已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。
+
+> 保留官方长幅产品图，未裁造实拍。第二张为官方包装套装与规格图；资质文字图片未收录。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

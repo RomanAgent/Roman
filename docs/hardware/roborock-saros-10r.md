@@ -4,6 +4,30 @@
 
 将视觉感知、低矮机身与自动维护结合的扫拖机器人
 
+## 产品图片与结构参考
+
+### 产品图
+
+![官方商品图：Saros 10R 主机与维护基站](../../assets/hardware/roborock-saros-10r/product.png)
+
+官方商品图：Saros 10R 主机与维护基站 · 来源：[Roborock · 官方图片](<https://ro.roborock.com/products/roborock-saros-10r>) · [原始图片](<https://cdn.shopify.com/s/files/1/0708/9324/0540/files/1_d7693e94-a754-4fe5-93b7-bd0a0ede3f8e.png?v=1756179244&width=1200>)
+
+### 参考图
+
+![官方 StarSight 避障与低矮机身示意（罗马尼亚语营销图，非独立实测）](../../assets/hardware/roborock-saros-10r/reference.png)
+
+官方 StarSight 避障与低矮机身示意（罗马尼亚语营销图，非独立实测） · 来源：[Roborock · 官方图片](<https://ro.roborock.com/products/roborock-saros-10r>) · [原始图片](<https://cdn.shopify.com/s/files/1/0708/9324/0540/files/2_f799eb4f-e814-4cab-ad14-05d1443c7d4c.png?v=1756179244&width=1200>)
+
+### AI 生成爆炸示意
+
+![Roborock Saros 10R AI功能爆炸示意，内部模块为概念表达而非实际拆机](../../assets/hardware/roborock-saros-10r/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/roborock-saros-10r.txt)
+
+> 依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。
+
+> 图片版权归原权利人；用于产品研究并保留出处。未改变图片色彩或内容。
+
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 ## 销售与购买

@@ -1,0 +1,355 @@
+[
+  {
+    "id": "roborock-saros-10r",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/roborock-saros-10r/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Roborock Saros 10R AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/roborock-saros-10r.txt",
+        "referencePaths": [
+          "assets/hardware/roborock-saros-10r/product.png",
+          "assets/hardware/roborock-saros-10r/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "dreame-x50-ultra",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dreame-x50-ultra/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Dreame X50 Ultra AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/dreame-x50-ultra.txt",
+        "referencePaths": [
+          "assets/hardware/dreame-x50-ultra/product.jpg",
+          "assets/hardware/dreame-x50-ultra/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "narwal-flow-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/narwal-flow-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Narwal Flow 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/narwal-flow-2.txt",
+        "referencePaths": [
+          "assets/hardware/narwal-flow-2/product.png",
+          "assets/hardware/narwal-flow-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "segway-navimow-i105",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/segway-navimow-i105/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Segway Navimow i105 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/segway-navimow-i105.txt",
+        "referencePaths": [
+          "assets/hardware/segway-navimow-i105/product.png",
+          "assets/hardware/segway-navimow-i105/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "mammotion-luba-3-awd",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/mammotion-luba-3-awd/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Mammotion LUBA 3 AWD AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/mammotion-luba-3-awd.txt",
+        "referencePaths": [
+          "assets/hardware/mammotion-luba-3-awd/product.png",
+          "assets/hardware/mammotion-luba-3-awd/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "birdbuddy-nook-solar",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/birdbuddy-nook-solar/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Birdbuddy Nook Solar AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/birdbuddy-nook-solar.txt",
+        "referencePaths": [
+          "assets/hardware/birdbuddy-nook-solar/product.webp",
+          "assets/hardware/birdbuddy-nook-solar/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "ring-wired-doorbell-4k-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ring-wired-doorbell-4k-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Ring Wired Doorbell 4K Pro AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ring-wired-doorbell-4k-pro.txt",
+        "referencePaths": [
+          "assets/hardware/ring-wired-doorbell-4k-pro/product.jpg",
+          "assets/hardware/ring-wired-doorbell-4k-pro/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "google-nest-cam-battery",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/google-nest-cam-battery/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Google Nest Cam（电池版） AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/google-nest-cam-battery.txt",
+        "referencePaths": [
+          "assets/hardware/google-nest-cam-battery/product.jpg",
+          "assets/hardware/google-nest-cam-battery/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "reolink-trackmix-wifi",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/reolink-trackmix-wifi/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Reolink TrackMix WiFi AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/reolink-trackmix-wifi.txt",
+        "referencePaths": [
+          "assets/hardware/reolink-trackmix-wifi/product.png",
+          "assets/hardware/reolink-trackmix-wifi/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "insta360-link-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/insta360-link-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Insta360 Link 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/insta360-link-2.txt",
+        "referencePaths": [
+          "assets/hardware/insta360-link-2/product.png",
+          "assets/hardware/insta360-link-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "obsbot-tiny-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/obsbot-tiny-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "OBSBOT Tiny 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/obsbot-tiny-2.txt",
+        "referencePaths": [
+          "assets/hardware/obsbot-tiny-2/product.png",
+          "assets/hardware/obsbot-tiny-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "obsbot-tail-air",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/obsbot-tail-air/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "OBSBOT Tail Air AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/obsbot-tail-air.txt",
+        "referencePaths": [
+          "assets/hardware/obsbot-tail-air/product.png",
+          "assets/hardware/obsbot-tail-air/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "brisk-it-zelos-450",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/brisk-it-zelos-450/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Brisk It Zelos-450 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/brisk-it-zelos-450.txt",
+        "referencePaths": [
+          "assets/hardware/brisk-it-zelos-450/product.png",
+          "assets/hardware/brisk-it-zelos-450/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "brisk-it-neoma-oven",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/brisk-it-neoma-oven/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Brisk It Neoma AI Oven AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/brisk-it-neoma-oven.txt",
+        "referencePaths": [
+          "assets/hardware/brisk-it-neoma-oven/product.jpg",
+          "assets/hardware/brisk-it-neoma-oven/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "creality-k2-plus-combo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/creality-k2-plus-combo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Creality K2 Plus Combo AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/creality-k2-plus-combo.txt",
+        "referencePaths": [
+          "assets/hardware/creality-k2-plus-combo/product.png",
+          "assets/hardware/creality-k2-plus-combo/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+      "经过一次定向修订：将相机安装位置改为抽象概念块，修订提示见 content/hardware/prompts/creality-k2-plus-combo-revision.txt。"
+    ]
+  },
+  {
+    "id": "swarovski-ax-visio",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/swarovski-ax-visio/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "SWAROVSKI OPTIK AX Visio 10×32 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/swarovski-ax-visio.txt",
+        "referencePaths": [
+          "assets/hardware/swarovski-ax-visio/product.webp",
+          "assets/hardware/swarovski-ax-visio/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  }
+]

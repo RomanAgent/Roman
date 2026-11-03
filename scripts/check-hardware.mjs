@@ -5,7 +5,7 @@ const read = path => readFileSync(new URL(path,root),'utf8');
 const catalog = JSON.parse(read('content/hardware/catalog.json'));
 const research = readdirSync(new URL('content/hardware/',root)).filter(f=>/^research-.+\.json$/.test(f)).flatMap(f=>JSON.parse(read(`content/hardware/${f}`)));
 assert.equal(catalog.products.length,research.length,'目录数量与研究源数据不同，请运行 npm run catalog');
-for(const p of research){assert.deepEqual(catalog.products.find(c=>c.id===p.id),p,`${p.id} 目录尚未同步`);assert(existsSync(new URL(`docs/hardware/${p.id}.md`,root)),`${p.id} 阅读版缺失`);}
+for(const p of research){const {images,mediaNotes,...record}=catalog.products.find(c=>c.id===p.id);assert.deepEqual(record,p,`${p.id} 目录尚未同步`);assert(existsSync(new URL(`docs/hardware/${p.id}.md`,root)),`${p.id} 阅读版缺失`);}
 const market = read('docs/hardware-market.md');
 assert(!/\|[^\n]*\|\n\n\|/m.test(market),'Markdown表格内部不能有空行');
 for(const file of ['hardware.js','hardware.css','docs/hardware-methodology.md'])assert(existsSync(new URL(file,root)));

@@ -1,0 +1,494 @@
+[
+  {
+    "id": "lovot-3",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/lovot-3/product.webp",
+        "sourceUrl": "https://lovot.life/pricing",
+        "sourceImageUrl": "https://lovot.life/_nuxt/lovot_3.Btat68zG.webp",
+        "caption": "LOVOT 3.0 官方产品与充电座图",
+        "alt": "LOVOT 3.0 官方产品与充电座图",
+        "credit": "GROOVE X · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/lovot-3/reference.webp",
+        "sourceUrl": "https://lovot.life/lovot-3/",
+        "sourceImageUrl": "https://lovot.life/_nuxt/kv_sp.DjMHhOQ1.webp",
+        "caption": "LOVOT 3.0 官方拥抱场景参考",
+        "alt": "LOVOT 3.0 官方拥抱场景参考",
+        "credit": "GROOVE X · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "casio-moflin",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/casio-moflin/product.png",
+        "sourceUrl": "https://www.casio.com/us/moflin/",
+        "sourceImageUrl": "https://www.casio.com/content/dam/casio/product-info/locales/us/en/moflin/product/P/PE/PEM/PE-M10SR/assets/pe-m10sr_001.png.transform/main-visual-sp/image.png",
+        "caption": "Moflin 银色官方产品图",
+        "alt": "Moflin 银色官方产品图",
+        "credit": "CASIO · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/casio-moflin/reference.png",
+        "sourceUrl": "https://www.casio.com/us/moflin/",
+        "sourceImageUrl": "https://www.casio.com/content/casio/locales/us/en/products/moflin/_jcr_content/root/responsivegrid/container/container_847828903_/container/container/container_2004498952/container/container/container/image.casiocoreimg.png/1791229549458/always-bg-01.png",
+        "caption": "Moflin 官方触摸互动场景参考",
+        "alt": "Moflin 官方触摸互动场景参考",
+        "credit": "CASIO · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "主图为银色型号，参考图为同系列触摸场景；未将颜色差异解读为型号差异。"
+    ]
+  },
+  {
+    "id": "livingai-emo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/livingai-emo/product.jpg",
+        "sourceUrl": "https://living.ai/product/emo/",
+        "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2020/12/product1-2.jpg?fit=2000%2C2000&quality=89&ssl=1",
+        "caption": "EMO 标准款官方正面产品图",
+        "alt": "EMO 标准款官方正面产品图",
+        "credit": "LivingAI · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/livingai-emo/reference.jpg",
+        "sourceUrl": "https://living.ai/product/emo/",
+        "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2025/04/2026010606.jpg?fit=2000%2C2000&quality=89&ssl=1",
+        "caption": "EMO 官方套装与配件参考图",
+        "alt": "EMO 官方套装与配件参考图",
+        "credit": "LivingAI · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "loona-petbot",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/loona-petbot/product.png",
+        "sourceUrl": "https://keyirobot.com/products/petbot",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0750/4170/2077/files/gallery-loona-petbot-premium-1-v2.webp?v=1780474015&width=1200",
+        "caption": "Loona Petbot Premium 官方动作产品图",
+        "alt": "Loona Petbot Premium 官方动作产品图",
+        "credit": "KEYI Tech · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/loona-petbot/reference.png",
+        "sourceUrl": "https://keyirobot.com/products/petbot",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0750/4170/2077/files/gallery-loona-petbot-premium-2-v2.webp?v=1780474015&width=1200",
+        "caption": "Loona Petbot Premium 官方侧前方参考",
+        "alt": "Loona Petbot Premium 官方侧前方参考",
+        "credit": "KEYI Tech · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "eilik-ai-station",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/eilik-ai-station/product.jpg",
+        "sourceUrl": "https://store.energizelab.com/products/ai-station",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0601/5349/5720/files/aistatin-main-blue.jpg?v=1764326651",
+        "caption": "Eilik 与 AI Station 组合官方产品图",
+        "alt": "Eilik 与 AI Station 组合官方产品图",
+        "credit": "EnergizeLab · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/eilik-ai-station/reference.jpg",
+        "sourceUrl": "https://store.energizelab.com/products/ai-station",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0601/5349/5720/files/aistation-main.jpg?v=1764326651",
+        "caption": "AI Station 底座官方参考图（Eilik本体另售）",
+        "alt": "AI Station 底座官方参考图（Eilik本体另售）",
+        "credit": "EnergizeLab · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "主图明确展示机器人与另购AI Station组合；参考图只展示底座。"
+    ]
+  },
+  {
+    "id": "sony-aibo-ers1000",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/sony-aibo-ers1000/product.jpg",
+        "sourceUrl": "https://us.aibo.com/",
+        "sourceImageUrl": "https://us.aibo.com/images/intro-mv-pc-0.jpg",
+        "caption": "aibo ERS-1000 官方生活场景图",
+        "alt": "aibo ERS-1000 官方生活场景图",
+        "credit": "Sony · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/sony-aibo-ers1000/reference.png",
+        "sourceUrl": "https://us.aibo.com/",
+        "sourceImageUrl": "https://us.aibo.com/share/images/feature/product-feature-0.png",
+        "caption": "aibo ERS-1000 官方背面参考",
+        "alt": "aibo ERS-1000 官方背面参考",
+        "credit": "Sony · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "参考图保留官网提供的284×422原始分辨率，没有人工放大。"
+    ]
+  },
+  {
+    "id": "miko-3",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/miko-3/product.png",
+        "sourceUrl": "https://miko.ai/products/miko-3",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0685/0383/0762/files/miko-red_1_88c13e0f-d894-4ab1-a7a9-d85d83f6ddad.png?v=1763631213",
+        "caption": "Miko 3 红色官方正面产品图",
+        "alt": "Miko 3 红色官方正面产品图",
+        "credit": "Miko · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/miko-3/reference.jpg",
+        "sourceUrl": "https://miko.ai/products/miko-3",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0685/0383/0762/files/Copy_of_M3-red-side_direct.webp?v=1763631213",
+        "caption": "Miko 3 红色官方侧面参考",
+        "alt": "Miko 3 红色官方侧面参考",
+        "credit": "Miko · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "luka-reading-robot",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/luka-reading-robot/product.png",
+        "sourceUrl": "https://luka.world/products/luka-reading-robot",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0642/2426/4277/files/Luka_95978182-d73a-49e8-bd7a-84db710be340.png?v=1776998127&width=3840",
+        "caption": "Luka Reading Robot 官方正面产品图",
+        "alt": "Luka Reading Robot 官方正面产品图",
+        "credit": "Luka · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/luka-reading-robot/reference.png",
+        "sourceUrl": "https://luka.world/products/luka-reading-robot",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0642/2426/4277/files/Luka_45_-2_8ba21f77-40b0-4c81-bd00-9919a784af30.png?v=1776998127&width=3840",
+        "caption": "Luka Reading Robot 官方侧前方参考",
+        "alt": "Luka Reading Robot 官方侧前方参考",
+        "credit": "Luka · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "iflytek-t30-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/iflytek-t30-pro/product.webp",
+        "sourceUrl": "https://ly.xunfei.cn/goods/k8AuU6yWkvGx",
+        "sourceImageUrl": "https://img.xunfei.cn/lyoa/prod/ifly-mall-vip-service/business/ifly-mall-vip-service/business/private/202503251547004905.jpg?q=80&c=1&f=webp&o=2",
+        "caption": "讯飞 T30 Pro 官方产品宣传图",
+        "alt": "讯飞 T30 Pro 官方产品宣传图",
+        "credit": "科大讯飞 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/iflytek-t30-pro/reference.webp",
+        "sourceUrl": "https://ly.xunfei.cn/goods/k8AuU6yWkvGx",
+        "sourceImageUrl": "https://img.xunfei.cn/lyoa/prod/ifly-mall-vip-service/business/ifly-mall-vip-service/business/private/202503251547007834.jpg?q=80&c=1&f=webp&o=2",
+        "caption": "讯飞 T30 Pro 官方显示屏角度参考",
+        "alt": "讯飞 T30 Pro 官方显示屏角度参考",
+        "credit": "科大讯飞 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方宣传图原始文案与颜色；仅作为型号和外观参考，非本项目功效验证。"
+    ]
+  },
+  {
+    "id": "oura-ring-4",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/oura-ring-4/product.png",
+        "sourceUrl": "https://ouraring.com/store/rings/oura-ring-4/silver",
+        "sourceImageUrl": "https://ourahealth.imgix.net/hardware-pdp/hero-carousel/or4-silver-front-view.png?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=1200&s=a9f2a840d8abdf221c81e9272c0c11aa",
+        "caption": "Oura Ring 4 银色官方正面图",
+        "alt": "Oura Ring 4 银色官方正面图",
+        "credit": "Oura · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/oura-ring-4/reference.png",
+        "sourceUrl": "https://ouraring.com/store/rings/oura-ring-4/silver",
+        "sourceImageUrl": "https://ourahealth.imgix.net/hardware-pdp/hero-carousel/or4-silver-angle-view.png?ixlib=js-3.8.0&auto=format&fit=max&fm=png&q=70&w=1200&s=76421b0734824e2f13c4b71f449a648a",
+        "caption": "Oura Ring 4 银色官方角度与内侧参考",
+        "alt": "Oura Ring 4 银色官方角度与内侧参考",
+        "credit": "Oura · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "whoop-5",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/whoop-5/product.webp",
+        "sourceUrl": "https://www.whoop.com/ch/en/membership/",
+        "sourceImageUrl": "https://images.ctfassets.net/rbzqg6pelgqa/3waVHtJ6R9HOTAreGiUP5a/e9a8df7e641adb0cbf3adc005d31a278/One_card__1_.png?fm=webp&q=25&w=3840",
+        "caption": "WHOOP 5.0 One 官方设备与应用展示",
+        "alt": "WHOOP 5.0 One 官方设备与应用展示",
+        "credit": "WHOOP · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/whoop-5/reference.webp",
+        "sourceUrl": "https://www.whoop.com/ch/en/membership/",
+        "sourceImageUrl": "https://images.ctfassets.net/rbzqg6pelgqa/2L5W622UNiYxlnHE3hHGAL/d3443637b907fe3541f32a8d9fe58cbc/Peak_card__1_.png?fm=webp&q=25&w=3840",
+        "caption": "WHOOP 5.0 Peak 官方表带与应用参考",
+        "alt": "WHOOP 5.0 Peak 官方表带与应用参考",
+        "credit": "WHOOP · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "One与Peak图片均来自官网对应WHOOP 5.0栏目，非MG；应用中的数值是官方展示画面，不是本项目实测。"
+    ]
+  },
+  {
+    "id": "ultrahuman-ring-air",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ultrahuman-ring-air/product.jpg",
+        "sourceUrl": "https://www.ultrahuman.com/mc/ring/buy/",
+        "sourceImageUrl": "https://cdn.speedsize.com/3f711f28-1488-44dc-b013-5e43284ac4b0/https://public-web-assets.uh-static.com/web_v2/ring-buy/carousel-assets-new/full/bionic-gold/1.png",
+        "caption": "Ultrahuman Ring AIR 金色官方产品图",
+        "alt": "Ultrahuman Ring AIR 金色官方产品图",
+        "credit": "Ultrahuman · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ultrahuman-ring-air/reference.jpg",
+        "sourceUrl": "https://www.ultrahuman.com/mc/ring/buy/",
+        "sourceImageUrl": "https://cdn.speedsize.com/3f711f28-1488-44dc-b013-5e43284ac4b0/https://public-web-assets.uh-static.com/web_v2/ring-buy/carousel-assets-new/full/bionic-gold/3.png/w_2000",
+        "caption": "Ultrahuman Ring AIR 官方佩戴场景参考",
+        "alt": "Ultrahuman Ring AIR 官方佩戴场景参考",
+        "credit": "Ultrahuman · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "amazfit-balance-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/amazfit-balance-2/product.jpg",
+        "sourceUrl": "https://us.amazfit.com/products/balance-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0406/4500/1379/files/Main_Image_3.jpg?v=1784187735",
+        "caption": "Amazfit Balance 2 官方产品图",
+        "alt": "Amazfit Balance 2 官方产品图",
+        "credit": "Amazfit / Zepp Health · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/amazfit-balance-2/reference.jpg",
+        "sourceUrl": "https://us.amazfit.com/products/balance-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0406/4500/1379/files/Main_Image__2.jpg?v=1789373522",
+        "caption": "Amazfit Balance 2 官方包装与配件参考",
+        "alt": "Amazfit Balance 2 官方包装与配件参考",
+        "credit": "Amazfit / Zepp Health · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "samsung-galaxy-watch8",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/samsung-galaxy-watch8/product.jpg",
+        "sourceUrl": "https://www.samsung.com/us/watches/galaxy-watch8/",
+        "sourceImageUrl": "https://image-us.samsung.com/us/watches/galaxy-watch8/images/galaxy-watch8-design-colors-silver-perspective.jpg?imbypass=true",
+        "caption": "Galaxy Watch8 银色官方角度图",
+        "alt": "Galaxy Watch8 银色官方角度图",
+        "credit": "Samsung · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/samsung-galaxy-watch8/reference.jpg",
+        "sourceUrl": "https://www.samsung.com/us/watches/galaxy-watch8/",
+        "sourceImageUrl": "https://image-us.samsung.com/us/watches/galaxy-watch8/images/galaxy-watch8-design-colors-silver-side.jpg?imbypass=true",
+        "caption": "Galaxy Watch8 银色官方侧面参考",
+        "alt": "Galaxy Watch8 银色官方侧面参考",
+        "credit": "Samsung · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "iflytek-ebox-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/iflytek-ebox-pro/product.webp",
+        "sourceUrl": "https://www.xunfei.cn/goods?goodsId=2345",
+        "sourceImageUrl": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro01.jpg?q=80&c=1&f=webp",
+        "caption": "讯飞 EBOX Pro 官方产品宣传图",
+        "alt": "讯飞 EBOX Pro 官方产品宣传图",
+        "credit": "科大讯飞 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/iflytek-ebox-pro/reference.webp",
+        "sourceUrl": "https://www.xunfei.cn/goods?goodsId=2345",
+        "sourceImageUrl": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg?q=80&c=1&f=webp",
+        "caption": "讯飞 EBOX Pro 官方界面与使用参考",
+        "alt": "讯飞 EBOX Pro 官方界面与使用参考",
+        "credit": "科大讯飞 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "官方原图为含人物和文案的宣传图，未裁造独立实拍；营销描述不作为独立效果证据。"
+    ]
+  },
+  {
+    "id": "iflytek-dictionary-x9-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/iflytek-dictionary-x9-pro/product.webp",
+        "sourceUrl": "https://www.xunfei.cn/goods?goodsId=2383",
+        "sourceImageUrl": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2383-20260227/X9Pro_01.jpg?q=80&c=1&f=webp",
+        "caption": "讯飞 X9 Pro 官方产品宣传图",
+        "alt": "讯飞 X9 Pro 官方产品宣传图",
+        "credit": "科大讯飞 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/iflytek-dictionary-x9-pro/reference-package.jpg",
+        "sourceUrl": "https://www.xunfei.cn/goods?goodsId=2383",
+        "sourceImageUrl": "https://img.xunfei.cn/mall/iflytek-mall/detalls/2383-20260227/X9pro_19.jpg",
+        "caption": "X9 Pro 官方包装套装与规格参考图（厂商资料）",
+        "alt": "X9 Pro 官方包装套装与规格参考图（厂商资料）",
+        "credit": "科大讯飞 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方长幅产品图，未裁造实拍。第二张为官方包装套装与规格图；资质文字图片未收录。"
+    ]
+  },
+  {
+    "id": "samsung-galaxy-ring",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/samsung-galaxy-ring/product.png",
+        "sourceUrl": "https://www.samsung.com.cn/rings/galaxy-ring/galaxy-ring-titanium-silver-size-12-sm-q502nzsachc/",
+        "sourceImageUrl": "https://images.samsung.com.cn/cn/galaxy-ring/feature/galaxy-ring-color-silver-pc.png",
+        "caption": "Galaxy Ring 银色官方产品图",
+        "alt": "Galaxy Ring 银色官方产品图",
+        "credit": "Samsung · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "official-structure",
+        "path": "assets/hardware/samsung-galaxy-ring/reference.jpg",
+        "sourceUrl": "https://www.samsung.com.cn/rings/galaxy-ring/galaxy-ring-titanium-silver-size-12-sm-q502nzsachc/",
+        "sourceImageUrl": "https://images.samsung.com.cn/is/image/samsung/assets/cn/rings/galaxy-ring/galaxy-ring-sensor-pc_0808.jpg",
+        "caption": "Galaxy Ring 官方传感位置示意（非实物拆机）",
+        "alt": "Galaxy Ring 官方传感位置示意（非实物拆机）",
+        "credit": "Samsung · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "主图为银色，传感示意使用同系列金色外观；官方传感说明不等于完整内部拆机。"
+    ]
+  }
+]
