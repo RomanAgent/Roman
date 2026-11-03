@@ -1,0 +1,11 @@
+{
+  "name": "roman-journal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roman 的创业手记、AI 行业历程与智能硬件探索",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
+    "export": "node scripts/export-content.mjs",
+    "check": "node --check app.js && node scripts/check-content.mjs"
+  }
+}
