@@ -132,6 +132,10 @@ Precision Microdrives提供微型电机、传动与触觉机构，并公开英�
 
 - [Chessnut Companion](../hardware/chessnut-companion.md) — **能力候选 · 非已采用** / 自动按钟小型执行机构候选：Precision Microdrives公开微型电机与定制机构，可作为Companion按钟执行的工程候选，但原机采用何种传动未披露，行程、受力、噪声和重复动作需验证。该关联不说明实际采用或可直接替换，也不把机械计时操作当作AI算法。
 
+- [HabitAware Keen3](../hardware/habitaware-keen3.md) — **能力候选 · 非已采用** / 同类个人觉察腕带的触觉提醒执行器候选：Precision Microdrives公开消费应用中的微型振动与触觉工程能力，可研究同类腕带的提醒强度、安装和能耗，但实际体感与结构耦合需验证。没有HabitAware点名采用来源，也不提供动作模型和行为策略；执行器能振动不等于提醒有效，更不构成治疗效果证明。
+
+- [Apollo Wearable + SmartVibes AI](../hardware/apollo-smartvibes.md) — **能力候选 · 非已采用** / 同类触觉反馈穿戴的执行器与耦合研究：Precision Microdrives公开微型振动和消费触觉应用能力，可研究同类设备的波形控制、安装耦合、声音与能耗，但不等于Apollo的专有Vibes程序或临床效果。未发现厂家点名采用证据，具体执行器和结构仍须验证；候选不能由一般振动能力推断能够改善睡眠或情绪。
+
 ## 来源
 
 - [Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>)：已打开；英国、香港与深圳关联主体及工程制造流程。

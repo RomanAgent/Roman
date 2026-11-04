@@ -142,6 +142,14 @@
 
 - [Gorilla Bells](../hardware/gorilla-bells.md) — **能力候选 · 非已采用** / 自由重量动作采集候选：Bosch Sensortec具有运动感知和智能惯性器件能力，可作为哑铃轨迹与动作输入的开发候选，但握持变化、振动及算法训练需要专门验证。Gorilla未披露采用该品牌，本关联不等于现售设备的传感器型号或真实供货。
 
+- [xVic Putting View](../hardware/xvic-putting-view.md) — **能力候选 · 非已采用** / 小型推杆运动感知候选：Bosch Sensortec的惯性运动感知能力可作为握柄运动输入的工程候选，但实际传感类型和算法并未由xVic披露，安装方向与微小动作需专门验证。此链接不代表Putting View采用该品牌器件，也不推断真实精度。
+
+- [Össur Power Knee 盘古主动力膝关节](../hardware/ossur-power-knee.md) — **能力候选 · 非已采用** / 同类个人动力关节的惯性输入候选：Bosch Sensortec公开智能惯性平台，可研究相近关节控制中的运动和姿态输入，但实际动态范围、安装、时序与系统验证不能省略。没有Power Knee采用证据，也不包含其个人控制模型和专业配置；一般运动感知能力不能推定可直接替换假肢传感器或保证行走安全。
+
+- [Sunrise 家用下颌运动睡眠测试](../hardware/sunrise-home-sleep-test.md) — **能力候选 · 非已采用** / 同类下颌运动记录器的惯性输入研究：Bosch Sensortec公开智能惯性传感平台，可研究相近小型贴附设备的运动、方向和低功耗输入，但实际下颌微动作、安装与噪声条件需专项验证。未发现Sunrise点名采用证据，通用动作感知不包含其睡眠分类模型，也不能由芯片能力推定检测有效或可直接替换原设备。
+
+- [Cionic Neural Sleeve 2](../hardware/cionic-neural-sleeve-2.md) — **能力候选 · 非已采用** / 同类软套袖的动作输入候选：Bosch Sensortec智能惯性平台可供相近穿戴设计研究动作和姿态输入，但Cionic当前页面未点名具体传感器或全部信号模态，不能据此确认采用。实际安装、织物变形和动作噪声必须验证，候选也不包含MultiStim算法、电刺激安全控制或产品适配资质。
+
 - [Maven Pet Health Tracker](../hardware/maven-pet-health-tracker.md) — **能力候选 · 非已采用** / 动作与状态采集器件候选：Bosch Sensortec公开动作感知器件可作为新佩戴方案的输入研究入口。它只能支持相关模块选型，不能由运动器件能力推断呼吸或心率等完整指标，更不能认定Maven实际采用；需在动物佩戴和完整数据链路中验证。
 
 - [Invoxia Biotracker Edition 2026](../hardware/invoxia-biotracker-2026.md) — **能力候选 · 非已采用** / 佩戴动作感知模块候选：Bosch Sensortec公开动作传感能力可用于新犬只佩戴方案的输入研究，但不能由此推断完整生命体征测量或AI日记效果。需要按佩戴位置与动物活动验证数据链路，本目录没有Invoxia此型号实际采用该公司器件的证据。

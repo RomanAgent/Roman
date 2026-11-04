@@ -168,6 +168,12 @@ Protolabs 的公开定位覆盖定制原型至终端生产零件，使用数字�
 
 - [Gorilla Bells](../hardware/gorilla-bells.md) — **能力候选 · 非已采用** / 配重与底座结构原型候选：Protolabs的加工与结构样件能力可帮助验证配重配合、握持和底座原型，锁止安全与长期疲劳仍须独立工程审查。官网没有披露它参与Gorilla制造，本项只表示可能适配的开发能力，不能当成量产结构证明。
 
+- [Equestic SaddleClip Classic](../hardware/equestic-saddleclip.md) — **能力候选 · 非已采用** / 鞍侧夹持与外壳样件候选：Protolabs可提供结构样件加工以验证夹持曲线、壳体配合和不同鞍具上的安装，但皮革接触和反复运动下的保持力仍须实际测试。没有公开资料指向该公司参与Equestic量产，本关联只用于开发阶段能力匹配。
+
+- [PFAFF creative icon 2](../hardware/pfaff-creative-icon-2.md) — **能力候选 · 非已采用** / 机壳及平台结构样件候选：Protolabs的结构加工和快速样件能力可服务机壳、平台支撑及装配配合验证，缝纫运动精度和长期振动仍需独立测试。没有公开证据说明其参与PFAFF量产，本链接只用于原型选型，不能当作真实机架或工厂信息。
+
+- [Brother AVENEER EV1](../hardware/brother-aveneer-ev1.md) — **能力候选 · 非已采用** / 机壳与刺绣支撑样件候选：Protolabs的结构加工和样件能力可用于机壳、框架支撑与车架配合验证，但缝纫传动精度和长期耐用还需专门测试。没有资料表明其制造EV1，本关联只是开发候选，不作为量产工厂、材料或真实内部结构证明。
+
 - [YSL Rouge Sur Mesure](../hardware/ysl-rouge-sur-mesure.md) — **能力候选 · 非已采用** / 外壳与可拆盘的原型和模具验证：Protolabs公开快速原型及模具服务可用于筒身、色芯接口和可拆盘装配验证，但材料与唇彩接触合规及计量性能并非自动满足；没有YSL型号采用证据，当前仅列结构工程候选。
 
 - [Moen Flo Smart Water Shutoff（900-006）](../hardware/moen-flo-shutoff-900-006.md) — **能力候选 · 非已采用** / 壳体与连接接口的原型评估：Protolabs公开加工和模具能力可支持外壳、接口与装配可达性原型，但水路承压、密封及材料接触要求不由通用加工自动保证；未见Moen该型号实际采用，仅作为结构工程候选。
@@ -179,6 +185,10 @@ Protolabs 的公开定位覆盖定制原型至终端生产零件，使用数字�
 - [Ondilo ICO Pool v2 Chlorine/Bromine](../hardware/ondilo-ico-pool.md) — **能力候选 · 非已采用** / 浮体顶盖与传感保护结构：Protolabs公开数字制造与原型服务可匹配浮体、顶盖、保护罩等结构迭代需求。该链接是候选方案而非现有供货披露，材料耐水耐化学与密封设计须针对泳池环境重新评估，不能由加工能力直接保证。
 
 - [OSIM uDream.AI Well-Being Chair](../hardware/osim-udream-ai.md) — **能力候选 · 非已采用** / 大型外壳与接触结构样件：Protolabs公开原型与数字制造能力可用于弧形外壳、支撑部件和装配样件的设计迭代。没有该OSIM型号供货证据；人体接触、承重、软包及长期运动寿命需另行验证，不由一般原型制造能力直接保证。
+
+- [当贝智能鱼缸 2S Ultra](../hardware/dangbei-aquarium-2s-ultra.md) — **能力候选 · 非已采用** / 上盖与后部维护结构试制：Protolabs公开原型制造能力可对应鱼缸上盖、过滤保护与易维护塑料结构的样件迭代。未发现其与当贝2S Ultra的合作证据；长期潮湿、材料兼容及密封要求需专项验证，不能把通用加工能力当成实际生产披露。
+
+- [Kohler Health Dekoda](../hardware/kohler-dekoda.md) — **能力候选 · 非已采用** / 便器夹持与外壳适配样件：Protolabs公开原型和数字制造服务可用于便器夹持、外壳与装配适配样件的工程迭代。没有其参与Dekoda的供货证据，候选能力不证明当前合作；清洁耐受、密封和不同便器光环境仍需要产品专门验证。
 
 ## 来源
 

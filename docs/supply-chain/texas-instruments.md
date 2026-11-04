@@ -208,6 +208,8 @@ TPS25751公开支持USB接口供电协商和受电路径，UCC256404则属于谐
 
 - [Tiiny Pocket](../hardware/tiiny-pocket.md) — **能力候选 · 非已采用** / 同类外接供电AI终端的USB-C电源控制候选：TI TPS25751公开USB-C受电与功率路径控制，可研究同类小型AI终端的外部供电协商、保护及负载变化，但它不是处理模型的芯片或完整适配器。未发现Tiiny采用证据，接口和整机功耗仍须核对；候选不意味着本机有电池，也不构成现有设备直接替换方案。
 
+- [BrailleSense 7（32-cell）](../hardware/braillesense-7-32.md) — **能力候选 · 非已采用** / 同类盲文计算终端的USB-C供电管理候选：TI TPS25751公开USB-C供电协商与功率路径控制，可研究同类终端的接口角色、异常保护和系统负载，但不包含盲文驱动、Gemini服务或完整充电系统。未发现BrailleSense点名采用证据，具体电池和主板接口须核对；候选不能视作现机换件或已完成辅助设备适配。
+
 - [Ting Sensor with Fire Prevention Service](../hardware/ting-home-safety-sensor.md) — **能力候选 · 非已采用** / 模拟信号采集与控制器件能力候选：TI公开模拟与嵌入式器件可作为重新研究电力信号采集系统的能力入口，但必须由专业团队按整机目标选型与验证。此处没有确认Ting使用任何TI料号，也不能作为用户改装或电气接线依据。
 
 - [Anker SOLIX Solarbank 3 E2700 Pro](../hardware/anker-solix-solarbank-3-pro.md) — **能力候选 · 非已采用** / 计量与控制器件能力候选：TI公开模拟、电源和嵌入式器件可支持新方案的控制与信号研究，但功率架构、通信接口和整机验证必须由专业团队选定。能力范围不构成Solarbank实际料号证明，也不能当成可直接替换的电气方案。

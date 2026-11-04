@@ -477,6 +477,44 @@
       "productName": "Bsize BoT Talk（美国版）",
       "category": "wearables",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "usi",
+      "role": "connectivity",
+      "relationship": "candidate",
+      "component": "水族设备联网控制与电子整合",
+      "rationale": "环旭公开消费无线与系统整合能力可匹配鱼缸传感、电控和应用连接的工程需求。这里是能力候选，未证实该型号采购关系；水路、生物适配、过滤效果及算法识鱼质量不能由无线模块制造经验直接推出。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "dangbei-aquarium-2s-ultra",
+      "productName": "当贝智能鱼缸 2S Ultra",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "usi",
+      "role": "connectivity",
+      "relationship": "candidate",
+      "component": "像素设备无线控制与电子整合",
+      "rationale": "环旭公开消费电子无线和系统整合能力可用于像素灯的连接、控制与生产测试候选评估。没有H6631实际供货证据，不能把其一般能力视为Govee采用；发光器件、色彩校准及应用AI服务仍需分别核验。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "govee-gaming-pixel-light-h6631",
+      "productName": "Govee Gaming Pixel Light H6631",
+      "category": "lighting",
+      "status": "on_sale"
     }
   ]
 }

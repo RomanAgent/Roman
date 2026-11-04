@@ -461,6 +461,25 @@
       "productName": "Algocare E1 Pro",
       "category": "health-home",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "pch-international",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "像素屏结构及整机产品化",
+      "rationale": "PCH公开产品开发到制造的服务可匹配桌面像素屏外壳、支架、电源与电子装配的产品化需求。未确认与Govee该型号合作，候选关系不证明实际ODM；显示一致性与生成内容体验还需要专项设计和测试。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "govee-gaming-pixel-light-h6631",
+      "productName": "Govee Gaming Pixel Light H6631",
+      "category": "lighting",
+      "status": "on_sale"
     }
   ]
 }

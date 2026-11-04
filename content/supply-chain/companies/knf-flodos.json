@@ -38,9 +38,9 @@
     },
     {
       "id": "s2",
-      "title": "KNF 液体泵产品范围",
-      "url": "https://knf.com/fileadmin/Global_files/Downloads/240131_Product_range_EN_152809.pdf",
-      "note": "官方液体泵系列资料，具体介质、工况和生命周期须按型号确认。",
+      "title": "KNF官方泵型目录：液体泵系列",
+      "url": "https://knf.com/en/ch/solutions/pumps",
+      "note": "2026-11-05改用可打开的官方泵型目录；原240131产品范围PDF已失效。页面液体与气体泵分列，Flodos候选只引用液体系列，具体介质与工况仍需按型号确认。",
       "accessedAt": "2026-11-05"
     },
     {
@@ -48,6 +48,13 @@
       "title": "KNF 微型隔膜泵技术范围",
       "url": "https://knf.com/en/ch/solutions/technology/micro-diaphragm-pumps",
       "note": "用于区分集团微型气泵能力与Flodos液体泵主体，不将气体指标直接用于液体取样。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "s4",
+      "title": "KNF FMM 20 液体计量泵及材料选项",
+      "url": "https://knf.com/en/ch/solutions/pumps/series/diaphragm-liquid-pump-fmm-20",
+      "note": "官方单型号示例，披露单次行程分发与PP/PVDF泵头、EPDM/FFKM阀膜选项；不据此保证全部介质兼容或确认消费品牌采用。",
       "accessedAt": "2026-11-05"
     }
   ],
@@ -75,10 +82,11 @@
     "capability": [
       {
         "title": "从公开系列开始",
-        "text": "官方资料覆盖液体隔膜泵及其系列选项，并提供按应用要求调整的路径。选型应先固定介质、流量、背压、安装方向与工作周期，再读具体型号的数据和材料说明。公开系列范围能证明具备相关技术路线，不能证明某一个标称性能适用于所有液体或管路配置。",
+        "text": "官方目录可逐型号查看液体隔膜泵。以计量系列的单型号为例，页面披露单次行程分发、可调行程量，并列出不同泵头及阀膜材料选项。选型应先固定介质、流量、背压、安装方向与工作周期，再确认具体材料组合；这些公开选项不代表全部配方兼容，也不能把一个型号的性能扩展到整个系列。",
         "sourceIds": [
           "s1",
-          "s2"
+          "s2",
+          "s4"
         ],
         "evidence": "analysis"
       },

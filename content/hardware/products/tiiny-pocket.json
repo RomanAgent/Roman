@@ -460,15 +460,17 @@
       "promptPath": "content/hardware/prompts/tiiny-pocket.txt",
       "referencePaths": [
         "assets/hardware/tiiny-pocket/product.webp",
-        "assets/hardware/tiiny-pocket/reference.webp"
+        "assets/hardware/tiiny-pocket/reference.webp",
+        "assets/hardware/tiiny-pocket/ai-exploded-pre-review.png"
       ],
       "verified": true,
-      "bytes": 1703264,
-      "sha256": "3dcc74c9a3a2ceb4ef978d7f4f9998d0e942071a2d855a08c37d1323eb4a6b2b"
+      "bytes": 1676408,
+      "sha256": "69900dfdd590133e24522553a98fba0da8ae63732b1bbd9794695ebef5aef540"
     }
   ],
   "mediaNotes": [
     "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
+    "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。",
     "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。",
     "源站图片URL请求合理宽度但实际仍返回高分辨率WebP；保留源图，没有自行重采样或修改。"
   ]

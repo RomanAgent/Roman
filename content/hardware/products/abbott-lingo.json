@@ -504,15 +504,17 @@
       "promptPath": "content/hardware/prompts/abbott-lingo.txt",
       "referencePaths": [
         "assets/hardware/abbott-lingo/product.png",
-        "assets/hardware/abbott-lingo/reference.png"
+        "assets/hardware/abbott-lingo/reference.png",
+        "assets/hardware/abbott-lingo/ai-exploded-pre-review.png"
       ],
       "verified": true,
-      "bytes": 1468497,
-      "sha256": "c84dfb124538368e258e9c1e9c8b26f7f34fe72de7bd80906572b831aa979341"
+      "bytes": 1451127,
+      "sha256": "3efbb0e22827f634ac7006ae95c2a9b1ca35baf19924b44a13d627cc2bd8c013"
     }
   ],
   "mediaNotes": [
     "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
+    "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。",
     "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。"
   ]
 }

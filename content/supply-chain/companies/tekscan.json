@@ -229,5 +229,24 @@
       }
     ]
   },
-  "relatedProducts": []
+  "relatedProducts": [
+    {
+      "supplierId": "tekscan",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "整垫压力感知方案候选",
+      "rationale": "Tekscan提供FlexiForce器件、信号调理条件和定制压力感知能力，可用于整垫方案论证；单点A201并不等于现成瑜伽垫阵列，需要另做布置、采样与标定。YogiFi没有披露采用该公司，本关联不代表真实器件或AI模型来源。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s3"
+      ],
+      "productId": "yogifi-smart-mat-gen3",
+      "productName": "YogiFi Smart Mat Gen3",
+      "category": "sports",
+      "status": "on_sale"
+    }
+  ]
 }

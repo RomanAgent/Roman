@@ -504,6 +504,25 @@
     },
     {
       "supplierId": "jabil",
+      "role": "manufacturing",
+      "relationship": "candidate",
+      "component": "光学采集电子与整机测试",
+      "rationale": "捷普公开电子系统制造和测试能力可对应光学采集、连接及整机质量流程的候选需求。未确认Dekoda实际制造关系，不能将通用能力当已采用BOM，也不以该候选支持任何算法准确性、临床用途或隐私安全保证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "kohler-dekoda",
+      "productName": "Kohler Health Dekoda",
+      "category": "health-home",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
       "role": "engineering",
       "component": "同类AI NAS的电子与系统集成候选",
       "rationale": "捷普公开电子和系统工程制造能力，可作为同类存储主板、机壳、热管理和生命周期支持的项目询证入口，但具体个人设备项目、规模和交付范围需确认。没有UGREEN点名合作证据，候选不意味着本机代工关系，也不提供UGOS或Uliya软件权利及完整BOM。",

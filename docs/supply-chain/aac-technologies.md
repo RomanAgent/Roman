@@ -166,6 +166,8 @@
 
 - [Tobii Dynavox TD Pilot派乐（TD Talk AI音色方案）](../hardware/td-pilot.md) — **能力候选 · 非已采用** / 同类个人沟通基座的扬声器与声学集成候选：瑞声公开声学器件与系统集成能力，可研究同类沟通基座在不同朝向和环境中的声音输出，但需结合外壳、功耗、放大接口和可懂度测试。未发现TD Pilot点名采用证据，此链接不涉及其眼控算法、AI音色许可或平板内部，也不能由器件能力承诺交流效果。
 
+- [ClearCaptions Home Phone](../hardware/clearcaptions-home-phone.md) — **能力候选 · 非已采用** / 同类家庭字幕电话的听筒及扬声器候选：瑞声公开扬声器、耳机单元和声学仿真整机调试能力，可研究相近电话听筒与机身声音设计，但须以真实结构和通话任务验证。未核到ClearCaptions采用证据，候选不代表已经供应，也不提供其ASR服务或保证某类听力条件下的效果，不能从一般声学产品推定原机BOM。
+
 ## 来源
 
 - [瑞声科技集团介绍](<https://www.aactechnologies.com/aboutUs/understandPage>)：已打开，支持主要业务与集团定位。

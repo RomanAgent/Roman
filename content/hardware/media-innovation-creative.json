@@ -65,7 +65,7 @@
       {
         "kind": "product",
         "path": "assets/hardware/zwo-seestar-s30-pro/product.jpg",
-        "sourceUrl": "https://www.seestar.com/products/seestar-s30-pro",
+        "sourceUrl": "https://us.seestar.com/products/seestar-s30-pro",
         "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0756/5728/1827/files/s30_pro_main.jpg?v=1776933982&width=1600",
         "caption": "ZWO Seestar S30 Pro 官方产品图",
         "alt": "ZWO Seestar S30 Pro 官方产品图",
@@ -76,7 +76,7 @@
       {
         "kind": "reference",
         "path": "assets/hardware/zwo-seestar-s30-pro/reference.jpg",
-        "sourceUrl": "https://www.seestar.com/products/seestar-s30-pro",
+        "sourceUrl": "https://us.seestar.com/products/seestar-s30-pro",
         "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0756/5728/1827/files/S30Pro-4.jpg?v=1772516860&width=1600",
         "caption": "ZWO Seestar S30 Pro 官方外观与使用参考图",
         "alt": "ZWO Seestar S30 Pro 官方外观与使用参考图",
@@ -86,7 +86,8 @@
       }
     ],
     "notes": [
-      "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
+      "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。",
+      "2026-11-05修正产品来源入口为美国官方站，避免www地域跳转404；原图URL与11月4日图像核验日期保留。"
     ]
   },
   {
@@ -758,6 +759,156 @@
     ],
     "notes": [
       "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "xvic-putting-view",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/xvic-putting-view/product.webp",
+        "sourceUrl": "https://en.myxvic.com/shop_view/?idx=181",
+        "sourceImageUrl": "https://cdn-optimized.imweb.me/upload/S20230613de758e6f021ec/b5c9b1ed5ce39.jpg?w=750",
+        "caption": "Putting View 官方包装与不同显示状态参考（不表示多台标配）",
+        "alt": "Putting View 官方包装与不同显示状态参考（不表示多台标配）",
+        "credit": "xVic · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/xvic-putting-view/reference.webp",
+        "sourceUrl": "https://en.myxvic.com/shop_view/?idx=181",
+        "sourceImageUrl": "https://cdn-optimized.imweb.me/upload/S20230613de758e6f021ec/079a6f9858a83.jpg?w=750",
+        "caption": "Putting View 官方握柄安装与侧按钮实拍（推杆另备）",
+        "alt": "Putting View 官方握柄安装与侧按钮实拍（推杆另备）",
+        "credit": "xVic · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "equestic-saddleclip",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/equestic-saddleclip/product.webp",
+        "sourceUrl": "https://www.equestic.com/product/clip/",
+        "sourceImageUrl": "https://d22mkucgvptwps.cloudfront.net/wp-content/uploads/2020/05/Equestic-SaddleClip-4.webp",
+        "caption": "Equestic SaddleClip Classic 官方产品图",
+        "alt": "Equestic SaddleClip Classic 官方产品图",
+        "credit": "Equestic / Smart Horse Technologies · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/equestic-saddleclip/reference.jpg",
+        "sourceUrl": "https://www.equestic.com/saddle-clip/",
+        "sourceImageUrl": "https://d22mkucgvptwps.cloudfront.net/wp-content/uploads/2023/11/2-EQ-on-saddle-to-ride-scaled.jpg",
+        "caption": "Equestic Classic 官方鞍侧安装参考（马鞍非标配）",
+        "alt": "Equestic Classic 官方鞍侧安装参考（马鞍非标配）",
+        "credit": "Equestic / Smart Horse Technologies · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "yogifi-smart-mat-gen3",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/yogifi-smart-mat-gen3/product.png",
+        "sourceUrl": "https://us.yogifismart.com/products/yogifi-gen3",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0815/0119/2404/files/38_ec1f2e7b-e8fe-412c-bb83-50124956485e.png?v=1773643945&width=1400",
+        "caption": "YogiFi Gen3 Dark Gray 官方半展开产品图",
+        "alt": "YogiFi Gen3 Dark Gray 官方半展开产品图",
+        "credit": "YogiFi · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/yogifi-smart-mat-gen3/reference.png",
+        "sourceUrl": "https://us.yogifismart.com/products/yogifi-gen3",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0815/0119/2404/files/39_dc65fb02-9933-42cb-8e4e-722affa4581e.png?v=1773643945&width=1400",
+        "caption": "YogiFi Gen3 官方控制条与充电实物参考",
+        "alt": "YogiFi Gen3 官方控制条与充电实物参考",
+        "credit": "YogiFi · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "pfaff-creative-icon-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/pfaff-creative-icon-2/product.jpg",
+        "sourceUrl": "https://europe.singer.com/en-dk/products/pfaff-creative-icon-2-sewing-and-embroidery-machine",
+        "sourceImageUrl": "https://europe.singer.com/cdn/shop/files/911de48cec33d601a41bd0723e589812f2be402e_16e9d779-b51e-494a-8128-e9632f731afd.jpg?v=1738336308&width=720",
+        "caption": "PFAFF creative icon 2 官方产品图",
+        "alt": "PFAFF creative icon 2 官方产品图",
+        "credit": "PFAFF / SVP Worldwide · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/pfaff-creative-icon-2/reference.jpg",
+        "sourceUrl": "https://europe.singer.com/en-dk/products/pfaff-creative-icon-2-sewing-and-embroidery-machine",
+        "sourceImageUrl": "https://europe.singer.com/cdn/shop/files/knbikgkwba6v0y3qbweu_ecd0aa15-61bb-49a2-83fe-5e695b446456.jpg?v=1738336308&width=720",
+        "caption": "PFAFF creative icon 2 官方屏幕与联网设计场景（电脑手机另备）",
+        "alt": "PFAFF creative icon 2 官方屏幕与联网设计场景（电脑手机另备）",
+        "credit": "PFAFF / SVP Worldwide · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "brother-aveneer-ev1",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/brother-aveneer-ev1/product.jpg",
+        "sourceUrl": "https://www.brother-usa.com/p/sewing-embroidery/EV1",
+        "sourceImageUrl": "https://assets.brother.com/transform/4b54646d-25e8-4449-93e8-54f1e2a05824/21282_Aveneer_15692_NE_Disney_Front_w-jpg?io=transform%3Afit%2Cwidth%3A1200",
+        "caption": "Brother基础EV1官方产品图（地区内置图案及附件以当地订单为准）",
+        "alt": "Brother基础EV1官方产品图（地区内置图案及附件以当地订单为准）",
+        "credit": "Brother · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/brother-aveneer-ev1/reference.jpg",
+        "sourceUrl": "https://www.brother-usa.com/p/sewing-embroidery/EV1",
+        "sourceImageUrl": "https://assets.brother.com/transform/a36c1fe5-2935-49cb-8471-d0f15b4b94f7/21441_Machine_02_B_0086846x846-jpg?io=transform%3Afit%2Cwidth%3A1000",
+        "caption": "Brother基础EV1官方刺绣工作场景（厂商作品，非本站效果实测）",
+        "alt": "Brother基础EV1官方刺绣工作场景（厂商作品，非本站效果实测）",
+        "credit": "Brother · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留原厂图像原貌；只对应基础EV1，不以EV1LE或升级包替代。"
     ]
   }
 ]

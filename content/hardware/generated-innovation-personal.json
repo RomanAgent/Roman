@@ -237,13 +237,15 @@
         "promptPath": "content/hardware/prompts/esper-hand-2.txt",
         "referencePaths": [
           "assets/hardware/esper-hand-2/product.jpg",
-          "assets/hardware/esper-hand-2/reference.png"
+          "assets/hardware/esper-hand-2/reference.png",
+          "assets/hardware/esper-hand-2/ai-exploded-pre-review.png"
         ],
         "verified": true
       }
     ],
     "notes": [
-      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。"
+      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。",
+      "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。"
     ]
   },
   {
@@ -259,13 +261,15 @@
         "promptPath": "content/hardware/prompts/dot-pad-x.txt",
         "referencePaths": [
           "assets/hardware/dot-pad-x/product.png",
-          "assets/hardware/dot-pad-x/reference.png"
+          "assets/hardware/dot-pad-x/reference.png",
+          "assets/hardware/dot-pad-x/ai-exploded-pre-review.png"
         ],
         "verified": true
       }
     ],
     "notes": [
-      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。"
+      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。",
+      "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。"
     ]
   },
   {
@@ -352,14 +356,16 @@
         "referencePaths": [
           "assets/hardware/withings-beamo/ai-exploded-draft.png",
           "assets/hardware/withings-beamo/product.jpg",
-          "assets/hardware/withings-beamo/reference.jpg"
+          "assets/hardware/withings-beamo/reference.jpg",
+          "assets/hardware/withings-beamo/ai-exploded-pre-review.png"
         ],
         "verified": true
       }
     ],
     "notes": [
       "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
-      "初稿少量蓝色显示/接口已用内置ImageGen改为中性灰阶；初稿与完整修订提示词保留。"
+      "初稿少量蓝色显示/接口已用内置ImageGen改为中性灰阶；初稿与完整修订提示词保留。",
+      "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。"
     ]
   },
   {
@@ -375,13 +381,15 @@
         "promptPath": "content/hardware/prompts/abbott-lingo.txt",
         "referencePaths": [
           "assets/hardware/abbott-lingo/product.png",
-          "assets/hardware/abbott-lingo/reference.png"
+          "assets/hardware/abbott-lingo/reference.png",
+          "assets/hardware/abbott-lingo/ai-exploded-pre-review.png"
         ],
         "verified": true
       }
     ],
     "notes": [
-      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。"
+      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
+      "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。"
     ]
   },
   {
@@ -398,14 +406,16 @@
         "referencePaths": [
           "assets/hardware/ugreen-idx6011/ai-exploded-draft.png",
           "assets/hardware/ugreen-idx6011/product.png",
-          "assets/hardware/ugreen-idx6011/reference.jpg"
+          "assets/hardware/ugreen-idx6011/reference.jpg",
+          "assets/hardware/ugreen-idx6011/ai-exploded-pre-review.png"
         ],
         "verified": true
       }
     ],
     "notes": [
       "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
-      "初稿少量蓝色显示/接口已用内置ImageGen改为中性灰阶；初稿与完整修订提示词保留。"
+      "初稿少量蓝色显示/接口已用内置ImageGen改为中性灰阶；初稿与完整修订提示词保留。",
+      "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。"
     ]
   },
   {
@@ -421,13 +431,15 @@
         "promptPath": "content/hardware/prompts/tiiny-pocket.txt",
         "referencePaths": [
           "assets/hardware/tiiny-pocket/product.webp",
-          "assets/hardware/tiiny-pocket/reference.webp"
+          "assets/hardware/tiiny-pocket/reference.webp",
+          "assets/hardware/tiiny-pocket/ai-exploded-pre-review.png"
         ],
         "verified": true
       }
     ],
     "notes": [
-      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。"
+      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
+      "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。"
     ]
   },
   {
@@ -451,6 +463,172 @@
     ],
     "notes": [
       "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。"
+    ]
+  },
+  {
+    "id": "habitaware-keen3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/habitaware-keen3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "HabitAware habitaware-keen3灰阶概念功能结构图，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/habitaware-keen3.txt",
+        "referencePaths": [
+          "assets/hardware/habitaware-keen3/product.png",
+          "assets/hardware/habitaware-keen3/reference.png",
+          "assets/hardware/habitaware-keen3/reference-charger.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文本和数据路径；未知内部为概念模块，不代表实际拆机、完整BOM或医疗效果。"
+    ]
+  },
+  {
+    "id": "apollo-smartvibes",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/apollo-smartvibes/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Apollo Neuro apollo-smartvibes灰阶概念功能结构图，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/apollo-smartvibes.txt",
+        "referencePaths": [
+          "assets/hardware/apollo-smartvibes/product.png",
+          "assets/hardware/apollo-smartvibes/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文本和数据路径；未知内部为概念模块，不代表实际拆机、完整BOM或医疗效果。"
+    ]
+  },
+  {
+    "id": "braillesense-7-32",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/braillesense-7-32/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "SELVAS Healthcare / HIMS braillesense-7-32灰阶概念功能结构图，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/braillesense-7-32.txt",
+        "referencePaths": [
+          "assets/hardware/braillesense-7-32/ai-exploded-draft.png",
+          "assets/hardware/braillesense-7-32/product.jpg",
+          "assets/hardware/braillesense-7-32/reference.jpg",
+          "assets/hardware/braillesense-7-32/reference-side.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文本和数据路径；未知内部为概念模块，不代表实际拆机、完整BOM或医疗效果。",
+      "初稿外壳重复画出已分离的按键和盲文层，已用ImageGen改为空开口；初稿及两阶段提示词保留。"
+    ]
+  },
+  {
+    "id": "ossur-power-knee",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ossur-power-knee/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Össur ossur-power-knee灰阶概念功能结构图，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/ossur-power-knee.txt",
+        "referencePaths": [
+          "assets/hardware/ossur-power-knee/ai-exploded-initial.png",
+          "assets/hardware/ossur-power-knee/product.png",
+          "assets/hardware/ossur-power-knee/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文本和数据路径；未知内部为概念模块，不代表实际拆机、完整BOM或医疗效果。",
+      "独立复查后使用ImageGen修订，局部标明概念内部；初稿与完整两阶段提示词保留。",
+      "驱动与感知控制改为抽象封装概念块，不虚构皮带、齿轮和PCB布局；只展示膝单元。"
+    ]
+  },
+  {
+    "id": "sunrise-home-sleep-test",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/sunrise-home-sleep-test/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Sunrise sunrise-home-sleep-test灰阶概念功能结构图，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/sunrise-home-sleep-test.txt",
+        "referencePaths": [
+          "assets/hardware/sunrise-home-sleep-test/ai-exploded-initial.png",
+          "assets/hardware/sunrise-home-sleep-test/product.png",
+          "assets/hardware/sunrise-home-sleep-test/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文本和数据路径；未知内部为概念模块，不代表实际拆机、完整BOM或医疗效果。",
+      "独立复查后使用ImageGen修订，局部标明概念内部；初稿与完整两阶段提示词保留。",
+      "内部电子层改为明确概念板，并将无线图标修正为Bluetooth；无针、无充电底座，保留一次性测试属性。"
+    ]
+  },
+  {
+    "id": "cionic-neural-sleeve-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/cionic-neural-sleeve-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Cionic cionic-neural-sleeve-2灰阶概念功能结构图，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/cionic-neural-sleeve-2.txt",
+        "referencePaths": [
+          "assets/hardware/cionic-neural-sleeve-2/product.jpg",
+          "assets/hardware/cionic-neural-sleeve-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、标签和功能边界；未知内部采用明确标注的抽象概念块，非真实拆机或已披露BOM。",
+      "软织物电刺激套袖不画成电机假肢；接触界面、控制与供电为概念功能层，不披露或指导电极布置和刺激参数。"
+    ]
+  },
+  {
+    "id": "clearcaptions-home-phone",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/clearcaptions-home-phone/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ClearCaptions clearcaptions-home-phone灰阶概念功能结构图，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/clearcaptions-home-phone.txt",
+        "referencePaths": [
+          "assets/hardware/clearcaptions-home-phone/product.png",
+          "assets/hardware/clearcaptions-home-phone/reference-scene.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、标签和功能边界；未知内部采用明确标注的抽象概念块，非真实拆机或已披露BOM。",
+      "root独立生成并视觉复核，本代理复看通过；远端ASR/AI及可能人工辅助单独标注，没有全本地识别或免费零售承诺。"
     ]
   }
 ]

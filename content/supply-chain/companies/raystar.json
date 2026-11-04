@@ -404,6 +404,25 @@
       "productName": "Dex Language Discovery Camera",
       "category": "education",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "raystar",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "圆形小屏反馈候选",
+      "rationale": "Raystar具备小尺寸显示及定制集成能力，可用于评估握柄端直接反馈的屏幕路线；具体圆形尺寸、可读性和功耗必须另核。厂商没有点名其供应Putting View，本关联只是开发选型方向，不能当作实际面板来源。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "xvic-putting-view",
+      "productName": "xVic Putting View",
+      "category": "sports",
+      "status": "on_sale"
     }
   ]
 }

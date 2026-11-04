@@ -4,9 +4,9 @@
   "brand": "Dot",
   "category": "accessibility",
   "tagline": "把文档和图形转成可刷新的触觉与盲文输出",
-  "officialUrl": "https://www.dotincorp.com/en/product/dotpadx",
+  "officialUrl": "https://blog.dotincorp.com/introducing-the-dot-pad-x",
   "status": "on_sale",
-  "statusEvidence": "当前Dot Pad X官网提供经销入口，官方FAQ明确个人也可联系购买；按个人询价零售登记，不把演示申请或软件商店当作硬件订单。",
+  "statusEvidence": "当前官网FAQ仍明确个人询价购买；SELVAS BLV具体Dot Pad X页面提供报价和下单联系。旧X产品路径实际浏览器报错，已改用仍可打开的官方型号介绍、2026手册和资源页，不据失效链接判断停售。",
   "regions": [
     "官方个人询价与经销商网络；交付地区需报价确认"
   ],
@@ -21,7 +21,7 @@
   "ai": {
     "type": "hybrid",
     "description": "配套Dot Vista通过Windows AI能力把视觉文档转成触觉、盲文和音频；官方服务说明包括视觉识别与语言模型摘要。",
-    "dependency": "AI工作流依赖兼容Copilot+ PC、Windows软件和相应接口；触觉显示器本身不等于内置完整AI模型，部分其他Dot应用仍未开放。"
+    "dependency": "AI工作流依赖兼容Copilot+ PC、Windows软件和相应接口；触觉显示器本身不等于内置完整AI模型，具体读屏与应用兼容按当前手册核对。"
   },
   "audience": "consumer",
   "saleMode": "retail",
@@ -64,15 +64,16 @@
   ],
   "sources": [
     {
-      "title": "Dot Pad X官方产品页",
-      "url": "https://www.dotincorp.com/en/product/dotpadx",
+      "title": "Dot Pad X官方现行DPA320X手册",
+      "url": "https://www.dotincorp.com/guide/resources/products/DPA320X-UserManual-English.docx",
       "kind": "official-spec",
       "supports": [
-        "status",
+        "model",
         "technology",
-        "images"
+        "architecture",
+        "compatibility"
       ],
-      "note": "已打开：300单元图形区、20单元盲文行、控制键、USB-C/BLE和经销入口；非LCD屏幕。"
+      "note": "2026-11-05从当前官网Resources导航实际找到并GET200读取，资源页列2026-06-25更新；明确X型号、300/20单元、六控制键、USB-C与BLE。旧/en/product/dotpadx当前实际报错，未用旧A型号价格规格替代。"
     },
     {
       "title": "Dot官方FAQ：个人购买",
@@ -108,15 +109,36 @@
       "note": "已打开：软件已在Microsoft Store提供，使用Windows AI APIs并要求Copilot+ PC；不把未来应用当已发布。"
     },
     {
-      "title": "Dot Pad X当前资源与应用",
-      "url": "https://www.dotincorp.com/en/resources/dotpadx",
+      "title": "Dot官方当前资源总页",
+      "url": "https://www.dotincorp.com/en/resources",
       "kind": "official-spec",
       "supports": [
         "model",
         "software",
-        "compatibility"
+        "support"
       ],
-      "note": "已打开当前资源；Dot Book等仍有Coming soon，不能把整个应用生态都写成已可用。"
+      "note": "2026-11-05实际浏览器与公开GET核到有效页，列DPA320X手册、保修和软件操作指南。替换失效/en/resources/dotpadx；不继续沿用该旧子页的应用发布状态。"
+    },
+    {
+      "title": "Dot官方Meet the Dot Pad X型号介绍",
+      "url": "https://blog.dotincorp.com/introducing-the-dot-pad-x",
+      "kind": "official-spec",
+      "supports": [
+        "model",
+        "technology"
+      ],
+      "note": "已打开并核GET200的厂家型号介绍；作为当前可访问入口，文章内指向失效旧产品路径的链接不再用于跳转。"
+    },
+    {
+      "title": "SELVAS BLV Dot Pad X当前下单渠道",
+      "url": "https://selvasblv.com/product/dot-pad-x/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "purchase",
+        "model"
+      ],
+      "note": "已打开具体Dot Pad X页面，明确联系获取价格并下单；不同页面尺寸或软件兼容口径不拼接，型号结构以Dot现行手册为准。"
     }
   ],
   "analysis": {
@@ -135,9 +157,9 @@
     "sources": [
       {
         "id": "s1",
-        "title": "Dot Pad X官方产品页",
-        "url": "https://www.dotincorp.com/en/product/dotpadx",
-        "note": "已打开：300单元图形区、20单元盲文行、控制键、USB-C/BLE和经销入口；非LCD屏幕。"
+        "title": "Dot Pad X官方现行DPA320X手册",
+        "url": "https://www.dotincorp.com/guide/resources/products/DPA320X-UserManual-English.docx",
+        "note": "2026-11-05从当前官网Resources导航实际找到并GET200读取，资源页列2026-06-25更新；明确X型号、300/20单元、六控制键、USB-C与BLE。旧/en/product/dotpadx当前实际报错，未用旧A型号价格规格替代。"
       },
       {
         "id": "s2",
@@ -159,9 +181,21 @@
       },
       {
         "id": "s5",
-        "title": "Dot Pad X当前资源与应用",
-        "url": "https://www.dotincorp.com/en/resources/dotpadx",
-        "note": "已打开当前资源；Dot Book等仍有Coming soon，不能把整个应用生态都写成已可用。"
+        "title": "Dot官方当前资源总页",
+        "url": "https://www.dotincorp.com/en/resources",
+        "note": "2026-11-05实际浏览器与公开GET核到有效页，列DPA320X手册、保修和软件操作指南。替换失效/en/resources/dotpadx；不继续沿用该旧子页的应用发布状态。"
+      },
+      {
+        "id": "s6",
+        "title": "Dot官方Meet the Dot Pad X型号介绍",
+        "url": "https://blog.dotincorp.com/introducing-the-dot-pad-x",
+        "note": "已打开并核GET200的厂家型号介绍；作为当前可访问入口，文章内指向失效旧产品路径的链接不再用于跳转。"
+      },
+      {
+        "id": "s7",
+        "title": "SELVAS BLV Dot Pad X当前下单渠道",
+        "url": "https://selvasblv.com/product/dot-pad-x/",
+        "note": "已打开具体Dot Pad X页面，明确联系获取价格并下单；不同页面尺寸或软件兼容口径不拼接，型号结构以Dot现行手册为准。"
       }
     ],
     "dimensions": {
@@ -228,14 +262,14 @@
       ],
       "competition": [
         {
-          "title": "官方｜当前X与旧款及未来软件分开",
+          "title": "官方｜当前X型号与旧款资料分开",
           "evidence": "official",
           "sourceIds": [
             "s1",
             "s4",
             "s5"
           ],
-          "text": "本条对应Dot Pad X，不沿用旧Dot Pad的历史售价作为现价。Dot Vista已有官方发布说明，而资源页中部分应用仍标示即将推出；硬件能连接电脑不代表每种文档软件和功能已开放，也不能把可下载的其他AI代理程序当作已经核实与本型号兼容的功能。"
+          "text": "本条对应Dot Pad X，不沿用旧Dot Pad的历史售价作为现价。当前有效官方资源列出X型号手册，Dot Vista也有独立发布说明；旧产品子页失效不等于设备停售，具体读屏、电脑和应用兼容仍应按相应文档核对，不能把可下载的其他AI程序都算作本款已支持功能。"
         },
         {
           "title": "判断｜与朗读和单行盲文形成不同取舍",
@@ -266,7 +300,7 @@
             "s3",
             "s4"
           ],
-          "text": "官方公开Dot Actuator技术、图形区和盲文行布局，以及USB-C和BLE连接。AI文档处理主要在兼容电脑的软件流程中完成，内部控制器、驱动细节与代工厂没有完整披露；不能把电脑的处理平台写成显示器芯片，也不能由可见点阵猜测专利机构或完整BOM。"
+          "text": "官方现行手册公开图形区、盲文行、点阵功能和USB-C及BLE连接，AI文档处理主要在兼容电脑的软件流程中完成。具体控制器料号、驱动细节与代工厂没有完整披露；不能把电脑的处理平台写成显示器芯片，也不能由可见点阵猜测专利机构或完整BOM。"
         },
         {
           "title": "判断｜稳定触感和内容接口都不可缺少",
@@ -356,7 +390,7 @@
             "s4",
             "s5"
           ],
-          "text": "官网提供个人购买路径，但Dot Vista对电脑和软件环境有具体要求，其他应用也存在尚未发布的状态。硬件售后、培训、区域语言与配送条件仍须报价确认；不能把国际经销网络概括成中国大陆官方支持，更不能用旧型号价格承诺整套可用系统的成本。"
+          "text": "官网FAQ和具体经销页面提供个人购买路径，但Dot Vista对电脑和软件环境有具体要求，应用兼容仍须按当前手册核实。硬件售后、培训、区域语言与配送条件也须报价确认；不能把国际经销网络概括成中国大陆官方支持，更不能用旧型号价格承诺整套可用系统的成本。"
         },
         {
           "title": "判断｜错误摘要可能在触觉层被信任",
@@ -459,7 +493,7 @@
     {
       "kind": "product",
       "path": "assets/hardware/dot-pad-x/product.png",
-      "sourceUrl": "https://www.dotincorp.com/en/product/dotpadx",
+      "sourceUrl": "https://www.dotincorp.com/image/product/dotpadx__section1-img.png",
       "sourceImageUrl": "https://www.dotincorp.com/image/product/dotpadx__section1-img.png",
       "caption": "Dot Pad X官方斜向全机图，显示触觉图形区与盲文行",
       "alt": "Dot Pad X官方斜向全机图，显示触觉图形区与盲文行",
@@ -472,7 +506,7 @@
     {
       "kind": "official-structure",
       "path": "assets/hardware/dot-pad-x/reference.png",
-      "sourceUrl": "https://www.dotincorp.com/en/product/dotpadx",
+      "sourceUrl": "https://www.dotincorp.com/image/product/dotpadx__section5-device.png",
       "sourceImageUrl": "https://www.dotincorp.com/image/product/dotpadx__section5-device.png",
       "caption": "Dot Pad X官方正面控制区域标识；非内部拆机",
       "alt": "Dot Pad X官方正面控制区域标识；非内部拆机",
@@ -492,16 +526,18 @@
       "promptPath": "content/hardware/prompts/dot-pad-x.txt",
       "referencePaths": [
         "assets/hardware/dot-pad-x/product.png",
-        "assets/hardware/dot-pad-x/reference.png"
+        "assets/hardware/dot-pad-x/reference.png",
+        "assets/hardware/dot-pad-x/ai-exploded-pre-review.png"
       ],
       "verified": true,
-      "bytes": 1781501,
-      "sha256": "4b6f639649ff5e5b03a64c7f8a9db60d2348eb22e0a724e2cce3b0ea7b3946e1"
+      "bytes": 1872991,
+      "sha256": "719dbe03d09b1df84bdeea070d4c6a55c8a8fe6b51cee3ff330d39052f756f29"
     }
   ],
   "mediaNotes": [
     "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。",
+    "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。",
     "来源图片已逐张实际查看，确认具体型号；保留原图，不改色裁切。图片不能证明内部BOM、疗效或所有配置可售。",
-    "网页内容经官方页面读取核验，静态图片公开下载成功；橙色控制区域框为厂家原图标识。"
+    "2026-11-05实际浏览器确认原图片采集网页 https://www.dotincorp.com/en/product/dotpadx 已不可打开；原厂图片资产仍GET200，因此源入口直接指向原厂原图以保留可访问溯源，未伪称新页面发布了这些图片。当前型号依据见 https://www.dotincorp.com/guide/resources/products/DPA320X-UserManual-English.docx 与 https://blog.dotincorp.com/introducing-the-dot-pad-x。"
   ]
 }

@@ -264,6 +264,24 @@
       "productName": "TapXR",
       "category": "wearables",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "stmicroelectronics",
+      "role": "sensing",
+      "component": "同类动作觉察腕带的惯性输入候选",
+      "rationale": "ST的LSM6DSOX公开惯性测量与嵌入式分类能力，可研究相近腕带的运动、朝向和功耗，但并不包含CoreBFRB行为模型。佩戴方向、目标动作数据和误报都须验证；未发现Keen3点名采用证据，不能据候选推定现机芯片或直接获得对个人重复行为的可靠识别。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "habitaware-keen3",
+      "productName": "HabitAware Keen3",
+      "category": "wearables",
+      "status": "preorder"
     }
   ]
 }

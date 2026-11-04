@@ -2,3 +2,6 @@ Create a polished editorial conceptual exploded hardware diagram for a Chinese c
 
 EDIT PROMPT — neutral grayscale correction
 Edit the supplied conceptual exploded diagram only to make the image fully grayscale. Remove the small blue coloration in display arrows or USB ports, replacing it with neutral gray. Preserve all geometry, exact labels, module positions, title, small assembled reference and the AI CONCEPT · NOT A TEARDOWN disclaimer. Do not add or remove hardware or text. Do not add specifications, numeric performance, battery capacities, chip part numbers, or marketing claims. White background, grayscale only.
+
+EDIT PROMPT — independent review conceptual labeling
+Edit this existing grayscale AI concept diagram only to make uncertainty about its internal drawing explicit. Preserve the exact external silhouette, assembled reference, functional labels, actual AI location/workflow, white background, and the existing AI CONCEPT · NOT A TEARDOWN footer. Add a clear legible annotation connected to the internal electronics: 'CONCEPTUAL INTERNALS' and below it 'Board layout not verified'. Do not imply the displayed chip counts, traces, board shape or component positions were taken from a real teardown. Keep the diagram useful and uncluttered. No new specifications, components, medical claims or symbols.

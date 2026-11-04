@@ -591,6 +591,44 @@
       "productName": "Abbott Lingo（AI餐照记录方案）",
       "category": "health-home",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "nordic-semiconductor",
+      "role": "connectivity",
+      "component": "同类触觉反馈设备的低功耗连接候选",
+      "rationale": "Nordic低功耗无线平台可研究App到触觉控制器的指令、同步与断连恢复，需核对实际协议、固件和电源约束。没有Apollo采用来源，也不包含SmartVibes模式学习和第三方账户服务；此链接仅是相近新设计连接层候选，不代表本机芯片或全部AI可离线运行。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "apollo-smartvibes",
+      "productName": "Apollo Wearable + SmartVibes AI",
+      "category": "wearables",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "nordic-semiconductor",
+      "role": "connectivity",
+      "component": "同类单夜贴附记录器的BLE数据链候选",
+      "rationale": "Nordic低功耗无线平台可研究单夜运动数据的Bluetooth传输、缓冲与断连恢复，需结合封装、电源和手机兼容验证。没有本产品采用来源，也不提供Sunrise的云分析与医疗解释；候选只对应相近新设计通信层，不意味着普通开发板即可成为个人睡眠检测设备。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s4",
+        "s5"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "sunrise-home-sleep-test",
+      "productName": "Sunrise 家用下颌运动睡眠测试",
+      "category": "health-home",
+      "status": "on_sale"
     }
   ]
 }

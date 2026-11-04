@@ -225,5 +225,24 @@
       }
     ]
   },
-  "relatedProducts": []
+  "relatedProducts": [
+    {
+      "supplierId": "interlink-electronics",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "柔性压力器件与定制布置候选",
+      "rationale": "Interlink的FSR系列和定制传感服务可作为柔性垫面接触采集的候选路线，但迟滞、负载面积、弯折和长期漂移需在整垫条件验证。其器件不能直接等同体式模型，品牌也未点名采用，故仅登记能力匹配。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s3"
+      ],
+      "productId": "yogifi-smart-mat-gen3",
+      "productName": "YogiFi Smart Mat Gen3",
+      "category": "sports",
+      "status": "on_sale"
+    }
+  ]
 }

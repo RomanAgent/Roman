@@ -357,6 +357,81 @@
       "supplierId": "bosch-sensortec",
       "role": "sensing",
       "relationship": "candidate",
+      "component": "小型推杆运动感知候选",
+      "rationale": "Bosch Sensortec的惯性运动感知能力可作为握柄运动输入的工程候选，但实际传感类型和算法并未由xVic披露，安装方向与微小动作需专门验证。此链接不代表Putting View采用该品牌器件，也不推断真实精度。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "xvic-putting-view",
+      "productName": "xVic Putting View",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bosch-sensortec",
+      "role": "sensing",
+      "component": "同类个人动力关节的惯性输入候选",
+      "rationale": "Bosch Sensortec公开智能惯性平台，可研究相近关节控制中的运动和姿态输入，但实际动态范围、安装、时序与系统验证不能省略。没有Power Knee采用证据，也不包含其个人控制模型和专业配置；一般运动感知能力不能推定可直接替换假肢传感器或保证行走安全。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s3",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "ossur-power-knee",
+      "productName": "Össur Power Knee 盘古主动力膝关节",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bosch-sensortec",
+      "role": "sensing",
+      "component": "同类下颌运动记录器的惯性输入研究",
+      "rationale": "Bosch Sensortec公开智能惯性传感平台，可研究相近小型贴附设备的运动、方向和低功耗输入，但实际下颌微动作、安装与噪声条件需专项验证。未发现Sunrise点名采用证据，通用动作感知不包含其睡眠分类模型，也不能由芯片能力推定检测有效或可直接替换原设备。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2",
+        "s5"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "sunrise-home-sleep-test",
+      "productName": "Sunrise 家用下颌运动睡眠测试",
+      "category": "health-home",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bosch-sensortec",
+      "role": "sensing",
+      "component": "同类软套袖的动作输入候选",
+      "rationale": "Bosch Sensortec智能惯性平台可供相近穿戴设计研究动作和姿态输入，但Cionic当前页面未点名具体传感器或全部信号模态，不能据此确认采用。实际安装、织物变形和动作噪声必须验证，候选也不包含MultiStim算法、电刺激安全控制或产品适配资质。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "cionic-neural-sleeve-2",
+      "productName": "Cionic Neural Sleeve 2",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bosch-sensortec",
+      "role": "sensing",
+      "relationship": "candidate",
       "component": "动作与状态采集器件候选",
       "rationale": "Bosch Sensortec公开动作感知器件可作为新佩戴方案的输入研究入口。它只能支持相关模块选型，不能由运动器件能力推断呼吸或心率等完整指标，更不能认定Maven实际采用；需在动物佩戴和完整数据链路中验证。",
       "sourceIds": [

@@ -338,17 +338,19 @@
         "caption": "AI 生成爆炸示意 · 非实物拆机",
         "alt": "Sleepal AI Lamp的功能模块概念爆炸图，内部位置并非实物拆机",
         "credit": "ImageGen · AI生成",
-        "generatedAt": "2026-11-04",
+        "generatedAt": "2026-11-05",
         "promptPath": "content/hardware/prompts/sleepal-ai-lamp.txt",
         "referencePaths": [
-          "assets/hardware/sleepal-ai-lamp/product.png",
-          "assets/hardware/sleepal-ai-lamp/reference.webp"
+          "assets/hardware/sleepal-ai-lamp/ai-exploded-before-processing-fix.png"
         ],
         "verified": true
       }
     ],
     "notes": [
-      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。",
+      "2026-11-05按官网 https://shop.sleepal.ai/ 的本地预处理→云端分析说明，单独修正CONTROL + AUDIO文案为Signal preprocessing, control and audio；保留产品外形、功能模块与云端分析框。",
+      "前版AI图保存在assets/hardware/sleepal-ai-lamp/ai-exploded-before-processing-fix.png，作为本次唯一编辑图像输入；原生成日期2026-11-04，原提示词归档content/hardware/prompts/sleepal-ai-lamp-original.txt。",
+      "原生成真实参考图为assets/hardware/sleepal-ai-lamp/product.png与assets/hardware/sleepal-ai-lamp/reference.webp；本次未修改官方图片。"
     ]
   },
   {
@@ -585,6 +587,72 @@
         "referencePaths": [
           "assets/hardware/bsize-bot-talk-us/product.webp",
           "assets/hardware/bsize-bot-talk-us/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "dangbei-aquarium-2s-ultra",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dangbei-aquarium-2s-ultra/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "当贝智能鱼缸 2S Ultra的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/dangbei-aquarium-2s-ultra.txt",
+        "referencePaths": [
+          "assets/hardware/dangbei-aquarium-2s-ultra/product.jpg",
+          "assets/hardware/dangbei-aquarium-2s-ultra/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "govee-gaming-pixel-light-h6631",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/govee-gaming-pixel-light-h6631/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Govee Gaming Pixel Light H6631的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/govee-gaming-pixel-light-h6631.txt",
+        "referencePaths": [
+          "assets/hardware/govee-gaming-pixel-light-h6631/product.webp",
+          "assets/hardware/govee-gaming-pixel-light-h6631/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "kohler-dekoda",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/kohler-dekoda/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Kohler Health Dekoda的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/kohler-dekoda.txt",
+        "referencePaths": [
+          "assets/hardware/kohler-dekoda/product.png",
+          "assets/hardware/kohler-dekoda/reference.png"
         ],
         "verified": true
       }

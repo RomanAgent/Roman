@@ -162,6 +162,12 @@
 
 - [FightCamp Connect Gen 3](../hardware/fightcamp-connect-gen3.md) — **能力候选 · 非已采用** / 小型追踪器及充电座电池候选：Grepow提供小型与定制电池能力，可作为传感器及便携充电座供电的评估对象；汗水防护、重复充放和接触结构仍须独立设计。实际电池供应方没有披露，不从设备尺寸估计容量或宣称可直接替换。
 
+- [xVic Putting View](../hardware/xvic-putting-view.md) — **能力候选 · 非已采用** / 微型运动附件供电候选：Grepow的小型和定制形状电池能力可用于讨论圆形附件有限空间内的补能方案，但实际电池形状、容量及维护方式未披露。目录只提出能力匹配，不由生成概念图反推产品采用哪种电芯或供应商。
+
+- [Equestic SaddleClip Classic](../hardware/equestic-saddleclip.md) — **能力候选 · 非已采用** / 夹式运动记录供电候选：Grepow提供小型和定制形状电池能力，可作为夹式记录器空间、充电保护与使用周期的评估方向；实际电池布局没有披露。目录不根据壳体大小推算容量，也不将候选公司的能力写成Equestic已采用的方案。
+
+- [YogiFi Smart Mat Gen3](../hardware/yogifi-smart-mat-gen3.md) — **能力候选 · 非已采用** / 边缘控制条电池候选：Grepow的小型定制电池能力可用于评估边缘控制条的空间、充电及保护方案，柔性垫卷起后对电池和线束的影响仍需工程测试。实际供应来源未披露，不从官方外观或生成示意推断YogiFi的容量、形状或采用关系。
+
 - [Maven Pet Health Tracker](../hardware/maven-pet-health-tracker.md) — **能力候选 · 非已采用** / 小型佩戴电池方案候选：Grepow公开定制电池能力可用于新宠物佩戴原型的供电评估，但尺寸、固定、防护、充电与环境要求必须单独确认。电池供应商不承担整机算法或健康效果，本目录也没有Maven现有电池来自该公司的证据。
 
 - [Invoxia Biotracker Edition 2026](../hardware/invoxia-biotracker-2026.md) — **能力候选 · 非已采用** / 小型佩戴设备电池候选：Grepow公开电池定制能力可作为新宠物终端的供电询问入口，仍需确认体积、固定、环境、保护和充电方案。候选电池不能直接用于原机替换，也不承担算法或健康效果，本条未确认Invoxia当前电池供应商。

@@ -28,6 +28,12 @@
 
 > 依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。
 
+> 2026-11-05按官网 https://shop.sleepal.ai/ 的本地预处理→云端分析说明，单独修正CONTROL + AUDIO文案为Signal preprocessing, control and audio；保留产品外形、功能模块与云端分析框。
+
+> 前版AI图保存在assets/hardware/sleepal-ai-lamp/ai-exploded-before-processing-fix.png，作为本次唯一编辑图像输入；原生成日期2026-11-04，原提示词归档content/hardware/prompts/sleepal-ai-lamp-original.txt。
+
+> 原生成真实参考图为assets/hardware/sleepal-ai-lamp/product.png与assets/hardware/sleepal-ai-lamp/reference.webp；本次未修改官方图片。
+
 > 实际查看并核对对应型号，原图未经改色或语义编辑；厂商标注不等同本研究实测。
 
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。

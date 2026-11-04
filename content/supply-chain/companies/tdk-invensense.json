@@ -398,6 +398,25 @@
       "productName": "FightCamp Connect Gen 3",
       "category": "sports",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "tdk-invensense",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "鞍侧运动采集候选",
+      "rationale": "TDK InvenSense具有运动传感与穿戴处理相关能力，可用于评估鞍侧持续运动输入，但安装振动、动态范围与分析算法需要专门验证。Equestic未公开传感器品牌，本关联不能作为实际芯片、精度或采购关系的证明。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "equestic-saddleclip",
+      "productName": "Equestic SaddleClip Classic",
+      "category": "sports",
+      "status": "on_sale"
     }
   ]
 }

@@ -1,0 +1,520 @@
+{
+  "id": "braillesense-7-32",
+  "name": "BrailleSense 7（32-cell）",
+  "brand": "SELVAS BLV / HIMS",
+  "category": "accessibility",
+  "tagline": "把盲文输入、触觉回读和AI文档交互放在同一终端",
+  "officialUrl": "https://selvasblv.com/product/braillesense-7/",
+  "status": "on_sale",
+  "statusEvidence": "当前官方具体型号选择与Buy Now入口、价目表均列32-cell H732B；页面说明32/40单元版本从2026年10月末开始交付，具体库存未实测，不借20单元12月计划冒充现货。",
+  "regions": [
+    "美国和加拿大：SELVAS BLV官方购买/报价",
+    "其他地区经HIMS当地渠道另核"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "未核到32-cell当前大陆订单、中文适配及Gemini服务条件；全球产品资料和语言可能性不等于当地完整交付。"
+  },
+  "price": {
+    "text": "US$5,995（32-cell官方价目）",
+    "note": "北美价目另列US$69运费；维修计划和AI订阅另核。只收一个代表，不按20/32/40单元拆数。"
+  },
+  "ai": {
+    "type": "generative",
+    "description": "官方集成Gemini问答、文档分析和语音输入，配合实体盲文键盘、可刷新盲文及文件编辑；触摸滚动本身不被当作AI。",
+    "dependency": "HIMS披露的Gemini集成服务需有效订阅，内容从设备送Google服务；基础盲文和本地文件功能、第三方AI权益与网络条件须分开。"
+  },
+  "audience": "consumer",
+  "saleMode": "retail",
+  "highlights": [
+    "Perkins盲文输入与触觉回读",
+    "触摸路由和物理滚轮",
+    "Gemini文档与语音交互",
+    "可更换电源和多种外设接口"
+  ],
+  "niche": {
+    "level": "specialist",
+    "reason": "关注盲文使用者自主写作、编辑和AI资料交互，区别于仅输出触觉图形；适配、软件权益和维护成本关键，无效率或学习效果实测。"
+  },
+  "architecture": [
+    {
+      "name": "实体输入",
+      "detail": "Perkins键盘、功能键及可选外接QWERTY处理文字和命令。",
+      "evidence": "official"
+    },
+    {
+      "name": "触觉回读",
+      "detail": "32个可刷新盲文单元配合触摸路由和滚轮。",
+      "evidence": "official"
+    },
+    {
+      "name": "本地计算与文件",
+      "detail": "Android平台和专用应用提供文档处理及外设连接。",
+      "evidence": "official"
+    },
+    {
+      "name": "选配云AI",
+      "detail": "Gemini集成通过有效服务方案处理用户提交内容。",
+      "evidence": "official"
+    },
+    {
+      "name": "供电与共享",
+      "detail": "可更换电池、接口及小型视觉显示支持整体工作流。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "BrailleSense 7北美官方产品与购买入口",
+      "url": "https://selvasblv.com/product/braillesense-7/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "ai",
+        "model",
+        "dependency"
+      ],
+      "note": "已打开具体型号与Buy Now、Gemini集成、分批交付说明；浏览器额外核查遇安全验证未绕过，不声称实测现货。"
+    },
+    {
+      "title": "SELVAS BLV当前官方价目表",
+      "url": "https://selvasblv.com/price-list/",
+      "kind": "official-store",
+      "supports": [
+        "price",
+        "model",
+        "purchase"
+      ],
+      "note": "已打开32-cell H732B US$5995、运费69，其他单元数及维护计划分开列出。"
+    },
+    {
+      "title": "HIMS国际官网BrailleSense 7 32cell",
+      "url": "https://himsintl.com/en/blindness/view.php?idx=35",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture",
+        "images",
+        "model"
+      ],
+      "note": "已打开并读取公开HTML：准确32单元图片、输入与接口、可更换电池、本地应用；旧6代图片未使用。"
+    },
+    {
+      "title": "HIMS Gemini AI服务隐私披露，2026-08-20",
+      "url": "https://himsintl.com/en/etc/support-gemini-disclosure.php",
+      "kind": "official-spec",
+      "supports": [
+        "ai",
+        "subscription",
+        "privacy",
+        "dependency"
+      ],
+      "note": "已打开有效Google Play订阅、内容直送Google Gemini API/Firebase AI Logic、HIMS不存内容而Google另有保留条款；不推定全离线或无订阅。"
+    },
+    {
+      "title": "SELVAS BLV个人产品报价渠道",
+      "url": "https://selvasblv.com/contact/request-a-quote/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "purchase",
+        "regions"
+      ],
+      "note": "已打开产品数量报价和本地服务联系流程，Organization字段非必填；没有提交个人信息或询价。"
+    }
+  ],
+  "analysis": {
+    "demand": "需求假设是盲文使用者希望自己完成文字输入、回读和资料提问，而不是不断切换独立电脑、显示器和助手。生成内容只有在用户能逐步检查、定位和修改时才可能有用；减少设备切换也可能增加专用系统学习，价值需要围绕真实文档任务来判断。",
+    "userProfile": "已有盲文键盘和快捷操作习惯的人，可能更重视触觉回读和专用文件工具；另一些人更偏好常规电脑配读屏软件。两种方式没有通用胜负，用户要完成的文档类型、外设和协作方式更关键；不能仅因产品被用于学校就推定其全部AI服务适合所有年龄。",
+    "competition": "Dot Pad X侧重将图形空间关系转为触觉，BrailleSense则把文字写作、编辑、回读和AI交互组织为个人终端。两者都使用盲文不代表核心任务相同，也可能组合使用；比较应围绕输入、文件处理和纠错流程，而不是用单元数量或处理器代次作为创新与价值的主要标准。",
+    "supplyChain": "同类新设计既需要盲文点阵稳定刷新，也要保证按键、触摸路由和文件操作不会打断阅读。通用电池或USB电源控制可支持外围功能，却不能解决盲文执行器寿命与触感一致性；供应研究应把这些专有约束保留，不能因为常见计算器件易采购就低估核心模块难度。",
+    "technology": "生成式建议可能帮助解释资料，但也可能遗漏或改写原意，尤其文档包含表格、格式和专业符号时。技术价值在于用户能否知道建议针对哪里、选择采用哪些部分并恢复原文；回答流畅和可被朗读并不足以证明无障碍，触觉定位与编辑路径同样重要。",
+    "aesthetics": "专用按键位置可能帮助形成熟悉的操作路线，但是否方便携带和与其他设备共用，仍取决于桌面空间与个人习惯。外壳颜色或圆角不能代表触感和耐久，视觉简洁也不等于盲文使用方便；审美评价需要包含本人如何拿取、定位和收纳，而不只看照片。",
+    "risks": "当写作、阅读和资料交互集中在一台设备上，维修、固件或应用变化可能同时影响多项日常任务。用户需要了解导出、备份和备用访问方式，生成式服务的变化又增加另一层依赖；本地可编辑文件与云端助手应尽量保持清楚分界，避免失去订阅便无法理解原始资料。",
+    "opportunity": "后续研究可观察用户是否更容易自己创建、检查和分享资料，以及AI加入后是否仍能掌控内容。若生成回答增加了校对或账户配置负担，未必比原有工具更好；需求验证应允许个人选择不同输入方式，而不是因新终端集成更多功能就预设替换现有方案。"
+  },
+  "checkedAt": "2026-11-05",
+  "deepDive": {
+    "checkedAt": "2026-11-05",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "BrailleSense 7北美官方产品与购买入口",
+        "url": "https://selvasblv.com/product/braillesense-7/",
+        "note": "已打开具体型号与Buy Now、Gemini集成、分批交付说明；浏览器额外核查遇安全验证未绕过，不声称实测现货。"
+      },
+      {
+        "id": "s2",
+        "title": "SELVAS BLV当前官方价目表",
+        "url": "https://selvasblv.com/price-list/",
+        "note": "已打开32-cell H732B US$5995、运费69，其他单元数及维护计划分开列出。"
+      },
+      {
+        "id": "s3",
+        "title": "HIMS国际官网BrailleSense 7 32cell",
+        "url": "https://himsintl.com/en/blindness/view.php?idx=35",
+        "note": "已打开并读取公开HTML：准确32单元图片、输入与接口、可更换电池、本地应用；旧6代图片未使用。"
+      },
+      {
+        "id": "s4",
+        "title": "HIMS Gemini AI服务隐私披露，2026-08-20",
+        "url": "https://himsintl.com/en/etc/support-gemini-disclosure.php",
+        "note": "已打开有效Google Play订阅、内容直送Google Gemini API/Firebase AI Logic、HIMS不存内容而Google另有保留条款；不推定全离线或无订阅。"
+      },
+      {
+        "id": "s5",
+        "title": "SELVAS BLV个人产品报价渠道",
+        "url": "https://selvasblv.com/contact/request-a-quote/",
+        "note": "已打开产品数量报价和本地服务联系流程，Organization字段非必填；没有提交个人信息或询价。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜写入与触觉回读形成一个工作流",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "BrailleSense 7将实体盲文输入、可刷新盲文回读、专用文件工具和AI入口整合，用户可以在同一终端组织、检查和修改内容。Gemini问答及文档处理是明确的生成式功能，触摸滚动和按键本身则属于交互机制；不能把所有自动刷新都称为AI，也不把它视作普通平板外接一个显示附件。"
+        },
+        {
+          "title": "判断｜资料交互需要用户能检查和修改",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "需求假设是盲文使用者希望自己完成文字输入、回读和资料提问，而不是不断切换独立电脑、显示器和助手。生成内容只有在用户能逐步检查、定位和修改时才可能有用；减少设备切换也可能增加专用系统学习，价值需要围绕真实文档任务来判断。"
+        },
+        {
+          "title": "验证｜从可核对的短文与表格开始",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "可使用公开样本检查输入、移动光标、修改文字、保存和重新打开的完整过程，再观察AI建议是否易于定位和复核。不要只测试一次问答或朗读，而应保留用户修改结果的步骤；本目录没有盲文操作、工作效率或学习效果实测，不承诺替代所有既有工具。"
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "官方｜同系列不同单元数不混为同一配置",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "text": "本条选择32-cell型号，北美价目表列明对应型号和价格，国际官网也提供准确的32单元外形。四十和二十单元版本具有不同尺寸及交付安排，不能因为都叫BrailleSense 7就交换图片或库存信息；目录只保留一个需求代表，配套键盘与电池权益还须按地区订单确认。"
+        },
+        {
+          "title": "判断｜盲文习惯和软件任务决定适配",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "已有盲文键盘和快捷操作习惯的人，可能更重视触觉回读和专用文件工具；另一些人更偏好常规电脑配读屏软件。两种方式没有通用胜负，用户要完成的文档类型、外设和协作方式更关键；不能仅因产品被用于学校就推定其全部AI服务适合所有年龄。"
+        },
+        {
+          "title": "验证｜明确基础能力与付费AI分界",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ],
+          "text": "试用和购买前应分别确认本地文件编辑、盲文操作、第三方应用和HIMS Gemini服务的权限。AI隐私披露说明相关服务不面向儿童，具体使用条件必须核对，不能把教育定位当作无限制AI授权；本研究未建立账户或提交文件，也没有完成个人适配评估。"
+        }
+      ],
+      "competition": [
+        {
+          "title": "官方｜当前购买入口与实际库存分开记录",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s5"
+          ],
+          "text": "官方现行页面提供型号选择和购买入口，价目表列出32单元产品，报价渠道也接受个人产品需求。页面仍保留十月末开始交付的说明，本轮没有实际库存或发货验证；因此在售表示存在明确购买路径，不等于每个配置随时现货，更不能把其他地区的未来上市计划混入。"
+        },
+        {
+          "title": "判断｜与Dot Pad图形输出任务不同",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "Dot Pad X侧重将图形空间关系转为触觉，BrailleSense则把文字写作、编辑、回读和AI交互组织为个人终端。两者都使用盲文不代表核心任务相同，也可能组合使用；比较应围绕输入、文件处理和纠错流程，而不是用单元数量或处理器代次作为创新与价值的主要标准。"
+        },
+        {
+          "title": "验证｜比较完整文档任务及维护成本",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "text": "可让用户用原有电脑与读屏方案和该终端处理同一份文档，记录准备、编辑、校对、导出及协作步骤。费用需包含维护计划、外设和所选AI服务，不能只看整机标价；本目录没有访谈、销量或长期使用数据，不推定专用终端一定更高效或更适合每个人。"
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜盲文模块与通用电子层应分别看待",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "厂家披露可刷新盲文、触摸路由、实体键盘、计算平台、显示和可更换电池等结构，但没有完整点名各模块的供应厂商。触觉单元的微机构也未公开拆机细节，不能借普通键盘或LCD供应链补成完整BOM；概念图只表达输入、触觉输出和电子层关系，不构成制造或维修图纸。"
+        },
+        {
+          "title": "判断｜机械一致性与交互响应要共同验证",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ],
+          "text": "同类新设计既需要盲文点阵稳定刷新，也要保证按键、触摸路由和文件操作不会打断阅读。通用电池或USB电源控制可支持外围功能，却不能解决盲文执行器寿命与触感一致性；供应研究应把这些专有约束保留，不能因为常见计算器件易采购就低估核心模块难度。"
+        },
+        {
+          "title": "验证｜候选只覆盖具体外围能力",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "供电候选可研究接口协商、可更换电池和保护，显示或电子工程候选则需核对实际机械空间与系统接口。这里没有品牌点名采用证据，也不提供完整盲文单元方案；任何重新设计仍须验证整机、辅助输入和用户可操作性，不能从通用模块直接跳到量产结论。"
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜Gemini内容需要交给第三方服务",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ],
+          "text": "HIMS披露部分应用通过Gemini接口处理用户提交的文本或文件，并要求有效订阅，内容从设备直送Google服务。HIMS不保存相关内容不等于Google也不保留，后者另有数据条款；目录因此不将AI写为全本地或购买硬件即永久免费，基础文件功能也不能与云端问答混同。"
+        },
+        {
+          "title": "判断｜答案必须回到可编辑内容",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "text": "生成式建议可能帮助解释资料，但也可能遗漏或改写原意，尤其文档包含表格、格式和专业符号时。技术价值在于用户能否知道建议针对哪里、选择采用哪些部分并恢复原文；回答流畅和可被朗读并不足以证明无障碍，触觉定位与编辑路径同样重要。"
+        },
+        {
+          "title": "验证｜检查失败状态是否可被非视觉识别",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "text": "可核对网络断开、订阅失效、文件不支持或生成失败时，用户是否能通过盲文与语音理解状态并返回原任务。测试应保留原文件副本，区分AI建议和用户最终内容；本轮没有运行真实文档或辅助接口测试，不能承诺所有Android应用都同样易于操作。"
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "官方｜小型视觉条与实体键盘并非全触屏",
+          "evidence": "official",
+          "sourceIds": [
+            "s3"
+          ],
+          "text": "准确32单元官方图显示浅色圆角机身、Perkins键布局、上方小型视觉显示及扬声器区域，下方是长条盲文输出，前侧还有控制键。它不是整面触屏平板，生成图保留这些特征；未知内部仅画概念层，不增加大屏幕或借用旧六代的光标键结构。"
+        },
+        {
+          "title": "判断｜触觉定位和桌面布置影响外观价值",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "专用按键位置可能帮助形成熟悉的操作路线，但是否方便携带和与其他设备共用，仍取决于桌面空间与个人习惯。外壳颜色或圆角不能代表触感和耐久，视觉简洁也不等于盲文使用方便；审美评价需要包含本人如何拿取、定位和收纳，而不只看照片。"
+        },
+        {
+          "title": "验证｜按完整外设配置观察使用",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "可以检查连接耳机、外部键盘或显示器后的接口位置和线缆安排，观察用户是否仍容易摸到常用控制。将外观偏好、按键手感、点阵辨识与携带分别记录，避免一项体验覆盖全部判断；本研究没有实际触摸、刷新噪声或长期机械寿命测试。"
+        }
+      ],
+      "risks": [
+        {
+          "title": "官方｜服务与地区条件不能由全球页面推定",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ],
+          "text": "北美购买和国际型号资料支持产品存在，但没有核到中国大陆该配置的完整交付、语言和Gemini服务条件。AI需要订阅和第三方处理的事实也不能用通用Android兼容性绕过；页面关于未来系统升级的期待，不应被写成已经交付或长期保证的版本支持。"
+        },
+        {
+          "title": "判断｜专用设备可能形成支持依赖",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "当写作、阅读和资料交互集中在一台设备上，维修、固件或应用变化可能同时影响多项日常任务。用户需要了解导出、备份和备用访问方式，生成式服务的变化又增加另一层依赖；本地可编辑文件与云端助手应尽量保持清楚分界，避免失去订阅便无法理解原始资料。"
+        },
+        {
+          "title": "验证｜确认数据出口与维修安排",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3",
+            "s4"
+          ],
+          "text": "购买前应核对文件格式、备份、订阅管理、数据保留和维修计划的具体范围，并确认出现故障时如何继续重要任务。AI提交资料前还需理解第三方处理条件；本目录没有访问用户文档或账户，也不能据供应商一般隐私声明承诺所有资料绝不外发。"
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "官方｜盲文写作与AI交互保留一个核心需求",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "本条以32单元BrailleSense 7代表实体盲文写作、触觉校对和AI文档交互的组合，不把单元数、外接键盘或同系列旧代拆成独立创新数量。它与仅供触觉图形阅读的设备有所分工，实际差异应放在完整任务中说明，而不是把每一项自动交互都叫新场景。"
+        },
+        {
+          "title": "判断｜关注自主完成任务的实际步骤",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "text": "后续研究可观察用户是否更容易自己创建、检查和分享资料，以及AI加入后是否仍能掌控内容。若生成回答增加了校对或账户配置负担，未必比原有工具更好；需求验证应允许个人选择不同输入方式，而不是因新终端集成更多功能就预设替换现有方案。"
+        },
+        {
+          "title": "验证｜跟踪文件与服务变化后的可用性",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "text": "可在合适同意下记录不同文件、软件更新和订阅变化时的操作困难，尤其关注是否还能可靠回读和修改原文。当前是官方资料案头研究，没有长期访谈、独立无障碍测试或销量证据；不推断学习成绩、职业能力或个人效率改善，更不把用户数量宣传当作需求证明。"
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "texas-instruments",
+        "role": "power",
+        "component": "同类盲文计算终端的USB-C供电管理候选",
+        "rationale": "TI TPS25751公开USB-C供电协商与功率路径控制，可研究同类终端的接口角色、异常保护和系统负载，但不包含盲文驱动、Gemini服务或完整充电系统。未发现BrailleSense点名采用证据，具体电池和主板接口须核对；候选不能视作现机换件或已完成辅助设备适配。",
+        "relationship": "candidate",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s5"
+        ]
+      },
+      {
+        "supplierId": "sunwoda",
+        "role": "power",
+        "component": "同类可更换电池盲文终端的供电模块候选",
+        "rationale": "欣旺达公开消费电池能力，可作为相近终端的电池封装、保护和供电项目研究入口，但需要验证可更换结构、接口、充电和长期维护条件。没有本产品采用证据，也不能由容量相近推断直接兼容；候选不包含专用盲文机构或软件权益，整机验证仍独立进行。",
+        "relationship": "candidate",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "braille-first-writing-ai-interaction",
+      "needName": "盲文写作校对与AI资料交互",
+      "difference": "与普通电脑配读屏或只显示触觉图形的Dot Pad X相比，BrailleSense 7把实体盲文输入、触摸路由、文件编辑和AI提问放进同一终端，用户可用熟悉的触觉路径检查与修改内容。差异在主动写作和校对工作流，不是单元数或代次；云AI需要订阅和网络，第三方数据处理、应用兼容及维修依赖仍有限制，不能推定所有文件和年龄都适用。",
+      "comparisonBasis": "电脑读屏与独立盲文显示、Dot Pad X图形触觉输出及原有专用笔记终端；比较输入、编辑、校对和AI服务边界。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s3",
+        "s4"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/braillesense-7-32/product.jpg",
+      "sourceUrl": "https://himsintl.com/en/blindness/view.php?idx=35",
+      "sourceImageUrl": "https://himsintl.com/data/goodsImages/GOODS2_177258953520260429043541.jpg",
+      "caption": "BrailleSense 7 32cell官方俯视图，含实体输入和盲文区",
+      "alt": "BrailleSense 7 32cell官方俯视图，含实体输入和盲文区",
+      "credit": "SELVAS Healthcare / HIMS · 官方产品图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 94819,
+      "sha256": "30d039417e58d9ab664a3cceddb48a3d2fdcadf35da19252172d94c743dd0c61"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/braillesense-7-32/reference.jpg",
+      "sourceUrl": "https://himsintl.com/en/blindness/view.php?idx=35",
+      "sourceImageUrl": "https://himsintl.com/data/goodsImages/ADD_GOODS1_177258953520260429043541.jpg",
+      "caption": "BrailleSense 7 32cell官方前缘控制键参考",
+      "alt": "BrailleSense 7 32cell官方前缘控制键参考",
+      "credit": "SELVAS Healthcare / HIMS · 官方产品图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 26820,
+      "sha256": "1ee22c4c80effe671a6151bbe6855e807cea4c0ee01c30bb0252c1da2dfa024f"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/braillesense-7-32/reference-side.jpg",
+      "sourceUrl": "https://himsintl.com/en/blindness/view.php?idx=35",
+      "sourceImageUrl": "https://himsintl.com/data/goodsImages/ADD_GOODS2_177258953520260429043541.jpg",
+      "caption": "BrailleSense 7 32cell官方侧面接口参考",
+      "alt": "BrailleSense 7 32cell官方侧面接口参考",
+      "credit": "SELVAS Healthcare / HIMS · 官方产品图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 22917,
+      "sha256": "61bd313a579907c15eb63b12804c835f2ee7681e73a11176cd9f5dc24f9a9cb8"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/braillesense-7-32/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "SELVAS Healthcare / HIMS braillesense-7-32灰阶概念功能结构图，非真实拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-05",
+      "promptPath": "content/hardware/prompts/braillesense-7-32.txt",
+      "referencePaths": [
+        "assets/hardware/braillesense-7-32/ai-exploded-draft.png",
+        "assets/hardware/braillesense-7-32/product.jpg",
+        "assets/hardware/braillesense-7-32/reference.jpg",
+        "assets/hardware/braillesense-7-32/reference-side.jpg"
+      ],
+      "verified": true,
+      "bytes": 1799304,
+      "sha256": "40774f2cb34621add2a02ade4cdcae9aa4422c7a75b63fb7a6b11115863a8797"
+    }
+  ],
+  "mediaNotes": [
+    "已视觉检查外形、灰阶、文本和数据路径；未知内部为概念模块，不代表实际拆机、完整BOM或医疗效果。",
+    "初稿外壳重复画出已分离的按键和盲文层，已用ImageGen改为空开口；初稿及两阶段提示词保留。",
+    "实际逐张查看并核对具体型号，保留厂家原图；参考场景和人物不能证明效果，历史图像与当前购买条件分别核查。",
+    "北美站静态图片和浏览器遇访问验证，改用制造商HIMS国际站准确32cell照片；未绕过验证，也未借40单元或旧6代外形。"
+  ]
+}

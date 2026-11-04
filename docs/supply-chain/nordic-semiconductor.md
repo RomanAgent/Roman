@@ -180,6 +180,10 @@ Nordic在二〇二三年的官方案例中点名Ultrahuman Ring Air采用nRF5284
 
 - [Abbott Lingo（AI餐照记录方案）](../hardware/abbott-lingo.md) — **能力候选 · 非已采用** / 同类连续生物传感贴片的BLE数据链候选：Nordic低功耗无线平台可研究持续生物传感数据的Bluetooth传输、状态与重连，但实际功耗、封装及主机兼容须结合传感系统确认。它不包含Lingo的葡萄糖传感器或餐照AI模型，也没有本产品公开采用证据；连接层候选不能单独证明整套健康数据可信。
 
+- [Apollo Wearable + SmartVibes AI](../hardware/apollo-smartvibes.md) — **能力候选 · 非已采用** / 同类触觉反馈设备的低功耗连接候选：Nordic低功耗无线平台可研究App到触觉控制器的指令、同步与断连恢复，需核对实际协议、固件和电源约束。没有Apollo采用来源，也不包含SmartVibes模式学习和第三方账户服务；此链接仅是相近新设计连接层候选，不代表本机芯片或全部AI可离线运行。
+
+- [Sunrise 家用下颌运动睡眠测试](../hardware/sunrise-home-sleep-test.md) — **能力候选 · 非已采用** / 同类单夜贴附记录器的BLE数据链候选：Nordic低功耗无线平台可研究单夜运动数据的Bluetooth传输、缓冲与断连恢复，需结合封装、电源和手机兼容验证。没有本产品采用来源，也不提供Sunrise的云分析与医疗解释；候选只对应相近新设计通信层，不意味着普通开发板即可成为个人睡眠检测设备。
+
 ## 来源
 
 - [nRF54H20](<https://www.nordicsemi.com/Products/nRF54H20>)：支持多核低功耗无线、接口、安全与产品咨询入口；不证明所有音频配置均可用。

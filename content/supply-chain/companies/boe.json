@@ -380,6 +380,23 @@
     {
       "supplierId": "boe",
       "role": "display",
+      "component": "同类字幕电话的触控显示候选",
+      "rationale": "京东方公开中尺寸显示与触控整合能力，可供相近家庭字幕终端研究可读性、屏幕角度和触控界面；具体尺寸、面板类型与交付条件需询证。没有ClearCaptions点名采用来源，显示能力也不包含其字幕算法、服务资助资格或完整电话系统，不能据外观认定真实供应关系。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "clearcaptions-home-phone",
+      "productName": "ClearCaptions Home Phone",
+      "category": "accessibility",
+      "status": "assisted_program"
+    },
+    {
+      "supplierId": "boe",
+      "role": "display",
       "relationship": "candidate",
       "component": "学习界面显示与触控候选",
       "rationale": "京东方的显示与交互能力可作为重新选型时的面板研究入口，但具体尺寸、亮度、触控、结构和长期使用条件需要测试。显示供应商能力不构成护眼或学习效果保证，也不证明现有T30 Pro采用该公司面板。",

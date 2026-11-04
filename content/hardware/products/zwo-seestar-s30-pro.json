@@ -6,9 +6,9 @@
   "audience": "consumer",
   "saleMode": "retail",
   "tagline": "把天文采集和App AI图像增强连起来的便携观测设备",
-  "officialUrl": "https://www.seestar.com/products/seestar-s30-pro",
+  "officialUrl": "https://us.seestar.com/products/seestar-s30-pro",
   "status": "on_sale",
-  "statusEvidence": "核查日官方商品页US$699、In stock - Ready to be shipped及Add to cart；官方2026年9月比较页也列S30 Pro在售。中国官网有S30 Pro天猫入口。",
+  "statusEvidence": "2026-11-05实际浏览美国官方站S30 Pro显示US$699、In stock - Ready to be shipped和Add to cart；原www入口在当前地区跳转中国站同路径404，属于地域路由问题而非停售。中国官网官方天猫入口与型号比较沿用11月4日核查。",
   "regions": [
     "中国大陆",
     "美国",
@@ -20,7 +20,7 @@
     "note": "Seestar中国官网列S30 Pro官方天猫入口。大陆与海外版本有激活地域差异；大陆版官方限定大陆、香港、澳门激活使用。"
   },
   "price": {
-    "text": "全球官网US$699；国内渠道价格为准",
+    "text": "美国官网US$699；国内渠道价格为准",
     "note": "核查日官方价格；不沿用早期US$599信息，税运费与地区版本另核。"
   },
   "ai": {
@@ -77,15 +77,16 @@
   ],
   "sources": [
     {
-      "title": "Seestar S30 Pro官方商店",
-      "url": "https://www.seestar.com/products/seestar-s30-pro",
+      "title": "Seestar S30 Pro美国官方商店",
+      "url": "https://us.seestar.com/products/seestar-s30-pro",
       "kind": "official-store",
       "supports": [
         "status",
         "technology",
         "availability"
       ],
-      "note": "实际打开；现货、699美元、Sony双传感器、一体结构及地域激活限制。"
+      "note": "2026-11-05实际浏览美国官方入口，699美元、现货与加购可用；原www入口对当前地区误跳.cn同路径404，不据此判断停售。",
+      "accessedAt": "2026-11-05"
     },
     {
       "title": "Seestar S30 Pro用户手册",
@@ -99,13 +100,14 @@
     },
     {
       "title": "Seestar AI Enhance官方教程",
-      "url": "https://www.seestar.com/blogs/seestar-guide/seestar-ai-enhance",
+      "url": "https://us.seestar.com/blogs/seestar-guide/seestar-ai-enhance",
       "kind": "official-spec",
       "supports": [
         "technology",
         "usage"
       ],
-      "note": "实际打开；App图像增强、导出比较、性能限制与下载后离线处理。"
+      "note": "2026-11-05实际浏览美国官方教程；App增强、BIN2性能限制和下载后离线处理保持可核。原www地域路由会落到.cn无对应路径。",
+      "accessedAt": "2026-11-05"
     },
     {
       "title": "Seestar中国官网",
@@ -129,15 +131,16 @@
       "note": "实际打开；2026年9月更新列S30 Pro在售，旧S30/S50下架。"
     }
   ],
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-05",
   "deepDive": {
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-05",
     "sources": [
       {
         "id": "s1",
-        "title": "Seestar S30 Pro官方商店",
-        "url": "https://www.seestar.com/products/seestar-s30-pro",
-        "note": "实际打开；现货、699美元、Sony双传感器、一体结构及地域激活限制。"
+        "title": "Seestar S30 Pro美国官方商店",
+        "url": "https://us.seestar.com/products/seestar-s30-pro",
+        "note": "2026-11-05实际浏览美国官方入口，699美元、现货与加购可用；原www入口对当前地区误跳.cn同路径404，不据此判断停售。",
+        "accessedAt": "2026-11-05"
       },
       {
         "id": "s2",
@@ -148,8 +151,9 @@
       {
         "id": "s3",
         "title": "Seestar AI Enhance官方教程",
-        "url": "https://www.seestar.com/blogs/seestar-guide/seestar-ai-enhance",
-        "note": "实际打开；App图像增强、导出比较、性能限制与下载后离线处理。"
+        "url": "https://us.seestar.com/blogs/seestar-guide/seestar-ai-enhance",
+        "note": "2026-11-05实际浏览美国官方教程；App增强、BIN2性能限制和下载后离线处理保持可核。原www地域路由会落到.cn无对应路径。",
+        "accessedAt": "2026-11-05"
       },
       {
         "id": "s4",
@@ -456,7 +460,7 @@
     {
       "kind": "product",
       "path": "assets/hardware/zwo-seestar-s30-pro/product.jpg",
-      "sourceUrl": "https://www.seestar.com/products/seestar-s30-pro",
+      "sourceUrl": "https://us.seestar.com/products/seestar-s30-pro",
       "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0756/5728/1827/files/s30_pro_main.jpg?v=1776933982&width=1600",
       "caption": "ZWO Seestar S30 Pro 官方产品图",
       "alt": "ZWO Seestar S30 Pro 官方产品图",
@@ -469,7 +473,7 @@
     {
       "kind": "reference",
       "path": "assets/hardware/zwo-seestar-s30-pro/reference.jpg",
-      "sourceUrl": "https://www.seestar.com/products/seestar-s30-pro",
+      "sourceUrl": "https://us.seestar.com/products/seestar-s30-pro",
       "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0756/5728/1827/files/S30Pro-4.jpg?v=1772516860&width=1600",
       "caption": "ZWO Seestar S30 Pro 官方外观与使用参考图",
       "alt": "ZWO Seestar S30 Pro 官方外观与使用参考图",
@@ -498,6 +502,7 @@
   ],
   "mediaNotes": [
     "以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。",
-    "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
+    "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。",
+    "2026-11-05修正产品来源入口为美国官方站，避免www地域跳转404；原图URL与11月4日图像核验日期保留。"
   ]
 }

@@ -90,9 +90,9 @@ M7最值得检验的需求发生在拍摄者必须离开手机、同时又要进
 
 ### 不适合的人也要记录 · 待验证
 
-不经常出镜、主要近距离手持、必须极轻出行，或现有手机尺寸与附件组合不满足兼容要求的人，可能不会从M7获得足够增益。建议在访谈中保留不购买者与退货者，询问是重量、学习步骤、手机适配还是跟踪结果造成放弃。尚未核实的大陆购买与服务情况也会影响决策，不能因为品牌来自中国就把跨地区保障视为已确认。
+不经常出镜、主要近距离手持、必须极轻出行，或现有手机尺寸与附件组合不满足兼容要求的人，可能不会从M7获得足够增益。建议在访谈中保留不购买者与退货者，询问是重量、学习步骤、手机适配还是跟踪结果造成放弃。补查已确认中国官网提供旗舰店购买入口，但当前库存、套餐和跨地区保障仍需分别核对；国内渠道存在，不表示海外版本的价格、配件和服务可以直接套用。
 
-依据：[Hohem M7 技术介绍与条件说明](<https://www.hohem.com/product/isteady-m7>) · [Hohem M7 官方商店、规格与套装](<https://store.hohem.com/products/hohem-isteady-m7-big-phone-gimbal>)
+依据：[Hohem M7 技术介绍与条件说明](<https://www.hohem.com/product/isteady-m7>) · [Hohem M7 官方商店、规格与套装](<https://store.hohem.com/products/hohem-isteady-m7-big-phone-gimbal>) · [浩瀚M7中国官网与旗舰店入口](<https://www.hohem.com/cn/product/isteady-m7>)
 
 ## 竞争与替代
 

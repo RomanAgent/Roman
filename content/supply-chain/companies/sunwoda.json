@@ -690,6 +690,41 @@
     {
       "supplierId": "sunwoda",
       "role": "power",
+      "component": "同类可更换电池盲文终端的供电模块候选",
+      "rationale": "欣旺达公开消费电池能力，可作为相近终端的电池封装、保护和供电项目研究入口，但需要验证可更换结构、接口、充电和长期维护条件。没有本产品采用证据，也不能由容量相近推断直接兼容；候选不包含专用盲文机构或软件权益，整机验证仍独立进行。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "braillesense-7-32",
+      "productName": "BrailleSense 7（32-cell）",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
+      "component": "同类控制单元的充电电源候选",
+      "rationale": "欣旺达消费电池业务可供研究相近控制单元的充电供电与封装，实际容量、热管理和维护要求需专项确认。Cionic仅公开控制单元内充电电池不可由用户拆换，未点名供应商；本关联不是实际采用，也不建议用户替换原电池或推定通用消费电池满足处方设备要求。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "cionic-neural-sleeve-2",
+      "productName": "Cionic Neural Sleeve 2",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
       "relationship": "candidate",
       "component": "电源系统与电池方案能力候选",
       "rationale": "欣旺达公开电池和电源系统相关业务，可作为重新研究家庭储能时的供应能力入口。具体电芯体系、保护、寿命、环境与项目认证需逐项确认，不能由消费电池经验直接推定适配；本目录未确认Solarbank由其供货。",

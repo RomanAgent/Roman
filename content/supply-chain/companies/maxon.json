@@ -330,6 +330,25 @@
     {
       "supplierId": "maxon",
       "role": "motion",
+      "component": "同类动力假肢关节的机电驱动集成研究",
+      "rationale": "maxon公开定制机电驱动和反馈集成能力，可研究相近动力关节的传动、控制和能源约束，但承载、故障响应及个人适配要求必须专项确认。未发现本款点名采用来源，机器人驱动经验不能直接证明可用于假肢；候选不代表现有Power Knee电机或完整传动BOM。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s3",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "ossur-power-knee",
+      "productName": "Össur Power Knee 盘古主动力膝关节",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "maxon",
+      "role": "motion",
       "relationship": "candidate",
       "component": "精密运动系统的能力参考",
       "rationale": "三轴稳定与追踪需要执行机构，maxon可作为精密驱动能力和工程评估的研究入口。其标准产品未必满足手机云台的尺寸、重量及消费成本，需先验证适配再询样；这是一条存在明显筛选条件的候选关系，并非M7已采用的电机。",

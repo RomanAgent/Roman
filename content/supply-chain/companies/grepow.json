@@ -522,6 +522,63 @@
       "supplierId": "grepow",
       "role": "power",
       "relationship": "candidate",
+      "component": "微型运动附件供电候选",
+      "rationale": "Grepow的小型和定制形状电池能力可用于讨论圆形附件有限空间内的补能方案，但实际电池形状、容量及维护方式未披露。目录只提出能力匹配，不由生成概念图反推产品采用哪种电芯或供应商。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "xvic-putting-view",
+      "productName": "xVic Putting View",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "夹式运动记录供电候选",
+      "rationale": "Grepow提供小型和定制形状电池能力，可作为夹式记录器空间、充电保护与使用周期的评估方向；实际电池布局没有披露。目录不根据壳体大小推算容量，也不将候选公司的能力写成Equestic已采用的方案。",
+      "sourceIds": [
+        "s1",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "equestic-saddleclip",
+      "productName": "Equestic SaddleClip Classic",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "边缘控制条电池候选",
+      "rationale": "Grepow的小型定制电池能力可用于评估边缘控制条的空间、充电及保护方案，柔性垫卷起后对电池和线束的影响仍需工程测试。实际供应来源未披露，不从官方外观或生成示意推断YogiFi的容量、形状或采用关系。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "yogifi-smart-mat-gen3",
+      "productName": "YogiFi Smart Mat Gen3",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
       "component": "小型佩戴电池方案候选",
       "rationale": "Grepow公开定制电池能力可用于新宠物佩戴原型的供电评估，但尺寸、固定、防护、充电与环境要求必须单独确认。电池供应商不承担整机算法或健康效果，本目录也没有Maven现有电池来自该公司的证据。",
       "sourceIds": [

@@ -162,6 +162,8 @@ TDK官方合作案例明确点名WeWALK Smart Cane 2采用SmartMotion惯性、Sm
 
 - [FightCamp Connect Gen 3](../hardware/fightcamp-connect-gen3.md) — **能力候选 · 非已采用** / 拳脚惯性采集候选：TDK InvenSense的运动感知和穿戴相关能力可用于讨论击打运动采集，但采样范围、固定方式及冲击条件必须针对本任务验证。FightCamp没有公开采用该公司器件，本关联只是工程路线候选，不将其写成现有传感器BOM。
 
+- [Equestic SaddleClip Classic](../hardware/equestic-saddleclip.md) — **能力候选 · 非已采用** / 鞍侧运动采集候选：TDK InvenSense具有运动传感与穿戴处理相关能力，可用于评估鞍侧持续运动输入，但安装振动、动态范围与分析算法需要专门验证。Equestic未公开传感器品牌，本关联不能作为实际芯片、精度或采购关系的证明。
+
 ## 来源
 
 - [TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)：支持惯性、声音、磁感知与穿戴应用范围；具体型号功能仍需核对。

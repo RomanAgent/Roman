@@ -358,7 +358,7 @@
       {
         "kind": "product",
         "path": "assets/hardware/dot-pad-x/product.png",
-        "sourceUrl": "https://www.dotincorp.com/en/product/dotpadx",
+        "sourceUrl": "https://www.dotincorp.com/image/product/dotpadx__section1-img.png",
         "sourceImageUrl": "https://www.dotincorp.com/image/product/dotpadx__section1-img.png",
         "caption": "Dot Pad X官方斜向全机图，显示触觉图形区与盲文行",
         "alt": "Dot Pad X官方斜向全机图，显示触觉图形区与盲文行",
@@ -369,7 +369,7 @@
       {
         "kind": "official-structure",
         "path": "assets/hardware/dot-pad-x/reference.png",
-        "sourceUrl": "https://www.dotincorp.com/en/product/dotpadx",
+        "sourceUrl": "https://www.dotincorp.com/image/product/dotpadx__section5-device.png",
         "sourceImageUrl": "https://www.dotincorp.com/image/product/dotpadx__section5-device.png",
         "caption": "Dot Pad X官方正面控制区域标识；非内部拆机",
         "alt": "Dot Pad X官方正面控制区域标识；非内部拆机",
@@ -380,7 +380,7 @@
     ],
     "notes": [
       "来源图片已逐张实际查看，确认具体型号；保留原图，不改色裁切。图片不能证明内部BOM、疗效或所有配置可售。",
-      "网页内容经官方页面读取核验，静态图片公开下载成功；橙色控制区域框为厂家原图标识。"
+      "2026-11-05实际浏览器确认原图片采集网页 https://www.dotincorp.com/en/product/dotpadx 已不可打开；原厂图片资产仍GET200，因此源入口直接指向原厂原图以保留可访问溯源，未伪称新页面发布了这些图片。当前型号依据见 https://www.dotincorp.com/guide/resources/products/DPA320X-UserManual-English.docx 与 https://blog.dotincorp.com/introducing-the-dot-pad-x。"
     ]
   },
   {
@@ -646,6 +646,239 @@
     ],
     "notes": [
       "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。"
+    ]
+  },
+  {
+    "id": "habitaware-keen3",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/habitaware-keen3/product.png",
+        "sourceUrl": "https://habitaware.com/products/keen3-bracelet",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/3005/3494/files/Keen3-RavenBlack-Productphoto.png?v=1791317445&width=1200",
+        "caption": "Keen3 Raven官方整机外形",
+        "alt": "Keen3 Raven官方整机外形",
+        "credit": "HabitAware · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/habitaware-keen3/reference.png",
+        "sourceUrl": "https://habitaware.com/products/keen3-bracelet",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/3005/3494/files/Keen3fortrichotillomaniadermatillomaniasmartbraceletwatchforBFRBs.png?v=1792598179&width=1200",
+        "caption": "Keen3官方另一配色佩戴参考，非独立型号",
+        "alt": "Keen3官方另一配色佩戴参考，非独立型号",
+        "credit": "HabitAware · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/habitaware-keen3/reference-charger.png",
+        "sourceUrl": "https://habitaware.com/products/keen3-bracelet",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/3005/3494/files/Keen3_-_Charger.png?v=1791383316&width=1200",
+        "caption": "Keen3官方充电附件参考",
+        "alt": "Keen3官方充电附件参考",
+        "credit": "HabitAware · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际逐张查看并核对具体型号，保留厂家原图；参考场景和人物不能证明效果，历史图像与当前购买条件分别核查。"
+    ]
+  },
+  {
+    "id": "apollo-smartvibes",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/apollo-smartvibes/product.png",
+        "sourceUrl": "https://apolloneuro.com/products/apollo-wearable-1-year-ai-membership-starter-kit",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0267/8341/6517/files/switch-stealth.png?v=1769614222&width=1200",
+        "caption": "所核Apollo Stealth设备、腕带与可拆衣物夹",
+        "alt": "所核Apollo Stealth设备、腕带与可拆衣物夹",
+        "credit": "Apollo Neuro · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/apollo-smartvibes/reference.jpg",
+        "sourceUrl": "https://apolloneuro.com/blogs/news/introducing-apollo-clip",
+        "sourceImageUrl": "https://apolloneuro.com/cdn/shop/articles/wearing-apollo-clip-on-tanktop-ankle-and-belt.jpg?v=1660852726&width=1200",
+        "caption": "Apollo官方腕带与衣物夹佩戴参考；不由人物推断健康效果",
+        "alt": "Apollo官方腕带与衣物夹佩戴参考；不由人物推断健康效果",
+        "credit": "Apollo Neuro · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际逐张查看并核对具体型号，保留厂家原图；参考场景和人物不能证明效果，历史图像与当前购买条件分别核查。"
+    ]
+  },
+  {
+    "id": "braillesense-7-32",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/braillesense-7-32/product.jpg",
+        "sourceUrl": "https://himsintl.com/en/blindness/view.php?idx=35",
+        "sourceImageUrl": "https://himsintl.com/data/goodsImages/GOODS2_177258953520260429043541.jpg",
+        "caption": "BrailleSense 7 32cell官方俯视图，含实体输入和盲文区",
+        "alt": "BrailleSense 7 32cell官方俯视图，含实体输入和盲文区",
+        "credit": "SELVAS Healthcare / HIMS · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/braillesense-7-32/reference.jpg",
+        "sourceUrl": "https://himsintl.com/en/blindness/view.php?idx=35",
+        "sourceImageUrl": "https://himsintl.com/data/goodsImages/ADD_GOODS1_177258953520260429043541.jpg",
+        "caption": "BrailleSense 7 32cell官方前缘控制键参考",
+        "alt": "BrailleSense 7 32cell官方前缘控制键参考",
+        "credit": "SELVAS Healthcare / HIMS · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/braillesense-7-32/reference-side.jpg",
+        "sourceUrl": "https://himsintl.com/en/blindness/view.php?idx=35",
+        "sourceImageUrl": "https://himsintl.com/data/goodsImages/ADD_GOODS2_177258953520260429043541.jpg",
+        "caption": "BrailleSense 7 32cell官方侧面接口参考",
+        "alt": "BrailleSense 7 32cell官方侧面接口参考",
+        "credit": "SELVAS Healthcare / HIMS · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际逐张查看并核对具体型号，保留厂家原图；参考场景和人物不能证明效果，历史图像与当前购买条件分别核查。",
+      "北美站静态图片和浏览器遇访问验证，改用制造商HIMS国际站准确32cell照片；未绕过验证，也未借40单元或旧6代外形。"
+    ]
+  },
+  {
+    "id": "ossur-power-knee",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ossur-power-knee/product.png",
+        "sourceUrl": "https://www.ossur.com/pt-br/proteses/joelhos/power-knee",
+        "sourceImageUrl": "https://media.ossur.com/ossur-dam/image/upload/f_auto,c_limit,w_1200,q_auto/v1761850199/Shared/Power-Knee_Product-Image-05.png",
+        "caption": "当前Power Knee官方膝单元外形，不含接受腔和脚部",
+        "alt": "当前Power Knee官方膝单元外形，不含接受腔和脚部",
+        "credit": "Össur · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ossur-power-knee/reference.jpg",
+        "sourceUrl": "https://www.ossur.com/zh-cn/prosthetics/explore-power-knee/what-does-power-knee-do",
+        "sourceImageUrl": "https://media.ossur.com/image/upload/t_square,f_auto,c_limit,w_1200,q_auto/f_auto,q_auto,w_1400,h_1400,c_fill,g_custom/images/prosthetics/prosthetic-knees/power-knee-draft-images/DM7_8447-8454",
+        "caption": "Power Knee官方完整适配使用参考，其他假肢组件不代表本单元包含",
+        "alt": "Power Knee官方完整适配使用参考，其他假肢组件不代表本单元包含",
+        "credit": "Össur · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际逐张查看并核对具体型号，保留厂家原图；参考场景和人物不能证明效果，历史图像与当前购买条件分别核查。"
+    ]
+  },
+  {
+    "id": "sunrise-home-sleep-test",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/sunrise-home-sleep-test/product.png",
+        "sourceUrl": "https://www.hellosunrise.com/products/test-apnee-sommeil-sunrise",
+        "sourceImageUrl": "https://www.hellosunrise.com/cdn/shop/products/Product_Visuals_1_fb94b5ef-1729-4c30-9fdf-e1eb1bcc781c_720x%402x.png?v=1608051869",
+        "caption": "Sunrise欧版白色下颌传感器官方佩戴图；旧奖项标识非当前销售日期",
+        "alt": "Sunrise欧版白色下颌传感器官方佩戴图；旧奖项标识非当前销售日期",
+        "credit": "Sunrise · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/sunrise-home-sleep-test/reference.png",
+        "sourceUrl": "https://www.hellosunrise.com/products/test-apnee-sommeil-sunrise",
+        "sourceImageUrl": "https://www.hellosunrise.com/cdn/shop/products/Product_visuals-9_041d7c87-03d2-4c59-855b-d6da5d080e24_720x%402x.png?v=1608051869",
+        "caption": "Sunrise当前欧版一次性套装官方包装与传感器参考",
+        "alt": "Sunrise当前欧版一次性套装官方包装与传感器参考",
+        "credit": "Sunrise · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际逐张查看并核对具体型号，保留厂家原图；参考场景和人物不能证明效果，历史图像与当前购买条件分别核查。"
+    ]
+  },
+  {
+    "id": "cionic-neural-sleeve-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/cionic-neural-sleeve-2/product.jpg",
+        "sourceUrl": "https://www.cionic.com/neuralsleeve",
+        "sourceImageUrl": "https://www.cionic.com/hubfs/sleeve-hero-optimized.jpg",
+        "caption": "Neural Sleeve 2当前官方站立佩戴图，确认长套袖与控制口袋外形",
+        "alt": "Neural Sleeve 2当前官方站立佩戴图，确认长套袖与控制口袋外形",
+        "credit": "Cionic · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/cionic-neural-sleeve-2/reference.jpg",
+        "sourceUrl": "https://www.cionic.com/neuralsleeve",
+        "sourceImageUrl": "https://www.cionic.com/hubfs/put-on-sleeve-optimized.jpg",
+        "caption": "Neural Sleeve 2官方穿戴动作参考；不由人物场景推定辅助效果",
+        "alt": "Neural Sleeve 2官方穿戴动作参考；不由人物场景推定辅助效果",
+        "credit": "Cionic · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已逐张view_image核对当前具体产品外形，原图不改色；展示内容不构成本研究性能或个人效果验证。"
+    ]
+  },
+  {
+    "id": "clearcaptions-home-phone",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/clearcaptions-home-phone/product.png",
+        "sourceUrl": "https://clearcaptions.com/",
+        "sourceImageUrl": "https://clearcaptions.com/wp-content/uploads/2026/09/11_ProductShots_CC_KL_13457-3-1.png",
+        "caption": "当前ClearCaptions官方家庭字幕电话正面图",
+        "alt": "当前ClearCaptions官方家庭字幕电话正面图",
+        "credit": "ClearCaptions · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/clearcaptions-home-phone/reference-scene.png",
+        "sourceUrl": "https://clearcaptions.com/how-it-works/home-phone/",
+        "sourceImageUrl": "https://clearcaptions.com/wp-content/uploads/2025/12/grandpa.png",
+        "caption": "同款ClearCaptions电话官方斜角与屏幕显示参考",
+        "alt": "同款ClearCaptions电话官方斜角与屏幕显示参考",
+        "credit": "ClearCaptions · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已逐张view_image核对当前具体产品外形，原图不改色；展示内容不构成本研究性能或个人效果验证。"
     ]
   }
 ]

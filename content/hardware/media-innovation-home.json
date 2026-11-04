@@ -959,5 +959,95 @@
     "notes": [
       "已核对对应型号与地区版本，原图未改色或语义编辑；促销与效果文案为官方图内容，不构成独立验证。"
     ]
+  },
+  {
+    "id": "dangbei-aquarium-2s-ultra",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dangbei-aquarium-2s-ultra/product.jpg",
+        "sourceUrl": "https://item.jd.com/100336614386.html",
+        "sourceImageUrl": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/545410/36/9518/104976/6adabb6dFbe361a0c/0083320320750965.jpg",
+        "caption": "当前2S Ultra官方渠道整机场景（含厂商说明）",
+        "alt": "深色矩形鱼缸，上盖集成显示与照明，造景为展示",
+        "credit": "当贝 Dangbei · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dangbei-aquarium-2s-ultra/reference.jpg",
+        "sourceUrl": "https://item.jd.com/100336614386.html",
+        "sourceImageUrl": "https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/537817/32/7400/127944/6adabb49F91b84874/008332032048238b.jpg",
+        "caption": "当前2S Ultra手机识鱼与设备联动参考",
+        "alt": "官方图说明手机照片识鱼、喂养设置与水质相关提示",
+        "credit": "当贝 Dangbei · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "目视核对当前型号与规格，官方网页原图未修改；配件、造景、广告效果及参数说明不代表基础包装或独立验证。"
+    ]
+  },
+  {
+    "id": "govee-gaming-pixel-light-h6631",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/govee-gaming-pixel-light-h6631/product.webp",
+        "sourceUrl": "https://us.govee.com/products/govee-gaming-pixel-light",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0512/3489/8105/files/ID_logo_1_5b8f258c-298b-420e-9ab5-88348463a9b6.png?v=1750840129&width=1400&height=1400&crop=center",
+        "caption": "官方H6631长方规格与包装展示",
+        "alt": "长方形灰黑Govee像素灯、支架和配套应用示意",
+        "credit": "Govee · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/govee-gaming-pixel-light-h6631/reference.webp",
+        "sourceUrl": "https://us.govee.com/products/govee-gaming-pixel-light",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0512/3489/8105/files/2a309883d244b88b0cbfd360a82b46a9_d0562ecc-629f-4bd0-b0de-24c33aee7954.jpg?v=1758528885&width=1200&height=1536&crop=center",
+        "caption": "官方同长方规格桌面场景",
+        "alt": "H6631放在键盘旁显示像素声波，展示实体比例",
+        "credit": "Govee · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "目视核对当前型号与规格，官方网页原图未修改；配件、造景、广告效果及参数说明不代表基础包装或独立验证。"
+    ]
+  },
+  {
+    "id": "kohler-dekoda",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/kohler-dekoda/product.png",
+        "sourceUrl": "https://www.kohlerhealth.com/purchase/",
+        "sourceImageUrl": "https://images.ctfassets.net/veq5rt4lbvkn/76cVLPg7HVdxmHrMDijSRF/cb8381b6b592e3fd7068faed1c134123/t2-2x.png",
+        "caption": "官方Dekoda外侧机身展示",
+        "alt": "白色胶囊状Dekoda机身与侧边状态区域",
+        "credit": "Kohler Health · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/kohler-dekoda/reference.png",
+        "sourceUrl": "https://www.kohlerhealth.com/purchase/",
+        "sourceImageUrl": "https://images.ctfassets.net/veq5rt4lbvkn/2I19lYLE05fU95hSk7vQcr/53d371b25efa96a7d3d80e758c171b90/t1_2x.png",
+        "caption": "官方Dekoda内侧夹持与光学区域参考",
+        "alt": "Dekoda背面固定结构、金属夹持及光学输入端",
+        "credit": "Kohler Health · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "目视核对当前Dekoda型号与两侧结构，官方图未改色或语义编辑；不含人体、标本或私人健康数据。"
+    ]
   }
 ]

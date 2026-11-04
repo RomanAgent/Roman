@@ -554,6 +554,23 @@
       "productName": "Tobii Dynavox TD Pilot派乐（TD Talk AI音色方案）",
       "category": "accessibility",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "acoustics",
+      "component": "同类家庭字幕电话的听筒及扬声器候选",
+      "rationale": "瑞声公开扬声器、耳机单元和声学仿真整机调试能力，可研究相近电话听筒与机身声音设计，但须以真实结构和通话任务验证。未核到ClearCaptions采用证据，候选不代表已经供应，也不提供其ASR服务或保证某类听力条件下的效果，不能从一般声学产品推定原机BOM。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "clearcaptions-home-phone",
+      "productName": "ClearCaptions Home Phone",
+      "category": "accessibility",
+      "status": "assisted_program"
     }
   ]
 }

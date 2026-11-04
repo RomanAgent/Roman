@@ -491,16 +491,18 @@
       "referencePaths": [
         "assets/hardware/withings-beamo/ai-exploded-draft.png",
         "assets/hardware/withings-beamo/product.jpg",
-        "assets/hardware/withings-beamo/reference.jpg"
+        "assets/hardware/withings-beamo/reference.jpg",
+        "assets/hardware/withings-beamo/ai-exploded-pre-review.png"
       ],
       "verified": true,
-      "bytes": 1444084,
-      "sha256": "a7bd2a50c91c806deb171d92eacdff0cbf3acee4fde370e249254bc1fd0b8b69"
+      "bytes": 1719770,
+      "sha256": "9ef8cf8563b82a76bcf1bd04ce515ce6c5e8743a5a90d91a9d190c8a7f9bec8b"
     }
   ],
   "mediaNotes": [
     "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
     "初稿少量蓝色显示/接口已用内置ImageGen改为中性灰阶；初稿与完整修订提示词保留。",
+    "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。",
     "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。"
   ]
 }

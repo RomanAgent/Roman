@@ -150,6 +150,8 @@ Raystar面向中小尺寸显示，提供字符和图形OLED、单色LCD、TFT及
 
 - [Dex Language Discovery Camera](../hardware/dex-language-camera.md) — **能力候选 · 非已采用** / 小型显示及界面集成候选：Raystar提供小尺寸显示与系统集成能力，可作为圆形反馈界面的方案询价方向；是否具备所需尺寸和光学指标须重新确认。目录没有证据表明Dex采用该公司面板，不把外形相似写成合作关系。
 
+- [xVic Putting View](../hardware/xvic-putting-view.md) — **能力候选 · 非已采用** / 圆形小屏反馈候选：Raystar具备小尺寸显示及定制集成能力，可用于评估握柄端直接反馈的屏幕路线；具体圆形尺寸、可读性和功耗必须另核。厂商没有点名其供应Putting View，本关联只是开发选型方向，不能当作实际面板来源。
+
 ## 来源
 
 - [Raystar 官方公司介绍](<https://www.raystar-optronics.com/aboutus.htm>)：已打开；中小显示、OLED生产与标准OLED无MOQ的限定表述。

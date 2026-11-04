@@ -589,6 +589,59 @@
       "supplierId": "protolabs",
       "role": "mechanical",
       "relationship": "candidate",
+      "component": "鞍侧夹持与外壳样件候选",
+      "rationale": "Protolabs可提供结构样件加工以验证夹持曲线、壳体配合和不同鞍具上的安装，但皮革接触和反复运动下的保持力仍须实际测试。没有公开资料指向该公司参与Equestic量产，本关联只用于开发阶段能力匹配。",
+      "sourceIds": [
+        "s1",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "equestic-saddleclip",
+      "productName": "Equestic SaddleClip Classic",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "机壳及平台结构样件候选",
+      "rationale": "Protolabs的结构加工和快速样件能力可服务机壳、平台支撑及装配配合验证，缝纫运动精度和长期振动仍需独立测试。没有公开证据说明其参与PFAFF量产，本链接只用于原型选型，不能当作真实机架或工厂信息。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "pfaff-creative-icon-2",
+      "productName": "PFAFF creative icon 2",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "机壳与刺绣支撑样件候选",
+      "rationale": "Protolabs的结构加工和样件能力可用于机壳、框架支撑与车架配合验证，但缝纫传动精度和长期耐用还需专门测试。没有资料表明其制造EV1，本关联只是开发候选，不作为量产工厂、材料或真实内部结构证明。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "brother-aveneer-ev1",
+      "productName": "Brother AVENEER EV1",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
       "component": "外壳与可拆盘的原型和模具验证",
       "rationale": "Protolabs公开快速原型及模具服务可用于筒身、色芯接口和可拆盘装配验证，但材料与唇彩接触合规及计量性能并非自动满足；没有YSL型号采用证据，当前仅列结构工程候选。",
       "sourceIds": [
@@ -697,6 +750,44 @@
       "productId": "osim-udream-ai",
       "productName": "OSIM uDream.AI Well-Being Chair",
       "category": "personal-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "上盖与后部维护结构试制",
+      "rationale": "Protolabs公开原型制造能力可对应鱼缸上盖、过滤保护与易维护塑料结构的样件迭代。未发现其与当贝2S Ultra的合作证据；长期潮湿、材料兼容及密封要求需专项验证，不能把通用加工能力当成实际生产披露。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "dangbei-aquarium-2s-ultra",
+      "productName": "当贝智能鱼缸 2S Ultra",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "便器夹持与外壳适配样件",
+      "rationale": "Protolabs公开原型和数字制造服务可用于便器夹持、外壳与装配适配样件的工程迭代。没有其参与Dekoda的供货证据，候选能力不证明当前合作；清洁耐受、密封和不同便器光环境仍需要产品专门验证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "kohler-dekoda",
+      "productName": "Kohler Health Dekoda",
+      "category": "health-home",
       "status": "on_sale"
     }
   ]

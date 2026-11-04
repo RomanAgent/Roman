@@ -1,0 +1,1105 @@
+{
+  "snapshotAt": "2026-11-05",
+  "scope": "本轮保存的筛选事件样本，包括复核后收录、同任务保留代表和暂缓项目；不是全部CES线索的逐一审计，事件数不等于产品数或市场规模。当前销售状态以正式产品目录的独立档案为准。",
+  "records": [
+    {
+      "name": "Artiphon Orba 3",
+      "outcome": "AI作用证据待补",
+      "decision": "defer-ai",
+      "reason": "目前只找到采样、自动修剪、调音及量化的公开描述，未核到明确AI/ML机制；不把常规音频自动化当AI。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.artiphon.com/"
+      ]
+    },
+    {
+      "name": "Augmental MouthPad",
+      "outcome": "AI作用证据待补",
+      "decision": "needs_ai_evidence",
+      "reason": "可定制购买实体设备，但当前公开舌触控、头部运动、吸气手势机制未明确ML；不能把未来静默语音个人模型当已交付功能。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.augmental.tech/",
+        "https://www.augmental.tech/blog/mouthpad-and-vox-launch"
+      ]
+    },
+    {
+      "name": "ChefPaw C-Pro",
+      "outcome": "AI作用证据待补",
+      "decision": "hold-ai-evidence",
+      "reason": "官方在售宠物鲜食机与配方营养应用已找到，但当前产品资料未明确AI作用；营养计算与配方库不能直接认定机器学习或生成式分析。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.chefpaw.com/products/chefpaw-dog-food-maker"
+      ]
+    },
+    {
+      "name": "DeepScent Lounge / 2026 AI",
+      "outcome": "AI作用证据待补",
+      "decision": "hold-model-ai-sale",
+      "reason": "韩国Lounge商店有价格但按钮状态需核实；CES2026多模态AI不可直接套在2023 Lounge；待官网明确模型与现售设备关联。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://deepscent.kr/product/%EB%94%A5%EC%84%BC%ED%8A%B8-%EB%9D%BC%EC%9A%B4%EC%A7%80/242/category/42/display/2/",
+        "https://www.deepscent.io/"
+      ]
+    },
+    {
+      "name": "FOREO LUNA fofo",
+      "outcome": "AI作用证据待补",
+      "decision": "hold-ai-support",
+      "reason": "英国零售余货可购，但厂家AI历史资料与现行跨型号说明未充分核清；不将fofo历史AI宣称迁移到play smart 2。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://beautologyshop.co.uk/products/luna-fofo",
+        "https://www.foreo.com/manuals/luna-fofo",
+        "https://www.foreo.com/mysa/foreo-launches-luna-fofo"
+      ]
+    },
+    {
+      "name": "Gluxkind Rosa",
+      "outcome": "AI作用证据待补",
+      "decision": "hold-ai-detail",
+      "reason": "官方商店公开JSON available=true；官网称AI但现行公开功能主要传感助推制动，不能混入Ella概念无人跟随。继续核实具体AI机制。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://shop.gluxkind.com/products/gluxkind-rosa-smart-stroller",
+        "https://shop.gluxkind.com/products/gluxkind-rosa-smart-stroller.js",
+        "https://gluxkind.com/rosa-smart-stroller",
+        "https://gluxkind.com/ella-smart-stroller"
+      ]
+    },
+    {
+      "name": "GoCube / Unidice / Quincy",
+      "outcome": "AI作用证据待补",
+      "decision": "defer-ai",
+      "reason": "目前找到的是联网状态跟踪、规则解题、显示或预设卡片绘制；未验证制造商披露的具体AI机制，不把智能或电子化直接等同AI。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://particula-tech.com/",
+        "https://www.kickstarter.com/projects/unidice/unidice-the-new-dice-generation/faqs",
+        "https://robot-q.myshopify.com/"
+      ]
+    },
+    {
+      "name": "Instafarm Countertop / CES 2026 commercial",
+      "outcome": "AI作用证据待补",
+      "decision": "excluded-scope-ai",
+      "reason": "CES 2026 AI新机明确餐厅商用；家庭台面款页面未出现AI、显示缺货通知，不能移植商用相机能力。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://growinstafarm.com/products/the-instafarm-the-automated-in-home-growing-appliance",
+        "https://www.ces.tech/ces-innovation-awards/2026/instafarm/"
+      ]
+    },
+    {
+      "name": "JBL BandBox Solo 美国站",
+      "outcome": "AI作用证据待补",
+      "decision": "region-unavailable",
+      "reason": "美国官网与实际浏览器均显示Sold Out/disabled；英国官网有现货与购买入口，产品仅按英国在售记录。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.jbl.com/BANDBOX-SOLO.html",
+        "https://uk.jbl.com/BANDBOX-SOLO.html"
+      ]
+    },
+    {
+      "name": "LUCI轮椅辅助系统",
+      "outcome": "AI作用证据待补",
+      "decision": "needs_ai_evidence",
+      "reason": "FAQ明确美国兼容轮椅可个人付费订单和MSRP9854，传感融合与制动控制真实。但当前主页强调LUCI为确定性安全层，与物理AI系统合作，尚无本款具体ML模型或AI功能证据，不因Physical AI标题收录。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.luci.com/",
+        "https://www.luci.com/faq"
+      ]
+    },
+    {
+      "name": "Mila Air 3 / Air Mini",
+      "outcome": "AI作用证据待补",
+      "decision": "hold-ai-evidence",
+      "reason": "官方技术与支持页可证自动模式、存在感知和趋势报告，但未找到明确学习模型证据；智能自动调速不直接归AI。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://milacares.com/technology",
+        "https://milacares.com/support",
+        "https://buy.milacares.com/products/mila-air-3"
+      ]
+    },
+    {
+      "name": "NeuraBody NeuraSense",
+      "outcome": "AI作用证据待补",
+      "decision": "unavailable_and_ai_mechanism_unclear",
+      "reason": "当前具体产品页$115但明确Currently unavailable；标题AI-powered，公开技术描述仅presetthreshold/customtiltsensitivity触发震动，未见ML机制，不能将普通阈值控制当AI。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://neurabody.ai/products/neurasense"
+      ]
+    },
+    {
+      "name": "PONGBOT Omni S Plus / Pro",
+      "outcome": "AI作用证据待补",
+      "decision": "defer-ai-mechanism",
+      "reason": "11月5日实际打开型号商品与官方评测，现售成立，但可核主要为预设/自编序列及速度旋转控制。系列泛称machine learning，尚未说明此型号学习输入、模型作用或闭环反馈，暂不把普通发球自动化当AI。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://store.pongbotsports.com/products/omni-s-plus",
+        "https://store.pongbotsports.com/blogs/media/omni-s-pro-review-ai-table-tennis-pro-for-everyone"
+      ]
+    },
+    {
+      "name": "Sony REON POCKET PRO Plus",
+      "outcome": "AI作用证据待补",
+      "decision": "hold-ai-evidence",
+      "reason": "官方当前资料描述感知与温度控制算法，未确认明确机器学习作用；不能仅凭第三方AI称呼收录。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://reonpocket.sony.co.jp/reonpocket-proplus/"
+      ]
+    },
+    {
+      "name": "TORRAS COOLiFY Cyber / Cyber Fold",
+      "outcome": "AI作用证据待补",
+      "decision": "hold-ai-detail",
+      "reason": "品牌使用AI-AUTO字样，但已读机制主要为NTC感知和自动温控，尚未区分学习模型与阈值调节；暂不收。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://torras.co.jp/en/collections/small-appliances",
+        "https://torras.co.jp/blogs/news/coolify-cyber-fold-oniji-review"
+      ]
+    },
+    {
+      "name": "UNISTELLAR ENVISION",
+      "outcome": "AI作用证据待补",
+      "decision": "reject-ai-unproven",
+      "reason": "实际打开当前官网明确无相机，依靠陀螺仪、磁力计等方位融合与数据库AR叠加；虽有付费预售，未核具体AI/ML机制，不能把smart当AI。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.unistellar.com/envision/"
+      ]
+    },
+    {
+      "name": "Alogo Move Pro",
+      "outcome": "同任务保留代表",
+      "decision": "reject-duplicate-need",
+      "reason": "官方当前是硬件租赁+平台订阅，AI运动分析成立，但与本批Equestic骑乘步态复盘同核心任务。优先收可零售Equestic，不因价格、指标或租赁方式新增独立场景。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://alogo.io/",
+        "https://alogo.io/pricing/"
+      ]
+    },
+    {
+      "name": "BirdWeather PUC",
+      "outcome": "同任务保留代表",
+      "decision": "reject-duplicate",
+      "reason": "home组已完成同款全套，needKey passive-birdsong-monitoring；不再新增。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://birdweather.myshopify.com/products/birdweather-puc",
+        "https://www.birdweather.com/owners-manual"
+      ]
+    },
+    {
+      "name": "Flowtica Scribe",
+      "outcome": "同任务保留代表",
+      "decision": "defer-duplicate-need",
+      "reason": "CES描述实为笔形录音和摘要硬件，和XNote的纸笔光学采集不同，但与现有专用录音产品核心任务重复；尚无足够差异和当前销售核验，不为数量新增。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.ces.tech/ces-innovation-awards/2026/flowtica-scribe/"
+      ]
+    },
+    {
+      "name": "Hypershell X Max S / X Ultra S / Carbon X",
+      "outcome": "同任务保留代表",
+      "decision": "reject-duplicate",
+      "reason": "本轮选现售X Pro S代表髋部连续助力；其它同系列主要功率、材料或电池差别，不作为独立需求新增。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://hypershell.tech/products/new-hypershell-x-series"
+      ]
+    },
+    {
+      "name": "SWAROVSKI OPTIK AX Visio",
+      "outcome": "同任务保留代表",
+      "decision": "reject-duplicate",
+      "reason": "现有research-home-extra.json已经收录，不重复增加。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.swarovskioptik.com/us/en/hunting/products/binoculars/ax-visio/"
+      ]
+    },
+    {
+      "name": "10minds Motion Pillow",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "英文官方店有价格及购买按钮；品牌技术页明确深度学习鼾声识别与气囊动作；不混入CES AI Mopill或戒指能力。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://en.10minds.com/Product/Detail/view/pid/1",
+        "https://motionpillow.com/en/home.do",
+        "https://en.10minds.com/Mobile/Help/shoppingguide"
+      ],
+      "productId": "10minds-motion-pillow"
+    },
+    {
+      "name": "Algocare E1 Pro",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：把家庭成员的营养建议连接到专用颗粒分发与补充管理。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.algocare.ai/products/E1Pro-purchase",
+        "https://www.algocare.ai/contents/wellness-system-overview",
+        "https://www.algocare.ai/agreements/terms-of-service",
+        "https://www.algocare.ai/contents/algocare-routine"
+      ],
+      "productId": "algocare-e1-pro"
+    },
+    {
+      "name": "AltumView Sentinare 3",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：以本地人体骨架表示支持居家活动与跌倒事件提醒。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.altumview.ca/",
+        "https://shop.altumview.ca/",
+        "https://www.amazon.com/dp/B0C441Y8NK",
+        "https://www.altumview.ca/privacy-policy/",
+        "https://www.altumview.ca/support/"
+      ],
+      "productId": "altumview-sentinare-3"
+    },
+    {
+      "name": "Aveine Wine Aerator",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：从酒标识别与推荐连接到逐杯主动充氧的便携设备。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.aveine.com/products/aveine",
+        "https://www.aveine.com/pages/faq",
+        "https://cdn.aveine.paris/website/press-kit-en.pdf",
+        "https://www.aveine.com/pages/mobile-application"
+      ],
+      "productId": "aveine-wine-aerator"
+    },
+    {
+      "name": "Barsys 360",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "黑色当前有货；官方AI App生成/发现饮品，确认兼容配方后硬件分发，不把定量本身当AI。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://us.barsys.com/shop/barsys-360",
+        "https://us.barsys.com/app",
+        "https://360.barsys.com/"
+      ],
+      "productId": "barsys-360"
+    },
+    {
+      "name": "BirdWeather PUC",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：用环境录音建立个人鸟声观察站，而不必先把鸟引到镜头前。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.birdweather.com/shop-birdweather-puc",
+        "https://www.birdweather.com/owners-manual",
+        "https://www.birdweather.com/puc-distributors-and-resellers"
+      ],
+      "productId": "birdweather-puc"
+    },
+    {
+      "name": "Brother AVENEER EV1",
+      "outcome": "已收录 · 可订购",
+      "decision": "included-after-channel-verification",
+      "reason": "复核确认Picture Play照片到可执行针迹与PFAFF压脚核对为不同任务；Brother原厂EV1类别门店查询列出A61 Woodseats，实际门店与公开商品数据均现货14999英镑，已完整入库。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.brother.co.jp/news/2025/ev1/index.aspx",
+        "https://www.brother-usa.com/products/ev1",
+        "https://sewingcraft.brother.eu/en/products/how-to-buy/where-to-buy",
+        "https://woodseatssewingmachinesshop.co.uk/products/brother-aveneer-ev1-sewing-embroidery-quilting-machine-1"
+      ],
+      "productId": "brother-aveneer-ev1",
+      "previousDecision": "defer-same-domain-representative",
+      "previousReason": "已打开原厂家用机和AI图片转刺绣资料，当前多为dealer专售；同轮先收PFAFF具体配置检测实现，不为品牌/旗舰数量继续扩展。后续若按图像到针迹任务细分，需核授权门店当前库存。"
+    },
+    {
+      "name": "Bsize BoT Talk（美国版）",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：学习儿童常去地点并将偏离提醒与无屏语音留言结合。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://us.shop.bot.app/products/bot-talk",
+        "https://www.bot.app/us",
+        "https://support.bot.app/hc/en-us/articles/56063899670041-Can-I-Resell-BoT-Products-at-Online-Stores-e-g-Amazon-eBay-or-Mercari",
+        "https://support.bot.app/hc/en-us/articles/13216167333273-BoT-Subscription-Service-Terms"
+      ],
+      "productId": "bsize-bot-talk-us"
+    },
+    {
+      "name": "Catlog Board 2",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "rabo.cat官方购买页经Chrome实际看到19800日元与加购，会员新用户折扣13860；重量与行为模式AI、不用摄像头或项圈。未采用可疑shopcatlog模板价格。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://rabo.cat/catlog/product/board2/",
+        "https://rabo.cat/lp/202403_interested/",
+        "https://rabo.cat/catlog/price/"
+      ],
+      "productId": "catlog-board-2"
+    },
+    {
+      "name": "CleverCharge Home J1772 NEMA 14-50 + CleverKey",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "官方商品可购，原HTML中不可售提示为d-none，购买按钮可用；CleverKey套件及AI能力有官网说明，待整理具体算法作用。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+        "https://www.clevercharge.com/clevercharge-home",
+        "https://www.clevercharge.com/faqs",
+        "https://www.clevercharge.com/e-commerce-policy"
+      ],
+      "productId": "clevercharge-home-cleverkey"
+    },
+    {
+      "name": "Cradlewise Convertible Smart Bassinet & Crib",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：通过视觉与声音感知觉醒迹象并以床体弹动回应的婴儿床。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1",
+        "https://cradlewise.com/en-US/faq",
+        "https://cradlewise.com/en-US/nurture"
+      ],
+      "productId": "cradlewise-smart-crib"
+    },
+    {
+      "name": "Flappie",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "瑞士英文店有货可加购，设备端AI猎物识别并锁门；英国仅免费队列不计英国预售。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://flappiedoors.com/en/products/flappie",
+        "https://flappiedoors.com/en"
+      ],
+      "productId": "flappie-ai-cat-flap"
+    },
+    {
+      "name": "FluentPet Connect Get Started Kit",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：记录宠物按键互动，并可申请外部Claude分析训练日志的Beta连接。AI为需逐账户开启的外部Beta，购买硬件不保证默认获得AI。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://fluent.pet/products/connect-get-started-kit-bold-with-base",
+        "https://support.fluent.pet/app/claude/",
+        "https://support.fluent.pet/connect/",
+        "https://fluent.pet/policies/shipping-policy"
+      ],
+      "productId": "fluentpet-connect"
+    },
+    {
+      "name": "Gardyn Studio 2",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "官网可加购；当前技术文章明确视觉模型、传感融合与Kelby控制；只收Studio 2不加同任务Home大小变体。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://mygardyn.com/products/gardyn-studio-gen2",
+        "https://mygardyn.com/blogs/news/technology-behind-your-gardyn",
+        "https://mygardyn.com/pages/faq"
+      ],
+      "productId": "gardyn-studio-2"
+    },
+    {
+      "name": "Govee Gaming Pixel Light H6631",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：把文字想法生成像素图形和动画，再显示到桌面实体灯屏。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://us.govee.com/products/govee-gaming-pixel-light",
+        "https://us.govee.com/pages/govee-technology",
+        "https://us.govee.com/blogs/news/govee-announces-new-lighting-technology-for-elevated-living-experiences-at-ces-2025",
+        "https://us.govee.com/policies/shipping-policy"
+      ],
+      "productId": "govee-gaming-pixel-light-h6631"
+    },
+    {
+      "name": "Hearth Display",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "官方现货可购，Hearth Helper提取照片或文本排程待用户确认；会员与基础显示分开。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://hearthdisplay.com/products/hearth-display",
+        "https://hearthdisplay.com/pages/features",
+        "https://hearthdisplay.com/pages/membership"
+      ],
+      "productId": "hearth-family-display"
+    },
+    {
+      "name": "Hydrific Droplet",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "官方商店可购买并标发货；帮助中心明确超声及机器学习分辨水事件，非普通浸水开关。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://hydrificwater.com/products/droplet",
+        "https://help.hydrificwater.com/en/articles/11461682-how-does-droplet-work"
+      ],
+      "productId": "hydrific-droplet"
+    },
+    {
+      "name": "ININUM Smart Fragrance",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：把穿搭与对话建议转换为随身香氛比例的喷洒设备。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.ininum.com/products/ininum",
+        "https://www.ininum.com/app"
+      ],
+      "productId": "ininum-smart-fragrance"
+    },
+    {
+      "name": "JubileeTV Console + Membership",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "39美元/月方案含实体主机并可下单；官方文档有视觉活动与Canary Speech AI，明确硬件随服务使用及美国境内限制。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://getjubileetv.com/products/jubilee-tv-direct",
+        "https://docs.getjubileetv.com/activity-feed",
+        "https://docs.getjubileetv.com/voice-insights"
+      ],
+      "productId": "jubilee-tv-console"
+    },
+    {
+      "name": "Kohler Health Dekoda",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：在既有坐便器上进行光学观察，形成经本人启动的排泄与水合趋势记录。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.kohlerhealth.com/purchase/",
+        "https://www.kohlerhealth.com/how-it-works/",
+        "https://www.kohlerhealth.com/dekoda/",
+        "https://www.kohlerhealth.com/data-privacy/"
+      ],
+      "productId": "kohler-dekoda"
+    },
+    {
+      "name": "LeafyPod Starter Pack",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "单盆加Bridge当前可加购，官方说明照片识别植物与学习个体浇水；不把多盆套装另计。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.theleafypod.com/products/leafypod-bridge-planter-package",
+        "https://www.theleafypod.com/"
+      ],
+      "productId": "leafypod-starter-pack"
+    },
+    {
+      "name": "Mill Food Recycler Plus",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "当前家用配置可加购发货；家用AI只用于传感自适应周期，不移植Commercial Gemini视觉。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.mill.com/configure/food-recycler?bin_color=white&product=mill-plus",
+        "https://www.mill.com/news/introducing-the-next-generation-of-mill"
+      ],
+      "productId": "mill-food-recycler-plus"
+    },
+    {
+      "name": "Moen Flo Smart Water Shutoff（900-006）",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：学习家庭用水模式后执行自动总阀关闭的管路设备。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://flo.moen.com/products/flo-smart-water-monitor-shutoff-enhanced-bundle",
+        "https://flo.moen.com/pages/flo-smart-water-monitor",
+        "https://www.moen.com/pages/learn-about-moen-flo-standard-installation"
+      ],
+      "productId": "moen-flo-shutoff-900-006"
+    },
+    {
+      "name": "Ondilo ICO Pool v2 Chlorine/Bromine",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：让家庭泳池的水质读数转成可执行维护建议，而不是自动投药。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://us.ondilo.com/product/ico-pool/",
+        "https://us.ondilo.com/technology/"
+      ],
+      "productId": "ondilo-ico-pool"
+    },
+    {
+      "name": "OSIM uDream.AI Well-Being Chair",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：将手机相机推断的压力指标连接到家用按摩程序推荐。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+        "https://www.osim.com/Sites/user_manual/udream-ai.pdf",
+        "https://osim.com.au/collections/ai-massage-chair",
+        "https://www.ciie.org/hall/f/exhibition-hall/exhibits/145eda421977412cb62213d999e55ba9/view"
+      ],
+      "productId": "osim-udream-ai"
+    },
+    {
+      "name": "ReefBot Lab",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "官方硬件可购；官方AI Beta读取设备自动试剂结果及历史，不是同名第三方纯App。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.reefkinetics.com/product/reefbot-lab/",
+        "https://www.reefkinetics.com/app/?rk_cta=pdp-under-cart"
+      ],
+      "productId": "reefkinetics-reefbot-lab"
+    },
+    {
+      "name": "SEERGRILLS Perfecta",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：以双侧垂直红外加热和学习控制处理食材表面焦化与熟度。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://seergrills.com/products/perfecta-bundles",
+        "https://seergrills.com/",
+        "https://seergrills.com/pages/shipping-and-returns-policy"
+      ],
+      "productId": "seergrills-perfecta"
+    },
+    {
+      "name": "Sleepal AI Lamp",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "新官网Buy Now指向/cart，已用Chrome看到实体Sleepal AI Lamp、HKD3131和可用Check out；公开变体available=true且requires_shipping=true。旧预热页不代表当前销售，邀请押金不采用。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.sleepal.ai/cart",
+        "https://shop.sleepal.ai/variants/43698816811075.js",
+        "https://shop.sleepal.ai/"
+      ],
+      "productId": "sleepal-ai-lamp"
+    },
+    {
+      "name": "SWAN Beauty Smart Mirror",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：把面部特征映射与AR化妆指引叠加到家中镜面。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.swanbeauty.com/products/swan-mirror",
+        "https://www.swanbeauty.com/pages/experience",
+        "https://www.swanbeauty.com/policies/shipping-policy",
+        "https://www.swanbeauty.com/pages/mirror",
+        "https://www.swanbeauty.com/pages/experience-1"
+      ],
+      "productId": "swan-beauty-smart-mirror"
+    },
+    {
+      "name": "Tempest Weather Station",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：把自家庭院观测接入机器学习校准和微尺度天气预测。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://shop.tempest.earth/products/tempest",
+        "https://business.tempest.earth/nearcast-technology"
+      ],
+      "productId": "tempest-home-weather-station"
+    },
+    {
+      "name": "Yarbo Y40 Core + Snow Blower Gen 2",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：针对家庭车道和人行路径持续除雪的模块化机器人。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module",
+        "https://www.yarbo.com/collections/robotic-snow-blower",
+        "https://eu.yarbo.com/blogs/all/detailed-look-at-the-yarbo-remote-control-snowblower"
+      ],
+      "productId": "yarbo-y40-snow-blower-gen2"
+    },
+    {
+      "name": "YSL Rouge Sur Mesure",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：从穿搭与照片取色推荐到实体唇彩按比例分发。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.yslbeautyus.com/rouge-sur-mesure-custom-lip-color-creator/WW-50912YSL.html",
+        "https://www.yslbeautyus.com/rouge-sur-mesure.html?geo=false"
+      ],
+      "productId": "ysl-rouge-sur-mesure"
+    },
+    {
+      "name": "当贝智能鱼缸 2S Ultra",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：由手机识鱼和养护建议衔接一体鱼缸的喂食、灯光与水流控制。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.dangbei.com/",
+        "https://item.jd.com/100336614386.html",
+        "https://apps.apple.com/us/app/%E5%BD%93%E8%B4%9D%E9%B1%BC%E7%BC%B8/id6736940012"
+      ],
+      "productId": "dangbei-aquarium-2s-ultra"
+    },
+    {
+      "name": "鹿客 Lockin V7 Max",
+      "outcome": "已收录 · 可订购",
+      "decision": "qualified",
+      "reason": "已完成目录核查：以红外隔空供电支撑门前识别、对话与事件检索的家用智能锁。具体销售、AI依赖及中国可达性见完整档案。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.lockin.com/",
+        "https://www.lockin.com/detail/?slug=V7"
+      ],
+      "productId": "lockin-v7-max"
+    },
+    {
+      "name": "1X NEO",
+      "outcome": "已收录 · 非零售观察",
+      "decision": "reservation-not-counted",
+      "reason": "可退200美元只取得未来订单邀请，不承诺交付；root要求reservation，不计在售/预售数量。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.1x.tech/order",
+        "https://www.1x.tech/legal"
+      ],
+      "productId": "1x-neo-home"
+    },
+    {
+      "name": "Weave Isaac 0",
+      "outcome": "已收录 · 非零售观察",
+      "decision": "reservation-not-counted",
+      "reason": "已有家庭部署但当前公开250美元入口法律上仅为未来订单机会，root要求reservation；不计可购目标。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.weaverobotics.com/isaac-0/order",
+        "https://www.weaverobotics.com/pre-order-agreement"
+      ],
+      "productId": "weave-isaac-0"
+    },
+    {
+      "name": "Bin-e",
+      "outcome": "用途或形态不符",
+      "decision": "excluded-b2b",
+      "reason": "官网明确面向公共场所，不属家庭C端，奖项不计入目录。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.bine.world/"
+      ]
+    },
+    {
+      "name": "FusionCue",
+      "outcome": "用途或形态不符",
+      "decision": "exclude-software",
+      "reason": "官网明确自备电脑、投影与相机，当前销售为软件许可或订阅，没有专有完整硬件套装。保留为台球训练替代方案线索，不作为消费硬件单列。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.fusioncue.com/"
+      ]
+    },
+    {
+      "name": "INVIZ AI Echo Care",
+      "outcome": "用途或形态不符",
+      "decision": "excluded-not-consumer-hardware",
+      "reason": "CES第一方描述为医院心脏超声影像分析流程软件，非个人家用实体设备；名称Care不能据此推定家庭跌倒传感。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.ces.tech/ces-innovation-awards/2025/ai-echo-care/"
+      ]
+    },
+    {
+      "name": "NutriTrex",
+      "outcome": "用途或形态不符",
+      "decision": "excluded-not-hardware",
+      "reason": "CES官方描述明确运行于任意平板的学校营养平台，无独立实体硬件。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.ces.tech/ces-innovation-awards/2025/nutritrex-ai-nutrition-coaching-for-kids/"
+      ]
+    },
+    {
+      "name": "QuivAR",
+      "outcome": "用途或形态不符",
+      "decision": "exclude-software",
+      "reason": "技术页明确由智能手机运行，无需额外硬件。其视觉识别不构成独立在售硬件，不纳入实体产品数量。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.quivar.app/technology"
+      ]
+    },
+    {
+      "name": "QYSEA FIFISH E-GO",
+      "outcome": "用途或形态不符",
+      "decision": "reject-audience",
+      "reason": "官方定位工业作业与团队检查；本轮改核面向水下摄影和探索的V-EVO，不把工业型号塞入C端目录。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.qysea.com/products/fifish-e-go/",
+        "https://store.qysea.com/products/fifish-e-go"
+      ]
+    },
+    {
+      "name": ".lumen Glasses",
+      "outcome": "销售或交付待核",
+      "decision": "reservation_not_counted",
+      "reason": "官网标价9999欧元及3–6个月，但Reserve实际只填写邮箱/电话/国家；未核实确定实物订单，不把免费排队当预售。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.dotlumen.com/glasses",
+        "https://www.dotlumen.com/reserve"
+      ]
+    },
+    {
+      "name": "AiRET S9 Prestige / AX1",
+      "outcome": "销售或交付待核",
+      "decision": "hold-sale",
+      "reason": "官网仅询盘及地产试点/采购意向，未见个人可付费下单或明确预售；AI证据明确但销售证据不足。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://airet.io/ko/",
+        "https://airet.io/ko/about/",
+        "https://airet.io/ko/s9/"
+      ]
+    },
+    {
+      "name": "ARV MATRx",
+      "outcome": "销售或交付待核",
+      "decision": "hold-sale",
+      "reason": "CES可证压力矩阵与AI跌倒识别概念，未证实个人家庭付费渠道；不按奖项直接收录。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.ces.tech/ces-innovation-awards/2025/matrx-privacy-first-ai-fall-detection-mat/"
+      ]
+    },
+    {
+      "name": "Augmental VOX",
+      "outcome": "销售或交付待核",
+      "decision": "reservation_not_counted",
+      "reason": "Batch 1售罄；Batch 2为可退款Reserve、2027未确定时间，且后续硬件会改。付费预留不能冒充当前确定实物订单。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.augmental.tech/vox"
+      ]
+    },
+    {
+      "name": "Bunafr home coffee roaster",
+      "outcome": "销售或交付待核",
+      "decision": "hold-sale",
+      "reason": "当前官方可付费销售未证实，众筹页无可读订购状态；保留待查，不将论坛停业说法作为事实。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.indiegogo.com/en/projects/bunafrcoffee/bunafr-world-s-1st-smokeless-home-coffee-roaster"
+      ]
+    },
+    {
+      "name": "Bzigo Iris",
+      "outcome": "销售或交付待核",
+      "decision": "excluded-current-sale",
+      "reason": "实际浏览按钮OUT STOCK禁用且商品数据available=false，与页面旧Add to cart/available for order文字冲突；按更具体库存证据暂不计可购，不断言永久停售。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://bzigo.com/products/bzigo-iris-smart-home-mosquito-protector",
+        "https://bzigo.com/collections/frontpage"
+      ]
+    },
+    {
+      "name": "CarePredict Tempo",
+      "outcome": "销售或交付待核",
+      "decision": "hold-consumer-channel",
+      "reason": "当前官网重点为养老机构运营与住户平台，提供机构演示入口；本轮未核到当前个人家庭零售渠道，不能以历史消费介绍代替。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.carepredict.com/"
+      ]
+    },
+    {
+      "name": "CHASING CanFish F2",
+      "outcome": "销售或交付待核",
+      "decision": "reservation-lead-not-counted",
+      "reason": "已实际打开官方产品与预约页：50美元Founder Deposit仅锁定未来Kickstarter权益，页面明确不是整机付款。AI视觉识鱼机制具体，值得后续观察，但本批不为数量补位，不计可订购。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://canfishcam.com/pages/f2",
+        "https://canfishcam.com/products/canfish-f2-vip-pre-launch-priority-pass"
+      ]
+    },
+    {
+      "name": "CueIQ Founding System",
+      "outcome": "销售或交付待核",
+      "decision": "hold-reservation",
+      "reason": "官网目前为99英镑可退款定金、目标2026年末交付，且明确实物产品照片尚待发布。不能按499英镑完整现货算入可订购目录。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.cueiq.net/"
+      ]
+    },
+    {
+      "name": "Dreame Pilot 20",
+      "outcome": "销售或交付待核",
+      "decision": "hold-sale",
+      "reason": "已找到品牌CES发布的感知与AI吹发机制，当前正式付费购买或预售入口尚未证实；不把发布新闻算在售。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.dreametech.com/blogs/news/dreame-at-ces-2026-debut-ai-powered-whole-home-smart-ecosystem"
+      ]
+    },
+    {
+      "name": "G-Grip / G-Grip Pro",
+      "outcome": "销售或交付待核",
+      "decision": "defer-status",
+      "reason": "官网实际访问显示Access is restricted；CES与公司简介只能支持线索，尚无可核当前订单渠道，不计可购。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://ggrip.ai/"
+      ]
+    },
+    {
+      "name": "GRAN EYE at Darts Corner",
+      "outcome": "销售或交付待核",
+      "decision": "rejected-stock-evidence",
+      "reason": "品牌授权经销商的公开商品JSON中各组合available=false，不能用含Add to cart模板证明在售；继续核当前日本官方2026款。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.dartscorner.co.uk/products/granboard-gran-eye-automatic-scoring-camera-system"
+      ]
+    },
+    {
+      "name": "GroundSage SCOOP Model 1",
+      "outcome": "销售或交付待核",
+      "decision": "hold-reservation",
+      "reason": "官方条款把预订定义为开发中产品的reservation，价格规格仍可能调整，无确定发货日；不计正式预售可购目标。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.mygroundsage.com/shop/p/groundsage-scoop-model-1",
+        "https://www.mygroundsage.com/terms-of-service"
+      ]
+    },
+    {
+      "name": "G·GRIP Men’s 7-Iron",
+      "outcome": "销售或交付待核",
+      "decision": "defer-status",
+      "reason": "搜索有269美元ORDER NOW摘要，但实际打开商品URL为403，浏览器显示Access is restricted；当前订单不能核实。FAQ明确现售挥杆款不含未来握压，未来生成分析也未当已上线。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.ggrip.ai/shop_view/35",
+        "https://www.ggrip.ai/faq"
+      ]
+    },
+    {
+      "name": "HapWare ALEYE",
+      "outcome": "销售或交付待核",
+      "decision": "hold-order-terms",
+      "reason": "实际浏览官网当前入口为59美元定金、余款在发货时支付；整机价格与订单合同需要进一步核对。本轮未确认它是正式设备分期订单还是预约权益，暂未纳入可订购。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://hapware.com/",
+        "https://hapware.com/preorder/"
+      ]
+    },
+    {
+      "name": "Lockin Veno Plus",
+      "outcome": "销售或交付待核",
+      "decision": "excluded-current-sale",
+      "reason": "旧英文检索显示库存，但实时浏览已重定向中国站并404；已从交付目录移除，以实际官网V7 Max取代。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://lockin.com/products/veno-plus-palm-vein-recognition-video-smart-lock",
+        "https://www.lockin.com/"
+      ]
+    },
+    {
+      "name": "MW75 Neuro",
+      "outcome": "销售或交付待核",
+      "decision": "excluded",
+      "reason": "当前官网明确停止生产和销售；旧搜索摘要价格与订单已过时。转核Neurable One，不把两代重复计数。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.neurable.com/products/mw75neuro"
+      ]
+    },
+    {
+      "name": "Nailbot 2.0",
+      "outcome": "销售或交付待核",
+      "decision": "hold-sale",
+      "reason": "前次官网为Next batch coming soon及免费Early Access；11月5日页面无可读订单证据，继续待核，不能将2.0 AI功能套给旧1.0库存。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://preemadonna.com/"
+      ]
+    },
+    {
+      "name": "Naqi Neural Earbuds",
+      "outcome": "销售或交付待核",
+      "decision": "excluded",
+      "reason": "2026-09-01官方公告仍为先进原型至生产准备，预期2027试产与规模准备；没有有效消费订单。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.naqilogix.com/press-release/naqi-logix-executes-on-critical-milestone-signs-with-contract-manufacturer-leading-path-to-commercialization"
+      ]
+    },
+    {
+      "name": "Nimble Beauty home manicure",
+      "outcome": "销售或交付待核",
+      "decision": "excluded-current-sale",
+      "reason": "当前首页宣布被10Beauty收购；10Beauty主推沙龙预约，不是家用硬件零售；旧技术与退货页不能证明仍在售。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://www.nimblebeauty.com/",
+        "https://www.nimblebeauty.com/pages/our-technology-1",
+        "https://www.10beauty.co/"
+      ]
+    },
+    {
+      "name": "Nuwa Pen",
+      "outcome": "销售或交付待核",
+      "decision": "hold-stock",
+      "reason": "当前具体商品页显示上批预售售完、加入候补名单；通用FAQ和物流条款不证明当前仍接受整机订单。与XNote相比具有普通纸面采集差异，但暂不计入可订购。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://nuwapen.com/products/nuwa-pen",
+        "https://nuwapen.com/collections/all"
+      ]
+    },
+    {
+      "name": "ORO / ORo dog robot",
+      "outcome": "销售或交付待核",
+      "decision": "excluded-current-sale",
+      "reason": "当前oroforpets官网写2027年第一季度印度上市，免费早期名单无购买义务；旧2024预售报道不作为当前可购。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.oroforpets.com/"
+      ]
+    },
+    {
+      "name": "Razer AVA",
+      "outcome": "销售或交付待核",
+      "decision": "reservation-lead-not-counted",
+      "reason": "官方搜索结果当前FAQ将Early Access改为2027年初，旧预约条款仍写2026下半年；20美元可退款预约不是整机订单。本轮不追加完整档案，后续须实际核新交期和硬件销售。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.razer.com/razer-ava",
+        "https://www.razer.com/concepts/project-ava/reservation"
+      ]
+    },
+    {
+      "name": "ROLI Airwave Learn",
+      "outcome": "销售或交付待核",
+      "decision": "defer-status",
+      "reason": "11/5再次实际浏览器核对，官网仍显示site maintenance且无价格或购买按钮；技术成立但不以搜索缓存Buy now证明当前可购。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://roli.com/us/product/airwave-learn",
+        "https://roli.com/us/experience/airwave-learn"
+      ]
+    },
+    {
+      "name": "ROLI Piano System + Airwave",
+      "outcome": "销售或交付待核",
+      "decision": "defer",
+      "reason": "2026-11-04浏览器实际官网显示site maintenance且无购买控件；缓存的Order now/旧预售日期不足证明当前可订购。保留候选，待授权销售渠道核验。",
+      "checkedAt": "2026-11-04",
+      "sources": [
+        "https://roli.com/us/product/bundle-piano-learn-airwave-learn-b1"
+      ]
+    },
+    {
+      "name": "Rotimatic NEXT",
+      "outcome": "销售或交付待核",
+      "decision": "hold-sale",
+      "reason": "前次官方购买页为暂时缺货和waitlist；11月5日复核工具返回锁定，仍无当前付费购买证据，不计可购。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://rotimatic.com/pages/buy-now"
+      ]
+    },
+    {
+      "name": "Scentee Machina",
+      "outcome": "销售或交付待核",
+      "decision": "hold-current-support",
+      "reason": "日本历史资料明确学习使用历史的AI香氛终端，但当前品牌销售、耗材与应用服务仍未证实；旧众筹和经销手册不足以确认2026可用。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.kickstarter.com/projects/2069862374/scentee-machina/description?lang=fr",
+        "https://www.mori-trust.co.jp/assets/media/20180829.pdf"
+      ]
+    },
+    {
+      "name": "Smarter FridgeCam",
+      "outcome": "销售或交付待核",
+      "decision": "excluded-current-sale",
+      "reason": "2026-11-05官方当前商品页明确Sold Out，且未找到新版本明确AI机制，不能仅凭联网快照或扫描库存算AI。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://smarter.am/products/smarter-fridgecam"
+      ]
+    },
+    {
+      "name": "Sorcerics SOL",
+      "outcome": "销售或交付待核",
+      "decision": "hold-sale",
+      "reason": "11月5日官网链接已完成的2026年4月28日至5月30日Kickstarter众筹；尚未核实当前late pledge或零售付款，继续保留候选。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.sorcerics.com/",
+        "https://www.sorcerics.com/sol",
+        "https://www.kickstarter.com/projects/sorcerics/sol-home-automation-finally-on-autopilot/"
+      ]
+    },
+    {
+      "name": "StoveSentry AI",
+      "outcome": "销售或交付待核",
+      "decision": "excluded-concept",
+      "reason": "官网明确Concept/not for sale，且程序说明AI model为None（热区与定时状态机）；不计在售AI硬件。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://iemilabs.com/products/stovesentry-ai/"
+      ]
+    },
+    {
+      "name": "Traini Smart Collar",
+      "outcome": "销售或交付待核",
+      "decision": "hold-contract",
+      "reason": "官方有599美元Buy Now及50美元Reserve并列，FAQ却为2027交付目标，须厘清全款订单与定金条款；尚未计当前可购。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://traini.app/products/collar"
+      ]
+    },
+    {
+      "name": "WIZPR Ring",
+      "outcome": "销售或交付待核",
+      "decision": "current_orders_closed",
+      "reason": "厂家保留Pre-order链接，但当前Indiegogo真实浏览器页面明确pledge manager closed，所有添加认捐按钮禁用。现官网有AI近场语音机制，但没有核到新订单渠道；不以2024价或2026向旧支持者发货等同当前可买。",
+      "checkedAt": "2026-11-05",
+      "sources": [
+        "https://www.wizpr-ring.com/?lang=en",
+        "https://www.vtouch.io/en-us/products/wizpr-ring",
+        "https://www.indiegogo.com/en/projects/vtouchinc/wizpr-ring-future-of-voice-interaction-with-ai"
+      ]
+    }
+  ]
+}

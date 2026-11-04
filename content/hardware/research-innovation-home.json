@@ -3579,5 +3579,356 @@
     "checkedAt": "2026-11-05",
     "audience": "consumer",
     "saleMode": "retail"
+  },
+  {
+    "id": "dangbei-aquarium-2s-ultra",
+    "name": "当贝智能鱼缸 2S Ultra",
+    "brand": "当贝 Dangbei",
+    "category": "pet-care",
+    "tagline": "由手机识鱼和养护建议衔接一体鱼缸的喂食、灯光与水流控制",
+    "officialUrl": "https://www.dangbei.com/",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-05官网当前2S Ultra栏目购买链接跳转京东自营SKU100336614386；实际浏览确认智能鱼缸2S Ultra选项、可加购与立即购买，页面优惠到手价约568元。旧1 Ultra官网已售罄，不作为本条销售证据。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已从当贝官网进入品牌京东自营官方渠道并看到当前2S Ultra可购买；配送范围、优惠资格和套装内容以具体地区结算为准，不包含造景与鱼。"
+    },
+    "price": {
+      "text": "京东官方渠道当前优惠到手价约 ¥568",
+      "note": "核查日促销展示，页面另列日常价约¥646.38；不保证所有账户同价。采用基础2S Ultra选项，造景、滤材、UV配件及不同礼包不重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方配套App已提供AI拍照识鱼并生成喂养方案，设备执行相应喂食、灯光和水流设置。照片输入来自手机，不能虚构缸内摄像头或实时诊断每条鱼。",
+      "dependency": "识别、建议与远程管理依赖手机应用和相应网络服务；过滤与饲喂设备仍须清洁和检查。水质相关读数不等同所有化学指标的专项检测，不能承诺永久免换水。"
+    },
+    "highlights": [
+      "从识别养殖对象连接到整缸养护设置，区别单独水质试剂机器人",
+      "双过滤、喂食与灯光集中在桌面鱼缸，减少新手逐件选配",
+      "AI图像识别来自手机；普通过滤泵和定时控制不单独标成AI"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望在桌面建立小型观赏水族的家庭，可能需要降低选择过滤、灯光与投喂方案的门槛。手机识鱼能提供养护起点，但真实负担还包括开缸、清洁、补水和判断异常，不能从一体化与AI宣传推断免维护。",
+      "userProfile": "画像推断：愿意了解鱼种适配、控制养殖密度并定期维护的入门家庭较匹配，已有成熟大缸或专业海水系统的人未必需要整机替换。不能把喜欢观赏画面等同能够持续照护，购买前还需考虑承重、电源和清洁位置。",
+      "competition": "竞争判断：与普通缸加独立过滤喂食器、养鱼知识应用和专业水质检测比较，差异在识鱼建议到整缸控制的衔接。旧1 Ultra、配件和造景礼包不拆成新场景，也不以联网本身或营销免换水字样证明AI价值。",
+      "supplyChain": "供应链分析：玻璃密封、上盖结构、照明、喂食、泵路滤材、传感与电控共同组成整机，具体工厂及BOM未披露。滤材可获得性、密封和潮湿环境中的供电可靠性影响长期使用，不能仅用鱼缸容积推算制造成本。",
+      "technology": "技术判断：开发者更新记录明确加入手机AI拍照识鱼和喂养方案，视觉识别与本机执行职责应分开。识别照片可能看不清种类或数量，水质相关读数也不能替代所有化学测试，不能从泛称AI水质推断具备病原或毒素诊断。",
+      "aesthetics": "审美判断：深色上盖、矩形透明缸与藏于后部的设备形成简洁观赏面，但线缆、藻类、水渍和滤材维护才决定日常观感。营销图中的鱼和造景不是基础包装内容，设计评估不能只看理想布景或暗光展示。",
+      "risks": "风险判断：识鱼错误、过量投喂、过滤失效及用户忽略清洁可能影响水族状态，自动方案不能代替日常观察。不同鱼种与水体的要求不同，不能把图片中的海水场景理解成对所有生物通用；配件功能也不等于整机默认包含。",
+      "opportunity": "机会假设：可从让新手更容易理解鱼种与设备设置的关系验证，避免把问题简化为一键托管。若应用只是给泛泛建议，价值可能主要来自整机集成；可追溯的识别、可修改方案和明确维护提示比堆叠AI标签更有意义。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "桌面观赏水族是一类需要长期照护的兴趣任务，手机识鱼到整缸控制具备流程差异；维护、生物适配和识别边界限制完全托管。"
+    },
+    "architecture": [
+      {
+        "name": "缸体与上盖",
+        "detail": "透明方形缸、深色顶盖与前部显示区域。",
+        "evidence": "official"
+      },
+      {
+        "name": "灯光与喂食",
+        "detail": "集成照明和颗粒饲料投放功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "过滤与循环",
+        "detail": "公开展示双过滤与循环系统，结构示意不作为独立性能验证。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知与连接",
+        "detail": "温度、水质相关读数以及应用控制。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机识鱼与建议",
+        "detail": "应用照片识别及喂养建议为外部软件输入层。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "当贝官方当前硬件首页",
+        "url": "https://www.dangbei.com/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "architecture",
+          "china"
+        ],
+        "note": "实际浏览官网2S Ultra栏目与购买跳转jd.dangbei.com/2sultra.html，非旧1 Ultra页面。"
+      },
+      {
+        "title": "当贝京东自营当前2S Ultra商品",
+        "url": "https://item.jd.com/100336614386.html",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china",
+          "architecture",
+          "technology"
+        ],
+        "note": "实际浏览器核对当前型号、约568元优惠展示与可用加购；读取品牌图册AI识鱼、集成模块与配件说明，未下单。"
+      },
+      {
+        "title": "当贝鱼缸官方开发者App资料",
+        "url": "https://apps.apple.com/us/app/%E5%BD%93%E8%B4%9D%E9%B1%BC%E7%BC%B8/id6736940012",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks"
+        ],
+        "note": "实际打开开发者发布的设备配套与版本记录，明确AI拍照识鱼、喂养方案及AI养鱼助手；未把普通定时或UV阈值控制当独立AI。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "govee-gaming-pixel-light-h6631",
+    "name": "Govee Gaming Pixel Light H6631",
+    "brand": "Govee",
+    "category": "lighting",
+    "tagline": "把文字想法生成像素图形和动画，再显示到桌面实体灯屏",
+    "officialUrl": "https://us.govee.com/products/govee-gaming-pixel-light",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-05实际浏览美国官方商品页，当前H6631长方形规格US$99.99且Add to Cart/Buy Now可用；未选较小H6630或PAC-MAN联名包装。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "美站官方配送政策明确只寄美国；未核实H6631当前中国大陆官方库存、直邮及账号AI功能。品牌来自中国不等于该海外型号已确认国内正式销售。"
+    },
+    "price": {
+      "text": "美国官方当前 US$99.99",
+      "note": "页面对比价US$139.99，当前H6631规格；小尺寸H6630、联名外观和套装不重复收录，其他国家税费与价格另核。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "AI Lighting Bot将用户描述生成像素内容并用于实体屏，用户也可导入和编辑图像动画。官方当前技术页区分图形灯的单轮GIF生成与线性灯的多轮对话，不能把所有灯型能力混用。",
+      "dependency": "生成、编辑与传输依赖Govee Home应用、网络及适用固件；屏体呈现内容，不应虚构机内大模型。部分同步功能需额外设备，普通语音开关灯不作为核心AI证据。"
+    },
+    "highlights": [
+      "生成内容落实为低分辨率实体像素画面，区别普通单色调光",
+      "本条只收一个像素内容任务代表，不因灯条、灯幕或联名款重复计数",
+      "图形生成、手工编辑、预设动画与音乐同步分开说明，避免把全部功能称AI"
+    ],
+    "analysis": {
+      "demand": "需求假设：喜欢布置桌面或游戏空间的人希望把自己的想法转成持续显示的像素内容，又不想从头学习绘图。AI生成可能降低第一次创作门槛，但价值要看作品是否愿意长期保留和修改，不能把短暂新奇等同持续需求。",
+      "userProfile": "画像推断：愿意使用应用、选择合适亮度并制作个人内容的兴趣用户较匹配，安静或多人共享空间则可能更重视关闭声音和减少动态刺激。不能仅按玩家身份推定需求，真实摆放位置与其他人接受程度同样重要。",
+      "competition": "竞争判断：与像素相框、普通屏幕、手工LED点阵和预设氛围灯竞争，差异在描述到生成内容并实际显示。不同灯形使用同一服务不自动形成新需求；应比较创作时间、可编辑性和画面适配，而不只比较灯珠数量。",
+      "supplyChain": "供应链分析：像素发光面、驱动控制、连接、音频、机壳与支架共同组成设备，完整供应商及BOM未披露。颜色一致性、低亮表现和内容映射影响观感，不能把公开AI模型宣传直接当作整机内置算力或芯片成本依据。",
+      "technology": "技术判断：官方产品和技术页确认生成式像素内容，图形灯当前以单轮GIF生成为重点，线性灯的多轮交互不能直接套用。生成图像与LED呈现之间需要分辨率映射，预设播放、音乐响应及外部同步则属于不同功能路径。",
+      "aesthetics": "审美判断：灰黑外壳与绿线装饰偏向游戏桌面，像素面可创造复古表达，也会成为房间中强烈视觉焦点。设计评估应看关闭时的机身、侧面线缆与低亮状态，不能只看彩色营销场景或把所有动态画面当作舒适照明。",
+      "risks": "风险判断：生成内容可能不符合意图，低分辨率会丢失细节，服务或固件变化也会影响AI入口。用户需注意亮度、动态效果及共享空间的接受程度，外部同步设备和联名素材权限不应默认包含，更不能以厂商认证宣传保证人人无视觉不适。",
+      "opportunity": "机会假设：可从个人小作品在桌面的持续展示与轻量修改验证，重点是让内容容易创作和适配实体像素。若用户最终只使用预设，AI的附加价值可能有限；机会应由实际创作复用与留存支持，而非同品牌灯具数量。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭像素内容创作与实体呈现比普通语音灯控更具体，具有兴趣和装饰属性；长期内容质量、摆放和视觉接受度决定价值。"
+    },
+    "architecture": [
+      {
+        "name": "前框与显示面",
+        "detail": "长方形灰黑机身、绿线装饰及前方像素显示。",
+        "evidence": "official"
+      },
+      {
+        "name": "像素发光层",
+        "detail": "LED像素内容呈现，不虚构内部线路与芯片型号。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "图像播放、应用同步与设备控制。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "音频与电源",
+        "detail": "内置声音体验及外接电源。",
+        "evidence": "official"
+      },
+      {
+        "name": "支架与外部生成",
+        "detail": "桌放或壁装，AI生成位于应用服务路径。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Govee H6631当前官方商店",
+        "url": "https://us.govee.com/products/govee-gaming-pixel-light",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "实际浏览器核对US$99.99可购买及Specs H6631，照片选择长方规格，不混H6630和PAC-MAN包装。"
+      },
+      {
+        "title": "Govee当前官方技术分类",
+        "url": "https://us.govee.com/pages/govee-technology",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks"
+        ],
+        "note": "实际打开AI Lighting Bot 2.0：图形灯单轮GIF生成、线性灯多轮对话；未把全品牌宣传逐项当成本型号功能。"
+      },
+      {
+        "title": "Govee官方像素灯发布技术说明",
+        "url": "https://us.govee.com/blogs/news/govee-announces-new-lighting-technology-for-elevated-living-experiences-at-ces-2025",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "实际打开像素艺术、AI生成与应用编辑路径；旧发布日和价格不作当前销售证据，参数宣传不作为独立验证。"
+      },
+      {
+        "title": "Govee美国官方配送政策",
+        "url": "https://us.govee.com/policies/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "china"
+        ],
+        "note": "实际打开只寄美国的配送范围；未推定大陆官方销售或跨境服务可用性。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "kohler-dekoda",
+    "name": "Kohler Health Dekoda",
+    "brand": "Kohler Health",
+    "category": "health-home",
+    "tagline": "在既有坐便器上进行光学观察，形成经本人启动的排泄与水合趋势记录",
+    "officialUrl": "https://www.kohlerhealth.com/purchase/",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-05实际浏览官方购买页，Dekoda US$449、Add to Cart可用，配套会员为启用必需；页面明确仅美国销售。不是旧发布期的预订价，也不把会员当硬件租赁。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "当前官方购买页明确产品仅在美国销售；未确认中国大陆官方硬件、会员或售后，不能从科勒在中国经营卫浴业务推定Dekoda已在国内销售。"
+    },
+    "price": {
+      "text": "官方硬件 US$449＋必需会员",
+      "note": "单人月费US$6.99或年费US$70；家庭月费US$12.99或年费US$130，最多六个成人个人档案。选择No membership仅表示已有或激活前另买会员，不代表可免订阅使用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方披露光学传感与光谱技术，并用训练算法分析排泄物相关图像和信号，生成形态、频次、水合与血液迹象等线索；不是试剂取样或直接诊断疾病。",
+      "dependency": "需要适配的坐便器、供电充电、网络、个人会话认证、应用与会员。官方健康数据政策明确涵盖标本图像及模型训练用途，不能宣称不采集图像或所有分析完全本地。"
+    },
+    "highlights": [
+      "用户通过遥控器指纹或应用启动个人会话，共用硬件与个人档案分开",
+      "光学观察无需按次装入试剂，区别U-Scan等试剂尿液检测路径",
+      "支持趋势和潜在线索，不以本目录替代专业诊断、症状判断或必要检查"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望减少手工记录排泄规律的成年人，可能需要把日常如厕中的线索组织成可回顾信息。设备价值在记录与沟通辅助，不能从自动生成分数推导诊断能力，也不能假设每个人都希望或需要在浴室持续产生健康数据。",
+      "userProfile": "画像推断：愿意主动启动会话、理解会员和数据处理、且有适配便器的成年人较匹配。共用浴室中的购买者和其他使用者可能有不同隐私偏好，个人档案隔离不等于无需告知；不能根据健康焦虑直接推定适用和购买需求。",
+      "competition": "竞争判断：与手工日志、普通健康应用、专业检测及尿液试剂设备比较，差异是便器上的光学观察与趋势整理。光学与试剂的测量对象、限制和维护不同，不能仅凭无需试剂就推定更准确，也不把家庭会员人数拆成新品。",
+      "supplyChain": "供应链分析：便器夹持、光学与光谱输入、防水外壳、充电连接、认证遥控和服务共同构成产品，完整工厂和BOM未披露。清洁、对准和不同便器光环境影响输入，不能用普通摄像头价格估算系统成本或推定实际制造伙伴。",
+      "technology": "技术判断：官方说明训练算法参考尿比重、形态图表与血红蛋白相关测量分析输入，但没有因此证明任何个人结果都是正确。应区分光学信号、算法推断和临床确认；隐私政策还明确包含标本图像，不能把光谱一词解释为完全无成像。",
+      "aesthetics": "审美判断：白色胶囊机身与卫浴材质相近，夹装后仍会影响座圈间隙、清洁和日常触达。低存在感不应掩盖数据采集状态，用户需要知道是否启动个人会话，展示图的洁净环境也不能代替长期使用后的维护体验。",
+      "risks": "风险判断：便器颜色、位置、残留清洁剂和未正确认证都可能影响采集或归属，异常提醒也可能引发误读。官方限定美国销售与会员依赖，用户还需理解健康数据和图像处理；有实际异常时不能用设备未报警作为忽略问题的理由。",
+      "opportunity": "机会假设：可先验证被动光学记录是否帮助用户整理可讨论的变化，而不是制造更多分数和健康焦虑。若清洁、认证和订阅增加的负担超过手工记录，价值会受限；可解释结果与清楚数据选择比扩大疾病预测宣传更重要。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "既有便器上的认证光学趋势观察是较少见的家庭任务，区别穿戴测量和试剂取样；适配、隐私、会员及结果解释形成明显门槛。"
+    },
+    "architecture": [
+      {
+        "name": "外壳与固定",
+        "detail": "白色长胶囊状机身和夹持结构安装在便器边缘。",
+        "evidence": "official"
+      },
+      {
+        "name": "光学输入",
+        "detail": "朝向便器内的传感区域与光谱观察功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "数据采集、网络连接和应用交互，不重构未知电路。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "能源与充电",
+        "detail": "可充电电源及配套充电连接。",
+        "evidence": "official"
+      },
+      {
+        "name": "认证与分析服务",
+        "detail": "遥控器或应用启动会话，训练算法与个人趋势服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kohler Health Dekoda当前官方购买",
+        "url": "https://www.kohlerhealth.com/purchase/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions",
+          "china",
+          "architecture"
+        ],
+        "note": "实际浏览器核对US$449、可加购、必需会员和美国限定，未注册、未下单、未输入私人健康资料。"
+      },
+      {
+        "title": "Kohler Health官方工作原理",
+        "url": "https://www.kohlerhealth.com/how-it-works/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks"
+        ],
+        "note": "实际打开光学/光谱与Science-backed results折叠说明，训练算法参考尿比重、形态图表及血红蛋白；厂商声明不视为本研究独立验证。"
+      },
+      {
+        "title": "Dekoda官方外观与适配说明",
+        "url": "https://www.kohlerhealth.com/dekoda/",
+        "kind": "official-spec",
+        "supports": [
+          "architecture",
+          "technology",
+          "risks"
+        ],
+        "note": "实际浏览白色住宅便器、夹持间隙与充电/认证说明，深色便器有适配限制；奖项与专家宣传不当作准确率证据。"
+      },
+      {
+        "title": "Kohler Health消费健康数据政策",
+        "url": "https://www.kohlerhealth.com/data-privacy/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks"
+        ],
+        "note": "实际阅读2025-10-14生效政策，标本图像、健康推断、服务改进与AI/机器学习训练用途及选择条件；不宣传绝对匿名或完全本地。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

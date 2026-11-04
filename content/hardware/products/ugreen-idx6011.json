@@ -421,16 +421,18 @@
       "referencePaths": [
         "assets/hardware/ugreen-idx6011/ai-exploded-draft.png",
         "assets/hardware/ugreen-idx6011/product.png",
-        "assets/hardware/ugreen-idx6011/reference.jpg"
+        "assets/hardware/ugreen-idx6011/reference.jpg",
+        "assets/hardware/ugreen-idx6011/ai-exploded-pre-review.png"
       ],
       "verified": true,
-      "bytes": 1530675,
-      "sha256": "71c369569d74cba0d889959fed80ac3e8b2ad2bd9b6fcc38cc0d9cbd1e31ff7f"
+      "bytes": 1526912,
+      "sha256": "ecac1a660c0358533e81908a99f79eeb597ad4b6704e7162ac1251b4bfbe6073"
     }
   ],
   "mediaNotes": [
     "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
     "初稿少量蓝色显示/接口已用内置ImageGen改为中性灰阶；初稿与完整修订提示词保留。",
+    "独立复查后以ImageGen强化局部概念标识，未知控制板或执行层明确为示意；复查前图保留在referencePaths，实际追加提示词记录于主prompt。",
     "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。",
     "选用普通iDX6011外形，64GB为所核购买SKU；没有借用Pro前屏或32GB规格图代表当前配置。"
   ]

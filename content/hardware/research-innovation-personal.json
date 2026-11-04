@@ -1298,9 +1298,9 @@
     "brand": "Dot",
     "category": "accessibility",
     "tagline": "把文档和图形转成可刷新的触觉与盲文输出",
-    "officialUrl": "https://www.dotincorp.com/en/product/dotpadx",
+    "officialUrl": "https://blog.dotincorp.com/introducing-the-dot-pad-x",
     "status": "on_sale",
-    "statusEvidence": "当前Dot Pad X官网提供经销入口，官方FAQ明确个人也可联系购买；按个人询价零售登记，不把演示申请或软件商店当作硬件订单。",
+    "statusEvidence": "当前官网FAQ仍明确个人询价购买；SELVAS BLV具体Dot Pad X页面提供报价和下单联系。旧X产品路径实际浏览器报错，已改用仍可打开的官方型号介绍、2026手册和资源页，不据失效链接判断停售。",
     "regions": [
       "官方个人询价与经销商网络；交付地区需报价确认"
     ],
@@ -1315,7 +1315,7 @@
     "ai": {
       "type": "hybrid",
       "description": "配套Dot Vista通过Windows AI能力把视觉文档转成触觉、盲文和音频；官方服务说明包括视觉识别与语言模型摘要。",
-      "dependency": "AI工作流依赖兼容Copilot+ PC、Windows软件和相应接口；触觉显示器本身不等于内置完整AI模型，部分其他Dot应用仍未开放。"
+      "dependency": "AI工作流依赖兼容Copilot+ PC、Windows软件和相应接口；触觉显示器本身不等于内置完整AI模型，具体读屏与应用兼容按当前手册核对。"
     },
     "audience": "consumer",
     "saleMode": "retail",
@@ -1358,15 +1358,16 @@
     ],
     "sources": [
       {
-        "title": "Dot Pad X官方产品页",
-        "url": "https://www.dotincorp.com/en/product/dotpadx",
+        "title": "Dot Pad X官方现行DPA320X手册",
+        "url": "https://www.dotincorp.com/guide/resources/products/DPA320X-UserManual-English.docx",
         "kind": "official-spec",
         "supports": [
-          "status",
+          "model",
           "technology",
-          "images"
+          "architecture",
+          "compatibility"
         ],
-        "note": "已打开：300单元图形区、20单元盲文行、控制键、USB-C/BLE和经销入口；非LCD屏幕。"
+        "note": "2026-11-05从当前官网Resources导航实际找到并GET200读取，资源页列2026-06-25更新；明确X型号、300/20单元、六控制键、USB-C与BLE。旧/en/product/dotpadx当前实际报错，未用旧A型号价格规格替代。"
       },
       {
         "title": "Dot官方FAQ：个人购买",
@@ -1402,15 +1403,36 @@
         "note": "已打开：软件已在Microsoft Store提供，使用Windows AI APIs并要求Copilot+ PC；不把未来应用当已发布。"
       },
       {
-        "title": "Dot Pad X当前资源与应用",
-        "url": "https://www.dotincorp.com/en/resources/dotpadx",
+        "title": "Dot官方当前资源总页",
+        "url": "https://www.dotincorp.com/en/resources",
         "kind": "official-spec",
         "supports": [
           "model",
           "software",
-          "compatibility"
+          "support"
         ],
-        "note": "已打开当前资源；Dot Book等仍有Coming soon，不能把整个应用生态都写成已可用。"
+        "note": "2026-11-05实际浏览器与公开GET核到有效页，列DPA320X手册、保修和软件操作指南。替换失效/en/resources/dotpadx；不继续沿用该旧子页的应用发布状态。"
+      },
+      {
+        "title": "Dot官方Meet the Dot Pad X型号介绍",
+        "url": "https://blog.dotincorp.com/introducing-the-dot-pad-x",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "technology"
+        ],
+        "note": "已打开并核GET200的厂家型号介绍；作为当前可访问入口，文章内指向失效旧产品路径的链接不再用于跳转。"
+      },
+      {
+        "title": "SELVAS BLV Dot Pad X当前下单渠道",
+        "url": "https://selvasblv.com/product/dot-pad-x/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "purchase",
+          "model"
+        ],
+        "note": "已打开具体Dot Pad X页面，明确联系获取价格并下单；不同页面尺寸或软件兼容口径不拼接，型号结构以Dot现行手册为准。"
       }
     ],
     "analysis": {
@@ -2459,6 +2481,985 @@
       "aesthetics": "用户可能长时间在文字与真实场景之间切换，显示位置、眼镜稳定和处方镜片组合都会影响体验。看起来像普通眼镜不一定意味着旁人不会注意，也不代表所有头型都舒适；审美评价应允许不同偏好，同时把触控位置、摘戴和清洁的实际动作纳入观察。",
       "risks": "错误人名、时间或否定词可能改变理解，生成摘要还可能省略上下文，因此重要内容仍需与交流对象核对。对话保存和云备份也涉及旁人信息，基本字幕能离线并不代表开启全部服务后数据永不外发；产品研究需要区分读取便利、记录行为和后续使用权限。",
       "opportunity": "后续值得观察的是使用者是否更容易发起、跟上和结束交流，以及何时选择关掉字幕或回到手机。环境声音标签可能提供上下文，也可能成为干扰；需要由本人任务体验判断，而不是让产品功能数量或官方用户故事替代需求验证，更多信息不一定总是更有帮助。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "habitaware-keen3",
+    "name": "HabitAware Keen3",
+    "brand": "HabitAware",
+    "category": "wearables",
+    "tagline": "识别个人重复手部动作，以振动和日志帮助建立觉察",
+    "officialUrl": "https://habitaware.com/products/keen3-bracelet",
+    "status": "preorder",
+    "statusEvidence": "具体整机预售价US$199，公开商品JSON两色available=true；实际浏览器Raven加入购物车成功，预计2027年1月发货。网页静态Sold out为模板，非仅邮箱候补。",
+    "regions": [
+      "官方国际商店预售；具体地址与交付须结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "浏览器可显示香港币种，但未核到中国大陆地址交付与本地服务；国家币种列表不作为大陆正式购买证明。"
+    },
+    "price": {
+      "text": "US$199（整机预售，含1年Pro）",
+      "note": "预计2027年1月发货非保证日期；Pro从首次连接起算，之后所列US$99/年，基本觉察振动和课程可继续使用，不把配色或赠带另计产品。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "基于预训练和个人动作模型识别腕部运动与朝向模式，再触发振动；Pro根据用户记录的背景学习模式并提供策略提示，不推定为生成式聊天。",
+      "dependency": "需要App设置动作并持续修正和记录；CoreBFRB技术延续在当前商品FAQ明确，但首日检测与已升级Keen2相近，后续提升仍属预期。"
+    },
+    "audience": "consumer",
+    "saleMode": "preorder",
+    "highlights": [
+      "动作模型与个人训练",
+      "振动提醒而非物理制止",
+      "Pro按日志提供背景化策略",
+      "全款预售和交期明确"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "针对用户希望觉察的身体相关重复手部行为，区别于计步和一般习惯打卡；误报、记录投入与自愿使用关键，无本研究疗效或销量结论。"
+    },
+    "architecture": [
+      {
+        "name": "腕部运动输入",
+        "detail": "动作传感记录腕部运动与朝向，没有心率监测功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作模型",
+        "detail": "预设或个人训练的识别模式，当前FAQ说明CoreBFRB延续。",
+        "evidence": "official"
+      },
+      {
+        "name": "觉察输出",
+        "detail": "检测后振动提示，用户决定是否回应，不会物理制止动作。",
+        "evidence": "official"
+      },
+      {
+        "name": "记录与确认",
+        "detail": "屏幕和App用于确认事件并补充背景。",
+        "evidence": "official"
+      },
+      {
+        "name": "可选Pro策略",
+        "detail": "根据日志模式提供个性化提示，具体模型版本与处理位置未完整公开。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Keen3当前具体预售商品与展开FAQ",
+        "url": "https://habitaware.com/products/keen3-bracelet",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "ai",
+          "technology",
+          "images"
+        ],
+        "note": "已打开并实际加购核查；US$199、2027年1月预计发货。展开FAQ明确CoreBFRB延续、无新传感器、首日检测类似升级Keen2；计步有、心率无。"
+      },
+      {
+        "title": "Keen3动作记录与策略工作流",
+        "url": "https://habitaware.com/pages/how-keen3-works",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "workflow",
+          "dependency"
+        ],
+        "note": "已打开训练动作、确认事件、补充背景及Pro策略；不将“为何发生”的宣传当已验证心理因果判断。"
+      },
+      {
+        "title": "HabitAware当前Keen3 FAQ",
+        "url": "https://habitaware.com/pages/faq-v1",
+        "kind": "official-spec",
+        "supports": [
+          "audience",
+          "training",
+          "limits"
+        ],
+        "note": "已打开个人动作训练、预设库、主要适用手头面部动作及误报边界；振动不等于制止，不能替代医疗建议。"
+      },
+      {
+        "title": "CoreBFRB官方技术说明",
+        "url": "https://habitaware.com/blogs/research/corebfrb",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology",
+          "research-boundary"
+        ],
+        "note": "已打开预训练动作模型、运动与朝向特征、数据和嵌入式验证；原文点名Keen2/KeenLite，向Keen3延续的证据取当前商品展开FAQ。"
+      },
+      {
+        "title": "Keen2系统开放试验，2026",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S2211364926000564",
+        "kind": "independent",
+        "supports": [
+          "evidence-boundary",
+          "research"
+        ],
+        "note": "已打开论文摘要及方法：研究实际Keen2和App、小型开放试验，并非Keen3独立随机试验。作者含厂家人员，不转述效果数字为保证。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是使用者有自己希望注意的重复动作，却常在发生后才意识到。振动可能提供一个主动选择的时点，但只有用户愿意回应、且提醒不过度干扰日常活动才有价值；不能把触发次数减少直接解释为行为改善，更不能从腕部动作推断某种情绪或诊断。",
+      "userProfile": "这类设备围绕个人觉察和自我记录展开，是否愿意佩戴和如何解释提示应尊重本人意愿。为家人购买并不自动形成有效使用，支持者也可能误把提醒数量当成评价依据；用户画像需要围绕自选目标、反馈接受度和支持条件，而不是仅凭行为名称作适配判断。",
+      "competition": "固定闹钟按照时间出现，手动打卡依赖已经意识到行为，而模型识别试图在动作发生时给出提示。它可能减少完全依靠回忆的步骤，也会引入误报和漏报；比较应围绕何时提醒、是否能理解及如何恢复，而不是以多一个屏幕或更新型号自动判断更有效。",
+      "supplyChain": "同类新设计既需要稳定采集腕部运动，也要处理佩戴方向、日常抬手与目标微动作的相似性。仅增加传感器采样或振动强度不能解决分类问题，训练界面和参数理解同样重要；供应研究应覆盖输入质量与反馈体验，而不是只列处理器是否具有机器学习功能。",
+      "technology": "Pro依据用户填写的事件背景学习模式，提示适合当时情境的策略；腕带本身并不能直接知道行为原因。日志不完整或情境改变时，预测可能不合适，因此需要把用户陈述、算法推断和实际动作分开显示；“为何发生”的界面措辞不能当作已证明心理因果分析。",
+      "aesthetics": "普通腕带样式可能让用户更容易在日常佩戴，但是否愿意戴上还受尺寸、衣袖、屏幕和振动可察觉程度影响。过于隐蔽的提示可能被忽略，过于频繁又可能让人烦躁；审美和交互应一起观察，不能从外观低调推断对所有个人场景都没有干扰。",
+      "risks": "振动次数受佩戴时间、设置和识别误差影响，单个数字不能评价个人努力或健康状态。如果他人据此监督和责备，可能与建立自主觉察的任务相冲突；产品研究应关注本人是否获得可接受的反馈和选择，而不是把记录数量当成行为改善的唯一标准。",
+      "opportunity": "后续研究可以观察用户在提示后是否知道下一步如何处理，以及哪些情境愿意继续佩戴。更频繁提醒不一定更有价值，合适的暂停和支持也可能决定持续使用；这些问题需要本人反馈，不能仅依赖模型训练量、宣传推荐比例或研究中的有限结果推断市场规模。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "apollo-smartvibes",
+    "name": "Apollo Wearable + SmartVibes AI",
+    "brand": "Apollo Neuro",
+    "category": "wearables",
+    "tagline": "依据个人模式安排触觉反馈的无屏穿戴设备",
+    "officialUrl": "https://apolloneuro.com/products/apollo-wearable-1-year-ai-membership-starter-kit",
+    "status": "on_sale",
+    "statusEvidence": "当前官方具体整机与一年SmartVibes组合US$448、Add to cart，公开商品JSON各所列配色available=true；不是单独App或仅展示的未来硬件。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "欧洲：具体地址按订单确认",
+      "澳大利亚",
+      "新西兰"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "厂家当前国际配送说明未列中国大陆，未核到大陆正式服务；国际页面可访问不等于当地可订购。"
+    },
+    "price": {
+      "text": "US$448（整机＋1年SmartVibes组合）",
+      "note": "按当前具体商品记录，不借旧落地页优惠价；后续会员与设备使用权益需确认，当前FAQ将设备使用与会员绑定，不能承诺基础功能永久免费。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "SmartVibes学习个人睡眠模式，并依据数据自动安排触觉振动；可选接入Oura等额外数据，不等于设备直接读取情绪或脑电。",
+      "dependency": "需要App、账户与有效SmartVibes方案；完整输入传感器与模型执行位置未披露，设备飞行模式可工作不证明全部AI服务离线。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "通过触觉执行个性化反馈",
+      "无屏机身可用腕带或衣物夹",
+      "SmartVibes依据个人模式自动安排",
+      "外部数据接入为可选条件"
+    ],
+    "niche": {
+      "level": "emerging",
+      "reason": "与只记录状态的穿戴不同，重点是软件驱动的触觉输出；与脑电声音头带共享部分睡眠需求但执行路径不同，无本研究疗效、访谈或销量证据。"
+    },
+    "architecture": [
+      {
+        "name": "数据与记录",
+        "detail": "App使用个人睡眠相关记录，可选连接外部穿戴数据；完整传感链未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "模式学习",
+        "detail": "SmartVibes根据个人模式安排自动反馈，具体模型不公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线与控制",
+        "detail": "App及机身按钮管理振动程序，Bluetooth连接配套设备。",
+        "evidence": "official"
+      },
+      {
+        "name": "触觉执行",
+        "detail": "机身输出可感知振动，不是脑电采集或电极式神经刺激。",
+        "evidence": "official"
+      },
+      {
+        "name": "佩戴与供电",
+        "detail": "可充电设备配合腕带或衣物夹，具体接触与体感需本人确认。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Apollo当前整机与SmartVibes组合商品",
+        "url": "https://apolloneuro.com/products/apollo-wearable-1-year-ai-membership-starter-kit",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "model",
+          "images",
+          "supplyChain"
+        ],
+        "note": "已打开及核公开JSON：US$448、各配色可售，含一年会员、腕带、夹和充电线；Made in USA为厂家自述，工厂未点名。"
+      },
+      {
+        "title": "SmartVibes官方机制说明，2026-03更新",
+        "url": "https://help.apolloneuro.com/hc/en-us/articles/38609616324503-SmartVibes",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "dependency",
+          "workflow"
+        ],
+        "note": "已打开学习个人睡眠模式、自动启动与可选Oura整合；不采用优于药物、睡眠时长等宣传数字为效果保证。"
+      },
+      {
+        "title": "Apollo当前FAQ",
+        "url": "https://apolloneuro.com/pages/apollo-neuro-faqs",
+        "kind": "official-spec",
+        "supports": [
+          "membership",
+          "dependency",
+          "limits"
+        ],
+        "note": "已打开当前会员要求、触觉输出、飞行模式和磁性部件；页面混有2.0称谓，不据此更改所核商品型号或拼接续航参数。"
+      },
+      {
+        "title": "Apollo国际订单与配送地区",
+        "url": "https://help.apolloneuro.com/hc/en-us/articles/360051308834-International-orders-availability-shipping-and-fees",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "china",
+          "purchase"
+        ],
+        "note": "已打开美国以外接受加拿大、欧洲、澳大利亚、新西兰订单的说明；不把这些地区概括成全球配送。"
+      },
+      {
+        "title": "Apollo官方佩戴夹与腕带说明",
+        "url": "https://apolloneuro.com/blogs/news/introducing-apollo-clip",
+        "kind": "official-spec",
+        "supports": [
+          "images",
+          "wearing",
+          "architecture"
+        ],
+        "note": "已打开官方旧佩戴参考，外形与当前所核组合一致；仅用作佩戴和附件结构，不把旧价格、服务或效果宣传当现行条件。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户希望在休息前后获得较少操作的触觉反馈，不必反复选择时间和程序。自动安排可能降低操作负担，也可能在不合适时刻产生打扰；是否有价值取决于本人对振动、佩戴和控制权的接受度，不能从“个性化”名称推断睡眠或情绪一定改善。",
+      "userProfile": "有些人可能偏好触觉而不希望睡前播放声音，有些人则容易被振动打断。是否愿意管理充电、会员和手机连接，也会影响持续使用；用户画像应从本人选择的场景出发，而不是把压力、失眠或某种诊断名称直接等同需要该设备，更不能替个人作健康适配判断。",
+      "competition": "Elemind和FRENZ主要以自身信号适配声音，Apollo在这里通过个人模式安排身体触觉；共同休息需求不应被品牌数重复计算。另一方面，固定振动程序缺少相同的数据适配流程；比较应关注输入来源、执行方式、打扰和停止路径，不能仅以反馈形式新颖推定效果更好。",
+      "supplyChain": "同类新设计中，同一个执行器装在不同外壳、腕带和佩戴位置，用户感受可能不同；简单改变振动强度也不等于更合适反馈。供应研究需要结合波形控制、结构耦合、噪声和功耗，而不是从某个振动器件目录直接推导对睡眠或情绪的作用。",
+      "technology": "软件从一段记录中形成安排，可能识别常见时间模式，但并不因此知道用户为何睡得不佳或当前真实情绪。日程改变、记录缺失或外部数据不同，都可能影响提示的合适程度；技术评价需要区分可观察数据、推断安排和用户感受，避免把个性化描述扩展为生理诊断。",
+      "aesthetics": "同一设备在腕部、脚踝或衣物上的拿取、固定和充电过程并不相同，用户可能只愿意保留一种方式。外观低调与实际体感也要分开评价；照片中与衣服自然融合，不意味着睡姿、衣物厚度和活动时不会产生干扰，审美应结合本人生活情境观察。",
+      "risks": "若用户把所有夜间变化都交给软件解释，可能忽略其他生活或健康因素，也可能因振动不合适而增加负担。自动安排应保留可理解、可停止的控制，用户不需要为满足算法持续佩戴；研究应观察失败和不适配情况，而不是只记录开启功能后的积极描述。",
+      "opportunity": "后续可关注用户是否愿意保留自动安排、何时转回手动程序，以及哪些场景宁愿不接受触觉反馈。若个性化只增加设置和解释成本，价值可能有限；需求验证应该以本人可控的体验为基础，而不是依赖“神经科学”标签或大量效果百分比建立信心。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "braillesense-7-32",
+    "name": "BrailleSense 7（32-cell）",
+    "brand": "SELVAS BLV / HIMS",
+    "category": "accessibility",
+    "tagline": "把盲文输入、触觉回读和AI文档交互放在同一终端",
+    "officialUrl": "https://selvasblv.com/product/braillesense-7/",
+    "status": "on_sale",
+    "statusEvidence": "当前官方具体型号选择与Buy Now入口、价目表均列32-cell H732B；页面说明32/40单元版本从2026年10月末开始交付，具体库存未实测，不借20单元12月计划冒充现货。",
+    "regions": [
+      "美国和加拿大：SELVAS BLV官方购买/报价",
+      "其他地区经HIMS当地渠道另核"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核到32-cell当前大陆订单、中文适配及Gemini服务条件；全球产品资料和语言可能性不等于当地完整交付。"
+    },
+    "price": {
+      "text": "US$5,995（32-cell官方价目）",
+      "note": "北美价目另列US$69运费；维修计划和AI订阅另核。只收一个代表，不按20/32/40单元拆数。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "官方集成Gemini问答、文档分析和语音输入，配合实体盲文键盘、可刷新盲文及文件编辑；触摸滚动本身不被当作AI。",
+      "dependency": "HIMS披露的Gemini集成服务需有效订阅，内容从设备送Google服务；基础盲文和本地文件功能、第三方AI权益与网络条件须分开。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "Perkins盲文输入与触觉回读",
+      "触摸路由和物理滚轮",
+      "Gemini文档与语音交互",
+      "可更换电源和多种外设接口"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "关注盲文使用者自主写作、编辑和AI资料交互，区别于仅输出触觉图形；适配、软件权益和维护成本关键，无效率或学习效果实测。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "Perkins键盘、功能键及可选外接QWERTY处理文字和命令。",
+        "evidence": "official"
+      },
+      {
+        "name": "触觉回读",
+        "detail": "32个可刷新盲文单元配合触摸路由和滚轮。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地计算与文件",
+        "detail": "Android平台和专用应用提供文档处理及外设连接。",
+        "evidence": "official"
+      },
+      {
+        "name": "选配云AI",
+        "detail": "Gemini集成通过有效服务方案处理用户提交内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电与共享",
+        "detail": "可更换电池、接口及小型视觉显示支持整体工作流。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "BrailleSense 7北美官方产品与购买入口",
+        "url": "https://selvasblv.com/product/braillesense-7/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "ai",
+          "model",
+          "dependency"
+        ],
+        "note": "已打开具体型号与Buy Now、Gemini集成、分批交付说明；浏览器额外核查遇安全验证未绕过，不声称实测现货。"
+      },
+      {
+        "title": "SELVAS BLV当前官方价目表",
+        "url": "https://selvasblv.com/price-list/",
+        "kind": "official-store",
+        "supports": [
+          "price",
+          "model",
+          "purchase"
+        ],
+        "note": "已打开32-cell H732B US$5995、运费69，其他单元数及维护计划分开列出。"
+      },
+      {
+        "title": "HIMS国际官网BrailleSense 7 32cell",
+        "url": "https://himsintl.com/en/blindness/view.php?idx=35",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "images",
+          "model"
+        ],
+        "note": "已打开并读取公开HTML：准确32单元图片、输入与接口、可更换电池、本地应用；旧6代图片未使用。"
+      },
+      {
+        "title": "HIMS Gemini AI服务隐私披露，2026-08-20",
+        "url": "https://himsintl.com/en/etc/support-gemini-disclosure.php",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "subscription",
+          "privacy",
+          "dependency"
+        ],
+        "note": "已打开有效Google Play订阅、内容直送Google Gemini API/Firebase AI Logic、HIMS不存内容而Google另有保留条款；不推定全离线或无订阅。"
+      },
+      {
+        "title": "SELVAS BLV个人产品报价渠道",
+        "url": "https://selvasblv.com/contact/request-a-quote/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "purchase",
+          "regions"
+        ],
+        "note": "已打开产品数量报价和本地服务联系流程，Organization字段非必填；没有提交个人信息或询价。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是盲文使用者希望自己完成文字输入、回读和资料提问，而不是不断切换独立电脑、显示器和助手。生成内容只有在用户能逐步检查、定位和修改时才可能有用；减少设备切换也可能增加专用系统学习，价值需要围绕真实文档任务来判断。",
+      "userProfile": "已有盲文键盘和快捷操作习惯的人，可能更重视触觉回读和专用文件工具；另一些人更偏好常规电脑配读屏软件。两种方式没有通用胜负，用户要完成的文档类型、外设和协作方式更关键；不能仅因产品被用于学校就推定其全部AI服务适合所有年龄。",
+      "competition": "Dot Pad X侧重将图形空间关系转为触觉，BrailleSense则把文字写作、编辑、回读和AI交互组织为个人终端。两者都使用盲文不代表核心任务相同，也可能组合使用；比较应围绕输入、文件处理和纠错流程，而不是用单元数量或处理器代次作为创新与价值的主要标准。",
+      "supplyChain": "同类新设计既需要盲文点阵稳定刷新，也要保证按键、触摸路由和文件操作不会打断阅读。通用电池或USB电源控制可支持外围功能，却不能解决盲文执行器寿命与触感一致性；供应研究应把这些专有约束保留，不能因为常见计算器件易采购就低估核心模块难度。",
+      "technology": "生成式建议可能帮助解释资料，但也可能遗漏或改写原意，尤其文档包含表格、格式和专业符号时。技术价值在于用户能否知道建议针对哪里、选择采用哪些部分并恢复原文；回答流畅和可被朗读并不足以证明无障碍，触觉定位与编辑路径同样重要。",
+      "aesthetics": "专用按键位置可能帮助形成熟悉的操作路线，但是否方便携带和与其他设备共用，仍取决于桌面空间与个人习惯。外壳颜色或圆角不能代表触感和耐久，视觉简洁也不等于盲文使用方便；审美评价需要包含本人如何拿取、定位和收纳，而不只看照片。",
+      "risks": "当写作、阅读和资料交互集中在一台设备上，维修、固件或应用变化可能同时影响多项日常任务。用户需要了解导出、备份和备用访问方式，生成式服务的变化又增加另一层依赖；本地可编辑文件与云端助手应尽量保持清楚分界，避免失去订阅便无法理解原始资料。",
+      "opportunity": "后续研究可观察用户是否更容易自己创建、检查和分享资料，以及AI加入后是否仍能掌控内容。若生成回答增加了校对或账户配置负担，未必比原有工具更好；需求验证应允许个人选择不同输入方式，而不是因新终端集成更多功能就预设替换现有方案。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "ossur-power-knee",
+    "name": "Össur Power Knee 盘古主动力膝关节",
+    "brand": "Össur",
+    "category": "accessibility",
+    "tagline": "经个人适配，把运动感知接入动力假肢膝关节",
+    "officialUrl": "https://www.ossur.com/zh-cn/prosthetics/explore-power-knee/getting-started-with-power-knee",
+    "status": "on_sale",
+    "statusEvidence": "奥索中国具体盘古页面明确现已全面上市并提供官方咨询，2026年装配商名单覆盖个人体验、适配和售后；属于个人假肢适配购买，非医院操作设备。",
+    "regions": [
+      "中国大陆：官方装配渠道",
+      "澳大利亚等地区：专业个人适配渠道"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已核中国官网具体上市说明及2026有效装配商名单；个人是否适合、配置、报价和交期须由当地专业服务确认。"
+    },
+    "price": {
+      "text": "按个人假肢方案报价",
+      "note": "膝关节不等于完整假肢，接受腔、脚部、连接件、训练及维护需一并确认；不承诺保险或补贴资格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方专业资料明确传感器获取个人运动并由AI辅助控制膝关节响应，结合电机提供主动屈伸和相应阻力；完整模型未公开。",
+      "dependency": "需要假肢师评估、对线、配置与训练，配套供电及Össur Logic设置；不能自行替换或把算法理解为无需适配的全自动行走。"
+    },
+    "audience": "consumer",
+    "saleMode": "consumer-fitting",
+    "highlights": [
+      "动力假肢膝关节，区别外部外骨骼",
+      "传感与控制结合机械执行",
+      "可更换电池及专业配置",
+      "中国大陆官方个人适配渠道"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "为特定肢体条件提供个人长期使用的动力关节，核心取决于整套适配和服务；案头研究无个人功能、跌倒或耐力改善实测。"
+    },
+    "architecture": [
+      {
+        "name": "个人适配接口",
+        "detail": "接受腔、连接及脚部需专业组合，膝单元不是整条假肢。",
+        "evidence": "official"
+      },
+      {
+        "name": "运动感知",
+        "detail": "传感器为控制提供动作信息，具体器件和完整模型未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "自适应控制",
+        "detail": "官方称AI辅助响应个人运动，实际参数由专业适配流程确定。",
+        "evidence": "official"
+      },
+      {
+        "name": "动力执行",
+        "detail": "电机与关节机构提供主动屈伸及受控阻力，内部传动图仅概念。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电与维护",
+        "detail": "可更换电池、App及定期支持共同维持使用。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Power Knee中国上市与个人适配入口",
+        "url": "https://www.ossur.com/zh-cn/prosthetics/explore-power-knee/getting-started-with-power-knee",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "china",
+          "purchase",
+          "fitting"
+        ],
+        "note": "已打开具体盘古页面，明确全面上市与官方咨询、个人装配准备；未获取报价或代表用户联系。"
+      },
+      {
+        "title": "奥索2026中国假肢经销及装配商名单",
+        "url": "https://www.ossur.com/zh-cn/about-ossur/newsroom/2026-pcustomers-list-china",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "purchase",
+          "service"
+        ],
+        "note": "已打开2026年度有效名单，明确用户可经推荐装配商体验、适配与售后；不推定每家每时都有本款库存。"
+      },
+      {
+        "title": "Power Knee中国功能与配置说明",
+        "url": "https://www.ossur.com/zh-cn/prosthetics/explore-power-knee/what-does-power-knee-do",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "images"
+        ],
+        "note": "已打开电机主动动作、Össur Logic、可替换电池与防溅范围；不将宣传体验或续航数字当本研究实测。"
+      },
+      {
+        "title": "奥索专业课程：Power Knee感知与AI控制",
+        "url": "https://www.ossur.com/en-au/professionals/prosthetic-academy-courses",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology",
+          "fitting"
+        ],
+        "note": "已打开明确人工智能、运动传感、专业对线配置和训练；课程作为机制证据，不把培训报名算作个人购买。"
+      },
+      {
+        "title": "奥索当前Power Knee产品外形",
+        "url": "https://www.ossur.com/pt-br/proteses/joelhos/power-knee",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "images",
+          "architecture"
+        ],
+        "note": "已打开并读取厂家公开HTML取得当前Power-Knee_Product-Image-05；不混用旧代产品或Rheo等其他膝关节传动机制。"
+      },
+      {
+        "title": "Power Knee个人适配条件说明",
+        "url": "https://www.ossur.com/en-au/prosthetics/power-knee-more-information",
+        "kind": "official-spec",
+        "supports": [
+          "audience",
+          "fitting",
+          "dependency"
+        ],
+        "note": "已打开个人试配与假肢师流程，适用条件需专业评估；不从厂家功能描述给具体个人作适配结论。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是使用者希望在本人的行走、坐立及环境变化中获得合适的动力支持，而不是追求机械关节展示更多动作。动力输出、连接适配、身体条件和训练相互影响，某一项先进并不保证整体任务改善；产品价值应由具体生活目标和专业评估共同判断。",
+      "userProfile": "使用者需要持续获得接受腔调整、参数配置和机械维护，距离与支持安排可能影响实际采用。即使硬件可以买到，缺少适配或维修路径也会增加负担；用户画像因此不能只按预算和活动水平概括，更不能由他人对技术的兴趣代替本人对使用和外观的选择。",
+      "competition": "机械外骨骼通常向已有肢体施加辅助，动力假肢膝则承担缺失关节相关的机械功能，适配接口和失效处理都不同。两者可以在主动步行辅助的上层任务比较，却不能交换适用人群或效果证据；比较应解释实际动力路径，而不是只用电机功率或产品价格排序。",
+      "supplyChain": "相近新设计需要同时考虑承载、关节动力、姿态信息、能源和异常状态，普通小电机与惯性传感器并不能直接组成合适假肢。身体接口和专业对线会改变实际作用，软件也必须与机械约束匹配；供应研究应保留这些系统条件，避免把元件清单误当完整个人方案。",
+      "technology": "使用者从静止转为行走、改变速度或坐立时，系统需要处理连续变化，单个稳定动作成功不能代表整个日常流程。控制应与本人训练和机械适配一起评价；算法能够识别某种模式，也不等于任何复杂地面都可自动处理，不能把“智能响应”描述成无需主动参与的行走。",
+      "aesthetics": "有些使用者愿意展示机械结构，有些更在意衣物覆盖、整体比例或社会环境中的感受。单独膝单元的渲染图不能代表完整装配后的外形，也不能体现重量分布和声音；审美研究应听取本人选择，并与接受腔、连接和服饰共同观察，不把仿生程度作为唯一标准。",
+      "risks": "对长期使用者，电量、备件、维修和接受腔变化可能与算法表现同样重要。跨区域购买若没有稳定服务路径，远程App不能替代机械检查和身体适配；研究应把停用、备用方式和支持负担纳入，而不是只展示主动动力带来的理想动作片段。",
+      "opportunity": "后续研究可围绕本人最在意的任务，观察动力方案减少或增加了哪些操作、学习和维护需求，并允许部分环境仍采用原有方式。重要的是能否在个人条件下持续使用，而不是机械结构看起来多先进；真实价值需要本人反馈和专业支持，无法从供应商目录直接推导。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "sunrise-home-sleep-test",
+    "name": "Sunrise 家用下颌运动睡眠测试",
+    "brand": "Sunrise",
+    "category": "health-home",
+    "tagline": "在家记录一夜下颌运动，生成供医生解释的睡眠信息",
+    "officialUrl": "https://www.hellosunrise.com/products/test-apnee-sommeil-sunrise",
+    "status": "on_sale",
+    "statusEvidence": "实际浏览器当前一夜套装显示En stock、€249，Commander进入相同实物套装完整结算；未填信息或付款。具体设备为欧版白色下颌传感器，不是纯App或医院现场操作服务。",
+    "regions": [
+      "比利时",
+      "法国",
+      "卢森堡",
+      "结算另列美国；当地医疗服务与版本仍需确认"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "实际结算国家菜单未列中国大陆，条款也不保证欧盟以外使用；不借美国官网另一系统的渠道或功能推定本套装国内可用。"
+    },
+    "price": {
+      "text": "€249／一夜套装（所见含税价格）",
+      "note": "包含一次性电子传感器与分析流程，非可无限复用的租赁设备；后续医生咨询及其他方案条件另核，返还信封用于回收。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "通过下颌运动模式进行睡眠与呼吸相关分类；厂家关联研究公开惯性信号经手机上传后使用机器学习分析，不能视为直接测脑电或实时气流。",
+      "dependency": "需要兼容手机、Bluetooth、网络与厂家分析平台，结果应由医生解释；2022研究算法只说明已研究机制，不保证当前全部后台版本相同。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "一次性下颌电子传感器",
+      "居家采集与云端机器学习分层",
+      "具体一夜实物套装可订购",
+      "结果用于专业解释，非自动治疗"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "关注居家获取可供睡眠评估的信息，区别于播放声音或振动改善休息的设备；本研究不复核诊断表现，没有用户访谈或销量证据。"
+    },
+    "architecture": [
+      {
+        "name": "下颌运动采集",
+        "detail": "贴附式电子传感器记录下颌运动，公开研究采用惯性信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机连接",
+        "detail": "Bluetooth把记录送到兼容手机，App管理测试与暂存。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端分析",
+        "detail": "数据上传厂家平台，由机器学习分析相关模式。",
+        "evidence": "official"
+      },
+      {
+        "name": "结果与专业解释",
+        "detail": "报告可以分享给医生，系统不替代完整医疗判断。",
+        "evidence": "official"
+      },
+      {
+        "name": "一次性使用与回收",
+        "detail": "套装提供一次性传感器及回收信封，不是可充电长期穿戴。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sunrise当前一夜实物测试套装",
+        "url": "https://www.hellosunrise.com/products/test-apnee-sommeil-sunrise",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "purchase",
+          "model",
+          "images"
+        ],
+        "note": "已实际浏览器核到€249、En stock并进入完整结算；一次性传感器及回收信封，未提交信息或支付。结算地区另有具体范围。"
+      },
+      {
+        "title": "Sunrise官方下颌运动与研究机制",
+        "url": "https://www.hellosunrise.com/pages/science-du-sommeil",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "sensing",
+          "research-boundary"
+        ],
+        "note": "已打开下颌运动说明与机器学习研究链接；不把“脑的反应”宣传写成直接读取脑信号，也不采用精度或医疗效果排名。"
+      },
+      {
+        "title": "Sunrise官方个人测试FAQ",
+        "url": "https://www.hellosunrise.com/pages/questions-frequentes",
+        "kind": "official-spec",
+        "supports": [
+          "dependency",
+          "workflow",
+          "maintenance"
+        ],
+        "note": "已打开个人订购、兼容手机与网络、传感器有效期和支持条件；不推定任意地址均可交付。"
+      },
+      {
+        "title": "Sunrise官方销售与数据流程条款",
+        "url": "https://www.hellosunrise.com/pages/mentions-legales",
+        "kind": "official-spec",
+        "supports": [
+          "purchase",
+          "privacy",
+          "limits",
+          "architecture"
+        ],
+        "note": "已打开电子传感器、手机暂存/加密上传、专业平台及需医生解释；欧盟以外不保证可用，具体个人使用仍依产品说明。"
+      },
+      {
+        "title": "Sunrise下颌运动与机器学习对照研究，2022",
+        "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.726880/full",
+        "kind": "independent",
+        "supports": [
+          "ai",
+          "technology",
+          "evidence-boundary"
+        ],
+        "note": "已打开研究全文：惯性输入、BLE手机、云端分析与随机森林分类；只用于说明研究过的机制和限制，不推定2026后台完全不变或复现实验效果。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是个人希望在自己的睡眠环境中完成一次记录，减少到专门场所过夜的流程负担。设备小并不意味着结果必然完整，连接、贴附和用户准备都可能影响数据；研究价值在能否获得可解释的信息，而不是把居家便利自动转化为更准确或更好的医疗结论。",
+      "userProfile": "这类产品需要用户能够管理手机、贴附和一夜采集，也需要理解报告不是最终自我判断。是否有合适支持、是否愿意与专业人员讨论，以及实际要解决什么问题，都比单纯对睡眠分数感兴趣更重要；不能依据打鼾或疲倦等一般描述替某个人作适用性结论。",
+      "competition": "声音或触觉头带主要提供休息过程中的反馈，Sunrise则收集特定一夜数据供评估，时间尺度和后续责任不同。两者都与睡眠有关，却不能用共同主题认为可以相互替代；比较应围绕要获取的信息、采集流程和专业解释，而不是把设备体积或佩戴部位当作主要价值。",
+      "supplyChain": "同类新设计需要在轻量封装、粘附、运动噪声和无线记录之间协同，单独换用高性能惯性芯片不会自动得到可靠下颌信号。对一次性电子设备，还要考虑有效期与回收流程；供应候选只能说明局部能力，不能包含厂家分类模型、医疗解释和全部使用验证。",
+      "technology": "下颌运动是一种可观察信号，对它分类仍需要解释背景和质量限制。算法输出看起来详细，并不意味着所有状况都能由这一种输入覆盖；技术评价应保留原记录、分析状态与专业解释之间的关系，避免把一个报告标签当作未经进一步判断的确定结论。",
+      "aesthetics": "小体积可能降低视觉存在感，但面部触感、胡须、睡姿和对贴附物的接受度仍很个人化。官方照片无法说明一整夜是否舒适，也不能代表所有人都不会碰触或移位；审美评价应与使用过程分开，不把看起来简单等同无学习、无维护或无数据失败。",
+      "risks": "自动报告可能让用户忽视数据失败或单夜差异，也可能让尚未解释的标签造成额外担忧。便利采集并不会取消专业判断和其他信息的价值；产品研究应清楚说明何处是记录、何处是模型推断、何处需要医生解释，而不是承诺用一枚传感器解决所有睡眠问题。",
+      "opportunity": "后续研究可以观察用户是否顺利获得可用数据、理解质量提示并完成后续讨论，而不是只计算订单或App打开次数。如果记录简单但解释和支持难以获得，便利可能有限；真实需求应围绕完整信息流程验证，不能由小型化外观或医学名词推断普遍采用。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "cionic-neural-sleeve-2",
+    "name": "Cionic Neural Sleeve 2",
+    "brand": "Cionic",
+    "category": "accessibility",
+    "tagline": "以动作感知和个体化电刺激辅助日常步行的软织物套袖",
+    "officialUrl": "https://www.cionic.com/neuralsleeve",
+    "status": "on_sale",
+    "statusEvidence": "当前官网明确Neural Sleeve 2及美国个人直接订购流程，实际浏览器核到单袖首付与月付方案；需所在州许可、适配评估、处方、尺寸和培训，不是普通现货自选，也不把缺尺码等待名单计作可买。",
+    "regions": [
+      "美国已获配送许可的州；须个人处方及适配"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官网明确美国限定并需美国处方及地址，未核到中国大陆官方购买适配渠道；不以转运推定支持。"
+    },
+    "price": {
+      "text": "单袖 US$300 首付＋US$275/月，前12个月",
+      "note": "当前Care Plan包含硬件分期、App、专员及电极等服务。前12次月付期间取消须退回套袖；完成后可保留硬件，第二年服务US$125/月或改按需付费。首付不是整机总价或排队定金，具体退款和服务依当前条款。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "MultiStim以运动传感及自适应算法分析当前动作、预测动作进程，并个体化调整运动与感觉刺激时机。",
+      "dependency": "需要兼容手机App、处方与适配支持；官网未完整披露传感器型号、模型细节及端云计算分工，不推定脑电输入、读心或全部离线。"
+    },
+    "audience": "consumer",
+    "saleMode": "consumer-fitting",
+    "highlights": [
+      "软织物电刺激，非电机外骨骼",
+      "MultiStim动作感知与刺激时序适配",
+      "个人处方与专员培训流程",
+      "硬件分期和后续服务分别披露"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "在主动步行辅助共同任务中采用刺激自身肌肉的实现路径，区别于替代关节或外部电机助力；本研究未做临床复核、用户访谈或销量调查。"
+    },
+    "architecture": [
+      {
+        "name": "套袖与接触界面",
+        "detail": "软织物套袖内整合电子与电极接触层，必须按正式适配流程使用。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作感知",
+        "detail": "官网说明传感器实时分析运动，未在本页披露具体传感器及布置。",
+        "evidence": "official"
+      },
+      {
+        "name": "自适应刺激控制",
+        "detail": "MultiStim结合运动与感觉刺激，按动作调整时序；不推定公开了全部控制模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制单元与供电",
+        "detail": "控制单元内有不可由用户拆换的充电电池，详细电路未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "App与适配服务",
+        "detail": "兼容手机App提供设置、训练和进展信息，专员协助配置及后续调整。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cionic当前Neural Sleeve 2与MultiStim",
+        "url": "https://www.cionic.com/neuralsleeve",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "ai",
+          "technology",
+          "images",
+          "regions"
+        ],
+        "note": "已打开当前二代页，明确动作感知、自适应刺激、处方和美国限定；厂商疗效与百分比宣传未作独立结论。"
+      },
+      {
+        "title": "Cionic当前个人订购与Care Plan",
+        "url": "https://www.cionic.com/ordering",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "purchase",
+          "price",
+          "service"
+        ],
+        "note": "已实际浏览器只读核对单袖首付300美元、前一年275美元月费及第二年选项，未填写健康资料、提交评估或付款。"
+      },
+      {
+        "title": "Cionic个人订单、取消与维护FAQ",
+        "url": "https://www.cionic.com/faq",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "eligibility",
+          "dependency",
+          "ownership",
+          "maintenance"
+        ],
+        "note": "已打开许可州、22岁以上、处方、尺寸、首付及12次月付后保留设备、控制单元电池不可拆换等边界。"
+      },
+      {
+        "title": "Cionic服务条款",
+        "url": "https://www.cionic.com/legal/terms",
+        "kind": "official-spec",
+        "supports": [
+          "service",
+          "software",
+          "limits"
+        ],
+        "note": "已打开产品包含套袖与控制单元，软件服务与支持条件；不将硬件取得等同获得算法或源代码所有权。"
+      },
+      {
+        "title": "Cionic隐私政策",
+        "url": "https://www.cionic.com/legal/privacy",
+        "kind": "official-spec",
+        "supports": [
+          "privacy",
+          "data"
+        ],
+        "note": "已打开公司网站/App及相关服务的数据处理说明；本研究没有收集或提供任何个人健康记录。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是符合适配条件的人希望在熟悉的生活环境中获得步行支持，减少设备设置与每次活动之间的割裂。是否愿意每天穿戴、能否保持合适接触和获得支持，可能比一次演示更重要；不能仅凭套袖柔软便判断适合所有动作困难或所有身体条件。",
+      "userProfile": "目标用户是否能够独立穿戴、操作手机或获得身边协助，会影响日常使用可行性；只有购买预算却缺少稳定支持，仍可能遇到困难。目录不能根据疾病名称代替个体适用性判断，也不应把照护者和实际穿戴者视为同一个人，需要分别理解其操作与隐私偏好。",
+      "competition": "Power Knee等主动假肢膝单元通过机械驱动帮助替代关节，外骨骼则把动力经结构传到身体；本产品主要借电极刺激使用者自身肌肉。共同需求都是主动步行辅助，但身体条件、接触界面与专业适配明显不同，不能在缺少相同任务和使用者条件时做通用优劣排名。",
+      "supplyChain": "同类新产品的难点可能包括织物伸展后的接触、反复穿脱、汗液环境和不同尺寸下的功能一致性。传感器、控制与耗材不能孤立优化，因为接触状态会影响整个使用过程；供应商候选仅可解释局部能力，不代表买到几个模块便能复现原系统或其适配验证。",
+      "technology": "动作发生变化时，系统输出需要和穿戴条件、个人配置及使用环境保持一致，单独强调算法实时并不足够。技术研究更应关注设置如何建立、如何调整、何时由专员介入，以及用户如何知道设备状态；这些问题比抽象地宣称AI越来越懂身体更可操作。",
+      "aesthetics": "套袖可被理解为衣物的一部分，但厚度、边缘、坐下时的折叠和不同衣着搭配仍可能影响接受度。视觉低调不等于触觉舒适，也不等于所有用户都容易穿好；对这一产品，审美评估应与操作动作和穿戴时间相连，避免仅以棚拍照片判断长期可用。",
+      "risks": "动作记录、账户和支持沟通可能构成持续服务的一部分，硬件取得并不等于全部数据只在设备内处理。用户还可能低估中断服务后耗材或维护的安排；研究应把数据授权、功能可用与后续支出放在同一使用周期内观察，而不是只强调最初付款可取消。",
+      "opportunity": "后续市场研究可以关注获得处方、完成培训、形成穿戴习惯和持续获取耗材之间是否顺畅。若用户认可第一次体验但无法把操作融入日常，硬件机制仍未转化为稳定价值；这是假设性的研究方向，不是对采用率、疗效或商业规模的结论。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "clearcaptions-home-phone",
+    "name": "ClearCaptions Home Phone",
+    "brand": "ClearCaptions",
+    "category": "accessibility",
+    "tagline": "把家庭电话中对方的话显示为字幕的专用终端",
+    "officialUrl": "https://clearcaptions.com/how-it-works/home-phone/",
+    "status": "assisted_program",
+    "statusEvidence": "当前官网提供资格申请、自我认证、批准后寄送设备及安装培训路径；申请表明确填写不构成订单。记录为资格申请·资助发放，不计零售、预售或可订购产品。",
+    "regions": [
+      "美国及其属地；需符合字幕服务资格"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "当前服务限定美国及其属地，且仅支持英语；中国大陆未核到官方设备交付及字幕服务，不以进口话机推定服务可用。"
+    },
+    "price": {
+      "text": "合资格用户：设备与字幕服务无额外费用，制度资助",
+      "note": "并非零元零售。厂家说明字幕服务费用由联邦管理的TRS基金承担，家庭网络费用由用户承担；原通信服务及具体安装安排需另核，申请不代表获批。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "通过服务侧自动语音识别把通话内容转成字幕，官方Odin AI说明包含语言识别与减少识别错误；当前服务仍仅限英语。",
+      "dependency": "需要家庭网络、账户及资格认证；字幕可能包含人工通信辅助，不声称全在话机内计算、全部无人处理或没有识别错误。"
+    },
+    "audience": "consumer",
+    "saleMode": "assisted-program",
+    "highlights": [
+      "左听筒与实体拨号键，右侧竖屏字幕",
+      "专用家庭电话而非纯App",
+      "ASR服务与可选人工辅助分层",
+      "资格资助发放，排除零售统计"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "核心是固定家庭电话通话的可读访问，区别于环境字幕眼镜或随身录音摘要；本研究未调查市场份额、用户访谈或识别性能。"
+    },
+    "architecture": [
+      {
+        "name": "通话音频界面",
+        "detail": "实体听筒、扬声器与按键提供家庭电话操作。",
+        "evidence": "official"
+      },
+      {
+        "name": "网络与服务连接",
+        "detail": "家庭网络连接字幕服务，语音识别不推定全部在话机本地执行。",
+        "evidence": "official"
+      },
+      {
+        "name": "远端字幕生成",
+        "detail": "自动语音识别和AI参与字幕处理，服务可能使用人工通信辅助。",
+        "evidence": "official"
+      },
+      {
+        "name": "显示与访问设置",
+        "detail": "彩色触屏显示字幕，可调字体、颜色及屏幕角度，另有来电灯条。",
+        "evidence": "official"
+      },
+      {
+        "name": "资格与支持流程",
+        "detail": "资格认证批准后配送设备、安装及培训，持续服务依项目条件。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ClearCaptions当前家庭字幕电话",
+        "url": "https://clearcaptions.com/how-it-works/home-phone/",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "technology",
+          "images",
+          "delivery",
+          "dependency"
+        ],
+        "note": "已打开当前触屏、实体拨号、字幕留言、网络与安装培训说明；不采用“每个字都不会遗漏”等宣传作准确率结论。"
+      },
+      {
+        "title": "ClearCaptions资格与设备交付流程",
+        "url": "https://clearcaptions.com/how-it-works/am-i-eligible/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "eligibility",
+          "delivery",
+          "regions"
+        ],
+        "note": "已打开美国及属地、英语、家庭网络与需要字幕的听力损失条件；自我认证批准后寄送并培训，无需医生签名，不替任何个人判断资格。"
+      },
+      {
+        "title": "ClearCaptions资助与费用说明",
+        "url": "https://clearcaptions.com/how-it-works/why-its-free/",
+        "kind": "official-spec",
+        "supports": [
+          "price",
+          "funding",
+          "service"
+        ],
+        "note": "已打开公司对TRS资助与合资格用户费用说明；不是公开零售价格，家庭网络费用另计。"
+      },
+      {
+        "title": "ClearCaptions官方ASR与Odin AI说明",
+        "url": "https://clearcaptions.com/blog/news/asr-clearcaptions-technology/",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology",
+          "service-boundary"
+        ],
+        "note": "已打开2021年机制说明，支持自动语音识别与AI辅助；不据历史语言识别描述推定当前提供多语言翻译，亦不假定2026底层模型版本不变。"
+      },
+      {
+        "title": "ClearCaptions当前申请联系表",
+        "url": "https://clearcaptions.com/sign-me-up/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "application",
+          "limits"
+        ],
+        "note": "已打开当前表单与“填写不构成订单”提示、字幕可能使用人工辅助的说明；未提交资料或联系厂商。"
+      },
+      {
+        "title": "ClearCaptions当前官方首页",
+        "url": "https://clearcaptions.com/",
+        "kind": "official-spec",
+        "supports": [
+          "images",
+          "model",
+          "regions"
+        ],
+        "note": "已打开当前专用话机原图和资格入口；不引用市场领先或排名宣传作为独立证据。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是部分听力受限的人在电话上难以持续理解对方，文字可以成为另一条参与路径。价值并不只取决于识别出了多少句，还取决于阅读速度、轮流讲话与澄清是否自然；不能把字幕显示出来等同对所有人都已消除沟通障碍，也不应以家属满意替代本人体验。",
+      "userProfile": "这类设备可能更适合习惯在家使用电话、愿意在固定位置阅读屏幕的人，移动场景则存在明显局限。本人视力、阅读偏好和操作习惯都需要考虑，不能因为听力受限就推定适合大屏字幕；照护者可以协助安装，但账户、通话和日常使用仍涉及实际使用者的选择。",
+      "competition": "Captify等眼镜关注随身或面对面的环境语音访问，家庭字幕电话则围绕已有电话音频、固定屏幕及服务流程。两者不因都显示字幕就完全相同，也不能因为外形不同便忽略共同的识别和阅读问题；比较应聚焦通话来源、使用地点和支持方式，不以产品数量代替需求数量。",
+      "supplyChain": "同类新设计需要同时考虑屏幕角度、字符可读性、听筒手感和扬声器声音，而不是只换一块大屏。硬件还必须承载稳定的服务连接与清楚的状态反馈；显示与声学供应候选只覆盖局部工程能力，不能代表具备字幕服务资格、完整软件平台或原产品制造关系。",
+      "technology": "电话音频、语速、专有名词和交替讲话会共同影响阅读体验，界面流畅并不等于每段话都被正确理解。AI可承担自动转写，但仍需让使用者有办法澄清、等待或重新确认；技术评价应关注不确定内容如何进入对话，而不是简单承诺字幕足够快便能取消所有沟通成本。",
+      "aesthetics": "传统听筒与实体键能提供熟悉的操作线索，但屏幕、功能键和字幕设置仍需要学习。体积、摆放位置与房间照明会影响是否愿意长期使用，黑色外壳的视觉低调也不能代替可达性；审美评价应以具体居家桌面和操作姿势为背景，而不是仅评价官方渲染是否精致。",
+      "risks": "远端识别与可能的人工参与意味着通话访问不能只理解为屏幕在家中显示文字。用户需要知道服务与记录如何工作，并考虑家庭中他人看到字幕或日志的情况；硬件放在私人空间不自动意味着内容仅在本地处理，AI标签也不能替代对具体数据流程的说明。",
+      "opportunity": "后续可研究人们如何发现服务、理解资格、完成设置并形成稳定沟通习惯，而不只研究字幕模型本身。若获取说明或后续支持不清楚，技术能力未必转化成实际访问；这是案头研究形成的可验证假设，不推定已有服务覆盖所有需要的人，也不据厂商排名断言市场空间。"
     },
     "checkedAt": "2026-11-05"
   }

@@ -134,6 +134,8 @@
 
 - [TapXR](../hardware/tapxr.md) — **能力候选 · 非已采用** / 同类敲击识别腕带的惯性输入候选：ST的LSM6DSOX惯性感知与嵌入式分类能力可作为敲击事件和腕部运动输入的候选，但它不自动完成TapXR的光学融合与全部手指组合识别。需要验证安装、时序、表面差异和功耗；未发现品牌点名采用证据，此链接只对应相近新设计的惯性输入层。
 
+- [HabitAware Keen3](../hardware/habitaware-keen3.md) — **能力候选 · 非已采用** / 同类动作觉察腕带的惯性输入候选：ST的LSM6DSOX公开惯性测量与嵌入式分类能力，可研究相近腕带的运动、朝向和功耗，但并不包含CoreBFRB行为模型。佩戴方向、目标动作数据和误报都须验证；未发现Keen3点名采用证据，不能据候选推定现机芯片或直接获得对个人重复行为的可靠识别。
+
 ## 来源
 
 - [STM32N6 series](<https://www.st.com/en/microcontrollers-microprocessors/stm32n6-series.html>)：支持微控制器、Neural-ART、视觉接口及边缘 AI 开发工具。

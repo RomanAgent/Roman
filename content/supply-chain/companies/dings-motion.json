@@ -272,6 +272,44 @@
       "productName": "eufyMake E1",
       "category": "creative-tools",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "dings-motion",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "刺绣平台运动开发候选",
+      "rationale": "DINGS的精密运动和线性执行相关能力可作为刺绣平台运动方案的开发候选，但针线时序、材料负载及噪声要求需要整机验证。PFAFF没有披露实际电机来源，本关联不代表现售型号采用DINGS，也不覆盖压脚AI识别算法。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "pfaff-creative-icon-2",
+      "productName": "PFAFF creative icon 2",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "dings-motion",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "刺绣车架定位开发候选",
+      "rationale": "DINGS的精密运动与线性执行能力可用于讨论刺绣车架的定位路线，但针线时序、材料负载和噪声必须整机验证。Brother未披露EV1实际电机来源，本关联不代表DINGS供货，也不覆盖Picture Play图像转换模型。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "brother-aveneer-ev1",
+      "productName": "Brother AVENEER EV1",
+      "category": "creative-tools",
+      "status": "on_sale"
     }
   ]
 }

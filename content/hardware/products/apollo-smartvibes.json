@@ -1,0 +1,504 @@
+{
+  "id": "apollo-smartvibes",
+  "name": "Apollo Wearable + SmartVibes AI",
+  "brand": "Apollo Neuro",
+  "category": "wearables",
+  "tagline": "依据个人模式安排触觉反馈的无屏穿戴设备",
+  "officialUrl": "https://apolloneuro.com/products/apollo-wearable-1-year-ai-membership-starter-kit",
+  "status": "on_sale",
+  "statusEvidence": "当前官方具体整机与一年SmartVibes组合US$448、Add to cart，公开商品JSON各所列配色available=true；不是单独App或仅展示的未来硬件。",
+  "regions": [
+    "美国",
+    "加拿大",
+    "欧洲：具体地址按订单确认",
+    "澳大利亚",
+    "新西兰"
+  ],
+  "china": {
+    "availability": "unavailable",
+    "note": "厂家当前国际配送说明未列中国大陆，未核到大陆正式服务；国际页面可访问不等于当地可订购。"
+  },
+  "price": {
+    "text": "US$448（整机＋1年SmartVibes组合）",
+    "note": "按当前具体商品记录，不借旧落地页优惠价；后续会员与设备使用权益需确认，当前FAQ将设备使用与会员绑定，不能承诺基础功能永久免费。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "SmartVibes学习个人睡眠模式，并依据数据自动安排触觉振动；可选接入Oura等额外数据，不等于设备直接读取情绪或脑电。",
+    "dependency": "需要App、账户与有效SmartVibes方案；完整输入传感器与模型执行位置未披露，设备飞行模式可工作不证明全部AI服务离线。"
+  },
+  "audience": "consumer",
+  "saleMode": "retail",
+  "highlights": [
+    "通过触觉执行个性化反馈",
+    "无屏机身可用腕带或衣物夹",
+    "SmartVibes依据个人模式自动安排",
+    "外部数据接入为可选条件"
+  ],
+  "niche": {
+    "level": "emerging",
+    "reason": "与只记录状态的穿戴不同，重点是软件驱动的触觉输出；与脑电声音头带共享部分睡眠需求但执行路径不同，无本研究疗效、访谈或销量证据。"
+  },
+  "architecture": [
+    {
+      "name": "数据与记录",
+      "detail": "App使用个人睡眠相关记录，可选连接外部穿戴数据；完整传感链未披露。",
+      "evidence": "official"
+    },
+    {
+      "name": "模式学习",
+      "detail": "SmartVibes根据个人模式安排自动反馈，具体模型不公开。",
+      "evidence": "official"
+    },
+    {
+      "name": "无线与控制",
+      "detail": "App及机身按钮管理振动程序，Bluetooth连接配套设备。",
+      "evidence": "official"
+    },
+    {
+      "name": "触觉执行",
+      "detail": "机身输出可感知振动，不是脑电采集或电极式神经刺激。",
+      "evidence": "official"
+    },
+    {
+      "name": "佩戴与供电",
+      "detail": "可充电设备配合腕带或衣物夹，具体接触与体感需本人确认。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apollo当前整机与SmartVibes组合商品",
+      "url": "https://apolloneuro.com/products/apollo-wearable-1-year-ai-membership-starter-kit",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "model",
+        "images",
+        "supplyChain"
+      ],
+      "note": "已打开及核公开JSON：US$448、各配色可售，含一年会员、腕带、夹和充电线；Made in USA为厂家自述，工厂未点名。"
+    },
+    {
+      "title": "SmartVibes官方机制说明，2026-03更新",
+      "url": "https://help.apolloneuro.com/hc/en-us/articles/38609616324503-SmartVibes",
+      "kind": "official-spec",
+      "supports": [
+        "ai",
+        "dependency",
+        "workflow"
+      ],
+      "note": "已打开学习个人睡眠模式、自动启动与可选Oura整合；不采用优于药物、睡眠时长等宣传数字为效果保证。"
+    },
+    {
+      "title": "Apollo当前FAQ",
+      "url": "https://apolloneuro.com/pages/apollo-neuro-faqs",
+      "kind": "official-spec",
+      "supports": [
+        "membership",
+        "dependency",
+        "limits"
+      ],
+      "note": "已打开当前会员要求、触觉输出、飞行模式和磁性部件；页面混有2.0称谓，不据此更改所核商品型号或拼接续航参数。"
+    },
+    {
+      "title": "Apollo国际订单与配送地区",
+      "url": "https://help.apolloneuro.com/hc/en-us/articles/360051308834-International-orders-availability-shipping-and-fees",
+      "kind": "official-spec",
+      "supports": [
+        "regions",
+        "china",
+        "purchase"
+      ],
+      "note": "已打开美国以外接受加拿大、欧洲、澳大利亚、新西兰订单的说明；不把这些地区概括成全球配送。"
+    },
+    {
+      "title": "Apollo官方佩戴夹与腕带说明",
+      "url": "https://apolloneuro.com/blogs/news/introducing-apollo-clip",
+      "kind": "official-spec",
+      "supports": [
+        "images",
+        "wearing",
+        "architecture"
+      ],
+      "note": "已打开官方旧佩戴参考，外形与当前所核组合一致；仅用作佩戴和附件结构，不把旧价格、服务或效果宣传当现行条件。"
+    }
+  ],
+  "analysis": {
+    "demand": "需求假设是用户希望在休息前后获得较少操作的触觉反馈，不必反复选择时间和程序。自动安排可能降低操作负担，也可能在不合适时刻产生打扰；是否有价值取决于本人对振动、佩戴和控制权的接受度，不能从“个性化”名称推断睡眠或情绪一定改善。",
+    "userProfile": "有些人可能偏好触觉而不希望睡前播放声音，有些人则容易被振动打断。是否愿意管理充电、会员和手机连接，也会影响持续使用；用户画像应从本人选择的场景出发，而不是把压力、失眠或某种诊断名称直接等同需要该设备，更不能替个人作健康适配判断。",
+    "competition": "Elemind和FRENZ主要以自身信号适配声音，Apollo在这里通过个人模式安排身体触觉；共同休息需求不应被品牌数重复计算。另一方面，固定振动程序缺少相同的数据适配流程；比较应关注输入来源、执行方式、打扰和停止路径，不能仅以反馈形式新颖推定效果更好。",
+    "supplyChain": "同类新设计中，同一个执行器装在不同外壳、腕带和佩戴位置，用户感受可能不同；简单改变振动强度也不等于更合适反馈。供应研究需要结合波形控制、结构耦合、噪声和功耗，而不是从某个振动器件目录直接推导对睡眠或情绪的作用。",
+    "technology": "软件从一段记录中形成安排，可能识别常见时间模式，但并不因此知道用户为何睡得不佳或当前真实情绪。日程改变、记录缺失或外部数据不同，都可能影响提示的合适程度；技术评价需要区分可观察数据、推断安排和用户感受，避免把个性化描述扩展为生理诊断。",
+    "aesthetics": "同一设备在腕部、脚踝或衣物上的拿取、固定和充电过程并不相同，用户可能只愿意保留一种方式。外观低调与实际体感也要分开评价；照片中与衣服自然融合，不意味着睡姿、衣物厚度和活动时不会产生干扰，审美应结合本人生活情境观察。",
+    "risks": "若用户把所有夜间变化都交给软件解释，可能忽略其他生活或健康因素，也可能因振动不合适而增加负担。自动安排应保留可理解、可停止的控制，用户不需要为满足算法持续佩戴；研究应观察失败和不适配情况，而不是只记录开启功能后的积极描述。",
+    "opportunity": "后续可关注用户是否愿意保留自动安排、何时转回手动程序，以及哪些场景宁愿不接受触觉反馈。若个性化只增加设置和解释成本，价值可能有限；需求验证应该以本人可控的体验为基础，而不是依赖“神经科学”标签或大量效果百分比建立信心。"
+  },
+  "checkedAt": "2026-11-05",
+  "deepDive": {
+    "checkedAt": "2026-11-05",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Apollo当前整机与SmartVibes组合商品",
+        "url": "https://apolloneuro.com/products/apollo-wearable-1-year-ai-membership-starter-kit",
+        "note": "已打开及核公开JSON：US$448、各配色可售，含一年会员、腕带、夹和充电线；Made in USA为厂家自述，工厂未点名。"
+      },
+      {
+        "id": "s2",
+        "title": "SmartVibes官方机制说明，2026-03更新",
+        "url": "https://help.apolloneuro.com/hc/en-us/articles/38609616324503-SmartVibes",
+        "note": "已打开学习个人睡眠模式、自动启动与可选Oura整合；不采用优于药物、睡眠时长等宣传数字为效果保证。"
+      },
+      {
+        "id": "s3",
+        "title": "Apollo当前FAQ",
+        "url": "https://apolloneuro.com/pages/apollo-neuro-faqs",
+        "note": "已打开当前会员要求、触觉输出、飞行模式和磁性部件；页面混有2.0称谓，不据此更改所核商品型号或拼接续航参数。"
+      },
+      {
+        "id": "s4",
+        "title": "Apollo国际订单与配送地区",
+        "url": "https://help.apolloneuro.com/hc/en-us/articles/360051308834-International-orders-availability-shipping-and-fees",
+        "note": "已打开美国以外接受加拿大、欧洲、澳大利亚、新西兰订单的说明；不把这些地区概括成全球配送。"
+      },
+      {
+        "id": "s5",
+        "title": "Apollo官方佩戴夹与腕带说明",
+        "url": "https://apolloneuro.com/blogs/news/introducing-apollo-clip",
+        "note": "已打开官方旧佩戴参考，外形与当前所核组合一致；仅用作佩戴和附件结构，不把旧价格、服务或效果宣传当现行条件。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜模式学习连接触觉输出",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "Apollo是可输出振动的无屏穿戴设备，SmartVibes说明其学习个人睡眠模式后依据数据自动启动相应反馈。它不是只保存曲线的追踪器，也不是通过头皮电极采集脑电的头带；本条AI依据在配套软件与触觉安排的结合，不能把所有手动程序或定时功能本身称为人工智能。"
+        },
+        {
+          "title": "判断｜减少手动选择是否值得佩戴",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "需求假设是用户希望在休息前后获得较少操作的触觉反馈，不必反复选择时间和程序。自动安排可能降低操作负担，也可能在不合适时刻产生打扰；是否有价值取决于本人对振动、佩戴和控制权的接受度，不能从“个性化”名称推断睡眠或情绪一定改善。"
+        },
+        {
+          "title": "验证｜记录触发时点与本人感受",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "text": "可在符合厂家适用条件的前提下观察程序何时启动、用户是否注意到，以及是否需要暂停或调整。应将自动触发、手动计划与主观感受分别记录，不以一次觉得放松代表长期效果；本研究没有个人试用或睡眠测量，不承诺治疗、减药或避免夜醒。"
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "官方｜腕带和衣物夹提供不同佩戴方式",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s5"
+          ],
+          "text": "当前组合包含设备、可调腕带、衣物夹和充电线，用户可按产品说明选择佩戴位置。机身按钮与App提供控制，但不同位置的体感并不完全相同；目录只记录厂家公开的佩戴方式，不把官方模特或“任意位置”宣传理解为所有个人条件都能舒适或安全使用。"
+        },
+        {
+          "title": "判断｜感官偏好与生活安排影响采用",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "text": "有些人可能偏好触觉而不希望睡前播放声音，有些人则容易被振动打断。是否愿意管理充电、会员和手机连接，也会影响持续使用；用户画像应从本人选择的场景出发，而不是把压力、失眠或某种诊断名称直接等同需要该设备，更不能替个人作健康适配判断。"
+        },
+        {
+          "title": "验证｜确认停止与调整都容易完成",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s5"
+          ],
+          "text": "试用可核对穿戴、启动、改变强度、停止和充电的完整过程，观察在不看手机时是否仍能理解状态。若需要他人帮助，应明确支持范围并保留本人选择；本轮只核公开资料，没有真实触觉、皮肤或睡眠反馈，不能凭设备体积推定低打扰体验。"
+        }
+      ],
+      "competition": [
+        {
+          "title": "官方｜当前订单包含明确会员期限",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "所核商品是整机与一年SmartVibes组合，当前FAQ将设备使用与有效会员绑定；旧介绍中基础与付费能力的划分不能直接覆盖现行订单。不同页面还有型号称谓与续航口径差异，因此目录采用具体商品名称和价格，不擅自改为新代次，也不承诺一年后所有功能仍免费。"
+        },
+        {
+          "title": "判断｜与脑电声音反馈和固定振动分开比较",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "text": "Elemind和FRENZ主要以自身信号适配声音，Apollo在这里通过个人模式安排身体触觉；共同休息需求不应被品牌数重复计算。另一方面，固定振动程序缺少相同的数据适配流程；比较应关注输入来源、执行方式、打扰和停止路径，不能仅以反馈形式新颖推定效果更好。"
+        },
+        {
+          "title": "验证｜比较保持相同的个人目标",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "可以在本人明确的休息或反馈目标下比较原有方式、手动程序和自动安排，记录操作次数、佩戴负担与停止原因。硬件和会员成本需要一起考虑，外部穿戴设备若使用也应单列；没有独立用户和效果数据时，不把更少操作等同更好健康结果或商业需求。"
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜执行器与电子控制未点名完整供应商",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "公开资料确认触觉输出、无线连接、按钮和充电结构，但没有完整披露执行器、主控、电池和工厂的具体供应关系。商品所称美国制造只是厂家地点表述，不足以推定全部零件来源；概念图使用通用控制、供电和触觉模块，没有添加心率、脑电或电刺激电极。"
+        },
+        {
+          "title": "判断｜触感取决于结构耦合与控制",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s5"
+          ],
+          "text": "同类新设计中，同一个执行器装在不同外壳、腕带和佩戴位置，用户感受可能不同；简单改变振动强度也不等于更合适反馈。供应研究需要结合波形控制、结构耦合、噪声和功耗，而不是从某个振动器件目录直接推导对睡眠或情绪的作用。"
+        },
+        {
+          "title": "验证｜候选只覆盖执行和连接能力",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s5"
+          ],
+          "text": "触觉器件候选需验证安装方式、重复控制和体感，无线候选则核对App同步、断连和低功耗条件。所列公司没有Apollo点名采用证据，也不包含SmartVibes模型与程序许可；能够输出振动或连接手机，只证明某一功能层可研究，不能视为整套产品效果已成立。"
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜额外穿戴数据为可选输入",
+          "evidence": "official",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "text": "SmartVibes官方说明可以接入Oura数据获得更个性化的安排，同时使用App内的个人睡眠相关信息。完整传感硬件和模型执行位置没有充分公开，因此不能断言Apollo直接测得全部心率或脑电，也不能因机身支持飞行模式，就推定训练、账户与全部AI服务都不依赖网络。"
+        },
+        {
+          "title": "判断｜学习周期不等于理解身体原因",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ],
+          "text": "软件从一段记录中形成安排，可能识别常见时间模式，但并不因此知道用户为何睡得不佳或当前真实情绪。日程改变、记录缺失或外部数据不同，都可能影响提示的合适程度；技术评价需要区分可观察数据、推断安排和用户感受，避免把个性化描述扩展为生理诊断。"
+        },
+        {
+          "title": "验证｜在数据不完整时检查行为",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "text": "可核对外部账户断开、手机离线、设备未佩戴或日程变化后，自动程序如何处理，以及用户能否查看和修改安排。需要确认旧计划不会被误认为实时识别结果；本目录没有算法准确率或连续睡眠试验，不采用官网的分钟数和相对药物表现作为独立事实。"
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "官方｜无屏机身与两个侧面控制键",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s5"
+          ],
+          "text": "官方产品图显示圆角机身、金属固定结构、两个侧面按钮和可拆衣物夹，腕带从固定结构中穿过。设备没有用于显示指标的表屏或可见摄像头；生成图保留这些外部特征，内部触觉模块的具体形状仅为概念，不代表已经核实执行器类型、数量或电路布局。"
+        },
+        {
+          "title": "判断｜附件的日常便利可能决定使用频率",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s5"
+          ],
+          "text": "同一设备在腕部、脚踝或衣物上的拿取、固定和充电过程并不相同，用户可能只愿意保留一种方式。外观低调与实际体感也要分开评价；照片中与衣服自然融合，不意味着睡姿、衣物厚度和活动时不会产生干扰，审美应结合本人生活情境观察。"
+        },
+        {
+          "title": "验证｜比较佩戴与收纳而非只看颜色",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s5"
+          ],
+          "text": "可记录换用腕带和衣物夹时的安装、取下、充电与收纳步骤，并检查是否容易丢失附件。把外观偏好、固定稳定和振动感受分别询问，不将某一配色或套装算作新的需求；本轮没有真机触感、耐久或长期佩戴测试，相关体验保持待验证。"
+        }
+      ],
+      "risks": [
+        {
+          "title": "官方｜产品宣传不能替代个人效果证据",
+          "evidence": "official",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "text": "官方帮助和商品页包含睡眠改善、相对药物效果及安全性宣传，但本研究没有独立验证这些结果，也不将它们作为保证。当前FAQ还提示设备含磁性部件，需要按自身适用条件核对；目录描述的是触觉反馈工具及其服务，不把它写成可自行治疗疾病或替代用药的设备。"
+        },
+        {
+          "title": "判断｜自动执行也可能带来不需要的打扰",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "text": "若用户把所有夜间变化都交给软件解释，可能忽略其他生活或健康因素，也可能因振动不合适而增加负担。自动安排应保留可理解、可停止的控制，用户不需要为满足算法持续佩戴；研究应观察失败和不适配情况，而不是只记录开启功能后的积极描述。"
+        },
+        {
+          "title": "验证｜核对会员、数据和地区支持",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "text": "购买前应确认一年后的权益、账户连接与数据处理条件，并核对实际配送和售后地区。厂家国际列表未列中国大陆，不能把网站可访问当作当地服务完整；本目录未提交个人健康数据，也不建议根据设备或App提示自行改变医疗、心理支持或药物安排。"
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "官方｜触觉适配与声音适配保留机制差异",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "本条以Apollo代表依据个人模式安排触觉反馈的实现，不按颜色、腕带和衣物夹拆成多个创新硬件。它与睡眠声音头带可共享上层任务，但输入与执行路径不同；保留这一差异有助于比较真正的使用取舍，而不是将同一改善休息目标按品牌无限扩张。"
+        },
+        {
+          "title": "判断｜先判断是否减少了本人操作负担",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "text": "后续可关注用户是否愿意保留自动安排、何时转回手动程序，以及哪些场景宁愿不接受触觉反馈。若个性化只增加设置和解释成本，价值可能有限；需求验证应该以本人可控的体验为基础，而不是依赖“神经科学”标签或大量效果百分比建立信心。"
+        },
+        {
+          "title": "验证｜跟踪长期保留的具体程序",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "text": "可以记录数周内实际使用、暂停、充电、会员和外部数据变化，并观察哪些反馈被主动保留或放弃。当前仅有公开资料和现售商品证据，没有用户访谈、销量或本研究疗效测试；应允许设备只在少量场景有用，或个人最终选择不继续使用的结论。"
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "precision-microdrives",
+        "role": "motion",
+        "component": "同类触觉反馈穿戴的执行器与耦合研究",
+        "rationale": "Precision Microdrives公开微型振动和消费触觉应用能力，可研究同类设备的波形控制、安装耦合、声音与能耗，但不等于Apollo的专有Vibes程序或临床效果。未发现厂家点名采用证据，具体执行器和结构仍须验证；候选不能由一般振动能力推断能够改善睡眠或情绪。",
+        "relationship": "candidate",
+        "sourceIds": [
+          "s1",
+          "s5"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "nordic-semiconductor",
+        "role": "connectivity",
+        "component": "同类触觉反馈设备的低功耗连接候选",
+        "rationale": "Nordic低功耗无线平台可研究App到触觉控制器的指令、同步与断连恢复，需核对实际协议、固件和电源约束。没有Apollo采用来源，也不包含SmartVibes模式学习和第三方账户服务；此链接仅是相近新设计连接层候选，不代表本机芯片或全部AI可离线运行。",
+        "relationship": "candidate",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "signal-adaptive-sleep-haptics",
+      "needName": "基于个人模式的夜间触觉反馈",
+      "difference": "与固定振动程序和脑电声音头带相比，Apollo配合SmartVibes学习个人记录并自动安排触觉输出，用户可选择腕带或衣物夹而不必接受头部音频。差异在输入适配与身体触觉执行路径，仍共享休息反馈的核心任务；完整传感链、模型位置和个人效果未充分公开，会员、充电及打扰都需验证，不能把厂商睡眠改善或优于药物宣传当作保证。",
+      "comparisonBasis": "固定振动程序、手动App计划，以及Elemind/FRENZ的信号自适应声音；比较输入、执行、佩戴与控制。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s5"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/apollo-smartvibes/product.png",
+      "sourceUrl": "https://apolloneuro.com/products/apollo-wearable-1-year-ai-membership-starter-kit",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0267/8341/6517/files/switch-stealth.png?v=1769614222&width=1200",
+      "caption": "所核Apollo Stealth设备、腕带与可拆衣物夹",
+      "alt": "所核Apollo Stealth设备、腕带与可拆衣物夹",
+      "credit": "Apollo Neuro · 官方产品图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 579443,
+      "sha256": "6ac3464df50690660db8e10a23e4a23e8b207bf4ea1f4051242db08508e46b5f"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/apollo-smartvibes/reference.jpg",
+      "sourceUrl": "https://apolloneuro.com/blogs/news/introducing-apollo-clip",
+      "sourceImageUrl": "https://apolloneuro.com/cdn/shop/articles/wearing-apollo-clip-on-tanktop-ankle-and-belt.jpg?v=1660852726&width=1200",
+      "caption": "Apollo官方腕带与衣物夹佩戴参考；不由人物推断健康效果",
+      "alt": "Apollo官方腕带与衣物夹佩戴参考；不由人物推断健康效果",
+      "credit": "Apollo Neuro · 官方产品图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 191881,
+      "sha256": "4174da11f6b67f90a7a6f54381b5983d1b336acb582f2965bca1f6b957568e4c"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/apollo-smartvibes/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Apollo Neuro apollo-smartvibes灰阶概念功能结构图，非真实拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-05",
+      "promptPath": "content/hardware/prompts/apollo-smartvibes.txt",
+      "referencePaths": [
+        "assets/hardware/apollo-smartvibes/product.png",
+        "assets/hardware/apollo-smartvibes/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1687140,
+      "sha256": "86b2b101e1a4b45fef18780dcd76f5a6a28110dce8430b204ff93e0547b76537"
+    }
+  ],
+  "mediaNotes": [
+    "已视觉检查外形、灰阶、文本和数据路径；未知内部为概念模块，不代表实际拆机、完整BOM或医疗效果。",
+    "实际逐张查看并核对具体型号，保留厂家原图；参考场景和人物不能证明效果，历史图像与当前购买条件分别核查。"
+  ]
+}

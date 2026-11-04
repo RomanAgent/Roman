@@ -247,6 +247,44 @@
       "productName": "Chessnut Companion",
       "category": "games",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "precision-microdrives",
+      "role": "motion",
+      "component": "同类个人觉察腕带的触觉提醒执行器候选",
+      "rationale": "Precision Microdrives公开消费应用中的微型振动与触觉工程能力，可研究同类腕带的提醒强度、安装和能耗，但实际体感与结构耦合需验证。没有HabitAware点名采用来源，也不提供动作模型和行为策略；执行器能振动不等于提醒有效，更不构成治疗效果证明。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "habitaware-keen3",
+      "productName": "HabitAware Keen3",
+      "category": "wearables",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "precision-microdrives",
+      "role": "motion",
+      "component": "同类触觉反馈穿戴的执行器与耦合研究",
+      "rationale": "Precision Microdrives公开微型振动和消费触觉应用能力，可研究同类设备的波形控制、安装耦合、声音与能耗，但不等于Apollo的专有Vibes程序或临床效果。未发现厂家点名采用证据，具体执行器和结构仍须验证；候选不能由一般振动能力推断能够改善睡眠或情绪。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s5"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "apollo-smartvibes",
+      "productName": "Apollo Wearable + SmartVibes AI",
+      "category": "wearables",
+      "status": "on_sale"
     }
   ]
 }

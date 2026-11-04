@@ -550,5 +550,119 @@
     "notes": [
       "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
     ]
+  },
+  {
+    "id": "xvic-putting-view",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/xvic-putting-view/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "xVic Putting View 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/xvic-putting-view.txt",
+        "referencePaths": [
+          "assets/hardware/xvic-putting-view/product.webp",
+          "assets/hardware/xvic-putting-view/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "equestic-saddleclip",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/equestic-saddleclip/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Equestic SaddleClip Classic 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/equestic-saddleclip.txt",
+        "referencePaths": [
+          "assets/hardware/equestic-saddleclip/product.webp",
+          "assets/hardware/equestic-saddleclip/reference.jpg",
+          "assets/hardware/equestic-saddleclip/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。",
+      "初稿与修正提示词在主prompt按两阶段保留，单独修正prompt见content/hardware/prompts/equestic-saddleclip-repair.txt；初稿图片仅作修图输入溯源。"
+    ]
+  },
+  {
+    "id": "yogifi-smart-mat-gen3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/yogifi-smart-mat-gen3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "YogiFi Smart Mat Gen3 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/yogifi-smart-mat-gen3.txt",
+        "referencePaths": [
+          "assets/hardware/yogifi-smart-mat-gen3/product.png",
+          "assets/hardware/yogifi-smart-mat-gen3/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "pfaff-creative-icon-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/pfaff-creative-icon-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "PFAFF creative icon 2 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/pfaff-creative-icon-2.txt",
+        "referencePaths": [
+          "assets/hardware/pfaff-creative-icon-2/product.jpg",
+          "assets/hardware/pfaff-creative-icon-2/reference.jpg",
+          "assets/hardware/pfaff-creative-icon-2/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。",
+      "初稿与修正提示词在主prompt按两阶段保留，单独修正prompt见content/hardware/prompts/pfaff-creative-icon-2-repair.txt；初稿图片仅作修图输入溯源。"
+    ]
+  },
+  {
+    "id": "brother-aveneer-ev1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/brother-aveneer-ev1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Brother EV1功能模块及照片转刺绣工作流概念，非真实拆机与BOM。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/brother-aveneer-ev1.txt",
+        "referencePaths": [
+          "assets/hardware/brother-aveneer-ev1/product.jpg",
+          "assets/hardware/brother-aveneer-ev1/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以原厂EV1图独立生成并完成目视QA；未知内部为功能块，未编造芯片、传动或AI部署位置。"
+    ]
   }
 ]

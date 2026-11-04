@@ -486,6 +486,24 @@
     },
     {
       "supplierId": "texas-instruments",
+      "role": "power",
+      "component": "同类盲文计算终端的USB-C供电管理候选",
+      "rationale": "TI TPS25751公开USB-C供电协商与功率路径控制，可研究同类终端的接口角色、异常保护和系统负载，但不包含盲文驱动、Gemini服务或完整充电系统。未发现BrailleSense点名采用证据，具体电池和主板接口须核对；候选不能视作现机换件或已完成辅助设备适配。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s5"
+      ],
+      "productId": "braillesense-7-32",
+      "productName": "BrailleSense 7（32-cell）",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "texas-instruments",
       "role": "chip",
       "relationship": "candidate",
       "component": "模拟信号采集与控制器件能力候选",

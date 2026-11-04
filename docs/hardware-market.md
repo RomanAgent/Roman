@@ -1,10 +1,10 @@
 # C端 AI 智能硬件市场目录
 
-核查日期：2026-11-05 · 收录 288 款 / 系列
+核查日期：2026-11-05 · 收录 303 款 / 系列
 
-> 面向个人、家庭和个人创作者的全球消费级AI硬件。销售、个人验配、正式预售、硬件租赁与付费预约分别标明；预约观察不计可订购数量。不同颜色、容量和同款套装合并，按独立需求与使用场景比较差异。企业专用设备及纯开发板保留专业档案。
+> 面向个人、家庭和个人创作者的全球消费级AI硬件。销售、个人验配、正式预售、硬件租赁、付费预约与资格资助分别标明；预约和资助观察不计可订购数量。不同颜色、容量和同款套装合并，按独立需求与使用场景比较差异。企业专用设备及纯开发板保留专业档案。
 
-以核查日官方商店、消费购买/验配渠道与交付说明核验状态。C端身份依据最终个人/家庭使用场景及消费渠道，不因价格高或需要安装而自动排除。纯APP、无电子的识别道具、企业专用设备、普通自动化、只有发布或候补名单的项目不计入200款可购目标。
+以核查日官方商店、消费购买/验配渠道与交付说明核验状态。C端身份依据最终个人/家庭使用场景及消费渠道，不因价格高或需要安装而自动排除。纯APP、无电子的识别道具、企业专用设备、普通自动化、只有发布或候补名单的项目不计入可订购消费产品统计。
 
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
@@ -65,9 +65,11 @@
 | [Amazfit Active 2 (Round)](hardware/amazfit-active-2-round.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | Black Sport Silicone US$99.99 |
 | [Amazfit T-Rex 3 Pro](hardware/amazfit-t-rex-3-pro.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | US$399.99 |
 | [Amazfit Balance 2](hardware/amazfit-balance-2.md) | 在售 | 美国官网、日本官网 | 美国官网 US$299.99 |
+| [Apollo Wearable + SmartVibes AI](hardware/apollo-smartvibes.md) | 在售 | 美国、加拿大、欧洲：具体地址按订单确认、澳大利亚、新西兰 | US$448（整机＋1年SmartVibes组合） |
 | [Bsize BoT Talk（美国版）](hardware/bsize-bot-talk-us.md) | 在售 | 美国（本条地区版本） | 美国官方 US$44.99 |
 | [Circular Ring 2](hardware/circular-ring-2.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | Obsidian Black US$349 起 |
 | [Emotiv Insight（EmotivBCI训练式控制）](hardware/emotiv-insight.md) | 预售 / 接受延期订单 | 官方国际商店；具体国家配送及限制需结算确认 | US$499硬件预售价 |
+| [HabitAware Keen3](hardware/habitaware-keen3.md) | 预售 / 接受延期订单 | 官方国际商店预售；具体地址与交付须结算确认 | US$199（整机预售，含1年Pro） |
 | [Mobvoi TicNote Watch](hardware/ticnote-watch.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | US$199 |
 | [Mudra Link](hardware/mudra-link.md) | 在售 | 美国、官网列出的国际配送地区 | US$499（所见Mudra Link商品页） |
 | [Neurable One](hardware/neurable-one.md) | 在售 | 美国 | US$499 |
@@ -235,12 +237,16 @@
 | [C-Pen Reader 2](hardware/cpen-reader-2.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | US$399，税前 |
 | [C-Pen Reader 3](hardware/cpen-reader-3.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | US$449，税前 |
 | [Captify Pro](hardware/captify-pro.md) | 在售 | 美国：官方零售、其他地区：厂家称国际配送，具体地址与服务需确认 | US$699（所见基础硬件） |
+| [Cionic Neural Sleeve 2](hardware/cionic-neural-sleeve-2.md) | 在售 | 美国已获配送许可的州；须个人处方及适配 | 单袖 US$300 首付＋US$275/月，前12个月 |
+| [ClearCaptions Home Phone](hardware/clearcaptions-home-phone.md) | 资格申请 · 资助发放 | 美国及其属地；需符合字幕服务资格 | 合资格用户：设备与字幕服务无额外费用，制度资助 |
 | [Dot Pad X（Dot Vista AI工作流）](hardware/dot-pad-x.md) | 在售 | 官方个人询价与经销商网络；交付地区需报价确认 | 个人询价，未公开统一价格 |
 | [Esper Hand 2](hardware/esper-hand-2.md) | 在售 | 美国：个人假肢适配、乌克兰：个人假肢适配 | 按个人适配报价 |
 | [Eyedaptic EYE7](hardware/eyedaptic-eye7.md) | 在售 | 美国为主的眼科实践方及经销渠道；具体地区需适配确认 | 经销及个人适配报价，未核到统一现价 |
 | [JubileeTV Console + Membership](hardware/jubilee-tv-console.md) | 在售 | 美国（设备使用者） | US$39/月起（含硬件的会员方案） |
 | [OrCam MyEye 3 Pro](hardware/orcam-myeye-3-pro.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | 授权销售页 US$4,250 |
 | [OrCam Read 5](hardware/orcam-read-5.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | 授权销售页 US$2,790 |
+| [Össur Power Knee 盘古主动力膝关节](hardware/ossur-power-knee.md) | 在售 | 中国大陆：官方装配渠道、澳大利亚等地区：专业个人适配渠道 | 按个人假肢方案报价 |
+| [BrailleSense 7（32-cell）](hardware/braillesense-7-32.md) | 在售 | 美国和加拿大：SELVAS BLV官方购买/报价、其他地区经HIMS当地渠道另核 | US$5,995（32-cell官方价目） |
 | [Tobii Dynavox TD Pilot派乐（TD Talk AI音色方案）](hardware/td-pilot.md) | 在售 | 中国大陆：官方本地联系购买、美国等官方个人沟通辅助渠道；方案因地区不同 | 个人沟通辅助方案报价 |
 | [WeWALK Smart Cane 2](hardware/wewalk-smart-cane-2.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | 按国家与AI附加服务动态报价；未读取到统一总价 |
 
@@ -268,6 +274,7 @@
 | [AEKE K1](hardware/aeke-k1.md) | 在售 | 国际官网支持配送地区（逐地址确认） | 所见国际站 US$3,598 |
 | [Arccos Air](hardware/arccos-air.md) | 在售 | 美国、加拿大、英国、欧盟、澳大利亚、日本、其他官方结算支持地区 | US$349.99含首年订阅；续费US$199.99/年 |
 | [Carv 2](hardware/carv-2.md) | 在售 | 美国及官网支持配送地区（目的地另核） | Season Pass US$249/年，含一对传感器 |
+| [Equestic SaddleClip Classic](hardware/equestic-saddleclip.md) | 在售 | 荷兰及官方支持配送地区（地址另核） | 硬件以官方地区报价为准；有免费基础及付费会员 |
 | [FightCamp Connect Gen 3](hardware/fightcamp-connect-gen3.md) | 在售 | 美国、加拿大部分地区（官方说明，地址另核） | Connect促销US$269；会员US$44.99/月 |
 | [FORM Smart Swim 2 PRO](hardware/form-smart-swim-2-pro.md) | 在售 | 美国、加拿大、英国、欧洲与澳大利亚官方区域站 | 所见美国站促销 US$189 |
 | [Gorilla Bells](hardware/gorilla-bells.md) | 在售 | 美国（已核官方美元商店） | 核查日官方US$959.20；Silverback US$14.99/月 |
@@ -284,6 +291,8 @@
 | [Tennibot Partner Lite](hardware/tennibot-partner-lite.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | US$1,525 |
 | [Tennibot Rover](hardware/tennibot-rover.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | US$2,275 |
 | [Tonal 2](hardware/tonal-2.md) | 在售 | 美国官方销售地区（具体配送地址结算确认） | US$4,295 主机；所见含基础附件选择 US$4,790 |
+| [xVic Putting View](hardware/xvic-putting-view.md) | 在售 | 韩国及官方商店支持地区（配送目的地另核） | 官方商品页US$149 |
+| [YogiFi Smart Mat Gen3](hardware/yogifi-smart-mat-gen3.md) | 在售 | 美国官方商店支持地区（目的地另核） | 美国官网US$299 |
 
 ## 睡眠与放松
 
@@ -306,8 +315,10 @@
 | [Algocare E1 Pro](hardware/algocare-e1-pro.md) | 在售 | 韩国 | 当前韩站页面优惠价 ₩1,340,000 |
 | [AliveCor KardiaMobile 6L](hardware/kardiamobile-6l.md) | 在售 | 美国官网当前购买渠道、其他官方区域需核对本地型号和应用 | US$129（所见标准KardiaMobile 6L） |
 | [Hilo Band 血压监测系统（英国版）](hardware/hilo-band-system.md) | 在售 | 英国（本次具体商品与服务核实） | £199.98（腕带+校准袖带+首年会员） |
+| [Kohler Health Dekoda](hardware/kohler-dekoda.md) | 在售 | 美国 | 官方硬件 US$449＋必需会员 |
 | [Lumen Metabolism Tracker](hardware/lumen-metabolism-tracker.md) | 在售 | 所见美元官网及结算支持的配送地区 | US$279（所见设备+首12个月会员） |
 | [Mira Hormone Monitor · Ultra4 Kit](hardware/mira-ultra4.md) | 在售 | 美国、英国、欧盟、澳大利亚、官网称全球配送，具体地址以结算为准 | US$249（Monitor + 20支Ultra4，未计促销码） |
+| [Sunrise 家用下颌运动睡眠测试](hardware/sunrise-home-sleep-test.md) | 在售 | 比利时、法国、卢森堡、结算另列美国；当地医疗服务与版本仍需确认 | €249／一夜套装（所见含税价格） |
 | [Withings U-Scan Nutrio](hardware/withings-u-scan-nutrio.md) | 在售 | 美国官网当前可购配置、其他地区需按当地具体商品确认 | US$379.95（Proactive / 2MPW starter kit） |
 | [Withings BeamO（StethO Sense方案）](hardware/withings-beamo.md) | 在售 | 美国：本条价格和主要功能口径、欧盟及欧洲经济区：另有不同AI功能范围 | US$249.95（美国官网硬件） |
 
@@ -343,6 +354,7 @@
 | [PetPace 3.0](hardware/petpace-3-collar.md) | 在售 | 美国官方零售；其他地区须分别确认 | US$299（项圈，服务另计） |
 | [Catlog Board 2](hardware/catlog-board-2.md) | 在售 | 日本 | 硬件 JPY 19,800（含税） |
 | [Reef Kinetics ReefBot Lab](hardware/reefkinetics-reefbot-lab.md) | 在售 | 美国、加拿大、欧洲部分市场、中东部分市场、官方称支持40多个国家 | US$1,599 |
+| [当贝智能鱼缸 2S Ultra](hardware/dangbei-aquarium-2s-ultra.md) | 在售 | 中国大陆 | 京东官方渠道当前优惠到手价约 ¥568 |
 
 ## 家庭助手
 
@@ -396,10 +408,12 @@
 | --- | --- | --- | --- |
 | [3DMakerpro Moose](hardware/3dmakerpro-moose.md) | 在售 | 美国仓及官方配送市场 | 官方标准组合 US$489 |
 | [Bambu Lab H2D](hardware/bambu-lab-h2d.md) | 在售 | 美国本土官方商店 | 美国官方H2D本体 US$1,599 |
+| [Brother AVENEER EV1](hardware/brother-aveneer-ev1.md) | 在售 | 英国（已核EV1原厂授权门店库存） | 英国授权店实际页面£14,999 |
 | [CZUR ET24 Pro](hardware/czur-et24-pro.md) | 在售 | 美国及官方配送市场 | ET24 Pro官方变体 US$579 |
 | [ELEGOO Saturn 4 Ultra 16K](hardware/elegoo-saturn4-ultra-16k.md) | 在售 | 美国官方商店 | 美国官方本体 US$399 |
 | [Elgato Prompter](hardware/elgato-prompter.md) | 在售 | 美国（已核官方商店）及品牌地区渠道 | 美国官网US$299.99 |
 | [eufyMake E1](hardware/eufymake-e1.md) | 在售 | 美国（已核官方商店） | 美国官网Basic Bundle促销US$2,409 |
+| [PFAFF creative icon 2](hardware/pfaff-creative-icon-2.md) | 在售 | 澳大利亚西澳（已核零售库存） | 西澳店当前展示A$16,990；成交价需确认 |
 | [Sony mocopi（标准六传感器套件）](hardware/sony-mocopi.md) | 在售 | 美国（本轮已核官方商店） | Sony美国官网US$449.99 |
 | [XNote Write](hardware/xnote-write.md) | 在售 | 美国及官网结算支持地区（目的地另核） | 官方笔与本套装US$199 |
 | [xTool F2](hardware/xtool-f2.md) | 在售 | 英国（本轮实际核查商店） | 英国官网主机显示£1,039促销价 |
@@ -447,7 +461,7 @@
 
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
-| [ZWO Seestar S30 Pro](hardware/zwo-seestar-s30-pro.md) | 在售 | 中国大陆、美国、欧洲、全球站支持地区 | 全球官网US$699；国内渠道价格为准 |
+| [ZWO Seestar S30 Pro](hardware/zwo-seestar-s30-pro.md) | 在售 | 中国大陆、美国、欧洲、全球站支持地区 | 美国官网US$699；国内渠道价格为准 |
 
 ## 个人移动与助力
 
@@ -462,6 +476,12 @@
 | --- | --- | --- | --- |
 | [Looking Glass Go（白色版）](hardware/looking-glass-go.md) | 在售 | 美国、加拿大、欧洲、日本等商店支持地区 | 官方白色版US$199（参考US$299） |
 | [Samsung Odyssey 3D G90XF（27英寸）](hardware/samsung-odyssey-3d-g90xf.md) | 在售 | 英国（本轮核实官方可购） | 英国官网£1,499 |
+
+## 灯光与环境表达
+
+| 产品 | 销售状态 | 已查地区 | 价格参考 |
+| --- | --- | --- | --- |
+| [Govee Gaming Pixel Light H6631](hardware/govee-gaming-pixel-light-h6631.md) | 在售 | 美国 | 美国官方当前 US$99.99 |
 
 ## 尚待扩展的范围
 
