@@ -132,6 +132,8 @@ Flex将设计、采购、制造、交付和持续管理放在同一产品生命�
 
 - [Reef Kinetics ReefBot Lab](../hardware/reefkinetics-reefbot-lab.md) — **能力候选 · 非已采用** / 试剂自动化机电与控制整合评估：Flex公开工程制造及复杂机电整合能力可对应取样执行、控制和可靠性导入，但耐腐蚀液路、试剂兼容及显色验证必须单独确认；未见ReefBot Lab点名供货证据，当前仅为能力候选。
 
+- [Yarbo Y40 Core + Snow Blower Gen 2](../hardware/yarbo-y40-snow-blower-gen2.md) — **能力候选 · 非已采用** / 耐候移动与除雪执行整机导入：Flex公开复杂机电工程制造能力可对应履带Core、控制与执行模块导入，但低温、冲击、积雪与家庭场地安全需专项验证；未见Yarbo Y40除雪Gen2点名合作证据，只列能力候选。
+
 ## 来源
 
 - [Flex公司介绍](<https://flex.com/company>)：核实完整制造与供应链及生命周期定位，不用集团历史数字代替项目规模。

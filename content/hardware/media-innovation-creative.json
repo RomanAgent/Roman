@@ -159,5 +159,305 @@
     "notes": [
       "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
     ]
+  },
+  {
+    "id": "xtool-f2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/xtool-f2/product.png",
+        "sourceUrl": "https://uk.xtool.com/products/xtool-f2-5w-ir-15w-diode-portable-dual-laser-engraver",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-guanwang_us_pc_f2_1219-5500.webp?v=1778491125",
+        "caption": "xTool F2 官方产品图",
+        "alt": "xTool F2 官方产品图",
+        "credit": "xTool · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "official-structure",
+        "path": "assets/hardware/xtool-f2/reference-structure.png",
+        "sourceUrl": "https://support.xtool.com/article/2013?from=xTool+F2&url=/product/60",
+        "sourceImageUrl": "https://storage-us.atomm.com/resource/xtool/xcs-cms/community/activity/0ac9e08e-232f-443a-b865-70540dd39148_38320fed-7743-45bb-b4b1-28838ea08c71_image.octet-stream",
+        "caption": "xTool F2 官方外部结构与摄像头位置图（厂商资料）",
+        "alt": "xTool F2 官方外部结构与摄像头位置图（厂商资料）",
+        "credit": "xTool · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "qysea-fifish-v-evo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/qysea-fifish-v-evo/product.png",
+        "sourceUrl": "https://store.qysea.com/products/fifish-v-evo?variant=44496840491091",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0693/6965/9475/files/fifish-v-evo-standard-pack-1.png?v=1779700616",
+        "caption": "QYSEA FIFISH V-EVO 官方产品图",
+        "alt": "QYSEA FIFISH V-EVO 官方产品图",
+        "credit": "QYSEA 潜行 · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/qysea-fifish-v-evo/reference.png",
+        "sourceUrl": "https://store.qysea.com/products/fifish-v-evo?variant=44496840491091",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0693/6965/9475/files/fifish-v-evo-standard-pack-2.png?v=1779700617",
+        "caption": "QYSEA FIFISH V-EVO 官方外观与使用参考图",
+        "alt": "QYSEA FIFISH V-EVO 官方外观与使用参考图",
+        "credit": "QYSEA 潜行 · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "xbotgo-falcon",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/xbotgo-falcon/product.png",
+        "sourceUrl": "https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0637/2740/3230/files/Group_2147227420.png?v=1784624294",
+        "caption": "XbotGo Falcon 官方产品图",
+        "alt": "XbotGo Falcon 官方产品图",
+        "credit": "XbotGo · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/xbotgo-falcon/reference.png",
+        "sourceUrl": "https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0637/2740/3230/files/Frame2147227587.png?v=1786961681",
+        "caption": "XbotGo Falcon 两种配色与顶部操作参考（同款硬件，不重复计数）",
+        "alt": "XbotGo Falcon 两种配色与顶部操作参考（同款硬件，不重复计数）",
+        "credit": "XbotGo · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "maono-dm40",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/maono-dm40/product.jpg",
+        "sourceUrl": "https://www.maono.com/products/dm40-pro-usb-wireless-microphone?variant=42045450158145",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0025/5934/4686/files/DM40_Wireless_microphone.webp?v=1766813776",
+        "caption": "Maono DM40 官方产品图",
+        "alt": "Maono DM40 官方产品图",
+        "credit": "Maono 闪克 · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/maono-dm40/reference.jpg",
+        "sourceUrl": "https://www.maono.com/products/dm40-pro-usb-wireless-microphone?variant=42045450158145",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0025/5934/4686/files/DM40_Wireless_microphone_2.jpg?v=1766813776",
+        "caption": "Maono DM40 官方外观与使用参考图",
+        "alt": "Maono DM40 官方外观与使用参考图",
+        "credit": "Maono 闪克 · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "lava-genie",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/lava-genie/product.jpg",
+        "sourceUrl": "https://store.lavamusic.com/productDetail/lava-genie?id=83",
+        "sourceImageUrl": "https://attach-intl-cdn.lavamusic.com/attach/10001/20250923/bd820dda034749b8308d28bafe6464b2.jpg?x-oss-process=image/resize,w_880/quality,q_100",
+        "caption": "LAVA GENIE（拿火精灵） 官方产品图",
+        "alt": "LAVA GENIE（拿火精灵） 官方产品图",
+        "credit": "LAVA MUSIC · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/lava-genie/reference.jpg",
+        "sourceUrl": "https://store.lavamusic.com/productDetail/lava-genie?id=83",
+        "sourceImageUrl": "https://attach-intl-cdn.lavamusic.com/attach/10001/20250605/b3c74520e0048db0ae284a48db62bdfe.jpg?x-oss-process=image/resize,w_880/quality,q_100",
+        "caption": "LAVA GENIE（拿火精灵） 官方外观与使用参考图",
+        "alt": "LAVA GENIE（拿火精灵） 官方外观与使用参考图",
+        "credit": "LAVA MUSIC · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "sony-mocopi",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/sony-mocopi/product.webp",
+        "sourceUrl": "https://electronics.sony.com/more/mocopi/all-mocopi/p/qmss1-uscxk",
+        "sourceImageUrl": "https://d1ncau8tqf99kp.cloudfront.net/converted/114934_original_local_1200x1050_v3_converted.webp",
+        "caption": "Sony mocopi（标准六传感器套件） 官方产品图",
+        "alt": "Sony mocopi（标准六传感器套件） 官方产品图",
+        "credit": "Sony · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/sony-mocopi/reference.webp",
+        "sourceUrl": "https://electronics.sony.com/more/mocopi/all-mocopi/p/qmss1-uscxk",
+        "sourceImageUrl": "https://d1ncau8tqf99kp.cloudfront.net/converted/155462_original_local_1200x1050_v3_converted.webp",
+        "caption": "Sony mocopi（标准六传感器套件） 官方外观与使用参考图",
+        "alt": "Sony mocopi（标准六传感器套件） 官方外观与使用参考图",
+        "credit": "Sony · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "samsung-odyssey-3d-g90xf",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/samsung-odyssey-3d-g90xf/product.png",
+        "sourceUrl": "https://www.samsung.com/uk/monitors/gaming/odyssey-3d-g90xf-27-inch-165hz-uhd-ls27fg900xuxxu/",
+        "sourceImageUrl": "https://images.samsung.com/is/image/samsung/p6pim/uk/ls27fg900xuxxu/gallery/uk-odyssey-3d-g90xf-ls27fg900xuxxu-545403536?$1164_776_PNG$",
+        "caption": "G90XF 官方外观与3D宣传效果图（出屏物体为效果示意）",
+        "alt": "G90XF 官方外观与3D宣传效果图（出屏物体为效果示意）",
+        "credit": "Samsung · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/samsung-odyssey-3d-g90xf/reference.png",
+        "sourceUrl": "https://www.samsung.com/uk/monitors/gaming/odyssey-3d-g90xf-27-inch-165hz-uhd-ls27fg900xuxxu/",
+        "sourceImageUrl": "https://images.samsung.com/is/image/samsung/p6pim/uk/ls27fg900xuxxu/gallery/uk-odyssey-3d-g90xf-ls27fg900xuxxu-545403508?$1164_776_PNG$",
+        "caption": "Samsung Odyssey 3D G90XF（27英寸） 官方外观与使用参考图",
+        "alt": "Samsung Odyssey 3D G90XF（27英寸） 官方外观与使用参考图",
+        "credit": "Samsung · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "gran-eye-2026",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/gran-eye-2026/product.jpg",
+        "sourceUrl": "https://store.gran-darts.com/en/products/gran-eye-2026model",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0373/0967/7704/files/included_items.jpg?v=1771297462",
+        "caption": "GRAN EYE（2026安装套件版） 官方产品图",
+        "alt": "GRAN EYE（2026安装套件版） 官方产品图",
+        "credit": "GRAN DARTS · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/gran-eye-2026/reference.jpg",
+        "sourceUrl": "https://store.gran-darts.com/en/products/gran-eye-2026model",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0373/0967/7704/files/setup.jpg?v=1771297469",
+        "caption": "GRAN EYE 2026 官方安装参考（靶盘、护圈非本套件标配）",
+        "alt": "GRAN EYE 2026 官方安装参考（靶盘、护圈非本套件标配）",
+        "credit": "GRAN DARTS · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "huupe-mini-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/huupe-mini-2/product.png",
+        "sourceUrl": "https://huupe.com/products/huupe-mini-2",
+        "sourceImageUrl": "https://huupe.com/cdn/shop/files/Mini_2_Banner_01_f906dab0-25bb-4b16-8c69-f2dd72509434_800x.webp?v=1793642491",
+        "caption": "huupe mini 2 官方产品图",
+        "alt": "huupe mini 2 官方产品图",
+        "credit": "huupe · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/huupe-mini-2/reference.jpg",
+        "sourceUrl": "https://huupe.com/products/huupe-mini-2",
+        "sourceImageUrl": "https://huupe.com/cdn/shop/files/Mini_2_Banner_04_800x.webp?v=1793640643",
+        "caption": "huupe mini 2 官方投篮反馈功能示意（非本站实测数据）",
+        "alt": "huupe mini 2 官方投篮反馈功能示意（非本站实测数据）",
+        "credit": "huupe · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
+  },
+  {
+    "id": "looking-glass-go",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/looking-glass-go/product.jpg",
+        "sourceUrl": "https://checkout.lookingglassfactory.com/products/looking-glass-go?variant=40821839822937",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1323/9367/files/GO-square12_6733ecfb-3421-416f-b692-a6aa766aae4c.jpg?v=1718856212",
+        "caption": "Looking Glass Go（白色版） 官方产品图",
+        "alt": "Looking Glass Go（白色版） 官方产品图",
+        "credit": "Looking Glass Factory · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/looking-glass-go/reference.png",
+        "sourceUrl": "https://checkout.lookingglassfactory.com/products/looking-glass-go?variant=40821839822937",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1323/9367/files/GO-productcard-04.png?v=1718956542",
+        "caption": "Looking Glass Go 官方深度观看效果示意（非物体悬浮实拍）",
+        "alt": "Looking Glass Go 官方深度观看效果示意（非物体悬浮实拍）",
+        "credit": "Looking Glass Factory · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+    ]
   }
 ]

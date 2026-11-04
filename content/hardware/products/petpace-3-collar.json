@@ -1,0 +1,440 @@
+{
+  "id": "petpace-3-collar",
+  "name": "PetPace 3.0",
+  "brand": "PetPace",
+  "category": "pet-care",
+  "tagline": "面向家庭宠物主人的连续体征与AI趋势项圈",
+  "officialUrl": "https://petpace.com/product/collar-v3/",
+  "status": "on_sale",
+  "statusEvidence": "官方个人宠物主人页面提供尺寸选择、US$299项圈价和Add to cart，并明确与兽医/K9及商业研究版本分开；订阅套餐另选。",
+  "regions": [
+    "美国官方零售；其他地区须分别确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+  },
+  "price": {
+    "text": "US$299（项圈，服务另计）",
+    "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "传感数据经AI产生健康趋势、活动和状态洞察，供主人与兽医复核；本目录不将算法评分当作诊断或治疗效果。",
+    "dependency": "长期趋势与提醒依赖App、基站或连接服务及所选订阅；需要核对宠物尺寸、佩戴条件和当地服务覆盖。"
+  },
+  "highlights": [
+    "连续体征记录",
+    "AI趋势洞察",
+    "主人与兽医共享数据"
+  ],
+  "analysis": {
+    "demand": "需求假设：老年或需持续观察的宠物，单次就诊难以体现日常变化，主人希望获得连续趋势。应验证佩戴有效时长、可解释告警和后续行动，不能因监测更频繁就假定能减少疾病或医疗支出。",
+    "userProfile": "画像推断：愿与兽医沟通、能坚持佩戴充电且承担服务费用的宠物家庭，特别是长期照护者。需要区分主人需要的安心感与兽医需要的数据质量，健康焦虑较高的人也可能被误报增加负担。",
+    "competition": "竞争判断：与普通活动项圈、其它健康穿戴和定期人工观察竞争，专业数据能力是差异但并不自动带来消费留存。购买决策同时受佩戴舒适、解释服务和兽医是否愿意使用数据影响。",
+    "supplyChain": "供应链分析：体征传感、柔性佩戴结构、电池、无线连接和防护壳需要长期接触宠物。具体芯片与代工未知；皮肤接触、毛发、松紧度、抗水和活动伪影的验证比精美仪表盘更关键。",
+    "technology": "官方列出AI洞察和多项体征。技术判断：必须区分直接测量、算法估计与组合评分，并说明有效佩戴条件；不同体型、毛长和活动状态可能改变结果，不能将训练集表现泛化为所有宠物。",
+    "aesthetics": "审美判断：项圈是持续贴身物件，应优先重量分布、扣具和不易勾挂的外形，而非突出电子感。不同颈围下模块位置可能变化，佩戴舒适与可清洗性比颜色选择更影响使用质量。",
+    "risks": "风险判断：误报可能增加焦虑，漏报可能使主人延误观察；设备不替代兽医检查。项圈松紧、充电停用和服务中断还会造成数据缺口，不能把连续曲线误认为完整或无偏的健康记录。",
+    "opportunity": "机会假设：选择一种明确照护任务，与主人及兽医共同定义何种变化值得通知，再做小规模验证。相比增加指标，数据可解释、佩戴依从和照护沟通可能更有价值，但本轮没有临床结论。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "家庭宠物照护是细分消费任务，需求取决于宠物习惯、主人投入与长期服务；已有替代产品，冷门不等于低竞争或高利润。"
+  },
+  "architecture": [
+    {
+      "name": "佩戴",
+      "detail": "项圈结构与接触条件。",
+      "evidence": "official"
+    },
+    {
+      "name": "传感",
+      "detail": "公开体征及活动传感能力。",
+      "evidence": "official"
+    },
+    {
+      "name": "AI洞察",
+      "detail": "趋势、评分与异常提示，需复核。",
+      "evidence": "official"
+    },
+    {
+      "name": "连接",
+      "detail": "无线、App与服务方案。",
+      "evidence": "official"
+    },
+    {
+      "name": "照护协作",
+      "detail": "主人与兽医查看数据的工作流。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PetPace 3.0 官方商店",
+      "url": "https://petpace.com/product/collar-v3/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+    },
+    {
+      "title": "PetPace 官方传感与佩戴规格",
+      "url": "https://petpace.com/specs/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "subscription"
+      ],
+      "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "PetPace 3.0 官方商店",
+        "url": "https://petpace.com/product/collar-v3/",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "id": "s2",
+        "title": "PetPace 官方传感与佩戴规格",
+        "url": "https://petpace.com/specs/",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "需求假设：老年或需持续观察的宠物，单次就诊难以体现日常变化，主人希望获得连续趋势。应验证佩戴有效时长、可解释告警和后续行动，不能因监测更频繁就假定能减少疾病或医疗支出。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "连续趋势只有在佩戴有效、数据可解释且能引出合适复核时才有价值，更多采样不自动意味着更好照护。主人可能需要安心，兽医更需要可靠上下文，两者不一致时，精美图表或频繁告警可能增加沟通负担而非减少问题。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可与主人及兽医预先定义一项观察任务，记录有效佩戴、数据缺口、告警复核和后续沟通，不自行把评分作为诊断。比较人工日志与设备趋势是否减少遗漏，不能从记录更连续推断减少疾病、治疗效果或医疗支出。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "画像推断：愿与兽医沟通、能坚持佩戴充电且承担服务费用的宠物家庭，特别是长期照护者。需要区分主人需要的安心感与兽医需要的数据质量，健康焦虑较高的人也可能被误报增加负担。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "毛长、颈围、活动和对项圈的接受会改变有效记录，能坚持充电与检查佩戴的家庭更可能获得完整信息。健康焦虑较高的人可能更频繁查看，画像需要区分行为与真实收益，不能以高使用频率直接证明产品让人更安心。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "画像验证应观察实际佩戴、充电、清洁和数据分享，记录宠物是否自愿适应及主人能否理解缺口。再询问兽医愿意查看哪些内容，识别有明确照护协作任务的人，而不是把所有老年宠物家庭都当作同等需求。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "竞争判断：与普通活动项圈、其它健康穿戴和定期人工观察竞争，专业数据能力是差异但并不自动带来消费留存。购买决策同时受佩戴舒适、解释服务和兽医是否愿意使用数据影响。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "与活动项圈相比，更多体征和趋势可能提供专业信息，也提高解释和佩戴要求。竞争优势不仅在指标数量，还在数据是否被实际使用，若主人无法理解或兽医没有相应工作流，持续服务的价值可能难以兑现。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "可围绕同一观察任务比较人工日志、普通活动项圈和 PetPace 数据的可解释性与沟通时间，保留缺失和误报。不要把传感指标多直接当作诊断能力，也不以短期试戴积极反应预测长期佩戴和订阅留存。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能层包括项圈与接触结构、体征和活动传感、算法估计趋势及组合评分、无线与应用、主人兽医共享。公开资料没有具体芯片或代工清单，必须区分直接测量和推断，功能示意也不代表已审查实际临床算法实现。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "供应链分析：体征传感、柔性佩戴结构、电池、无线连接和防护壳需要长期接触宠物。具体芯片与代工未知；皮肤接触、毛发、松紧度、抗水和活动伪影的验证比精美仪表盘更关键。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "伟创力可作为穿戴电子与制造工程候选，歌尔可支持小型传感和交互硬件评估。没有 PetPace 3.0 点名合作证据，动物接触、运动伪影和健康算法需专门验证，制造能力不能被解释为诊断有效或对所有宠物适用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "官方列出AI洞察和多项体征。技术判断：必须区分直接测量、算法估计与组合评分，并说明有效佩戴条件；不同体型、毛长和活动状态可能改变结果，不能将训练集表现泛化为所有宠物。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "同一项圈在不同松紧、毛发和活动下可能得到不同质量输入，算法需要标记有效区间而非仅输出连续曲线。组合评分也不等于独立体征测量，用户应知道哪些是直接信号、估计和解释，避免把精确数字外观当作普遍准确。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证应由适当专业人员设计对照，记录不同体型、毛长和活动状态的信号质量与缺失，并核对评分解释。消费目录不自行作临床结论，也不能以厂商训练表现、单宠示例或曲线连续性推断全部动物的测量和诊断可靠。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "审美判断：项圈是持续贴身物件，应优先重量分布、扣具和不易勾挂的外形，而非突出电子感。不同颈围下模块位置可能变化，佩戴舒适与可清洗性比颜色选择更影响使用质量。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "项圈持续贴身，重量分布、扣具和不易勾挂的形态优先于电子感，模块位置也会随颈围变化。设计需要让主人容易检查佩戴和清洁，同时避免过度紧固造成不适，外观颜色不能代替实际接触与长期接受评估。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证应观察合适指导下的穿戴、取下充电、清洁和重新佩戴，记录模块是否移动及用户是否理解状态。以宠物舒适与有效记录为目标，不为获得更连续数据而强迫佩戴，也不从产品照片推断所有体型适配。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "风险判断：误报可能增加焦虑，漏报可能使主人延误观察；设备不替代兽医检查。项圈松紧、充电停用和服务中断还会造成数据缺口，不能把连续曲线误认为完整或无偏的健康记录。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "误报可能增加焦虑，漏报或数据缺口又可能让主人产生错误安心，尤其当曲线被自动平滑时。产品应清楚显示缺失和不确定，告警只支持复核，不能替代日常观察与兽医检查，服务中断也需要解释保留范围。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证应演练充电停用、松动、连接及订阅变化，检查主人是否知道哪些时段无有效数据。对异常提示观察其后续行动是否合理，不以设备评分自行调整治疗，也不把无告警解释为健康正常或无需专业评估。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会假设：选择一种明确照护任务，与主人及兽医共同定义何种变化值得通知，再做小规模验证。相比增加指标，数据可解释、佩戴依从和照护沟通可能更有价值，但本轮没有临床结论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会在于明确照护任务中的数据解释、佩戴依从和沟通，而不是不断增加指标。新项目应先与主人和兽医定义何种变化值得提示，确认实际行动路径，再选择传感与服务，不把健康焦虑当作天然持续消费需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可在专业参与下开展小规模任务验证，记录佩戴、缺失、误报和沟通成本，并明确不形成临床疗效结论。用可解释且被采用的信息决定产品方向，避免以指标数量、连续曲线或健康叙事预测商业价值。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "flex",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "持续佩戴传感电子与制造工程",
+        "rationale": "Flex 的电子工程和制造服务可作为项圈传感、无线与供电整合候选，但宠物接触、运动伪影及算法需专项验证；没有 PetPace 3.0 点名合作证据，不能由制造能力推断健康有效性。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "goertek",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "小型佩戴传感与交互硬件整合",
+        "rationale": "歌尔智能硬件及小型器件整合能力可支持项圈电子与交互评估，但动物佩戴、体征测量和算法解释需专门研究；未见 PetPace 3.0 供货披露，候选不代表实际制造或诊断能力。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "pet-health-trend-observation",
+      "needName": "宠物持续佩戴与健康趋势观察",
+      "difference": "PetPace 3.0 的区别在于具体实现与使用条件：官方列出AI洞察和多项体征。技术判断：必须区分直接测量、算法估计与组合评分，并说明有效佩戴条件；不同体型、毛长和活动状态可能改变结果，不能将训练集表现泛化为所有宠物。与活动项圈相比，更多体征和趋势可能提供专业信息，也提高解释和佩戴要求。竞争优势不仅在指标数量，还在数据是否被实际使用，若主人无法理解或兽医没有相应工作流，持续服务的价值可能难以兑现。",
+      "comparisonBasis": "竞争判断：与普通活动项圈、其它健康穿戴和定期人工观察竞争，专业数据能力是差异但并不自动带来消费留存。购买决策同时受佩戴舒适、解释服务和兽医是否愿意使用数据影响。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/petpace-3-collar/product.webp",
+      "sourceUrl": "https://petpace.com/product/collar-v3/",
+      "sourceImageUrl": "https://petpace.com/wp-content/uploads/2025/10/01-1.webp",
+      "caption": "PetPace 3.0 官方产品外观图",
+      "alt": "PetPace 3.0 官方产品外观图",
+      "credit": "PetPace · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 17648,
+      "sha256": "0fe7edc1ad191b1c93358adf33f8c1c20b8299ac0e91a0a42ca2474a12953bd1"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/petpace-3-collar/reference.webp",
+      "sourceUrl": "https://petpace.com/product/collar-v3/",
+      "sourceImageUrl": "https://petpace.com/wp-content/uploads/2025/10/Frame-16858-3.webp",
+      "caption": "PetPace官方项圈与佩戴尺寸参考图",
+      "alt": "PetPace官方项圈与佩戴尺寸参考图",
+      "credit": "PetPace · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 405916,
+      "sha256": "432b268c62d70d4582239e7f385d1aa47671c8cf7bc1c3ffcf02f23fbff54ce8"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/petpace-3-collar/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "PetPace 3.0 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/petpace-3-collar.txt",
+      "referencePaths": [
+        "assets/hardware/petpace-3-collar/product.webp",
+        "assets/hardware/petpace-3-collar/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1677738,
+      "sha256": "8eb3e775806bb7ce931ec56a3aa3848d781e6736931ac2c1c3633821bd5ba995"
+    }
+  ],
+  "mediaNotes": [
+    "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+    "保留官方图原始内容与出处；画面中的营销声明不视为独立验证。"
+  ]
+}

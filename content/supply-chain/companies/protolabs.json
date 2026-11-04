@@ -1,0 +1,540 @@
+{
+  "id": "protolabs",
+  "name": "Protolabs / Protolabs Network",
+  "legalName": "Proto Labs, Inc.（合并展示原 Hubs / Protolabs Network）",
+  "country": "美国",
+  "locations": [
+    "美国",
+    "欧洲",
+    "全球制造合作网络"
+  ],
+  "tier": "global",
+  "tierNote": "Protolabs / Protolabs Network按公开跨地区运营及注塑与液态硅胶成型等已核查业务归入综合与跨地区供应商；不推断员工、营收、产能，也不表示每个地点具备同一服务范围。",
+  "roles": [
+    "mechanical",
+    "manufacturing",
+    "engineering"
+  ],
+  "capabilities": [
+    "注塑与液态硅胶成型",
+    "CNC加工",
+    "3D打印",
+    "钣金制造",
+    "自有制造与合作网络"
+  ],
+  "productCategories": [
+    "companion",
+    "garden",
+    "cleaning",
+    "kitchen",
+    "pet-care"
+  ],
+  "website": "https://www.protolabs.com/",
+  "contactUrl": "https://www.protolabs.com/about-us/",
+  "checkedAt": "2026-11-04",
+  "summary": "Protolabs 将自有快速制造与 Protolabs Network 合作网络结合，提供注塑、机加工、增材制造和钣金零件。原 Hubs 已并入同一目录条目，避免重复计数；适合消费硬件结构验证与定制零件采购，但不直接证明整机电子、算法或量产交付能力。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位",
+        "text": "Protolabs 的公开定位覆盖定制原型至终端生产零件，使用数字化流程连接设计和制造。它以机械零件制造为核心，适合已有可评审图纸的硬件项目，不能将其官网的产品开发表述理解为会替品牌完成整套人工智能应用。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "合作边界判断",
+        "text": "本目录将 Protolabs 与原 Hubs 合并展示，因为官方已明确后者更名为 Protolabs Network。自有工厂和合作网络扩大了可选择的制造路线，但两类路线的项目接口、材料范围和验收责任仍应由实际订单确认。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力",
+        "text": "官方服务包括注塑、CNC 加工、三维打印和钣金加工，注塑范围又涉及液态硅胶、包覆及嵌件等路线。这里确认的是服务种类，不能从种类列表推出任何具体家用设备的食品接触、防水或长期耐热资格。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "工程整合判断",
+        "text": "对于 AI 硬件，可用不同工艺比较触感、卡扣、壳体刚度和传感器窗口位置。打印样件适合快速暴露空间冲突，但其层间性能和表面状态可能与最终注塑件不同，工程团队需要明确样件到底验证形状还是耐久性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "优先匹配场景",
+        "text": "适合新型鸟类摄像设备的外罩、宠物喂食器导料件以及桌面机器人的关节样件。此类项目常在外观、装配和维护入口之间反复取舍，能按阶段获得不同工艺样件，比过早冻结完整模具方案更有助于降低设计风险。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "不匹配条件",
+        "text": "如果主要困难是水下定位算法、儿童语音安全或云端订阅运营，Protolabs 只能支持其中结构环节。对于大尺寸庭院机底盘，也需先确认设备加工范围和装夹可行性，不能把平台覆盖多工艺等同于无限制生产能力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "询盘准备",
+        "text": "提交资料时要分别标注视觉样机、功能样机和生产零件，给出关键配合、公差基准、材料及预计批次。机器人摄像头窗口尤其需要说明是否用于光学路径，因为普通透明外观件与可控制成像畸变的窗口验收不同。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "项目接口",
+        "text": "应让供应商明确订单走自有制造还是 Network 路线，并在评审中记录几何修改建议及接受条件。若报价工具建议更换壁厚或圆角，品牌需要检查是否影响电池包、天线或密封布局，不能只以报价成功作为设计批准。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "质量关注点",
+        "text": "结构件质量宜区分外观、尺寸、材料和功能四类证据。对经常打开的猫砂盆盖板，卡扣寿命比首次装配更重要；对户外摄像头支架，涂层和紧固后的稳定性应纳入验收，而不是仅核对未装配零件的尺寸表。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "验收设计",
+        "text": "可以用同一套代表性零件对比打印、机加工和模塑路线，记录装配手感、变形及尺寸漂移。验证结果应说明样本工艺与最终生产工艺之间仍有哪些差异，避免把一次精细样件的成功误当作量产一致性已经成立。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "成本结构",
+        "text": "费用应拆分为零件、模具或治具、外观处理、检验和设计修改，特别比较原型路线转生产路线时的新增费用。数字报价提高了比较效率，但不会自动消除设计冻结后的返工成本，也不替代供应合同中的质量责任。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "合作方式判断",
+        "text": "早期团队可按关键风险分批下单，先验证最难的装配关系，再完成整套外观件。对于长期复购零件，应单独确认工艺锁定、模具维护和批次一致性条件；目录没有核实任何目标项目的最低订单量或优惠价格。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "业务风险",
+        "text": "混用不同制造路线可能带来材料牌号、纹理和尺寸能力变化，尤其影响面向消费者的拼接外观。若只按零件名称复购而未锁定工艺，外观一致性问题可能在整机装配阶段才暴露，造成返工和备件管理困难。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "证据边界",
+        "text": "官网合并品牌的说明不能证明不同地区合同主体或认证范围完全相同，也不能证明本目录某款机器人使用其零件。供应关系保持候选，后续必须按具体订单和实际制造地点核实能力，不从平台规模推断客户归属。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "需验证的能力",
+        "text": "应先核对工程图支持的文件格式、材料证明、关键尺寸报告及外观标准的接受方式。对采用合作网络的订单，进一步确认生产变更通知、异常处置和数据访问范围，以便品牌保持对零件版本及质量证据的控制。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "进入下一阶段条件",
+        "text": "下一阶段的通过条件应是代表性样件满足真实装配和使用条件，而非收到报价或展示样品。确认不同批次一致性后，再确定长期采购路线与备件策略，同时保留设计文件及检验方法，降低更换制造路径的阻力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Protolabs 公司介绍",
+      "url": "https://www.protolabs.com/about-us/",
+      "note": "公司定位及美国主体地址。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "Protolabs 制造服务",
+      "url": "https://www.protolabs.com/services/",
+      "note": "注塑、CNC、3D打印及钣金服务。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "Hubs 更名为 Protolabs Network",
+      "url": "https://www.hubs.com/protolabs-network/",
+      "note": "Hubs归属、更名及自有工厂与合作网络的业务边界。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "贴肤接触与柔性配件原型候选",
+      "rationale": "Protolabs公开注塑与液态硅胶成型，可用于FRENZ接触和佩戴周边的结构原型，但具体材料、清洁、皮肤接触与舒适性需另行测试，不能由成型能力推断医疗或生物相容认证。当前无品牌采用证据，也不涉及复制原机专有外形。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "frenz-brainband",
+      "productName": "FRENZ Brainband",
+      "category": "sleep",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "电极接触与头带外壳原型候选",
+      "rationale": "Protolabs公开注塑和液态硅胶成型，可作为Elemind接触配件与外壳原型工程候选，但皮肤接触、清洁、材料与电极装配需专项验证，成型能力不等于医疗或生物相容认证。当前无品牌采用证据，也不涉及复制专有电极设计。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "elemind-sleep-headband",
+      "productName": "Elemind Sleep Headband",
+      "category": "sleep",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "贴肤与传感固定结构原型候选",
+      "rationale": "Protolabs公开注塑及液态硅胶成型，可用于Athena接触与固定周边原型，但具体皮肤接触、清洁、头发与光学窗口要求必须测试，成型能力不代表医疗或生物相容认证。该关联没有实际供货证据，也不涉及复制原机专有结构。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "muse-s-athena",
+      "productName": "Muse S Athena",
+      "category": "sleep",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "关节支架及结构验证样件",
+      "rationale": "Protolabs 的机加工、注塑和原型路线适合比较机器犬结构件配合及可维修设计，但样件制造不能证明运动控制或长期疲劳合格；没有 aibo 供货披露，候选只对应机械验证环节。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "sony-aibo-ers1000",
+      "productName": "aibo ERS-1000",
+      "category": "companion",
+      "status": "needs_check"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "腿部关节与结构验证样件",
+      "rationale": "Protolabs 的机械加工和模塑原型能力适合测试腿部配合、支架与可维修结构，但样件不能保证整机步行稳定或长期疲劳；未发现 Marty 供货披露，候选范围限定于机械开发环节。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "robotical-marty-v2",
+      "productName": "Robotical Marty the Robot V2",
+      "category": "education",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "云台支架与运动结构样件",
+      "rationale": "Protolabs 的机加工及模塑原型可支持双镜支架、云台配合和安装结构验证，但不能证明长期户外转动或识别性能；未见 TrackMix 供货披露，候选限定为结构开发环节。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "reolink-trackmix-wifi",
+      "productName": "Reolink TrackMix WiFi",
+      "category": "home-security",
+      "status": "needs_check"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "履带刷洗及抓握结构原型",
+      "rationale": "Protolabs 的机械加工和模塑原型可支持履带配合、清洁头与抓握结构验证，但原型不证明长期水下寿命或实际清洁效果；未发现 2 Ultra 合作披露，候选限于结构开发。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "beatbot-aquasense-2-ultra",
+      "productName": "Beatbot AquaSense 2 Ultra",
+      "category": "cleaning",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "密封外壳与结构原型候选",
+      "rationale": "Protolabs公开多种结构加工和原型制造方式，可为ROV壳体、连接件与窗口装配研究提供样件能力。加工能力不等于水下耐压或长期防腐合格，须另验证材料、密封与测试规范，本轮没有它为QYSEA制造本产品的证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "qysea-fifish-v-evo",
+      "productName": "QYSEA FIFISH V-EVO",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "折叠机身与连接结构原型候选",
+      "rationale": "GENIE的开放框架及折叠结构需要握持和重复连接验证，Protolabs公开原型、注塑及结构加工能力，可为该类迭代提供样件候选。实际材料、疲劳、声学耦合与量产要求仍未知，不能以制造能力推断LAVA已采用其服务。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "lava-genie",
+      "productName": "LAVA GENIE（拿火精灵）",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "显示器支架与机身结构原型候选",
+      "rationale": "个人视点显示需要稳定的机身和支撑，Protolabs公开机加工、钣金及结构原型能力，可作为支架与外壳样件候选。承载、重心、调节和摄像位置仍须专门测试，其加工能力不涵盖完整裸眼光学方案，也未披露为Samsung本机供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "samsung-odyssey-3d-g90xf",
+      "productName": "Samsung Odyssey 3D G90XF（27英寸）",
+      "category": "spatial",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "磁吸安装件与摄像外壳原型候选",
+      "rationale": "GRAN EYE当前套件依赖可重复安装的磁吸结构，Protolabs公开多种结构原型与加工能力，可用于同类挂件、外壳和连接件验证。固定力、取镖碰撞和安装一致性仍需实际测试，没有点名采用关系，也不代表其提供整套计分算法。",
+      "sourceIds": [
+        "s1",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "gran-eye-2026",
+      "productName": "GRAN EYE（2026安装套件版）",
+      "category": "games",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "屏幕防护与门挂结构原型候选",
+      "rationale": "带屏篮板需要保护、篮圈连接和门挂结构共同承受重复动作，Protolabs公开注塑、机加工和样件能力，可作为结构验证候选。具体冲击、疲劳与安装安全须独立测试，制造服务不等于已通过本产品要求或被huupe实际采用。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "huupe-mini-2",
+      "productName": "huupe mini 2",
+      "category": "games",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "折叠底座与显示外壳原型候选",
+      "rationale": "Go的竖屏和折叠底座需要结构、铰链及接口布局配合，Protolabs公开原型和结构制造能力，可作为外壳与支撑样件候选。疲劳、散热、线缆与光学定位须按整机验证，不能把加工能力视为已被Looking Glass采用或可提供完整显示系统。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "looking-glass-go",
+      "productName": "Looking Glass Go（白色版）",
+      "category": "spatial",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "外壳与可拆盘的原型和模具验证",
+      "rationale": "Protolabs公开快速原型及模具服务可用于筒身、色芯接口和可拆盘装配验证，但材料与唇彩接触合规及计量性能并非自动满足；没有YSL型号采用证据，当前仅列结构工程候选。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "ysl-rouge-sur-mesure",
+      "productName": "YSL Rouge Sur Mesure",
+      "category": "personal-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "壳体与连接接口的原型评估",
+      "rationale": "Protolabs公开加工和模具能力可支持外壳、接口与装配可达性原型，但水路承压、密封及材料接触要求不由通用加工自动保证；未见Moen该型号实际采用，仅作为结构工程候选。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "moen-flo-shutoff-900-006",
+      "productName": "Moen Flo Smart Water Shutoff（900-006）",
+      "category": "home-safety",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "耐热壳体及夹架的结构原型评估",
+      "rationale": "Protolabs公开加工与快速原型服务可支持炉身、夹架和可拆洗接口验证，但材料耐热、食品接触及燃气边界须专门工程确认；未见SEERGRILLS实际采用披露，只列结构能力候选而非现有供应商。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "seergrills-perfecta",
+      "productName": "SEERGRILLS Perfecta",
+      "category": "kitchen",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "瓶口接口与可清洗外壳原型",
+      "rationale": "Protolabs的加工及原型服务可用于瓶口接口、外壳与装配评估，但食品接触、密封和注气路径需要专门确认；没有Aveine实际采用证据，不以通用制造能力推定本机已满足全部液体使用要求。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "aveine-wine-aerator",
+      "productName": "Aveine Wine Aerator",
+      "category": "kitchen",
+      "status": "on_sale"
+    }
+  ]
+}

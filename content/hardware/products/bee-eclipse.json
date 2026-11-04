@@ -1,0 +1,418 @@
+{
+  "id": "bee-eclipse",
+  "name": "Bee Eclipse",
+  "brand": "Bee / Amazon",
+  "category": "recording",
+  "tagline": "已公布的磁吸电话记忆设备，尚未确认开售",
+  "officialUrl": "https://bee.computer/products/eclipse",
+  "status": "needs_check",
+  "statusEvidence": "官方首页仍标为Coming Soon，产品页使用will be available for $99.99与Learn more，而非已确认购买/预订。无明确接受预订证据，因此不标为on_sale或preorder。",
+  "regions": [
+    "美国官方发布入口；开售地区待核实"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "尚未确认全球正式开售，更未确认大陆官方渠道与服务。不得把同品牌Frontier的购买入口视作Eclipse已可购买。"
+  },
+  "price": {
+    "text": "公布价 US$99.99（未确认开售）",
+    "note": "官方前瞻性公布价，不是已经成交或当前可结算的商品价；部分AI功能预计依赖Bee Pro，具体以最终销售说明为准。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "官方公布用途为电话双方与现场谈话的转写、摘要、记忆和待办建议。",
+    "dependency": "需要Bee应用与账户，部分功能需Pro；已公布端侧处理，但整体端云边界与实售功能仍需核查。"
+  },
+  "highlights": [
+    "Coming Soon，未计入在售",
+    "磁吸手机背面形态",
+    "官方公布电话双方内容处理",
+    "一键开始/停止与状态LED"
+  ],
+  "analysis": {
+    "demand": "需求假设：经常通话的人希望把双方表达整理成可回查的行动项，并减少会后手工输入。由于尚未确认开售，不能把宣传演示当成真实需求验证，也无法判断不同手机上的收音稳定性。",
+    "userProfile": "画像推断：电话沟通密集且已使用Bee应用的人可能更容易理解这一形态；佩戴意愿低但随身带手机的人也值得关注。当前没有实售用户调查，不能用品牌其他产品反馈替代本款证据。",
+    "competition": "案头判断：磁吸卡片录音已与Plaud Note系列直接重叠，新增品牌并不等于新类别。生态集成可能成为差异，但没有销量、独立实测或访谈支持其优势，更不能依据公布价推断市场份额。",
+    "supplyChain": "官方公布磁吸结构、按键和接口外形，但尚未确认量产交付，本次工厂、核心拾音器件及良率均不明。不能从渲染图推算成本，也不能把同品牌另一设备的制造链直接套用到此款。",
+    "technology": "官方描述电话双方处理与部分端侧能力，但未完整解释拾音路径、机型限制和模型部署。架构仅按公布功能抽象；不得将长期电池宣传理解为相同时间的连续录音或离线AI推理。",
+    "aesthetics": "图示观察：扁平磁吸形态接近手机配件，配色更生活化；相较手腕设备减少额外佩戴负担。厚度、磁吸稳定性、与无线充电及手机壳的关系仍需实售版本和实机才能判断。",
+    "risks": "首要风险是把发布、候补和正式开售混为一谈，其次是电话捕获能力与具体机型、网络和软件版本的限制。厂商公布的功能、价格与续航可能变化，目前不宜据此计算确定的采购方案。",
+    "opportunity": "市场差异待观察的是Bee能否把电话记录与既有生活记忆服务连接起来。当前最有意义的比较维度是发布承诺、交付状态和最终可用功能之间的差距，而不是提前给出购买结论。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "卡片录音是已有竞品的方向；本款尚未确认开售，不能用公布状态代表市场表现。"
+  },
+  "architecture": [
+    {
+      "name": "电话与现场输入",
+      "detail": "官方公布处理双方电话和面谈；为概念功能图，非拆机或交付验证。",
+      "evidence": "official"
+    },
+    {
+      "name": "本机状态",
+      "detail": "开始/停止按钮、LED与部分端侧处理，内部器件不明。",
+      "evidence": "official"
+    },
+    {
+      "name": "手机关联",
+      "detail": "磁吸手机并通过Bee应用管理，具体拾音和传输路径未完整披露。",
+      "evidence": "official"
+    },
+    {
+      "name": "AI记忆",
+      "detail": "公布的转写、摘要和待办功能，实际开放范围待开售核实。",
+      "evidence": "official"
+    },
+    {
+      "name": "查询与行动",
+      "detail": "由应用承接搜索和建议使用，是根据用途推导的工作流。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bee · Eclipse 官方产品介绍",
+      "url": "https://bee.computer/products/eclipse",
+      "kind": "official-spec",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开，原文为will be available；未确认预订或结算。"
+    },
+    {
+      "title": "Bee · 官方首页销售状态",
+      "url": "https://bee.computer/",
+      "kind": "official-spec",
+      "supports": [
+        "status"
+      ],
+      "note": "已打开，Eclipse标明Coming Soon；因此归needs_check而非在售或预订。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Bee · Eclipse 官方产品介绍",
+        "url": "https://bee.computer/products/eclipse",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology,architecture。已打开，原文为will be available；未确认预订或结算。"
+      },
+      {
+        "id": "s2",
+        "title": "Bee · 官方首页销售状态",
+        "url": "https://bee.computer/",
+        "note": "沿用原目录已核验的一手资料；引用范围：status。已打开，Eclipse标明Coming Soon；因此归needs_check而非在售或预订。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜尚未确认开售的通话记录器",
+          "text": "本型号仍以即将推出的方式介绍，公开用途是磁吸手机背面后处理电话双方与现场谈话，形成转写、摘要和待办。需求可以研究为减少通话后的手工整理，但当前没有明确购买或预订证据；目录把它作为发布样本，不将公布价格和功能当作已经交付的消费体验。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜通话回顾的任务假设",
+          "text": "电话里可能包含地址、时间和临时决定，用户希望在挂断后准确找回，而不是一边通话一边记。手机背面设备可能方便随身携带，却也可能增加厚度与连接管理；这些都是待验证取舍，不能因为宣传双方录音就认定不同手机和通话方式都能稳定捕获完整内容。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜上市后需要的对照",
+          "text": "若以后出现可验证交付，应在相同手机与通话任务中比较本型号、系统支持方式和手工笔记，记录双方内容、操作及回查成本。当前只能定义测试，不能写成已完成实验或用户反馈；发布演示不支持需求强度、录音质量和长期使用的确定结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜电话沟通密集的人群",
+          "text": "经常通过电话确认安排、采访或处理个人事务的人可能更容易理解这类设备，但他们对记录权限与信息保存的要求也更高。画像目前来自任务推断，不能以同品牌其他产品用户替代本型号研究，也不能把所有通话频繁的人都视为愿意增加手机附件的购买者。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜不愿额外佩戴的用户",
+          "text": "将设备放在手机背面可能吸引不喜欢腕带或吊坠的人，因为手机已是随身物品。但用户仍可能在意握持、保护壳和充电，附件并没有消除全部携带负担；是否更合适需要在真实手机组合中判断，不能从磁吸形态直接推断比佩戴设备更自然或更可靠。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜不同手机习惯",
+          "text": "后续用户研究应覆盖手持、免提和耳机通话等习惯，并记录用户何时愿意开始或暂停记录。还要观察设备对握持与日常收纳的影响，不能只在桌面摆放中测试；当前尚未确认实售，因此这些是待执行的适配检查，不是对已购买用户行为的描述。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与现有电话录音工具",
+          "text": "电话记录类硬件和软件都可能解决同样任务，比较重点应是合法合规使用条件下的捕获、回查和错误修正，而不是只看人工智能标签。Eclipse 的公布形态有辨识度，但尚无交付证据，不能用预告参数直接压过已经可验证的产品，也不能据此判断市场领先。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜与同品牌佩戴设备区分",
+          "text": "同品牌已列售的 Frontier 面向不同佩戴与声音场景，不能把其购买入口、续航或用户反馈迁移到 Eclipse。手机背面的电话捕获与腕部现场声音采集有不同技术约束，竞争分析应按任务分开；共享应用可能降低学习成本，但不能证明硬件表现相同。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜公布价不能做确定比较",
+          "text": "正式比较需要最终硬件配置、服务权益、配送与退换条件，目前公布价格只是前瞻信息。若后续开售，应再核对是否含必要附件及高级计划，并保持地区与通话方式一致；当前目录不据预告价计算确定性价比，也不将候补或了解更多入口当成接受订单。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜公布结构的范围",
+          "text": "官方介绍支持磁吸手机背面、实体控制和状态指示等外形意图，但未确认量产交付和完整内部配置。具体拾音器件、主控、工厂与良率仍未知，不能从渲染图推算成本；本条功能架构仅表示公布用途，不是实物拆机或已完成生产的证据。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜手机附件的工程条件",
+          "text": "由形态推断，磁吸固定、保护壳厚度、手机振动和充电方式可能影响使用，但具体设计尚需正式资料。电话双方捕获还可能依赖摆放或通话模式，不能先假设所有组合兼容；这些约束应在样机或交付后验证，而不是根据同类产品补出本型号的内部实现。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜候选只用于方案研究",
+          "text": "英飞凌麦克风与炬芯音频平台可以作为类似功能的新设计候选，但当前没有点名供货，也没有完整接口可验证。候选需先确认拾音路径、手机兼容和功耗，不能被理解为本产品已有物料或量产准备完成；供应链目录不会借通用能力填补发布阶段的证据缺口。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜公布的智能处理",
+          "text": "品牌描述电话与现场谈话的转写、摘要、记忆和待办，并说明应用、账户及部分高级计划参与。端侧处理没有完整交代所有任务的位置，不能推断全离线；由于尚未确认实售，功能范围和配置仍应按最终说明核查，不能将宣传中的未来能力写成当前用户可用结果。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜捕获是模型之前的条件",
+          "text": "电话双方内容能否完整进入系统，是摘要和记忆有效的前提，单方声音清楚并不足够。不同通话模式可能改变输入，系统还需要区分对方话语与本地环境声；在拾音路径未充分披露时，应把这一层列为关键未知，不能用模型能力掩盖基础采集的不确定性。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜逐段检查通话链路",
+          "text": "后续应分别验证双方音频、时间顺序、说话人归属和摘要，再加入网络变化、耳机切换与电话中断。每个环节都需要原始内容对照，不能只看最终笔记是否整齐；当前目录没有实机和量产资料，所有延迟、准确与兼容判断均应保持待验证状态。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜手机背面的外观取舍",
+          "text": "磁吸附件可以避免额外腕带或吊坠，但会改变手机厚度、握持和放置方式。宣传图只能说明设计意图，不能证明放入口袋、使用保护壳或单手通话时仍舒适；审美应和真实手机组合一起观察，而不是把贴附形态直接称为无负担或更适合所有用户。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜状态指示的可见位置",
+          "text": "背面指示与按键在不同握持姿态下可能被遮挡，用户是否能确认记录状态需要实际操作验证。设备不在视线中也可能让旁人难以理解用途，不能只确认有灯就认定告知充分；这些是发布阶段可以提出的设计问题，尚不能据图片评价最终交互好坏。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜样机与最终配置区分",
+          "text": "如果后续能够试用，应确认拿到的是最终交付版本，再检查磁吸、按键、收纳与充电的完整流程。不同手机和保护壳要分别观察，不能把展示样机的一次体验推广为量产一致性；当前目录保留公布外观与真实使用之间的差距，不提前给出长期佩戴或握持结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜发布状态是首要风险",
+          "text": "当前没有明确订单或预订证据，因此不能安排确定采购，也不能以公布价和日期推算交付。发布、候补和正式销售是不同状态，后续可能改变配置与服务；目录保持需要核查，不把同品牌另一产品在售、旧页面或媒体演示作为本型号可购的替代证据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜通话与信息边界",
+          "text": "电话内容可能涉及对方和敏感安排，未来实际使用需要明确记录告知、权限与保存规则。端侧处理并不自动消除云服务或记忆检索的数据风险，厂商承诺还需要对应最终流程；当前不能据预告说明推定所有地区、账号和手机模式都满足用户的使用要求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜权益与失效行为再核",
+          "text": "一旦开售，应重新检查基础和高级计划、停止订阅后的可用范围、导出与删除，以及电话捕获失败时的提示。重要行动项需要原话复核，不能自动视为对方承诺；这些检查当前尚未执行，目录不会将未来验证计划写成产品已具备的安全或可靠性保证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜手机附件形态的研究价值",
+          "text": "本型号可作为一种需求方向的观察样本：用户是否更愿意把记录硬件放在已有手机上，而不是额外佩戴。这个问题有意义，但不能由预告本身回答；需要将捕获质量、握持和后续整理共同考虑，避免只凭形态新鲜或价格较低推断市场机会已经成立。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜与记忆服务的结合",
+          "text": "电话回顾进入长期记忆后，可能帮助查找过去安排，也可能积累错误归因和过时待办。研究应关注用户是否需要跨次通话检索，以及更正与删除是否可控，而不是把保存更多历史当作默认收益；这些仍是对公布功能的假设分析，不能代替真实使用证据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜保持状态更新优先",
+          "text": "后续首先应重新打开官方订单与功能资料，确认销售、配置和服务，再开展任务对照和用户研究。只有真实交付与持续任务收益都可验证，才适合形成购买判断；当前目录不计入可购数量，也不因发布热度、品牌或预告价格宣称产品成功或失败。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "infineon",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "公布电话与现场声音任务的前端候选",
+        "rationale": "Eclipse 公布需要处理电话与现场声音，英飞凌麦克风可作为类似新设计的输入候选。当前拾音路径、接口与量产配置未充分确认，也没有点名供货；必须先验证手机与通话模式，不能把候选能力当作本产品已具备双向捕获效果或正式交付证据。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "actions-technology",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "电话记录设备的音频处理架构候选",
+        "rationale": "炬芯的多麦音频与本地增强路线可用于研究类似电话记录设备，但 Eclipse 尚未确认开售且未点名芯片。需核对真实输入路径、手机连接、缓存和服务分工，该候选不是现成物料清单，也不能证明其未来量产方案、全部离线能力或当前可采购状态。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "call-and-meeting-recall",
+      "needName": "电话与现场谈话回顾",
+      "difference": "Eclipse公布了磁吸电话入口，计划把电话双方与现场对话转成摘要、记忆和待办，与Plaud Note及录音耳机共享统一回顾谈话的需求。差异主要在Bee记忆服务与电话采集的结合，而非磁吸形态本身。当前仍是needs_check、尚未确认开售的方案，机型适配、实际拾音及实售权益不能视为已交付；应把它作为待验证比较对象，不能列为现货购买建议。",
+      "comparisonBasis": "与Plaud Note双模式录音卡、录音耳机和手机录音方案比较电话及面谈的统一回顾；仅评估已公布定位。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/bee-eclipse/product.png",
+      "sourceUrl": "https://bee.computer/products/eclipse",
+      "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6abc98eaa973bad1b69f5cde_AMZ-Rosey-PDP-D-Specs-Product.png",
+      "caption": "Bee Eclipse 官方公布的产品渲染（尚未确认开售）",
+      "alt": "Bee Eclipse 官方公布的产品渲染（尚未确认开售）",
+      "credit": "Bee / Amazon · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 200775,
+      "sha256": "462c38bd0c8cf5e53a0787e4b0a108e4c47fb7e1bb798c86807782f220189df3"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/bee-eclipse/reference.png",
+      "sourceUrl": "https://bee.computer/products/eclipse",
+      "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6ac589b8fa63957e61c1546b_AMZ-Rosey-PDP-M-Specs-Product-View-2.png",
+      "caption": "Bee Eclipse 官方按键、指示灯与侧面参考",
+      "alt": "Bee Eclipse 官方按键、指示灯与侧面参考",
+      "credit": "Bee / Amazon · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 474551,
+      "sha256": "d0432e6a79279150923cfb6a094da145638a382b3545562eb6d74b4d0202aa63"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/bee-eclipse/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Bee Eclipse的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/bee-eclipse.txt",
+      "referencePaths": [
+        "assets/hardware/bee-eclipse/product.png",
+        "assets/hardware/bee-eclipse/reference.png"
+      ],
+      "verified": true,
+      "bytes": 1560824,
+      "sha256": "f4b9bb733b5a4246e8deeb2adfb640497e8f316ac416584759158ad03b0ce874"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+  ]
+}

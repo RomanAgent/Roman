@@ -142,6 +142,26 @@ Protolabs 的公开定位覆盖定制原型至终端生产零件，使用数字�
 
 - [Beatbot AquaSense 2 Ultra](../hardware/beatbot-aquasense-2-ultra.md) — **能力候选 · 非已采用** / 履带刷洗及抓握结构原型：Protolabs 的机械加工和模塑原型可支持履带配合、清洁头与抓握结构验证，但原型不证明长期水下寿命或实际清洁效果；未发现 2 Ultra 合作披露，候选限于结构开发。
 
+- [QYSEA FIFISH V-EVO](../hardware/qysea-fifish-v-evo.md) — **能力候选 · 非已采用** / 密封外壳与结构原型候选：Protolabs公开多种结构加工和原型制造方式，可为ROV壳体、连接件与窗口装配研究提供样件能力。加工能力不等于水下耐压或长期防腐合格，须另验证材料、密封与测试规范，本轮没有它为QYSEA制造本产品的证据。
+
+- [LAVA GENIE（拿火精灵）](../hardware/lava-genie.md) — **能力候选 · 非已采用** / 折叠机身与连接结构原型候选：GENIE的开放框架及折叠结构需要握持和重复连接验证，Protolabs公开原型、注塑及结构加工能力，可为该类迭代提供样件候选。实际材料、疲劳、声学耦合与量产要求仍未知，不能以制造能力推断LAVA已采用其服务。
+
+- [Samsung Odyssey 3D G90XF（27英寸）](../hardware/samsung-odyssey-3d-g90xf.md) — **能力候选 · 非已采用** / 显示器支架与机身结构原型候选：个人视点显示需要稳定的机身和支撑，Protolabs公开机加工、钣金及结构原型能力，可作为支架与外壳样件候选。承载、重心、调节和摄像位置仍须专门测试，其加工能力不涵盖完整裸眼光学方案，也未披露为Samsung本机供货。
+
+- [GRAN EYE（2026安装套件版）](../hardware/gran-eye-2026.md) — **能力候选 · 非已采用** / 磁吸安装件与摄像外壳原型候选：GRAN EYE当前套件依赖可重复安装的磁吸结构，Protolabs公开多种结构原型与加工能力，可用于同类挂件、外壳和连接件验证。固定力、取镖碰撞和安装一致性仍需实际测试，没有点名采用关系，也不代表其提供整套计分算法。
+
+- [huupe mini 2](../hardware/huupe-mini-2.md) — **能力候选 · 非已采用** / 屏幕防护与门挂结构原型候选：带屏篮板需要保护、篮圈连接和门挂结构共同承受重复动作，Protolabs公开注塑、机加工和样件能力，可作为结构验证候选。具体冲击、疲劳与安装安全须独立测试，制造服务不等于已通过本产品要求或被huupe实际采用。
+
+- [Looking Glass Go（白色版）](../hardware/looking-glass-go.md) — **能力候选 · 非已采用** / 折叠底座与显示外壳原型候选：Go的竖屏和折叠底座需要结构、铰链及接口布局配合，Protolabs公开原型和结构制造能力，可作为外壳与支撑样件候选。疲劳、散热、线缆与光学定位须按整机验证，不能把加工能力视为已被Looking Glass采用或可提供完整显示系统。
+
+- [YSL Rouge Sur Mesure](../hardware/ysl-rouge-sur-mesure.md) — **能力候选 · 非已采用** / 外壳与可拆盘的原型和模具验证：Protolabs公开快速原型及模具服务可用于筒身、色芯接口和可拆盘装配验证，但材料与唇彩接触合规及计量性能并非自动满足；没有YSL型号采用证据，当前仅列结构工程候选。
+
+- [Moen Flo Smart Water Shutoff（900-006）](../hardware/moen-flo-shutoff-900-006.md) — **能力候选 · 非已采用** / 壳体与连接接口的原型评估：Protolabs公开加工和模具能力可支持外壳、接口与装配可达性原型，但水路承压、密封及材料接触要求不由通用加工自动保证；未见Moen该型号实际采用，仅作为结构工程候选。
+
+- [SEERGRILLS Perfecta](../hardware/seergrills-perfecta.md) — **能力候选 · 非已采用** / 耐热壳体及夹架的结构原型评估：Protolabs公开加工与快速原型服务可支持炉身、夹架和可拆洗接口验证，但材料耐热、食品接触及燃气边界须专门工程确认；未见SEERGRILLS实际采用披露，只列结构能力候选而非现有供应商。
+
+- [Aveine Wine Aerator](../hardware/aveine-wine-aerator.md) — **能力候选 · 非已采用** / 瓶口接口与可清洗外壳原型：Protolabs的加工及原型服务可用于瓶口接口、外壳与装配评估，但食品接触、密封和注气路径需要专门确认；没有Aveine实际采用证据，不以通用制造能力推定本机已满足全部液体使用要求。
+
 ## 来源
 
 - [Protolabs 公司介绍](<https://www.protolabs.com/about-us/>)：公司定位及美国主体地址。

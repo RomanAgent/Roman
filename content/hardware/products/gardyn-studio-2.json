@@ -1,0 +1,458 @@
+{
+  "id": "gardyn-studio-2",
+  "name": "Gardyn Studio 2",
+  "brand": "Gardyn",
+  "category": "garden",
+  "tagline": "用植物影像和生长阶段指导家用水培",
+  "officialUrl": "https://mygardyn.com/products/gardyn-studio-gen2",
+  "status": "on_sale",
+  "statusEvidence": "官方商品页有加购与发货说明；本条只计Studio 2，不将颜色和更大Home同任务型号重复收录。",
+  "regions": [
+    "美国"
+  ],
+  "china": {
+    "availability": "unavailable",
+    "note": "官方FAQ明确目前只向美国配送；未确认大陆授权销售、耗材和会员支持，不把转运视为国内可直接使用。"
+  },
+  "price": {
+    "text": "US$549起；部分配色US$599",
+    "note": "官方不同配色及套餐价格不同；Studio会员月付列US$25，基础灯光水路可无会员使用。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "相机图像经视觉模型识别发芽、收获、水根与虫害等状态，Kelby结合传感和生长阶段给出任务并调整部分浇水流程；Ask Kelby提供问答但不能直接改设备设置。",
+    "dependency": "基础定时灯光与浇水可无会员；视觉照护、聊天和部分自动功能依赖会员、网络与相机开启。"
+  },
+  "highlights": [
+    "室内水培与自动灯光水路",
+    "视觉植物状态与照护任务",
+    "会员AI与基础控制明确分开"
+  ],
+  "analysis": {
+    "demand": "需求假设：没有户外土地但希望持续收获香草和叶菜的家庭，可能需要降低观察和照护门槛。应记录实际收获、补水剪根与清洁劳动，不能把自动灯水或植物数量直接当作省钱、环保或完全不会养死的证明。",
+    "userProfile": "画像推断：有稳定电源网络、能接受长期补光且愿意维护水培的城市家庭更适合。种植爱好者与只想便宜买菜的人动机不同，会员、耗材和日常照护需要有人负责，不能只用厨房空间小来推定购买价值。",
+    "competition": "竞争判断：与普通水培架、盆栽及购买蔬菜竞争，视觉照护和内容服务是差异。与更大Gardyn型号相比只是容量变化不再另计；应比较同一家庭的成功种植和维护，而非用更多种植位或AI名称判断优势。",
+    "supplyChain": "供应链分析：水箱、种植柱、泵、LED、相机和传感器需要共同适应潮湿环境，具体工厂与BOM未披露。水路清洗、灯具寿命、耗材和种子供应都影响交付，不能只按计算模块和塑胶结构估计长期成本。",
+    "technology": "技术判断：官方当前文章明确夜间视觉模型处理植物照片，并区分智能浇水和只能问答的Ask Kelby。识别生长阶段不等于了解全部植物问题，光照、遮挡和新物种需要验证，也不应把定时水泵本身算作AI。",
+    "aesthetics": "审美判断：竖向绿植与简洁灯架让设备接近室内景观，但补光时长、亮度和水箱占位会影响居住体验。长大后的植物、剪根和清洗状态应纳入评价，不能只看整齐新品照片或忽略夜间灯光对家庭的影响。",
+    "risks": "风险判断：会员和美国耗材配送影响完整体验，关掉相机也会减少个性化指导。实际种植仍需人工操作，算法提醒不是收获保证；潮湿水路、植物病虫与隐私设置需要管理，不能把AI名称当作免维护承诺。",
+    "opportunity": "机会假设：围绕小空间种植的可理解提醒和低负担清洁验证价值，比较普通水培加人工记录。若用户主要需要浇水提醒，简单方案可能足够；应先记录一轮作物的收获和维护，再判断视觉与订阅是否值得。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "家庭水培比通用家电更细分，视觉照护具差异但仍有成熟水培及盆栽替代，不能因冷门推定高增长。"
+  },
+  "architecture": [
+    {
+      "name": "植物与水培结构",
+      "detail": "种植位、水箱与循环供水支持家庭栽培。",
+      "evidence": "official"
+    },
+    {
+      "name": "观察输入",
+      "detail": "固定相机及水位、温湿度传感采集植物与设备状态。",
+      "evidence": "official"
+    },
+    {
+      "name": "视觉与照护",
+      "detail": "视觉模型结合植物生长阶段产生提醒和照护任务。",
+      "evidence": "official"
+    },
+    {
+      "name": "灯水执行",
+      "detail": "LED与水泵按计划或支持的智能流程运行。",
+      "evidence": "official"
+    },
+    {
+      "name": "应用服务",
+      "detail": "Kelby与会员权益连接记录、问答及远程设置。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gardyn Studio 2官方商店",
+      "url": "https://mygardyn.com/products/gardyn-studio-gen2",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开，列加购、发货、基础与会员能力；厂商收获及节水宣传不作为独立测量。"
+    },
+    {
+      "title": "Gardyn当前视觉与Kelby技术",
+      "url": "https://mygardyn.com/blogs/news/technology-behind-your-gardyn",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "2026-10-22官方文章，明确视觉流程、阶段约束及Ask Kelby不能改设置。"
+    },
+    {
+      "title": "Gardyn官方FAQ与配送",
+      "url": "https://mygardyn.com/pages/faq",
+      "kind": "official-spec",
+      "supports": [
+        "china",
+        "regions",
+        "subscription"
+      ],
+      "note": "已打开，当前配送限美国，会员与非会员控制范围分开。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Gardyn Studio 2官方商店",
+        "url": "https://mygardyn.com/products/gardyn-studio-gen2",
+        "note": "2026-11-04本轮实际核查；已打开，列加购、发货、基础与会员能力；厂商收获及节水宣传不作为独立测量。"
+      },
+      {
+        "id": "s2",
+        "title": "Gardyn当前视觉与Kelby技术",
+        "url": "https://mygardyn.com/blogs/news/technology-behind-your-gardyn",
+        "note": "2026-11-04本轮实际核查；2026-10-22官方文章，明确视觉流程、阶段约束及Ask Kelby不能改设置。"
+      },
+      {
+        "id": "s3",
+        "title": "Gardyn官方FAQ与配送",
+        "url": "https://mygardyn.com/pages/faq",
+        "note": "2026-11-04本轮实际核查；已打开，当前配送限美国，会员与非会员控制范围分开。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "需求假设：没有户外土地但希望持续收获香草和叶菜的家庭，可能需要降低观察和照护门槛。应记录实际收获、补水剪根与清洁劳动，不能把自动灯水或植物数量直接当作省钱、环保或完全不会养死的证明。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "家庭水培的难点不只是定时供水，还包括判断何时疏苗、补肥和处理异常，视觉提醒可能减少经验门槛。但用户仍需要操作，若只是想获得便宜蔬菜，设备、能源和会员未必合适，不能把种植成功与购买理由混成同一件事。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可跟踪一个完整作物周期，记录提醒、实际行动、收获和清洁，再与普通水培架比较。观察用户是否理解模型提示并及时执行，而不是只统计应用打开或植物存活，确认视觉是否减少具体错误和劳动。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "画像推断：有稳定电源网络、能接受长期补光且愿意维护水培的城市家庭更适合。种植爱好者与只想便宜买菜的人动机不同，会员、耗材和日常照护需要有人负责，不能只用厨房空间小来推定购买价值。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "种植爱好者可能喜欢过程与室内绿景，厨房用户可能只关心稳定少量香草，两者对灯光和会员接受不同。实际维护者需要补水、剪根并处理收获，画像应包含家庭作息与空间，而不是仅用城市居民或科技兴趣概括。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "画像验证应让家庭在实际位置运行补光和水路，并自行完成提示任务，记录谁持续负责。再比较种植与采购两种动机的复用情况，识别愿意承担完整周期的人，避免把开箱绿植景观的喜爱视为长期栽培需求。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "竞争判断：与普通水培架、盆栽及购买蔬菜竞争，视觉照护和内容服务是差异。与更大Gardyn型号相比只是容量变化不再另计；应比较同一家庭的成功种植和维护，而非用更多种植位或AI名称判断优势。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "相较普通水培定时器，Studio 2 的区别在图像模型结合生长阶段，而不是单纯泵和灯自动工作。会员和作物供应也构成锁定条件，用户应能比较无会员基础控制与完整照护，不能把更大Home容量当作另一个创新需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "可让同一家庭使用相近植物比较普通水培和视觉照护的出错、干预及实际收获，明确会员成本。对长期植物遮挡和灯光不适也要记录，不能只展示最好的一株或按种植位数量推断所有家庭的经济与体验收益。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能可以拆为种植柱和水箱、循环水泵、补光、固定相机与环境传感、视觉照护和应用服务。软件问答与控制路径不同，Ask Kelby 不能直接修改设备设置，图像反馈也不能视为每个植物根区都有独立传感器。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "供应链分析：水箱、种植柱、泵、LED、相机和传感器需要共同适应潮湿环境，具体工厂与BOM未披露。水路清洗、灯具寿命、耗材和种子供应都影响交付，不能只按计算模块和塑胶结构估计长期成本。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "Sensirion 的温湿度器件可作为环境采集候选，PCH 可协调种植结构、电子和新产品导入。没有 Studio 2 点名供货证据，湿环境安装、相机与作物模型需要专项验证，元件能力不能保证栽培结果或完整设备准确。水箱附近的安装位置还需实测。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "技术判断：官方当前文章明确夜间视觉模型处理植物照片，并区分智能浇水和只能问答的Ask Kelby。识别生长阶段不等于了解全部植物问题，光照、遮挡和新物种需要验证，也不应把定时水泵本身算作AI。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "视觉模型按夜间批次分析照片并结合生长阶段，和用户实时提问不是同一个决策过程。遮挡、相机脏污和不熟悉植物会改变输入，系统需要表达何时无法判断，不能因有全天监控宣传就推断所有异常会即时发现。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证应记录照片、阶段判断和用户任务之间的对应，比较遮挡、灯光变化及相机关停后的行为。区分自动浇水、提醒和问答，不能把聊天回答正确当作控制有效，也不把阶段识别成功解释为保证收获或无须植物照护。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "审美判断：竖向绿植与简洁灯架让设备接近室内景观，但补光时长、亮度和水箱占位会影响居住体验。长大后的植物、剪根和清洗状态应纳入评价，不能只看整齐新品照片或忽略夜间灯光对家庭的影响。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "灯杆和双种植柱成为长期室内物件，植物长大后可能遮住相机或改变整体比例。设计应考虑补光对家人、剪根与水箱清理，而不只是新种植时整齐的绿墙；维护后能否恢复整洁直接影响设备是否被继续留在生活区。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证应在家庭真实作息中观察亮灯、补水、采收和清洗，记录是否为了拍摄好看而牺牲操作空间。还要检查用户能否理解相机朝向和状态，不从官方场景照或植物色彩推断所有居室都能接受长期补光。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "风险判断：会员和美国耗材配送影响完整体验，关掉相机也会减少个性化指导。实际种植仍需人工操作，算法提醒不是收获保证；潮湿水路、植物病虫与隐私设置需要管理，不能把AI名称当作免维护承诺。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "美国配送与作物耗材体系会影响跨境使用，相机关闭后也会改变个性化服务，硬件能运行不等于全部体验可用。模型错误可能导致照护延误，产品需要清楚边界和人工检查，不应把会员内容包装为植物永远健康的保障。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证应演练网络、相机和会员变化，再观察基础灯水与指导分别保留什么，核对耗材和维修途径。所有种植结论需要绑定作物与环境，不将厂商节水或收获宣传写成本轮实测，也不由海外加购推断大陆适配。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会假设：围绕小空间种植的可理解提醒和低负担清洁验证价值，比较普通水培加人工记录。若用户主要需要浇水提醒，简单方案可能足够；应先记录一轮作物的收获和维护，再判断视觉与订阅是否值得。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会可以是更可解释的生长提示和简单清洁，让初学者知道下一步，而不是更多聊天或更大容量。若用户主要需求是少量新鲜香草，轻量方案可能更合适，新项目应先验证照护错误与动作，避免从室内种植热度直接扩张。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可比较普通提醒、视觉任务与问答的真实采纳率和收获，记录整个作物周期的人工时间与成本。根据哪一步减少失败决定传感、软件或服务投入，不能只用植物数量、AI标签或开箱分享预测持续需求。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "sensirion",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "种植环境温湿度采集候选",
+        "rationale": "Sensirion公开SHT45等温湿度器件与评估工具可对应水培环境输入，但安装湿度、位置和整机校准需验证；没有Gardyn Studio 2点名采用证据，不能将元件规格写成该产品真实BOM或栽培准确度。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "pch-international",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "家用水培机电系统与供应导入",
+        "rationale": "PCH公开产品开发、采购和制造管理可协调水箱、灯具、相机及服务交付，但湿环境和作物模型需专项团队；没有Studio 2合作披露，此处仅是工程候选，不保证整机或收获结果。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "indoor-plant-cultivation",
+      "needName": "室内作物种植与照护辅助",
+      "difference": "Gardyn Studio 2的具体差异与边界：技术判断：官方当前文章明确夜间视觉模型处理植物照片，并区分智能浇水和只能问答的Ask Kelby。识别生长阶段不等于了解全部植物问题，光照、遮挡和新物种需要验证，也不应把定时水泵本身算作AI。相较普通水培定时器，Studio 2 的区别在图像模型结合生长阶段，而不是单纯泵和灯自动工作。会员和作物供应也构成锁定条件，用户应能比较无会员基础控制与完整照护，不能把更大Home容量当作另一个创新需求。",
+      "comparisonBasis": "竞争判断：与普通水培架、盆栽及购买蔬菜竞争，视觉照护和内容服务是差异。与更大Gardyn型号相比只是容量变化不再另计；应比较同一家庭的成功种植和维护，而非用更多种植位或AI名称判断优势。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/gardyn-studio-2/product.jpg",
+      "sourceUrl": "https://mygardyn.com/products/gardyn-studio-gen2",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0788/6576/0493/files/Studio_2_-_PDP_2_-_Mobile.jpg?v=1785856990",
+      "caption": "官方Studio 2整机与功能展示",
+      "alt": "Gardyn Studio 2双种植柱、灯杆与水箱",
+      "credit": "Gardyn · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 52742,
+      "sha256": "dfd5e14a5cc440f8b2d96224bd5c40f504a1fe6f835883aac273b61d4065e828"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/gardyn-studio-2/reference.jpg",
+      "sourceUrl": "https://mygardyn.com/products/gardyn-studio-gen2",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0788/6576/0493/files/Studio_2_-_FSA_-_Mobile.webp?v=1785856905",
+      "caption": "官方家庭种植场景（含原厂营销标注）",
+      "alt": "家庭中使用Gardyn Studio 2采收植物",
+      "credit": "Gardyn · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 161526,
+      "sha256": "46d442233035ec4210255da3bd3ddf8f4b7b09a4c3db1bf7610b389d6cc1b75a"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/gardyn-studio-2/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Gardyn Studio 2的功能模块概念爆炸图，内部位置并非实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/gardyn-studio-2.txt",
+      "referencePaths": [
+        "assets/hardware/gardyn-studio-2/product.jpg",
+        "assets/hardware/gardyn-studio-2/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1410982,
+      "sha256": "b85d4f147cdd609888344bb56b21bc6fa04cea3a4d23f463c0214f3d6ac54a93"
+    }
+  ],
+  "mediaNotes": [
+    "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。",
+    "原图按官方文件保存，未改色或语义编辑；图片中的营销文字不视为本研究独立验证。"
+  ]
+}

@@ -1209,5 +1209,1547 @@
     "checkedAt": "2026-11-04",
     "audience": "consumer",
     "saleMode": "retail"
+  },
+  {
+    "id": "flappie-ai-cat-flap",
+    "name": "Flappie AI Cat Flap",
+    "brand": "Flappie",
+    "category": "pet-care",
+    "tagline": "识别嘴中猎物并在猫入口处执行拦截的家用猫门",
+    "officialUrl": "https://flappiedoors.com/en/products/flappie",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页显示 In stock、Ships in a few days 与 Add to cart，公开商品数据 available=true；2026-10-13更新的配送政策明确已结束预约、从常规库存零售。",
+    "regions": [
+      "瑞士及列支敦士登",
+      "欧洲经济区"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官网配送政策明确仅瑞士及欧洲经济区，英国与其他地区暂不配送；未确认中国大陆官方销售。"
+    },
+    "price": {
+      "text": "当前页面 CHF 449",
+      "note": "页面当前所选为 Refurbished 翻新品，原价显示CHF479；新机条件、价格及地区税费须另选确认，不把翻新品报价当新机报价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "摄像画面在猫门端进行AI猎物检测，检测到嘴中猎物时保持入口锁闭；官方另展示外观Cat ID识别，但不把宣传准确率作为实测。",
+      "dependency": "猎物检测与锁闭官方明确可离线运行；远程控制、视频与应用功能需要对应连接和服务。"
+    },
+    "highlights": [
+      "在进入住宅前对猎物事件采取门锁动作，而非只发送宠物摄像通知",
+      "不要求佩戴项圈来完成猎物检测",
+      "官方明确当前是常规库存零售，配送地区有限"
+    ],
+    "analysis": {
+      "demand": "需求假设：有自由外出猫的家庭希望阻止老鼠或鸟被带进室内，同时保留日常通行。价值发生在入口拦截而非看视频，应记录真实带猎物事件、误拒与人工放行，不能把设备宣传计数或准确率当成独立效果证明。",
+      "userProfile": "画像推断：住宅允许安装猫门、猫有户外活动且主人经常处理猎物的家庭较匹配。室内猫、租房不许开孔和很少带猎物的家庭收益不同，猫的体型与习惯也要适配，不能只按养猫人群总量预测需求。",
+      "competition": "竞争判断：与普通猫门、芯片识别猫门和人工开门竞争，差异是视觉判断嘴中物体后执行入口限制。外观身份识别是补充能力，不将颜色或翻新品当新类别；应比较误拒、安装与清理，而非只看AI功能数量。",
+      "supplyChain": "供应链分析：门体密封、锁闩、摄像、夜间观察、端侧计算和电源共同形成系统，实际代工与BOM未披露。户外污渍、猫爪和门体尺寸影响寿命，不能以软件识别为由忽略机构可清洁、可回退和安装服务成本。",
+      "technology": "技术判断：官方明确猎物检测和锁闭在设备本地执行，无网仍可使用核心功能。遮挡、物体尺寸与猫转头会影响判断，Cat ID与猎物识别也不是同一任务，模型结构和独立准确度未披露，不沿用营销百分比为事实。",
+      "aesthetics": "审美判断：白色门框与透明翻门接近普通宠物入口，额外镜头需要保持清洁和可观察。室内外面板、门洞收边及电源走线决定真实观感，不能只看白底图，也不应为了低存在感让主人看不懂当前锁闭原因。",
+      "risks": "风险判断：误拒可能让猫等待，漏检则无法阻止猎物入屋，主人仍需观察与人工处理。需要核对猫体型、门型和供电条件，不能将AI门锁当作动物安全保障；配送仅限官方明确地区，跨境转运不等于大陆售后成立。",
+      "opportunity": "机会假设：高频带猎物的家庭是具体切口，下一步应比较拦截与误拒对日常出入的整体影响。若事件很少，普通猫门可能更合理；应先验证任务频次与动物适应，再决定身份识别、视频分享等附加功能的投入。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "针对自由外出猫带猎物回家的明确小场景，购买与安装条件收窄受众；独特任务不等于已证实大规模需求。"
+    },
+    "architecture": [
+      {
+        "name": "猫门与门闩",
+        "detail": "形成猫出入路径并执行锁闭。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉与夜间观察",
+        "detail": "摄像输入用于观察靠近入口的猫及嘴部物体。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地识别",
+        "detail": "官方明确猎物AI位于猫门端，可在无互联网时识别并锁闭。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互与连接",
+        "detail": "实体控制和应用提供开闭、计划及视频查看。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装和供电",
+        "detail": "门洞适配、密封及电源形成家庭部署约束，内部布置未完整披露。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Flappie官方商品页",
+        "url": "https://flappiedoors.com/en/products/flappie",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开，库存和加入购物车明确；当前价格对应页面选择的翻新品，未下单。"
+      },
+      {
+        "title": "Flappie官方机制说明",
+        "url": "https://flappiedoors.com/en",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "明确AI位于猫门端，猎物识别及锁闭离线执行；宣传准确率未作为独立事实。"
+      },
+      {
+        "title": "Flappie配送政策",
+        "url": "https://flappiedoors.com/en/policies/shipping-policy",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions",
+          "china"
+        ],
+        "note": "实际打开，2026-10-13更新，当前库存零售，配送仅瑞士及欧洲经济区，其他地区未开放。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "leafypod-starter-pack",
+    "name": "LeafyPod Starter Pack",
+    "brand": "LeafyPod",
+    "category": "garden",
+    "tagline": "为现有室内土培观叶植物学习浇水节奏的花盆与桥接器",
+    "officialUrl": "https://www.theleafypod.com/products/leafypod-bridge-planter-package",
+    "status": "on_sale",
+    "statusEvidence": "官方单盆加Bridge套装显示US$145与Add to Cart；FAQ明确目前向美国和加拿大发货。仅收单盆系统，不重复计算多盆套装。",
+    "regions": [
+      "美国",
+      "加拿大"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方FAQ仅列美国和加拿大配送，未确认中国大陆官方购买和售后；不要将第三方转运视为官方支持。"
+    },
+    "price": {
+      "text": "单盆＋Bridge US$145",
+      "note": "当前促销价，页面划线价US$178；不同多盆数量不另算型号，滤芯与后续费用按地区及官方条款。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "用户用手机拍照识别植物，LeafyLearn结合用户输入、环境与土壤传感建立个体养护档案并调整浇水；盆内未披露摄像头。",
+      "dependency": "花盆以蓝牙连接Bridge，Bridge连接Wi-Fi和应用；模型及联网失效时的完整自主边界未详细披露。"
+    },
+    "highlights": [
+      "处理既有土培室内观叶植物，与水培食物种植塔的任务不同",
+      "顶部供水、可拆内盆与过滤回水形成维护流程",
+      "手机照片用于植物识别，不能据此在花盆上虚构摄像头"
+    ],
+    "analysis": {
+      "demand": "需求假设：喜爱观叶植物但常忘记或过量浇水的家庭希望减少凭经验猜测。价值应体现在具体植物的维护节奏和人工负担，不能把自动供水等同永远不会烂根，也不能以绿植照片推断比所有普通花盆更健康。",
+      "userProfile": "画像推断：有适配盆径的室内土培植物、愿意初次换盆并维护水箱滤材的人较匹配。大株、户外园艺与只养耐旱少量植物的用户不同，出差需求也需结合补水和供电，不能只按植物爱好或忙碌程度判断。",
+      "competition": "竞争判断：与普通自吸水盆、土壤湿度提醒器和人工浇水竞争，差异是植物档案学习与顶部主动供水。与Gardyn的水培食物种植任务不同，但同款多盆套装不新增场景；应比较长期维护而非仅比较自动化字样。",
+      "supplyChain": "供应链分析：内外盆、水箱、过滤、水路、土壤环境传感、低功耗控制与Bridge组成系统，实际工厂和BOM未知。土壤污染、根系增长及滤材更换影响长期使用，不应仅围绕AI或无线模组估算整个产品交付难度。",
+      "technology": "技术判断：官网LeafyLearn利用输入、传感与数据库逐步形成植物档案，识别照片由用户手机提供。具体模型未公开，感知名称不意味着传感器自身具备AI；需要测试误识别、不同土壤与断连时的控制边界。",
+      "aesthetics": "审美判断：圆柱花盆比专用种植箱更易融入书桌和窗边，但可见探杆、桥接器和充电维护仍影响体验。土壤、积水和根系会改变长期观感，应同时评价拆洗、补水和状态表达，不能只看摆拍中的茂盛植物。",
+      "risks": "风险判断：错误植物档案、土壤差异、堵塞或缺水可能让自动浇水失效，主人仍需观察植物并维护滤材。官方不同页面的续航表述不完全一致，本目录不将最长时间当保证；海外销售也不意味着大陆云服务与售后可用。",
+      "opportunity": "机会假设：可从少数常见室内植物和明确的旅行浇水问题验证，不必一开始覆盖所有物种。若简单自吸水盆已解决需求，学习算法需证明额外价值；应追踪多周补水、纠错与清洁，再决定订阅和硬件复杂度。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "家用浇水已有成熟替代，结合植物学习档案与主动顶部供水形成细分机制；需要通过维护收益验证，不把植物种类数当市场规模。"
+    },
+    "architecture": [
+      {
+        "name": "内盆与植物",
+        "detail": "透明内盆容纳土培植物并供用户观察。",
+        "evidence": "official"
+      },
+      {
+        "name": "土壤与环境感知",
+        "detail": "官方列土壤水分、光照、温湿度及水位信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "供水与过滤",
+        "detail": "顶部浇水，余水经滤材回到底部水箱。",
+        "evidence": "official"
+      },
+      {
+        "name": "花盆控制与能源",
+        "detail": "控制供水及无线连接；隐藏器件布置未披露。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "Bridge与养护服务",
+        "detail": "蓝牙至Bridge再接Wi-Fi，应用植物识别与学习养护档案。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "LeafyPod Starter Pack官方商品页",
+        "url": "https://www.theleafypod.com/products/leafypod-bridge-planter-package",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开，单盆加Bridge可加入购物车；连接和传感明确，未采用页面有疑义的防水等级文字。"
+      },
+      {
+        "title": "LeafyPod官方植物识别与供水说明",
+        "url": "https://www.theleafypod.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "aesthetics"
+        ],
+        "note": "实际打开，手机拍照识别、学习养护与顶部供水；不把广告中植物健康保证当实测。"
+      },
+      {
+        "title": "LeafyPod官方FAQ",
+        "url": "https://www.theleafypod.com/faq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "regions",
+          "china",
+          "risks"
+        ],
+        "note": "实际打开，LeafyLearn数据来源、回水过滤及美加配送；滤材需要维护。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "hearth-family-display",
+    "name": "Hearth Display",
+    "brand": "Hearth",
+    "category": "home-assistant",
+    "tagline": "把学校通知与家庭安排转成可共同查看日程的墙面终端",
+    "officialUrl": "https://hearthdisplay.com/products/hearth-display",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页 Ready to Ship、Add to cart，预计1–2工作日发货；公开商品数据三种边框的Ready to Ship变体available=true。颜色不另算产品。",
+    "regions": [
+      "美国官网销售"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已核实美国官网的硬件零售入口，未确认中国大陆配送、应用与官方售后；美元报价不代表国际配送承诺。"
+    },
+    "price": {
+      "text": "硬件标价 US$699；页面促销 US$629.10",
+      "note": "促销依赖页面优惠条件；激活需要Family Membership，首月免费，月付US$9，取消后仅保留基础日历等功能；属于硬件零售而非返还式租赁。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Hearth Helper用AI将用户提交的文字、照片或纸质日程整理为数字事件及餐食安排，需用户批准后纳入家庭计划。",
+      "dependency": "AI Helper属于Family Membership，依赖联网应用服务；同步日历、打卡和任务列表本身不都属于AI。"
+    },
+    "highlights": [
+      "围绕家庭共同安排和纸质通知录入，区别于普通电视与通用平板",
+      "竖向墙屏提供公共视图，手机端负责远程协作",
+      "AI整理内容需用户批准；会员取消会减少功能"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭安排分散在学校纸张、群消息和个人日历中，反复录入与口头提醒造成协调劳动。公共墙屏与AI整理可能降低遗漏，但应分别验证录入和共同查看的价值，不能把任务打卡或家庭评分视为关系改善的证明。",
+      "userProfile": "画像推断：多成员有不同日程且愿意共同维护安排的家庭更匹配，购买者可能是主要协调者。儿童可读性、照护者权限和墙面位置都会影响采用，不能只按有孩子或忙碌划分用户，也不能默认大屏就能让全家主动参与。",
+      "competition": "竞争判断：与纸质白板、共享手机日历和普通平板竞争，区别在实体公共入口与AI通知整理结合。硬件颜色不另算创新，普通日历同步也不作为AI；应比较持续录入、批准与查看，而非仅比较屏幕尺寸或功能列表。",
+      "supplyChain": "供应链分析：显示触控、边框支架、电源、联网计算与持续软件服务构成产品，实际制造厂和BOM未公开。长期显示、墙装安全和家庭账号恢复影响体验，不能把一块平板成本直接等同整套家庭协调服务的交付成本。",
+      "technology": "技术判断：官网明确Helper把文字和纸质安排整理成待批准的计划，识别和语义理解可能出错。日期、重复活动、成员归属和时区是关键边界，用户批准不能省略；底层模型和设备本地与云端分工未完整披露。",
+      "aesthetics": "审美判断：窄边框竖屏接近家中公告栏，木色或中性色可适配墙面，但屏幕持续亮起和电源线仍影响居住空间。彩色成员日程有助区分，却可能信息过载，不能只看整洁场景图就认定老人儿童都容易理解。",
+      "risks": "风险判断：错误日期或成员映射会传播到家庭安排，公共屏幕也可能暴露私人行程。激活与高级功能依赖会员，取消后权限不同，用户应知道人工核对与恢复路径；AI助手不能替代真实照护、接送和紧急情况确认。",
+      "opportunity": "机会假设：从学校通知到可靠家庭日程的录入流程，比泛化聊天更容易验证。可先测整理准确、确认劳动和共享查看频次，如果家人仍只看各自手机，专用墙屏未必有增量；不以家庭评分或生成事件数推算市场需求。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "家庭协调已有成熟软件和白板替代，公共实体终端加AI通知整理形成细分工作流；是否冷门且可持续取决于真实多人使用。"
+    },
+    "architecture": [
+      {
+        "name": "触控屏与边框",
+        "detail": "实体墙面显示与触控入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "支架与供电",
+        "detail": "配套墙挂和电源线，需考虑安装与走线。",
+        "evidence": "official"
+      },
+      {
+        "name": "计算与连接",
+        "detail": "支持终端应用和联网同步的功能层，具体芯片未披露。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "家庭账号与日程",
+        "detail": "共享日历、任务、餐食和成员资料。",
+        "evidence": "official"
+      },
+      {
+        "name": "Hearth Helper服务",
+        "detail": "将用户提供的文本和图像日程转为待确认内容。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hearth Display官方商品页",
+        "url": "https://hearthdisplay.com/products/hearth-display",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开Ready to Ship与加入购物车，公开商品数据可售；优惠和会员费用分别标注。"
+      },
+      {
+        "title": "Hearth官方功能说明",
+        "url": "https://hearthdisplay.com/pages/features",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "demand"
+        ],
+        "note": "实际打开Helper文字与纸质日程整理、用户批准，未把普通任务列表视作AI。"
+      },
+      {
+        "title": "Hearth Family Membership",
+        "url": "https://hearthdisplay.com/pages/membership",
+        "kind": "official-store",
+        "supports": [
+          "price",
+          "risks"
+        ],
+        "note": "实际打开，激活需会员、取消后保留基础日历而失去高级功能。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "catlog-board-2",
+    "name": "Catlog Board 2",
+    "brand": "RABO / Catlog",
+    "category": "pet-care",
+    "tagline": "保留原有猫砂盆，通过重量与行为模式辨认个体的感知底板",
+    "officialUrl": "https://rabo.cat/catlog/product/board2/",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-04实际浏览官方商品页，白色与橄榄色可选且加入购物车按钮可用，显示含税¥19,800；灰色和沙色显示缺货，未下单。",
+    "regions": [
+      "日本"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已核实日本官方商店购买入口和日元价格，未确认中国大陆官方配送、应用区域与售后；旧Board已停售信息不混入第二代。"
+    },
+    "price": {
+      "text": "硬件 JPY 19,800（含税）",
+      "note": "新会员优惠硬件JPY13,860附带至少六个月会员条件；会员按每只猫JPY980/月起，设备数量不直接增加会员费，详见当期官方规则。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "重量传感数据结合猫的如厕行为模式学习个体，自动归属体重、时长和排泄记录；无须摄像头或项圈，不能用于疾病诊断。",
+      "dependency": "需家庭Wi-Fi、应用及按猫订阅的分析保存服务；部分算法运行位置未明确，不据硬件感知推断全离线可用。"
+    },
+    "highlights": [
+      "置于现有猫砂盆下，保留猫熟悉的厕所环境",
+      "通过重量和行为学习识别多猫，不是普通摄像头识别或自动铲砂",
+      "只作为变化记录，官网明确非诊断治疗设备"
+    ],
+    "analysis": {
+      "demand": "需求假设：多猫家庭或无法时时观察的人，希望保留现有厕所同时记录谁在何时使用。底板解决记录与归属，不负责清洁，应检查漏记、错认和主人查看后的行动，不能以更多数据直接宣称更早诊断或减少治疗费用。",
+      "userProfile": "画像推断：猫不接受项圈、主人愿意长期订阅并已有适合放置底板的厕所时较匹配。近似体重、多猫共用和厕所挪动会改变效果，需有人复核记录与换电池，不能把所有养猫家庭或所有健康焦虑都转成合理购买需求。",
+      "competition": "竞争判断：与人工体重记录、带称重的自动猫砂盆和宠物摄像头竞争，差异是保留原厕所且不拍摄的行为归属。Board 2各颜色不增加产品数，也不混用旧代能力；应比较扰动、维护与识别，而非只比较记录项目数量。",
+      "supplyChain": "供应链分析：承重结构、重量感知、电池供电、无线控制与分析服务共同工作，实际工厂和BOM未披露。地面平整、墙体接触与猫砂总重会影响受力，制造应关注装配一致与长期漂移，不以普通电子秤成本估计全部价值。",
+      "technology": "技术判断：官方明确AI从重量及如厕行为学习个体，不要求项圈或摄像头。相近体重、同时靠近与清理动作可能造成歧义，长期趋势和单次记录都需要复核；模型细节未公开，不能把变化提醒写为疾病识别。",
+      "aesthetics": "审美判断：低矮圆角底板隐藏在原有猫砂盆下，减少新增装置的视觉负担，也让用户容易忽略摆放约束。边缘清洁、电池可达性和不触墙的要求比颜色重要，不能为了隐蔽收纳把平台卡紧而改变称重状态。",
+      "risks": "风险判断：错误个体归属、受力干扰和服务中断会影响记录，用户仍需观察猫的真实行为。厂商明确不是医疗诊断服务，不能因没有提醒就排除问题；会员条件、地区和数据保存需确认，不把旧款用户故事当第二代效果验证。",
+      "opportunity": "机会假设：给不愿换猫砂盆和不接受项圈的家庭提供低扰动记录，是比再造整台自动厕所更具体的切口。先验证正常维护中的个体归属和查看价值，再扩展分析；不以猫疾病发生率或担忧程度直接推断付费规模。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "依托现有猫砂盆的非摄像、多猫行为记录是明确细分路径，和自动清洁不同；订阅、安装及识别条件限制适用人群。"
+    },
+    "architecture": [
+      {
+        "name": "承重平台",
+        "detail": "薄型底板承载现有猫砂盆及使用中的猫。",
+        "evidence": "official"
+      },
+      {
+        "name": "重量感知",
+        "detail": "传感器采集载荷变化，实际数量和内部位置未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与无线",
+        "detail": "采集与无线传输功能层，具体电路未披露。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "可更换电池",
+        "detail": "官方使用可更换干电池，不画成充电锂电池。",
+        "evidence": "official"
+      },
+      {
+        "name": "个体学习服务",
+        "detail": "结合重量与如厕模式辨认猫并整理长期记录。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Catlog Board 2官方商品页",
+        "url": "https://rabo.cat/catlog/product/board2/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "实际浏览白色购买区域确认价格和可用按钮；正文明确重量及行为AI，不做疾病诊断。"
+      },
+      {
+        "title": "Catlog官方会员价格",
+        "url": "https://rabo.cat/catlog/price/",
+        "kind": "official-store",
+        "supports": [
+          "price",
+          "risks",
+          "technology"
+        ],
+        "note": "实际打开按猫会员、云分析与新用户硬件折扣的最低持续条件。"
+      },
+      {
+        "title": "RABO官方商店指南",
+        "url": "https://rabo.cat/store_guide/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "实际打开支付及通常发货说明，不由日本商店推定国际配送。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "sleepal-ai-lamp",
+    "name": "Sleepal AI Lamp",
+    "brand": "Sleepal",
+    "category": "sleep",
+    "tagline": "把无接触雷达睡眠观察与床头灯交互放在同一设备",
+    "officialUrl": "https://www.sleepal.ai/cart",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-04实际浏览主站Buy Now进入/cart，显示实体Sleepal AI Lamp、HKD3,131及Checkout；官方商品变体available=true且requires_shipping=true，非旧站虚拟定金商品。",
+    "regions": [
+      "美国",
+      "国际配送按官方结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "当前购物页显示美元计价的国际运费与港币地区价格，但未验证中国大陆收货地址、售后和完整服务；不能据此认定国内官方渠道。"
+    },
+    "price": {
+      "text": "本次地区页面 HKD 3,131",
+      "note": "购物页含三个月AI+试用；币种、国际运费及试用后订阅条件以结算地区为准。未将旧虚拟定金或早期众筹宣传作为当前价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方雷达信号提取呼吸和运动特征，由深度学习估计睡眠阶段；另有光声环境与床头交互。研究预印本不是医疗批准，不支持自行诊断。",
+      "dependency": "官方描述本地预处理后将提炼特征用于云端AI分析，部分体验依赖应用和AI+服务；隐私开关的具体停用范围需按说明确认。"
+    },
+    "highlights": [
+      "无须佩戴设备，面向床边长期观察与照明交互",
+      "作者预印本披露雷达特征和深度学习路径，效果不等同临床诊断能力",
+      "新主站有实体购买入口，旧Shop站预发布文案与当前购买页分开处理"
+    ],
+    "analysis": {
+      "demand": "需求假设：不愿睡觉时佩戴或给穿戴设备充电的人，希望在床边自动获得睡眠记录并保留熟悉的照明动作。价值应由长期使用和可理解变化验证，不把记录连续直接等同睡得更好，也不从雷达观察推导任何疾病诊断效果。",
+      "userProfile": "画像推断：愿意固定床头设备、理解观察误差并能管理数据权限的成年人较匹配。双人同床、宠物和不同睡姿可能改变可用性，用户仍需对自己的感受和专业建议负责，不能把失眠担忧或健康标签当作产品适配证明。",
+      "competition": "竞争判断：与穿戴追踪、床垫下传感器和普通床头灯竞争，差异是无接触感知加灯光交互。不会再把同款不同服务套餐计算成新品，也不将论文指标与商业硬件全部功能混同；比较应包含摆位、隐私和持续维护。",
+      "supplyChain": "供应链分析：雷达、环境感知、照明、音频、供电与软件服务共同构成床头设备，实际芯片厂及整机代工未披露。传感互扰、散热、夜间噪声和装配稳定影响体验，不能只按一盏灯或一个雷达模块价格估算成本。",
+      "technology": "技术判断：作者预印本说明从雷达提取呼吸与运动特征并训练深度学习模型，提供了比笼统AI口号更具体的路径。论文属于预印本且实验条件有限，不能据此承诺每个卧室准确度，也不把阶段估计当作医疗评估替代。",
+      "aesthetics": "审美判断：白色柱灯与椭圆旋钮底座接近家居灯具，适合降低额外监测设备的存在感。夜间亮度、提示音和隐私状态应克制且清楚，不能只追求极简外观而让用户不知道何时采集或哪些功能因隐私设置停止。",
+      "risks": "风险判断：摆位、同床对象、反射和网络可能改变估计，算法结果也可能增加不必要的睡眠焦虑。官方当前购买页与旧预发布页状态不同，需明确实际商品和服务；设备不承担诊断治疗，不能根据单个分数调整医疗行为。",
+      "opportunity": "机会假设：在无需佩戴的床边记录与可解释照明交互上验证持续收益，先确认用户真的会理解和使用信息。若只是查看分数而无明确价值，简单灯具或已有设备可能足够；不要从睡眠问题普遍直接推算AI床头硬件市场。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "睡眠追踪竞争较多，雷达无接触观察与床头照明组合具有交互差异；仍需验证真实卧室条件及持续服务价值。"
+    },
+    "architecture": [
+      {
+        "name": "灯体与交互底座",
+        "detail": "官方真实图为白色柱状灯体及带旋钮的椭圆底座。",
+        "evidence": "official"
+      },
+      {
+        "name": "雷达与多模态感知",
+        "detail": "无光学摄像头的雷达及环境信号路径，内部安装位置不推定。",
+        "evidence": "official"
+      },
+      {
+        "name": "信号处理",
+        "detail": "提取运动和呼吸相关特征的概念处理层。",
+        "evidence": "official"
+      },
+      {
+        "name": "照明与音频",
+        "detail": "床头灯光与声音交互功能，不能画成医疗刺激设备。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用与AI分析",
+        "detail": "睡眠记录、解释和服务权限依赖相应软件。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sleepal当前实体购物页",
+        "url": "https://www.sleepal.ai/cart",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions"
+        ],
+        "note": "实际浏览确认实体灯、地区价格和Checkout；商品变体可售且需配送，未提交订单。"
+      },
+      {
+        "title": "Sleepal官方技术与隐私说明",
+        "url": "https://shop.sleepal.ai/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "risks"
+        ],
+        "note": "实际打开雷达深度学习、无光学摄像头和本地/云端处理说明；该旧页面的预发布标语不用于当前销售认定。"
+      },
+      {
+        "title": "Sleepal AI Lamp作者预印本",
+        "url": "https://arxiv.org/abs/2604.16442",
+        "kind": "independent",
+        "supports": [
+          "technology",
+          "risks"
+        ],
+        "note": "实际打开2026-04-07作者预印本，描述雷达特征与深度学习；未视作同行评议、医疗批准或本研究实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "ysl-rouge-sur-mesure",
+    "name": "YSL Rouge Sur Mesure",
+    "brand": "YSL Beauty",
+    "category": "personal-care",
+    "tagline": "从穿搭与照片取色推荐到实体唇彩按比例分发",
+    "officialUrl": "https://www.yslbeautyus.com/rouge-sur-mesure-custom-lip-color-creator/WW-50912YSL.html",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商品页实际打开显示In stock、US$350及Add to Cart；技术页面链接到同一设备。只收整机，不将色芯组合与颜色算作新产品。",
+    "regions": [
+      "美国官网销售"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已核到美国官网现货；中国市场有历史发布报道，但本次未确认中国大陆当前官方库存和售后，不能沿用2021年上市记录判断今日可购。"
+    },
+    "price": {
+      "text": "设备 US$350",
+      "note": "官方说明色芯需另购；配色三支组、耗材和地区税费以当前结算为准，不把历史US$300或套装价当当前设备价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方明确AI用于推荐唇色，并通过手机图像取色与穿搭搭配；PERSO设备按选定方案分发色芯，用户仍需手工混匀和涂抹。",
+      "dependency": "需兼容手机应用、蓝牙与专用色芯；拍摄在手机上完成，设备本体未披露摄像头或完整端侧模型。"
+    },
+    "highlights": [
+      "将颜色选择接到实体材料分发，区别于纯虚拟试妆App",
+      "三支专用色芯配合可取下调色盘，颜色范围受色芯组合限制",
+      "官方使用步骤要求用户以唇刷混匀，不是自动涂妆机器人"
+    ],
+    "analysis": {
+      "demand": "需求假设：经常尝试不同唇色的人希望减少逐支购买与寻找相近色号的劳动，同时保留可重复配色。价值应从实际再用、色芯消耗和清洁验证，不能把可生成颜色数量等同每个人会使用，也不能承诺比成品口红必然便宜。",
+      "userProfile": "画像推断：愿意使用专用应用、购买色芯并手动混匀的美妆爱好者较匹配；只用固定色号或偏好随取随涂的人可能不需要。实际肤色呈现、光线和材料接受度应由使用者判断，不按性别、年龄或身份推定审美偏好。",
+      "competition": "竞争判断：与成品唇彩、手工混色和虚拟试妆应用竞争，差异是推荐结果进入实体定量分发。色芯系列和礼盒不另算硬件创新；应比较真实配色、携带与清理，而非只看品牌或宣传中成千上万种颜色。",
+      "supplyChain": "供应链分析：专用化妆品色芯、计量驱动、可拆容器、控制连接和应用共同构成系统，具体代工与BOM未披露。配方稳定、残留和耗材供应影响体验，不能把它当普通打印机或虚构喷墨头、摄像模组和皮肤接触机械臂。",
+      "technology": "技术判断：官方把AI用于颜色制作与推荐，手机图像负责取色和穿搭输入；设备执行比例后仍由用户混匀。照片光线、色芯组合和显示差异都会影响结果，未披露模型架构，不把宣传色数或虚拟预览当作实物一致性证明。",
+      "aesthetics": "审美判断：黑色筒身、品牌金属细节和可拆顶盘延续化妆品摆台语言，容易融入梳妆台。实际体验还取决于出料口清洁、顶盘沾染与随身携带，不能只看包装或奢华材质，也不应将输出颜色作为个人外貌评价。",
+      "risks": "风险判断：错误色芯识别、旧耗材与残留可能影响配色，用户仍须按产品说明确认成分和适用性。AI搭配建议是审美参考，不能形成皮肤健康或安全保证；应用兼容和地区耗材库存需核对，历史上市不等于当前全球可购。",
+      "opportunity": "机会假设：可以围绕少数常用色的可靠复现和低浪费换色验证，而不是追求无穷推荐。若用户主要只保留一个色号，普通成品更简单；应记录长期色芯成本、清洁和再次使用，再判断软硬件个性化是否带来持续价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "面向高频配色和个性化美妆，硬件材料分发有明确任务，但专用耗材与步骤限制受众；高端品牌不等于空白市场。"
+    },
+    "architecture": [
+      {
+        "name": "色芯与安装仓",
+        "detail": "容纳三支兼容专用色芯。",
+        "evidence": "official"
+      },
+      {
+        "name": "计量分发",
+        "detail": "根据选择输出比例，内部驱动和液路未完整披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "可拆调色盘",
+        "detail": "用于接收、手工混匀和携带唇彩。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "蓝牙和电源控制功能层，具体电子器件未披露。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "手机识别与推荐",
+        "detail": "照片取色和穿搭唇色建议属于应用端服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "YSL美国官方整机商品页",
+        "url": "https://www.yslbeautyus.com/rouge-sur-mesure-custom-lip-color-creator/WW-50912YSL.html",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开In stock及加入购物车；明确用户混匀和应用兼容，未下单。"
+      },
+      {
+        "title": "YSL Rouge Sur Mesure官方技术介绍",
+        "url": "https://www.yslbeautyus.com/rouge-sur-mesure.html?geo=false",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "aesthetics"
+        ],
+        "note": "实际打开AI推荐、照片取色与穿搭搭配说明；色芯另购，营销色数不作实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "ininum-smart-fragrance",
+    "name": "ININUM Smart Fragrance",
+    "brand": "ININUM",
+    "category": "personal-care",
+    "tagline": "把穿搭与对话建议转换为随身香氛比例的喷洒设备",
+    "officialUrl": "https://www.ininum.com/products/ininum",
+    "status": "on_sale",
+    "statusEvidence": "官方当前商品页显示Order now US$199，含设备与Original Trio；美国补货通知写2026-11-03恢复发货，日期已到但仍提示Restocking，因此以可订购、实际出库待商家确认记录。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "当前美站说明美国之外需联系确认运输选项，未验证中国大陆官方配送、香氛运输或售后；不把旧站EU/US笼统文字当现售承诺。"
+    },
+    "price": {
+      "text": "当前美国页 US$199",
+      "note": "含设备和三支Original Trio香氛POD；AI Companion与AI Photo Style免费期已于2026-10-31结束，之后需订阅，具体费用以应用地区为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方应用通过对话输入或穿搭照片提出香氛混配建议，设备将专业调制的POD按选定比例喷出；AI不合成新的香料分子。",
+      "dependency": "建议来自应用中的付费AI功能，连接设备进行比例设置；可在设备切换已保存香型，完整离线AI能力未披露。"
+    },
+    "highlights": [
+      "对话与照片风格建议连接到可替换香氛材料和实体喷洒",
+      "POD内是专业成品香氛，模型只参与建议和比例选择",
+      "旧品牌NINU不作为第二款重复计算，当前按ININUM最终设备记录"
+    ],
+    "analysis": {
+      "demand": "需求假设：喜爱香氛变化的人希望在同一设备中重复获得不同组合，并减少多瓶携带。价值应由真实佩戴、再选和补充POD验证，不能把组合数量等同独立气味都被喜欢，也不能把AI建议当作客观更适合某个人的证明。",
+      "userProfile": "画像推断：愿意使用手机设置、尝试比例并接受专用耗材的个人香氛爱好者更匹配。只固定使用一个香型或对香料敏感的人需求不同，应尊重个人感受与成分限制，不根据职业、性别或拍摄外观推定审美和购买意愿。",
+      "competition": "竞争判断：与普通香水、旅行分装和手工叠香竞争，区别是记录比例并用对话或照片辅助探索。旧NINU名称和POD组合不拆为多款硬件；应比较携带、重复性与维护，不因AI或配方组合多就认为替代所有香水瓶。",
+      "supplyChain": "供应链分析：成品香氛POD、密封与定量喷洒、外壳、电池连接及应用服务组成系统，整机工厂和BOM未披露。挥发、残留、材料相容与跨境运输影响交付，不能把香氛产地的说明推定为全部硬件也在同地制造。",
+      "technology": "技术判断：官方应用明确AI对话与照片风格建议，普通比例滑杆和保存收藏本身不是生成AI。硬件按选择混配已存在香氛，模型不会创造新分子；训练方法与建议精度未披露，照片匹配属于主观探索而非可验证的人格判断。",
+      "aesthetics": "审美判断：哑光深色筒体接近便携香氛器材，按钮和顶部POD仓让使用较直接。喷头残留、指纹、开合及随身体量决定长期观感，展示应保持真实最终外形，不能用旧概念瓶或过度科技灯效掩盖实际操作步骤。",
+      "risks": "风险判断：专用POD缺货、喷口残留、应用变化与AI订阅会影响体验，当前补货发货时间需确认。用户按实际香料成分和使用说明决定是否使用，AI不能保证不过敏或适合任何场合，也不应把旧免费期说明沿用到当前付费服务。",
+      "opportunity": "机会假设：低摩擦地保存和复现偏好比例，可能比一次性新奇的照片推荐更能形成持续需求。可先记录重复选择和POD使用，再判断AI层是否值得额外付费；不以香水总体市场或组合公式数量直接推算设备的潜在销量。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人香氛调配是窄而具体的实体任务，材料与软件一起构成体验；需验证耗材复购及AI建议的实际增量。"
+    },
+    "architecture": [
+      {
+        "name": "外壳与操作",
+        "detail": "随身筒形设备提供喷洒、模式与USB-C充电接口。",
+        "evidence": "official"
+      },
+      {
+        "name": "香氛POD",
+        "detail": "内部容纳三支可替换香氛。",
+        "evidence": "official"
+      },
+      {
+        "name": "定量混配与喷洒",
+        "detail": "控制各POD贡献比例；具体泵和内部通路未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "设备存储和应用连接的概念功能层。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI建议服务",
+        "detail": "对话与照片风格输入给出可供试用调整的配方。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ININUM当前官方商品页",
+        "url": "https://www.ininum.com/products/ininum",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "regions"
+        ],
+        "note": "实际打开US$199订单入口与11月3日恢复发货说明；补货状态、美国外配送需确认。"
+      },
+      {
+        "title": "ININUM官方应用与AI权限",
+        "url": "https://www.ininum.com/app",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "price",
+          "risks"
+        ],
+        "note": "实际打开AI Companion与Photo Style；免费期于2026-10-31结束，之后订阅，普通Lab混配分开说明。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "moen-flo-shutoff-900-006",
+    "name": "Moen Flo Smart Water Shutoff（900-006）",
+    "brand": "Moen",
+    "category": "home-safety",
+    "tagline": "学习家庭用水模式后执行自动总阀关闭的管路设备",
+    "officialUrl": "https://flo.moen.com/products/flo-smart-water-monitor-shutoff-enhanced-bundle",
+    "status": "on_sale",
+    "statusEvidence": "官方商品配置页提供One-Time Purchase US$719.64与ADD TO CART，并明确1英寸900-006阀体；同时存在36个月服务方案，本条按一次购买记录，不将套餐另算型号。",
+    "regions": [
+      "美国官网销售"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已核实美国官网配置购买与安装说明，未确认中国大陆管路适配、官方售后和服务覆盖；当地施工需由合适专业人员确认。"
+    },
+    "price": {
+      "text": "当前一次购买选项 US$719.64",
+      "note": "页面同时展示US$17.99/月、US$49.99激活及36个月承诺的服务方案；本条不把其当便宜买断价，安装与实际管径配置以结算为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "FloSense学习家庭用水模式，从流量、压力等信号识别异常并触发自动止水；定时微漏测试与普通水浸报警不全部属于AI。",
+      "dependency": "完整通知和应用需要2.4GHz Wi-Fi；官网说明最新学习结果保存在本地，暂时断网仍可继续核心保护；断电条件另需对应配置。"
+    },
+    "highlights": [
+      "内嵌总管阀体可以采取止水动作，与外夹式Droplet只观察不同",
+      "以流量、压力及模式学习识别异常，并提供人工开闭",
+      "仅收一个管径代表配置，其他尺寸及服务套餐不重复计数"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望在漏水被发现后及时限制水源，尤其是无人时无法手动关阀。自动执行比仅看用量多了一步，但误关也影响日常生活，价值应比较异常发现、处理和恢复，不能直接复述厂家减损比例为每户收益保证。",
+      "userProfile": "画像推断：有可接入独立总管、允许改管并愿意安排安装维护的自住房用户更匹配。共享管路、租住或缺乏电源网络的家庭条件不同，保险与地区服务也需独立确认，不以住宅价值或对水损担忧简单推定需求。",
+      "competition": "竞争判断：与地面漏水探头、外夹用水监测和人工总阀竞争，差异是学习模式后直接止水。普通定时测试不等于AI，也不按不同管径重复收录；应比较误关、安装与恢复，而非只比较应用报警数量。",
+      "supplyChain": "供应链分析：承压阀体、密封、流量压力感知、执行驱动、电源和无线控制共同工作，实际工厂和BOM未披露。管路材料、长期水接触、安装与维修影响可靠性，不能只把它看成消费电子主板或忽略机械失效后果。",
+      "technology": "技术判断：官网明确FloSense使用AI理解用水模式，并在断网时保留本地学习结果。异常分类与阀门控制需要可理解的回退，公开未提供模型细节；微漏测试、规则报警和学习推断应区分，不能把所有自动动作统一称作AI。",
+      "aesthetics": "审美判断：实用管路外壳通常位于设备区，重点是阀门状态、手动操作和维护可达性。整洁安装与线缆走向比装饰性更重要，产品图不应掩盖改管空间、接头和电源要求，也不能因为藏在地下室就省略可见状态。",
+      "risks": "风险判断：误关、水压或安装不适配、断电和服务中断会改变体验，自动止水也无法处理外部洪水或屋顶漏雨。用户需要明确人工恢复与专业维护，不能把厂商保险权益或识别能力当作任何情况下不发生水损的保证。",
+      "opportunity": "机会假设：可以围绕高可解释性的异常确认和快速恢复验证，先比较仅报警与报警加止水的增量。若用户无法改管，其他轻量方案更适合；应从真实安装和误关成本判断方向，不以全部住宅数量或保险宣传推导市场规模。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭水损主动干预是明确场景，区别于普通水浸提醒；施工、管路和误关成本限制普遍部署，不能仅因AI认定蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "管路连接与阀体",
+        "detail": "安装于住宅冷水总管内，具备实际关闭能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "流量压力感知",
+        "detail": "采集管路状态用于模式与异常判断。",
+        "evidence": "official"
+      },
+      {
+        "name": "止水执行",
+        "detail": "将判断转换为阀体开闭，内部驱动未完整披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地控制与联网",
+        "detail": "保存近期学习结果，连接应用通知。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源与安装服务",
+        "detail": "需要附近电源及专业管路安装，附加探头非AI核心。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Moen Flo官方当前购买配置",
+        "url": "https://flo.moen.com/products/flo-smart-water-monitor-shutoff-enhanced-bundle",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "实际打开一次购买、服务套餐和900-006管径说明，区分购买与36个月服务承诺。"
+      },
+      {
+        "title": "Moen FloSense官方技术介绍",
+        "url": "https://flo.moen.com/pages/flo-smart-water-monitor",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "demand"
+        ],
+        "note": "实际打开FloSense AI学习与自动止水，宣传减损百分比不作独立实测。"
+      },
+      {
+        "title": "Moen官方标准安装说明",
+        "url": "https://www.moen.com/pages/learn-about-moen-flo-standard-installation",
+        "kind": "official-spec",
+        "supports": [
+          "architecture",
+          "risks"
+        ],
+        "note": "已打开，住宅冷水总管、电源、无线及专业安装条件。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "yarbo-y40-snow-blower-gen2",
+    "name": "Yarbo Y40 Core + Snow Blower Gen 2",
+    "brand": "Yarbo",
+    "category": "garden",
+    "tagline": "针对家庭车道和人行路径持续除雪的模块化机器人",
+    "officialUrl": "https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module",
+    "status": "on_sale",
+    "statusEvidence": "官方当前商品页和机器人除雪分类提供US$6199购买入口，公开商品数据available=true；原旧snow-blower链接已转到新分类，当前按Y40与第二代除雪模块记录。",
+    "regions": [
+      "美国官网销售",
+      "其他地区需核对当地型号"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌有美国、加拿大、欧洲等区域入口，但本次仅确认当前美站Y40＋Gen2配置；未核到中国大陆官方零售和安装支持。"
+    },
+    "price": {
+      "text": "美站当前 US$6,199",
+      "note": "含Y40 Core与Snow Blower Gen2代表配置；不重复计算Y40P、联名颜色或搭配割草模块的套装，税费与地区交期按结算。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方除雪技术文章说明AI结合降雪强度、温度及使用模式调整作业间隔与规划；RTK定位和螺旋抛雪机构本身不等于AI。",
+      "dependency": "需地图、定位基站或支持的NetRTK与应用服务；极端天气、遮挡和积雪可能要求人工处理，不保证全条件自主。"
+    },
+    "highlights": [
+      "除雪执行改变家庭冬季车道维护任务，与同底盘割草条目分组不同",
+      "模块化平台共用Core，但只为明显不同作业需求增加此条",
+      "需设定抛雪方向、禁区及路径，不能把自动调度当无需管理"
+    ],
+    "analysis": {
+      "demand": "需求假设：降雪频繁的家庭希望在雪积厚前保持车道和步行路径可用，减少每次出门推机的劳动。持续多轮作业和一次清完厚雪不同，应记录人工铲雪、清障和恢复成本，不能把覆盖面积或宣传自动化直接等同完全免维护。",
+      "userProfile": "画像推断：有私人车道、可安装停靠与定位设施且冬季重复除雪的人更匹配。偶发小雪、公共人行道和复杂停车习惯的家庭需求不同，需要有人管理抛雪方向与临时障碍，不按庭院面积或寒冷地区人口直接推算市场。",
+      "competition": "竞争判断：与手推除雪机、铲雪和外包服务竞争，差异是定位后的持续自动作业及学习调度。共用Y40底盘不代表与割草是同一任务，但Y40P和联名色不另加；应比较完整冬季维护，而非只比较马达或单次抛雪演示。",
+      "supplyChain": "供应链分析：履带移动、低温能源、进雪与抛雪机构、定位通信和外壳密封共同工作，具体供应商和BOM未披露。湿雪、冰屑、砂砾与季节存放影响可靠性，不能从普通割草部件推定除雪版本的材料、驱动和维护成本。",
+      "technology": "技术判断：官方除雪文章描述AI使用降雪与温度及长期使用模式优化间隔和路线，具体模型未公开。地图跟随、定时与回充属于常规自动化，不能混入另一代Core或割草专属感知承诺；应测试天气变化后的判断及人工恢复。",
+      "aesthetics": "审美判断：黑黄履带平台和前部抛雪口突出工具属性，工作方向与危险区域需要容易辨认。家中停靠、季节存放和模块更换影响体验，不能只看雪地行驶画面，也不应为了简洁而隐藏用户必须理解的机构与维护接口。",
+      "risks": "风险判断：湿重积雪、路边堆雪、临时车辆及定位中断可能要求接管，自动除雪不保证所有天气都可靠。用户需按说明管理场地和抛雪方向，不进行危险机械测试；官方区域购买和配置不同，不能把旧代价格或交期沿用当前Gen2。",
+      "opportunity": "机会假设：持续小量清除和可解释接管可能比极端性能更适合家庭验证，先比较整季人工劳动与外包。若雪量少或停车变化频繁，机器人未必划算；新项目应锁定具体场地，不以共享底盘可换模块推导所有家庭任务都有需求。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "自动家庭除雪属于季节性窄场景，执行机构和天气条件与割草明显不同；场地、冬季频率及人工回退决定实际机会。"
+    },
+    "architecture": [
+      {
+        "name": "Y40履带底盘",
+        "detail": "承载定位控制与移动执行，区别于Y40P。",
+        "evidence": "official"
+      },
+      {
+        "name": "Gen2进雪与抛雪",
+        "detail": "前部除雪执行模块完成摄入及定向抛出。",
+        "evidence": "official"
+      },
+      {
+        "name": "定位与环境输入",
+        "detail": "RTK或对应网络定位和环境信息支撑作业。",
+        "evidence": "official"
+      },
+      {
+        "name": "作业控制",
+        "detail": "规划路径、间隔和回充，AI部分与常规控制分开。",
+        "evidence": "official"
+      },
+      {
+        "name": "回充与应用",
+        "detail": "停靠能源与用户地图、抛雪方向和状态管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Yarbo Y40＋Snow Blower Gen2官方商品页",
+        "url": "https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture"
+        ],
+        "note": "实际打开当前型号和购买入口，公开商品数据可售；不沿用已重定向旧型号页面。"
+      },
+      {
+        "title": "Yarbo官方除雪系统比较",
+        "url": "https://www.yarbo.com/collections/robotic-snow-blower",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "risks"
+        ],
+        "note": "实际打开Y40与Y40P差异、地图与回充及需要人工处理的雪况。"
+      },
+      {
+        "title": "Yarbo官方除雪调度技术文章",
+        "url": "https://eu.yarbo.com/blogs/all/detailed-look-at-the-yarbo-remote-control-snowblower",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "实际打开，AI按降雪强度、温度及使用模式优化间隔；不将博客未独立验证性能当保证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "seergrills-perfecta",
+    "name": "SEERGRILLS Perfecta",
+    "brand": "SEERGRILLS",
+    "category": "kitchen",
+    "tagline": "以双侧垂直红外加热和学习控制处理食材表面焦化与熟度",
+    "officialUrl": "https://seergrills.com/products/perfecta-bundles",
+    "status": "preorder",
+    "statusEvidence": "官方整机US$5999可Add To Cart，页面写Now Shipping、英国按单组装，预计2026年11月发货；条款允许早期批次预订单且交期非保证，本条保守列预售。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "2026-03-12官方配送条款明确当前仅美国，阿拉斯加、夏威夷等另行安排；未开放中国大陆官方配送。"
+    },
+    "price": {
+      "text": "整机 US$5,999",
+      "note": "选择基础Perfecta含VertiGrate，不将附加支架或套装作为新品；按单组装、运费与实际交期按结算，尚未发货可依官方条款取消。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "NeuralFire官方描述强化学习结合食物及环境信号调整烤制过程；双侧垂直红外燃烧器执行加热，不应将未来披萨或旋转烤附件算作已交付。",
+      "dependency": "需要丙烷燃气和户外适配供电、操作场地；应用更新与部分功能依赖连接，型号能力与批次须核对。"
+    },
+    "highlights": [
+      "食物夹持在垂直架中，两侧红外加热，区别于普通烤箱或翻面烤架流程",
+      "公开披露英国按单手工组装，但未披露完整供应商与BOM",
+      "页面明确部分烹饪模式和附件未来发布，本条不纳入当前能力"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭户外烹饪爱好者希望更少翻面和观察，同时重复获得自己偏好的表面与熟度。垂直夹持和双侧加热改变操作流程，但装夹、预热、清洁与成品复核仍存在，不能把宣传秒数视为所有食材和全部步骤的实际完成时间。",
+      "userProfile": "画像推断：有合适户外燃气烹饪条件、频繁处理适配食材并接受高价早期设备的人更匹配。公寓、偶尔使用与习惯手工烤制的人需要不同，用户仍需确认食品和设备安全，不能只按喜欢牛排或收入推定购买需求。",
+      "competition": "竞争判断：与传统燃气烤架、红外炉和人工测温竞争，差异是垂直双侧执行和学习火候。与Brisk It的烤箱或颗粒烟熏不是单纯代次替换，但套装和未来附件不新增产品；应比较完整准备、成品与维护，而非仅看最快出炉时间。",
+      "supplyChain": "供应链分析：耐热壳体、食物夹架、红外燃烧、燃气控制、温度感知与计算交互协同，完整BOM和部件供应商未披露。官网明确英国按单组装，仅能确认组装声明；不能推定全部零件英国制造或把控制主板成本当整机成本。",
+      "technology": "技术判断：官方明确强化学习和食物环境传感作为NeuralFire组成，模型训练与独立性能未完整公开。加热控制与食品安全需分开验证，未来模式仍有限制，不能把宣传最佳结果、全部食物类型或尚未发货附件写成现售能力。",
+      "aesthetics": "审美判断：台面式宽体金属外壳和垂直食物架强调厨房工具属性，控制屏帮助选择偏好。真正使用中油脂、夹架拆洗、燃气软管和户外摆位影响观感，不能只看光洁产品图，也不应用炫目火焰替代清楚的操作状态。",
+      "risks": "风险判断：高热、燃气、食材厚度与装夹条件要求严格遵循说明，AI不能保证任何食物自动达到安全状态。按单组装交期可能变化，部分模式待更新；目录不提供绕过保护或危险烤制实验，地区配送和服务也不能从发布会推定。",
+      "opportunity": "机会假设：可从高频而可重复的食材任务验证成品一致和人工观察减少，再判断学习模型的增量。若清洁和准备抵消节省，传统烤具更合适；应依据实际使用和批次稳定性判断，不以最快烤制宣传或高价定位直接推算市场空间。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "高端家庭红外自动烤制是窄场景，执行机制与普通烤架明显不同；价格、燃气场地及早期交付限制受众，不视为已验证蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "VertiGrate食物架",
+        "detail": "可取出的垂直夹持架固定食材。",
+        "evidence": "official"
+      },
+      {
+        "name": "双侧红外加热",
+        "detail": "公开双垂直红外燃烧器，实际气路不作概念重建。",
+        "evidence": "official"
+      },
+      {
+        "name": "食物环境感知",
+        "detail": "公开厚度、表面和温度类信号供控制使用。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与交互",
+        "detail": "NeuralFire学习控制和触屏偏好输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源与安全边界",
+        "detail": "丙烷、外接电源与停止保护功能，内部布置未完整披露。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Perfecta官方当前订购页",
+        "url": "https://seergrills.com/products/perfecta-bundles",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "实际打开基础整机加购、按单组装与2026年11月预计发货；未来附件能力未计入。"
+      },
+      {
+        "title": "SEERGRILLS NeuralFire官方介绍",
+        "url": "https://seergrills.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "supplyChain"
+        ],
+        "note": "实际打开强化学习、双侧垂直红外及英国手工组装说明，性能宣传不作独立保证。"
+      },
+      {
+        "title": "Perfecta官方配送与预订条款",
+        "url": "https://seergrills.com/pages/shipping-and-returns-policy",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions",
+          "china",
+          "risks"
+        ],
+        "note": "实际打开2026-03-12版本，美国配送、预售可取消、交期非保证；按早期批次预售保守标注。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "preorder"
+  },
+  {
+    "id": "tempest-home-weather-station",
+    "name": "Tempest Weather Station",
+    "brand": "WeatherFlow-Tempest",
+    "category": "garden",
+    "tagline": "把自家庭院观测接入机器学习校准和微尺度天气预测",
+    "officialUrl": "https://shop.tempest.earth/products/tempest",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示US$349、In stock与Add to cart；公开商品数据available=true，页面明确该系统供个人家庭使用，商用需另选TempestOne。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "英国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "当前官方商店页明确配送美国、加拿大和英国，未列中国大陆；不能将可分享全球天气页面等同大陆官方销售。"
+    },
+    "price": {
+      "text": "US$349",
+      "note": "当前个人家庭系统价格，官方称个人数据和预测无订阅费；不混入US$649的商用TempestOne，额外安装件与运费按地区。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Nearcast AI融合本地观测和周边气象数据，进行数据质量校验、仪器校准及数值预测偏差修正；传感器测量本身不等于AI。",
+      "dependency": "户外站通过所含Hub连接家庭Wi-Fi，预测依赖品牌数据平台与网络；不能视作完全离线预测或官方灾害预警替代。"
+    },
+    "highlights": [
+      "面向家庭真实院落环境的观测与预测，区别于普通手机天气应用",
+      "超声测风与触觉降雨感知没有传统旋转风杯",
+      "只收家庭版，商用版本和安装套件不计入消费新品"
+    ],
+    "analysis": {
+      "demand": "需求假设：庭院用户希望知道自家而非远处机场的风雨和微气候，用于户外计划及园艺管理。价值应由可用观测和实际决策验证，不能把更多天气指标或厂商更准承诺当作独立结果，也不能以预测代替当地权威灾害警报。",
+      "userProfile": "画像推断：有合适户外安装位置、家庭网络并愿意理解气象条件的个人爱好者更匹配。阳台遮挡、邻屋和灌溉喷溅会影响观测，租房或只想查明日天气的人需求不同，不能只按有庭院或喜爱户外推定价值。",
+      "competition": "竞争判断：与普通气象站、免费天气应用和附近公共观测竞争，差异是自有数据进入学习校准与局地预测。家庭版和商用TempestOne不混同，安装附件不另算新品；应比较真实安装下的增量，而非简单罗列指标。",
+      "supplyChain": "供应链分析：多种气象感知、太阳能能源、户外密封、安装结构、无线Hub和数据平台共同工作，整机工厂和完整BOM未披露。污物、遮挡和长期漂移影响质量，不能把一个温湿度芯片的能力当成整套气象系统可靠性。",
+      "technology": "技术判断：官网Nearcast明确AI与机器学习处理观测校验、校准和模型偏差，不只是联网显示数字。具体模型未公开，周边站密度与安装质量会改变结果；测量、推导指标和预测应分开，不把宣传保证变成全地点精度承诺。",
+      "aesthetics": "审美判断：小型柱状传感头和无运动部件的造型适合庭院工具，真正体验包括安装杆、电源条件与室内Hub。应保留真实放置要求而非只看白底产品照，不能为了藏在屋檐下而牺牲观测条件，也不把应用复杂图表当成易用。",
+      "risks": "风险判断：遮挡、污染、网络和区域数据条件会影响观测与预测，用户应能辨认缺失与异常。不能将个人气象站当作唯一灾害安全依据；地区无线与销售支持需核对，官网说全球平台可访问并不保证大陆渠道和服务可用。",
+      "opportunity": "机会假设：可以从园艺用水、户外活动或特定院落微气候的明确问题验证，而不追求所有家庭都建气象站。比较已有天气服务是否足够，记录数据改变了哪些决定；不以传感变量数量或气象市场总体规模推定消费需求。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭微气候观察是明确兴趣与园艺场景，AI服务与物理站组合有差异；安装和解释要求限制泛用户采用。"
+    },
+    "architecture": [
+      {
+        "name": "环境感知头",
+        "detail": "测量温湿、气压、风雨与光照等气象信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "太阳能与能源",
+        "detail": "户外太阳能供电，当前页面另说明T26能源改进，具体交付批次需确认。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装结构",
+        "detail": "底座或杆装将设备置于合适观测位置。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭Hub",
+        "detail": "将设备数据连接Wi-Fi与应用。",
+        "evidence": "official"
+      },
+      {
+        "name": "Nearcast数据服务",
+        "detail": "机器学习校准、数据融合及局地预测服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tempest家庭气象站官方商店",
+        "url": "https://shop.tempest.earth/products/tempest",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "regions",
+          "china"
+        ],
+        "note": "实际打开现货和家庭使用限定，公开商品可售；当前配送美加英，未混入商用品。"
+      },
+      {
+        "title": "Nearcast AI官方技术介绍",
+        "url": "https://business.tempest.earth/nearcast-technology",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "实际打开AI观测校验、校准和数值模型偏差修正；虽位于业务站，页面明确全部Tempest应用使用该技术，不复制商用权益。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "swan-beauty-smart-mirror",
+    "name": "SWAN Beauty Smart Mirror",
+    "brand": "SWAN Beauty",
+    "category": "personal-care",
+    "tagline": "把面部特征映射与AR化妆指引叠加到家中镜面",
+    "officialUrl": "https://www.swanbeauty.com/products/swan-mirror",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-04实际浏览白色型号页面US$795且ADD TO CART可用；抓取模板同时带Sold out字样，已以实时选中白色控件状态核实。未购买或提交资料。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方Shipping Policy明确目前仅美国配送，国际运输尚未开放；未确认中国大陆官方销售和服务。"
+    },
+    "price": {
+      "text": "US$795",
+      "note": "含12个月SWAN会员，此后页面列US$9.95/月或US$94/年；不同外壳色不另算产品，税费与运费按结算。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方描述AI皮肤外观分析和面部映射，结合AR把化妆步骤指引叠加到镜面；这些是消费美妆参考，不是皮肤病诊断。",
+      "dependency": "需供电、联网及相应应用会员功能；模型位置、不同功能离线边界未完整披露，厂商合作背书不等于独立验证。"
+    },
+    "highlights": [
+      "将面部映射后的操作指引放在实际镜面而非只有手机预览",
+      "可记录外观变化并提供个性化内容，不能用分数定义美丽或健康",
+      "实际当前白色零售已核实，型号图片与旧宣传界面分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：美妆学习者希望把教程中的位置对应到自己脸部，镜面AR可减少在手机和镜子间来回切换。价值应看能否理解步骤和减少操作困惑，不能把更多皮肤评分或推荐产品等同更好看，也不能把消费扫描写成专业诊断。",
+      "userProfile": "画像推断：愿意在固定梳妆位置使用联网设备、学习技巧并管理照片与会员的人更匹配。只需普通照明镜、偏好快速简单流程或不愿上传图像的人需求不同，不应依据性别、年龄或外貌评价给用户分配美妆需求。",
+      "competition": "竞争判断：与普通灯镜、手机AR试妆和视频教程竞争，差异是面部位置映射在真实镜面上的指导。外壳颜色不另计创新，皮肤趋势与化妆指引也需分别评估；不能只凭高价、OLED或品牌专家宣传就认定更有效。",
+      "supplyChain": "供应链分析：显示、摄像、照明、音频、支架、外壳与会员软件共同构成终端，实际整机代工和BOM未披露。官网披露部分面板与传感品牌仍需型号范围核查，不从品牌名称推导所有部件或精确成本，色彩一致与隐私同样重要。",
+      "technology": "技术判断：AI分析面部外观并结合AR定位指导，照明、姿态和相机输入会影响结果。不同页面列出的皮肤指标不完全一致，本条不把某个数量当稳定规格；模型细节与独立精度未公开，外观评分不能代表医学健康状态。",
+      "aesthetics": "审美判断：白色圆角镜体与金属后支架保持台面用品的熟悉形态，边缘照明较克制。实际体验还包括反光、指纹、镜头可见性和供电线，不能仅看渲染正面，也不应为了漂亮界面让用户难以理解图像正在被分析。",
+      "risks": "风险判断：光线与姿态误差可能改变分数，推荐内容也可能与商品销售相互影响，用户不应据此形成外貌压力或医疗结论。会员、服务更新及图像权限需要清楚，当前仅美国配送不能借国际品牌传播推成国内官方可购。",
+      "opportunity": "机会假设：可靠的步骤定位和用户自主选择可能比更多皮肤分数更有持续价值，先比较普通镜加教程的真实效果。记录是否再次使用指导、维护和订阅原因，不以美妆总人口、焦虑或一次扫描的新鲜感预测市场规模。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "面向家庭镜前学习与个性化美妆的专用终端，任务比普通镜子明确；高价、会员和图像隐私限制普遍采用。"
+    },
+    "architecture": [
+      {
+        "name": "镜面与触控显示",
+        "detail": "实体镜面屏提供查看与交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "照明与图像输入",
+        "detail": "可调照明和镜头提供面部图像。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与音频",
+        "detail": "计算连接及音频交互功能层，内部布置不推定。",
+        "evidence": "official"
+      },
+      {
+        "name": "支撑与外壳",
+        "detail": "铝制外壳和可调后支架形成桌面使用结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI与AR应用",
+        "detail": "外观分析、面部映射和步骤指引服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SWAN官方现售商品页",
+        "url": "https://www.swanbeauty.com/products/swan-mirror",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际浏览选中Matte White的有效加购控件，读取会员费用；不以抓取模板Sold out文字直接判断全型号缺货。"
+      },
+      {
+        "title": "SWAN官方AI与AR体验说明",
+        "url": "https://www.swanbeauty.com/pages/experience",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "aesthetics"
+        ],
+        "note": "实际打开AI外观分析和面部相关指导；营销指标数量不一致，未作为医疗或准确度声明。"
+      },
+      {
+        "title": "SWAN官方配送政策",
+        "url": "https://www.swanbeauty.com/policies/shipping-policy",
+        "kind": "official-store",
+        "supports": [
+          "regions",
+          "china",
+          "status"
+        ],
+        "note": "实际浏览仅美国配送和常规处理时间，国际地区尚未开放。"
+      },
+      {
+        "title": "SWAN官方镜体与交互结构",
+        "url": "https://www.swanbeauty.com/pages/mirror",
+        "kind": "official-spec",
+        "supports": [
+          "architecture",
+          "aesthetics"
+        ],
+        "note": "实际打开铝制外壳、可调后支架、无线连接；具体电子部件不从外形推定。"
+      },
+      {
+        "title": "SWAN当前硬件与会员技术页",
+        "url": "https://www.swanbeauty.com/pages/experience-1",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "supplyChain",
+          "price"
+        ],
+        "note": "实际打开厂商点名Samsung OLED与Sony图像传感器，未披露具体部件型号；后续候选链接不得冒充实际整机供应商。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "cradlewise-smart-crib",
+    "name": "Cradlewise Convertible Smart Bassinet & Crib",
+    "brand": "Cradlewise",
+    "category": "sleep",
+    "tagline": "通过视觉与声音感知觉醒迹象并以床体弹动回应的婴儿床",
+    "officialUrl": "https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1",
+    "status": "on_sale",
+    "statusEvidence": "官方当前商品页US$1799并有Buy Now与Order Now，按用户选择月份发货；FAQ说明可选择即时或规划月份，不是仅为未来下单机会支付定金。",
+    "regions": [
+      "美国本土连续州",
+      "加拿大"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方购买页说明仅美国本土连续州与加拿大配送；未确认中国大陆官方销售、电源配置或售后。"
+    },
+    "price": {
+      "text": "当前美站 US$1,799",
+      "note": "原价US$1999，提前选择交付月份可能另减；含两年Nurture Core，之后Core页面为US$120/年，Plus另收费；免费层保留基础SmartSoothe，勿误称停订即无法弹动。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "相机与声音感知宝宝活动和早期觉醒迹象，SmartSoothe学习睡眠模式并触发弹动与声音安抚；不等于医疗监测或替代照护。",
+      "dependency": "App和远程查看依赖网络与电源；会员层级影响历史、多人和附加内容，基础智能及手动弹动声音在免费层保留。"
+    },
+    "highlights": [
+      "感知后执行床体安抚，区别于仅记录或报警的婴儿摄像头",
+      "可从bassinet转为crib，转换按官方体重和发育条件，不以年龄一刀切",
+      "当前会员说明保留免费核心安抚，历史数据与多人权限分层"
+    ],
+    "analysis": {
+      "demand": "需求假设：新生家庭希望减少反复起身安抚和分散监控设备的操作，床体回应能够把观察接到动作。价值必须以实际照护负担和适用性验证，不能从宣传睡更久推导每个宝宝有效，也不能把机器安抚等同家长无需观察和照护。",
+      "userProfile": "画像推断：有适合摆放与供电网络、愿意理解配置及成长转换条件的家庭较匹配。宝宝对动作和声音的反应不同，实际照护者需共同了解停止与接管，不按收入、育儿焦虑或首次为人父母直接推定购买需求。",
+      "competition": "竞争判断：与普通婴儿床加监控器、人工安抚和其他响应式摇床竞争，差异是视觉早期迹象与学习后的弹动。不同交期、会员和配件不拆成新品；应比较完整照护流程，不能只比较设备功能数或厂商声称延长的睡眠时间。",
+      "supplyChain": "供应链分析：床框网面、床垫支撑、运动执行、音视频和控制服务共同构成产品，实际工厂和BOM未披露。机械边界、装配和可清洗件与模型一样关键，不能用普通摄像头或婴儿床成本相加就推导整机成本与安全性。",
+      "technology": "技术判断：官方SmartSoothe描述学习睡眠模式并响应早期活动，相机、声音、弹动和人工控制需要协调。模型结构和独立效果未完整公开，不能把每次动作都当作正确理解需求，也不将睡眠记录视为疾病诊断或生命体征监护。",
+      "aesthetics": "审美判断：浅木框与网面接近家居婴儿床，集成观察杆减少额外夹装，但实际空间、线缆和清洁仍影响体验。设计应让照护者清楚知道当前模式和停止方法，不因温和材质与安静动作而弱化对设备状态的理解。",
+      "risks": "风险判断：年龄、体重与发育状态会改变可用模式，用户须遵循当前官方说明与专业建议，不能只看宣传年龄上限。异常哭闹、网络或电源中断仍需照护者处理，AI不替代安全睡眠安排；跨境销售和服务也不能由官网可访问推定。",
+      "opportunity": "机会假设：可围绕观察到回应的低步骤流程验证，分别评估视听记录与机械安抚是否减少实际负担。若配置和清洁增加劳动，应优先改进基础体验；不以新生儿数量、焦虑或推荐故事直接推算市场，更不承诺统一睡眠结果。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "响应式婴儿安抚有明确阶段性需求，感知和床体执行结合不同于普通监控；价格、使用阶段与照护条件限制受众。"
+    },
+    "architecture": [
+      {
+        "name": "床体与支撑",
+        "detail": "真实床框、网面和适配床垫构成睡眠空间。",
+        "evidence": "official"
+      },
+      {
+        "name": "视听观察",
+        "detail": "集成监控相机和声音输入观察活动迹象。",
+        "evidence": "official"
+      },
+      {
+        "name": "弹动执行",
+        "detail": "床体安抚动作功能，内部机构不假造。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音与控制",
+        "detail": "偏好设置、手动和智能模式。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用与学习服务",
+        "detail": "SmartSoothe及睡眠记录，会员按功能划分。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Cradlewise当前官方商品页",
+        "url": "https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "regions",
+          "china"
+        ],
+        "note": "实际打开US$1799购买与按月交付、美加配送；不把融资、优惠或认证宣传当独立效果。"
+      },
+      {
+        "title": "Cradlewise官方FAQ",
+        "url": "https://cradlewise.com/en-US/faq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "risks"
+        ],
+        "note": "实际打开响应式弹动、停止和成长转换说明；不把厂商自述视作本研究安全或效果测试。"
+      },
+      {
+        "title": "Cradlewise Nurture当前功能与会员",
+        "url": "https://cradlewise.com/en-US/nurture",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "price",
+          "risks"
+        ],
+        "note": "实际打开SmartSoothe学习模式、两年Core及免费层仍保留智能安抚，会员不混同全部核心能力。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "aveine-wine-aerator",
+    "name": "Aveine Wine Aerator",
+    "brand": "Aveine",
+    "category": "kitchen",
+    "tagline": "从酒标识别与推荐连接到逐杯主动充氧的便携设备",
+    "officialUrl": "https://www.aveine.com/products/aveine",
+    "status": "on_sale",
+    "statusEvidence": "官方当前商品页€359及Add to cart；FAQ明确网站购买、从法国发货并支持国际配送，型号为当前Aveine aerator，不混入旧ES或旅行套装。",
+    "regions": [
+      "法国",
+      "欧洲",
+      "其他国际地区按结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官网FAQ声明全球配送，但本次未验证中国大陆结算、进口与售后；不将中文经销信息或历史展会作为当前国内官方库存证据。"
+    },
+    "price": {
+      "text": "官方当前 €359",
+      "note": "同一设备可单独购买，刻字、携带包和套装不另算新品；实际税费与跨境运费以地区结算为准，旧2021年价格不沿用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方技术资料明确使用AI和数据库识别手机扫描的酒标，再把推荐充氧设置传给设备；推荐规则含专家决策树，不能将全部算法都称为机器学习。",
+      "dependency": "手机识别与数据库服务需要相应应用连接，设备触屏可手动设置；具体当前识别模型版本未披露，AI不在瓶口设备上直接嗅闻或品尝。"
+    },
+    "highlights": [
+      "设备在倒出酒液时主动注入空气，与仅展示搭配建议的App不同",
+      "识别输入来自手机标签照片，不应虚构酒液光谱或气味传感器",
+      "用户可手动调整；不把“等同数小时醒酒”宣传当独立化学或口感验证"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人品鉴爱好者希望逐杯调整充氧并减少提前准备醒酒器的步骤，标签识别帮助选择起点。价值应由本人感受和重复使用验证，不能把设备刻度等同精确经过相同小时数，也不能用AI推荐宣称客观提升所有酒液品质。",
+      "userProfile": "画像推断：愿意清洁设备、使用应用并尝试同瓶不同设置的成年个人爱好者较匹配。偶尔饮用或偏好简单工具的人需求不同，瓶口与保养也限制场景；不根据消费能力或身份推定偏好，不把使用设备当作增加饮酒的理由。",
+      "competition": "竞争判断：与醒酒器、被动充氧器、手动经验和手机识酒应用竞争，差异是识别后连接可调主动注气。当前Original与旧ES、刻字或附件不重复计数；应比较便利、清洗与实际偏好，不把联网本身或宣传小时数当AI优势。",
+      "supplyChain": "供应链分析：瓶口密封、液体通道、注气执行、触屏、电池连接与应用数据库共同工作，具体整机工厂和BOM未披露。材料接触、残留和可清洗性影响长期使用，不能凭技术资料一个芯片型号推导整套成本或实际制造伙伴。",
+      "technology": "技术判断：官方2021技术资料明确酒标AI识别，当前FAQ保留扫描与推荐路径，并解释专家决策树及相似酒匹配。应区分视觉识别、规则建议和空气注入，当前模型细节未公开，不能虚构气味传感、分子检测或生成新酒味能力。",
+      "aesthetics": "审美判断：金属便携机身与小触屏接近酒具，安装在瓶口后会改变重心和倒酒手感。清洗水迹、出液残留与充电底座影响观感，应展示真实比例和手持操作，而不是只用高端餐桌场景暗示专业效果或普遍审美优越。",
+      "risks": "风险判断：瓶型不适配、清洗不足、服务变化和识别错误可能影响体验，用户仍需确认材料与使用说明。AI建议属于品鉴参考，不保证健康或适合任何人，当前国际配送也需具体地区确认，不能沿用旧宣传的保修或价格。",
+      "opportunity": "机会假设：可从逐杯可调和容易复现个人偏好的场景验证，不必追求识别所有酒款。若普通醒酒器已足够，应用和充电可能增加负担；应记录维护与再使用，不用酒类总市场或味觉权威叙事直接推导智能硬件需求。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人逐杯充氧是小众兴趣任务，视觉识别到实体注气具有工作流差异；清洗、瓶型及偏好主观性限制广泛采用。"
+    },
+    "architecture": [
+      {
+        "name": "瓶口接口",
+        "detail": "与适配瓶口连接并形成倒酒路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "主动充氧",
+        "detail": "倒出时注入空气，具体内部通路不作假拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "触屏控制",
+        "detail": "本机可选择或调整充氧设置。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源与蓝牙",
+        "detail": "电池、充电底座和应用连接。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机识别与推荐",
+        "detail": "标签AI识别、数据库及专家规则建议形成软件层。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Aveine当前官方商品页",
+        "url": "https://www.aveine.com/products/aveine",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture"
+        ],
+        "note": "实际打开€359加购与当前设备说明；不沿用旧ES或套装价格。"
+      },
+      {
+        "title": "Aveine官方FAQ",
+        "url": "https://www.aveine.com/pages/faq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "regions",
+          "china",
+          "risks"
+        ],
+        "note": "实际打开扫描、专家决策树、相似酒匹配及法国国际配送；规则不全部当AI。"
+      },
+      {
+        "title": "Aveine官方技术媒体资料",
+        "url": "https://cdn.aveine.paris/website/press-kit-en.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "实际打开2021年官方文档，第5页明确酒标识别用AI和数据库；仅用于历史技术路径，当前价格、保修与销售以现页为准。"
+      },
+      {
+        "title": "Aveine当前应用路径",
+        "url": "https://www.aveine.com/pages/mobile-application",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "实际打开现有标签扫描、数据库和推荐控制路径；未声称当前模型版本或新聊天功能已验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

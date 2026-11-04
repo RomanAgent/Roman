@@ -58,5 +58,268 @@
     "notes": [
       "两张源图均实际查看，来自当前官网同一外形；未改色或重绘。"
     ]
+  },
+  {
+    "id": "mudra-link",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/mudra-link/product.png",
+        "sourceUrl": "https://mudra-band.com/products/mudra-link",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0781/7950/0332/files/link_01_02B.png?v=1725545131&width=1200",
+        "caption": "Mudra Link官方内侧传感与织物腕带产品图",
+        "alt": "Mudra Link官方内侧传感与织物腕带产品图",
+        "credit": "Mudra · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/mudra-link/reference.png",
+        "sourceUrl": "https://mudra-band.com/products/mudra-link",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0781/7950/0332/files/link04_87cb0fb9-b772-4124-9a3d-c1d8cc28af6b.png?v=1725543501&width=1200",
+        "caption": "Mudra Link官方另一角度，显示内侧接触区域",
+        "alt": "Mudra Link官方另一角度，显示内侧接触区域",
+        "credit": "Mudra · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "两张源图已实际查看，均为独立Link腕带；未将Apple Watch Band型号混入。"
+    ]
+  },
+  {
+    "id": "neurable-one",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/neurable-one/product.jpg",
+        "sourceUrl": "https://www.neurable.com/products/neurable-one",
+        "sourceImageUrl": "https://cdn.prod.website-files.com/68236712486104f66d06ca97/6abe0e29f8aceb5f40c0950a_Neurable%20One%20Straight%20On.jpg",
+        "caption": "Neurable One官方正面产品图，耳垫显示织物传感区域",
+        "alt": "Neurable One官方正面产品图，耳垫显示织物传感区域",
+        "credit": "Neurable · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/neurable-one/reference.jpg",
+        "sourceUrl": "https://www.neurable.com/products/neurable-one",
+        "sourceImageUrl": "https://cdn.prod.website-files.com/68236712486104f66d06ca97/6abe0e2a2ce842efff4ad6fb_Neurable%20One%20Cup%20Sensor%20Detail%20White.jpg",
+        "caption": "Neurable One官方耳垫干式EEG传感区域细节",
+        "alt": "Neurable One官方耳垫干式EEG传感区域细节",
+        "credit": "Neurable · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "两张图片已实际查看并对应当前Neurable One页面，未借用已停售MW75型号图。"
+    ]
+  },
+  {
+    "id": "biped-noa",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/biped-noa/product.png",
+        "sourceUrl": "https://biped.ai/",
+        "sourceImageUrl": "https://biped.ai/assets/BIP_AICo_DeviceRendering.67_1754687589450-p_oPnhQ0.png",
+        "caption": "NOA官方双前舱与肩部结构产品图",
+        "alt": "NOA官方双前舱与肩部结构产品图",
+        "credit": "biped.ai · 官方产品素材",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/biped-noa/reference.jpg",
+        "sourceUrl": "https://biped.ai/",
+        "sourceImageUrl": "https://biped.ai/assets/Noa%20Device%20Christmas%20Wishlist_1754690054772-74yPP2DX.jpg",
+        "caption": "NOA官方穿戴场景参考，展示肩部和前舱位置",
+        "alt": "NOA官方穿戴场景参考，展示肩部和前舱位置",
+        "credit": "biped.ai · 官方产品素材",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "两张源图已逐张查看，与NOA手册形态一致；未将站点其他眼镜型号素材混入。"
+    ]
+  },
+  {
+    "id": "withings-u-scan-nutrio",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/withings-u-scan-nutrio/product.jpg",
+        "sourceUrl": "https://www.withings.com/en-us/products/u-scan-nutrio",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0978/0169/9702/files/u-scan-nutrio.jpg?v=1782308141&width=1200",
+        "caption": "U-Scan Nutrio官方贝壳形电子读取器",
+        "alt": "U-Scan Nutrio官方贝壳形电子读取器",
+        "credit": "Withings · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "official-structure",
+        "path": "assets/hardware/withings-u-scan-nutrio/reference.jpg",
+        "sourceUrl": "https://www.withings.com/en-us/products/u-scan-nutrio",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0978/0169/9702/files/u-scan-exploded-view.jpg?v=1782308142&width=1200",
+        "caption": "U-Scan官方外壳与可更换卡匣结构示意，不代表全部内部电路",
+        "alt": "U-Scan官方外壳与可更换卡匣结构示意，不代表全部内部电路",
+        "credit": "Withings · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/withings-u-scan-nutrio/reference-side.jpg",
+        "sourceUrl": "https://www.withings.com/en-us/products/u-scan-nutrio",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0978/0169/9702/files/u-scan-side.jpg?v=1782308488&width=1200",
+        "caption": "U-Scan Nutrio官方侧面外形参考",
+        "alt": "U-Scan Nutrio官方侧面外形参考",
+        "credit": "Withings · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "源图逐张实际查看，按当前具体型号核对；未改色或裁切，宣传界面与效果文案不作为实测。"
+    ]
+  },
+  {
+    "id": "kardiamobile-6l",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/kardiamobile-6l/product.jpg",
+        "sourceUrl": "https://kardia.com/products/kardiamobile6l",
+        "sourceImageUrl": "https://kardia.com/_next/static/media/kardiamobile-6l-1.294dd4fd.jpg",
+        "caption": "KardiaMobile 6L官方手持产品图，正面两处接触电极",
+        "alt": "KardiaMobile 6L官方手持产品图，正面两处接触电极",
+        "credit": "AliveCor · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/kardiamobile-6l/reference.jpg",
+        "sourceUrl": "https://kardia.com/products/kardiamobile6l",
+        "sourceImageUrl": "https://kardia.com/_next/static/media/kardiamobile-6l-2.ddde109a.jpg",
+        "caption": "KardiaMobile 6L官方使用场景，文字为厂商宣传",
+        "alt": "KardiaMobile 6L官方使用场景，文字为厂商宣传",
+        "credit": "AliveCor · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "源图逐张实际查看，按当前具体型号核对；未改色或裁切，宣传界面与效果文案不作为实测。"
+    ]
+  },
+  {
+    "id": "hilo-band-system",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/hilo-band-system/product.png",
+        "sourceUrl": "https://hilo.com/en-gb/products/blood-pressure-monitor",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0990/8073/3009/files/Whats_included.png?v=1779288410&width=1200",
+        "caption": "Hilo英国官网腕带、校准袖带与应用系统图",
+        "alt": "Hilo英国官网腕带、校准袖带与应用系统图",
+        "credit": "Hilo · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/hilo-band-system/reference.png",
+        "sourceUrl": "https://hilo.com/en-gb/products/blood-pressure-monitor",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0990/8073/3009/files/Band_2x_160d75fe-c925-43d6-95c1-02c5a2a8abee.png?v=1776086499&width=1200",
+        "caption": "Hilo英国版本腕带外形参考；无腕上显示屏",
+        "alt": "Hilo英国版本腕带外形参考；无腕上显示屏",
+        "credit": "Hilo · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "源图逐张实际查看，按当前具体型号核对；未改色或裁切，宣传界面与效果文案不作为实测。"
+    ]
+  },
+  {
+    "id": "looki-l1",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/looki-l1/product.jpg",
+        "sourceUrl": "https://www.looki.ai/products/looki-l1",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0690/3808/0182/files/black-1-1.webp?v=1789968633&width=1200",
+        "caption": "Looki L1官方设备与应用情境图，界面内容为示意",
+        "alt": "Looki L1官方设备与应用情境图，界面内容为示意",
+        "credit": "Looki · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/looki-l1/reference.png",
+        "sourceUrl": "https://www.looki.ai/products/looki-l1",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0690/3808/0182/files/black_01.png?v=1780413192&width=1200",
+        "caption": "Looki L1官方独立黑色设备外观参考",
+        "alt": "Looki L1官方独立黑色设备外观参考",
+        "credit": "Looki · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "源图逐张实际查看，按当前具体型号核对；未改色或裁切，宣传界面与效果文案不作为实测。",
+      "官网URL以.webp结尾但实际返回JPEG；已按图片签名保存为product.jpg，原始sourceImageUrl保持可追溯。"
+    ]
+  },
+  {
+    "id": "tapxr",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/tapxr/product.jpg",
+        "sourceUrl": "https://shop.tapwithus.com/products/tapxr-wrist-worn-keyboard-airmouse-controller-for-vr-ar-mr-tablets-pc-laptops-smartwatch-smartphones-tvs-projectors",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0765/9733/0149/files/Tap_XR_Square_Iimage.jpg?v=1774554681&width=1200",
+        "caption": "TapXR官方佩戴与手指敲击使用图",
+        "alt": "TapXR官方佩戴与手指敲击使用图",
+        "credit": "Tap Systems · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/tapxr/reference.jpg",
+        "sourceUrl": "https://shop.tapwithus.com/products/tapxr-wrist-worn-keyboard-airmouse-controller-for-vr-ar-mr-tablets-pc-laptops-smartwatch-smartphones-tvs-projectors",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0765/9733/0149/files/1d161dd6.jpg?v=1754933850&width=1200",
+        "caption": "TapXR官方另一手臂表面输入场景",
+        "alt": "TapXR官方另一手臂表面输入场景",
+        "credit": "Tap Systems · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/tapxr/reference-shape.jpg",
+        "sourceUrl": "https://shop.tapwithus.com/products/tapxr-wrist-worn-keyboard-airmouse-controller-for-vr-ar-mr-tablets-pc-laptops-smartwatch-smartphones-tvs-projectors",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0765/9733/0149/files/f5de0ba3.jpg?v=1754933850&width=1200",
+        "caption": "TapXR官方全形态示意；画面替代其他设备的宣传不作验证结论",
+        "alt": "TapXR官方全形态示意；画面替代其他设备的宣传不作验证结论",
+        "credit": "Tap Systems · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "源图逐张实际查看，按当前具体型号核对；未改色或裁切，宣传界面与效果文案不作为实测。"
+    ]
   }
 ]

@@ -1,0 +1,427 @@
+{
+  "id": "zhiyun-smooth-5s-ai",
+  "name": "ZHIYUN Smooth 5S AI",
+  "brand": "ZHIYUN 智云",
+  "category": "gimbals",
+  "tagline": "把磁吸AI追踪模块、手机稳定与补光组合成个人拍摄工具。",
+  "officialUrl": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+  "audience": "prosumer",
+  "saleMode": "retail",
+  "status": "on_sale",
+  "statusEvidence": "官方Combo商品页有加购，公开系列商品数据Combo可售；同页部分预售模板文案与库存显示并存，交期仍按具体结算确认。",
+  "regions": [
+    "美国官方店",
+    "欧洲官方配送市场"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+  },
+  "price": {
+    "text": "Combo约US$153（商品数据促销参考）",
+    "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "AI追踪模块识别人脸或拍摄主体并联动三轴云台；不同套装是否包含追踪模块和补光附件必须核对。",
+    "dependency": "主要功能取决于安装的追踪器、手机和App组合。标准、Combo、Pro合并为一款，不把未随附的AI附件写成所有包装标配。"
+  },
+  "highlights": [
+    "视觉输入",
+    "跟踪计算",
+    "三轴执行"
+  ],
+  "analysis": {
+    "demand": "需求假设：独自拍摄者希望获得稳定画面、自动跟随和可用的补光，而不搭建复杂机位。组合是否更省事取决于真实拍摄环境；只增加硬件部件并不必然减少用户需要操作的步骤。",
+    "userProfile": "画像推断：个人主播、手机视频作者以及经常录制人物内容的用户，愿意为可控画面携带配件。只偶尔随手记录的人可能更看重轻便，不能把手机摄影兴趣直接等同于购买高阶云台。",
+    "competition": "竞争判断：与Hohem、Insta360、DJI及普通自动追踪支架竞争，价格带和兼容性都很拥挤。差异需要落到独立AI模块、操作手感及补光组合，而不是只强调同类产品普遍具备的防抖。",
+    "supplyChain": "已公开磁吸追踪与灯光模块、三轴结构和电池类别，具体器件供应链未知。分析关键是夹具兼容、磁吸连接、电机调校、灯光散热和装配一致性，不推定厂商的真实采购合同与BOM。",
+    "technology": "技术链路由视觉识别、运动预测和三轴控制组成，追踪不等于相机本身的对焦。独立模块与App模式的兼容边界需要按所买套装确认，本轮没有在不同光照和遮挡下测试表现。",
+    "aesthetics": "设计观察：透明或半透明细节与外接模块突出技术工具感，补光也改变了握持重量。收纳、装配和竖屏转向是否自然，是比单张官方渲染图更值得观察的消费体验。",
+    "risks": "风险在于套餐复杂、同页促销与交期模板混杂，以及购买后发现缺少AI模块。兼容的手机尺寸和操作系统需要核对；没有现场测试时不能接受所有极限续航和追踪承诺为事实。",
+    "opportunity": "可验证的市场空间是稳定加追踪加灯光能否形成低摩擦的单人拍摄流程。建议比较同一任务中的装配时间和补拍次数，本轮未进行成片率测试或推断品牌市场占有率。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "手机云台属于竞争密集的消费创作工具，AI附件是体验差异，不意味着冷门蓝海。"
+  },
+  "architecture": [
+    {
+      "name": "视觉输入",
+      "detail": "AI跟踪模块或应用视觉输入识别目标。",
+      "evidence": "official"
+    },
+    {
+      "name": "跟踪计算",
+      "detail": "将目标位置转换为构图和运动决策。",
+      "evidence": "official"
+    },
+    {
+      "name": "三轴执行",
+      "detail": "电机和关节保持拍摄方向，实际表现需测试。",
+      "evidence": "official"
+    },
+    {
+      "name": "控制与连接",
+      "detail": "屏幕、按键或App提供个人操作入口。",
+      "evidence": "official"
+    },
+    {
+      "name": "电池与结构",
+      "detail": "供电、夹具与配重影响持续拍摄。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Smooth 5S AI Combo 官方店",
+      "url": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "technology"
+      ],
+      "note": "按含AI模块的Combo理解功能，不另计套装。"
+    },
+    {
+      "title": "Smooth 5S AI 官方商品数据",
+      "url": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai.js",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price"
+      ],
+      "note": "核查时Combo available=true，价格以当前地区结算为准。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "deepDive": {
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Smooth 5S AI Combo 官方店",
+        "url": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：status,technology。按含AI模块的Combo理解功能，不另计套装。"
+      },
+      {
+        "id": "s2",
+        "title": "Smooth 5S AI 官方商品数据",
+        "url": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai.js",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：status,price。核查时Combo available=true，价格以当前地区结算为准。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "需求假设：单人手机拍摄同时需要稳定与跟随",
+          "text": "Smooth 5S AI组合面向独自拍人物内容，希望画面稳定并能自动跟随，部分场景还需要补光。需求应分别验证三项是否同时发生，不能把硬件部件增加当作操作减少，也不以AI名称推断偶尔随手拍的用户都需要高阶云台。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "价值判断：组合只有减少布置才有意义",
+          "text": "追踪器和灯光可以在同一设备上组织，但也需要安装、选择模式和管理重量，用户仍要判断构图与光线。研究应比较完整准备流程，不只看功能列表，也不能把补光存在视为所有环境画面更好，低干扰操作与可控结果需要一起验证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证方案：完成真实人物脚本与光线任务",
+          "text": "让用户在常用手机和拍摄应用中录制一段内容，比较普通支架、无跟踪稳定和含模块组合，记录装配、补拍与灯光调整。保持内容目标一致，不只在理想照明里演示追踪，也不以一段成功视频证明所有手机和环境兼容。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "画像假设：愿意携带配件的手机内容作者",
+          "text": "较匹配者经常拍讲解、直播或人物视频，愿意为了可控画面管理云台、模块和灯光，可能比普通随手记录更有准备习惯。画像应按任务频率和实际配件清单区分，不把手机摄影兴趣直接等同购买意愿，也不由专业外观推断用户能力。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "使用约束：手机与套装必须一起确认",
+          "text": "不同包装可能是否包含AI模块与补光附件，手机尺寸、系统和应用也影响体验，不能用系列名称代替具体组合。用户需要接受相应装配与供电，研究应观察完整使用负担，而不是只比较裸机体积或最低促销价格。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "访谈重点：最想免去的是掌镜还是补光操作",
+          "text": "请用户描述最近一次独自拍摄需要他人帮助的具体步骤，区分转向、稳定、补光与相机设置，再观察组合是否减少协助。不能把全部难题都归给缺少AI，也不将更多附件当作完整解决，真实任务决定哪些功能值得保留。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "替代方案：手机云台、追踪支架与独立灯具",
+          "text": "Smooth 5S AI面对其他AI手机云台、普通自动支架、手机裁切和单独补光，市场已有多种组合方式。比较应围绕稳定、构图与光线任务，不仅看同类普遍具有的三轴功能，也不能因外接识别模块就称为没有替代的新场景。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "差异判断：独立模块与灯光形成具体组合",
+          "text": "识别附件和补光可能让个人机位更集中，但也改变持握和收纳，用户未必每次都需要。研究应观察模块分别被使用的频率，不能把标准、Combo和Pro当作独立产品重复统计，也不将一个套装能力默认赋给全部包装。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "比较方法：按同一手机内容流程核算",
+          "text": "让用户用集成组合和分开支架灯具完成相同脚本，记录搭建、追踪重设、光线调整、补拍与撤场。不要只比较单机尺寸和模式数量，也不将手机自动对焦失败归因于云台跟踪，明确各层任务才能判断一体化是否有价值。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能拆分：视觉附件、三轴与灯光分层",
+          "text": "公开组合包含追踪模块、手机夹持、三轴执行、电源和按包装提供的补光，应用路径另影响控制。识别目标不等于相机对焦，普通稳定也不是全部AI，具体器件与工厂未披露，不能由透明外观或附件名称推断真实芯片和BOM。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "制造判断：磁吸连接与灯光热影响完整结构",
+          "text": "模块安装、夹具、马达调校和补光散热需要共同考虑，装上手机后重心与操作也会变化。供应评估应看反复装拆和持续使用，不只关注追踪算法，本轮没有磁吸、热、折叠寿命或实拍数据，不能从售价估算制造成本与可靠性。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "候选选型：视觉与结构供电分别验证",
+          "text": "Arducam可作为追踪视觉输入候选，瑞声可讨论夹持与结构周边，Sunwoda可研究电源，灯光另需具体资料。三家都没有ZHIYUN点名采用证据，标准摄像或结构能力不等于整套适配，也不能把候选模块写成原机内部布局。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露能力：模块识别联动机械构图",
+          "text": "官方组合说明追踪模块识别人脸或拍摄主体，并与三轴运动联动，实际对象与应用条件需按当前配置理解。它不等于手机相机自动对焦，也不能把补光或普通稳定一概称为AI，具体模型、预测方式和内部计算硬件未公开。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "技术判断：目标、光线与相机设置相互影响",
+          "text": "追踪模块看到的目标和手机相机最终画面并非完全相同链路，补光也可能改变视觉输入与拍摄效果。研究应分别检查目标保持、机械方向和画面清晰，不把人物居中当作所有结果正确，也不以宣传续航或追踪描述推算真实成功率。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证方案：逐项启用稳定、跟随与补光",
+          "text": "先确认手机夹持和基本拍摄，再增加追踪与灯光，保存应用、系统、模块和设置，记录遮挡与重新进入时的行为。不要在不同手机上混用结果，也不把全部功能同时变化后笼统评价AI，本轮没有现场准确率或成片率测试。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外形判断：技术细节与附件改变完整握持",
+          "text": "透明或半透明细节突出工具感，追踪和补光模块又增加外形与重量，完整体验必须包含手机与配件。设计评价应看收纳、装拆和竖屏转向，不只看材质高级感，产品渲染无法说明长时持握和线缆管理是否方便。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "交互判断：灯光与追踪状态需要区分",
+          "text": "用户需要知道当前识别对象、录制状态和补光设置，而不是把所有提示理解为正在拍摄，模块安装也应有清楚反馈。研究应观察是否反复试手势或查应用，不把更多控制入口视为更专业，简洁流程比功能同时出现更重要。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "体验验证：从日常手机状态完成拍摄",
+          "text": "让用户带保护壳和常用应用完成安装、跟随、补光、横竖切换与收纳，记录拆壳、调夹具和重设步骤。与原支架方案比较时保持真实房间，不只在专门布置的演示场景评价，完整准备才显示组合是否减少操作。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "配置风险：套餐复杂可能让AI附件缺失",
+          "text": "标准、Combo与Pro的附件范围需要核对，本条按含AI模块理解，不能将最低价格与最高套装能力拼接。原目录还注意促销与交期模板混杂，实际购买状态按具体配置确认，本轮没有下单，也不将公开商品数据当作所有地区保修证明。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用风险：兼容与追踪仍有条件",
+          "text": "手机尺寸、系统、应用和模块都会影响体验，遮挡或误识需要用户恢复，设备不会替代相机对焦与内容判断。目录不把厂商极限续航或跟踪表述作为无条件承诺，本轮没有跨手机实拍，也不假定更多配件一定减少全部失败。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证安排：记录附件闲置与补拍原因",
+          "text": "试用应保留不用灯光、关闭追踪、改用普通支架或重新装配的原因，区分不需要、兼容与操作负担。不要只统计完整组合成功的片段，也不将未使用附件全部解释为用户不会用，真实选择能揭示组合是否有持续价值。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "研究方向：稳定、追踪与补光是否形成低负担流程",
+          "text": "Smooth 5S AI可用于研究个人机位搭建中哪些步骤值得整合，机会可能在装配反馈、兼容说明与恢复，而不是再增加附件。应先确认真实拍摄需求，不把三项功能相加当作天然优势，也不因同类市场拥挤就忽略具体工作流差异。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "执行计划：按脚本记录装配和有效片段",
+          "text": "连续观察人物视频或直播任务，记录手机配置、模块、灯光使用、重设和补拍，访谈一次选择更简单方案的原因。将视觉跟踪和光线收益分开，不以宣传模式、首次观感或漂亮样片代表留存，也不冒充已有用户访谈和市场份额数据。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "决策边界：手机自动构图按共享核心任务比较",
+          "text": "本款与其他手机云台共享稳定和人物构图，独立模块、补光与操作形态是具体取舍，不能按包装数量制造独立市场。当前没有访谈、销量或供应报价，不以附件总数、AI名称或模型评分预测创业成功，应看重复任务中的真实步骤减少。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "arducam",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "外置追踪模块视觉输入候选",
+        "rationale": "Arducam公开相机模组与驱动工程，可作为Smooth 5S AI追踪输入候选，但尺寸、补光影响、视场与识别软件需专项确认，通用摄像头不提供完整跨应用跟随。当前无ZHIYUN点名采用证据，也不涉及手机相机的自动对焦能力。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "aac-technologies",
+        "role": "mechanical",
+        "relationship": "candidate",
+        "component": "夹具与附件安装周边结构候选",
+        "rationale": "瑞声公开精密结构与转轴协同，可用于Smooth 5S AI夹持及模块固定工程，但磁吸、手机保护壳适配、载荷和反复装拆需专项验证，不能由通用结构经验推定整机适配。当前没有实际供货证据，也不提供原机兼容附件。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s3"
+        ]
+      },
+      {
+        "supplierId": "sunwoda",
+        "role": "power",
+        "relationship": "candidate",
+        "component": "手机云台与补光组合电源候选",
+        "rationale": "Sunwoda公开消费电池业务，可作为Smooth 5S AI供电候选，但三轴、追踪与灯光的组合负载、空间、充电保护需共同核对，不能从容量推算极限续航。当前无原机电池来源证据，也不保证通用电芯可直接替换该设备。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "innovationProfile": {
+      "needKey": "single-person-subject-framing",
+      "needName": "单人主体自动取景",
+      "difference": "独立追踪模块、三轴与按套装提供的灯光组合服务个人手机机位，区别在装配、控制和补光流程，核心仍是自动构图。标准和Combo不能混用功能，追踪不等于相机对焦，配件可能增加握持与准备；需比较同脚本补拍和撤场，不因稳定加灯光加AI就算新市场。",
+      "comparisonBasis": "与其他手机云台、普通自动支架、手机裁切及独立灯具比较。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/zhiyun-smooth-5s-ai/product.png",
+      "sourceUrl": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0049/0101/1502/files/5SAI_a3d725bd-5286-4bf8-b8b5-d2955f32e15a.png?v=1783504812",
+      "caption": "ZHIYUN Smooth 5S AI 官方产品图",
+      "alt": "ZHIYUN Smooth 5S AI 产品主图",
+      "credit": "ZHIYUN 智云",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 894856,
+      "sha256": "3ae14f8446732e18de457aff7bc538d1326da1177cf5947481589a5184916743"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/zhiyun-smooth-5s-ai/reference.jpg",
+      "sourceUrl": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0049/0101/1502/files/5SAI.jpg?v=1719289494",
+      "caption": "ZHIYUN Smooth 5S AI 官方外观 / 使用参考图",
+      "alt": "ZHIYUN Smooth 5S AI 参考图",
+      "credit": "ZHIYUN 智云",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 392552,
+      "sha256": "4140c46ced1aad92ae10d144c0e1ea9c5b38c86e86ff0e5013cebed6d7bee140"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/zhiyun-smooth-5s-ai/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "ZHIYUN Smooth 5S AI的AI生成概念结构图，隐藏内部为功能推断",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/zhiyun-smooth-5s-ai.txt",
+      "referencePaths": [
+        "assets/hardware/zhiyun-smooth-5s-ai/product.png"
+      ],
+      "verified": true,
+      "bytes": 1573097,
+      "sha256": "64fda2e5a40fbd4199f6dbc68ccf2bc0a7e659903b7868b4ad306bec28c27e71"
+    }
+  ],
+  "mediaNotes": []
+}

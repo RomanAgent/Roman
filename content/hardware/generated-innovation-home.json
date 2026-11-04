@@ -240,5 +240,203 @@
     "notes": [
       "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
     ]
+  },
+  {
+    "id": "flappie-ai-cat-flap",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/flappie-ai-cat-flap/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Flappie AI Cat Flap的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/flappie-ai-cat-flap.txt",
+        "referencePaths": [
+          "assets/hardware/flappie-ai-cat-flap/product.jpg",
+          "assets/hardware/flappie-ai-cat-flap/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "leafypod-starter-pack",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/leafypod-starter-pack/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "LeafyPod Starter Pack的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/leafypod-starter-pack.txt",
+        "referencePaths": [
+          "assets/hardware/leafypod-starter-pack/product.webp",
+          "assets/hardware/leafypod-starter-pack/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "hearth-family-display",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/hearth-family-display/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Hearth Display的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/hearth-family-display.txt",
+        "referencePaths": [
+          "assets/hardware/hearth-family-display/product.png",
+          "assets/hardware/hearth-family-display/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "catlog-board-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/catlog-board-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Catlog Board 2的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/catlog-board-2.txt",
+        "referencePaths": [
+          "assets/hardware/catlog-board-2/product.jpg",
+          "assets/hardware/catlog-board-2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "sleepal-ai-lamp",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/sleepal-ai-lamp/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Sleepal AI Lamp的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/sleepal-ai-lamp.txt",
+        "referencePaths": [
+          "assets/hardware/sleepal-ai-lamp/product.png",
+          "assets/hardware/sleepal-ai-lamp/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "tempest-home-weather-station",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tempest-home-weather-station/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Tempest Weather Station的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/tempest-home-weather-station.txt",
+        "referencePaths": [
+          "assets/hardware/tempest-home-weather-station/product.jpg",
+          "assets/hardware/tempest-home-weather-station/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "swan-beauty-smart-mirror",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/swan-beauty-smart-mirror/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "SWAN Beauty Smart Mirror的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/swan-beauty-smart-mirror.txt",
+        "referencePaths": [
+          "assets/hardware/swan-beauty-smart-mirror/product.webp",
+          "assets/hardware/swan-beauty-smart-mirror/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "cradlewise-smart-crib",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/cradlewise-smart-crib/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Cradlewise Convertible Smart Bassinet & Crib的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/cradlewise-smart-crib.txt",
+        "referencePaths": [
+          "assets/hardware/cradlewise-smart-crib/product.jpg",
+          "assets/hardware/cradlewise-smart-crib/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "aveine-wine-aerator",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/aveine-wine-aerator/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Aveine Wine Aerator的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/aveine-wine-aerator.txt",
+        "referencePaths": [
+          "assets/hardware/aveine-wine-aerator/product.jpg",
+          "assets/hardware/aveine-wine-aerator/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
   }
 ]

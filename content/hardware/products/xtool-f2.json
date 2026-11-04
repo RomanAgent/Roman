@@ -1,0 +1,483 @@
+{
+  "id": "xtool-f2",
+  "name": "xTool F2",
+  "brand": "xTool",
+  "category": "creative-tools",
+  "audience": "prosumer",
+  "saleMode": "retail",
+  "tagline": "用AI视觉辨认工件并辅助批量定位的便携雕刻机",
+  "officialUrl": "https://uk.xtool.com/products/xtool-f2-5w-ir-15w-diode-portable-dual-laser-engraver",
+  "status": "on_sale",
+  "statusEvidence": "核查日英国官网浏览器实际显示F2 Standalone、启用的Add to Bag、1–3个工作日发货；主机促销显示£1,039。页面抓取混有隐藏Sold Out文案，已用当前UI核对。仅收F2，不另计同需求F1/Ultra。",
+  "regions": [
+    "英国（本轮实际核查商店）"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核到英国官方零售；F2中国大陆官方库存、版本及跨境保修未独立确认，不由品牌背景推断国内可买。"
+  },
+  "price": {
+    "text": "英国官网主机显示£1,039促销价",
+    "note": "浏览器实际选定F2 Standalone，页面有自动优惠；最终税价按目的地结算，参考原价£1,299。配件和防护排烟配置另核。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "官方FAQ明确批处理依赖AI摄像识别工件轮廓；Studio 1.9另明确F2支持图像材料识别和加工试样阵列分析，辅助定位与参数选择。",
+    "dependency": "视觉与参数工作流依赖xTool Studio及兼容固件，不把AI图案生成当唯一依据。识别要求清晰轮廓与足够背景对比；安全操作、材料适配和排烟仍需人工确认。"
+  },
+  "highlights": [
+    "AI识别工件辅助批量排版",
+    "材料识别与试样参数分析",
+    "便携桌面实体雕刻",
+    "机器安全条件与软件建议分开"
+  ],
+  "analysis": {
+    "demand": "案头需求是让个人创作者在小物件上做定制标记，减少逐件定位和重复试参数的时间。AI进入工件识别与加工准备，但并不会自动完成安全选材或替用户确认设计尺寸，实际收益要看废料和调试时间。",
+    "userProfile": "更适合有固定手作空间、愿意学习材料与通风要求的个人工作室和摆摊创作者。购买资格不等于即放即用；普通家庭若无法设置合适加工环境，视觉自动化也无法消除基础操作条件。",
+    "competition": "替代包括外包刻字、手动定位的小型雕刻机和夹具批处理。目录只保留这一个便携视觉雕刻代表，不将同系列功率升级再计为场景；比较应关注实际小批任务而非宣传加工速度。",
+    "supplyChain": "功能上需要光源与光路、相机、调焦运动、控制、保护罩和排烟接口。实际上游供应商与工厂未披露；光机标定、热漂移和材料残留会影响一致性，不能用通用相机模组拼成完整方案。",
+    "technology": "官方列出AI摄像识别适合清晰、非反光且与背景有对比的工件；材料照片识别和试样分析是软件功能。新旧官网对第三方软件兼容有冲突，本条以自家Studio为已核工作流，不宣称全软件通用。",
+    "aesthetics": "提手、竖向滑动罩和小底座形成便携机台形态，透明罩让加工区域可见。审美需要同时考虑桌面线缆、排烟管和装卸物件，单机小巧并不意味着整个安全工作区同样小。",
+    "risks": "风险包括反光或透明材料导致识别不稳、错误参数损坏工件，以及把封闭外观误当作不需要防护。标准机不含所有扩展附件，开罩加工和扩展台面的条件必须按厂商安全说明执行。",
+    "opportunity": "可验证机会在小批定制准备环节：记录新用户从图案到合格成品的试样次数、错位率和耗材损失。若人工夹具更可靠，就保留这一反例，不能因AI识别标签判断一定提高个人创作者收益。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "桌面加工属于明确创作工具，已有成熟激光、外包和夹具方案；定位创新需要在真实材料上验证。"
+  },
+  "architecture": [
+    {
+      "name": "工件视觉",
+      "detail": "头部摄像头捕获工件，AI识别辅助批量填充与定位。",
+      "evidence": "official"
+    },
+    {
+      "name": "加工光学",
+      "detail": "二极管和红外双光源执行对应材料的雕刻，光路不在概念图中推定。",
+      "evidence": "official"
+    },
+    {
+      "name": "调焦与结构",
+      "detail": "竖向调焦结构、底板及提手支持桌面使用。",
+      "evidence": "official"
+    },
+    {
+      "name": "软件工作流",
+      "detail": "Studio组织设计、材料识别、试样结果分析及设备控制。",
+      "evidence": "official"
+    },
+    {
+      "name": "保护与排烟",
+      "detail": "滑动保护罩、急停、钥匙与排烟接口构成操作边界，不能视作无条件安全。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "xTool F2英国官方商店",
+      "url": "https://uk.xtool.com/products/xtool-f2-5w-ir-15w-diode-portable-dual-laser-engraver",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "technology",
+        "availability"
+      ],
+      "note": "实际web打开并浏览器核对现售主机、购买按钮、1–3天发货及促销显示；未提交订单。"
+    },
+    {
+      "title": "xTool F2官方FAQ",
+      "url": "https://support.xtool.com/article/2818",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "usage"
+      ],
+      "note": "实际打开；明确AI摄像识别批处理及工件适配限制。"
+    },
+    {
+      "title": "xTool Studio 1.9发行说明",
+      "url": "https://support.xtool.com/article/3808",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "usage"
+      ],
+      "note": "实际打开；F2在AI材料识别和试样阵列分析支持名单，不能移植给未列出的F1 Ultra。"
+    },
+    {
+      "title": "xTool F2用户指南",
+      "url": "https://support.xtool.com/article/2013?from=xTool+F2&url=/product/60",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "usage"
+      ],
+      "note": "实际打开；MXF-K005-002结构图、相机、调焦、急停及配件不包含说明。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "xTool F2英国官方商店",
+        "url": "https://uk.xtool.com/products/xtool-f2-5w-ir-15w-diode-portable-dual-laser-engraver",
+        "note": "实际web打开并浏览器核对现售主机、购买按钮、1–3天发货及促销显示；未提交订单。"
+      },
+      {
+        "id": "s2",
+        "title": "xTool F2官方FAQ",
+        "url": "https://support.xtool.com/article/2818",
+        "note": "实际打开；明确AI摄像识别批处理及工件适配限制。"
+      },
+      {
+        "id": "s3",
+        "title": "xTool Studio 1.9发行说明",
+        "url": "https://support.xtool.com/article/3808",
+        "note": "实际打开；F2在AI材料识别和试样阵列分析支持名单，不能移植给未列出的F1 Ultra。"
+      },
+      {
+        "id": "s4",
+        "title": "xTool F2用户指南",
+        "url": "https://support.xtool.com/article/2013?from=xTool+F2&url=/product/60",
+        "note": "实际打开；MXF-K005-002结构图、相机、调焦、急停及配件不包含说明。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "事实：任务边界",
+          "text": "F2的官方FAQ明确把批处理工件识别列为AI摄像工作流，适合个人创作者对小型实物做定制标记。机器需要由人放料、确认图案和加工条件；AI作用在减少重复定位和参数选择工作，而不是把任意设计自动变成无需检查的合格成品。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：真实需求",
+          "text": "需求判断应聚焦手作人的准备成本：少量但经常变化的钥匙扣、铭牌或礼物可能更需要快速对位；大量完全相同的物件反而可能用固定夹具更稳定。若用户主要烦恼订单来源或设计能力，增加视觉识别不一定解决其最重要的问题。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：任务完成",
+          "text": "调研可让参与者用自己的常见材料完成小批任务，记录导入、对位、试样与返工分别花多久。访谈问最常报废的原因、哪些步骤必须亲眼复查，以及更愿意买机器还是付费外包；不把一次演示的速度转成月产量或收入估计。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "事实：使用条件",
+          "text": "英国官网面向手作和现场定制提供主机零售，用户指南也列出基础安装、排烟和维护要求。它并非需要企业账号才能购买的大型产线，但个人可购不意味着无门槛；能否提供合适材料、工作区域和操作管理，是比购买预算更早的适配条件。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "判断：人群筛选",
+          "text": "适用画像可以区分家中制作礼物的人、固定小工作室和偶尔到活动现场定制的个人经营者。三者面对不同的搬运、排烟与等待需求，不能将品牌页面中的成功商家故事当成本轮样本访谈，也不以有副业想法推断会持续使用激光设备。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "验证：参与者差异",
+          "text": "招募应先了解参与者现有工作台、通风条件和加工经验，再让其说明所需成品和可接受失败成本。访谈包括是否愿意处理烟尘、多久愿意维护、活动场地是否允许设备运行；不适配者的原因同样保留，避免只研究已经熟悉加工的人。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "事实：方案范围",
+          "text": "目录在本轮仅选F2一个便携视觉雕刻代表，没有继续添加F1、F1 Ultra或其它功率版本。官方软件更新把F2列为材料识别及试样分析兼容设备，而未将这些新功能列给F1 Ultra，选定型号后必须按其兼容范围陈述，不能跨型号拼能力。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "判断：替代关系",
+          "text": "直接替代包括手动定位的小型雕刻设备、专用夹具和外包刻字。视觉自动化能降低逐件对位的可能性，但反光、透明或低对比材料可能让简单夹具更可靠；是否更好应以实际任务的完整流程比较，而不是以带AI字样的功能数量排名。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证：比较方法",
+          "text": "可以给不同方案相同物料和图案，分别记录首件设置、第二批复用、合格率与人工纠正次数。对只做一次的礼物也应计算学习投入和收纳成本；如果外包更省心，就保留这一结论，不用宣传最高扫描速度代替用户得到成品的总时间。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "事实：功能组成",
+          "text": "已打开的官方结构图显示头部相机、补光、场镜、竖向结构、保护罩和排烟出口，主机采用两种加工光源。品牌没有在这些资料里披露各光源、视觉模组或控制板的供应商，因此本条不猜测具体激光器、芯片和代工厂，也不从外壳图计算BOM。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "判断：交付约束",
+          "text": "工程约束在于视觉坐标与真实光束加工位置的标定，温升、搬运和光学污染都可能影响重复结果。安全结构、材料残留、排烟和软件参数又相互牵制；单独采购高像素相机或更高功率光源并不能保证工作台上获得相同定位体验。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "验证：选型缺口",
+          "text": "e-con Systems可作为视觉模组和集成能力候选，FAULHABER可作为光学调焦运动能力候选。它们都不是已公开采用公司，选型必须确认成像接口、照明条件、运动精度、体积和控制要求；没有整机接口资料时不提供可直接替代的采购清单。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "事实：AI机制",
+          "text": "官方FAQ明确说明批处理依赖AI摄像识别，并列出轮廓清楚、非反光、背景有对比和表面平整等前提。Studio发行说明另外确认F2支持上传材料照片识别以及试样阵列分析；这些是具体感知与决策辅助，和普通自动对焦或生成图案不是同一件事。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "判断：系统边界",
+          "text": "模型结果需要由使用者确认，因为近似材质在照片中可能难以区分，表面外观也不能完整代表加工风险。官方未披露这些模型的训练集和逐材料准确率，本条不把软件推荐解释为安全认证，也不声称全部计算都在雕刻机的控制板上完成。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证：算法与体验",
+          "text": "可用相似外观但实际不同的合规材料、不同摆放角度和背景测试识别，检查系统是否提示不确定以及用户能否改选。试样分析要与人工观察对照，保留无法识别的格子；测试重点是减少试错是否可重复，而不是只挑一次成功的识别画面。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "事实：外观与交互",
+          "text": "F2实物采用顶部提手、竖向滑动保护罩和小底座，官方结构图能看到头部相机及排烟位置。标准包装不含外接触屏控制器、旋转附件和滑台，因此概念图只展示主机基础结构，并把未披露内部画成抽象模块，避免把豪华套装误当标配。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "判断：使用中的形态",
+          "text": "外形便携不等于完整加工系统只占主机那么大的空间。排烟管、电脑、物料、上下料动作和保护区域都会扩展使用范围；透明罩便于看见物件，也可能让初学者误以为看得见就可以靠近，审美评估应检查这种视觉暗示是否清楚。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "验证：日常接受度",
+          "text": "让用户从运输状态布置到可工作状态，记录提手握持、排烟连接和材料取放时是否有妨碍，并询问哪些部位会被误当成开关。收纳后再装回一次，观察是否保持定位与操作理解，避免把好看的单机图当作适合任何家庭桌面的证据。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "事实：已知限制",
+          "text": "官方指南设置急停、访问钥匙和保护罩，并明确涉及旋转附件或开放加工时的额外操作条件。FAQ列出一些不应加工或不适合批识别的材料；这些边界说明机器的家用可购定位并不消除激光、烟尘、材料和误操作方面的具体限制。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "title": "判断：失效影响",
+          "text": "信息风险还包括官网不同页面对LightBurn兼容的表述不一致，以及促销价随活动、税费和目的地变化。本条以实际核实的Studio工作流和主机配置为准，未把第三方软件兼容当确定能力，也不将自动优惠后的展示价当作所有地区固定成交价。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "title": "验证：风险处理",
+          "text": "验证应从厂商允许的材料与闭合使用条件开始，检查识别失败后是否容易发现并停止，记录急停和正常关机是否被混淆。采购前核对目标地区版本、排烟防护和配件清单，并向品牌确认所需软件版本，不能让AI建议代替这些基础确认。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s4"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断：可尝试切口",
+          "text": "可尝试的机会是帮助个人创作者建立自己的材料试样和重复任务档案，把视觉识别结果与实际成品反馈连接起来。若相同工件总要重新调整，保存可靠参数和夹具可能比继续增加生成图案入口更有价值；这个判断尚需用户真实加工记录验证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "判断：商业边界",
+          "text": "商业边界在于小批定制的主要成本可能是设计沟通、物料或场地，而不一定是雕刻速度。设备本身便携也不保证活动方允许使用，个人工作室需要的辅料与维护成本不能忽略；本轮没有经营访谈，不能据商店故事预测回本周期。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证：下一步调研",
+          "text": "下一步可跟踪几名创作者完成三个不同实际项目，记录首次设置、复用、报废及维护，并问其为何放弃某种材料或场地。将设备使用行为与业务收益分开分析，不用模型给出的创新等级、订单数量假设或最快演示推导市场成功。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "e-con-systems",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "工件识别相机集成候选",
+        "rationale": "F2需要相机图像进入工件定位与材料工作流，e-con Systems公开嵌入式视觉相机和定制集成能力，适合作为功能候选。成像接口、标定、照明和加工环境仍须验证，本轮没有其向xTool F2供货的点名资料。",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s4"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "faulhaber",
+        "role": "motion",
+        "relationship": "candidate",
+        "component": "光学头调焦运动能力候选",
+        "rationale": "F2的竖向调焦需要紧凑运动与位置控制，FAULHABER公开光学设备驱动和定制工程能力，可作为此模块的选型候选。其行程、承载、反馈与控制兼容尚未知，不能因为具备精密电机产品就断言已被xTool采用。",
+        "sourceIds": [
+          "s4"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "vision-guided-personal-engraving",
+      "needName": "个人小批定制中的视觉定位与加工准备",
+      "difference": "核心差异是将实体工件的视觉识别、批量图案定位和材料试样分析接到便携激光加工流程，改变个人创作者反复摆料与试参数的工作，而非只提供AI生成图案。与手工夹具相比仍受反光、透明、低对比和材料判断限制；与同系列更大功率设备相比核心定制任务一致，因此本轮只保留一个代表型号。",
+      "comparisonBasis": "与外包刻字、手动定位雕刻机及固定夹具批处理比较完整任务；不按功率和同款套装拆分需求。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/xtool-f2/product.png",
+      "sourceUrl": "https://uk.xtool.com/products/xtool-f2-5w-ir-15w-diode-portable-dual-laser-engraver",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0467/7985/9095/files/mk-guanwang_us_pc_f2_1219-5500.webp?v=1778491125",
+      "caption": "xTool F2 官方产品图",
+      "alt": "xTool F2 官方产品图",
+      "credit": "xTool · 官方资料",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 60672,
+      "sha256": "13f37f3e141ca75888794c9c129e5272dd996bc35093cf08e9cd893a175a1828"
+    },
+    {
+      "kind": "official-structure",
+      "path": "assets/hardware/xtool-f2/reference-structure.png",
+      "sourceUrl": "https://support.xtool.com/article/2013?from=xTool+F2&url=/product/60",
+      "sourceImageUrl": "https://storage-us.atomm.com/resource/xtool/xcs-cms/community/activity/0ac9e08e-232f-443a-b865-70540dd39148_38320fed-7743-45bb-b4b1-28838ea08c71_image.octet-stream",
+      "caption": "xTool F2 官方外部结构与摄像头位置图（厂商资料）",
+      "alt": "xTool F2 官方外部结构与摄像头位置图（厂商资料）",
+      "credit": "xTool · 官方资料",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 219840,
+      "sha256": "088344fcfea152ff9e602d319c03ae6cb87aaed2a8f9bc871a30ce03c814c7f4"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/xtool-f2/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "xTool F2 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/xtool-f2.txt",
+      "referencePaths": [
+        "assets/hardware/xtool-f2/product.png",
+        "assets/hardware/xtool-f2/reference-structure.png"
+      ],
+      "verified": true,
+      "bytes": 1404721,
+      "sha256": "9ff749a421c22847f2f4defd0b563a122fe22fc15b599156b7f4efd9a0dd6e82"
+    }
+  ],
+  "mediaNotes": [
+    "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。",
+    "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
+  ]
+}

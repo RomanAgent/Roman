@@ -156,7 +156,15 @@ Sensirion公开SBN41用于呼气交换监测，结合氧气、二氧化碳与相
 
 - [Gardyn Studio 2](../hardware/gardyn-studio-2.md) — **能力候选 · 非已采用** / 种植环境温湿度采集候选：Sensirion公开SHT45等温湿度器件与评估工具可对应水培环境输入，但安装湿度、位置和整机校准需验证；没有Gardyn Studio 2点名采用证据，不能将元件规格写成该产品真实BOM或栽培准确度。
 
+- [LeafyPod Starter Pack](../hardware/leafypod-starter-pack.md) — **能力候选 · 非已采用** / 室内温湿度感知候选：Sensirion公开温湿度传感产品可对应植物环境信号采集，但不覆盖土壤水分、光照、泵和养护模型，需确认湿区封装与校准；未见LeafyPod点名采用证据，不能称其实际传感器或整套控制方案。
+
+- [Sleepal AI Lamp](../hardware/sleepal-ai-lamp.md) — **能力候选 · 非已采用** / 床头环境温湿度输入候选：Sensirion的温湿度产品可对应Sleepal公开环境感知功能，但不承担雷达信号、睡眠阶段模型或健康判断，需验证灯体热影响与安装；未见该型号点名采用，当前仅为传感能力候选。
+
+- [Tempest Weather Station](../hardware/tempest-home-weather-station.md) — **能力候选 · 非已采用** / 家庭气象环境温湿度输入候选：Sensirion公开温湿度产品可对应本地环境输入，但不涵盖超声风、降雨和全部校准需求，需确认户外封装、辐射与漂移；未见Tempest点名采用，不能解释为实际传感器来源或整站精度证明。
+
 - [Lumen Metabolism Tracker](../hardware/lumen-metabolism-tracker.md) — **能力候选 · 非已采用** / 同类呼气分析新设计的专门气体感知路线：Sensirion的SBN41公开面向呼气交换与环境补偿，可作为相近便携分析系统的研究候选，但当前仅上市前样品阶段。它同时涉及氧气与二氧化碳，不代表Lumen具有氧气传感或已采用该模块；需验证气路、响应、校准和供货成熟度，不能直接替换现有传感器。
+
+- [Withings U-Scan Nutrio](../hardware/withings-u-scan-nutrio.md) — **能力候选 · 非已采用** / 同类取样入口的温度感知研究候选：Sensirion STS40数字温度感知可作为样本到达检测的研究入口，但真实器件必须验证响应、封装隔离和清洁污染条件，不能直接让普通环境芯片接触尿液。此候选不提供完整流体或化学分析，也未确认U-Scan采用；具体热传感实现和材料仍是待核查项目。
 
 ## 来源
 

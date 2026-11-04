@@ -1,0 +1,263 @@
+# Yarbo Y40 Core + Snow Blower Gen 2
+
+**Yarbo** · 庭院与自然 · 核查 2026-11-04
+
+针对家庭车道和人行路径持续除雪的模块化机器人
+
+消费渠道：个人零售。
+
+## 产品图片与结构参考
+
+### 产品图
+
+![黑黄履带Yarbo、前部进雪机构及高抛雪口](../../assets/hardware/yarbo-y40-snow-blower-gen2/product.png)
+
+官方Y40与第二代除雪模块整机 · 来源：[Yarbo · 官方图片](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [原始图片](<https://cdn.shopify.com/s/files/1/0604/5394/5441/files/Yarbo_Lawn_Mower_1119d71f-ce57-4e41-a10c-9481b2d9032d.png?v=1793599048>)
+
+### 参考图
+
+![Yarbo Y40除雪系统在积雪车道工作](../../assets/hardware/yarbo-y40-snow-blower-gen2/reference.jpg)
+
+官方家庭车道除雪场景（含厂商标注） · 来源：[Yarbo · 官方图片](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [原始图片](<https://cdn.shopify.com/s/files/1/0604/5394/5441/files/Up_to_6_000_ft_Per_Charge-1.jpg?v=1793618082>)
+
+### AI 生成爆炸示意
+
+![Yarbo Y40 Core + Snow Blower Gen 2的AI生成概念结构图，隐藏内部为功能推断](../../assets/hardware/yarbo-y40-snow-blower-gen2/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/yarbo-y40-snow-blower-gen2.txt)
+
+> 实际查看并核对当前型号；官方原图未改色或语义编辑，宣传文字不作为独立实测。
+
+> 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
+
+## 销售与购买
+
+- 状态：在售。官方当前商品页和机器人除雪分类提供US$6199购买入口，公开商品数据available=true；原旧snow-blower链接已转到新分类，当前按Y40与第二代除雪模块记录。
+
+- 地区：美国官网销售、其他地区需核对当地型号
+
+- 价格：美站当前 US$6,199。含Y40 Core与Snow Blower Gen2代表配置；不重复计算Y40P、联名颜色或搭配割草模块的套装，税费与地区交期按结算。
+
+- 中国大陆：品牌有美国、加拿大、欧洲等区域入口，但本次仅确认当前美站Y40＋Gen2配置；未核到中国大陆官方零售和安装支持。
+
+- [官方产品 / 商店](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>)
+
+## AI 的实际作用
+
+官方除雪技术文章说明AI结合降雪强度、温度及使用模式调整作业间隔与规划；RTK定位和螺旋抛雪机构本身不等于AI。
+
+服务与联网依赖：需地图、定位基站或支持的NetRTK与应用服务；极端天气、遮挡和积雪可能要求人工处理，不保证全条件自主。
+
+## 是否冷门
+
+细分专业（研究判断）：自动家庭除雪属于季节性窄场景，执行机构和天气条件与割草明显不同；场地、冬季频率及人工回退决定实际机会。
+
+## 需求与市场
+
+需求假设：降雪频繁的家庭希望在雪积厚前保持车道和步行路径可用，减少每次出门推机的劳动。持续多轮作业和一次清完厚雪不同，应记录人工铲雪、清障和恢复成本，不能把覆盖面积或宣传自动化直接等同完全免维护。
+
+### 产品任务与边界 · 研究判断
+
+需求假设：降雪频繁的家庭希望在雪积厚前保持车道和步行路径可用，减少每次出门推机的劳动。持续多轮作业和一次清完厚雪不同，应记录人工铲雪、清障和恢复成本，不能把覆盖面积或宣传自动化直接等同完全免维护。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 需求判断 · 研究判断
+
+除雪不是只在风暴结束后清理一次，也可能是在降雪过程中反复保持通道，机器人适合验证后一种工作方式。价值取决于及时性和人工回退总量，尤其路边堆雪与湿重积雪可能仍需铲除，不能由持续运行的概念推定住户完全不再出门维护。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 需求验证 · 待验证
+
+需求验证可在符合厂商条件的私人场地记录整季降雪、自动清除与人工补做，和原有铲雪或服务方式比较。不得制造危险障碍或在人车混行场地做极限试验，本目录只是案头计划；不能以一次薄雪演示推导所有冬季条件下的净节省。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+## 用户画像
+
+画像推断：有私人车道、可安装停靠与定位设施且冬季重复除雪的人更匹配。偶发小雪、公共人行道和复杂停车习惯的家庭需求不同，需要有人管理抛雪方向与临时障碍，不按庭院面积或寒冷地区人口直接推算市场。
+
+### 适用行为与条件 · 研究判断
+
+画像推断：有私人车道、可安装停靠与定位设施且冬季重复除雪的人更匹配。偶发小雪、公共人行道和复杂停车习惯的家庭需求不同，需要有人管理抛雪方向与临时障碍，不按庭院面积或寒冷地区人口直接推算市场。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 人群取舍 · 研究判断
+
+私人车道、固定停靠点和稳定定位条件收窄目标用户，频繁停车变化或共享通道又增加地图维护。家中还需有人能处理卡住和积雪封堵，画像应包括季节准备与回退能力，不把拥有庭院或住在北方直接等同适合自动除雪。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 画像验证 · 待验证
+
+画像验证应调查典型降雪、场地布局、车辆进出和谁负责传统除雪，再核对部署位置。对偶发小雪或不愿管理抛雪方向的家庭明确标注限制，不把愿意购买割草Core的人自动当成除雪用户，也不以家庭成员年龄替代实际需求与能力判断。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+## 竞争与替代
+
+竞争判断：与手推除雪机、铲雪和外包服务竞争，差异是定位后的持续自动作业及学习调度。共用Y40底盘不代表与割草是同一任务，但Y40P和联名色不另加；应比较完整冬季维护，而非只比较马达或单次抛雪演示。
+
+### 比较对象与差异 · 研究判断
+
+竞争判断：与手推除雪机、铲雪和外包服务竞争，差异是定位后的持续自动作业及学习调度。共用Y40底盘不代表与割草是同一任务，但Y40P和联名色不另加；应比较完整冬季维护，而非只比较马达或单次抛雪演示。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 竞争判断 · 研究判断
+
+与手推机器相比，自动平台减少人在低温中持续操作，但增加定位、地图和停靠管理；与外包服务相比，它提供即时性同时把维护责任留在家里。共用Core是平台优势而非所有任务价值保证，不能按换一个模块就无限扩展品类数。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 竞争验证 · 待验证
+
+竞争验证可围绕同一车道比较整季人工时、响应时间、维护和无法完成的积雪，分别记录核心与模块费用。Y40P、联名外观和多模块套装不另计新品，当前Gen2也不能直接使用旧代价格或交期；所有性能比较应保留雪质与厚度条件。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+## 供应链
+
+供应链分析：履带移动、低温能源、进雪与抛雪机构、定位通信和外壳密封共同工作，具体供应商和BOM未披露。湿雪、冰屑、砂砾与季节存放影响可靠性，不能从普通割草部件推定除雪版本的材料、驱动和维护成本。
+
+### 功能模块拆分 · 研究判断
+
+履带底盘、除雪进料和抛出机构、定位连接、低温能源与回充形成系统，前部雪负载会改变底盘工作条件。公开外观不能说明内部传动和电池布置，供应分析需把耐候、冲击、季节存放及维修纳入，不能从常温割草样机直接推断冬季可靠性。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 制造与供应约束 · 研究判断
+
+供应链分析：履带移动、低温能源、进雪与抛雪机构、定位通信和外壳密封共同工作，具体供应商和BOM未披露。湿雪、冰屑、砂砾与季节存放影响可靠性，不能从普通割草部件推定除雪版本的材料、驱动和维护成本。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 候选与证据缺口 · 研究判断
+
+Flex可作为复杂机电整合及制造导入候选，Fictiv可支持模块接口与结构原型，两者无本型号采用证据。低温驱动、砂砾冲击、积雪密封和定位需要专项测试，通用机器人或加工能力不代表已经满足家用除雪安全及全季交付条件。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+## 技术路径
+
+技术判断：官方除雪文章描述AI使用降雪与温度及长期使用模式优化间隔和路线，具体模型未公开。地图跟随、定时与回充属于常规自动化，不能混入另一代Core或割草专属感知承诺；应测试天气变化后的判断及人工恢复。
+
+### 已披露技术边界 · 研究判断
+
+技术判断：官方除雪文章描述AI使用降雪与温度及长期使用模式优化间隔和路线，具体模型未公开。地图跟随、定时与回充属于常规自动化，不能混入另一代Core或割草专属感知承诺；应测试天气变化后的判断及人工恢复。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>) · [Yarbo官方除雪调度技术文章](<https://eu.yarbo.com/blogs/all/detailed-look-at-the-yarbo-remote-control-snowblower>)
+
+### 系统难点判断 · 研究判断
+
+官方文章将学习模式、天气强度和温度用于调度优化，实际核心仍依靠已设区域、定位和执行机构完成作业。AI部分需要与定时、地图跟随及回充区分，未披露模型细节时不能借割草或其他Core的视觉营销，给当前除雪配置补写未确认能力。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>) · [Yarbo官方除雪调度技术文章](<https://eu.yarbo.com/blogs/all/detailed-look-at-the-yarbo-remote-control-snowblower>)
+
+### 技术验证 · 待验证
+
+技术验证应观察不同自然雪况下调度、路径和回充恢复，记录用户是否能理解何时需要介入。只在说明允许的场地内运行，保留实际版本与定位条件；不能因路线绘制成功就认为雪负载、抛雪方向和所有障碍处理都已通过验证。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>) · [Yarbo官方除雪调度技术文章](<https://eu.yarbo.com/blogs/all/detailed-look-at-the-yarbo-remote-control-snowblower>)
+
+## 产品审美
+
+审美判断：黑黄履带平台和前部抛雪口突出工具属性，工作方向与危险区域需要容易辨认。家中停靠、季节存放和模块更换影响体验，不能只看雪地行驶画面，也不应为了简洁而隐藏用户必须理解的机构与维护接口。
+
+### 外观与交互语言 · 研究判断
+
+审美判断：黑黄履带平台和前部抛雪口突出工具属性，工作方向与危险区域需要容易辨认。家中停靠、季节存放和模块更换影响体验，不能只看雪地行驶画面，也不应为了简洁而隐藏用户必须理解的机构与维护接口。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 使用中审美判断 · 研究判断
+
+履带、宽进雪口与抛雪管形成鲜明工具形态，黑黄对比利于辨认但不替代清楚边界。实际家居体验还包括储物空间、停靠积雪和模块搬动，展示应保留真实尺寸感与接口，不将它渲染成没有危险运动部件的小型宠物机器人。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 设计验证 · 待验证
+
+设计验证可观察季节安装、模块换装和人工清理所需的动作，确保工作方向和停止状态容易理解。评价应在真实车道与储物场景进行，而非只看雪地广告；不能为视觉简洁省略护栏、抛雪管或必要的人工操作区域。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+## 关键风险
+
+风险判断：湿重积雪、路边堆雪、临时车辆及定位中断可能要求接管，自动除雪不保证所有天气都可靠。用户需按说明管理场地和抛雪方向，不进行危险机械测试；官方区域购买和配置不同，不能把旧代价格或交期沿用当前Gen2。
+
+### 主要失效与依赖 · 研究判断
+
+风险判断：湿重积雪、路边堆雪、临时车辆及定位中断可能要求接管，自动除雪不保证所有天气都可靠。用户需按说明管理场地和抛雪方向，不进行危险机械测试；官方区域购买和配置不同，不能把旧代价格或交期沿用当前Gen2。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 风险传播判断 · 研究判断
+
+定位中断、临时停车、湿重积雪和低温能源变化可能造成停止或重复作业，用户需要有可预期的接管方式。抛雪还涉及周围物体与场地管理，算法不能替代正常安全责任；不能把应用远程可看扩大为任何风暴下都能放心无人处理。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 风险验证 · 待验证
+
+风险验证应核查区域销售支持、当前模块版本、允许雪况和停机恢复，按说明管理场地，不做危险机械或抛掷测试。对交通道路、公共通行和近人环境不推定适用；购买入口可用只说明可订购，不代表每个住宅都有适合的自动除雪条件。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+## 机会与验证
+
+机会假设：持续小量清除和可解释接管可能比极端性能更适合家庭验证，先比较整季人工劳动与外包。若雪量少或停车变化频繁，机器人未必划算；新项目应锁定具体场地，不以共享底盘可换模块推导所有家庭任务都有需求。
+
+### 可能的机会入口 · 研究判断
+
+机会假设：持续小量清除和可解释接管可能比极端性能更适合家庭验证，先比较整季人工劳动与外包。若雪量少或停车变化频繁，机器人未必划算；新项目应锁定具体场地，不以共享底盘可换模块推导所有家庭任务都有需求。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 机会成立条件 · 研究判断
+
+机会在于持续小量除雪和清楚的人工回退，而不一定是更大的单次清除参数。高频场地可验证自动调度是否比固定时间更有用，低频用户可能更适合外包；创业分析应从整季劳动和服务成本切入，不把模块化叙事当成需求本身。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+### 下一步验证 · 待验证
+
+下一步可建立不同场地的降雪与处理记录，比较人工补做、地图维护和停靠恢复，确认哪些任务真正值得自动化。根据真实适配条件决定产品范围，不用寒冷地区家庭总数、共享底盘销量或最理想覆盖面积直接推导除雪模块的市场空间。
+
+依据：[Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) · [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [flex](../supply-chain/flex.md) — **能力候选 · 非已采用** / 耐候移动与除雪执行整机导入：Flex公开复杂机电工程制造能力可对应履带Core、控制与执行模块导入，但低温、冲击、积雪与家庭场地安全需专项验证；未见Yarbo Y40除雪Gen2点名合作证据，只列能力候选。
+
+- [fictiv](../supply-chain/fictiv.md) — **能力候选 · 非已采用** / 除雪模块接口与结构原型：Fictiv的数字制造和原型服务可支持模块连接、外壳及维护可达性评估，但不会自动验证雪载、传动和耐候寿命；没有Yarbo该型号采用披露，候选不代表现用零件、实际工厂或完整安全方案。
+
+[浏览供应链目录](../supply-chain.md)
+
+## 功能分层示意
+
+这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。
+
+1. **Y40履带底盘**：承载定位控制与移动执行，区别于Y40P。（官方披露）
+
+2. **Gen2进雪与抛雪**：前部除雪执行模块完成摄入及定向抛出。（官方披露）
+
+3. **定位与环境输入**：RTK或对应网络定位和环境信息支撑作业。（官方披露）
+
+4. **作业控制**：规划路径、间隔和回充，AI部分与常规控制分开。（官方披露）
+
+5. **回充与应用**：停靠能源与用户地图、抛雪方向和状态管理。（官方披露）
+
+## 来源
+
+1. [Yarbo Y40＋Snow Blower Gen2官方商品页](<https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module>) — 实际打开当前型号和购买入口，公开商品数据可售；不沿用已重定向旧型号页面。
+
+2. [Yarbo官方除雪系统比较](<https://www.yarbo.com/collections/robotic-snow-blower>) — 实际打开Y40与Y40P差异、地图与回充及需要人工处理的雪况。
+
+3. [Yarbo官方除雪调度技术文章](<https://eu.yarbo.com/blogs/all/detailed-look-at-the-yarbo-remote-control-snowblower>) — 实际打开，AI按降雪强度、温度及使用模式优化间隔；不将博客未独立验证性能当保证。
+
+[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/yarbo-y40-snow-blower-gen2)

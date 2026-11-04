@@ -1,0 +1,438 @@
+{
+  "id": "halliday-g2",
+  "name": "Halliday G2",
+  "brand": "Halliday",
+  "category": "glasses",
+  "tagline": "无摄像头双目显示中的会议AI提示",
+  "officialUrl": "https://www.hallidayglobal.com/products/halliday-g2",
+  "status": "on_sale",
+  "statusEvidence": "官方G2订单页显示US$499、Add to cart及非处方订单3工作日发货，处方镜片另有制作周期；不是旧代DigiWindow眼镜。",
+  "regions": [
+    "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+  },
+  "price": {
+    "text": "核查日促销 US$499；标价US$599",
+    "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "Halliday AI与Meeting Flow理解语音内容，生成摘要、待办和上下文检索提示，并在镜内呈现翻译字幕",
+    "dependency": "配套App、网络与会员积分决定高级会议功能；无摄像头，不能由其外形推断视觉问答或照片拍摄"
+  },
+  "highlights": [
+    "无摄像头双目显示中的会议AI提示",
+    "双目波导显示、镜腿麦克风、开放式扬声器和触控条",
+    "AI与联网服务边界单列",
+    "个人可使用的实体产品"
+  ],
+  "analysis": {
+    "demand": "需求假设：谈话和演示中希望减少低头看手机，同时能回看刚才的讨论重点。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+    "userProfile": "画像推断：经常做演讲、跨语言交流或个人会议记录，愿意配镜并管理音频权限的用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+    "competition": "案头判断：与Even G2、无屏AI眼镜及普通录音笔竞争，实时显示与会议摘要解决不同环节。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+    "supplyChain": "公开资料可核对双目波导显示、镜腿麦克风、开放式扬声器和触控条，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+    "technology": "Halliday AI与Meeting Flow理解语音内容，生成摘要、待办和上下文检索提示，并在镜内呈现翻译字幕。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+    "aesthetics": "图示观察：偏日常的深色镜框把显示光学藏在镜片与镜腿内，触控区域清楚。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+    "risks": "无相机仍会采集语音，须考虑在场者知情；现场提示可能分散注意，处方镜片退货条件与服务费用不同。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+    "opportunity": "市场差异主要在于无摄像头双目显示中的会议AI提示。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "实体输入",
+      "detail": "双目波导显示、镜腿麦克风、开放式扬声器和触控条；仅功能层示意，非拆机。",
+      "evidence": "official"
+    },
+    {
+      "name": "采集与控制",
+      "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "AI功能",
+      "detail": "Halliday AI与Meeting Flow理解语音内容，生成摘要、待办和上下文检索提示，并在镜内呈现翻译字幕",
+      "evidence": "official"
+    },
+    {
+      "name": "服务依赖",
+      "detail": "配套App、网络与会员积分决定高级会议功能；无摄像头，不能由其外形推断视觉问答或照片拍摄",
+      "evidence": "official"
+    },
+    {
+      "name": "用户反馈",
+      "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Halliday G2官方订单页",
+      "url": "https://www.hallidayglobal.com/products/halliday-g2",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "regions"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "Halliday G2官方规格与服务",
+      "url": "https://www.hallidayglobal.com/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "Halliday Meeting Flow",
+      "url": "https://www.hallidayglobal.com/flow",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Halliday G2官方订单页",
+        "url": "https://www.hallidayglobal.com/products/halliday-g2",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,regions。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s2",
+        "title": "Halliday G2官方规格与服务",
+        "url": "https://www.hallidayglobal.com/",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,architecture。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s3",
+        "title": "Halliday Meeting Flow",
+        "url": "https://www.hallidayglobal.com/flow",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,architecture。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜会议任务组合",
+          "text": "本型号以无摄像头的双目波导显示承接翻译与会议提示，并通过会议服务生成摘要、待办和上下文检索结果。它把会中查看和会后整理放在同一流程中，需求因此不是单纯记录声音；同时也不能从眼镜形态推断它可以拍照或理解眼前物体。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "判断｜会中回查的价值",
+          "text": "用户在讨论中可能想确认前面提到的数字、约定或问题，却不希望中断对话翻找手机。眼前提示有机会帮助回到上下文，但如果检索结果过长或出现过晚，就会挤占听取新信息的注意力；价值应以减少实际中断和遗漏来判断，而非生成内容数量。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜会议流程实验",
+          "text": "可安排包含明确决定与待办的模拟讨论，让用户分别使用眼镜、手机会议工具和手工笔记。记录会中追问、会后遗漏以及错误行动项，再观察用户能否追溯到原话；这种对照能区分显示位置与摘要算法各自的贡献，当前资料没有提供这类实测结果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s3"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜重复开会人群",
+          "text": "经常主持小型讨论、跨语言交流或需要演示提纲的人，可能更容易形成重复使用场景。偶尔需要摘要的人未必愿意承担配镜与持续服务成本，应区分每周固定任务和临时尝鲜；用户画像目前来自功能适配推断，不是已经完成访谈的市场结论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "判断｜对控制方式的接受",
+          "text": "镜腿触控和声音反馈使操作可在不拿手机时完成，但触碰眼镜可能打断交流，也可能在走动时误触。适合的用户需要接受这种交互并愿意管理录音权限，不能仅按职业或年龄判断；既有戴镜习惯、发型与常用帽子也会影响实际操作便利性。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜语言与会议角色",
+          "text": "研究应覆盖主持者、主要发言者和倾听者，因为三者阅读提示的时间窗口不同。还需比较熟悉与不熟悉主题、不同口音和中外语混用，记录哪些情况下提示帮助理解、哪些情况下干扰表达；不能用单人清晰朗读演示代表多人会议中的适配效果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s3"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与同类眼镜比较",
+          "text": "与其他无摄像头文字眼镜相比，本型号的重点是会议服务和双目显示共同形成的流程。比较时应看用户如何启动记录、查回上下文、确认待办及导出结果，而不是只比较镜框或显示参数；相似的硬件外形可以承载很不相同的软件依赖与使用成本。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "判断｜录音工具的替代",
+          "text": "普通录音笔和会议软件也能提供会后摘要，且不要求用户持续佩戴显示设备。眼镜只有在会中提示确实减少中断时，才可能形成额外价值；若用户主要在会后处理内容，硬件的显示与配镜成本可能成为负担，需要与已有工具组合做完整成本比较。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜计费影响比较",
+          "text": "竞争研究应把基础功能与高级会议功能分开，按照相同会议时长和任务计算使用成本，并确认额度耗尽后的行为。不能只比较购买价格，也不能把会员积分当成固定无限服务；当前目录没有渠道利润、销量或留存数据，无法据此判断商业竞争优势。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜功能模块分解",
+          "text": "公开结构包括双目波导显示、麦克风、开放式扬声器和触控条，手机应用与会议服务承担内容协同。这些信息可以建立功能架构，但具体主控、音频器件、光机和整机工厂仍未确认；目录不会把概念爆炸示意中的模块位置写成真实拆机结论。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜光学与声音约束",
+          "text": "双目显示需要两侧体验一致，开放式声音又要在可听清和不打扰旁人之间取舍。由形态推断，镜腿内电子、声学空间和触控区域会相互限制，处方制作也可能影响交付；这些是需要询证的制造问题，不能据此编造装配工艺、良率或实际代工厂。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜电子候选边界",
+          "text": "无线控制可比较 Nordic，轻量控制与联网原型可比较乐鑫，但必须验证最终镜腿功耗、协议和音频通路。候选仅支持功能匹配，不代表现有产品采用；光波导、显示器件和声学结构仍需单独选型，不能用通用微控制器供应商填补这些证据缺口。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜会议理解链路",
+          "text": "会议服务把语音内容组织为摘要、待办和可检索上下文，并将部分信息送到镜内显示。高级能力受应用、网络及会员积分约束，详细模型和部署位置没有完整公开，因此不能把即时提示描述为全部在眼镜本地完成，也不能承诺断网时所有功能保持一致。",
+          "evidence": "official",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "判断｜行动项需要确认",
+          "text": "会议中的建议、假设和正式承诺可能使用相似表达，模型若不区分语境，就会把讨论选项误写成待办。产品应让用户确认责任人、截止时间和原始依据，尤其在显示空间有限时不要省略关键条件；生成结果需要可追溯，不能只追求摘要看起来完整。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜连续上下文测试",
+          "text": "可使用包含更正、插话和前后矛盾的对话，观察系统是否更新旧结论，并检查检索能否找到对应片段。再分别测试弱网、应用后台和额度不足，记录提示如何退化；这些实验能确认会议流程的可靠性，当前官方资料只说明功能，不构成准确率保证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s3"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜双目显示的观感",
+          "text": "双目波导使提示呈现方式不同于旧代单侧显示，研究必须针对本型号，不能沿用早期产品的视觉描述。外观接近日常眼镜可能有助于持续佩戴，但显示亮度、焦点和文字位置仍是个人体验；宣传图中的清晰字幕不能证明所有处方用户都同样舒适。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜触控与社交动作",
+          "text": "镜腿触控让控制靠近佩戴位置，但用户在谈话时反复摸眼镜可能被误解为分心或调整镜架。声音反馈也可能被旁人听到，因此审美研究应包含交互动作与声音外溢，而不只看静态镜框；需要观察设备是否让用户更自然地参与交流。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜佩戴情境检查",
+          "text": "试戴应覆盖坐姿会议、站立演讲和室外移动，记录显示遮挡、镜框滑动与触控误操作。处方用户还需确认制作和适配条件，并在持续阅读后反馈疲劳情况；图片与规格只能帮助筛选，不能替代真实脸型、视力和场景下的体验验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜记录边界与同意",
+          "text": "会议提示依赖谈话内容，参与者需要理解何时记录、保存多久及是否上传。无摄像头只限定视觉采集，不能消除音频隐私问题；产品研究应检查暂停、删除和导出是否容易找到，并确认删除操作覆盖哪些数据层，而不是只清除眼镜上的显示内容。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "判断｜会员与地区风险",
+          "text": "高级会议能力受服务和积分影响，购买硬件后仍可能遇到额度、网络或地区限制。用户应确认关键任务在基础配置中的可用范围，并核对处方订单的制作与退换条件；不能把核查日促销价格当作长期总成本，也不能把海外可购等同大陆服务完整可用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜错误提示的处置",
+          "text": "测试应包含错误人名、错误数字和不确定结论，观察用户是否能及时发现并更正，尤其避免把镜内短提示直接当成事实。对于需要执行的会议决定，应回查原始记录并由人确认；验证目标是错误可见、可追溯，而不是假设模型能替代会议参与者判断。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s3"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜会中与会后连接",
+          "text": "本型号的差异化研究重点是会中提示是否能延续到会后整理，减少重复查找和重新解释上下文。若用户只使用其中一个环节，整体流程可能显得过重；应记录真实使用中哪些功能被连贯使用，不能因为功能同时存在就假设它们自然形成价值闭环。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "判断｜提示节奏的价值",
+          "text": "值得比较的是系统在什么时刻给出什么长度的内容，以及用户能否轻松忽略或延后查看。会议中的信息价值高度依赖时间，正确答案来得过晚也可能无用；这属于对现有产品体验的研究方向，不能用增加更多摘要模板替代对交流节奏的理解。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜长期使用与成本",
+          "text": "后续可跟踪一段时间内的会议类型、提示开启率、摘要更正量和积分消耗，结合镜片及维护费用判断总成本。只有重复任务中的收益超过学习和管理负担，才能支持持续购买理由；当前目录保持案头假设，不以厂商演示或配置丰富程度认定市场需求成立。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "nordic-semiconductor",
+        "role": "connectivity",
+        "relationship": "candidate",
+        "component": "眼镜、手机及控制交互的低功耗连接",
+        "rationale": "本型号需要把手机会议内容与镜内提示同步，Nordic 的无线控制平台可作为重设计候选。需验证实际协议、提示延迟、音频与触控并发及镜腿电源预算；当前没有点名供货证据，这一候选也不承担波导制造或会议模型服务。",
+        "sourceIds": [
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "espressif",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "轻量设备控制与联网协同原型",
+        "rationale": "乐鑫的无线微控制器和开发框架适合先验证触控、状态管理与手机协同流程，但是否适合最终眼镜需实测体积、功耗和音频接口。公开资料未说明 Halliday 使用乐鑫；候选只对应控制链路，不能据此推断高级会议理解在该芯片上完成。",
+        "sourceIds": [
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "live-text-assistance",
+      "needName": "交流中的实时文字提示",
+      "difference": "Halliday G2以双目文字显示连接Meeting Flow的上下文回查、摘要和待办，使会中确认内容与会后整理处于相邻流程。相较普通录音笔，增量在讨论尚未结束时查看提示，而不是摘要本身构成新需求；与Even G2仍属同一核心任务。高级功能受应用、网络和会员积分影响，提示过长或过晚会打断交流，无摄像头也仍需管理语音记录。",
+      "comparisonBasis": "与Even G2、手机会议字幕及会后才整理的录音笔比较会中回查和后续跟进。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/halliday-g2/product.webp",
+      "sourceUrl": "https://www.hallidayglobal.com/products/halliday-g2",
+      "sourceImageUrl": "https://cdn.shopify.com/oxygen-v2/56919/151838/310768/4941518/assets/package-g2-BOg1uG-K.jpg?width=1200&crop=center",
+      "caption": "Halliday G2官方产品外形图",
+      "alt": "Halliday G2官方产品外形图",
+      "credit": "Halliday · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 18016,
+      "sha256": "086c7caa055dc3b8b62c8e622a4124ca55494486f9d1c6da81d60f9a019a51d5"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/halliday-g2/reference.webp",
+      "sourceUrl": "https://www.hallidayglobal.com/products/halliday-g2",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0885/7557/4317/files/No.70_1.jpg?v=1788516571&width=1200&height=1208&crop=center",
+      "caption": "Halliday G2官方另一角度或使用场景参考",
+      "alt": "Halliday G2官方另一角度或使用场景参考",
+      "credit": "Halliday · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 215732,
+      "sha256": "713c16ee46899e5bcfdd918afd762ba58b8b52532720f3fcf83c7746128ccd71"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/halliday-g2/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Halliday G2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/halliday-g2.txt",
+      "referencePaths": [
+        "assets/hardware/halliday-g2/product.webp",
+        "assets/hardware/halliday-g2/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1495128,
+      "sha256": "bac62eb327b134254905c9ad6df37c0fcb33336c6d39ba5893b72a8bb6aef379"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "已逐张查看并核对型号。源图未改色/裁切；场景、界面、附件、优惠及效果文案仅为厂商示意，不作为本目录性能或现价依据。"
+  ]
+}

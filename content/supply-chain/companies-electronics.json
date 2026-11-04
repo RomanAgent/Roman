@@ -220,7 +220,8 @@
     "capabilities": [
       "Genio 700 边缘 AI 应用处理器",
       "多媒体与双显示处理",
-      "Android、Yocto Linux 与 Ubuntu 平台支持"
+      "Android、Yocto Linux 与 Ubuntu 平台支持",
+      "Helio P35移动应用平台（rabbit r1公开采用）"
     ],
     "productCategories": [
       "computing",
@@ -250,6 +251,13 @@
         "url": "https://www.mediatek.com/who-we-are",
         "note": "支持集团系统芯片业务定位；不将集团子公司能力自动归入 Genio 700。",
         "id": "s3",
+        "accessedAt": "2026-11-04"
+      },
+      {
+        "id": "s4",
+        "title": "MediaTek Helio P35 official product",
+        "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-p35",
+        "note": "本轮已打开：Helio P35应用处理、多媒体与4G平台；芯片通用能力不自动等于r1实际启用功能或全部AI本地运行。",
         "accessedAt": "2026-11-04"
       }
     ],
@@ -288,6 +296,14 @@
           "evidence": "analysis",
           "sourceIds": [
             "s1"
+          ]
+        },
+        {
+          "title": "官方｜P35与Genio分别记录",
+          "text": "Helio P35是公开的移动应用处理平台，提供处理器、多媒体与蜂窝连接能力；rabbit当前支持页明确点名r1使用该芯片。这条采用证据不能转成r1使用Genio，也不能把P35的全部通用相机功能当作成品已启用；目录保留具体系列与系统软件之间的边界。",
+          "evidence": "official",
+          "sourceIds": [
+            "s4"
           ]
         }
       ],
@@ -399,6 +415,14 @@
           "sourceIds": [
             "s1",
             "s2"
+          ]
+        },
+        {
+          "title": "判断｜已采用不等于全部本地AI",
+          "text": "芯片被点名后仍需分开核对外部模型、账户、网络和设备端计算。应用处理器能够支持相机和屏幕，不证明当前生成式问答全部在本地执行，也不能据此推算性能；供应研究应继续确认其他器件与制造资料，避免一项公开关系被扩写成完整物料清单。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s4"
           ]
         }
       ]
@@ -1659,7 +1683,8 @@
     "capabilities": [
       "nRF54H20 多核低功耗无线 SoC",
       "低功耗蓝牙与多协议连接",
-      "nRF Connect SDK 与分域电源管理"
+      "nRF Connect SDK 与分域电源管理",
+      "nRF52840传感控制与BLE（Ring AIR 2023公开案例）"
     ],
     "productCategories": [
       "wearables",
@@ -1691,6 +1716,13 @@
         "url": "https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_architecture_pm.html",
         "note": "支持不同电源域、缓存及休眠状态对功耗和唤醒延迟的影响；文档版本需冻结。",
         "id": "s3",
+        "accessedAt": "2026-11-04"
+      },
+      {
+        "id": "s4",
+        "title": "Nordic disclosed Ultrahuman Ring Air nRF52840 case, 2023-09-22",
+        "url": "https://www.nordicsemi.com/Nordic-news/2023/09/The-Ultrahuman-Ring-Air-employs-nRF52840-SoC",
+        "note": "Web读取403，根代理标准公开GET200并保存HTML，本代理已读取正文；点名2023公开Ring Air使用nRF52840监督传感与BLE，不确认2026所有批次、完整BOM或AI执行位置。",
         "accessedAt": "2026-11-04"
       }
     ],
@@ -1731,6 +1763,14 @@
           "sourceIds": [
             "s1",
             "s3"
+          ]
+        },
+        {
+          "title": "官方｜Ring AIR公开采用案例",
+          "text": "Nordic在二〇二三年的官方案例中点名Ultrahuman Ring Air采用nRF52840，描述其监督传感器、记录数据并通过低功耗蓝牙连接应用。这个案例提供具体成品与平台的关联，不能移植nRF54的参数，也不能据它确定后续所有批次或品牌全部戒指采用相同主控。",
+          "evidence": "official",
+          "sourceIds": [
+            "s4"
           ]
         }
       ],
@@ -1843,6 +1883,14 @@
           "sourceIds": [
             "s1",
             "s3"
+          ]
+        },
+        {
+          "title": "判断｜历史点名关系保留版本边界",
+          "text": "采用案例应带着发布日期和明确模块范围使用，后续软件、芯片变更与地区批次仍需另证。传感调度和蓝牙连接不证明睡眠分类或生成解释全部在芯片中完成；因此产品可标已披露此模块，同时继续将其他传感器、电池、工厂及完整物料关系保留为未知或候选。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s4"
           ]
         }
       ]

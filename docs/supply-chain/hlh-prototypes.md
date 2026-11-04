@@ -138,6 +138,10 @@ HLH Prototypes 的公开服务定位是原型和低批量制造，覆盖消费�
 
 - [Weave Isaac 0](../hardware/weave-isaac-0.md) — **能力候选 · 非已采用** / 支撑结构与操作空间原型评估：HLH公开机械加工、原型及小批量服务可支持支撑结构、外罩和装配验证，但不能推定掌握Isaac 0关节或夹爪专有设计；未见Weave实际供货披露，只作为机械工程潜在能力链接。
 
+- [Flappie AI Cat Flap](../hardware/flappie-ai-cat-flap.md) — **能力候选 · 非已采用** / 门框翻片与安装适配原型：HLH的原型和机械加工服务可用于门框、翻片和密封接口可装配性评估，但通行安全、材料耐候和长期锁闭机构需要独立验证；没有Flappie实际采用披露，候选只说明工程能力匹配。
+
+- [Catlog Board 2](../hardware/catlog-board-2.md) — **能力候选 · 非已采用** / 低矮承重底板与维护结构原型：HLH公开原型及机械制造服务可支持承重平台和维护接口试制，但称重计量、长期漂移及湿区清洁不是加工能力自动保证；没有RABO型号点名供货信息，只作为结构工程候选。
+
 ## 来源
 
 - [HLH 公司介绍](<https://www.hlhprototypes.com/about/hlh-prototypes/>)：原型及低批量制造定位与深圳主体信息。

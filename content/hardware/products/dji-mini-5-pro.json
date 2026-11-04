@@ -1,0 +1,416 @@
+{
+  "id": "dji-mini-5-pro",
+  "name": "DJI Mini 5 Pro",
+  "brand": "DJI",
+  "category": "drones",
+  "tagline": "面向个人旅行影像的紧凑视觉跟踪与障碍感知无人机。",
+  "officialUrl": "https://store.dji.com/au/product/dji-mini-5-pro",
+  "audience": "prosumer",
+  "saleMode": "retail",
+  "status": "on_sale",
+  "statusEvidence": "澳大利亚官方商品页有Add to Cart与Buy Now，列出不同控制器/电池组合。仅确认所核查地区，不将美国或其他地区库存一概扩展。",
+  "regions": [
+    "澳大利亚官方商店",
+    "英国目录有购买入口"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+  },
+  "price": {
+    "text": "AUD $1,119 起",
+    "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "官方列出ActiveTrack 360°、多视觉传感与前向LiDAR等能力，用于目标跟踪、机位控制和感知辅助。",
+    "dependency": "相机、飞行控制与应用配套共同工作，环境和模式限制需要按当前官方说明核对；扩展电池和控制器不是所有包装标配。"
+  },
+  "highlights": [
+    "相机与云台",
+    "多传感输入",
+    "识别与跟踪"
+  ],
+  "analysis": {
+    "demand": "需求假设：个人影像爱好者希望在便携范围内获得更高质量的旅行镜头和辅助跟拍。与手机或运动相机相比，使用准备和可用场地更多，因此需要证明飞行视角对真实创作任务的增量。",
+    "userProfile": "画像推断：已有拍摄经验、愿意规划旅行场景的个人创作者和高频户外记录者。首次入门者与升级用户的需求不同，前者更看重学习与售后，后者可能关心镜头、感知和控制的一致性。",
+    "competition": "竞争判断：紧凑无人机已经是成熟竞争市场，AI跟踪不等于独占能力。它还面对更便宜的旧款、手机工具和更大机型；应按具体携带与成片需求比较，而非以最高参数排序。",
+    "supplyChain": "公开产品页描述相机、LiDAR、多视觉与电池，完整供应商和BOM未核实。供应链分析应重视云台标定、传感同步、装配公差和售后维修，不能将高集成外观当成低制造难度的证据。",
+    "technology": "技术由目标识别、空间感知、飞控及影像处理构成。多传感并不消除所有环境限制，某项返回或跟踪能力还受光照等条件影响；本目录未开展实飞或计算端到端成功率。",
+    "aesthetics": "设计观察：可折叠结构和紧凑机身服务旅行携带，云台保护与收纳步骤影响日常使用。细小部件的可靠感、噪声和外观一致性都属于体验，但静态照片不能验证实际飞行稳定。",
+    "risks": "风险包括地区库存与使用条件、配件差异、损坏维修及复杂环境中的识别失误。购买更高配置不自动降低全部风险，本轮保留具体条件，不将宣传测试数据理解为无条件使用承诺。",
+    "opportunity": "市场差异需要通过个人工作流证明，例如同一旅行任务的携带负担、有效镜头和返修成本。用户是否愿意持续带出门，比一次样片更能说明价值，本轮没有用户访谈或销量归因。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "紧凑消费无人机竞争成熟，视觉AI已成为常见差异维度，需要具体创作任务验证购买理由。"
+  },
+  "architecture": [
+    {
+      "name": "相机与云台",
+      "detail": "官方列出影像模块和机械稳定结构。",
+      "evidence": "official"
+    },
+    {
+      "name": "多传感输入",
+      "detail": "视觉传感与前向LiDAR用于环境感知。",
+      "evidence": "official"
+    },
+    {
+      "name": "识别与跟踪",
+      "detail": "ActiveTrack 360°等主体识别能力。",
+      "evidence": "official"
+    },
+    {
+      "name": "飞行执行",
+      "detail": "飞控、推进和机身结构实现相对机位。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "电源与遥控",
+      "detail": "电池、遥控器与App方案需按组合确认。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DJI Mini5Pro 澳洲官方店",
+      "url": "https://store.dji.com/au/product/dji-mini-5-pro",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "当前购买按钮与感知跟踪能力。"
+    },
+    {
+      "title": "DJI 英国官方消费目录",
+      "url": "https://store.dji.com/uk?set_region=GB",
+      "kind": "official-store",
+      "supports": [
+        "status"
+      ],
+      "note": "独立列出Mini5Pro消费影像机型。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "deepDive": {
+    "sources": [
+      {
+        "id": "s1",
+        "title": "DJI Mini5Pro 澳洲官方店",
+        "url": "https://store.dji.com/au/product/dji-mini-5-pro",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：status,price,technology。当前购买按钮与感知跟踪能力。"
+      },
+      {
+        "id": "s2",
+        "title": "DJI 英国官方消费目录",
+        "url": "https://store.dji.com/uk?set_region=GB",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：status。独立列出Mini5Pro消费影像机型。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "需求假设：旅行携带范围内获得计划中的航拍镜头",
+          "text": "Mini 5 Pro面向愿意规划影像任务、希望便携同时保持拍摄与辅助跟随能力的个人创作者。需求应具体到飞行视角为作品增加什么，而非单纯追求最新参数；相比手机仍多出准备和场地要求，必须验证这些投入是否值得。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "价值判断：画面与跟踪不能只用最高规格衡量",
+          "text": "相机、云台和ActiveTrack组合可能帮助创作者完成计划镜头，但最终是否采用还取决于构图、场景和编辑。研究应记录带出门、准备和成片，不将感知模块更多视为所有任务更容易，也不把辅助跟拍解释为替代全部拍摄判断。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证方案：完成同一旅行记录计划",
+          "text": "让有拍摄经验的用户为真实行程列出目标镜头，在允许并符合说明的地点比较Mini与原有拍摄工具，记录准备、重复与有效素材。不要只选设备最擅长的演示场景，也不以一次样片证明长期携带与复杂环境可靠性。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "画像假设：愿意规划场景的个人影像作者",
+          "text": "较匹配者有持续旅行或户外拍摄任务，愿意管理电池、控制和素材，重视额外视角而非仅喜欢飞行。首次购买者与升级用户需要不同信息，画像应按经验和真实任务划分，不能以创作者身份或高预算推断一定会长期带出门。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "使用约束：折叠机身之外还有保护与配件",
+          "text": "云台保护、遥控、电池和存储构成完整携带组合，扩展电池或控制器不一定在所有包装中。用户需要理解配置与模式条件，不能只按折叠裸机尺寸评价轻便，也不由系列最高能力描述当前购买组合全部可用的体验。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "访谈重点：升级到底想减少哪种失败",
+          "text": "请已有无人机用户展示过去不满意或没有拍成的镜头，说明原因来自影像、感知、操作还是没有带设备，再观察Mini 5 Pro是否解决。不能把新型号兴趣当作稳定升级需求，也不以最高参数变化替代具体工作流问题。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "替代方案：旧款紧凑机、更大机型与地面工具",
+          "text": "Mini 5 Pro与其他紧凑无人机、旧款、更大型影像平台及手机运动相机竞争，不同方案在携带、准备和视角上有取舍。AI跟踪并非独占入口，比较应围绕真实成片，不仅排列规格，也不将便携等同所有用户最重要目标。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "差异判断：感知与控制一致性需要被验证",
+          "text": "多视觉与前向LiDAR可以提供更多环境输入，ActiveTrack服务主体跟随，但具体模式仍受条件影响。研究应观察是否减少用户重设和放弃镜头，而不是以传感器数量推断可靠，也不能把某一条件下的返回或跟随演示推广到全部环境。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "比较方法：按同一行程的完整设备投入",
+          "text": "记录不同方案的携带、布置、拍摄、回收和后期选择，比较最终作品真正用到的空中镜头。不要只看最佳单张样片或测试参数，也不忽略无法启动的场地与维修投入，个人是否愿意持续携带比一次效果更能解释产品价值。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能拆分：影像稳定、环境输入与飞行执行",
+          "text": "公开结构包含相机云台、多视觉、前向LiDAR、目标跟踪、推进和电源控制，多个模块共同实现相对机位。不能由高集成外观猜芯片或供应商，真实BOM与工厂未披露，也不能把所有飞行自动化都称为AI识别。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "制造判断：折叠与云台增加装配维护要求",
+          "text": "紧凑机身、折叠部件、相机稳定和感知同步需要保持一致，保护与运输又影响长期使用。供应评估应关注标定、装配和维修，不把体积小视为制造容易，本轮没有实飞、耐久或返修数据，也不从售价反推单机成本。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "候选选型：光学与飞行电源限定为能力线索",
+          "text": "Sunny Optical可作为相机光学候选，Grepow可讨论无人机电源工程，具体空间、重量、振动与保护要求需专项确认。两者均没有Mini 5 Pro点名供货证据，不能将标准视觉模组或航模电池直接当作原机部件，也不据此推断LiDAR来源。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露能力：ActiveTrack与多传感感知",
+          "text": "官方列出ActiveTrack 360°、视觉传感与前向LiDAR，支持主体跟踪、机位与环境感知，影像和飞控仍需要协作。多传感并不消除所有条件限制，不能以名称中的全向表述推断任意场景无盲点，也不补写未知模型和识别成功率。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "技术判断：主体跟随与作品构图并非同一目标",
+          "text": "系统可能持续跟住对象，却未保留创作者需要的背景、距离或镜头节奏，用户仍需理解和修改策略。研究应区分目标识别、运动和成片意图，不能把跟踪不丢失当作完整任务成功，也不将辅助能力视为对复杂环境的保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证方案：记录模式、条件与最终采用",
+          "text": "在支持条件下保存所选模式、光照、目标与人工干预，记录哪些片段被采用及哪些因构图或恢复问题放弃。保持测试条件可追溯，不超出说明范围，本轮没有端到端实飞数据，也不将厂商续航和传输测试转写为普通使用承诺。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外形判断：折叠结构服务旅行但不消除准备",
+          "text": "Mini 5 Pro紧凑折叠形态有利于放入摄影包，云台保护与展开步骤却仍影响启动和收纳。静态照片不能说明噪声、手部操作或实际稳定，设计评价应看完整携带组合，而不是仅比较展开或折叠后的外观尺寸。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "交互判断：用户需要看懂当前感知与控制状态",
+          "text": "创作者在拍摄时需要知道目标、模式和可用控制，不能只靠飞行动作猜测系统意图。研究应观察提示是否帮助接管和恢复，不把更多自动模式当作更简单，也不让复杂界面遮蔽最基本的拍摄与回收任务。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "体验验证：在真实旅行装备中完成循环",
+          "text": "让用户使用常用摄影包、控制器和电池完成取出、准备、拍摄、回收与备份，记录哪些步骤导致放弃使用。比较原有工具的完整流程，不以展台上轻巧手感或一张产品渲染判断长期便携，保护与维护同样影响设计价值。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "环境风险：感知与跟随需要保持条件边界",
+          "text": "多视觉和LiDAR不代表所有遮挡、光照或地形都能处理，自动跟随也不等于无人监管拍摄。用户需要按当前模式和实际场地条件操作，本轮没有实飞验证，不将厂商演示、距离或续航作为无条件保证，也不假定升级配置消除全部风险。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "拥有风险：地区与配件条件影响实际组合",
+          "text": "不同电池、遥控和包装可能改变能力与使用安排，库存、维修和服务也按地区确认，不能将澳洲与英国官方页面条件直接推广。用户应把损坏与备件纳入拥有成本，本轮没有实际订单或售后记录，不从高配置推断更低维护风险。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证安排：纳入没带设备与未成片的任务",
+          "text": "研究应记录因准备、场地、噪声或操作负担没有拍摄的场景，以及跟随后仍未采用的素材。不要只分析成功航拍，也不将放弃拍摄都归因于技巧不足，完整失败与闲置原因有助于判断便携升级是否真的解决问题。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "研究方向：让计划中的航拍更容易完成",
+          "text": "Mini 5 Pro可用于研究个人旅行镜头从计划到成片的阻碍，机会可能在准备、状态与恢复，而不只是继续增加传感器。应先确认原方案的具体失败，再比较升级是否减少，避免以最高参数和一次样片替代真实需求研究。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "执行计划：跟踪多个行程与维修维护",
+          "text": "记录携带、启动、有效片段、后期使用和维护，访谈一次决定带或不带设备的理由，区分首次入门和升级用户。不要用社交样片热度、平台评价或品牌总销量归因给该型号，也不把验证计划冒充已完成的用户观察。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "决策边界：紧凑航拍应按共享任务聚合",
+          "text": "Mini与其他便携自主航拍产品存在相近核心任务，影像、感知和控制是具体取舍，不能每代型号都计为全新市场。当前没有访谈、销量和供应报价，不以AI名称、参数排名或模型评分预测创业成功，应看反复创作中的实际增量。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "sunny-optical",
+        "role": "optics",
+        "relationship": "candidate",
+        "component": "紧凑无人机影像光学候选",
+        "rationale": "Sunny Optical公开镜头和视觉组件能力，可作为Mini 5 Pro相机输入候选，但云台配合、振动、重量和成像要求须专项验证，普通视觉模组不能直接替换飞行相机。当前没有DJI点名供货证据，也不据候选推断前向LiDAR器件来源。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "supplierId": "grepow",
+        "role": "power",
+        "relationship": "candidate",
+        "component": "旅行航拍设备电源工程候选",
+        "rationale": "Grepow公开无人机和高倍率电池路线，可用于Mini 5 Pro供电候选研究，但真实重量、负载、保护通信与固定需确认，不能将现有航模电池视为兼容替换。当前没有原机电池采用证据，实际续航与寿命也需整机工况验证。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "innovationProfile": {
+      "needKey": "portable-autonomous-aerial-capture",
+      "needName": "个人便携空中记录与跟拍",
+      "difference": "折叠影像机身、多视觉和前向LiDAR结合ActiveTrack，面向愿意规划旅行镜头的人，是便携航拍中的画面与控制取舍。多传感不等于任意环境可靠，配件、保护和维修影响携带；与Neo等共享核心场景，差异要看同一行程的有效素材，不按每代型号重复计创新。",
+      "comparisonBasis": "与旧款和其他紧凑无人机、更大机型及地面拍摄工具比较。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/dji-mini-5-pro/product.jpg",
+      "sourceUrl": "https://store.dji.com/au/product/dji-mini-5-pro",
+      "sourceImageUrl": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/2738b91eed7c870d58218efd2cb93541@ultra.jpg?format=webp",
+      "caption": "DJI Mini 5 Pro 官方产品图",
+      "alt": "DJI Mini 5 Pro 产品主图",
+      "credit": "DJI",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 124313,
+      "sha256": "0e67e882e3c5879e3017c76c0f19c9e5098d7c3ec5a2c47c7f55d551642cd4ca"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/dji-mini-5-pro/reference.jpg",
+      "sourceUrl": "https://store.dji.com/au/product/dji-mini-5-pro",
+      "sourceImageUrl": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/1c832f9e1bb82fb5df4b0c2281d71412@ultra.jpg?format=webp",
+      "caption": "DJI Mini 5 Pro 官方外观 / 使用参考图",
+      "alt": "DJI Mini 5 Pro 参考图",
+      "credit": "DJI",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 84756,
+      "sha256": "4fe0d34e53c32b7cf2b265b21c19ad9b3218b1187099d54586c1599c7d8099d8"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/dji-mini-5-pro/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "DJI Mini 5 Pro的AI生成概念结构图，隐藏内部为功能推断",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/dji-mini-5-pro.txt",
+      "referencePaths": [
+        "assets/hardware/dji-mini-5-pro/product.jpg"
+      ],
+      "verified": true,
+      "bytes": 1620295,
+      "sha256": "d4f24cf32b0d2805994ca5e3872d69db84c87bc4d92f1c7fc56132642b38d6f6"
+    }
+  ],
+  "mediaNotes": []
+}

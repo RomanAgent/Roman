@@ -1,0 +1,420 @@
+{
+  "id": "plaud-notepin",
+  "name": "Plaud NotePin",
+  "brand": "Plaud",
+  "category": "recording",
+  "tagline": "面向走动交谈的可佩戴 AI 录音胶囊",
+  "officialUrl": "https://www.plaud.ai/products/plaud-notepin",
+  "status": "on_sale",
+  "statusEvidence": "官方NotePin页面显示 US$159、Shop Now及通常1–2个工作日发货说明；与另列的NotePin S区分，不能把S款按钮或售价算入本款。",
+  "regions": [
+    "美国/国际官网",
+    "其他地区依当地官方站点与结算确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "未核实本型号大陆官方销售与服务承诺；本次价格和功能基于国际版NotePin，不等同其他地区版本。"
+  },
+  "price": {
+    "text": "US$159",
+    "note": "核查时基础NotePin价格，含磁吸扣、夹子及基础300分钟/月转写额度；腕带等具体配件需查看所选套装。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "现场语音转写、说话人区分、摘要与对记录的检索问答。",
+    "dependency": "需Plaud应用处理和管理笔记；可本地录音不等于离线生成摘要。官网明确本款没有电话振动传感器，不支持相应电话录音模式。"
+  },
+  "highlights": [
+    "可夹、佩戴或放置采集",
+    "两颗MEMS麦克风、64GB存储",
+    "官方最长20小时连续录音",
+    "不具备Note系列的电话振动拾音模式"
+  ],
+  "analysis": {
+    "demand": "需求假设：走动讲解、现场接待或随手口述时，固定佩戴比反复摆放手机更方便。价值取决于收音距离和启动动作是否稳定，不能因为设备一直带在身上就推断它会自动记录一切。",
+    "userProfile": "画像推断：工作中频繁移动的顾问、讲解者、现场协调人员更匹配；主要做电话访谈的用户应比较Note系列。具体职业只是待验证情境，不能直接据官网行业案例推导该职业普遍需求。",
+    "competition": "案头判断：与Omi、Bee、胸前麦克风和手机录音争夺现场采集任务。佩戴方式是差异，但摘要服务趋同；此处没有用户访谈、使用留存或销量证据，不能据小型外观称之为蓝海。",
+    "supplyChain": "官方披露两颗MEMS和本地存储，佩戴配件涉及夹具与磁吸结构；实际工厂、麦克风厂商与良率不明。推断衣料摩擦、固定可靠性和充电触点寿命会影响长期体验及售后成本。",
+    "technology": "官网明确没有电话振动传导传感器，因此不能用Note的电话录音能力描述NotePin。设备侧负责采集与保存，软件侧负责转写摘要；精准算法、模型供应商与部署边界未完整公开。",
+    "aesthetics": "图示观察：圆角胶囊比传统录音笔更像衣物配件，灰色与简洁表面有利于日常佩戴。不同衣料、夹放位置和挂绳会改变外观与收音；图片无法证明运动中不晃动或不会产生摩擦音。",
+    "risks": "最容易误购的风险是把现场录音当成手机通话录音。佩戴位置、衣物遮挡和旁人知情也影响使用；磁性配件需遵守官方使用说明，转写与摘要中的金额、姓名等内容仍需人工复核。",
+    "opportunity": "市场差异在于把输入入口从手机背面移到身体，服务移动对话。尚待验证的是用户是否愿意每天佩戴、是否记得开启，以及佩戴录音相比手机能否明显提高可用记录的比例。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "佩戴式工作记录仍在探索稳定习惯，但已有多款直接竞品，不能把新形态等同低竞争。"
+  },
+  "architecture": [
+    {
+      "name": "现场拾音",
+      "detail": "两颗MEMS采集现场声音；功能结构示意，非拆机图。",
+      "evidence": "official"
+    },
+    {
+      "name": "录音与保存",
+      "detail": "用户启动录音，设备本地存储；不包含电话振动拾音模式。",
+      "evidence": "official"
+    },
+    {
+      "name": "同步层",
+      "detail": "连接Plaud App并在网页等平台管理。",
+      "evidence": "official"
+    },
+    {
+      "name": "AI处理",
+      "detail": "转写、说话人标签、摘要、Ask Plaud检索。",
+      "evidence": "official"
+    },
+    {
+      "name": "笔记输出",
+      "detail": "查看来源、调整摘要并导出分享。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Plaud · NotePin 官方商店与FAQ",
+      "url": "https://www.plaud.ai/products/plaud-notepin",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "dependency",
+        "architecture"
+      ],
+      "note": "已打开，FAQ明确无V.C.S、不支持电话录音；未引用NotePin S规格。"
+    },
+    {
+      "title": "Plaud · 官方设备比较",
+      "url": "https://www.plaud.ai/pages/plaud-device-comparison",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "competition"
+      ],
+      "note": "已打开，区分可佩戴采集与卡片双模式录音。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Plaud · NotePin 官方商店与FAQ",
+        "url": "https://www.plaud.ai/products/plaud-notepin",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology,dependency,architecture。已打开，FAQ明确无V.C.S、不支持电话录音；未引用NotePin S规格。"
+      },
+      {
+        "id": "s2",
+        "title": "Plaud · 官方设备比较",
+        "url": "https://www.plaud.ai/pages/plaud-device-comparison",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,competition。已打开，区分可佩戴采集与卡片双模式录音。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜移动中的现场声音采集",
+          "text": "本型号面向可夹、可佩戴或放置的现场录音，配合软件转写、区分说话人、摘要和检索。官方明确没有电话振动传导传感器，因此需求应围绕走动讲解、面对面谈话或口述，不能把同品牌 Note 的电话模式移植过来；一直随身携带也不代表设备默认自动记录所有声音。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜固定佩戴减少摆放",
+          "text": "现场讲解或边走边谈时，用户可能不方便持续拿手机，固定在衣物上的入口有机会减少摆放和遗漏。但佩戴位置也会改变与说话人的距离，自己的声音清楚不等于他人同样清楚；价值应以完整对话能否回查判断，而不是只看设备是否小或能佩戴在多处。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜走动与静止任务对照",
+          "text": "可在相同讲解和讨论中比较佩戴录音、手机手持和桌面放置，记录启动、声音完整与回查时间。加入转身、远离和衣物摩擦，观察哪些内容丢失以及用户是否注意到；当前目录没有实机测试，不能由便携形态推断动态场景一定优于其他记录方式。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜频繁移动的个人用户",
+          "text": "需要现场协调、讲解或随口记录想法的人可能值得优先访谈，但职业只是场景线索，不代表普遍需求。主要做电话访谈的人应重新核对输入方式，低频记录者也可能已有手机满足；画像应依据实际谈话位置、录音频率和回顾习惯，而非泛化为所有忙碌工作者。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜佩戴与隐私偏好",
+          "text": "用户需要愿意把记录设备放在衣物或身上，并管理开始、停止和参与者知情。有人可能喜欢不拿手机，却不愿在社交场合佩戴容易被误解的电子配件；这些偏好会影响持续使用，不能只依据对人工智能笔记的兴趣或小巧外观推断购买意愿。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜附件选择与学习负担",
+          "text": "测试应让用户选择夹持、磁吸或所购配件的实际方式，观察是否容易找到控制、确认状态和完成充电。不同衣物和工作姿态应分别记录，不能仅由熟悉设备的人演示；使用门槛包含附件管理与数据整理，而不只是一次成功开始录音。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与卡片电话录音器区分",
+          "text": "本型号与 Note 系列共享部分软件整理，但采集目标不同，不能因为摘要功能相似就视为完全可替代。电话模式缺失是购买判断的重要边界，而非单纯少一个参数；竞争分析应先区分主要现场谈话还是主要电话，再比较佩戴、状态和后续服务。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜与主动佩戴录音器比较",
+          "text": "其他小型佩戴设备也可以通过主动控制留下现场音频，NotePin 需要在声音、附件和内容管理上证明差异。多种佩戴方式不自动形成多个独立需求，场景分组应复用移动现场记录的核心任务；比较重点是实际减少的步骤和遗漏，而不是配件数量或外形变化。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜同任务与服务计划",
+          "text": "应使用相同现场任务、录音量和软件权益比较总成本，区分基础 NotePin 与另列的 NotePin S，不能混用按钮、价格和配置。国际版列售也不代表大陆同款服务完整开放，附件随套装变化需核对；当前没有销量或用户研究，不能由品牌或基础额度判断市场接受度。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜双麦、本地保存与无线",
+          "text": "本轮重新打开官方资料，确认两颗 MEMS、本地存储和蓝牙及无线局域网连接，并明确没有电话振动传感器。具体主控、麦克风厂商和工厂仍未披露，不能据同品牌其他设备猜测沿用；目录只记录已知功能，不将概念图或附件形态当作内部结构和物料证据。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜附件与声孔共同影响",
+          "text": "佩戴固定、衣物遮挡和充电接触会影响长期可靠性，声音输入尤其需要在不同方向和材料上验证。磁性附件和夹具的使用限制应按官方说明处理，不能根据外观推断安全或寿命；供应链分析提出这些约束，但不编造内部材料、装配工艺或量产良率。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜连接与采集候选",
+          "text": "乐鑫可作为双无线与状态控制候选，英飞凌可作为空气声音麦克风候选，当前均没有本型号供货点名。选择需验证持续录音缓存、峰值功耗、声孔和手机接口，不能直接替换现有器件；这两个候选也不意味着能为 NotePin 增加它没有的电话振动拾音模式。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜设备与服务的边界",
+          "text": "设备侧负责现场采集与保存，软件承担转写、摘要和对记录的问答，基础与高级计划影响持续使用。可本地录音不等于离线生成笔记，具体模型和端云分工未全部公开；本条保持型号边界，不把 Note 或 NotePin S 的功能、控制和规格算到当前产品。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜佩戴位置改变输入分布",
+          "text": "麦克风靠近用户衣物时，自己的声音、摩擦与周围谈话可能混在一起，算法需要面对与桌面录音不同的输入。即使转写能输出完整句子，也可能漏掉远处发言或错分说话人；技术评价应回到原始声音，不能把文本看起来连贯当作现场内容已经完整保留。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜动态声音与处理状态",
+          "text": "应测试走动、转身、外套遮挡和多人交叠，分别检查原音、转写与摘要，再加入断网和上传中断。需要明确录音已保存与软件已完成处理是两个状态，避免用户误判；当前目录没有独立准确率或续航测试，官方最长时间不能代表所有佩戴与连接负载。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜小型配饰的外观角色",
+          "text": "较小的可佩戴形态可以减少手持设备感，也可能与衣物和个人风格不协调。审美研究应观察用户愿意在哪些场合戴着，以及旁人能否理解用途，不能只评价孤立产品图；轻巧外观不保证没有拉扯、滑动或摩擦，更不能自动证明社交接受度更高。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜操作状态需要清楚",
+          "text": "没有大屏的佩戴设备需要用有限反馈表达开始、停止和连接，用户在走动中是否能确认尤为重要。设计评价应检查控制是否容易误触、是否需要拿出手机复核，而不是把简洁外观当作易用保证；型号不同的控制设计也应分开，不能借用 S 款体验描述本款。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜从穿戴到收纳的流程",
+          "text": "试用应覆盖不同衣物、坐姿、走动和摘下充电，记录附件管理、遗失担忧和声音质量变化。还需让用户完成一次错误状态恢复，观察是否影响继续谈话；官方图像和标称尺寸只能帮助初筛，连续使用中的便利与不适需要真实佩戴反馈。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜电话模式误购",
+          "text": "最直接风险是把现场录音与专门电话捕获混为一谈，用户可能因同品牌软件相同而买错形态。官方明确没有对应振动传感器，目录不会通过其他产品参数补足；购买前应以主要任务确认，不能假设一个佩戴录音器能在所有耳机或手机通话方式中记录双方。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜磁性附件与数据管理",
+          "text": "附件应按官方使用限制处理，涉及特定植入设备的人群不能套用一般佩戴体验。录音本身也涉及旁人、敏感内容和账户保存，生成摘要可能错归人物或条件；目录不把小型配饰或厂商安全声明当作所有场景适用，也不把本地存储等同全部智能处理不出设备。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜关键内容可回听",
+          "text": "测试应检查姓名、金额和行动项是否能定位到原音，并验证更正或删除后检索结果如何变化。重要谈话需要人工复核，尤其佩戴距离不均造成的遗漏不能靠摘要可靠补回；失效时应有清晰提示和恢复路径，而不是让用户仅凭设备仍在运行判断记录质量。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜移动现场任务的价值",
+          "text": "本型号值得研究的是固定佩戴是否让走动交流更容易留下可用记录，核心价值来自输入位置而非外形本身。若用户多数时间坐在桌前或打电话，其他形态可能更匹配；场景分组应保持这种任务边界，不因磁吸、夹子或腕带不同就增加多个独立需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜服务整理是否真正减负",
+          "text": "现场记录可能较零散，摘要与检索需要帮助用户快速找到具体事项，而不是生成大量通用段落。研究应记录哪些笔记被回看、多少需要更正和多少内容最终无用，判断软件是否降低负担；硬件随身只是入口，不能代替对会后任务和信息管理的验证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜长期佩戴与总成本",
+          "text": "后续可跟踪有效现场记录、启动失败、摩擦噪声、更正和回查次数，并核算附件、服务和维护时间。还应观察用户何时选择手机或卡片录音器，理解替代边界；当前目录保留需求假设，不以在售、品牌或佩戴方式丰富认定需求与效率已得到证明。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "espressif",
+        "role": "connectivity",
+        "relationship": "candidate",
+        "component": "现场录音器的双无线与状态控制候选",
+        "rationale": "NotePin 官方列出蓝牙和无线局域网，乐鑫相应微控制器可用于新设计中的连接与控制比较。需要验证音频缓存、峰值电流、手机同步及最终封装，当前没有采用点名；该候选不提供 Plaud 云服务，也不能让没有振动传感器的本型号获得电话模式。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "infineon",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "佩戴现场采集的双 MEMS 前端候选",
+        "rationale": "NotePin 披露两颗 MEMS 麦克风，英飞凌可作为空气声音输入候选，重点验证衣物摩擦、方向与远近声音差异。现有来源未点名供货，还需核对声孔、接口和功耗；麦克风能力不能替代电话振动拾音，也不能保证转写、说话人或摘要准确。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "intentional-field-recording",
+      "needName": "主动现场记录与事后整理",
+      "difference": "NotePin将主动录音入口固定在衣物或其他佩戴附件上，走动讲解和临时口述时可减少反复摆放手机。它与soundcore Work及腕上录音共享现场记录需求，多种佩戴方式不会形成多种新任务。官方明确没有电话振动传感器，不能把Note的电话模式算入本款；自己的声音容易收集也不代表远处发言完整，衣物摩擦、启动习惯和应用整理额度仍是实际边界。",
+      "comparisonBasis": "与soundcore Work、腕上录音设备及手机现场录音比较走动交谈的启动与声音完整性。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/plaud-notepin/product.webp",
+      "sourceUrl": "https://www.plaud.ai/products/plaud-notepin",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/plaud-notepin-gray-0225.webp?v=1774430287&width=1200",
+      "caption": "官方 Plaud NotePin 胶囊录音器产品图",
+      "alt": "官方 Plaud NotePin 胶囊录音器产品图",
+      "credit": "Plaud · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 15748,
+      "sha256": "66a2461918992e55be3459f87b8aef33af52e61060c10674c8c9ca8adea90734"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/plaud-notepin/reference.webp",
+      "sourceUrl": "https://www.plaud.ai/products/plaud-notepin",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/plaud-notepin-weight-0225.webp?v=1774430287&width=1200",
+      "caption": "官方手持比例示意图，图中文字为厂商宣传",
+      "alt": "官方手持比例示意图，图中文字为厂商宣传",
+      "credit": "Plaud · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 41482,
+      "sha256": "cf32ede9969fa885b63b3774fcad94cecf02d2f7b9db2f357a49297b89af5e4a"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/plaud-notepin/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Plaud NotePin的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/plaud-notepin.txt",
+      "referencePaths": [
+        "assets/hardware/plaud-notepin/product.webp",
+        "assets/hardware/plaud-notepin/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1567861,
+      "sha256": "e7be88ab77fb96a1f47c7f3fdf8b84c57620cb8079d7fe2fa88980002c23bb0f"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+  ]
+}

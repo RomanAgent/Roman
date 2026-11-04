@@ -328,5 +328,426 @@
     "notes": [
       "实际查看并核对对应型号，官方原图未改色或语义编辑；营销文字不代表本研究独立验证。"
     ]
+  },
+  {
+    "id": "flappie-ai-cat-flap",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/flappie-ai-cat-flap/product.jpg",
+        "sourceUrl": "https://flappiedoors.com/en/products/flappie",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0577/6539/6578/files/gallery-01b-studio-outside.jpg?v=1792157853",
+        "caption": "官方猫门外侧视角",
+        "alt": "Flappie白色猫门外侧、透明翻门与视觉窗口",
+        "credit": "Flappie · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/flappie-ai-cat-flap/reference.jpg",
+        "sourceUrl": "https://flappiedoors.com/en/products/flappie",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0577/6539/6578/files/gallery-02-in-action-v2-wood-door.jpg?v=1792157853",
+        "caption": "官方室内安装与猫通行场景",
+        "alt": "猫穿过安装在木门上的Flappie",
+        "credit": "Flappie · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，原图未经改色或语义编辑；厂商标注不等同本研究实测。"
+    ]
+  },
+  {
+    "id": "leafypod-starter-pack",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/leafypod-starter-pack/product.webp",
+        "sourceUrl": "https://www.theleafypod.com/products/leafypod-bridge-planter-package",
+        "sourceImageUrl": "https://www.theleafypod.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0674%2F4162%2F3240%2Ffiles%2Fbundle-1-min.png%3Fv%3D1756546146&w=3840&q=75",
+        "caption": "官方单盆与Bridge套装",
+        "alt": "LeafyPod白色圆柱花盆及小型桥接器",
+        "credit": "LeafyPod · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/leafypod-starter-pack/reference.webp",
+        "sourceUrl": "https://www.theleafypod.com/products/leafypod-bridge-planter-package",
+        "sourceImageUrl": "https://www.theleafypod.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0674%2F4162%2F3240%2Ffiles%2Fplanter-bundle-image-1.compressed.png%3Fv%3D1756546146&w=3840&q=75",
+        "caption": "官方种植与应用参考（含原厂营销标注）",
+        "alt": "LeafyPod中种植观叶植物并展示应用状态",
+        "credit": "LeafyPod · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，原图未经改色或语义编辑；厂商标注不等同本研究实测。"
+    ]
+  },
+  {
+    "id": "hearth-family-display",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/hearth-family-display/product.png",
+        "sourceUrl": "https://hearthdisplay.com/products/hearth-display",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0554/9126/4661/files/family_dashboard_70a26343-741b-47d8-8415-1fd8df19e1a7.png?v=1775833231",
+        "caption": "官方家庭面板界面与木色边框",
+        "alt": "墙面Hearth Display展示家庭安排",
+        "credit": "Hearth · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/hearth-family-display/reference.png",
+        "sourceUrl": "https://hearthdisplay.com/products/hearth-display",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0554/9126/4661/files/hearth-display-on-hall-wall-color-matte-white.png?v=1775833231",
+        "caption": "官方同型号白色边框日历参考",
+        "alt": "Hearth Display白色边框与多人日程界面",
+        "credit": "Hearth · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，原图未经改色或语义编辑；厂商标注不等同本研究实测。"
+    ]
+  },
+  {
+    "id": "catlog-board-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/catlog-board-2/product.jpg",
+        "sourceUrl": "https://rabo.cat/catlog/product/board2/",
+        "sourceImageUrl": "https://d11jl4ergbaxva.cloudfront.net/products/8/board2.jpg?v=1",
+        "caption": "官方Board 2白色在售型号",
+        "alt": "白色Catlog Board 2薄型感知底板",
+        "credit": "RABO / Catlog · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/catlog-board-2/reference.webp",
+        "sourceUrl": "https://rabo.cat/catlog/product/board2/",
+        "sourceImageUrl": "https://rabo.cat/static/8fe7ecadfbe90b112e7a2161d0ba1e6b/41517/Board2KvJP.webp",
+        "caption": "官方Board 2配色参考，不另计产品",
+        "alt": "Catlog Board 2四种颜色的同型号外形",
+        "credit": "RABO / Catlog · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，原图未经改色或语义编辑；厂商标注不等同本研究实测。",
+      "当前官网混有系列历史场景图，本条只选明确标为Board 2的整机及配色图。"
+    ]
+  },
+  {
+    "id": "sleepal-ai-lamp",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/sleepal-ai-lamp/product.png",
+        "sourceUrl": "https://www.sleepal.ai/cart",
+        "sourceImageUrl": "https://www.sleepal.ai/cart/images/product-sleepal-lamp.png",
+        "caption": "当前官方购物页整机图",
+        "alt": "Sleepal白色柱形灯和带旋钮的椭圆底座",
+        "credit": "Sleepal · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/sleepal-ai-lamp/reference.webp",
+        "sourceUrl": "https://www.sleepal.ai/home",
+        "sourceImageUrl": "https://www.sleepal.ai/sections/hero/images/hero-kv-mobile.webp",
+        "caption": "当前官方床头使用场景",
+        "alt": "Sleepal灯放置在床头并发出暖光",
+        "credit": "Sleepal · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，原图未经改色或语义编辑；厂商标注不等同本研究实测。"
+    ]
+  },
+  {
+    "id": "ysl-rouge-sur-mesure",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ysl-rouge-sur-mesure/product.webp",
+        "sourceUrl": "https://www.yslbeautyus.com/rouge-sur-mesure-custom-lip-color-creator/WW-50912YSL.html",
+        "sourceImageUrl": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw07978e6b/RSM%20Packshots/Device/3614273601818.webp?sw=1440&sh=1440&sm=cut&sfrm=jpg&q=85",
+        "caption": "官方整机正面",
+        "alt": "黑色筒形YSL Rouge Sur Mesure与可拆顶部调色盘",
+        "credit": "YSL Beauty · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ysl-rouge-sur-mesure/reference.webp",
+        "sourceUrl": "https://www.yslbeautyus.com/rouge-sur-mesure-custom-lip-color-creator/WW-50912YSL.html",
+        "sourceImageUrl": "https://www.yslbeautyus.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-ysl-master-catalog/default/dw10c8fe50/RSM%20DEVICE/new/alt1.webp?sw=1440&sh=1440&sm=cut&sfrm=jpg&q=85",
+        "caption": "官方整机与专用色芯参考，色芯另购",
+        "alt": "YSL调色仪与三支不同基础唇彩色芯",
+        "credit": "YSL Beauty · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对当前型号；官方原图未改色或语义编辑，宣传文字不作为独立实测。"
+    ]
+  },
+  {
+    "id": "ininum-smart-fragrance",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ininum-smart-fragrance/product.png",
+        "sourceUrl": "https://www.ininum.com/products/ininum",
+        "sourceImageUrl": "https://www.ininum.com/_next/image?url=%2Fimages%2Fininum-final-device-transparent-v2.png&w=3840&q=75",
+        "caption": "官方最终设备外形",
+        "alt": "ININUM深色菱面筒身、模式按键与充电口",
+        "credit": "ININUM · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ininum-smart-fragrance/reference.webp",
+        "sourceUrl": "https://www.ininum.com/products/ininum",
+        "sourceImageUrl": "https://www.ininum.com/_next/image?url=%2Fimages%2Fproduct-hero-shopify-clean.webp&w=1920&q=75",
+        "caption": "官方设备与应用展示",
+        "alt": "ININUM设备与混配应用界面",
+        "credit": "ININUM · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对当前型号；官方原图未改色或语义编辑，宣传文字不作为独立实测。"
+    ]
+  },
+  {
+    "id": "moen-flo-shutoff-900-006",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/moen-flo-shutoff-900-006/product.jpg",
+        "sourceUrl": "https://flo.moen.com/products/flo-smart-water-monitor-shutoff-enhanced-bundle",
+        "sourceImageUrl": "https://flo.moen.com/cdn/shop/files/5d25889bbe06aa6189d277a966f9ffcb4f11a6f2_700x.jpg?v=1776796649",
+        "caption": "官方当前阀体与配套组件",
+        "alt": "蓝色Moen Flo阀体、电源线及套件组件",
+        "credit": "Moen · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/moen-flo-shutoff-900-006/reference.jpg",
+        "sourceUrl": "https://flo.moen.com/products/flo-smart-water-monitor-shutoff-enhanced-bundle",
+        "sourceImageUrl": "https://flo.moen.com/cdn/shop/files/0a354d748891e542cfc67f9f78440a254b5cde3a.jpg?v=1786998397&width=700",
+        "caption": "官方阀体止水功能示意（非拆机）",
+        "alt": "Moen Flo蓝色阀体与管路连接的官方功能图",
+        "credit": "Moen · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对当前型号；官方原图未改色或语义编辑，宣传文字不作为独立实测。"
+    ]
+  },
+  {
+    "id": "yarbo-y40-snow-blower-gen2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/yarbo-y40-snow-blower-gen2/product.png",
+        "sourceUrl": "https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0604/5394/5441/files/Yarbo_Lawn_Mower_1119d71f-ce57-4e41-a10c-9481b2d9032d.png?v=1793599048",
+        "caption": "官方Y40与第二代除雪模块整机",
+        "alt": "黑黄履带Yarbo、前部进雪机构及高抛雪口",
+        "credit": "Yarbo · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/yarbo-y40-snow-blower-gen2/reference.jpg",
+        "sourceUrl": "https://www.yarbo.com/products/yarbo-y40-core-with-snow-blower-module",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0604/5394/5441/files/Up_to_6_000_ft_Per_Charge-1.jpg?v=1793618082",
+        "caption": "官方家庭车道除雪场景（含厂商标注）",
+        "alt": "Yarbo Y40除雪系统在积雪车道工作",
+        "credit": "Yarbo · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对当前型号；官方原图未改色或语义编辑，宣传文字不作为独立实测。"
+    ]
+  },
+  {
+    "id": "seergrills-perfecta",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/seergrills-perfecta/product.png",
+        "sourceUrl": "https://seergrills.com/products/perfecta-bundles",
+        "sourceImageUrl": "https://seergrills.com/cdn/shop/files/Artboard1_600x600.png?v=1746624300",
+        "caption": "官方Perfecta前视图",
+        "alt": "Perfecta双侧垂直加热区与右侧控制屏",
+        "credit": "SEERGRILLS · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/seergrills-perfecta/reference.png",
+        "sourceUrl": "https://seergrills.com/products/perfecta-bundles",
+        "sourceImageUrl": "https://seergrills.com/cdn/shop/files/Artboard1-1_600x.png?v=1746624300",
+        "caption": "官方Perfecta侧前视角",
+        "alt": "Perfecta宽体炉身、垂直夹架与侧屏",
+        "credit": "SEERGRILLS · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对当前型号；官方原图未改色或语义编辑，宣传文字不作为独立实测。"
+    ]
+  },
+  {
+    "id": "tempest-home-weather-station",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/tempest-home-weather-station/product.jpg",
+        "sourceUrl": "https://shop.tempest.earth/products/tempest",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0012/8512/8294/files/tempest_featured-iphone_c44b7742-e713-4e22-83e7-61c8c536423c.jpg?v=1764036862",
+        "caption": "官方家庭气象站与Hub展示",
+        "alt": "Tempest白色传感头、安装底座、Hub与天气应用",
+        "credit": "WeatherFlow-Tempest · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/tempest-home-weather-station/reference.png",
+        "sourceUrl": "https://shop.tempest.earth/products/tempest",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0012/8512/8294/files/t26_1.png?v=1786417138",
+        "caption": "当前商品页T26配置说明（含厂商标注）",
+        "alt": "Tempest气象站与低矮Hub的官方配置图",
+        "credit": "WeatherFlow-Tempest · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对当前商品页面对应外形，原图未改色或语义编辑；图片中的营销和适用年龄不替代具体说明。"
+    ]
+  },
+  {
+    "id": "swan-beauty-smart-mirror",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/swan-beauty-smart-mirror/product.webp",
+        "sourceUrl": "https://www.swanbeauty.com/products/swan-mirror",
+        "sourceImageUrl": "https://www.swanbeauty.com/cdn/shop/files/SWAN_Beauty_Smart_Mirror_Still_White_Front_Side_1.png?v=1785857719&width=800",
+        "caption": "官方白色美妆镜前侧视角",
+        "alt": "白色SWAN镜面、边缘照明与后支架",
+        "credit": "SWAN Beauty · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/swan-beauty-smart-mirror/reference.webp",
+        "sourceUrl": "https://www.swanbeauty.com/products/swan-mirror",
+        "sourceImageUrl": "https://www.swanbeauty.com/cdn/shop/files/SWAN_Beauty_Smart_Mirror_Still_White_Back_Side_2.png?v=1785857718&width=2048",
+        "caption": "官方同型号背面支撑参考",
+        "alt": "SWAN镜体背面、金属支架与接口",
+        "credit": "SWAN Beauty · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对当前商品页面对应外形，原图未改色或语义编辑；图片中的营销和适用年龄不替代具体说明。"
+    ]
+  },
+  {
+    "id": "cradlewise-smart-crib",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/cradlewise-smart-crib/product.jpg",
+        "sourceUrl": "https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1",
+        "sourceImageUrl": "https://cradlewise.com/_next/image?url=https%3A%2F%2Fassets.cradlewise.com%2Fimages%2Fproduct%2Fcw0021%2F1-full.webp&w=3840&q=75",
+        "caption": "官方家庭场景中的整机",
+        "alt": "浅木框网面Cradlewise婴儿床与集成观察杆",
+        "credit": "Cradlewise · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/cradlewise-smart-crib/reference.jpg",
+        "sourceUrl": "https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1",
+        "sourceImageUrl": "https://cradlewise.com/_next/image?url=https%3A%2F%2Fassets.cradlewise.com%2Fimages%2Fproduct%2Fcw0021%2F2-full-without-temp.webp&w=3840&q=75",
+        "caption": "官方功能位置参考（厂商说明非拆机）",
+        "alt": "Cradlewise床体、观察杆和应用功能图",
+        "credit": "Cradlewise · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对当前商品页面对应外形，原图未改色或语义编辑；图片中的营销和适用年龄不替代具体说明。"
+    ]
+  },
+  {
+    "id": "aveine-wine-aerator",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/aveine-wine-aerator/product.jpg",
+        "sourceUrl": "https://www.aveine.com/products/aveine",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0019/3603/1796/files/aerateur-vin-aveine-socle.jpg?v=1720168048",
+        "caption": "官方充氧器与充电底座",
+        "alt": "黑银色Aveine瓶口充氧设备及方形底座",
+        "credit": "Aveine · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/aveine-wine-aerator/reference.jpg",
+        "sourceUrl": "https://www.aveine.com/products/aveine",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0019/3603/1796/files/aerateur-vin-aveine-original2.jpg?v=1720168048",
+        "caption": "官方倒酒使用场景",
+        "alt": "Aveine安装在瓶口并向酒杯倒出液体",
+        "credit": "Aveine · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对当前商品页面对应外形，原图未改色或语义编辑；图片中的营销和适用年龄不替代具体说明。"
+    ]
   }
 ]

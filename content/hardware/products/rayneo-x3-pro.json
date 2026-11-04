@@ -1,0 +1,438 @@
+{
+  "id": "rayneo-x3-pro",
+  "name": "RayNeo X3 Pro",
+  "brand": "RayNeo",
+  "category": "glasses",
+  "tagline": "相机与全彩AR显示结合的AI眼镜",
+  "officialUrl": "https://www.rayneo.com/products/x3-pro-ai-display-glasses",
+  "status": "on_sale",
+  "statusEvidence": "官方具体X3 Pro商品页显示US$1,299及Add To Cart；当前AI系列页区分X3 Pro可购与X2售罄，不计入X2。",
+  "regions": [
+    "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+  },
+  "price": {
+    "text": "US$1,299",
+    "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "Gemini支持结合视觉与语音的问答，配合RayNeo AIOS提供翻译、记录和抬头信息展示",
+    "dependency": "AI服务和应用依网络、账号与地区版本；国际站所列模型不直接等同中国版，开发功能与日常使用也应分开"
+  },
+  "highlights": [
+    "相机与全彩AR显示结合的AI眼镜",
+    "前向相机、双目全彩显示光学、镜腿音频与计算模块",
+    "AI与联网服务边界单列",
+    "个人可使用的实体产品"
+  ],
+  "analysis": {
+    "demand": "需求假设：希望随身查看环境相关答案、翻译和导航，不反复在相机与手机界面之间切换。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+    "userProfile": "画像推断：愿意接受较厚镜腿、充电与软件配置的个人科技爱好者和跨语言交流用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+    "competition": "案头判断：与轻量音频眼镜、无相机显示眼镜和外接屏AR设备竞争，后者不能仅因有显示就算AI。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+    "supplyChain": "公开资料可核对前向相机、双目全彩显示光学、镜腿音频与计算模块，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+    "technology": "Gemini支持结合视觉与语音的问答，配合RayNeo AIOS提供翻译、记录和抬头信息展示。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+    "aesthetics": "图示观察：宽镜腿和明显镜桥区域强调集成光学与相机，设备感强于普通眼镜。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+    "risks": "视野内信息可能干扰出行，拍摄及环境识别涉及旁人；续航、应用兼容性和地区模型限制需实际确认。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+    "opportunity": "市场差异主要在于相机与全彩AR显示结合的AI眼镜。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "实体输入",
+      "detail": "前向相机、双目全彩显示光学、镜腿音频与计算模块；仅功能层示意，非拆机。",
+      "evidence": "official"
+    },
+    {
+      "name": "采集与控制",
+      "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "AI功能",
+      "detail": "Gemini支持结合视觉与语音的问答，配合RayNeo AIOS提供翻译、记录和抬头信息展示",
+      "evidence": "official"
+    },
+    {
+      "name": "服务依赖",
+      "detail": "AI服务和应用依网络、账号与地区版本；国际站所列模型不直接等同中国版，开发功能与日常使用也应分开",
+      "evidence": "official"
+    },
+    {
+      "name": "用户反馈",
+      "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "RayNeo X3 Pro官方商店",
+      "url": "https://www.rayneo.com/products/x3-pro-ai-display-glasses",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "RayNeo官方AI眼镜系列与功能",
+      "url": "https://www.rayneo.com/collections/ai-glasses",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "RayNeo官方配送政策",
+      "url": "https://www.rayneo.com/policies/shipping-policy",
+      "kind": "official-spec",
+      "supports": [
+        "regions",
+        "status"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "RayNeo X3 Pro官方商店",
+        "url": "https://www.rayneo.com/products/x3-pro-ai-display-glasses",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s2",
+        "title": "RayNeo官方AI眼镜系列与功能",
+        "url": "https://www.rayneo.com/collections/ai-glasses",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,architecture。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s3",
+        "title": "RayNeo官方配送政策",
+        "url": "https://www.rayneo.com/policies/shipping-policy",
+        "note": "沿用原目录已核验的一手资料；引用范围：regions,status。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜相机与全彩显示结合",
+          "text": "本型号同时具有前向相机、双目全彩显示、音频与人工智能服务，能够把视觉输入和结果展示放在同一佩戴位置。需求因此不同于只有拍摄或只有字幕的眼镜，用户可能希望在观察环境时直接查看相关信息；但功能组合本身并不证明它比手机流程更有效。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜减少界面切换的条件",
+          "text": "用户先拍照再低头查看答案的步骤，有机会被眼镜内的反馈缩短，但显示内容必须与当下任务相关。若结果遮挡视野或需要反复寻找位置，减少拿手机可能转化为更多注意力切换；价值应以完整任务判断，而不是把相机与屏幕同时存在当作天然优势。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜视觉任务对照",
+          "text": "可选择读取陌生标识、理解一件物品和查看简短翻译等任务，比较眼镜与手机的完成时间、错误和重试。需要记录用户是否能确认相机所见与问题目标一致，以及显示是否帮助复核答案；当前目录未进行实机测试，不能以演示流畅认定任务效果已被证明。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜接受复杂配置的用户",
+          "text": "愿意管理应用、账户、充电和较明显设备外形的科技爱好者，可能更容易接受这类集成眼镜。普通消费者可能只需要其中一种功能，因此画像应区分探索平台与解决固定任务的人；不能把对全彩显示感兴趣等同于愿意在日常场景长时间佩戴。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜跨语言与视觉信息需求",
+          "text": "经常面对陌生语言或需要短信息提示的人可能值得研究，但他们是否需要相机与全彩显示应进一步确认。若任务主要是听译，耳机可能足够；若主要是看文档，手机更易检查细节，用户画像应以任务限制建立，而不是笼统归为所有旅行者或所有戴镜用户。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜学习和佩戴成本",
+          "text": "首次使用测试应包含设置、取景、提问、阅读和退出任务，记录用户需要帮助的步骤与主动摘下设备的原因。还应覆盖不同视力、脸型和应用熟练度，避免只测试熟悉开发设备的人；持续使用需要光学、交互和服务都合适，不能只问是否觉得技术新颖。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与轻量相机眼镜比较",
+          "text": "轻量相机眼镜可以通过声音回答，通常没有同样的视觉反馈负担；本型号增加显示后，能呈现更多内容，也承担额外体积与注意力要求。比较应看用户是否确实需要眼前复核，而不是默认显示越丰富越好；不同形态解决的任务与可接受成本并不相同。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜与显示外设比较",
+          "text": "外接屏式眼镜主要承担显示，不能仅因有屏幕就被归为同样的人工智能设备。本型号的相机和服务形成另一种输入输出链路，但用户仍可能用手机加显示外设完成部分任务；竞争分析应明确计算与数据来自哪里，避免用模糊的 AR 名称混合不同产品。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜总配置成本比较",
+          "text": "比较应纳入硬件、镜片、服务和可能的配套设备，并保持地区版本与任务一致。国际版模型服务不能直接与国内版或其他地区价格混算，购买入口也不代表所有地址可送达；当前没有销量和用户访谈，无法从高定价或技术复杂度判断目标市场规模。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜已知功能层级",
+          "text": "公开资料支持前向相机、双目全彩显示光学、音频和计算等模块，但整机工厂、关键器件型号及成本没有完整披露。品牌和模型合作不等于物料供货关系，目录不会从宣传外观补出主板或光机来源；现有爆炸示意仅表达概念功能，不是实物拆机。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜光学与电子共同约束",
+          "text": "相机、显示与音频都位于镜架中，结构需要兼顾光路、重心、热和佩戴调整，任何一项变化都可能影响其他部分。由形态推断的难点应作为询证问题，不能写成已知工艺或良率；售后还需确认镜片与电子故障是否能分开处理，避免忽略拥有成本。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜输入器件候选",
+          "text": "思特威的眼镜图像传感器和英飞凌的麦克风可以分别进入视觉与声音输入候选比较，但并非已确认供货。实际选择需要与主控接口、镜头、声孔和热预算匹配，光学显示仍是另一条供应链；不能用两个输入器件公司的能力填补整机制造和双目光学校准的未知。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜多模态与地区服务",
+          "text": "国际站描述 Gemini 与 RayNeo 系统提供视觉语音问答、翻译和信息展示，但服务依赖网络、账户和版本。国际站所列模型不能直接等同中国版本，开发扩展也应与日常可用功能分开；目录不从多模态标签推断所有任务离线运行或所有地区具有相同体验。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜显示内容需要可核对",
+          "text": "画面输入、问题理解与生成答案可能各自出错，全彩显示提供复核空间，也可能让错误看起来更权威。系统应清楚区分直接识别的文字、模型解释和未确认信息，并让用户回到原始目标；不能因为答案出现在视线中，就忽略来源和不确定性。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜输入与显示全链路",
+          "text": "测试应分别检查取景、模型回应和镜内显示的时间与错误，加入低光、运动、断网及手机后台条件。若任务失败，记录原因来自采集、连接、理解还是呈现，避免把所有问题归为模型；当前资料未提供独立准确率与延迟测试，不能据功能展示承诺稳定结果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜明显的设备外观",
+          "text": "较宽镜腿与镜桥区域体现集成光学和相机的结构，设备感可能适合探索或专门使用，却不一定适合所有日常场合。审美应与佩戴动机一起研究，不能把技术感当作专业效果；用户是否愿意在真实交流中保持佩戴，比对宣传照片的喜好更能解释持续使用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜视觉密度与环境关系",
+          "text": "全彩内容能够区分信息层级，也可能诱使界面显示过多内容，影响用户观察现实环境。设计评价应关注字体、位置、出现时机和退出方式，不能只看显示是否鲜艳清晰；不同光线和视力条件下的可读性与疲劳，仍需要实际试戴而非图片推断。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜静止与移动分开试戴",
+          "text": "可先在安全静止任务中检查阅读和焦点，再观察走动时是否需要频繁调整或停止查看。记录鼻梁、镜腿压力和显示对环境注意的影响，并覆盖不同脸型与视力；这类测试不能由一次短时演示替代，也不能把光学参数直接当成连续佩戴舒适保证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜出行中的注意风险",
+          "text": "视野内信息和语音交互都可能占用注意，用户不应把环境问答当作安全导航或即时行动依据。风险研究应观察何时用户为了看清答案而忽略周围，并让结果容易关闭；免手持不意味着没有认知负担，全彩显示也不能证明使用过程比手机更安全。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜拍摄和服务边界",
+          "text": "前向相机可能采集旁人或敏感场景，模型服务与地区版本又决定数据流向和功能可用性。用户需要核对记录、保存、删除与服务权限，不能因品牌来源推定本地全部功能开放；国际购买还涉及配送、镜片和售后，核查日可加购物车并不是完整使用保障。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜错误与失联的反馈",
+          "text": "应测试识别错误、服务不可用和连接中断时界面是否明确提示，避免保留过时内容让用户误认为仍是实时结果。重要文字和数字需要回查原始画面，复杂问题应允许不确定回答；验证目标是使失效可见且可恢复，而不是假设多模态模型能正确理解所有环境。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜集成是否有必要",
+          "text": "本型号的购买价值取决于相机、显示与音频是否在同一任务中共同发挥作用，而不是分别都能演示。若用户只使用拍摄或只看字幕，可能有更轻或更简单的替代；研究应记录功能实际联用的比例，不能把硬件集成度直接等同于用户愿意承担的复杂度。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜信息呈现的时机",
+          "text": "值得深入比较的是答案是否在用户需要的时刻，以足够短且可核查的形式出现。更丰富的显示可能帮助理解，也可能打断任务，产品差异应由这种时机与内容控制体现；这属于对现有体验的研究，不需要用更多功能列表掩盖尚未验证的日常价值。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜持续使用与拥有成本",
+          "text": "后续可跟踪数周内真正联用相机和显示的任务、失败重试、摘戴与充电，并计算服务、镜片和维护成本。只有重复任务收益超过管理负担，才支持稳定购买理由；当前分析是案头研究，不把高配置、在售或厂商演示当成需求强度与市场成功的证据。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "smartsens",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "前向视觉输入的图像传感器候选",
+        "rationale": "本型号具有前向相机，思特威面向眼镜的图像传感路线可进入新设计候选比较。现有资料未点名供货，需验证像素模式、镜头高度、主控接口、低光与运动输入；传感器本身不承担全部视觉问答，也不能替代双目显示光学或整机制造证据。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "infineon",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "镜腿语音输入的麦克风前端",
+        "rationale": "本型号需要从镜腿附近获取用户声音，英飞凌 MEMS 麦克风可作为声学输入候选。必须与声孔、防风和回声处理共同验证，并核对主控音频接口及功耗；当前没有实际采用点名，器件的自噪与匹配能力也不能直接证明整机语音识别效果。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "heads-up-visual-assistance",
+      "needName": "视觉上下文与抬头信息辅助",
+      "difference": "X3 Pro将前向相机、双目全彩显示与视觉语音问答结合，既取得环境信息，也把回答、翻译或导航留在视线附近。相较无屏相机眼镜，它可显示结果；相较无相机文字眼镜，它增加视觉上下文，因此适合检验不来回切换相机与手机界面的任务。显示和相机并存仍会带来注意力、续航和应用兼容约束，国际站模型也不能直接视为中国版服务。",
+      "comparisonBasis": "与无屏相机AI眼镜、无相机字幕眼镜以及手机拍摄后查看答案的流程比较。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/rayneo-x3-pro/product.webp",
+      "sourceUrl": "https://www.rayneo.com/products/x3-pro-ai-display-glasses",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0688/8642/9983/files/51475.png?v=1774235866&width=1200",
+      "caption": "RayNeo X3 Pro官方产品外形图",
+      "alt": "RayNeo X3 Pro官方产品外形图",
+      "credit": "RayNeo · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 10752,
+      "sha256": "4159560972832dbd3ce687579d23738e7d5568872cb78b144e981b2a503fabc8"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/rayneo-x3-pro/reference.webp",
+      "sourceUrl": "https://www.rayneo.com/products/x3-pro-ai-display-glasses",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0688/8642/9983/files/PP3_a3d321d5-bcc7-429b-b53b-8d7d9add5dbc.png?v=1786523230&width=1200",
+      "caption": "RayNeo X3 Pro官方另一角度或使用场景参考",
+      "alt": "RayNeo X3 Pro官方另一角度或使用场景参考",
+      "credit": "RayNeo · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 65858,
+      "sha256": "b4f10d94b94c9bba7e132c7afc93a703dab84979dab95cb8cbd6a9eeb4060ec0"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/rayneo-x3-pro/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "RayNeo X3 Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/rayneo-x3-pro.txt",
+      "referencePaths": [
+        "assets/hardware/rayneo-x3-pro/product.webp",
+        "assets/hardware/rayneo-x3-pro/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1562801,
+      "sha256": "68da76a9851bbdfff3a1b5dd958a3004a5da3bf390ad33e164969a22f3bc79e4"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "已逐张查看并核对型号。源图未改色/裁切；场景、界面、附件、优惠及效果文案仅为厂商示意，不作为本目录性能或现价依据。"
+  ]
+}

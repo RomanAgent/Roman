@@ -1,0 +1,429 @@
+{
+  "id": "tempo-studio",
+  "name": "Tempo Studio",
+  "brand": "Tempo",
+  "category": "sports",
+  "tagline": "用三维动作感知辅助自由重量训练",
+  "officialUrl": "https://shop.tempo.fit/",
+  "status": "on_sale",
+  "statusEvidence": "官方商城仍列Studio Starter及其他套餐，显示Add to cart和通常2–4周配送说明；可购买主体为家庭Studio系统。",
+  "regions": [
+    "美国官方销售地区（具体配送地址结算确认）"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+  },
+  "price": {
+    "text": "US$2,495 起",
+    "note": "基础Studio硬件套装所见价；送装、税费和训练会员另计，附加器械套餐不重复计数。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "3D动作传感器与AI分析用于动作反馈、次数记录、重量建议及训练计划。",
+    "dependency": "需Studio系统和训练会员；设备的三维感知与App服务共同工作，不能把屏幕里的教练视频本身当作AI。"
+  },
+  "highlights": [
+    "独立落地显示终端",
+    "3D动作捕捉",
+    "自由重量动作反馈",
+    "器械收纳与家庭账户"
+  ],
+  "analysis": {
+    "demand": "需求假设：用户保留自由重量训练方式，但希望在没有现场教练时获得动作反馈。价值在于能否识别常见动作与错误、帮助复盘；跟着视频练和收到准确个体反馈是两种不同需求。",
+    "userProfile": "画像推断：偏好哑铃杠铃且愿意清出完整拍摄空间的家庭用户更匹配。多人同时进入画面、空间遮挡或偏离课程动作可能改变体验，不能仅凭家用定位推断所有居住环境都适合。",
+    "competition": "案头判断：与健身镜、手机视觉训练软件和自由重量课程竞争，内容与感知质量共同重要。没有销量或访谈证据证明大屏优于手机；相似套餐的配件数量不应被算成多个AI产品。",
+    "supplyChain": "官方披露三维动作感知、屏幕和器械收纳，传感器供应商、整机工厂及算法标定细节本次不明。推断制造之外还需内容动作库和环境适配，不应单凭主机外形估计物料成本。",
+    "technology": "可确认AI是依据3D动作数据形成的实时反馈与建议，并非显示课程视频的普通屏幕。具体识别模型和训练覆盖范围未完整公开；重量建议及动作提示应作为可复查辅助信息。",
+    "aesthetics": "图示观察：落地屏与下方器械柜形成家居化训练站，器械收纳降低散乱感。大屏尺寸与整体重量也意味着固定空间投入；照片不能代替真实动作区、光线和家庭通行路线评估。",
+    "risks": "风险集中在动作遮挡、识别边界、会员持续服务和大件搬运安装。反馈可能遗漏动作问题，重量建议也未必适合当日状态；本研究没有实测识别准确率或任何体能改善效果。",
+    "opportunity": "市场差异是自由重量与视觉感知结合，而不是用电机替代配重。尚待验证的购买理由是动作反馈能否持续指导练习，以及用户是否愿意为专用传感器和大屏承担高于手机方案的成本。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+  },
+  "architecture": [
+    {
+      "name": "动作输入",
+      "detail": "3D传感器观察用户动作，功能图非拆机。",
+      "evidence": "official"
+    },
+    {
+      "name": "器械交互",
+      "detail": "自由重量由用户操控，系统识别训练表现。",
+      "evidence": "official"
+    },
+    {
+      "name": "AI反馈",
+      "detail": "动作、次数与重量建议由感知软件产生。",
+      "evidence": "official"
+    },
+    {
+      "name": "内容与账户",
+      "detail": "会员课程和家庭账户组织训练。",
+      "evidence": "official"
+    },
+    {
+      "name": "查看复盘",
+      "detail": "屏幕及App展示反馈和历史表现。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tempo官方商城Studio",
+      "url": "https://shop.tempo.fit/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "已打开，Studio套餐、Add to cart和配送可见。"
+    },
+    {
+      "title": "Tempo官方Studio介绍",
+      "url": "https://buy.tempo.fit/cost-compare/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已打开，3D传感器与AI动作/重量/计划指导说明；不以营销保证作效果证据。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Tempo官方商城Studio",
+        "url": "https://shop.tempo.fit/",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：status,price,technology。已打开，Studio套餐、Add to cart和配送可见。"
+      },
+      {
+        "id": "s2",
+        "title": "Tempo官方Studio介绍",
+        "url": "https://buy.tempo.fit/cost-compare/",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：technology,dependency。已打开，3D传感器与AI动作/重量/计划指导说明；不以营销保证作效果证据。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "需求假设：保留自由重量同时获得个体反馈",
+          "text": "Tempo Studio面向喜欢哑铃或杠铃动作、却希望训练时有人指出问题的家庭用户，专用感知与屏幕补充自由重量过程。需求并非单纯看课程视频，而是得到与自己动作相关的信息，应分别验证这两项，不能把视频教练画面本身当作AI。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "价值判断：重量建议与实际准备不同",
+          "text": "系统可以建议负载和记录次数，但用户仍需选择、安装和管理真实重量，不能像数字阻力设备那样仅由屏幕改变负载。研究应观察建议是否值得执行以及换片是否打断课程，不把自动统计看作训练流程已完全自动化，也不推断效果改善。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证方案：比较有无个体反馈的同一课程",
+          "text": "让用户使用相同自由重量和课程，分别体验专用感知反馈与普通视频跟练，记录提示、换重、停顿和复盘。保持原有训练目标，不因演示新增动作，访谈回看哪些信息确实改变理解，避免只比较大屏观感或一次课程完成感。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "画像假设：愿意为自由重量留出观察区域",
+          "text": "较匹配者偏好自由重量并能让设备看清动作，愿意管理训练空间、器械和会员。喜欢在不同房间随时练习的人可能更重视手机方案，画像应包含固定布局与反馈需求，不能只因家庭有哑铃就推断需要专用三维传感器和屏幕。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用约束：共用空间会影响感知与课程",
+          "text": "多人进入、家具遮挡或器械摆放可能改变观察条件，家庭成员也可能有不同动作与课程偏好。研究应了解谁负责调整场地与账户，不能以家用定位假定任何客厅都适合，也不从一人演示顺畅推断多人家庭共享同样方便。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "访谈重点：什么时候需要现场以外的解释",
+          "text": "请用户回忆动作反馈难以理解或重量建议不合意的情况，说明是否求助教练、朋友或其他视频。专用设备是否减少这些需求需要观察，不能把系统提出建议等同用户已经学会动作，也不让评分代替对实际训练体验的描述。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "替代方案：手机视觉与普通自由重量课程",
+          "text": "Studio同时面对健身屏、手机动作分析和自由重量视频课程，专用传感器与大屏提供不同使用条件，但也增加成本和空间。比较应围绕反馈是否帮助用户，而不是把三维感知天然视为比手机更好，也不忽略内容质量和会员服务。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "差异判断：专用感知可能换来更固定的流程",
+          "text": "用户不必每次用手机搭建同样的拍摄链路，但专用站点要求在固定区域训练，便利与限制同时存在。研究应观察准备是否减少、感知是否更可理解，而不是仅比较设备独立性；真实收益可能来自收纳和屏幕，而非全部来自AI。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "比较方法：将反馈收益与专用硬件成本分开",
+          "text": "让同一用户用手机和Studio完成相近课程，记录摆放、校准、动作提示和后续回看，比较哪些问题被解决。不要用厂商自评分作为唯一标准，也不将套餐配件更多当作AI价值，需明确用户愿意为何种具体收益持续投入。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能拆分：三维输入与自由重量并行",
+          "text": "官方说明专用三维动作传感、AI反馈、屏幕和器械收纳，训练负载仍来自用户操控的自由重量。不能画出不存在的数字阻力电机，也不能把Move使用的手机架构移植到Studio，具体传感器、主控和工厂本轮未披露。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造判断：感知覆盖与器械管理都重要",
+          "text": "专用传感器位置、屏幕观看和器械收纳需要共同组织训练区域，视觉输入还依赖环境与动作库适配。供应评估不能只计算主机电子成本，还需关注结构与维护，本轮没有装配校准、识别误差或长期搬运测试，不推断量产表现。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "候选选型：三维视觉与训练显示分别验证",
+          "text": "Luxonis可作为空间视觉输入工程候选，BOE可讨论显示，瑞声可询问部分主机结构协同。标准三维相机不等于Tempo动作算法，也不一定满足既定视场与隐私要求，三家都没有本站型号的采用证据，候选仅用于模块能力比较。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露能力：三维动作数据支持反馈",
+          "text": "官方介绍以三维动作传感配合AI进行动作、次数、重量建议与计划，会员课程和账户构成服务依赖。应区分感知输入、分析与课程视频，不能把大屏播放当作AI，也不能根据三维名词推断某种未公开相机型号、模型或端云部署。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "技术判断：可观察动作仍有解释边界",
+          "text": "自由重量可以出现在不同姿态和遮挡中，系统需要在支持动作范围内解释输入，用户也可能有不同训练目标。研究应检查提示能否被理解和修正，而不是只追求次数统计一致，更不能把重量建议当作适用于当日所有身体状态的决定。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证方案：保留提示与真实动作上下文",
+          "text": "在支持课程中记录设备观察位置、器械遮挡和提示时机，让用户说明如何理解与回应，再由合适专业人员帮助复核疑问。将感知失败和建议不合意分开，不以单次示范推断整体准确率，也不以短期身体变化作为功能效果证据。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外形判断：屏幕与器械柜形成训练站",
+          "text": "Studio的落地屏和下方收纳将器械集中，可能减少散乱感，却仍需要固定空间和完整动作区域。设计评价应包括拿取重量、站位和通行，不能只看柜门关上后的整洁，也不从家居化外观推断重量、材质或搬运体验适合所有人。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "交互判断：看提示与拿取器械要顺畅",
+          "text": "用户需要在课程、反馈和真实重量之间切换，屏幕建议如果与收纳和操作不协调，可能增加停顿。研究应观察提示何时出现、换重是否容易和用户如何确认当前动作，不把屏幕信息多当作专业指导，实际节奏比静态界面更重要。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "体验验证：完成一次训练前后整理",
+          "text": "让用户从日常收纳状态开始准备器械、完成课程并恢复房间，记录弯腰取放、站位调整和需要移动家具的步骤。再询问愿意在下一次重复哪些动作，比展示厅中器械已经摆好的体验，更能反映固定训练站是否真正方便。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "训练风险：识别遗漏与负载建议需复核",
+          "text": "动作提示可能不能覆盖全部问题，重量建议也不一定适合用户当日状态，使用者仍需理解动作和自身限制。系统辅助不等于现场教练的完整替代，本轮没有医学或实机验证，不将专用感知描述成训练安全、康复或体能改善保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "服务与空间风险：大件依赖持续支持",
+          "text": "专用设备、会员课程、安装搬运和家庭布局共同决定拥有成本，服务变化可能影响高级反馈。用户应核对当前支持条件与可用课程，不能把大屏和器械可继续存在理解为全部AI体验永久不变，也不从套餐价格推断完整交付费用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证安排：记录关闭反馈与空间冲突",
+          "text": "试用应记录用户因遮挡、看不懂提示、其他人进入或整理麻烦而改变训练的情形，区分感知、内容与家庭使用问题。不要只分析被完整记录的课程，也不将放弃功能都解释为意愿不足，实际环境限制本身就是产品价值边界。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "研究方向：让自由重量反馈更可执行",
+          "text": "Studio可以帮助研究用户如何把动作提示和重量建议转为实际操作，潜在改进可能在说明、收纳或课程节奏。应先确认专用三维输入解决了手机方案的什么具体问题，再讨论新硬件，避免把更专业传感器当作天然的购买理由。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "执行计划：连续比较准备与反馈采用",
+          "text": "跟踪多次家庭课程，记录准备时间、提示被采用和被忽略的原因，以及是否仍需外部解释。将收纳、大屏、课程与感知收益分别整理，不把总体满意度当作AI价值，也不由短期训练频率变化推断长期坚持或身体改善。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "决策边界：专用站点需要高于手机的理由",
+          "text": "只有当用户反复需要并愿意承担空间、会员和维护成本时，专用感知硬件才可能有明确价值。供应商候选只说明技术路径，本轮没有访谈、销量和留存资料，不以三维传感名称、配件数量或模型评分预测商业成功。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "luxonis",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "三维动作观察视觉工程候选",
+        "rationale": "Luxonis公开空间视觉与相机集成能力，可作为Tempo Studio三维输入层的候选路线，但原机具体传感技术未披露，视场、室内遮挡与动作算法需要专项验证。候选并不提供Tempo训练模型，也不证明原机采用Luxonis或可用标准OAK直接替换。",
+        "sourceIds": [
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "boe",
+        "role": "display",
+        "relationship": "candidate",
+        "component": "落地训练课程与反馈显示候选",
+        "rationale": "BOE公开多用途显示业务，可作为Studio课程与反馈屏的能力候选，实际尺寸、长时观看、触控和安装需求需另核，不能把已查平板系列直接当作落地大屏。当前无本型号点名供货证据，也不涵盖三维感知与训练服务。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "innovationProfile": {
+      "needKey": "guided-home-strength-training",
+      "needName": "家庭力量训练与个体反馈",
+      "difference": "专用三维感知与大屏观察自由重量动作，用户仍操控和更换真实配重，区别于电机直接调整阻力。固定训练区、遮挡和会员影响体验，不能把专用传感器当作效果保证；与其他家庭力量方案共享核心任务，差异应由反馈理解、准备和实际换重流程验证。",
+      "comparisonBasis": "与手机视觉跟练、普通自由重量课程和数字拉索系统比较。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/tempo-studio/product.webp",
+      "sourceUrl": "https://shop.tempo.fit/",
+      "sourceImageUrl": "https://shop.tempo.fit/cdn/shop/products/3_Frame-Light_6cd47186-3903-4672-9a7b-41242dfe1bf2_1700x1700.jpg?v=1653066256",
+      "caption": "Tempo Studio官方产品外形图",
+      "alt": "Tempo Studio官方产品外形图",
+      "credit": "Tempo · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 41702,
+      "sha256": "e11bca0e88acb37187d7f257843ff84157cba32a095f3952e93e1a892a3a528f"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/tempo-studio/reference.webp",
+      "sourceUrl": "https://shop.tempo.fit/",
+      "sourceImageUrl": "https://shop.tempo.fit/cdn/shop/products/4_Back-Storage-Light_e91f1f74-b03d-4c92-a35b-45ba5409ec6e_1700x1700.jpg?v=1653066256",
+      "caption": "Tempo Studio官方另一角度或使用场景参考",
+      "alt": "Tempo Studio官方另一角度或使用场景参考",
+      "credit": "Tempo · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 14224,
+      "sha256": "5a7955e897e073cd4837c08a20435f0a34cf5018badb9daf9988cb46b4dd9075"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/tempo-studio/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Tempo Studio的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/tempo-studio.txt",
+      "referencePaths": [
+        "assets/hardware/tempo-studio/product.webp",
+        "assets/hardware/tempo-studio/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1493379,
+      "sha256": "e30d9872684028fe63c22181517924915b305dec4a437ffde252118d68c70583"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "已逐张查看并核对型号。源图未改色/裁切；场景、界面、附件、优惠及效果文案仅为厂商示意，不作为本目录性能或现价依据。"
+  ]
+}

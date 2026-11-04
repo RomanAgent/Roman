@@ -150,6 +150,8 @@ SIIX的通用EMS资料不足以证明水下密封、食品接触材料或高功�
 
 - [PETKIT YumShare Dual-hopper 2](../hardware/petkit-yumshare-dual-hopper-2.md) — **能力候选 · 非已采用** / 双仓分发控制与功能测试：SIIX 的电子装配能力可支持出粮控制、相机连接及测试导入，但实际分发、食品接触与个体记录需另行验证；未见该型号供货披露，候选不能认定实际制造或摄入测量能力。
 
+- [Moen Flo Smart Water Shutoff（900-006）](../hardware/moen-flo-shutoff-900-006.md) — **能力候选 · 非已采用** / 阀门控制电子与装配导入评估：SIIX公开电子制造和整机装配服务可对应感知控制、连接与测试导入，但承压阀体、饮用水材料和机械可靠性需专项确认；没有Moen900-006点名供货证据，不能推定其实际工厂。
+
 - [Zendure SolarFlow 2400 AC+](../hardware/zendure-solarflow-2400-ac-plus.md) — **能力候选 · 非已采用** / 电子控制与系统装配候选：SIIX公开电子装联、采购和整机装配可用于讨论新控制系统的制造与交付责任。电力变换、电池安全和目标市场验证不由一般EMS能力自动覆盖，需专业方案及明确测试；此处不是Zendure现有代工关系确认。
 
 ## 来源

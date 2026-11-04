@@ -1,0 +1,425 @@
+{
+  "id": "bee-frontier",
+  "name": "Bee Frontier",
+  "brand": "Bee / Amazon",
+  "category": "recording",
+  "tagline": "以一键、长续航和生活上下文组织记忆",
+  "officialUrl": "https://bee.computer/products/frontier",
+  "status": "on_sale",
+  "statusEvidence": "Bee官方Frontier产品页显示 US$74.99、Buy on Amazon及Prime配送说明；当前官网已采用Frontier命名，不沿用旧Pioneer的售价或功能。",
+  "regions": [
+    "美国（官网导向Amazon.com）"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "没有核实大陆官方销售、账号服务或配套应用可用性。Amazon.com购买入口不等同能配送或完整服务中国大陆。"
+  },
+  "price": {
+    "text": "US$74.99",
+    "note": "官网所见硬件价；部分记忆、任务与应用集成功能需Bee Pro订阅，具体计划和地区价格以官网为准。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "语音识别结合摘要、记忆搜索与待办建议，并可关联授权应用上下文。",
+    "dependency": "依赖Bee应用与账户，部分能力需Pro；官网披露端侧处理，但未完整公开端云任务边界，不据此宣称全离线。"
+  },
+  "highlights": [
+    "手腕或衣物两种佩戴方式",
+    "显式开始/停止按钮与LED",
+    "官方标称7天以上电池续航",
+    "部分功能关联Google、Alexa和Amazon.com"
+  ],
+  "analysis": {
+    "demand": "需求假设：日常碎片承诺和临时安排容易忘记，随身设备可减少掏手机记事的摩擦。需求强度取决于回查是否准确有用，以及用户能否接受在社交场景中明确开启声音处理。",
+    "userProfile": "画像推断：日程较碎、频繁移动并愿意使用配套应用的人可能适合；并非所有健忘用户都需要持续记录。官网的生活场景描述不能作为改善记忆障碍或任何健康问题的疗效证据。",
+    "competition": "案头判断：与Omi、NotePin、智能手表语音备忘和手机助手重叠，低硬件价格并不决定总使用成本。没有用户访谈、销量或续费证据，不能以Amazon生态推断产品必然被广泛采用。",
+    "supplyChain": "官网可确认Bee产品及Amazon销售关系、外形、接口和佩戴附件；整机工厂、麦克风供应商与物料成本不明。推断防水、按键寿命和夹具可靠性会影响长期佩戴与售后负担。",
+    "technology": "官方披露端侧处理、语音识别和摘要检索，但没有完整模型拓扑。应用集成意味着除硬件外还存在授权数据源；端侧处理一词不足以证明所有转写、记忆和建议都不经过远程服务。",
+    "aesthetics": "图示观察：小型圆角设备接近运动手环，可夹衣服且配色柔和，降低商务设备感。佩戴形态同时影响收音和可见性；图片中的轻巧不代表实际佩戴、洗手或衣料摩擦体验已经验证。",
+    "risks": "主要风险是谈话内容与关联账号形成更丰富的个人档案，以及长期记忆中误归因或错误建议。需区分硬件价格与订阅功能；官方隐私描述属于厂商承诺，本研究没有独立审计或实机验证。",
+    "opportunity": "市场差异在于把录音笔记延伸到日程与生活上下文，而非单场会议纪要。尚待验证的购买理由是主动建议是否足够准确、适时和可控，以及用户愿意授予哪些应用访问权限。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "生活记忆与应用上下文结合仍在探索，已有多款可佩戴竞争产品；非量化结论。"
+  },
+  "architecture": [
+    {
+      "name": "声音与操作",
+      "detail": "麦克风、开始/停止按钮、LED；概念功能架构，非拆机图。",
+      "evidence": "official"
+    },
+    {
+      "name": "设备处理",
+      "detail": "官网披露部分端侧处理，未公开完整离线能力边界。",
+      "evidence": "official"
+    },
+    {
+      "name": "应用上下文",
+      "detail": "Bee应用与经授权的Google、Alexa等集成，部分需Pro。",
+      "evidence": "official"
+    },
+    {
+      "name": "记忆生成",
+      "detail": "转写、摘要、搜索与待办建议；具体计算任务位置未完全披露。",
+      "evidence": "official"
+    },
+    {
+      "name": "用户回查",
+      "detail": "用户在应用内回看、搜索并决定是否采纳建议。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bee · Frontier 官方产品页",
+      "url": "https://bee.computer/products/frontier",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开，US$74.99、Buy on Amazon与Prime配送；未把旧Shopify模板页当成商品证据。"
+    },
+    {
+      "title": "Bee · 当前官方首页",
+      "url": "https://bee.computer/",
+      "kind": "official-spec",
+      "supports": [
+        "status",
+        "dependency",
+        "technology"
+      ],
+      "note": "已打开，区分Frontier与Coming Soon的Eclipse；隐私与集成均作为厂商陈述。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Bee · Frontier 官方产品页",
+        "url": "https://bee.computer/products/frontier",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology,architecture。已打开，US$74.99、Buy on Amazon与Prime配送；未把旧Shopify模板页当成商品证据。"
+      },
+      {
+        "id": "s2",
+        "title": "Bee · 当前官方首页",
+        "url": "https://bee.computer/",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,dependency,technology。已打开，区分Frontier与Coming Soon的Eclipse；隐私与集成均作为厂商陈述。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜随身谈话的记忆入口",
+          "text": "本型号支持手腕或衣物佩戴，通过显式按钮与状态指示管理声音处理，并提供摘要、记忆搜索和待办建议。需求围绕碎片谈话与临时安排的事后回查，不能把它当作普通健康腕带；公开的生活辅助描述也不构成改善记忆障碍或其他健康问题的疗效证据。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜碎片信息是否值得保留",
+          "text": "用户可能在移动中作出承诺或听到安排，来不及主动记笔记，随身入口有机会减少遗漏。但日常谈话也包含大量无用或不应保存的信息，价值取决于能否准确找回少量关键内容；采集越多并不自动越有用，管理和更正负担同样需要研究。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜记忆回查任务",
+          "text": "可以在明确允许记录的活动中设置若干安排与更正，之后比较设备检索、手机备忘和用户自己的回忆。记录找回时间、误归因和需要回查的内容，同时检查未记录事项是否被模型补全；当前目录没有长期实机观察，不能把可查询记忆等同事实总能准确恢复。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜日程碎片化的用户",
+          "text": "频繁移动、交流和处理临时安排的人可能更容易遇到相关任务，但并非所有健忘或忙碌的人都需要随身记录。用户是否愿意佩戴、解释设备和管理账户授权，会影响适配；画像应依据真实行为研究，不能仅凭生活方式宣传推断广泛需求或健康价值。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜已有应用与账户习惯",
+          "text": "愿意使用配套应用并理解授权集成的人，可能更容易获得上下文关联的收益，也承担更多数据管理责任。只希望买一个离线录音器的人则可能不匹配，应区分硬件采集与服务使用两种期待；低硬件价格不能消除学习、订阅和长期账户依赖。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜腕部与衣物的接受度",
+          "text": "用户测试应让同一人分别在手腕和衣物上使用，观察按键、声音输入、状态可见与舒适差异。还需记录在社交场合主动暂停和解释用途的行为，不能只看是否愿意戴一次；佩戴位置会改变他人感知与录音条件，应作为画像的一部分而非简单附件选择。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与其他记忆设备竞争",
+          "text": "记忆吊坠和录音卡都可提供摘要与搜索，本型号的区别更可能来自佩戴方式、控制和授权应用上下文。功能名称相似不代表数据流和服务成本相同，比较应进入回查任务；当前没有销量、留存或访谈证据，不能因为硬件便宜或品牌曝光判断市场空间更大。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜手机备忘的替代",
+          "text": "手机提醒、日历和语音备忘已经可以保存重要事项，随身设备需要证明减少启动摩擦的收益足够持续。若用户仍要大量整理和更正，系统可能只是把主动记事转成事后审核；竞争分析应计入整个工作量，而不是只看记录是否自动或随手。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜硬件与订阅一起比较",
+          "text": "应按用户需要的记忆、任务和集成功能核对基础与 Pro 权益，不能只用硬件价判断总成本。官方购买跳转也不等于所有地区可配送和完整使用，需保持地区与服务口径一致；当前目录不把旧 Pioneer 的价格或功能沿用到 Frontier，更不据名称变化推断产品效果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜佩戴与服务模块",
+          "text": "公开资料支持双种佩戴方式、按键、状态指示及应用服务关系，但整机工厂、声音器件和主控未完整披露。Amazon 销售关系不等于制造关系，也不能推导后续备件或成本；目录仅建立声音采集、控制、手机协同与记忆服务的功能架构，不提供猜测物料清单。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜佩戴可靠性约束",
+          "text": "腕带和夹持结构会经历不同拉扯、碰撞与清洁，按键寿命和固定方式可能影响长期使用。由形态推断这些验证需要是合理的，但不能编造防护工艺或实际寿命；状态指示还要在不同佩戴方向可理解，否则用户可能误判是否正在处理声音。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜前端与连接候选",
+          "text": "Syntiant 可作为声音采集与轻量触发候选，Nordic 可作为低功耗手机连接路线候选，二者都不是已确认供货。需要先核对实际协议、采集方式、功耗和缓存，再判断是否适合新设计；平台能力不能自动复制 Bee 的记忆、待办或授权应用服务，也不能补足工厂未知。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜上下文不只来自硬件",
+          "text": "官方描述语音识别、摘要检索和授权应用关联，意味着系统上下文可能同时来自设备与外部账户。端侧处理一词没有完整说明所有任务部署，不能据此宣称全部转写和记忆离线；目录将硬件输入、应用授权和远程服务分开，避免把丰富回答都归为腕上芯片计算。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜关联越多越需来源",
+          "text": "谈话与日历或其他应用信息结合，可能帮助理解安排，也可能把不同事件或人物错误连接。系统需要让用户知道答案依据哪段记录或哪个授权来源，尤其当信息前后矛盾时；连贯建议不等于真实承诺，个人记忆服务应优先可追溯和可更正，而非尽量主动推断。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜更正与授权撤回",
+          "text": "测试应包含取消安排、修改时间和撤回应用授权，观察记忆搜索与待办是否及时更新，并检查旧内容是否继续影响回答。再在网络或手机连接中断时测试采集与同步状态，确认用户能理解遗漏；当前没有独立审计或性能测试，不能把厂商流程说明当作结果保证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜腕带与配饰的外观",
+          "text": "设备可以像腕上配件或衣物夹件进入日常搭配，外观可能降低携带门槛，但也可能让旁人不知道其声音处理用途。审美研究应同时看用户是否愿意佩戴和状态是否容易解释，不能把低可见度直接视为优势，更不能由小尺寸推断不会造成不适。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜按钮和灯的社交作用",
+          "text": "显式控制与指示能帮助理解开始和停止，但实际可见程度取决于佩戴方向、衣物和环境光。设计评价应观察用户能否确认状态、旁人是否理解，而不是只确认灯存在；如果每次都需要打开手机检查，随身入口减少操作的优势可能被削弱。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜全天携带的实际体验",
+          "text": "试用应覆盖走动、坐姿、衣物变化和充电收纳，记录设备松动、误按与用户主动摘下的时刻。腕部和衣物位置应分别观察声音质量与舒适，不能以一次静态佩戴判断全天体验；官方电池描述也需要在实际功能和连接负载下核对，不能直接当作连续处理时间。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜个人档案的积累",
+          "text": "谈话与授权账户结合会形成更丰富的个人信息，误归因和过度保留的影响可能随时间增加。用户需要理解保存、导出、删除和授权撤回的范围，不能只依赖端侧处理宣传；厂商隐私承诺属于资料依据，当前目录没有独立验证所有数据流程和实际执行效果。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜服务与地区条件",
+          "text": "官方购买入口连接 Amazon，并不证明大陆配送、应用分发和服务完整开放。部分功能依赖 Pro，硬件仍能工作也可能无法获得相同记忆与集成体验；购买判断应核对所需权益和长期支持，不把低硬件价当作无后续成本，也不把标称电池时间视为所有模式保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜错误建议的人工确认",
+          "text": "应检查系统把假设、玩笑或他人的计划误写成用户待办时，是否容易发现和撤销，并能回到原始上下文。重要安排不能仅凭生成建议自动执行，尤其来自多个账户来源时更需核对；验证重点是帮助用户管理信息，而不是假设系统能替代个人判断和真实记忆。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜随身入口的差异化",
+          "text": "本型号值得研究的是佩戴方式与显式控制能否让用户在关键时刻更容易保留有用信息，而不是一天处理多少声音。若主要痛点是会后整理，其他录音工具可能足够；若痛点是临时承诺，随身位置可能更相关，购买理由需要具体到重复发生的情境。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜集成服务是否减负",
+          "text": "应用关联可能减少手工复制，也可能增加权限、错误修正和信息清理。研究应记录哪些自动整理真正被使用、哪些建议被忽略，并观察用户是否愿意长期保持授权；不能以可连接的服务数量判断价值，更不能把更丰富的个人档案本身当作用户收益。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜数周的回查价值",
+          "text": "后续可跟踪成功找回事项、误归因、更正和主动暂停的次数，同时记录订阅、维护与数据管理时间。只有反复任务收益超过新增负担，才支持持续购买理由；当前目录是案头研究，不以在售、低价或长期记忆功能宣称需求已经被用户验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "syntiant",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "声音事件与轻量识别的前端候选",
+        "rationale": "Frontier 通过声音形成记录与记忆，Syntiant 的专用声音前端可作为新设计候选，评估采集和触发如何减少主系统工作。现有来源未点名供货，需确认接口、缓存、佩戴噪声与功耗；前端能力不等于 Bee 记忆和授权应用服务在本机全部运行。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "supplierId": "nordic-semiconductor",
+        "role": "connectivity",
+        "relationship": "candidate",
+        "component": "设备与配套手机的低功耗连接路线",
+        "rationale": "本型号需与应用协同，Nordic 可作为新设计中低功耗连接与状态控制的候选。现有资料未完整说明链路协议和器件，需先核对实际传输方式、缓存、唤醒及手机兼容，不能认定已采用蓝牙型号；该候选不覆盖云端记忆或外部账户集成服务。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "personal-memory-recall",
+      "needName": "持续生活记录与事后回查",
+      "difference": "Bee Frontier将谈话摘要、记忆搜索和待办建议结合，并可纳入授权应用上下文，目的是在后来找回碎片承诺与临时安排。与单次会议笔记相比，它强调跨生活片段的关联；与Omi等记忆设备仍是同一回查需求，按钮和长续航只是入口差异。关联账号可能帮助解释事件，也会扩大个人档案与误归因风险，Pro权益及未完全公开的端云边界限制了功能承诺。",
+      "comparisonBasis": "与Omi等持续谈话记忆设备、手机备忘及单次会议笔记比较跨片段回忆和数据管理。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/bee-frontier/product.png",
+      "sourceUrl": "https://bee.computer/products/frontier",
+      "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6a0426a8bbd4f2f5c1ba22bb_specs-hero.png",
+      "caption": "Bee Frontier 官方腕带佩戴形态渲染",
+      "alt": "Bee Frontier 官方腕带佩戴形态渲染",
+      "credit": "Bee / Amazon · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 365947,
+      "sha256": "2988a12ae211972e6ccea6808cd3a51396994746c1e3bc4ce351d237fb284e66"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/bee-frontier/reference.png",
+      "sourceUrl": "https://bee.computer/products/frontier",
+      "sourceImageUrl": "https://cdn.prod.website-files.com/69dd7236d0d093258455ae90/6acd924c69d698571edbf9de_AMZ-BEE-D-Feature-Carousel-Modular-B.png",
+      "caption": "Bee Frontier 官方夹持形态与多角度配色参考",
+      "alt": "Bee Frontier 官方夹持形态与多角度配色参考",
+      "credit": "Bee / Amazon · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 1022237,
+      "sha256": "c4a5826a63fca050e56b6fd6cc5da644ea7cb98348998ac69c099a402ad23275"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/bee-frontier/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Bee Frontier的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/bee-frontier.txt",
+      "referencePaths": [
+        "assets/hardware/bee-frontier/product.png",
+        "assets/hardware/bee-frontier/reference.png"
+      ],
+      "verified": true,
+      "bytes": 1419582,
+      "sha256": "4b98bcdaf843ec96c2deeb4305000e5ecc597003c0a2df5cd02277e2b7dda0c7"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+  ]
+}

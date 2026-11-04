@@ -9,6 +9,11 @@ const rawCompanies=readdirSync(new URL('content/supply-chain/',root)).filter(f=>
 const rawDeep=readdirSync(new URL('content/hardware/deep/',root)).filter(f=>f.endsWith('.json')).flatMap(f=>read('content/hardware/deep/'+f));
 assert.equal(rawCompanies.length,supply.companies.length);assert.equal(rawDeep.length,hardware.products.length,'产品深析覆盖不完整');
 const companyMap=new Map(supply.companies.map(c=>[c.id,c]));let links=0,disclosed=0;
+const supplyIndex=read('content/supply-chain/index.json'),hardwareIndex=read('content/hardware/index.json');
+assert.deepEqual(supplyIndex.companies.map(c=>c.id),supply.companies.map(c=>c.id),'公司摘要索引不同步');
+assert.deepEqual(hardwareIndex.products.map(p=>p.id),hardware.products.map(p=>p.id),'产品摘要索引不同步');
+for(const p of hardware.products)assert.deepEqual(read(`content/hardware/products/${p.id}.json`),p,`${p.id} 独立详情不同步`);
+for(const c of supply.companies)assert.deepEqual(read(`content/supply-chain/companies/${c.id}.json`),c,`${c.id} 公司独立详情不同步`);
 for(const c of rawCompanies){companyValid(c,supply);const {relatedProducts,...record}=companyMap.get(c.id);assert.deepEqual(record,c,`${c.id} 公司源数据未同步`);assert(existsSync(new URL(`docs/supply-chain/${c.id}.md`,root)));}
 for(const d of rawDeep){
  deepValid(d,productMap);const {id,...record}=d;assert.deepEqual(productMap.get(id).deepDive,record,`${id} 深析源数据未同步`);

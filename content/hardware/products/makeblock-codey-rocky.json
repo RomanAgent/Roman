@@ -1,0 +1,466 @@
+{
+  "id": "makeblock-codey-rocky",
+  "name": "Makeblock Codey Rocky",
+  "brand": "Makeblock",
+  "category": "education",
+  "audience": "consumer",
+  "tagline": "以表情与履带动作承载AI编程项目",
+  "officialUrl": "https://www.makeblock.com/products/buy-codey-rocky",
+  "statusEvidence": "官方单台商品页列购买入口与两工作日发货说明，直送美国本土；蓝牙适配器组合不另计型号。",
+  "regions": [
+    "美国本土官方直送"
+  ],
+  "price": {
+    "text": "官网 US$139.99",
+    "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "配合mBlock可进行人脸识别等AI学习项目并驱动实体机器人；普通巡线、颜色检测与遥控不作为AI依据。官方FAQ明确本体没有独立语音识别模块。",
+    "dependency": "AI项目依赖mBlock、兼容电脑及相应外部输入或扩展；语音控制须按官方要求搭配模块，不把可编程小车写成内置通用对话机器人。"
+  },
+  "highlights": [
+    "以表情与履带动作承载AI编程项目",
+    "mBlock学习功能需要配套终端",
+    "轻量入门机器人而非自由对话玩具"
+  ],
+  "analysis": {
+    "demand": "需求假设：初学者希望把简单识别结果变成表情和行走动作，获得比屏幕积木更直观的反馈。应确认家庭实际完成的是AI识别项目，而非长期只使用遥控和巡线功能后仍称为AI学习。",
+    "userProfile": "画像推断：偏好较少机械组装、愿意与成人一起使用图形编程软件的低龄学习者较匹配。主控与底盘分离方便探索，也可能需要解释不同模块作用，不能假定可爱外观意味着无需引导。",
+    "competition": "竞争判断：同价位编程玩具、积木和移动应用很多，轻量角色外观与模块化底盘形成差异。若用户只使用遥控，普通玩具可能足够，因此需要区分编程需求、陪伴期待和礼物新鲜感。",
+    "supplyChain": "供应链推断：履带底盘、主控连接和点阵显示需承受反复拆装与桌面跌落，触点和传动部件也会磨损。官方未披露完整工厂和物料表；固件工具、适配器和备件可用性影响交付体验。",
+    "technology": "官方将AI能力放在mBlock学习生态中，同时明确本体无语音识别模块。技术判断必须标清外部摄像与软件依赖，不把颜色传感或固定避障逻辑描述成通用视觉，也不声称可直接自由聊天。",
+    "aesthetics": "审美判断：白色圆角主控、点阵表情与黑色履带让它像一个小角色，降低工具的陌生感。表情可读性、拆装阻力和地面运行声音需要实际体验，图片中的友好感不代表所有孩子都感兴趣。",
+    "risks": "风险判断：AI课程与基础玩法的硬件条件不同，购买者容易误以为识别能力全部内置。电脑兼容、固件更新和小零件管理需要成人参与，不能将厂商能力描述直接转写成孩子独立学习保证。",
+    "opportunity": "市场观察：后续可记录家庭从遥控转向编程和识别项目的比例，询问在哪一步停止使用及需要何种帮助。把软件配置和成人陪同时间纳入总成本，判断实体角色是否真正支持持续探索。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "轻量入门机器人而非自由对话玩具形成具体使用场景；本轮没有销量与市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "角色主控",
+      "detail": "点阵显示和传感输入构成Codey。",
+      "evidence": "official"
+    },
+    {
+      "name": "学习软件",
+      "detail": "mBlock及外部输入承载AI项目。",
+      "evidence": "official"
+    },
+    {
+      "name": "程序映射",
+      "detail": "识别结果触发表情或动作。",
+      "evidence": "official"
+    },
+    {
+      "name": "履带执行",
+      "detail": "Rocky底盘执行运动控制。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Codey Rocky官方单机商品",
+      "url": "https://www.makeblock.com/products/buy-codey-rocky",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "Makeblock官方AI项目说明",
+      "url": "https://www.makeblock.com/blogs/for-educators/ai-projects",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "Makeblock家庭项目与识别能力",
+      "url": "https://www.makeblock.com/blogs/for-family/10-engaging-stem-activities-for-kids-in-2023",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "Codey Rocky官方能力边界FAQ",
+      "url": "https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "status": "on_sale",
+  "saleMode": "retail",
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+  },
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Codey Rocky官方单机商品",
+        "url": "https://www.makeblock.com/products/buy-codey-rocky",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s2",
+        "title": "Makeblock官方AI项目说明",
+        "url": "https://www.makeblock.com/blogs/for-educators/ai-projects",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s3",
+        "title": "Makeblock家庭项目与识别能力",
+        "url": "https://www.makeblock.com/blogs/for-family/10-engaging-stem-activities-for-kids-in-2023",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s4",
+        "title": "Codey Rocky官方能力边界FAQ",
+        "url": "https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "Codey Rocky 用表情主控和履带底盘把程序结果变成实体反馈，AI 学习需要配合 mBlock 及外部输入。它解决的是初学者从屏幕逻辑走向可见动作的需求，不能因为能巡线或遥控就把日常玩法全部称为人工智能。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "较少机械组装可能降低开始门槛，但学习价值仍取决于用户是否从遥控转向编程和识别项目。若长期只用预设动作，普通玩具可能已经足够；需求研究应关注实际完成的活动，而不是家长购买时对科技学习的愿望。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可追踪家庭从第一次遥控到第一个识别项目的过程，记录停留阶段、成人帮助和再次启动意愿。让孩子解释某个表情或动作由什么输入触发，区分理解程序、记住操作和单纯欣赏机器人反应这三种不同结果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "较匹配偏好少组装、愿意与成人共同使用图形编程的初学者，主控和底盘分离使探索具有明确对象。可爱外形不会消除软件配置和模块解释需求，因此需要能提供适度引导的家庭环境，而不是期待设备独自完成教学。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "已有电脑使用经验的孩子可能很快开始编程，主要使用平板的家庭则需先核对具体项目条件。对机械搭建兴趣较强的人，较封闭形态也可能限制探索，因此画像应围绕学习方式和终端条件，而不是只按低龄划分。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "画像验证应观察孩子是否愿意拆分主控与底盘、是否理解两者作用，并让家庭自行配置一次 AI 项目。记录问题来自终端、连接、代码还是概念理解，避免将所有困难归为年龄不适合或缺乏编程天赋。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "Codey Rocky 与编程积木、遥控玩具和移动学习应用竞争，角色化主控与履带执行是具体差异。它比复杂搭建套件更容易开始，但是否值得保留仍取决于后续项目深度，不能只比较开箱时能做多少动作。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "如果用户只需要遥控和表情，较简单玩具可能提供相近娱乐；如果目标是机器学习，免费软件也能完成部分任务。实体底盘需要证明它增强了理解和重试意愿，而不是只为已经完成的屏幕分类增加一个昂贵动画。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "竞争验证可让学习者完成相同识别任务，分别使用屏幕反馈和 Codey Rocky 动作，再解释失败原因。还需计入配套终端和扩展条件，避免将本体价格与全部学习成本混为一谈，或只比较品牌课程数量。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能层由 Codey 的点阵显示和输入、mBlock 学习软件与外部感知、识别到程序的映射，以及 Rocky 履带底盘构成。官方 FAQ 明确本体没有独立语音识别模块，系统图不能把外部 AI 能力画成全部内置。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "制造约束集中在主控连接、履带传动、触点和点阵显示的反复使用，同时需要承受拆装和桌面跌落。备件、固件工具及适配说明也是交付部分，若连接问题难以判断，家庭可能把硬件故障误认为程序写错。连接触点清洁后的复装表现也应纳入样件验收。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "SIIX 可作为控制板及连接测试候选，PCBWay 可支持开发阶段的小批电路与结构样件。两者没有 Codey Rocky 点名供货证据；教育软件、外部识别接口和履带耐久需要单独验证，不能从打样能力推定完整套件交付能力。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "AI 能力主要通过 mBlock 学习生态提供，人脸等识别项目依赖外部输入或扩展，普通颜色检测和避障则属于不同技术层。技术表达必须区分这些路径，尤其不能把可编程主控描述为能够直接自由聊天的机器人。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "系统难点是让初学者理解外部识别和本体执行的分工。相同的停顿可能来自软件权限、连接或控制程序，若没有清楚反馈，儿童很难判断下一步应调整什么；可解释调试比增加抽象的 AI 标签更能支持学习。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s4"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证应从官方 FAQ 的能力边界出发，测试外部输入、连接中断和预测错误如何影响动作，并要求学习者说明原因。语音项目需单独核对所需模块，不能把另购或外部条件隐藏在演示后，再宣称本体开箱具备相同能力。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s4"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "白色圆角主控、点阵表情和黑色履带使 Codey Rocky 更像小角色，降低工具的陌生感。模块分离又让它保留可探索结构，审美和学习目的相互关联，不能仅把友好外观理解为装饰或天然适合所有儿童。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "点阵表情的可读性、连接手感和履带声音决定真实使用体验。若拆装阻力过大或接口方向不清，角色亲和力无法消除操作挫败；设计应让主控与执行部分的关系可见，同时避免过多视觉信息干扰编程任务。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证应让孩子在没有成人演示时辨认模块、拆装和收纳，观察表情是否帮助理解程序状态。还需在实际桌面或地面听运动声音，避免从静态商品图的简洁外形推断长期操作同样轻松。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "主要风险是购买者误以为所有识别能力都在本体内置，或将普通自动化当作 AI 学习。电脑兼容、固件和扩展条件需要成人管理，教育成果也不能由厂商功能列表保证，产品应明确学习活动与设备能力之间的区别。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "如果家庭无法跨过软件配置，设备可能长期停留在遥控玩法，实际价值与购买期待脱节。接口和履带磨损还可能让调试更困难，因此售后应帮助区分机械、连接和代码问题，避免用户不断改程序却无法解决硬件原因。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证应核对每个 AI 项目的完整设备清单，并从新终端重新安装和连接，记录需要成人介入的步骤。对故障恢复也要测试，不以课堂或演示中的顺利运行推断普通家庭可以无人指导长期使用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会在于设计从遥控到程序再到识别学习的清晰路径，让角色反馈帮助孩子理解每一步变化。新产品可以优先减少配置障碍和提供错误解释，而不是一味加入更多模型能力，使入门体验与后续探索保持连续。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会成立需要家庭能够逐步进入更深项目，并在失败后愿意继续尝试。若用户普遍停在表情和遥控，产品可能更适合作为娱乐玩具定位；只有学习增量被观察到，较复杂的软件与课程维护投入才有充分依据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可记录四周内项目阶段迁移和求助内容，针对最常停下的步骤调整引导，再比较调整后的自主完成情况。把成人时间和终端配置计入成本，避免只用产品销量或课程点击量推断持续学习价值。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "siix",
+        "role": "pcb",
+        "relationship": "candidate",
+        "component": "模块主控与连接器装配测试",
+        "rationale": "SIIX 公开电子制造能力可对应主控板、连接器和功能测试，但履带寿命与 mBlock 学习接口需要另外验证；没有 Codey Rocky 点名合作信息，因此不能认定实际供应关系。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "pcbway",
+        "role": "pcb",
+        "relationship": "candidate",
+        "component": "编程机器人开发板与结构打样",
+        "rationale": "PCBWay 的电路打样和部分结构制造服务适合早期验证主控、连接和外壳样件，但不自动提供完整课程或批量套件可靠性；未发现其为 Codey Rocky 供货，当前只列原型阶段候选。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "embodied-ai-learning",
+      "needName": "通过实体机器人学习编程与识别",
+      "difference": "Makeblock Codey Rocky 的区别在于具体实现与使用条件：AI 能力主要通过 mBlock 学习生态提供，人脸等识别项目依赖外部输入或扩展，普通颜色检测和避障则属于不同技术层。技术表达必须区分这些路径，尤其不能把可编程主控描述为能够直接自由聊天的机器人。如果用户只需要遥控和表情，较简单玩具可能提供相近娱乐；如果目标是机器学习，免费软件也能完成部分任务。实体底盘需要证明它增强了理解和重试意愿，而不是只为已经完成的屏幕分类增加一个昂贵动画。",
+      "comparisonBasis": "Codey Rocky 与编程积木、遥控玩具和移动学习应用竞争，角色化主控与履带执行是具体差异。它比复杂搭建套件更容易开始，但是否值得保留仍取决于后续项目深度，不能只比较开箱时能做多少动作。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s2",
+        "s4",
+        "s1"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/makeblock-codey-rocky/product.jpg",
+      "sourceUrl": "https://www.makeblock.com/products/buy-codey-rocky",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0070/5901/3716/files/SKU-CodeyRocky.webp?v=1766999230",
+      "caption": "Makeblock Codey Rocky · 官方产品图",
+      "alt": "Makeblock Codey Rocky官方外观产品图",
+      "credit": "Makeblock · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 37394,
+      "sha256": "21eedc0e101bdc6cb9f304921494dd5973f5dc511d8bebd4ecb4f1bac69abbf2"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/makeblock-codey-rocky/reference.jpg",
+      "sourceUrl": "https://www.makeblock.com/products/buy-codey-rocky",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0070/5901/3716/files/PC-codey_rocky.jpg?v=1711105285",
+      "caption": "Makeblock Codey Rocky · 官方参考图",
+      "alt": "Makeblock Codey Rocky官方场景或外观角度参考",
+      "credit": "Makeblock · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 73800,
+      "sha256": "4f4e68b6a3ce931d1698d552ebefe621047c5972e33a8043c75ce104b044ddfa"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/makeblock-codey-rocky/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Makeblock Codey Rocky 的AI结构示意；内部布局为推断，不是实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/makeblock-codey-rocky.txt",
+      "referencePaths": [
+        "assets/hardware/makeblock-codey-rocky/product.jpg",
+        "assets/hardware/makeblock-codey-rocky/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1474377,
+      "sha256": "44927ab756140fc10fc9f9aa05ef58a7e1d627ba027502aeeb6447479d7da437"
+    }
+  ],
+  "mediaNotes": [
+    "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+  ]
+}

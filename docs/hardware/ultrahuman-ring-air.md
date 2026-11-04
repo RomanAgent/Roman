@@ -122,11 +122,11 @@ Jade 可以整合生态中的可用记录，但用户未必拥有其他设备或
 
 供应链推断：尺码多、微型电池和金属外壳使备货及质量控制复杂，长期密封和皮肤接触也重要。官方本次资料未披露AIR具体制造工厂；跨地区配送和换新是实际交付的一部分。
 
-### 官方｜指端感知与软件生态 · 官方资料
+### 官方｜已披露控制与未知其他器件 · 官方资料
 
-官方算法说明支持光学、温度和运动相关输入用于阶段估计，应用与其他服务承担查看和解释。具体 AIR 主控、传感器厂商和工厂未完整披露，不能从 PRO 发布或其他生态设备反推；目录只表示功能链路，不把概念示意和品牌工厂叙述补成该型号真实物料清单。
+Nordic二〇二三年官方案例点名Ring Air使用nRF52840监督传感器、记录数据和连接应用，算法说明另支持光学、温度及运动输入。该案例不确认二〇二六年所有批次和完整物料，其他传感器厂商与工厂仍未核实；不能从PRO发布或生态其他设备反推AIR的全部结构。
 
-依据：[Ultrahuman睡眠阶段算法说明](<https://www.ultrahuman.com/science/explainers/sleep-stages/>)
+依据：[Ultrahuman睡眠阶段算法说明](<https://www.ultrahuman.com/science/explainers/sleep-stages/>) · [Nordic disclosed Ultrahuman Ring Air nRF52840 case, 2023-09-22](<https://www.nordicsemi.com/Nordic-news/2023/09/The-Ultrahuman-Ring-Air-employs-nRF52840-SoC>)
 
 ### 判断｜尺寸、密封与长期接触 · 研究判断
 
@@ -146,9 +146,9 @@ Jade 可以整合生态中的可用记录，但用户未必拥有其他设备或
 
 ### 官方｜睡眠阶段是模型推断 · 官方资料
 
-官方说明模型根据多个生理和运动信号推断各时间窗口的睡眠阶段，而不是直接测得大脑睡眠标签。具体版本和 AIR 内部部署没有在本次资料中完整交代，不能从通用端侧措辞反推全部计算位置；目录保留采集、分类与应用展示的层级，不把估计当作医学诊断。
+官方说明模型根据多个生理和运动信号推断各时间窗口的睡眠阶段，而不是直接测得大脑睡眠标签。虽已有nRF52840控制与连接的点名案例，AI算法版本和端云推理分配仍未完整交代；目录保留采集、分类与应用展示的层级，不把估计当医学诊断或将全部解释归为戒指本地计算。
 
-依据：[Ultrahuman睡眠阶段算法说明](<https://www.ultrahuman.com/science/explainers/sleep-stages/>)
+依据：[Ultrahuman睡眠阶段算法说明](<https://www.ultrahuman.com/science/explainers/sleep-stages/>) · [Nordic disclosed Ultrahuman Ring Air nRF52840 case, 2023-09-22](<https://www.nordicsemi.com/Nordic-news/2023/09/The-Ultrahuman-Ring-Air-employs-nRF52840-SoC>)
 
 ### 判断｜新解释层不改变旧硬件事实 · 研究判断
 
@@ -235,6 +235,8 @@ Jade 与附加功能可能扩展理解，也可能增加授权和付费选择，
 - [ams-osram](../supply-chain/ams-osram.md) — **能力候选 · 非已采用** / 指端光学生理输入前端候选：AIR 的睡眠估计使用光学输入，艾迈斯欧司朗前端可作为新设计候选，需验证手指光路、接口、封装与功耗。当前没有点名采用，仅比较对应采集部分，不将候选多模态通道添加到 AIR；器件能力也不证明睡眠阶段、Jade 解释或任何医学效果。
 
 - [tdk-invensense](../supply-chain/tdk-invensense.md) — **能力候选 · 非已采用** / 睡眠与活动分析的运动输入候选：官方说明包含运动信号，TDK/InvenSense 可作为相应新设计候选，但需按指环空间与低功耗需求选择具体器件。当前没有采用点名，不能从候选 IMU 推断 AIR 内部完整配置；运动数据不等同睡眠分类模型，也不能把 PRO 新硬件或生态其他输入移入本款。
+
+- [nordic-semiconductor](../supply-chain/nordic-semiconductor.md) — **公开披露关系** / 2023公开案例中的nRF52840传感控制与BLE：Nordic官方案例明确点名Ultrahuman Ring Air采用nRF52840，并说明传感监督、数据记录和蓝牙应用连接，因此可记录该公开版本的采用。证据发布于二〇二三年，不确认二〇二六年所有批次或完整物料，也不证明睡眠模型和Jade生成式解释全部在芯片本地执行。
 
 [浏览供应链目录](../supply-chain.md)
 

@@ -1,0 +1,413 @@
+{
+  "id": "texas-instruments",
+  "name": "Texas Instruments 德州仪器",
+  "legalName": "Texas Instruments Incorporated",
+  "country": "美国",
+  "locations": [
+    "美国得克萨斯州达拉斯",
+    "全球官方销售与技术支持地区"
+  ],
+  "tier": "global",
+  "tierNote": "按模拟与嵌入式产品广度及全球业务覆盖分组，不引用规模数字或推定项目供货能力。",
+  "roles": [
+    "chip",
+    "sensing",
+    "acoustics"
+  ],
+  "capabilities": [
+    "AFE4950 光学与电生理模拟前端",
+    "同步 PPG 与单导联 ECG 采集",
+    "模拟与嵌入式半导体",
+    "TAS2781 数字输入扬声器放大与保护",
+    "ADS1299 EEG与生物电采集前端"
+  ],
+  "productCategories": [
+    "wearables",
+    "computing",
+    "audio",
+    "health-home"
+  ],
+  "website": "https://www.ti.com/",
+  "contactUrl": "https://www.ti.com/product/AFE4950",
+  "summary": "德州仪器在个人智能硬件中的重要角色可以位于模型之前：用模拟前端把光电或电生理信号转成稳定数据。所核查的 AFE4950 支持穿戴信号采集，因此适合戒指、腕表等设备的功能候选比较。它本身不是健康诊断模型，最终指标与提示还取决于光学结构、算法、数据和整机验证。另补核计算终端的数字扬声器放大与保护路线，输入采集和声音输出按不同模块评估。",
+  "sources": [
+    {
+      "title": "AFE4950 product information",
+      "url": "https://www.ti.com/product/AFE4950",
+      "note": "支持同步光学与电生理采集、接口、评估板及部分详细资料需申请的边界。",
+      "id": "s1",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "About TI",
+      "url": "https://www.ti.com/about-ti.html",
+      "note": "支持达拉斯总部及模拟、嵌入式半导体设计制造业务，不据集团描述承诺具体供应条件。",
+      "id": "s2",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "TAS2781 PC and notebook audio amplifier",
+      "url": "https://www.ti.com/product/TAS2781",
+      "note": "本轮已打开，支持数字音频输入、集成处理与扬声器保护、PC/笔记本应用方向；不证明任何 Apple 型号采用。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s4",
+      "title": "ADS1299 EEG and biopotential analog frontend",
+      "url": "https://www.ti.com/product/ADS1299",
+      "note": "本轮已打开：明确EEG与生物电低噪声同步采集、增益和脱落检测。采集芯片不含认知或手势AI，不据此认定任何成品实际采用。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "analysis": {
+    "positioning": [
+      {
+        "title": "官方｜模拟与嵌入式定位",
+        "text": "公司公开定位是设计、制造和销售模拟与嵌入式半导体，本目录重点核查穿戴模拟前端。它可以为人工智能系统提供更可用的输入数据，但并不因此成为生成式模型供应商；供应链应把信号采集、算法计算和用户建议区分开，避免所有器件都被笼统称为人工智能芯片。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜数据质量的入口",
+        "text": "戒指和手表的健康趋势依赖连续而可信的信号，模拟前端若在环境光或运动中饱和，后续模型可能只能处理缺失或失真数据。德州仪器的候选价值在于采集链路控制，应围绕真实佩戴条件比较，而不是把更高分辨率直接等同于更准确的健康结论。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "官方｜同步采集能力",
+        "text": "所核查前端支持光学脉搏波与单导联心电同步采集，并提供发光控制、接收、环境干扰处理及数据接口。同步能力可以支持研究多种信号之间的关系，但它只是硬件输入条件；页面列出的应用方向不能直接作为成品具备特定诊断能力或测量效果的证据。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜外部光学仍重要",
+        "text": "模拟前端需要与发光器件、光电接收器、窗口和遮光结构共同工作，芯片本身不包含完整的皮肤测量环境。选型时应检查不同光路和接触压力下的信号余量，尤其避免光线直接串入接收端；硬件结构错误不能指望后续模型完全补救。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "官方｜计算终端声音输出",
+        "text": "本轮另核查的音频放大器面向电脑与笔记本，提供数字输入、信号处理和扬声器保护，位于声音输出链路。它不是通用大模型加速器，也不等于整套声学系统；实际扬声器、电源和控制接口仍需匹配，不能把器件标称最大功率直接视为轻薄电脑可持续输出。",
+        "evidence": "official",
+        "sourceIds": [
+          "s3"
+        ]
+      },
+      {
+        "title": "官方｜专门脑电采集前端",
+        "text": "ADS1299官方资料明确面向脑电及生物电测量，包含低噪声放大、同步模数转换和电极状态检测等功能。这与原有光学或心电组合前端应分别记录，不能用一个PPG型号代替脑电选型；采集芯片输出信号，不提供专注度、疲劳或手势含义的完整人工智能解释。",
+        "evidence": "official",
+        "sourceIds": [
+          "s4"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "判断｜腕表与戒指差异",
+        "text": "腕部和手指的佩戴位置、运动方式及空间不同，不能把一套评估板配置直接用于两种产品。戒指还受到尺寸系列与旋转位置影响，腕表则可能在运动中松动；候选比较应分别确定发光时序、采样策略和电池预算，而非以同一宣传指标覆盖所有形态。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜算法前的数据角色",
+        "text": "若产品的人工智能主要在应用或云端解释趋势，模拟前端仍可能决定哪些时间段的数据可用。它适合作为输入模块候选，而不是整体健康助手替代方案；项目需要定义信号质量标志和缺失处理，让下游模型知道何时不应给出过于确定的判断。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜薄型电脑的外围候选",
+        "text": "对于通用电脑，德州仪器可以作为声音输出外围的候选，而不是替代品牌自研主处理器。选型应验证数字音频接口、供电、扬声器阻抗和驱动，现有封闭整机也不能直接更换；目录只提出新设计模块比较，不从芯片能力推断某款电脑已经采用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      },
+      {
+        "title": "判断｜干电极结构仍需验证",
+        "text": "消费耳部脑电和腕部肌电有不同信号幅度、接触方式与运动干扰，专门生物电前端只是候选起点。需要核对供电、共模、输入保护、采样和电极布局，在最终结构中观察数据；不能因为芯片标注脑电用途，就推断它适合所有无线头戴尺寸或能直接得到稳定认知指标。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s4"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "官方｜资料获取边界",
+        "text": "产品页面提供公开摘要、评估模块和设计资料入口，同时明确部分完整文档需要申请并受保密条件约束。团队应在定板前确认能够取得所需配置与时序信息，不能只依据公开摘要推进关键设计，也不能把网页可见视为全部工程资料已经开放。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜技术询问材料",
+        "text": "接洽时应提供光电器件组合、佩戴位置、原始波形、目标采样和电源限制，并说明问题是饱和、噪声还是运动伪差。这样的材料能帮助区分芯片配置和结构问题；只询问能否测出某个健康指标，容易跳过输入质量与算法验证之间的关键步骤。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "判断｜原始波形验收",
+        "text": "质量验证应保留原始信号与处理后指标，并在不同佩戴松紧、肤色和活动条件下检查饱和、丢样及环境光影响。评价不能只看最终应用曲线是否平滑，因为过度平滑可能隐藏真实数据问题；需要确认采集链路在目标场景中的有效数据比例。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜同步与时钟验证",
+        "text": "同时使用多种生理信号时，应验证时间戳、采样时钟和缓存读取是否保持一致，尤其在休眠切换或无线同步期间。微小时间误差可能影响后续特征计算，因此需要用可控输入和长时间记录检查漂移；芯片支持同步不代表整机软件已经正确保存同步关系。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜声学与保护联合验证",
+        "text": "音频放大路径需要与最终扬声器和腔体一起测量失真、温升与保护行为，并加入长时间播放和不同电源状态。器件带保护并不代表任意参数配置都可靠，薄型结构尤其要确认振膜和热限制；应保留原始测量与校准版本，避免只用最大功率或一次听感判断质量。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断｜成本不能只看前端",
+        "text": "前端成本应与发光和接收器件、窗口、遮光、柔性连接及生产校准一起计算，某些结构选择还会改变电池需求。减少采样可能省电，却可能降低可用数据；采购比较应维持相同任务和信号质量目标，不能用不同测量条件下的单颗价格得出结论。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜采购与文档条件",
+        "text": "公开页面可以查看器件状态和申请资料，但实际报价、供货周期与支持范围应按料号和渠道确认。还需明确受限文档能否由合作设计方使用，以及产品变更如何通知；目录不根据公司制造能力推断任何项目都能获得固定交期或长期供应保证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜健康能力过度宣传",
+        "text": "器件应用列表中的心率、血氧或其他研究方向，不等于装入产品后就获得相应的医学证明。整机还涉及算法、用户操作和验证数据，尤其不能把模拟前端页面作为无创诊断或治疗效果的依据；目录只记录采集能力，不替任何成品扩展健康声明。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜结构变化引发偏差",
+        "text": "更换窗口材料、光电器件位置或壳体颜色，都可能改变光路和信号分布，软件算法未必自动适应。项目应把这些变化纳入重新验证，而不是认为芯片不变就无需回归；尺寸不同的戒指或不同表带松紧也应作为独立条件观察，防止校准假设失效。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜输出处理与生成智能区别",
+        "text": "放大器中的数字处理和扬声器保护服务于声音输出，不能被宣传为整机语言理解或生成模型来源。目录关联人工智能电脑时应明确它只承担外围模块，实际芯片采用仍需点名证据；也不能把一个适合笔记本的器件直接迁移到电池、空间和电压条件不同的耳内设备。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      },
+      {
+        "title": "判断｜输入质量与模型分开",
+        "text": "生物电采集成功不等于模型能够理解注意力或动作，接触变化和运动伪迹可能影响下游输出。候选验证应保留原始数据与信号质量标记，并区分传感、滤波、识别和应用解释；没有成品点名资料时不得标为已采用，也不能把医疗仪器用途等同整件消费设备的认证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s4"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "判断｜分层验证流程",
+        "text": "可以先在可控光电输入下检查前端配置与同步，再进入接近量产的佩戴样机收集真实波形，最后评估下游指标。这样的顺序能区分电子、结构和算法问题，避免直接用最终健康分数判断硬件好坏；所有实验应保留配置、时钟和数据处理版本。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜候选关系的证据",
+        "text": "完成结构信号、功耗和数据完整性验证后，仍需确认目标料号的采购与文档支持，才能进入选型。目录可将德州仪器列为穿戴信号前端候选，但某款戒指或手表是否实际使用该器件，需要品牌或供应商明确点名，不能从测量功能相似来猜测。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "texas-instruments",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "腕部光学信号采集前端候选",
+      "rationale": "Balance 2 的生理记录涉及光学输入，德州仪器的 PPG 前端可作为新设计候选。需验证光路、运动伪差、接口和功耗，当前没有点名采用；仅比较光学采集部分，不因候选器件支持其他信号就为手表添加未披露测量，也不能证明 Zepp 指标或计划有效。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "amazfit-balance-2",
+      "productName": "Amazfit Balance 2",
+      "category": "wearables",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "texas-instruments",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "扬声器数字放大与保护的外围候选",
+      "rationale": "官方产品具有扬声器系统，TI 的笔记本音频放大与保护路线可作为同类新设计候选。需核对供电、数字接口、扬声器阻抗和驱动调校，当前未确认采用；不按芯片最大功率推算 Air 输出，也不把这一外围候选误写成 M5 或统一内存供应方。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "macbook-air-m5",
+      "productName": "MacBook Air M5（13 / 15 英寸）",
+      "category": "computing",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "texas-instruments",
+      "role": "sensing",
+      "component": "同类腕部生物电输入的模拟前端研究候选",
+      "rationale": "TI的ADS1299公开生物电低噪声采集、增益和同步转换能力，可作为腕部信号研究候选，但需要针对肌电幅度、带宽、电极接触和低功耗重新验证。它不包含Mudra的手势模型或专利传感实现，也没有点名采用证据；不能从脑电用途直接推定成品腕带适配。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s4"
+      ],
+      "productId": "mudra-link",
+      "productName": "Mudra Link",
+      "category": "wearables",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "texas-instruments",
+      "role": "sensing",
+      "component": "同类耳部EEG设备的生物电前端候选",
+      "rationale": "TI ADS1299明确面向EEG和生物电采集，可用于研究低噪声放大、同步采样及接触状态，但干织物耳垫的实际阻抗、运动干扰和供电尺寸仍需验证。它不提供Neurable认知指标或噪声清理模型，也没有本款采用证据；不能把芯片用途等同整机效果或认证。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s4"
+      ],
+      "productId": "neurable-one",
+      "productName": "Neurable One",
+      "category": "wearables",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "texas-instruments",
+      "role": "sensing",
+      "component": "同类个人多导联ECG的生物电前端候选",
+      "rationale": "TI ADS1299公开低噪声多通道生物电采集及ECG应用，可用于研究两路同步输入和导联派生的相近新设计，但通道数、供电、输入保护和尺寸需重新评估。芯片不含KardiaAI或成品许可，且没有6L点名采用证据；不能把候选前端直接当作原机替换件。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s4"
+      ],
+      "productId": "kardiamobile-6l",
+      "productName": "AliveCor KardiaMobile 6L",
+      "category": "health-home",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "texas-instruments",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "模拟信号采集与控制器件能力候选",
+      "rationale": "TI公开模拟与嵌入式器件可作为重新研究电力信号采集系统的能力入口，但必须由专业团队按整机目标选型与验证。此处没有确认Ting使用任何TI料号，也不能作为用户改装或电气接线依据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "ting-home-safety-sensor",
+      "productName": "Ting Sensor with Fire Prevention Service",
+      "category": "home-safety",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "texas-instruments",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "计量与控制器件能力候选",
+      "rationale": "TI公开模拟、电源和嵌入式器件可支持新方案的控制与信号研究，但功率架构、通信接口和整机验证必须由专业团队选定。能力范围不构成Solarbank实际料号证明，也不能当成可直接替换的电气方案。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "anker-solix-solarbank-3-pro",
+      "productName": "Anker SOLIX Solarbank 3 E2700 Pro",
+      "category": "home-energy",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "texas-instruments",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "电机驱动与嵌入式控制器件",
+      "rationale": "M7需要三轴执行与控制，TI公开器件可用于研究驱动与控制方案。具体电机类型、噪声、功耗、板面积和闭环接口必须从目标设计出发重选；现有资料没有点名M7采用TI芯片，也不能视为可直接替换的零件清单。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "hohem-isteady-m7",
+      "productName": "Hohem iSteady M7",
+      "category": "gimbals",
+      "status": "on_sale"
+    }
+  ]
+}

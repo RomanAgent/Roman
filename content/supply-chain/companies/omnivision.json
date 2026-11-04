@@ -1,0 +1,247 @@
+{
+  "id": "omnivision",
+  "name": "OMNIVISION 豪威影像业务",
+  "legalName": "OmniVision Technologies, Inc. 品牌与器件业务；集团投资者主体另列，本条以 OVT 官网业务为范围",
+  "country": "美国（OVT 官网业务总部口径）",
+  "locations": [
+    "美国 Santa Clara",
+    "中国上海",
+    "全球官方销售地区"
+  ],
+  "tier": "global",
+  "tierNote": "按图像传感、模拟和显示业务的全球覆盖分组，业务总部与集团主体不混为同一口径。",
+  "roles": [
+    "sensing",
+    "chip"
+  ],
+  "capabilities": [
+    "OG0TC 眼部与面部追踪全局快门传感器",
+    "OV50M40 移动图像传感器",
+    "OC0TC 微型摄像模块",
+    "近红外与高动态范围成像"
+  ],
+  "productCategories": [
+    "glasses",
+    "computing",
+    "accessibility"
+  ],
+  "website": "https://www.ovt.com/",
+  "contactUrl": "https://www.ovt.com/contact-sales/",
+  "summary": "豪威影像业务同时提供面向内向追踪的小型全局快门传感器和面向移动摄影的彩色成像器件，两者承担的任务不同。它适合在智能硬件中作为视觉输入候选，而不是默认提供识别模型。目录按 OVT 官网的业务总部口径记录地域，并区分传感器、完整摄像模组与集团主体，避免把相同品牌下的不同功能混合。",
+  "sources": [
+    {
+      "title": "OG0TC tracking sensor announcement",
+      "url": "https://www.ovt.com/press-releases/omnivision-launches-newest-generation-of-the-worlds-smallest-lowest-power-global-shutter-image-sensor-for-ar-vr-mr-tracking-cameras/",
+      "note": "支持内向眼部/面部追踪、全局快门、近红外与小型化方向，不作为外向高像素摄影器件。",
+      "id": "s1",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "OV50M40 product information",
+      "url": "https://www.ovt.com/products/ov50m40/",
+      "note": "支持移动彩色摄影、HDR 与低功耗模式定位；不推断具体消费产品采用。",
+      "id": "s2",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "OC0TC product brief",
+      "url": "https://www.ovt.com/wp-content/uploads/2026/04/OC0TC-PB-v1.0-WEB.pdf",
+      "note": "支持集成传感器与镜头的追踪摄像模组边界，不能与裸传感器混称。",
+      "id": "s3",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "About OMNIVISION",
+      "url": "https://www.ovt.com/company/about-us/",
+      "note": "支持 OVT 无晶圆厂业务、Santa Clara 总部、上海据点和集团历史；不将质量体系泛化为成品认证。",
+      "id": "s4",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "OMNIVISION Contact Sales",
+      "url": "https://www.ovt.com/contact-sales/",
+      "note": "支持公开销售入口；具体料号资料与采购条件需确认。",
+      "id": "s5",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "analysis": {
+    "positioning": [
+      {
+        "title": "官方｜内向追踪与外向摄影",
+        "text": "所核查产品分别面向眼部面部追踪与移动彩色摄影，前者强调小型全局快门和近红外输入，后者关注拍照与视频。两者不能因为都用于眼镜或手机就互相替代，目录明确区分任务方向；传感器采集图像也不意味着它本身完成后续识别或生成式理解。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜从观察对象选器件",
+        "text": "看向佩戴者的追踪相机与看向环境的记录相机，距离、照明和细节需求完全不同。供应链研究应先确认观察对象，再选择快门、光谱和分辨率；若直接按体积或像素排名，很容易把适合眼动的器件误用于文字读取，或为简单追踪承担不必要的摄影成本。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "官方｜传感器与模组区别",
+        "text": "公开资料同时存在裸图像传感器和集成镜头的摄像模组，后者可以减少部分光学装配工作，但具有自己的视场、结构和接口限制。目录不会把模组尺寸写成传感器尺寸，也不会把某个集成模块的镜头特性扩展到公司全部成像芯片。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "判断｜成像不等于理解",
+        "text": "高动态范围或低噪输入能够改善模型可见信息，但最终识别仍依赖镜头、图像处理和模型训练。器件的能力应以目标任务验证，尤其在运动和低光下检查文字或特征是否保留；不能把更清晰的宣传图直接转换成更准确的人工智能回答承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "判断｜显示眼镜追踪候选",
+        "text": "若新设计的眼镜确实需要眼部或面部追踪，可比较相应小型传感器与模组，并验证近红外照明和佩戴差异。没有这类需求的文字显示眼镜不应为了增加供应商链接而引入追踪相机；候选必须对应已存在或明确规划的功能，不能替成品凭空添加摄像头。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "判断｜拍摄与阅读候选",
+        "text": "外向摄影或阅读设备可以比较移动成像器件，但需要确认镜头高度、对焦距离和主控接口。高像素未必适合近距离扫描，也可能增加存储和处理负担；选型应使用真实文字与手持抖动测试，不能以手机摄像应用方向直接证明阅读辅助体验合格。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "判断｜提供光学任务书",
+        "text": "接洽应说明观察距离、视场、光谱、运动速度、接口和结构高度，并提供主控与目标图像样本。这样的任务书能帮助供应方区分传感器与模组路线；仅询问适合人工智能眼镜的相机，会掩盖内向追踪、外向拍摄和低功耗事件感知之间的重要差异。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s5"
+        ]
+      },
+      {
+        "title": "判断｜调校责任分配",
+        "text": "采购传感器并不自动获得最终镜头调校、图像参数和模型适配，团队应确认这些工作由模组方、主控方还是自身承担。若多个供应商共同参与，需要明确原始数据与调试接口的获取方式，避免出现画面问题时各方只根据自己的单项规格判断没有故障。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s5"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "判断｜动态与光照验收",
+        "text": "质量测试应覆盖目标运动速度、室内外光线和不同对比度，分别检查拖影、饱和及可识别细节。全局快门和高动态范围针对不同问题，不能互相替代；最终应将图像质量与模型任务结果并列观察，避免只看漂亮画面而忽略实际识别失败。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜模组装配一致性",
+        "text": "集成摄像模组仍需在主板与外壳中验证位置、遮挡和热变化，尤其多相机系统还要检查各通道一致性。器件可回流或尺寸很小并不说明整机装配没有公差问题；需要明确校准与返修流程，不能根据模块宣传推算良率或省略生产测试。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断｜裸器件与模块成本",
+        "text": "裸传感器与完整模块的采购价格不可直接比较，后者包含部分光学和封装工作，前者则可能给结构更多选择。项目应把镜头、调校、装配与测试成本一起核算，并考虑替换时的重新验证；不能只以器件尺寸或集成程度判断哪个方案总成本更低。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "判断｜业务与采购主体",
+        "text": "OVT 官网业务总部口径与集团投资者主体不同，实际采购应核对地区销售法人和授权渠道。公开质量与据点信息可以作为询证起点，但不能直接推断某款器件的工厂或交期；目录不把集团历史或业务规模转化为具体订单的供应承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s4",
+          "s5"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜近红外功能误用",
+        "text": "追踪传感器的近红外能力属于输入设计，整机还需考虑照明、眼部使用条件和相应验证，不能仅凭传感器资料宣称完整系统安全或有效。也不能把低分辨率追踪图像包装成高质量生活摄影，产品说明应明确它观察什么、输出什么以及有哪些限制。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜跨行业认证外推",
+        "text": "公司介绍涉及不同质量体系与行业产品，不能把某一工厂或业务的认证直接写成所有消费设备都具备相同保证。选型需索取目标料号和实际供货路径对应文件，成品仍有自己的验证责任；目录保留业务范围，不借品牌资质填补具体产品证据缺口。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s4"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "判断｜任务与接口联合实验",
+        "text": "首轮应让目标传感器连接拟用主控，在真实距离和光线下完成采集、处理和模型任务，并记录帧丢失与功耗。再比较不同镜头或配置对结果的影响，才能判断瓶颈位于光学、接口还是算法；离开实际链路的单项规格不足以支持最终选择。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜实际采用需点名",
+        "text": "候选通过后仍应核对目标型号、模组配置和量产支持，保留全部验证条件。目录不会因为某款眼镜具有相机或某款手机像素相同，就认定采用豪威器件；明确供货必须有品牌或供应商点名资料，且不能把一个代次的采用关系自动延伸到后续产品。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s5"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "omnivision",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "移动相机图像输入的候选路线",
+      "rationale": "Pixel 11 Pro 具有影像输入，豪威移动图像传感器路线可作为同类新设计候选。需验证光学、接口、封装和 Tensor 图像调校，当前没有采用点名；不能由其他手机或相近像素推断本型号来源，也不把传感器能力等同 Google 影像模型或系统服务。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s4"
+      ],
+      "productId": "google-pixel-11-pro",
+      "productName": "Google Pixel 11 Pro",
+      "category": "computing",
+      "status": "on_sale"
+    }
+  ]
+}

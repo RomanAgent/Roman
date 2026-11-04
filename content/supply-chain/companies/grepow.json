@@ -1,0 +1,521 @@
+{
+  "id": "grepow",
+  "name": "Grepow 格瑞普",
+  "legalName": "Shenzhen Grepow Battery Co., Ltd.",
+  "country": "中国大陆",
+  "locations": [
+    "深圳龙华（总部）",
+    "深圳光明（异形电池研发生产基地）",
+    "湖南郴州",
+    "美国Livermore",
+    "德国Korschenbroich"
+  ],
+  "tier": "specialist",
+  "tierNote": "按异形、穿戴和高倍率电池专业方向分组；总部与地区基地由联系页明确，不以自述排名或产能作为目录评分。",
+  "roles": [
+    "power"
+  ],
+  "capabilities": [
+    "异形与窄型软包电芯",
+    "可充电扣式及金属壳异形电池",
+    "穿戴与智能眼镜供电方案",
+    "高倍率及低温电池方向",
+    "电池组与配套充电方案"
+  ],
+  "productCategories": [
+    "glasses",
+    "wearables",
+    "imaging",
+    "drones",
+    "robotics"
+  ],
+  "website": "https://www.grepow.com/",
+  "contactUrl": "https://www.grepow.com/contact-us.html",
+  "summary": "格瑞普公开提供异形、窄型软包、扣式及高倍率等电池方向，穿戴方案具体涉及镜腿、运动眼镜和其他受空间限制的设备。其特色在电池形状与产品结构共同规划，适合作为紧凑AI硬件的供电候选；但可定制不意味着任何形状都可量产，高倍率、低温和高能量指标也不能跨系列合并。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "已披露定位：特殊形态与性能电池",
+        "text": "公司介绍覆盖锂聚合物、镍氢、磷酸铁锂和扣式电芯，并把形状定制、低温和高倍率列为不同方向。目录突出其特定空间与负载问题的能力，不把官网领先表述当作比较结论，也不将不同自有品牌再次计作独立供应公司。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "定位判断：电池参与外形设计较早",
+        "text": "当镜腿、佩戴壳体或小型相机没有规则电池空间时，格瑞普的形态能力值得进入早期设计讨论。电池不应在外观确定后才被迫塞入剩余空间，但也不能为了填满外壳而忽略保护和维修，形状选择应与整体结构协同。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "已披露能力：智能眼镜的窄型与异形",
+        "text": "穿戴页面明确提到细镜腿使用的窄型软包、低温户外环境的异形电池和紧凑金属壳方案，覆盖多类智能眼镜任务。这里支持空间匹配研究，却不证明所有方案适合相同功耗或防护要求，也不能从应用描述推断具体眼镜品牌已采用。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "能力边界：特殊特性属于不同路线",
+        "text": "高倍率、快充、低温和高能量等类别可能对应不同化学与结构选择，不能把每类最佳表现要求在一个微型电芯上同时实现。工程讨论需要先确定优先任务和允许取舍，公开分类只是可询问的方向，不是任意组合的性能承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配判断：非规则空间的便携设备",
+        "text": "泳镜、智能眼镜、小型相机和佩戴传感器可根据结构将格瑞普列为电源候选，重点是空间与负载的实际约束。相关产品若有防水或长时佩戴，还需验证电池与外壳、充电接口协同，不能因公司有穿戴方案就直接认定适合具体型号。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "不匹配边界：无人机经验不能套用所有穿戴",
+        "text": "高倍率飞行设备与靠近身体的轻量穿戴有不同工作节奏和结构要求，不能把航模电池的优势照搬到镜腿或头带。即使来自同一家供应商，也应使用对应系列和测试条件，候选链接不能被理解为通用替换电池建议。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "已披露入口：容量、数量与用途询问",
+        "text": "官方联系表要求容量、数量、应用与项目内容，并列出深圳总部、异形研发生产基地及海外办公室。它提供了可执行的询证入口，但不表示这些地点都接受相同类型订单；实际负责团队和签约主体需要按项目确认，本轮没有提交表单。",
+        "evidence": "official",
+        "sourceIds": [
+          "s3"
+        ]
+      },
+      {
+        "title": "接洽建议：给出结构包络与真实负载",
+        "text": "对异形电池应提供可用空间、不能占用的区域、固定与维修方式，同时附运行和充电负载。仅给一张漂亮外观图无法确定电池方案，也不能只要求尽可能大容量；应明确可调整的外形和性能边界，以便供应商评估可行性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "质量判断：外形定制需要重新验证",
+        "text": "异形设计可能改变装配、固定和受力方式，应该在完整外壳中测试，而不是只验证电芯电气性能。佩戴设备还需要关注日常弯折和碰撞路径，不能将定制形状理解为电池可以随意变形，具体允许条件必须依正式规格确认。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "质量验证：低温与快充按同一方案观察",
+        "text": "若产品要在寒冷户外使用或频繁补能，应按对应系列记录温度、负载与充电条件，避免跨页面引用有利数字。公司公开测试与研发能力不等于客户项目已经通过验证，电芯、保护与整机责任必须分清，本轮未进行实测。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "商务边界：定制没有公开统一门槛",
+        "text": "本轮页面未给出本站项目的起订量、价格、模具或开发费用，异形电池也不能按普通矩形电芯单价估算。标准形状与专用结构需要分别询问，海外办公室存在不代表免运费或本地现货，完整采购条件仍须书面确认。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "商业判断：形状收益需要对应使用价值",
+        "text": "把电池放进原本闲置空间可能有助于外形或续航，但也可能增加备件与结构依赖。早期应确认用户是否真的需要更细镜腿或更紧凑机身，再决定专用电芯，不能把外形创新自动转换成高付费意愿，也不以目录丰富度判断商业潜力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "证据风险：性能类别不代表某款产品",
+        "text": "官网存在多个性能方向和不同时间的企业描述，目录不据此拼接统一规格或采用员工产能数字进行排名。选型必须取得当前料号资料，不能从一段穿戴应用宣传推断已有工厂量产承诺，也不从品牌案例扩展到未点名消费设备。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "维护风险：专用形状可能限制替代",
+        "text": "如果整机空间完全围绕专用电芯设计，后续替代、维修和产品更新可能需要重新验证结构。项目应提前考虑备件与变更路径，不能只看首版样机能否装下；这种风险是工程判断，不意味着格瑞普已经发生停供或不提供长期支持。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "核验计划：比较标准与异形两条路线",
+        "text": "用相同整机任务比较标准电芯和异形方案的空间、运行时间与维护方式，记录收益是否值得增加定制。先以真实负载和结构样机验证，不用理论容积填充率代替实际体验，也不把单次运行结果推广到寿命或所有温度条件。",
+        "evidence": "validation",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "核验计划：确认形状公差与长期供货",
+        "text": "进一步询问机械图、装配限制、保护配套、测试资料和形状变更影响，并确认后续批次与备件策略。当前只核查公开能力和联系入口，未获得任何本站型号采用证据，候选关系不代表原机电池来源、兼容替换或最终续航保证。",
+        "evidence": "validation",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Grepow 官方公司与技术方向",
+      "url": "https://www.grepow.com/about-us.html",
+      "note": "已打开；电池类型、异形与性能方向，不引用混合时间的规模排名。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "Grepow 官方穿戴电池方案",
+      "url": "https://www.grepow.com/wearables.html",
+      "note": "已打开；智能眼镜窄型软包、异形金属壳及低温方向，不跨系列合并指标。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "Grepow 官方联系与基地",
+      "url": "https://www.grepow.com/contact-us.html",
+      "note": "已打开；深圳总部、异形基地、湖南及美德办公室和项目表单。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "动态运动负载电源系统候选",
+      "rationale": "Grepow公开高倍率与机器人电池方向，可用于讨论Go2 Pro动态运动供电，但必须依据实际峰值负载、温度、保护通信与机械固定确认。此关联没有原机电芯或电池包采用证据，也不保证现有航模电池能够直接用于消费四足机器人。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "unitree-go2-pro",
+      "productName": "Unitree Go2 Pro",
+      "category": "robotics",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "泳镜电子模块的紧凑供电候选",
+      "rationale": "Grepow官方穿戴方案明确涉及智能泳镜与受限空间电池，可用于FORM电子模块的供电工程询证；具体形状、保护、充电连接与密封必须以正式设计验证，不能将应用类别视为已经供货，也不代表现有电芯可直接替换该型号。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "form-smart-swim-2-pro",
+      "productName": "FORM Smart Swim 2 PRO",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "鞋部传感器与充电盒紧凑电源候选",
+      "rationale": "Grepow公开穿戴与异形电池路线，可用于讨论Playermaker传感器和补能流程，但需要分别核对空间、冲击、充电连接及保护，不能仅按续航目标选择。此关联不证明原机电池来源，也不提供现有电芯的兼容替换承诺。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "playermaker-2",
+      "productName": "Playermaker 2.0",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "可拆球机电池系统候选",
+      "rationale": "Grepow公开高倍率及定制电池路线，与Pace S Pro滚轮和角度机构的可拆供电任务有关，仍需验证实际负载、保护、外壳与连接。候选关系不构成原机电池来源或兼容替换建议，也不保证任何现有航模电池可用于该球机。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "pongbot-pace-s-pro",
+      "productName": "PONGBOT Pace S Pro",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "移动与发球组合负载电源候选",
+      "rationale": "Grepow公开高倍率与机器人电源路线，可作为Partner V2同时驱动底盘和发球机构的供电候选，但真实电流、保护、温度及结构未披露，必须专项验证。此关联不说明原机电池品牌，也不构成已有电芯的兼容或续航承诺。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "tennibot-partner-v2",
+      "productName": "Tennibot Partner V2",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "固定发球与视觉系统便携供电候选",
+      "rationale": "Grepow公开高倍率与定制电池路线，可用于Lite发球及视觉系统供电，但真实电流、保护、充电与外壳条件未披露，需要项目验证。候选不表示Tennibot实际采用，也不保证现成航模电池兼容或达到厂商宣传续航。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "tennibot-partner-lite",
+      "productName": "Tennibot Partner Lite",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "视觉与移动拾球组合供电候选",
+      "rationale": "Grepow公开机器人与定制电池方向，可作为Rover采集和移动负载的电源候选，但需要实际电流、温度、保护及外壳要求。公开能力不代表已向Tennibot供货，也不保证现成电池兼容，完整拾球续航必须在任务中测试。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "tennibot-rover",
+      "productName": "Tennibot Rover",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "另购移动扩声电池附件候选",
+      "rationale": "Grepow公开定制与高倍率电池路线，可用于讨论EDGE外出电池附件，但该附件并非基础套装标配，实际连接、保护、热和负载必须确认。候选不代表原厂电池来源或兼容替换，也不保证现有电池可以达到具体演出时长。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "positive-grid-spark-edge",
+      "productName": "Positive Grid Spark EDGE",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "轻量跟拍飞行设备电源工程候选",
+      "rationale": "Grepow公开无人机和高倍率电池方向，可用于Neo 2供电候选研究，但真实重量、峰值负载、保护通信和固定必须按设备要求验证。该关联没有原机电池来源证据，也不建议现有航模电池直接替换，实际续航不能由单电芯指标推算。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "dji-neo-2",
+      "productName": "DJI Neo 2",
+      "category": "drones",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "旅行航拍设备电源工程候选",
+      "rationale": "Grepow公开无人机和高倍率电池路线，可用于Mini 5 Pro供电候选研究，但真实重量、负载、保护通信与固定需确认，不能将现有航模电池视为兼容替换。当前没有原机电池采用证据，实际续航与寿命也需整机工况验证。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "dji-mini-5-pro",
+      "productName": "DJI Mini 5 Pro",
+      "category": "drones",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "可更换电池工程候选",
+      "rationale": "Grepow公开具备异形及机器人电池路线，可作为腰部空间受限且有动力负载的电池工程候选。具体电压、保护、连接器和寿命仍须按整机要求验证，不能因同为户外设备认定现有电池已经兼容或被采用。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "hypershell-x-pro-s",
+      "productName": "Hypershell X Pro S",
+      "category": "mobility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "可更换动力电池候选",
+      "rationale": "Grepow公开机器人和定制电池方向，可供膝部装置的空间与运动负载方案研究。快换连接、保护、电压和温升必须与整机验证，现有资料没有DNSYS点名采用或兼容证据，因此这里只表达能力筛选而不推测实际电芯品牌。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "dnsys-z1-dual-joint",
+      "productName": "DNSYS Z1 Dual Joint",
+      "category": "mobility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "口袋主机与充电盒电池候选",
+      "rationale": "Arccos Air需要小型随身主机和充电盒供电，Grepow公开定制形态及穿戴电池工程能力，可作为空间与续航取舍的研究候选。电压、保护、充电接口及温度要求仍未公开匹配，不能把电池能力目录解释成已供货或可直接兼容。",
+      "sourceIds": [
+        "s1",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "arccos-air",
+      "productName": "Arccos Air",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "圆形穿戴传感器电池候选",
+      "rationale": "Grepow公开小型扣式、异形与穿戴电池方向，适合研究圆形动捕传感器的供电空间。实际电压、寿命、保护和充电座结构需要Sony规格才能验证，不能把形状接近的电池当作已采用或可自行更换的原配件。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "sony-mocopi",
+      "productName": "Sony mocopi（标准六传感器套件）",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "小型佩戴电池方案候选",
+      "rationale": "Grepow公开定制电池能力可用于新宠物佩戴原型的供电评估，但尺寸、固定、防护、充电与环境要求必须单独确认。电池供应商不承担整机算法或健康效果，本目录也没有Maven现有电池来自该公司的证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "maven-pet-health-tracker",
+      "productName": "Maven Pet Health Tracker",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "小型佩戴设备电池候选",
+      "rationale": "Grepow公开电池定制能力可作为新宠物终端的供电询问入口，仍需确认体积、固定、环境、保护和充电方案。候选电池不能直接用于原机替换，也不承担算法或健康效果，本条未确认Invoxia当前电池供应商。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "invoxia-biotracker-2026",
+      "productName": "Invoxia Biotracker Edition 2026",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "电池包与供电验证候选",
+      "rationale": "官网区分云台和遥控器的供电及不同使用条件，说明电池选型需要按各子系统预算分别评估。Grepow可作为定制电池方案的询问入口，但电芯形态、保护、充放电策略、运输与整机适配都待验证；不代表M7现有电池来自该公司。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "hohem-isteady-m7",
+      "productName": "Hohem iSteady M7",
+      "category": "gimbals",
+      "status": "on_sale"
+    }
+  ]
+}

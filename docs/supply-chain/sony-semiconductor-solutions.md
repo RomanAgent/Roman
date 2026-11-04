@@ -130,6 +130,8 @@
 
 - [ZWO Seestar S30 Pro](../hardware/zwo-seestar-s30-pro.md) — **公开披露关系** / 长焦及广角图像传感器：Seestar官方规格明确将长焦IMX585与广角IMX586标为Sony图像传感器，可据此建立有限公开采用关联。该证据仅覆盖传感器身份，不证明Sony提供整机主控、图像算法、相机模组或直接供货商务关系。
 
+- [XbotGo Falcon](../hardware/xbotgo-falcon.md) — **公开披露关系** / 官方点名的成像传感器：XbotGo官方商店及合作页面明确将Falcon成像传感器标为Sony，可建立品牌层面的有限采用关联。公开资料没有在本轮确定具体传感器型号、镜头模组或直接交易方，因此关系只覆盖该成像器件身份，不延伸到算法和主控。
+
 ## 来源
 
 - [Intelligent Vision Sensors technology](<https://www.sony-semicon.com/en/technology/ivs/index.html>)：支持像素与逻辑堆叠、片上 AI 引擎及内存的技术架构。

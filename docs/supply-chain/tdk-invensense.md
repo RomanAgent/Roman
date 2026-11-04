@@ -156,6 +156,8 @@ TDK官方合作案例明确点名WeWALK Smart Cane 2采用SmartMotion惯性、Sm
 
 - [Arccos Air](../hardware/arccos-air.md) — **能力候选 · 非已采用** / 穿戴惯性动作采集候选：官方Arccos技术机制需要陀螺仪和加速度计采集挥杆，TDK InvenSense公开穿戴惯性感知与边缘学习路线，具备功能匹配基础。采样、功耗、口袋姿态与动作模型仍须整机评估，本轮没有其被Arccos Air实际采用的点名证据。
 
+- [Sony mocopi（标准六传感器套件）](../hardware/sony-mocopi.md) — **能力候选 · 非已采用** / 小型惯性运动采集候选：mocopi官方明确六个IMU提供加速度与旋转数据，TDK InvenSense公开惯性运动传感和穿戴方案，可作为对应采集模块候选。具体时序、精度、功耗与软件接口仍须匹配，没有点名供货证据，也不推断本机采用其边缘AI型号。
+
 ## 来源
 
 - [TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)：支持惯性、声音、磁感知与穿戴应用范围；具体型号功能仍需核对。

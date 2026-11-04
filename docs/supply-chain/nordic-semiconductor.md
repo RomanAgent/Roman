@@ -10,7 +10,7 @@ Nordic 更适合在个人硬件中承担低功耗连接、控制与传感数据�
 
 公开地区：挪威、官方全球业务与开发生态
 
-能力：nRF54H20 多核低功耗无线 SoC、低功耗蓝牙与多协议连接、nRF Connect SDK 与分域电源管理
+能力：nRF54H20 多核低功耗无线 SoC、低功耗蓝牙与多协议连接、nRF Connect SDK 与分域电源管理、nRF52840传感控制与BLE（Ring AIR 2023公开案例）
 
 ## 公司定位与边界
 
@@ -39,6 +39,12 @@ Nordic 的公开定位围绕低功耗无线硬件、嵌入式软件和开发工�
 把应用与无线任务分开可能改善实时性，但多核之间的数据传递、唤醒和固件版本管理仍需设计。若一个后台任务持续占用外围模块，系统可能无法进入预期低功耗状态；团队应检查每个核和外设的责任，而非只优化主应用循环。
 
 依据：[nRF54H20](<https://www.nordicsemi.com/Products/nRF54H20>) · [nRF54H20 power management](<https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_architecture_pm.html>)
+
+### 官方｜Ring AIR公开采用案例 · 官方资料
+
+Nordic在二〇二三年的官方案例中点名Ultrahuman Ring Air采用nRF52840，描述其监督传感器、记录数据并通过低功耗蓝牙连接应用。这个案例提供具体成品与平台的关联，不能移植nRF54的参数，也不能据它确定后续所有批次或品牌全部戒指采用相同主控。
+
+依据：[Nordic disclosed Ultrahuman Ring Air nRF52840 case, 2023-09-22](<https://www.nordicsemi.com/Nordic-news/2023/09/The-Ultrahuman-Ring-Air-employs-nRF52840-SoC>)
 
 ## 适用场景与匹配
 
@@ -124,6 +130,12 @@ Nordic 的公开定位围绕低功耗无线硬件、嵌入式软件和开发工�
 
 依据：[nRF54H20](<https://www.nordicsemi.com/Products/nRF54H20>) · [nRF54H20 power management](<https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_architecture_pm.html>)
 
+### 判断｜历史点名关系保留版本边界 · 研究判断
+
+采用案例应带着发布日期和明确模块范围使用，后续软件、芯片变更与地区批次仍需另证。传感调度和蓝牙连接不证明睡眠分类或生成解释全部在芯片中完成；因此产品可标已披露此模块，同时继续将其他传感器、电池、工厂及完整物料关系保留为未知或候选。
+
+依据：[Nordic disclosed Ultrahuman Ring Air nRF52840 case, 2023-09-22](<https://www.nordicsemi.com/Nordic-news/2023/09/The-Ultrahuman-Ring-Air-employs-nRF52840-SoC>)
+
 ## 关联硬件产品
 
 > 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
@@ -142,11 +154,25 @@ Nordic 的公开定位围绕低功耗无线硬件、嵌入式软件和开发工�
 
 - [Samsung Galaxy Ring](../hardware/samsung-galaxy-ring.md) — **能力候选 · 非已采用** / 指环与手机同步的低功耗无线候选：官方支持说明通过蓝牙与手机连接，Nordic 可作为这一链路的新设计候选。需核对天线、封装、缓存和电池周期，当前没有供货点名；无线连接能力不提供三星账户、能量得分或特定 Galaxy 手势兼容，也不能证明现有指环采用具体 Nordic 型号。
 
+- [Ultrahuman Ring AIR](../hardware/ultrahuman-ring-air.md) — **公开披露关系** / 2023公开案例中的nRF52840传感控制与BLE：Nordic官方案例明确点名Ultrahuman Ring Air采用nRF52840，并说明传感监督、数据记录和蓝牙应用连接，因此可记录该公开版本的采用。证据发布于二〇二三年，不确认二〇二六年所有批次或完整物料，也不证明睡眠模型和Jade生成式解释全部在芯片本地执行。
+
 - [WeWALK Smart Cane 2](../hardware/wewalk-smart-cane-2.md) — **能力候选 · 非已采用** / 同类智能手柄的低功耗连接与控制候选：Nordic的低功耗无线及多核控制能力可用于研究手柄按键、传感状态和手机应用之间的通信与唤醒流程。需要验证协议、失联反馈和整机续航，不要求连接芯片承担地图或生成式问答；没有资料点名Smart Cane 2采用Nordic，此候选只适用于重新设计相近功能的架构比较。
 
 - [Mira Hormone Monitor · Ultra4 Kit](../hardware/mira-ultra4.md) — **能力候选 · 非已采用** / 同类读取器的数据同步与控制候选：Nordic低功耗无线平台可用于研究读取器结果同步、状态控制与手机权限恢复流程，具体协议和耗电仍需验证。它不提供荧光测量、耗材校准或周期分析模型；本轮没有Mira点名采用证据，候选只适用于相近新设计，不是原机主控替换结论。
 
 - [Lumen Metabolism Tracker](../hardware/lumen-metabolism-tracker.md) — **能力候选 · 非已采用** / 同类便携测量器的手机通信与控制候选：Nordic低功耗无线与控制平台可用于研究传感数据到手机应用的连接、状态反馈和休眠流程。Lumen具体主控与协议实现未在所引资料中点名，因此需先确认接口并评估适配；候选不提供呼气校准或营养AI，也不构成现用芯片与可直接换件的证据。
+
+- [Mudra Link](../hardware/mudra-link.md) — **能力候选 · 非已采用** / 同类手势腕带的BLE与控制平台候选：Nordic低功耗无线平台与Mudra公开的BLE指令传输功能相关，可用于比较连接、状态控制和休眠流程。实际HID协议、延迟、模型运行资源与佩戴耗电仍需验证；没有Mudra点名采用证据，候选不等于原机主控或能够直接获得其手势识别软件。
+
+- [Neurable One](../hardware/neurable-one.md) — **能力候选 · 非已采用** / 同类脑电音频穿戴的数据连接控制候选：Nordic的低功耗无线和控制平台可用于研究脑电记录、手机连接与唤醒流程，实际数据吞吐、音频共存和存储需求需单独确认。它不自动支持本款完整音频或AI服务，也未被点名采用；此为相近新设计的通信候选，不是Neurable One原机主控认定。
+
+- [NOA by biped.ai](../hardware/biped-noa.md) — **能力候选 · 非已采用** / 同类辅助穿戴的BLE控制与状态连接候选：Nordic低功耗无线平台可对应NOA公开的应用控制和状态连接方向，但不应被当作视觉主控或默认承担全部音频传输。需要确认协议、数据量、失联提示与功耗，当前未有点名采用资料；此候选只支持相近系统的控制连接研究，不代表能够复制完整出行功能。
+
+- [AliveCor KardiaMobile 6L](../hardware/kardiamobile-6l.md) — **能力候选 · 非已采用** / 同类个人心电器的数据传输控制候选：Nordic低功耗蓝牙平台与6L公开的手机传输路径相符，可用于研究连接、缓存和纽扣电池负载，但需核对采样时序与无线干扰。它不提供节律分析或医疗许可，当前未被AliveCor点名采用；此链接只用于相近新设计的功能比较，不推断原机无线料号。
+
+- [Hilo Band 血压监测系统（英国版）](../hardware/hilo-band-system.md) — **能力候选 · 非已采用** / 同类腕带与应用的数据连接候选：Nordic低功耗蓝牙平台可对应Hilo公开的腕带到手机传输方向，需确认缓存、采样时序、同步和续航目标。无线平台本身不产生血压估计、医疗许可或云端服务，也没有本款采用证据；重新设计时应与光学和校准链路联合验证，不能视为原机直接替换方案。
+
+- [TapXR](../hardware/tapxr.md) — **能力候选 · 非已采用** / 同类组合输入设备的BLE/HID连接候选：Nordic低功耗无线平台可用于研究TapXR公开的BLE/HID传输和状态控制，需核对目标系统、缓存、重连与输入延迟。它不包含Tap字母表识别模型或所有平台SDK，也没有本款采用证据；候选用于重新设计的连接比较，不可视作现有设备直接换件方案。
 
 ## 来源
 
@@ -155,5 +181,7 @@ Nordic 的公开定位围绕低功耗无线硬件、嵌入式软件和开发工�
 - [About Nordic Semiconductor](<https://www.nordicsemi.com/About-us>)：支持挪威总部口径与无线硬件、软件和开发工具平台定位。
 
 - [nRF54H20 power management](<https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_architecture_pm.html>)：支持不同电源域、缓存及休眠状态对功耗和唤醒延迟的影响；文档版本需冻结。
+
+- [Nordic disclosed Ultrahuman Ring Air nRF52840 case, 2023-09-22](<https://www.nordicsemi.com/Nordic-news/2023/09/The-Ultrahuman-Ring-Air-employs-nRF52840-SoC>)：Web读取403，根代理标准公开GET200并保存HTML，本代理已读取正文；点名2023公开Ring Air使用nRF52840监督传感与BLE，不确认2026所有批次、完整BOM或AI执行位置。
 
 [返回供应链目录](../supply-chain.md)

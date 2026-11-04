@@ -1,0 +1,451 @@
+{
+  "id": "frenz-brainband",
+  "name": "FRENZ Brainband",
+  "brand": "Earable Neuroscience",
+  "category": "sleep",
+  "tagline": "以睡眠信号采集与个性化音频反馈构成个人夜间可穿戴设备。",
+  "officialUrl": "https://frenzband.com/products/frenz-brainband",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "status": "on_sale",
+  "statusEvidence": "官方商品数据available=true，可见页面存在Add to cart；本轮按美国当前购买页面记录，不把旧描述中的全球配送承诺扩展到全部地区。",
+  "regions": [
+    "美国官方店"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+  },
+  "price": {
+    "text": "US$680",
+    "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "官方称FRENZ AI分析睡眠相关信号并选择个性化音频，硬件与手机App共同工作；医学或疗效宣称不作为本目录独立结论。",
+    "dependency": "当前商品页强调手机App、iOS兼容及服务条件，Android和其他地区支持需单独确认；订阅、租赁和买断方案分别核价。"
+  },
+  "highlights": [
+    "信号采集",
+    "AI状态分析",
+    "音频反馈"
+  ],
+  "analysis": {
+    "demand": "需求假设：对夜间状态和个性化音频有兴趣的人，可能希望把记录与反馈放在同一个可穿戴设备中。需要验证的是持续佩戴后是否减少操作负担，而不是将“AI睡眠”标签本身当成付费动机。",
+    "userProfile": "画像推断：愿意付出较高硬件费用并认真记录习惯的成年人，以及已有可穿戴经验的技术爱好者。手机系统兼容和睡姿会直接缩小适用人群，不能把所有睡眠困扰者当作同一目标市场。",
+    "competition": "竞争判断：它和Elemind、Muse、手表及传统声音方案竞争，也可能被更简单的寝具改变替代。不同方案在采集信号、反馈方式和持续费用上差异很大，需要固定同一使用任务才能比较。",
+    "supplyChain": "公开资料描述多模态生理感知和骨传导，未披露完整BOM或供应商合同。分析应关注传感器接触、织物舒适性、电池、音频耦合以及长期支持，不能通过外观推断真实代工和采购成本。",
+    "technology": "技术价值来自把信号转换为状态判断，再选择时机与音频内容。识别、解释和反馈是不同环节，任何一环都可能受佩戴和环境影响；本目录没有把厂商性能描述转写为实测准确率。",
+    "aesthetics": "设计观察：柔性织物与低轮廓模块更适合卧室环境，视觉上弱化实验器材感。头侧和后脑接触、出汗清洁及夜间翻身仍是工业设计的核心验证点，仅靠静态图片不能评价整夜舒适。",
+    "risks": "风险包括服务地区、系统兼容、订阅条款和个体体验差异。官网对效果的积极描述不能当作疾病治疗证据；涉及个人生理数据的保存和退出方式，也应在真实购买前核清。",
+    "opportunity": "待验证购买理由是设备能否带来稳定、低打扰的个人反馈流程。后续研究应纳入停用者和不愿佩戴者，观察数周使用及替代方案成本，本轮不提供商业成功概率或疗效建议。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "睡眠神经科技属于消费可穿戴的窄分支，需要验证舒适度与持续价值，不能以技术复杂度推定蓝海。"
+  },
+  "architecture": [
+    {
+      "name": "信号采集",
+      "detail": "官方描述脑电等睡眠相关信号感知。",
+      "evidence": "official"
+    },
+    {
+      "name": "AI状态分析",
+      "detail": "厂商FRENZ AI对信号作个性化解读。",
+      "evidence": "official"
+    },
+    {
+      "name": "音频反馈",
+      "detail": "骨传导输出个性化音频。",
+      "evidence": "official"
+    },
+    {
+      "name": "织物与电源",
+      "detail": "可穿戴结构、电源和接触可靠性共同影响体验。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "App与服务",
+      "detail": "手机系统和服务方案是交付的一部分。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FRENZ 官方商品页",
+      "url": "https://frenzband.com/products/frenz-brainband",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "美国商品页面与可见加购控件。"
+    },
+    {
+      "title": "FRENZ 官方能力介绍",
+      "url": "https://frenzband.com/",
+      "kind": "official-spec",
+      "supports": [
+        "technology"
+      ],
+      "note": "厂商AI、信号与个性化音频的描述。"
+    },
+    {
+      "title": "FRENZ 官方公开商品数据",
+      "url": "https://frenzband.com/products/frenz-brainband.js",
+      "kind": "official-store",
+      "supports": [
+        "status"
+      ],
+      "note": "当前默认款available=true；仅作核查时点依据。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "deepDive": {
+    "sources": [
+      {
+        "id": "s1",
+        "title": "FRENZ 官方商品页",
+        "url": "https://frenzband.com/products/frenz-brainband",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：status,price,technology。美国商品页面与可见加购控件。"
+      },
+      {
+        "id": "s2",
+        "title": "FRENZ 官方能力介绍",
+        "url": "https://frenzband.com/",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：technology。厂商AI、信号与个性化音频的描述。"
+      },
+      {
+        "id": "s3",
+        "title": "FRENZ 官方公开商品数据",
+        "url": "https://frenzband.com/products/frenz-brainband.js",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：status。当前默认款available=true；仅作核查时点依据。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "需求假设：记录夜间状态并减少选择音频的操作",
+          "text": "FRENZ Brainband把睡眠相关信号与个性化声音反馈结合，用户可能希望不再手动挑选和调整音频，同时理解夜间状态。需求不能仅用想睡得更好概括，应询问现有音频或记录工具具体哪里麻烦，也不能把AI睡眠标签当作付费理由。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "价值判断：多采集一类信号需要值得佩戴",
+          "text": "头带可以提供与腕部不同的输入，但也增加接触、充电和清洁负担，只有反馈产生可理解的增量，用户才可能持续使用。研究应把记录兴趣与实际声音体验分开，不将传感器更多当作睡眠效果更好，也不从厂商案例推算普遍收益。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证方案：比较完整睡前到晨起流程",
+          "text": "让愿意试用的成年人按原有生活安排使用设备，记录佩戴、音频选择、夜间取下与晨起查看报告，再与原有声音方案比较。关注操作和接受度，不以设备分数证明疗效，也不要求用户改变必要的医疗或生活安排来完成研究。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "画像假设：愿意接受头带与应用组合的人",
+          "text": "较匹配者对个人状态反馈有兴趣，能接受额前或头侧接触，并愿意管理配套手机和服务。睡姿、触感敏感和手机兼容会直接影响适配，不能把所有睡眠困扰者视为目标群体，也不以技术爱好者的初次兴趣代表长期使用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用约束：夜间佩戴不同于白天穿戴",
+          "text": "用户可能白天习惯手表，却无法接受睡觉时头侧或后脑的接触，翻身和头发也会改变感受。研究应在真实枕头与睡姿中观察，不以短时试戴推断整夜舒适，购买者还需愿意清洁织物和维护传感接触，不能只比较外观轻薄。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "访谈重点：用户需要解释还是声音反馈",
+          "text": "请用户说明最希望知道哪些信息，以及如果没有报告但音频体验良好是否仍愿意使用，反过来也询问只记录是否足够。这样能区分数据探索与反馈需求，避免把所有兴趣统称为改善睡眠，更不把个人担忧转化为未经验证的治疗目标。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "替代方案：普通声音、腕表与其他头带",
+          "text": "FRENZ面对固定音频应用、腕部记录和其他消费脑电头带，不同方案在输入、反馈和佩戴成本上并不相同。比较必须固定具体任务，不能只按信号种类或AI名称排序，也不将更复杂硬件视为比简单寝具或习惯调整更有价值。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "差异判断：信号到声音的闭环值得单独测试",
+          "text": "个性化反馈与单纯播放固定音频存在机制差异，但用户是否能感知并愿意承担头带负担仍需验证。应比较手动选择与系统选择的实际体验，不把声音适配次数或报告细节当作效果证据，也不根据厂商宣传推断优于其他消费方案。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "比较方法：将硬件、服务和佩戴分开评价",
+          "text": "在相同使用目标下记录头带与普通音频的准备、触感、声音和报告阅读，再核对买断、租赁或订阅的完整费用。不要只比较设备首价或某一晚分数，必须说明用户为何选择继续佩戴，不能用一次积极反馈推断医学收益。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能拆分：信号接触、分析和骨传导反馈",
+          "text": "公开结构描述脑电等睡眠相关输入、FRENZ AI与骨传导音频，手机应用和服务参与完整流程。织物、电源和接触共同影响输入输出，具体电极、芯片与工厂未披露，不能由外观补写BOM，也不将全部分析都画成头带离线计算。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造判断：贴肤接触与音频耦合同样关键",
+          "text": "柔性织物需要在翻身、出汗和重复清洁后维持可接受接触，骨传导输出又依赖佩戴位置与结构。供应评估应把舒适、清洁和一致性纳入，不只看信号通道数，本轮没有材料测试、接触稳定或长期耐久实测，不能推算制造良率。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "候选选型：电源、声学和贴肤结构分开",
+          "text": "Sunwoda可讨论紧凑电源，Merry可作为声音与结构协同工程候选，Protolabs可研究贴肤配件原型。骨传导和生理输入的具体要求必须专项确认，这些公司不是已披露供应商，材料成型能力也不能自动证明贴肤适用或医疗资质。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露能力：信号分析驱动个性化音频",
+          "text": "厂商说明FRENZ AI分析睡眠相关信号并选择音频，头带与手机共同工作；这里的区别在输入与反馈联系，而非普通蓝牙播放。具体状态推断、模型和端云分配未完整披露，不能把应用解释当作直接测量，更不采用疗效宣传作为独立结论。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "技术判断：接触质量影响后续解释",
+          "text": "佩戴松紧、翻身和环境可能改变输入，系统需要区分信号不足与真实状态变化，用户也需要理解报告的不确定性。研究应先观察采集是否稳定，再评价音频适配，而不是用流畅解释掩盖输入问题，也不自行推断未公开算法如何补偿。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证方案：记录输入状态与反馈体验",
+          "text": "在允许的使用范围内记录佩戴调整、设备提示、音频变化和用户主观感受，检查哪些现象需要人工处理。将声音偏好、信号质量和报告理解分别讨论，不用自评分验证自身准确性，本轮没有临床复核或睡眠改善实测。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外形判断：织物弱化仪器感但接触仍存在",
+          "text": "柔软头带和低轮廓模块更接近日常寝具配件，可能降低视觉突兀，却不能说明侧卧或整夜使用一定舒适。头发、枕头和面部结构会改变实际感受，照片无法判断压力、声音耦合与清洁体验，外观简洁不是长期接受度的证据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "交互判断：睡前配置应容易结束",
+          "text": "用户可能不想在准备休息时处理复杂连接、评分和音频菜单，设备需要清楚告知是否就绪以及何时不必继续操作。研究应观察手机与头带之间的切换，而不是把AI选项丰富当作优点，减少管理负担才可能与使用目标一致。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "体验验证：使用自己的枕头与睡姿",
+          "text": "让用户在日常环境完成戴上、调整、取下、充电和清洁，记录夜间主动取下或晨起不愿再戴的原因。不要只在白天站立试戴，也不把视觉上柔软等同触感合适，真正的工业设计问题要从反复接触与维护中观察。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "效果边界：消费反馈不等于治疗结论",
+          "text": "脑电相关输入与个性化声音可以描述为产品机制，但不能据此推断治疗疾病、改善所有人的睡眠或替代专业判断。官网积极效果声明未经本目录独立验证，本轮没有医学或实机研究，个人主观感受与临床结果也必须区分。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "服务风险：手机与方案条件需要逐项核对",
+          "text": "原商品强调手机应用和iOS兼容，Android及其他地区支持仍需确认，买断、租赁和订阅不能混为同一报价。个人生理数据的保存与退出也应了解，不能把硬件可购买理解为任何手机、地区与服务都完整可用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证安排：主动纳入不愿佩戴者",
+          "text": "研究应记录接触不适、音频不喜欢、报告不可信或服务不合适导致的停用，区分原因而不只保留满意用户。不能把停用全部解释为没有坚持，额外佩戴本身就是产品要承担的成本，也不以少量成功案例外推总体效果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "研究方向：低打扰地连接记录与反馈",
+          "text": "FRENZ对应的机会是让个性化音频与状态记录在真实夜间流程中保持简单，而不是采集尽可能多的数据。应先确认用户需要什么反馈、愿意佩戴多久，再讨论更多分析指标；如果普通声音方案已足够，专用头带需要额外明确理由。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "执行计划：跟踪数周佩戴和停用行为",
+          "text": "记录主动佩戴、夜间取下、查看报告和调整声音的次数，访谈一次具体不愿继续使用的夜晚，比较已有替代。将操作、舒适和解释价值分开，不用品牌评价、设备分数或个别主观改善推断留存，更不将研究设计冒充已做访谈。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "决策边界：神经科技标签不证明市场成功",
+          "text": "信号、算法和音频形成一种技术组合，但是否值得硬件与服务投入取决于持续使用和可接受维护。当前只有公开资料与案头假设，没有访谈、销量和临床复核，不以传感器数量、科技新鲜感或模型评分预测商业结果。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "sunwoda",
+        "role": "power",
+        "relationship": "candidate",
+        "component": "贴身头带低体积供电候选",
+        "rationale": "Sunwoda公开消费电池与小型设备电源业务，可作为FRENZ头带供电候选，但贴身温度、空间、充电与接触结构需专项确认。当前没有原机电池来源证据，也不能把一般穿戴电池直接替换头带，完整运行时间需要结合采集与音频负载验证。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "merry-electronics",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "骨传导音频与佩戴结构工程候选",
+        "rationale": "Merry公开音频系统、声学仿真与结构协同，可作为FRENZ声音反馈的工程候选；本轮未核查其具体骨传导单元，因此耦合方式、尺寸和睡姿下的输出必须再确认。该候选不包含脑电算法，也不证明实际供货或睡眠效果。",
+        "sourceIds": [
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "protolabs",
+        "role": "mechanical",
+        "relationship": "candidate",
+        "component": "贴肤接触与柔性配件原型候选",
+        "rationale": "Protolabs公开注塑与液态硅胶成型，可用于FRENZ接触和佩戴周边的结构原型，但具体材料、清洁、皮肤接触与舒适性需另行测试，不能由成型能力推断医疗或生物相容认证。当前无品牌采用证据，也不涉及复制原机专有外形。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "innovationProfile": {
+      "needKey": "signal-adaptive-sleep-audio",
+      "needName": "基于自身信号的夜间声音反馈",
+      "difference": "脑电等输入与骨传导音频形成个性化反馈，区别于只播放固定音频，但与其他信号自适应头带共享核心任务。手机系统、方案和贴肤接触限制使用，佩戴成本可能抵消少选音频的便利；需要观察数周取下和停用原因，不将多信号、AI解释或个人体验转写为普遍疗效。",
+      "comparisonBasis": "与普通睡前音频、腕部记录和其他消费脑电声音头带比较。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/frenz-brainband/product.png",
+      "sourceUrl": "https://frenzband.com/products/frenz-brainband",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0666/9330/0444/files/Grey_a30bcd9b-32b1-4cc0-9eb6-782cffa7e79c.png?v=1706933793",
+      "caption": "FRENZ Brainband 官方产品图",
+      "alt": "FRENZ Brainband 产品主图",
+      "credit": "Earable Neuroscience",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 626080,
+      "sha256": "4bbda875beb37432a612ebaa17c8d17dbbaba0dd00e8f3d8b40fca8be0f07d1e"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/frenz-brainband/reference.jpg",
+      "sourceUrl": "https://frenzband.com/products/frenz-brainband",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0666/9330/0444/files/grey-05.jpg?v=1710008239",
+      "caption": "FRENZ Brainband 官方外观 / 使用参考图",
+      "alt": "FRENZ Brainband 参考图",
+      "credit": "Earable Neuroscience",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 414539,
+      "sha256": "6d0d689c6348b1b944fa74d6c11f45a1cce53b3cfc03ea4ebf5fa1f743a39785"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/frenz-brainband/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "FRENZ Brainband的AI生成概念结构图，隐藏内部为功能推断",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/frenz-brainband.txt",
+      "referencePaths": [
+        "assets/hardware/frenz-brainband/product.png"
+      ],
+      "verified": true,
+      "bytes": 1333717,
+      "sha256": "875cdfc8f4b114b25bb0c03fb88a1a096d1221cfd8c6e23dd257c5de2820d63e"
+    }
+  ],
+  "mediaNotes": []
+}

@@ -1,0 +1,449 @@
+{
+  "id": "yukai-bocco-emo",
+  "name": "BOCCO emo Wi-Fi",
+  "brand": "Yukai Engineering",
+  "category": "companion",
+  "audience": "consumer",
+  "tagline": "把家庭留言与记忆会话放进同一机器人",
+  "officialUrl": "https://store.ux-xu.com/products/bocco-emo",
+  "statusEvidence": "官方商店可加购，结构化商品Offer为InStock；标准Wi-Fi本体只计一款，LTE租赁方案不重复计数。",
+  "regions": [
+    "日本"
+  ],
+  "price": {
+    "text": "本体 ¥33,000；自然会话方案 ¥1,700/月",
+    "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "语音识别及消息转写支持家庭通信；当前Premium方案支持自然会话、声纹区分和会话记忆。基础免费功能与新增自然会话服务分别列明。",
+    "dependency": "需要Wi-Fi、手机应用与账户；自然会话需Premium和指定版本更新。官方明确不能提供所有实时新闻或附近商家信息。"
+  },
+  "highlights": [
+    "把家庭留言与记忆会话放进同一机器人",
+    "基础通信与付费自然会话分开",
+    "面向日语家庭的固定摆放陪伴"
+  ],
+  "analysis": {
+    "demand": "需求假设：异地家庭可能希望消息传递具有声音和角色回应，同时在日常独处时进行短会话。应分别观察家人真实留言量和用户主动聊天量，确认两种价值是否共存而非相互替代。",
+    "userProfile": "画像推断：有日语使用环境、固定网络和能够管理家庭账户的人较匹配。购买者可能是远方家属，使用者可能不常用手机，因此配网、房间所有者权限和后续服务续费需有人负责。",
+    "competition": "竞争判断：视频通话、智能音箱和日语陪伴机器人都能满足部分需求，BOCCO的差异是家庭消息与角色记忆结合。已有通信习惯未必愿意迁移，不能仅由功能更多推断家庭接受度。",
+    "supplyChain": "供应链推断：固定底座的麦克风、灯光、动作机构和通信模块需要与持续云服务配合。官方未披露完整工厂和物料表；家庭成员换机、网络变更及软件升级也会产生服务成本。",
+    "technology": "官方说明注册声音后可区分家庭成员并保存相关记忆。技术判断需测试相似声音误认、多人轮流说话与背景电视干扰，不能把记忆能力写成准确无误的人物理解或实时知识查询。",
+    "aesthetics": "审美判断：白色圆润身体、会发光的脸颊和顶部摆动部件形成柔和家居角色，表达不依赖大屏幕。固定位置的可听性和夜间灯光会影响相处体验，应该在真实房间而非静物照片中评估。",
+    "risks": "风险判断：Premium费用、家庭账户权限和会话历史可见范围必须明确；官方提醒电视可能误触发。重要通信不宜完全依赖单一设备，角色回应也不能视作对生活或健康问题的可靠判断。",
+    "opportunity": "市场观察：本款适合研究旧家庭通信硬件叠加自然会话后是否增加留存。可分开记录留言完成率、声纹纠错和付费后的主动交流，避免把新功能上线或旧用户故事当成新的市场证据。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "面向日语家庭的固定摆放陪伴形成具体使用场景；本轮没有销量与市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "家庭输入",
+      "detail": "语音与应用消息进入同一家庭房间。",
+      "evidence": "official"
+    },
+    {
+      "name": "识别转写",
+      "detail": "语音识别和注册声音区分。",
+      "evidence": "official"
+    },
+    {
+      "name": "会话记忆",
+      "detail": "Premium支持自然会话与记忆。",
+      "evidence": "official"
+    },
+    {
+      "name": "具身输出",
+      "detail": "声音、脸颊灯和动作反馈。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "BOCCO emo官方商店",
+      "url": "https://store.ux-xu.com/products/bocco-emo",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "BOCCO emo当前Premium功能",
+      "url": "https://www.bocco.me/living/premium/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "BOCCO emo基础功能",
+      "url": "https://www.bocco.me/en/?language=en",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "status": "on_sale",
+  "saleMode": "retail",
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+  },
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "BOCCO emo官方商店",
+        "url": "https://store.ux-xu.com/products/bocco-emo",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s2",
+        "title": "BOCCO emo当前Premium功能",
+        "url": "https://www.bocco.me/living/premium/",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s3",
+        "title": "BOCCO emo基础功能",
+        "url": "https://www.bocco.me/en/?language=en",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "BOCCO emo Wi-Fi 将家庭留言与自然会话放入同一固定角色，任务既是传递家人声音，也是提供日常短交流。两种需求可能互相增强，但不能因为设备能聊天，就假定原有家庭通信习惯会自然迁移到机器人上。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "远方家属可能更重视消息到达，家中使用者可能更在意声音和角色回应。新增 Premium 会话是否提升价值，应分别观察真实家人留言与用户主动聊天，而不是把总互动次数增加直接解释为家庭联系改善。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可记录家庭消息发送、接收和回复链路，再单独统计自然会话的发起与结束原因。比较启用 Premium 前后的真实交流，确认新功能是否补充了家人联系，还是用机器回复替代本来会发生的家庭沟通。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "较匹配有日语环境、稳定家庭网络和能管理共同账户的人，尤其是购买者与使用者分居的家庭。使用者可能不习惯手机，但设备设置、房间权限和续费仍需要有人负责，产品不能被简单理解为完全无需技术照护。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "对独居者，固定位置的可听性很重要；对多人家庭，声纹和消息可见范围更重要。购买者期待安心与实际使用者期待隐私可能发生冲突，画像必须同时考虑双方，而不能只从远方家属的需求定义产品价值。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "画像验证应邀请家庭双方共同设置和使用，记录谁处理网络变化、谁管理权限及谁主动关闭功能。还应观察使用者是否愿意让他人看到会话信息，以识别通信便利与个人空间之间的实际取舍。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "BOCCO 面对手机语音消息、视频通话、智能音箱和日语陪伴机器人，差异是家庭房间通信与角色记忆的结合。它不一定替代手机，而可能成为固定家庭入口；竞争分析应围绕消息流程和使用摩擦，不只比较聊天自然度。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "已有通信习惯的家庭不一定愿意新增设备和账户，Premium 也增加了持续支付判断。优势需要来自更容易接收和回应真实家人，以及恰到好处的日常会话；如果消息可靠性不清，角色可爱很难弥补沟通任务的不确定性。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "可让家庭在相同一周内使用原有手机留言和 BOCCO 类入口，记录实际回复及漏听情况。再加入自然会话观察留存变化，避免把新功能上线后的试用热度误认为长期付费需求或真实家庭联系增加。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能层包括语音与应用消息输入、识别转写和注册声音区分、Premium 会话记忆，以及声音、脸颊灯和动作反馈。固定本体与云端家庭房间共同组成服务，公开信息未披露完整代工厂，不能推断实际芯片或内部装配位置。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "制造约束在于麦克风、扬声器、灯光和动作噪声的协调，服务约束则包括家庭成员换机、网络变更和账户更新。两类问题都影响留言能否被理解，因此生产测试和购后支持不能仅检查设备通电及联网成功。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "歌尔可支持语音与角色反馈硬件评估，PCH 可作为消费设备导入和持续服务衔接候选。双方没有 BOCCO 点名合作证据；家庭账户、声纹和消息后台仍需专门团队负责，不能把综合制造服务推断为现成家庭通信方案。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "当前 Premium 说明自然会话、注册声音区分和会话记忆，基础通信与付费能力需分别理解。官方也限定部分实时信息查询，不能把自然回答等同完整搜索能力，功能可用性还要对应指定软件版本和账户条件。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "系统难点是多人声音、背景电视和家庭上下文之间的区分。误把电视当作人或把记忆归给错误成员，可能同时影响聊天与消息可信度；因此声纹并不只是便利功能，也关系到家庭信息边界和错误恢复。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "技术验证应覆盖相似声音、多人轮流说话、电视背景和注册声音变化，并记录误触发与记忆纠错。消息传递和自然会话需要分别验收，不以聊天成功证明重要留言必定被接收，也不把声纹区分描述为绝对身份认证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "白色圆润身体、脸颊灯和顶部动作构成柔和家居角色，表达不依赖大屏幕。固定摆放让设备更像家庭常驻物件，但也要求声音、灯光和动作在不同房间距离下足够清楚，否则角色反馈可能被误解为装饰。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "设备在安静夜间和电视开启时需要不同的存在感，过强声音可能打扰，过弱又可能漏听留言。审美判断应包含可听性和夜间灯光，而不是只评价白色外壳是否简洁；家庭成员对可爱表达的接受度也可能不同。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证可让家庭自行选择摆放位置，观察留言到达时是否能被注意而不造成惊扰。还应测试灯光与动作是否清楚表达收听、等待和消息状态，避免用户必须记住复杂规则才能理解一个看似简单的角色。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "主要风险是家庭账户权限、会话历史范围及 Premium 依赖不清，背景电视还可能误触发。重要通信不宜完全依赖单一设备，角色回应也不能作为对生活或健康问题的可靠判断，需要保留明确的能力边界。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "远方购买者可能把设备使用量理解为家人状况，但互动记录并不等同真实生活状态。若产品叙事让用户产生过度安心，反而可能减少必要联系，因此应区分家庭通信工具和任何照护或安全保障服务。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证应检查家庭成员是否理解权限与历史可见性，并演练网络中断、账号换机和消息未被回复的处理。对 Premium 到期后的基础功能也要单独测试，避免用户把付费变化误认为设备故障或家人没有回应。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会在于让既有家庭通信入口增加自然交流，同时保持消息任务可靠和付费边界清晰。新项目可以优先解决一个真实家庭留言难点，再判断角色记忆是否增加留存，而不是先做泛化聊天机器人再寻找照护场景。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会成立需要双方都愿意使用，而且新增会话没有削弱真实家人交流。购买者愿意付费并不足够，如果家中使用者觉得被打扰或被观察，产品难以长期保留，因此商业判断必须包含使用者的控制感和退出意愿。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可分阶段试用基础留言与自然会话，记录回复完成、主动交流和权限调整，再访谈双方对变化的感受。只有明确新增功能改善了具体家庭流程，才扩大记忆和主动互动，避免将功能上线当作市场验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "goertek",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "家庭语音入口与动作声学整合",
+        "rationale": "歌尔公开声学及智能硬件能力可用于评估固定家庭设备的收音、发声和动作噪声，但声纹、家庭权限和消息后台需另行负责；没有 BOCCO 点名供货资料，因此仅作为模块工程候选。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "pch-international",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "家庭联网设备导入与供应管理",
+        "rationale": "PCH 的产品开发和制造管理可支持家庭语音终端从样机到交付的衔接，但账户、会话服务和长期支持必须明确责任；公开能力不能证明其参与 BOCCO，本链接只用于候选咨询。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "embodied-companionship",
+      "needName": "实体陪伴与日常互动",
+      "difference": "BOCCO emo Wi-Fi 的区别在于具体实现与使用条件：当前 Premium 说明自然会话、注册声音区分和会话记忆，基础通信与付费能力需分别理解。官方也限定部分实时信息查询，不能把自然回答等同完整搜索能力，功能可用性还要对应指定软件版本和账户条件。已有通信习惯的家庭不一定愿意新增设备和账户，Premium 也增加了持续支付判断。优势需要来自更容易接收和回应真实家人，以及恰到好处的日常会话；如果消息可靠性不清，角色可爱很难弥补沟通任务的不确定性。",
+      "comparisonBasis": "BOCCO 面对手机语音消息、视频通话、智能音箱和日语陪伴机器人，差异是家庭房间通信与角色记忆的结合。它不一定替代手机，而可能成为固定家庭入口；竞争分析应围绕消息流程和使用摩擦，不只比较聊天自然度。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/yukai-bocco-emo/product.jpg",
+      "sourceUrl": "https://store.ux-xu.com/products/bocco-emo",
+      "sourceImageUrl": "https://store.ux-xu.com/cdn/shop/products/product_bocco_emo.jpg?v=1592317204&width=1946",
+      "caption": "BOCCO emo Wi-Fi · 官方产品图",
+      "alt": "BOCCO emo Wi-Fi官方外观产品图",
+      "credit": "Yukai Engineering · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 9353,
+      "sha256": "4ac0497687d57c67c670c1895ba1a6fff8883bc279789c11bddc030fa01c912f"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/yukai-bocco-emo/reference.jpg",
+      "sourceUrl": "https://store.ux-xu.com/products/bocco-emo",
+      "sourceImageUrl": "https://store.ux-xu.com/cdn/shop/products/img_bocco_emo_01.jpg?v=1592987067&width=1946",
+      "caption": "BOCCO emo Wi-Fi · 官方参考图",
+      "alt": "BOCCO emo Wi-Fi官方场景或外观角度参考",
+      "credit": "Yukai Engineering · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 182896,
+      "sha256": "97098a47ce23aa663594c73a794b6db908b693d72cfdac42b53841f5ee4cec2d"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/yukai-bocco-emo/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "BOCCO emo Wi-Fi 的AI结构示意；内部布局为推断，不是实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/yukai-bocco-emo.txt",
+      "referencePaths": [
+        "assets/hardware/yukai-bocco-emo/product.jpg",
+        "assets/hardware/yukai-bocco-emo/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1341752,
+      "sha256": "b27a162a58580375bd4505fa5add38ae0ac44529dd4d9d9f885ec25210fca5a1"
+    }
+  ],
+  "mediaNotes": [
+    "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+  ]
+}

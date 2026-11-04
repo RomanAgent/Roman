@@ -1,0 +1,531 @@
+{
+  "id": "sgs",
+  "name": "SGS",
+  "legalName": "SGS Société Générale de Surveillance SA",
+  "country": "瑞士",
+  "locations": [
+    "瑞士",
+    "全球实验室与服务网络"
+  ],
+  "tier": "global",
+  "tierNote": "SGS按公开跨地区运营及材料与化学测试等已核查业务归入综合与跨地区供应商；不推断员工、营收、产能，也不表示每个地点具备同一服务范围。",
+  "roles": [
+    "testing"
+  ],
+  "capabilities": [
+    "材料与化学测试",
+    "电气与EMC测试",
+    "环境及机械可靠性测试",
+    "失效分析与校准",
+    "光学与激光相关测试范围咨询（按具体实验室确认）"
+  ],
+  "productCategories": [
+    "cleaning",
+    "garden",
+    "home-security",
+    "kitchen",
+    "pet-care",
+    "home-assistant",
+    "home-energy"
+  ],
+  "website": "https://www.sgs.com/",
+  "contactUrl": "https://www.sgs.com/en-ch/office-directory",
+  "checkedAt": "2026-11-04",
+  "summary": "SGS 提供材料、机械、电气、环境及电磁兼容等检测服务，并支持测试规范、结果解释和失效分析。对消费 AI 硬件的价值是验证实体产品与部件的合规和可靠性条件；检测服务不等于产品获证，更不能证明算法准确率、医疗疗效或某个品牌的实际测试关系。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位",
+        "text": "SGS 的实验室服务覆盖研发、资格验证、制造和运行阶段，提供测试执行、规范定义、结果解释及失效分析。其角色是检测和验证服务机构，而不是替品牌设计整机或提供消费机器人代工的制造供应商。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "合作边界判断",
+        "text": "对 AI 硬件创业者，SGS 更适合在需求和结构尚可调整时参与测试范围讨论，避免最后才发现设计无法满足目标市场要求。实验室建议可以帮助识别风险，但品牌仍需承担产品定义、整改和合规文件的完整责任。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力",
+        "text": "官方测试目录包括材料和化学、电气安全、电磁兼容、环境、机械性能与相关专业测试。不同服务由不同实验室及资质范围承接，目录确认的是公开服务方向，不意味着任意地点都能签发任意国家或产品类别的报告。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "工程整合判断",
+        "text": "家用 AI 产品增加摄像、无线和运动功能后，问题往往跨越多个测试领域。比如宠物饮水设备同时涉及液体、电气和清洁材料，SGS 可作为测试规划候选，但必须先定义具体构造与使用条件，不能只按智能设备标签送检。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "优先匹配场景",
+        "text": "适合泳池清洁机、厨房烹饪设备、宠物饮水或喂食装置以及家庭能源设备的材料和安全验证环节。重点是把功能宣传转成可验证的条件，明确正常使用、可预见误用和维护状态下要观察哪些结果。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "不匹配条件",
+        "text": "如果团队希望获得大模型问答正确率、儿童教育效果或宠物疾病诊断能力的背书，普通电气或材料测试并不能提供这些结论。相关算法和健康主张需要另外设计证据路径，不能借用检测机构名称扩大报告适用范围。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "询盘准备",
+        "text": "询盘应提供产品结构、供电方式、无线功能、目标市场、材料清单和使用说明草稿，并列出重点风险。对厨房与宠物用品，还需说明食物或饮水接触方式及清洗流程，以便实验室判断测试范围，而非仅提交营销照片。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "项目接口",
+        "text": "品牌应明确负责送样、技术答疑、整改和文件维护的人，并与实验室约定报告覆盖的型号及差异。后续更换电源、塑料或无线模块时，需要评估是否影响原测试结论，不能让产品版本变化而报告仍停留在初始样机。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "质量关注点",
+        "text": "质量关注点是实验室资质范围、方法适用性、样品代表性和报告可追溯性。测试通过仅说明规定样品在规定条件下的结果，不能自动覆盖全部量产批次，因此品牌还需有生产检验和关键材料变更控制。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "验收设计",
+        "text": "验收应核对报告中的型号、照片、材料、软件或电源版本及测试条件是否与销售产品一致。对未通过项目，需保留整改原因和复测记录，而不是只保存最终通过文件；这样才能在后续设计变化时判断哪些结论仍有效。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "成本结构",
+        "text": "费用通常应按测试范围、样品数量、整改复测、文件及目标市场分别询价，不能用单一检测报价代表完整上市成本。若在设计冻结后才识别缺陷，返工和延迟可能比测试本身更昂贵，因此早期范围评审有实际价值。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "合作方式判断",
+        "text": "合作可从明确风险的预评估或针对性测试开始，再依据产品成熟度进入正式程序。目录没有核查具体项目报价、交期或可出具的认证，任何商业承诺都应来自对应实验室的书面范围，而不是集团层面的服务宣传。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "业务风险",
+        "text": "主要风险是报告被误用为超出范围的质量背书，或送检样品与量产产品不一致。对涉及 AI 的摄像头和健康追踪设备，硬件电气测试尤其容易被误解为算法已被验证，必须在宣传和产品资料中区分两类证据。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "证据边界",
+        "text": "本条没有点名证明 SGS 已检测目录中任何具体型号，因此供应关系仅表示可咨询的测试候选。公开实验室网络也不意味着每个服务地点具备全部能力，认证标志、报告有效范围和机构主体需要逐项核实。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "需验证的能力",
+        "text": "下一步应向目标实验室确认方法、资质、样品要求、型号覆盖及报告用途，并说明设计仍有哪些未冻结部分。若涉及食品接触、无线或运动安全，应请其明确可覆盖的测试与需要其他机构配合的内容，避免责任留空。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "进入下一阶段条件",
+        "text": "进入正式测试前，产品版本、使用说明和关键材料应达到可追踪状态，并设定未通过后的整改接口。最终放行还需结合量产一致性与产品声明审查，不能把获得一份测试报告当成所有消费者风险都已经消除。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "SGS 实验室测试服务",
+      "url": "https://www.sgs.com/en/services/laboratory-testing-services",
+      "note": "测试定义、执行、解释、失效分析及机械、电气、环境等能力。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "SGS 测试服务总览",
+      "url": "https://www.sgs.com/en/services/testing",
+      "note": "材料、食品接触、电气安全、EMC及其他测试服务。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "SGS 瑞士办公室目录",
+      "url": "https://www.sgs.com/en-ch/office-directory",
+      "note": "瑞士公司及总部服务地点信息。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s4",
+      "title": "SGS Puchheim 实验室能力说明",
+      "url": "https://www.sgs.com/en-hk/news/2024/05/new-munich-laboratory-expands-emc-testing-capabilities-in-germany",
+      "note": "2024年官方设施说明明确灯具及激光的光学与光生物安全测试范围；具体项目方法和当前承接范围仍需实验室确认。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "相机电气、材料及安装结构验证",
+      "rationale": "SGS 的电气、材料和机械测试服务可用于评估监视器与支架的相应要求，但需确认具体实验室和测试范围；没有 CuboAi 点名测试证据，且此类测试不能证明防窒息或 AI 告警准确性。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "cuboai-monitor-3",
+      "productName": "CuboAi Smart Baby Monitor 3",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "户外相机环境与电气可靠性测试",
+      "rationale": "SGS 公开环境、机械、电气和材料测试可对应户外相机及能源部件验证，但必须确认实验室与具体方法；未发现 S3 Pro 测试合作披露，且这些测试不能证明 AI 人脸或夜景识别效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "eufycam-s3-pro",
+      "productName": "eufyCam S3 Pro",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "电池相机环境、电气与安装测试",
+      "rationale": "SGS 公开环境、电气和机械测试可用于评估电池相机及固定结构的相关要求，但应核实具体实验室与方法；没有本型号测试披露，也不能借此证明人物分类或熟人识别准确。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "google-nest-cam-battery",
+      "productName": "Google Nest Cam（电池版）",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "相机、支架及图案织物相关测试",
+      "rationale": "SGS 的材料、电气和机械测试服务可用于评估相机、支架及织物的具体要求，但需确认方法与实验室范围；没有 Nanit 测试合作披露，且这些测试不证明呼吸估计、睡眠建议或医疗效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "nanit-pro-baby-monitor",
+      "productName": "Nanit Pro / Smart Baby Monitor",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "水下清洁与洗滤底座可靠性测试",
+      "rationale": "SGS 的环境、材料、电气及机械测试可支持机器人与底座的具体可靠性评审，但方法和实验室范围需确认；未见 AquaSense X 合作披露，检测服务也不证明视觉识别或自动洗滤效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "beatbot-aquasense-x",
+      "productName": "Beatbot AquaSense X",
+      "category": "cleaning",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "水下系统与基站环境电气验证",
+      "rationale": "SGS 的材料、环境、机械和电气测试服务可支持 S3 类系统可靠性范围评审，但需确认具体实验室和方法；未见型号合作披露，这些检测也不能证明视觉定位或多天自主维护效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "wybot-s3",
+      "productName": "WYBOT S3",
+      "category": "cleaning",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "户外鸟浴材料与电气环境测试",
+      "rationale": "SGS 的材料、电气和环境测试可支持鸟浴相机与水流部件的具体可靠性评审，但需确认实验室及方法；未见 Bath Pro 合作披露，也不能据此证明水源卫生、鸟种识别或生态效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "birdfy-bath-pro",
+      "productName": "Birdfy Bath Pro",
+      "category": "garden",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "户外割草设备环境与机械测试",
+      "rationale": "SGS 的环境、电气及机械测试服务可支持割草设备可靠性范围评审，但需确认实验室、标准及方法；未见 E15 合作披露，也不能用普通测试证明视觉避障对所有人和动物可靠。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "eufy-lawn-mower-e15",
+      "productName": "eufy Robot Lawn Mower E15",
+      "category": "garden",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "蒸烤设备电气材料与环境测试",
+      "rationale": "SGS 的电气、材料和环境测试可用于评估炉体及部件的具体要求，但需确认实验室和方法；未见 Anova 型号合作披露，检测不能证明生成配方或食物识别的实际烹饪效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "anova-precision-oven-2",
+      "productName": "Anova Precision Oven 2.0",
+      "category": "kitchen",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "台式烤箱电气材料与可靠性测试",
+      "rationale": "SGS 的电气、材料和环境测试可支持烤箱的具体验证要求，但需核实实验室及方法；没有 Neoma 合作披露，检测不能证明生成餐单适合个人营养或所有食材都安全熟透。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "brisk-it-neoma-oven",
+      "productName": "Brisk It Neoma AI Oven",
+      "category": "kitchen",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "烹饪机器人材料电气及机械测试",
+      "rationale": "SGS 的材料、电气和机械测试可支持食品接触件及整机要求评审，但需确认方法和实验室范围；未见 Posha 合作披露，检测不能证明视觉熟度或任意生成配方安全。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "posha-robot-chef",
+      "productName": "Posha Robot Chef",
+      "category": "kitchen",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "料理机材料电气和机械验证",
+      "rationale": "SGS 的材料、电气及机械测试服务可支持料理机和部件要求评审，但具体实验室与方法需确认；未见 2.O+ 合作披露，检测不能证明负载算法或所有生成配方的烹饪效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "upliance-2o-plus",
+      "productName": "Upliance 2.O+",
+      "category": "kitchen",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "互动相机光学与电气测试范围评审",
+      "rationale": "SGS 公开测试能力可作为光学、电气和机械验证咨询入口，但必须确认具体实验室与适用方法；未见 Play 2 测试披露，且检测不能证明激光游戏对所有宠物都有益。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s4"
+      ],
+      "productId": "petcube-play-2",
+      "productName": "Petcube Play 2",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "猫砂设备材料电气与机械验证",
+      "rationale": "SGS 的材料、电气和机械测试可支持猫砂设备要求评审，但具体方法及实验室需确认；未见 Ultra 合作披露，测试不能证明 AI 健康提示或对所有猫的使用安全与适配。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "petkit-purobot-ultra",
+      "productName": "PETKIT Purobot Ultra",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "宠物饮水材料电气与可靠性测试",
+      "rationale": "SGS 的材料、电气和环境测试可支持饮水设备的具体要求评审，但须确认方法与实验室；未见 EverSweet Ultra 合作披露，检测不能证明 AI 饮水量或健康趋势有效。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "petkit-eversweet-ultra",
+      "productName": "PETKIT EverSweet Ultra",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sgs",
+      "role": "testing",
+      "relationship": "candidate",
+      "component": "整机与目标市场测试服务候选",
+      "rationale": "SGS公开测试服务可用于新产品评估测试范围、可靠性与交付资料，具体资质和标准范围需按实际实验室与目标市场确认。测试服务能力不证明Ting已由其检测，也不意味着某个传感算法获得了独立性能背书。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "ting-home-safety-sensor",
+      "productName": "Ting Sensor with Fire Prevention Service",
+      "category": "home-safety",
+      "status": "on_sale"
+    }
+  ]
+}

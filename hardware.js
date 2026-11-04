@@ -12,7 +12,8 @@ window.HardwareApp = (() => {
   const imageLabels = {product:'产品图',reference:'参考图','official-structure':'官方结构图','ai-exploded':'AI 爆炸示意'};
   const mediaSrc = path => /^assets\/hardware\/[a-z0-9-]+\/[a-zA-Z0-9._-]+\.(png|jpe?g|webp|avif|gif)$/i.test(path || '') ? esc(path) : '';
   const dimensions = [['demand','需求与市场','需求假设'],['userProfile','用户画像','目标用户推断'],['competition','竞争与替代','竞争判断'],['supplyChain','供应链','披露与推断'],['technology','技术路径','技术拆解'],['aesthetics','产品审美','设计观察'],['risks','关键风险','待验证事项'],['opportunity','市场空间','差异化判断']];
-  let data, loading, renderVersion = 0;
+  let data, loading, fullCatalogLoading, renderVersion = 0;
+  const detailCache=new Map();
   const PAGE_SIZE=24;
   const state = {category:'all',status:'available',china:'all',niche:'all',ai:'all',search:'',sort:'category',page:1};
   const compared = new Set();
@@ -66,8 +67,13 @@ window.HardwareApp = (() => {
   const isAvailable = p => ['on_sale','preorder'].includes(p.status);
   async function load() {
     if(data) return data;
-    if(!loading) loading=fetch('content/hardware/catalog.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('目录读取失败');return r.json();}).then(async d=>{await window.SupplyChainApp.load();return data=d;}).catch(err=>{loading=null;throw err;});
+    if(!loading) loading=fetch('content/hardware/index.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error('目录读取失败');return r.json();}).then(d=>data=d).catch(err=>{loading=null;throw err;});
     return loading;
+  }
+  async function loadProduct(id){
+    const index=data.products.findIndex(p=>p.id===id);if(index<0)return null;
+    if(!detailCache.has(id))detailCache.set(id,fetch(`content/hardware/products/${id}.json`,{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('产品详情读取失败');return r.json();}).then(p=>{data.products[index]=p;return p;}).catch(e=>{detailCache.delete(id);throw e;}));
+    return detailCache.get(id);
   }
   const pill = (text,solid=false) => `<span class="hw-pill${solid?' hw-pill-solid':''}">${esc(text)}</span>`;
   const tabs = active => `<nav class="hw-tabs" aria-label="市场研究导航"><a href="#hardware" ${active==='market'?'aria-current="page"':''}>产品目录</a><a href="#hardware/scenes" ${active==='scenes'?'aria-current="page"':''}>场景与差异</a><a href="#hardware/compare" ${active==='compare'?'aria-current="page"':''}>产品对比 <span data-compare-count>${compared.size}</span></a><a href="#supply-chain">供应链目录</a><a href="#hardware/insights" ${active==='insights'?'aria-current="page"':''}>市场观察</a><a href="#hardware/methodology" ${active==='methodology'?'aria-current="page"':''}>研究方法</a></nav>`;
@@ -100,7 +106,7 @@ window.HardwareApp = (() => {
     const preorder=data.products.filter(p=>p.status==='preorder').length;
     const categories=data.categories.filter(c=>data.products.some(p=>p.category===c.id));
     document.title='C端 AI 智能硬件市场目录 · Roman';
-    main.innerHTML=`<div class="page hw-page">${intro('C端 AI 智能硬件市场目录','个人、家庭与创作者可购买使用的 AI 硬件。<br>从冷门消费场景出发，逐款核对产品、需求与服务。')}<div class="hw-stats"><div><strong>${data.products.length}</strong><span>已研究消费产品 / 系列</span></div><div><strong>${available}</strong><span>可订购消费产品 · 其中 ${preorder} 款预订 / 延期</span></div><div><strong>${categories.length}</strong><span>产品分类</span></div><div class="hw-stat-date"><strong>${esc(data.checkedAt.replaceAll('-','.'))}</strong><span>本轮核查日期</span></div></div>${tabs('market')}<div class="hw-research-note"><span>阅读说明</span><p>只收个人、家庭与个人创作者使用的实体产品。企业专用设备、纯开发板与单纯自动化不计入消费目录；“细分专业”不等于蓝海。<a href="#hardware/methodology">查看研究边界 ↗</a></p></div><div class="hw-explore"><span>探索细分场景</span>${['accessibility','hearing','pet-care','music','sleep','sports','home-energy'].filter(id=>data.products.some(p=>p.category===id)).map(id=>`<button data-hw-category="${id}" aria-pressed="${state.category===id}">${esc(categoryName(id))} ↗</button>`).join('')}</div><div class="hw-directory"><aside class="hw-sidebar"><div class="hw-sidebar-label">产品分类</div><button class="hw-category" data-hw-category="all" aria-pressed="${state.category==='all'}"><span>全部分类</span><span>${data.products.length}</span></button>${[...new Set(data.categories.filter(c=>data.products.some(p=>p.category===c.id)).map(c=>c.group))].map(group=>`<p class="hw-group-label">${group}</p>${data.categories.filter(c=>c.group===group&&data.products.some(p=>p.category===c.id)).map(c=>`<button class="hw-category" data-hw-category="${c.id}" aria-pressed="${state.category===c.id}"><span>${c.name}</span><span>${data.products.filter(p=>p.category===c.id).length}</span></button>`).join('')}`).join('')}<a class="hw-download-link" href="https://github.com/RomanAgent/Roman/blob/main/docs/hardware-market.md" target="_blank" rel="noopener noreferrer">GitHub 阅读版 ↗</a></aside><section class="hw-results" aria-label="产品搜索与目录"><div class="hw-search-row"><label class="hw-search"><span class="sr-only">搜索产品、品牌或AI能力</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><input type="search" id="hw-search" value="${esc(state.search)}" placeholder="搜索产品、品牌或 AI 能力" autocomplete="off"></label><button class="hw-outline" data-hw-action="export">导出筛选结果 ↓</button></div><div class="hw-filter-row">${selectFilter('status','销售状态',[['available','在售与预售'],['all','全部状态'],...Object.entries(statusLabels)])}${selectFilter('china','中国大陆',[['all','全部购买情况'],...Object.entries(chinaLabels)])}${selectFilter('niche','赛道判断',[['all','全部竞争类型'],...Object.entries(nicheLabels)])}${selectFilter('ai','AI 类型',[['all','全部 AI 类型'],...Object.entries(aiLabels)])}</div><div class="hw-list-toolbar"><p id="hw-results-count" role="status" aria-live="polite"></p><div><button class="hw-text-button" data-hw-action="reset">重置筛选</button>${selectFilter('sort','排序',[['category','按分类'],['name','按产品名'],['checked','按核查日期']])}</div></div><div id="hw-list"></div><div id="hw-pagination"></div><div class="hw-list-end">价格、库存、订阅与服务地区以商家结算页为准。核查未包含实际下单。</div></section></div><div id="hw-compare-tray"></div></div>`;
+    main.innerHTML=`<div class="page hw-page">${intro('C端 AI 智能硬件市场目录','个人、家庭与创作者可购买使用的 AI 硬件。<br>从冷门消费场景出发，逐款核对产品、需求与服务。')}<div class="hw-stats"><div><strong>${data.products.length}</strong><span>已研究消费产品 / 系列</span></div><div><strong>${available}</strong><span>可订购消费产品 · 其中 ${preorder} 款预订 / 延期</span></div><div><strong>${categories.length}</strong><span>产品分类</span></div><div class="hw-stat-date"><strong>${esc(data.checkedAt.replaceAll('-','.'))}</strong><span>最新核查日期</span></div></div>${tabs('market')}<div class="hw-research-note"><span>阅读说明</span><p>只收个人、家庭与个人创作者使用的实体产品。企业专用设备、纯开发板与单纯自动化不计入消费目录；“细分专业”不等于蓝海。<a href="#hardware/methodology">查看研究边界 ↗</a></p></div><div class="hw-explore"><span>探索细分场景</span>${['accessibility','hearing','pet-care','music','sleep','sports','home-energy'].filter(id=>data.products.some(p=>p.category===id)).map(id=>`<button data-hw-category="${id}" aria-pressed="${state.category===id}">${esc(categoryName(id))} ↗</button>`).join('')}</div><div class="hw-directory"><aside class="hw-sidebar"><div class="hw-sidebar-label">产品分类</div><button class="hw-category" data-hw-category="all" aria-pressed="${state.category==='all'}"><span>全部分类</span><span>${data.products.length}</span></button>${[...new Set(data.categories.filter(c=>data.products.some(p=>p.category===c.id)).map(c=>c.group))].map(group=>`<p class="hw-group-label">${group}</p>${data.categories.filter(c=>c.group===group&&data.products.some(p=>p.category===c.id)).map(c=>`<button class="hw-category" data-hw-category="${c.id}" aria-pressed="${state.category===c.id}"><span>${c.name}</span><span>${data.products.filter(p=>p.category===c.id).length}</span></button>`).join('')}`).join('')}<a class="hw-download-link" href="https://github.com/RomanAgent/Roman/blob/main/docs/hardware-market.md" target="_blank" rel="noopener noreferrer">GitHub 阅读版 ↗</a></aside><section class="hw-results" aria-label="产品搜索与目录"><div class="hw-search-row"><label class="hw-search"><span class="sr-only">搜索产品、品牌或AI能力</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6.5"/><path d="m15 15 6 6"/></svg><input type="search" id="hw-search" value="${esc(state.search)}" placeholder="搜索产品、品牌或 AI 能力" autocomplete="off"></label><button class="hw-outline" data-hw-action="export">导出筛选结果 ↓</button></div><div class="hw-filter-row">${selectFilter('status','销售状态',[['available','在售与预售'],['all','全部状态'],...Object.entries(statusLabels)])}${selectFilter('china','中国大陆',[['all','全部购买情况'],...Object.entries(chinaLabels)])}${selectFilter('niche','赛道判断',[['all','全部竞争类型'],...Object.entries(nicheLabels)])}${selectFilter('ai','AI 类型',[['all','全部 AI 类型'],...Object.entries(aiLabels)])}</div><div class="hw-list-toolbar"><p id="hw-results-count" role="status" aria-live="polite"></p><div><button class="hw-text-button" data-hw-action="reset">重置筛选</button>${selectFilter('sort','排序',[['category','按分类'],['name','按产品名'],['checked','按核查日期']])}</div></div><div id="hw-list"></div><div id="hw-pagination"></div><div class="hw-list-end">价格、库存、订阅与服务地区以商家结算页为准。核查未包含实际下单。</div></section></div><div id="hw-compare-tray"></div></div>`;
     renderList();
   }
   function renderList() {
@@ -158,9 +164,16 @@ window.HardwareApp = (() => {
     }).join('');
     main.innerHTML=`<div class="page hw-page">${intro('从产品目录，回到市场问题。','一组跨产品的观察，以及需要继续用真实用户验证的判断。')}${tabs('insights')}<article class="hw-insights">${content}</article></div>`;
   }
-  function exportFiltered() {
-    const blob=new Blob([JSON.stringify({checkedAt:data.checkedAt,scope:data.scope,filters:state,products:getFiltered()},null,2)],{type:'application/json;charset=utf-8'});
-    const objectURL=URL.createObjectURL(blob), link=document.createElement('a');link.href=objectURL;link.download=`roman-ai-hardware-${data.checkedAt}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(objectURL),1000);
+  async function exportFiltered() {
+    const selected=getFiltered().map(p=>p.id),filters={...state};
+    const button=document.querySelector('[data-hw-action="export"]');if(button){button.disabled=true;button.textContent='正在准备完整研究…';}
+    try{
+      if(!fullCatalogLoading)fullCatalogLoading=fetch('content/hardware/catalog.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('读取失败');return r.json();}).catch(e=>{fullCatalogLoading=null;throw e;});
+      const full=await fullCatalogLoading,map=new Map(full.products.map(p=>[p.id,p]));const products=selected.map(id=>map.get(id));if(products.some(p=>!p))throw Error('目录版本已更新');
+      const blob=new Blob([JSON.stringify({checkedAt:full.checkedAt,scope:full.scope,filters,products},null,2)],{type:'application/json;charset=utf-8'});
+      const objectURL=URL.createObjectURL(blob),link=document.createElement('a');link.href=objectURL;link.download=`roman-ai-hardware-${full.checkedAt}.json`;link.click();setTimeout(()=>URL.revokeObjectURL(objectURL),1000);
+    }catch{const result=document.querySelector('#hw-results-count');if(result)result.textContent='完整研究暂时无法导出，请稍后重试或刷新目录。';}
+    finally{if(button?.isConnected){button.disabled=false;button.textContent='导出筛选结果 ↓';}}
   }
   function reset() {Object.assign(state,{category:'all',status:'available',china:'all',niche:'all',ai:'all',search:'',sort:'category',page:1});renderMarket();}
   function toggleCompare(id,wanted) {
@@ -198,8 +211,8 @@ window.HardwareApp = (() => {
     try {
       await load();
       if(version!==renderVersion||!location.hash.startsWith('#hardware'))return;
-      if(section==='product')renderProduct(id);
-      else if(section==='compare')renderCompare();
+      if(section==='product'){await Promise.all([loadProduct(id),window.SupplyChainApp.load()]);if(version!==renderVersion||!location.hash.startsWith('#hardware'))return;renderProduct(id);}
+      else if(section==='compare'){await Promise.all([...compared].map(loadProduct));if(version!==renderVersion||!location.hash.startsWith('#hardware'))return;renderCompare();}
       else if(section==='methodology')renderMethodology();
       else if(section==='insights')renderInsights();
       else if(section==='scenes')renderScenes();

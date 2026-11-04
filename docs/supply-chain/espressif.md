@@ -136,6 +136,8 @@
 
 - [Mobvoi TicNote Pods WiFi](../hardware/ticnote-pods-wifi.md) — **能力候选 · 非已采用** / 盒子或设备的 WiFi 传输与控制候选：本型号明确包含无线局域网传输，乐鑫可作为相关控制链路的新设计候选，但实际分工和接口未完整披露。需验证音频缓存、峰值电流、同步与固件恢复，当前没有供货点名；该候选不增加独立蜂窝能力，也不意味着所有转写摘要在本机完成。
 
+- [Withings U-Scan Nutrio](../hardware/withings-u-scan-nutrio.md) — **能力候选 · 非已采用** / 同类联网光学读取器的Wi-Fi控制候选：ESP32-C6公开无线微控制与软件框架，可用于研究U-Scan这类读取器的数据同步、状态和远程更新流程。它不提供样本化学分析、比色校准或Withings+服务，需另验安全、休眠和传感接口；未发现本款点名采用证据，因此仅记录相近新设计候选。
+
 ## 来源
 
 - [ESP32-C6](<https://www.espressif.com/en/products/socs/esp32-c6>)：支持无线协议、微控制器与低功耗架构；不代表所有 ESP 系列具有相同功能。

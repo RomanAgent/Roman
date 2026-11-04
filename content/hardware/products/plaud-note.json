@@ -1,0 +1,419 @@
+{
+  "id": "plaud-note",
+  "name": "Plaud Note",
+  "brand": "Plaud",
+  "category": "recording",
+  "tagline": "贴在手机背面的双模式 AI 录音卡片",
+  "officialUrl": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+  "status": "on_sale",
+  "statusEvidence": "已打开国际官方商店，Note 独立商品页显示 US$159、Shop Now、颜色选择及配送说明；页面同时列出新款，未将 Note Pro 的参数算入本款。",
+  "regions": [
+    "美国/国际官网",
+    "其他地区依当地官方站点与结算确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次核实国际版产品，未取得同款大陆正式购买与数据服务所在地的官方证据；品牌来源或中文识别能力不作为大陆销售证明。"
+  },
+  "price": {
+    "text": "US$159",
+    "note": "硬件含每月300分钟基础转写额度；超额或高级服务可能需订阅。税费、促销与当地版本以地区官网为准。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "录音经过语音识别、说话人标记，再由 AI 生成摘要并支持检索问答。",
+    "dependency": "硬件可存储录音；转写、摘要与跨平台管理依赖 Plaud 应用和服务额度，不应视作完整离线 AI。"
+  },
+  "highlights": [
+    "面谈与电话双模式录音",
+    "官方披露2 MEMS与1 VPU",
+    "64GB本地存储",
+    "含基础转写额度，持续使用成本需另算"
+  ],
+  "analysis": {
+    "demand": "需求假设：通话或会议密集的人，愿意为少一步启动录音和会后整理付费。真实需求应以查回原话、完成跟进的频率检验，不能只用生成摘要数量证明设备有价值。",
+    "userProfile": "画像推断：销售、访谈者、顾问和经常需要会后复盘的人较匹配。对偶发录音者，手机可能已足够；对高度保密团队，则需要先评估数据流程，而不是只比较硬件外形。",
+    "competition": "案头判断：与手机录音、软件会议助手、同品牌 Note Pro 及其他卡片录音器直接竞争，属于拥挤方向。没有用户访谈、销量或转化数据，不能把官网用户规模宣传当成需求验证。",
+    "supplyChain": "官网披露拾音器件类型与本地存储，但麦克风厂商、整机代工、材料成本和良率未公开。推断卡片机身中的电池布局、手机振动耦合与磁吸外壳，是区别于普通录音笔的制造重点。",
+    "technology": "官方明确面谈与电话模式、MEMS 与振动相关拾音组件，软件提供转写和生成摘要。底层模型版本与云端路由未完整披露；物理采集成功、转写准确和摘要可靠是三个不同环节。",
+    "aesthetics": "图示观察：扁平金属感卡片和纵向纹理接近商务配件，附着手机减少额外携带动作。手机厚度、握持与充电配件冲突需要实测；低调外观不应被理解成可以不告知就录音。",
+    "risks": "需关注通话拾音受机型、手机壳和摆位影响，转写中人名金额可能错误，摘要也可能遗漏条件。基础额度不足时会增加持续费用；敏感谈话的告知、访问权限和导出能力同样重要。",
+    "opportunity": "市场差异在于电话与面谈共用一块随身硬件，以及录音后的整理服务。尚待验证的购买理由是操作和复盘是否持续比手机方便，而不是卡片本身能否录音或能够调用通用大模型。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "卡片录音器和会议摘要服务已有直接竞品，手机软件替代也强；为案头判断。"
+  },
+  "architecture": [
+    {
+      "name": "声音采集",
+      "detail": "面谈麦克风与电话振动相关拾音；功能架构，非拆机图。",
+      "evidence": "official"
+    },
+    {
+      "name": "本机录音",
+      "detail": "按键控制、模式选择及64GB本地存储。",
+      "evidence": "official"
+    },
+    {
+      "name": "同步管理",
+      "detail": "Plaud App/Web/Desktop承接音频与笔记管理。",
+      "evidence": "official"
+    },
+    {
+      "name": "识别与生成",
+      "detail": "语音转写、说话人标签、摘要与Ask Plaud；具体模型路由未披露。",
+      "evidence": "official"
+    },
+    {
+      "name": "工作输出",
+      "detail": "笔记分享、导出和原始内容复核构成最终工作流。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Plaud · Note 官方商店",
+      "url": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开，价格、Shop Now、双模式和本地存储可见；未测试结算或实机。"
+    },
+    {
+      "title": "Plaud · 官方设备比较",
+      "url": "https://www.plaud.ai/pages/plaud-device-comparison",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "competition"
+      ],
+      "note": "已打开，用于区分Note、Note Pro和NotePin，未推断未披露供应商。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Plaud · Note 官方商店",
+        "url": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology,architecture。已打开，价格、Shop Now、双模式和本地存储可见；未测试结算或实机。"
+      },
+      {
+        "id": "s2",
+        "title": "Plaud · 官方设备比较",
+        "url": "https://www.plaud.ai/pages/plaud-device-comparison",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,competition。已打开，用于区分Note、Note Pro和NotePin，未推断未披露供应商。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜面谈与电话双模式",
+          "text": "本型号把面谈与电话录音放在卡片形设备中，可贴附手机或独立放置，随后由软件转写、摘要和检索。需求是用一个入口处理两类谈话并减少会后整理，不能只按生成笔记数量评价；模式、摆放和声音来源仍影响采集，卡片形态本身不保证电话双方或远处发言都完整。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜切换场景的操作负担",
+          "text": "用户可能从电话转入面对面讨论，希望不用更换整套记录工具。但双模式也要求用户理解当前状态和适合的放置方式，若漏切模式或位置不对，后续服务无法恢复缺失；价值应以减少遗漏和回查时间判断，而不是只看设备是否同时列出两种录音功能。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜两种任务分别比较",
+          "text": "可分别做电话确认和现场访谈，与手机支持的记录方式及手工笔记对照，统计启动、漏记和复核成本。再加入从一种场景切到另一种的过程，观察用户是否正确操作；当前目录没有实机测试，不能将一次清晰录音或摘要演示推广成所有机型和环境都适用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜谈话密集的个人工作者",
+          "text": "经常通过电话或访谈确认事项、并愿意回听原话的人，可能更容易利用这类设备。职业名称只能提供访谈线索，不能证明某个职业普遍需要额外硬件；应根据每周谈话量、遗漏代价和已有软件判断，低频用户可能仍由手机满足大部分需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜贴附手机的接受度",
+          "text": "用户除了需要录音，还要接受手机背面增加附件，保护壳、握持和充电习惯都会影响使用。若用户经常换手机或不愿长期贴附，独立放置与随身携带的管理会增加；画像研究应包含这些实际习惯，不能只看对人工智能摘要的兴趣或对薄机身的喜好。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜设置与记录边界理解",
+          "text": "首次使用测试应检查用户能否区分面谈、电话和服务处理状态，并完成一次内容导入与删除。还要观察参与者知情和敏感内容的管理，避免只测试技术熟练者的快速上手；持续价值需要用户理解采集和服务边界，而不只是记住按键位置。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜同品牌升级选择",
+          "text": "与 Note Pro 相比，本型号的核心任务相近，差异应放在采集、模式控制和状态确认，而不把升级自动算成新需求。若用户能够稳定操作且场景较简单，基础型号可能已够用；若频繁漏切或难确认状态，升级才需要进一步验证，不能只凭新旧或价差给出结论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜与佩戴录音器的差别",
+          "text": "佩戴设备更贴近移动现场声音，卡片设备则把电话贴附与独立放置结合，两者的输入位置不同。主要电话用户与主要面对面用户不应混合评价，摘要服务相近也不能消除硬件边界；竞争分析应从采集任务出发，而不是只列相同的转写、说话人和问答功能。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜硬件价与使用额度",
+          "text": "比较总成本时应按真实录音量核对基础转写额度和高级服务，并加入配件、镜像版本之外的地区配置差异。国际售价不能直接推导大陆同款渠道和服务，未实际结算的优惠也不作为成交价；当前没有销量或价格弹性调查，目录不依据订阅层级判断市场接受度。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜拾音类型与本地存储",
+          "text": "官方披露两颗 MEMS 麦克风、一颗振动相关拾音组件及本地存储，支持面谈与电话的不同输入路径。具体厂商、主控和整机工厂仍未公开确认，不能由器件类型反推出供应商；目录记录功能分工，不把卡片外形或概念结构示意当作真实内部装配依据。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜手机耦合与薄型结构",
+          "text": "电话模式涉及手机与录音器之间的物理关系，保护壳、贴附位置和握持可能改变输入，因此不能只在一台裸机上验收。薄型机身还要兼顾电池、声孔与固定结构，但具体工艺未知；供应链研究应提出这些验证问题，而不是从尺寸直接估计成本或制造良率。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜音频平台与麦克风候选",
+          "text": "炬芯可以作为采集与音频处理平台候选，英飞凌可以作为 MEMS 输入候选，当前没有点名采用。选择需验证接口、振动输入协作、缓存与功耗，不能直接替换现有器件；两家公司也不能填补振动组件、整机制造或 Plaud 服务的全部来源，未知应继续保留。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜采集与生成服务分层",
+          "text": "设备负责录音和本地保存，应用与服务承担转写、说话人标记、摘要及问答，功能受计划额度影响。可离线保存声音不等于完整离线人工智能，底层模型和服务路由没有全部公开；本轮重新打开资料也确认连接与拾音规格应按本型号核对，不能沿用 Pro 或 NotePin 的配置。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜三层成功不能混同",
+          "text": "录下声音、正确转写和可靠总结是三个不同结果，任何一层失败都可能影响最终行动项。系统需要让用户能够回到原音并理解不确定性，尤其姓名、金额和否定条件；一份结构完整的摘要可能掩盖输入缺失，技术评价不能只看生成文字是否流畅或专业。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜电话与现场错误分布",
+          "text": "应分别测试不同手机壳和摆放下的电话输入，以及距离、回声和多人交叠的面谈输入，保留原音对照。随后统计转写与摘要错误来自哪一层，并检查上传中断后的文件完整；当前资料没有独立效果测试，不能用官方最长时长或拾音距离保证真实任务表现。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜卡片与手机的整体外观",
+          "text": "薄卡片可以贴在手机背面或放在桌面，外观可能更像日常附件而非传统录音笔，但实际握持和收纳取决于手机组合。审美研究应观察使用中的整体厚度、摆放和操作，而不只看单独渲染图；轻薄感不能自动说明舒适、耐久或不影响手机原有习惯。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜无屏状态确认",
+          "text": "本型号需要通过控制与反馈让用户知道是否正在记录，和带状态屏的 Pro 存在不同操作取舍。设计评价应观察用户是否必须打开手机确认，以及能否识别模式错误；没有屏幕不必然更简单，也不必然更难用，关键是反馈是否适合其高频谈话场景。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜实际手机与桌面摆放",
+          "text": "试用应包含贴附、取下、手持电话和桌面访谈，记录误触、滑动、声孔遮挡与充电步骤。不同保护壳和手机要分别核对，不能用一组宣传图代表全部配置；产品照片可以确认形态，但长期使用的便利与不适仍需真实观察和用户反馈。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜电话捕获与知情",
+          "text": "电话和现场内容都可能涉及他人及敏感事项，采集前应明确告知、权限和保存范围，不能因硬件容易启动就默认适合所有通话。振动拾音的技术路径不消除这些边界，生成行动项也不能自动视为对方承诺；目录不把便利性或厂商安全描述当作完整使用保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜服务与数据长期依赖",
+          "text": "转写额度、模型与账户服务会影响硬件的后续价值，用户需要确认导出、删除和计划变化后的基础用途。基础费用之外可能有持续成本，海外列售也不证明大陆正式渠道与数据服务条件；购买判断应把本地音频保存和云端整理分别看待，而不是只比较一次硬件价格。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜重要细节回听",
+          "text": "应检查摘要中的责任人、时间和金额能否快速定位到原始片段，并测试更正后问答是否更新。对于重要决定，用户应复核原话与上下文，不能直接执行生成的待办；验证重点是让错误可见、可追溯，而不是假设模型能够恢复所有录音遗漏或理解全部谈话意图。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜一个设备覆盖两类谈话",
+          "text": "本型号的购买理由应建立在用户确实频繁切换电话与面谈，而不是只需要偶尔录音。如果两类任务都能稳定完成，统一内容管理可能减少整理；若只有其中一种高频，则更专门的形态也可能合适，研究应保留这种边界，不把双模式自动当作更多需求已经成立。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜整理是否减少后续工作",
+          "text": "摘要与检索的价值在于帮助用户更快找到依据并完成跟进，生成更多模板不一定有用。研究应记录哪些内容被实际打开、多少需要改写以及多少音频无人回看，判断服务是否真正减负；薄型硬件降低启动成本之后，仍需验证会后流程而非停留在采集便利。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜持续任务与总成本",
+          "text": "后续可跟踪电话和面谈各自的使用、模式错误、完整录音与摘要更正，并按实际计划计算费用。还要记录用户何时改用手机或其他录音方式，理解替代范围；当前目录是案头分析，不以在售、品牌或基础额度认定需求、效率和商业结果已经得到验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "actions-technology",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "双模式录音的采集与音频处理平台候选",
+        "rationale": "Plaud Note 需要协调面谈、电话输入与本地保存，炬芯音频平台可进入新设计候选比较。当前没有供货点名，需核对振动输入接口、音频缓存、功耗与应用连接；它不能直接替换现有主控，也不提供 Plaud 账户、转写和问答服务，整机工厂仍未知。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "infineon",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "两颗 MEMS 麦克风的声音输入候选",
+        "rationale": "官方披露 Note 的 MEMS 输入，英飞凌器件可比较自噪和匹配，但需验证薄机身声孔、桌面回声与主控接口。现有资料未点名其采用，该候选只对应空气声音输入，不等同电话振动拾音组件来源，也不能证明整机转写或摘要效果。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "call-and-meeting-recall",
+      "needName": "电话与现场谈话回顾",
+      "difference": "Plaud Note把电话振动相关拾音与面谈麦克风放进贴附手机的薄卡片，再由应用形成统一转写和问答笔记。相较只录现场的NotePin，电话是明确的采集差异；相较录音耳机，用户无需为记录更换主要听音设备，但机型、手机壳和摆位会影响输入。双模式不保证都能清楚记录，基础额度之外的持续费用以及摘要对金额、条件的遗漏都应纳入比较。",
+      "comparisonBasis": "与仅现场录音的NotePin、录音耳机及手机录音软件比较电话和面谈的统一采集回顾。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/plaud-note/product.webp",
+      "sourceUrl": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/BL-plaud-note-052526.webp?v=1779709941&width=1200",
+      "caption": "官方 Plaud Note 基础款正面图",
+      "alt": "官方 Plaud Note 基础款正面图",
+      "credit": "Plaud · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 22432,
+      "sha256": "b66f8d5360cea399f981b3be6a107224c8455f96dfb8d9bbcd578028897270a2"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/plaud-note/reference.webp",
+      "sourceUrl": "https://www.plaud.ai/products/plaud-note-ai-voice-recorder",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0918/0171/5051/files/4_e10f8969-6ac3-4641-971f-2514b6c6b3c1.png?v=1774430233&width=1200",
+      "caption": "官方 Plaud Note 侧面薄度参考",
+      "alt": "官方 Plaud Note 侧面薄度参考",
+      "credit": "Plaud · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 29606,
+      "sha256": "53411a3f9278e17ae3f644b537062405e09ce9dc45924dd768969e879ae3a209"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/plaud-note/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Plaud Note的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/plaud-note.txt",
+      "referencePaths": [
+        "assets/hardware/plaud-note/product.webp",
+        "assets/hardware/plaud-note/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1518613,
+      "sha256": "2696d5c1c888d223595ec8d8b80775a8ef679b21ac8b7f13f3e1bc354041dd79"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+  ]
+}

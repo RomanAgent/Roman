@@ -1,0 +1,441 @@
+{
+  "id": "petlibro-scout",
+  "name": "PETLIBRO Scout Smart Camera",
+  "brand": "PETLIBRO",
+  "category": "pet-care",
+  "tagline": "按宠物身份整理家庭影像的AI观察相机",
+  "officialUrl": "https://petlibro.com/products/scout-smart-camera",
+  "status": "on_sale",
+  "statusEvidence": "官方商品页列Scout单机与购物入口，核查时预计11月6—9日送达；页面同时含未激活的售罄/预售模板，实际SKU库存另外核对。",
+  "regions": [
+    "美国官方零售；其他地区须分别确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+  },
+  "price": {
+    "text": "US$79.99",
+    "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "AI区分宠物、标注进食饮水等活动，并生成视频描述与每日摘要；官方提醒相似外貌宠物可能难以区分。",
+    "dependency": "AI活动追踪与回顾依赖Video Cloud AI订阅和网络；官方说明不支持SD卡，基础直播与付费服务需分开评估。"
+  },
+  "highlights": [
+    "多宠身份归档",
+    "行为描述与每日摘要",
+    "云台追踪与实体隐私盖"
+  ],
+  "analysis": {
+    "demand": "需求假设：用户不愿翻看全天录像，只想知道某只宠物是否正常活动。应比较摘要误报、找片段所需时间和打开频次，判断AI整理是否真正节省注意力；本轮没有用户访谈和付费留存数据。",
+    "userProfile": "画像推断：养两只以上外貌可区分的猫狗、白天外出且习惯看App的主人。相似毛色宠物家庭和网络不稳定地区要单独测试，不能因为支持多宠就推断每只宠物的历史都可靠。",
+    "competition": "竞争判断：与Furbo、Petcube及普通家用摄像头竞争，价值在个体活动归档与少打扰通知。硬件售价不是完整成本；若摘要只重复画面表面信息，持续订阅可能比一次购机更难说服用户。",
+    "supplyChain": "供应链分析：云台电机、图像模组、麦克风、扬声器、隐私盖和网络服务共同交付体验。实际芯片、代工厂及BOM未知；还需计入云存储、视频分析和软件维护，不能只估摄像头硬件毛利。",
+    "technology": "官方明确AI多宠识别、活动标签和摘要。技术判断：云台跟随会改变画面分布，可能影响行为分类；应提供原片、纠错和低置信标记。识别饮水或如厕不等于测量摄入量或诊断健康状态。",
+    "aesthetics": "审美判断：柔和的低矮机身让它更像家庭用品，手动隐私盖提供明确状态。镜头可见性与摆放高度会影响宠物互动，电线、墙装配件和旋转噪声也应纳入用户长期接受度评价。",
+    "risks": "风险判断：无本地卡存储意味着部分体验依赖云端，停订、断网和服务变化影响回顾。画面可能包含家人和访客，宠物身份及行为也会误判；不能用AI总结代替实际探视或照护。",
+    "opportunity": "机会假设：针对多宠家庭设计可纠正的事件时间线和异常复核，测试通知密度与有效信息比例。若主人只需要确认食盆或睡眠位置，较简单的固定视角方案可能已足够，不必先增加生成式聊天。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "宠物摄像头已有多个品牌及普通家庭摄像头替代，竞争集中在识别、通知、互动与订阅体验，不属于空白市场。"
+  },
+  "architecture": [
+    {
+      "name": "采集",
+      "detail": "摄像头、拾音及云台观察家庭场景。",
+      "evidence": "official"
+    },
+    {
+      "name": "身份",
+      "detail": "AI多宠识别与追踪。",
+      "evidence": "official"
+    },
+    {
+      "name": "行为",
+      "detail": "活动标签、文字描述与摘要。",
+      "evidence": "official"
+    },
+    {
+      "name": "云服务",
+      "detail": "Video Cloud AI与历史存储。",
+      "evidence": "official"
+    },
+    {
+      "name": "隐私交互",
+      "detail": "实体隐私盖、App及双向音频。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PETLIBRO Scout Smart Camera 官方商店",
+      "url": "https://petlibro.com/products/scout-smart-camera",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+    },
+    {
+      "title": "PETLIBRO Scout 官方使用问答",
+      "url": "https://ca.petlibro.com/pages/camera-1",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "subscription"
+      ],
+      "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "PETLIBRO Scout Smart Camera 官方商店",
+        "url": "https://petlibro.com/products/scout-smart-camera",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "id": "s2",
+        "title": "PETLIBRO Scout 官方使用问答",
+        "url": "https://ca.petlibro.com/pages/camera-1",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "需求假设：用户不愿翻看全天录像，只想知道某只宠物是否正常活动。应比较摘要误报、找片段所需时间和打开频次，判断AI整理是否真正节省注意力；本轮没有用户访谈和付费留存数据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "个体活动归档可能让主人少翻录像，但如果宠物相似、被遮挡或不在视野，摘要仍会有缺口。价值需要由找到有用片段和减少无效查看证明，不能把生成文字更像人类描述等同准确理解，也不能从应用打开频次推断安心。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可记录主人想确认的事件、摘要内容、原片与查找时间，比较普通摄像头的事件列表。观察错归后是否能纠正及四周后是否续用，明确本轮是验证方案而非已做访谈，不能用一段生动摘要代替真实付费和留存证据。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "画像推断：养两只以上外貌可区分的猫狗、白天外出且习惯看App的主人。相似毛色宠物家庭和网络不稳定地区要单独测试，不能因为支持多宠就推断每只宠物的历史都可靠。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "外貌可区分的多宠家庭可能更容易受益，单宠或主要只看食盆的人需求不同。网络不稳定又缺少本地卡路径时，历史依赖更明显，画像应包括云服务接受与实际观察位置，不能因支持多宠就假定档案可靠覆盖每只动物。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "画像验证应让主人自行选择位置并核对一周的个体记录，观察相似毛色、躲藏和共享空间造成的困难。再询问哪些摘要真正有帮助，区分需要活动时间线的人与只要直播的人，避免把多宠数量直接换成订阅需求。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "竞争判断：与Furbo、Petcube及普通家用摄像头竞争，价值在个体活动归档与少打扰通知。硬件售价不是完整成本；若摘要只重复画面表面信息，持续订阅可能比一次购机更难说服用户。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "与投食摄像头不同，Scout 的主要竞争点在观察整理和隐私操作，机械互动不是必须。普通摄像头更简单，若摘要只是复述显而易见画面，持续服务可能难以被接受，因此需要证明个体归档确实减少查找和误解。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "可在相同家庭比较普通事件列表、个体时间线和每日摘要的确认时间与错误，明确无本地卡和会员条件。不要用免费试用的完整回顾与其他设备基础模式直接比较，也不把硬件低价当作完整长期费用更低的证据。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能层包括相机拾音和云台、个体识别与跟踪、活动标签及文字摘要、Video Cloud AI 历史和实体隐私盖。公开资料没有完整工厂及芯片清单，云端与本地功能应分开，不能假设可以用存储卡替代已说明的云服务路径。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "供应链分析：云台电机、图像模组、麦克风、扬声器、隐私盖和网络服务共同交付体验。实际芯片、代工厂及BOM未知；还需计入云存储、视频分析和软件维护，不能只估摄像头硬件毛利。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "龙旗可作为云台摄像联网工程候选，歌尔可支持声音与紧凑交互硬件整合。没有 Scout 点名合作证据，隐私盖、云台耐久和个体模型需专项确认，硬件能力不能证明文字摘要可靠，也不能推定实际代工关系。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "官方明确AI多宠识别、活动标签和摘要。技术判断：云台跟随会改变画面分布，可能影响行为分类；应提供原片、纠错和低置信标记。识别饮水或如厕不等于测量摄入量或诊断健康状态。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "云台追随会改变上下文，宠物离开画面或另一只进入时可能影响身份连续性，生成描述还可能把相关动作错误连接。系统需要原片、低置信与纠错，饮水或如厕标签只说明观察到的行为，不能当作数量测量或健康判断。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证应覆盖多宠交叉、相似外观、遮挡和云台转向，分别记录身份、活动与摘要错误，再核对原片。断网和订阅变化需单独测试，不能将连续文字总结视为完整一天，也不把行为标签当作专业诊断或可靠摄入记录。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "审美判断：柔和的低矮机身让它更像家庭用品，手动隐私盖提供明确状态。镜头可见性与摆放高度会影响宠物互动，电线、墙装配件和旋转噪声也应纳入用户长期接受度评价。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "低矮柔和机身与手动隐私盖让设备更像家庭用品，但转动、线材和摆放高度会影响被观察感。物理盖需要与真实录像状态一致，设计应让共享空间成员易理解何时采集，而不是仅通过柔和外观降低警惕。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证应观察开关隐私盖、调整视角、墙装或桌放以及清洁，记录是否容易误判状态。还需比较不同成员对云台跟随的接受，不从产品图片的亲和感推断家庭或宠物都愿意被持续记录。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "风险判断：无本地卡存储意味着部分体验依赖云端，停订、断网和服务变化影响回顾。画面可能包含家人和访客，宠物身份及行为也会误判；不能用AI总结代替实际探视或照护。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "无本地卡使历史更依赖网络和服务，断网或停订可能改变用户习惯的回顾流程。身份错误也可能进入长期摘要，产品应清楚显示缺失与纠错，不能用连贯故事掩盖数据空窗，更不能替代实际探视和照护。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证应演练断网、历史权限变化、相似宠物错归和隐私盖关闭，检查用户是否理解剩余能力。核对家庭共享和删除路径，不以无告警或一段积极摘要推断宠物状态正常，也不把云服务描述当作永久可用承诺。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会假设：针对多宠家庭设计可纠正的事件时间线和异常复核，测试通知密度与有效信息比例。若主人只需要确认食盆或睡眠位置，较简单的固定视角方案可能已足够，不必先增加生成式聊天。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会在于多宠可纠正时间线、少打扰通知和明确异常复核，不一定需要生成式聊天。若用户只是确认食盆或睡觉位置，稳定固定视角可能足够，应先确定哪类信息真正节省注意力，再增加复杂身份和文字服务。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可用人工核对的事件集比较列表、时间线和摘要，记录错误、纠正与确认时间，再观察实际续用。将维护、云费用与家庭隐私一起评估，避免只用内容数量、模型流畅度或多宠支持上限预测市场价值。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "longcheer",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "云台宠物观察终端电子工程",
+        "rationale": "龙旗的智能终端研发制造能力可对应摄像、云台控制和联网电子评估，但隐私盖、身份连续性与云摘要需单独验证；没有 Scout 点名合作证据，当前仅为工程候选。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "goertek",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "宠物摄像终端声音与交互整合",
+        "rationale": "歌尔公开声学和智能硬件能力可支持拾音、发声及紧凑机身评估，但行为分类和文字摘要不是硬件能力自动提供；未见 Scout 供货披露，候选不代表实际制造或算法供应。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "remote-pet-observation-interaction",
+      "needName": "宠物远程查看与短时互动",
+      "difference": "PETLIBRO Scout Smart Camera 的区别在于具体实现与使用条件：官方明确AI多宠识别、活动标签和摘要。技术判断：云台跟随会改变画面分布，可能影响行为分类；应提供原片、纠错和低置信标记。识别饮水或如厕不等于测量摄入量或诊断健康状态。与投食摄像头不同，Scout 的主要竞争点在观察整理和隐私操作，机械互动不是必须。普通摄像头更简单，若摘要只是复述显而易见画面，持续服务可能难以被接受，因此需要证明个体归档确实减少查找和误解。",
+      "comparisonBasis": "竞争判断：与Furbo、Petcube及普通家用摄像头竞争，价值在个体活动归档与少打扰通知。硬件售价不是完整成本；若摘要只重复画面表面信息，持续订阅可能比一次购机更难说服用户。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/petlibro-scout/product.png",
+      "sourceUrl": "https://petlibro.com/products/scout-smart-camera",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0252/5197/1119/files/scout-smart-camera-513103.png?v=1753842850&width=1200",
+      "caption": "PETLIBRO Scout Smart Camera 官方产品外观图",
+      "alt": "PETLIBRO Scout Smart Camera 官方产品外观图",
+      "credit": "PETLIBRO · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 218240,
+      "sha256": "292d04863ebabad95715557b6a56e0363e94d91faee58032833f14206ced9740"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/petlibro-scout/reference.png",
+      "sourceUrl": "https://petlibro.com/products/scout-smart-camera",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0252/5197/1119/files/scout-smart-camera-623590.png?v=1753842850&width=1200",
+      "caption": "PETLIBRO Scout Smart Camera 官方场景或功能参考图",
+      "alt": "PETLIBRO Scout Smart Camera 官方场景或功能参考图",
+      "credit": "PETLIBRO · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 410153,
+      "sha256": "7825318bcd6de0a40170bcb0a2d43a85920f69ddbe69c4534869c440aa6526d0"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/petlibro-scout/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "PETLIBRO Scout Smart Camera AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/petlibro-scout.txt",
+      "referencePaths": [
+        "assets/hardware/petlibro-scout/product.png",
+        "assets/hardware/petlibro-scout/reference.png"
+      ],
+      "verified": true,
+      "bytes": 1568396,
+      "sha256": "953766fc60f3271359b50e3ddb56f33f0890a29d100fac35daca39a0fd1d88d9"
+    }
+  ],
+  "mediaNotes": [
+    "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+    "保留官方图原始内容与出处；画面中的营销声明不视为独立验证。",
+    "主图展示同款双机外观，本条按一个硬件型号收录，不将单机/双机套餐重复计数。"
+  ]
+}

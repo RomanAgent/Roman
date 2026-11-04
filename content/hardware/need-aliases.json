@@ -1,0 +1,16 @@
+{
+  "notes":"只合并语义相同的核心任务；各产品的实现差异仍保留在独立档案。新型号不能依靠另起英文键增加场景数。",
+  "aliases":{
+    "family-schedule-coordination":"shared-household-coordination",
+    "adaptive-hip-walking-assistance":"adaptive-walking-assistance",
+    "adaptive-knee-walking-assistance":"adaptive-walking-assistance"
+  },
+  "names":{
+    "shared-household-coordination":"家庭共享日程与任务协调",
+    "adaptive-walking-assistance":"个人主动行走与连续助力"
+  },
+  "reasons":{
+    "shared-household-coordination":"图文通知导入与语音助手采用不同入口，但核心都是家庭共享安排与责任协调；作为同组实现比较。",
+    "adaptive-walking-assistance":"髋部与膝部执行机构有实质差异，仍共同服务主动行走助力；保留不同机制，不把关节位置当成新的核心需求。"
+  }
+}

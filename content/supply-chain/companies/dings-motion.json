@@ -1,0 +1,260 @@
+{
+  "id": "dings-motion",
+  "name": "DINGS' 鼎智",
+  "legalName": "Jiangsu DINGS' Intelligent Control Technology Co., Ltd.（江苏鼎智智能控制科技股份有限公司）",
+  "country": "中国大陆",
+  "locations": [
+    "江苏常州（总部）",
+    "泰国Ayutthaya制造地点",
+    "美国Morgan Hill",
+    "法国Vertou",
+    "韩国Goyang",
+    "日本东京",
+    "深圳办公室"
+  ],
+  "tier": "specialist",
+  "tierNote": "按精密线性与旋转运动专业方向分组；中国总部由官方地点页明确，国际关联窗口不重复计为独立供应商。",
+  "roles": [
+    "motion",
+    "engineering"
+  ],
+  "capabilities": [
+    "步进丝杆与滚珠丝杆执行器",
+    "导向线性模组",
+    "旋转步进、直流和无刷电机",
+    "音圈电机与夹爪方向",
+    "机构、驱动及控制定制"
+  ],
+  "productCategories": [
+    "maker",
+    "creative-tools",
+    "games",
+    "robotics",
+    "imaging"
+  ],
+  "website": "https://www.dingsmotion.com/",
+  "contactUrl": "https://www.dingsmotion.com/company/global-sales-network.php",
+  "summary": "DINGS提供线性执行器、旋转电机及定制运动方案，公开将丝杆类型、行程、结构和电气配置分开选型。它适合桌面制造、自动棋盘和小型定位机构的能力研究，常州总部与海外窗口按同一公司记录；目录不会把工业样例的精度、推力或效率直接转成消费设备表现，也不由可定制宣传推断价格和交期。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "已披露定位：线性与旋转精密运动",
+        "text": "官方区域站展示线性执行、旋转电机、驱动与机构方案，全球地点页明确常州总部及海外分工。目录按集团能力合并记录，不把美国业务办公室当作独立制造品牌，也不将网页其他品牌的旋转执行器自动视为DINGS自研产品。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s4"
+        ]
+      },
+      {
+        "title": "定位判断：位移路径是主要选择依据",
+        "text": "DINGS的产品适合从末端怎样移动展开讨论，丝杆推进、导向滑台和旋转轴具有不同结构约束。对自动棋盘或桌面工具，先明确行程、载荷和导向，再比较电机类型，比从最大推力或工业案例出发更能判断消费项目是否适合。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "已披露能力：线性结构有不同配置",
+        "text": "官方线性页面区分丝杆与滚珠丝杆，以及外部、贯通和内置等结构，并说明不同方案的集成方向。不能把所有类型都理解为无需额外导向的完整直线模组，具体选型需要核对结构和支撑，页面示例也不是任何消费设备的标准安装方案。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "已披露能力：定制范围从机械到电气",
+        "text": "定制页列出行程、丝杆、绕组、连接、反馈和安装等可讨论内容，并将样品、验证、图纸确认与生产分开。它支持按实际机构修改，但不保证所有组合都可实现，工程需求必须有优先级，不能将可定制理解为没有尺寸与成本约束。",
+        "evidence": "official",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配判断：桌面设备的重复移动",
+        "text": "打印机、小型扫描机构和可自动移动棋子的桌游，可将DINGS线性与旋转方案列为执行层候选，重点检查行程、速度与位置。视觉检测或棋步计算属于其他层，不能把精密运动能力描述为AI识别，也不由同类用途推断本站型号实际采用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "title": "不匹配边界：不能把全部机构都换成丝杆",
+        "text": "某些产品更适合皮带、直接旋转或轻量舵机，采用丝杆未必能满足体积和速度要求。应根据真实运动路线比较，不能因为公司擅长线性执行就强行改变产品结构，尤其要把家庭环境的噪声、维护与外观要求纳入判断。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "已披露入口：样品与生产报价分阶段",
+        "text": "官方定制流程包括需求沟通、保密安排、规格评估、样品与生产报价、验证及图纸确认，为团队提供明确接洽路径。这里描述流程而非承诺时间，实际项目是否适合仍需评估，本轮没有提交询价、签署协议或购买任何执行器。",
+        "evidence": "official",
+        "sourceIds": [
+          "s3"
+        ]
+      },
+      {
+        "title": "接洽建议：提供负载和完整运动轨迹",
+        "text": "应说明移动对象、行程、速度变化、工作周期及安装导向，并提供现有机构图和控制接口。对于棋盘还需讨论棋子到位与异常恢复，对于制造设备则需描述连续轨迹，不能只发一个外观概念就期待供应商决定全部机械系统。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "质量判断：导向与传动共同影响精度",
+        "text": "线性执行器的输出不只取决于电机，丝杆、螺母、外部支撑和安装都会影响最终位置与寿命。验收应在真实负载和行程下进行，不能直接采用目录中的推力或精度表达，也不把工业示例的测试条件推广到小型家庭设备。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "质量验证：样机图纸需与生产配置一致",
+        "text": "定制流程要求验证形状、安装与功能后确认图纸，团队应保留对应配置和测试记录，避免后续修改无法追溯。所谓定制标准化不等于每个版本已经验证，客户仍需确认量产样品与试制件之间的差异，以及变更由谁批准和复测。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "商务边界：快速样品与定制量产区别",
+        "text": "官网有快速样品和报价入口，但本轮未核实具体料号库存、地区配送与量产交期，不能将入口存在转成所有产品现货。标准线性组件和定制机构应分别询价，开发、测试和导向配套也属于总成本，不能只比较电机本体价格。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "title": "商业判断：适当集成比盲目追求精度重要",
+        "text": "对于桌面棋盘，过高工业精度未必能改善用户体验；对于小型制造设备，重复定位则可能直接影响成品。项目应根据容差和任务结果决定投入，而不是把专业运动组件当作高端卖点，供应商能力只能支持路线，不能证明终端市场需求。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "工程风险：自锁与保持需要具体条件",
+        "text": "不同丝杆与结构对保持、效率和反向行为的影响不同，不能把目录对某类方案的说明扩展为所有执行器断电都能安全停住。产品需要明确允许动作与恢复方式，并结合实际载荷验证，不能由普通选型介绍替代整机安全设计。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "供应风险：跨地区窗口不等于多源",
+        "text": "总部、制造地点和海外销售团队属于同一供应网络，不能把它们当作多个独立备选来降低风险。实际项目的生产、支持和签约主体仍须确认，目录没有本站产品点名采用资料，也不会由常州制造能力推断任何现有终端的真实工厂。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s4"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "核验计划：比较真实移动结果",
+        "text": "在目标机构中测试全行程、短距离调整、反向和重复动作，记录末端位置、声音与温度，再与用户任务结果对应。自动棋盘需看棋子是否准确到位，打印或扫描需看输出质量，不用电机自身角度或空载测试代替最终任务。",
+        "evidence": "validation",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "核验计划：确认定制边界与版本资料",
+        "text": "进一步获取机械图、控制接口、导向要求、样品和生产配置及变更流程，确认哪些部分由整机团队承担。当前只是公开能力研究，没有实际样品测量或供货合同，所有关联保持候选，不能被解释为原机物料、兼容替换或交期保证。",
+        "evidence": "validation",
+        "sourceIds": [
+          "s3",
+          "s4"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "DINGS' 美国官方业务与产品",
+      "url": "https://www.dingsmotionusa.com/",
+      "note": "已打开；运动产品、美国运营与中国制造说明，不将第三方合作品牌误作自研。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "DINGS' 官方线性执行器",
+      "url": "https://www.dingsmotionusa.com/stepper-linear-actuators",
+      "note": "已打开；丝杆、滚珠丝杆及结构配置，性能按具体方案。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "DINGS' 官方定制流程",
+      "url": "https://www.dingsmotionusa.com/custom-precision-motion-solutions",
+      "note": "已打开；机械电气定制、样品和生产报价、验证及图纸流程。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s4",
+      "title": "DINGS' 官方总部与全球网络",
+      "url": "https://www.dingsmotion.com/company/global-sales-network.php",
+      "note": "网页工具超时后以公开HTTP读取并实际阅读；常州总部、法律主体及海外地点已确认。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "dings-motion",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "线性定位及运动传动工程备选",
+      "rationale": "DINGS公开丝杆、旋转与线性执行方案，可作为打印机定位机构的工程备选，但需先核对原任务是否适合该传动路线，不能把所有打印轴都假设成丝杆。当前没有K2 Plus点名供货证据，关联只用于比较能力与待确认的结构条件。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s3"
+      ],
+      "productId": "creality-k2-plus-combo",
+      "productName": "Creality K2 Plus Combo",
+      "category": "maker",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "dings-motion",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "转向与仰角定位机构备选",
+      "rationale": "DINGS公开旋转和线性定位方案，可用于讨论Pace S Pro角度机构的执行路线，但需先确认实际运动结构、行程和负载，不能把所有角度机构假设成丝杆。该关联不表示原机采用DINGS，也不涵盖Smart Pace算法或定位套件。",
+      "sourceIds": [
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s3"
+      ],
+      "productId": "pongbot-pace-s-pro",
+      "productName": "PONGBOT Pace S Pro",
+      "category": "sports",
+      "status": "on_sale"
+    }
+  ]
+}

@@ -150,6 +150,10 @@ Fictiv 官网将自身定位为制造和供应链服务商，面向需要定制�
 
 - [1X NEO Home Robot](../hardware/1x-neo-home.md) — **能力候选 · 非已采用** / 机器人结构与装配原型评估：Fictiv公开数字制造和原型服务可用于结构、外壳接口与装配迭代，但不等于拥有NEO关节、控制或安全方案；未见1X点名供货，本候选只对应原型与结构工程的潜在匹配而非现用部件。
 
+- [ININUM Smart Fragrance](../hardware/ininum-smart-fragrance.md) — **能力候选 · 非已采用** / 便携香氛外壳与POD接口原型：Fictiv公开数字制造及原型能力可对应菱面外壳、顶盖和POD接口装配验证，但香氛密封、化学相容及喷洒计量需专门测试；未见ININUM点名采用，候选不能当作实际工厂或材料供应事实。
+
+- [Yarbo Y40 Core + Snow Blower Gen 2](../hardware/yarbo-y40-snow-blower-gen2.md) — **能力候选 · 非已采用** / 除雪模块接口与结构原型：Fictiv的数字制造和原型服务可支持模块连接、外壳及维护可达性评估，但不会自动验证雪载、传动和耐候寿命；没有Yarbo该型号采用披露，候选不代表现用零件、实际工厂或完整安全方案。
+
 ## 来源
 
 - [Fictiv 公司介绍](<https://www.fictiv.com/about-us/>)：数字制造、供应链及原型至生产服务定位。

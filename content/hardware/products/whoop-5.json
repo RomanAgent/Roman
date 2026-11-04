@@ -1,0 +1,427 @@
+{
+  "id": "whoop-5",
+  "name": "WHOOP 5.0",
+  "brand": "WHOOP",
+  "category": "wearables",
+  "tagline": "以连续记录和会员制AI教练服务训练人群",
+  "officialUrl": "https://www.whoop.com/us/en/membership/",
+  "status": "on_sale",
+  "statusEvidence": "官方会员购买页提供加入入口，One和Peak均明确包含WHOOP 5.0；Life搭配MG，不能将MG专属能力写到本条5.0上。",
+  "regions": [
+    "美国官网"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次未核实中国大陆官方销售和会员开通条件；硬件流通不能证明云端会员及全部功能在当地可用。"
+  },
+  "price": {
+    "text": "会员制；当前地区套餐价为准",
+    "note": "不同地区、首年优惠、续订和硬件组合存在差异；本条不把旧会员报价或MG套餐当作5.0统一价格。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "连续生理与训练记录结合WHOOP应用中的AI指导，围绕恢复、负荷与习惯解释个人数据，属于感知算法加语言服务。",
+    "dependency": "硬件与WHOOP会员服务绑定，AI指导在手机应用中使用；所含功能随One、Peak等套餐变化。"
+  },
+  "highlights": [
+    "无屏幕连续佩戴",
+    "训练、恢复和睡眠记录",
+    "硬件与持续会员打包"
+  ],
+  "analysis": {
+    "demand": "需求假设：有固定训练安排的人希望将睡眠、负荷和恢复放在一起查看，减少只凭感觉安排训练的困惑。应测试建议是否帮助用户理解状态，而不把恢复分数视为绝对训练指令。",
+    "userProfile": "用户画像推断：愿意持续佩戴、记录生活习惯并理解会员制的运动人群较适合。仅需要计步、消息或偶尔看时间的用户，可能无法从无屏幕形态和长期订阅中获得同等价值。",
+    "competition": "竞争判断：训练恢复服务与运动手表、无屏幕手环和指环交叉竞争，属于拥挤赛道。WHOOP的差异是会员服务与长期行为数据结合；新旧硬件和套餐也使比较不能只看购入价格。",
+    "supplyChain": "供应链推断：长时佩戴要求表带透气、传感接触稳定且充电便利，配件更替会影响复购与兼容。官方未披露本型号制造工厂；会员支持和设备保障是持续运营成本，不能忽略。",
+    "technology": "官网把连续数据、训练指标与AI指导结合。推断技术挑战在于不同运动的信号误差、个人基线变化和建议解释一致性；5.0与MG应分开，不能把后者的专属健康功能混入本条。",
+    "aesthetics": "审美判断：取消屏幕降低通知和视觉负担，织物表带更接近日常配饰。代价是查看结果仍需手机；汗后清洁、睡觉压迫感与配色选择，对长期佩戴可能比硬件正面造型更重要。",
+    "risks": "风险判断：会员持续收费和套餐变化影响长期成本，单一分数也可能诱发过度解读。个人训练建议不等于医学诊断；未经当地授权的健康功能、跨境会员及数据使用条款需单独确认。",
+    "opportunity": "市场观察：应将WHOOP视为持续数据服务附带硬件，与一次性买断手表分别比较。目录重点记录套餐、5.0与MG边界及地区服务，避免用更高级套餐的功能美化基础产品。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "运动恢复监测竞争密集，无屏幕与会员服务是定位而非无人竞争。"
+  },
+  "architecture": [
+    {
+      "name": "连续记录",
+      "detail": "5.0持续采集与睡眠、训练和恢复相关的数据。",
+      "evidence": "official"
+    },
+    {
+      "name": "指标整理",
+      "detail": "应用组织负荷、恢复和个人趋势。",
+      "evidence": "official"
+    },
+    {
+      "name": "上下文积累",
+      "detail": "生活记录与长期历史为指导提供背景的功能示意。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "AI指导",
+      "detail": "官方2026说明应用中的个性化AI教练体验。",
+      "evidence": "official"
+    },
+    {
+      "name": "会员交付",
+      "detail": "One与Peak的5.0硬件及服务权限按套餐交付。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "WHOOP会员与硬件购买页",
+      "url": "https://www.whoop.com/us/en/membership/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "dependency",
+        "product-line"
+      ],
+      "note": "可加入会员，明确5.0与MG套餐区分。"
+    },
+    {
+      "title": "WHOOP AI指导官方说明",
+      "url": "https://www.whoop.com/us/en/thelocker/new-ai-guidance-from-whoop/",
+      "kind": "official-spec",
+      "supports": [
+        "technology"
+      ],
+      "note": "2026官方说明AI指导在应用中的定位。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "WHOOP会员与硬件购买页",
+        "url": "https://www.whoop.com/us/en/membership/",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,dependency,product-line。可加入会员，明确5.0与MG套餐区分。"
+      },
+      {
+        "id": "s2",
+        "title": "WHOOP AI指导官方说明",
+        "url": "https://www.whoop.com/us/en/thelocker/new-ai-guidance-from-whoop/",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology。2026官方说明AI指导在应用中的定位。"
+      },
+      {
+        "id": "s3",
+        "title": "WHOOP 完整隐私说明：生成式 Coach",
+        "url": "https://www.whoop.com/us/en/full-privacy-policy/",
+        "note": "本轮已打开，2026-08-03 更新；支持第三方大语言模型、去标识指标、WHOOP 对话历史与删除机制的厂商说明，不作为独立审计或医学效果证据。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜无屏连续记录与会员指导",
+          "text": "本型号以无屏佩戴记录训练、睡眠和恢复相关数据，应用中的人工智能指导再结合个人上下文解释与建议。硬件随会员方案交付，需求是把多种记录放在一起帮助回顾安排，而不是查看时间或消息；One、Peak 的 5.0 与 Life 的 MG 需要分开，不能把后者专属能力移入本条。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜训练选择是否更容易理解",
+          "text": "有固定训练的人可能希望知道负荷、睡眠和日常习惯如何关联，指导层有机会减少解读图表的负担。但恢复分数不能成为绝对指令，用户也可能因单日变化过度调整；价值应以理解与合理使用信息判断，而不是建议写得具体或每天都有新的行动项。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜计划回顾与真实任务",
+          "text": "可记录用户在查看数据和 AI 指导前后如何安排与复盘，比较查找、困惑和需要更正的内容。需要同时保留实际感受与数据缺口，不能仅以训练量或分数变化作为工具效果；当前目录没有长期行为或医学研究，官方个性化说明不构成表现提升的保证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜愿意持续佩戴的运动用户",
+          "text": "有重复训练安排、愿意维护生活记录并理解会员制的人可能更匹配，尤其主要在手机中复盘的用户。只需计步、时间或即时消息的人可能无法利用无屏和持续指导，画像应按任务建立；不能把热爱运动直接等同愿意长期支付和管理个人数据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜习惯记录与上下文输入",
+          "text": "个性化依赖测量与用户提供的背景，愿意更新目标和习惯的人可能得到更相关的解释，也承担更多维护。若用户不记录或信息过时，回答可能不贴合实际；画像研究应包含这部分行为，不能只看佩戴设备的坚持程度，更不能把专业运动员宣传推广到所有消费者。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜会员理解与替代需求",
+          "text": "首次使用应检查用户是否理解硬件与服务绑定、所选套餐和续费条件，并比较自己原有手表或应用能完成什么。还要观察无屏是否减少干扰或增加查看手机，不能由极简外观直接判断易用；不同地区开通和功能条件需要单独核对，硬件流通不等于完整服务可用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与运动表的不同分工",
+          "text": "运动表提供即时操作和显示，WHOOP 更集中于连续记录与应用指导，用户可能组合使用，也可能觉得重复。竞争比较应以真实训练和回顾任务为标准，不能只看有无屏幕或传感指标数量；如果用户主要需要活动中查看信息，无屏会员方案未必是合适替代。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜同类指导服务的共同需求",
+          "text": "其他穿戴与应用也可能结合数据给出建议，WHOOP 的差异需要落到基线、上下文和实际复盘流程，而不是 AI Coach 名称。场景分组应复用个人训练与恢复指导的核心任务，不因腕带、会员或代际增加独立需求；当前没有销量和访谈证据支持竞争强度的量化判断。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜按整个会员周期比较",
+          "text": "总成本应按当前地区、方案、首期与续订条件计算，不能把硬件包含理解为没有长期费用，也不能使用 MG 套餐价格代表 5.0。配件和保障范围需要核对实际计划，当前没有价格弹性或留存研究；目录不因会员制或品牌生态推断用户一定持续获得足够价值。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜连续采集与服务交付",
+          "text": "公开资料支持生理与运动记录、无屏佩戴和充电配套，但本型号具体器件厂商和制造工厂没有完整披露。会员还承接软件与设备支持，不能只估算硬件物料；目录不从 MG 或旧代资料补出 5.0 的专属模块，也不把概念示意当作真实内部结构与供应关系。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜接触、表带与充电约束",
+          "text": "长期佩戴要求接触稳定、表带可接受且充电不造成过多记录缺口，不同活动也可能改变信号质量。供应链研究应同时关注配件兼容与服务维护，不能只看小型机身；当前没有工厂良率、部件寿命或实际成本资料，不能根据会员价格推断硬件毛利或制造水平。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜生理与运动输入候选",
+          "text": "亚德诺可作为这类腕部生理采集前端的候选路线，博世可作为运动输入候选，当前没有 5.0 点名采用。需核对实际输入、结构、接口与电源，不能直接替换或借候选多模态能力添加功能；它们也不提供 WHOOP 的恢复模型、会员和语言指导，数据与服务需分别验证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜指导包含生成式模型",
+          "text": "官方指导与隐私说明将个人指标、上下文和第三方大语言模型联系起来，交互发生在应用中。无屏腕带不是本地聊天终端，具体模型版本和完整部署未全部公开；目录把连续采集、负荷恢复估算与语言解释分开，不用一层的表现证明其他层准确或具有医学效果。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "判断｜上下文与指标共同影响回答",
+          "text": "相同训练记录在不同目标与生活背景下可能产生不同解释，因此用户提供的信息需要及时和可控。模型也可能把相关变化误当原因，具体建议不等于可靠建议；技术评价应看回答能否对应可见指标、承认缺失与不确定，而不是只看它是否显得了解用户或给出详细计划。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜数据变化与解释一致性",
+          "text": "可观察佩戴中断、活动修正和目标更新后，指标与 AI 回答如何变化，并用相同背景重复关键问题。需要区分数据估算错误和语言解释错误，不能以自然表达掩盖底层不完整；当前没有独立模型评估，厂商旧代研究或营销数据也不能直接保证 5.0 当前版本的个人表现。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜无屏腕带的专注感",
+          "text": "没有腕上大屏可能减少通知与视觉干扰，也让设备更像持续佩戴的记录工具，但是否合适取决于用户习惯。需要时间和即时反馈的人可能仍要另一块表，外观简洁不代表整套装备更少；官方图片无法证明所有腕围、表带和活动都舒适，长期体验仍需实物观察。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜应用承担解释与行动",
+          "text": "用户主要在手机中查看恢复、负荷和指导，界面需要帮助理解关系，而不只是突出单个分数。设计研究应观察是否容易找到来源、调整背景和忽略无用提示；无屏硬件可以减少打扰，应用却可能增加关注压力，因此两个层面的体验应共同评价，不能只看腕带极简。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜全天佩戴与配件流程",
+          "text": "试用应覆盖训练、工作、睡眠和充电，记录接触变化、表带舒适、清洁与重新佩戴后的数据情况。不同配件和位置应按本型号说明核对，不能从旧代或 MG 推断兼容；持续记录的价值依赖实际佩戴和维护，标称续航或宣传场景不能替代长期用户反馈。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜单一分数的过度解释",
+          "text": "恢复和训练相关分数可能影响用户决策，但不能被当作绝对强度指令或医学结论。个性化指导仍可能受缺失和模型错误影响，重要问题需要更完整的信息；目录不把消费数据与语言建议扩展成诊断或治疗，也不因建议具体就保证它适合当前身体与活动状态。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜会员与模型数据边界",
+          "text": "隐私说明区分第三方模型处理与 WHOOP 自身保留对话历史，第三方不保留的承诺不能理解为整个平台没有记录。会员、套餐和地区也影响长期功能与成本，用户需要核对退出、删除和导出；本研究没有独立审计，不把政策文本或硬件在手当作永久可用和绝对隐私保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜更正、删除与服务变化",
+          "text": "应检查用户修改背景、删除对话或改变会员后，指导与历史访问如何变化，并确认哪些内容仍被使用。重要训练安排需要用户判断，不能仅凭模型给出的分区或目标机械执行；验证重点是可解释与可控制，当前目录不将厂商说明扩展成所有账户和地区都相同的结果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s3"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜训练回顾的持续价值",
+          "text": "本型号值得研究的是用户是否通过长期记录更清楚地理解训练与恢复，而不是每天得到更多建议。若用户很少回顾或主要需要即时屏幕，会员指导可能没有足够收益；场景分组应围绕真实决策任务复用，而不因无屏腕带或套餐名称单独增加创新数量。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜服务是否超过持续成本",
+          "text": "会员制要求价值持续发生，研究应记录用户实际采用哪些解释、忽略哪些建议，以及需要多少人工更正。设备持续佩戴不等于指导持续有用，聊天次数也不等于理解改善；只有可核查收益超过费用与数据维护，才可能形成长期购买理由，不能由品牌认同代替验证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜跨周期的任务比较",
+          "text": "后续可跟踪多个训练周期中的佩戴、数据缺失、计划调整、指导复核和会员成本，并比较已有手表或应用何时足够。5.0 与 MG、不同地区方案应保持清晰边界，不用旧报价或短期体验代表长期；当前目录是案头研究，不以在售和 AI 指导宣传宣称需求与健康效果已验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "analog-devices",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "腕部生理记录的采集前端候选",
+        "rationale": "WHOOP 5.0 的连续生理记录可研究亚德诺光学前端路线，但需先核对实际输入、结构、采样和电源，当前没有供货点名。候选器件的其他通道不能用来添加 MG 专属或未披露功能，也不证明 WHOOP 指标和 AI 指导准确；该链接属于新设计比较而非现有物料识别。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "bosch-sensortec",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "训练与活动记录的运动输入候选",
+        "rationale": "本型号需要活动与运动信息，博世传感路线可作为新设计候选，需验证佩戴位置、安装、采样与主控功耗。当前没有实际采用证据，预置运动算法不等于 WHOOP 的负荷模型；器件也不提供会员服务或语言指导，不能由同类腕带常见方案推断供货。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "training-recovery-guidance",
+      "needName": "运动记录与训练恢复指导",
+      "difference": "WHOOP 5.0以连续采集和手机中的AI指导连接训练负荷、睡眠与恢复，较腕上有屏运动表更强调回看数据后理解训练安排，而非在手腕处理短任务。其核心仍与训练手表共享运动指导需求，会员制和无屏形态是使用及成本取舍。One、Peak等权益需分别核对，不能移入MG专属功能；单个恢复分数不应替代身体感受，持续付费、数据缺失和建议纠错也会影响长期价值。",
+      "comparisonBasis": "与Amazfit等训练手表、独立训练App和手工训练日志比较负荷及恢复信息进入训练安排的方式。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/whoop-5/product.webp",
+      "sourceUrl": "https://www.whoop.com/ch/en/membership/",
+      "sourceImageUrl": "https://images.ctfassets.net/rbzqg6pelgqa/3waVHtJ6R9HOTAreGiUP5a/e9a8df7e641adb0cbf3adc005d31a278/One_card__1_.png?fm=webp&q=25&w=3840",
+      "caption": "WHOOP 5.0 One 官方设备与应用展示",
+      "alt": "WHOOP 5.0 One 官方设备与应用展示",
+      "credit": "WHOOP · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 41694,
+      "sha256": "4c40853f9af0e078d7dd980e4cee49fe33e863ceb1cb4fb321089d888dec726b"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/whoop-5/reference.webp",
+      "sourceUrl": "https://www.whoop.com/ch/en/membership/",
+      "sourceImageUrl": "https://images.ctfassets.net/rbzqg6pelgqa/2L5W622UNiYxlnHE3hHGAL/d3443637b907fe3541f32a8d9fe58cbc/Peak_card__1_.png?fm=webp&q=25&w=3840",
+      "caption": "WHOOP 5.0 Peak 官方表带与应用参考",
+      "alt": "WHOOP 5.0 Peak 官方表带与应用参考",
+      "credit": "WHOOP · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 42512,
+      "sha256": "872d305d392f6134085c8e074a5e1fea3133bed3f1615b7fa125cba500444932"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/whoop-5/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "WHOOP 5.0 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/whoop-5.txt",
+      "referencePaths": [
+        "assets/hardware/whoop-5/product.webp",
+        "assets/hardware/whoop-5/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1834622,
+      "sha256": "cb723e155a65c3b31539380812f3920ab0e3bca7bd24992ff4b1cdb2ec026fdb"
+    }
+  ],
+  "mediaNotes": [
+    "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。",
+    "One与Peak图片均来自官网对应WHOOP 5.0栏目，非MG；应用中的数值是官方展示画面，不是本项目实测。"
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "id": "livingai-emo",
+  "name": "EMO",
+  "brand": "LivingAI",
+  "category": "companion",
+  "tagline": "以表情、动作和人物识别陪伴桌面时光",
+  "officialUrl": "https://living.ai/product/emo/",
+  "status": "on_sale",
+  "statusEvidence": "官方商品页显示US$279、Add to cart，并写明下单后约两周发货；这属于可订购商品，未把旧介绍页的预售措辞当作当前状态。",
+  "regions": [
+    "国际官网（收货地区待结算）"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次未核实中国大陆官方销售、中文能力和本地售后，不能从美元商店推断国行可用。"
+  },
+  "price": {
+    "text": "US$279",
+    "note": "官网标准EMO套装标价；自动回充款EMO GO HOME是另一SKU，运税与收货地区以结算为准。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "官方说明内置神经网络处理器与AI模型，支持人物识别、声音定位和桌面行为；本记录不将所有问答宣称为已核实的大模型能力。",
+    "dependency": "人物与桌面感知有机内处理说明；天气、联网问答和更新涉及网络服务，完整离线能力与云端分工需另核。"
+  },
+  "highlights": [
+    "桌面自主探索和多种表情动作",
+    "人物识别与声音定位",
+    "标准套装与GO HOME回充套装需区分"
+  ],
+  "analysis": {
+    "demand": "需求假设：长时间在电脑前工作的用户，可能想要一个偶尔回应的桌面角色，而不是再增加任务管理工具。应观察是否打断工作、多久主动互动，以及新鲜感过去后仍保留哪些动作。",
+    "userProfile": "用户画像推断：机器人爱好者、桌搭玩家及希望低成本尝试电子宠物的人更可能理解其能力边界。桌面空间较小、噪声敏感或把它当成可靠工作助理的用户，需要单独验证适配。",
+    "competition": "竞争判断：桌面机器人已面对Eilik、Loona等不同形态及手机宠物应用的竞争。中等价位不等于空白市场；角色性格、持续内容和购后体验比单次演示的动作数量更重要。",
+    "supplyChain": "供应链推断：小型驱动、显示屏、感知模组和充电配件需共同控制成本及跌落风险；官方未披露具体工厂。标准款和自动回充款的配件差异，还会增加库存、说明书与售后复杂度。",
+    "technology": "官方核心是人物识别、声音跟随及神经网络处理。推断关键在桌缘感知与动作可靠性、识别延迟和反馈节奏；网页仍列部分未来功能，不能把规划中的能力算作现有产品优势。",
+    "aesthetics": "审美判断：耳机、滑板和屏幕表情形成鲜明桌面角色，更接近潮流玩具而非家电。优点是易形成视觉记忆；限制是强风格未必适合安静办公和黑白极简空间，可研究更克制版本。",
+    "risks": "风险判断：桌缘保护不应被理解为任何环境绝不会跌落；高低差、遮挡和杂物仍需实测。境外云服务、保修回寄与未兑现的开发中功能，也可能影响中国用户的长期体验。",
+    "opportunity": "机会假设：可围绕不打断工作的轻陪伴建立更窄的场景，例如明确休息提示和可解释的互动状态。先验证桌面安全与静音体验，再扩展问答和物联网控制，减少使用预期错位。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "桌面宠物已有多个成熟角色与相近价位，细分场景仍可区分。"
+  },
+  "architecture": [
+    {
+      "name": "输入感知",
+      "detail": "声音、人物与多种内部传感数据进入系统。",
+      "evidence": "official"
+    },
+    {
+      "name": "机内识别",
+      "detail": "官方说明神经网络处理器及AI模型。",
+      "evidence": "official"
+    },
+    {
+      "name": "角色行为",
+      "detail": "动作、面部动画和声音响应组成互动。",
+      "evidence": "official"
+    },
+    {
+      "name": "联网扩展",
+      "detail": "天气与在线内容通过服务形成补充，具体分工示意。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "LivingAI EMO商品页",
+      "url": "https://living.ai/product/emo/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price"
+      ],
+      "note": "明确加购及约两周发货。"
+    },
+    {
+      "title": "LivingAI EMO能力介绍",
+      "url": "https://living.ai/emo/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture",
+        "risks"
+      ],
+      "note": "网页中的开发中功能不计入已交付能力。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "LivingAI EMO商品页",
+        "url": "https://living.ai/product/emo/",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：明确加购及约两周发货。"
+      },
+      {
+        "id": "s2",
+        "title": "LivingAI EMO能力介绍",
+        "url": "https://living.ai/emo/",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：网页中的开发中功能不计入已交付能力。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "EMO 的任务是在桌面上自主探索并以表情、声音和动作回应，为长时间在电脑前的人提供轻陪伴。它不以替用户完成工作为主要价值，因此需求分析应关注是否让桌面更有趣，而不是套用智能助理的任务完成率。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "自主动作可能让角色显得有自己的节奏，也可能打断工作或占据有限空间。用户喜欢一次舞蹈演示，不代表愿意每天容忍机械声和移动；持续需求应由安静使用、主动互动和闲置之间的关系判断。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可在真实工作桌上记录主动互动、被打断、收起设备和充电处理的情况，比较首周与后续几周。尤其要观察用户保留哪些动作、关闭哪些功能，从而区分对角色的长期喜爱与对大量动画的新鲜感。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "较适合桌搭玩家、电子宠物爱好者及愿意探索功能边界的人，他们可能接受设备偶尔需要帮助。桌面狭小、共享办公或对声音敏感的用户则有不同约束，不能仅以年龄或对科技感兴趣来定义适配人群。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "标准套装和 GO HOME 回充套装的差异会改变照护行为，购买者可能因价格选择标准款，却期待完全自主生活。画像研究应包含用户愿意承担的充电和摆放工作，避免把套装差异造成的不便误判为角色吸引力不足。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "可让参与者按自己的桌面和工作习惯选择摆放位置，观察其是否反复腾挪物品或担心跌落。再询问实际愿意承担的维护频率，对比不同套装预期，以识别最需要明确说明的购买条件和使用边界。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "EMO 与 Eilik 等桌面伙伴、轮式宠物及手机电子宠物竞争，鲜明耳机和滑板角色是识别点。比较应围绕桌面共处体验，而非仅统计表情数量；不同产品对移动、触碰和对话的取舍会吸引不同使用习惯。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "中等价位不能自动形成空白市场，持续内容、服务可用性和购后支持共同影响留存。若角色依赖不断推出新动作才能被使用，运营负担可能较大；更稳固的优势可能来自少量稳定且恰好不打扰的日常互动。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "竞争验证可让用户在相同桌面环境轮流使用不同形态产品，记录是否主动保留在视野中。测试应把真实充电、声音和空间需求纳入，而不是只比较各自最精彩的演示，才能理解角色为何被长期接纳或收进抽屉。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能可以拆为声音和人物感知、机内识别、动作执行、屏幕与声音反馈，以及联网内容和充电配件。官网披露神经网络处理相关能力，但没有完整工厂或物料表，不能凭外观推断内部电机和传感器的确切型号。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "制造重点是小型驱动的噪声与寿命、显示装配、桌缘感知一致性和充电接触。套装配件不同还影响说明书、库存和售后，不能只按本体电子成本评估交付；桌面跌落的后果也要求结构和控制共同验证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "歌尔可作为声音与紧凑智能硬件工程候选，SIIX 可作为控制板及电子组装候选。它们没有被公开点名为 EMO 供应商，运动安全、角色算法和套装兼容仍需独立确定，不能从电子制造能力推定完整桌面机器人经验。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "官方明确人物识别、声音定位和机内 AI 处理，联网天气与内容则有服务依赖。本记录不把所有问答都认定为已核实的大模型能力，也不把网页仍标记开发中的功能纳入当前产品优势，技术比较需要以已交付范围为准。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "桌面机器人最大的工程难点之一是边缘、杂物和动作之间的协调。即使人物识别很准确，动作失误仍会产生跌落担忧；用户对角色的信任来自整体行为可预测，而不是单项智能功能在理想环境中的识别表现。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证应在不同表面、边缘形状和杂物条件下观察动作边界，并分别测试人物识别与声源响应。对联网及开发中功能要记录版本和可用条件，不以单次成功演示替代稳定性，也不能把保护功能解释成绝不会跌落。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "耳机、滑板和屏幕表情让 EMO 接近潮流桌面角色，视觉记忆强于普通智能音箱。这种风格有助于收藏和展示，也意味着它未必自然融入每种办公空间，审美接受度需要结合用户桌面而不是孤立评价外壳。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "动作与待机状态决定角色是否能在工作环境里长期存在。用户可能喜欢活泼表达，却希望专注时不被打扰；外观和行为需要形成一致的节奏，不能仅以丰富动画弥补机械声或屏幕亮度带来的持续干扰。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证应在专注工作、休息和夜间场景观察设备是否被留在桌面，记录用户主动调节的设置。还要检查充电配件和线材如何影响桌面整洁，以确认宣传中完整的角色形象能够在真实生活中维持。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "主要风险是桌缘保护被误解为绝对安全、跨境售后成本以及未交付功能造成预期落差。用户购买的是现有设备，不能把开发计划当作保证；联网内容、账户和服务地区也需要与本地动作功能分开理解。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "当设备因网络、充电或环境问题不回应时，用户容易把所有失效归为不够聪明。清晰的状态和恢复路径能减少这种误解；如果需要长期人工看护才能避免跌落，桌面陪伴的轻量定位也会受到挑战。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证可检查用户阅读说明后是否仍以为设备可以在任意桌面无人看管，再演练断网、低电量和回充失败。记录恢复所需步骤与售后可达性，但不把测试结果外推为所有表面、固件或跨境环境下都适用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会可能在于更加安静和可预测的桌面轻陪伴，把有限空间中的安全、状态表达和互动节奏做好。新团队可以先选择明确休息场景或短互动，不必立即扩展天气、问答和物联网控制，以降低需求与实现的错位。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会成立需要证明用户愿意持续把角色留在桌面，而不是只在朋友来访时开启展示。若减少动作反而提升共处体验，产品应顺应这种结果；更强计算或更多内容未必能解决声音、空间和维护这些基础问题。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可用有限动作和明确静默模式的原型，连续观察工作日中的主动互动与打断。先验证桌面安全和长期摆放，再逐步增加联网能力，并用每次扩展是否改善真实使用来决定投入，而不是追求功能数量。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "goertek",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "桌面音视频交互硬件整合",
+        "rationale": "歌尔的声学与智能硬件工程范围可支持 EMO 类显示、音频和紧凑感知系统评估，但桌缘安全与角色行为不在公开能力描述中自动得到证明；没有型号合作证据，保持工程候选身份。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "siix",
+        "role": "pcb",
+        "relationship": "candidate",
+        "component": "小型控制板与电子装配",
+        "rationale": "SIIX 公开电子制造和组装能力可支持小型机器人控制板及测试导入，但需要另行定义运动负载、感知校准和充电测试；未找到其为 EMO 供货的点名资料，因此不是实际代工关系披露。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "embodied-companionship",
+      "needName": "实体陪伴与日常互动",
+      "difference": "EMO 的区别在于具体实现与使用条件：官方明确人物识别、声音定位和机内 AI 处理，联网天气与内容则有服务依赖。本记录不把所有问答都认定为已核实的大模型能力，也不把网页仍标记开发中的功能纳入当前产品优势，技术比较需要以已交付范围为准。中等价位不能自动形成空白市场，持续内容、服务可用性和购后支持共同影响留存。若角色依赖不断推出新动作才能被使用，运营负担可能较大；更稳固的优势可能来自少量稳定且恰好不打扰的日常互动。",
+      "comparisonBasis": "EMO 与 Eilik 等桌面伙伴、轮式宠物及手机电子宠物竞争，鲜明耳机和滑板角色是识别点。比较应围绕桌面共处体验，而非仅统计表情数量；不同产品对移动、触碰和对话的取舍会吸引不同使用习惯。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/livingai-emo/product.jpg",
+      "sourceUrl": "https://living.ai/product/emo/",
+      "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2020/12/product1-2.jpg?fit=2000%2C2000&quality=89&ssl=1",
+      "caption": "EMO 标准款官方正面产品图",
+      "alt": "EMO 标准款官方正面产品图",
+      "credit": "LivingAI · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 494595,
+      "sha256": "9ac8d6847e71025e7026f4632b81361ef57b4a9754660a8040f085f2622e57e6"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/livingai-emo/reference.jpg",
+      "sourceUrl": "https://living.ai/product/emo/",
+      "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2025/04/2026010606.jpg?fit=2000%2C2000&quality=89&ssl=1",
+      "caption": "EMO 官方套装与配件参考图",
+      "alt": "EMO 官方套装与配件参考图",
+      "credit": "LivingAI · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 95785,
+      "sha256": "a393209d2211cf296b5f292a650572bf01bcc7425a5da7eed0b8e4432018f400"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/livingai-emo/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "EMO 的AI生成结构爆炸示意，内部布局为推断，非实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/livingai-emo.txt",
+      "referencePaths": [
+        "assets/hardware/livingai-emo/product.jpg",
+        "assets/hardware/livingai-emo/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1433188,
+      "sha256": "030320e8bc5827fb396cd8199fbac1f6987dda91790c28e1a8d4b2c3d3ed9ec0"
+    }
+  ],
+  "mediaNotes": [
+    "已目视核对产品外形与AI标识；verified不代表内部布局经实物拆机验证。"
+  ]
+}

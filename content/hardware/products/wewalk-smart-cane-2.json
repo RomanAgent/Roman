@@ -1,0 +1,499 @@
+{
+  "id": "wewalk-smart-cane-2",
+  "name": "WeWALK Smart Cane 2",
+  "brand": "WeWALK",
+  "category": "accessibility",
+  "tagline": "传统白杖手柄中的AI语音与导航入口",
+  "officialUrl": "https://wewalk.io/en/",
+  "status": "on_sale",
+  "statusEvidence": "官方订购页可选择国家、杖长及附加服务并继续至Checkout；这是具体实物订单流程，不是仅填写邮箱的候补名单。",
+  "regions": [
+    "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+  },
+  "price": {
+    "text": "按国家与AI附加服务动态报价；未读取到统一总价",
+    "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "AI Assistant通过自然语言提供地点、交通及日常问答，白杖另有上半身障碍探测；不把普通探障传感器单独算作AI",
+    "dependency": "智能功能依配套手机App、地区地图与网络；AI权限取决于购买附加包或订阅，基础白杖仍可脱网使用"
+  },
+  "highlights": [
+    "传统白杖手柄中的AI语音与导航入口",
+    "带物理按键的智能手柄、可折叠白杖与声音/振动反馈",
+    "AI与联网服务边界单列",
+    "个人可使用的实体产品"
+  ],
+  "analysis": {
+    "demand": "需求假设：白杖使用者希望在持杖时查路线与周边信息，减少同时掏手机的步骤。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+    "userProfile": "画像推断：已掌握基本白杖使用方法，愿意配置手机与语音功能的视障或低视力个人更匹配。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+    "competition": "案头判断：与普通白杖、手机无障碍导航和专业出行训练形成替代与互补关系。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+    "supplyChain": "TDK官方案例明确披露SmartMotion惯性、SmartSound麦克风与SmartSonic超声ToF等传感方案参与Smart Cane 2；具体料号、整机工厂与完整BOM未公开。合作证据不代表所有AI在这些传感器上运行，也不证明实测探障效果。",
+    "technology": "AI Assistant通过自然语言提供地点、交通及日常问答，白杖另有上半身障碍探测；不把普通探障传感器单独算作AI。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+    "aesthetics": "图示观察：手柄保留握持和触觉按键，杖身延续熟悉的白杖形态而不是改成机器人。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+    "risks": "语音回答、地图和障碍探测各有盲点，不能承担道路通行决策或替代定向行走技能。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+    "opportunity": "市场差异主要在于传统白杖手柄中的AI语音与导航入口。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "实体输入",
+      "detail": "带物理按键的智能手柄、可折叠白杖与声音/振动反馈；仅功能层示意，非拆机。",
+      "evidence": "official"
+    },
+    {
+      "name": "采集与控制",
+      "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "AI功能",
+      "detail": "AI Assistant通过自然语言提供地点、交通及日常问答，白杖另有上半身障碍探测；不把普通探障传感器单独算作AI",
+      "evidence": "official"
+    },
+    {
+      "name": "服务依赖",
+      "detail": "智能功能依配套手机App、地区地图与网络；AI权限取决于购买附加包或订阅，基础白杖仍可脱网使用",
+      "evidence": "official"
+    },
+    {
+      "name": "用户反馈",
+      "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "WeWALK当前产品与AI说明",
+      "url": "https://wewalk.io/en/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "WeWALK官方订购页",
+      "url": "https://wewalk.io/en/checkout/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "regions"
+      ],
+      "note": "已打开国家、杖长及Continue to Checkout流程；没有提交订单。"
+    },
+    {
+      "title": "WeWALK AI权限与订阅边界",
+      "url": "https://support.wewalk.io/en/article/if-i-own-a-wewalk-smart-cane-do-i-also-need-to-purchase-a-wewalk-subscription-2/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "WeWALK AI Assistant指令说明",
+      "url": "https://support.wewalk.io/en/article/what-skills-does-the-voice-assistant-have-2/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "TDK与WeWALK Smart Cane 2公开合作案例",
+      "url": "https://www.tdk.com/en/featured_stories/entry_084-WeWALK-Smart-Cane-2.html",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "supplyChain"
+      ],
+      "note": "点名Smart Cane 2与传感方案关系；未披露具体料号、整机工厂或完整BOM。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "WeWALK当前产品与AI说明",
+        "url": "https://wewalk.io/en/",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,architecture。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s2",
+        "title": "WeWALK官方订购页",
+        "url": "https://wewalk.io/en/checkout/",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,regions。已打开国家、杖长及Continue to Checkout流程；没有提交订单。"
+      },
+      {
+        "id": "s3",
+        "title": "WeWALK AI权限与订阅边界",
+        "url": "https://support.wewalk.io/en/article/if-i-own-a-wewalk-smart-cane-do-i-also-need-to-purchase-a-wewalk-subscription-2/",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,architecture。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s4",
+        "title": "WeWALK AI Assistant指令说明",
+        "url": "https://support.wewalk.io/en/article/what-skills-does-the-voice-assistant-have-2/",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,architecture。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s5",
+        "title": "TDK and WeWALK Smart Cane 2 disclosed sensor collaboration",
+        "url": "https://www.tdk.com/en/featured_stories/entry_084-WeWALK-Smart-Cane-2.html",
+        "note": "本轮已打开。点名SmartMotion、SmartSound、SmartSonic与具体产品；未公开完整料号，不把传感器最大测距或供应商营销表述当整机效果。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜白杖手柄中的信息入口",
+          "text": "Smart Cane 2保留传统白杖使用方式，同时加入上半身障碍提示、手机应用控制和AI语音问答。官方把这些能力分为不同模式，断开连接时仍可作为普通白杖使用；自然语言助手处理地点、交通与日常问题，不能把所有导航、测距和机械探路功能统称为同一种人工智能。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "判断｜持杖时减少操作冲突",
+          "text": "核心需求假设是用户在持杖行走时，希望更方便地获取路线和周边信息，减少取出、解锁及操作手机的步骤。额外信息只有在时机合适、听得清且不淹没环境线索时才有价值；功能更多也可能增加注意负担，因此需要比较完整出行过程而不是单次问答速度。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "验证｜从熟悉路线逐步观察",
+          "text": "可由具备相关支持条件的用户在熟悉环境中记录何时调用语音、是否需要停下操作、提示是否重复以及是否仍需拿出手机。不要为了测试去依赖设备完成危险通行；重点是原有出行流程中少了哪些动作、多了哪些困扰，并记录无网络时能继续完成的基础任务。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "官方｜传统技能仍在系统内",
+          "text": "产品沿用可选择长度的白杖与智能手柄，官方订购流程要求按地区和配置选择，应用承担部分导航与服务连接。传统白杖操作没有被自动驾驶替代，使用者仍需理解触觉和声音提示；订单入口也没有证明任何身体条件或手机经验的人都适合相同长度和设置。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜本人技能与技术支持并看",
+          "text": "已掌握白杖基本使用、愿意学习手柄操作并能获得手机设置帮助的个人，可能更容易评估其增量价值。对主要困难在于基础定向行走的人，新增智能信息未必优先；家庭或专业人员的支持应帮助用户建立可理解的流程，而不能用代为操作的演示替代本人体验。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜记录学习与日常维护",
+          "text": "试用需要本人完成模式识别、音量或反馈设置、设备充电和手机重新连接，并说明失去智能提示时如何继续既有活动。把首次教学和熟悉后的独立操作分开记录，确认谁负责软件更新与售后联系；这些信息比按年龄或障碍类别简单建立用户画像更有用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "官方｜实物配置与AI权益分开",
+          "text": "官方订购页提供国家、杖长和附加服务选择，可继续进入实物订单流程；AI权限另有购买附加包或订阅说明。核查未取得适用于所有地区的统一总价，因此硬件、可选服务与配送应分项确认，不能把主页分期金额当作完整售价，也不能默认买杖后永久包含全部在线能力。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "判断｜与白杖加手机比较",
+          "text": "直接替代方案是原有白杖配合手机无障碍导航，智能手柄的差异在于控制位置和上半身障碍补充提示。它仍与地图服务、专业训练及必要的人工协助互补；不能因外形特殊就认定竞争稀少，也不能把已有手机服务的全部价值都归于这根白杖的电子硬件。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "验证｜相同信息任务下比较",
+          "text": "比较时可选择查询附近地点、确认路线和获得一条交通信息，记录手机单独操作与手柄入口的步骤、等待和重复提问。另行评价障碍提示，避免把不同功能混成一个总体满意分数；成本表还应包括订阅、维修和手机条件，才有助于本人判断新增设备是否值得保留。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜TDK合作已有点名证据",
+          "text": "TDK官方案例明确点名Smart Cane 2采用SmartMotion惯性、SmartSound麦克风及SmartSonic超声飞行时间等方案，并提及相关连接和电源器件。这支持特定产品与传感模块系列的合作关系，但未公开完整料号、整机工厂或物料清单，也不证明所有导航和AI处理都在这些器件上完成。",
+          "evidence": "official",
+          "sourceIds": [
+            "s5"
+          ]
+        },
+        {
+          "title": "判断｜机械功能必须独立可靠",
+          "text": "从使用方式推断，电子手柄的重量、握持、跌落和连接结构会影响原有白杖动作，因此不能只在桌面验证传感器输出。模块化或可升级的宣传还需要具体接口和维修政策支撑；传感器工作正常不等于整根白杖在长期折叠、碰触和携带后仍维持相同手感与可靠性。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s5"
+          ]
+        },
+        {
+          "title": "验证｜模块证据与整机测试分开",
+          "text": "供应链核验应先确认已披露模块对应的具体型号和版本，再测试安装方向、声音入口和障碍反馈时序。TDK合作可标为已披露，其他低功耗连接主控只能作为同类新设计候选；供应商器件最大测距不能直接写成白杖在任何材质、角度和天气下的有效探测范围。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s5"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜输入与服务分层工作",
+          "text": "公开说明能够区分超声障碍感知、运动信息、麦克风语音入口和连接手机后的助手及导航服务。AI助手通过自然语言提供信息，普通测距本身并不是生成式智能；本目录据功能描述展示这些关系，不把传感器、地图或问答服务的供应身份混成同一家公司。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "判断｜不同提示需要明确优先级",
+          "text": "障碍提醒、路线指令和一般问题回答可能在相近时间出现，系统价值取决于能否让用户清楚区分紧迫程度。过多或模糊提示可能增加停顿和忽略，尤其语音会与环境声音竞争；这一点属于架构与交互分析，不代表已发现本产品存在特定时序缺陷。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "验证｜失联与信息冲突要可理解",
+          "text": "可在安全的固定环境中断开手机或网络，检查设备如何说明哪些功能不可用，以及用户是否还能辨认普通白杖模式。对地图信息过期、问答没有结果和障碍反复提示分别记录，确认系统没有把缺失信息伪装成肯定结论；这些检查比只验证一次连网演示更接近日常需求。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "官方｜熟悉杖身与按键手柄",
+          "text": "官方图示和订购配置显示产品延续白杖形态，并在手柄上布置可触摸的物理控制与反馈入口。杖长需要按个人情况选择，电子部分承担智能操作；外观资料能够说明设计方向，但不能证明所有握持方式、手掌尺寸或长期行走中的舒适度，实际适配需要本人确认。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜触觉可辨识是设计核心",
+          "text": "对白杖用户而言，按键能否用触觉区分、握持时会不会误触、提示是否容易理解，比外观是否像先进设备更重要。传统形态有利于保留已建立的操作习惯，但更粗或更重的手柄也可能改变感受；设计评价应尊重用户选择简单工具或关闭部分智能功能的偏好。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜覆盖收纳与日常接触",
+          "text": "可以观察开门、拿包、坐下和折叠收纳时手柄如何被握持，记录误触、反馈遮挡和重新找回控制位置的困难。试用也应包含不同衣物与携带方式，确认设备是否增加额外动作；这些是外观与操作关系的观察，不应从产品照片推断具体重量感或材料耐久性。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "官方｜在线权限与当地信息范围",
+          "text": "助手与部分导航依赖配套应用、网络和相应权益，具体地点或交通信息也受地区数据覆盖影响。基础白杖仍保留离线机械用途，但这不能推导所有电子功能均可离线；本轮也没有确认中国大陆的完整销售和服务，海外订单入口不能替代当地可用性核实。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ]
+        },
+        {
+          "title": "判断｜辅助信息不能代替通行判断",
+          "text": "超声感知、地图与语言模型各有不同盲点，返回一个合理答案也不代表现场道路状态已经核实。设备不能替代定向行走技能或承担道路通行决策；对重要位置和路线，应明确数据是否实时、提示是否有不确定性，同时避免把厂商合作和奖项当作独立安全效果证据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "验证｜事先说明失效时的动作",
+          "text": "用户应能辨认连接中断、权限不足与无结果提示，并通过既有方法继续活动或寻求适当帮助。服务核验还需确认退换、维修和订阅停止后的功能保留范围；测试不应以危险场景证明系统极限，而应在可控条件下确认信息缺失能被发现并被正确理解。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "官方｜多模式围绕同一出行任务",
+          "text": "传统白杖、增强提示、导航与语音助手共同服务于个人出行，并非四种可以重复计数的独立硬件需求。已披露传感合作使功能架构更具体，但产品仍依靠机械技能、手机和服务组成完整体验；官方计划的升级方向也不能作为目前已经交付的额外能力计算。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "判断｜有价值的是少一次停顿",
+          "text": "最值得继续研究的是用户在熟悉出行流程里能否少一次拿手机、少一次重复询问，同时不增加对提示的困惑。若主要收益来自方便的控制入口，应如实描述这一细小但具体的改善；不需要把设备包装成完全理解环境或替用户规划所有行动的智能体。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "title": "验证｜以个人路线记录长期变化",
+          "text": "后续观察可由本人选择常走路线，记录主动使用功能、停顿原因、无效提示与手机操作次数，并单独统计维护和学习时间。保留关闭智能功能的比较条件，确认变化不是短期熟悉效应；本目录没有独立用户研究，不能据公开合作案例推定长期出行效果或商业需求规模。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "tdk-invensense",
+        "role": "sensing",
+        "relationship": "disclosed",
+        "component": "已披露SmartMotion、SmartSound与SmartSonic传感方案",
+        "rationale": "TDK官方合作案例明确把Smart Cane 2与其惯性、声音和超声飞行时间模块系列联系起来，因此可记录已披露的传感合作。证据没有公开完整料号、工厂和所有控制芯片，也不能将器件极限参数等同白杖整机有效范围；导航与生成式问答的执行位置仍需分别说明。",
+        "sourceIds": [
+          "s5"
+        ],
+        "supplierSourceIds": [
+          "s5"
+        ],
+        "relationshipEvidence": "TDK官方文章明确点名WeWALK Smart Cane 2采用SmartMotion惯性、SmartSound麦克风和SmartSonic超声ToF方案；未给出完整料号、整机工厂，也不证明所有AI在传感器本地运行。"
+      },
+      {
+        "supplierId": "nordic-semiconductor",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "同类智能手柄的低功耗连接与控制候选",
+        "rationale": "Nordic的低功耗无线及多核控制能力可用于研究手柄按键、传感状态和手机应用之间的通信与唤醒流程。需要验证协议、失联反馈和整机续航，不要求连接芯片承担地图或生成式问答；没有资料点名Smart Cane 2采用Nordic，此候选只适用于重新设计相近功能的架构比较。",
+        "sourceIds": [
+          "s1",
+          "s4"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "cane-assisted-navigation",
+      "needName": "持杖出行中的路线与环境信息辅助",
+      "difference": "WeWALK Smart Cane 2将物理控制、语音助手和上半身障碍提示放进白杖手柄，价值在于持杖出行时少做一次掏手机和切换操作。相较普通白杖加手机导航，它把路线及周边信息入口置于既有行走工具中，这一手部占用与安全约束足以独立成需求。地图、网络和AI附加包仍决定智能能力，语音与探障都有盲点；基础白杖可脱网使用，智能部分却不能承担道路通行决策或替代定向行走技能。",
+      "comparisonBasis": "与传统白杖加手机导航、语音地图和独立探障设备比较持杖时获取路线及环境信息的步骤。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/wewalk-smart-cane-2/product.png",
+      "sourceUrl": "https://wewalk.io/en/",
+      "sourceImageUrl": "https://wewalk.io/wp-content/uploads/2026/03/WeWak-SmartCane-Box-Render-tranwsparent-1.png",
+      "caption": "WeWALK Smart Cane 2官方产品外形图",
+      "alt": "WeWALK Smart Cane 2官方产品外形图",
+      "credit": "WeWALK · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 45930,
+      "sha256": "d2cb0d6e992f61924e1810b82a157b67ba8ec1e7e8fc2a1070053627758c425a"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/wewalk-smart-cane-2/reference.jpg",
+      "sourceUrl": "https://wewalk.io/en/",
+      "sourceImageUrl": "https://wewalk.io/wp-content/uploads/2026/03/a_woman_holding_wewalk_in_the_office-1.jpg",
+      "caption": "WeWALK Smart Cane 2官方另一角度或使用场景参考",
+      "alt": "WeWALK Smart Cane 2官方另一角度或使用场景参考",
+      "credit": "WeWALK · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 356203,
+      "sha256": "be77832d3109b9a2d0015a32fe7640f7326cd5e318777faa0c1f09c9785bb40f"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/wewalk-smart-cane-2/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "WeWALK Smart Cane 2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/wewalk-smart-cane-2.txt",
+      "referencePaths": [
+        "assets/hardware/wewalk-smart-cane-2/product.png",
+        "assets/hardware/wewalk-smart-cane-2/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1460307,
+      "sha256": "7a2ff538348fa6f104f9921b37a4c6372d76ed1d3c54c1f336ba5ed01df65e79"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "已逐张查看并核对型号。源图未改色/裁切；场景、界面、附件、优惠及效果文案仅为厂商示意，不作为本目录性能或现价依据。"
+  ]
+}

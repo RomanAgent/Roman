@@ -1,0 +1,422 @@
+{
+  "id": "iflytek-magic-recorder",
+  "name": "讯飞AI录音笔 Magic",
+  "brand": "科大讯飞",
+  "category": "recording",
+  "tagline": "把语音输入、随身记录与电脑工作连接起来",
+  "officialUrl": "https://www.iflyrecorder.com/magic",
+  "status": "on_sale",
+  "statusEvidence": "讯飞录音笔官方产品目录和参数页均列Magic为¥899，产品页提供京东立即购买，并提供Windows和Mac客户端。属于当前官方列售，未核验具体收货地区实时库存。",
+  "regions": [
+    "中国大陆"
+  ],
+  "china": {
+    "availability": "official",
+    "note": "已打开讯飞录音笔官网商品与参数页，并访问其京东购买链接。国内零售价、促销及批次配置以最终SKU为准。"
+  },
+  "price": {
+    "text": "¥899（官网标价）",
+    "note": "官方目录与参数页一致；实际平台促销、套装及软件权益可能不同，不推断所有AI服务永久免费。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "语音转写、方言识别和AI指令，结合会议摘要、重点与待办整理。",
+    "dependency": "电脑语音输入依赖Windows/Mac客户端，手机查看依赖讯飞录音笔App；具体在线、离线能力和服务额度应按功能核实。"
+  },
+  "highlights": [
+    "语音直接输入电脑的工作场景",
+    "随身闪念与会议记录",
+    "官方三麦克风、64GB存储",
+    "Windows、Mac及手机查看入口"
+  ],
+  "analysis": {
+    "demand": "需求假设：用户既要会后整理，也要在电脑前更快输入想法。把录音笔与语音输入连接能覆盖更多时刻，但需要验证语音修订、环境噪声和电脑软件兼容是否比键盘或普通麦克风方便。",
+    "userProfile": "画像推断：经常写文档、回消息、参加访谈并愿意用语音组织思路的人更匹配。安静共享办公区或习惯精确键盘编辑的人可能不愿出声，不能把识别准确率直接等同输入效率提升。",
+    "competition": "案头判断：与手机录音、电脑听写、USB麦克风和AI会议工具都存在重叠，竞争较拥挤。跨场景是待验证卖点；没有销量、使用留存或访谈数据，不能据多功能判断用户愿意多带设备。",
+    "supplyChain": "官方披露OLED、三麦克风、RTOS和无线连接，但主控、屏幕厂商、整机工厂及良率不明。推断语音入口产品还需要稳定的客户端维护和跨系统支持，不能只按录音硬件估算成本。",
+    "technology": "可核实的能力包括语音输入、转写、说话人区分与摘要；硬件有本地存储和无线连接。端云任务边界与底层模型未完整披露，不能因为设备能录音就认为生成式功能无需电脑或网络。",
+    "aesthetics": "图示观察：细长机身、窄屏与实体按键延续录音工具的可识别性，也便于看见状态。它不像隐藏式吊坠那样弱化用途；屏幕可读性、口袋携带及单手操作仍需实际试用才能判断。",
+    "risks": "风险包括客户端兼容、语音输入误触发、会议转写遗漏与AI摘要错误。日常办公录音还涉及参与者知情和内容权限；多端访问便利会同时增加文件管理和设备丢失后的访问控制要求。",
+    "opportunity": "市场差异在于语音作为电脑输入方式与录音后整理共用一个设备。尚待验证的购买理由是用户是否在多个场景重复使用，还是大多数时候被已有手机、电脑麦克风和软件功能替代。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "录音与电脑听写均有成熟软件/硬件替代，跨端整合属于差异线索而非市场空白。"
+  },
+  "architecture": [
+    {
+      "name": "语音与按键",
+      "detail": "一颗定向加两颗全向麦克风及录音/Mark键；概念功能图，非拆机。",
+      "evidence": "official"
+    },
+    {
+      "name": "本机记录",
+      "detail": "RTOS设备、64GB存储和屏幕显示状态。",
+      "evidence": "official"
+    },
+    {
+      "name": "多端连接",
+      "detail": "Wi-Fi/蓝牙连接，Windows、Mac客户端与手机App承接不同用途。",
+      "evidence": "official"
+    },
+    {
+      "name": "识别与生成",
+      "detail": "语音输入、转写、AI指令和会议要点整理，部署细节未公开。",
+      "evidence": "official"
+    },
+    {
+      "name": "输入与笔记输出",
+      "detail": "文字进入电脑工作、会议结果在应用中查看和复核。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "讯飞录音笔官网 · Magic产品与购买入口",
+      "url": "https://www.iflyrecorder.com/magic",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "china",
+        "technology",
+        "dependency"
+      ],
+      "note": "已打开，立即购买指向京东，Windows/Mac客户端与核心工作场景可见。"
+    },
+    {
+      "title": "讯飞录音笔官网 · Magic产品参数",
+      "url": "https://www.iflyrecorder.com/Goods_parms/1/601.html",
+      "kind": "official-spec",
+      "supports": [
+        "price",
+        "technology",
+        "architecture",
+        "aesthetics"
+      ],
+      "note": "已打开，¥899、三麦克风、64GB、RTOS等；两个发布日期不擅自解释成两个硬件代际。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "讯飞录音笔官网 · Magic产品与购买入口",
+        "url": "https://www.iflyrecorder.com/magic",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,china,technology,dependency。已打开，立即购买指向京东，Windows/Mac客户端与核心工作场景可见。"
+      },
+      {
+        "id": "s2",
+        "title": "讯飞录音笔官网 · Magic产品参数",
+        "url": "https://www.iflyrecorder.com/Goods_parms/1/601.html",
+        "note": "沿用原目录已核验的一手资料；引用范围：price,technology,architecture,aesthetics。已打开，¥899、三麦克风、64GB、RTOS等；两个发布日期不擅自解释成两个硬件代际。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜从语音输入到会议记录",
+          "text": "本型号同时面向电脑语音输入、随身想法和会议记录，配套 Windows、Mac 客户端与手机查看入口。需求不只是在会后生成摘要，还包括把口述变成正在编辑的文字；这两类任务的成功标准不同，识别出句子不等于用户完成文档或消息更快，需要分别分析。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜表达速度与修改成本",
+          "text": "口述可能适合快速展开想法，但写文档和回消息还需要标点、结构与精确修改。若识别错误或文字落入错误位置，后续编辑会抵消输入速度优势；价值应以完成一段可用内容的总时间判断，而不是只比较每分钟说了多少字或转写输出有多长。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜语音与键盘完整任务",
+          "text": "可让用户分别用 Magic、普通麦克风和键盘完成同样的短回复与文档段落，记录修改、切换和最终错误。加入中途改口、专有名词与标点需求，观察语音是否真正跟上思路；当前目录没有任务实验，不能把语音输入宣传等同所有用户都会提高效率。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜习惯口头组织思路的人",
+          "text": "经常先说后整理、需要记录闪念并愿意在电脑前出声的人可能更匹配。习惯精确键盘编辑或主要处理表格代码的人，任务结构可能不同，不能按办公职业统一判断；画像应研究表达习惯、修改方式与环境，而不只是是否喜欢人工智能或是否经常参加会议。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜共享空间的限制",
+          "text": "语音输入会让周围人听到内容，安静共享工位或敏感信息环境可能不适合频繁口述。用户可能只在独立房间使用电脑输入，在外出时把设备当作普通记录入口；这种跨场景差异应保留，不能因为一个设备覆盖多个用途就推断每位用户都会持续联用全部功能。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜跨系统与方言习惯",
+          "text": "测试应覆盖实际使用的 Windows 或不同 Mac 客户端、常用应用与口音方言，记录首次设置和权限处理。还要观察用户如何修订被误识别的词，而不是只读标准句子；兼容入口与方言功能属于厂商说明，当前没有证据保证所有系统版本和表达方式都同样顺畅。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与纯录音笔的差别",
+          "text": "普通录音笔主要解决保存和回顾，Magic 将电脑输入加入流程，可能覆盖更高频的创作时刻。但这不是简单增加功能就产生新价值，用户需要确实用声音完成工作；比较应分别看输入和会议记录，不把一项表现良好自动扩展为另一个任务也值得购买。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜与软件语音输入比较",
+          "text": "电脑系统或其他软件已经提供语音输入，独立硬件需要证明采集、触发或跨场景记录带来了额外便利。若普通麦克风已足够，用户可能更看重软件编辑而非新设备；竞争分析应包含完整修改流程与客户端依赖，不能只用硬件外形或品牌识别能力作排名。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜价格与真实功能使用",
+          "text": "应按用户实际联用电脑输入、闪念和会议的频率计算价值，并核对渠道配置与软件权益。官网标价和购买入口不等于所有地区实时库存，也不保证全部智能服务永久免费；当前没有销量、留存或访谈证据，不能因为覆盖多个场景就推断目标用户规模更大。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜采集、显示与系统信息",
+          "text": "官方参数披露显示、三麦克风、本地存储、实时系统和无线连接，但主控、屏幕供应商及工厂没有完整确认。目录只记录这些功能与配置，不从品牌或操作系统推断芯片；电脑客户端也是交付链的一部分，不能把整套体验全部归结为录音硬件内部模块。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜硬件与客户端共同维护",
+          "text": "声音输入电脑依赖硬件、连接与客户端协同，系统升级或应用权限变化都可能影响可用性。供应链研究应同时询问固件和客户端支持，而不是只估算麦克风与电池成本；这些软件维护约束来自产品流程，具体团队、工厂和长期支持周期仍需官方明确资料。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜音频候选模块",
+          "text": "炬芯可作为音频采集和前端处理平台候选，英飞凌可作为三麦声音输入候选，当前未被本型号来源点名采用。选择需核对通道、显示、存储和连接接口，不能直接替换；这些候选不提供讯飞语音模型或电脑客户端，完整交互仍需要品牌软件与服务支持。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜多端处理边界",
+          "text": "电脑语音输入通过客户端工作，手机应用可查看记录，会议功能包括转写、说话人区分和整理。设备能本地保存音频不等于全部生成能力离线，详细端云与模型版本未完全公开；目录不把客户端存在当作所有处理都在电脑，也不借其他讯飞型号补写本机功能。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜输入位置与指令确认",
+          "text": "把声音变为电脑文字需要正确识别当前输入位置与用户意图，误触发可能把内容放到不合适的应用。系统应让用户容易暂停、撤销和修订，尤其语音指令与普通口述需要明确边界；技术评价不能只看识别率，还要检查结果是否进入正确工作流程并保持可控。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜从声音到可用文本",
+          "text": "测试应记录触发、输入、修改和确认每一步，在不同应用、噪声和网络条件下重复，检查中途断连如何恢复。会议模式则另测原音、转写和摘要，避免混用输入任务成绩；当前没有独立延迟或兼容测试，不能保证所有电脑软件与语音习惯都获得相同收益。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜随身与桌面双重外观",
+          "text": "产品既要适合携带记录，也要在电脑前容易拿取，外观评价应包含这两种位置而非只看单独展示。小屏和控制可能帮助状态确认，但尺寸、材质触感与握持仍需实物；不能由官方照片推断每个人佩戴舒适，也不能把配色或套装视为不同需求产品。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜说话动作本身的设计",
+          "text": "电脑语音输入需要用户开口，设备的拿取和触发是否自然会影响愿意使用的频率。若每次都要改变坐姿或寻找状态，可能比普通麦克风更费事；审美与交互研究应观察真实桌面动作，而不是只评价外形精致或是否看起来像传统录音笔。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜工作日的携带与操作",
+          "text": "试用应覆盖桌面输入、外出口述和会议记录，记录充电、收纳、模式确认及主动停用的原因。不同衣物和桌面布局可能改变收音与操作，不能由一次静止演示代表全天体验；官方图像与规格只提供初筛，长期便利需要实际任务与用户反馈支撑。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜误输入与内容暴露",
+          "text": "语音输入可能在错误焦点或应用中产生文字，周围人也可能听到用户不愿公开的内容，因此需要清晰触发与撤销。会议记录另涉及参与者知情和保存权限，不能因同一设备覆盖两种任务就省略各自边界；厂商识别能力也不保证不会误写姓名、数字或命令。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜多端访问的管理负担",
+          "text": "电脑与手机查看带来便利，也增加账户、文件同步和设备丢失后的访问控制问题。具体在线、离线和服务额度要按功能核对，不能因为有本地存储就承诺所有数据不进入远端；官方国内渠道可支持购买判断，但不等于所有软件版本和长期权益都适合个人需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜关键文本与会议决定",
+          "text": "测试应检查输入后的文本是否容易复核，尤其专有名词、金额与指令结果，会议摘要还要回听责任人和条件。重要内容不应仅因自动生成就直接发送或执行，用户需要保留确认步骤；验证重点是减少总工作量并保持可控，而不是假设声音输入能消除全部编辑。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜电脑口述是独立任务线索",
+          "text": "相较只做会后摘要的设备，Magic 的电脑输入值得作为不同核心任务研究，因为它参与内容产生而非只记录他人谈话。这个差异需要真实联用证明，不能由宣传页面自动成立；场景分组可以保留语音创作与会议记录的关系，同时不因同一设备有多个模式重复计算硬件数量。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜即时想法能否进入成果",
+          "text": "随身口述到电脑文档的连续性可能帮助用户保留思路，但若同步和修改复杂，想法仍可能停留在录音列表。研究应观察用户是否真正把记录转成文档、消息或后续工作，而不是只统计录音条数；价值来自完整成果流程，不能用更多文字输出替代实际完成情况。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜长期输入与整理对照",
+          "text": "后续可跟踪语音输入的净耗时、修改次数、闪念被使用比例和会议回查，同时记录客户端故障与维护成本。再与键盘和普通麦克风比较，才能判断持续购买理由；当前目录是案头研究，不以国内在售、方言识别或多场景宣传宣称效率与市场需求已经验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "actions-technology",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "语音采集、控制与前端处理平台候选",
+        "rationale": "Magic 披露多麦、本地存储和多端语音任务，炬芯的音频处理路线可作为新设计候选。需要核对显示、存储、连接与持续采集功耗，当前没有供货点名；平台能力不能直接复制讯飞识别模型或电脑输入客户端，也不能据此推断本机所有智能离线完成。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "infineon",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "三麦克风语音输入前端候选",
+        "rationale": "官方参数披露 Magic 的三麦输入，英飞凌 MEMS 器件可比较自噪、匹配与接口，但必须针对桌面口述、佩戴和会议声场验证。当前未确认实际采用，器件性能也不能直接证明方言识别、输入效率或摘要质量；整机工厂和具体声学结构仍未知。",
+        "sourceIds": [
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "computer-voice-input",
+      "needName": "电脑语音输入与文本整理",
+      "difference": "讯飞Magic把随身录音与Windows或Mac客户端语音输入连接，在电脑前可把口述直接变成后续可处理的文字。与只在会后转写的录音笔相比，核心增量是输入发生在工作当下；与普通麦克风加听写软件相比，则多了随身记录和Mark控制入口。它并不消除语音修订、误触发和客户端兼容问题，在线能力与额度也需按功能确认，安静独处时的演示不能代表开放工位效率。",
+      "comparisonBasis": "与键盘输入、普通麦克风加电脑听写软件及仅会后转写的录音笔比较电脑端口述工作流。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/iflytek-magic-recorder/product.png",
+      "sourceUrl": "https://www.iflyrecorder.com/magic",
+      "sourceImageUrl": "https://www.iflyrecorder.com/assets/magic-product/hero.png",
+      "caption": "讯飞官方 Magic 两款配色与外形展示",
+      "alt": "讯飞官方 Magic 两款配色与外形展示",
+      "credit": "科大讯飞 · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 1278140,
+      "sha256": "68bf0a35d85eaf0d1334ef01ff53da44d78cd5b057d3d2c5236498f209c5e157"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/iflytek-magic-recorder/reference.png",
+      "sourceUrl": "https://www.iflyrecorder.com/magic",
+      "sourceImageUrl": "https://www.iflyrecorder.com/assets/magic-product/office.png",
+      "caption": "讯飞官方 Magic 电脑语音输入场景示意",
+      "alt": "讯飞官方 Magic 电脑语音输入场景示意",
+      "credit": "科大讯飞 · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 1000035,
+      "sha256": "307d9577d8ff5fff77d5b98294ca6345dae252669467ad33f4b04b62839e232c"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/iflytek-magic-recorder/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "讯飞AI录音笔 Magic的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/iflytek-magic-recorder.txt",
+      "referencePaths": [
+        "assets/hardware/iflytek-magic-recorder/product.png",
+        "assets/hardware/iflytek-magic-recorder/reference.png"
+      ],
+      "verified": true,
+      "bytes": 1685413,
+      "sha256": "861f55ce3cd3e692f0ccc4caef62007d7c9ff988dac17d29886c579bbf229e7e"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+  ]
+}

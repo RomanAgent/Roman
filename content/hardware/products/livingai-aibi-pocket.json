@@ -1,0 +1,433 @@
+{
+  "id": "livingai-aibi-pocket",
+  "name": "LivingAI AIBI Pocket",
+  "brand": "LivingAI",
+  "category": "companion",
+  "audience": "consumer",
+  "tagline": "可随身携带的微型表情机器人",
+  "officialUrl": "https://living.ai/product/aibi-pocket/",
+  "statusEvidence": "官方商品页提供Add to cart，并说明订单约两周内发货；以当前零售页为准，不沿用旧介绍页的Pre-order字样。",
+  "regions": [
+    "所列官方国际商店"
+  ],
+  "price": {
+    "text": "官网 US$249",
+    "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "具有人脸识别、拍照和离线语音指令；复杂问题可联网调用ChatGPT。简单动画和动作不全部归为生成式AI。",
+    "dependency": "离线指令与在线问答能力不同；联网服务、账户与可用地区须核对，挂载和充电依赖配件。"
+  },
+  "highlights": [
+    "可随身携带的微型表情机器人",
+    "人脸识别与离线语音指令",
+    "复杂问题使用联网问答"
+  ],
+  "analysis": {
+    "demand": "需求假设：喜欢随身角色的人可能希望在桌面、衣物和出行之间延续同一只电子宠物，而不追求移动机器人任务能力。应观察实际携带频率和主动互动次数，确认便携是否真的增加使用。",
+    "userProfile": "画像推断：能够管理充电、配对和随身配件的成年玩具爱好者较匹配；面部朝向、环境噪声与穿戴位置会影响交互。送礼者不能仅凭小巧外形假定所有年龄和生活方式都适合。",
+    "competition": "竞争判断：它同时面对桌面电子宠物、手机虚拟角色及普通潮玩，随身形态是主要差别。微型化并不消除内容更新和留存竞争，用户可能把它作为收藏品而不是每天交谈的工具。",
+    "supplyChain": "供应链推断：小体积内的显示、音频、摄像和动作结构会争夺空间，并增加防跌落与充电可靠性的要求。官方本轮未披露完整工厂和物料表；磁吸配件遗失也会影响实际使用。",
+    "technology": "官方区分离线指令、人脸识别与在线复杂问答。技术判断应分别测试嘈杂场景唤醒、人物识别和网络等待，不把屏幕表情丰富等同对情绪的可靠理解，也不推断所有算力都在设备内。",
+    "aesthetics": "审美判断：圆形头部、明亮眼睛和短小身体更接近可以携带的角色物件，配件会决定它在衣物上的存在感。佩戴重量、固定稳定性和环境中的声音，需要实际试戴才能判断接受度。",
+    "risks": "风险判断：随身拍照、语音与网络问答涉及旁人和个人信息，外出还会遇到掉落、遮挡和噪声。复杂回答可能出错，提醒功能也不应被当成重要事务或健康管理的唯一保障。",
+    "opportunity": "市场观察：值得验证的是便携角色能否跨场景保持有意义的互动，而非把更小尺寸直接换算为更大需求。可记录四周的携带天数、充电中断和功能使用结构，区分收藏与持续陪伴。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "复杂问题使用联网问答形成具体使用场景；本轮没有销量与市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "感知入口",
+      "detail": "摄像与麦克风支持人物和语音输入。",
+      "evidence": "official"
+    },
+    {
+      "name": "本地响应",
+      "detail": "离线指令触发设备行为。",
+      "evidence": "official"
+    },
+    {
+      "name": "联网问答",
+      "detail": "复杂问题通过在线模型处理。",
+      "evidence": "official"
+    },
+    {
+      "name": "角色反馈",
+      "detail": "屏幕表情、声音与小型动作。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "AIBI官方购买页",
+      "url": "https://living.ai/product/aibi-pocket/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "AIBI官方能力",
+      "url": "https://living.ai/aibi/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "status": "on_sale",
+  "saleMode": "retail",
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+  },
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "AIBI官方购买页",
+        "url": "https://living.ai/product/aibi-pocket/",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s2",
+        "title": "AIBI官方能力",
+        "url": "https://living.ai/aibi/",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "AIBI Pocket 把表情机器人缩小为可在桌面和衣物之间转移的随身角色，核心任务是短暂回应而非完成家务。便携性可能增加偶遇式互动，但只有用户实际愿意携带，微型化才会成为价值，而不只是商品照片中的尺寸卖点。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "离线指令与联网复杂问答满足不同需求：前者提供可预测的短互动，后者扩展内容。若用户主要欣赏表情和角色存在感，问答可能只是补充；需求研究应区分收藏、展示和持续陪伴，避免把所有购买动机都归为聊天。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可连续记录携带天数、放在桌面的时长、主动指令及联网问答次数，并观察充电后是否重新佩戴。将外出和居家使用分开分析，确认便携是否增加真实互动，还是因为固定、充电和社交顾虑而最终退回桌面。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "较匹配愿意管理配件、充电和账户的成年电子玩具爱好者，尤其是希望角色随场景移动的人。小巧并不自动意味着适合幼儿，用户需要理解拍照与联网功能边界，并能在外出时注意掉落、遮挡和旁人接受度。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "经常独处办公的人可能把 AIBI 当作桌面角色，出行者则面临噪声和佩戴角度问题。两类用户对音量、固定方式和电量的容忍度不同；若只按机器人爱好者划分画像，会错过决定实际携带的生活习惯差异。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "画像验证应让用户自行选择佩戴和摆放方式，记录哪种衣物、活动或社交场合导致取下设备。再询问闲置是因为互动不足、充电麻烦还是不愿引人注意，以区分产品功能问题和随身形态本身的限制。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "AIBI 与桌面电子宠物、手机虚拟角色和普通潮玩竞争，复合了收藏与交互属性。其差异主要是实体角色的随身延续，不宜只按问答能力与手机比较，也不能因体积更小就假定拥有更广的消费人群。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "微型化让显示、音频和动作都受到空间约束，可能牺牲长时间对话舒适性。竞争优势应来自短互动的可爱、及时和易携带，而不是把桌面机器人的全部功能压缩进小机身；过多功能反而可能增加操作和服务负担。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "可与同价位潮玩和桌面宠物做四周对照，观察携带、主动互动和展示分享的变化。比较时提供实际配件及服务条件，避免只用大小和功能表评分；用户把它长期收藏也有价值，但应与持续使用需求分开衡量。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能层包括摄像与麦克风输入、离线指令处理、联网问答、显示表情和小型动作，再由固定及充电配件连接日常场景。官方未公开完整内部物料表，不能根据外观推断特定芯片、磁体位置或电池容量。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "制造约束在于小体积内的音频、显示、摄像和动作部件互相争夺空间，同时需要承受随身跌落和反复装卸。配件遗失或固定不稳可能使完整设备难以使用，因此配件供应和替换路径也是交付质量的一部分。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "歌尔适合作为微型音频与交互系统候选，3ERP 可支持固定结构和外壳原型比较。公开能力不等于已为 AIBI 供货，也不能证明随身耐久通过；实际应先验证体积、声学和固定安全之间的取舍，再进入制造选择。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "官方区分人脸识别、离线语音指令与需要联网的复杂问答，说明不同智能任务有不同依赖。屏幕表情和动作属于反馈表达，不能全部归为生成式能力，也不能把人物识别解释为可靠理解人的真实情绪。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "随身场景中，麦克风距离、衣物遮挡和摄像头朝向经常变化，系统需要在有限输入下给出清晰状态。相比桌面产品，关键难点可能是知道何时没有听清或看见，而不是提供更长回答，错误自信会更快破坏角色体验。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "技术验证应分别测试安静桌面、步行噪声和衣物遮挡下的指令与人物识别，并对联网问答记录等待和失败提示。还应检查不同挂载方向是否影响交互，避免将正面静置演示的结果外推为所有佩戴状态都同样可靠。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "圆形头部、明亮眼睛和短小身体使 AIBI 更接近可以携带的角色物件，配件则决定它与衣物的关系。审美不仅是机器人本体，还包括佩戴后的突出程度、重心和声音是否与用户日常风格协调。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "随身角色需要在被看见和不打扰之间取舍。强烈灯光或持续声音可能适合展示，却不适合通勤和会议；如果用户为了礼貌长期关闭反馈，产品应仍有可接受的静默角色感，否则便携优势可能难以发挥。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证可在常用衣物和不同场景中试戴，记录摆动、遮挡、取放及旁人反应。还应观察用户是否自发调整音量或隐藏设备，借此识别外形讨喜与公共场合愿意使用之间的差距，而非只做静态喜好投票。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "风险包括随身拍照和声音涉及旁人信息、固定失败导致跌落，以及复杂问答出现错误。外出时网络和电量更不稳定，提醒或信息功能不应成为重要事务的唯一保障，需要让用户理解角色互动与可靠工具的区别。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "配件、账户和联网服务任何一环失效，都可能让便携角色变成不能使用的收藏品。若停服或兼容变化后仍保留部分离线动作，应清楚说明保留范围，不能用少量离线功能掩盖完整体验对持续服务的依赖。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证应模拟配件遗失、弱网、误触及不同方向跌落后的恢复流程，并检查用户是否理解拍照和会话权限。测试应以受控条件和可记录结果进行，不把小尺寸或轻量外观当作对儿童及旁人天然安全的证明。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会在于围绕随身短互动建立明确而轻量的角色，而不是追求长篇聊天。可探索容易静音、易固定和状态清晰的形态，让用户在桌面与外出之间保持同一角色关系，同时控制微型化带来的维护成本。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会成立需要证明携带行为能够持续，并且短互动价值超过配件和充电负担。如果用户主要将设备固定在桌面，新项目可能更适合改进桌面体验，而非继续投入更小结构；形态选择应由实际行为而非产品叙事决定。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可以先测试不同固定方式与少量稳定离线互动，记录一个月的主动携带和重新佩戴情况。明确哪种场景真正需要实体角色后，再增加联网内容，避免把云端功能扩充当成解决佩戴和维护问题的方法。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "goertek",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "随身角色的微型音频与交互整合",
+        "rationale": "歌尔公开声学和智能硬件能力可用于评估 AIBI 类小型音频、感知与交互模组，但随身遮挡和佩戴可靠性需专门测试；没有点名合作证据，不能认定歌尔是 AIBI 的实际供应商。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "3erp",
+        "role": "mechanical",
+        "relationship": "candidate",
+        "component": "微型外壳与固定配件原型",
+        "rationale": "3ERP 的机械原型及模塑服务适合验证随身外壳、固定结构和装卸关系，但原型工艺不代表正式耐跌落或长期材料性能；本条仅提供能力候选，不推断其参与 AIBI 的设计制造。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "embodied-companionship",
+      "needName": "实体陪伴与日常互动",
+      "difference": "LivingAI AIBI Pocket 的区别在于具体实现与使用条件：官方区分人脸识别、离线语音指令与需要联网的复杂问答，说明不同智能任务有不同依赖。屏幕表情和动作属于反馈表达，不能全部归为生成式能力，也不能把人物识别解释为可靠理解人的真实情绪。微型化让显示、音频和动作都受到空间约束，可能牺牲长时间对话舒适性。竞争优势应来自短互动的可爱、及时和易携带，而不是把桌面机器人的全部功能压缩进小机身；过多功能反而可能增加操作和服务负担。",
+      "comparisonBasis": "AIBI 与桌面电子宠物、手机虚拟角色和普通潮玩竞争，复合了收藏与交互属性。其差异主要是实体角色的随身延续，不宜只按问答能力与手机比较，也不能因体积更小就假定拥有更广的消费人群。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/livingai-aibi-pocket/product.jpg",
+      "sourceUrl": "https://living.ai/product/aibi-pocket/",
+      "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2023/12/2023121605.jpg?fit=2000%2C2000&quality=89&ssl=1",
+      "caption": "LivingAI AIBI Pocket · 官方产品图",
+      "alt": "LivingAI AIBI Pocket官方外观产品图",
+      "credit": "LivingAI · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 503851,
+      "sha256": "bf884a49b82f44ff6005f5ec7b0664703fee47a65b23f9a046d7d9c9fe860126"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/livingai-aibi-pocket/reference.jpg",
+      "sourceUrl": "https://living.ai/product/aibi-pocket/",
+      "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2023/12/2024081201-scaled.jpg?fit=2560%2C2560&quality=89&ssl=1",
+      "caption": "LivingAI AIBI Pocket · 官方参考图",
+      "alt": "LivingAI AIBI Pocket官方场景或外观角度参考",
+      "credit": "LivingAI · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 204213,
+      "sha256": "97b23ee610890ee46056d190c2c83d534fc44125eeaa6faeb398ef9e4baf8a5f"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/livingai-aibi-pocket/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "LivingAI AIBI Pocket 的AI结构示意；内部布局为推断，不是实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/livingai-aibi-pocket.txt",
+      "referencePaths": [
+        "assets/hardware/livingai-aibi-pocket/product.jpg",
+        "assets/hardware/livingai-aibi-pocket/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1421529,
+      "sha256": "22651db255cfc67987dda4b6399bc6f569f7a45f2e43bbe12c1a1e9a3655e7ab"
+    }
+  ],
+  "mediaNotes": [
+    "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+  ]
+}

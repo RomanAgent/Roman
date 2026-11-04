@@ -1,0 +1,523 @@
+{
+  "id": "aac-technologies",
+  "name": "AAC Technologies 瑞声科技",
+  "legalName": "瑞声科技集团；官网运营主体为瑞声声学科技（深圳）有限公司",
+  "country": "中国大陆",
+  "locations": [
+    "深圳",
+    "香港",
+    "新加坡（均为官网公开联络地点）"
+  ],
+  "tier": "global",
+  "tierNote": "跨声学、光学、触感及精密制造的集团型供应商；不采用未经核验的员工或营收数字排序。 总部城市未在本轮页面明示，地区按深圳运营主体及公开联络范围记录。",
+  "roles": [
+    "acoustics",
+    "optics",
+    "mechanical",
+    "engineering"
+  ],
+  "capabilities": [
+    "扬声器与耳机声学单元",
+    "声学仿真及整机调音",
+    "镜头、摄像模组和光学执行器",
+    "精密结构件、散热及转轴",
+    "声学与结构联合设计"
+  ],
+  "productCategories": [
+    "music",
+    "imaging",
+    "companion",
+    "wearables",
+    "personal-care",
+    "computing"
+  ],
+  "website": "https://www.aactechnologies.com/",
+  "contactUrl": "https://www.aactechnologies.com/others/contactUs",
+  "summary": "瑞声科技的可用价值不只在单颗声学器件，而在扬声器、音频调试、光学及精密结构的联合设计能力。本条按集团口径记录，不重复拆分内部品牌；适合用来讨论小型智能硬件的声音与空间约束，但实际供货客户、料号和小批量合作条件不能从业务介绍推定。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位：多感官部件与系统服务",
+        "text": "公司介绍将声学、光学、触感、传感器及精密制造作为主要能力；声学页进一步列出硬件方案、算法调试和整机调音。其目录位置因此是感官器件与系统整合供应商，而不是通用AI模型服务商或单纯的整机品牌设计顾问。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断：适合声音与空间一起定义",
+        "text": "对桌面陪伴、头戴音频和小型相机，声音体验往往同时受到腔体、结构振动及开孔限制。瑞声跨声学和精密结构的公开能力值得共同评估，但是否愿意承担系统责任、接受项目规模，仍需要具体团队书面确认。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力：声学服务覆盖开发环节",
+        "text": "声学页面包含智能终端扬声器、耳机单元、声学结构堆叠、仿真、打样和整机调试服务，并列出均衡、动态控制等处理方向。这里的音频算法用于声音链路，不应被统一称作生成式AI，也不意味着终端的语音理解由其提供。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "公开能力：光学与结构有独立边界",
+        "text": "光学页列出镜头、摄像模组和执行器的垂直整合；精密制造页说明结构件、散热、转轴及天线相关设计。不同业务的能力可以作为联合讨论基础，但产品是否共用工厂、交付团队和质量协议，公开页面并未逐项目说明。",
+        "evidence": "official",
+        "sourceIds": [
+          "s3",
+          "s4"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配：小体积音频产品的候选",
+        "text": "对需要扬声器或耳机发声的产品，可从目标声压、可用腔体、佩戴方式与功耗寻找合适声学路线。瑞声目录覆盖多类紧凑终端，因而具有能力匹配依据；但便携练琴音箱与耳机的频响、动态和声学空间不能使用同一评价方法。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "边界：不能由手机器件推到所有音箱",
+        "text": "手机扬声器或耳机单元的公开经验，并不证明现有产品适合大型乐器音箱的驱动单元。若链接到练琴设备，应明确候选范围是小型声学模组、结构仿真或调试服务，并确认失真、瞬态及乐器监听需求能否覆盖。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "接洽：提供声音目标和物理样件",
+        "text": "建议带着外壳体积、声孔方向、典型内容和目标听音距离接洽，并提供未经处理的参考音频。这样可讨论器件、腔体和调音如何分工，避免只用低音更强或声音更自然这类形容词作为验收标准，导致双方期待无法比较。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "接洽：业务开发与公开渠道",
+        "text": "联系页区分业务开发、市场合作和投资者关系渠道，并列出深圳、香港和新加坡等地点。实际项目应走业务开发入口，说明需要器件供货、共同设计还是整机调试；本轮仅记录入口，没有发送询价或确认任何合作意向。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s5"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "验证：在最终外壳中测声音",
+        "text": "声学样品应装入目标外壳，再检查不同音量下的失真、共振、漏音与温升，尤其关注语音和乐器内容的差别。裸单元在标准夹具中的数据不能直接代表终端体验，算法补偿也不应掩盖持续过载或机械装配问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "title": "验证：跨模块变更需要共同回归",
+        "text": "如果结构件、扬声器腔体或光学模组一起改版，应规定整机重新验证的触发条件。集团内多业务协作并不会自动消除接口风险，项目仍需指定谁负责样品版本、声学参数、胶材及装配公差，避免各自合格却无法共同工作。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3",
+          "s4"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断：器件价格不是完整声学成本",
+        "text": "选择标准单元与委托声学系统设计，所包含的仿真、工装、调试和后续维护范围不同。需要把每一项交付与验收写入报价，而不能把官网的一站式能力当作免费附赠服务，或根据企业体量猜测项目折扣和样品周期。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "待确认：联合设计成果的使用权",
+        "text": "对于共同开发的声学结构与调音参数，应在合作前明确成果归属、后续修改权限及换供应商时可带走的资料。公开介绍没有给出这些条款，也没有承诺小批量订单条件，早期团队需在开模前确认可承担的持续投入。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s5"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "风险：品牌案例不能外推具体型号",
+        "text": "光学介绍提到终端品牌采用相关技术，但没有把本目录中的每款相机或音频设备逐一对应到料号。不能据此把候选链接改为实际供应关系，也不能将集团某一业务的客户扩展成所有声学、结构和摄像模组的共同客户。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s4"
+        ]
+      },
+      {
+        "title": "风险：整合优势伴随接口依赖",
+        "text": "跨声学与结构共同优化可能降低空间冲突，也可能让项目依赖专用腔体、封装和调音文件。应评估替代方案需要重做哪些验证，而不是只计算单颗器件差价；这属于采购风险分析，不代表瑞声已经对项目设置排他条件。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "下一步：分层完成声学样机比较",
+        "text": "先用相同外壳比较候选单元，再单独评估调音和结构改动，记录每次改变带来的收益及副作用。对练琴耳机应加入演奏监听，对陪伴产品应加入远距离语音；只有贴合内容的测试才能判断服务是否适合具体型号。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "下一步：建立可追溯合作清单",
+        "text": "要求对方明确推荐料号、团队职责、测试夹具及样品版本，再验证公开资料与项目承诺是否一致。若将来获得可公开点名的供货说明，可更新关系类型；在此之前，所有目录关联都只是能力候选，不是对原机供应链的披露。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s5"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "瑞声科技集团介绍",
+      "url": "https://www.aactechnologies.com/aboutUs/understandPage",
+      "note": "已打开，支持主要业务与集团定位。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "瑞声声学产品与服务",
+      "url": "https://www.aactechnologies.com/product/acousticProduct",
+      "note": "已打开，支持扬声器、耳机单元、声学仿真和整机调试能力。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "瑞声精密制造",
+      "url": "https://www.aactechnologies.com/product/precisionProduct",
+      "note": "已打开，支持结构、散热、转轴与联合设计能力；不引用宣传良率作为实测。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s4",
+      "title": "瑞声光学方案",
+      "url": "https://www.aactechnologies.com/en/product/opticalProduct",
+      "note": "已打开，支持镜头、模组与执行器整合，品牌级案例不扩展至本目录具体型号。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s5",
+      "title": "瑞声商务联络页",
+      "url": "https://www.aactechnologies.com/others/contactUs",
+      "note": "已打开，支持业务开发入口和公开联络地点。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "翻转屏转轴与声学结构协同候选",
+      "rationale": "瑞声公开精密结构、转轴和声学联合设计能力，与V1翻转显示及紧凑机身中的声音和空间约束存在功能对应；仍需确认相机载荷、寿命、散热及装配公差是否在项目范围内，此处不是对其制造V1机身或零件的披露。",
+      "sourceIds": [
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s3"
+      ],
+      "productId": "canon-powershot-v1",
+      "productName": "Canon PowerShot V1",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "小型机身结构与侧翻屏转轴候选",
+      "rationale": "瑞声公开结构件、转轴与空间协同设计能力，与X-M5的紧凑机身和侧翻显示存在功能对应；但相机卡口载荷、屏幕寿命和外观材料要求需按项目重新确认，不能将手机结构经验直接等同原机制造，更没有公开点名供货证据。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "fujifilm-x-m5",
+      "productName": "FUJIFILM X-M5",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "翻转显示转轴与紧凑外壳候选",
+      "rationale": "瑞声精密制造包含转轴、结构件和空间协同能力，与Ace Pro 2翻转显示及紧凑防护外壳的工程问题有对应关系；但运动安装、机械寿命及防护工艺需要专门确认，本条不声称其参与该相机结构制造或为厂商现有合作方。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "insta360-ace-pro-2",
+      "productName": "Insta360 Ace Pro 2",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "可拆固定与翻转显示结构候选",
+      "rationale": "瑞声公开精密结构和转轴协同能力，与GO Ultra的可拆相机、显示底座和紧凑外壳问题存在对应；仍需确认磁吸固定、连接可靠性和外壳防护的实际工程范围，公开能力不证明已经为该产品供货，也不构成现成零件兼容承诺。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "insta360-go-ultra",
+      "productName": "Insta360 GO Ultra",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "镜头系统周边与翻转显示精密结构候选",
+      "rationale": "瑞声公开精密结构和转轴协同能力，可作为Z50II这类可换镜头机身的结构工程候选；卡口精度、镜头载荷和翻转屏耐久仍需按相机需求专项验证，不能据消费电子结构经验推断兼容或实际供货，也不涉及替换Nikon镜头协议。",
+      "sourceIds": [
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "nikon-z50ii",
+      "productName": "Nikon Z50II",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "紧凑机身及翻转显示结构候选",
+      "rationale": "瑞声公开精密结构和转轴协同能力，可作为ZV-E1机身与翻转屏周边的工程候选，但镜头载荷、热管理和相机接口需专项确认。自动构图属于数字裁切，本条不匹配云台驱动，也没有证据证明瑞声已为该型号提供任何结构件。",
+      "sourceIds": [
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "sony-zv-e1",
+      "productName": "Sony ZV-E1",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "屏幕及折叠周边精密结构候选",
+      "rationale": "瑞声的精密结构与转轴协同可作为K1显示及折叠周边结构的能力候选，但训练底板和拉索承载不能从消费电子经验直接推定，必须另有负载和耐久验证。当前不表示其供应整机结构，也不涵盖未核实的数字阻力核心机构。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "aeke-k1",
+      "productName": "AEKE K1",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "旋转显示周边结构工程候选",
+      "rationale": "瑞声公开转轴与精密结构协同能力，可作为Bike+显示旋转机构周边的候选，必须核对屏幕载荷、线缆路径和长期重复转动。该能力不覆盖整车架与骑行安全验证，也没有证据证明其为本型号供应结构部件。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "peloton-cross-training-bike-plus",
+      "productName": "Peloton Cross Training Bike+",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "转动显示周边精密机构候选",
+      "rationale": "瑞声公开转轴与精密结构协同能力，可作为Row+显示周边的候选，但需按屏幕载荷、线缆和重复转动验证。此匹配不涵盖滑座、长导轨或训练承载，也没有实际采用证据，不能把一般消费结构经验视为完整划船器制造能力。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "peloton-cross-training-row-plus",
+      "productName": "Peloton Cross Training Row+",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "足部传感器外壳与固定周边结构候选",
+      "rationale": "瑞声公开精密结构能力，可作为Playermaker小型外壳与固定周边工程的候选，但鞋部冲击、触球和绑带条件与普通消费外壳不同，需专项验证。当前没有实际供货证据，也不表示瑞声已经提供原机绑带、密封或制造服务。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "playermaker-2",
+      "productName": "Playermaker 2.0",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "折叠及屏幕周边精密结构候选",
+      "rationale": "瑞声的精密结构与转轴能力可用于研究Gym Monster 2部分折叠和显示周边，但拉索与底板训练承载必须专项验证，不能从消费电子结构经验推定整机耐久。当前没有公开供货证据，也不覆盖未披露的数字负载核心传动。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "speediance-gym-monster-2",
+      "productName": "Speediance Gym Monster 2",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "手机固定底座与套件结构候选",
+      "rationale": "瑞声公开精密结构能力，可用于讨论Move手机固定与连接周边的机械实现，但大型器械柜和承重收纳不能据此默认由其承接，实际装配与耐久需确认。当前没有点名供货证据，也不能将手机自身的结构件供应关系移植到该套件。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "tempo-move",
+      "productName": "Tempo Move",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "手柄与底座精密结构工程候选",
+      "rationale": "瑞声公开精密结构协同，可作为iO10手柄及底座周边的机械工程候选，但密封老化、充电固定与刷头连接为专项要求，不能据普通消费外壳经验保证适配。当前没有品牌采用证据，也不涵盖未核实的专用刷头结构或清洁效果。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "oral-b-io10",
+      "productName": "Oral-B iO10",
+      "category": "personal-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "脚控音频设备外壳结构候选",
+      "rationale": "瑞声公开精密结构能力，可作为TONEX踏板外壳与控制固定的工程候选，但脚开关载荷、插座受力和接地要求需专项确认，不能据一般消费电子经验保证适配。当前无实际采用证据，也不包含未披露的音频电路或软件授权。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "ik-tonex-pedal",
+      "productName": "IK Multimedia TONEX Pedal",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "头梁转轴与耳罩固定结构候选",
+      "rationale": "瑞声公开精密结构及转轴协同，可作为NEO头梁和耳罩周边的工程候选，仍需验证夹持、反复展开、线缆与长时佩戴条件，不能由普通消费结构经验推断舒适。当前无实际采用证据，也不涵盖未披露的声学单元布局。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "positive-grid-spark-neo",
+      "productName": "Positive Grid Spark NEO",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "折叠与手机夹持周边结构候选",
+      "rationale": "瑞声公开精密结构与转轴协同，可用于Flow 2 Pro折叠及夹持周边工程，但磁吸可靠、保护壳适配、线缆和长期展开需专项验证，不能从普通结构经验推定整机适配。当前无Insta360点名采用证据，也不提供原夹具替换件。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "insta360-flow-2-pro",
+      "productName": "Insta360 Flow 2 Pro（AI Tracker组合）",
+      "category": "gimbals",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "夹具与附件安装周边结构候选",
+      "rationale": "瑞声公开精密结构与转轴协同，可用于Smooth 5S AI夹持及模块固定工程，但磁吸、手机保护壳适配、载荷和反复装拆需专项验证，不能由通用结构经验推定整机适配。当前没有实际供货证据，也不提供原机兼容附件。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s3"
+      ],
+      "productId": "zhiyun-smooth-5s-ai",
+      "productName": "ZHIYUN Smooth 5S AI",
+      "category": "gimbals",
+      "status": "on_sale"
+    }
+  ]
+}

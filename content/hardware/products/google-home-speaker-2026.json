@@ -1,0 +1,440 @@
+{
+  "id": "google-home-speaker-2026",
+  "name": "Google Home Speaker（2026）",
+  "brand": "Google",
+  "category": "home-assistant",
+  "tagline": "以Gemini自然对话连接家庭音频和设备控制",
+  "officialUrl": "https://store.google.com/us/product/google_home_speaker?hl=en-US",
+  "status": "on_sale",
+  "statusEvidence": "美国Google Store显示Buy、US$79.99和活动结束提示；这是2026年Gemini新音箱，不是早期Google Home或Nest Audio改名。",
+  "regions": [
+    "美国Google Store"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+  },
+  "price": {
+    "text": "US$79.99（核查时活动价）",
+    "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "Gemini for Home理解自然语言请求、连续对话和家庭任务，部分高级对话及复杂自动化需要Google Home Premium。",
+    "dependency": "依赖Google账号、网络与地区语言支持；基础功能与Premium分层，页面试用时长文案存在30天和6个月并存，购买以结账权益为准。"
+  },
+  "highlights": [
+    "声音输入",
+    "Gemini服务",
+    "家庭连接"
+  ],
+  "analysis": {
+    "demand": "需求假设：用户希望用自然说法控制家居、询问信息和处理轻任务，而不必记固定命令。应比较真实家庭的成功率、纠错次数与响应时间，聊天更流畅并不意味着执行动作更可靠。",
+    "userProfile": "画像推断：使用Google Home生态、愿接受云语音处理的家庭，可能希望长辈或孩子也能操作设备。多人说话、不同口音和共享账号会影响效果，不能仅用单人安静环境演示代表家庭体验。",
+    "competition": "竞争判断：与Amazon Echo、手机助手和开放本地语音系统竞争。Gemini与Google生态提供连接价值，但现有音箱的替换意愿取决于音乐、控制和订阅费用，单纯模型升级不保证硬件换新需求。",
+    "supplyChain": "供应链分析：远场麦克风、扬声器、声学结构、无线和电源组成终端，具体工厂与BOM未披露。云推理成本、长期服务、软件更新和退换货也属于交付成本，不能只比较音频硬件价格。",
+    "technology": "官方说明Gemini语义理解和实时对话。技术判断：嘈杂房间的语音前端、身份上下文与工具执行共同决定体验；回答可能不准确，控制设备时需明确可用状态，不能把生成文本当成已完成动作。",
+    "aesthetics": "审美判断：圆润织物外形与底部状态光减少屏幕存在感，适合书架和餐边柜。麦克风静音开关应容易找到，线材与音量交互需要日常可用，避免装饰光效在夜间造成额外干扰。",
+    "risks": "风险判断：语音误触发、共享家庭资料和云端服务变化会影响信任。高级Gemini与自动化需要订阅且受地区限制；页面试用期表述不一致，不能宣传为所有购买者都能永久免费使用全部AI。",
+    "opportunity": "机会假设：挑选家庭高频的少数任务测试自然语言是否真正减少操作步骤，记录失败恢复与多人切换。若主要用途仍是音乐，隐私、音质和稳定性可能比更长的AI对话更能推动持续使用。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "智能音箱整体成熟且竞争激烈，生成式语音是升级方向；特定语言和家庭任务仍可形成细分。"
+  },
+  "architecture": [
+    {
+      "name": "声音输入",
+      "detail": "远场麦克风与静音控制。",
+      "evidence": "official"
+    },
+    {
+      "name": "Gemini服务",
+      "detail": "云端自然语言和对话能力。",
+      "evidence": "official"
+    },
+    {
+      "name": "家庭连接",
+      "detail": "Google Home设备与任务。",
+      "evidence": "official"
+    },
+    {
+      "name": "音频输出",
+      "detail": "扬声器与声学结构。",
+      "evidence": "official"
+    },
+    {
+      "name": "交互状态",
+      "detail": "灯环、音量与账号服务。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Home Speaker（2026） 官方购买页",
+      "url": "https://store.google.com/us/product/google_home_speaker?hl=en-US",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+    },
+    {
+      "title": "Google 官方Gemini音箱说明",
+      "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "support"
+      ],
+      "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Google Home Speaker（2026） 官方购买页",
+        "url": "https://store.google.com/us/product/google_home_speaker?hl=en-US",
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "id": "s2",
+        "title": "Google 官方Gemini音箱说明",
+        "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/",
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "任务与触发场景",
+          "text": "这款音箱的需求重点是家庭成员用自然语言处理连续请求，而不是仅在手机上再打开一个聊天窗口。音箱放在固定房间，能否减少找手机、重复唤醒和切换应用的动作，需要以具体家庭任务衡量。官方Gemini能力为研究提供线索，但更自然的对话并不自动证明日常收益。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "流程中的收益与代价",
+          "text": "家庭语音入口可能方便做家务或双手被占用的人，也会引入网络、账号、语言和家居集成依赖。如果家庭主要听音乐，普通音箱可能已经足够；如果希望完成跨设备任务，失败恢复与权限确认会变得重要。应把内容播放、查询和家庭控制分别研究，不能混成一个宽泛需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求如何验证",
+          "text": "建议观察同一家庭用手机、既有音箱与新设备完成固定任务，记录请求轮数、纠正、确认动作和完成时间。还要记录没有成功执行时用户转向什么工具。当前没有用户访谈或实验数据，不把更流畅的聊天、较新的模型或服务品牌直接等同用户愿意购买和长期使用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "优先使用者",
+          "text": "优先画像是已经使用兼容家庭设备与Google相关服务、希望在共享空间增加语音入口的个人家庭。已有账号和设备习惯可能降低接入成本，但不能据此推断所有成员都有相同语言、权限和使用目标。需要先确认实际任务，而不是把整个生态用户都当成潜在购买者。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "购买者与使用者",
+          "text": "购买者可能负责联网和设备绑定，其他成员只希望一次请求得到明确结果。家庭中的个人查询与共同设备控制也有不同权限边界，必须观察谁能发起、确认和撤销操作。对话自然不应掩盖用户对信息来自哪里、会影响谁的疑问，这些问题需要在真实使用中验证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "不适配与分层验证",
+          "text": "如果主要需求是离线控制、完全自主配置或特定地区暂未支持的服务，购买前需要核对边界。建议纳入不同技术熟练度与语言习惯的家庭成员，观察是否有人持续被排除在交互之外。国内可购买、可激活与完整功能可用是不同事项，本轮未确认的部分不应推定。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "直接与间接替代",
+          "text": "替代方案包括其他生态智能音箱、手机助手、普通蓝牙音箱和实体家居控制。固定音箱的优势可能在于随时可用，手机则拥有个人屏幕和更直接的确认入口。比较应固定同一个请求及家庭设备，不以对话能力数量或品牌模型名称做单维排名。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "具体差异与条件",
+          "text": "公开介绍中的连续自然语言和家庭任务能力构成差异，但如果任务实际仍需多次纠正或回到手机确认，优势就需要重新判断。与已有同生态音箱比较时，应核对功能是否也会通过服务更新出现，避免把平台升级全部归为新硬件独有价值。当前资料不能代替逐型号权限确认。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "同条件比较方法",
+          "text": "建议把普通查询、连续追问、播放内容和家庭控制分开比较，并记录网络条件、账号权益与模型版本。加入模糊指令和执行失败场景，观察用户能否恢复。当前没有完整竞品实测、市场份额和使用留存，因此不把发布描述直接当作竞争领先证据。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能与交付拆分",
+          "text": "公开资料能支持音频输入输出、联网终端、Gemini家庭服务与兼容家居设备的功能拆分，但没有公开完整芯片与制造商。供应链研究应同时记录声学、连接、电源、机身装配和云端服务责任，不能因为某家公司有智能音箱能力就认定其已经为该型号供货。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与服务约束",
+          "text": "远场对话会受到房间、播放音量、机壳与声音处理共同影响，软件效果不能只在独立麦克风样板上评估。家庭设备集成和账户服务还会延长交付链路，需要确认版本变化及异常定位。制造一致性、算法更新与服务可用性应分开验证，避免用一次成功演示覆盖全部条件。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选公司与导入",
+          "text": "候选公司可以从智能音箱整机工程和声学系统两个入口询问，用于重新设计类似终端。要提供房间场景、目标交互、声音与功耗要求，再核对尺寸、测试和售后责任。下方关联不是Google实际BOM；单价、产能、合作意愿和具体云服务授权都需要另外确认。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已知功能与处理链路",
+          "text": "官方将Gemini for Home用于自然语言、连续对话和家庭任务，部分高级能力与付费服务有关。理解技术时应区分声音采集、语音处理、语言理解、工具或设备执行及结果反馈。音箱承担入口，不代表整个推理过程都在机内；具体端云分工未完整披露的部分应保留。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "主要技术约束",
+          "text": "难点不只是听懂句子，还包括把请求映射到正确设备与权限，并让用户知道实际执行结果。连续对话需要处理上下文和取消意图，服务或网络异常也可能中断链路。生成回答看似合理不能证明控制动作正确，尤其要区分建议、确认与已经完成的事情。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统验证方法",
+          "text": "建议构建可重复的家庭任务集，记录声音输入、系统回应、设备状态和最终用户判断，分别测试多人说话、噪声、弱网及目标设备离线。高级和基础权益应分别测量。当前没有执行这些测试，不承诺任意房间、语言、设备组合或服务计划下的效果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "形态与使用环境",
+          "text": "固定家庭音箱需要在被看见和不打扰之间取舍，外观应让用户理解它是声音与家庭任务入口，而不必让所有功能在机身上显露。设计观察应涵盖客厅、厨房和卧室等不同摆放条件。颜色和体积的接受度属于用户研究问题，不能仅凭简洁照片推断适合所有家庭。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "交互与身体体验",
+          "text": "声音反馈、状态指示和实体控制应帮助用户判断是否正在聆听、处理或执行。没有大屏时，复杂确认可能难以表达，需要观察用户是否被迫回到手机。日常操作与账号配置承担不同任务，不能把丰富的云端功能直接理解为机身交互更清晰。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "长期维护与设计验证",
+          "text": "长期体验还包括电源线整理、清洁、移动摆放与多人共享时的状态理解。建议观察家庭成员遇到错误、调音量和暂停交互的实际步骤，并记录服务更新后反馈是否改变。当前未开展实物与声音覆盖测试，不由材质宣传或渲染图判断耐久和房间适配。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失败情形",
+          "text": "主要风险是请求被理解为不同任务、执行结果不明确或回答错误却语气肯定。共享设备还需要让个人信息和共同家居权限保持清楚。研究应检查用户如何发现错误、取消和恢复，而不是只统计成功响应；自然对话并不自动消除误操作和隐私边界问题。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "购买与持续服务",
+          "text": "购买和使用取决于地区、语言、账号、联网及服务计划，高级对话或复杂自动化可能涉及额外权益。硬件标价不能代表全部长期使用成本，也不能由海外官方店推断大陆服务完整可用。与旧设备对比时还要核对平台更新和具体型号功能范围。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证及停止条件",
+          "text": "可在试用前设定停止条件，例如高频任务需要持续纠正、家庭成员无法理解是否执行成功，或服务条件不满足实际地区需求。保留失败日志及替代工具使用情况，不以聊天时间增加当作价值提升。当前没有长期家庭数据，不给使用留存和商业成功概率。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可检验的差异",
+          "text": "可探索的差异是把家庭任务做得可确认、可恢复且适合多人共享，而不仅让回答更像人。用户可能真正需要少说一句、少找一次手机或更清楚地知道动作状态。新创业产品应先选定这一类可观察收益，避免把所有家庭问题都归结为缺少一个生成式音箱。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "实现与商业约束",
+          "text": "实现约束包括声学集成、设备生态、权限和持续云端服务，硬件团队不能只优化一个模型回答环节。生态绑定可能降低初次接入成本，也可能提高迁移难度。当前没有完整成本和付费行为数据，应先比较整个任务链路，再判断是否存在值得进入的新细分市场。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一阶段验证",
+          "text": "下一阶段可邀请不同家庭成员完成少量高频任务，记录主动复用、错误恢复、对确认反馈的理解以及回到手机的原因。若需求主要是更好的音乐体验或简单开关，应允许结果指向普通音箱和实体交互。只有专用语音入口带来明确增益后，再进入供应商样机验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "goertek",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "家庭音箱声学系统候选",
+        "rationale": "歌尔公开智能音箱与声学系统能力可作为新产品的声音集成研究入口。需要按实际机壳、房间与播放条件验证拾音和反馈，不能直接套用标准器件结果；本目录没有该Google型号与歌尔逐产品供货关系的证据。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "quanta-computer",
+        "role": "manufacturing",
+        "relationship": "candidate",
+        "component": "联网家庭终端整机候选",
+        "rationale": "广达公开包含智能音箱和家庭网关等物联网方向，可用于同类终端重新开发时讨论系统制造与交付。云端Gemini服务、账号和家庭生态权限不是代工能力自然附带，本条也不确认广达制造当前Google Home Speaker。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "shared-home-voice-assistance",
+      "needName": "共享家庭语音与设备任务",
+      "difference": "公开介绍中的连续自然语言和家庭任务能力构成差异，但如果任务实际仍需多次纠正或回到手机确认，优势就需要重新判断。与已有同生态音箱比较时，应核对功能是否也会通过服务更新出现，避免把平台升级全部归为新硬件独有价值。当前资料不能代替逐型号权限确认。",
+      "comparisonBasis": "替代方案包括其他生态智能音箱、手机助手、普通蓝牙音箱和实体家居控制。固定音箱的优势可能在于随时可用，手机则拥有个人屏幕和更直接的确认入口。比较应固定同一个请求及家庭设备，不以对话能力数量或品牌模型名称做单维排名。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/google-home-speaker-2026/product.jpg",
+      "sourceUrl": "https://store.google.com/us/product/google_home_speaker?hl=en-US",
+      "sourceImageUrl": "https://lh3.googleusercontent.com/CkegE5yZ7JLFwjWCjPKsv27pgoT-q9Xy7AaigbpesZEonEUwei2rcJRDdq8z_Bt6n9XV1tTh9DBJzkTkcEr804LBiRCLFMeEQ8o=w1200",
+      "caption": "Google Home Speaker（2026） 官方产品图",
+      "alt": "Google Home Speaker（2026） 官方产品图",
+      "credit": "Google · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 158260,
+      "sha256": "b54e8f4ecb20ee980d39e408d28414bd7df5b4386f1f5e836edf62d7910aab76"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/google-home-speaker-2026/reference.webp",
+      "sourceUrl": "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/",
+      "sourceImageUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Home_Speaker_with_Light_R.width-1200.format-webp_MC2V4fB.webp",
+      "caption": "Google Home Speaker（2026） 官方外观、结构或使用参考",
+      "alt": "Google Home Speaker（2026） 官方外观、结构或使用参考",
+      "credit": "Google · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 93370,
+      "sha256": "403f7fd65c5e522a840baffaca76cdf3fc896353b2d4291a290681f9b4777e08"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/google-home-speaker-2026/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Google Home Speaker（2026） AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/google-home-speaker-2026.txt",
+      "referencePaths": [
+        "assets/hardware/google-home-speaker-2026/product.jpg",
+        "assets/hardware/google-home-speaker-2026/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1866057,
+      "sha256": "0f0a0fc2c07596ba7894419aaed78982fc2d59fd6ce23ced0352d7a86f066eb0"
+    }
+  ],
+  "mediaNotes": [
+    "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+    "保留官方图片原始内容和出处；画面宣传参数不是本轮独立实测。"
+  ]
+}

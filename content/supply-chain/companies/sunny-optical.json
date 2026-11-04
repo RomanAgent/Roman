@@ -1,0 +1,358 @@
+{
+  "id": "sunny-optical",
+  "name": "Sunny Optical 舜宇光学",
+  "legalName": "Sunny Optical Technology (Group) Company Limited；集团能力合并口径",
+  "country": "中国大陆",
+  "locations": [
+    "浙江余姚（集团公开联络地址）"
+  ],
+  "tier": "global",
+  "tierNote": "跨手机、车载、机器人和光学仪器的集团型供应商；此分组不代表未经核验的规模排名。 国家范围按集团公开联络地记录，未将法定注册地推为运营总部。",
+  "roles": [
+    "optics",
+    "sensing",
+    "engineering"
+  ],
+  "capabilities": [
+    "成像镜头与摄像模组",
+    "主动双目三维相机",
+    "结构光识别相机",
+    "广视场RGB相机",
+    "机器人视觉感知方案"
+  ],
+  "productCategories": [
+    "imaging",
+    "robotics",
+    "drones",
+    "gimbals",
+    "creative-tools",
+    "sports"
+  ],
+  "website": "https://www.sunnyoptical.com/en/default.html",
+  "contactUrl": "https://www.sunnyoptical.com/en/contact.html",
+  "summary": "舜宇在本目录中按光学集团合并记录，重点考察其镜头、摄像模组与机器人视觉产品之间的衔接。官网同时列出主动双目、结构光及广视场相机，适合作为视觉硬件选型的能力入口；具体产品采用关系、定制接口和订单条件仍需单独验证。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开业务：光学与视觉层",
+        "text": "官方产品目录同时覆盖手机镜头和模组、监控镜头、机器人相机及增强现实光学部件。对于消费AI硬件，舜宇的角色首先是把光线转换为可用图像或深度信息，而不是提供产品完整的对话服务与用户应用。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "判断：以功能层而非品牌名选型",
+        "text": "这类跨业务集团适合从成像范围、安装空间和深度感知方式开始沟通，再寻找对应团队。不能因为它服务多个终端领域，就假定同一个模组可以直接适配运动相机、健身视觉系统和小型云台，各自的光学边界明显不同。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力：多种机器人视觉路线",
+        "text": "机器人目录列有AI检测相机、广视场USB彩色相机、结构光人脸识别、双目识别与主动双目三维相机。这说明可讨论的交付物既有图像采集也有深度或识别模块，但每款实际接口、算法输出和环境条件仍需查看独立规格。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断：镜头和算法要成对评估",
+        "text": "选择其视觉方案时应同时确认镜头视场、传感输入、标定方式和输出数据是否满足主控软件。较宽视角可能改变边缘畸变和主体像素密度，深度模组也可能受材质与光照影响，不能只把识别演示或分辨率作为技术结论。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配：具身感知与跟拍候选",
+        "text": "对带视觉避障、人体观察或主体跟踪的产品，舜宇的机器人相机类别提供了可进一步询问的模块方向。适配依据是产品确实需要视觉输入，并非已有供货关系；还需核对工作距离、运动速度和外壳窗口造成的成像变化。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "边界：消费镜头不等于摄影镜头替换",
+        "text": "其手机及监控光学业务不能直接证明能够替换某台可换镜头相机的原厂镜头系统。若为个人影像设备寻找备选，必须先说明是小型感知镜头、固定焦段组件还是完整可变焦光学系统，再评估是否存在合适的业务和工艺路径。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "接洽：先写清图像链路",
+        "text": "建议提交目标场景样例、工作距离、视场需求、安装限制与主控可接收的数据格式，再询问是否有标准模组可试用。这样可以把讨论从泛泛的AI相机采购，收敛到原始图像、深度数据或检测结果三类不同交付边界。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "接洽：明确合同与责任接口",
+        "text": "集团联系页提供余姚地址及公开联络渠道，可作为寻找业务团队的入口，但不能据此认定某厂区会承接项目。正式接洽应确认签约主体、设计与标定责任、固件维护以及问题升级方式，并记录哪些能力由合作方提供。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "验证：实景标定与批次一致性",
+        "text": "质量验证应围绕样机实际外壳进行，覆盖逆光、暗光、重复纹理及移动目标，检查失焦、畸变和深度丢失。对于双目或结构光方案，还要比较多台样品的标定稳定性，而不能只用供应商演示的一台设备代表量产一致性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "验证：制造变化是否可追溯",
+        "text": "采购讨论应要求明确镜头、传感器或模组固件变更时如何通知，以及是否需要重新标定与回归测试。这里是项目验证要求，不是对舜宇现有质量体系的否定或认证结论；本轮没有取得具体料号的工厂审核和批次测试记录。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断：交付范围影响成本结构",
+        "text": "单独采购镜头、完整相机模组和包含算法的视觉方案，会对应不同的开发投入与后续支持方式。应把镜头定制、模具、标定工装和软件集成分别询价，避免把目录上的功能广度误读为小团队可以低成本获得全部能力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "待确认：项目门槛与持续供货",
+        "text": "公开页面没有给出本项目可使用的最小订单量、报价、样品交期或停产通知期限。需要用计划阶段、预计数量与生命周期向实际业务团队取得书面条件，并准备标准件与定制件两条路径，不能以集团规模代替供货承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "风险：同名视觉能力的含义不同",
+        "text": "目录中的AI相机、结构光和双目系统面向不同任务，识别对象、算力位置及输出协议可能完全不同。若把名称相近当成可替代，后续可能发现主控、照明或标定流程需要重做，因此应以具体料号和接口资料作为集成依据。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "风险：公开业务不能证明产品BOM",
+        "text": "本目录未获得舜宇为所链接消费产品供货的点名证据，也没有拆机或采购合同。所有产品跳转因此保持候选关系；即使目标产品采用类似光学路线，也不能由形态相似、国家地区或常见市场方案推断实际制造来源。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "下一步：用目标任务筛选样机",
+        "text": "可先选择一个明确任务，例如在固定距离内持续跟踪人物，提交相同场景素材给候选团队确认推荐方案。随后在目标主控上测试输入延迟、失效条件与重启恢复，把不能满足的条件写入比较表，而不是只评一个总分。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "下一步：保留采购决策证据",
+        "text": "进入选型前应保存带版本的规格书、样品编号、测试环境和对方确认的支持范围，再核对公司主体与报价有效期。只有公开或可授权引用的点名材料才能升级为实际采用关系，内部推测与泛化客户案例都应继续标为待证实。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "舜宇机器人视觉产品目录",
+      "url": "https://www.sunnyoptical.com/en/pro/009019/index.html",
+      "note": "已打开，列出主动双目、结构光、RGB和AI检测相机等产品路线。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "舜宇集团联系页",
+      "url": "https://www.sunnyoptical.com/en/contact.html",
+      "note": "已打开，确认集团主体、余姚公开地址和联络入口。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "舜宇英文业务首页",
+      "url": "https://www.sunnyoptical.com/en/default.html",
+      "note": "已读取官方公开页面，确认手机、车载、监控、机器人及AR/VR光学业务目录。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "sunny-optical",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "固定镜头与紧凑成像光学候选",
+      "rationale": "舜宇公开覆盖镜头与成像模组，可作为固定镜头系统的能力询问对象；但V1的变焦结构、图像圈和整机校准要求尚未与具体供应料号匹配，不能把手机或机器人镜头目录直接视为可替换原厂光学，也没有实际供货证据。",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "canon-powershot-v1",
+      "productName": "Canon PowerShot V1",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunny-optical",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "紧凑广角成像光学候选",
+      "rationale": "舜宇公开镜头和视觉模组产品，可作为Ace Pro 2这类固定广角影像设备的光学能力候选；仍需确认视场、像面、畸变校正和户外温度条件是否符合具体设计，不能把普通监控或机器人镜头直接视为原机替换件，也没有点名供货证据。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "insta360-ace-pro-2",
+      "productName": "Insta360 Ace Pro 2",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunny-optical",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "双向广角光学与视觉组件候选",
+      "rationale": "舜宇公开镜头和视觉模组能力，可作为X5双向成像链路的光学选型候选；但全景视场、双路标定、镜片更换和密封条件需要逐项确认，不能把普通单目模组直接替换原机，也没有公开证据证明其为X5供应镜头或组件。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "insta360-x5",
+      "productName": "Insta360 X5",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunny-optical",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "结构光采集光学与视觉组件候选",
+      "rationale": "Sunny Optical公开结构光与立体视觉模组方向，可作为Moose表面采集的光学候选，但具体投光、视场、同步和几何标定须专项确认，普通机器人视觉模块不能直接替换扫描器。当前没有3DMakerpro点名采用证据，也不保证扫描精度。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "3dmakerpro-moose",
+      "productName": "3DMakerpro Moose",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunny-optical",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "成册页面采集光学候选",
+      "rationale": "Sunny Optical公开镜头与视觉组件能力，可作为ET24 Pro顶部采集光学候选，但页面范围、边缘成像、照明与几何固定需要专项确认，不能把机器人结构光模组直接等同书页扫描。当前没有CZUR点名供货证据，也不提供展平或OCR算法。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "czur-et24-pro",
+      "productName": "CZUR ET24 Pro",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunny-optical",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "轻量飞行影像采集光学候选",
+      "rationale": "Sunny Optical公开镜头与视觉组件能力，可作为Neo 2影像输入候选，但重量、视场、振动、云台与多传感同步需要专项确认，普通机器人模组不能直接替换飞行相机。当前没有DJI点名采用证据，也不涉及未披露LiDAR芯片或布局。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "dji-neo-2",
+      "productName": "DJI Neo 2",
+      "category": "drones",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunny-optical",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "紧凑无人机影像光学候选",
+      "rationale": "Sunny Optical公开镜头和视觉组件能力，可作为Mini 5 Pro相机输入候选，但云台配合、振动、重量和成像要求须专项验证，普通视觉模组不能直接替换飞行相机。当前没有DJI点名供货证据，也不据候选推断前向LiDAR器件来源。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "dji-mini-5-pro",
+      "productName": "DJI Mini 5 Pro",
+      "category": "drones",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunny-optical",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "固定家庭视觉输入模组候选",
+      "rationale": "舜宇公开镜头和视觉模组能力可作为新设计的成像候选，需要核对视场、光照、体积、接口及数据处理。视觉模组供应不等于完整Alexa视觉服务，也不构成现有Echo Studio采用该公司模组的证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "amazon-echo-studio-home-camera",
+      "productName": "Amazon Echo Studio with Home Camera",
+      "category": "home-assistant",
+      "status": "on_sale"
+    }
+  ]
+}

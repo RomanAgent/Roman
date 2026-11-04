@@ -1,0 +1,449 @@
+{
+  "id": "jabil",
+  "name": "Jabil / 捷普",
+  "legalName": "Jabil Inc.",
+  "country": "美国",
+  "locations": [
+    "美国",
+    "美洲",
+    "亚洲",
+    "欧洲"
+  ],
+  "tier": "global",
+  "tierNote": "Jabil / 捷普按公开跨地区运营及早期工程与产品开发等已核查业务归入综合与跨地区供应商；不推断员工、营收、产能，也不表示每个地点具备同一服务范围。",
+  "roles": [
+    "engineering",
+    "manufacturing",
+    "pcb",
+    "mechanical"
+  ],
+  "capabilities": [
+    "早期工程与产品开发",
+    "电子及系统制造",
+    "供应链管理",
+    "返修翻新与生命周期支持"
+  ],
+  "productCategories": [
+    "home-assistant",
+    "home-security",
+    "cleaning",
+    "garden",
+    "kitchen",
+    "pet-care"
+  ],
+  "website": "https://www.jabil.com/",
+  "contactUrl": "https://jabil.com/about-us/global-locations/americas.html",
+  "checkedAt": "2026-11-04",
+  "summary": "捷普公开把工程、供应链和制造组合为服务，并强调从原型到生产及后续返修翻新的衔接。它适合作为复杂家用电子产品导入和生命周期管理的能力候选；实际承接品类、站点与数量条件需按项目核实，不以广泛行业覆盖推定具体品牌客户。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位",
+        "text": "捷普官网把工程、供应链与制造作为共同服务，说明可在早期产品开发阶段介入，并支持原型到最终生产。它的目录定位是产品化伙伴，而不是仅提供固定成品方案；具体是否适合家居新创项目仍需业务窗口确认。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "合作边界判断",
+        "text": "对于带机械动作的家用电子产品，捷普值得研究的是开发、采购和制造如何相互反馈。若品牌只需要少量电路板打样，复杂的整合合作未必必要；若要跨批次维持体验，则需评估其工程和持续支持能否匹配项目节奏。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力",
+        "text": "官方总览明确列出设计工程、供应链、制造以及退回、翻新和维修等服务，并强调制造模式按客户生产需求调整。这些说明支持生命周期协作的讨论，但没有提供本目录具体型号的产线、认证、实际客户或工艺参数。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "工程整合判断",
+        "text": "家用设备的失效常跨越电子、机构和使用行为，例如滚刷卡住后软件仍显示完成。综合工程服务可能帮助把这些问题纳入设计和测试，但必须先有品牌定义的任务和异常行为要求，不能只按通用电子组装目标导入。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "优先匹配场景",
+        "text": "可优先讨论相机、家庭助手和清洁设备控制系统的开发导入，以及需要后续维修的整机装配。候选匹配应具体到电子和系统工程，不把官网的广泛行业经验直接解释为每款宠物或厨房产品都有可复制量产方案。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "不匹配条件",
+        "text": "对极小众、外形频繁变化且还没有稳定原型的设备，捷普可能只是长期备选，短期适配要看实际承接条件。尤其软体、食物接触和水下结构等专门工艺需要另行核实，不能因其制造广度而省略专业验证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "询盘准备",
+        "text": "首次询盘宜明确产品阶段、目标任务、现有原理图和机构资料，以及需要对方承担的验证与供应工作。若项目依赖云AI，还应说明设备身份、烧录与升级策略，使工程报价不会遗漏生产后持续运行所需的基础环节。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "项目接口",
+        "text": "项目接口要把工程变更、替代料、软件基线与维修数据联动起来，并确认不同团队如何对同一故障作出结论。捷普提供返修服务不代表品牌可以不设验收标准，仍需规定哪些失效必须反馈研发、哪些属于可接受使用损耗。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "质量关注点",
+        "text": "质量验证应包含关键功能、异常恢复和批次一致性，尤其关注相机或音频输入变化对模型表现的影响。单块PCBA通过电测并不能证明整机识别可靠，应让候选方说明如何把算法输入条件纳入制造和装配控制。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "验收设计",
+        "text": "可以用一组代表性返修样机演示诊断、序号追溯和原因分类，再检查这些结果如何改变生产测试。若设备会反复升级，应同时核对硬件与模型版本，避免供应商和品牌分别用不同配置评估同一个使用问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "成本结构",
+        "text": "总成本应包括开发、治具、物料、装配测试、维修备件和物流，不应只比较首批单机价格。捷普本轮公开资料没有适用于这些创业项目的MOQ或报价，因此目录保留待询价状态，不从大型企业身份推测规模折扣。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "合作方式判断",
+        "text": "若选择完整生命周期合作，应明确服务期限、返修地区和退出后的资料交接。对于需求波动大的消费硬件，库存和替代料责任尤其重要；能否承担这些约束，需要结合品牌现金流与产品维护计划进行具体谈判。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "业务风险",
+        "text": "广泛行业覆盖可能掩盖内部团队差异，实际承接工厂与工程窗口未必拥有同样经验。对家庭AI产品，不能拿另一领域的自动化展示替代视觉、语音或用户接触材料测试，适配性仍应建立在相近任务的样机和流程证据上。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "证据边界",
+        "text": "目录未找到捷普为本组具体产品制造的点名材料，候选关系不能被理解为已采用。公开客户新闻若不覆盖相同型号与阶段，也不足以推断当前工厂、设计归属或供应份额，这些信息必须保留证据边界。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "需验证的能力",
+        "text": "下一轮建议提交具体样机与失效清单，要求候选团队提出工程导入、制造测试和返修闭环方案。重点看责任能否贯穿产品生命周期，而不是仅看是否能承诺完成某个装配动作或提供宏观服务介绍。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "进入下一阶段条件",
+        "text": "当关键功能与异常场景能在试产中稳定验证，且物料、软件和售后数据的变更机制明确后，再扩大生产。若供应商无法说明真实使用问题怎样反馈到研发，应重新界定合作范围，避免把长期维护风险留到上市之后。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "捷普公司介绍",
+      "url": "https://jabil.com/about-us.html",
+      "note": "核实工程、供应链及制造公司定位。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "捷普官方服务总览",
+      "url": "https://www.jabil.com/",
+      "note": "核实原型到生产、制造模式及返修翻新能力，未采用宣传规模数字。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "捷普美洲地点",
+      "url": "https://jabil.com/about-us/global-locations/americas.html",
+      "note": "核实美国公司总部与服务地点，不把地点存在等同全部工艺可用。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "supplierId": "jabil",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "Hub电子与机电系统工业化候选",
+      "rationale": "Jabil公开产品工程、电子与系统制造能力，可作为Pod Hub控制和装配的工程候选；具体热管理、密封、柔性覆盖层接口及维护要求仍需专项验证，不能从综合制造经验推断具备现成Pod方案，也没有原机代工或供货证据。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "eight-sleep-pod-6",
+      "productName": "Eight Sleep Pod 6",
+      "category": "sleep",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "实时音频系统工业化候选",
+      "rationale": "Jabil公开电子与系统工程制造能力，可用于讨论Quad Cortex同类音频控制系统的工业化，但实时音频、底噪、脚控和固件测试需项目设计，不能把综合制造服务视为现成神经建模平台。当前没有原机BOM或实际代工证据。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "neural-dsp-quad-cortex",
+      "productName": "Neural DSP Quad Cortex",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "一体棋类终端电子系统工业化候选",
+      "rationale": "Jabil公开产品工程与电子系统制造，可用于EVO同类棋盘和计算显示集成候选研究，但棋子识别、校准与软件须由项目设计验证，不提供现成智能棋盘。当前无原机BOM或实际代工证据，也不据综合能力推定特定工厂。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "chessnut-evo",
+      "productName": "Chessnut EVO",
+      "category": "games",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "manufacturing",
+      "relationship": "candidate",
+      "component": "户外联网相机整机导入与制造",
+      "rationale": "Jabil 公开电子制造和工程服务可用于评估户外摄像系统导入及测试，但 Arlo 的基站协议、云服务和具体光学方案需独立确认；未发现 Ultra 2 点名合作证据，此处不认定实际代工。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "arlo-ultra-2",
+      "productName": "Arlo Ultra 2",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "manufacturing",
+      "relationship": "candidate",
+      "component": "户外能源与联网相机整机制造",
+      "rationale": "Jabil 的工程及电子制造范围可用于评估相机、无线和电源整机导入，但太阳能布局、密封和 HomeBase 兼容需专门验证；没有 S3 Pro 点名合作证据，本条只列制造能力候选。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "eufycam-s3-pro",
+      "productName": "eufyCam S3 Pro",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "manufacturing",
+      "relationship": "candidate",
+      "component": "户外电子整机制造与测试导入",
+      "rationale": "Jabil 的工程和电子制造范围可支持户外门铃结构、电源及功能测试导入，但未披露为该型号供货，云服务也不是通用制造能力；具体厂区和验证范围仍需项目级评审。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "google-nest-doorbell-wired-3",
+      "productName": "Google Nest Doorbell（wired, 3rd gen）",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "manufacturing",
+      "relationship": "candidate",
+      "component": "窄机身有线门铃制造与测试",
+      "rationale": "Jabil 的工程和电子制造服务可用于评估有线门铃的音视频、电源及户外整机导入，但没有该 Ring 型号点名供货证据；云端描述和账户体系也需独立负责，候选仅表示能力匹配。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "ring-wired-doorbell-4k-pro",
+      "productName": "Ring Wired Doorbell 4K Pro",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "manufacturing",
+      "relationship": "candidate",
+      "component": "联网充电设备整机导入与制造评估",
+      "rationale": "Jabil的工程及电子制造服务可作为充电器控制、结构和测试导入候选，但实际功率保护、认证及车辆协议需专项确认；没有CleverCharge点名供货证据，候选不能解释为实际工厂或已具备该套装全部能力。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "clevercharge-home-cleverkey",
+      "productName": "CleverCharge Home + CleverKey（J1772 NEMA 14-50）",
+      "category": "home-energy",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "传感控制及长期可靠性测试导入",
+      "rationale": "捷普的产品工程与电子制造服务可匹配传感、控制和测试导入需求，但高湿油污、负载波动和食品残渣处理属于额外约束；当前没有Mill点名供货证据，只列能力候选而非现用方案。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "mill-food-recycler-plus",
+      "productName": "Mill Food Recycler Plus",
+      "category": "kitchen",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "manufacturing",
+      "relationship": "candidate",
+      "component": "复杂机电系统制造与测试导入",
+      "rationale": "Jabil公开工程和复杂电子制造服务可匹配感知、控制及机电整合的导入评估，但家庭运动安全、手部与柔性外衣需专项验证；没有1X NEO点名采用证据，不能把候选能力解释为实际整机工厂。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "1x-neo-home",
+      "productName": "1X NEO Home Robot",
+      "category": "robotics",
+      "status": "reservation"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "照明与感知电子整机导入评估",
+      "rationale": "捷普公开工程制造服务可匹配照明、控制、供电与感知终端的整机导入，但雷达互扰、夜间声光体验及睡眠模型需专项验证；没有Sleepal点名合作资料，不能视为实际代工或临床可靠性证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "sleepal-ai-lamp",
+      "productName": "Sleepal AI Lamp",
+      "category": "sleep",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jabil",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "烤制控制电子与整机验证导入",
+      "rationale": "捷普公开产品工程及电子制造服务可对应传感控制、界面和整机测试导入，但燃气、高温及食品接触需要专项验证；没有Perfecta型号点名合作证据，不能称实际代工或已满足全部安全要求。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "seergrills-perfecta",
+      "productName": "SEERGRILLS Perfecta",
+      "category": "kitchen",
+      "status": "preorder"
+    }
+  ]
+}

@@ -174,6 +174,10 @@ KINPO Group / 金宝电子按公开跨地区运营及家用电器制造等已核
 
 - [Barsys 360](../hardware/barsys-360.md) — **能力候选 · 非已采用** / 小型饮品设备机电整合评估：新金宝集团的家电和消费设备工程可对应储料结构、控制与整机装配，但食品接触液路、清洗和计量必须专项验证；没有Barsys 360点名合作信息，当前是候选能力而非代工事实。
 
+- [YSL Rouge Sur Mesure](../hardware/ysl-rouge-sur-mesure.md) — **能力候选 · 非已采用** / 便携消费机电设备导入评估：新金宝公开消费与小家电制造能力可对应外壳、控制和计量执行整合，但化妆品色芯卫生、密封和配方稳定需专项验证；未见YSL Rouge Sur Mesure点名合作资料，不能标为实际代工。
+
+- [Cradlewise Convertible Smart Bassinet & Crib](../hardware/cradlewise-smart-crib.md) — **能力候选 · 非已采用** / 集成床体机电产品导入评估：新金宝公开家电及机电整合能力可用于底座控制和制造流程候选评估，但婴儿床结构、材料及阶段安全需要专门验证；未见Cradlewise点名合作证据，不推定其具有本机实际工厂或认证。
+
 ## 来源
 
 - [金宝电子2025年报](<https://www.kinpo.com.tw/kpo_file/2025_Kinpo_Annual_Report_EN.pdf>)：公司主体、运营地点及家电、PCBA、注塑模具业务；不引用未验证客户名称。

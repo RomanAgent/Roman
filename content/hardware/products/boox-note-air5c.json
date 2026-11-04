@@ -1,0 +1,415 @@
+{
+  "id": "boox-note-air5c",
+  "name": "BOOX Note Air5 C",
+  "brand": "BOOX",
+  "category": "computing",
+  "audience": "consumer",
+  "tagline": "彩色电子纸中的内置阅读解释",
+  "officialUrl": "https://shop.boox.com/products/noteair5c",
+  "statusEvidence": "官方页面Order Now，结构化商品Offer所列美国标准套装为InStock。仅收这一代可购型号，不同时堆叠Air4、Air6或容量变体。",
+  "regions": [
+    "美国官网所列仓库与配送区域"
+  ],
+  "price": {
+    "text": "官方美国标准套装 US$529.99",
+    "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "内置阅读AI Assistant解释术语与复杂句子；Smart Scribe辅助整理手写和草图。普通刷新算法与可以安装应用本身不作为AI收录依据。",
+    "dependency": "联网助手的账户、模型与地区服务需另核对；本地阅读手写和系统显示优化是不同功能。第三方应用可用性受系统与电子纸适配限制。"
+  },
+  "highlights": [
+    "彩色电子纸中的内置阅读解释",
+    "手写草图与文本辅助",
+    "面向阅读批注和轻量创作"
+  ],
+  "analysis": {
+    "demand": "需求假设：阅读论文、教材或个人资料的人希望在批注时快速解释难句，同时保留颜色标记。应比较实际长文中的提示质量与切屏次数，确认彩色和AI服务是否支持同一个高频需求。",
+    "userProfile": "画像推断：常做文档批注、草图和个人学习笔记，愿意调整电子纸显示设置的人较匹配。它有安卓应用自由，也存在刷新和配色取舍，不能当作通用娱乐平板或专业绘图屏的直接替代。",
+    "competition": "竞争判断：手写电子纸和平板市场都有成熟产品，阅读助手还会受到手机软件替代。此款的差异是彩色标记、笔输入和内置解释衔接，不能用更多系统功能直接证明更适合所有阅读者。",
+    "supplyChain": "供应链推断：彩色电子纸、笔触层、前光和轻薄金属结构对装配与屏幕保护有要求，笔尖和键盘套也是维护环节。官方未披露完整工厂和物料表，维修与固件支持需按销售地区确认。",
+    "technology": "官方区分阅读AI Assistant与Smart Scribe等输入辅助。技术判断应分别观察术语解释是否准确、手写整理是否改变原意，以及复杂页面的响应，不能把刷新更顺滑等同语言模型更可靠。",
+    "aesthetics": "审美判断：宽握持边与柔和色彩延续数字纸张风格，笔和可选键盘套提供不同使用姿势。彩色电子纸的饱和度与背景亮度不能按宣传屏幕图判断，需要在实际照明下查看自己的材料。",
+    "risks": "风险判断：账户地区、在线服务和第三方应用权限会影响助手功能；彩色屏幕也可能需要更频繁调光。重要笔记应保留原始导出，模型解释需回查原文，不以厂商护眼措辞作医疗效果承诺。",
+    "opportunity": "市场观察：后续可按教材、科研阅读和个人绘画分别记录使用，不把多个场景混成单一用户。比较批注复用率、设置时间和助手纠错成本，判断这套组合是否超出普通平板已经满足的需求。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "面向阅读批注和轻量创作形成具体使用场景；本轮没有销量与市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "彩色显示",
+      "detail": "电子纸与前光显示文档和标记。",
+      "evidence": "official"
+    },
+    {
+      "name": "笔触输入",
+      "detail": "手写笔与触控层记录批注草图。",
+      "evidence": "official"
+    },
+    {
+      "name": "内容辅助",
+      "detail": "Smart Scribe和阅读AI助手处理内容。",
+      "evidence": "official"
+    },
+    {
+      "name": "系统连接",
+      "detail": "应用、网络与文档同步服务。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Note Air5 C官方商店",
+      "url": "https://shop.boox.com/products/noteair5c",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "Note Air5 C官方功能介绍",
+      "url": "https://shop.boox.com/blogs/news/introducing-note-air5-c-the-10-3-color-epaper-notebook-for-light-productivity",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "status": "on_sale",
+  "saleMode": "retail",
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+  },
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Note Air5 C官方商店",
+        "url": "https://shop.boox.com/products/noteair5c",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology。已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s2",
+        "title": "Note Air5 C官方功能介绍",
+        "url": "https://shop.boox.com/blogs/news/introducing-note-air5-c-the-10-3-color-epaper-notebook-for-light-productivity",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,dependency。已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜彩色批注中的阅读解释",
+          "text": "本型号把彩色电子纸阅读、手写草图与内置阅读助手结合，助手用于解释术语和复杂句子，Smart Scribe 承担输入辅助。需求是在阅读和批注时少切换设备，普通刷新优化或能安装应用本身不是收录人工智能的依据；本条限定 Air5 C，不借其他代际补写参数或能力。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜颜色与解释是否服务同一任务",
+          "text": "用户可能用颜色区分观点和问题，再向助手询问难句，希望阅读不中断。但彩色标记与人工智能回答如果互不关联，可能只是两种功能叠加；价值应以理解、回查和批注完成度判断，不能因为画面更丰富或解释更长，就认定学习和工作效率已经改善。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜真实长文中的操作",
+          "text": "可使用用户常读的论文、教材或个人资料，比较设备内解释与手机电脑查找的切换、错误和继续阅读时间。需要保留原文、问题和答案，观察助手是否理解上下文而非只解释关键词；当前目录没有实机实验，不能用短句演示证明长文和复杂页面都同样有效。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜批注和轻量创作用户",
+          "text": "经常阅读文档、手写笔记或画简单草图，并愿意调整电子纸显示的人可能更匹配。主要需要视频、复杂排版或专业绘图的人有不同要求，不能把安卓应用自由等同普通娱乐平板体验；画像应看真实资料、输出和回顾流程，而不是仅按学生或创作者标签分类。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜愿意管理显示与应用的人",
+          "text": "电子纸和第三方应用可能需要不同设置，用户是否愿意处理刷新、字体和权限，会影响长期体验。技术熟练者可能乐于调整，普通用户可能只想打开就读，不能合并评价；开放应用增加选择，也增加维护和数据流，画像需要包含这部分能力与偏好。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜不同文档与书写习惯",
+          "text": "测试应覆盖长文、图表、彩色标记和潦草笔记，记录显示与整理是否影响原意。还要让用户完成导入、选择内容和导出，观察哪些步骤仍需电脑，不能只评价写字手感；地区、账户和网络条件也应核对，海外商店可购不代表所有助手与应用在本地都可用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与黑白电子纸的取舍",
+          "text": "彩色可能帮助区分批注和图表，也可能让用户更依赖调光或改变阅读方式，不能只按颜色功能判断更好。比较应看用户真实资料是否需要颜色，以及解释任务是否减少查找；若主要是纯文字阅读，额外功能和维护未必有足够收益，需求应由任务而非规格决定。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜与通用平板和阅读器比较",
+          "text": "通用平板提供更广应用和动态显示，专用阅读器可能更简单，Air5 C 位于文档批注与轻量应用之间。竞争分析应覆盖完整阅读、手写和输出流程，不能因能装应用就假设所有软件都适合电子纸；助手也需要与现有手机或电脑工具比较，而非单独看功能名称。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜同代套装与服务成本",
+          "text": "本次价格对应标准套装，笔尖、保护或其他附件与服务应按实际选择核对，不把不同代际和容量重复计数。国际商店和国行条件不能互相替代，模型账户与第三方应用可能另有要求；当前没有销量或用户访谈，目录不从彩色、开放系统或在售状态推断市场接受度。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜显示、笔输入与系统模块",
+          "text": "公开形态包含彩色电子纸、笔输入、前光与机身结构，软件提供阅读和输入辅助，但完整器件与工厂未披露。不能从电子纸类别或安卓系统反推具体主控，也不把行业常见供应商写成确定采用；目录只描述功能架构，概念示意不提供真实装配、芯片布局或成本证据。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜屏幕与软件共同决定体验",
+          "text": "笔触、显示和应用刷新需要协同，屏幕保护、运输和耗材也影响长期使用。第三方应用更新可能改变表现，因此维护不仅是硬件维修；当前没有制造公差、良率和地区售后详证，研究应提出核对问题，不能根据轻薄金属外观或售价估算制造优势和利润。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜应用处理平台候选",
+          "text": "瑞芯微和联发科技可作为类似电子纸终端的应用主控候选，但没有本型号点名采用。需要验证彩色显示控制、手写、待机和目标系统，不能只依据图形或神经网络算力；通用平台也不自动提供 BOOX 助手、刷新调校和应用服务，实际选型需要完整软件与结构验证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜解释与书写辅助分层",
+          "text": "阅读助手解释术语与句子，Smart Scribe 处理手写或草图相关输入，基础阅读、显示优化和在线模型属于不同环节。具体模型、账号与部署条件未全部公开，不能把系统内置入口理解为全部离线；也不能把刷新更顺滑当作语言理解更可靠，技术评价需要按各层分别进行。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜上下文范围影响回答",
+          "text": "用户选出的短句可能依赖前文、图表或专业定义，助手若没有得到足够上下文，解释可能看似合理却不符合文章。系统需要让人知道处理范围并能回查原文，不能只追求立即回答；手写整理同样可能改变布局和逻辑，流畅输出不能代替忠实性检查。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜阅读与书写分别验收",
+          "text": "可用包含术语、否定和跨页引用的资料测试解释，再用真实笔迹检查整理是否丢失关系。复杂页面还应记录响应、刷新和应用切换负担，并测试断网后的基础功能；当前没有独立准确率或显示实测，官方演示不能保证所有文档、应用和输入习惯都适配。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜彩色电子纸的工具感",
+          "text": "颜色与手写可能让设备更像个人工作本，但真实观感取决于内容、光线和用户期望，不能按普通平板的照片想象实际屏幕。审美研究应在长文和批注中观察，而不只看封面与渲染；轻薄和金属外观也不能证明持握、笔触和长时间使用都舒适。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜助手入口与阅读节奏",
+          "text": "解释功能应帮助继续阅读，若每个不熟词都引发长回答和切屏，可能增加干扰。设计评价需要看选择、提问、核对和返回原文是否顺畅，而不是入口是否显眼；彩色标记和生成内容也应有清楚区分，避免用户把模型解释误认为原作者的文字或结论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜真实阅读姿势与光线",
+          "text": "试用应包含桌面、手持和不同环境光，记录调光、翻页、写字与回查的负担。不同资料格式和第三方应用要分别观察，不能用一个优化良好的界面代表全部体验；长期便利取决于显示、输入和内容管理共同适配，官方护眼或专注措辞不能代替实证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜模型解释与原文混淆",
+          "text": "术语和复杂句子可能被错误解释，润色或整理又可能省略限制条件，用户需要保留原文和原笔迹。重要概念应回查可靠来源，不能因回答显示在阅读器内就视为原书的一部分；目录不将生成式助手的流畅性或电子纸形式当作理解准确与学习效果的保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜应用权限与地区服务",
+          "text": "开放应用和联网助手涉及不同账号、权限与数据路径，海外可购不代表所有服务在大陆完整可用。第三方软件也可能没有针对电子纸优化，更新后行为需要重新确认；硬件购置不能等同全部模型权益永久包含，屏幕维修、耗材和系统支持也会影响长期拥有成本。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜导出与服务失效",
+          "text": "应检查原稿、批注和整理文本是否能分别导出，并在模型或网络不可用时确认基础阅读书写范围。更正后的内容需要保持可追溯，避免只留下无法核对的摘要；当前目录没有独立安全或可靠性测试，用户应能控制处理内容和保存副本，而不是完全依赖某项在线服务。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜阅读解释与颜色的联用价值",
+          "text": "本型号值得研究的是颜色标记、手写和解释是否在同一高频阅读任务中互相支持，而不是分别都有演示。若用户很少联用，复杂系统可能带来未使用成本；场景分组应以文档理解和批注任务为依据，不因彩色屏、容量或代际把相同需求重复计算。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜开放性是否降低总负担",
+          "text": "可安装应用可能减少设备切换，也可能增加设置、更新和权限管理，研究应记录真实收益与维护。不能把软件选择更多自动视为更适合，尤其用户主要需要专注长文时；购买理由应具体到哪些任务更容易完成，而不是以安卓或人工智能标签代替实际体验证据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜长期文档与维护成本",
+          "text": "后续可跟踪解释调用、错引、手写更正、导出和显示调整，并比较手机电脑或更简单阅读器何时足够。地区、应用和模型版本应分别记录，不能以短期尝鲜代表长期价值；当前目录是案头研究，不以官方在售、彩色电子纸或内置助手宣称需求与注意力效果已验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "rockchip",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "彩色电子纸文档终端的应用主控候选",
+        "rationale": "Air5 C 需要文档、手写和应用交互，瑞芯微平台可作为同类新设计候选。需核对彩色电子纸驱动、笔输入、待机和系统适配，当前未点名采用；多媒体或 NPU 能力不能直接提供 BOOX 刷新与助手服务，也不代表可以替换现有封闭主板。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "mediatek",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "多应用阅读与输入平台候选",
+        "rationale": "联发科技应用处理器路线可用于比较类似电子纸设备的系统与模型前处理，但需验证显示、笔接口、内存和持续功耗。当前没有 Air5 C 供货证据，不能因安卓应用支持推断具体芯片；平台能力也不保证第三方软件适合电子纸或全部 AI 可离线使用。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "reading-comprehension",
+      "needName": "阅读中的解释与理解",
+      "difference": "BOOX Note Air5 C在彩色电子纸阅读与标记过程中提供内置AI Assistant，针对术语和复杂句子解释，并有Smart Scribe整理笔迹。与切到手机搜索相比，增量是让问题留在阅读流程；与AiPaper Reader共享理解内容的核心需求，屏幕大小和彩色标记只是长文工作方式的差异。在线模型及第三方应用适配仍受账户和系统限制，解释需要回查原文，颜色标记也不必然抵消调光与切换的负担。",
+      "comparisonBasis": "与AiPaper Reader、普通电子书阅读器加手机搜索及平板阅读App比较长文解释与批注流程。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/boox-note-air5c/product.jpg",
+      "sourceUrl": "https://shop.boox.com/products/noteair5c",
+      "sourceImageUrl": "https://shop.boox.com/cdn/shop/files/01_36f01cab-06ea-40e1-b564-9a2d837064f1.jpg?v=1760437629",
+      "caption": "BOOX Note Air5 C · 官方产品图",
+      "alt": "BOOX Note Air5 C官方外观产品图",
+      "credit": "BOOX · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 52299,
+      "sha256": "ed0ea286ec777195ac4271dc469b40e938695a115cdeb843c18435e21c23e094"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/boox-note-air5c/reference.jpg",
+      "sourceUrl": "https://shop.boox.com/products/noteair5c",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0604/6410/3654/files/03_31d43319-2332-4c09-a868-6d62393b7a61.jpg?v=1761015092",
+      "caption": "BOOX Note Air5 C · 官方参考图",
+      "alt": "BOOX Note Air5 C官方场景或外观角度参考",
+      "credit": "BOOX · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 392206,
+      "sha256": "528afa8ba8b11c031f91a53ce8ff39688ddaa8f20540f9927cfa1b791021d77e"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/boox-note-air5c/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "BOOX Note Air5 C 的AI结构示意；内部布局为推断，不是实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/boox-note-air5c.txt",
+      "referencePaths": [
+        "assets/hardware/boox-note-air5c/product.jpg",
+        "assets/hardware/boox-note-air5c/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1598643,
+      "sha256": "a2563ebd9ea641e7ffe52b7ec51adb0ee89b91e5d8898adf73fabd473fa75e3d"
+    }
+  ],
+  "mediaNotes": [
+    "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+  ]
+}

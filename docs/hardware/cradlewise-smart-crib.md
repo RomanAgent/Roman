@@ -1,0 +1,265 @@
+# Cradlewise Convertible Smart Bassinet & Crib
+
+**Cradlewise** · 睡眠与放松 · 核查 2026-11-04
+
+通过视觉与声音感知觉醒迹象并以床体弹动回应的婴儿床
+
+消费渠道：个人零售。
+
+## 产品图片与结构参考
+
+### 产品图
+
+![浅木框网面Cradlewise婴儿床与集成观察杆](../../assets/hardware/cradlewise-smart-crib/product.jpg)
+
+官方家庭场景中的整机 · 来源：[Cradlewise · 官方图片](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [原始图片](<https://cradlewise.com/_next/image?url=https%3A%2F%2Fassets.cradlewise.com%2Fimages%2Fproduct%2Fcw0021%2F1-full.webp&w=3840&q=75>)
+
+### 参考图
+
+![Cradlewise床体、观察杆和应用功能图](../../assets/hardware/cradlewise-smart-crib/reference.jpg)
+
+官方功能位置参考（厂商说明非拆机） · 来源：[Cradlewise · 官方图片](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [原始图片](<https://cradlewise.com/_next/image?url=https%3A%2F%2Fassets.cradlewise.com%2Fimages%2Fproduct%2Fcw0021%2F2-full-without-temp.webp&w=3840&q=75>)
+
+### AI 生成爆炸示意
+
+![Cradlewise Convertible Smart Bassinet & Crib的功能模块概念爆炸图，内部位置并非实物拆机](../../assets/hardware/cradlewise-smart-crib/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/cradlewise-smart-crib.txt)
+
+> 依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。
+
+> 已目视核对当前商品页面对应外形，原图未改色或语义编辑；图片中的营销和适用年龄不替代具体说明。
+
+> 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
+
+## 销售与购买
+
+- 状态：在售。官方当前商品页US$1799并有Buy Now与Order Now，按用户选择月份发货；FAQ说明可选择即时或规划月份，不是仅为未来下单机会支付定金。
+
+- 地区：美国本土连续州、加拿大
+
+- 价格：当前美站 US$1,799。原价US$1999，提前选择交付月份可能另减；含两年Nurture Core，之后Core页面为US$120/年，Plus另收费；免费层保留基础SmartSoothe，勿误称停订即无法弹动。
+
+- 中国大陆：官方购买页说明仅美国本土连续州与加拿大配送；未确认中国大陆官方销售、电源配置或售后。
+
+- [官方产品 / 商店](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>)
+
+## AI 的实际作用
+
+相机与声音感知宝宝活动和早期觉醒迹象，SmartSoothe学习睡眠模式并触发弹动与声音安抚；不等于医疗监测或替代照护。
+
+服务与联网依赖：App和远程查看依赖网络与电源；会员层级影响历史、多人和附加内容，基础智能及手动弹动声音在免费层保留。
+
+## 是否冷门
+
+细分专业（研究判断）：响应式婴儿安抚有明确阶段性需求，感知和床体执行结合不同于普通监控；价格、使用阶段与照护条件限制受众。
+
+## 需求与市场
+
+需求假设：新生家庭希望减少反复起身安抚和分散监控设备的操作，床体回应能够把观察接到动作。价值必须以实际照护负担和适用性验证，不能从宣传睡更久推导每个宝宝有效，也不能把机器安抚等同家长无需观察和照护。
+
+### 产品任务与边界 · 研究判断
+
+需求假设：新生家庭希望减少反复起身安抚和分散监控设备的操作，床体回应能够把观察接到动作。价值必须以实际照护负担和适用性验证，不能从宣传睡更久推导每个宝宝有效，也不能把机器安抚等同家长无需观察和照护。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 需求判断 · 研究判断
+
+设备把监控观察和弹动安抚放在同一床体，试图减少照护者在不同工具间切换和反复手动启动。即使响应及时，宝宝也可能需要喂养、换尿布或其他照护，因此需求必须围绕有限安抚任务理解，不能把减少某次起身等同替代整体育儿劳动。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 需求验证 · 待验证
+
+需求验证应由自愿家庭在符合说明及专业建议的条件下记录人工观察、设备响应和实际接管，不以让宝宝持续哭闹来测试。将照护负担、主观体验与睡眠记录分开，本目录不声称进行过婴儿实验，也不从用户故事推出统一的睡眠改善效果。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+## 用户画像
+
+画像推断：有适合摆放与供电网络、愿意理解配置及成长转换条件的家庭较匹配。宝宝对动作和声音的反应不同，实际照护者需共同了解停止与接管，不按收入、育儿焦虑或首次为人父母直接推定购买需求。
+
+### 适用行为与条件 · 研究判断
+
+画像推断：有适合摆放与供电网络、愿意理解配置及成长转换条件的家庭较匹配。宝宝对动作和声音的反应不同，实际照护者需共同了解停止与接管，不按收入、育儿焦虑或首次为人父母直接推定购买需求。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 人群取舍 · 研究判断
+
+家庭需要固定空间、电源网络和能共同理解模式的照护者，宝宝对声音及动作的反应也不同。购买者可能是亲属，实际使用者却承担清洁和接管，画像应包含角色、住房和阶段变化，不能只依据支付能力或初为父母推定适配。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 画像验证 · 待验证
+
+画像验证可先核查房间布置、照护轮换和家庭对图像权限的选择，再观察成年人能否正确暂停、手动操作和理解转换条件。不同发育状态应按说明及专业判断处理，不能以宣传年龄范围替代个体适用性，也不让育儿焦虑成为购买结论。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+## 竞争与替代
+
+竞争判断：与普通婴儿床加监控器、人工安抚和其他响应式摇床竞争，差异是视觉早期迹象与学习后的弹动。不同交期、会员和配件不拆成新品；应比较完整照护流程，不能只比较设备功能数或厂商声称延长的睡眠时间。
+
+### 比较对象与差异 · 研究判断
+
+竞争判断：与普通婴儿床加监控器、人工安抚和其他响应式摇床竞争，差异是视觉早期迹象与学习后的弹动。不同交期、会员和配件不拆成新品；应比较完整照护流程，不能只比较设备功能数或厂商声称延长的睡眠时间。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 竞争判断 · 研究判断
+
+普通床加摄像头提供观察而没有动作，其他响应摇床可能使用不同感知与运动方式，比较应针对完整安抚任务。集成减少外接设备但增加整机服务依赖；基础安抚留在免费层的当前规则也应保留，不能把会员介绍误写成停订后床体完全失效。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 竞争验证 · 待验证
+
+竞争验证应由适当条件下的家庭记录设置、清洁、响应和接管，区分机器执行与家长观察的贡献。不要以不同研究的延长睡眠数字排名，更不按交付月份、床模式或会员套餐拆出多款产品；价值必须对应真实使用阶段和家庭流程。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+## 供应链
+
+供应链分析：床框网面、床垫支撑、运动执行、音视频和控制服务共同构成产品，实际工厂和BOM未披露。机械边界、装配和可清洗件与模型一样关键，不能用普通摄像头或婴儿床成本相加就推导整机成本与安全性。
+
+### 功能模块拆分 · 研究判断
+
+床框网面、支撑床垫、集成视听观察、底座弹动、声音控制与应用组成系统，机械结构与软件共同影响体验。公开外观不能支持具体弹簧或连杆还原，供应分析需要把装配、可清洗件与生命周期转换纳入，不把它当摄像头加普通家具。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 制造与供应约束 · 研究判断
+
+供应链分析：床框网面、床垫支撑、运动执行、音视频和控制服务共同构成产品，实际工厂和BOM未披露。机械边界、装配和可清洗件与模型一样关键，不能用普通摄像头或婴儿床成本相加就推导整机成本与安全性。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 候选与证据缺口 · 研究判断
+
+新金宝可作为机电产品制造导入候选，华勤可评估视听和联网控制工程，两者没有Cradlewise点名采用证据。婴儿床机械、材料、使用阶段和合规验证需专门专业团队，通用消费电子或家电能力不能推定已经具备完整婴儿产品交付资质。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+## 技术路径
+
+技术判断：官方SmartSoothe描述学习睡眠模式并响应早期活动，相机、声音、弹动和人工控制需要协调。模型结构和独立效果未完整公开，不能把每次动作都当作正确理解需求，也不将睡眠记录视为疾病诊断或生命体征监护。
+
+### 已披露技术边界 · 研究判断
+
+技术判断：官方SmartSoothe描述学习睡眠模式并响应早期活动，相机、声音、弹动和人工控制需要协调。模型结构和独立效果未完整公开，不能把每次动作都当作正确理解需求，也不将睡眠记录视为疾病诊断或生命体征监护。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>) · [Cradlewise Nurture当前功能与会员](<https://cradlewise.com/en-US/nurture>)
+
+### 系统难点判断 · 研究判断
+
+观察相机与声音输入用于识别早期活动，SmartSoothe再按学习模式决定回应，动作完成并不代表理解了所有需求。当前资料未完整披露模型与异常边界，应区分智能模式、手动模式和数据分析，不能把摄像监控升级成生命体征或医疗诊断。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>) · [Cradlewise Nurture当前功能与会员](<https://cradlewise.com/en-US/nurture>)
+
+### 技术验证 · 待验证
+
+技术验证应先确认实际版本、模式和允许操作，记录误触发、停止、失网及人工覆盖，遵循厂商与适当专业要求。不能通过危险摆放或让宝宝处于不适来检验极限，也不以床体有动作、应用有曲线或安静画面证明算法与照护判断都正确。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>) · [Cradlewise Nurture当前功能与会员](<https://cradlewise.com/en-US/nurture>)
+
+## 产品审美
+
+审美判断：浅木框与网面接近家居婴儿床，集成观察杆减少额外夹装，但实际空间、线缆和清洁仍影响体验。设计应让照护者清楚知道当前模式和停止方法，不因温和材质与安静动作而弱化对设备状态的理解。
+
+### 外观与交互语言 · 研究判断
+
+审美判断：浅木框与网面接近家居婴儿床，集成观察杆减少额外夹装，但实际空间、线缆和清洁仍影响体验。设计应让照护者清楚知道当前模式和停止方法，不因温和材质与安静动作而弱化对设备状态的理解。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 使用中审美判断 · 研究判断
+
+浅木和网面让整机接近家居婴儿床，弧形观察杆把摄像集成在可见位置。实际体验包括成年人俯身、清洗、房间动线与电源线，不能只看温馨照片；极简外观也应保留当前模式和停止方式，让照护者知道设备正在做什么。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 设计验证 · 待验证
+
+设计验证可以让照护者在空床状态练习操作、清洁和模式辨认，再按说明安排真实使用，避免把概念图当装配指南。观察多人轮换时是否理解权限，不添加未经批准的枕头、软物或配件，也不将婴儿安睡广告当作每个家庭都合适的证明。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+## 关键风险
+
+风险判断：年龄、体重与发育状态会改变可用模式，用户须遵循当前官方说明与专业建议，不能只看宣传年龄上限。异常哭闹、网络或电源中断仍需照护者处理，AI不替代安全睡眠安排；跨境销售和服务也不能由官网可访问推定。
+
+### 主要失效与依赖 · 研究判断
+
+风险判断：年龄、体重与发育状态会改变可用模式，用户须遵循当前官方说明与专业建议，不能只看宣传年龄上限。异常哭闹、网络或电源中断仍需照护者处理，AI不替代安全睡眠安排；跨境销售和服务也不能由官网可访问推定。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 风险传播判断 · 研究判断
+
+成长中的发育能力可能先于月龄改变使用条件，忽略模式转换比是否有更多AI功能更关键。网络、电源、声音与运动异常仍需成年人处理，机器不替代看护；试用、退货和跨境售后也有边界，不能把认证宣传扩大为所有场景绝对安全。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 风险验证 · 待验证
+
+风险验证应核对当前说明、转换条件、停止与故障反馈，并让所有照护者知道谁负责接管。只在允许条件下使用，不自行拆改运动机构；对哭闹或身体异常保持正常专业照护路径，不能用自动安抚或没有通知来判断宝宝不需要关注。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+## 机会与验证
+
+机会假设：可围绕观察到回应的低步骤流程验证，分别评估视听记录与机械安抚是否减少实际负担。若配置和清洁增加劳动，应优先改进基础体验；不以新生儿数量、焦虑或推荐故事直接推算市场，更不承诺统一睡眠结果。
+
+### 可能的机会入口 · 研究判断
+
+机会假设：可围绕观察到回应的低步骤流程验证，分别评估视听记录与机械安抚是否减少实际负担。若配置和清洁增加劳动，应优先改进基础体验；不以新生儿数量、焦虑或推荐故事直接推算市场，更不承诺统一睡眠结果。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 机会成立条件 · 研究判断
+
+机会可能在可理解、低步骤的观察到回应，而不一定是更强动作或更多睡眠评分。若多人配置、清洁和维护增加负担，应优先改进这些基础流程；创业者应先验证特定使用阶段的实际价值，不用通用AI叙事把产品扩成全能育儿替代。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+### 下一步验证 · 待验证
+
+下一步可先建立家庭现有流程和阶段需求，再在合适试用中记录响应、人工接管、维护与退出原因。把订阅权益和核心安抚区分清楚，不以新生儿总数、名人推荐或用户焦虑推导市场规模，也不将未进行的照护研究写成已验证疗效。
+
+依据：[Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) · [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [new-kinpo-group](../supply-chain/new-kinpo-group.md) — **能力候选 · 非已采用** / 集成床体机电产品导入评估：新金宝公开家电及机电整合能力可用于底座控制和制造流程候选评估，但婴儿床结构、材料及阶段安全需要专门验证；未见Cradlewise点名合作证据，不推定其具有本机实际工厂或认证。
+
+- [huaqin](../supply-chain/huaqin.md) — **能力候选 · 非已采用** / 集成视听观察与联网控制工程：华勤公开视听与智能终端能力可对应相机、声音及应用连接整合，但婴儿安抚模型、机械床体和照护条件需独立负责；没有Cradlewise实际采用披露，候选不等于已经验证的婴儿产品方案。
+
+[浏览供应链目录](../supply-chain.md)
+
+## 功能分层示意
+
+这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。
+
+1. **床体与支撑**：真实床框、网面和适配床垫构成睡眠空间。（官方披露）
+
+2. **视听观察**：集成监控相机和声音输入观察活动迹象。（官方披露）
+
+3. **弹动执行**：床体安抚动作功能，内部机构不假造。（官方披露）
+
+4. **声音与控制**：偏好设置、手动和智能模式。（官方披露）
+
+5. **应用与学习服务**：SmartSoothe及睡眠记录，会员按功能划分。（官方披露）
+
+## 来源
+
+1. [Cradlewise当前官方商品页](<https://cradlewise.com/en-US/product/cradlewise-smart-crib/b1>) — 实际打开US$1799购买与按月交付、美加配送；不把融资、优惠或认证宣传当独立效果。
+
+2. [Cradlewise官方FAQ](<https://cradlewise.com/en-US/faq>) — 实际打开响应式弹动、停止和成长转换说明；不把厂商自述视作本研究安全或效果测试。
+
+3. [Cradlewise Nurture当前功能与会员](<https://cradlewise.com/en-US/nurture>) — 实际打开SmartSoothe学习模式、两年Core及免费层仍保留智能安抚，会员不混同全部核心能力。
+
+[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/cradlewise-smart-crib)

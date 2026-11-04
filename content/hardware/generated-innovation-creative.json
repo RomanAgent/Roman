@@ -108,5 +108,229 @@
     "notes": [
       "以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。"
     ]
+  },
+  {
+    "id": "xtool-f2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/xtool-f2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "xTool F2 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/xtool-f2.txt",
+        "referencePaths": [
+          "assets/hardware/xtool-f2/product.png",
+          "assets/hardware/xtool-f2/reference-structure.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
+    ]
+  },
+  {
+    "id": "qysea-fifish-v-evo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/qysea-fifish-v-evo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "QYSEA FIFISH V-EVO 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/qysea-fifish-v-evo.txt",
+        "referencePaths": [
+          "assets/hardware/qysea-fifish-v-evo/product.png",
+          "assets/hardware/qysea-fifish-v-evo/reference.png",
+          "assets/hardware/qysea-fifish-v-evo/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。",
+      "目视QA后做一次定点修正：移除多余推进器，并将视觉锁定与图像过滤分开标注。初稿只作修图溯源参考。"
+    ]
+  },
+  {
+    "id": "xbotgo-falcon",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/xbotgo-falcon/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "XbotGo Falcon 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/xbotgo-falcon.txt",
+        "referencePaths": [
+          "assets/hardware/xbotgo-falcon/product.png",
+          "assets/hardware/xbotgo-falcon/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
+    ]
+  },
+  {
+    "id": "maono-dm40",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/maono-dm40/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Maono DM40 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/maono-dm40.txt",
+        "referencePaths": [
+          "assets/hardware/maono-dm40/product.jpg",
+          "assets/hardware/maono-dm40/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
+    ]
+  },
+  {
+    "id": "lava-genie",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/lava-genie/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "LAVA GENIE（拿火精灵） 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/lava-genie.txt",
+        "referencePaths": [
+          "assets/hardware/lava-genie/product.jpg",
+          "assets/hardware/lava-genie/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
+    ]
+  },
+  {
+    "id": "sony-mocopi",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/sony-mocopi/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Sony mocopi（标准六传感器套件） 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/sony-mocopi.txt",
+        "referencePaths": [
+          "assets/hardware/sony-mocopi/product.webp",
+          "assets/hardware/sony-mocopi/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
+    ]
+  },
+  {
+    "id": "samsung-odyssey-3d-g90xf",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/samsung-odyssey-3d-g90xf/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Samsung Odyssey 3D G90XF（27英寸） 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/samsung-odyssey-3d-g90xf.txt",
+        "referencePaths": [
+          "assets/hardware/samsung-odyssey-3d-g90xf/product.png",
+          "assets/hardware/samsung-odyssey-3d-g90xf/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
+    ]
+  },
+  {
+    "id": "gran-eye-2026",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/gran-eye-2026/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "GRAN EYE（2026安装套件版） 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/gran-eye-2026.txt",
+        "referencePaths": [
+          "assets/hardware/gran-eye-2026/product.jpg",
+          "assets/hardware/gran-eye-2026/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
+    ]
+  },
+  {
+    "id": "huupe-mini-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/huupe-mini-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "huupe mini 2 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/huupe-mini-2.txt",
+        "referencePaths": [
+          "assets/hardware/huupe-mini-2/product.png",
+          "assets/hardware/huupe-mini-2/reference.jpg",
+          "assets/hardware/huupe-mini-2/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。",
+      "目视QA后定点移除未经厂商确认的触控屏标注。初稿仅作修图溯源参考。"
+    ]
+  },
+  {
+    "id": "looking-glass-go",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/looking-glass-go/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Looking Glass Go（白色版） 功能模块概念爆炸示意；结构位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/looking-glass-go.txt",
+        "referencePaths": [
+          "assets/hardware/looking-glass-go/product.jpg",
+          "assets/hardware/looking-glass-go/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
+    ]
   }
 ]

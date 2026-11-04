@@ -1,6 +1,6 @@
 {
   "title": "智能硬件供应链目录",
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-05",
   "scope": "面向消费级AI硬件的芯片、元件、模组、制造、工程、软件和检测服务公司。按可核查的能力收录国际公司与专业供应商，持续扩展，不声称覆盖全球全部企业。",
   "relationshipNote": "能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。",
   "tierLabels": {
@@ -97,11 +97,11 @@
   },
   "complete": true,
   "counts": {
-    "companies": 123,
-    "deepProducts": 229,
-    "products": 229,
-    "candidateLinks": 495,
-    "disclosedLinks": 3
+    "companies": 124,
+    "deepProducts": 261,
+    "products": 261,
+    "candidateLinks": 559,
+    "disclosedLinks": 7
   },
   "companies": [
     {
@@ -1068,6 +1068,63 @@
           "productId": "lockin-v7-max",
           "productName": "鹿客 Lockin V7 Max",
           "category": "home-security",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "huaqin",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "家庭竖屏联网终端工程整合",
+          "rationale": "华勤公开带屏智能终端能力可匹配显示、触控和联网计算的整机工程，但墙装稳定、长期显示及家庭账号功能需独立验证；未见Hearth Display点名合作证据，不能标作实际ODM。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "hearth-family-display",
+          "productName": "Hearth Display",
+          "category": "home-assistant",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "huaqin",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "联网美妆镜整机工程候选",
+          "rationale": "华勤公开带屏终端研发制造能力可对应显示、触控、摄像和连接整合，但镜面光学与照明一致、面部模型及隐私需专项验证；没有SWAN点名合作资料，不与官网Samsung和Sony部件品牌声明混同。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "swan-beauty-smart-mirror",
+          "productName": "SWAN Beauty Smart Mirror",
+          "category": "personal-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "huaqin",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "集成视听观察与联网控制工程",
+          "rationale": "华勤公开视听与智能终端能力可对应相机、声音及应用连接整合，但婴儿安抚模型、机械床体和照护条件需独立负责；没有Cradlewise实际采用披露，候选不等于已经验证的婴儿产品方案。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "cradlewise-smart-crib",
+          "productName": "Cradlewise Convertible Smart Bassinet & Crib",
+          "category": "sleep",
           "status": "on_sale"
         },
         {
@@ -2689,7 +2746,25 @@
         ]
       },
       "checkedAt": "2026-11-04",
-      "relatedProducts": []
+      "relatedProducts": [
+        {
+          "supplierId": "ambarella",
+          "role": "chip",
+          "component": "同类肩部视觉辅助系统的边缘视觉处理候选",
+          "rationale": "Ambarella公开CVflow视觉计算、图像处理与模型工具，可用于研究肩部多路视觉输入和环境识别的新架构。具体深度相机接口、模型、温升和供电需重新验证，不自动包含导航或生成式场景描述；本轮没有NOA点名采用证据，因此不视为现有计算模块替代件。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "biped-noa",
+          "productName": "NOA by biped.ai",
+          "category": "accessibility",
+          "status": "on_sale"
+        }
+      ]
     },
     {
       "id": "amlogic",
@@ -3423,6 +3498,24 @@
           "productName": "WHOOP 5.0",
           "category": "wearables",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "analog-devices",
+          "role": "sensing",
+          "component": "同类腕部PPG输入的光学生理前端候选",
+          "rationale": "ADI的MAX86176等光学生理前端可用于研究腕部PPG采集，但需要针对光路、接触、动作和功耗重新验证，不能把其附加电生理能力自动加入Hilo。器件不提供血压模型或参考校准流程，也未被该品牌点名采用；此候选只对应相近新设计的输入层。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "hilo-band-system",
+          "productName": "Hilo Band 血压监测系统（英国版）",
+          "category": "health-home",
+          "status": "on_sale"
         }
       ]
     },
@@ -3918,6 +4011,45 @@
           ],
           "productId": "nex-playground",
           "productName": "Nex Playground",
+          "category": "games",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "arducam",
+          "role": "sensing",
+          "relationship": "candidate",
+          "component": "水下成像链的相机模组候选",
+          "rationale": "V-EVO需要连续图像输入支撑观察和目标锁定，Arducam公开相机模组与定制集成服务，可作为成像子系统能力候选。它并不自动提供适合本机深度的密封与窗口，接口、低光和整机压力环境仍须验证，未披露实际供货。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "qysea-fifish-v-evo",
+          "productName": "QYSEA FIFISH V-EVO",
+          "category": "imaging",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "arducam",
+          "role": "sensing",
+          "relationship": "candidate",
+          "component": "靶面视觉采集模组候选",
+          "rationale": "GRAN EYE用双摄像单元提供靶面图像，Arducam公开相机模组与定制视觉集成能力，可作为采集子系统候选。视角、曝光、接口、机身形状和落点模型需共同验证，本轮没有其向GRAN DARTS供货的公开证据。",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "gran-eye-2026",
+          "productName": "GRAN EYE（2026安装套件版）",
           "category": "games",
           "status": "on_sale"
         },
@@ -4836,6 +4968,25 @@
           "productId": "tonal-2",
           "productName": "Tonal 2",
           "category": "sports",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "boe",
+          "role": "display",
+          "relationship": "candidate",
+          "component": "长期家庭公共显示的面板能力候选",
+          "rationale": "京东方公开显示产品能力可用于家庭公共终端的面板选型参考，但准确尺寸、触控贴合、可视角和长期显示条件需询证；没有Hearth型号点名采用资料，候选不代表本机实际面板厂。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "hearth-family-display",
+          "productName": "Hearth Display",
+          "category": "home-assistant",
           "status": "on_sale"
         },
         {
@@ -6004,6 +6155,25 @@
           "productId": "hohem-isteady-mt3-pro",
           "productName": "Hohem iSteady MT3 Pro",
           "category": "gimbals",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "chicony",
+          "role": "sensing",
+          "relationship": "candidate",
+          "component": "窄边框观看位置采集模组候选",
+          "rationale": "G90XF需要顶部摄像输入支撑眼部与观看位置跟踪，群光公开窄边框、红外和深度相关相机模组能力，可作为感知子系统候选。实际光路、接口和算法标定仍需匹配，没有证据显示该型号采用群光，不能把候选当作供货披露。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "samsung-odyssey-3d-g90xf",
+          "productName": "Samsung Odyssey 3D G90XF（27英寸）",
+          "category": "spatial",
           "status": "on_sale"
         }
       ]
@@ -7416,6 +7586,26 @@
           "productName": "Insta360 Link 2",
           "category": "imaging",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "e-con-systems",
+          "role": "sensing",
+          "relationship": "candidate",
+          "component": "工件识别相机集成候选",
+          "rationale": "F2需要相机图像进入工件定位与材料工作流，e-con Systems公开嵌入式视觉相机和定制集成能力，适合作为功能候选。成像接口、标定、照明和加工环境仍须验证，本轮没有其向xTool F2供货的点名资料。",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "xtool-f2",
+          "productName": "xTool F2",
+          "category": "creative-tools",
+          "status": "on_sale"
         }
       ]
     },
@@ -7697,6 +7887,24 @@
           "productId": "ticnote-pods-wifi",
           "productName": "Mobvoi TicNote Pods WiFi",
           "category": "audio",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类联网光学读取器的Wi-Fi控制候选",
+          "rationale": "ESP32-C6公开无线微控制与软件框架，可用于研究U-Scan这类读取器的数据同步、状态和远程更新流程。它不提供样本化学分析、比色校准或Withings+服务，需另验安全、休眠和传感接口；未发现本款点名采用证据，因此仅记录相近新设计候选。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "withings-u-scan-nutrio",
+          "productName": "Withings U-Scan Nutrio",
+          "category": "health-home",
           "status": "on_sale"
         }
       ]
@@ -8491,6 +8699,43 @@
           "productName": "ZWO Seestar S30 Pro",
           "category": "astronomy",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "faulhaber",
+          "role": "motion",
+          "relationship": "candidate",
+          "component": "光学头调焦运动能力候选",
+          "rationale": "F2的竖向调焦需要紧凑运动与位置控制，FAULHABER公开光学设备驱动和定制工程能力，可作为此模块的选型候选。其行程、承载、反馈与控制兼容尚未知，不能因为具备精密电机产品就断言已被xTool采用。",
+          "sourceIds": [
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "xtool-f2",
+          "productName": "xTool F2",
+          "category": "creative-tools",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "faulhaber",
+          "role": "motion",
+          "relationship": "candidate",
+          "component": "专项取景运动机构候选",
+          "rationale": "Falcon需要紧凑取景运动与控制协同，FAULHABER公开光学设备电机和定制运动工程能力，可作为功能匹配候选。载荷、速度、噪声、耐久与机身空间仍须验证，未找到其向XbotGo Falcon供货的点名证据。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "xbotgo-falcon",
+          "productName": "XbotGo Falcon",
+          "category": "imaging",
+          "status": "on_sale"
         }
       ]
     },
@@ -9134,6 +9379,44 @@
           "productName": "1X NEO Home Robot",
           "category": "robotics",
           "status": "reservation"
+        },
+        {
+          "supplierId": "fictiv",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "便携香氛外壳与POD接口原型",
+          "rationale": "Fictiv公开数字制造及原型能力可对应菱面外壳、顶盖和POD接口装配验证，但香氛密封、化学相容及喷洒计量需专门测试；未见ININUM点名采用，候选不能当作实际工厂或材料供应事实。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "ininum-smart-fragrance",
+          "productName": "ININUM Smart Fragrance",
+          "category": "personal-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "fictiv",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "除雪模块接口与结构原型",
+          "rationale": "Fictiv的数字制造和原型服务可支持模块连接、外壳及维护可达性评估，但不会自动验证雪载、传动和耐候寿命；没有Yarbo该型号采用披露，候选不代表现用零件、实际工厂或完整安全方案。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "yarbo-y40-snow-blower-gen2",
+          "productName": "Yarbo Y40 Core + Snow Blower Gen 2",
+          "category": "garden",
+          "status": "on_sale"
         }
       ]
     },
@@ -9393,6 +9676,25 @@
           "productId": "reefkinetics-reefbot-lab",
           "productName": "Reef Kinetics ReefBot Lab",
           "category": "pet-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "flex",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "耐候移动与除雪执行整机导入",
+          "rationale": "Flex公开复杂机电工程制造能力可对应履带Core、控制与执行模块导入，但低温、冲击、积雪与家庭场地安全需专项验证；未见Yarbo Y40除雪Gen2点名合作证据，只列能力候选。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "yarbo-y40-snow-blower-gen2",
+          "productName": "Yarbo Y40 Core + Snow Blower Gen 2",
+          "category": "garden",
           "status": "on_sale"
         }
       ]
@@ -10835,6 +11137,44 @@
         },
         {
           "supplierId": "goertek",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "视觉输入与端侧电子整合评估",
+          "rationale": "歌尔公开光学及智能硬件工程能力可对应猫门摄像输入和嵌入式整合，但猎物模型、户外耐久及动物通行仍需专项验证；未见Flappie点名供货关系，不将其列作实际模组或整机供应商。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "flappie-ai-cat-flap",
+          "productName": "Flappie AI Cat Flap",
+          "category": "pet-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "goertek",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "音视频输入与交互模组整合候选",
+          "rationale": "歌尔公开声学、光学及智能硬件能力可用于音视频输入和整机交互评估，但不等于已获SWAN采用，也不替代官网点名部件；型号适配、色彩和会员软件需另核，保持候选关系。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "swan-beauty-smart-mirror",
+          "productName": "SWAN Beauty Smart Mirror",
+          "category": "personal-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "goertek",
           "role": "acoustics",
           "relationship": "candidate",
           "component": "声音输入输出与小型机身集成候选",
@@ -11605,6 +11945,25 @@
           "productId": "arccos-air",
           "productName": "Arccos Air",
           "category": "sports",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "grepow",
+          "role": "power",
+          "relationship": "candidate",
+          "component": "圆形穿戴传感器电池候选",
+          "rationale": "Grepow公开小型扣式、异形与穿戴电池方向，适合研究圆形动捕传感器的供电空间。实际电压、寿命、保护和充电座结构需要Sony规格才能验证，不能把形状接近的电池当作已采用或可自行更换的原配件。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "sony-mocopi",
+          "productName": "Sony mocopi（标准六传感器套件）",
+          "category": "creative-tools",
           "status": "on_sale"
         },
         {
@@ -12648,6 +13007,44 @@
           "productName": "Weave Isaac 0",
           "category": "laundry",
           "status": "reservation"
+        },
+        {
+          "supplierId": "hlh-prototypes",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "门框翻片与安装适配原型",
+          "rationale": "HLH的原型和机械加工服务可用于门框、翻片和密封接口可装配性评估，但通行安全、材料耐候和长期锁闭机构需要独立验证；没有Flappie实际采用披露，候选只说明工程能力匹配。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "flappie-ai-cat-flap",
+          "productName": "Flappie AI Cat Flap",
+          "category": "pet-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "hlh-prototypes",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "低矮承重底板与维护结构原型",
+          "rationale": "HLH公开原型及机械制造服务可支持承重平台和维护接口试制，但称重计量、长期漂移及湿区清洁不是加工能力自动保证；没有RABO型号点名供货信息，只作为结构工程候选。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "catlog-board-2",
+          "productName": "Catlog Board 2",
+          "category": "pet-care",
+          "status": "on_sale"
         }
       ]
     },
@@ -13695,6 +14092,24 @@
           "productName": "OrCam Read 5",
           "category": "accessibility",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "ingenic",
+          "role": "chip",
+          "component": "同类穿戴视觉记忆设备的采集主控候选",
+          "rationale": "君正CW080公开面向穿戴视觉并具备图像、音频和端侧处理能力，可用于研究Looki这类相机挂件的采集与功耗取舍。需要核对相机接口、存储、同步和热量，它不提供Looki云端记忆或生成服务；目前没有点名采用证据，候选不能成为原机主控或完整BOM结论。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "looki-l1",
+          "productName": "Looki L1",
+          "category": "recording",
+          "status": "on_sale"
         }
       ]
     },
@@ -14325,6 +14740,44 @@
           "productName": "1X NEO Home Robot",
           "category": "robotics",
           "status": "reservation"
+        },
+        {
+          "supplierId": "jabil",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "照明与感知电子整机导入评估",
+          "rationale": "捷普公开工程制造服务可匹配照明、控制、供电与感知终端的整机导入，但雷达互扰、夜间声光体验及睡眠模型需专项验证；没有Sleepal点名合作资料，不能视为实际代工或临床可靠性证据。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "sleepal-ai-lamp",
+          "productName": "Sleepal AI Lamp",
+          "category": "sleep",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "jabil",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "烤制控制电子与整机验证导入",
+          "rationale": "捷普公开产品工程及电子制造服务可对应传感控制、界面和整机测试导入，但燃气、高温及食品接触需要专项验证；没有Perfecta型号点名合作证据，不能称实际代工或已满足全部安全要求。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "seergrills-perfecta",
+          "productName": "SEERGRILLS Perfecta",
+          "category": "kitchen",
+          "status": "preorder"
         }
       ]
     },
@@ -16011,6 +16464,44 @@
           "productId": "barsys-360",
           "productName": "Barsys 360",
           "category": "kitchen",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "new-kinpo-group",
+          "role": "manufacturing",
+          "relationship": "candidate",
+          "component": "便携消费机电设备导入评估",
+          "rationale": "新金宝公开消费与小家电制造能力可对应外壳、控制和计量执行整合，但化妆品色芯卫生、密封和配方稳定需专项验证；未见YSL Rouge Sur Mesure点名合作资料，不能标为实际代工。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "ysl-rouge-sur-mesure",
+          "productName": "YSL Rouge Sur Mesure",
+          "category": "personal-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "new-kinpo-group",
+          "role": "manufacturing",
+          "relationship": "candidate",
+          "component": "集成床体机电产品导入评估",
+          "rationale": "新金宝公开家电及机电整合能力可用于底座控制和制造流程候选评估，但婴儿床结构、材料及阶段安全需要专门验证；未见Cradlewise点名合作证据，不推定其具有本机实际工厂或认证。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "cradlewise-smart-crib",
+          "productName": "Cradlewise Convertible Smart Bassinet & Crib",
+          "category": "sleep",
           "status": "on_sale"
         }
       ]
@@ -19101,7 +19592,8 @@
       "capabilities": [
         "Genio 700 边缘 AI 应用处理器",
         "多媒体与双显示处理",
-        "Android、Yocto Linux 与 Ubuntu 平台支持"
+        "Android、Yocto Linux 与 Ubuntu 平台支持",
+        "Helio P35移动应用平台（rabbit r1公开采用）"
       ],
       "productCategories": [
         "computing",
@@ -19131,6 +19623,13 @@
           "url": "https://www.mediatek.com/who-we-are",
           "note": "支持集团系统芯片业务定位；不将集团子公司能力自动归入 Genio 700。",
           "id": "s3",
+          "accessedAt": "2026-11-04"
+        },
+        {
+          "id": "s4",
+          "title": "MediaTek Helio P35 official product",
+          "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-p35",
+          "note": "本轮已打开：Helio P35应用处理、多媒体与4G平台；芯片通用能力不自动等于r1实际启用功能或全部AI本地运行。",
           "accessedAt": "2026-11-04"
         }
       ],
@@ -19169,6 +19668,14 @@
             "evidence": "analysis",
             "sourceIds": [
               "s1"
+            ]
+          },
+          {
+            "title": "官方｜P35与Genio分别记录",
+            "text": "Helio P35是公开的移动应用处理平台，提供处理器、多媒体与蜂窝连接能力；rabbit当前支持页明确点名r1使用该芯片。这条采用证据不能转成r1使用Genio，也不能把P35的全部通用相机功能当作成品已启用；目录保留具体系列与系统软件之间的边界。",
+            "evidence": "official",
+            "sourceIds": [
+              "s4"
             ]
           }
         ],
@@ -19281,6 +19788,14 @@
               "s1",
               "s2"
             ]
+          },
+          {
+            "title": "判断｜已采用不等于全部本地AI",
+            "text": "芯片被点名后仍需分开核对外部模型、账户、网络和设备端计算。应用处理器能够支持相机和屏幕，不证明当前生成式问答全部在本地执行，也不能据此推算性能；供应研究应继续确认其他器件与制造资料，避免一项公开关系被扩写成完整物料清单。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s4"
+            ]
           }
         ]
       },
@@ -19325,15 +19840,16 @@
         {
           "supplierId": "mediatek",
           "role": "chip",
-          "relationship": "candidate",
-          "component": "带屏联网 AI 终端的应用处理候选",
-          "rationale": "r1 具备屏幕、相机和联网任务，联发科技应用平台可作为同类新设计候选。需核对具体型号、输入输出、系统和电源预算，当前引用资料未点名现用主控；该候选不提供 rabbit OS3 或外部模型服务，也不能视为封闭成品的直接替换或历史功能恢复方案。",
+          "relationship": "disclosed",
+          "component": "已披露MediaTek Helio P35应用处理器",
+          "rationale": "rabbit当前官方支持页明确将r1芯片列为MediaTek Helio P35，联发科技产品页可核对该平台角色，因此采用关系已有点名依据。证据不覆盖整机工厂、其他器件和所有批次，也不证明OS3或生成式模型全部本地运行；不能将公司Genio系列的能力混入这一具体平台。",
           "sourceIds": [
-            "s2"
+            "s4"
           ],
           "supplierSourceIds": [
-            "s1"
+            "s4"
           ],
+          "relationshipEvidence": "rabbit官方当前“what is rabbit r1”规格栏明确点名Chipset为MediaTek Helio P35；这支持应用处理器采用，不证明整机工厂、完整BOM或所有AI本地执行。",
           "productId": "rabbit-r1",
           "productName": "rabbit r1",
           "category": "computing",
@@ -19955,6 +20471,62 @@
           "productId": "positive-grid-spark-edge",
           "productName": "Positive Grid Spark EDGE",
           "category": "music",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "merry-electronics",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "桌面麦克风声学工程候选",
+          "rationale": "Merry公开娱乐音频、麦克风及声学工程能力，可作为DM40类似采音结构的设计与验证候选。具体电容胶囊、网罩、防喷和电路接口仍须匹配，公开资料未显示Merry为DM40供货，也不能将电脑AI变音算法算作其已提供能力。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "maono-dm40",
+          "productName": "Maono DM40",
+          "category": "recording",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "merry-electronics",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "内置扬声器及声学整合候选",
+          "rationale": "GENIE需要在有限琴身内把电子音源转成适合弹唱的声音，Merry公开娱乐音频、扬声器与测试整合能力，可作为声学模块候选。箱体、频响、音量与结构振动仍须按乐器任务验证，没有证据表明Merry已为该产品供货。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2",
+            "s4"
+          ],
+          "productId": "lava-genie",
+          "productName": "LAVA GENIE（拿火精灵）",
+          "category": "music",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "merry-electronics",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "篮板游戏音频整合候选",
+          "rationale": "mini 2公开包含扬声器并承受投球环境，Merry具备扬声器、声学仿真及结构协同能力，可作为声音模块候选。还需验证冲击振动、响度、安装空间和室内噪声体验，没有品牌点名供货证据，不把其声学能力扩写为AI投篮识别。",
+          "sourceIds": [
+            "s1"
+          ],
+          "supplierSourceIds": [
+            "s2",
+            "s4"
+          ],
+          "productId": "huupe-mini-2",
+          "productName": "huupe mini 2",
+          "category": "games",
           "status": "on_sale"
         }
       ]
@@ -21115,7 +21687,8 @@
       "capabilities": [
         "nRF54H20 多核低功耗无线 SoC",
         "低功耗蓝牙与多协议连接",
-        "nRF Connect SDK 与分域电源管理"
+        "nRF Connect SDK 与分域电源管理",
+        "nRF52840传感控制与BLE（Ring AIR 2023公开案例）"
       ],
       "productCategories": [
         "wearables",
@@ -21147,6 +21720,13 @@
           "url": "https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/app_dev/device_guides/nrf54h/ug_nrf54h20_architecture_pm.html",
           "note": "支持不同电源域、缓存及休眠状态对功耗和唤醒延迟的影响；文档版本需冻结。",
           "id": "s3",
+          "accessedAt": "2026-11-04"
+        },
+        {
+          "id": "s4",
+          "title": "Nordic disclosed Ultrahuman Ring Air nRF52840 case, 2023-09-22",
+          "url": "https://www.nordicsemi.com/Nordic-news/2023/09/The-Ultrahuman-Ring-Air-employs-nRF52840-SoC",
+          "note": "Web读取403，根代理标准公开GET200并保存HTML，本代理已读取正文；点名2023公开Ring Air使用nRF52840监督传感与BLE，不确认2026所有批次、完整BOM或AI执行位置。",
           "accessedAt": "2026-11-04"
         }
       ],
@@ -21187,6 +21767,14 @@
             "sourceIds": [
               "s1",
               "s3"
+            ]
+          },
+          {
+            "title": "官方｜Ring AIR公开采用案例",
+            "text": "Nordic在二〇二三年的官方案例中点名Ultrahuman Ring Air采用nRF52840，描述其监督传感器、记录数据并通过低功耗蓝牙连接应用。这个案例提供具体成品与平台的关联，不能移植nRF54的参数，也不能据它确定后续所有批次或品牌全部戒指采用相同主控。",
+            "evidence": "official",
+            "sourceIds": [
+              "s4"
             ]
           }
         ],
@@ -21299,6 +21887,14 @@
             "sourceIds": [
               "s1",
               "s3"
+            ]
+          },
+          {
+            "title": "判断｜历史点名关系保留版本边界",
+            "text": "采用案例应带着发布日期和明确模块范围使用，后续软件、芯片变更与地区批次仍需另证。传感调度和蓝牙连接不证明睡眠分类或生成解释全部在芯片中完成；因此产品可标已披露此模块，同时继续将其他传感器、电池、工厂及完整物料关系保留为未知或候选。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s4"
             ]
           }
         ]
@@ -21428,6 +22024,24 @@
         {
           "supplierId": "nordic-semiconductor",
           "role": "chip",
+          "relationship": "disclosed",
+          "component": "2023公开案例中的nRF52840传感控制与BLE",
+          "rationale": "Nordic官方案例明确点名Ultrahuman Ring Air采用nRF52840，并说明传感监督、数据记录和蓝牙应用连接，因此可记录该公开版本的采用。证据发布于二〇二三年，不确认二〇二六年所有批次或完整物料，也不证明睡眠模型和Jade生成式解释全部在芯片本地执行。",
+          "sourceIds": [
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s4"
+          ],
+          "relationshipEvidence": "Nordic于2023-09-22公开点名Ultrahuman Ring Air采用nRF52840用于传感监督、记录与BLE连接；限定所述版本，不确认2026全部批次、完整BOM或AI本地执行。",
+          "productId": "ultrahuman-ring-air",
+          "productName": "Ultrahuman Ring AIR",
+          "category": "wearables",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "chip",
           "relationship": "candidate",
           "component": "同类智能手柄的低功耗连接与控制候选",
           "rationale": "Nordic的低功耗无线及多核控制能力可用于研究手柄按键、传感状态和手机应用之间的通信与唤醒流程。需要验证协议、失联反馈和整机续航，不要求连接芯片承担地图或生成式问答；没有资料点名Smart Cane 2采用Nordic，此候选只适用于重新设计相近功能的架构比较。",
@@ -21480,6 +22094,116 @@
           "productId": "lumen-metabolism-tracker",
           "productName": "Lumen Metabolism Tracker",
           "category": "health-home",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "connectivity",
+          "component": "同类手势腕带的BLE与控制平台候选",
+          "rationale": "Nordic低功耗无线平台与Mudra公开的BLE指令传输功能相关，可用于比较连接、状态控制和休眠流程。实际HID协议、延迟、模型运行资源与佩戴耗电仍需验证；没有Mudra点名采用证据，候选不等于原机主控或能够直接获得其手势识别软件。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "mudra-link",
+          "productName": "Mudra Link",
+          "category": "wearables",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "connectivity",
+          "component": "同类脑电音频穿戴的数据连接控制候选",
+          "rationale": "Nordic的低功耗无线和控制平台可用于研究脑电记录、手机连接与唤醒流程，实际数据吞吐、音频共存和存储需求需单独确认。它不自动支持本款完整音频或AI服务，也未被点名采用；此为相近新设计的通信候选，不是Neurable One原机主控认定。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "neurable-one",
+          "productName": "Neurable One",
+          "category": "wearables",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "connectivity",
+          "component": "同类辅助穿戴的BLE控制与状态连接候选",
+          "rationale": "Nordic低功耗无线平台可对应NOA公开的应用控制和状态连接方向，但不应被当作视觉主控或默认承担全部音频传输。需要确认协议、数据量、失联提示与功耗，当前未有点名采用资料；此候选只支持相近系统的控制连接研究，不代表能够复制完整出行功能。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "biped-noa",
+          "productName": "NOA by biped.ai",
+          "category": "accessibility",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "connectivity",
+          "component": "同类个人心电器的数据传输控制候选",
+          "rationale": "Nordic低功耗蓝牙平台与6L公开的手机传输路径相符，可用于研究连接、缓存和纽扣电池负载，但需核对采样时序与无线干扰。它不提供节律分析或医疗许可，当前未被AliveCor点名采用；此链接只用于相近新设计的功能比较，不推断原机无线料号。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "kardiamobile-6l",
+          "productName": "AliveCor KardiaMobile 6L",
+          "category": "health-home",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "connectivity",
+          "component": "同类腕带与应用的数据连接候选",
+          "rationale": "Nordic低功耗蓝牙平台可对应Hilo公开的腕带到手机传输方向，需确认缓存、采样时序、同步和续航目标。无线平台本身不产生血压估计、医疗许可或云端服务，也没有本款采用证据；重新设计时应与光学和校准链路联合验证，不能视为原机直接替换方案。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "hilo-band-system",
+          "productName": "Hilo Band 血压监测系统（英国版）",
+          "category": "health-home",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "connectivity",
+          "component": "同类组合输入设备的BLE/HID连接候选",
+          "rationale": "Nordic低功耗无线平台可用于研究TapXR公开的BLE/HID传输和状态控制，需核对目标系统、缓存、重连与输入延迟。它不包含Tap字母表识别模型或所有平台SDK，也没有本款采用证据；候选用于重新设计的连接比较，不可视作现有设备直接换件方案。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "tapxr",
+          "productName": "TapXR",
+          "category": "wearables",
           "status": "on_sale"
         }
       ]
@@ -25260,6 +25984,196 @@
           "productName": "Beatbot AquaSense 2 Ultra",
           "category": "cleaning",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "密封外壳与结构原型候选",
+          "rationale": "Protolabs公开多种结构加工和原型制造方式，可为ROV壳体、连接件与窗口装配研究提供样件能力。加工能力不等于水下耐压或长期防腐合格，须另验证材料、密封与测试规范，本轮没有它为QYSEA制造本产品的证据。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "qysea-fifish-v-evo",
+          "productName": "QYSEA FIFISH V-EVO",
+          "category": "imaging",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "折叠机身与连接结构原型候选",
+          "rationale": "GENIE的开放框架及折叠结构需要握持和重复连接验证，Protolabs公开原型、注塑及结构加工能力，可为该类迭代提供样件候选。实际材料、疲劳、声学耦合与量产要求仍未知，不能以制造能力推断LAVA已采用其服务。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "lava-genie",
+          "productName": "LAVA GENIE（拿火精灵）",
+          "category": "music",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "显示器支架与机身结构原型候选",
+          "rationale": "个人视点显示需要稳定的机身和支撑，Protolabs公开机加工、钣金及结构原型能力，可作为支架与外壳样件候选。承载、重心、调节和摄像位置仍须专门测试，其加工能力不涵盖完整裸眼光学方案，也未披露为Samsung本机供货。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "samsung-odyssey-3d-g90xf",
+          "productName": "Samsung Odyssey 3D G90XF（27英寸）",
+          "category": "spatial",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "磁吸安装件与摄像外壳原型候选",
+          "rationale": "GRAN EYE当前套件依赖可重复安装的磁吸结构，Protolabs公开多种结构原型与加工能力，可用于同类挂件、外壳和连接件验证。固定力、取镖碰撞和安装一致性仍需实际测试，没有点名采用关系，也不代表其提供整套计分算法。",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "gran-eye-2026",
+          "productName": "GRAN EYE（2026安装套件版）",
+          "category": "games",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "屏幕防护与门挂结构原型候选",
+          "rationale": "带屏篮板需要保护、篮圈连接和门挂结构共同承受重复动作，Protolabs公开注塑、机加工和样件能力，可作为结构验证候选。具体冲击、疲劳与安装安全须独立测试，制造服务不等于已通过本产品要求或被huupe实际采用。",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "huupe-mini-2",
+          "productName": "huupe mini 2",
+          "category": "games",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "折叠底座与显示外壳原型候选",
+          "rationale": "Go的竖屏和折叠底座需要结构、铰链及接口布局配合，Protolabs公开原型和结构制造能力，可作为外壳与支撑样件候选。疲劳、散热、线缆与光学定位须按整机验证，不能把加工能力视为已被Looking Glass采用或可提供完整显示系统。",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "looking-glass-go",
+          "productName": "Looking Glass Go（白色版）",
+          "category": "spatial",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "外壳与可拆盘的原型和模具验证",
+          "rationale": "Protolabs公开快速原型及模具服务可用于筒身、色芯接口和可拆盘装配验证，但材料与唇彩接触合规及计量性能并非自动满足；没有YSL型号采用证据，当前仅列结构工程候选。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "ysl-rouge-sur-mesure",
+          "productName": "YSL Rouge Sur Mesure",
+          "category": "personal-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "壳体与连接接口的原型评估",
+          "rationale": "Protolabs公开加工和模具能力可支持外壳、接口与装配可达性原型，但水路承压、密封及材料接触要求不由通用加工自动保证；未见Moen该型号实际采用，仅作为结构工程候选。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "moen-flo-shutoff-900-006",
+          "productName": "Moen Flo Smart Water Shutoff（900-006）",
+          "category": "home-safety",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "耐热壳体及夹架的结构原型评估",
+          "rationale": "Protolabs公开加工与快速原型服务可支持炉身、夹架和可拆洗接口验证，但材料耐热、食品接触及燃气边界须专门工程确认；未见SEERGRILLS实际采用披露，只列结构能力候选而非现有供应商。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "seergrills-perfecta",
+          "productName": "SEERGRILLS Perfecta",
+          "category": "kitchen",
+          "status": "preorder"
+        },
+        {
+          "supplierId": "protolabs",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "瓶口接口与可清洗外壳原型",
+          "rationale": "Protolabs的加工及原型服务可用于瓶口接口、外壳与装配评估，但食品接触、密封和注气路径需要专门确认；没有Aveine实际采用证据，不以通用制造能力推定本机已满足全部液体使用要求。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "aveine-wine-aerator",
+          "productName": "Aveine Wine Aerator",
+          "category": "kitchen",
+          "status": "on_sale"
         }
       ]
     },
@@ -25764,6 +26678,25 @@
       "relatedProducts": [
         {
           "supplierId": "quanta-computer",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "联网感知终端的工程与制造评估",
+          "rationale": "广达公开终端与联网产品工程制造能力可对应采集控制和无线整合，但重量传感一致性、湿区结构和猫行为模型需专项验证；未见Catlog Board 2点名合作证据，不能称其实际整机供应方。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "catlog-board-2",
+          "productName": "Catlog Board 2",
+          "category": "pet-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "quanta-computer",
           "role": "manufacturing",
           "relationship": "candidate",
           "component": "联网家庭终端整机候选",
@@ -26201,6 +27134,25 @@
           "productId": "barsys-360",
           "productName": "Barsys 360",
           "category": "kitchen",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "rapiddirect",
+          "role": "mechanical",
+          "relationship": "candidate",
+          "component": "盆体水箱与可拆洗结构原型",
+          "rationale": "RapidDirect的快速加工及模具服务可支持盆体、水箱和维护接口原型，但材料耐久、滤材和水路可靠性需要专项验证；没有LeafyPod供货披露，只作为结构工程匹配候选，不能推定整机制造已落实。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "leafypod-starter-pack",
+          "productName": "LeafyPod Starter Pack",
+          "category": "garden",
           "status": "on_sale"
         }
       ]
@@ -28780,6 +29732,60 @@
         {
           "supplierId": "sensirion",
           "role": "sensing",
+          "relationship": "candidate",
+          "component": "室内温湿度感知候选",
+          "rationale": "Sensirion公开温湿度传感产品可对应植物环境信号采集，但不覆盖土壤水分、光照、泵和养护模型，需确认湿区封装与校准；未见LeafyPod点名采用证据，不能称其实际传感器或整套控制方案。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "leafypod-starter-pack",
+          "productName": "LeafyPod Starter Pack",
+          "category": "garden",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sensirion",
+          "role": "sensing",
+          "relationship": "candidate",
+          "component": "床头环境温湿度输入候选",
+          "rationale": "Sensirion的温湿度产品可对应Sleepal公开环境感知功能，但不承担雷达信号、睡眠阶段模型或健康判断，需验证灯体热影响与安装；未见该型号点名采用，当前仅为传感能力候选。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "sleepal-ai-lamp",
+          "productName": "Sleepal AI Lamp",
+          "category": "sleep",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sensirion",
+          "role": "sensing",
+          "relationship": "candidate",
+          "component": "家庭气象环境温湿度输入候选",
+          "rationale": "Sensirion公开温湿度产品可对应本地环境输入，但不涵盖超声风、降雨和全部校准需求，需确认户外封装、辐射与漂移；未见Tempest点名采用，不能解释为实际传感器来源或整站精度证明。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "tempest-home-weather-station",
+          "productName": "Tempest Weather Station",
+          "category": "garden",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sensirion",
+          "role": "sensing",
           "component": "同类呼气分析新设计的专门气体感知路线",
           "rationale": "Sensirion的SBN41公开面向呼气交换与环境补偿，可作为相近便携分析系统的研究候选，但当前仅上市前样品阶段。它同时涉及氧气与二氧化碳，不代表Lumen具有氧气传感或已采用该模块；需验证气路、响应、校准和供货成熟度，不能直接替换现有传感器。",
           "relationship": "candidate",
@@ -28791,6 +29797,23 @@
           ],
           "productId": "lumen-metabolism-tracker",
           "productName": "Lumen Metabolism Tracker",
+          "category": "health-home",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sensirion",
+          "role": "sensing",
+          "component": "同类取样入口的温度感知研究候选",
+          "rationale": "Sensirion STS40数字温度感知可作为样本到达检测的研究入口，但真实器件必须验证响应、封装隔离和清洁污染条件，不能直接让普通环境芯片接触尿液。此候选不提供完整流体或化学分析，也未确认U-Scan采用；具体热传感实现和材料仍是待核查项目。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "withings-u-scan-nutrio",
+          "productName": "Withings U-Scan Nutrio",
           "category": "health-home",
           "status": "on_sale"
         }
@@ -29971,6 +30994,25 @@
           "supplierId": "siix",
           "role": "manufacturing",
           "relationship": "candidate",
+          "component": "阀门控制电子与装配导入评估",
+          "rationale": "SIIX公开电子制造和整机装配服务可对应感知控制、连接与测试导入，但承压阀体、饮用水材料和机械可靠性需专项确认；没有Moen900-006点名供货证据，不能推定其实际工厂。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "moen-flo-shutoff-900-006",
+          "productName": "Moen Flo Smart Water Shutoff（900-006）",
+          "category": "home-safety",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "siix",
+          "role": "manufacturing",
+          "relationship": "candidate",
           "component": "电子控制与系统装配候选",
           "rationale": "SIIX公开电子装联、采购和整机装配可用于讨论新控制系统的制造与交付责任。电力变换、电池安全和目标市场验证不由一般EMS能力自动覆盖，需专业方案及明确测试；此处不是Zendure现有代工关系确认。",
           "sourceIds": [
@@ -30678,6 +31720,25 @@
           "productName": "ZWO Seestar S30 Pro",
           "category": "astronomy",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "sony-semiconductor-solutions",
+          "role": "sensing",
+          "relationship": "disclosed",
+          "component": "官方点名的成像传感器",
+          "rationale": "XbotGo官方商店及合作页面明确将Falcon成像传感器标为Sony，可建立品牌层面的有限采用关联。公开资料没有在本轮确定具体传感器型号、镜头模组或直接交易方，因此关系只覆盖该成像器件身份，不延伸到算法和主控。",
+          "relationshipEvidence": "Falcon官方商品页写明Sony-sensor，官方合作页说明Sony-powered拍摄相机；本次公开采用关系只指成像传感器品牌，不指整机或算法。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s3"
+          ],
+          "productId": "xbotgo-falcon",
+          "productName": "XbotGo Falcon",
+          "category": "imaging",
+          "status": "on_sale"
         }
       ]
     },
@@ -30929,6 +31990,23 @@
           "productId": "cpen-reader-2",
           "productName": "C-Pen Reader 2",
           "category": "accessibility",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "stmicroelectronics",
+          "role": "sensing",
+          "component": "同类敲击识别腕带的惯性输入候选",
+          "rationale": "ST的LSM6DSOX惯性感知与嵌入式分类能力可作为敲击事件和腕部运动输入的候选，但它不自动完成TapXR的光学融合与全部手指组合识别。需要验证安装、时序、表面差异和功耗；未发现品牌点名采用证据，此链接只对应相近新设计的惯性输入层。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "tapxr",
+          "productName": "TapXR",
+          "category": "wearables",
           "status": "on_sale"
         }
       ]
@@ -31859,6 +32937,61 @@
           "supplierId": "sunwoda",
           "role": "power",
           "relationship": "candidate",
+          "component": "长时移动拍摄电池工程候选",
+          "rationale": "Falcon需电池维持本机成像、处理和运动，欣旺达公开消费电子电池及电源工程能力，可作为供电模块候选。容量、放电、热量和机械接口尚未匹配，不能将一般消费电池能力解释成该型号已采用或现成替换包。",
+          "sourceIds": [
+            "s1"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "xbotgo-falcon",
+          "productName": "XbotGo Falcon",
+          "category": "imaging",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sunwoda",
+          "role": "power",
+          "relationship": "candidate",
+          "component": "无线桌面麦克风电池候选",
+          "rationale": "DM40需要电池支撑无线采音并与USB供电共存，欣旺达公开消费电子电池和电源工程业务，可作为此类供电模块候选。空间、保护、充电管理和声学噪声影响仍待整机验证，没有品牌点名证据，不能声称已采用或估计本机电芯成本。",
+          "sourceIds": [
+            "s1"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "maono-dm40",
+          "productName": "Maono DM40",
+          "category": "recording",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sunwoda",
+          "role": "power",
+          "relationship": "candidate",
+          "component": "便携电子乐器供电候选",
+          "rationale": "GENIE由电池支持触控、音源和扬声器，欣旺达公开消费电池与电源工程能力，可作为此类便携负载候选。持续音频负载、充电、保护和机身空间需要具体匹配，本轮没有公开点名采用关系，也不假定其现有电池可直接装入。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "lava-genie",
+          "productName": "LAVA GENIE（拿火精灵）",
+          "category": "music",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sunwoda",
+          "role": "power",
+          "relationship": "candidate",
           "component": "电源系统与电池方案能力候选",
           "rationale": "欣旺达公开电池和电源系统相关业务，可作为重新研究家庭储能时的供应能力入口。具体电芯体系、保护、寿命、环境与项目认证需逐项确认，不能由消费电池经验直接推定适配；本目录未确认Solarbank由其供货。",
           "sourceIds": [
@@ -32462,6 +33595,25 @@
           "productName": "Starkey Edge AI",
           "category": "hearing",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "syntiant",
+          "role": "acoustics",
+          "component": "同类多模态挂件的MEMS声音输入候选",
+          "rationale": "Syntiant的MEMS麦克风产品可作为穿戴相机声音前端的研究候选，需要结合衣物摩擦、佩戴方向、阵列同步和主控接口验证。它不证明Looki采用该品牌，也不自带完整场景或记忆模型；此处只比较输入器件能力，不将候选配置或料号添加到已披露硬件中。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s3",
+            "s4"
+          ],
+          "productId": "looki-l1",
+          "productName": "Looki L1",
+          "category": "recording",
+          "status": "on_sale"
         }
       ]
     },
@@ -32809,6 +33961,267 @@
           "productId": "arccos-air",
           "productName": "Arccos Air",
           "category": "sports",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "tdk-invensense",
+          "role": "sensing",
+          "relationship": "candidate",
+          "component": "小型惯性运动采集候选",
+          "rationale": "mocopi官方明确六个IMU提供加速度与旋转数据，TDK InvenSense公开惯性运动传感和穿戴方案，可作为对应采集模块候选。具体时序、精度、功耗与软件接口仍须匹配，没有点名供货证据，也不推断本机采用其边缘AI型号。",
+          "sourceIds": [
+            "s2",
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "sony-mocopi",
+          "productName": "Sony mocopi（标准六传感器套件）",
+          "category": "creative-tools",
+          "status": "on_sale"
+        }
+      ]
+    },
+    {
+      "id": "teenage-engineering",
+      "name": "teenage engineering",
+      "legalName": "TEENAGE ENGINEERING AB",
+      "country": "瑞典",
+      "locations": [
+        "瑞典斯德哥尔摩公开工作室"
+      ],
+      "tier": "specialist",
+      "tierNote": "按消费电子设计与多学科产品开发的专业角色分组；公开合作不等于通用ODM或对外项目承接承诺。",
+      "roles": [
+        "engineering"
+      ],
+      "capabilities": [
+        "消费电子工业设计",
+        "软件、电气与机械协同开发",
+        "实体交互与样机研究",
+        "公开外部设计合作"
+      ],
+      "productCategories": [
+        "computing",
+        "music",
+        "creative-tools",
+        "audio"
+      ],
+      "website": "https://teenage.engineering/",
+      "contactUrl": "https://teenage.engineering/contact",
+      "checkedAt": "2026-11-04",
+      "summary": "teenage engineering是消费电子产品与设计团队，rabbit公开资料点名其参与r1工业设计。本条用于区分真实设计合作与未披露制造关系；官网作品和原型能力不代表它提供通用代工、现货物料或接受所有新项目，合作条件仍需正式确认。",
+      "sources": [
+        {
+          "id": "s1",
+          "title": "teenage engineering公开设计项目",
+          "url": "https://teenage.engineering/designs",
+          "note": "已打开，列出外部设计合作与产品项目，不代表开放通用代工服务。",
+          "accessedAt": "2026-11-04"
+        },
+        {
+          "id": "s2",
+          "title": "teenage engineering联系与地区资料",
+          "url": "https://teenage.engineering/contact",
+          "note": "已打开，确认斯德哥尔摩地址、批发/经销与产品支持入口，未提交咨询。",
+          "accessedAt": "2026-11-04"
+        },
+        {
+          "id": "s3",
+          "title": "rabbit r1首次发布的设计合作说明",
+          "url": "https://www.rabbit.tech/newsroom/introducing-r1",
+          "note": "已打开，仅采用点名teenage engineering参与r1工业设计的事实；不把2024软件宣传当作当前功能。",
+          "accessedAt": "2026-11-04"
+        },
+        {
+          "id": "s4",
+          "title": "teenage engineering官方公司与团队介绍",
+          "url": "https://teenage.engineering/_img/680230f3533721131036418e_original.pdf",
+          "note": "已打开2025官方发布PDF，列出瑞典主体、软硬件/机械/工业设计团队与样机工坊，不引用其产品效果宣传。",
+          "accessedAt": "2026-11-04"
+        }
+      ],
+      "analysis": {
+        "positioning": [
+          {
+            "title": "设计协作方，不是通用零件厂",
+            "text": "teenage engineering公开介绍其消费电子产品开发和多学科团队，并展示外部设计项目。rabbit的r1发布资料明确点名工业设计合作，因此可以记录这一实际关系；它并不证明该团队制造整机或提供主控，也不能把一个合作案例泛化成面对所有创业项目开放的ODM业务。",
+            "evidence": "official",
+            "sourceIds": [
+              "s1",
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "title": "应怎样理解其供应链角色",
+            "text": "这类公司的研究价值在于把产品形态、实体交互和工程一起讨论，而不是只做上市前的外观包装。对于AI硬件，按键、旋钮、屏幕和使用姿态都可能影响模型能力如何被用户调用。是否适合某个新项目还取决于合作范围和资源，不能由设计知名度推断。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s1",
+              "s4"
+            ]
+          }
+        ],
+        "capability": [
+          {
+            "title": "公开团队与项目能力",
+            "text": "官方公司介绍列出软件、电气、机械和工业设计人员，以及快速样机设施；设计页提供不同合作项目入口。这些信息支持跨学科产品开发定位，但没有公开所有设备、产线或对外服务清单。目录不会把样机工坊等同可以直接承担某个规模的制造工厂。",
+            "evidence": "official",
+            "sourceIds": [
+              "s1",
+              "s4"
+            ]
+          },
+          {
+            "title": "从交互到工程的约束",
+            "text": "设计评估需要把实体控制、显示、声学、结构和软件反馈一起验证，例如操作是否可发现、是否需要两手、失败时能否恢复。外观相似不能证明技术方案一致，某个成功项目的控制方式也不一定适合新的用户任务。候选合作应从问题和原型出发，而不是复制形式。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s1",
+              "s3",
+              "s4"
+            ]
+          }
+        ],
+        "fit": [
+          {
+            "title": "适合研究的产品问题",
+            "text": "便携助手、个人创作工具和需要明确实体交互的设备，可以把其项目作为研究入口，讨论怎样让抽象软件能力变成可理解动作。匹配依据应是用户任务和交互难点，不是希望获得相似外观。公开能力并不保证对方愿意承接当前项目，需要进一步确认合作意愿。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s1",
+              "s4"
+            ]
+          },
+          {
+            "title": "不适配的采购期待",
+            "text": "若需求只是现货模块、低价加工、完整BOM或快速复制已有产品，这种设计协作角色未必适合。设计项目也不能自动包含云服务、模型许可与全部量产交付。团队应先说明自身工程和制造能力，判断需要的是研究、工业设计、系统开发还是代工采购。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s1",
+              "s3"
+            ]
+          }
+        ],
+        "engagement": [
+          {
+            "title": "公开入口与合作范围",
+            "text": "联系页提供产品支持和经销批发等入口，并未承诺统一的工业设计外包流程。潜在合作需要先确认正确的业务窗口、是否接受项目和可承担阶段；不能把售后联系或销售邮箱当成已经提供设计服务的合同入口。本轮没有向公司发送消息或取得合作报价。",
+            "evidence": "official",
+            "sourceIds": [
+              "s2"
+            ]
+          },
+          {
+            "title": "准备具体问题和责任分工",
+            "text": "若获得适当合作渠道，应提供用户任务、原型、目标约束和已有工程能力，并明确哪些成果需要验证。品牌、设计方、软件方和制造方的责任应分开约定，尤其是设计变更如何进入试产。未公开的费用、时间、排他和知识产权安排需要书面确认，不能参考其他项目猜测。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s1",
+              "s2",
+              "s4"
+            ]
+          }
+        ],
+        "quality": [
+          {
+            "title": "设计成果需要任务验证",
+            "text": "有代表性的作品可以展示设计方法，但不是新产品的可用性和可靠性证明。应通过真实任务检查理解、操作、错误恢复和长期维护，再与结构与电子验证结合。不能因外观获得关注或合作品牌知名，就跳过样机评估，也不能把设计参与等同对整机所有性能负责。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s1",
+              "s3"
+            ]
+          },
+          {
+            "title": "量产交付要另行核对",
+            "text": "从样机到量产通常还涉及材料、装配、公差、测试和维护路径，需确认由谁承担，以及设计方在变更中的责任。官方快速样机工坊说明只支持其原型能力，不提供某个工厂的资质或量产良率。本目录没有项目验收与制造记录，不对具体交付质量作保证。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s4"
+            ]
+          }
+        ],
+        "commercial": [
+          {
+            "title": "设计费用不是零件采购价",
+            "text": "这类合作可能涉及不同阶段和成果，无法用某个零售产品的价格推算研发费用。应分别讨论调研、原型、工程支持和后续变更，并核对品牌、设计与生产权利。当前没有正式询价，不填写猜测的项目门槛、最小订单量、设计单价或固定合作周期。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s2",
+              "s4"
+            ]
+          },
+          {
+            "title": "商业价值需要可验证的连接",
+            "text": "对创业团队，设计投入是否值得，要看它是否减少用户操作摩擦、避免工程返工或帮助形成清晰产品定位。名气、外观热度和获奖不能直接转化为销售结果。应保留投入阶段、验证任务和决策依据，不能用某个已发布合作案例预测新项目的商业成功。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s1",
+              "s3"
+            ]
+          }
+        ],
+        "risks": [
+          {
+            "title": "不能混淆设计与制造关系",
+            "text": "rabbit公开资料点名的是r1工业设计合作，不是整机工厂、芯片制造或全部供应链管理。任何后续描述都应保留这个范围，也不由r1关系推断其他Rabbit设备。若将设计公司列为代工厂，会误导采购和责任判断，因此目录把公开模块与未知部分分开显示。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s3"
+            ]
+          },
+          {
+            "title": "可联系不等于可承接",
+            "text": "官网有联系入口与公开项目，并不意味着每个团队都能获得同样服务、价格或周期。外部合作的当前安排需要独立确认，设计成果也不能在没有权限时直接复用。替代路线包括其他工业设计与工程团队或内部开发，应按任务与资源比较，不以品牌名代替选型。",
+            "evidence": "analysis",
+            "sourceIds": [
+              "s1",
+              "s2"
+            ]
+          }
+        ],
+        "verification": [
+          {
+            "title": "合作前的关键核对",
+            "text": "先确认业务窗口、是否承接项目、阶段和交付物，再用明确任务与原型讨论问题。核对谁负责软件、电子、机械、生产导入和售后变更，避免将所有环节默认归给设计方。案例资料应逐项对应本项目需求，不能只凭作品风格相近就认定适合。",
+            "evidence": "validation",
+            "sourceIds": [
+              "s1",
+              "s2",
+              "s4"
+            ]
+          },
+          {
+            "title": "形成可追溯的关系记录",
+            "text": "保存公开合作的产品、时间和职责，区分已披露事实与新的合作假设。若后续获得其他项目的点名来源，再新增对应关系；当前只确认r1工业设计，不扩展到工厂和物料。对报价和交期等未取得的商业信息，保持待确认，而不通过市场传闻补全。",
+            "evidence": "validation",
+            "sourceIds": [
+              "s3"
+            ]
+          }
+        ]
+      },
+      "relatedProducts": [
+        {
+          "supplierId": "teenage-engineering",
+          "role": "engineering",
+          "relationship": "disclosed",
+          "component": "已披露rabbit r1工业设计合作",
+          "rationale": "rabbit官方首发公告明确点名teenage engineering参与r1工业设计，与当前产品外形和已有合作描述相符，因此可建立公开设计关系。证据只覆盖工业设计角色，不证明该公司承担整机装配、所有结构工程、软件或完整物料采购，也不能把首发软件承诺当成当前功能。",
+          "sourceIds": [
+            "s5"
+          ],
+          "supplierSourceIds": [
+            "s3"
+          ],
+          "relationshipEvidence": "rabbit官方“introducing r1”公告明确点名teenage engineering的r1工业设计合作；仅确认设计角色，不推定整机制造、全部工程或完整BOM，亦不采用2024软件承诺作为当前能力。",
+          "productId": "rabbit-r1",
+          "productName": "rabbit r1",
+          "category": "computing",
           "status": "on_sale"
         }
       ]
@@ -33417,6 +34830,58 @@
         },
         {
           "supplierId": "texas-instruments",
+          "role": "sensing",
+          "component": "同类腕部生物电输入的模拟前端研究候选",
+          "rationale": "TI的ADS1299公开生物电低噪声采集、增益和同步转换能力，可作为腕部信号研究候选，但需要针对肌电幅度、带宽、电极接触和低功耗重新验证。它不包含Mudra的手势模型或专利传感实现，也没有点名采用证据；不能从脑电用途直接推定成品腕带适配。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s4"
+          ],
+          "productId": "mudra-link",
+          "productName": "Mudra Link",
+          "category": "wearables",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "texas-instruments",
+          "role": "sensing",
+          "component": "同类耳部EEG设备的生物电前端候选",
+          "rationale": "TI ADS1299明确面向EEG和生物电采集，可用于研究低噪声放大、同步采样及接触状态，但干织物耳垫的实际阻抗、运动干扰和供电尺寸仍需验证。它不提供Neurable认知指标或噪声清理模型，也没有本款采用证据；不能把芯片用途等同整机效果或认证。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s4"
+          ],
+          "productId": "neurable-one",
+          "productName": "Neurable One",
+          "category": "wearables",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "texas-instruments",
+          "role": "sensing",
+          "component": "同类个人多导联ECG的生物电前端候选",
+          "rationale": "TI ADS1299公开低噪声多通道生物电采集及ECG应用，可用于研究两路同步输入和导联派生的相近新设计，但通道数、供电、输入保护和尺寸需重新评估。芯片不含KardiaAI或成品许可，且没有6L点名采用证据；不能把候选前端直接当作原机替换件。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s4"
+          ],
+          "productId": "kardiamobile-6l",
+          "productName": "AliveCor KardiaMobile 6L",
+          "category": "health-home",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "texas-instruments",
           "role": "chip",
           "relationship": "candidate",
           "component": "模拟信号采集与控制器件能力候选",
@@ -33737,6 +35202,25 @@
           "productId": "chessnut-companion",
           "productName": "Chessnut Companion",
           "category": "games",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "tianma",
+          "role": "display",
+          "relationship": "candidate",
+          "component": "小型光场屏的基础显示模组候选",
+          "rationale": "Go需要小尺寸显示面板承载多视图内容，天马公开小中尺寸显示及模组集成能力，可作为基础显示层候选。它不等于提供Looking Glass专有光学与校准，分辨、接口、亮度和叠层要求仍须验证，本轮没有实际采用点名证据。",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "looking-glass-go",
+          "productName": "Looking Glass Go（白色版）",
+          "category": "spatial",
           "status": "on_sale"
         }
       ]
@@ -34343,6 +35827,63 @@
           "productId": "clevercharge-home-cleverkey",
           "productName": "CleverCharge Home + CleverKey（J1772 NEMA 14-50）",
           "category": "home-energy",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "usi",
+          "role": "connectivity",
+          "relationship": "candidate",
+          "component": "便携设备无线连接与电子整合",
+          "rationale": "USI的无线和系统级电子能力可对应应用连接、控制及低功耗整合，但不覆盖成品香氛开发、喷口和定量机构验证；没有ININUM实际供货证据，本链接仅说明功能匹配的工程候选。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "ininum-smart-fragrance",
+          "productName": "ININUM Smart Fragrance",
+          "category": "personal-care",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "usi",
+          "role": "connectivity",
+          "relationship": "candidate",
+          "component": "户外站与家庭Hub无线电子整合",
+          "rationale": "USI的无线及系统级电子能力可用于户外站和Hub的连接控制评估，但户外感知、低功耗能源与Nearcast气象模型需独立负责；没有Tempest具体采用披露，保持候选关系。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "tempest-home-weather-station",
+          "productName": "Tempest Weather Station",
+          "category": "garden",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "usi",
+          "role": "connectivity",
+          "relationship": "candidate",
+          "component": "蓝牙控制与便携能源电子整合",
+          "rationale": "USI公开无线和系统级电子能力可对应应用连接与低功耗控制，但不包括注气计量、酒液接触和清洗验证；未见Aveine型号点名合作，候选不等同实际模组、整机工厂或推荐算法供应。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "aveine-wine-aerator",
+          "productName": "Aveine Wine Aerator",
+          "category": "kitchen",
           "status": "on_sale"
         }
       ]

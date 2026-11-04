@@ -1,6 +1,6 @@
 # 智能硬件供应链目录
 
-核查 2026-11-04 · 123 家公司 · 15 个供应环节
+核查 2026-11-05 · 124 家公司 · 15 个供应环节
 
 面向消费级AI硬件的芯片、元件、模组、制造、工程、软件和检测服务公司。按可核查的能力收录国际公司与专业供应商，持续扩展，不声称覆盖全球全部企业。
 
@@ -32,9 +32,9 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Infineon 英飞凌](supply-chain/infineon.md) | 德国 | XENSIV MEMS 模拟及数字麦克风、PSOC Edge 边缘 AI 微控制器、多麦克风、视觉与机器学习评估套件 |
 | [Ingenic 北京君正](supply-chain/ingenic.md) | 中国大陆 | CW080 AI 穿戴视觉 SoC、T 系列智能视觉处理器、Magik 模型开发平台、嵌入式 CPU 与图像处理 |
 | [Kneron 耐能](supply-chain/kneron.md) | 美国 | KL 系列边缘 AI SoC、可重构神经网络处理与 ISP、图像、语音及模型后处理、主处理或协处理架构候选 |
-| [MediaTek 联发科技](supply-chain/mediatek.md) | 中国台湾 | Genio 700 边缘 AI 应用处理器、多媒体与双显示处理、Android、Yocto Linux 与 Ubuntu 平台支持 |
+| [MediaTek 联发科技](supply-chain/mediatek.md) | 中国台湾 | Genio 700 边缘 AI 应用处理器、多媒体与双显示处理、Android、Yocto Linux 与 Ubuntu 平台支持、Helio P35移动应用平台（rabbit r1公开采用） |
 | [Microchip Technology 微芯科技](supply-chain/microchip.md) | 美国 | MCU、MPU 与 dsPIC 嵌入式控制、MPLAB Machine Learning 模型构建与代码生成、传感识别与异常检测开发流程、嵌入式工具和量产支持入口 |
-| [Nordic Semiconductor](supply-chain/nordic-semiconductor.md) | 挪威 | nRF54H20 多核低功耗无线 SoC、低功耗蓝牙与多协议连接、nRF Connect SDK 与分域电源管理 |
+| [Nordic Semiconductor](supply-chain/nordic-semiconductor.md) | 挪威 | nRF54H20 多核低功耗无线 SoC、低功耗蓝牙与多协议连接、nRF Connect SDK 与分域电源管理、nRF52840传感控制与BLE（Ring AIR 2023公开案例） |
 | [NXP 恩智浦](supply-chain/nxp.md) | 荷兰 | i.MX RT700 跨界微控制器、eIQ Neutron 神经网络加速、多核、图形与音频处理架构 |
 | [OMNIVISION 豪威影像业务](supply-chain/omnivision.md) | 美国（OVT 官网业务总部口径） | OG0TC 眼部与面部追踪全局快门传感器、OV50M40 移动图像传感器、OC0TC 微型摄像模块、近红外与高动态范围成像 |
 | [onsemi 安森美](supply-chain/onsemi.md) | 美国 | Ezairo 8300 听觉数字信号处理平台、专用音频处理与神经网络加速、助听器及 hearable 开发工具 |
@@ -69,8 +69,8 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Ceva](supply-chain/ceva.md) | 美国 | SensPro 视觉与传感 DSP IP、NeuPro 神经网络处理 IP、无线连接 IP 平台、传感融合与音频嵌入式软件 |
 | [Espressif 乐鑫](supply-chain/espressif.md) | 中国大陆 | ESP32-C6 无线微控制器、ESP-IDF 开发框架、ESP-SR、ESP-DL 等语音与端侧推理软件、模组与开发板 |
 | [Luxshare / 立讯精密](supply-chain/luxshare-ict.md) | 中国大陆 | 声学与无线连接模组、精密机械与系统封装、智能音箱及消费终端整合、零组件到系统组装 |
-| [MediaTek 联发科技](supply-chain/mediatek.md) | 中国台湾 | Genio 700 边缘 AI 应用处理器、多媒体与双显示处理、Android、Yocto Linux 与 Ubuntu 平台支持 |
-| [Nordic Semiconductor](supply-chain/nordic-semiconductor.md) | 挪威 | nRF54H20 多核低功耗无线 SoC、低功耗蓝牙与多协议连接、nRF Connect SDK 与分域电源管理 |
+| [MediaTek 联发科技](supply-chain/mediatek.md) | 中国台湾 | Genio 700 边缘 AI 应用处理器、多媒体与双显示处理、Android、Yocto Linux 与 Ubuntu 平台支持、Helio P35移动应用平台（rabbit r1公开采用） |
+| [Nordic Semiconductor](supply-chain/nordic-semiconductor.md) | 挪威 | nRF54H20 多核低功耗无线 SoC、低功耗蓝牙与多协议连接、nRF Connect SDK 与分域电源管理、nRF52840传感控制与BLE（Ring AIR 2023公开案例） |
 | [Qualcomm 高通](supply-chain/qualcomm.md) | 美国 | Snapdragon AR1 智能眼镜平台、Hexagon 端侧 AI 与影像处理、无线连接及平台软件 |
 | [Realtek 瑞昱](supply-chain/realtek.md) | 中国台湾 | AmebaPro2 边缘视觉与神经网络平台、模型转换和嵌入式推理流程、通信、多媒体及智慧互联芯片 |
 | [Silicon Labs](supply-chain/silicon-labs.md) | 美国 | EFR32BG27 小型低功耗蓝牙 SoC、微型电池设备连接与控制、集成升压及电量管理相关能力、无线开发与安全支持工具 |
@@ -398,6 +398,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [SEKONIX](supply-chain/sekonix.md) | 韩国 | 机器人RGB与红外立体相机、飞行时间深度摄像、家电内置识别相机、DLP投影光学模组、AR眼镜及车载光学方向 |
 | [Sunny Optical 舜宇光学](supply-chain/sunny-optical.md) | 中国大陆 | 成像镜头与摄像模组、主动双目三维相机、结构光识别相机、广视场RGB相机、机器人视觉感知方案 |
 | [Sunwoda 欣旺达](supply-chain/sunwoda.md) | 中国大陆 | 消费电子电芯与电池、小动力电池、智能硬件电池方案、电池结构与系统集成、电池生产与质量管理能力 |
+| [teenage engineering](supply-chain/teenage-engineering.md) | 瑞典 | 消费电子工业设计、软件、电气与机械协同开发、实体交互与样机研究、公开外部设计合作 |
 | [Tianma 天马微电子](supply-chain/tianma.md) | 中国大陆 | 小中尺寸TFT-LCD、AMOLED显示、标准面板与定制LCM、投射电容触控和盖板贴合、工业与户外显示应用方案 |
 | [Tuya / 涂鸦智能](supply-chain/tuya.md) | 中国大陆 | AIoT设备与云端平台、TuyaOpen和模组适配、应用与智能体开发、原型定义及固件生成流程 |
 | [USI / 环旭电子](supply-chain/usi.md) | 中国大陆 | 消费PCBA及整合方案、SiP微小化技术、联合设计与DfX评估、无线音频及设备模组制造 |
@@ -429,9 +430,9 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Kneron 耐能](supply-chain/kneron.md) | 美国 | KL 系列边缘 AI SoC、可重构神经网络处理与 ISP、图像、语音及模型后处理、主处理或协处理架构候选 |
 | [Leopard Imaging](supply-chain/leopard-imaging.md) | 美国 | 嵌入式相机设计制造、主动对准与图像调校、立体及飞行时间深度方案、多类计算平台驱动开发、相机OEM与ODM服务 |
 | [Luxonis](supply-chain/luxonis.md) | 美国 | OAK深度与边缘视觉设备、DepthAI开发工具、相机模组定制路径、视觉模型优化与集成测试、部署与技术支持服务 |
-| [MediaTek 联发科技](supply-chain/mediatek.md) | 中国台湾 | Genio 700 边缘 AI 应用处理器、多媒体与双显示处理、Android、Yocto Linux 与 Ubuntu 平台支持 |
+| [MediaTek 联发科技](supply-chain/mediatek.md) | 中国台湾 | Genio 700 边缘 AI 应用处理器、多媒体与双显示处理、Android、Yocto Linux 与 Ubuntu 平台支持、Helio P35移动应用平台（rabbit r1公开采用） |
 | [Microchip Technology 微芯科技](supply-chain/microchip.md) | 美国 | MCU、MPU 与 dsPIC 嵌入式控制、MPLAB Machine Learning 模型构建与代码生成、传感识别与异常检测开发流程、嵌入式工具和量产支持入口 |
-| [Nordic Semiconductor](supply-chain/nordic-semiconductor.md) | 挪威 | nRF54H20 多核低功耗无线 SoC、低功耗蓝牙与多协议连接、nRF Connect SDK 与分域电源管理 |
+| [Nordic Semiconductor](supply-chain/nordic-semiconductor.md) | 挪威 | nRF54H20 多核低功耗无线 SoC、低功耗蓝牙与多协议连接、nRF Connect SDK 与分域电源管理、nRF52840传感控制与BLE（Ring AIR 2023公开案例） |
 | [NXP 恩智浦](supply-chain/nxp.md) | 荷兰 | i.MX RT700 跨界微控制器、eIQ Neutron 神经网络加速、多核、图形与音频处理架构 |
 | [onsemi 安森美](supply-chain/onsemi.md) | 美国 | Ezairo 8300 听觉数字信号处理平台、专用音频处理与神经网络加速、助听器及 hearable 开发工具 |
 | [Picovoice](supply-chain/picovoice.md) | 地区待核实 | 端侧唤醒词、语音转写与意图识别SDK、语音活动与说话人处理、端侧语言与视觉SDK |

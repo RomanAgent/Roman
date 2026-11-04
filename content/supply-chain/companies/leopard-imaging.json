@@ -1,0 +1,234 @@
+{
+  "id": "leopard-imaging",
+  "name": "Leopard Imaging",
+  "legalName": "Leopard Imaging Inc.",
+  "country": "美国",
+  "locations": [
+    "美国Fremont总部",
+    "马来西亚Penang（官网披露制造设施）",
+    "欧洲及亚洲公开业务网络"
+  ],
+  "tier": "specialist",
+  "tierNote": "相机设计、制造和图像调校的专业供应商；不以客户数量或营销排名定义规模。",
+  "roles": [
+    "sensing",
+    "optics",
+    "engineering",
+    "manufacturing",
+    "software"
+  ],
+  "capabilities": [
+    "嵌入式相机设计制造",
+    "主动对准与图像调校",
+    "立体及飞行时间深度方案",
+    "多类计算平台驱动开发",
+    "相机OEM与ODM服务"
+  ],
+  "productCategories": [
+    "robotics",
+    "drones",
+    "sports",
+    "imaging",
+    "creative-tools"
+  ],
+  "website": "https://leopardimaging.com/",
+  "contactUrl": "https://leopardimaging.com/contact-us/",
+  "summary": "Leopard Imaging把相机设计、制造、主动对准和图像调校放在同一供应角色下，公开目录涵盖立体、深度及多接口视觉方案。其工程能力适合讨论运动与机器人视觉，但公开的工厂和合作案例不等于本项目的生产安排，具体硬件版本、平台适配和合同责任仍需逐项确认。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位：相机制造与调校结合",
+        "text": "公司介绍强调相机设计、制造及图像调校，并说明使用主动对准设备；官网同时提供OEM和ODM服务。它的目录角色因此包含光机装配与成像链路工程，而不只是将现成摄像头转售给用户，但本轮没有进行工厂现场审核。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断：面向需要控制成像一致性的项目",
+        "text": "如果算法对光轴、曝光或多相机一致性敏感，制造与调校协作值得进入选型讨论。Leopard的公开路线可以提供这种候选基础，但不能因为其服务复杂行业，就假定所有消费项目都需要同样规格或能够承受相同的工程投入。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力：深度与串行接口路线",
+        "text": "官网目录包含立体相机、飞行时间深度和多类串行接口方案，并列出不同计算平台的驱动与调校服务。不同路线对应距离、布线及同步条件，采购方需要按具体目标选择，不能将全站产品能力拼成一个并不存在的万能模组。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "公开能力：生产地点有披露但须限范围",
+        "text": "公司页列出美国总部，并介绍马来西亚制造设施及跨区域业务网络。这个信息可以支持后续询问产地和工程协作安排，却不能证明某个候选料号就在这些地点生产，也不能代替项目所需的质量体系和批次追溯文件。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配：移动视觉与同步采集候选",
+        "text": "无人机、机器人和运动观察设备需要稳定采集动态场景，Leopard的嵌入式与深度方案可以作为工程候选。匹配时应明确需要单目图像、立体深度还是其他输出，并核对主控与通信条件，不能只因为产品都带摄像头就建立关联。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "边界：工业路线不等于消费封装",
+        "text": "部分视觉方案面向复杂移动或工业环境，外壳、线缆与计算平台可能超出小型消费设备的空间和成本。目录链接应限定到可讨论的相机或调校模块，说明缩小体积、降低功耗和简化接口是否可行仍需专门验证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "接洽：先定义标定和成像责任",
+        "text": "应向候选团队说明镜头安装、主控平台、标定方法和图像验收目标，特别明确主动对准和后续调校由谁完成。这样可以避免相机硬件与算法团队分别认为问题在对方，减少样品阶段只有图像可看却无法解释差异的情况。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "接洽：区分销售、订单和技术沟通",
+        "text": "官方公司页提供一般询问、订单和技术支持的不同渠道，项目应按阶段选择入口，并在资料中标明需要标准相机还是定制设计。公开渠道只是可联系的证据，本轮没有确认响应时间、工程资源或特定生产地点的可用排期。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "验证：主动对准仍要落到整机效果",
+        "text": "主动对准能力有助于讨论光机一致性，但最终应在目标外壳和温度条件下检查焦点、畸变及多相机关系。不能把制造工艺名称当成所有样品都满足应用的保证，尤其需观察运输、装配应力和长期运行后是否需要重新标定。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "验证：驱动与图像参数必须留档",
+        "text": "不同平台的驱动和图像调校可能改变曝光、颜色或时间同步，应该保存可复现版本与测试图像。量产替换传感器或镜头时，需预先规定回归项目；官网列出的平台经验不等于当前项目已有经过验证的软件和参数组合。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断：工程深度影响项目投入",
+        "text": "单独购买评估相机、委托图像调校和进行完整定制制造，会形成不同的工作范围与成本结构。应把样品、标定、驱动维护和生产测试分别写入询价，不能用标准产品的单价估算完整方案，更不能从制造设施推断最低订单条件。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "待确认：产地与服务合同要一致",
+        "text": "若项目对交付地区或制造地点有要求，应向实际签约主体确认料号、产地、变更通知与返修流程。公开的美国和海外设施信息不能替代书面安排，也没有说明本目录消费产品的采购渠道，不能把业务网络直接转写成供货承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "风险：高端案例掩盖任务差异",
+        "text": "机器人或航空视觉经验可能体现工程能力，但消费跟拍和室内动作观察的成本、体积及隐私要求并不相同。选型应回到目标任务，避免因行业案例令人印象深刻就跳过系统适配，也不将某合作方名称扩展成所有相机产品的客户。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "风险：认证图标需要具体适用文件",
+        "text": "官网展示的认证或质量标识只能作为索取资料的线索，必须核对主体、设施、产品和有效范围。不能把某一工厂或产品的认证自动赋予最终消费设备，也不能在没有文件时宣称某候选方案已经满足全部目标市场要求。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "下一步：针对最难场景开展采集测试",
+        "text": "选择实际产品最容易失效的移动、弱光或遮挡场景，用候选相机保留原始数据，并记录主控处理和图像传输的时间关系。这样可以判断应调整光学、接口还是模型，避免只在静态测试台上完成一次清晰拍摄就结束选型。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "下一步：把制造变更纳入验证计划",
+        "text": "要求推荐方案提供带版本的光学、硬件和软件资料，明确关键部件替代后如何重新验证。完成样品和商务确认前，目录仅保留能力候选；没有点名本产品或系列的公开证据，不能将其制造能力写成原机实际供应关系。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Leopard Imaging公司与制造介绍",
+      "url": "https://leopardimaging.com/about-us/",
+      "note": "已打开，支持主动对准、OEM/ODM、Fremont总部和Penang制造设施披露。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "Leopard Imaging视觉方案目录",
+      "url": "https://leopardimaging.com/",
+      "note": "已打开，支持深度、接口、驱动与图像调校业务；不把营销认证图标作终端合规证明。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "Leopard Imaging公开联系入口",
+      "url": "https://leopardimaging.com/contact-us/",
+      "note": "已打开，用于项目销售、订单与技术联系。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "leopard-imaging",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "连续直播相机与图像链路工程候选",
+      "rationale": "Leopard Imaging公开相机模组、图像调试及平台集成能力，可作为Tail Air视觉采集链路的工程候选；仍需确认持续编码、网络输出与云台控制的整体配合，不能把相机模组能力视为完整NDI产品能力，也无公开证据证明其为Tail Air供货。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "obsbot-tail-air",
+      "productName": "OBSBOT Tail Air",
+      "category": "imaging",
+      "status": "on_sale"
+    }
+  ]
+}

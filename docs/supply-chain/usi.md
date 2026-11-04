@@ -144,6 +144,12 @@ USI / 环旭电子按公开跨地区运营及消费PCBA及整合方案等已核�
 
 - [CleverCharge Home + CleverKey（J1772 NEMA 14-50）](../hardware/clevercharge-home-cleverkey.md) — **能力候选 · 非已采用** / 车端与家庭端无线电子整合：USI公开无线和系统级电子能力可对应车端数据接口后的连接及控制整合，但OBD兼容、车辆协议和需求模型需独立负责；未见CleverCharge合作披露，不推定其实际模组或算法供应。
 
+- [ININUM Smart Fragrance](../hardware/ininum-smart-fragrance.md) — **能力候选 · 非已采用** / 便携设备无线连接与电子整合：USI的无线和系统级电子能力可对应应用连接、控制及低功耗整合，但不覆盖成品香氛开发、喷口和定量机构验证；没有ININUM实际供货证据，本链接仅说明功能匹配的工程候选。
+
+- [Tempest Weather Station](../hardware/tempest-home-weather-station.md) — **能力候选 · 非已采用** / 户外站与家庭Hub无线电子整合：USI的无线及系统级电子能力可用于户外站和Hub的连接控制评估，但户外感知、低功耗能源与Nearcast气象模型需独立负责；没有Tempest具体采用披露，保持候选关系。
+
+- [Aveine Wine Aerator](../hardware/aveine-wine-aerator.md) — **能力候选 · 非已采用** / 蓝牙控制与便携能源电子整合：USI公开无线和系统级电子能力可对应应用连接与低功耗控制，但不包括注气计量、酒液接触和清洗验证；未见Aveine型号点名合作，候选不等同实际模组、整机工厂或推荐算法供应。
+
 ## 来源
 
 - [环旭公司与集团关系](<https://www.usiglobal.com/en/our-companies>)：核实上海主体、日月光投控归属及设计制造微小化服务范围。

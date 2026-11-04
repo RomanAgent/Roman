@@ -10,7 +10,7 @@
 
 公开地区：中国台湾新竹、中国大陆多地、美国、欧洲及亚洲其他地区
 
-能力：Genio 700 边缘 AI 应用处理器、多媒体与双显示处理、Android、Yocto Linux 与 Ubuntu 平台支持
+能力：Genio 700 边缘 AI 应用处理器、多媒体与双显示处理、Android、Yocto Linux 与 Ubuntu 平台支持、Helio P35移动应用平台（rabbit r1公开采用）
 
 ## 公司定位与边界
 
@@ -39,6 +39,12 @@
 处理器具备神经网络计算能力并不保证任意模型都能高效运行。应拿真实的识别或摘要前处理模型测试转换成功率、量化损失和内存峰值；若有算子回落到中央处理器，还要观察界面与音频任务是否因此卡顿，而不是只比较标称算力。
 
 依据：[MediaTek Genio 700](<https://www.mediatek.com/products/iot/genio-iot/genio-700>)
+
+### 官方｜P35与Genio分别记录 · 官方资料
+
+Helio P35是公开的移动应用处理平台，提供处理器、多媒体与蜂窝连接能力；rabbit当前支持页明确点名r1使用该芯片。这条采用证据不能转成r1使用Genio，也不能把P35的全部通用相机功能当作成品已启用；目录保留具体系列与系统软件之间的边界。
+
+依据：[MediaTek Helio P35 official product](<https://www.mediatek.com/products/smartphones/mediatek-helio-p35>)
 
 ## 适用场景与匹配
 
@@ -124,6 +130,12 @@
 
 依据：[MediaTek Genio 700](<https://www.mediatek.com/products/iot/genio-iot/genio-700>) · [MediaTek Contact Us](<https://www.mediatek.com/company/contact-us>)
 
+### 判断｜已采用不等于全部本地AI · 研究判断
+
+芯片被点名后仍需分开核对外部模型、账户、网络和设备端计算。应用处理器能够支持相机和屏幕，不证明当前生成式问答全部在本地执行，也不能据此推算性能；供应研究应继续确认其他器件与制造资料，避免一项公开关系被扩写成完整物料清单。
+
+依据：[MediaTek Helio P35 official product](<https://www.mediatek.com/products/smartphones/mediatek-helio-p35>)
+
 ## 关联硬件产品
 
 > 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
@@ -132,7 +144,7 @@
 
 - [BOOX Note Air5 C](../hardware/boox-note-air5c.md) — **能力候选 · 非已采用** / 多应用阅读与输入平台候选：联发科技应用处理器路线可用于比较类似电子纸设备的系统与模型前处理，但需验证显示、笔接口、内存和持续功耗。当前没有 Air5 C 供货证据，不能因安卓应用支持推断具体芯片；平台能力也不保证第三方软件适合电子纸或全部 AI 可离线使用。
 
-- [rabbit r1](../hardware/rabbit-r1.md) — **能力候选 · 非已采用** / 带屏联网 AI 终端的应用处理候选：r1 具备屏幕、相机和联网任务，联发科技应用平台可作为同类新设计候选。需核对具体型号、输入输出、系统和电源预算，当前引用资料未点名现用主控；该候选不提供 rabbit OS3 或外部模型服务，也不能视为封闭成品的直接替换或历史功能恢复方案。
+- [rabbit r1](../hardware/rabbit-r1.md) — **公开披露关系** / 已披露MediaTek Helio P35应用处理器：rabbit当前官方支持页明确将r1芯片列为MediaTek Helio P35，联发科技产品页可核对该平台角色，因此采用关系已有点名依据。证据不覆盖整机工厂、其他器件和所有批次，也不证明OS3或生成式模型全部本地运行；不能将公司Genio系列的能力混入这一具体平台。
 
 - [Viwoods AiPaper](../hardware/viwoods-aipaper.md) — **能力候选 · 非已采用** / 手写与文档终端的应用处理平台候选：AiPaper 需要文档、笔输入、显示和在线服务协同，联发科技应用平台可作为同类新设计候选。需验证电子纸控制、笔延迟、待机和系统接口，当前没有点名采用；通用处理器不提供 Viwoods 的工作流或云模型授权，也不能直接替换现有设备并保证全部体验。
 
@@ -145,5 +157,7 @@
 - [MediaTek Contact Us](<https://www.mediatek.com/company/contact-us>)：支持新竹总部、公开地区办公室与业务联系路径。
 
 - [Who We Are](<https://www.mediatek.com/who-we-are>)：支持集团系统芯片业务定位；不将集团子公司能力自动归入 Genio 700。
+
+- [MediaTek Helio P35 official product](<https://www.mediatek.com/products/smartphones/mediatek-helio-p35>)：本轮已打开：Helio P35应用处理、多媒体与4G平台；芯片通用能力不自动等于r1实际启用功能或全部AI本地运行。
 
 [返回供应链目录](../supply-chain.md)

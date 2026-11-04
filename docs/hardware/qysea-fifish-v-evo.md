@@ -1,0 +1,267 @@
+# QYSEA FIFISH V-EVO
+
+**QYSEA 潜行** · 影像与创作 · 核查 2026-11-04
+
+在水下用AI视觉锁住拍摄目标的有缆摄影机器人
+
+消费渠道：个人零售。
+
+## 产品图片与结构参考
+
+### 产品图
+
+![QYSEA FIFISH V-EVO 官方产品图](../../assets/hardware/qysea-fifish-v-evo/product.png)
+
+QYSEA FIFISH V-EVO 官方产品图 · 来源：[QYSEA 潜行 · 官方资料](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [原始图片](<https://cdn.shopify.com/s/files/1/0693/6965/9475/files/fifish-v-evo-standard-pack-1.png?v=1779700616>)
+
+### 参考图
+
+![QYSEA FIFISH V-EVO 官方外观与使用参考图](../../assets/hardware/qysea-fifish-v-evo/reference.png)
+
+QYSEA FIFISH V-EVO 官方外观与使用参考图 · 来源：[QYSEA 潜行 · 官方资料](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [原始图片](<https://cdn.shopify.com/s/files/1/0693/6965/9475/files/fifish-v-evo-standard-pack-2.png?v=1779700617>)
+
+### AI 生成爆炸示意
+
+![QYSEA FIFISH V-EVO 功能模块概念爆炸示意；结构位置为推断，非实物拆机。](../../assets/hardware/qysea-fifish-v-evo/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/qysea-fifish-v-evo.txt)
+
+> 以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。
+
+> 目视QA后做一次定点修正：移除多余推进器，并将视觉锁定与图像过滤分开标注。初稿只作修图溯源参考。
+
+> 保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。
+
+> 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
+
+## 销售与购买
+
+- 状态：在售。核查日官方商店Standard Pack为US$1,399且可加入购物车；公开商品数据该变体available=true。官网将V-EVO列为Sport ROV，面向摄影、观察与探索；不把工业E-GO或机械臂套装另计。
+
+- 地区：官方商店支持的美国、欧洲等目的地（运费及地址另核）
+
+- 价格：官方标准包US$1,399。不含机械臂套装；选配工具、特殊物流与税费另计。页面默认Arm Pack较贵，已按标准SKU核对。
+
+- 中国大陆：已核全球官方商店，但未独立确认大陆零售库存与具体售后渠道。跨境版本、充电器和维修应另核，不能由中国品牌背景推断可直接买到。
+
+- [官方产品 / 商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>)
+
+## AI 的实际作用
+
+AI Vision Lock利用视觉目标识别自动调整机体方向和位置；另有官方明确的AI水下浮游杂质图像过滤。它不是只靠遥控移动的普通水下相机。
+
+服务与联网依赖：需有缆遥控、手机App、推进与电池协同。视觉锁定受可见性影响，不等同自动避障、自主潜航或潜水安全保障；不同附加功能按软件与套餐确认。
+
+## 是否冷门
+
+细分专业（研究判断）：水下探索有明确但窄的个人需求，环境和维护门槛高；不能用工业作业市场的规模替代消费需求。
+
+## 需求与市场
+
+案头需求是在不让拍摄者亲自下水的情况下稳定观察与记录水下对象。AI锁定可减少持续修正方向的操作，但缆线、能见度和取回设备仍需人管理；这与普通手持运动相机的使用任务不同。
+
+### 事实：任务边界 · 官方资料
+
+官方将V-EVO列为Sport ROV，标准商店明确面向水下拍摄、观察和轻量检查，而不是只向工业团队交付。操作者通过有缆设备观察画面并控制机体，AI视觉锁定帮助保持拍摄目标；核心任务是把镜头带到水下并减少持续手动修正的负担。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 判断：真实需求 · 研究判断
+
+需求判断应从是否需要自己下水开始：岸边或船上的创作者可能想看清一个物体、记录水下景观或观察船体某处。与潜水者携带相机相比，ROV可以改变人员进入水域的方式，但同时增加线缆、操控和取回工作，不是更省事的普遍替代。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 验证：任务完成 · 待验证
+
+调研可选允许使用设备且环境可控的水域，让个人创作者完成部署、找到目标、拍摄和回收，逐步记录求助点。访谈问此前如何完成同一拍摄、最难接受哪项准备，以及如果无法稳定锁定目标，是否仍愿意用它进行手动观察。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+## 用户画像
+
+适合水下影像爱好者、旅行创作者或小型船主做观察记录。它虽然可以买来个人使用，仍要求理解水域、缆线和推进操作；不是面向无训练人群的救援保障，也不把工业检测客户当消费需求。
+
+### 事实：使用条件 · 官方资料
+
+V-EVO的标准包与机械臂包在同一官方商店出售，本条选择标准包，不附加专业作业工具。产品需要岸上控制、App和线缆组织，厂商将摄影者与探索爱好者列为使用方向；这些事实支持个人创作定位，但不证明任何初学者都能无训练使用。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 判断：人群筛选 · 研究判断
+
+潜在画像可以是水下内容创作者、经常到海边旅行的摄影爱好者或小型船主。需要救援、工程测量和水产作业的人有不同的可靠性与工具要求，本轮不把他们的预算或采购理由合并进消费人群，也不将潜水安全任务交给这台摄影设备。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 验证：参与者差异 · 待验证
+
+招募时应了解参与者对水域、线缆、天气和设备回收的经验，并让其说明想获取的是好看的影像还是可检查的细节。观察在无法下水帮助设备时是否仍能理解操作流程；不适配的人可以退出，其原因对于判断真实消费边界很重要。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+## 竞争与替代
+
+替代包括潜水者携带防水相机、固定水下摄像头和纯遥控ROV。V-EVO的差异在视觉目标锁定与成像处理协助操控；本轮不按深度、电池或机械臂套装重复添加同品牌作业型号。
+
+### 事实：方案范围 · 官方资料
+
+V-EVO官方页面将AI目标锁定和图像过滤列为明确能力；普通防水相机、固定水下镜头和纯遥控ROV可以完成其中一部分任务。目录没有加入同品牌更深、更重或附机械臂的工业型号来扩大数量，也不把标准包与机械臂包视为两个创新产品。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 判断：替代关系 · 研究判断
+
+它的差异假设在于镜头可以主动移动到目标附近并帮助保持构图。固定相机可能部署简单但取景受限，潜水者手持相机可以灵活观察却增加人员要求；ROV的优势需要抵扣线缆、补能和收纳的成本，不能只比较视频分辨率。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 验证：比较方法 · 待验证
+
+对照可以让同一操作者分别用纯手动控制和视觉锁定拍同一固定目标，统计修正次数、目标离开画面的时间和可用片段。若与防水相机比较，应同时记录部署与清理时间，不把不相同水流或能见度下的样片当作公平性能结论。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+## 供应链
+
+公开机体含防水壳体、推进器、相机灯光、电池和有缆控制。工厂与上游件未披露；密封、压力变化、盐水残留和线缆连接必须整机验证，常见小电机或相机能力不能直接证明水下适用。
+
+### 事实：功能组成 · 官方资料
+
+公开结构包括六推进器、前置相机和照明、防水壳体、电池以及有缆控制链。官方网站没有披露完整上游物料或具体代工厂，工业E-GO的模块化、电池热换和扩展接口也不能移植到V-EVO；外观相似不足以确认内部共用设计。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 判断：交付约束 · 研究判断
+
+工程约束首先来自密封和运动环境：图像链、供电和推进需要在压力、温度变化及潮湿连接条件下协同工作。线缆拉力、壳体接合与摄像窗口的光学效果相互影响，因此普通消费相机模组或小电机即使功能相近，也不能直接代表适合水下整机。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 验证：选型缺口 · 待验证
+
+Arducam可作为成像模组集成候选，Protolabs可作为壳体样件与结构制造候选。前者不能单凭相机接口承诺水下密封，后者的加工能力也不等于压力认证；必须补充材料、窗口、接合、测试和寿命要求，不能猜测QYSEA实际采用关系。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+## 技术路径
+
+官方AI Vision Lock允许触选目标后由机体调整方向和位置，图像算法另处理水下可见杂质。不能将定深、遥控或普通姿态保持全部称作AI，也不能把视觉锁定扩写成未知障碍环境的自主导航。
+
+### 事实：AI机制 · 官方资料
+
+官方AI Vision Lock说明允许操作者在画面上选取目标，然后设备自动调整方向或位置以维持观察；另一项明确AI功能是对水下可见杂质造成的画面影响进行过滤。两者分别处理运动取景和影像外观，不能混写成同一个识别或导航算法。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 判断：系统边界 · 研究判断
+
+视觉锁定依赖摄像头可获得有用目标信息，因此浑浊、遮挡、反光或画面缺少特征时仍需观察实际行为。官方未给出全部水域条件下的独立识别统计，不能将锁定功能扩展为自动避障、自动回航或无人值守探索，也不据此承诺潜水者安全。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 验证：算法与体验 · 待验证
+
+验证应先从固定目标和可恢复的简单运动开始，记录锁定丢失、重新选取及手动接管的操作，分别保留过滤前后图像。若过滤让某些细节难以判断，应明确其适合观感还是观察任务；本轮没有水下实测，暂不报告定位或成像准确率。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+## 产品审美
+
+白色流线机身和外露带护圈推进器让用途直观，双灯与相机位于前方。携带审美还包含线盘、控制器和潮湿收纳，单机照片不能反映完整出行装备所占空间和清理工作。
+
+### 事实：外观与交互 · 官方资料
+
+官方主图展示白色流线机壳、周围带护圈的推进器、前方相机和双灯，以及后方握持结构。标准版外观没有机械臂；此次真实图片选用准确白色V-EVO，概念图也排除了黄色旧机型和工业型号，并在目视核查时修正了多余推进器。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 判断：使用中的形态 · 研究判断
+
+单机轮廓紧凑，可能让水下探索看起来容易携带，但完整体验还包括控制器、线盘、充电和潮湿装备收纳。水滴形态的视觉动感不能代替操作者对接缆、握持和回收的理解，照片里的简洁必须放回真实岸边流程评估。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 验证：日常接受度 · 待验证
+
+可以让用户自行决定哪些东西放在包内、哪些留在岸上，并观察拿取机体时是否碰到推进器或把线缆当作把手。访谈问清理后是否愿意立即收纳、下次出行会不会带上整套装备，把携带与维护负担纳入外观接受度判断。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+## 关键风险
+
+能见度变差、缆线缠绕和推进器受阻会影响取景与操控；AI锁定没有消除这些物理限制。图像过滤后的观感也不等于真实水质测量，太阳光、浑浊和水流条件须在拍摄记录中保留。
+
+### 事实：已知限制 · 官方资料
+
+有缆控制和视觉锁定都没有消除水流、缠绕与能见度等物理条件，官方标称续航也区分悬停和持续运动。商店包含多种套装和附件，标准包不能默认拥有机械臂、头戴控制或全部作业工具；本条没有把工业水下设备能力包装给消费版本。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 判断：失效影响 · 研究判断
+
+主要风险是用户因AI标签放松对线缆和取回条件的判断，以及将图像过滤后看起来更清晰解释为真实水质改善。设备损失和错过拍摄机会可能比普通相机失焦的后果更大，但本轮没有故障率证据，应将这些写成待验证情境而非已发生缺陷。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 验证：风险处理 · 待验证
+
+试用前应核对适用环境和回收流程，在可控制条件下检查手动接管、低电量提示和目标丢失后的表现。采购时另核目的地售后、消耗件与修理渠道；如果只是想偶尔拍一次水下视频，也应比较租用或请人拍摄是否更符合任务。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+## 机会与验证
+
+可验证机会是为个人创作者降低水下固定目标拍摄的操控负担。比较手动和锁定模式拍同一对象所需修正次数、成片可用比例和回收整理时间，再判断是否比现有防水相机更符合其任务。
+
+### 判断：可尝试切口 · 研究判断
+
+一个可尝试的切口是为水下内容创作者提供目标选择、锁定构图和素材管理的简化工作流。若多数操作负担发生在部署与回收，改进线盘和收纳可能比再增加AI特效更有价值；如果任务主要是检查细节，则需要优先保留真实未处理画面。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 判断：商业边界 · 研究判断
+
+商业边界在于水域可达性与使用频次。经常出行的创作者和一年偶尔探索一次的人，对购买、短租和培训的接受度不同，不能用工业检查项目的价值证明家庭市场规模；本轮没有租赁、渠道或使用日志，暂不估算付费规模和回本。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+### 验证：下一步调研 · 待验证
+
+下一步可以跟踪几次真实但可控的个人拍摄项目，记录准备、操作、取回、清洁及剪辑各阶段耗时，并问哪些AI功能实际开启。用可用素材比例、再携带意愿和失败原因决定后续研究方向，不以模型评分或漂亮水下样片预测市场成功。
+
+依据：[FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) · [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [arducam](../supply-chain/arducam.md) — **能力候选 · 非已采用** / 水下成像链的相机模组候选：V-EVO需要连续图像输入支撑观察和目标锁定，Arducam公开相机模组与定制集成服务，可作为成像子系统能力候选。它并不自动提供适合本机深度的密封与窗口，接口、低光和整机压力环境仍须验证，未披露实际供货。
+
+- [protolabs](../supply-chain/protolabs.md) — **能力候选 · 非已采用** / 密封外壳与结构原型候选：Protolabs公开多种结构加工和原型制造方式，可为ROV壳体、连接件与窗口装配研究提供样件能力。加工能力不等于水下耐压或长期防腐合格，须另验证材料、密封与测试规范，本轮没有它为QYSEA制造本产品的证据。
+
+[浏览供应链目录](../supply-chain.md)
+
+## 功能分层示意
+
+这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。
+
+1. **水下视觉**：前置相机与两侧灯光获取水下画面。（官方披露）
+
+2. **AI目标与影像**：视觉锁定驱动方向调整，AI过滤改善特定水下画面。（官方披露）
+
+3. **推进与姿态**：六推进器配合运动与深度感知实现机体运动。（官方披露）
+
+4. **有缆交互**：缆线、岸上控制器与App组成观察和操控链。（官方披露）
+
+5. **密封与电源**：防水机身及电池维持运行，未公开内部布局只作功能推断。（官方披露）
+
+## 来源
+
+1. [FIFISH V-EVO官方标准包商店](<https://store.qysea.com/products/fifish-v-evo?variant=44496840491091>) — 实际打开商店并读取公开商品数据；Standard Pack在售1399美元，摄影和观察定位。
+
+2. [FIFISH V-EVO官方功能页](<https://www.qysea.com/products/fifish-v-evo/>) — 实际打开；Sport ROV定位、AI视觉锁定、AI浮游杂质过滤、推进和有缆使用场景。
+
+3. [QYSEA商店配送政策](<https://store.qysea.com/policies/shipping-policy>) — 实际打开；配送受目的地与条件限制，未据此断言中国大陆直邮或本地保修。
+
+[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/qysea-fifish-v-evo)

@@ -132,6 +132,8 @@
 
 - [C-Pen Reader 2](../hardware/cpen-reader-2.md) — **能力候选 · 非已采用** / 本地 OCR 与设备交互的嵌入式候选：意法的视觉微控制器路线可用于比较同类阅读笔，但需验证扫描数据、识别模型、外部存储和声音输出，不能只依据 NPU 存在选型。当前未确认 Reader 2 采用，候选不等于现用主控或语言授权，也不能将印刷文字能力扩展为手写或所有屏幕读取。
 
+- [TapXR](../hardware/tapxr.md) — **能力候选 · 非已采用** / 同类敲击识别腕带的惯性输入候选：ST的LSM6DSOX惯性感知与嵌入式分类能力可作为敲击事件和腕部运动输入的候选，但它不自动完成TapXR的光学融合与全部手指组合识别。需要验证安装、时序、表面差异和功耗；未发现品牌点名采用证据，此链接只对应相近新设计的惯性输入层。
+
 ## 来源
 
 - [STM32N6 series](<https://www.st.com/en/microcontrollers-microprocessors/stm32n6-series.html>)：支持微控制器、Neural-ART、视觉接口及边缘 AI 开发工具。

@@ -1,0 +1,450 @@
+{
+  "id": "makeblock-mbot2",
+  "name": "Makeblock mBot2",
+  "brand": "Makeblock",
+  "category": "education",
+  "audience": "consumer",
+  "tagline": "让语音识别结果驱动可编程机器人",
+  "officialUrl": "https://www.makeblock.com/products/buy-mbot2",
+  "statusEvidence": "官方单机器人页有购买入口并说明两工作日发货、当前直送美国本土；本条不是学校六台组合，mBot Neo旧名称与同款扩展套装不重复计数。",
+  "regions": [
+    "美国本土官方直送"
+  ],
+  "price": {
+    "text": "单机器人官网 US$149.99",
+    "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "官方课程使用内置麦克风进行语音识别，将较重识别计算交给云服务；也可配合mBlock与电脑摄像头训练图像分类后驱动机器人。巡线避障不单独算AI。",
+    "dependency": "需要兼容电脑或移动应用和学习配置；语音识别需网络，视觉课程通常使用外部摄像头或另购AI Camera，基础套装不默认含视觉模块。"
+  },
+  "highlights": [
+    "让语音识别结果驱动可编程机器人",
+    "完整家庭STEM套件而非裸开发板",
+    "学习软件与实体动作形成反馈"
+  ],
+  "analysis": {
+    "demand": "需求假设：家庭学习者希望通过看得见的动作理解语音识别和分类结果，而不仅在屏幕上拖动积木。应观察孩子是否理解数据、判断与行动之间的关系，不能只用机器人完成任务来代表学习。",
+    "userProfile": "画像推断：愿意陪同搭建、设置软件并共同完成项目的亲子家庭较匹配。它需要学习活动和稳定桌面空间，若购买者只希望开箱自动陪玩，则编程配置和故障排查可能成为持续使用门槛。",
+    "competition": "竞争判断：编程机器人、积木套件和免费浏览器机器学习课程都有替代，实体反馈是主要区别。课程数量多不等于家庭能持续使用，家长投入、语言支持和项目难度梯度可能更影响选择。",
+    "supplyChain": "供应链推断：金属构件、电机、传感器和可拆线缆让产品可扩展，也增加零件遗失与接错的可能。官方未披露完整工厂和物料成本；课程维护、备件和不同套装清晰标识都是交付环节。",
+    "technology": "官方课程明确语音识别可交给云服务，机器学习项目可结合电脑摄像头。技术判断应区分外部推理与本机控制，不能把全部感知都画在机器人上，也不能将固定阈值避障当成机器学习。",
+    "aesthetics": "审美判断：外露金属框架和模块接口突出可搭建工具属性，双眼式超声波部件增加亲和感。线缆整理、锐边处理与孩子拿取方式影响真实体验，整洁样机照片不能反映组装后的状态。",
+    "risks": "风险判断：小零件、运动机构和电池需要按年龄与说明使用，网络和账户变化可能影响语音课程。AI Camera等扩展件并非基础订单标配，购买时应按具体项目核对，不保证教育成果。",
+    "opportunity": "市场观察：可以通过四周家庭项目记录评估持续价值，包括独立完成步骤、求助频率和失败后的重试意愿。把家长时间计入成本，区分可玩的机器人和真正帮助理解AI流程的学习工具。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "学习软件与实体动作形成反馈形成具体使用场景；本轮没有销量与市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "实体套件",
+      "detail": "金属底盘、电机和传感模块构成机器人。",
+      "evidence": "official"
+    },
+    {
+      "name": "学习输入",
+      "detail": "麦克风或外部摄像头收集学习输入。",
+      "evidence": "official"
+    },
+    {
+      "name": "识别学习",
+      "detail": "mBlock与云语音或外部模型处理。",
+      "evidence": "official"
+    },
+    {
+      "name": "动作反馈",
+      "detail": "程序将识别结果映射到电机和显示。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "mBot2官方单机购买页",
+      "url": "https://www.makeblock.com/products/buy-mbot2",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "audience"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "mBot2官方课后课程指南",
+      "url": "https://res-us.makeblock.com/doc/course/mBot2/After-school%20program%20guide%20for%20mBot2.pdf",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。"
+    },
+    {
+      "title": "mBot2官方能力与扩展区分",
+      "url": "https://www.makeblock.com/pages/mbot2-coding-robot",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "status": "on_sale",
+  "saleMode": "retail",
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+  },
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "mBot2官方单机购买页",
+        "url": "https://www.makeblock.com/products/buy-mbot2",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s2",
+        "title": "mBot2官方课后课程指南",
+        "url": "https://res-us.makeblock.com/doc/course/mBot2/After-school%20program%20guide%20for%20mBot2.pdf",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。"
+      },
+      {
+        "id": "s3",
+        "title": "mBot2官方能力与扩展区分",
+        "url": "https://www.makeblock.com/pages/mbot2-coding-robot",
+        "note": "沿用现有目录2026-11-04已核验资料；支持范围：已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "mBot2 让学习者把语音或图像识别结果映射为实体动作，核心任务是理解输入、判断和执行之间的关系。机器人成功行走只是学习活动的结果之一，不能据此证明孩子理解了机器学习，也不能把普通巡线直接计为 AI 学习。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "实体反馈可能让抽象分类更容易讨论，但搭建、连接和调试也会占用学习时间。家庭是否需要这套硬件，取决于动作反馈能否增加探索和解释，而不是仅让屏幕程序变得热闹；成人协助成本应同时纳入需求判断。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可要求学习者解释识别错误为何导致错误动作，再更换背景或语句观察其是否愿意调整输入。记录自主修改、求助及重试，而不只打勾任务完成，才能判断实体机器人是否帮助理解模型边界和程序逻辑。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "较匹配愿意共同搭建、设置软件并开展连续项目的亲子家庭，以及有耐心排查连接问题的个人学习者。若购买者期待开箱自动陪玩，编程和外部终端依赖会形成明显落差，需要在购买前明确它是学习工具。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "具备稳定电脑、桌面空间和成人支持的家庭更容易完成完整课程，移动设备为主的家庭则需先核对兼容。孩子对机械组装和代码的兴趣可能不同，应分别观察，不能以喜欢机器人外形推定愿意长期编程。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "画像验证应让家庭从安装软件开始独立完成一个项目，记录在哪一步停下及需要什么帮助。随后观察没有成人提示时是否再次启动，区分硬件搭建吸引力、课程理解困难和终端配置门槛，避免笼统归为孩子没兴趣。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "mBot2 面对编程积木、轮式机器人及免费浏览器机器学习课程，实体动作是主要区别。比较重点应是同一学习目标所需时间、可解释性和扩展成本，而不是套件传感器数量或课程总数，因为家庭未必能用到全部资源。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "金属结构和模块化接口提供可见的工程感，但也增加零件管理和接线步骤。它与少组装的 Codey Rocky 形成不同入门路径，不能简单按功能多寡排序；竞争优势取决于用户是否愿意把机械过程也作为学习的一部分。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "可用相同图像分类任务比较屏幕动画与 mBot2 实体执行，观察学习者是否更能解释未知样本失败。还需记录组装和配置时间，把课程之外的支持负担纳入比较，避免只展示最顺畅的一次课堂演示。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能层包括金属底盘、电机和传感模块，麦克风或外部摄像输入，mBlock 与云端识别，以及程序到动作的映射。基础套装不应被画成默认自带视觉模块，外部计算和另购扩展需要在系统图及采购清单中明确。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "制造约束是可拆线缆、连接器、电机和结构孔位在反复搭建后仍可可靠使用。交付还包括备件、软件工具和不同套装标识，若课程要求的配件不清，用户可能购买本体后才发现无法完成计划项目，增加售后负担。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "Seeed 可作为可编程硬件工程与制造候选，SIIX 可支持控制板及电子组装评估。两者没有 mBot2 点名制造证据；教材、mBlock 生态和扩展兼容不能从电路制造能力推定，需要另外明确学习软件与内容责任。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "官方课程明确语音识别可交给云服务，图像分类可利用电脑摄像头和学习软件，本机负责相应控制与动作。固定阈值避障和巡线是控制逻辑，不应仅因机器人可以自主运行就被称为机器学习或通用视觉理解。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "技术难点不仅是识别准确，还包括学习者能否看见数据、预测和动作之间的因果关系。外部模型失败、连接中断和控制程序错误可能呈现相同的不动现象，需要让调试信息区分这些层次，避免儿童只能反复重启。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证应分别测试训练外样本、云语音断网、终端连接和电机执行，并要求学习者定位失败环节。还需核对基础订单与 AI Camera 等扩展的区别，不能用装有额外配件的展示方案代表所有购买者开箱即得的能力。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "外露金属框架、模块接口和双眼式超声波部件使 mBot2 同时具备工具感与亲和感。它的审美来自可观察的结构和自建成果，而非隐藏机械部分；线缆和装配状态因此也是体验的一部分，不能只看整洁样机照片。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "对初学者，接口可辨识和拿取舒适比复杂装饰更重要，搭建成功后的整洁感也可能影响继续探索。结构过度开放会增加零件散落和接线混乱，过度封闭又削弱学习价值，设计需要在可见性与操作负担之间取舍。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证应观察真实搭建、搬运和收纳，记录孩子如何辨认模块、整理线缆及恢复上次项目。还应检查成人是否需要反复解释接口方向，避免把工程风格当作天然易学，或用外观友好掩盖实际操作困难。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "风险包括小零件和运动机构的使用条件、网络及账户变化对课程的影响，以及扩展件被误认为标配。教育效果需要独立验证，厂商课程和能力描述只能证明可开展某些活动，不能保证孩子自主学习或获得特定成绩。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "若家庭把大量时间花在连接和配置而非探索，产品可能被当作一次性项目后闲置。软件与硬件生命周期不同也会产生兼容风险，尤其在更换电脑或系统后，原有课程可能需要重新设置，因此长期支持比开箱功能更重要。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证应从全新账户和不同兼容终端重新完成课程，记录成人帮助和失败恢复步骤。还需检查配件清单与项目要求是否一致，区分学习难度与环境故障，不把演示成功率当作所有家庭的实际可用性。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会在于把识别错误和调试过程设计成可理解的学习活动，让实体动作服务概念理解。新项目可以优先提供少量完整、低配置摩擦的任务，而不是增加更多传感器，帮助家庭从遥控逐步走向数据与模型探索。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会成立需要孩子在失败后愿意重试并能解释修改原因，同时家长支持时间可接受。如果实体机器人只增加娱乐而未改善理解，免费屏幕课程可能更合适；商业价值应建立在明确学习增量和持续使用上。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可用四周家庭项目记录比较独立步骤、解释能力和重试意愿，再优化最常中断的配置环节。待基础项目形成可重复体验后扩展视觉配件，避免把硬件扩展速度当成课程质量或家庭需求增长的证明。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "seeed-studio",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "可编程控制硬件与小批导入",
+        "rationale": "Seeed 的硬件工程及制造服务可支持类似 mBot2 的可编程控制系统和接口验证，但课程、mBlock 兼容与学习效果需另行负责；没有点名制造证据，本条仅作为工程能力候选。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "siix",
+        "role": "pcb",
+        "relationship": "candidate",
+        "component": "可拆装控制板与电子制造",
+        "rationale": "SIIX 的电子组装能力可用于评估控制板、连接器及功能测试，但反复搭建耐久和教育软件不由普通 PCBA 服务自动覆盖；未发现 mBot2 实际供货披露，保持候选而非代工认定。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "embodied-ai-learning",
+      "needName": "通过实体机器人学习编程与识别",
+      "difference": "Makeblock mBot2 的区别在于具体实现与使用条件：官方课程明确语音识别可交给云服务，图像分类可利用电脑摄像头和学习软件，本机负责相应控制与动作。固定阈值避障和巡线是控制逻辑，不应仅因机器人可以自主运行就被称为机器学习或通用视觉理解。金属结构和模块化接口提供可见的工程感，但也增加零件管理和接线步骤。它与少组装的 Codey Rocky 形成不同入门路径，不能简单按功能多寡排序；竞争优势取决于用户是否愿意把机械过程也作为学习的一部分。",
+      "comparisonBasis": "mBot2 面对编程积木、轮式机器人及免费浏览器机器学习课程，实体动作是主要区别。比较重点应是同一学习目标所需时间、可解释性和扩展成本，而不是套件传感器数量或课程总数，因为家庭未必能用到全部资源。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/makeblock-mbot2/product.jpg",
+      "sourceUrl": "https://www.makeblock.com/products/buy-mbot2",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0070/5901/3716/files/P1010132_mBot2.webp?v=1766999460",
+      "caption": "Makeblock mBot2 · 官方产品图",
+      "alt": "Makeblock mBot2官方外观产品图",
+      "credit": "Makeblock · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 67129,
+      "sha256": "f1c48b4f6686dfcca598c1c858d537b645a822ae4686b512dbf97a3f3620963d"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/makeblock-mbot2/reference.jpg",
+      "sourceUrl": "https://www.makeblock.com/products/buy-mbot2",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0070/5901/3716/files/Step2__Play.jpg?v=1731391578&width=2048",
+      "caption": "Makeblock mBot2 · 官方参考图",
+      "alt": "Makeblock mBot2官方场景或外观角度参考",
+      "credit": "Makeblock · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 99067,
+      "sha256": "21e8b981e736f32d6336928379fc95cb4a60b695282a474c3538d7c9e5ab6e7f"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/makeblock-mbot2/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Makeblock mBot2 的AI结构示意；内部布局为推断，不是实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/makeblock-mbot2.txt",
+      "referencePaths": [
+        "assets/hardware/makeblock-mbot2/product.jpg",
+        "assets/hardware/makeblock-mbot2/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1698002,
+      "sha256": "5746b07bf1d8f52ccd111233d7d44324f0d77a447e186a54ed5019c22e0befde"
+    }
+  ],
+  "mediaNotes": [
+    "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+  ]
+}

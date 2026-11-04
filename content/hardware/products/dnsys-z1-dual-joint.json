@@ -1,0 +1,441 @@
+{
+  "id": "dnsys-z1-dual-joint",
+  "name": "DNSYS Z1 Dual Joint",
+  "brand": "DNSYS",
+  "category": "mobility",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "tagline": "将动力执行放在膝部的双腿户外助力装置",
+  "officialUrl": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+  "status": "on_sale",
+  "statusEvidence": "核查日官方商品数据Z1 Dual Joint / Basic / Carbon black变体available=true，US$1,299；页面有Add to Cart及现货说明。明确欧盟及美洲可发，亚太文字存在地区及批次差异，不能视作全球现货。",
+  "regions": [
+    "欧盟",
+    "美洲（按配送地址确认）"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮未核实中国大陆官方零售与售后渠道。页面亚太交期信息有不同批次表述，跨境购买须另确认目的地与版本。"
+  },
+  "price": {
+    "text": "官方标准双膝版US$1,299",
+    "note": "选定Basic标准版；不含X1髋部组合，不套用Pro价格或滑雪能力。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "DNNAS Smart Propulsion结合多维运动传感与深度神经网络，识别运动意图并调整膝部助力。",
+    "dependency": "依赖膝部电机、支撑结构与电池；使用者须可独立行走、抬腿和保持平衡。标准版不包含Pro专属滑雪模式。"
+  },
+  "highlights": [
+    "膝部执行与大腿、小腿接触",
+    "DNNAS神经网络助力控制",
+    "标准版与Pro功能明确区分",
+    "非医疗消费助力"
+  ],
+  "analysis": {
+    "demand": "案头需求是户外行走时对膝关节动作施加有节奏的机械辅助。与腰髋装置相比，接触位置和屈伸体验不同；能否减少长下坡的不适不能由电机参数推出，更不能作医疗结论。",
+    "userProfile": "潜在人群是能独立行走和稳定控制身体、常有坡道旅行或徒步的人。裤装、腿围及膝部对位影响实际体验；需要先验证穿着和活动范围，不能以高龄或膝痛直接划定适用用户。",
+    "competition": "它与髋部外骨骼有共同的步行需求，但执行关节、绑缚位置和承力路径不同。本轮保留这个明确技术路线代表，不再添加同装置的Pro、配色或X1组合来增加产品数量。",
+    "supplyChain": "膝部机电总成需和大腿、小腿支撑配合，电池、传感与控制还受运动冲击和接触压力限制。具体工厂未披露；候选电驱厂仅代表能力匹配，不能写成DNSYS已使用某家电机。",
+    "technology": "官方把DNNAS描述为多维感知和深度神经网络的控制系统。关键验证对象是屈伸阶段助力方向与使用者意图是否一致，并记录中途停止、转身和上下台阶，不能只看宣传负担降低比例。",
+    "aesthetics": "两条独立膝部支架使穿戴结构清晰，圆角黑色外壳弱化裸露机械感。推断上，膝侧体积可能影响狭窄通道、坐姿和裤装；绑带是否滑移比灯光效果更决定日常接受度。",
+    "risks": "同一商品页混有标准版、Pro与髋膝套装，图片和功能容易串用。必须按SKU确认；此外个人平衡、助力中断与错误对位风险需要试穿记录，不能把消费助力等同于康复支具。",
+    "opportunity": "可验证机会是对有坡道路线的人提供标准化试穿和适配说明。用同一参与者比较无装置、膝部与髋部方案，记录穿脱、屈伸干涉、信任和携带意愿，而非凭模型评分预测胜出者。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "膝部消费助力仍需建立适配与安全体验，已有髋部和髋膝竞品；实际体验差异比热度更重要。"
+  },
+  "architecture": [
+    {
+      "name": "接触支撑",
+      "detail": "两腿的大腿与小腿接触结构保持膝部执行位置。",
+      "evidence": "official"
+    },
+    {
+      "name": "膝部执行",
+      "detail": "双侧膝部驱动总成施加机械辅助；标准版不作为滑雪设备描述。",
+      "evidence": "official"
+    },
+    {
+      "name": "DNNAS控制",
+      "detail": "多维感知与深度神经网络调节运动助力。",
+      "evidence": "official"
+    },
+    {
+      "name": "电池与操作",
+      "detail": "电池供电与本机交互维持运动过程。",
+      "evidence": "official"
+    },
+    {
+      "name": "内部概念",
+      "detail": "未披露的电路及传动布局仅作功能示意，非拆机。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DNSYS Z1标准版商品页",
+      "url": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "technology",
+        "availability"
+      ],
+      "note": "实际打开商品页并读取公开商品JSON；标准黑色Basic现售，分清Pro和X1组合。"
+    },
+    {
+      "title": "DNSYS Z1官方产品说明",
+      "url": "https://dnsys.ai/pages/dnsys-z1-exoskeleton",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "usage"
+      ],
+      "note": "实际打开；DNNAS、膝部助力及使用者能力限制，区域交付文字需结合当前SKU。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "DNSYS Z1标准版商品页",
+        "url": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+        "note": "实际打开商品页并读取公开商品JSON；标准黑色Basic现售，分清Pro和X1组合。"
+      },
+      {
+        "id": "s2",
+        "title": "DNSYS Z1官方产品说明",
+        "url": "https://dnsys.ai/pages/dnsys-z1-exoskeleton",
+        "note": "实际打开；DNNAS、膝部助力及使用者能力限制，区域交付文字需结合当前SKU。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "事实：任务边界",
+          "text": "Z1 Dual Joint标准版在两侧膝部布置动力单元，并通过大腿和小腿接触结构传力；官方把它用于日常行走、坡道和徒步等消费场景。它仍要求使用者能够独立走路和维持身体平衡，因此任务是辅助原有动作，不是替代人的稳定控制能力。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：真实需求",
+          "text": "对频繁遇到上下坡的人，膝部执行路径可能比腰髋辅助更贴近某些动作的体感，但这种可能性不能直接写成减痛或保护关节的效果。值得验证的是使用者在哪类路段愿意穿、在哪类姿势会受干扰，以及是否愿意承担双腿装置的准备负担。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：任务完成",
+          "text": "调研应先问参与者最想改善的是爬升、下行、站起还是长距离行走，再在厂商允许的环境内逐项观察。把每种任务的反馈分别保存，避免用一次平地体验概括全部户外价值，也不要求存在身体不适的人用试验代替专业评估。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "事实：使用条件",
+          "text": "官方说明的穿戴点分布在膝部附近和大腿、小腿后侧，动作输出通过这些支撑面传递。使用条件不仅是腿围合适，还包括能够主动抬腿、行走和平衡；商品页面中的老年或膝部宣传形象不能自动构成某类疾病人群的适用证明。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：人群筛选",
+          "text": "潜在人群可按坡道频率、已有装备和是否需要频繁坐下划分。经常长途摄影的人可能在意背负状态下的支持，而城市出行者更在意上车和椅子旁是否磕碰；这些不同任务比笼统称为户外爱好者更有助于判断是否需要膝侧执行机构。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：参与者差异",
+          "text": "招募时记录真实腿围、常穿裤装和原有运动习惯，让参与者自行完成穿戴并指出左右或松紧是否难以分辨。访谈应问是否因旁人注视而不愿使用、多久需要重新调整绑带，以及从徒步转换到坐姿休息时是否想立即拆下。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "事实：方案范围",
+          "text": "标准双膝版、Pro双膝版和附加X1的髋膝组合在同一商店出现，但官方明确滑雪功能只属于Pro且还有启用条件。本目录只保留标准双膝版，核心区分是膝部执行路线，不把配色、材料或将两个现有设备打包当作新增独立场景。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：替代关系",
+          "text": "与髋部装置相比，双膝方案改变执行位置和腿部包覆范围；与登山杖相比，它不依靠双手传力，但需要电池与贴身调整。哪一种更适合某条路线要看使用者的动作和背负，不能只依据厂家对等效减重或动力的不同宣传口径排序。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：比较方法",
+          "text": "比较可在同一参与者、同一安全路段和同等背负条件下分别体验几种路线，记录穿脱、关节对位、走动声音和中途调整。对无法统一的参数应保留说明，尤其不把Pro或髋膝组合的演示视频拿来证明标准版达到同样体验。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "事实：功能组成",
+          "text": "公开结构包括双膝动力总成、上下支撑臂、软接触垫、运动传感与电池；官方产品说明还列出扭矩、位置和力等多传感输入。其完整电路、量产工厂和上游物料清单没有披露，视觉上的封装相似不能支持和其他品牌共用供应商的推断。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：交付约束",
+          "text": "工程约束集中在执行轴与人体运动的对位，以及长期屈伸时结构、软垫和连接件共同承受的重复载荷。可更换电池也需要兼顾运动冲击和误装，单独采购一个小电机并不能形成可穿戴系统，验证必须覆盖传力路径与整机故障状态。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：选型缺口",
+          "text": "可把maxon作为机电驱动工程能力候选、Grepow作为动力电池候选，但需先给出占用空间、真实工作循环和允许的热噪声范围。品牌自有动力名称不等于公开制造来源，若无法获得接口和载荷资料，就应停留在能力目录而不编造BOM。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "事实：AI机制",
+          "text": "官方将DNNAS描述为结合多维传感信息的学习型运动控制，产品页明确关联深度神经网络，用来判断运动状态并调整辅助。这里的AI机制在于感知到助力决策的映射；电池快换、普通机械支撑和单独的电机输出不作为额外AI功能叠加。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：系统边界",
+          "text": "膝部屈伸的相位和使用意图如果不同步，用户可能感到阻碍而非帮助，因此算法与机械适配不能分开评估。公开资料没有给出可独立复核的各动作误判率、控制边界或训练人群分布，不能把训练时长和体验人数转成可靠性保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：算法与体验",
+          "text": "实测方案应从开始迈步、停住、站起和缓慢屈伸等可控动作入手，记录被识别状态与使用者预期的差别，再结合品牌允许条件扩展坡道。通过逐动作日志判断问题来自绑缚、延迟还是模式切换，本轮没有采集这些数据，暂不下性能结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "事实：外观与交互",
+          "text": "官方标准版主图为两条分离的黑色膝侧装置，椭圆动力外壳与上下弯曲支撑臂构成主要轮廓。商品图库也包含明显写有Pro的图片，本次媒体核验将其排除，保留无Pro标记的标准主图与可辨认的膝部穿戴场景。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：使用中的形态",
+          "text": "两条独立单元让产品看起来比全身机甲克制，但膝外侧厚度和支撑垫会进入坐下、跨步或狭窄通道的活动范围。外壳灯带提供状态表达的可能，也可能在夜间过于显眼；仅凭宣传照片不能判断其操作可读性与穿戴低调程度。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：日常接受度",
+          "text": "视觉与体验验证应覆盖有手套时找开关、辨认左右、收纳两条装置和取放电池。让参与者说明哪些部件看上去可按压、哪些实际上不能碰，并记录衣物是否被结构挂住；审美反馈应与这些具体动作结合，避免仅做外形喜好投票。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "事实：已知限制",
+          "text": "标准版不支持商品页展示的Pro滑雪模式，官方也不是把本品当作医疗康复设备销售。欧盟、美洲和亚太的交付文字存在区域及批次差异；本条只据当前标准变体和明确配送范围记录现售，没有将所有目的地都标成马上可发。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：失效影响",
+          "text": "用户最容易误读的是把等效减重、膝部压力或健康宣传数字当成自己必然获得的效果，以及将不同版本图片视为同一配置。更具体的使用风险还包括接触面滑动、屈伸干涉和助力突然变化，它们的发生率本轮没有实测证据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：风险处理",
+          "text": "采购前应逐项核对标准版SKU、允许运动、目的地服务和电池替换渠道；试穿时保留随时停止并由工作人员协助卸下的流程。若体验者描述疼痛或明显不稳定，应记录并停止该动作，不用继续测试来证明厂商的关节支持宣传。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断：可尝试切口",
+          "text": "值得尝试的切口是围绕膝部与髋部执行差异提供真实任务说明，让用户知道哪类动作需要哪种传力路径。若多数抱怨来自对位和绑带，而非动力不足，改善穿戴指引与接触件可能比推出另一个高功率型号更有意义；这仍是分析假设。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：商业边界",
+          "text": "商业判断需要把设备交付和适配服务一起考虑。双腿装置的试穿、清洁、软垫磨损和返修可能影响用户愿付费用，跨境买到硬件也不意味着国内有人能做维护；本轮没有代理访谈或售后成本数据，不能据官网价格估计利润空间。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：下一步调研",
+          "text": "下一步可以邀请有固定坡道活动的人连续体验两周，比较第一次与多次穿戴后的耗时、调整次数和再用意愿。询问愿意为什么服务付钱、为何某天没有带出门，并用实际记录决定是否继续研究，不用统一创新评分预测产品成功。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "maxon",
+        "role": "motion",
+        "relationship": "candidate",
+        "component": "膝部驱动与反馈工程候选",
+        "rationale": "双膝助力需要电机、传动、反馈和控制形成系统，maxon公开具有相关机电整合能力。是否符合膝侧空间、负载、安全与噪声限制仍须专项工程验证，本轮没有证据显示DNSYS采用maxon，不能把候选关系写成供应事实。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "grepow",
+        "role": "power",
+        "relationship": "candidate",
+        "component": "可更换动力电池候选",
+        "rationale": "Grepow公开机器人和定制电池方向，可供膝部装置的空间与运动负载方案研究。快换连接、保护、电压和温升必须与整机验证，现有资料没有DNSYS点名采用或兼容证据，因此这里只表达能力筛选而不推测实际电芯品牌。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "adaptive-knee-walking-assistance",
+      "needName": "主动行走与屈伸中的膝部助力",
+      "difference": "相较腰髋驱动，这一方案把执行机构放在膝侧，通过大腿和小腿接触面传递辅助，改变了执行关节、身体固定位置及坐立屈伸的体验。它不是更高功率的同款髋部版本，也不是只记录运动的手环。局限在双腿贴身适配、膝部对位、额外重量与使用者原有平衡能力，标准版还不覆盖Pro滑雪功能。",
+      "comparisonBasis": "与髋部外骨骼、登山杖及无动力支撑比较执行路径与动作干涉；不按配色和Pro套装拆分场景。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/dnsys-z1-dual-joint/product.png",
+      "sourceUrl": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0573/1545/9160/files/z1-carbon.png?v=1789873711&width=1600",
+      "caption": "DNSYS Z1 Dual Joint 官方产品图",
+      "alt": "DNSYS Z1 Dual Joint 官方产品图",
+      "credit": "DNSYS · 官方资料",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 783069,
+      "sha256": "034382161ac62bc99d218a8fb5f01f57e5dc98dd3d6ff9c5843b93ddf882c0c2"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/dnsys-z1-dual-joint/reference.png",
+      "sourceUrl": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0573/1545/9160/files/Z1-_3.png?v=1785840773&width=1600",
+      "caption": "DNSYS Z1 Dual Joint 官方外观与使用参考图（含厂商助力宣传，非本站实测）",
+      "alt": "DNSYS Z1 Dual Joint 官方外观与使用参考图（含厂商助力宣传，非本站实测）",
+      "credit": "DNSYS · 官方资料",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 742382,
+      "sha256": "4f5aa6804c2a3b8f9478ccec301dd4bc4d73d344a81761b17e61bac2b70d1a75"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/dnsys-z1-dual-joint/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "DNSYS Z1 Dual Joint 功能模块概念爆炸示意，未知内部为抽象体块，不代表真实拆机或物料布局。",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/dnsys-z1-dual-joint.txt",
+      "referencePaths": [
+        "assets/hardware/dnsys-z1-dual-joint/product.png",
+        "assets/hardware/dnsys-z1-dual-joint/reference.png"
+      ],
+      "verified": true,
+      "bytes": 1455137,
+      "sha256": "d97f8e31420e192afb024ee1b0809c695b0b3696e734e9a9066c7644f578aa80"
+    }
+  ],
+  "mediaNotes": [
+    "以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。",
+    "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
+  ]
+}

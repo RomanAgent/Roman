@@ -1,0 +1,426 @@
+{
+  "id": "ray-ban-meta-gen-2",
+  "name": "Ray-Ban Meta Wayfarer（Gen 2）",
+  "brand": "Ray-Ban × Meta",
+  "category": "glasses",
+  "tagline": "把拍摄、通话和视觉问答装进日常眼镜",
+  "officialUrl": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+  "status": "on_sale",
+  "statusEvidence": "核查时美国官方 SKU 页显示 $379、Add to bag 和配送入口；页面同时引导选购 Gen 3，故确认旧款仍列售，不等同所有配色均有库存。",
+  "regions": [
+    "美国",
+    "加拿大",
+    "英国",
+    "澳大利亚",
+    "欧洲部分国家"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "已核查页面未提供中国大陆官方销售与完整 Meta AI 服务保障。支持中文功能不等于大陆渠道已开放；跨境购买的激活、服务与保修需单独确认。"
+  },
+  "price": {
+    "text": "US$379 起",
+    "note": "美国官网 Wayfarer Gen 2 所见价格；镜片、度数、税费和地区会改变总价，不与 Gen 3 或 Headliner 的价格混用。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "视觉/语音输入结合 Meta AI 问答、提醒及翻译；摄影与蓝牙音频本身不等同 AI。",
+    "dependency": "依赖兼容手机、Meta AI App、账户及适用地区服务；各 AI 功能的联网和语言条件以当地支持页为准。"
+  },
+  "highlights": [
+    "12MP 摄像头与 3K 视频",
+    "开放式音频，无镜内显示",
+    "官方典型使用续航最长 8 小时",
+    "保留在售，适合作为代际比较样本"
+  ],
+  "analysis": {
+    "demand": "需求假设：拍孩子、做饭或步行时，拿手机会打断动作。第一视角采集能降低启动成本，但真正值得验证的是用户是否持续拍摄与调用问答，而不是初次体验的新鲜感。",
+    "userProfile": "画像推断：已经日常戴眼镜、经常旅行或创作短内容的人更容易接受这一形态；只偶尔需要 AI 问答的人可能继续使用手机。应区分配镜刚需与为了技术额外戴镜两类用户。",
+    "competition": "案头判断：与同品牌 Gen 3、Rokid Style、手机和耳机争夺同一使用时刻，属于拥挤方向。品牌、配镜和售后渠道构成门槛；此判断没有销量统计、用户访谈或份额证据。",
+    "supplyChain": "官方能确认 Ray-Ban 与 Meta 的产品协作及 EssilorLuxottica 保修角色；本次未取得整机代工厂、摄像头供应商或成本资料。推断难点在镜腿集成、装配一致性与配镜售后。",
+    "technology": "官方披露摄像头、五麦克风、蓝牙、Wi-Fi 与存储；生成式能力通过 Meta AI 呈现。端侧降噪与云端问答如何细分并未完整公开，不能由功能列表反推出精确芯片或模型部署。",
+    "aesthetics": "官网图示延续 Wayfarer 的日常眼镜比例，能减少明显的设备感；镜腿体积和摄像头仍会影响他人的感知。外观判断来自图片，鼻梁压力、滑落和长时佩戴舒适度尚未实测。",
+    "risks": "主要风险是拍摄对旁人的影响、不同地区 AI 功能差异，以及照片导出和账号服务的长期依赖。语音回答仍需核验；有摄像头并不意味着设备适合持续记录所有工作或生活场景。",
+    "opportunity": "市场差异在于第一视角输入、日常框型和成熟配镜渠道共同降低使用门槛。尚待验证的购买理由是用户是否频繁调用这些能力，以及Gen 2相对较低价格能否覆盖旧代设备的取舍。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "日常相机 AI 眼镜已有多品牌直接竞品和手机替代；这是案头竞争判断，不是市场份额结论。"
+  },
+  "architecture": [
+    {
+      "name": "环境输入",
+      "detail": "12MP 摄像头与五麦克风采集画面、语音；以下为功能架构，非拆机图。",
+      "evidence": "official"
+    },
+    {
+      "name": "设备处理",
+      "detail": "存储照片视频并响应按键、触控；具体算力分工未完整披露。",
+      "evidence": "official"
+    },
+    {
+      "name": "连接与应用",
+      "detail": "蓝牙、Wi-Fi 与 Meta AI App 管理、同步内容。",
+      "evidence": "official"
+    },
+    {
+      "name": "AI 服务",
+      "detail": "Meta AI 提供问答、提醒及适用地区翻译；精确端云路由不公开。",
+      "evidence": "official"
+    },
+    {
+      "name": "反馈与复核",
+      "detail": "通过开放式音频输出；内容在手机端查看、分享和人工核验。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Meta Store · Wayfarer Gen 2 SKU",
+      "url": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开，包含价格、加入购物袋、规格与 App 说明；未实际下单。"
+    },
+    {
+      "title": "Meta Store · Ray-Ban Meta 产品比较",
+      "url": "https://www.meta.com/ai-glasses/ray-ban-meta/",
+      "kind": "official-spec",
+      "supports": [
+        "status",
+        "competition",
+        "technology"
+      ],
+      "note": "已打开，当前并列展示 Gen 2 与 Gen 3；避免跨代混用参数。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Meta Store · Wayfarer Gen 2 SKU",
+        "url": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology,architecture。已打开，包含价格、加入购物袋、规格与 App 说明；未实际下单。"
+      },
+      {
+        "id": "s2",
+        "title": "Meta Store · Ray-Ban Meta 产品比较",
+        "url": "https://www.meta.com/ai-glasses/ray-ban-meta/",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,competition,technology。已打开，当前并列展示 Gen 2 与 Gen 3；避免跨代混用参数。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜日常框型中的采集入口",
+          "text": "本型号把相机、开放式音频和 Meta AI 放进 Wayfarer 眼镜，并通过兼容手机与应用使用相关功能。它没有镜内显示，因此需求是减少拿手机拍摄、通话或提问的动作，而不是在眼前阅读字幕；摄影与蓝牙播放本身也应和真正的模型理解分开评价。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜双手忙碌时的价值",
+          "text": "做饭、陪伴家人或短途步行时，取手机可能打断正在进行的事情，第一视角拍摄有机会保留这些瞬间。但用户仍要决定是否值得记录并在之后整理，拍得更多不一定更有用；购买理由应来自反复发生的任务，而不是第一次语音拍照带来的新鲜感。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜从触发到保留内容",
+          "text": "可让用户在相同活动中使用眼镜和手机，比较错过片段、操作次数、最终保存内容与整理时间。还应记录何时用户宁愿拿手机确认取景，以及语音失败后如何重试；只有完整流程更顺畅，才能说明眼镜位置产生价值，当前案头资料不构成实机效果证明。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜已有戴镜习惯的人",
+          "text": "本来就日常戴眼镜或太阳镜的人，可能更容易把电子功能融入现有习惯，而不是额外承担一种穿戴设备。仍需区分处方用户、仅户外佩戴者和为了技术首次戴镜的人，因为三者的购买成本与使用频率不同，不能用同一个创作者画像覆盖所有潜在用户。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜旧代购买与升级人群",
+          "text": "目前旧代仍列售，首次购买者可能把价格与核心任务放在首位，已有设备的人则更关注是否值得升级。两类用户对续航、框型和服务的评价标准不同，应分别研究；不能因为新一代上市就认定旧代没有价值，也不能把较低起价当作所有配置都更划算。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜生活场景与权限习惯",
+          "text": "研究应观察用户在家、通勤和社交场合是否愿意佩戴并开启采集，记录主动关闭相机或助手的原因。还要测试首次配对、照片导入和权限管理的学习成本，避免只邀请熟悉技术的人体验；持续使用需要功能、佩戴与记录边界同时适合个人习惯。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜同品牌代际竞争",
+          "text": "本型号直接面对仍在同一系列页面展示的新一代，比较重点应是核心任务、交互和实际佩戴，而非只按代次判断。较低价格可能吸引首次用户，但镜片、服务和长期支持也影响选择；目录没有价格弹性或销量研究，不能据在售状态推断旧代仍拥有多大市场。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜手机与耳机的替代",
+          "text": "手机提供可检查的取景和丰富界面，耳机提供熟悉的音频体验，眼镜则把部分功能放在更随手的位置。用户可能仍保留手机和耳机，因此应比较整套使用流程，而不是只数合并了多少功能；如果多数任务仍回到手机完成，额外设备的价值需要更具体解释。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜相同任务与配置",
+          "text": "可比较一次第一视角拍摄、一次通话和一次视觉提问的完成情况，并保持手机、网络与镜片配置一致。不同地区或变色处方配置的价格不能直接对照基础起价，官方最长续航也不能替代同负载测试；当前竞争判断仅为案头分析，不包含份额或用户满意度结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜协作与已知模块",
+          "text": "官方资料能确认眼镜品牌与 Meta 的产品协作，以及相机、多麦克风、无线、存储和音频等功能模块。具体整机工厂、传感器料号及采购价格仍未确认，保修或渠道角色也不能推导成代工关系；目录的结构示意只表达功能，不作为真实拆机或物料证据。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜配镜与电子维护",
+          "text": "镜腿中的电子、铰链和电池要与镜架调整及镜片服务共同工作，售后可能不同于普通眼镜或耳机。应确认配镜、镜架调整和电子故障分别由谁处理，不能从成熟品牌渠道直接推断维修便捷；这些工程与服务约束会影响拥有成本，不能仅看首次购买价格。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜候选模块与未知关系",
+          "text": "高通的相机眼镜平台可作为主控重设计候选，英飞凌麦克风可作为声音输入候选，但当前产品来源未点名二者。评估需要确认热预算、相机与音频接口及服务兼容，不能视为现成替换；尤其不能把旧代或其他眼镜的公开芯片案例自动迁移到本型号。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜手机与服务参与",
+          "text": "本型号通过兼容手机、Meta AI 应用和账户使用视觉或语音问答，功能还受地区与语言条件影响。相机和音频由眼镜采集不代表全部理解在本地完成，端侧处理与云端任务未完整公开；目录不会从硬件功能列表推导精确模型版本或统一离线能力。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜看见与理解之间",
+          "text": "视觉提问需要先取得适合模型的画面，用户视线与相机画面并不完全等同，目标被遮挡或模糊会影响回答。系统应让用户理解取景与答案的不确定性，尤其涉及文字、数字或细小物体时；流畅语音并不能证明模型确实读到了用户想问的内容。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜断连与弱网链路",
+          "text": "应分别测试手机断连、应用后台和网络受限时的拍摄、导入及助手功能，记录失败提示与恢复步骤。再用相同场景重复视觉提问，比较答案是否可由原图核对；这种实验能确定功能边界，当前资料不足以保证所有任务在任何网络或地区都同样可用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜熟悉外形的作用",
+          "text": "Wayfarer 的日常轮廓可能降低设备感，让用户更愿意把它作为眼镜而非专用相机携带。但熟悉外形不代表所有脸型都舒适，较厚镜腿和摄像部件也会改变他人感知；审美分析应与实际佩戴、社交反馈分别进行，不能只依据品牌和照片给出体验结论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜功能状态需要可见",
+          "text": "当设备看起来接近普通眼镜，旁人更可能不清楚何时正在拍摄或处理声音。设计研究应检查指示与操作反馈是否足以解释状态，以及用户是否需要额外沟通；外形低调可以是一种风格选择，却不能直接视为隐私优势或不影响他人的证明。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜镜片与连续佩戴",
+          "text": "试戴应覆盖室内外光线、坐姿交流和走动，记录鼻梁压力、镜腿夹持及用户何时摘下。处方和不同镜片配置需要分别确认，不能用一张太阳镜效果图代表全天体验；官方外观与规格适合初筛，长时间舒适和稳定仍需真实使用验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜旁人和敏感场景",
+          "text": "第一视角相机容易把他人带入记录，会议或私人场所也可能涉及不适合采集的内容。用户需要清楚的开始、停止与删除流程，并理解照片导入后的保存位置；目录不把随手拍的便利解释为所有场景都适合记录，开放式音频也不消除注意力与环境声音问题。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜地区与长期依赖",
+          "text": "账号、应用和服务更新会影响可用功能，海外商品页或中文翻译能力不能证明大陆官方渠道和完整服务开放。购买旧代还应确认后续支持与保修条件，不能只根据页面仍列售推断维护周期；总成本需要包含镜片、配件和可能的跨境服务差异。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜重要答案需回查",
+          "text": "测试应包含识别错误的文字、物体和数字，观察用户能否获得原始画面并发现问题。对于重要信息，应回查来源而不是直接采用语音答案；同时检查服务失效时基础拍摄和音频是否仍可使用，让失败可见且可恢复，而非把所有异常都归为用户操作不当。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜旧代仍可能满足核心任务",
+          "text": "本型号的价值判断不必围绕最新功能，而应看第一视角记录、音频与基本问答是否已经覆盖用户重复任务。若这些任务足够稳定，旧代价格可能有意义；若用户的主要问题是触发、佩戴或电量，则应具体比较新代改善，不能仅凭折扣或代次作结论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜渠道与习惯的组合",
+          "text": "日常框型、配镜和电子服务共同决定使用门槛，任何单一环节都不足以解释购买。研究应观察用户是否愿意把原有眼镜替换为此设备，以及充电和媒体管理是否成为负担；这种组合价值需要真实流程证据，不能把成熟品牌渠道直接等同人工智能硬件需求已成立。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜持续使用的购买理由",
+          "text": "可跟踪数周内拍摄、通话和问答的实际使用、保留内容及失败重试，结合镜片与维护费用判断拥有成本。还应记录何时回到手机或普通耳机，理解替代边界；当前目录提出可检验的购买理由，不以功能清单、品牌或短期尝鲜代替长期需求验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "qualcomm",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "相机、声音与无线协同主平台",
+        "rationale": "本型号包含摄像、多麦克风和手机协同，高通的相机眼镜平台与这类任务组合相关，可作为重设计候选。现有产品来源未明确点名采用，仍需核对代次、热预算、传感器调校及 Meta 服务接口；不能把其他代产品的公开关系直接迁移过来。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "infineon",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "多麦克风声音输入前端",
+        "rationale": "本型号需要多通道声音输入，英飞凌 MEMS 麦克风的匹配与小型化能力可进入前端候选比较。实际声孔、风噪、回声和接口需在镜架中验证，当前没有其供货点名证据；器件指标也不能直接证明本型号的通话或助手识别表现。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "hands-free-camera-voice",
+      "needName": "免手持拍摄与语音查询",
+      "difference": "Gen 2将相机和麦克风固定在日常眼镜上，做饭、抱孩子或步行时可减少取出手机拍摄和发起语音问答的动作。与普通蓝牙眼镜相比，视觉输入让查询能够关联看到的内容；与其他相机AI眼镜则共享核心需求。它没有因外形熟悉就免除拍摄边界和账号依赖，地区语言、导出流程及语音回答误差也限制了手机被替代的程度。",
+      "comparisonBasis": "与手机相机加语音助手、普通蓝牙眼镜及同类相机AI眼镜比较日常免手持任务。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/ray-ban-meta-gen-2/product.webp",
+      "sourceUrl": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+      "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1424958092109664&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1777898936",
+      "caption": "官方 Wayfarer Gen 2 正面斜视图（黑框透明镜片）",
+      "alt": "官方 Wayfarer Gen 2 正面斜视图（黑框透明镜片）",
+      "credit": "Ray-Ban × Meta · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 73554,
+      "sha256": "6394871e9c7c71b0bbd582a978c7416f4868115abb9ac6d0ce7f8d69d23547a9"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/ray-ban-meta-gen-2/reference.webp",
+      "sourceUrl": "https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/",
+      "sourceImageUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=1825608818050904&resize_height=1600&resize_width=1600&transcode_extension=webp&version=1777898936",
+      "caption": "官方 Wayfarer Gen 2 后侧视图",
+      "alt": "官方 Wayfarer Gen 2 后侧视图",
+      "credit": "Ray-Ban × Meta · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 69198,
+      "sha256": "20e51cd7a58efda6968de8de8288f177dcafb6b282e02c37a7494ade3de5eb40"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/ray-ban-meta-gen-2/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Ray-Ban Meta Wayfarer（Gen 2）的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/ray-ban-meta-gen-2.txt",
+      "referencePaths": [
+        "assets/hardware/ray-ban-meta-gen-2/product.webp",
+        "assets/hardware/ray-ban-meta-gen-2/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1595147,
+      "sha256": "b1e5532e5fc8e903446af388c0c1925c5f2d1720261376eb91617ab0237be16e"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+  ]
+}

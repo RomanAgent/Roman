@@ -1,0 +1,426 @@
+{
+  "id": "timekettle-w4-pro",
+  "name": "Timekettle W4 Pro",
+  "brand": "Timekettle / 时空壶",
+  "category": "audio",
+  "tagline": "面向电话、远程会议与面谈的翻译耳机",
+  "officialUrl": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+  "status": "on_sale",
+  "statusEvidence": "2026国际官方商品页有价格、颜色选择、支付与预计配送说明；中国官网W4 Pro页提供指向京东的立即购买入口。确认官方列售，未实际提交订单。",
+  "regions": [
+    "中国大陆",
+    "美国",
+    "日本",
+    "英国",
+    "欧洲及其他官网支持配送地区"
+  ],
+  "china": {
+    "availability": "official",
+    "note": "已打开时空壶中文官网W4 Pro页面，存在立即购买并指向京东。中国配置、App及语言包应以该入口最终SKU为准，不混用国际促销价。"
+  },
+  "price": {
+    "text": "国际站 US$404.10（核查时促销）",
+    "note": "划线价US$449；不是中国售价。国际页面与中文版本需分开确认，税费、优惠及服务方案以当地结算为准。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "语音识别、语义分段、翻译与语音输出，并支持会后AI纪要。",
+    "dependency": "需要Timekettle手机App；在线与下载离线包能力不同，电话和会议兼容范围依系统及软件。完整AI功能不等于耳机独立运行。"
+  },
+  "highlights": [
+    "开放式耳机形态",
+    "面对面、电话和媒体翻译",
+    "可保存文本与导出AI纪要",
+    "中国官网有正式购买入口"
+  ],
+  "analysis": {
+    "demand": "需求假设：跨语言商务沟通需要少停顿、少传递手机，并能会后回查。是否值得购买取决于真实语言组合、环境噪声和对方接受度，而不是支持语言总数或宣传中的最高准确率。",
+    "userProfile": "画像推断：经常接待海外客户、跨境协作或频繁打外语电话的人更匹配。偶发旅游用户可能用手机即可；复杂谈判仍需要能判断原意的人，不能把翻译耳机视为专业口译的无条件替代。",
+    "competition": "案头判断：与手机翻译、普通耳机系统翻译、同品牌W4 Plus及人工口译竞争。用途较专业不代表竞争弱；本次没有销量、用户访谈或语种覆盖成本研究，不能据标价推断支付意愿。",
+    "supplyChain": "官方披露多麦克风与开放式耳机结构，但整机代工、芯片型号和声学供应商不明。推断硬件难点是佩戴与拾音，服务侧难点是多语言质量维护；仅依据总部所在地不能确认生产工厂。",
+    "technology": "官方提供电话、媒体翻译与AI纪要，并说明手机App依赖。页面不同段落的语言和离线包数量存在差异，因此本目录不合并成一个精确总数；在线识别、翻译和纪要也应分开评估。",
+    "aesthetics": "图示观察：开放式挂耳轮廓表达商务沟通工具属性，长时佩戴与不遮挡环境音有明确使用逻辑。审美偏功能导向；双耳分享、眼镜搭配及耳廓贴合仍需试戴，不能据图判断舒适度。",
+    "risks": "翻译延迟、专有名词、口音和多人打断可能影响沟通结果；电话兼容也受平台限制。敏感谈话需确认处理路径，重要金额、日期和承诺应复述核对，不能照搬厂商准确率作为现场保障。",
+    "opportunity": "市场差异在于把多种沟通入口与会后纪要放入同一套耳机流程。尚待验证的购买理由是特定语对与常用通话平台上是否稳定省事，以及每次准备和配对的成本是否低于手机翻译。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "聚焦跨语言沟通任务，但手机、系统翻译和其他耳机均构成替代；为非量化案头分类。"
+  },
+  "architecture": [
+    {
+      "name": "语音采集",
+      "detail": "耳机麦克风采集声音；以下是功能架构而非真实拆机。",
+      "evidence": "official"
+    },
+    {
+      "name": "手机与场景",
+      "detail": "Timekettle App选择面谈、电话或媒体等工作模式。",
+      "evidence": "official"
+    },
+    {
+      "name": "识别与翻译",
+      "detail": "在线语音识别和翻译，部分语对提供下载离线包。",
+      "evidence": "official"
+    },
+    {
+      "name": "同步输出",
+      "detail": "耳机声音与手机文本承接翻译，表现受网络和语对影响。",
+      "evidence": "official"
+    },
+    {
+      "name": "会后整理",
+      "detail": "保存文本、生成和导出AI纪要，用户复核关键信息。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Timekettle · W4 Pro 2026国际商品页",
+      "url": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "regions",
+        "architecture"
+      ],
+      "note": "已打开，价格与配送可见；语言数量在页面不同部分不一致，未拼成确定指标。"
+    },
+    {
+      "title": "时空壶中国官网 · W4 PRO",
+      "url": "https://cn.timekettle.co/pages/w4-pro-ai-interpreter-earbuds",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "china",
+        "technology"
+      ],
+      "note": "已打开，立即购买指向京东；没有把国际售价当国内售价。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Timekettle · W4 Pro 2026国际商品页",
+        "url": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology,regions,architecture。已打开，价格与配送可见；语言数量在页面不同部分不一致，未拼成确定指标。"
+      },
+      {
+        "id": "s2",
+        "title": "时空壶中国官网 · W4 PRO",
+        "url": "https://cn.timekettle.co/pages/w4-pro-ai-interpreter-earbuds",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,china,technology。已打开，立即购买指向京东；没有把国际售价当国内售价。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜多种交流入口的翻译耳机",
+          "text": "本型号以开放式耳机配合手机应用，提供面对面、电话和媒体翻译，并可保存文本和整理纪要。需求是让跨语言沟通少一些停顿与传递手机，同时保留回查内容；它不是耳机独立完成全部计算，在线服务与下载包范围不同，不能把所有模式概括为完全离线。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜沟通顺畅不只看译文",
+          "text": "一次对话需要识别说话、等待语义完整、生成翻译并让对方知道何时继续，任何环节都可能增加停顿。用户购买的可能是更自然的轮次，而不仅是正确句子；价值应以双方能否完成任务判断，不能只比较支持语言总数、演示准确率或单个短句的响应。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜双向任务完成",
+          "text": "可用用户真实语言组合完成询问安排、说明产品或确认问题，比较翻译耳机与手机翻译的停顿、重复和最终理解。加入口音、专有名词和打断，记录双方是否知道当前状态；当前目录没有实机实验，不能从流畅演示推断复杂交流或重要谈判都可无条件替代人工口译。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜重复跨语言交流的人",
+          "text": "经常跨境协作、接待或使用外语电话的个人用户，可能更容易形成稳定使用场景。偶发旅游者可能已有手机足够，熟练双语者又可能只需要辅助，画像应看具体障碍和频率；不能因为设备支持多种语言，就将所有出国或外语学习者视为相同需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜对方的接受同样重要",
+          "text": "翻译工具涉及双方互动，一方愿意使用并不保证对方理解操作或接受录音与语音输出。用户可能需要解释流程、调整发言节奏并确认误译，这些都构成实际成本；画像研究应包括交流对象与环境，而不只测购买者戴耳机是否舒适或对技术是否感兴趣。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜电话与面谈分开研究",
+          "text": "电话和现场交流的声音路径、视线与轮次提示不同，应该分别测试设置和错误恢复。还需覆盖常用手机系统与实际应用，确认用户能否在失败时退回原有沟通方式；当前官方功能范围只能支持初筛，不能将一个模式成功迁移为其他电话或媒体平台都同样可用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜手机翻译的替代边界",
+          "text": "手机界面便于双方查看文字和确认错误，耳机则可能减少传递与持续看屏，二者各有适用情境。竞争分析应看用户是否确实需要免手持听译，以及错误时能否复核；不能因为专用耳机更昂贵或更专业就默认译文更好，也不能忽略手机已经具备的基础能力。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜同类耳机与独立终端",
+          "text": "同类翻译耳机可能共享部分模式，独立终端则减少手机启动依赖但增加设备管理。W4 Pro 的价值应落到其具体佩戴和手机协作流程，不能只用功能名称排列；多人会议与双人交流也应分组，避免把终端数量和参与方式不同的产品当成直接替代。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜语言与地区同口径",
+          "text": "比较时应固定实际语对、在线或离线模式、手机和服务条件，而不是用页面不同位置的语言数量拼成最大值。国际促销价不能直接当作中国售价，国内入口也需核对最终配置；当前没有销量、用户访谈或价格弹性研究，不能由官方列售推断市场规模与效果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜开放式音频与应用",
+          "text": "公开资料支持开放式耳机、声音输入输出与手机应用协作，但具体主控、麦克风供应商和整机工厂未完整披露。翻译服务和硬件属于不同供给层，品牌所在地不能推导生产位置；目录只建立采集、识别、翻译和反馈的功能架构，不提供猜测的真实物料清单。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜声学与语言维护并重",
+          "text": "硬件需要在开放佩戴、风噪和不同说话距离下取得可用声音，服务则要持续处理语言与术语差异。更换麦克风并不能自动解决语义错误，模型更新也不能恢复未采集清楚的声音；供应链研究应同时询问声学验证与软件维护责任，而不是只比较器件数量或硬件成本。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜无线与声音候选",
+          "text": "泰凌微可作为无线音频连接候选，英飞凌可作为声音输入前端候选，二者未被本型号资料点名采用。选择需验证双向音频角色、手机兼容、声孔和功耗，不能直接替换；这些供应商不提供 Timekettle 的完整语对、翻译应用和纪要服务，能力与实际供货应分开。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜识别、翻译与纪要分层",
+          "text": "语音先进入识别与语义处理，再形成翻译和声音或文字输出，纪要则是后续整理任务。手机应用、网络和下载包影响各层可用性，不能把某个离线语对扩展到所有模式；底层模型和部署未完全公开，目录也不把页面语言数量差异解释成未经确认的版本升级。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜延迟来自整段流程",
+          "text": "等待一句话说完、判断分段和播放译文都可能影响对话节奏，单个模型速度不能代表双方感受到的延迟。系统需要清楚提示谁在说、是否仍在处理和何时可以继续，尤其多人插话时；技术评价应关注轮次与理解，而不只看译文在屏幕上出现得快不快。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜误译与复述流程",
+          "text": "可使用包含日期、金额、否定和专业词的对话，记录识别与翻译分别在哪一层出错，并观察用户能否通过原文和复述纠正。电话和媒体模式还需检查输入来源与字幕时间；当前目录没有独立准确率证据，不把厂商最高表现当作实际沟通保障。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜开放佩戴的社交感",
+          "text": "开放式耳机可能让用户更容易保持面对面交流的姿态，但实际舒适和对方感受取决于耳型、环境与使用方式。外观不封闭不等于没有声音外溢或注意力负担，审美研究应观察真实交流而非只看佩戴图；不能把能够听到环境直接转化为更安全或更自然的结论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜声音输出与屏幕复核",
+          "text": "翻译主要通过声音使用时，用户仍可能需要手机文字核对专有名词，设备与屏幕应形成清楚分工。设计评价应看拿手机的频率是否减少，以及是否容易找到原文，而不是把免手持作为绝对目标；如果复核路径不顺，耳机的轻便外观也可能掩盖复杂交互。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜长时交流与不同环境",
+          "text": "试用应覆盖短谈、较长电话和移动间歇，记录耳部压力、音量调整、漏听与摘戴。不同噪声和光线下查看应用的便利也需观察，不能由一次安静演示评价全天体验；官方图像与结构说明可以帮助筛选，但长期佩戴和沟通负担仍需要真实反馈。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜重要语义可能失真",
+          "text": "口音、背景声、打断与专业术语可能共同改变译文，错误又会在纪要中被进一步压缩。重要金额、日期和承诺应通过原文或双方复述确认，不能只凭机器翻译定稿；可靠使用需要保留这类复核步骤，当前目录不提供无条件替代保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜网络与平台依赖",
+          "text": "电话和媒体支持受手机系统、应用与服务影响，下载离线包也不代表所有高级功能都离线。国内和国际配置需要分别确认，不能把一个购买入口推导为全部语对和模式可用；敏感谈话还需核对处理路径与保存范围，硬件可购不等于所有使用条件都已解决。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜失败时能否继续交流",
+          "text": "应在网络中断、译文迟到和识别错误时观察双方是否能理解状态，并快速改用手机文字、复述或其他方式。不能让旧译文看起来像新的实时结果，也不能自动把摘要行动项当作双方确认；验证目标是辅助沟通并保留复核，而不是假设工具永远给出正确语言表达。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜重复交流才可能体现硬件价值",
+          "text": "本型号的购买理由应来自反复需要听译且手机传递造成明显阻力的场景，偶发任务未必需要专用耳机。研究应区分一次旅行的新鲜体验与长期跨语言工作，观察设备是否真正减少停顿；场景分组也不应因年度命名或语言列表变化重复计算相同翻译需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜会后纪要的附加价值",
+          "text": "翻译后的记录可能帮助回顾，但它继承识别与翻译错误，不能仅因可生成纪要就认为沟通已准确完成。应观察用户是否实际使用这些内容、如何更正和分享，而不是只统计文本量；硬件价值需要会中与会后任务共同验证，不能由服务功能叠加直接推导。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜长期语对与拥有成本",
+          "text": "后续可跟踪真实语对中的重复次数、误译修正、电话兼容问题和纪要使用，并核算设备、服务与维护成本。还需记录用户何时回到手机或人工帮助，以理解替代边界；当前目录是案头研究，不以官方列售、语言数量或宣传准确率宣称需求与效果已经验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "telink",
+        "role": "connectivity",
+        "relationship": "candidate",
+        "component": "翻译耳机与手机的无线音频链路候选",
+        "rationale": "W4 Pro 依赖手机应用与声音输入输出，泰凌微无线音频平台可作为新设计候选。需验证双向音频角色、目标手机协议、同步和低功耗，当前没有点名供货；无线能力不等于提供语音识别、翻译语对或纪要模型，也不能保证所有电话平台兼容。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "infineon",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "开放式翻译耳机的声音输入前端候选",
+        "rationale": "开放佩戴与语音翻译需要清晰采集，英飞凌麦克风可用于比较自噪和匹配，但必须在风、距离和回声条件下验证。现有资料未点名采用，还需核对声孔与主控接口；器件输入质量不能直接保证语义翻译正确或替代专业口译与人工复核。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "cross-language-conversation",
+      "needName": "实时跨语言对话理解",
+      "difference": "W4 Pro把语音识别、分段翻译和语音输出带到耳机工作流，并覆盖面谈、电话或远程会议中的适用模式。相较轮流传递手机，增量是减少双方停顿和持机动作，会后纪要是延伸而非核心任务。它与其他个人翻译耳机仍属同一需求，真实差异要在常用语对、噪声和软件兼容中比较；完整功能依赖手机应用，下载离线包不能等同所有电话和会议模式离线可用。",
+      "comparisonBasis": "与手机翻译App、其他个人翻译耳机及会议平台字幕比较双人或个人参与的跨语言交流。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/timekettle-w4-pro/product.webp",
+      "sourceUrl": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/W4-Pro_226cf539-8307-4cda-8da5-a18b6ce499ef.png?v=1776672758",
+      "caption": "官方 W4 Pro 耳挂式耳机与充电盒",
+      "alt": "官方 W4 Pro 耳挂式耳机与充电盒",
+      "credit": "Timekettle / 时空壶 · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 24296,
+      "sha256": "bbb38800492e44f18616048c8c78b88f24bcbd533a6b11f131502a42c5bb2206"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/timekettle-w4-pro/reference.webp",
+      "sourceUrl": "https://www.timekettle.co/products/w4-pro-ai-interpreter-earbuds-2026",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0090/3797/1519/files/4_74fd83de-e1a2-47d0-be23-5f5a49d271af.jpg?v=1776672758&width=1200",
+      "caption": "官方远程会议使用场景示意",
+      "alt": "官方远程会议使用场景示意",
+      "credit": "Timekettle / 时空壶 · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 95556,
+      "sha256": "c1d0afbd47d2bbe14af0611e641da3091f8fac9364dac6aec3f88aea5eae9ce4"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/timekettle-w4-pro/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Timekettle W4 Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/timekettle-w4-pro.txt",
+      "referencePaths": [
+        "assets/hardware/timekettle-w4-pro/product.webp",
+        "assets/hardware/timekettle-w4-pro/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1567409,
+      "sha256": "8f4a291f046767a416fbf72a3c164bb1aedb5cd220bab2f94c0a529157cd4154"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "图片按源站提供格式保存，未裁切或改色；厂商渲染/场景示意不代表实机测试。"
+  ]
+}

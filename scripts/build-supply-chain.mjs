@@ -11,6 +11,7 @@ const products=(await Promise.all(hardwareFiles.filter(f=>/^research-.+\.json$/.
 const productMap=new Map(products.map(p=>[p.id,p]));
 const deepFiles=await readdir(new URL('content/hardware/deep/',root));
 const details=(await Promise.all(deepFiles.filter(f=>f.endsWith('.json')).sort().map(f=>read('content/hardware/deep/'+f)))).flat();
+meta.checkedAt=[...companies.map(c=>c.checkedAt),...details.map(d=>d.checkedAt)].filter(Boolean).sort().at(-1)||meta.checkedAt;
 const companyMap=new Map(),detailMap=new Map();
 for(const c of companies){companyValid(c,meta);assert(!companyMap.has(c.id),'重复公司 '+c.id);companyMap.set(c.id,c);c.relatedProducts=[];}
 let candidateLinks=0,disclosedLinks=0;
@@ -28,6 +29,10 @@ if(!draft){assert(companies.length>=100,'供应链覆盖尚不足100家公司');
 companies.sort((a,b)=>a.name.localeCompare(b.name,'zh-CN'));
 const output={...meta,complete:!draft,counts:{companies:companies.length,deepProducts:details.length,products:products.length,candidateLinks,disclosedLinks},companies};
 await writeFile(new URL('content/supply-chain/catalog.json',root),JSON.stringify(output,null,2)+'\n');
+await mkdir(new URL('content/supply-chain/companies/',root),{recursive:true});
+await Promise.all(companies.map(c=>writeFile(new URL(`content/supply-chain/companies/${c.id}.json`,root),JSON.stringify(c,null,2)+'\n')));
+const listingCompanies=companies.map(({analysis,...c})=>({...c,relatedProducts:c.relatedProducts.map(r=>({productId:r.productId,relationship:r.relationship}))}));
+await writeFile(new URL('content/supply-chain/index.json',root),JSON.stringify({...output,companies:listingCompanies})+'\n');
 await mkdir(new URL('docs/supply-chain/',root),{recursive:true});
 const md=s=>String(s).replaceAll('|',' / ').replaceAll('<','&lt;');
 const kind={official:'官方资料',analysis:'研究判断',validation:'待验证'};

@@ -1,0 +1,217 @@
+{
+  "id": "microchip",
+  "name": "Microchip Technology 微芯科技",
+  "legalName": "Microchip Technology Incorporated",
+  "country": "美国",
+  "locations": [
+    "美国 Arizona Chandler",
+    "全球官方销售与技术支持地区"
+  ],
+  "tier": "global",
+  "tierNote": "按广泛嵌入式控制与开发生态覆盖分组，不引用公司规模或市场排名。",
+  "roles": [
+    "chip",
+    "software"
+  ],
+  "capabilities": [
+    "MCU、MPU 与 dsPIC 嵌入式控制",
+    "MPLAB Machine Learning 模型构建与代码生成",
+    "传感识别与异常检测开发流程",
+    "嵌入式工具和量产支持入口"
+  ],
+  "productCategories": [
+    "accessibility",
+    "wearables",
+    "recording",
+    "computing"
+  ],
+  "website": "https://www.microchip.com/",
+  "contactUrl": "https://www.microchip.com/en-us/about/contact-us",
+  "summary": "微芯适合从嵌入式控制与小型传感识别入手比较，其机器学习工具把数据准备、模型构建和固件生成连接起来，帮助团队验证窄任务。它不等于每颗微控制器都有神经网络加速器，也不意味着能直接运行大模型。官网新公告说明部分开发工具免费，但器件、验证、算法维护和特定服务仍需按项目核算。",
+  "sources": [
+    {
+      "title": "MPLAB Machine Learning Development Suite",
+      "url": "https://www.microchip.com/en-us/development-tool/mplab-machine-learning-development-suite",
+      "note": "本轮已打开开发工具页面，支持传感识别代码生成与嵌入式模型流程；具体器件适用范围需确认。",
+      "id": "s1",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "Microchip expands free development tools",
+      "url": "https://www.microchip.com/en-us/about/news-releases/products/microchip-expands-developer-access-with-free-mplab-xc-compilers-and-mplab-ml-development-suite",
+      "note": "支持 2026 年开发工具可免费获取的公告，以及 MCU/MPU 代码优化和模型开发方向；不泛化为所有服务免费。",
+      "id": "s2",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "Microchip Corporate Overview",
+      "url": "https://www.microchip.com/en-us/about/corporate-overview",
+      "note": "支持 Chandler 总部、主体与嵌入式半导体业务范围。",
+      "id": "s3",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "Microchip Contact Us",
+      "url": "https://www.microchip.com/en-us/about/contact-us",
+      "note": "支持官方销售与技术联系入口，未联系供应商。",
+      "id": "s4",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "analysis": {
+    "positioning": [
+      {
+        "title": "官方｜嵌入式控制与模型开发",
+        "text": "微芯的公开定位覆盖嵌入式控制，机器学习工具则面向传感识别代码与固件生成。两者结合适合讨论窄任务本地处理，但不能把工具支持扩展成所有芯片都具有专用神经网络硬件；目录区分运行在通用控制器上的算法与独立加速器，避免按人工智能标签选型。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "判断｜从小任务建立价值",
+        "text": "对于辅助按钮、动作识别或录音触发，用户需要的可能只是稳定识别有限事件，完整大模型平台未必必要。微芯路线值得比较的是能否用较简单系统完成这些任务，并保持可维护性；如果任务需要开放式语言理解，应明确手机或云端分工，不能过度承诺本地能力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "官方｜数据到固件的流程",
+        "text": "公开工具说明包含从原始传感数据学习、模型构建到优化代码的流程，并支持嵌入式开发环境。自动化可以减少部分机械工作，但数据标注、任务定义和独立验证仍由团队负责；生成代码能够编译，不等于模型在真实用户与环境中已经满足可靠性要求。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜资源与实时任务共存",
+        "text": "小型控制器通常还要处理按键、传感和通信，模型不能只在空白工程中评估。应检查特征提取、推理和中断是否争用时间与内存，并为异常处理留余量；若为了模型挤掉基础控制，产品可能在演示中显得聪明，在日常使用中却出现迟滞或丢数据。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "判断｜无障碍输入候选",
+        "text": "有限动作或声音输入可用于辅助交互，但应根据用户能稳定完成的动作训练与验证，不能从普通开发示例推断适合不同能力人群。候选价值在于减少操作负担与提供清楚反馈，而不是增加识别类别；误触发后的撤销和替代输入也应纳入完整任务。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜录音与穿戴控制",
+        "text": "录音设备或穿戴系统可用嵌入式控制处理触发、缓存和轻量分类，但长文本转写通常需要另行评估计算路径。项目应先把实时控制与生成服务分开，再决定需要多强芯片；不能因工具能生成传感模型，就把全部智能摘要或对话能力归给控制器。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "判断｜先整理数据与标签",
+        "text": "技术接洽应提供代表性传感数据、标签定义和误报代价，并说明采样与实时任务。这样的材料能帮助选择模型和控制器资源，而不是只询问能否加入人工智能；训练与验证数据应分开，避免工具在熟悉样本上的高成绩掩盖真实场景的泛化问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜锁定器件与工具组合",
+        "text": "不同控制器、编译器和模型工具的支持范围需要一起核对，团队应保存完整版本与构建配置。官方支持入口可以用于确认开发路径，但不代表所有自定义模型都由供应方负责优化；项目需明确可获得的示例、文档和问题处理范围，并保留独立复现能力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s4"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "判断｜独立样本验收",
+        "text": "质量评估应使用未参与训练的用户与环境数据，逐类记录误报、漏报和延迟，而不是只看训练工具给出的总分。对于动作或声音输入，还要加入大量无事件的日常片段；只有模型在真实背景中保持可接受行为，才可能成为稳定的产品交互。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜嵌入式异常路径",
+        "text": "模型处理应与低电量、存储不足、通信中断和重复操作一起测试，检查是否影响基础控制和数据保存。小设备没有复杂界面解释错误，因此状态提示与恢复尤其重要；不能只验证正常路径速度，也要确认用户无需拆机或重新烧录就能回到可用状态。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "官方｜工具费用公告的范围",
+        "text": "公司公告说明相关编译器和机器学习开发套件可免费获取，降低了部分开发入口成本，但公告同时区分特定认证文件或服务的条件。目录不会将其解释为所有软件、工程支持或量产服务免费，项目仍应按实际使用组件和许可核对完整商业范围。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜硬件与维护总成本",
+        "text": "控制器价格只是成本的一部分，传感器、连接、数据标注和模型维护也需要持续投入。较简单平台可能节省功耗，却要求更多算法约束，团队应按同一任务比较总体工作；不能因为工具免费就忽略开发和验证，也不应把较多示例当作项目无需自研的保证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜自动生成代码的误读",
+        "text": "自动化工具能把模型转换为固件，但不能替团队决定哪些错误可以接受，也不能自动发现所有用户差异。项目应保留模型、特征和生成配置，并审查输出如何驱动操作；如果直接把分类结果用于不可撤销动作，模型偶发错误会被放大为明显的使用问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜跨系列能力外推",
+        "text": "微芯产品广泛，不能把某个控制器、数字信号控制器或可编程逻辑的能力拼在同一型号上。目录关联具体硬件时只提出适合模块的候选，并保留资源与接口验证条件；没有点名来源时，不因常见开发生态推断某款阅读器或录音器实际采用微芯芯片。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "判断｜从任务到功耗实验",
+        "text": "可以先固定一个用户任务，记录无模型控制方案的操作与耗电，再加入轻量识别比较变化。若模型没有减少步骤或提高可用性，应重新考虑任务定义，而不是继续增加复杂度；实验需包含真实输入、后台通信和异常恢复，才能说明嵌入式智能是否值得保留。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜量产前的证据清单",
+        "text": "正式选型应具备独立数据验证、资源余量、固件恢复记录和目标器件采购条件，并冻结工具版本。目录的能力描述帮助选择验证方向，不替项目完成这些检查；实际供货关系仍需要品牌或供应商公开点名，不能由工具支持或应用相似自动推断。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s4"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-04",
+  "relatedProducts": []
+}

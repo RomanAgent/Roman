@@ -1,0 +1,433 @@
+{
+  "id": "rayneo-io",
+  "name": "RayNeo iO",
+  "brand": "RayNeo",
+  "category": "glasses",
+  "tagline": "轻量无相机显示眼镜中的语音记忆与字幕",
+  "officialUrl": "https://www.rayneo.com/products/rayneo-io-ai-glasses",
+  "status": "on_sale",
+  "statusEvidence": "官方商品页明确Polar Night Grey Standard为In Stock并可Add To Cart；金色配置Sold Out未作为可购依据，充电盒套装不另计。",
+  "regions": [
+    "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+  },
+  "price": {
+    "text": "灰色Standard US$499",
+    "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "RayNeo AI及可选大模型处理语音问答，Lifelog提取待办与摘要，显示翻译字幕和随声滚动的提词内容",
+    "dependency": "兼容App、网络及部分高级模型订阅；产品无摄像头，音频记录与云端服务仍有隐私和区域条件"
+  },
+  "highlights": [
+    "轻量无相机显示眼镜中的语音记忆与字幕",
+    "透明显示光学、镜腿麦克风、Smart Crown与轻量镜框",
+    "AI与联网服务边界单列",
+    "个人可使用的实体产品"
+  ],
+  "analysis": {
+    "demand": "需求假设：需要轻量的镜内字幕和记录功能，但不希望为拍摄相机增加重量和社交负担。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+    "userProfile": "画像推断：经常阅读提示、做演示或整理个人对话笔记，愿意管理记录权限的用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+    "competition": "案头判断：与Halliday、Even以及手机转录竞争，细分优势来自显示与轻量佩戴取舍。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+    "supplyChain": "公开资料可核对透明显示光学、镜腿麦克风、Smart Crown与轻量镜框，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+    "technology": "RayNeo AI及可选大模型处理语音问答，Lifelog提取待办与摘要，显示翻译字幕和随声滚动的提词内容。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+    "aesthetics": "图示观察：较细的镜框和圆润镜形接近日常眼镜，按键冠形交互形成辨识。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+    "risks": "无摄像头不代表没有音频隐私风险；会员、模型更替和字幕错误会影响实际可用性，处方配镜另需核对。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+    "opportunity": "市场差异主要在于轻量无相机显示眼镜中的语音记忆与字幕。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "实体输入",
+      "detail": "透明显示光学、镜腿麦克风、Smart Crown与轻量镜框；仅功能层示意，非拆机。",
+      "evidence": "official"
+    },
+    {
+      "name": "采集与控制",
+      "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "AI功能",
+      "detail": "RayNeo AI及可选大模型处理语音问答，Lifelog提取待办与摘要，显示翻译字幕和随声滚动的提词内容",
+      "evidence": "official"
+    },
+    {
+      "name": "服务依赖",
+      "detail": "兼容App、网络及部分高级模型订阅；产品无摄像头，音频记录与云端服务仍有隐私和区域条件",
+      "evidence": "official"
+    },
+    {
+      "name": "用户反馈",
+      "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "RayNeo iO官方在售配置",
+      "url": "https://www.rayneo.com/products/rayneo-io-ai-glasses",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "RayNeo官方AI眼镜分类",
+      "url": "https://www.rayneo.com/collections/ai-glasses",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "architecture"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "RayNeo官方配送政策",
+      "url": "https://www.rayneo.com/policies/shipping-policy",
+      "kind": "official-spec",
+      "supports": [
+        "regions",
+        "status"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "RayNeo iO官方在售配置",
+        "url": "https://www.rayneo.com/products/rayneo-io-ai-glasses",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s2",
+        "title": "RayNeo官方AI眼镜分类",
+        "url": "https://www.rayneo.com/collections/ai-glasses",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,architecture。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s3",
+        "title": "RayNeo官方配送政策",
+        "url": "https://www.rayneo.com/policies/shipping-policy",
+        "note": "沿用原目录已核验的一手资料；引用范围：regions,status。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜无相机的字幕与记录",
+          "text": "本型号以透明显示、麦克风和语音服务提供字幕、提词、问答与记录整理，没有摄像头。需求因此集中在听到内容后及时阅读和回顾，不能推断它能拍照或理解眼前物体；Lifelog 的摘要与待办属于语音记录流程，和第一视角视觉记忆不是同一任务。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜轻量提示是否足够",
+          "text": "不加入相机可能减少部分结构和社交负担，但用户仍需要接受音频采集与眼前阅读。真正价值在于字幕或短提示能否在不打断交流时帮助理解，而不是让显示常亮；若用户主要需要会后笔记，镜内显示的额外价值就需要与普通录音工具具体比较。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜字幕与提词分开测",
+          "text": "可以分别设置外语短谈和准备好的演讲，比较眼镜、手机字幕与普通提纲的漏读、重试和注意力切换。两类任务对文字出现时机不同，不应合并一个满意度；还需观察用户何时关闭显示，当前目录没有实机研究证明轻量文字提示一定改善交流。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜演示与个人记录人群",
+          "text": "经常做演讲、阅读短提示或整理谈话笔记的人可能更值得访谈，但他们使用字幕、提词和摘要的频率可能差异很大。画像应按重复任务建立，而不是把所有办公用户视为同一需求；用户若只偶尔需要提示，可能更愿意继续使用已有手机或纸质提纲。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜愿意管理模型与订阅",
+          "text": "本型号提供语音助手与可选模型服务，用户需要理解网络、应用和高级功能条件。对希望开箱后长期不管理软件的人，这些选择可能成为负担；科技爱好者可能乐于探索，但不能把他们的接受度推广给普通消费者，应分别研究学习成本和持续使用理由。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜控制方式与阅读习惯",
+          "text": "首次体验应检查用户如何使用冠形控制、暂停提示和查回内容，并记录操作时是否影响交流。还需覆盖不同阅读速度、视力与戴镜习惯，观察随声滚动提词是否跟得上实际表达；产品外形轻巧并不能替代交互适配，也不能证明所有用户都适合连续看字幕。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜无摄像头显示细分",
+          "text": "与 Even、Halliday 等文字眼镜相比，本型号应围绕语音记录、提示编排和控制方式比较，而不只看是否有显示。相同无摄像头定位可能有不同服务依赖与内容保存方式，竞争分析需要进入任务流程；较少曝光并不代表市场空白，当前没有销量数据支持冷门程度的量化判断。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜手机和耳机替代",
+          "text": "手机字幕便于回查和编辑，耳机翻译避免眼前文字，普通录音工具侧重会后整理，分别解决部分需求。眼镜需要证明视线附近的文字值得额外佩戴与维护，不能因为三种功能同时存在就默认更便利；用户也可能继续保留原有工具，形成更复杂的组合。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜按实际服务成本比较",
+          "text": "比较应把基础模型、可选订阅、镜片与配件分别计算，并用相同任务和使用频率核算。某个颜色售罄不代表整个型号不可购，套装也不能当作独立产品增加数量；当前目录仅按已核查配置记录，不由促销或库存差异推断品牌竞争力或用户需求强弱。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜显示与声音的功能模块",
+          "text": "已知结构包括透明显示光学、麦克风、冠形控制和镜框，配套应用及模型服务参与内容处理。没有摄像头这一边界必须保持，不能从同品牌其他眼镜补入相机；具体主控、显示器件和整机工厂仍未确认，概念架构不构成真实装配或物料清单。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜轻量结构的约束",
+          "text": "较细镜框需要在显示光路、控制件、电池和声音输入之间分配空间，轻量并不意味着制造简单。冠形控制还要兼顾手感、误操作和耐久，配镜会带来额外适配问题；这些是由形态提出的验证方向，不能据宣传图估算成本、良率或具体代工方式。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜电子候选与光学缺口",
+          "text": "Nordic 可作为手机协同的低功耗连接候选，英飞凌可作为麦克风输入候选，但二者均未被点名为现有供货方。选择需要确认接口、功耗和真实声学结构，显示光学与镜片仍需独立来源；不能用通用电子供应商名单掩盖最关键的光学校准与售后未知。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜语音理解与记录整理",
+          "text": "品牌描述语音问答、记录摘要与待办，以及翻译字幕和随声滚动提词，部分高级模型依赖订阅。功能需要兼容应用与网络，具体端云比例未完整披露，不能把镜内即时显示等同全部本地推理；没有相机也不意味着不处理或保存涉及他人的谈话数据。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜转写错误会影响待办",
+          "text": "如果人名、否定句或时间先被听错，后续摘要可能生成错误行动项，短提示又可能隐藏原始语境。系统需要区分原话与推断，并允许用户回查和更正，尤其不能把讨论中的可能方案写成正式决定；记录整理的价值应以可复核和可修正为基础。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜提词与语音节奏",
+          "text": "测试应加入停顿、回读、临时改词和不同语速，观察提词滚动是否仍让用户容易找到位置。字幕与摘要还需在弱网、应用后台及服务不可用时检查退化方式，不能只用顺畅朗读演示判断稳定；当前目录没有延迟或准确率实测，保持这些性能为待验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜接近日常眼镜的外形",
+          "text": "较细框架和圆润轮廓可能降低明显设备感，冠形控制提供一种可识别的交互细节。审美价值取决于用户是否愿意在日常交流中佩戴，而不只是图片看起来轻盈；透明镜片、显示光影和镜腿接触仍需实际观察，不能由外形直接推断舒适或社交接受度。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜旋转控制的动作负担",
+          "text": "冠形控制可能提供比抽象触控更明确的操作，但用户仍要抬手靠近脸部，并记住不同状态的作用。设计评价应观察它在谈话、走动和戴帽时是否顺手，以及误操作如何撤销；机械辨识度是一种潜在优势，不等于所有任务都比手机或按键更省步骤。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜显示与连续佩戴",
+          "text": "试戴需要在不同光线和连续交流中检查文字可读性、焦点与压力，并记录用户什么时候主动降低提示密度或摘下。处方用户与不同脸型应分别观察，不能只由一次静止体验得出结论；官方图像能确认设计语言，但不能证明长时间阅读和佩戴对所有人都合适。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜音频隐私仍然存在",
+          "text": "无摄像头限定了视觉采集，却没有消除录音、转写与摘要涉及的旁人信息。用户应能够明确开始、暂停和删除，并理解数据是否进入外部模型；低调外形不能代替告知与边界管理，目录不会把相机缺席写成绝对隐私保证或适合所有会议场景的依据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜模型和地区变化",
+          "text": "可选模型、订阅和网络条件可能随地区与服务变化，购买时需要确认自己实际使用的版本与配送支持。海外在售不代表大陆官方服务完整开放，镜片和充电配件也会影响总价；目录不以核查日基础配置价格代表长期拥有成本，更不推定所有高级功能永久可用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证｜错误记录如何更正",
+          "text": "应检查错误转写、待办和摘要被修改后，后续检索或回顾是否仍引用旧内容，并验证删除覆盖哪些数据层。重要决定应由用户回查原话确认，不能只依赖镜内短提示；测试重点是可追溯和可恢复，当前案头资料不足以证明所有记录都被正确理解和管理。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜轻量与任务取舍",
+          "text": "本型号的差异在于把相机排除后，集中于文字提示和声音记录，但这个取舍是否有价值取决于用户是否需要视觉输入。若任务主要是字幕和演讲，可能更匹配；若想拍照识物，则属于不同需求，不能因为同是智能眼镜就期待相同能力或用同一标准评价。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜会中提示的实际用途",
+          "text": "值得继续研究的是哪些内容需要立即出现在眼前，哪些适合留到会后查看。若所有信息都推送到视线中，可能增加注意力负担；如果只保留高价值短提示，才可能减少低头和遗漏。这一判断应通过当前功能使用验证，而不是靠增加更多服务入口证明价值。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜持续使用与管理成本",
+          "text": "后续可记录字幕、提词和记录整理分别被使用的次数、失败原因及服务费用，并观察用户是否继续使用原有手机工具。结合镜片、配件和维护投入，才能判断稳定购买理由；当前目录保持需求假设，不把轻量外形、可购状态或功能丰富当作市场已验证的结果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "nordic-semiconductor",
+        "role": "connectivity",
+        "relationship": "candidate",
+        "component": "手机内容与镜内提示的低功耗连接候选",
+        "rationale": "本型号需要配套应用与镜内内容协同，Nordic 的低功耗无线控制可作为新设计候选。需确认实际协议、延迟、内存与电源预算，且不承担云端摘要或光学显示制造；现有来源没有点名其采用，不能把常见无线方案推断为此款眼镜内部配置。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "infineon",
+        "role": "acoustics",
+        "relationship": "candidate",
+        "component": "无相机眼镜的声音采集前端",
+        "rationale": "本型号依赖麦克风完成语音与记录，英飞凌声音传感器可进入输入前端比较。实际声孔、佩戴距离、风噪和主控接口需要联合验证，当前没有其供货证明；麦克风能力不等于转写摘要效果，也不填补透明显示光学与整机工厂的未知。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "live-text-assistance",
+      "needName": "交流中的实时文字提示",
+      "difference": "RayNeo iO用无相机显示承接语音问答、Lifelog待办摘要、翻译字幕和随声提词，减少谈话时反复查看手机。它与Even G2、Halliday G2共享实时文字辅助需求，轻量化和Smart Crown属于操作取舍，并不新增场景。没有视觉采集就不能替代看物问答；字幕错误、阅读负担及高级模型订阅仍可能抵消少低头的收益，无相机亦不等于不处理旁人语音。",
+      "comparisonBasis": "与其他无相机文字眼镜、手机字幕和普通提词器比较交流中的查看与控制步骤。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/rayneo-io/product.webp",
+      "sourceUrl": "https://www.rayneo.com/products/rayneo-io-ai-glasses",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0688/8642/9983/files/iO_35d556fc-4a3b-459f-838b-dd37aad44fc3.png?v=1788345969&width=1200",
+      "caption": "RayNeo iO官方眼镜与可选充电盒展示",
+      "alt": "RayNeo iO官方眼镜与可选充电盒展示",
+      "credit": "RayNeo · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 34460,
+      "sha256": "f5b1fc5f60bde7bf67044ceeaf62ca4a6ffc02709ea852fbfddcfe208b49e3b9"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/rayneo-io/reference.webp",
+      "sourceUrl": "https://www.rayneo.com/products/rayneo-io-ai-glasses",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0688/8642/9983/files/4_25b77f35-f2d5-47ca-8aa1-d13869d3dc2e.png?v=1788345969&width=1200",
+      "caption": "RayNeo iO官方另一角度或使用场景参考",
+      "alt": "RayNeo iO官方另一角度或使用场景参考",
+      "credit": "RayNeo · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 78930,
+      "sha256": "060661912c8e361d66021c470684d70ade83100cb8acf3b0db6f826768f7e734"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/rayneo-io/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "RayNeo iO的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/rayneo-io.txt",
+      "referencePaths": [
+        "assets/hardware/rayneo-io/product.webp",
+        "assets/hardware/rayneo-io/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1542212,
+      "sha256": "2417ed79ccefbc6bc052ce465e8026afa94078eae1226ef275001dad8699ea1b"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "已逐张查看并核对型号。源图未改色/裁切；场景、界面、附件、优惠及效果文案仅为厂商示意，不作为本目录性能或现价依据。"
+  ]
+}

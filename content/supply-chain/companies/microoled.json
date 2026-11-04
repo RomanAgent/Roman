@@ -1,0 +1,251 @@
+{
+  "id": "microoled",
+  "name": "MICROOLED",
+  "legalName": "MICROOLED SA（法国总部）；美国业务统一按品牌记录",
+  "country": "法国",
+  "locations": [
+    "法国Grenoble（全球总部）",
+    "美国Dallas（业务办公室）"
+  ],
+  "tier": "specialist",
+  "tierNote": "依据OLED微显示与近眼光学专业方向分组；美国官网明确法国全球总部，不把美国区域办公室另算公司。",
+  "roles": [
+    "display",
+    "optics",
+    "engineering"
+  ],
+  "capabilities": [
+    "近眼OLED微显示",
+    "单色与全彩微显示系列",
+    "低功耗信息显示接口",
+    "显示驱动与设计支持",
+    "运动与消费光学应用"
+  ],
+  "productCategories": [
+    "glasses",
+    "imaging",
+    "wearables"
+  ],
+  "website": "https://microoledusa.com/",
+  "contactUrl": "https://microoledusa.com/contact/",
+  "summary": "MICROOLED专注近眼OLED微显示，公开系列包括不同颜色、尺寸和驱动方式的产品，并提供设计与技术支持。其法国总部和美国业务在本目录合并记录，适合目镜、运动信息显示与紧凑视觉设备的候选研究；显示器件、光学模组及终端服务须分别确认，不把区域网站的专业用途宣传推广为消费整机效果。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "已披露定位：法国总部的微显示企业",
+        "text": "美国官方介绍与联系页明确MICROOLED全球总部在法国Grenoble，并公开美国Dallas办公室。产品核心是近眼OLED微显示及相关支持，本目录不将两个地区重复计数，也不因美国页面强调专业用途就忽略其运动和消费光学能力范围。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "定位判断：专用显示源需要系统协同",
+        "text": "微显示适合被集成进目镜或其他近眼光学，而不是独立面向用户展示的普通屏幕。研究时应把它视为信息链路的一部分，结合光路、电子和外壳判断价值；能做小尺寸显示并不意味着提供识别模型或完整智能眼镜软件。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "已披露能力：不同颜色和驱动路线",
+        "text": "官方产品目录列出全彩与单色系列，部分采用串行接口或记忆式像素寻址，另一些通过配套驱动板连接。不同型号的用途和条件不能混合，因此应根据要显示的是简单状态还是复杂画面选择路径，不能将最高亮度与最低功耗跨型号拼接。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "能力判断：少量信息与图像显示分开",
+        "text": "显示数字、图标和持续图像对更新、接口与处理要求不同，微显示选型需要先明确内容形式。记忆式寻址等特性可以作为特定任务的讨论点，但不代表整机无需供电，也不保证在任何光学组合中可读，仍需以完整样机确认。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配判断：观察与运动中的简短提示",
+        "text": "需要在观察时保留少量辅助信息的设备，可将MICROOLED列为显示源候选，例如目镜状态或运动数据提示。其匹配来自近眼显示能力，不代表该公司已经为本站望远镜或泳镜供货；原机显示技术未公开时，不能把候选路线写成事实。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "title": "不匹配边界：不从运动案例推导疗效",
+        "text": "运动信息显示可以减少查看其他设备的动作，但是否改善训练或注意力需要用户测试，显示公司本身不提供这种效果保证。对睡眠、健康或教育设备也一样，微显示参数无法证明疗效或学习收益，候选关系只覆盖可见信息输出层。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s4"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "已披露入口：商务演示与技术支持",
+        "text": "美国官网提供会议或演示申请表、销售支持邮箱及法国总部信息，并说明可提供设计协助。它是项目沟通入口而非已核实的个人零售渠道，团队应明确应用、所需系列和当前阶段，不从联系表单推断样品一定免费或固定时间交付。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "接洽建议：同时提出光学和接口问题",
+        "text": "应准备内容示例、更新方式、观察姿态、空间及主控接口，询问需要独立驱动板还是可直接集成。若还需要光学模块或软件生态，也要单独确认负责主体，避免把显示器件咨询误当成整套终端合作；本轮未提交申请或取得工程安排。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "质量判断：亮度与眼中效果不是同一值",
+        "text": "目录参数描述具体微显示产品，最终可见性还受光学耦合、环境光与眼位影响。验收需要在目标外壳与目镜中观察真实文字和图标，而不是仅引用裸器件亮度；任何舒适或全天使用结论都需独立验证，不能由器件规格直接推出。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "质量验证：静态界面也需长期观察",
+        "text": "如果产品长时间显示固定数字或状态，应在预计工作节奏下记录画面变化、均匀性与功耗，并核对温度和驱动条件。这里提出的是项目验收要求，不是已经发现的产品问题，也不把官网列出的某型号范围推广到全部微显示系列。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "商务边界：目录规格不等于量产条款",
+        "text": "公开产品页提供系列信息与询问入口，但本轮未取得起订量、报价、交期或定制费用。对于需要驱动板和光学配套的产品，应比较完整集成成本，不能只按显示源面积推测价格，也不能把专业版本与消费版本的条件混为一谈。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "title": "商业判断：先验证信息进入视野的价值",
+        "text": "如果用户很少需要抬头提示，复杂近眼光学可能只是增加成本和调试工作。早期可先用样机验证何时信息有用、是否影响原任务，再讨论专用模块；这只是研究策略，不表示供应商承诺低量开发，也不预测消费市场规模。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s4"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "证据风险：品牌来源与当前主体分开",
+        "text": "ActiveLook介绍能够说明技术起源于MICROOLED，但其当前法律页面由ENGO主体运营，不能据历史来源推断所有终端服务仍由MICROOLED直接提供。目录因此把微显示能力与终端生态分开核验，具体采购、授权与支持主体需要重新确认。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "title": "资料风险：区域网站与全球资料互证",
+        "text": "本轮全球主站连接失败，采用可打开的美国官方产品与公司页面，并通过品牌资料核对总部与业务。区域目录可能不覆盖全部系列，选型前仍应索取最新正式规格，不将网页缺项当作公司没有该能力，也不补写未经读取的型号参数。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "核验计划：用真实内容比较候选系列",
+        "text": "先让供应商确认适合目标内容的系列与驱动方式，再用真实数字、文字和图标观察可读性、更新与功耗。记录每项结果对应的光学组合和设置，避免将展示板效果直接视为最终消费产品表现，也不要跨型号引用有利参数。",
+        "evidence": "validation",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "核验计划：明确器件与生态交付边界",
+        "text": "进一步确认显示器件、驱动、光学及应用连接分别由哪个主体负责，询问资料授权、改版通知和长期支持条件。当前没有取得本站型号的实际采用证据，所有关联仅用于供应能力比较，不能由历史技术起源推出今天的完整供货关系。",
+        "evidence": "validation",
+        "sourceIds": [
+          "s1",
+          "s3",
+          "s5"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "MICROOLED 美国官方公司介绍",
+      "url": "https://microoledusa.com/about/",
+      "note": "已打开；法国Grenoble全球总部、美国业务及设计支持。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "MICROOLED 美国官方产品目录",
+      "url": "https://microoledusa.com/products/",
+      "note": "已打开；具体OLED微显示系列、颜色与驱动差异，不跨型号合并参数。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "MICROOLED 官方联系与总部",
+      "url": "https://microoledusa.com/contact/",
+      "note": "已打开；MICROOLED SA法国总部、Dallas办公室和演示申请入口。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s4",
+      "title": "ActiveLook 官方技术起源介绍",
+      "url": "https://www.activelook.net/pages/about-us",
+      "note": "已打开；说明项目起源于MICROOLED及运动近眼显示方向，属于历史与技术关联。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s5",
+      "title": "ActiveLook 当前法律主体说明",
+      "url": "https://www.activelook.net/pages/legal-notice",
+      "note": "已打开；当前网站由ENGO S.A.S运营，不以技术起源推断现时全部服务主体。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "microoled",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "水下近眼信息显示源工程候选",
+      "rationale": "MICROOLED公开近眼OLED和运动信息显示方向，可作为FORM镜内反馈链路的候选路线，但原机实际显示技术、合光结构和供应商未披露，水下密封、眼位与功耗需要专项验证。此关联不说明FORM采用其器件，也不提供光学性能保证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2",
+        "s4"
+      ],
+      "productId": "form-smart-swim-2-pro",
+      "productName": "FORM Smart Swim 2 PRO",
+      "category": "sports",
+      "status": "on_sale"
+    }
+  ]
+}

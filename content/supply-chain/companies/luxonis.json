@@ -1,0 +1,291 @@
+{
+  "id": "luxonis",
+  "name": "Luxonis",
+  "legalName": "Luxonis Holding Corporation",
+  "country": "美国",
+  "locations": [
+    "美国科罗拉多州（公开主体登记）"
+  ],
+  "tier": "growth",
+  "tierNote": "围绕OAK与DepthAI发展的视觉平台型公司；不以融资或出货宣传估算规模。 美国范围有官方主体资料；本轮未以登记地址推断实际总部城市。",
+  "roles": [
+    "sensing",
+    "engineering",
+    "software"
+  ],
+  "capabilities": [
+    "OAK深度与边缘视觉设备",
+    "DepthAI开发工具",
+    "相机模组定制路径",
+    "视觉模型优化与集成测试",
+    "部署与技术支持服务"
+  ],
+  "productCategories": [
+    "robotics",
+    "sports",
+    "creative-tools",
+    "imaging",
+    "gimbals"
+  ],
+  "website": "https://www.luxonis.com/",
+  "contactUrl": "https://www.luxonis.com/services",
+  "summary": "Luxonis把OAK相机、DepthAI开发工具和模型部署服务组合为视觉平台，适合评估需要深度信息或边缘分析的产品原型。其公开文档还说明相机模组更换与外壳视场之间的约束，因此候选选型不能只看算力；现成开发设备、定制硬件和收费工程支持需要分别确认。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位：视觉设备与开发平台",
+        "text": "公司将自身定位于空间AI与计算机视觉平台，服务页面提供开发工具、模型资源及工程支持。它在供应链中的价值不只是相机硬件，还包括采集到模型部署的工具链；但平台能力不等于已经完成特定健身、跟拍或机器人应用。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断：系统级原型有助于缩短探索",
+        "text": "对于尚未确定深度感知路线的团队，完整视觉平台可以帮助比较场景和模型，而不必先把每个部件分别集成。代价是早期软件与接口可能围绕其工具链形成依赖，因此应从开始就记录哪些结果可迁移、哪些需要重做。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力：开发和支持层级不同",
+        "text": "服务页区分免费工具、付费支持和定制开发，列出模型优化、数据标注、设计审查及集成测试等项目。不能把免费文档和社区资源理解为无限工程服务，也不能因为平台提供预训练模型，就默认它适合本产品的真实数据分布。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "公开能力：模组更换受物理条件约束",
+        "text": "官方紧凑相机模组文档说明可以讨论更换模组或定制批次，同时提醒连接器、镜头尺寸和视场会影响外壳玻璃。这个边界对产品化很重要，不能把软件支持某传感器，理解为相同外壳中任何镜头都能直接安装并保持成像质量。",
+        "evidence": "official",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配：需要深度信息的验证场景",
+        "text": "对于人体观察、障碍感知或物体定位，OAK与DepthAI可以作为原型阶段的视觉候选。是否适合最终消费设备仍取决于安装距离、体积、功耗和主控接口，尤其不能把实验室中的开发设备直接当成可嵌入所有紧凑外壳的量产模组。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "边界：高层应用仍需自有定义",
+        "text": "跟踪人物、判断动作或监控打印失败，都需要明确标签、失败条件和用户反馈，视觉平台不会替团队决定这些产品规则。供应链关联应限定为视觉硬件、工具或工程服务，不把平台演示的检测能力外推为目标产品已有的端到端效果。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "接洽：用任务数据确定服务层级",
+        "text": "建议先提交目标场景、可公开样例和已有模型约束，说明需要硬件选择、模型优化还是完整部署协助。服务页已区分支持层级，采购方可以据此询问交付边界，而不是在只购买设备后才发现关键集成工作需要另行安排。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "接洽：把模组和外壳一起确认",
+        "text": "若计划更换镜头或相机模组，应将视场、镜头突出量、连接排线和外壳窗口同时交给工程团队确认。官方文档明确这些条件相互关联，因此不能先锁定工业设计，再假定任意模组都能塞入原空间而不影响标定或图像边缘。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "验证：深度、图像与模型各自验收",
+        "text": "应分别测试深度缺失、图像质量和模型误判，避免把所有失败都归因于AI。对目标工作距离内的反光、低纹理及遮挡场景保留原始输入，再确认错误在传感还是推理阶段；平台能运行演示模型不代表产品验收已经完成。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "验证：工具链更新与部署回归",
+        "text": "模型、运行环境和设备固件的组合应被固定记录，升级后重新检查延迟、输出字段和异常恢复。特别是从开发电脑转入实际部署时，要验证断连及重启行为；这里提出的是工程验收要求，不是已发现Luxonis存在这些故障。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断：硬件预算之外还有工程服务",
+        "text": "设备采购、专用模型开发、标注和部署支持可能属于不同费用范围，不能把单台相机价格当作完整方案成本。应按项目阶段列出需要的工作成果和验收标准，再确认是否使用标准产品、付费支持或定制制造路径。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "title": "待确认：定制变更和长期维护条件",
+        "text": "公开文档可以证明存在定制路径，但具体最小数量、排产、返修和升级责任仍需按项目报价确认。尤其在更换相机模组后，应问清该配置未来如何维护，避免标准设备的支持说明被误当成专用硬件整个生命周期的承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "风险：硬件支持与模型适配并不等价",
+        "text": "某个模型可在平台运行，不代表其训练数据、输入分辨率和预处理适合用户场景。运动、弱光或遮挡会改变结果，团队应保留自有验证集并理解输出限制，不能因为工具链提供便捷部署就省略对错误行为的产品设计。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "风险：合作生态不等于集团供货证明",
+        "text": "文档点名了可兼容的第三方相机模组与采购来源，这可以支持平台集成讨论，却不能证明本目录的消费设备采用同一方案。Arducam与Luxonis在本目录分开记录其角色，实际终端供应关系仍需独立的逐产品证据。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "下一步：先验证一条明确空间任务",
+        "text": "可选择固定区域内的人体定位或物体距离判断，用相同场景比较有无深度信息的差异，记录失败样例与人工纠正成本。只有证明深度或边缘处理确实改善任务，才有理由继续评估硬件成本，而不是为采用空间AI而寻找用途。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "下一步：明确可迁移和不可迁移部分",
+        "text": "在原型结束时列出模型、数据、应用代码、设备配置与定制机械件，确认各自的授权和维护路径。再通过实际部署试验检验支持范围；本轮只建立能力候选，不将平台文档、融资信息或演示效果当作产品成功与实际供货的证明。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Luxonis公司定位",
+      "url": "https://www.luxonis.com/about-us",
+      "note": "已打开，支持空间AI和嵌入式视觉平台定位。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "Luxonis工具及工程服务",
+      "url": "https://www.luxonis.com/services",
+      "note": "已打开，明确免费工具、付费支持和定制开发层级。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "Luxonis紧凑相机模组文档",
+      "url": "https://docs.luxonis.com/hardware/platform/sensors/ccms/",
+      "note": "已读取官方文档，支持模组定制路径及镜头尺寸、连接器和外壳视场约束。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s4",
+      "title": "Luxonis公开法律主体",
+      "url": "https://www.luxonis.com/terms-of-service",
+      "note": "已打开，确认美国科罗拉多州登记主体；未接受或签署任何条款。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "luxonis",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "三维动作观察视觉工程候选",
+      "rationale": "Luxonis公开空间视觉与相机集成能力，可作为Tempo Studio三维输入层的候选路线，但原机具体传感技术未披露，视场、室内遮挡与动作算法需要专项验证。候选并不提供Tempo训练模型，也不证明原机采用Luxonis或可用标准OAK直接替换。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "tempo-studio",
+      "productName": "Tempo Studio",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "luxonis",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "移动发球机空间视觉工程候选",
+      "rationale": "Luxonis公开空间视觉与相机集成能力，可作为Partner V2追踪球员和场地输入的候选路线，但球速、光照、移动底座及训练策略需要专项验证。通用空间相机不等于Tennibot算法，也没有原机点名采用证据，不能作为直接替换模组。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "tennibot-partner-v2",
+      "productName": "Tennibot Partner V2",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "luxonis",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "地面网球识别与空间输入工程候选",
+      "rationale": "Luxonis公开空间视觉与嵌入式相机能力，可作为Rover识别球和规划输入的候选，但目标小球、球场光照、地面和移动遮挡需专项验证。候选不提供Tennibot完整拾球算法，也无原机点名供货证据，不能作为直接替换模块。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "tennibot-rover",
+      "productName": "Tennibot Rover",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "luxonis",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "移动视觉与边缘感知原型候选",
+      "rationale": "Luxonis公开相机与边缘视觉平台可用于新家庭机器人的感知原型，需按视角、距离、算力、功耗与系统接口筛选。开发平台不等于可直接装入原机的部件，也不证明EBO Max使用其相机或处理方案。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "enabot-ebo-max",
+      "productName": "Enabot EBO Max",
+      "category": "home-assistant",
+      "status": "on_sale"
+    }
+  ]
+}

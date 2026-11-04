@@ -42,5 +42,186 @@
     "notes": [
       "已视觉检查：外形匹配、未添加氧气传感或性能医疗宣称；气路与内部板形为概念。"
     ]
+  },
+  {
+    "id": "mudra-link",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/mudra-link/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Mudra Link腕部肌电输入与无线指令的AI概念爆炸图",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/mudra-link.txt",
+        "referencePaths": [
+          "assets/hardware/mudra-link/product.png",
+          "assets/hardware/mudra-link/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉核对灰阶外形与接触区，无读取思想或性能参数；内部板形与电源为概念模块。"
+    ]
+  },
+  {
+    "id": "neurable-one",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/neurable-one/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Neurable One织物EEG耳垫、音频与应用分析的概念爆炸图",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/neurable-one.txt",
+        "referencePaths": [
+          "assets/hardware/neurable-one/product.jpg",
+          "assets/hardware/neurable-one/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已核对灰阶外观与织物传感特征，无脑龄数值、读心或医学效果宣称；内部层为概念结构。"
+    ]
+  },
+  {
+    "id": "biped-noa",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/biped-noa/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "NOA肩部视觉辅助设备的AI概念爆炸图，可拆电源位于后颈",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/biped-noa.txt",
+        "referencePaths": [
+          "assets/hardware/biped-noa/ai-exploded-draft.png",
+          "assets/hardware/biped-noa/product.png",
+          "assets/hardware/biped-noa/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "初稿电池位置与手册不符，已用内置ImageGen修复至后颈；最终视觉核验，未添加相机数量和效果参数。内部几何仍为概念。"
+    ]
+  },
+  {
+    "id": "withings-u-scan-nutrio",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/withings-u-scan-nutrio/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "withings-u-scan-nutrio的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/withings-u-scan-nutrio.txt",
+        "referencePaths": [
+          "assets/hardware/withings-u-scan-nutrio/product.jpg",
+          "assets/hardware/withings-u-scan-nutrio/reference.jpg",
+          "assets/hardware/withings-u-scan-nutrio/reference-side.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文字及无虚构参数；内部模块形状、板卡和布置仅为概念，不代表完整BOM。"
+    ]
+  },
+  {
+    "id": "kardiamobile-6l",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/kardiamobile-6l/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "kardiamobile-6l的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/kardiamobile-6l.txt",
+        "referencePaths": [
+          "assets/hardware/kardiamobile-6l/ai-exploded-draft.png",
+          "assets/hardware/kardiamobile-6l/product.jpg",
+          "assets/hardware/kardiamobile-6l/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文字及无虚构参数；内部模块形状、板卡和布置仅为概念，不代表完整BOM。",
+      "初稿底部电极被画在侧边，已用内置ImageGen修正为底面；保留原稿及完整修正prompt作为生成记录。"
+    ]
+  },
+  {
+    "id": "hilo-band-system",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/hilo-band-system/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "hilo-band-system的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/hilo-band-system.txt",
+        "referencePaths": [
+          "assets/hardware/hilo-band-system/product.png",
+          "assets/hardware/hilo-band-system/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文字及无虚构参数；内部模块形状、板卡和布置仅为概念，不代表完整BOM。"
+    ]
+  },
+  {
+    "id": "looki-l1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/looki-l1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "looki-l1的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/looki-l1.txt",
+        "referencePaths": [
+          "assets/hardware/looki-l1/product.jpg",
+          "assets/hardware/looki-l1/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文字及无虚构参数；内部模块形状、板卡和布置仅为概念，不代表完整BOM。"
+    ]
+  },
+  {
+    "id": "tapxr",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tapxr/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "tapxr的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/tapxr.txt",
+        "referencePaths": [
+          "assets/hardware/tapxr/product.jpg",
+          "assets/hardware/tapxr/reference.jpg",
+          "assets/hardware/tapxr/reference-shape.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查外形、灰阶、文字及无虚构参数；内部模块形状、板卡和布置仅为概念，不代表完整BOM。"
+    ]
   }
 ]

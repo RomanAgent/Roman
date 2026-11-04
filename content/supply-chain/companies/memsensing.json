@@ -1,0 +1,247 @@
+{
+  "id": "memsensing",
+  "name": "MEMSensing 敏芯",
+  "legalName": "Memsensing Microsystems (Suzhou, China) Co., Ltd.（官网英文主体）",
+  "country": "中国大陆",
+  "locations": [
+    "苏州工业园区（公开公司联络地点）",
+    "昆山（关联业务公开地点）"
+  ],
+  "tier": "specialist",
+  "tierNote": "按MEMS声学与多类传感技术专业方向分组；公开联系地为苏州，本轮不由名称或地址额外推断总部称谓。",
+  "roles": [
+    "sensing",
+    "acoustics"
+  ],
+  "capabilities": [
+    "模拟与数字MEMS硅麦克风",
+    "顶部及底部进音封装",
+    "MEMS声学芯片与配套ASIC技术",
+    "骨传导传感产品目录",
+    "压力、惯性、力与流量传感方向"
+  ],
+  "productCategories": [
+    "audio",
+    "recording",
+    "companion",
+    "wearables"
+  ],
+  "website": "https://en.memsensing.com/",
+  "contactUrl": "https://en.memsensing.com/Contact.html",
+  "summary": "MEMSensing提供多类MEMS传感产品，本轮重点核查硅麦克风的模拟与数字输出、进音结构及公开料号表。它可作为录音、穿戴或语音交互设备的感知前端候选，但传感器并不等于完整降噪或语音助手；阵列布局、声孔、防护、主控接口与算法仍需整机团队共同设计，不能从器件参数直接推导识别效果。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "已披露定位：MEMS传感技术企业",
+        "text": "官网介绍MEMS设计制造与多类传感方向，声学目录包含硅麦克风和骨传导传感产品，另有压力、惯性等类别。目录按集团能力合并记录，不将关联公司重复当作独立备选，也不把公司宣传中的行业先后或规模数字当作技术适配证据。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "定位判断：为算法提供输入而非答案",
+        "text": "敏芯在AI硬件中的相关位置主要是声音或运动等信号采集，输入质量会影响后续处理，但芯片本身不自动理解语义。研究应先确认设备需要空气传声、接触振动还是其他信号，不能因为都属于MEMS，就认为不同传感器可以替代同一任务。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "已披露能力：麦克风参数可逐项比较",
+        "text": "硅麦克风页面列出模拟、PDM及IIS等输出形式，以及顶部或底部进音结构、尺寸、灵敏度和声学指标。它提供了实际选型起点，但不同料号参数必须分别核对，不能挑选各行最优数值组合成不存在的器件，也不将典型指标视为整机结果。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "能力判断：芯片与封装选择影响集成",
+        "text": "声孔方向和数字接口会影响电路、结构与主控软件，尤其是紧凑穿戴或多麦克风设备。采购不应只按灵敏度选择，还要考虑装配、保护和同步需求；公开表格未给出客户整机的所有约束，正式设计仍需要详细规格和应用支持。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配判断：语音与环境声音采集前端",
+        "text": "录音硬件、桌面陪伴设备和需要语音交互的穿戴产品，可以根据空间与接口将敏芯麦克风列为候选。具体匹配是声音输入层，不能据此声称设备拥有更好的大模型理解、说话人分离或降噪，这些功能需要结合算法和真实环境验证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "不匹配边界：接触振动与普通拾音不同",
+        "text": "骨传导传感器作为另一产品类别有其输入方式，不能与空气声麦克风混称为同一种元件。是否能帮助佩戴设备区分本人讲话，需要进一步读取对应规格并测试接触条件，本轮仅确认类别存在，不承诺任何语音识别或抗噪效果。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "已披露入口：苏州销售与业务咨询",
+        "text": "官网联系页提供销售电话、商务邮箱和苏州公司地址，并单独列出昆山关联业务信息。团队应按所需传感器类别确认接洽对象，而不是向所有关联公司重复询价；公开联系方式不代表已确认本地现货、代理授权或具体项目支持范围。",
+        "evidence": "official",
+        "sourceIds": [
+          "s3"
+        ]
+      },
+      {
+        "title": "接洽建议：带声音场景与结构约束",
+        "text": "询问时提供目标声源距离、环境噪声、主控接口、麦克风数量和外壳声孔安排，并说明是否需要评估板或应用资料。这样才能讨论适当料号，而非只问是否支持AI；本轮没有联系供应商、取得样品或获得选型与交期承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "质量判断：器件一致性要在阵列中验证",
+        "text": "若设备使用多个麦克风，单颗典型参数不足以说明整组输入的一致性，安装位置和声道也会改变结果。应在最终结构中检查不同方向和音量下的采集差异，再评价算法，不能把原始信号偏差全部交给后期模型处理。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "质量验证：保护与装配改变声学路径",
+        "text": "外壳开孔、防尘或防护材料可能影响声音到达传感器的路径，测试需要包含实际装配、清洁和使用环境。官网表格不能替代这些验证，也不能由公司整合封测能力的介绍推断某客户模块已经满足耐久要求，质量条件应写入具体项目。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "商务边界：公开料号表没有项目价格",
+        "text": "页面公开了产品系列与部分参数，但本轮未取得起订量、单价、样品费用或供货周期。模拟和数字料号的主控与集成投入也不同，采购应比较完整采集链路，不能只根据封装大小猜测成本，更不以官网量产表述推断任意数量立即可交付。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "title": "商业判断：输入改善需对应任务收益",
+        "text": "更高的声学指标可能有助于特定环境，但如果用户主要在安静近讲场景使用，升级未必产生明显价值。应先测量当前输入瓶颈，再决定更换器件或改变结构，避免把所有识别失败归结为麦克风档次，也不以参数提高推算商业回报。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "技术风险：数字接口被理解为完整算法",
+        "text": "数字麦克风输出不等于已经完成降噪、唤醒或语义识别，系统仍需处理时钟、数据和算法。产品介绍应明确传感与推理的区别，不能因为器件进入智能产品就称其具备通用AI能力；错误匹配可能让团队低估主控与软件开发工作。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "证据风险：品牌采用未点名具体型号",
+        "text": "官网对客户和量产有整体描述，但这不能确认本站任何录音或陪伴产品采用其器件。供应商链接应保留候选属性，涉及实际供货必须有产品或系列点名证据，同时也不能由苏州联系地址直接推断某个芯片的晶圆厂或封测地点。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "核验计划：保留原始采集信号对照",
+        "text": "使用候选麦克风在同一外壳中录制安静、噪声与多人条件，保存未经算法处理的音频，再比较后续识别结果。这样能区分器件、结构与模型贡献，避免只听经过不同降噪设置的成品音频，就错误判断传感器优劣。",
+        "evidence": "validation",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "核验计划：确认资料和变更管理",
+        "text": "进一步取得正式数据表、封装焊接要求、批次一致性和产品变更通知安排，并确认主控接口与评估支持范围。当前只核查公开产品和联系入口，未有实际样品测量或供货合同，目录中的匹配不能被用作性能保证或原机BOM证据。",
+        "evidence": "validation",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "MEMSensing 官方公司与产品范围",
+      "url": "https://en.memsensing.com/",
+      "note": "已打开；多类MEMS、关联业务与声学产品方向，不采用计划产能作为已实现产能。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "MEMSensing 官方硅麦克风目录",
+      "url": "https://en.memsensing.com/product/176.html",
+      "note": "已打开并阅读表格；输出、进音结构及料号参数，不跨行合并指标。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "MEMSensing 官方联系页",
+      "url": "https://en.memsensing.com/Contact.html",
+      "note": "已打开；英文主体、苏州和昆山联络地点与咨询入口。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "memsensing",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "足部惯性采集方向的候选能力",
+      "rationale": "MEMSensing公开惯性传感与模块方向，可作为Playermaker双脚运动采集的能力候选，但本轮详细核验的是其声学料号，惯性量程、采样和冲击要求必须另取正式资料。不能用麦克风规格代替选型，也没有该产品实际采用的点名证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "playermaker-2",
+      "productName": "Playermaker 2.0",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "memsensing",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "空气支撑控制的压力感知方向候选",
+      "rationale": "MEMSensing公开压力传感产品方向，与Balance空气支撑的感知控制存在工程对应，但原机传感器位置、量程和封装未披露，必须另取具体压力料号资料，不能套用已核麦克风规格。此关联只是能力候选，没有Bryte实际采用证据。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "bryte-balance-smart-bed",
+      "productName": "Bryte Balance Smart Bed",
+      "category": "sleep",
+      "status": "on_sale"
+    }
+  ]
+}

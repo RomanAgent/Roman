@@ -134,6 +134,8 @@
 
 - [Chessnut Companion](../hardware/chessnut-companion.md) — **能力候选 · 非已采用** / 桌边棋钟与复盘触控显示候选：Tianma公开中小显示与触控定制，可作为Companion横向屏候选，但实际尺寸、双人视角、接口与长局运行需要专项确认，标准工业屏不构成替换件。当前无Chessnut点名供货证据，也不提供Grandeur分析或账户服务。
 
+- [Looking Glass Go（白色版）](../hardware/looking-glass-go.md) — **能力候选 · 非已采用** / 小型光场屏的基础显示模组候选：Go需要小尺寸显示面板承载多视图内容，天马公开小中尺寸显示及模组集成能力，可作为基础显示层候选。它不等于提供Looking Glass专有光学与校准，分辨、接口、亮度和叠层要求仍须验证，本轮没有实际采用点名证据。
+
 ## 来源
 
 - [天马集团与显示设施介绍](<https://usa.tianma.com/about-us/>)：已打开，支持小中尺寸显示定位、集团主体与公开地域布局。

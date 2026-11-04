@@ -1,0 +1,574 @@
+{
+  "id": "arducam",
+  "name": "Arducam",
+  "legalName": "Arducam Technology Co., Ltd.（官网日本页面所列主体）",
+  "country": "中国香港",
+  "locations": [
+    "中国香港（公开主体所在地）",
+    "中国（官网说明的设计制造团队）"
+  ],
+  "tier": "specialist",
+  "tierNote": "专注嵌入式视觉与相机定制的专业供应商，不以宣传数量推断规模。 中国香港为官网所列公司所在地，未据此推断全部研发制造总部位置。",
+  "roles": [
+    "sensing",
+    "optics",
+    "engineering",
+    "software"
+  ],
+  "capabilities": [
+    "嵌入式相机模组",
+    "USB与MIPI等相机接口",
+    "多相机与全局快门方案",
+    "底层驱动及固件定制",
+    "外壳与整机视觉工程协作"
+  ],
+  "productCategories": [
+    "robotics",
+    "imaging",
+    "sports",
+    "creative-tools",
+    "gimbals"
+  ],
+  "website": "https://www.arducam.com/",
+  "contactUrl": "https://www.arducam.com/blog/contact-arducam/",
+  "summary": "Arducam从易于试用的嵌入式相机走向定制视觉工程，官网同时公开模组、驱动、固件和外壳相关服务。其优势线索是让不同计算平台接入图像，而不是替终端决定完整AI体验；原型板、商品模组与量产定制的交付边界必须分开确认，合作工厂也不能写成其自有工厂。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位：简化嵌入式图像接入",
+        "text": "公司介绍说明其设计制造嵌入式视觉硬件，并覆盖从微控制器、开发平台到个人电脑的相机连接。服务页同时提供定制方案，说明目录角色不局限于零售配件；但相机模组能接入计算平台，并不自动提供用户场景所需的识别模型。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断：原型便利与量产准备分开",
+        "text": "Arducam适合先验证图像输入是否可用，再讨论定制尺寸、接口和封装。早期能够快速看到画面只证明基本链路成立，不能代表消费终端的启动时间、热环境和批次一致性已解决，团队仍需要明确从试验模组到产品化的迁移工作。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力：硬件、驱动和外壳协作",
+        "text": "服务页列出硬件电路、底层驱动、嵌入式系统、应用和工业外壳相关研发能力，并说明可结合本地装配伙伴完成制造。这里应区分其工程团队和合作生产网络，不能把伙伴的制造能力写成已验证的自有产线或本项目承诺。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "公开能力：接口和采集方式有多种路线",
+        "text": "公司介绍列举不同接口、低光、全局快门及多相机方向，这为运动目标与嵌入式图像采集提供选型线索。具体产品能否同时满足同步、曝光和尺寸需求，需要落实到型号与驱动版本，不能把所有目录能力叠加到单个模组上。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配：视觉样机与小型设备输入层",
+        "text": "对于跟拍、运动分析或打印过程观察的原型，可先使用明确接口的相机模组验证数据链路。Arducam的能力与这类采集任务相符，但外壳、照明和目标距离会改变效果，目录关联只说明值得技术询问，并非原机采用证据。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "边界：模组不能替代完整摄影系统",
+        "text": "其嵌入式相机方案不应被直接当作可换镜头相机或运动相机的整体替换件。成品影像设备还涉及光学标定、视频处理和整机防护；若讨论候选，必须限定为特定感知或采集模块，并说明主控驱动与外壳集成仍待验证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "接洽：提供能重现的平台信息",
+        "text": "联系前应准备主控平台、系统版本、连接方式、相机型号和一段最小可复现采集流程。官方支持指引要求明确平台与问题现象，说明工程沟通需要具体上下文；仅描述画面不好或AI不准，很难区分传感、驱动与上层模型的问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "接洽：先选择技术支持或定制入口",
+        "text": "官网联系页分别提供技术问题、产品推荐、分销与定制方向，可用于减少项目被转错团队。应说明是标准模组试用还是需要改接口与外壳，并确认后续资料是否涉及保密；本轮仅记录渠道，没有发送需求或代表用户建立合作。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "验证：曝光、同步与主控稳定性",
+        "text": "多相机或运动目标应用应测试曝光差异、帧同步、连续采集和重新连接，不只比较单帧清晰度。对于滚动或全局快门路线，还需使用真实移动速度与光照，确认画面是否足够支持后续分析，避免把传感器规格当成完整系统效果。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "验证：原型到装配版本的差异",
+        "text": "定制线缆、镜头固定或外壳窗口可能改变原型时的表现，因此量产样品需重做图像与连接验证。要保留相机、固件和驱动的组合版本，并确认生产伙伴变化是否触发回归测试；本轮未取得任何具体项目的批次审核报告。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断：标准件成本不包含定制工程",
+        "text": "零售相机便于概念验证，但改变电路、固件或外壳会引入不同的工程和维护责任。询价应分别列出标准产品、设计修改、验证和后续支持，不能把商店样品价格当作完整定制方案成本，也不推断其会无条件接受小批量订单。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "待确认：软件维护与采购连续性",
+        "text": "项目应确认主控系统升级后由谁维护驱动，以及相机版本变化、替代传感器和停产信息如何通知。公开服务介绍没有给出本项目交期或生命周期承诺，采购方需要取得明确条款，避免原型可购买却无法长期维护同一产品配置。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "风险：开发平台适配不等于所有系统适配",
+        "text": "支持某类开发板的相机，未必可以直接用于任意定制主控板，线缆、电源和软件版本都可能成为差异。尤其在多摄像输入中，要核对带宽与同步边界，不能因为接口名称相同就认定系统可以稳定处理全部数据。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "风险：开放资料与专用工程边界",
+        "text": "官网强调开放硬件软件与定制服务，但不同产品、第三方组件及定制成果的授权范围可能不同。需要按实际文件和合同确认可修改、分发与长期维护的部分，不能把开放生态理解为所有源代码、工具和制造资料都可自由获得。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "下一步：做一个最小视觉闭环",
+        "text": "选择目标产品最关键的场景，用候选模组完成采集、传输、模型输入和用户反馈的闭环，记录图像异常来自哪一层。这样可以判断需要换光学、改驱动还是调整模型，而不是在缺少定位证据时反复增加更高规格的摄像头。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "下一步：把试用结论变成工程需求",
+        "text": "将成功与失败样例、软件版本和外壳条件整理成需求单，再向定制入口确认可交付范围及验收方式。只有具体方案和样品验证通过，才可进入采购比较；本目录不会因原型能运行就声称其已成为所链接消费产品的供应商。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "Arducam研发与定制制造服务",
+      "url": "https://www.arducam.com/blog/service/",
+      "note": "已打开，支持硬件、固件、外壳工程及合作装配伙伴的边界。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "Arducam公司与产品路线",
+      "url": "https://www.arducam.com/blog/about-us/",
+      "note": "已打开，支持接口、低光、全局快门及多相机等产品方向。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "Arducam联系与支持分类",
+      "url": "https://www.arducam.com/blog/contact-arducam/",
+      "note": "已打开，支持技术、产品推荐和定制入口。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s4",
+      "title": "Arducam日本官方公司资料",
+      "url": "https://www.arducam.com/japan",
+      "note": "已打开，确认公开主体名称及中国香港所在地；不引用员工数字。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "USB视觉输入与相机驱动候选",
+      "rationale": "Arducam公开USB相机和底层驱动工程能力，与Link 2的电脑视觉输入层具有对应关系；但原机图像、语音和云台控制是整体系统，需要另行验证体积、延迟和接口，不能把普通USB模组当成可直接替换整机，也没有点名供货证据。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "insta360-link-2",
+      "productName": "Insta360 Link 2",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "打印监测视觉输入候选",
+      "rationale": "Arducam提供多接口相机模组和图像驱动工程，可用于讨论K2 Plus监控与校准相机的输入层；两类相机的视场、标定、照明与热环境要求不同，必须分别验证。该候选不提供原机检测算法，也不表示实际采用Arducam器件。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "creality-k2-plus-combo",
+      "productName": "Creality K2 Plus Combo",
+      "category": "maker",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "动作观察视觉输入工程候选",
+      "rationale": "Arducam公开多接口相机和定制驱动能力，与K1动作视觉输入层存在对应；但全身视场、站位、遮挡与训练算法配合需要专项验证，普通摄像模组不等于完整姿态指导，也没有该品牌或型号实际采用的点名资料。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "aeke-k1",
+      "productName": "AEKE K1",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "离车训练动作摄像输入候选",
+      "rationale": "Arducam公开相机模组与接口工程，与Bike+离车视觉反馈的输入层具有对应；但目标全身视场、光线、站位和IQ软件配合须专项验证，通用相机不提供完整训练模型，也不能由候选关联推定原机实际采用。",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "peloton-cross-training-bike-plus",
+      "productName": "Peloton Cross Training Bike+",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "指定跑姿模式视觉输入候选",
+      "rationale": "Arducam公开相机接口和定制工程能力，与Tread+指定视觉模式的采集层对应，但全身覆盖、运动模糊和算法配合需测试，普通摄像模组不能提供完整跑姿分析。当前无原机采用证据，也不据候选关系推断真实传感器型号。",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "peloton-tread-plus-vision",
+      "productName": "Peloton Tread+ Vision",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "离机力量反馈摄像输入候选",
+      "rationale": "Arducam的相机模组与接口工程可用于研究Row+离机视觉输入，必须验证全身视场、站位、光线和IQ软件协同；不能据此扩展为所有划船动作都被摄像评估，也没有公开资料说明原机采用该公司的器件或算法。",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "peloton-cross-training-row-plus",
+      "productName": "Peloton Cross Training Row+",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "固定机位球员与球视觉输入候选",
+      "rationale": "Arducam公开相机模组和驱动集成，可作为Partner Lite固定视觉输入层候选，但球速、视场、光线和Tennibot软件配合须专项确认，标准模组不提供完整训练策略。当前没有原机采用证据，也不能将V2移动底座需求强加给Lite。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "tennibot-partner-lite",
+      "productName": "Tennibot Partner Lite",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "Smart View前置视觉输入工程候选",
+      "rationale": "Arducam公开相机模组与驱动工程能力，可作为Tonal 2前置采集层的候选，但动作全身覆盖、遮挡和Smart View软件配合需专项验证，普通模组不提供完整训练分析。当前无原机采用证据，也不能把外部手机相机计为套件供应模块。",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "tonal-2",
+      "productName": "Tonal 2",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "扫描相机接口与驱动工程候选",
+      "rationale": "Arducam公开相机接口和定制驱动工程，可用于Moose采集链路的候选研究，但结构光同步、数据带宽、光学固定与JMStudio配合需要验证，不能当作完整三维算法方案。当前没有原机模组或工厂采用证据。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "3dmakerpro-moose",
+      "productName": "3DMakerpro Moose",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "喷嘴与腔内监控相机输入候选",
+      "rationale": "Arducam公开相机模组与驱动工程，可用于H2D视觉输入的候选研究，但喷嘴和腔内的视场、光照、热环境及标定不同，必须分别验证，不能当作完整失败检测模型。当前无原机实际采用或传感器型号证据。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "bambu-lab-h2d",
+      "productName": "Bambu Lab H2D",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "带照明成型监控相机输入候选",
+      "rationale": "Arducam公开相机模组与接口工程，可用于Saturn监控视觉候选研究，但树脂环境、照明、遮挡、安装和软件配合需要验证，普通相机不提供完整空平台或翘曲检测模型。当前没有原机实际采用或传感器型号证据。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "elegoo-saturn4-ultra-16k",
+      "productName": "ELEGOO Saturn 4 Ultra 16K",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "内置人物追踪视觉输入候选",
+      "rationale": "Arducam公开相机模组与驱动工程，可用于SCORP 3内置采集层候选研究，但模块尺寸、视场、手势和跟踪软件配合需核对，通用摄像头不提供完整追踪算法。当前没有原机采用证据，也不扩展为任意对象识别能力。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "feiyu-scorp-3",
+      "productName": "Feiyu SCORP 3",
+      "category": "gimbals",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "外置AI Tracker视觉输入候选",
+      "rationale": "Arducam公开相机模组和驱动工程，可作为Flow AI Tracker采集层候选，但尺寸、视场、功耗与跨应用跟踪实现需确认，通用模块不提供DockKit或Deep Track能力。当前没有原机采用证据，也不能将手机内置相机视为附件供应。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "insta360-flow-2-pro",
+      "productName": "Insta360 Flow 2 Pro（AI Tracker组合）",
+      "category": "gimbals",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "外置追踪模块视觉输入候选",
+      "rationale": "Arducam公开相机模组与驱动工程，可作为Smooth 5S AI追踪输入候选，但尺寸、补光影响、视场与识别软件需专项确认，通用摄像头不提供完整跨应用跟随。当前无ZHIYUN点名采用证据，也不涉及手机相机的自动对焦能力。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "zhiyun-smooth-5s-ai",
+      "productName": "ZHIYUN Smooth 5S AI",
+      "category": "gimbals",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "广角视觉采集模组候选",
+      "rationale": "Nex需要稳定摄像采集支持本机身体识别，Arducam公开提供相机模组及定制集成服务，功能上可作为视觉硬件候选。取景、低光、接口和算法标定仍须整机测试，未找到该公司为Nex Playground供货的点名证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "nex-playground",
+      "productName": "Nex Playground",
+      "category": "games",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "水下成像链的相机模组候选",
+      "rationale": "V-EVO需要连续图像输入支撑观察和目标锁定，Arducam公开相机模组与定制集成服务，可作为成像子系统能力候选。它并不自动提供适合本机深度的密封与窗口，接口、低光和整机压力环境仍须验证，未披露实际供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "qysea-fifish-v-evo",
+      "productName": "QYSEA FIFISH V-EVO",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "靶面视觉采集模组候选",
+      "rationale": "GRAN EYE用双摄像单元提供靶面图像，Arducam公开相机模组与定制视觉集成能力，可作为采集子系统候选。视角、曝光、接口、机身形状和落点模型需共同验证，本轮没有其向GRAN DARTS供货的公开证据。",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "gran-eye-2026",
+      "productName": "GRAN EYE（2026安装套件版）",
+      "category": "games",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "纸面成像与输入模组候选",
+      "rationale": "Arducam公开相机模组能力可用于重新开发扫描输入原型，但近距离光学、运动条件、机身体积和识别软件必须一起验证。此处不是适用于原机的替换建议，资料也没有点名X9 Pro采用该公司模组。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "iflytek-dictionary-x9-pro",
+      "productName": "讯飞AI词典笔 X9 Pro",
+      "category": "education",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "视觉输入与成像模组选型",
+      "rationale": "M7公开具备独立视觉追踪器；Arducam的相机模组能力可作为重新开发时的样机选型入口。仍需验证尺寸、接口、视场、功耗、低光与算法平台兼容；不能据此认定其是M7的实际摄像头供应商。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "hohem-isteady-m7",
+      "productName": "Hohem iSteady M7",
+      "category": "gimbals",
+      "status": "on_sale"
+    }
+  ]
+}

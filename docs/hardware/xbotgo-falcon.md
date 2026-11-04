@@ -1,0 +1,267 @@
+# XbotGo Falcon
+
+**XbotGo** · 影像与创作 · 核查 2026-11-04
+
+按团队运动场景追踪比赛进程的独立拍摄设备
+
+消费渠道：个人零售。
+
+## 产品图片与结构参考
+
+### 产品图
+
+![XbotGo Falcon 官方产品图](../../assets/hardware/xbotgo-falcon/product.png)
+
+XbotGo Falcon 官方产品图 · 来源：[XbotGo · 官方资料](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [原始图片](<https://cdn.shopify.com/s/files/1/0637/2740/3230/files/Group_2147227420.png?v=1784624294>)
+
+### 参考图
+
+![XbotGo Falcon 两种配色与顶部操作参考（同款硬件，不重复计数）](../../assets/hardware/xbotgo-falcon/reference.png)
+
+XbotGo Falcon 两种配色与顶部操作参考（同款硬件，不重复计数） · 来源：[XbotGo · 官方资料](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [原始图片](<https://cdn.shopify.com/s/files/1/0637/2740/3230/files/Frame2147227587.png?v=1786961681>)
+
+### AI 生成爆炸示意
+
+![XbotGo Falcon 功能模块概念爆炸示意；结构位置为推断，非实物拆机。](../../assets/hardware/xbotgo-falcon/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/xbotgo-falcon.txt)
+
+> 以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。
+
+> 保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。
+
+> 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
+
+## 销售与购买
+
+- 状态：在售。核查日官方商品页及公开商品数据均显示Standard / Shadow Grey可购、available=true、US$769促销价格。仅记录独立相机标准版，不将三脚架套装、颜色或手机支架版重复收录。
+
+- 地区：美国、加拿大、英国、欧洲、澳大利亚、日本等官网地区
+
+- 价格：官方标准版US$769（页面参考价US$799）。核查日促销显示；三脚架与存储卡另核。基础拍摄无需订阅，足球赛后AI分析等可选服务另付费；云容量促销不视为永久权益。
+
+- 中国大陆：官方地区选择可见香港、澳门与台湾，未见中国大陆；本轮未核大陆授权渠道、App与云服务完整可用性。
+
+- [官方产品 / 商店](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>)
+
+## AI 的实际作用
+
+XbotVision 3.0结合深度学习跟踪、场景分析与相机控制，按不同球类运动追踪比赛动作；双镜头分担识别和影像采集。
+
+服务与联网依赖：本机拍摄与跟拍需正确场地摆放及microSD卡，App用于设置、直播和管理。联网分享、云存储和可选赛后分析有独立条件，不把基础免订阅扩写成全部服务免费。
+
+## 是否冷门
+
+细分专业（研究判断）：团队运动自动拍摄有明确付费替代，属于专项工作流而非泛化相机升级；是否适配具体球类决定价值。
+
+## 需求与市场
+
+案头需求是家长或个人教练既想观看比赛，又想留下完整进程，不愿全程手动追球。专项AI把比赛动作转成取景控制；与普通随身相机相比，它的价值要看关键回合是否被完整保留。
+
+### 事实：任务边界 · 官方资料
+
+Falcon的官方定位包括运动家庭、个人教练与球员，它以双镜头和专项跟踪拍摄比赛，不需要把手机充当主摄像机。产品支持按球类选择模式并由设备取景；本条任务是让人观看或参与比赛时仍留下进程，不是再增加一台普通相机型号。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 判断：真实需求 · 研究判断
+
+需求假设在于家长想看孩子比赛却又怕错过值得保存的片段，或个人教练希望赛后回看而不愿安排专门摄像者。设备的价值并非所有画面都更好看，而是减少连续追球的劳动，同时保留关键回合；能否做到需要完整赛事记录验证。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 验证：任务完成 · 待验证
+
+调研可以先让家长描述过去如何拍摄、哪些时刻最遗憾，再在一场完整比赛中使用设备并做人工事件时间标记。赛后核对关键回合是否在画面内、有没有回看和分享，避免只用进球集锦证明全场跟踪可靠或推断训练水平改善。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+## 用户画像
+
+适合常去同类场地、能固定摆放设备的运动家庭和个人教练。购买者要能理解场地边界、存储和上传，不是随手放在任何位置就可替代摄像者；不同球类支持方式需逐项核验。
+
+### 事实：使用条件 · 官方资料
+
+官网提供标准相机与不同支撑附件包，录制需要另装符合要求的microSD卡，设置和分享通过App衔接。它不要求购买者属于俱乐部，但仍需要有人选机位和确认工作状态；基础拍摄免订阅也不等于设备无需任何准备或网络服务条件。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 判断：人群筛选 · 研究判断
+
+画像应按使用者在场边的角色划分：家长重视少拿手机、教练重视完整回合、球员可能更想看自己。它们对跟随球或固定个人的要求不同，不能用团队运动模式的描述证明所有球类都支持一直锁住某位球员，也不能默认购买者会自行剪辑。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 验证：参与者差异 · 待验证
+
+招募应记录球类、场地大小、常见机位高度和操作者是否会中途离开，再让他们独立架设、选模式和确认录制。访谈问最怕漏掉什么、愿意花多少赛后整理时间，以及下一场比赛是否会主动带设备，区分拥有意愿和实际复用。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+## 竞争与替代
+
+替代是家长手持手机、全景固定机位和高价球队摄像系统。目录不再加入同品牌手机云台或颜色变体；该项代表团队比赛的专项动作捕捉任务，不能借像素升级冒充新需求。
+
+### 事实：方案范围 · 官方资料
+
+该条目代表团队比赛的专项视觉跟拍，目录不再收同品牌手机支架、三脚架套装或颜色作为独立场景。普通人像跟随云台、固定广角相机和球队专用系统都可替代一部分任务，但它们在跟踪目标、布置方式和服务费用上并不相同。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 判断：替代关系 · 研究判断
+
+固定全景可能不漏场地却让远处动作太小，人工拍摄可以理解事件但需要持续注意，自动跟拍则把判断交给运动模型。Falcon的优势要通过具体球类的关键回合覆盖来比较，而不是只把无需订阅或视频分辨率当作所有场景下的胜出条件。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 验证：比较方法 · 待验证
+
+比较时应统一场次和事件清单，分别记录球权转移、快速反击、暂停及场边干扰时的取景结果，检查是否能被非专业用户理解。成本也应分开写硬件、支撑、存储及可选分析，不能把其它系统含服务的价格直接和裸机促销价对比。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+## 供应链
+
+硬件链含双镜头、本机处理、运动机构、电池、存储与连接。官网点名Sony成像传感器但未给完整上游链；镜头标定、转动平稳和长时户外供电需要共同验证，不能凭外形猜主控。
+
+### 事实：功能组成 · 官方资料
+
+官方材料点名Sony成像传感器，并描述双镜头、本机AI处理、取景运动、电池、存储卡和无线连接。这个公开点名只能支持成像器件的有限关联，不能推出完整镜头模组、主控或代工来源；本轮没有该型号真实拆机和上游物料资料。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 判断：交付约束 · 研究判断
+
+工程约束在于跟踪镜头与成像镜头的协同、机体转动的稳定和长时录制的供电散热。支撑高度、风和振动会进入实际取景效果，主机很小也不能省掉稳固安装；制造验证需要把光学标定、运动响应和图像写入放进同一长时任务。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 验证：选型缺口 · 待验证
+
+Sony可按点名证据关联成像传感器，FAULHABER可作为紧凑光学运动候选，欣旺达可作为消费电池工程候选。后两者都未被证实实际采用，选型前仍需载荷、空间、散热和电气接口资料，不能从品牌惯用供应商猜本机方案。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+## 技术路径
+
+官方合作页面明确深度学习跟踪、场景分析和相机控制相结合。它需要理解运动场景中的动作重点，不能等同于始终锁住用户指定球员；基础跟拍与足球赛后报告也不是同一个运行环节。
+
+### 事实：AI机制 · 官方资料
+
+品牌官方合作页面明确XbotVision 3.0结合深度学习跟踪、场景分析和实时相机控制，双镜头分别帮助观察动作与采集画面。产品商店还将足球赛后AI分析列为可选付费服务，因此现场跟拍和赛后报告是两条不同的技术与商业工作流。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 判断：系统边界 · 研究判断
+
+专项跟踪需要判断画面里哪一部分动作值得取景，多个球、遮挡或邻场活动都可能增加歧义。官方未给各球类、机位和速度下的可独立复核误差分布；能自动追踪比赛不等于理解每次判罚，也不能扩写为始终跟住某名球员。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 验证：算法与体验 · 待验证
+
+测试应以完整比赛为单位，用人工事件表核对关键回合、镜头滞后与目标丢失，并记录摆放和所选模式。把失误按场地、遮挡和球类分类，比单一总准确率更有解释力；本轮尚未做这种对照，不能从演示片或买家评论推断实测表现。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+## 产品审美
+
+圆角横向机身、双镜头和顶部预设按钮降低传统摄影器材感，灰色款较克制。实际使用还要加高机位和稳定支撑，外观评估应包括架设、搬运与旁人通行，不只看桌面产品图。
+
+### 事实：外观与交互 · 官方资料
+
+实物主图显示横向圆角机身、并列双镜头、顶部状态显示和预设按钮，标准灰色与绿色属于同一硬件款式。所选真实参考图展示顶部与镜头角度，概念分层保留外形，把未公开的电路及运动机构作为抽象模块，并未添加具体芯片或性能参数。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 判断：使用中的形态 · 研究判断
+
+这种造型比传统长镜头相机更容易理解为自动设备，但真正场边使用还需要稳定支撑和清楚可见的录制状态。三脚架高度可能提高视野，也增加搬运和通行管理，审美不能仅评价主机是否小巧，还要看整套装置在公共场地是否合适。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 验证：日常接受度 · 待验证
+
+可观察用户从包中取出设备到完成架设的全过程，记录按钮是否容易误按、状态字是否看得清，以及比赛开始后还需要检查几次。访谈时问是否愿意在人多场边摆放、是否担心设备影响他人，并把这些反馈与真实机位选择一起分析。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+## 关键风险
+
+遮挡、快速转移、邻近场地和摆放过低可能影响跟踪，重要比赛仍需确认录制状态与存储。页面云权益有多种促销口径，不能把短期容量赠送或基础免订阅当作全部AI服务终身免费。
+
+### 事实：已知限制 · 官方资料
+
+商品页把基础拍摄免订阅与足球付费赛后分析分别说明，云存储又有基础与限时促销的不同表述，不能合并为全部AI服务永久免费。地区列表也没有明确中国大陆，本轮未核大陆App和云服务的完整条件，标准相机可购不构成本地服务承诺。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 判断：失效影响 · 研究判断
+
+实际风险包括关键回合被遮挡或未被模型追上、未安装存储卡，以及操作者误以为已开始录制。对家庭来说漏掉不可重来的片段是直接损失；对教练来说不完整录像还可能影响复盘，所以不能因设备自动化就完全忽略状态确认和人工判断。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 验证：风险处理 · 待验证
+
+验证应在非关键比赛先完成整场录制、断网本地保存和赛后导出，检查卡满、电量不足与连接变化时的提示。采购前分别确认云容量期限、分析费用及所需球类功能；需要指定个人追踪时必须核实，不以泛称多运动支持代替确认。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+## 机会与验证
+
+机会在于降低家庭赛事记录的持续劳动。用真实完整比赛对照人工时间标记，统计关键回合遗漏、架设耗时和赛后剪辑负担，并访谈家长是否因为不必一直拿手机而愿意继续带它。
+
+### 判断：可尝试切口 · 研究判断
+
+可尝试的机会是把家庭赛事记录从全程手持转成开赛前可重复的布置流程，并提供容易核对关键片段的回看方式。若最大痛点在赛后找到自己的孩子，改进事件和个人片段定位可能比继续增加分辨率更有价值；这需要真实家庭行为验证。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 判断：商业边界 · 研究判断
+
+商业边界在于比赛频次、不同球类追踪质量和谁承担设备管理。家庭可能只在一个赛季使用，个人教练则需要稳定长期归档；这些差异会影响硬件与服务接受度，但本轮没有销量、付费转化或教练访谈，不能据官方渠道覆盖估算需求规模。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+### 验证：下一步调研 · 待验证
+
+下一步可跟踪一个短赛季，记录每场是否带设备、准备与剪辑耗时、关键回合遗漏和实际分享对象，再询问不带的原因。把看比赛更自在的主观反馈与客观录制结果并列，不用模型创新分数或个别家长满意评价预测市场成功。
+
+依据：[XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) · [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [sony-semiconductor-solutions](../supply-chain/sony-semiconductor-solutions.md) — **公开披露关系** / 官方点名的成像传感器：XbotGo官方商店及合作页面明确将Falcon成像传感器标为Sony，可建立品牌层面的有限采用关联。公开资料没有在本轮确定具体传感器型号、镜头模组或直接交易方，因此关系只覆盖该成像器件身份，不延伸到算法和主控。
+
+- [faulhaber](../supply-chain/faulhaber.md) — **能力候选 · 非已采用** / 专项取景运动机构候选：Falcon需要紧凑取景运动与控制协同，FAULHABER公开光学设备电机和定制运动工程能力，可作为功能匹配候选。载荷、速度、噪声、耐久与机身空间仍须验证，未找到其向XbotGo Falcon供货的点名证据。
+
+- [sunwoda](../supply-chain/sunwoda.md) — **能力候选 · 非已采用** / 长时移动拍摄电池工程候选：Falcon需电池维持本机成像、处理和运动，欣旺达公开消费电子电池及电源工程能力，可作为供电模块候选。容量、放电、热量和机械接口尚未匹配，不能将一般消费电池能力解释成该型号已采用或现成替换包。
+
+[浏览供应链目录](../supply-chain.md)
+
+## 功能分层示意
+
+这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。
+
+1. **双镜头输入**：双镜头承担动作观察与成像；具体传感器组合依官方规格核对。（官方披露）
+
+2. **运动AI**：XbotVision 3.0执行深度学习跟踪与场景分析。（官方披露）
+
+3. **取景执行**：相机运动与预设模式响应比赛过程。（官方披露）
+
+4. **本机记录**：电池、microSD和控制面板支持独立录制。（官方披露）
+
+5. **App与可选服务**：App管理直播、剪辑及云端功能，付费赛后分析另作服务层。（官方披露）
+
+## 来源
+
+1. [XbotGo Falcon官方标准灰色商品页](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486>) — 实际打开并核公开商品数据；标准灰色可购、769美元与存储卡要求。
+
+2. [XbotGo官方产品及算法合作说明](<https://partners.xbotgo.com/>) — 实际打开；Falcon双镜头、XbotVision 3.0深度学习跟踪、场景分析与控制。
+
+3. [XbotGo Falcon官方商品功能说明](<https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports>) — 实际打开；基础免订阅和可选足球AI分析、当前云促销及地区列表。
+
+[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/xbotgo-falcon)

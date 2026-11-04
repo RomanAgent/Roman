@@ -1,0 +1,440 @@
+{
+  "id": "hidock-p1",
+  "name": "HiDock P1",
+  "brand": "HiDock",
+  "category": "recording",
+  "tagline": "个人音频采集硬件与HiNotes会议整理",
+  "officialUrl": "https://www.hidock.com/products/hidock-p1-ai-voice-recorder",
+  "status": "on_sale",
+  "statusEvidence": "已打开官方具体型号商品页，价格、数量和Add to cart可见；H1E、颜色及套装未重复计数。",
+  "regions": [
+    "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+  },
+  "price": {
+    "text": "所见US$199；自动优惠按结算",
+    "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "HiNotes将双向通话或房间录音转成文本、摘要与行动项；BlueCatch负责音频连接，不单独作为AI证据",
+    "dependency": "需兼容电脑/手机、耳机蓝牙链路与HiNotes账号；USB-C和蓝牙的具体接法影响是否采集双向声音，高级摘要按服务权限"
+  },
+  "highlights": [
+    "个人音频采集硬件与HiNotes会议整理",
+    "便携金属录音主机、双麦克风、USB-C与蓝牙音频桥接",
+    "AI与联网服务边界单列",
+    "个人可使用的实体产品"
+  ],
+  "analysis": {
+    "demand": "需求假设：用自己的蓝牙耳机通话时希望保留双向音频，而不是换成特定品牌耳机。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+    "userProfile": "画像推断：经常远程交流、采访或自用记录的个人工作者，愿意复核转录并配置音频输入输出。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+    "competition": "案头判断：与系统录音、手机软件、专用录音器和扩展坞竞争；音频链路与记录服务整合是差异，普通降噪并非收录AI理由。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+    "supplyChain": "公开资料可核对便携金属录音主机、双麦克风、USB-C与蓝牙音频桥接，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+    "technology": "HiNotes将双向通话或房间录音转成文本、摘要与行动项；BlueCatch负责音频连接，不单独作为AI证据。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+    "aesthetics": "图示观察：扁平金属机身和显著录音控制适合随电脑携带，形态不同于桌面扩展坞。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+    "risks": "通话与会议记录需要处理在场者知情、权限和敏感内容；说话人归属和摘要可能错误，不能自动把行动项当成对方承诺。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+    "opportunity": "市场差异主要在于个人音频采集硬件与HiNotes会议整理。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "实体输入",
+      "detail": "便携金属录音主机、双麦克风、USB-C与蓝牙音频桥接；仅功能层示意，非拆机。",
+      "evidence": "official"
+    },
+    {
+      "name": "采集与控制",
+      "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "AI功能",
+      "detail": "HiNotes将双向通话或房间录音转成文本、摘要与行动项；BlueCatch负责音频连接，不单独作为AI证据",
+      "evidence": "official"
+    },
+    {
+      "name": "服务依赖",
+      "detail": "需兼容电脑/手机、耳机蓝牙链路与HiNotes账号；USB-C和蓝牙的具体接法影响是否采集双向声音，高级摘要按服务权限",
+      "evidence": "official"
+    },
+    {
+      "name": "用户反馈",
+      "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "HiDock P1官方购买页",
+      "url": "https://www.hidock.com/products/hidock-p1-ai-voice-recorder",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "HiNotes官方功能与服务",
+      "url": "https://www.hidock.com/pages/hinotes",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+    },
+    {
+      "title": "HiDock当前促销规则",
+      "url": "https://www.hidock.com/pages/hot-deals",
+      "kind": "official-spec",
+      "supports": [
+        "price"
+      ],
+      "note": "已打开，价格按商品和购物车适用活动变化；不以未实际应用的优惠当作成交价。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "HiDock P1官方购买页",
+        "url": "https://www.hidock.com/products/hidock-p1-ai-voice-recorder",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s2",
+        "title": "HiNotes官方功能与服务",
+        "url": "https://www.hidock.com/pages/hinotes",
+        "note": "沿用原目录已核验的一手资料；引用范围：technology,dependency。已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "id": "s3",
+        "title": "HiDock当前促销规则",
+        "url": "https://www.hidock.com/pages/hot-deals",
+        "note": "沿用原目录已核验的一手资料；引用范围：price。已打开，价格按商品和购物车适用活动变化；不以未实际应用的优惠当作成交价。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜保留原有耳机的记录入口",
+          "text": "本型号通过便携录音主机、USB-C 和蓝牙音频桥接采集通话或房间声音，再由 HiNotes 转写与整理。需求是使用原有耳机时仍能保留双向内容，而不必把所有通话换到另一副专用设备；音频桥接承担连接，真正的人工智能部分来自后续理解与生成服务。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜换设备的成本是否减少",
+          "text": "用户可能已经有习惯的耳机，舒适、降噪和通话方式都不愿改变，独立桥接器有机会保留这些习惯。但多一个连接节点也增加配对、音频路由和故障排查，不能只看无需换耳机；价值应以每次通话前后总操作判断，尤其检查用户是否需要反复确认双方都被录下。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜完整双向通话任务",
+          "text": "可在相同耳机、电脑和电话任务中比较本型号与已有记录方式，记录首次连接、双方音频完整度和会后回查时间。加入来电、会议切换和设备重连，观察哪些步骤需要用户干预；当前目录没有实机兼容测试，不能因为提供桥接功能就保证所有耳机与主机组合稳定。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜已有耳机与会议习惯",
+          "text": "经常远程交流、采访并拥有固定耳机偏好的个人用户，可能更容易理解这个模块的作用。若用户主要现场录音，桥接能力可能不常用；若已经有满意的会议软件，则需要证明独立硬件带来额外收益，画像不能简单等同所有需要摘要的办公人群。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜可接受连接管理的人",
+          "text": "本型号涉及主机、耳机和应用之间的关系，用户愿不愿管理配对与路由会影响体验。技术熟练者可能容易恢复，普通用户可能把连接问题误认为没有记录；画像研究应包括这种学习与支持负担，不能仅凭便携外形判断它比桌面设备更简单。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜移动与固定场景",
+          "text": "试用应覆盖固定电脑、临时会议桌和移动携带，观察用户是否会忘记设备、线缆或切换音频模式。还需让首次使用者完成一次故障恢复，记录求助步骤；便携并不只是尺寸小，整套配件、连接和充电流程是否容易持续执行，才决定实际适配。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与专用录音耳机比较",
+          "text": "录音耳机将采集和听音放在同一产品中，桥接器则保留原耳机但增加外部节点，两者具有不同取舍。比较应看用户是否重视现有耳机、是否频繁切换主机，以及故障时能否理解状态；不能仅以设备件数或是否支持蓝牙判断哪种方案更方便。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜与普通录音器比较",
+          "text": "普通房间录音器适合现场声音，P1 的双向连接目标则可能覆盖耳机通话中的内容。两者不应只按麦克风数量或摘要功能排列，首先要确认真正采集的声音来源；如果用户主要记录面对面讨论，桥接平台的额外成本和设置可能没有明显价值，需要具体任务对照。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜服务与硬件权益",
+          "text": "比较总成本时应按录音量核对转写、说话人和高级摘要条件，并加入必要线缆或已有耳机成本。未实际结算的自动优惠不能当作成交价，其他 HiDock 型号也不能混入；当前没有销量或用户研究，目录不由便携定位、促销或服务名称判断市场优势。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜桥接与房间采集模块",
+          "text": "公开资料支持便携主机、双麦克风、USB-C 和蓝牙桥接，内容整理依赖 HiNotes。具体无线或音频芯片、整机工厂和物料价格未完整确认，BlueCatch 名称也不能用于反推内部方案；目录的架构描述只表达连接和处理层，不是精确电路或拆机信息。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜多链路是工程重点",
+          "text": "主机与耳机之间增加节点后，配对、时钟、音频缓冲和状态恢复需要共同验证。金属外形还可能要求天线与结构协调，但具体实现不能从图片推断；供应链研究应询问兼容测试和维护责任，而不是仅根据便携尺寸估算成本或认为所有蓝牙芯片都能承担相同角色。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜连接与处理候选",
+          "text": "泰凌微无线音频平台可作为桥接路线候选，炬芯可作为采集与本地音频处理候选，但没有本型号点名采用证据。评估需确认主机与耳机角色、协议、缓存及应用接口，不能视为直接替换；两家器件能力也不等于能够复制 HiNotes 的账户和生成服务。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜连接不是人工智能证据",
+          "text": "BlueCatch 负责音频接入，HiNotes 才对记录做转写、摘要和行动项整理，使用方式受兼容主机、耳机与账号条件影响。USB-C 和蓝牙的接法决定实际声音路径，不能把有连接等同双方都已采集；详细端云分工未完全披露，也不能宣称大模型在便携主机本地运行。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜听见与录下是两个状态",
+          "text": "用户可能正常听到通话，却因路由或权限没有完整记录对方声音，因此设备需要明确提示采集来源与状态。技术评价应先验证双方内容、时间顺序和文件完整，再讨论摘要效果；如果底层缺失，模型无法可靠恢复原话，流畅的生成笔记可能反而掩盖录音问题。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜模式切换和回声",
+          "text": "测试应包含耳机重连、主机休眠、来电切换和房间录音，检查回声、通道缺失与重复内容。随后用相同录音验证说话人和行动项，并观察断网时的保存与处理状态；当前目录没有独立延迟或兼容数据，不能用一次演示代表不同手机、电脑和耳机组合。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜便携主机的使用位置",
+          "text": "细长金属主机与实体控制适合放在桌面或随身携带，但实际线缆和摆放会影响便利。审美不应只看孤立产品图，还要观察它与电脑、耳机和手机共同使用时是否整洁、易操作；小体积可能减少空间，却也可能让状态不易看到或设备容易被遗漏。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜控制与模式识别",
+          "text": "同一设备承担通话桥接与房间记录，控制反馈需要让用户清楚当前模式和声音来源。设计研究应检查旋钮、按键或指示是否有明确含义，以及误操作能否快速撤销；不能因为存在实体控制就认定比软件更直观，模式切换的认知负担仍需实际观察。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜随身配件与桌面摆放",
+          "text": "试用应让用户从包中取出设备、连接、记录并收纳，记录遗漏线缆、拉扯和状态确认步骤。房间录音还需在不同摆放距离下观察声音质量，不能只测试桥接模式；产品图能说明轮廓和接口位置，无法证明整套流程在频繁移动时仍省心可靠。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜通话记录的知情边界",
+          "text": "双向采集涉及远端参与者和敏感内容，使用前需要明确记录告知、权限和保存范围。桥接器能接入声音不等于所有通话都适合被上传整理，生成的行动项也不能自动视为对方承诺；目录不把技术可行性当作记录边界已经解决，更不提供隐蔽采集的使用建议。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜兼容与服务的双重依赖",
+          "text": "用户既依赖主机与耳机连接，也依赖应用和整理服务，任何一层变化都可能影响体验。硬件仍可录音不代表高级摘要权益不变，海外商品可购也不证明大陆完整可用；购买判断应分别核对具体组合、地区和售后，而不是只看蓝牙版本或接口外形。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜错误时能否定位",
+          "text": "应测试只有单方声音、文件未上传和摘要错误等不同失败，观察用户能否区分原因并保留原始内容。重要事项需要回听确认说话人与条件，不能直接相信结构化输出；可靠体验应让问题可见且恢复步骤有限，而不是要求用户在多个设备之间反复试错。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜保留耳机习惯的价值",
+          "text": "本型号的差异化应围绕原有耳机能否继续承担舒适听音，同时增加可回查记录。这个价值只对不愿换耳机且确实需要双向采集的人明显，不能推广给所有会议用户；若连接管理增加的负担更大，模块化形态就未必比集成耳机或软件方案更合适。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜桥接之外的整理收益",
+          "text": "录下双方声音只是基础，后续价值在于能否快速找到决定、纠正归属和复核关键片段。研究应记录用户真正使用哪些摘要与问答，而不是生成了多少笔记；如果每次都需要完整重听，人工智能整理可能没有明显减负，需要重新评估它在实际任务中的作用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜长期兼容与总成本",
+          "text": "后续可跟踪数周内不同主机耳机组合的连接失败、完整录音、回查和维护时间，并核算服务费用。还要记录用户何时放弃桥接而回到软件或普通录音器，以理解替代边界；当前目录保留需求假设，不把便携、在售或技术名称当作市场与体验已验证的结果。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "telink",
+        "role": "connectivity",
+        "relationship": "candidate",
+        "component": "电脑与耳机之间的无线音频桥接路线候选",
+        "rationale": "P1 的核心任务包含无线音频接入，泰凌微的音频连接平台可作为新设计候选。必须验证主机与耳机角色、双向传输、协议栈和切换恢复，现有来源未点名采用；通用蓝牙支持不能直接复制 BlueCatch，也不能证明所有用户耳机组合兼容。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "actions-technology",
+        "role": "chip",
+        "relationship": "candidate",
+        "component": "通话与房间录音的音频处理候选",
+        "rationale": "炬芯的音频处理与端侧增强路线可用于比较 P1 类设备的采集、缓存和前端任务，但不是已确认供应商。需核对 USB 与无线音频接口、时钟、功耗及实际主控分工；其能力不自动提供 HiNotes 的账户、转写和摘要，也不构成现有设备替换方案。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "call-and-meeting-recall",
+      "needName": "电话与现场谈话回顾",
+      "difference": "HiDock P1通过USB-C与蓝牙桥接让用户保留自己的兼容耳机，同时捕获双向通话或房间声音，区别于必须换用特定录音耳机的方案。核心仍是电话和现场内容进入同一回顾流程，原耳机复用属于重要约束，不据此单独增加场景。BlueCatch是音频连接环节，实际是否录到双方取决于接法和兼容性，HiNotes的转写与高级摘要也仍依赖账户和服务权限。",
+      "comparisonBasis": "与指定品牌录音耳机、手机背贴录音卡和软件通话记录比较保留现有耳机时的双向采集。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/hidock-p1/product.webp",
+      "sourceUrl": "https://www.hidock.com/products/hidock-p1-ai-voice-recorder",
+      "sourceImageUrl": "https://www.hidock.com/cdn/shop/files/P1-Space_Gray-1.jpg?v=1775545272&width=1200",
+      "caption": "HiDock P1官方产品外形图",
+      "alt": "HiDock P1官方产品外形图",
+      "credit": "HiDock · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 13542,
+      "sha256": "d5bbef47b5b30d26cd997bc0c0185be6037930d0035453aa1118c2da9be3a04c"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/hidock-p1/reference.webp",
+      "sourceUrl": "https://www.hidock.com/products/hidock-p1-ai-voice-recorder",
+      "sourceImageUrl": "https://www.hidock.com/cdn/shop/files/P1_SKU-2.webp?v=1780422445&width=1200",
+      "caption": "HiDock P1官方另一角度或使用场景参考",
+      "alt": "HiDock P1官方另一角度或使用场景参考",
+      "credit": "HiDock · 官方产品图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 62812,
+      "sha256": "1078509dce9ef369f68ec3dcaba75ac97d631de8d40dbec22a9716b7376bc52d"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/hidock-p1/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "HiDock P1的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/hidock-p1.txt",
+      "referencePaths": [
+        "assets/hardware/hidock-p1/product.webp",
+        "assets/hardware/hidock-p1/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1422539,
+      "sha256": "4aea5aaa95b2338327404f727b0f879c66765976eace4e0e88d90f224b23128c"
+    }
+  ],
+  "mediaNotes": [
+    "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。",
+    "已逐张查看并核对型号。源图未改色/裁切；场景、界面、附件、优惠及效果文案仅为厂商示意，不作为本目录性能或现价依据。"
+  ]
+}

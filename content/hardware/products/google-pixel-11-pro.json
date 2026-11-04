@@ -1,0 +1,413 @@
+{
+  "id": "google-pixel-11-pro",
+  "name": "Google Pixel 11 Pro",
+  "brand": "Google",
+  "category": "computing",
+  "tagline": "把 Gemini 与影像 AI 集成到随身手机，而非额外携带一件设备。",
+  "officialUrl": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+  "status": "on_sale",
+  "statusEvidence": "Google Store 美国产品页有 Buy 入口与正在进行的限定促销。优惠存在以旧换新和型号条件，本条不把最低促销展示价当无条件售价。",
+  "regions": [
+    "美国官方商店",
+    "其他 Google Store 支持地区需分别确认"
+  ],
+  "china": {
+    "availability": "unavailable",
+    "note": "Google Store 地区选择器未列中国大陆。跨境购机不能保证当地的 Gemini、运营商功能、保修和Google服务正常可用；本轮未核实代购渠道。"
+  },
+  "price": {
+    "text": "美国参考标价 US$1,099",
+    "note": "官网另显示折扣及合资格以旧换新后低价，不应直接用于价格横比。套餐、容量、税费和活动期限以结算页为准。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "官方描述 Gemini Intelligence、影像AI与 Tensor G6 平台。AI能力可融入手机应用及任务流程，但不同功能有账户、地区和订阅条件。",
+    "dependency": "云端 Gemini 与设备侧能力并存，部分功能需要联网、订阅或特定语言地区。本目录未独立测试任务执行的可靠性或隐私行为。"
+  },
+  "highlights": [
+    "系统与任务层",
+    "交互与感知",
+    "计算平台"
+  ],
+  "analysis": {
+    "demand": "需求假设：用户希望在现有手机里完成搜索、翻译、影像处理和日常任务，不再携带额外AI终端。它既是AI产品，也是其他随身设备必须比较的默认替代方案。",
+    "userProfile": "画像推断：深度使用Google服务、重视摄影与Android体验的用户，以及愿意尝试系统智能功能的早期采用者。中国大陆用户的网络和售后条件与美国用户显著不同，不能共用同一画像。",
+    "competition": "市场判断：旗舰手机的竞争非常密集，AI增强只是其中一个维度。对手还包括旧手机加相同云应用；必须辨别硬件专属能力和软件可迁移能力，才能判断AI对购买决策的贡献。",
+    "supplyChain": "公开产品资料披露 Tensor G6 和主要硬件规格，未核实完整供应商与组装工厂。分析关注芯片、摄像头模组、屏幕、内存及区域认证；厂商服务生态也是难以从BOM体现的交付要素。",
+    "technology": "技术要区分端侧推理、云端模型、系统权限与多应用任务执行。官方的功能演示不代表所有应用和地区都支持，也不能用芯片名称直接推导实际成功率和耗电。",
+    "aesthetics": "设计观察：成熟的触屏和相机形态具有低学习成本，产品审美更多体现在机身、摄像头区域和系统界面一致性。相较单用途硬件，它的优势是日常随身，弱点是仍需屏幕注意力。",
+    "risks": "关键风险包括服务地区限制、促销价误读、AI订阅权益到期和多步骤任务出错。对中国使用场景，应先验证服务与售后可达，再讨论硬件参数；不能把国外发布能力直接搬到国内市场。",
+    "opportunity": "值得验证的购买理由是AI功能是否在原有手机体验之外形成可感知增量。后续应比较同一任务的手动操作次数、结果质量和持续使用率，本轮没有用户留存或销量归因数据。"
+  },
+  "niche": {
+    "level": "crowded",
+    "reason": "旗舰手机市场高度成熟，AI是系统生态竞争的一部分，不能视作独立冷门新品类。"
+  },
+  "architecture": [
+    {
+      "name": "系统与任务层",
+      "detail": "Gemini及系统功能连接日常用户任务，支持范围有条件。",
+      "evidence": "official"
+    },
+    {
+      "name": "交互与感知",
+      "detail": "触屏、相机和音频输入构成多模态使用入口。",
+      "evidence": "official"
+    },
+    {
+      "name": "计算平台",
+      "detail": "官方列出 Tensor G6 平台与内存配置。",
+      "evidence": "official"
+    },
+    {
+      "name": "能源与结构",
+      "detail": "电池、屏幕及热设计影响高负载任务体验。",
+      "evidence": "inferred"
+    },
+    {
+      "name": "账户与云服务",
+      "detail": "云端功能受网络、账户、语言、地区与订阅条件影响。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Pixel 11 Pro 官方美国商店",
+      "url": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "design"
+      ],
+      "note": "有购买入口，低价含优惠及以旧换新条件。"
+    },
+    {
+      "title": "Google Store 官方地区选择",
+      "url": "https://store.google.com/regionpicker",
+      "kind": "official-spec",
+      "supports": [
+        "china"
+      ],
+      "note": "核查时地区列表没有中国大陆；不推定非官方进口渠道可用。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Google Pixel 11 Pro 官方美国商店",
+        "url": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+        "note": "沿用原目录已核验的一手资料；引用范围：status,price,technology,design。有购买入口，低价含优惠及以旧换新条件。"
+      },
+      {
+        "id": "s2",
+        "title": "Google Store 官方地区选择",
+        "url": "https://store.google.com/regionpicker",
+        "note": "沿用原目录已核验的一手资料；引用范围：china。核查时地区列表没有中国大陆；不推定非官方进口渠道可用。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜现有手机中的系统智能",
+          "text": "本型号将 Gemini Intelligence、影像人工智能与 Tensor 平台放入通用手机，公开产品页提供购买入口。需求是利用已有相机、声音和应用完成日常任务，减少额外终端，但不同功能仍受账户、地区和服务条件影响；硬件、系统权限与模型权益不能合成一个无条件可用的承诺。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜默认随身设备的优势",
+          "text": "手机已经在多数用户身边，具备屏幕、输入和应用，人工智能可能直接进入现有流程，不需要重新建立携带习惯。独立设备因此需要解释额外价值，Pixel 本身也需要证明新功能减少了实际步骤；不能只因系统更智能就推断所有任务都比旧手机更快、更可靠或更少分心。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜完整多模态任务",
+          "text": "可比较拍摄后询问、翻译、影像处理和日常信息任务，记录输入、权限、结果复核与重试，而不只看助手回答速度。需要区分云端和设备侧贡献，并与现有手机同条件对照；当前目录没有实机测试，不能将官方演示或芯片名称转化为统一成功率和耗电结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "判断｜深度使用 Google 服务的人",
+          "text": "已有相关账户和 Android 使用习惯、重视影像与日常应用的人可能更匹配，但具体服务是否在所在地区可用是前提。科技尝鲜者可能愿意探索，普通用户可能只需要稳定基础功能，画像应分别研究；不能把对人工智能感兴趣或拥有 Android 手机直接等同购买理由。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜中国大陆场景需要单独看待",
+          "text": "官方商店地区列表未列中国大陆，跨境硬件流通不能证明当地服务、运营商功能和保修可正常使用。大陆用户与美国用户不能共用同一功能和售后画像，也不能因为某项中文能力存在就推定官方支持；购买判断必须先确认实际渠道和服务，再讨论芯片与相机参数。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证｜账户与应用迁移",
+          "text": "测试应覆盖用户真正使用的账户、应用和权限，观察首次设置、模型调用和失败恢复是否增加管理。部分任务可能需要重新授权或外部服务，不能只用预配置演示机评价；不同语言、网络与地区应分别记录，当前目录不保证所有应用都能进入相同的系统智能流程。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "判断｜与其他手机的直接竞争",
+          "text": "其他手机也可以安装助手和使用云模型，Pixel 的差异需要落到系统、影像与任务协同，而不是仅拥有某个模型名称。用户已有设备可能足够完成大部分任务，升级需要真实瓶颈证据；竞争分析应比较整体操作与结果，不由新代或宣传性能推断统一优势。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜对独立 AI 终端的替代",
+          "text": "手机的现成屏幕、相机和应用，使它成为手持助手、翻译器或部分记录设备的重要替代。专用产品可能在输入位置或专注流程上有价值，但需要明确场景，不能只比谁支持更多问答；本型号也不能替代所有免手持或离线约束任务，应保留不同形态的实际边界。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜优惠和订阅分开核算",
+          "text": "价格比较应使用同地区、容量与条件，不能把合资格以旧换新后的低价当作无条件售价。部分人工智能权益可能有期限或订阅，硬件购置之外需要单独确认；本轮页面自动返回其他地区币种，也不能用它改写原美国参考价，当前目录不据促销推导市场需求和性价比排名。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜已披露平台与未知器件",
+          "text": "官方公开 Tensor 平台与主要输入输出功能，但完整图像传感器、屏幕、内存和组装工厂未在本次资料中逐项确认。品牌自研平台不能证明全部部件自制，行业传闻也不能作为当前型号依据；目录只区分已披露系统与未知供应，不从概念图或相机外形补出物料清单。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜影像系统需要联合调校",
+          "text": "相机模组、图像处理和模型共同决定结果，更换输入器件会影响驱动、色彩和算法，不能只比较像素。手机还需要兼顾热、电池与区域认证，供应链研究应按完整系统核对；当前没有采购价格、良率和实际工厂证据，不从售价或芯片品牌推算制造成本与来源。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜相机输入的候选范围",
+          "text": "豪威和格科微的移动成像路线可作为同类新设计候选，但没有 Pixel 11 Pro 的点名采用证据。选择需要核对光学、接口、封装和 Tensor 图像链路，不能直接替换；这些候选不提供 Google 的系统、模型或服务，也不意味着某个公开手机客户关系可以迁移到本型号。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜设备、云端与系统权限",
+          "text": "公开说明把设备侧能力和云端 Gemini 服务结合，不同任务可能有不同运行位置、网络和权益。Tensor 的计算基础不等于所有模型在本地，也不代表全部应用都获得任务执行权限；目录保持硬件性能、系统集成和服务条件的层级，不将功能演示视为所有地区的可用保证。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜多步骤任务需要结果确认",
+          "text": "模型理解请求后，还要正确选择应用、数据与操作，任何一环都可能失败，流畅回复并不证明任务真正完成。系统需要让用户看到依据、权限和最终状态，尤其涉及外部动作时；技术评价应关注可核查与可撤回，不能只看语音交互自然或单次演示没有出错。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜输入与任务链路逐项检查",
+          "text": "测试应固定真实应用和账户，记录相机或声音输入、模型回应、权限确认和最终结果，并加入网络中断与上下文缺失。影像处理还应保留原图对照，避免把生成变化误当拍摄事实；当前目录没有独立性能与隐私测试，不对多应用任务或所有语言作可靠性承诺。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "判断｜手机外观与日常携带",
+          "text": "用户首先会把它作为每天使用的手机，握持、相机区域、屏幕和口袋携带可能比人工智能演示更影响接受。审美评价应结合真实拍摄与操作，不能仅看颜色或渲染；外观精致也不等于长时舒适、耐久或适合所有手型，具体体验仍需实机和个人反馈。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜智能入口的注意力成本",
+          "text": "系统内嵌助手可以减少切应用，也可能让用户频繁调用、确认或修正，增加新的交互层。设计研究应观察高频任务是否真的变短，以及用户能否轻松回到普通操作；入口更显眼不等于更有用，生成内容还需要与原始信息清楚区分，避免误把建议当作事实。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜真实一天的使用组合",
+          "text": "试用应覆盖通话、拍摄、导航类基础需求和人工智能任务，记录电量、热、权限提示与操作负担。不同网络与应用组合需要分别观察，不能由一段理想演示代表整天体验；产品图片和峰值参数只能支持初筛，长期价值要看用户真正重复的任务。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "判断｜地区与服务可达性",
+          "text": "官方地区列表没有大陆，跨境购买不能保证当地 Gemini、运营商功能、保修或账户服务。不能把海外发布能力直接搬到中国使用场景，也不应由非官方渠道有货推定官方支持；目录保留这一区别，不提供未经核实的进口可用性或长期服务保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断｜生成与影像结果的可信度",
+          "text": "影像人工智能可能改变内容，任务助手也可能错用上下文或遗漏条件，用户需要区分原始记录和生成结果。订阅试用到期、权限变化与云服务还会影响体验，硬件强并不消除这些依赖；当前目录没有独立审计，不以品牌、芯片或回答流畅作为绝对准确和隐私保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜重要操作与失效恢复",
+          "text": "应检查模型误解、网络中断和任务部分完成时，系统是否明确提示并允许用户核对或恢复。重要内容和外部动作需要保留确认，不能只依据助手说已完成就接受；验证目标是减少总工作量并保持用户控制，而不是让系统智能掩盖应用、权限和生成的不确定性。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断｜手机作为多模态默认入口",
+          "text": "本型号的购买价值应来自用户实际利用系统协同减少步骤，而不是单独拥有更多人工智能功能。它与其他手持助手共享部分需求，场景分组不应因新代手机或芯片命名增加数量；真正差异需要来自输入、应用和地区条件，不能由硬件形态熟悉就默认成立。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "判断｜专用硬件仍需明确约束",
+          "text": "目录比较其他随身设备时，应说明哪些任务手机不方便完成，例如特定输入位置或使用环境，而不是只比较模型名称。Pixel 同样受注意力、网络和账号影响，不能被写成无条件替代所有设备；研究应让各自限制可见，避免把通用平台的覆盖范围当成确定用户收益。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证｜升级与服务的长期成本",
+          "text": "后续可跟踪真实任务完成、更正、权限维护、云费用和基础手机体验，并与旧设备对照。地区、容量与促销条件应保持一致，不能用最低展示价或短期体验代表长期；当前目录是案头研究，不以官方在售、Tensor 或 Gemini 宣称需求、效率和隐私效果已经验证。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "omnivision",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "移动相机图像输入的候选路线",
+        "rationale": "Pixel 11 Pro 具有影像输入，豪威移动图像传感器路线可作为同类新设计候选。需验证光学、接口、封装和 Tensor 图像调校，当前没有采用点名；不能由其他手机或相近像素推断本型号来源，也不把传感器能力等同 Google 影像模型或系统服务。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s2",
+          "s4"
+        ]
+      },
+      {
+        "supplierId": "galaxycore",
+        "role": "sensing",
+        "relationship": "candidate",
+        "component": "手机 CMOS 图像输入的替代设计候选",
+        "rationale": "格科微公司披露移动图像传感业务，可用于同类手机新设计的输入比较，但没有 Pixel 11 Pro 供货证据。需取得适合目标相机的正式料号、接口与调校资料，不能借其他品牌案例迁移关系；该候选不替代 Tensor 平台，也不保证 Gemini 或影像生成效果。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "portable-multimodal-assistant",
+      "needName": "随身多模态查询与日常任务",
+      "difference": "Pixel 11 Pro把Gemini Intelligence、影像AI与日常手机应用放在已有随身设备中，用户可利用相机和语音查询信息并继续处理任务。它与rabbit r1共享便携多模态助手需求，差异在于复用成熟手机工作流而非另带硬件；通用手机也可能带来消息干扰，不能直接推断步骤更少。云端与设备侧能力并存，地区语言、联网、订阅到期及多步骤执行误差仍限制实际价值，国外能力不能原样搬到中国使用。",
+      "comparisonBasis": "与rabbit r1等独立口袋AI终端、现有手机加AI应用比较随身视觉语音查询与后续任务。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/google-pixel-11-pro/product.webp",
+      "sourceUrl": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+      "sourceImageUrl": "https://lh3.googleusercontent.com/3pMI8aPBk68eTXiu5pU2TexANdpvMtOJgi8UkXaYYHbHgoSvUF3qerABrExqUrZud6YalGDCCUbfp_a6SWmHoJfpN5tlmbSC62k%3Dw560-h700-rw-nu",
+      "caption": "Pixel 11 Pro 官方产品背面图",
+      "alt": "Pixel 11 Pro Canyon 配色背部和相机横条",
+      "credit": "Google",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 8294,
+      "sha256": "113ad29c59f3fe0dd983bf8a48847d6a6133bbc71be973d1d7097a7522ff7e8d"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/google-pixel-11-pro/reference.webp",
+      "sourceUrl": "https://store.google.com/product/pixel_11_pro?hl=en-US",
+      "sourceImageUrl": "https://lh3.googleusercontent.com/w6ZLQp4YT4M8m23WVqBV3puDiXQudwvi4D0JS0yvUFYgR-0Pv9xLMfm1tW9Et9NCufoE5EJhYxtpfDCMobpstQoEPRYsUir7QA%3Dw1132-h1132-rw-nu",
+      "caption": "Google Pixel 11 Pro 官方使用场景参考",
+      "alt": "Google Pixel 11 Pro 官方使用场景参考",
+      "credit": "Google",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 92894,
+      "sha256": "ec42db5bdca7f91765c77fd23a5fe8dd5591db91616ff649df1a58373d1b012b"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/google-pixel-11-pro/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "google-pixel-11-pro AI生成结构爆炸概念图，隐藏内部为功能推断",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/google-pixel-11-pro.txt",
+      "referencePaths": [
+        "assets/hardware/google-pixel-11-pro/product.webp"
+      ],
+      "verified": true,
+      "bytes": 1604903,
+      "sha256": "65ac05d7486badc5fcf4da6f2e4c286b82cd948b4dc2b85a9f5a1803beb17f0d"
+    }
+  ],
+  "mediaNotes": []
+}

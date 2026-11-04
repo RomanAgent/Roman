@@ -1,0 +1,673 @@
+{
+  "id": "goertek",
+  "name": "Goertek / 歌尔",
+  "legalName": "歌尔股份有限公司 / Goertek Inc.",
+  "country": "中国大陆",
+  "locations": [
+    "中国大陆",
+    "越南",
+    "美国",
+    "日本",
+    "韩国",
+    "新加坡"
+  ],
+  "tier": "global",
+  "tierNote": "Goertek / 歌尔按公开跨地区运营及声学零组件与整机等已核查业务归入综合与跨地区供应商；不推断员工、营收、产能，也不表示每个地点具备同一服务范围。",
+  "roles": [
+    "acoustics",
+    "optics",
+    "engineering",
+    "manufacturing",
+    "mechanical"
+  ],
+  "capabilities": [
+    "声学零组件与整机",
+    "AI音箱与家庭安防开发",
+    "光学与电子整合",
+    "模具注塑及自动化制造"
+  ],
+  "productCategories": [
+    "home-assistant",
+    "home-security",
+    "companion",
+    "education"
+  ],
+  "website": "https://www.goertek.com/en/",
+  "contactUrl": "https://www.goertek.com/en/about/intro.html",
+  "checkedAt": "2026-11-04",
+  "summary": "歌尔的公开范围同时包含声学、光学等精密零件与智能整机，其家庭业务明确提到AI音箱和安防，从工业设计延伸至测试及量产。它适合声学与外观空间耦合较强的终端研究，但不能把零件制造经验直接视为任意陪伴机器人或具体品牌的供货证据。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位",
+        "text": "歌尔官网将声学、光学、微电子和外壳等零组件，与可穿戴、音频、家庭及扩展现实整机一起介绍。它不是只做一个麦克风的公司，也不能据此理解为每种家庭机器人的全部机构和算法都可由其直接交付。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "合作边界判断",
+        "text": "对家庭AI终端，歌尔的独特讨论点在于声音输入输出与物理结构可以共同设计。若创业产品靠细腻声音和触觉反馈形成体验，值得了解其跨模块协作方式；但用户关系、内容和行为策略仍需要产品团队自己定义。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力",
+        "text": "家庭产品页明确列出AI音箱、游戏设备和家庭安防，并说明可覆盖工业、电子、机械、射频天线、声学、光学和软件设计，以及产品测试与量产。这个范围支持系统整合候选，不提供任何本目录型号的实际制造证明。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "工程整合判断",
+        "text": "当音箱腔体、麦克风开孔、外壳材料和无线天线共用很小空间时，分包接口容易成为问题。歌尔的公开整合路线可能减少这种割裂，但应要求以整机拾音、音质和连接结果验收，而非分别认可各零件供应商的报告。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "优先匹配场景",
+        "text": "优先匹配家庭语音助手、带摄像头音箱和强调声音反馈的陪伴终端，任务可具体限定为拾音阵列、扬声器腔体与整机工程。对应能力在官网有明确说明，但算法模型、云服务和声音内容授权不能自动算进制造方案。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "不匹配条件",
+        "text": "对需要刀盘、重型履带或食品投料机构的产品，本轮声学光学资料不支持整机能力结论。即使歌尔能处理其中的音频或传感模块，也应另行核实运动、流体和高温工艺，不能把智能硬件作为无边界的能力标签。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "询盘准备",
+        "text": "询盘可先提供声学目标、使用距离、噪声场景、尺寸限制和现有交互演示，说明是采购部件还是联合设计整机。对非语言陪伴物，还需提交希望保留的机械声与反馈节奏，避免工程优化把产品性格一并消除。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "项目接口",
+        "text": "如果声学和结构均交给对方，需要约定材料、开孔或扬声器变化时由哪个团队重新验证。品牌侧应保留可复现的语音与声音测试集，并明确模型更新后的回归边界，使硬件量产版本不会逐渐偏离最初体验。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "质量关注点",
+        "text": "质量评估重点可放在不同批次的拾音一致性、扬声器异响、结构振动传递和麦克风防尘。柔性外罩或毛绒材料会改变声音通路，不能直接复用裸机测试结果；应把最终材料状态作为整机验收条件之一。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "验收设计",
+        "text": "可让候选工程团队用同一外形展示不同声学方案的取舍，说明哪些差异来自材料、装配或软件处理。随后核对生产端是否能够追溯声学校准和异常返修，而不是只用试听样机代表量产的每一台设备。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "成本结构",
+        "text": "成本应区分声学器件、定制腔体、模具、音频调试、测量治具和整机装配；一体化服务未必在低数量阶段最便宜。本轮没有歌尔针对这类创业项目的起订量和开发费，因此不会用耳机或手机行业的传闻替代报价。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "合作方式判断",
+        "text": "可以比较先合作音频模块与直接委托整机两条路径，前者保留产品迭代自由，后者可能减少工程接口但增加供应商依赖。选择依据应是声音和结构差异有多核心，以及团队能否自己承担后续系统集成和维护。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "业务风险",
+        "text": "精密声学经验并不自动解决家庭成员隐私和AI错误回应，产品团队仍需决定何时录音、怎样告知和如何删除。若音箱集成相机，声学和视觉测试也不能互相替代，良好拾音不代表视觉识别具备同样可靠性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "证据边界",
+        "text": "本轮没有将歌尔常被外界联系的消费品牌写成实际客户清单，也没有把某个现有产品的麦克风归给歌尔。目录链接只说明其公开能力与模块需求相符，真正披露关系必须另有点名该型号或系列的可靠资料。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "需验证的能力",
+        "text": "下一轮建议要求家庭业务团队明确可承接的模块层级、声学设计输出文件以及量产测试方法。若对方只能展示耳机案例，应继续验证远场拾音和室内反射环境，不能因为同属音频就跳过场景差异评审。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "进入下一阶段条件",
+        "text": "只有当整机外观、声学表现和无线连接能够在代表性样机上同时达到目标，且替代料与模型升级的回归责任明确，才进入导入。若核心体验仍依赖手工调音，应先解决可复制性，再讨论跨地区扩产。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "歌尔公司简介",
+      "url": "https://www.goertek.com/en/about/intro.html",
+      "note": "核实精密零件、声学光学、智能硬件与垂直整合定位。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "歌尔产品与核心能力",
+      "url": "https://www.goertek.com/en/product/index.html",
+      "note": "核实家庭AI音箱、家庭安防以及设计、声学、射频、测试至量产服务。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "relatedProducts": [
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "小型拾音、扬声器及声学结构整合",
+      "rationale": "歌尔公开提供声学零件与家庭智能硬件整合，可作为Moflin声音输入输出及外罩声学影响的能力候选。其资料没有点名Moflin，也未证明毛绒洗护和两轴机构经验，需单独验证低噪与柔性材料接口。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "casio-moflin",
+      "productName": "Moflin",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "毛绒载体内Voice Box的音频系统",
+      "rationale": "歌尔公开覆盖AI音箱声学、电子和结构整合，可以作为Curio可拆Voice Box的拾音与发声能力候选。毛绒面料会改变声路，儿童发音和可拆安全并非普通音箱经验自动覆盖；没有资料点名它为Curio供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "curio-grok",
+      "productName": "Curio Grok",
+      "category": "companion",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "AI Station语音视觉与本体反馈接口整合",
+      "rationale": "歌尔公开覆盖家庭AI音箱、安防及声学光学电子设计，可讨论AI Station新增视听输入与本体反馈接口。其能力不证明已为Eilik供货，也不保证旧本体协议兼容；需要品牌提供接口和同步验收要求。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "eilik-ai-station",
+      "productName": "Eilik + AI Station",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "声音与实体交互硬件工程",
+      "rationale": "歌尔公开声学及智能硬件工程能力可用于评估声音反馈与紧凑交互组件，但 LOVOT 的软性外衣、移动和角色行为需要独立验证；没有公开点名供货证据，因此只列能力候选。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "lovot-3",
+      "productName": "LOVOT 3.0",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "小型语音模块与声学整合",
+      "rationale": "歌尔公开声学与智能硬件能力能支持麦克风、扬声器和紧凑外壳的协同评估，但儿童毛绒遮挡和按键话轮需专门验证；本条未获 BubblePal 实际供货证据，不能将候选写为制造归属。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "haivivi-bubblepal",
+      "productName": "Haivivi BubblePal",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "随身角色的微型音频与交互整合",
+      "rationale": "歌尔公开声学和智能硬件能力可用于评估 AIBI 类小型音频、感知与交互模组，但随身遮挡和佩戴可靠性需专门测试；没有点名合作证据，不能认定歌尔是 AIBI 的实际供应商。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "livingai-aibi-pocket",
+      "productName": "LivingAI AIBI Pocket",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "桌面音视频交互硬件整合",
+      "rationale": "歌尔的声学与智能硬件工程范围可支持 EMO 类显示、音频和紧凑感知系统评估，但桌缘安全与角色行为不在公开能力描述中自动得到证明；没有型号合作证据，保持工程候选身份。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "livingai-emo",
+      "productName": "EMO",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "桌面语音与角色反馈整合",
+      "rationale": "歌尔公开声学及智能硬件能力适合评估麦克风、扬声器和紧凑机身的相互影响，但日语话轮、记忆和视觉请求逻辑属于另外的系统职责；本条只有能力匹配，没有 Romi 供货披露。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "romi-lacatan",
+      "productName": "Romi Lacatan",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "柔软陪伴设备的声音与感知整合",
+      "rationale": "歌尔声学与交互硬件能力可用于研究针织外观对收音、发声和小型传感系统的影响，但柔软结构和角色行为需要专门设计；没有 NICOBO 点名合作证据，候选不代表真实供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "panasonic-nicobo",
+      "productName": "Panasonic NICOBO",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "家庭语音入口与动作声学整合",
+      "rationale": "歌尔公开声学及智能硬件能力可用于评估固定家庭设备的收音、发声和动作噪声，但声纹、家庭权限和消息后台需另行负责；没有 BOCCO 点名供货资料，因此仅作为模块工程候选。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "yukai-bocco-emo",
+      "productName": "BOCCO emo Wi-Fi",
+      "category": "companion",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "儿童语音交互与声学系统",
+      "rationale": "歌尔的声学和智能硬件能力可支持收音、发声及紧凑机身协同，但儿童发音识别和内容安全不能由声学器件能力保证；未发现 Miko 3 供货披露，因此不认定其实际制造关系。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "miko-3",
+      "productName": "Miko 3",
+      "category": "education",
+      "status": "needs_check"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "宠物相机声音与旋转交互整合",
+      "rationale": "歌尔公开声学和智能硬件能力可对应收音、发声及紧凑终端评估，但叫声分类、投食和动物接受需独立验证；没有 Furbo 型号供货披露，当前仅为工程候选。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "furbo-360-dog-camera",
+      "productName": "Furbo 360° Dog Camera",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "紧凑宠物音视频交互硬件",
+      "rationale": "歌尔的声学与智能硬件工程可对应相机、音频及控制电子评估，但激光出射、安全与宠物反应需专项确认；没有 Play 2 点名合作证据，当前仅为电子工程候选。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "petcube-play-2",
+      "productName": "Petcube Play 2",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "宠物摄像终端声音与交互整合",
+      "rationale": "歌尔公开声学和智能硬件能力可支持拾音、发声及紧凑机身评估，但行为分类和文字摘要不是硬件能力自动提供；未见 Scout 供货披露，候选不代表实际制造或算法供应。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "petlibro-scout",
+      "productName": "PETLIBRO Scout Smart Camera",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "小型佩戴传感与交互硬件整合",
+      "rationale": "歌尔智能硬件及小型器件整合能力可支持项圈电子与交互评估，但动物佩戴、体征测量和算法解释需专门研究；未见 PetPace 3.0 供货披露，候选不代表实际制造或诊断能力。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "petpace-3-collar",
+      "productName": "PetPace 3.0",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "外置鼾声识别单元声学整合",
+      "rationale": "歌尔公开声学器件与智能硬件能力可支持外置收音和电子整合，但鼾声模型、同床噪声及气路控制需专项验证；没有Motion Pillow供货披露，不能将候选能力解释为实际制造或健康效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "10minds-motion-pillow",
+      "productName": "10minds Motion Pillow",
+      "category": "sleep",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "通话声学与简化遥控交互整合",
+      "rationale": "歌尔公开声学和智能硬件能力可支持收音、发声与遥控电子评估，但长者可用性及Canary Speech服务需另行负责；未见JubileeTV硬件合作披露，当前只列工程候选。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "jubilee-tv-console",
+      "productName": "JubileeTV Console + Membership",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "声学光学输入与交互模组评估",
+      "rationale": "歌尔公开声学光学和智能硬件能力可用于门前识别输入与语音交互工程，但光电供能、开锁安全和安装条件需另行负责；没有鹿客V7 Max实际供货披露，候选关系不等同认证、客户或量产确认。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "lockin-v7-max",
+      "productName": "鹿客 Lockin V7 Max",
+      "category": "home-security",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "视觉输入与端侧电子整合评估",
+      "rationale": "歌尔公开光学及智能硬件工程能力可对应猫门摄像输入和嵌入式整合，但猎物模型、户外耐久及动物通行仍需专项验证；未见Flappie点名供货关系，不将其列作实际模组或整机供应商。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "flappie-ai-cat-flap",
+      "productName": "Flappie AI Cat Flap",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "音视频输入与交互模组整合候选",
+      "rationale": "歌尔公开声学、光学及智能硬件能力可用于音视频输入和整机交互评估，但不等于已获SWAN采用，也不替代官网点名部件；型号适配、色彩和会员软件需另核，保持候选关系。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "swan-beauty-smart-mirror",
+      "productName": "SWAN Beauty Smart Mirror",
+      "category": "personal-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "声音输入输出与小型机身集成候选",
+      "rationale": "听说任务依赖声音采集与输出，歌尔公开声学及智能整机能力可作为重新选型入口。需要按实际外壳、播放音量和拾音环境验证，不能只比较器件规格；当前没有证据确认它为EBOX Pro供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "iflytek-ebox-pro",
+      "productName": "讯飞AI英语宝 EBOX Pro",
+      "category": "education",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "家庭音箱声学系统候选",
+      "rationale": "歌尔公开智能音箱与声学系统能力可作为新产品的声音集成研究入口。需要按实际机壳、房间与播放条件验证拾音和反馈，不能直接套用标准器件结果；本目录没有该Google型号与歌尔逐产品供货关系的证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "google-home-speaker-2026",
+      "productName": "Google Home Speaker（2026）",
+      "category": "home-assistant",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "家庭音箱声音系统候选",
+      "rationale": "歌尔公开智能音箱及声学系统能力可用于同类新产品的声音集成研究，需要按机壳、房间、播放与拾音条件验证。该能力不确认其为2026 Echo Dot供货，也不意味着制造方案自动包含Alexa服务与授权。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "amazon-echo-dot-2026",
+      "productName": "Amazon Echo Dot（2026）",
+      "category": "home-assistant",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "家庭音箱声音系统候选",
+      "rationale": "歌尔公开声学与智能音箱集成能力，可用于重新开发声音和视觉结合的家庭终端时评估音频模块。机壳、播放、拾音及软件仍须共同验证；这不证明当前Echo Studio with Home Camera由歌尔供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "amazon-echo-studio-home-camera",
+      "productName": "Amazon Echo Studio with Home Camera",
+      "category": "home-assistant",
+      "status": "on_sale"
+    }
+  ]
+}

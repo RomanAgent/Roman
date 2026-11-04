@@ -622,5 +622,1167 @@
       }
     ],
     "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "xtool-f2",
+    "name": "xTool F2",
+    "brand": "xTool",
+    "category": "creative-tools",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "tagline": "用AI视觉辨认工件并辅助批量定位的便携雕刻机",
+    "officialUrl": "https://uk.xtool.com/products/xtool-f2-5w-ir-15w-diode-portable-dual-laser-engraver",
+    "status": "on_sale",
+    "statusEvidence": "核查日英国官网浏览器实际显示F2 Standalone、启用的Add to Bag、1–3个工作日发货；主机促销显示£1,039。页面抓取混有隐藏Sold Out文案，已用当前UI核对。仅收F2，不另计同需求F1/Ultra。",
+    "regions": [
+      "英国（本轮实际核查商店）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核到英国官方零售；F2中国大陆官方库存、版本及跨境保修未独立确认，不由品牌背景推断国内可买。"
+    },
+    "price": {
+      "text": "英国官网主机显示£1,039促销价",
+      "note": "浏览器实际选定F2 Standalone，页面有自动优惠；最终税价按目的地结算，参考原价£1,299。配件和防护排烟配置另核。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方FAQ明确批处理依赖AI摄像识别工件轮廓；Studio 1.9另明确F2支持图像材料识别和加工试样阵列分析，辅助定位与参数选择。",
+      "dependency": "视觉与参数工作流依赖xTool Studio及兼容固件，不把AI图案生成当唯一依据。识别要求清晰轮廓与足够背景对比；安全操作、材料适配和排烟仍需人工确认。"
+    },
+    "highlights": [
+      "AI识别工件辅助批量排版",
+      "材料识别与试样参数分析",
+      "便携桌面实体雕刻",
+      "机器安全条件与软件建议分开"
+    ],
+    "analysis": {
+      "demand": "案头需求是让个人创作者在小物件上做定制标记，减少逐件定位和重复试参数的时间。AI进入工件识别与加工准备，但并不会自动完成安全选材或替用户确认设计尺寸，实际收益要看废料和调试时间。",
+      "userProfile": "更适合有固定手作空间、愿意学习材料与通风要求的个人工作室和摆摊创作者。购买资格不等于即放即用；普通家庭若无法设置合适加工环境，视觉自动化也无法消除基础操作条件。",
+      "competition": "替代包括外包刻字、手动定位的小型雕刻机和夹具批处理。目录只保留这一个便携视觉雕刻代表，不将同系列功率升级再计为场景；比较应关注实际小批任务而非宣传加工速度。",
+      "supplyChain": "功能上需要光源与光路、相机、调焦运动、控制、保护罩和排烟接口。实际上游供应商与工厂未披露；光机标定、热漂移和材料残留会影响一致性，不能用通用相机模组拼成完整方案。",
+      "technology": "官方列出AI摄像识别适合清晰、非反光且与背景有对比的工件；材料照片识别和试样分析是软件功能。新旧官网对第三方软件兼容有冲突，本条以自家Studio为已核工作流，不宣称全软件通用。",
+      "aesthetics": "提手、竖向滑动罩和小底座形成便携机台形态，透明罩让加工区域可见。审美需要同时考虑桌面线缆、排烟管和装卸物件，单机小巧并不意味着整个安全工作区同样小。",
+      "risks": "风险包括反光或透明材料导致识别不稳、错误参数损坏工件，以及把封闭外观误当作不需要防护。标准机不含所有扩展附件，开罩加工和扩展台面的条件必须按厂商安全说明执行。",
+      "opportunity": "可验证机会在小批定制准备环节：记录新用户从图案到合格成品的试样次数、错位率和耗材损失。若人工夹具更可靠，就保留这一反例，不能因AI识别标签判断一定提高个人创作者收益。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "桌面加工属于明确创作工具，已有成熟激光、外包和夹具方案；定位创新需要在真实材料上验证。"
+    },
+    "architecture": [
+      {
+        "name": "工件视觉",
+        "detail": "头部摄像头捕获工件，AI识别辅助批量填充与定位。",
+        "evidence": "official"
+      },
+      {
+        "name": "加工光学",
+        "detail": "二极管和红外双光源执行对应材料的雕刻，光路不在概念图中推定。",
+        "evidence": "official"
+      },
+      {
+        "name": "调焦与结构",
+        "detail": "竖向调焦结构、底板及提手支持桌面使用。",
+        "evidence": "official"
+      },
+      {
+        "name": "软件工作流",
+        "detail": "Studio组织设计、材料识别、试样结果分析及设备控制。",
+        "evidence": "official"
+      },
+      {
+        "name": "保护与排烟",
+        "detail": "滑动保护罩、急停、钥匙与排烟接口构成操作边界，不能视作无条件安全。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "xTool F2英国官方商店",
+        "url": "https://uk.xtool.com/products/xtool-f2-5w-ir-15w-diode-portable-dual-laser-engraver",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际web打开并浏览器核对现售主机、购买按钮、1–3天发货及促销显示；未提交订单。"
+      },
+      {
+        "title": "xTool F2官方FAQ",
+        "url": "https://support.xtool.com/article/2818",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；明确AI摄像识别批处理及工件适配限制。"
+      },
+      {
+        "title": "xTool Studio 1.9发行说明",
+        "url": "https://support.xtool.com/article/3808",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；F2在AI材料识别和试样阵列分析支持名单，不能移植给未列出的F1 Ultra。"
+      },
+      {
+        "title": "xTool F2用户指南",
+        "url": "https://support.xtool.com/article/2013?from=xTool+F2&url=/product/60",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；MXF-K005-002结构图、相机、调焦、急停及配件不包含说明。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "qysea-fifish-v-evo",
+    "name": "QYSEA FIFISH V-EVO",
+    "brand": "QYSEA 潜行",
+    "category": "imaging",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "tagline": "在水下用AI视觉锁住拍摄目标的有缆摄影机器人",
+    "officialUrl": "https://store.qysea.com/products/fifish-v-evo?variant=44496840491091",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商店Standard Pack为US$1,399且可加入购物车；公开商品数据该变体available=true。官网将V-EVO列为Sport ROV，面向摄影、观察与探索；不把工业E-GO或机械臂套装另计。",
+    "regions": [
+      "官方商店支持的美国、欧洲等目的地（运费及地址另核）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已核全球官方商店，但未独立确认大陆零售库存与具体售后渠道。跨境版本、充电器和维修应另核，不能由中国品牌背景推断可直接买到。"
+    },
+    "price": {
+      "text": "官方标准包US$1,399",
+      "note": "不含机械臂套装；选配工具、特殊物流与税费另计。页面默认Arm Pack较贵，已按标准SKU核对。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI Vision Lock利用视觉目标识别自动调整机体方向和位置；另有官方明确的AI水下浮游杂质图像过滤。它不是只靠遥控移动的普通水下相机。",
+      "dependency": "需有缆遥控、手机App、推进与电池协同。视觉锁定受可见性影响，不等同自动避障、自主潜航或潜水安全保障；不同附加功能按软件与套餐确认。"
+    },
+    "highlights": [
+      "有缆水下拍摄与观察",
+      "视觉目标锁定驱动机体调整",
+      "AI图像杂质过滤",
+      "标准版与作业附件分开"
+    ],
+    "analysis": {
+      "demand": "案头需求是在不让拍摄者亲自下水的情况下稳定观察与记录水下对象。AI锁定可减少持续修正方向的操作，但缆线、能见度和取回设备仍需人管理；这与普通手持运动相机的使用任务不同。",
+      "userProfile": "适合水下影像爱好者、旅行创作者或小型船主做观察记录。它虽然可以买来个人使用，仍要求理解水域、缆线和推进操作；不是面向无训练人群的救援保障，也不把工业检测客户当消费需求。",
+      "competition": "替代包括潜水者携带防水相机、固定水下摄像头和纯遥控ROV。V-EVO的差异在视觉目标锁定与成像处理协助操控；本轮不按深度、电池或机械臂套装重复添加同品牌作业型号。",
+      "supplyChain": "公开机体含防水壳体、推进器、相机灯光、电池和有缆控制。工厂与上游件未披露；密封、压力变化、盐水残留和线缆连接必须整机验证，常见小电机或相机能力不能直接证明水下适用。",
+      "technology": "官方AI Vision Lock允许触选目标后由机体调整方向和位置，图像算法另处理水下可见杂质。不能将定深、遥控或普通姿态保持全部称作AI，也不能把视觉锁定扩写成未知障碍环境的自主导航。",
+      "aesthetics": "白色流线机身和外露带护圈推进器让用途直观，双灯与相机位于前方。携带审美还包含线盘、控制器和潮湿收纳，单机照片不能反映完整出行装备所占空间和清理工作。",
+      "risks": "能见度变差、缆线缠绕和推进器受阻会影响取景与操控；AI锁定没有消除这些物理限制。图像过滤后的观感也不等于真实水质测量，太阳光、浑浊和水流条件须在拍摄记录中保留。",
+      "opportunity": "可验证机会是为个人创作者降低水下固定目标拍摄的操控负担。比较手动和锁定模式拍同一对象所需修正次数、成片可用比例和回收整理时间，再判断是否比现有防水相机更符合其任务。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "水下探索有明确但窄的个人需求，环境和维护门槛高；不能用工业作业市场的规模替代消费需求。"
+    },
+    "architecture": [
+      {
+        "name": "水下视觉",
+        "detail": "前置相机与两侧灯光获取水下画面。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI目标与影像",
+        "detail": "视觉锁定驱动方向调整，AI过滤改善特定水下画面。",
+        "evidence": "official"
+      },
+      {
+        "name": "推进与姿态",
+        "detail": "六推进器配合运动与深度感知实现机体运动。",
+        "evidence": "official"
+      },
+      {
+        "name": "有缆交互",
+        "detail": "缆线、岸上控制器与App组成观察和操控链。",
+        "evidence": "official"
+      },
+      {
+        "name": "密封与电源",
+        "detail": "防水机身及电池维持运行，未公开内部布局只作功能推断。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FIFISH V-EVO官方标准包商店",
+        "url": "https://store.qysea.com/products/fifish-v-evo?variant=44496840491091",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开商店并读取公开商品数据；Standard Pack在售1399美元，摄影和观察定位。"
+      },
+      {
+        "title": "FIFISH V-EVO官方功能页",
+        "url": "https://www.qysea.com/products/fifish-v-evo/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；Sport ROV定位、AI视觉锁定、AI浮游杂质过滤、推进和有缆使用场景。"
+      },
+      {
+        "title": "QYSEA商店配送政策",
+        "url": "https://store.qysea.com/policies/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；配送受目的地与条件限制，未据此断言中国大陆直邮或本地保修。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "xbotgo-falcon",
+    "name": "XbotGo Falcon",
+    "brand": "XbotGo",
+    "category": "imaging",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "按团队运动场景追踪比赛进程的独立拍摄设备",
+    "officialUrl": "https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商品页及公开商品数据均显示Standard / Shadow Grey可购、available=true、US$769促销价格。仅记录独立相机标准版，不将三脚架套装、颜色或手机支架版重复收录。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "英国",
+      "欧洲",
+      "澳大利亚",
+      "日本等官网地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方地区选择可见香港、澳门与台湾，未见中国大陆；本轮未核大陆授权渠道、App与云服务完整可用性。"
+    },
+    "price": {
+      "text": "官方标准版US$769（页面参考价US$799）",
+      "note": "核查日促销显示；三脚架与存储卡另核。基础拍摄无需订阅，足球赛后AI分析等可选服务另付费；云容量促销不视为永久权益。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "XbotVision 3.0结合深度学习跟踪、场景分析与相机控制，按不同球类运动追踪比赛动作；双镜头分担识别和影像采集。",
+      "dependency": "本机拍摄与跟拍需正确场地摆放及microSD卡，App用于设置、直播和管理。联网分享、云存储和可选赛后分析有独立条件，不把基础免订阅扩写成全部服务免费。"
+    },
+    "highlights": [
+      "专项运动跟拍而非普通人像跟随",
+      "独立双镜头与本机处理",
+      "面向家庭比赛记录",
+      "基础拍摄与付费分析区分"
+    ],
+    "analysis": {
+      "demand": "案头需求是家长或个人教练既想观看比赛，又想留下完整进程，不愿全程手动追球。专项AI把比赛动作转成取景控制；与普通随身相机相比，它的价值要看关键回合是否被完整保留。",
+      "userProfile": "适合常去同类场地、能固定摆放设备的运动家庭和个人教练。购买者要能理解场地边界、存储和上传，不是随手放在任何位置就可替代摄像者；不同球类支持方式需逐项核验。",
+      "competition": "替代是家长手持手机、全景固定机位和高价球队摄像系统。目录不再加入同品牌手机云台或颜色变体；该项代表团队比赛的专项动作捕捉任务，不能借像素升级冒充新需求。",
+      "supplyChain": "硬件链含双镜头、本机处理、运动机构、电池、存储与连接。官网点名Sony成像传感器但未给完整上游链；镜头标定、转动平稳和长时户外供电需要共同验证，不能凭外形猜主控。",
+      "technology": "官方合作页面明确深度学习跟踪、场景分析和相机控制相结合。它需要理解运动场景中的动作重点，不能等同于始终锁住用户指定球员；基础跟拍与足球赛后报告也不是同一个运行环节。",
+      "aesthetics": "圆角横向机身、双镜头和顶部预设按钮降低传统摄影器材感，灰色款较克制。实际使用还要加高机位和稳定支撑，外观评估应包括架设、搬运与旁人通行，不只看桌面产品图。",
+      "risks": "遮挡、快速转移、邻近场地和摆放过低可能影响跟踪，重要比赛仍需确认录制状态与存储。页面云权益有多种促销口径，不能把短期容量赠送或基础免订阅当作全部AI服务终身免费。",
+      "opportunity": "机会在于降低家庭赛事记录的持续劳动。用真实完整比赛对照人工时间标记，统计关键回合遗漏、架设耗时和赛后剪辑负担，并访谈家长是否因为不必一直拿手机而愿意继续带它。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "团队运动自动拍摄有明确付费替代，属于专项工作流而非泛化相机升级；是否适配具体球类决定价值。"
+    },
+    "architecture": [
+      {
+        "name": "双镜头输入",
+        "detail": "双镜头承担动作观察与成像；具体传感器组合依官方规格核对。",
+        "evidence": "official"
+      },
+      {
+        "name": "运动AI",
+        "detail": "XbotVision 3.0执行深度学习跟踪与场景分析。",
+        "evidence": "official"
+      },
+      {
+        "name": "取景执行",
+        "detail": "相机运动与预设模式响应比赛过程。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机记录",
+        "detail": "电池、microSD和控制面板支持独立录制。",
+        "evidence": "official"
+      },
+      {
+        "name": "App与可选服务",
+        "detail": "App管理直播、剪辑及云端功能，付费赛后分析另作服务层。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "XbotGo Falcon官方标准灰色商品页",
+        "url": "https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports?variant=47604227211486",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开并核公开商品数据；标准灰色可购、769美元与存储卡要求。"
+      },
+      {
+        "title": "XbotGo官方产品及算法合作说明",
+        "url": "https://partners.xbotgo.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；Falcon双镜头、XbotVision 3.0深度学习跟踪、场景分析与控制。"
+      },
+      {
+        "title": "XbotGo Falcon官方商品功能说明",
+        "url": "https://xbotgo.com/products/xbotgo-falcon-true-4k-ai-camera-for-team-sports",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；基础免订阅和可选足球AI分析、当前云促销及地区列表。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "maono-dm40",
+    "name": "Maono DM40",
+    "brand": "Maono 闪克",
+    "category": "recording",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "通过电脑AI变音工作流输出角色化声音的实体麦克风",
+    "officialUrl": "https://www.maono.com/products/dm40-pro-usb-wireless-microphone?variant=42045450158145",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商店DM40黑色桌面款变体available=true、US$53.99且有Add to cart/Buy It Now。URL虽含pro，但已按商品选项确认标准DM40；不将Pro或白色再计一款。",
+    "regions": [
+      "美国",
+      "欧盟"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌有明确中文DM40使用和AI变音支持文档；本轮未打开验证大陆具体官方销售SKU及库存，国内价格、角色权益和海外版区别另核。"
+    },
+    "price": {
+      "text": "美国/欧盟官方商店标准黑色款US$53.99",
+      "note": "核查日促销价；Pro角色数量与价格不同。AI角色免费试用政策可能变化，不写成永久无限权益。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "Maono Link提供AI声音转换，将采集的人声变换成预设角色声音并输出虚拟麦克风；另有软件AI降噪。普通EQ、混响和硬件无线连接不单独当作AI。",
+      "dependency": "AI变音依赖电脑CPU、Maono Link、驱动和登录，不是麦克风离线自带模型。手机或主机能接收原始音频不等于可运行同一AI功能；官方列Windows及部分macOS支持。"
+    },
+    "highlights": [
+      "实体采音与软件AI变音连接",
+      "USB和无线接收器",
+      "虚拟麦克风输出给直播软件",
+      "标准款、Pro与试用权益明确区分"
+    ],
+    "analysis": {
+      "demand": "案头需求是在游戏交流、配音或直播中实时改变声音风格，同时保留实体麦克风的采音和操作。AI转换与普通升降音调不同，但实际价值仍取决于延迟、自然度和是否符合创作者的内容用途。",
+      "userProfile": "适合已有电脑、愿意配置音频输入且有明确角色表达需求的个人创作者。仅想录清楚原声的人未必需要变音功能；手机直播用户也不能因硬件可连接手机而默认电脑AI工作流通用。",
+      "competition": "替代包括普通USB麦克风加独立变音软件、声卡效果和后期配音。DM40把部分操作整合，但仍依赖电脑；目录只留标准款，角色数量更多的Pro和颜色变化不当成独立需求。",
+      "supplyChain": "实物包含电容采音、网罩、防喷罩、无线与USB、电池和桌面支架；AI服务另在软件侧。代工厂及具体声学芯片未披露，候选供应商要分别验证声学装配与驱动兼容，不能把算法功能归给麦克风单体。",
+      "technology": "官方手册要求开启AI Voice后选用虚拟Maono AI Microphone，并说明CPU性能与驱动会影响效果。模型结构和推理部署细节未公开，本条仅确认软件变音机制，不声称机内神经网络或零延迟。",
+      "aesthetics": "圆筒网罩、前置防喷片与桌面支架延续直播麦克风语言，RGB灯可表达设备状态也可能抢镜。使用审美应看占桌面积、旋钮触达与镜头内构图，不能把灯效当作采音质量证据。",
+      "risks": "主要风险是音频路由选错、AI返听延迟或驱动不兼容，以及试用角色政策变化。变音不应被宣传为可靠匿名保护；制作角色内容时也需确认允许使用的声音素材，而不默认所有效果可商业化。",
+      "opportunity": "机会假设是让初学创作者更容易完成从采音到直播输入的设置。可记录首次成功变音所需步骤、返听困扰和每周实际启用次数，并比较普通麦克风加软件方案，避免把好玩的演示等同于长期需求。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "桌面麦克风与变音软件竞争成熟，具体路由整合和稳定性是差异；AI角色数量不是需求规模证据。"
+    },
+    "architecture": [
+      {
+        "name": "采音结构",
+        "detail": "电容麦克风、网罩与防喷罩采集人声。",
+        "evidence": "official"
+      },
+      {
+        "name": "传输与供电",
+        "detail": "USB及无线接收器、电池和硬件控制完成录音链。",
+        "evidence": "official"
+      },
+      {
+        "name": "电脑AI处理",
+        "detail": "Maono Link执行角色声音转换与相关软件处理，依赖CPU和驱动。",
+        "evidence": "official"
+      },
+      {
+        "name": "虚拟音频输出",
+        "detail": "Maono AI Microphone作为直播或游戏软件的输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "结构边界",
+        "detail": "内部板件与声学供应商未披露，示意不声称真实拆机或机内AI芯片。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maono DM40标准黑色官方商店",
+        "url": "https://www.maono.com/products/dm40-pro-usb-wireless-microphone?variant=42045450158145",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开并核公开商品数据，标准DM40现售53.99美元，官方限定美国/欧盟。"
+      },
+      {
+        "title": "DM40系列官方电脑使用指南",
+        "url": "https://update.maono.com/Html/DM40/use/DM40_user_manual.html",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；AI变音CPU要求、虚拟音频设备、角色试用和驱动依赖。"
+      },
+      {
+        "title": "DM40中文官方使用帮助",
+        "url": "https://faq.maono.cn/docs/DM40-DM40Pro-shi-yong-bang-zhu",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；中文版本软件账户、AI变音和监听流程，不用它证明国内现货。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "lava-genie",
+    "name": "LAVA GENIE（拿火精灵）",
+    "brand": "LAVA MUSIC",
+    "category": "music",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "把AI音频制谱接入触控和弦演奏的无弦电子乐器",
+    "officialUrl": "https://store.lavamusic.com/productDetail/lava-genie?id=83",
+    "status": "on_sale",
+    "statusEvidence": "核查日美国官方商店浏览器实际显示US$399、2–5天发货及启用的Add To Cart/Buy Now。搜索抓取中的Out of stock来自未展开模板，已以实际已加载页面核对；黑白与麦克风套装仅算一款。",
+    "regions": [
+      "美国",
+      "香港等官方地区（库存按地区确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "可核中文拿火+ App及香港官方产品页，未独立打开验证大陆硬件官方销售SKU和当前价格。国内与海外曲库、账号和AI制谱权益须以对应App核对。"
+    },
+    "price": {
+      "text": "美国官方商店US$399",
+      "note": "标准Full Package；可选无线麦克风另计。授权歌曲会员与硬件功能分开，AI制谱额度、费用和地区支持按当前App确认。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "lavaAI在LAVA+ App中把上传音频转换为和弦谱，设备通过触控指板、打击垫和引导灯连接到演奏流程。采样音色、混响和普通自动伴奏本身不作为AI依据。",
+      "dependency": "AI制谱是App/账户工作流，不是乐器本机离线识谱。乐器负责触控演奏、发声和反馈；授权曲库有会员选项，模型和服务地区细节未充分披露。"
+    },
+    "highlights": [
+      "无弦触控和弦与打击垫",
+      "音频AI制谱接入练习",
+      "灯光和屏幕和弦引导",
+      "折叠结构与内置扬声器"
+    ],
+    "analysis": {
+      "demand": "案头需求是让想弹唱的人用较简单的手势表达和弦与节奏，再把喜欢的音频转为可练习谱面。它改变演奏输入方式而不是模拟传统按弦训练；能否持续创作要看用户是否超出跟灯操作。",
+      "userProfile": "适合想快速参与弹唱、愿意使用App和接受电子音色的初学者或休闲创作者。传统吉他手指技法、纯原声音色或复杂演奏表现是不同目标，不能把无弦更容易上手说成替代全部乐器学习。",
+      "competition": "替代包括和弦键盘、其他无弦乐器、手机伴奏和传统吉他。本轮只留一款触控演奏代表，不用颜色、套餐或同类自动伴奏设备补数量；AI来源是制谱流程，普通音效不重复包装。",
+      "supplyChain": "硬件需要触控指板、压力输入、音源、扬声器、电池及可折叠结构，软件承接AI制谱和内容。具体工厂及元件来源未披露；触控与发声延迟、折叠寿命和声学腔体比外观造型更影响可玩性。",
+      "technology": "官方App说明上传音频可生成和弦谱，产品页将其与指板数字和引导灯对应。识谱错误仍可能存在，应允许用户核对和修改；算法模型未披露，不宣称它自动理解任何歌曲或在机内运行。",
+      "aesthetics": "开放式轮廓、半琴身和长触控指板保留抱持乐器的姿态，同时省去琴弦和调音旋钮。黑色版本较克制；审美体验还取决于触摸区域是否直观、灯光是否帮助节奏，以及折叠后是否真正便携。",
+      "risks": "风险在于AI制谱准确性、曲库授权与账号权益变化，以及用户把跟灯完成曲目误认为掌握传统吉他。实体乐器可发声不等于AI服务离线可用，购买时需要区分机身功能与App内容条件。",
+      "opportunity": "可验证机会是让用户更快把自己喜欢的歌变成可演奏的和弦草稿。调研应观察首首歌完成时间、错谱修正、脱离灯光的表现和隔周是否再弹，而不是只收集第一次发出声音时的兴奋反馈。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "无弦演奏设备已出现多种路线，降低输入门槛不必然带来长期音乐练习；制谱与硬件反馈的衔接需验证。"
+    },
+    "architecture": [
+      {
+        "name": "触控演奏",
+        "detail": "长触控指板选和弦，打击垫与压力感应组织节奏。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "机内音源、效果及扬声器产生声音，普通DSP不额外标AI。",
+        "evidence": "official"
+      },
+      {
+        "name": "App制谱",
+        "detail": "lavaAI从上传音频生成和弦谱，服务计算不等于机内推理。",
+        "evidence": "official"
+      },
+      {
+        "name": "练习反馈",
+        "detail": "App数字与设备引导灯映射到可触摸的演奏位置。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源与折叠",
+        "detail": "电池、充电与开放可折叠机身支持携带，内部仅作概念分层。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "LAVA GENIE美国官方商店",
+        "url": "https://store.lavamusic.com/productDetail/lava-genie?id=83",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际浏览器打开已加载页面，确认399美元、2–5天发货、启用购买按钮及标准包。"
+      },
+      {
+        "title": "LAVA GENIE香港官方产品页",
+        "url": "https://www.lavamusic.com/hk/lava-genie",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际浏览器打开；触控和压力输入、App和弦引导、lavaAI转谱及固件功能与曲库会员区分。"
+      },
+      {
+        "title": "拿火+开发者官方App说明",
+        "url": "https://apps.apple.com/cn/app/%E6%8B%BF%E7%81%AB/id1571614661",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开中国App Store开发者描述，明确上传音频的lavaAI制谱；不由App可用推断硬件国内库存。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "sony-mocopi",
+    "name": "Sony mocopi（标准六传感器套件）",
+    "brand": "Sony",
+    "category": "creative-tools",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "tagline": "从六个惯性传感点估计全身姿态的个人动作捕捉套件",
+    "officialUrl": "https://electronics.sony.com/more/mocopi/all-mocopi/p/qmss1-uscxk",
+    "status": "on_sale",
+    "statusEvidence": "核查日Sony美国官方商店及浏览器均显示标准mocopi为US$449.99、Add to Cart和预计11月10–11日配送。选择六传感器标准款，不将十二传感器Pro套装另计。",
+    "regions": [
+      "美国（本轮已核官方商店）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实美国官方销售与全球支持，未独立核对中国大陆官方SKU、App分发及售后；跨境购买需按地区与电脑/手机平台确认。"
+    },
+    "price": {
+      "text": "Sony美国官网US$449.99",
+      "note": "标准六传感器和绑带；PC采集软件当前Basic为US$4.49/月，手机工作流和额外接收器条件另核，不默认包含全部PC编辑服务。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "六个可穿戴IMU采集加速度和旋转运动，App以AI估计全身姿态；官方手册明确这是估计，不是直接测量每个关节。",
+      "dependency": "依赖校准、佩戴位置、蓝牙及手机或PC软件。惯性误差会累积，极快或极慢动作可能不佳；2026年10月后PC采集已独立至mocopi PC app，XYN Motion Studio侧重编辑。"
+    },
+    "highlights": [
+      "无需摄影棚的少点全身动捕",
+      "IMU数据到App AI姿态估计",
+      "腕部操作与姿态重置",
+      "标准与Pro配置不重复计数"
+    ],
+    "analysis": {
+      "demand": "案头需求是让个人动画、虚拟角色和表演创作者用较少设备记录全身动作。它减少固定相机与场地布置，但输出仍需检查和修正；真正价值在可用动作片段与制作时间，不是传感器数量少本身。",
+      "userProfile": "适合已有虚拟角色或三维内容目标、愿意学习校准和软件连接的个人创作者。不是健身诊断工具，身高与动作条件会影响估计；只想直播面部的人未必需要整套全身捕捉。",
+      "competition": "替代包括视频姿态估计、完整惯性动捕服和光学棚。标准mocopi降低佩戴点与安装负担，也可能增加未测关节推断和后期修正；不将Pro增加传感器当作另一独立需求凑数。",
+      "supplyChain": "硬件由六个IMU小件、无线、电池、绑带及充电盒构成，App完成姿态估计。具体惯性芯片、代工与电芯未披露；传感一致性、校准和佩戴稳定需要与算法共同验证。",
+      "technology": "官方明确使用AI估计全身姿态，并指出惯性漂移、动作速度与无线环境限制。少点输入并不等于每个关节都被测量；新PC软件与旧XYN采集说明的迁移也必须按当前文档区分。",
+      "aesthetics": "圆形小传感器用不同颜色和位置标记帮助佩戴，日常服装即可承载。审美还包含绑带舒适、左右识别和充电收纳；概念图以一个小件分层，避免画成整套机甲或专业动捕服。",
+      "risks": "风险是漂移、佩戴滑动或校准错误让虚拟角色姿态失真，以及软件订阅变化改变制作成本。不要把估计姿态用于医疗或精密测量结论；关键动画需要回看原动作与修正后的输出。",
+      "opportunity": "可验证机会是减少独立创作者反复布景与重拍的成本。让用户完成几个真实动画动作，记录校准、重置、清理曲线和导入引擎时间，再判断相较手机视频估计是否带来稳定收益。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人动捕是具体创作场景，已有软件估计和专业设备替代；后期可用程度与工具链兼容比新奇外形更重要。"
+    },
+    "architecture": [
+      {
+        "name": "惯性采集",
+        "detail": "六个IMU测量身体指定部位的加速度与旋转。",
+        "evidence": "official"
+      },
+      {
+        "name": "佩戴与电源",
+        "detail": "标记传感器、绑带、夹具和充电盒管理定位与补能。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线连接",
+        "detail": "蓝牙将传感数据连接至手机或适配PC工作流。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI姿态估计",
+        "detail": "App利用有限测量点估计全身姿态，未测关节不等同直接测量。",
+        "evidence": "official"
+      },
+      {
+        "name": "创作输出",
+        "detail": "动作数据与视频进入角色、三维和实时内容工具，PC采集与编辑应用分开。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sony mocopi标准套件美国商店",
+        "url": "https://electronics.sony.com/more/mocopi/all-mocopi/p/qmss1-uscxk",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际web与浏览器打开；六传感器标准版449.99美元、购买按钮、预计配送；Pro另列。"
+      },
+      {
+        "title": "mocopi QM-SS1官方帮助指南",
+        "url": "https://helpguide.sony.net/mobile/qm-ss1/v1/en/print.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开50页PDF；AI姿态估计、佩戴、校准和平台依赖，非精确关节直接测量。"
+      },
+      {
+        "title": "Sony当前PC动作软件分工",
+        "url": "https://xyn.sony.net/en/products/xyn_motion_studio",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；2026年10月采集迁至mocopi PC app，当前Basic月费与编辑工具边界。"
+      },
+      {
+        "title": "Sony mocopi IMU说明",
+        "url": "https://xyn.sony.net/en/learn/mocopi/imu",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；六个惯性传感器、加速度和旋转数据，未点名上游传感芯片。"
+      },
+      {
+        "title": "Sony mocopi使用限制与校准建议",
+        "url": "https://xyn.sony.net/en/learn/mocopi/tips",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；漂移、快慢动作、无线干扰和校准要求，不借此声称实测精度。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "samsung-odyssey-3d-g90xf",
+    "name": "Samsung Odyssey 3D G90XF（27英寸）",
+    "brand": "Samsung",
+    "category": "spatial",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "结合视点追踪与AI视频深度转换的个人裸眼立体显示器",
+    "officialUrl": "https://www.samsung.com/uk/monitors/gaming/odyssey-3d-g90xf-27-inch-165hz-uhd-ls27fg900xuxxu/",
+    "status": "on_sale",
+    "statusEvidence": "核查日英国官方商店浏览器实际显示银色27英寸LS27FG900XUXXU、£1,499及启用的Add to basket。网页文本抓取的No longer available为隐藏状态模板，未据它断言停售。",
+    "regions": [
+      "英国（本轮核实官方可购）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实英国官方型号；中国大陆官方库存、地区保修与软件分发条件未独立确认。电脑显卡和内容限制不会因跨境买到显示器而消失。"
+    },
+    "price": {
+      "text": "英国官网£1,499",
+      "note": "核查日实际UI价，回收折抵和支付优惠另计；地区税费、兼容电脑和游戏不包含在显示器售价中。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI分析二维视频并估计深度转成立体显示；摄像头跟踪观看者位置，视点映射调整左右眼画面。游戏3D支持清单与视频AI转换是不同功能。",
+      "dependency": "AI视频转换需电脑上的Odyssey 3D Hub、NVIDIA显卡及全屏内容，DRM或HDR条件不支持。官方说明一次一名观看者，脸部遮挡和大幅头动会影响效果，不是任意内容的共享全息屏。"
+    },
+    "highlights": [
+      "个人视点追踪裸眼立体",
+      "AI二维视频转3D",
+      "明确电脑与内容依赖",
+      "不按刷新率升级收录"
+    ],
+    "analysis": {
+      "demand": "案头需求是在桌面观看视频或兼容游戏时获得不用眼镜的立体体验。AI负责把部分二维视频转为深度内容，显示硬件配合观看位置；需求应从用户愿看哪些内容开始，而不是只看新显示技术。",
+      "userProfile": "适合已有兼容电脑、愿意调整软件与观看位置的个人立体影像爱好者。多人一起看、普通办公或Mac用户的任务不同；它不是只接任意视频源就自动适配所有人的显示器。",
+      "competition": "替代包括普通显示器、头戴VR、立体眼镜方案与多视图光场屏。此条区别是单个观看者的动态内容和视点适配，不把普通显示器的尺寸、刷新率或同系列规格变化当新需求。",
+      "supplyChain": "功能链包含显示与视图光学、顶部追踪摄像、控制供电和支架，AI视频处理还需要外部电脑。具体面板、光学结构和制造供应关系未公开，本轮只列能力候选，不猜真实内部层叠。",
+      "technology": "官方支持说明以眼追踪和视点映射实现立体，视频转换依赖特定显卡与Hub。AI生成的深度不是现场真实测距；游戏清单也不能被理解成任意游戏都可一键AI转3D。",
+      "aesthetics": "薄边框、银色背板和宽支撑保留普通桌面显示器外形，但观看姿态更受约束。主图飞船出屏是厂商效果示意，概念图会去除这种宣传画面，避免暗示有真实物体投影到空气中。",
+      "risks": "风险是内容限制、显卡成本与观看不适，且单人视点不能自然覆盖多人。应核对目标游戏和视频能否工作，不能用兼容少数演示内容的结果推断所有平台与流媒体都可用。",
+      "opportunity": "可验证机会在特定立体视频爱好和桌面体验。让用户用自己常看的非受限内容连续体验，记录设置、头部位置丢失和主动切回2D的原因，再比较是否值得承担软件与硬件条件。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "裸眼个人立体显示是明确窄场景，兼容内容、观看位置和成本限制显著，不能由高规格推断普遍显示器升级需求。"
+    },
+    "architecture": [
+      {
+        "name": "观看位置感知",
+        "detail": "顶部摄像头追踪个人观看位置，需面部在可见范围。",
+        "evidence": "official"
+      },
+      {
+        "name": "视图显示",
+        "detail": "显示与光学系统按视点映射提供左右眼不同画面。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部AI转换",
+        "detail": "兼容电脑和Odyssey 3D Hub处理二维视频深度转换，不视为机内独立AI。",
+        "evidence": "official"
+      },
+      {
+        "name": "机身控制",
+        "detail": "输入、控制和电源配合显示，内部布局未公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "支撑与边界",
+        "detail": "银色支架与机身支持桌面摆放；官方说明一次只能一人获得3D效果。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Samsung英国G90XF官方商店",
+        "url": "https://www.samsung.com/uk/monitors/gaming/odyssey-3d-g90xf-27-inch-165hz-uhd-ls27fg900xuxxu/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际web和浏览器打开；1499英镑购买、视频AI转换、HDR/DRM及显卡限制。"
+      },
+      {
+        "title": "Samsung G90XF官方3D使用说明",
+        "url": "https://www.samsung.com/uk/support/displays/how-to-use-3d-on-the-odyssey-3d-gaming-monitor/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；眼追踪、视点映射、Hub安装、NVIDIA转换、单人及观看位置限制。"
+      },
+      {
+        "title": "Samsung G90XF型号支持页",
+        "url": "https://www.samsung.com/uk/support/model/LS27FG900XUXXU/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；型号专属支持和3D功能指南入口，不沿用其它显示器通用功能。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "gran-eye-2026",
+    "name": "GRAN EYE（2026安装套件版）",
+    "brand": "GRAN DARTS",
+    "category": "games",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "外挂到现有钢针靶上的AI视觉自动计分套件",
+    "officialUrl": "https://store.gran-darts.com/en/products/gran-eye-2026model",
+    "status": "on_sale",
+    "statusEvidence": "核查日日本官方商店列2026款¥39,380含税，公开商品数据默认变体available=true。部分英国渠道旧组合缺货未用作销售证据；2026版主要更新安装件，与2025版AI计分能力相同，不重复计两款。",
+    "regions": [
+      "日本（已核官方商店）",
+      "欧洲、北美等品牌授权渠道（逐店库存另核）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已核品牌全球经销商列表，但未确认中国大陆官方现货与售后；App、服务器处理和支付条件需按所在地另核。"
+    },
+    "price": {
+      "text": "日本官方商店¥39,380日元（含税）",
+      "note": "计分外挂套件；钢针靶、飞镖、护圈和USB PD电源适配器不应默认包含。基础记分官方称无订阅，可选App额外内容另计。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "两个相机采集靶面，AI判断每支飞镖落点并计算分数。2026年9月App更新可将低性能手机的计算交由GRAN服务器，不能宣称所有识别都在套件本机或完全离线。",
+      "dependency": "需现有钢针靶、手机/平板、GranDarts App与供电；无线连接或服务器处理依赖相应网络。2026版磁吸安装件改进设置流程，计分模型未因安装年份自动升级。"
+    },
+    "highlights": [
+      "保留已有钢针靶的外挂方案",
+      "双相机AI识别落点",
+      "磁吸安装与连接中枢",
+      "手机或服务器计算边界明确"
+    ],
+    "analysis": {
+      "demand": "案头需求是让家中钢针飞镖游戏减少人工计分，又保留用户已有靶盘和投掷习惯。AI识别进入每次落点判分；实际价值在争议球、遮挡和误判时能否快速核对，不能只看厂家准确率。",
+      "userProfile": "适合已有钢针靶、经常练习或与朋友比赛，并愿意放置手机屏幕的人。只偶尔娱乐或偏好完全离线玩法的人未必需要联网记分；安装空间与供电也影响能否长期保留。",
+      "competition": "替代包括人工算分、电子软针靶和其他摄像自动计分。该套件的差异是保留现有钢针设备，目录只收当前安装版；不同年份或灯光附件并不形成独立需求。",
+      "supplyChain": "实物包含两个摄像单元、连接中枢、线缆和磁吸安装件，AI计算可在手机或服务器。图像芯片与代工未披露，候选相机和结构厂仅是能力匹配，不能推断品牌实际采购名单。",
+      "technology": "官方说明AI从靶面照片判断落点，新App允许服务器承担低性能终端的计算。识别不同于直接读取电子靶开关；光线、飞镖堆叠和网络延迟都应测试，不能承诺任何条件都零误判。",
+      "aesthetics": "两个细长黑色相机分列靶盘两侧，底部中枢和磁吸挂件尽量保留原有布置。主图采用实际套件内容，参考图说明安装位置；靶盘与护圈只是使用场景，避免让人误以为随盒附送。",
+      "risks": "主要风险是误计分影响比赛、旧手机转服务器后产生网络依赖，以及把不同年份安装配件混用。官方基础计分无订阅不等于所有App扩展免费，跨境硬件也不保证本地支持。",
+      "opportunity": "可验证机会在日常训练和熟人对局的计分减负。让玩家同时人工复核多轮投掷，记录争议与修正时间、重新校准次数和联网失败处理，再判断它是否真的让游戏更连续。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "钢针飞镖自动计分服务于稳定兴趣人群，已有多家视觉方案；外挂便利和纠错体验需要实测，不能以冷门推断低竞争。"
+    },
+    "architecture": [
+      {
+        "name": "双视角采集",
+        "detail": "两个外置摄像单元观察已有钢针靶。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装与连接",
+        "detail": "磁吸挂件、线缆和下方中枢完成布置与连接。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI判分",
+        "detail": "手机或服务器从靶面图像推断飞镖落点，非电子靶触点读数。",
+        "evidence": "official"
+      },
+      {
+        "name": "游戏反馈",
+        "detail": "GranDarts App显示分数、对局和统计。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部配套",
+        "detail": "需要靶盘、飞镖和合适USB PD电源，套件不等于整套靶盘系统。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GRAN EYE 2026官方商店",
+        "url": "https://store.gran-darts.com/en/products/gran-eye-2026model",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开并读公开商品数据；39380日元含税、默认款有货、适配器另购及年份区别。"
+      },
+      {
+        "title": "GRAN EYE官方功能页",
+        "url": "https://www.gran-darts.com/graneye",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；双摄像外挂、磁吸安装、Wi-Fi/USB与基础计分服务。"
+      },
+      {
+        "title": "GRAN EYE服务器计算更新",
+        "url": "https://www.gran-darts.com/topics/gran-eye-works-on-older-phones-and-tablets",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；2026年9月App3.0可把低性能手机的AI计算交给服务器。"
+      },
+      {
+        "title": "GRAN EYE年份对比官方说明",
+        "url": "https://www.gran-darts.com/ja/topics/which-gran-eye-should-you-choose-2025-vs-2026-model-comparison-guide",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；两代计分性能相同，主要改变安装和附件，不重复计数。"
+      },
+      {
+        "title": "GRAN DARTS授权经销商",
+        "url": "https://www.gran-darts.com/dealers",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；用于渠道范围，不把名单存在当成所有店都有现货。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "huupe-mini-2",
+    "name": "huupe mini 2",
+    "brand": "huupe",
+    "category": "games",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "用非摄像感知把室内小篮筐变成投篮游戏终端",
+    "officialUrl": "https://huupe.com/products/huupe-mini-2",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商店浏览器显示mini 2、US$499及启用的Buy Now；不选择含回弹架的arcade 2套装，也不将mini 1重复计入该需求。",
+    "regions": [
+      "美国（本轮核实官方美元店）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未核中国大陆官方店、跨境配送及在线游戏服务。实体门挂安装条件、App账号与内容服务需按目的地确认。"
+    },
+    "price": {
+      "text": "官方mini 2 US$499促销价（参考US$799）",
+      "note": "标准篮筐终端，回弹架另购；免费游戏与huupe+、特定挑战或第三方流媒体费用分开，不承诺所有内容永久免费。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "厂商明确用非摄像AI感知识别投篮及投篮距离，将实际投球映射为游戏输入。传感器种类和模型结构未披露，不据外观猜摄像头、雷达或激光测距。",
+      "dependency": "依赖特定安装、官方推荐球、供电和本机系统；在线对战与流媒体需网络。屏幕受保护但禁止悬挂在篮圈上，不能把轻扣篮描述扩写成承受人体重量。"
+    },
+    "highlights": [
+      "真实小球投篮输入",
+      "非摄像AI识别",
+      "屏幕篮板与本机游戏反馈",
+      "门挂与墙装条件明确"
+    ],
+    "analysis": {
+      "demand": "案头需求是让室内投小球从单纯投篮变为有计分、距离与互动反馈的游戏。它与屏幕前身体体感的输入不同；能否长期使用取决于空间、噪声和家人参与，而不是厂家宣传的投篮识别率。",
+      "userProfile": "适合有合适门或墙面、足够投篮区域且愿意接受室内小球活动的家庭。租住环境、家具和邻里声音都影响适配；它不是标准球场训练器，不能把游戏表现直接等同真实比赛技能。",
+      "competition": "替代包括普通迷你篮筐、简单计数玩具和电视体感游戏。AI感知的差异在实际投篮与位置反馈结合，目录只保留mini 2代表，不将回弹框套装和旧mini型号重复当作创新。",
+      "supplyChain": "硬件包含受保护显示屏、非摄像感知、控制、电源、扬声器、篮圈和安装件。具体感知器件及制造来源未披露；撞击隔离、安装与识别要一起验证，不能只按一块平板屏估算成本。",
+      "technology": "官方确认不用摄像头追踪投篮，但没有披露雷达、红外或模型架构，本条只陈述已知的感知输出。命中、未中和距离反馈应分别测试，不将一个笼统准确率推广到所有球与房间。",
+      "aesthetics": "屏幕作为篮板、侧边扬声器和可见篮圈使其明显区别于普通游戏主机。真正的外观体验还包括门后挂钩、线缆和不玩时占位；概念图不添加未证实的触控屏或摄像模块。",
+      "risks": "风险包括不合适安装、投球碰到家具、错误识别以及游戏服务收费变化。官方允许轻扣但禁止挂圈，不能由带屏保护层推断任意强度都安全；推荐球之外的识别表现仍需确认。",
+      "opportunity": "可验证机会是家庭短时共同娱乐。记录首次安装、选游戏、漏计与争议修正，以及两周内谁主动发起投篮；再问为何某天没玩，用实际复用而不是销量宣传判断需求。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "实体投篮与游戏屏幕形成新互动方式，但家庭空间、内容更新和长期复玩仍待验证；普通篮筐是强低成本替代。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "篮圈、篮板和迷你球构成真实投篮交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "非摄像AI感知",
+        "detail": "识别投篮与位置，具体传感类型及内部布局未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "显示与音频",
+        "detail": "受保护屏幕和扬声器提供本机游戏反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电与联网",
+        "detail": "电池、USB-C供电、无线连接配合游戏与服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装结构",
+        "detail": "门挂或另购墙装件固定设备，回弹架不是标准mini 2标配。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "huupe mini 2官方商店",
+        "url": "https://huupe.com/products/huupe-mini-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际web和浏览器打开；499美元、启用购买、无摄像AI投篮、安装、推荐球及挂圈限制。"
+      },
+      {
+        "title": "huupe官方当前产品目录",
+        "url": "https://huupe.com/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；当前mini 2与ARENA、arcade分别销售，不跨型号拼功能。"
+      },
+      {
+        "title": "huupe官方用户手册入口",
+        "url": "https://huupe.com/pages/user-manuals",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；型号选择式安装与手册入口，不把未展开资料当成已验证内部传感器。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "looking-glass-go",
+    "name": "Looking Glass Go（白色版）",
+    "brand": "Looking Glass Factory",
+    "category": "spatial",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "将AI推断的照片深度呈现在桌面多视图光场中的小屏",
+    "officialUrl": "https://checkout.lookingglassfactory.com/products/looking-glass-go?variant=40821839822937",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方白色变体US$199且公开商品数据available=true；商店及帮助页说明新订单通常2–3工作日发出。透明外壳同硬件不另计，已停售Portrait不混入。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "欧洲",
+      "日本等商店支持地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官网地区列表含香港、澳门及台湾，未确认中国大陆直送或官方本地售后。照片上传、账号和App获取条件须独立核对；Android官方文档目前提供APK替代暂缺的Play上架。"
+    },
+    "price": {
+      "text": "官方白色版US$199（参考US$299）",
+      "note": "不含内置电池；外置电池为另购配件，核查时相关附件有缺货提示。不同外壳、税运费与桌面电脑不包含在同一价格中。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Looking Glass App工作流对上传的二维照片生成AI深度，并可调整焦点与深度；显示器以多视图光场呈现。AI结果是推断，不是实际三维扫描或真实悬浮投影。",
+      "dependency": "首次需要App、账户、2.4GHz Wi-Fi和固件设置；素材转换与设备播放分开。桌面实时内容另需电脑和Bridge，不能把独立播放模式解释为所有AI都在机内离线运行。"
+    },
+    "highlights": [
+      "照片AI深度与焦点调整",
+      "无需眼追踪的多视图显示",
+      "折叠小屏用于桌面陈列",
+      "无内置电池与App条件清楚标注"
+    ],
+    "analysis": {
+      "demand": "案头需求是把已有照片或个人三维作品变成桌面可从不同角度观看的陈列内容。与单人跟头移动的视频显示不同，它更偏向记忆和作品展示；是否长期留在桌上要看内容更新与观看习惯。",
+      "userProfile": "适合喜欢整理照片、制作三维小作品并愿意使用App或电脑工具的人。没有内容准备意愿的用户可能只播放默认演示；偏好多人日常大屏观看或严格图像测量的人也不是同一任务。",
+      "competition": "替代包括普通电子相框、手机的深度照片效果和个人视点追踪3D屏。Go提供多视图光场陈列，目录只选一个尺寸代表；不把透明外壳、Portrait或更大商用屏重复计作需求。",
+      "supplyChain": "功能链包含光场显示、控制存储、无线连接、折叠结构和外部供电，AI素材处理连接App工作流。面板与光学供应商未披露；多视图校准和内容格式兼容比普通屏幕堆规格更重要。",
+      "technology": "官方入门文档明确上传照片后生成AI深度并可编辑焦点和深度。被遮挡部分和几何关系属于推断，不能当真实测量；桌面实时应用、独立播放与云端素材准备是不同运行条件。",
+      "aesthetics": "竖向白色边框和折叠底座让它接近桌面照片摆件，角度会影响可见效果。官方参考图中出屏物体是效果示意，概念图只画显示与光学模块，不添加投影光束、眼追摄像或内置电池。",
+      "risks": "风险在于AI深度错误、照片上传和账号依赖，以及App分发变化。官方文档提示Android应用暂不在Play上架，使用者可能要走官方APK；不能仅看商店写支持Android就认为安装流程没有门槛。",
+      "opportunity": "可验证机会是让普通照片更值得再次观看。让用户转换自己选的照片，记录纠错、导入和播放列表更新，再跟踪一个月是否换内容、邀请别人看或把设备收起，不用初次惊喜预测长期需求。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人光场陈列有鲜明观看方式，内容制作和重复观看需求仍窄；与普通电子相框相比的价值需要真实使用验证。"
+    },
+    "architecture": [
+      {
+        "name": "AI素材准备",
+        "detail": "App上传照片并生成深度，支持焦点和深度编辑。",
+        "evidence": "official"
+      },
+      {
+        "name": "多视图光场",
+        "detail": "显示与光学模块让不同方向获得不同视图，无需头戴或眼追踪。",
+        "evidence": "official"
+      },
+      {
+        "name": "播放与存储",
+        "detail": "本机管理素材播放，桌面实时内容另依赖电脑工具。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与供电",
+        "detail": "无线配置和USB电源支持使用，无内置电池。",
+        "evidence": "official"
+      },
+      {
+        "name": "折叠结构",
+        "detail": "竖屏、底部转轴和折叠底座构成小型陈列设备，内部仅为概念拆分。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Looking Glass Go官方白色商品页",
+        "url": "https://checkout.lookingglassfactory.com/products/looking-glass-go?variant=40821839822937",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开并读取公开商品数据；白色199美元有货、无内置电池与照片用途。"
+      },
+      {
+        "title": "Looking Glass官方发货说明",
+        "url": "https://looking-glass.helpscoutdocs.com/article/236-when-do-looking-glass-displays-ship",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；Go通常2–3个工作日发货，Portrait已停售。"
+      },
+      {
+        "title": "Looking Glass Go官方入门流程",
+        "url": "https://lfdocs.lookingglassfactory.com/getting-started/looking-glass-go/get-started-with-looking-glass-go",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；上传后AI深度、编辑焦点、独立和桌面模式、2.4GHz网络与Android APK临时方案。"
+      },
+      {
+        "title": "Looking Glass官方软件能力",
+        "url": "https://lookingglassfactory.com/software",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；无需眼追踪、多视图内容、Go陈列和不同创作工具分工。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
   }
 ]

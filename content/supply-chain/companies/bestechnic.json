@@ -1,0 +1,306 @@
+{
+  "id": "bestechnic",
+  "name": "Bestechnic 恒玄科技",
+  "legalName": "恒玄科技（上海）股份有限公司",
+  "country": "中国大陆",
+  "locations": [
+    "中国上海",
+    "中国北京",
+    "中国深圳",
+    "美国 Mountain View"
+  ],
+  "tier": "specialist",
+  "tierNote": "按低功耗无线计算与智能音频、穿戴平台专业覆盖分组，不引用市场领先或客户规模宣传。",
+  "roles": [
+    "chip",
+    "connectivity",
+    "acoustics",
+    "software"
+  ],
+  "capabilities": [
+    "BES2800BP 智能穿戴 SoC",
+    "BECO 神经网络协处理与多核控制",
+    "蓝牙音频及可选无线局域网",
+    "音频编解码、图形与显示接口"
+  ],
+  "productCategories": [
+    "glasses",
+    "audio",
+    "recording",
+    "wearables"
+  ],
+  "website": "https://www.bestechnic.com/",
+  "contactUrl": "https://www.bestechnic.com/lists/26.html",
+  "summary": "恒玄的穿戴平台把多核控制、神经网络协处理、音频与无线结合，公开 BES2800BP 页面明确面向手表和眼镜。它适合研究小型个人设备中任务与功耗如何分配，但可选模块和具体配置必须核实。目录不把系列能力当作所有成品都启用的功能，也不从品牌生态或外观猜测某款产品实际采用恒玄芯片。",
+  "sources": [
+    {
+      "title": "BES2800BP product information",
+      "url": "https://www.bestechnic.com/article/72/56.html",
+      "note": "支持穿戴 SoC、多核与 BECO、音频、图形和连接能力；部分模块标为可选，不泛化到所有配置。",
+      "id": "s1",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "Bestechnic smart glasses product list",
+      "url": "https://www.bestechnic.com/lists/32.html",
+      "note": "支持 BES28 与 BES27 系列的眼镜应用定位，不证明任何具体品牌采用。",
+      "id": "s2",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "Bestechnic company overview",
+      "url": "https://www.bestechnic.com/content/41.html",
+      "note": "支持公司无线计算、音视频与低功耗平台业务及公开主体。",
+      "id": "s3",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "Bestechnic Contact",
+      "url": "https://www.bestechnic.com/lists/26.html",
+      "note": "支持上海、北京、深圳及美国公开地址和商务联系入口。",
+      "id": "s4",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "analysis": {
+    "positioning": [
+      {
+        "title": "官方｜无线计算的穿戴平台",
+        "text": "所核查型号将多核处理、神经网络协处理、音频、无线和显示相关能力结合，并明确列出手表与眼镜应用。它更接近完整穿戴平台，而不是单一蓝牙器件；目录仍按具体配置记录能力，不能把系列的全部模块都当作每颗芯片或每款成品已经启用。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜任务切分决定价值",
+        "text": "眼镜和手表会在常开监听、短时交互、显示与同步之间切换，平台集成的价值取决于这些任务是否能高效分工。更多计算核并不自动更省电，软件需要让不工作的部分真正休眠；选型应围绕真实日常负载，而不是只比较峰值频率或功能数量。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "官方｜可选功能需确认",
+        "text": "产品说明对部分无线或音频处理模块标注可选，意味着采购和软件配置可能存在差异。项目应确认最终料号包含什么、哪些接口同时可用，不能从同一页面摘取所有最高配置拼成目标主控；这种核对会直接影响主板、天线、电源和固件工作量。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜神经网络协处理边界",
+        "text": "协处理能力可以支持适配后的信号或模型任务，但具体网络仍需核对算子、内存和运行时。平台用于人工智能眼镜并不意味着开放式对话、长期记忆或摘要都在本地完成；应分别测试轻量前端与外部服务，并把真实部署位置写进产品说明。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "判断｜音频眼镜适配",
+        "text": "需要无线音频、短时语音和简单显示的眼镜可把恒玄列为平台候选，但相机、光学和热设计仍要按具体形态核实。无显示和带显示眼镜的资源需求不同，不能因系列同时面向两者就使用相同配置；用户日常听音频与人工智能查询也应分开建立功耗预算。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜手表与录音设备差异",
+        "text": "手表重视显示和传感调度，录音设备重视连续采集与缓存，二者即使共享平台也需要不同的软件安排。候选验证应先固定主任务，再判断集成模块是否有用；如果只需单键记录上传，复杂图形资源可能没有价值，反而增加系统配置和维护负担。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "判断｜明确平台配置清单",
+        "text": "接洽时应列出音频通路、显示接口、无线方式、传感器和模型任务，并说明哪些必须同时运行。供应方据此才能确认型号与可选配置，团队也能提前发现接口冲突或内存不足；只提出要做人工智能眼镜，很难得到可用于设计冻结的明确方案。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s4"
+        ]
+      },
+      {
+        "title": "判断｜软件与整机责任",
+        "text": "公司提供较完整平台方向，但应用、算法调校和量产验证仍需明确分工。应确认开发包、操作系统适配、模型工具及升级支持的范围，并保留可复现日志；不能把一站式方案描述理解为所有用户场景都已经验证，也不能假设整机售后由芯片方承担。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3",
+          "s4"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "判断｜并发音频与无线",
+        "text": "质量测试应让采集、播放、模型处理和无线同步同时运行，检查回声、缓存、丢包和温升。单项演示通过不足以证明穿戴场景稳定，尤其低电量时峰值负载可能引发异常；需要在真实电池与接近最终结构中测量，而不是只使用开发板电源。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜唤醒与回到低功耗",
+        "text": "低功耗验收应覆盖唤醒后的第一段声音、首次显示和任务结束后的状态，确认没有外围或后台任务持续工作。可反复进行短时交互并记录电流与日志，检查失败后是否正确恢复；如果只测一次深度休眠，无法发现日常频繁使用造成的隐藏耗电。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断｜平台集成的总成本",
+        "text": "集成无线、音频和显示可能减少部分外部器件，也会让配置选择和软件维护更集中。采购比较应纳入存储、电源、天线和开发支持，在相同任务下看整体成本；不能只以芯片数量减少推断更便宜，也不能忽略可选模块对最终料号和采购价格的影响。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜采购和支持条件",
+        "text": "公开商务入口可用于确认型号、样片和支持，但官网未给所有项目统一起订量、交期或工程费用。应取得目标版本的渠道与生命周期答复，并区分评估、定制适配和量产维护；目录不根据知名客户或平台能力推断初创项目会获得同样合作条件。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s4"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜系列与具体成品混淆",
+        "text": "同一系列面向多种眼镜和手表，不代表每个终端使用相同配置或软件。目录只依据产品资料提出功能候选，不能把某个品牌的公开采用延伸到其他代次，也不能从主控页面替没有摄像或显示的成品补上功能；实际关系必须有精确点名来源。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜系统复杂度与依赖",
+        "text": "多核、无线和模型工具结合后，版本不匹配可能造成难以复现的错误，团队应冻结经过验证的软件组合。若全部差异化算法依赖供应方一次性适配，后续迭代会受限制；应确认数据、模型和调试接口的可获得性，保留能够独立复核任务表现的基础。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "判断｜完整穿戴任务实验",
+        "text": "可选一次语音触发、内容处理、声音或文字反馈的完整任务，记录每阶段时间与耗电，再加入后台同步和异常断连。通过后再增加其他功能，有助于识别资源瓶颈；只跑模型或只测蓝牙连接，不能说明平台集成是否真正改善用户体验与续航。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜选型与采用分开",
+        "text": "正式选择需具备目标配置、模型适配、结构热测试和采购支持答复，目录的候选链接不能替代这些证据。没有品牌或芯片方明确点名时，不推断某款耳机、录音器或眼镜使用恒玄；即便点名，也应限定到对应系列与代次，而非扩展为整体性能保证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s4"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "bestechnic",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "低功耗音频、计算与连接的替代架构候选",
+      "rationale": "恒玄公开穿戴平台具有音频、无线和神经网络协处理方向，可用于第三代功能架构的替代设计比较。它不是已确认供货方，且相机链路、封装温升及 Meta 服务兼容都未验证；该候选意味着重新设计与评估，不代表可以直接替换现有芯片。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "ray-ban-meta-gen-3",
+      "productName": "Ray-Ban Meta（Gen 3）",
+      "category": "glasses",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bestechnic",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "穿戴计算、音频与连接平台候选",
+      "rationale": "本型号包含声音、物理控制、相机和手机协同，恒玄穿戴平台可作为其中计算与连接路线的重设计候选。现有输入来源未点名实际采用，需核对相机支持、封装温升和应用接口；芯片功能匹配不等于自动获得小米服务兼容，也不是对现有主板的识别。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "xiaomi-ai-glasses",
+      "productName": "小米 AI 眼镜",
+      "category": "glasses",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bestechnic",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "耳机声音与无线控制平台候选",
+      "rationale": "TicNote Pods 的耳机承担通话采集与听音，恒玄的音频和穿戴平台可作为新设计候选。需核对双耳同步、协议、缓存、功耗和盒子数据交接，当前未点名采用；候选不能复制 TicNote 服务，也不能从其他同品牌设备的芯片关系推断本 WiFi 版本来源。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "ticnote-pods-wifi",
+      "productName": "Mobvoi TicNote Pods WiFi",
+      "category": "audio",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bestechnic",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "入耳式记录耳机的音频与无线平台候选",
+      "rationale": "RecDot 结合听音、通话、控制和采集，恒玄音频平台可作为新设计候选。需核对双耳同步、触控、缓存、功耗与应用接口，当前没有采用点名；通用音频 SoC 不能直接复制 viaim 的转写翻译服务，也不能由同品牌其他产品推断本款主控来源。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "viaim-recdot",
+      "productName": "viaim RecDot",
+      "category": "audio",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bestechnic",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "腕表显示、控制与音频平台候选",
+      "rationale": "TicNote Watch 披露屏幕、按键和录音，恒玄穿戴平台可作为新设计候选。需核对音频缓存、显示、连接、功耗和固件，当前没有采用点名；候选平台的其他接口不能用来添加未披露硬件，也不提供 TicNote 的文档生成、账号或知识检索服务。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "ticnote-watch",
+      "productName": "Mobvoi TicNote Watch",
+      "category": "wearables",
+      "status": "on_sale"
+    }
+  ]
+}

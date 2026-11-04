@@ -11147,6 +11147,12 @@
         "title": "Ultrahuman 2026 Jade官方发布",
         "url": "https://cyborg.ultrahuman.com/press-releases/ultrahuman-unveils-ring-pro-with-category-defining-15-day-battery-and-jade-worlds-first-real-time-biointelligence-ai",
         "note": "沿用原目录已核验的一手资料；引用范围：technology,product-line。Jade面向全体用户推出；其中PRO硬件参数不移植到AIR。"
+      },
+      {
+        "id": "s4",
+        "title": "Nordic disclosed Ultrahuman Ring Air nRF52840 case, 2023-09-22",
+        "url": "https://www.nordicsemi.com/Nordic-news/2023/09/The-Ultrahuman-Ring-Air-employs-nRF52840-SoC",
+        "note": "Web读取403，根代理标准公开GET200并保存HTML，本代理已读取正文；点名2023公开Ring Air使用nRF52840监督传感与BLE，不确认2026所有批次、完整BOM或AI执行位置。"
       }
     ],
     "dimensions": {
@@ -11235,11 +11241,12 @@
       ],
       "supplyChain": [
         {
-          "title": "官方｜指端感知与软件生态",
-          "text": "官方算法说明支持光学、温度和运动相关输入用于阶段估计，应用与其他服务承担查看和解释。具体 AIR 主控、传感器厂商和工厂未完整披露，不能从 PRO 发布或其他生态设备反推；目录只表示功能链路，不把概念示意和品牌工厂叙述补成该型号真实物料清单。",
+          "title": "官方｜已披露控制与未知其他器件",
+          "text": "Nordic二〇二三年官方案例点名Ring Air使用nRF52840监督传感器、记录数据和连接应用，算法说明另支持光学、温度及运动输入。该案例不确认二〇二六年所有批次和完整物料，其他传感器厂商与工厂仍未核实；不能从PRO发布或生态其他设备反推AIR的全部结构。",
           "evidence": "official",
           "sourceIds": [
-            "s2"
+            "s2",
+            "s4"
           ]
         },
         {
@@ -11262,10 +11269,11 @@
       "technology": [
         {
           "title": "官方｜睡眠阶段是模型推断",
-          "text": "官方说明模型根据多个生理和运动信号推断各时间窗口的睡眠阶段，而不是直接测得大脑睡眠标签。具体版本和 AIR 内部部署没有在本次资料中完整交代，不能从通用端侧措辞反推全部计算位置；目录保留采集、分类与应用展示的层级，不把估计当作医学诊断。",
+          "text": "官方说明模型根据多个生理和运动信号推断各时间窗口的睡眠阶段，而不是直接测得大脑睡眠标签。虽已有nRF52840控制与连接的点名案例，AI算法版本和端云推理分配仍未完整交代；目录保留采集、分类与应用展示的层级，不把估计当医学诊断或将全部解释归为戒指本地计算。",
           "evidence": "official",
           "sourceIds": [
-            "s2"
+            "s2",
+            "s4"
           ]
         },
         {
@@ -11397,6 +11405,20 @@
           "s1",
           "s2"
         ]
+      },
+      {
+        "supplierId": "nordic-semiconductor",
+        "role": "chip",
+        "relationship": "disclosed",
+        "component": "2023公开案例中的nRF52840传感控制与BLE",
+        "rationale": "Nordic官方案例明确点名Ultrahuman Ring Air采用nRF52840，并说明传感监督、数据记录和蓝牙应用连接，因此可记录该公开版本的采用。证据发布于二〇二三年，不确认二〇二六年所有批次或完整物料，也不证明睡眠模型和Jade生成式解释全部在芯片本地执行。",
+        "sourceIds": [
+          "s4"
+        ],
+        "supplierSourceIds": [
+          "s4"
+        ],
+        "relationshipEvidence": "Nordic于2023-09-22公开点名Ultrahuman Ring Air采用nRF52840用于传感监督、记录与BLE连接；限定所述版本，不确认2026全部批次、完整BOM或AI本地执行。"
       }
     ],
     "innovationProfile": {
@@ -12818,6 +12840,18 @@
         "title": "rabbit · Magic Recorder使用与离线边界",
         "url": "https://www.rabbit.tech/support/article/rabbit-r1-voice-recorder",
         "note": "沿用原目录已核验的一手资料；引用范围：technology,dependency,risks,architecture。已打开，明确本地录音、联网后转写摘要与电池限制。"
+      },
+      {
+        "id": "s4",
+        "title": "rabbit当前r1规格与连接说明",
+        "url": "https://www.rabbit.tech/support/article/what-is-rabbit-r1",
+        "note": "本轮已打开，当前官方明确Chipset MediaTek Helio P35；不由芯片通用规格推定全部功能或完整BOM。"
+      },
+      {
+        "id": "s5",
+        "title": "rabbit r1首发公告中的工业设计合作",
+        "url": "https://www.rabbit.tech/newsroom/introducing-r1",
+        "note": "本轮已打开，仅引用明确点名teenage engineering的工业设计合作；2024发布的软件功能承诺不作为当前OS3能力依据。"
       }
     ],
     "dimensions": {
@@ -12903,11 +12937,13 @@
       ],
       "supplyChain": [
         {
-          "title": "官方｜工业设计合作的证据边界",
-          "text": "当前官方页面明确 teenage engineering 参与工业设计，这支持设计合作而不等于整机代工。具体工厂、主控、相机和备件安排仍未完整公开，不能从合作品牌猜测制造关系；目录在正文区分已披露合作与未知物料，概念爆炸示意也不构成真实装配证据。",
+          "title": "官方｜已披露主控与工业设计",
+          "text": "rabbit当前支持页明确r1采用MediaTek Helio P35，产品页另点名teenage engineering参与工业设计，两个关系的角色不同。主控与设计合作并不说明实际装配工厂、相机或备件供应，不能从芯片厂家或设计品牌推断整机代工；概念图也不构成完整装配证据。",
           "evidence": "official",
           "sourceIds": [
-            "s1"
+            "s1",
+            "s4",
+            "s5"
           ]
         },
         {
@@ -12919,11 +12955,12 @@
           ]
         },
         {
-          "title": "判断｜应用平台与声音候选",
-          "text": "联发科技可作为同类带屏联网终端的应用处理路线候选，英飞凌可作为声音输入候选，当前资料未点名具体采用。需要验证相机、屏幕、系统和功耗，不能直接替换；这些候选不提供 rabbit OS3、账号或第三方代理，也不意味着可以从平台能力恢复任何历史承诺。",
+          "title": "判断｜已知应用平台与声音候选",
+          "text": "Helio P35属于已点名的应用平台，英飞凌麦克风仍只是同类新设计的声音输入候选，二者不能混为同等确定关系。重新设计还需验证相机、屏幕、系统与功耗，公开主控不提供rabbit OS3或外部模型服务，也不意味着可用芯片通用能力恢复任何历史功能承诺。",
           "evidence": "analysis",
           "sourceIds": [
-            "s2"
+            "s2",
+            "s4"
           ]
         }
       ],
@@ -13040,15 +13077,16 @@
       {
         "supplierId": "mediatek",
         "role": "chip",
-        "relationship": "candidate",
-        "component": "带屏联网 AI 终端的应用处理候选",
-        "rationale": "r1 具备屏幕、相机和联网任务，联发科技应用平台可作为同类新设计候选。需核对具体型号、输入输出、系统和电源预算，当前引用资料未点名现用主控；该候选不提供 rabbit OS3 或外部模型服务，也不能视为封闭成品的直接替换或历史功能恢复方案。",
+        "relationship": "disclosed",
+        "component": "已披露MediaTek Helio P35应用处理器",
+        "rationale": "rabbit当前官方支持页明确将r1芯片列为MediaTek Helio P35，联发科技产品页可核对该平台角色，因此采用关系已有点名依据。证据不覆盖整机工厂、其他器件和所有批次，也不证明OS3或生成式模型全部本地运行；不能将公司Genio系列的能力混入这一具体平台。",
         "sourceIds": [
-          "s2"
+          "s4"
         ],
         "supplierSourceIds": [
-          "s1"
-        ]
+          "s4"
+        ],
+        "relationshipEvidence": "rabbit官方当前“what is rabbit r1”规格栏明确点名Chipset为MediaTek Helio P35；这支持应用处理器采用，不证明整机工厂、完整BOM或所有AI本地执行。"
       },
       {
         "supplierId": "infineon",
@@ -13063,6 +13101,20 @@
         "supplierSourceIds": [
           "s1"
         ]
+      },
+      {
+        "supplierId": "teenage-engineering",
+        "role": "engineering",
+        "relationship": "disclosed",
+        "component": "已披露rabbit r1工业设计合作",
+        "rationale": "rabbit官方首发公告明确点名teenage engineering参与r1工业设计，与当前产品外形和已有合作描述相符，因此可建立公开设计关系。证据只覆盖工业设计角色，不证明该公司承担整机装配、所有结构工程、软件或完整物料采购，也不能把首发软件承诺当成当前功能。",
+        "sourceIds": [
+          "s5"
+        ],
+        "supplierSourceIds": [
+          "s3"
+        ],
+        "relationshipEvidence": "rabbit官方“introducing r1”公告明确点名teenage engineering的r1工业设计合作；仅确认设计角色，不推定整机制造、全部工程或完整BOM，亦不采用2024软件承诺作为当前能力。"
       }
     ],
     "innovationProfile": {

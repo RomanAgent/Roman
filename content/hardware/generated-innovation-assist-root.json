@@ -1,0 +1,99 @@
+[
+  {
+    "id": "ininum-smart-fragrance",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ininum-smart-fragrance/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ININUM Smart Fragrance的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ininum-smart-fragrance.txt",
+        "referencePaths": [
+          "assets/hardware/ininum-smart-fragrance/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ysl-rouge-sur-mesure",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ysl-rouge-sur-mesure/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "YSL Rouge Sur Mesure的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ysl-rouge-sur-mesure.txt",
+        "referencePaths": [
+          "assets/hardware/ysl-rouge-sur-mesure/product.webp",
+          "assets/hardware/ysl-rouge-sur-mesure/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "moen-flo-shutoff-900-006",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/moen-flo-shutoff-900-006/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Moen Flo Smart Water Shutoff（900-006）的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/moen-flo-shutoff-900-006.txt",
+        "referencePaths": [
+          "assets/hardware/moen-flo-shutoff-900-006/product.jpg",
+          "assets/hardware/moen-flo-shutoff-900-006/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "yarbo-y40-snow-blower-gen2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/yarbo-y40-snow-blower-gen2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Yarbo Y40 Core + Snow Blower Gen 2的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/yarbo-y40-snow-blower-gen2.txt",
+        "referencePaths": [
+          "assets/hardware/yarbo-y40-snow-blower-gen2/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "seergrills-perfecta",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/seergrills-perfecta/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "SEERGRILLS Perfecta的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/seergrills-perfecta.txt",
+        "referencePaths": [
+          "assets/hardware/seergrills-perfecta/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  }
+]

@@ -1,0 +1,286 @@
+{
+  "id": "tianma",
+  "name": "Tianma 天马微电子",
+  "legalName": "Tianma Microelectronics Co., Ltd.；美国、日本等品牌业务按集团合并",
+  "country": "中国大陆",
+  "locations": [
+    "中国深圳及官网列出的中国显示基地",
+    "日本Akita",
+    "美国公开销售支持网络"
+  ],
+  "tier": "global",
+  "tierNote": "小中尺寸显示与多地区业务的集团型供应商，不采用宣传出货排名推断项目能力。 中国大陆为集团主体范围，所列地点为公开设施和支持网络，不等于多个总部。",
+  "roles": [
+    "display",
+    "engineering",
+    "manufacturing"
+  ],
+  "capabilities": [
+    "小中尺寸TFT-LCD",
+    "AMOLED显示",
+    "标准面板与定制LCM",
+    "投射电容触控和盖板贴合",
+    "工业与户外显示应用方案"
+  ],
+  "productCategories": [
+    "imaging",
+    "music",
+    "games",
+    "sports",
+    "education",
+    "computing",
+    "creative-tools"
+  ],
+  "website": "https://usa.tianma.com/",
+  "contactUrl": "https://usa.tianma.com/contact-us/",
+  "summary": "天马的公开路线重点在小中尺寸显示，既有标准面板，也有模组、触控和盖板集成方案。对相机、音频设备和训练终端，价值在于把可读性与操作环境共同考虑；工业应用经验和生命周期宣传仍需按具体料号确认，不能直接当作某消费产品的供屏事实或长期供货承诺。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位：小中尺寸显示供应商",
+        "text": "公司介绍聚焦小中尺寸显示，列出液晶、低温多晶硅与有机发光等路线，并说明不同地区设施的业务。它在消费AI硬件中对应显示与触控交互层，不提供终端的主体识别或语言模型，不能因为应用于智能设备就把面板称作AI计算部件。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断：显示环境比统一尺寸更重要",
+        "text": "相机预览、踏板音色菜单和健身视频虽然都需要屏幕，但观看距离、手势和照明条件差异很大。天马的多应用路线值得逐项比较，不能只根据对角线大小判断兼容，也不能把工业显示的某些特性视为所有消费产品都必须具备。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力：标准面板与定制模组",
+        "text": "工业显示页区分不同系列，并介绍标准面板配合可定制模组、透射或反射方式及触控集成。它为产品团队提供了从面板到显示总成的多个选择，但驱动接口、外形与具体可供尺寸需要看独立料号，不能从系列描述直接确定设计。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "公开能力：触控和盖板可共同讨论",
+        "text": "官网说明触控集成可涉及湿手或手套支持、贴合、定制盖板与多种接口，这些条件与户外和工具类设备有关。实际是否支持目标手套、表面材料和使用温度，仍需要样品验证；不能把系列级能力当成每个面板的共同规格。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配：工具屏与训练设备界面",
+        "text": "音色踏板、打印机控制屏、棋类终端和训练设备需要可读的菜单或视频界面，可从天马的小中尺寸路线寻找候选。匹配时应把按键、触控与屏幕分工写清，不能为了使用触屏而增加操作步骤，也不把现成面板当作完整界面方案。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "边界：相机预览与近眼显示不同",
+        "text": "对小型相机可以讨论适用尺寸与模组定制，但近眼光学或电子纸设备需要不同技术路径。天马拥有多类显示并不意味着任意一种都能替代另一种，尤其要确认亮度、反射、刷新和光学安装是否真正支持目标使用方式。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "接洽：提供界面样例和触摸条件",
+        "text": "建议带着真实菜单、文字大小和视频内容，以及使用者是否戴手套、是否可能湿手等条件询问。屏幕选型需要连接到操作任务，单独提供分辨率和尺寸容易遗漏盖板、视角与触控控制的要求，导致后期重新修改外壳或界面。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "接洽：明确面板到贴合的交付范围",
+        "text": "通过官方联系入口确认是购买标准面板、定制模组还是包含盖板与触控控制的总成，并问清各环节的责任主体。集团不同地区业务不能自动等同本项目可用资源，本轮没有询价或确认任何团队的样品、工程和量产排期。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "验证：把反射和手部操作一起观察",
+        "text": "应将样品放入最终盖板和边框，在户外、室内与低亮度条件下测试文字和菜单可读性，同时记录触摸失误。对训练或音乐工具，用户可能无法持续盯屏，显示和操作的节奏比静态宣传图更重要，不能只验收单帧色彩。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "验证：寿命与变更需要料号级证据",
+        "text": "官网提及生命周期管理方向，但正式采购必须取得具体料号的变更、停产与替代安排，并核对测试条件。不能把系列宣传的长期供货直接写入终端承诺，也不能用一家设施的经验代替所选模组和贴合工艺的质量记录。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断：显示总成决定真实成本",
+        "text": "面板、触控、盖板、驱动和贴合如果分开采购，集成责任与良率损失可能落在终端团队。应与包含更多环节的方案比较总成本，而不是只看面板报价；标准尺寸与专用外形还会改变工程投入，不能用公开系列介绍推算费用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "待确认：小批量和长期售后条件",
+        "text": "对于出货尚不稳定的消费项目，需要确认样品、试产、后续补单和售后备件是否使用同一配置。公开页面没有给出本项目最小订单量或报价，采购方应取得书面条件，并准备显示变更后重新验证界面的成本与时间。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "风险：工业指标可能与消费体验错位",
+        "text": "较宽温度或较长生命周期未必能弥补反射、触感和功耗上的不合适，消费产品需要按真实使用方式取舍。不能因供应商强调工业可靠性就省略用户体验测试，也不能把某系列的特性外推到所有定制屏幕与触控总成。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "风险：集团能力不等于实际供屏名单",
+        "text": "本轮没有获取天马为所链接相机、棋盘或音频设备供屏的逐型号证据。现有设备具有显示界面，只能支持能力匹配；公开客户或行业经验不能替代本产品的采购材料，因此所有关联保持候选，不声称原机物料来源。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "下一步：用固定界面完成候选比较",
+        "text": "制作包含最小字号、快速菜单和视频的统一测试界面，在相同盖板和亮度条件下记录操作错误、可读性与耗电。结果应帮助选择适用方案，而不是生成一个综合分数预测市场成功，更不能将供应商参数直接当作真实用户体验。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "下一步：锁定可维护的显示配置",
+        "text": "样品通过后应记录面板、触控控制、盖板和驱动版本，确认替代件会影响哪些界面或机械部分。再核对签约与售后责任，并保存可公开引用的供货文件；在这些证据出现之前，目录不把能力候选升级为已采用关系。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "天马集团与显示设施介绍",
+      "url": "https://usa.tianma.com/about-us/",
+      "note": "已打开，支持小中尺寸显示定位、集团主体与公开地域布局。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "天马工业显示及触控方案",
+      "url": "https://usa.tianma.com/industrial/",
+      "note": "已打开，支持标准面板、定制LCM、触控、盖板贴合与不同应用路线。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "天马公开商务联系",
+      "url": "https://usa.tianma.com/contact-us/",
+      "note": "已打开，用于询问实际区域团队与项目交付范围。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "tianma",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "舞台触控显示模块候选",
+      "rationale": "Tianma公开中小显示、触控与定制模组，可作为Quad Cortex触屏的能力候选，但实际尺寸、亮度、接口和脚踏设备安装条件需专项核对，标准工业屏不能直接替换原件。当前没有Neural DSP点名采用证据，也不涵盖音色算法。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "neural-dsp-quad-cortex",
+      "productName": "Neural DSP Quad Cortex",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "tianma",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "侧边棋局分析触控屏候选",
+      "rationale": "Tianma公开中小显示与触控定制，可作为EVO侧屏候选，但实际尺寸、阅读视角、主控接口与长局使用需核对，标准工业屏不构成直接替换件。当前没有Chessnut点名供货证据，也不提供棋力引擎、棋谱或模型服务。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "chessnut-evo",
+      "productName": "Chessnut EVO",
+      "category": "games",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "tianma",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "桌边棋钟与复盘触控显示候选",
+      "rationale": "Tianma公开中小显示与触控定制，可作为Companion横向屏候选，但实际尺寸、双人视角、接口与长局运行需要专项确认，标准工业屏不构成替换件。当前无Chessnut点名供货证据，也不提供Grandeur分析或账户服务。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "chessnut-companion",
+      "productName": "Chessnut Companion",
+      "category": "games",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "tianma",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "小型光场屏的基础显示模组候选",
+      "rationale": "Go需要小尺寸显示面板承载多视图内容，天马公开小中尺寸显示及模组集成能力，可作为基础显示层候选。它不等于提供Looking Glass专有光学与校准，分辨、接口、亮度和叠层要求仍须验证，本轮没有实际采用点名证据。",
+      "sourceIds": [
+        "s1",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "looking-glass-go",
+      "productName": "Looking Glass Go（白色版）",
+      "category": "spatial",
+      "status": "on_sale"
+    }
+  ]
+}

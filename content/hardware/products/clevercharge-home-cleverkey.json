@@ -1,0 +1,460 @@
+{
+  "id": "clevercharge-home-cleverkey",
+  "name": "CleverCharge Home + CleverKey（J1772 NEMA 14-50）",
+  "brand": "CleverCharge / Danlaw",
+  "category": "home-energy",
+  "tagline": "把车辆行程需求连接到家庭充电提醒",
+  "officialUrl": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+  "status": "on_sale",
+  "statusEvidence": "官方商品页购买按钮可用；读取公开HTML确认不可售占位为隐藏状态，套装明确含CleverKey。仅收一套，不以接口或功率变体重复计数。",
+  "regions": [
+    "美国"
+  ],
+  "china": {
+    "availability": "unavailable",
+    "note": "官方电商条款明确只向美国销售配送；该配置为J1772和NEMA接口，未验证大陆车辆、接口、应用及保修，不按国内直接可用处理。"
+  },
+  "price": {
+    "text": "US$449（商品详情）",
+    "note": "列表页部分仍列US$399，页面不一致需按订单复核；套装含一枚CleverKey，其他车辆需独立兼容配件。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "CleverKey读取兼容车辆信息，Clever AI按实际日常里程和条件估计续航及次日驾驶需求，形成个车充电提醒；普通远程开关与定时充电不作为AI依据。",
+    "dependency": "AI功能仅在车辆兼容CleverKey时可用，依赖车端接口、应用和连接；基础Level 2充电可不启用应用，未公开模型结构或全部端云分工。"
+  },
+  "highlights": [
+    "车端OBD-II信息与家庭充电结合",
+    "次日需求及个车续航推断",
+    "基础充电与AI功能分开"
+  ],
+  "analysis": {
+    "demand": "需求假设：多电动车家庭希望知道今晚哪台车需要补能，而不是只按固定时间开关充电。应记录提醒是否符合真实次日安排及人工协调，不能把预测里程直接当作不会缺电、节省费用或电池健康改善的保证。",
+    "userProfile": "画像推断：美国有适配家用电源、兼容车辆OBD-II并愿管理应用的车主更合适。单车固定通勤与多车临时行程需求不同，车辆兼容是前提，不能用所有电动车家庭数量推定AI功能都可使用。",
+    "competition": "竞争判断：与普通定时充电器、车厂应用和能源管理系统竞争，车端信息驱动的个车提醒是差异。不同接口和功率不重复计数；应比较完整安装、车辆兼容和维护，而不是仅将AI标签视为普通充电必需升级。",
+    "supplyChain": "供应链分析：充电功率模块、电缆连接器、控制无线与车端CleverKey共同构成系统，实际零部件及BOM未披露。车辆协议、户外防护、电气保护和软件持续支持影响交付，不能只按墙盒外观推断成本或制造归属。",
+    "technology": "技术判断：官网明确Clever AI根据实际日常里程推断续航与明日需求，并强调必须使用兼容CleverKey。预测与普通定时区分，临时出行会改变结果；公开未给模型细节，不应补写训练架构或声称所有车型通用。",
+    "aesthetics": "审美判断：白色墙盒与线缆挂放适合车库，但接口可达、车辆停放和线缆整理比屏幕或灯效更重要。车端小配件也需要稳定安装，真实车库布置与维护应和充电器正面一起评估，不能只看整洁商品图。",
+    "risks": "风险判断：AI依赖车型兼容，行程预测也可能不符实际；基础充电与智能提醒需分开理解。美国电商和接口条件不能外推国内，电气安装与车辆异常需要合适专业处理，算法提示不替代实际续航和出行安排确认。",
+    "opportunity": "机会假设：围绕多车家庭的充电协调与可解释提醒测试价值，比较车厂应用和普通定时方案。若用户行程高度固定，简单设置可能足够；应先证明预测减少真实遗漏，再扩大硬件、协议和跨地区支持范围。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "车端使用模式与多车家庭充电协同有较新服务差异，但充电硬件本身成熟，兼容与预测收益必须验证。"
+  },
+  "architecture": [
+    {
+      "name": "充电执行",
+      "detail": "墙装充电器、电缆和J1772连接器。",
+      "evidence": "official"
+    },
+    {
+      "name": "车辆输入",
+      "detail": "套装CleverKey接入兼容车辆OBD-II。",
+      "evidence": "official"
+    },
+    {
+      "name": "需求推断",
+      "detail": "Clever AI利用日常里程估计续航及次日需要。",
+      "evidence": "official"
+    },
+    {
+      "name": "家庭管理",
+      "detail": "应用区分车辆、家庭位置与充电状态。",
+      "evidence": "official"
+    },
+    {
+      "name": "安全与连接",
+      "detail": "充电保护与无线为功能层，不代表拆解具体电路。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "CleverCharge J1772套装官方商店",
+      "url": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "architecture"
+      ],
+      "note": "已打开并读取公开HTML，购买按钮可用、不可售占位隐藏；详情与列表价格差异已标明。"
+    },
+    {
+      "title": "CleverCharge官方AI与兼容FAQ",
+      "url": "https://www.clevercharge.com/faqs",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已打开，具体说明实际里程、次日需求推断和CleverKey兼容前提，不将普通定时当AI。"
+    },
+    {
+      "title": "CleverCharge官方电商配送条款",
+      "url": "https://www.clevercharge.com/e-commerce-policy",
+      "kind": "official-spec",
+      "supports": [
+        "china",
+        "regions",
+        "support"
+      ],
+      "note": "已打开，官方当前销售配送仅美国；不外推跨境安装和服务。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-04",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "CleverCharge J1772套装官方商店",
+        "url": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+        "note": "2026-11-04本轮实际核查；已打开并读取公开HTML，购买按钮可用、不可售占位隐藏；详情与列表价格差异已标明。"
+      },
+      {
+        "id": "s2",
+        "title": "CleverCharge官方AI与兼容FAQ",
+        "url": "https://www.clevercharge.com/faqs",
+        "note": "2026-11-04本轮实际核查；已打开，具体说明实际里程、次日需求推断和CleverKey兼容前提，不将普通定时当AI。"
+      },
+      {
+        "id": "s3",
+        "title": "CleverCharge官方电商配送条款",
+        "url": "https://www.clevercharge.com/e-commerce-policy",
+        "note": "2026-11-04本轮实际核查；已打开，官方当前销售配送仅美国；不外推跨境安装和服务。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "需求假设：多电动车家庭希望知道今晚哪台车需要补能，而不是只按固定时间开关充电。应记录提醒是否符合真实次日安排及人工协调，不能把预测里程直接当作不会缺电、节省费用或电池健康改善的保证。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "行程需求预测回答的是今晚是否需要给某台车补能，而不仅是何时电价便宜。多车家庭可能从统一视图获益，单车固定通勤则未必需要额外配件，需求应由遗漏和协调减少证明，不能把预测里程当作未来行程一定准确。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "可记录车辆实际次日使用、预测提醒与主人最终决定，比较普通定时和车厂应用，保留临时出行变化。将安装、兼容和配件维护计入，确认系统是否减少具体遗漏，不能由充电次数或估算费用推断节省或健康收益。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "画像推断：美国有适配家用电源、兼容车辆OBD-II并愿管理应用的车主更合适。单车固定通勤与多车临时行程需求不同，车辆兼容是前提，不能用所有电动车家庭数量推定AI功能都可使用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "车辆是否支持CleverKey决定AI能否启用，同一家庭的不同车可能有不同结果，不能用充电接口兼容推断数据兼容。实际操作者还需理解预测与剩余续航，画像应包含车辆组合、驾驶习惯和家用安装条件。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "画像验证应先核对实际车型和电源条件，再让家人协调一周充电并处理临时行程，记录误解与额外操作。区分需要多车管理的人和简单固定计划即可的人，不以拥有电动车或有车库直接推定愿意购买预测系统。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "竞争判断：与普通定时充电器、车厂应用和能源管理系统竞争，车端信息驱动的个车提醒是差异。不同接口和功率不重复计数；应比较完整安装、车辆兼容和维护，而不是仅将AI标签视为普通充电必需升级。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "充电器本身属于成熟品类，CleverKey将车端信息连接到个车需求是具体差异，而不是普通遥控和定时。不同接口或功率不创造独立场景，比较应锁定同样车辆与任务，并把车厂已有功能作为真实替代，而非只对照最基础充电盒。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "可比较固定时段、车厂应用和需求预测的遗漏、操作与实际补能，明确车型兼容、套装和安装费用。不能拿不兼容车辆的普通充电体验当作AI无效，也不因预测页面更详细就认为比简单方案更值得长期维护。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "功能层包括墙装充电与电缆、车端OBD-II CleverKey、无线连接、里程及次日需求推断、家庭车辆管理。电气保护应独立于预测层，公开资料没有实际功率电路或芯片清单，不能把软件功能画成虚构电池或具体高压布线。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "供应链分析：充电功率模块、电缆连接器、控制无线与车端CleverKey共同构成系统，实际零部件及BOM未披露。车辆协议、户外防护、电气保护和软件持续支持影响交付，不能只按墙盒外观推断成本或制造归属。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "Jabil可作为联网电气设备制造导入候选，USI可支持车端与家庭无线电子整合。没有CleverCharge点名合作证据，充电保护、车辆协议与预测需专项工程；通用制造能力不能推定车型兼容、实际工厂或电气认证已经满足。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "技术判断：官网明确Clever AI根据实际日常里程推断续航与明日需求，并强调必须使用兼容CleverKey。预测与普通定时区分，临时出行会改变结果；公开未给模型细节，不应补写训练架构或声称所有车型通用。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "实际日常里程与行驶条件可以支持需求估计，但临时远途、家庭轮换和车辆状态会改变结果。系统应清楚表达预测依据和人工覆盖，不能把普通电量读取、故障码或自动授权都混为机器学习，也不补写未公开模型架构。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证应比较预测与真实行程，覆盖多车轮换、临时出行和数据中断，再分开检查基础充电与AI提醒。保持车型和版本记录，不能以一次正确提醒推断所有未来需求可靠，也不将车辆故障码提示解释为自动诊断或维修结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "审美判断：白色墙盒与线缆挂放适合车库，但接口可达、车辆停放和线缆整理比屏幕或灯效更重要。车端小配件也需要稳定安装，真实车库布置与维护应和充电器正面一起评估，不能只看整洁商品图。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "白色墙盒和黑色纵向面板符合车库工具形态，线缆挂放与连接器可达性更影响实际便利。车端小配件也属于整体体验，设计应让配对、状态和移除清楚，不能只展示整洁墙面而忽略多车停放和走线路径。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "设计验证应观察不同车辆停位、插拔、线缆收纳和车端配件维护，记录是否妨碍通行或难以辨认状态。还需检查应用中的车辆对应是否直观，避免漂亮界面让家人误认正在充电的车辆或预期剩余里程。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "风险判断：AI依赖车型兼容，行程预测也可能不符实际；基础充电与智能提醒需分开理解。美国电商和接口条件不能外推国内，电气安装与车辆异常需要合适专业处理，算法提示不替代实际续航和出行安排确认。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "接口可充电与CleverKey可读数据是两种兼容，用户可能买到能充电却没有预期AI的组合。预测错误和服务中断需要可理解恢复，电气安装与车辆问题也不能由算法替代专业处理，地区限定不应被全球展示掩盖。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "风险验证应核对车型、接口和官方销售地区，演练数据缺失、配件移除、网络中断与临时行程，检查人工覆盖。不要通过危险电气操作测试，不能以AI提醒或估算续航保证不会缺电，也不把美国可购推定为大陆可直接使用。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会假设：围绕多车家庭的充电协调与可解释提醒测试价值，比较车厂应用和普通定时方案。若用户行程高度固定，简单设置可能足够；应先证明预测减少真实遗漏，再扩大硬件、协议和跨地区支持范围。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "机会在于多车家庭的可解释协调和避免漏充，未必需要更复杂墙盒。新项目可先利用已有车辆数据验证预测价值，如果固定通勤用简单计划已足够，就应收窄场景，而不是把所有充电器都重新包装成AI需求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "下一步可追踪一周至多周的预测、实际行程和家庭决定，比较提醒、统一视图和自动计划各自增量。根据真实遗漏与操作减少选择硬件和服务，避免用AI命名、车辆总量或更高功率直接推断商业空间。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "jabil",
+        "role": "manufacturing",
+        "relationship": "candidate",
+        "component": "联网充电设备整机导入与制造评估",
+        "rationale": "Jabil的工程及电子制造服务可作为充电器控制、结构和测试导入候选，但实际功率保护、认证及车辆协议需专项确认；没有CleverCharge点名供货证据，候选不能解释为实际工厂或已具备该套装全部能力。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "usi",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "车端与家庭端无线电子整合",
+        "rationale": "USI公开无线和系统级电子能力可对应车端数据接口后的连接及控制整合，但OBD兼容、车辆协议和需求模型需独立负责；未见CleverCharge合作披露，不推定其实际模组或算法供应。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "household-ev-charge-planning",
+      "needName": "家庭多车续航与充电需求协调",
+      "difference": "CleverCharge Home + CleverKey（J1772 NEMA 14-50）的具体差异与边界：技术判断：官网明确Clever AI根据实际日常里程推断续航与明日需求，并强调必须使用兼容CleverKey。预测与普通定时区分，临时出行会改变结果；公开未给模型细节，不应补写训练架构或声称所有车型通用。充电器本身属于成熟品类，CleverKey将车端信息连接到个车需求是具体差异，而不是普通遥控和定时。不同接口或功率不创造独立场景，比较应锁定同样车辆与任务，并把车厂已有功能作为真实替代，而非只对照最基础充电盒。",
+      "comparisonBasis": "竞争判断：与普通定时充电器、车厂应用和能源管理系统竞争，车端信息驱动的个车提醒是差异。不同接口和功率不重复计数；应比较完整安装、车辆兼容和维护，而不是仅将AI标签视为普通充电必需升级。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/clevercharge-home-cleverkey/product.webp",
+      "sourceUrl": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+      "sourceImageUrl": "https://www.clevercharge.com/web/image/product.product/3/image_1024/%5B19-HWVK-QHMY%5D%20J1772%20NEMA%2014-50?unique=e7f5585",
+      "caption": "官方充电器、CleverKey与应用展示",
+      "alt": "CleverCharge墙盒、CleverKey、J1772连接器和手机应用",
+      "credit": "CleverCharge / Danlaw · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 30010,
+      "sha256": "39161ef5704ca8c5bc95e4d26930e4796e91bec067a753af4daaf3e58673ce1b"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/clevercharge-home-cleverkey/reference.webp",
+      "sourceUrl": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+      "sourceImageUrl": "https://www.clevercharge.com/web/image/product.image/55/image_1024/J1772%20NEMA%2014-50?unique=e58d987",
+      "caption": "官方J1772与NEMA配置参考",
+      "alt": "CleverCharge墙盒及J1772插头正面",
+      "credit": "CleverCharge / Danlaw · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 21388,
+      "sha256": "5d43be24ff04321fe45d4f3af7159de7b9b5822974bfb603a26813a527a93b64"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/clevercharge-home-cleverkey/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "CleverCharge Home + CleverKey（J1772 NEMA 14-50）的功能模块概念爆炸图，内部位置并非实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/clevercharge-home-cleverkey.txt",
+      "referencePaths": [
+        "assets/hardware/clevercharge-home-cleverkey/product.webp",
+        "assets/hardware/clevercharge-home-cleverkey/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1525594,
+      "sha256": "d127508392d076c40bb60ea0e5aa1b7f4f4a3e818cec95d5f0a316020bbeac65"
+    }
+  ],
+  "mediaNotes": [
+    "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。",
+    "原图按官方文件保存，未改色或语义编辑；图片中的营销文字不视为本研究独立验证。"
+  ]
+}

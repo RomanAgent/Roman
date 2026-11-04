@@ -150,6 +150,8 @@ RapidDirect 的公司页面将原型、定制制造和生产支持作为主要�
 
 - [Barsys 360](../hardware/barsys-360.md) — **能力候选 · 非已采用** / 环形外壳与非关键结构原型：RapidDirect公开快速加工和模具服务可用于环形外壳、杯位与装配可达性原型评估，但不能仅凭加工能力推定食品接触材料、液路卫生或计量合格；未见Barsys点名采用证据。
 
+- [LeafyPod Starter Pack](../hardware/leafypod-starter-pack.md) — **能力候选 · 非已采用** / 盆体水箱与可拆洗结构原型：RapidDirect的快速加工及模具服务可支持盆体、水箱和维护接口原型，但材料耐久、滤材和水路可靠性需要专项验证；没有LeafyPod供货披露，只作为结构工程匹配候选，不能推定整机制造已落实。
+
 ## 来源
 
 - [RapidDirect 公司介绍](<https://www.rapiddirect.com/about-rapiddirect/>)：定制制造定位、深圳及自有与合作设施模式。

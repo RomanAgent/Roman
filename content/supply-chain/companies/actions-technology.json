@@ -1,0 +1,351 @@
+{
+  "id": "actions-technology",
+  "name": "Actions Technology 炬芯科技",
+  "legalName": "炬芯科技股份有限公司",
+  "country": "中国大陆",
+  "locations": [
+    "中国珠海",
+    "中国深圳、合肥、成都、杭州、上海、香港"
+  ],
+  "tier": "specialist",
+  "tierNote": "按低功耗端侧 AI、无线和音频 SoC 专业覆盖分组，不使用营销排名或未核实销量。",
+  "roles": [
+    "chip",
+    "acoustics",
+    "connectivity",
+    "software"
+  ],
+  "capabilities": [
+    "ATW6095 端侧音频 AI SoC",
+    "存内计算 NPU 与 DSP 协作",
+    "多麦克风拾音及声音增强",
+    "低延迟无线与完整音频信号链"
+  ],
+  "productCategories": [
+    "recording",
+    "audio",
+    "glasses",
+    "wearables"
+  ],
+  "website": "https://www.actionstech.com/",
+  "contactUrl": "https://www.actionstech.com/index.php?id=contactus",
+  "summary": "炬芯的公开路线把音频全信号链、低延迟无线与端侧模型处理结合，近期具体案例讨论多麦拾音、声音增强和记录设备中的功耗分工。它适合录音器、耳机与眼镜的音频计算候选比较。目录不会把本地声音增强写成全部转写摘要离线，也不把官网点名的某些终端关系扩展到未点名的相近产品。",
+  "sources": [
+    {
+      "title": "ATW6095 AI Note deployment",
+      "url": "https://www.actionstech.com/index.php?id=8873",
+      "note": "支持 NPU、DSP、多麦音频及本地增强与云端识别分工；性能数字为厂商说法，目录不作为实测。",
+      "id": "s1",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "关于炬芯",
+      "url": "https://www.actionstech.com/index.php?id=about",
+      "note": "支持珠海总部、公开地区机构、端侧 AI 和音频无线平台定位。",
+      "id": "s2",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "炬芯联系我们",
+      "url": "https://www.actionstech.com/index.php?id=contactus",
+      "note": "支持公司、业务和技术联系路径；未提交询问或共享项目数据。",
+      "id": "s3",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "analysis": {
+    "positioning": [
+      {
+        "title": "官方｜音频与端侧计算结合",
+        "text": "公开路线将声音采集、数字信号处理、神经网络和无线结合，具体记录设备案例讨论了本地声音增强。它适合在人工智能录音链路中承担前端与轻量推理，但不能据此认定转写、摘要和对话全部在芯片上完成；目录保持采集、增强和外部服务之间的分工。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜前端改善的实际意义",
+        "text": "如果用户在复杂声场中经常录不清，提升输入可能比增加摘要模板更有价值。炬芯方案应通过真实录音和下游识别共同评估，而不是只听处理后声音是否更干净；某些降噪会削弱轻声或重叠发言，需要判断它究竟保留了哪些对用户任务重要的信息。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "官方｜DSP 与 NPU 分工",
+        "text": "案例描述对延迟敏感的音频处理与模型推理由不同计算部分协作，并指出部分任务仍需要相应适配。这支持系统分层评估，不意味着任何网络都能直接部署；团队应确认目标模型、算子和前后处理资源，不能只根据存内计算名称推断实际能效或完整功能。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜声音分离需场景验证",
+        "text": "远场增强和声源分离在会议、衣领或眼镜上的输入条件不同，模型需要适应麦克风数量、间距和遮挡。官方演示或相对改善数字不能直接套用所有结构，尤其多人同时发言会增加歧义；应保留原始多通道数据，观察增强后是否丢失关键内容而非只看听感。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "判断｜录音设备适配",
+        "text": "会议卡、桌面录音器和佩戴挂件都可比较端侧音频处理，但各自距离、摆放和电池预算不同。候选验证应先固定一种真实使用方式，再决定需要多少本地处理；如果用户主要近讲，复杂远场模型可能增加成本与耗电，却未必明显改善转写和回顾体验。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜耳机与眼镜适配",
+        "text": "耳机和眼镜还需要处理自身播放回声、风噪和实时通话，不能直接沿用静态会议录音的参数。平台具有无线与音频能力只是起点，具体协议、延迟和热预算仍要核实；需要把连续听音频与短时人工智能请求分开，避免一个高负载模式破坏日常使用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "判断｜交付真实音频任务",
+        "text": "首次接洽应提供麦克风配置、原始录音、目标距离和允许延迟，并说明结果用于通话、转写还是环境记录。不同目标可能要求不同保留策略，不能只提出更强降噪；还应明确模型由谁训练、如何更新，以及团队能获得哪些中间数据来复现问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "title": "判断｜工具链与合作范围",
+        "text": "公司公开平台与技术支持入口，但项目仍需确认模型转换、声学调校、固件和无线协议的交付范围。完整方案能降低部分集成工作，不代表供应方承担所有语言与环境验证；团队应保存自有测试集，并明确例程、定制算法和量产支持之间的责任边界。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "判断｜增强前后的任务对照",
+        "text": "质量测试应保留原始与增强后的音频，在相同转写服务下比较漏字、错字和说话人区分，并单独记录轻声、音乐与重叠发言。仅凭音频听起来更清晰无法证明识别更准确，尤其强处理可能改变语言细节；测试要与具体模型和固件版本绑定，便于回归。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜长期录音的资源压力",
+        "text": "连续录音时应同时检查电流、温升、缓存和文件完整性，并加入无线同步、暂停和异常断电。短时增强演示不能证明长时间记录可靠，省电也不能以漏掉开头或中断保存为代价；最终验收应以用户能完整找回内容为标准，而不是只看芯片运行稳定。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断｜硬件与算法费用",
+        "text": "平台成本应包含主控、麦克风、存储、电源、模型适配和后续维护，不能只用集成度推算整机便宜。端侧处理可能减少部分上传或外部计算，却仍可能保留云转写费用；采购比较要根据使用频率和实际任务，避免把本地声音增强误算成取消全部服务成本。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜点名案例与采购条件",
+        "text": "公开案例能证明特定终端与芯片的合作，但不能据此推断所有相近产品都可获得相同资源和价格。项目仍需确认目标系列、版本、渠道和生命周期，目录不补造起订量或交期；新闻中的量产表述只适用于所述范围，不等于对新项目的即时供货承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜端侧能力的宣传边界",
+        "text": "记录设备可能在本地完成增强，在云端完成识别与生成，用户需要清楚理解这种分工。不能因为芯片带有神经网络单元就宣传全部离线或绝对隐私；实际数据流、缓存与服务调用仍要审查，尤其录音内容涉及他人时，硬件省电并不替代记录边界管理。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜跨产品与代次误配",
+        "text": "同品牌记录器、耳机和眼镜可能使用不同系列，公开客户名称不能自动关联到每个目录型号。供应链展示应保留精确点名和代次，不能把一款企业版或其他终端的采用关系迁移到消费版本；没有明确证据时，炬芯只能作为音频平台候选而非既定供货方。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "判断｜可执行验证路径",
+        "text": "先在固定麦克风结构上复现目标音频任务，再逐步加入不同噪声、距离和移动条件，测量增强、识别与总耗电。若表现变化，应区分声学结构、模型和调度，而不是只提高处理强度；这种分层实验能判断端侧计算是否确实改善用户任务与续航取舍。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜进入选型的门槛",
+        "text": "正式选择需要目标模型适配、真实结构声学表现、持续记录可靠性和明确采购支持。目录可据这些公开能力建立候选链接，但不会以官网客户标识或相似产品外形推断供货；实际采用必须有具体型号或系列的点名来源，且不能被扩展为效果保证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "actions-technology",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "小型录音器的音频采集与本地增强平台候选",
+      "rationale": "本型号具有双麦采集和主动录音，炬芯的音频处理与端侧增强路线可进入新设计比较。当前没有点名采用，需核对具体板面积、缓存、功耗和应用接口；本地增强不能自动复制 soundcore 的转写、摘要与 Anka 服务，也不证明现有主控来源。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "soundcore-work",
+      "productName": "Anker soundcore Work",
+      "category": "recording",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "actions-technology",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "电话记录设备的音频处理架构候选",
+      "rationale": "炬芯的多麦音频与本地增强路线可用于研究类似电话记录设备，但 Eclipse 尚未确认开售且未点名芯片。需核对真实输入路径、手机连接、缓存和服务分工，该候选不是现成物料清单，也不能证明其未来量产方案、全部离线能力或当前可采购状态。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "bee-eclipse",
+      "productName": "Bee Eclipse",
+      "category": "recording",
+      "status": "needs_check"
+    },
+    {
+      "supplierId": "actions-technology",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "通话与房间录音的音频处理候选",
+      "rationale": "炬芯的音频处理与端侧增强路线可用于比较 P1 类设备的采集、缓存和前端任务，但不是已确认供应商。需核对 USB 与无线音频接口、时钟、功耗及实际主控分工；其能力不自动提供 HiNotes 的账户、转写和摘要，也不构成现有设备替换方案。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "hidock-p1",
+      "productName": "HiDock P1",
+      "category": "recording",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "actions-technology",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "双模式录音的采集与音频处理平台候选",
+      "rationale": "Plaud Note 需要协调面谈、电话输入与本地保存，炬芯音频平台可进入新设计候选比较。当前没有供货点名，需核对振动输入接口、音频缓存、功耗与应用连接；它不能直接替换现有主控，也不提供 Plaud 账户、转写和问答服务，整机工厂仍未知。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "plaud-note",
+      "productName": "Plaud Note",
+      "category": "recording",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "actions-technology",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "多输入录音与前端处理平台候选",
+      "rationale": "Note Pro 同时涉及多麦、振动输入、显示和保存，炬芯音频平台可作为采集处理路线候选。需核对通道同步、显示控制、内存和功耗，当前没有供货点名；该候选不等于已获得品牌自动模式算法，也不能直接复制 Plaud 的转写摘要服务或替换现有主控。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "plaud-note-pro",
+      "productName": "Plaud Note Pro",
+      "category": "recording",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "actions-technology",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "语音采集、控制与前端处理平台候选",
+      "rationale": "Magic 披露多麦、本地存储和多端语音任务，炬芯的音频处理路线可作为新设计候选。需要核对显示、存储、连接与持续采集功耗，当前没有供货点名；平台能力不能直接复制讯飞识别模型或电脑输入客户端，也不能据此推断本机所有智能离线完成。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "iflytek-magic-recorder",
+      "productName": "讯飞AI录音笔 Magic",
+      "category": "recording",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "actions-technology",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "线下记录终端的音频采集与处理候选",
+      "rationale": "A1 个人版需要实体采集并接入纪要服务，炬芯音频平台可作为新设计候选，但官方商品资料未点名主控。需确认通道、存储、功耗与钉钉接口，不能直接替换现有芯片；该候选也不提供账户权益、企业设备管理或完整工作流服务。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "dingtalk-a1-personal",
+      "productName": "DingTalk A1（个人版·云享版）",
+      "category": "recording",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "actions-technology",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "开放式记录耳机的音频处理平台候选",
+      "rationale": "OpenNote 需要同时处理播放、采集和手机协同，炬芯音频平台可作为新设计候选。需验证开放结构回声、通道、无线接口与功耗，当前没有采用点名；平台能力不等于已获得 viaim 的转写翻译服务，也不能由耳机外形推断具体主控或声学算法。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "viaim-opennote",
+      "productName": "viaim OpenNote",
+      "category": "audio",
+      "status": "on_sale"
+    }
+  ]
+}

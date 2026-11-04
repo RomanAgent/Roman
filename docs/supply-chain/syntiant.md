@@ -144,6 +144,8 @@ Syntiant 把低功耗神经决策处理器、声音输入与模型工具组织�
 
 - [Starkey Edge AI](../hardware/starkey-edge-ai.md) — **能力候选 · 非已采用** / 相近耳部声音处理的MEMS采集候选：Syntiant当前MEMS麦克风产品可对应相近耳部设备的声音输入研究，需要结合具体款式、声孔与输出反馈路径验证噪声和稳定性。麦克风能力不能代表Edge Mode效果，也不能确定品牌现用器件；目录没有点名采购关系，此链接只用于新设计的前端选型比较。
 
+- [Looki L1](../hardware/looki-l1.md) — **能力候选 · 非已采用** / 同类多模态挂件的MEMS声音输入候选：Syntiant的MEMS麦克风产品可作为穿戴相机声音前端的研究候选，需要结合衣物摩擦、佩戴方向、阵列同步和主控接口验证。它不证明Looki采用该品牌，也不自带完整场景或记忆模型；此处只比较输入器件能力，不将候选配置或料号添加到已披露硬件中。
+
 ## 来源
 
 - [Neural Decision Processor Portfolio](<https://www.syntiant.com/platform/chips-and-hardware/>)：支持各 NDP 型号任务、量产与送样状态，以及开发平台入口。

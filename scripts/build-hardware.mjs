@@ -16,8 +16,10 @@ const deepMap=new Map(deepRows.map(d=>[d.id,d]));
 assert(deepMap.size===deepRows.length,'重复深度分析产品ID');
 for(const p of products)if(deepMap.has(p.id)){const {id,...deepDive}=deepMap.get(p.id);p.deepDive=deepDive;}
 metadata.deepCoverage=products.filter(p=>p.deepDive).length;
+metadata.checkedAt=[...products.map(p=>p.checkedAt),...deepRows.map(d=>d.checkedAt)].filter(Boolean).sort().at(-1)||metadata.checkedAt;
 const needGroups=new Map();
-for(const p of products){const profile=p.deepDive?.innovationProfile;if(!profile)continue;const group=needGroups.get(profile.needKey)||{id:profile.needKey,name:profile.needName,productIds:[],available:0};group.productIds.push(p.id);if(['on_sale','preorder'].includes(p.status))group.available++;needGroups.set(profile.needKey,group);}
+const needAliases=JSON.parse(await readFile(new URL('need-aliases.json',dir),'utf8'));
+for(const p of products){const profile=p.deepDive?.innovationProfile;if(!profile)continue;const key=needAliases.aliases[profile.needKey]||profile.needKey;const group=needGroups.get(key)||{id:key,name:needAliases.names[key]||profile.needName,productIds:[],available:0};group.productIds.push(p.id);if(['on_sale','preorder'].includes(p.status))group.available++;needGroups.set(key,group);}
 metadata.discovery={scope:'按核心需求与使用场景分组；同一组保留不同实现供比较，不把颜色、容量和相近型号计为新的场景。差异属于研究判断，不是全球首创或热度排名。',groups:[...needGroups.values()].sort((a,b)=>a.name.localeCompare(b.name,'zh-CN')),profiledProducts:products.filter(p=>p.deepDive?.innovationProfile).length};
 const categories = new Set(metadata.categories.map(c => c.id));
 const ids = new Set();
@@ -70,6 +72,10 @@ metadata.mediaCoverage={products:products.filter(p=>p.images.some(i=>i.kind==='p
 metadata.excludedProducts=excludedProducts.map(p=>({id:p.id,name:p.name,reason:p.scopeNote||'非个人/家庭消费用途，保留在专业设备档案。'}));
 products.sort((a,b)=>metadata.categories.findIndex(c=>c.id===a.category)-metadata.categories.findIndex(c=>c.id===b.category)||a.brand.localeCompare(b.brand));
 await writeFile(new URL('catalog.json',dir),JSON.stringify({...metadata,products},null,2)+'\n');
+await mkdir(new URL('products/',dir),{recursive:true});
+await Promise.all(products.map(p=>writeFile(new URL(`products/${p.id}.json`,dir),JSON.stringify(p,null,2)+'\n')));
+const listingProducts=products.map(p=>({id:p.id,name:p.name,brand:p.brand,category:p.category,tagline:p.tagline,status:p.status,saleMode:p.saleMode,checkedAt:p.checkedAt,regions:p.regions,price:{text:p.price.text},china:{availability:p.china.availability},ai:{type:p.ai.type,description:p.ai.description},highlights:p.highlights,niche:{level:p.niche.level},images:p.images.filter(i=>i.kind==='product').map(i=>({kind:i.kind,path:i.path,alt:i.alt})),...(p.deepDive?{deepDive:{innovationProfile:p.deepDive.innovationProfile}}:{})}));
+await writeFile(new URL('index.json',dir),JSON.stringify({...metadata,products:listingProducts})+'\n');
 const labels={on_sale:'在售',preorder:'预售 / 接受延期订单',needs_check:'待复核',discontinued:'停售',reservation:'付费预约 · 非正式订单'};
 const md = s=>String(s).replace(/[|]/g,' / ').replace(/</g,'&lt;');
 await mkdir(new URL('docs/hardware/',root),{recursive:true});
@@ -99,7 +105,9 @@ const index=[`# ${metadata.title}`,`核查日期：${metadata.checkedAt} · 收�
  return [`## ${c.name}`, ['| 产品 | 销售状态 | 已查地区 | 价格参考 |', '| --- | --- | --- | --- |',...group.map(p=>`| [${md(p.name)}](hardware/${p.id}.md) | ${labels[p.status]} | ${md(p.regions.join('、'))} | ${md(p.price.text)} |`)].join('\n')];
 }),'## 尚待扩展的范围',...metadata.coverageBacklog.map(b=>`- **${b.category}**：${b.note}`),'[研究方法](hardware-methodology.md) · [项目首页](../README.md)'].join('\n\n');
 await writeFile(new URL('docs/hardware-market.md',root),index+'\n');
-const mediaIndex=['# 产品图像档案',`核查与生成日期：2026-11-04。当前 ${metadata.mediaCoverage.products} 款有产品图、${metadata.mediaCoverage.references} 款有参考图、${metadata.mediaCoverage.aiExploded} 款有独立 AI 爆炸示意，共 ${metadata.mediaCoverage.totalImages} 张图片。`,'真实来源图片保留来源与原始外观。AI 图使用内置 ImageGen 按产品分别生成，仅表达概念结构；不是实物拆机、精确 BOM 或维修依据。每款提示词与参考图路径保存在对应 JSON 清单中。','| 产品 | 产品图 / 来源 | 参考图 / 来源 | AI 爆炸示意 | 提示词 |','| --- | --- | --- | --- | --- |',...products.map(p=>{
+const mediaDates=[...new Set(products.flatMap(p=>p.images.map(i=>i.generatedAt||i.checkedAt).filter(Boolean)))].sort();
+const mediaDateRange=mediaDates[0]===mediaDates.at(-1)?mediaDates[0]:`${mediaDates[0]} — ${mediaDates.at(-1)}`;
+const mediaIndex=['# 产品图像档案',`核查与生成日期：${mediaDateRange}。当前 ${metadata.mediaCoverage.products} 款有产品图、${metadata.mediaCoverage.references} 款有参考图、${metadata.mediaCoverage.aiExploded} 款有独立 AI 爆炸示意，共 ${metadata.mediaCoverage.totalImages} 张图片。`,'真实来源图片保留来源与原始外观。AI 图使用内置 ImageGen 按产品分别生成，仅表达概念结构；不是实物拆机、精确 BOM 或维修依据。每款提示词与参考图路径保存在对应 JSON 清单中。','| 产品 | 产品图 / 来源 | 参考图 / 来源 | AI 爆炸示意 | 提示词 |','| --- | --- | --- | --- | --- |',...products.map(p=>{
  const photo=p.images.find(i=>i.kind==='product'),ref=p.images.find(i=>['reference','official-structure'].includes(i.kind)),ai=p.images.find(i=>i.kind==='ai-exploded');
  const original=im=>im?`[图片](../${im.path}) · [${md(im.credit)}](<${im.sourceUrl}>)`:'待补充';
  return `| [${md(p.name)}](hardware/${p.id}.md) | ${original(photo)} | ${original(ref)} | ${ai?`[AI 生成图](../${ai.path})`:'待补充'} | ${ai?`[完整提示词](../${ai.promptPath})`:'待补充'} |`;

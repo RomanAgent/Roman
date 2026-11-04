@@ -244,5 +244,939 @@
       "opportunity": "值得进一步研究的是用户能否通过更一致的记录发现需要讨论的模式，并理解哪些结论仍不确定。若工具只是让人反复追逐更好的分数，数据增加并未形成信息价值；机会应建立在可理解、可纠正的反馈与可持续使用，而不是把所有生活行为都变成AI指令。"
     },
     "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "mudra-link",
+    "name": "Mudra Link",
+    "brand": "Mudra / Wearable Devices",
+    "category": "wearables",
+    "tagline": "腕部肌电识别把手势转成鼠标与键盘指令",
+    "officialUrl": "https://mudra-band.com/products/mudra-link",
+    "status": "on_sale",
+    "statusEvidence": "具体官方商品页显示US$499与Add to cart；公开Shopify产品数据available=true。页面现说明Link属于Mudra Studio Evaluation kit，仍列独立实体腕带、线缆和使用说明及发货时间。",
+    "regions": [
+      "美国",
+      "官网列出的国际配送地区"
+    ],
+    "china": {
+      "availability": "import",
+      "note": "官方国家选择含China且列国际配送；按跨境购买记录，未核实大陆本地零售、税费、中文支持或保修执行。"
+    },
+    "price": {
+      "text": "US$499（所见Mudra Link商品页）",
+      "note": "当前页面将硬件归入Studio Evaluation kit；软件/开发权限以具体计划为准，不把评价套件当普通Apple Watch表带。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方明确嵌入式AI对腕部表面肌电信号模式分类，转换为预设手势指令，通过BLE发送鼠标/键盘输入。",
+      "dependency": "初始配置需Windows或macOS应用，之后按HID兼容性连接目标设备；并非读取思想，也不保证所有设备或手部活动条件同样适配。"
+    },
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "highlights": [
+      "腕部表面肌电模式识别",
+      "手势映射为HID鼠标与键盘指令",
+      "不需要摄像头拍手势",
+      "当前按评估套件定位核查"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "面向愿意设置映射与练习的个人进阶用户，生物电输入有别于普通腕表；无销量和访谈证明。"
+    },
+    "architecture": [
+      {
+        "name": "皮肤接触输入",
+        "detail": "SNC传感接收腕部表面肌电，另有惯性测量；不是脑内电极。",
+        "evidence": "official"
+      },
+      {
+        "name": "信号前端",
+        "detail": "放大、滤波及模数转换为手势分类提供数据，具体器件未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "端侧手势识别",
+        "detail": "嵌入式处理器用已训练AI模式识别手势，模型及数据集细节未公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "指令映射与连接",
+        "detail": "用户设置动作到命令，通过BLE/HID控制兼容设备。",
+        "evidence": "official"
+      },
+      {
+        "name": "确认与纠正",
+        "detail": "用户通过目标应用结果确认动作，误触发与恢复需在真实任务中验证。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mudra Link官方商品与兼容条件",
+        "url": "https://mudra-band.com/products/mudra-link",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture",
+          "regions",
+          "dependency"
+        ],
+        "note": "本轮已打开US$499、Add to cart、评估套件说明、Windows/macOS初始设置、HID与配送；公开product.js available=true。"
+      },
+      {
+        "title": "Mudra官方肌电与AI分类流程",
+        "url": "https://mudra-band.com/pages/howitworks",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology",
+          "architecture"
+        ],
+        "note": "本轮已打开：表面EMG、放大滤波ADC、嵌入式AI手势分类和BLE；不采用读取思想式营销比喻。"
+      },
+      {
+        "title": "Mudra Link官方功能与手势映射",
+        "url": "https://mudra-band.com/pages/mudra-link-main",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "interaction"
+        ],
+        "note": "本轮已打开：预设手势映射、指针与方向模式、实体控制；功能存在不代表独立效率实测。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户在手离开鼠标、使用大屏或需要少量快捷动作时，希望以轻微手势执行指令。它的价值更可能先出现在明确的几项操作，而不是完整替代所有键盘鼠标工作；如果必须持续记忆映射、校准或处理误触，免接触的形式可能并未减少实际负担。",
+      "userProfile": "用户是否能稳定完成预设动作、是否愿意练习，以及原任务需要多少文字和精确指向，会共同影响收益。没有摄像头不代表无需个人适配，腕带位置与日常手部活动也可能改变信号；本目录不能据无障碍宣传就假定某种运动障碍的人必然可用，应由本人实际体验决定。",
+      "competition": "传统鼠标无需身体信号识别但通常依赖接触表面，摄像头手势可以不穿戴却受视野和拍摄环境影响。Mudra的差异是腕部生物电入口，仍需要戴取和动作学习；比较应看目标任务的输入步骤、误触和疲劳，不能仅因技术更特殊就推定更快、更无障碍或更私密。",
+      "supplyChain": "同类新设计需要把电极接触、信号放大、滤波、佩戴稳定和模型训练一起考虑，不能只用更多训练数据弥补所有机械变化。腕部运动产生的信号与脑电、心电并不相同，通用生物电前端也需核对幅度、带宽和功耗；候选器件不会自动提供品牌手势库与映射软件。",
+      "technology": "系统可能正确识别一个动作，却在当前应用里触发用户不想要的命令，因此错误不仅来自传感模型。映射、焦点窗口和目标软件状态共同决定最终结果；技术评价需要把动作分类准确率与任务成功率分开，也要让用户知道现在控制的是哪个设备和哪个操作模式。",
+      "aesthetics": "腕带需要保持接触，又不能让用户为了识别而过度限制手部活动。织物和外观可以提高接受度，但佩戴松紧、衣袖摩擦与出汗后的感受更直接影响持续使用；审美评价应观察用户是否愿意在真实工作中戴着它，而不只看没有屏幕的简洁造型。",
+      "risks": "腕部日常动作很多，如果指令绑定了高后果操作，偶发误识别可能产生超出输入便利的损失。用户还可能因脑机接口措辞产生不必要的思想读取担忧；产品说明应清楚限定表面肌电和动作分类，同时保留暂停、撤销与原有输入方式，不把系统当成总能理解意图的代理。",
+      "opportunity": "值得研究的是几项高频、短而明确的动作能否通过腕带更方便完成，例如离开桌面后的翻页和选择。若把所有文字输入、精细编辑和复杂快捷键都纳入承诺，会掩盖真正适用的范围；具体任务中的少量收益也有价值，但必须同时计算佩戴和误触恢复成本。"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "neurable-one",
+    "name": "Neurable One",
+    "brand": "Neurable",
+    "category": "wearables",
+    "tagline": "耳垫脑电信号形成专注反馈与个人历史",
+    "officialUrl": "https://www.neurable.com/products/neurable-one",
+    "status": "on_sale",
+    "statusEvidence": "当前官方商店明确Ships now、US only、US$499与Buy now，并列5–8工作日配送；公开商品HTMLavailable=true。已停售MW75 Neuro不作为本款销售证据。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "当前官方商店明确仅向美国配送；未核实大陆正式渠道与售后，不以跨境转运猜测国内可用性。"
+    },
+    "price": {
+      "text": "US$499",
+      "note": "所见美国官方商店价格，税费及服务条款以结算为准；不混用MW75或MW75 LT历史标价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方发布说明明确AI与信号处理清除日常电噪声，解析耳垫EEG模式形成专注、疲劳相关指标和反馈。ANC不是本款收录AI的依据。",
+      "dependency": "EEG指标依兼容App、账号与服务器处理；官网说明原始记录在服务器处理和保存。可仅作为音频耳机使用，但不等于完整脑电功能离线。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "耳垫织物干电极采集EEG",
+      "工作会话中的反馈与休息提示",
+      "原始数据服务器处理边界明确",
+      "消费健康信息，不读取思想或诊断疾病"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "重点是工作中的脑电反馈，区别于普通音频或睡眠头带；独立需求与商业效果仍需用户研究。"
+    },
+    "architecture": [
+      {
+        "name": "耳垫信号输入",
+        "detail": "织物干电极接收耳周EEG，实际接触与运动会影响信号质量。",
+        "evidence": "official"
+      },
+      {
+        "name": "生物电与信号处理",
+        "detail": "采集与AI处理分离脑电相关模式和日常噪声，具体芯片未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频反馈",
+        "detail": "普通音频与会话提示共用耳机形态，音频质量不等同认知指标准确。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用与服务器",
+        "detail": "手机呈现会话、个人历史与报告，原始记录在服务器处理和存储。",
+        "evidence": "official"
+      },
+      {
+        "name": "个人解释",
+        "detail": "指标与本人先前数据比较，不判断工作价值、思想内容或医学状态。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Neurable One官方商店",
+        "url": "https://checkout.neurable.com/products/neurable-one",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions",
+          "architecture"
+        ],
+        "note": "本轮已打开：US$499、Ships now、US only、Buy now、配送说明；公开HTML商品available=true，页面Sold out为同时存在的模板文字。"
+      },
+      {
+        "title": "Neurable One官方功能与数据边界",
+        "url": "https://www.neurable.com/products/neurable-one",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "privacy",
+          "risks"
+        ],
+        "note": "本轮已打开：耳垫EEG、会话与个人指标、原始数据服务器处理及非医疗/非思想读取边界。"
+      },
+      {
+        "title": "Neurable One正式发布与AI机制",
+        "url": "https://www.neurable.com/blog-posts/neurable-one-is-here-the-headphones-ive-wanted-to-build-for-10-years",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology",
+          "model"
+        ],
+        "note": "本轮已打开，2026-10-01官方发布明确AI消除日常电噪声及本款；不把厂商研究和用户故事当独立疗效。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是长时间使用电脑的人希望了解自己何时更容易保持注意，以及休息前后是否存在可观察变化。数据可能帮助形成反思，也可能让人持续追逐分数；价值应来自更可理解的个人工作习惯，而不是把专注指标直接变成产出、能力或自律程度的评价。",
+      "userProfile": "已经习惯长时间戴耳机、希望观察工作节奏并愿意检查信号质量的人，可能较容易评估其价值。若用户主要进行频繁走动、短时碎片任务或不喜欢耳罩压力，耳机形态可能不适合持续采集；画像应围绕习惯与数据偏好建立，不能按职业或年龄推断认知需要。",
+      "competition": "计时器提供固定休息节奏但不读取身体信号，普通降噪耳机帮助管理声音环境却不给脑电历史。Neurable增加个体信号反馈，同时增加佩戴和数据处理成本；比较应看它是否提供超出简单记录的可用线索，而不能用传感器数量或专利数量推导优于所有工作习惯方法。",
+      "supplyChain": "耳垫必须同时承担声学密封、佩戴舒适和电信号接触，头部动作与位置变化会让这些目标互相影响。增加AI处理不能自动修复所有接触不足，芯片选型也需结合电极结构；同类新设计应从原始信号质量出发，而不是在普通耳机上添加一个分数界面就宣称获得脑电能力。",
+      "technology": "集中浏览娱乐内容也可能呈现注意集中的信号，因此专注度不是工作质量判断，更不是对人的能力评级。长期指标还可能受接触、任务和日程变化影响，个人趋势应保留这些背景；技术分析需要区分可测电活动、算法估计与用户最终解释，避免把相关标签理解成明确心理事实。",
+      "aesthetics": "若耳罩让用户经常摘下，持续记录就会出现缺口，外观和舒适因此直接影响数据覆盖，而不只是购买偏好。另一方面，为获得完整分数而强行延长佩戴也不是理想体验；设计应让用户容易选择音频、会话或休息，并理解取下设备只意味着没有数据。",
+      "risks": "脑电相关分数容易被误用于评价工作投入、能力或心理状态，但设备并不知道用户在做什么，也没有依据为这些判断提供保证。个人记录的使用应由本人控制，特别是报告分享和账号访问；研究应同时关注解释负担和隐私选择，不把更多连续采集本身当成更好的体验。",
+      "opportunity": "值得研究的是设备是否帮助用户理解自己何时需要改变工作节奏，而不是让人追逐不可解释的脑龄或电量标签。一个能说明信号不足、允许拒绝提示的系统可能更容易被持续接受；这种价值需要真实活动验证，不能由AI、脑机接口名称或实验室出身直接推定。"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "biped-noa",
+    "name": "NOA by biped.ai",
+    "brand": "biped.ai",
+    "category": "accessibility",
+    "tagline": "肩部视觉感知与空间声音辅助步行",
+    "officialUrl": "https://biped.ai/",
+    "status": "on_sale",
+    "statusEvidence": "已通过实际Chrome打开官网链接的Stripe结账：NOA - Plan 1 - Single payment、CHF4,990、数量和支付表单；所见地址国家固定瑞士。未输入个人信息或提交付款。",
+    "regions": [
+      "瑞士（实际结账核实）",
+      "其他官方分销地区需分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官网称全球服务，但本次具体订单仅核实瑞士地址；未证明中国大陆直送、地图服务、培训或本地售后。"
+    },
+    "price": {
+      "text": "CHF4,990（官网单次支付计划）",
+      "note": "不采用页面自动换汇人民币作为国内售价；地区、税费、配件与服务以具体订单确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "深度/红外视觉与AI识别形成障碍提示，AI场景描述帮助理解环境；导航、提示与联网描述是不同功能层。",
+      "dependency": "需白杖或导盲犬等原有辅助、学习声音反馈、配套App及兼容音频输出；部分功能需要Wi-Fi或手机热点，不能视为自主安全导航。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "肩部双前舱与后颈可拆电池",
+      "视觉障碍感知及空间声音提示",
+      "AI场景描述和路线信息",
+      "作为原有出行辅助的补充"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "在同一辅助步行任务中，以肩部宽视野视觉替代单纯手柄测距，属于实现差异；不另宣称独立需求数量或蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "肩部与供电",
+        "detail": "支撑跨肩连接前部模组，官方手册把可拆电池放在后颈位置。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉采集",
+        "detail": "官方手册披露深度与红外相机；具体料号与全部窗口用途不据照片猜测。",
+        "evidence": "official"
+      },
+      {
+        "name": "环境处理",
+        "detail": "对障碍与场景进行处理，具体模型、运算主控和执行分配未完整公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用与连接",
+        "detail": "按键和App控制，配合手机、Wi-Fi/热点与音频设备；不同功能联网需求需分开。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音反馈",
+        "detail": "空间提示、路线与描述提供信息补充，不替代白杖、导盲犬或通行判断。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NOA官方用户手册（2025年5月版本）",
+        "url": "https://biped.ai/en/user-manual",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "dependency",
+          "risks"
+        ],
+        "note": "本轮已打开PDF，核对视觉/声音、连接、培训、后颈电池和使用环境限制；不把旧版配件数量或性能参数直接当当前交付承诺。"
+      },
+      {
+        "title": "NOA官网实物单次支付结账",
+        "url": "https://checkout.biped.ai/b/7sIbMP3un4d92YMeVF",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions"
+        ],
+        "note": "本轮Chrome实际读取NOA单次支付CHF4,990、数量和瑞士配送表单。只读未付款；本地货币自动换算不是大陆销售证明。"
+      },
+      {
+        "title": "biped.ai当前官网与公开产品素材",
+        "url": "https://biped.ai/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "model",
+          "images"
+        ],
+        "note": "本轮web打开无可读正文，公开HTML及站点脚本已读取，核对官网购买链接与NOA产品/佩戴素材；宣传全天候不覆盖手册具体限制。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户在已经具备基本出行方式时，希望更方便地获知障碍方向、门或周边环境，减少停下拿手机或向别人询问的步骤。视觉输入比单一测距包含更多语义，也会带来识别和信息选择问题；价值应由本人是否更容易获得所需信息衡量，而不只看设备识别了多少物体。",
+      "userProfile": "有些用户更需要简短的障碍方向提示，有些更关心环境语义和路线，接受连续声音的程度也可能不同。肩部重量、衣物和原有工具会影响佩戴意愿，不能只因双手被释放就推定负担降低；画像应由本人常见任务建立，本目录不依据年龄或残余视力替人作适配判断。",
+      "competition": "普通白杖与手机提供既有操作路径，智能手柄测距则把部分提示放在握持处，NOA的区别是肩部视觉视野和空间声音处理。它们仍服务相关的辅助步行任务，不应因形态不同就无限增加需求类别；比较应考虑信息范围、学习、重量、网络与原有技能如何配合。",
+      "supplyChain": "同类新设计必须让视觉模块在不同衣物和肩形下保持合适朝向，否则软件可能处理到与用户前进方向不一致的画面。散热、连接与更换电池也需要在实际佩戴中验证；仅在桌面跑通识别模型不足以证明肩部系统可用，候选芯片不能解决所有机械和教学约束。",
+      "technology": "环境里同时存在多种物体，用户通常只需要与当前行动相关的信息，过量描述可能遮住真正重要的声音。视觉识别到一个物体并不自动知道用户打算去哪里，地图也不能确认所有现场变化；技术评价应关注提示优先级、延迟和不确定性，而不只统计识别类别。",
+      "aesthetics": "用户需要在行走前后通过触觉找到暂停、选择与重复入口，清楚区分按键比外观极度隐藏更有实际意义。明显的相机结构也可能影响旁人理解与用户社交感受；设计评价应尊重本人是否愿意公开佩戴辅助设备，不能把看起来先进或低调当作普遍偏好。",
+      "risks": "用户可能把清楚的语音理解为现场事实已经完全核实，但摄像范围、遮挡、网络和生成描述都可能出现遗漏。声音反馈也会占用注意，重要问题不应只依赖一个自动输出；本研究不对个人安全出行效果作保证，还需关注相机采集旁人与环境数据时的理解和控制。",
+      "opportunity": "值得研究的是用户是否能在熟悉出行中少一次为了解环境而停下询问，同时不增加难以理解的提示、穿戴和维护负担。视觉描述的价值可能集中在少数具体场景，不需要宣称全面自主导航；研究应允许本人选择只用部分功能或继续采用更简单的原有方法。"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "withings-u-scan-nutrio",
+    "name": "Withings U-Scan Nutrio",
+    "brand": "Withings",
+    "category": "health-home",
+    "tagline": "马桶内取样与电子光学读取连接AI健康信息服务",
+    "officialUrl": "https://www.withings.com/en-us/products/u-scan-nutrio",
+    "status": "on_sale",
+    "statusEvidence": "美国官网具体Proactive/2MPW配置显示US$379.95、In stock及Add to cart，公开产品数据available=true。较低标价的其他频率配置不可售，未混用其价格。",
+    "regions": [
+      "美国官网当前可购配置",
+      "其他地区需按当地具体商品确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实U-Scan具体型号在中国大陆的官方购买、耗材续供与Withings+功能；海外品牌渠道不等同该型号已在大陆上市。"
+    },
+    "price": {
+      "text": "US$379.95（Proactive / 2MPW starter kit）",
+      "note": "包含电子Reader、站座及对应耗材配置；后续卡匣与服务条件需结算确认。页面泛用会员弹窗与本款赠送文案并存，不推断永久免费。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "U-Scan测量数据进入Withings+，其Health Assistant提供明确AI回答和个性化趋势解释；热检测、泵和光学比色本身不单独算AI。",
+      "dependency": "需兼容马桶安装、耗材卡匣、Withings应用及联网服务；AI依Withings+，不能描述为Reader在离线状态自行诊断。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "重复使用电子Reader与被动卡匣分开",
+      "热检测、微流路与光学比色读取",
+      "Withings+ AI解释与原始测量分层",
+      "Nutrio与Calci共用平台，不以耗材变体重复计数"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "把样本采集融入家庭卫生间是具体流程差异，但耗材、安装与解释负担仍需验证；非销量或临床效果结论。"
+    },
+    "architecture": [
+      {
+        "name": "安装与取样",
+        "detail": "夹臂使Reader位于合适位置，热传感检测样本到达，实际启动依应用流程。",
+        "evidence": "official"
+      },
+      {
+        "name": "流体与耗材",
+        "detail": "泵和微流路把样本引入卡匣内比色试纸，耗材本身不计独立智能设备。",
+        "evidence": "official"
+      },
+      {
+        "name": "电子光学读取",
+        "detail": "LED和内部传感器读取反应颜色，处理器按专有算法形成结果；不将普通比色算法自动称AI。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网与AI服务",
+        "detail": "数据同步到Withings应用，Withings+提供AI回答和趋势解释，端云模型细节未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "维护与复核",
+        "detail": "Station用于清洁和充电；用户回看测量与解释，健康决策需适当专业复核。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "U-Scan Nutrio官方当前商品与配置",
+        "url": "https://www.withings.com/en-us/products/u-scan-nutrio",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "本轮已打开US$379.95、Proactive/2MPW、In stock和Add to cart；product.js确认该配置可售，未采用不可售的US$349.95变体。"
+      },
+      {
+        "title": "Withings官方U-Scan采样与读取机制",
+        "url": "https://support.withings.com/hc/en-us/articles/41993638237073-U-Scan-How-Does-U-Scan-Work",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "maintenance"
+        ],
+        "note": "本轮已打开：夹臂定位、手动启动流程、热检测、泵、微流路、比色试纸、LED光学及站座维护。"
+      },
+      {
+        "title": "Withings+官方AI服务边界",
+        "url": "https://www.withings.com/en-us/pages/withings-plus",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "dependency",
+          "data"
+        ],
+        "note": "本轮已打开AI-powered answers、Health Assistant及设备数据整合，基础指标与部分导出仍属于免费App；不把专业人员服务等同AI诊断。"
+      },
+      {
+        "title": "U-Scan官方平台与耗材比较",
+        "url": "https://www.withings.com/en-us/collections/u-scan",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "architecture",
+          "technology"
+        ],
+        "note": "本轮已打开Reader平台、Nutrio与Calci卡匣。只计同一电子平台一次，卡匣或频率套餐不增加硬件数量。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户希望重复记录某些尿液趋势，却不愿每次拿取容器、试纸和读数工具。把采集移入日常卫生间可以减少一些动作，同时引入固定位置、清洁和补充耗材的要求；价值应看完整流程是否更容易持续，而不是把马桶中的传感器本身当作健康改善。",
+      "userProfile": "比起是否喜欢健康科技，更重要的画像是能否定期检查设备、处理耗材和理解结果来源。家庭共用卫生间还涉及测量归属与隐私，不能默认系统已解决每一种多用户情况；如果维护主要由另一位家人承担，应将其时间和接受程度纳入评估，而不只询问购买者意愿。",
+      "competition": "手动试纸的维护和取样方式不同，专业实验室又提供不同的检测范围、解释和质量流程。U-Scan的差异是家庭固定采集与数字记录，不能直接替代专业检测，也不能因与AI助手连接就扩展成全面尿液诊断；比较应先明确想持续记录什么信息，而不是统计检测名称。",
+      "supplyChain": "同类新设计需要同时考虑残留样本、清洁液、冲水和反应耗材的影响，单独选择一颗更精密传感器并不能完成可靠系统。温度触发、流量和比色校准必须在实际安装结构下验证，尤其不能把普通环境温度芯片直接接触样本；供应链评估应把材料与维护流程一起纳入。",
+      "technology": "应用可能把尿液结果与其他设备数据联系，提供更易理解的叙述，但更多关联并不意味着确定了身体变化的原因。Nutrio的有限指标不能代表尿液所有成分，AI也可能忽略取样失败或缺测背景；技术评价应关注解释能否回到具体测量、日期和不确定性，而非语言是否流畅。",
+      "aesthetics": "设备融入卫生间可以减少每次拿取工具的心理负担，但过于不显眼也可能让用户忽略耗材、充电和清洁状态。设计应让维护提醒清楚且易于执行，而不是只让外壳看起来干净；家庭成员如何理解设备用途和数据归属，也会影响是否愿意长期保留。",
+      "risks": "共用卫生间、安装偏差或维护不足可能影响记录归属和输入质量，AI解释也可能被误读为比原始测量更确定。涉及健康的疑问不能仅依赖消费助手自行处理，敏感数据分享同样需要本人理解；本目录分析产品流程，不对个人疾病、营养需求或治疗选择作推定。",
+      "opportunity": "值得研究的是少做取样动作后，用户是否真正获得更有用且能解释的趋势，而不是只是多了一组定期数字。如果结果没有用于回看或沟通，自动化不一定带来长期价值；反过来，清楚标明缺测和范围的小量信息，也可能比复杂但难理解的报告更易持续使用。"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "kardiamobile-6l",
+    "name": "AliveCor KardiaMobile 6L",
+    "brand": "AliveCor / Kardia",
+    "category": "health-home",
+    "tagline": "三电极个人心电采集与AI节律初步分类",
+    "officialUrl": "https://kardia.com/products/kardiamobile6l",
+    "status": "on_sale",
+    "statusEvidence": "当前官方具体6L商品页显示US$129与Add to Cart，明确个人EKG设备；未用仅供专业人员的Kardia 12L或6L Max会员套装重复计数。",
+    "regions": [
+      "美国官网当前购买渠道",
+      "其他官方区域需核对本地型号和应用"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实中国大陆该具体型号的正式销售、软件功能和医疗器械适用范围；海外购买入口不能证明大陆完整服务。"
+    },
+    "price": {
+      "text": "US$129（所见标准KardiaMobile 6L）",
+      "note": "基础记录与部分即时分析不强制会员；扩展分析和人工复核服务按当地KardiaCare计划确认，不混用Max套装价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方明确6L使用KardiaAI及机器学习分析心电节律，提供潜在发现和未分类结果；硬件记录两路心电并导出六个导联视角。",
+      "dependency": "需兼容手机/平板与Kardia应用、正确接触和相应服务权限；AI输出不是完整诊断，不将蓝牙采集当所有分析均在硬件本地执行。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "三个物理电极形成六导联记录",
+      "蓝牙连接兼容应用",
+      "个人短时记录与分享",
+      "基础和扩展服务分开，不检测心脏病发作"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "关注个人短时心电记录和复核准备，区别于普通健康手表；医疗用途已有成熟竞争，不据AI名称判断优越。"
+    },
+    "architecture": [
+      {
+        "name": "三电极接触",
+        "detail": "正面两个接触区域、底面一个接触区域；六导联不是六个电极。",
+        "evidence": "official"
+      },
+      {
+        "name": "生物电采集",
+        "detail": "可记录单路或两路信号，并据其得到相关导联视角，具体芯片未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线与电源",
+        "detail": "蓝牙向兼容手机传输，可更换纽扣电池位于底部电极后方。",
+        "evidence": "official"
+      },
+      {
+        "name": "KardiaAI分析",
+        "detail": "应用展示记录和节律分析，具体功能依版本及会员，模型内部未完整公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "分享与专业复核",
+        "detail": "用户可保存或分享记录，潜在发现不能替代完整临床判断。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "KardiaMobile 6L官方当前商品页",
+        "url": "https://kardia.com/products/kardiamobile6l",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "本轮已打开US$129与Add to Cart、标准6L个人用途；不混用6L Max计划或12L专业机。"
+      },
+      {
+        "title": "KardiaMobile 6L官方IFU（2022年3月历史版本）",
+        "url": "https://www.kardia.com/assets/old/ifus/kardiamobile6l/19LB65.02-en.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "architecture",
+          "technology",
+          "risks"
+        ],
+        "note": "本轮已打开，明确三电极、两路采集及导联派生、底部纽扣电池、蓝牙和KardiaAI；仅作已知结构/用途边界，不据历史文档推定当前所有地区服务。"
+      },
+      {
+        "title": "AliveCor 6L官方机器学习技术说明",
+        "url": "https://kardia.com/assets/images/AliveCor_BioPharma_Sponsor_6L_Factsheet.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology"
+        ],
+        "note": "本轮已打开，明确6L为AI与ML支持的设备；该材料面向临床研究，不把其QT、SDK或研究服务能力套入普通消费者套餐。"
+      },
+      {
+        "title": "Kardia官方当前手机兼容列表",
+        "url": "https://kardia.com/compatibility",
+        "kind": "official-spec",
+        "supports": [
+          "dependency",
+          "compatibility"
+        ],
+        "note": "本轮已打开，按具体手机和系统核验兼容，不认为所有蓝牙手机都支持。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户希望在合适的日常记录安排中得到可保存、可分享的心电资料，而不仅是回忆当时感受。便携设备降低准备步骤，也把正确接触、时间标记和解释任务交给本人；价值应由记录是否有助于专业沟通衡量，不能从导联更多直接推导个人健康结果更好。",
+      "userProfile": "能够理解接触状态、保持记录条件并管理手机结果的人，可能更容易完成这一任务。若用户需要他人协助，设备仍可能有价值，但服务方案应承认协助需求；图表和自动标签也需要解释，不应把熟练使用手机当作能够自行判断心电或决定医疗行动的证明。",
+      "competition": "与单导联消费设备比较，六导联提供不同电活动视角，但它仍是用户主动进行的短时记录，不能据此替代持续监测或专业检查。比较应关注用户实际需要保存怎样的资料、能否操作和怎样复核；不能把厂商“更多数据”表达直接转成六倍准确或六倍临床价值。",
+      "supplyChain": "同类新设计需要把低噪声采集、输入保护、接触材料和无线干扰一起验证，不能只选择一个支持ECG的芯片就认为完成个人设备。外壳与电极位置也影响稳定接触和维护；算法不能自动修复所有不合格波形，供应研究必须保留原始信号质量与成品验证的区别。",
+      "technology": "自动标签帮助用户整理记录，但单个分类不包含全部临床背景，未分类也不自动意味着某种疾病。算法结果应与波形、采集条件和时间联系，避免只留下一个颜色或结论；技术分析需要区分输入不可读、模型不确定和真正需要进一步解释的情形，不将它们混成统一分数。",
+      "aesthetics": "用户需要区分正反面、识别电极并保持适当接触，因此太小或过于光滑不一定更方便。外观应帮助理解设备只负责采集，手机才呈现分析；收纳与取出是否容易、金属面是否便于按说明维护，也会影响愿不愿意持续携带，而不只是口袋里能否放下。",
+      "risks": "个人可能过度相信一次正常结果，或因一个无法分类的标签产生不必要担忧，两种情况都说明解释流程很重要。短时记录也可能没有覆盖实际关注的时间段，不能根据缺少异常标签判断持续状态；本目录不进行诊断，应把数据保存和专业复核路径作为产品能力的一部分。",
+      "opportunity": "值得研究的是用户能否稳定保留所需资料并在适当时机清楚表达问题，而不是把设备变成随时给自己下结论的工具。如果分享、时间标记和不可读提示更容易理解，即使分类种类有限也可能有价值；这一假设仍需真实服务流程与用户体验验证，不能只靠AI名称支持。"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "hilo-band-system",
+    "name": "Hilo Band 血压监测系统（英国版）",
+    "brand": "Hilo / Aktiia",
+    "category": "health-home",
+    "tagline": "袖带校准后的腕部光学估计与长期血压趋势",
+    "officialUrl": "https://hilo.com/en-gb/products/blood-pressure-monitor",
+    "status": "on_sale",
+    "statusEvidence": "英国官方商品页显示Band、校准Cuff与首年会员合计£199.98及Add to cart，公开商品数据available=true；不借美国Hilo Core或纯手机App的状态。",
+    "regions": [
+      "英国（本次具体商品与服务核实）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核实英国版Hilo系统在中国大陆的正式销售、注册与账号服务；不把海外官网或其他地区许可视为国内购买支持。"
+    },
+    "price": {
+      "text": "£199.98（腕带+校准袖带+首年会员）",
+      "note": "所见页面后续£119.99/年续费；不是仅购买腕带£79.99即可获得全部长期服务，地区套餐需分别核对。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方将腕部光学波形分析与机器学习建模关联；当前系统把PPG传到云端估计血压。具体模型版本未披露，不借纯手机拍摄或未来LLM条款作为本款依据。",
+      "dependency": "需上臂Cuff初始化及定期校准、兼容App、账号与云服务；通常在静止且信号合格时采样，连续佩戴不等于每秒测量。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "腕部光学输入与独立袖带校准",
+      "静止时机会式采样，形成长期记录",
+      "应用与云端估计分层",
+      "英国版本与美国wellness版本分别核查"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "独立任务是袖带校准后的日常血压趋势，不是普通手表小升级；已有成熟血压工具，差异与效果仍需个体和专业验证。"
+    },
+    "architecture": [
+      {
+        "name": "参考校准",
+        "detail": "独立上臂Cuff提供初始化与定期参考，腕带不是充气袖带。",
+        "evidence": "official"
+      },
+      {
+        "name": "腕部采集",
+        "detail": "PPG光学信号在合适静止条件下被采集，腕带先保存记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线同步",
+        "detail": "BLE向兼容应用传输，手机与账号构成使用链路。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端波形估计",
+        "detail": "官方说明云算法进行波形分析，并公开机器学习建模路线；当前架构版本未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "趋势与复核",
+        "detail": "应用展示均值、个别记录和报告，医疗解释应与专业流程结合。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hilo英国版当前商品与会员配置",
+        "url": "https://hilo.com/en-gb/products/blood-pressure-monitor",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions",
+          "architecture"
+        ],
+        "note": "本轮已打开£199.98、Band+Cuff+首年计划、Add to cart；公开product.js available=true。仅核英国版，不套美国Core标注。"
+      },
+      {
+        "title": "Hilo英国版光学采集、校准与云计算说明",
+        "url": "https://hilo.com/en-gb/pages/how-it-works",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "本轮已打开：PPG、PWA、每30天Cuff校准、静止时采样、BLE与云算法，不写成逐秒连续测量。"
+      },
+      {
+        "title": "Hilo官方保留的Aktiia机器学习技术公告",
+        "url": "https://hilo.com/en-eu/blogs/pre/aktiia-secures-chf-27-million-usd-30m-in-funding",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology"
+        ],
+        "note": "本轮已打开2024-02-27历史技术公告，现官网明确腕部系统AI-driven与machine learning modeling；只作技术路线证据，不用历史用户数、当前版本或疗效推断。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户希望了解日夜记录的变化，减少每次主动拿出袖带的操作，并准备一份较完整的时间资料。更密集的估计可能提供新线索，也可能增加解释负担；价值应由记录是否帮助理解和沟通具体问题衡量，不能从采样次数更多直接推定改善血压或治疗效果。",
+      "userProfile": "真正的使用前提不仅是愿意戴腕带，还包括能完成定期参考测量、保持连接并理解记录并非全天无缺口。若用户忽略袖带或会员状态，便捷的腕部入口可能让其误以为系统一直有效；家庭协助应支持流程，但最终仍需尊重本人对佩戴和健康数据分享的偏好。",
+      "competition": "普通上臂袖带提供用户主动发起的参考记录，常规健康手表未必提供相同血压任务，Hilo则增加依赖校准的长期腕部估计。比较应看操作负担、数据缺口与专业沟通用途，不能把佩戴更轻等同对所有人更准确，也不能因采用机器学习就认为能够替代所有专业监测。",
+      "supplyChain": "同类新设计不仅要选择光学器件，还要处理皮肤接触、动作判断、参考校准及个体波形差异。参考流程如果不一致，后续大量记录也不自动更可靠；供应链研究应把腕带、袖带和软件作为系统验收，不能只比较单个光电传感器的分辨率或无线芯片功耗。",
+      "technology": "腕带检测到适合的静止状态才进行采样，活动较多时数据数量和时间分布会变化。因此趋势可能更完整地覆盖某些时间段，却仍有选择性的缺口；技术评价应保留这些采样条件，不把全天佩戴宣传写成每次活动、每秒变化或所有异常都能被设备捕获。",
+      "aesthetics": "没有显示屏可以减少日常查看和打断，却也使用户更依赖应用确认充电、校准与数据同步状态。设计不能只强调戴上后忘记，应该让必要维护容易被理解；若用户不知道某段时间没有记录，外观越安静也可能越容易形成一直在有效监测的错误印象。",
+      "risks": "如果用户把腕部估计当作任何时刻的即时确切值，或把缺测时段理解为没有问题，就可能过度信任数据。AI与较多记录也不能替代专业诊断和对个人情况的评估；本目录分析系统如何提供信息，不据其结果为任何人决定用药、治疗或改变既有医疗安排。",
+      "opportunity": "值得研究的是用户能否用较少主动操作形成更清楚的日夜资料，同时理解哪些时间没有数据、哪些变化需要进一步讨论。如果维护和解释负担超过减少的袖带操作，便利未必转成持续使用；市场判断应允许不同人继续选择更简单工具，而不预设无袖带就必然更好。"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "looki-l1",
+    "name": "Looki L1",
+    "brand": "Looki",
+    "category": "recording",
+    "tagline": "带视觉情境的生活回查与自动叙事",
+    "officialUrl": "https://www.looki.ai/products/looki-l1",
+    "status": "on_sale",
+    "statusEvidence": "官方具体L1页面显示US$249与Add to cart，公开商品数据黑/白/绿均available=true；颜色和粉丝套装不重复计数。",
+    "regions": [
+      "美国",
+      "英国",
+      "官网列出的欧洲及亚洲部分地区；具体地址以结算为准"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "国际官网可见中国香港、澳门及台湾等地区选择，未见中国大陆选项；未核实大陆正式渠道，不把其他地区可买等同大陆直售。"
+    },
+    "price": {
+      "text": "US$249（所见基础L1）",
+      "note": "当前标准AI服务不强制月费；FAQ保留未来更高用量、储存或高级功能可选计划，不能承诺永久无限免费。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "相机、麦克风和惯性输入支持场景分类与间隔采集，应用/云AI组织片段、搜索回忆、摘要及生成漫画和vlog。",
+      "dependency": "本地采集缓冲不等于全程本地AI；官方隐私页明确云端处理及存储，当前标准服务范围和未来可选收费需分别看。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "相机与声音共同提供生活情境",
+      "间隔采集与场景识别",
+      "回查、摘要和创作输出分开",
+      "可见采集提示与云处理边界"
+    ],
+    "niche": {
+      "level": "emerging",
+      "reason": "视觉输入明显不同于只收声音的挂件，但仍属于既有生活记忆任务；不以外形或颜色制造新需求。"
+    },
+    "architecture": [
+      {
+        "name": "多模态采集",
+        "detail": "相机、麦克风和惯性输入提供图像、声音与动作线索。",
+        "evidence": "official"
+      },
+      {
+        "name": "场景与间隔控制",
+        "detail": "Auto Mode按间隔采短片并结合设备端感知，不能称为无间断完整记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地缓存与同步",
+        "detail": "设备先保存内容，再按应用流程同步；本地优先不是全部离线。",
+        "evidence": "official"
+      },
+      {
+        "name": "云AI与记忆组织",
+        "detail": "云服务处理回查、摘要及创意内容，具体模型未完整公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "查看与分享",
+        "detail": "用户在应用中管理内容、选择保留或分享；生成漫画不等于原始事实记录。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Looki L1官方当前商品与FAQ",
+        "url": "https://www.looki.ai/products/looki-l1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "regions",
+          "dependency"
+        ],
+        "note": "本轮已打开US$249、Add to cart、当前标准无强制订阅与未来可选计划；product.js三色均可售，不重复计数。"
+      },
+      {
+        "title": "Looki官方AI功能分层说明",
+        "url": "https://support.looki.ai/hc/en-001/articles/49659477121305-Looki-AI",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology",
+          "architecture"
+        ],
+        "note": "本轮已打开多模态分类、片段组织、搜索摘要和创意生成；情绪或健康洞察表述不作为客观状态识别与医学效果。"
+      },
+      {
+        "title": "Looki Auto Mode官方说明",
+        "url": "https://support.looki.ai/hc/en-001/articles/49659302782233-Auto-Mode",
+        "kind": "official-spec",
+        "supports": [
+          "capture",
+          "dependency",
+          "technology"
+        ],
+        "note": "本轮已打开间隔捕获、设备端场景感知和提醒；不将间隔记录写成全天无遗漏。"
+      },
+      {
+        "title": "Looki官方隐私与云处理说明",
+        "url": "https://www.looki.ai/pages/privacy",
+        "kind": "official-spec",
+        "supports": [
+          "privacy",
+          "dependency",
+          "data"
+        ],
+        "note": "本轮已打开：视觉/声音提示、云AI与AWS存储、上传后设备内容清除说明；不把本地优先写成完全不上传或安全保证。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户希望在忙于当下活动时保留一些可回看的情境，不必每次拿出手机拍照。视觉可能补充声音无法说明的物品、位置和活动线索，也会带来取景、遮挡和旁人隐私问题；价值应看后来是否真能找到需要的信息，而不只看自动生成的日记是否好看。",
+      "userProfile": "更可能适配的是愿意决定何时启用、何时暂停，并愿意检查和删除内容的人。持续记录不只是自己的选择，还会影响周围参与者，用户需要能够解释设备状态和尊重不愿被拍摄的环境；这种能力与喜欢科技或拍视频不同，不能按职业和年龄直接推定。",
+      "competition": "手机和运动相机能主动留下影像，但通常需要更多拍摄选择；音频挂件较少涉及视觉，却可能缺少回忆中的物品和场景线索。Looki把采集与自动整理结合，代价是更多私人内容、传输和误解可能；比较应围绕回查任务，不把生成漫画的趣味等同记忆准确。",
+      "supplyChain": "同类穿戴视觉设备需要在记录长度、处理、传输和电量之间取舍，镜头朝向与衣物遮挡又会影响输入质量。间隔策略可以减少数据，但也会遗漏短暂事件，因此不能只追求更长续航数字；供应链评估应将结构佩戴、相机与软件采集节奏放在一起验证。",
+      "technology": "漫画、摘要和自动剪辑会选择、重排或重新呈现记录，流畅故事未必保留所有上下文。用于娱乐分享时这种变化可能可接受，用于确认责任、时间或事件细节时就需要回到原片；技术评价应让用户能够区分记录、推断和创意加工，而不把所有输出统称为真实记忆。",
+      "aesthetics": "像随身饰物的外观可能降低用户佩戴顾虑，却也可能让旁人未意识到它具有相机和录音功能。审美评价应包含提示是否清楚、是否便于暂停，以及用户如何说明用途；不能仅以可爱、低调或轻便作为成功设计依据，记录边界需要在真实社交环境中被理解。",
+      "risks": "用户自己的经历往往包含旁人、工作信息和私人空间，自动记录可能扩大内容范围，敏感过滤也不应被当成绝对保证。AI从视频推断活动或情绪尤其需要谨慎，不能等同内心事实或医学判断；在重要回忆中，缺片段和生成补充都可能影响理解，应保留原始资料与不确定性。",
+      "opportunity": "值得研究的是用户是否能较容易找到后来真正需要的内容，而不是得到越来越多无人回看的自动日记。片段选择与检索如果减少整理时间，可能形成具体价值；若生成故事掩盖事实或提醒过多，则需要调整使用方式。这个判断不预设全日记录比主动拍摄更好。"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "tapxr",
+    "name": "TapXR",
+    "brand": "Tap Systems",
+    "category": "wearables",
+    "tagline": "光学与惯性识别手指敲击组合，输入文字和指令",
+    "officialUrl": "https://shop.tapwithus.com/products/tapxr-wrist-worn-keyboard-airmouse-controller-for-vr-ar-mr-tablets-pc-laptops-smartwatch-smartphones-tvs-projectors",
+    "status": "on_sale",
+    "statusEvidence": "当前官方商店TapXR具体商品显示US$199与Add to cart，公开product.js available=true；旧技术页Reserve字样不用于判断销售，新TapBand候补不混入。",
+    "regions": [
+      "当前官方国际商店；配送地址需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "商店国家选择含China/CNY，但未核实具体大陆地址配送、税费和售后；不把默认币种列表当作大陆正式销售证明。"
+    },
+    "price": {
+      "text": "US$199（所见TapXR）",
+      "note": "配件与运费另核；不借尚在候补的新TapBand规格或把Tap Strap旧款重复计入。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方明确运动和光学传感捕获敲击事件，嵌入式神经处理器识别哪些手指接触，再把组合转换为蓝牙HID命令。",
+      "dependency": "需要学习敲击字母与映射、正确佩戴及支持HID的设备；开发者固件与各平台SDK能力不同，不等于所有新手势均在默认模式开放。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "光学与运动输入识别手指接触组合",
+      "默认字母、数字与符号输入",
+      "可自定义映射与开发者接口",
+      "当前TapXR零售，与TapBand候补分开"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "重点是无实体键盘的手指组合输入，区别于少量快捷手势；学习、误触和表面条件需实证，无效率或销量结论。"
+    },
+    "architecture": [
+      {
+        "name": "手指动作输入",
+        "detail": "手指触碰表面形成事件，佩戴位置影响信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "光学与运动感知",
+        "detail": "腕部器件组合光学和运动输入，具体传感器料号未公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "嵌入式分类",
+        "detail": "神经处理器识别参与接触的手指，具体模型与数据集未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "映射与传输",
+        "detail": "默认字母表或用户映射转成BLE/HID输入，SDK另有平台与固件条件。",
+        "evidence": "official"
+      },
+      {
+        "name": "结果与纠正",
+        "detail": "目标设备显示文字或动作，错误恢复与上下文需要用户确认。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "TapXR官方当前商品页",
+        "url": "https://shop.tapwithus.com/products/tapxr-wrist-worn-keyboard-airmouse-controller-for-vr-ar-mr-tablets-pc-laptops-smartwatch-smartphones-tvs-projectors",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "model",
+          "images"
+        ],
+        "note": "本轮已打开US$199和Add to cart；公开商品JSON available=true。没有以官网新TapBand候补或旧Reserve按钮冒充当前型号状态。"
+      },
+      {
+        "title": "TapXR官方神经识别原理",
+        "url": "https://www.tapwithus.com/how-the-tapxr-works/",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology",
+          "architecture"
+        ],
+        "note": "本轮已打开光学/运动融合、嵌入式神经处理器识别手指接触与HID；默认字母和映射模式，营销低延迟不作实测。"
+      },
+      {
+        "title": "Tap官方开发者文档",
+        "url": "https://dev.tapwithus.com/",
+        "kind": "official-spec",
+        "supports": [
+          "dependency",
+          "connectivity",
+          "software"
+        ],
+        "note": "本轮已打开BLE、HID、Controller及不同平台接口；新开发固件手势能力与默认用户模式分开，不泛化SDK开放范围。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户希望在腿部、扶手或其他合适表面输入短文本与指令，减少随身携带完整键盘。这个入口把物理按键布局换成需要学习的手指组合，因此便利并不是立即获得；真正的价值取决于常用任务是否足够明确，以及学习和纠错成本是否低于原有方法。",
+      "userProfile": "用户需要记住组合与输出之间的关系，并能稳定完成相关手指动作，这比是否熟悉手机更关键。想偶尔控制几个快捷动作的人未必愿意学习整套文字输入，而长期没有便利键盘表面的使用者可能更在意；这些是任务假设，不能以无障碍宣传推定所有运动能力均适用。",
+      "competition": "与Mudra等少量动作映射相比，TapXR默认字母表更关注组合到字符的连续输入；与物理键盘相比，缺少固定按键反馈又增加记忆要求。两者都可能使用HID协议，但不能由共同协议推定体验相同；比较应围绕文本长度、纠错、可用表面和个人学习意愿展开。",
+      "supplyChain": "同类新设计必须区分手指有意接触与手腕移动、柔软表面形变或衣物碰触，光学和惯性信息的时间对齐也很重要。仅提高某一传感器采样能力无法保证手指组合准确，结构朝向、算法和用户训练需要协同；供应研究应保留这些系统条件，而不是只列芯片算力。",
+      "technology": "同一个组合在不同映射和应用中可以代表不同字符或命令，窗口焦点和输入法状态也会影响最终结果。因此技术评价需要区分手指识别正确与用户任务完成，尤其连续输入时的纠错可能比单次成功更重要；系统不能仅凭动作知道用户当前真正想输入什么内容。",
+      "aesthetics": "感知模块靠近手部活动区域，可能在某些姿态下带来空间占用，用户也要在取下和重新戴上时保持正确方向。造型的轻巧感不能代替这些实际反馈；审美评价应包含是否愿意在日常工作中佩戴、是否容易碰触物体，以及能否自然切回其他输入方式。",
+      "risks": "一个组合偶尔识别错误可能只影响一个字符，但连续输入时，发现、定位和纠正错误会迅速增加负担。若动作绑定了提交或删除，后果也可能超出普通错字；用户需要清楚的暂停与恢复路径，研究不应只展示成功命令，而忽略日常非目标动作和学习遗忘。",
+      "opportunity": "值得研究的是用户在哪些没有方便键盘的场景仍需要短文本或固定指令，组合输入能否降低携带和拿取成本。对长篇写作、复杂输入法或频繁精细编辑，原有方式可能更合适；明确局部适用范围有助于判断价值，而不必依赖替代所有控制器的宣传。"
+    },
+    "checkedAt": "2026-11-04"
   }
 ]

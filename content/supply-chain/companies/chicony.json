@@ -1,0 +1,323 @@
+{
+  "id": "chicony",
+  "name": "Chicony 群光电子",
+  "legalName": "Chicony Electronics Co., Ltd.／群光电子股份有限公司",
+  "country": "中国台湾",
+  "locations": [
+    "新北市三重区总部",
+    "苏州、东莞、重庆及捷克等官网公开制造地点",
+    "美国、日本公开分支"
+  ],
+  "tier": "global",
+  "tierNote": "电脑周边与影像模组的跨区域集团；不重复单列相关集团品牌，不引用宣传排名估算规模。",
+  "roles": [
+    "sensing",
+    "optics",
+    "engineering",
+    "manufacturing"
+  ],
+  "capabilities": [
+    "电脑和网络摄像产品",
+    "窄边框摄像模组",
+    "飞行时间摄像模组",
+    "全局快门红外相机",
+    "自动对焦及防抖相机路线"
+  ],
+  "productCategories": [
+    "imaging",
+    "robotics",
+    "sports",
+    "computing",
+    "creative-tools"
+  ],
+  "website": "https://www.chicony.com/chicony/en",
+  "contactUrl": "https://esg.chicony.com/chicony/en/contact/",
+  "summary": "群光电子的公开业务把视讯影像与相机模组分为独立产品线，既有电脑摄像应用，也有深度、红外和自动对焦等模组方向。对消费视觉硬件，它可以作为从电脑周边经验出发的集成候选；镜头、模组和成品摄像机的责任范围不同，不能从集团品牌或历史应用推断具体设备采用。",
+  "analysis": {
+    "positioning": [
+      {
+        "title": "公开定位：电脑周边与影像制造",
+        "text": "公司简介说明其业务围绕电脑周边和视讯影像，并把输入设备、键盘、影像产品及相机模组分列。对本目录而言，重点是影像与模组能力，不能把其他集团业务自动扩展为同一团队的交付，也不因为制造周边就推断其提供完整AI模型。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断：电脑摄像经验有明确适用场景",
+        "text": "对连接电脑的跟拍或会议设备，群光的网络摄像和笔记本模组经验具有较直接的讨论基础。项目仍需区分基础采集、图像处理和运动控制，不能把摄像模组能力当成完整云台系统，也不能省略操作系统和应用接口的验证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "公开能力：相机模组路线不只一种",
+        "text": "相机模组页列出窄边框、身份识别、飞行时间、全局快门红外、光学防抖及自动对焦等类别。它为不同采集任务提供候选入口，但没有在本轮页面中给出完整料号与可组合关系，不能把这些分类叠加为单个通用模组。",
+        "evidence": "official",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "公开能力：总部和业务联系分工清楚",
+        "text": "公司简介明确新北市总部及多个制造和分支地点，联系页又分别设置视讯影像与相机模组客户窗口。这个分工有助于定位项目团队，但不能推断某款产品由哪个基地生产，也不代表公开窗口已经承诺接受本项目规模。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "匹配：电脑视觉和紧凑感知模组",
+        "text": "视频通话摄像头、桌面演示设备和带视觉输入的终端，可依据其相机类别讨论候选。需要明确主控、接口、对焦和红外使用条件，不能仅因设备都是USB或带有相机，就认定群光现有产品能直接满足全部功能。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "边界：深度或红外并非天然适合每个AI任务",
+        "text": "飞行时间和红外路线适合特定输入需求，但普通视频讲解可能更看重自然色彩和声音。选型应从任务数据出发，而不是为了增加AI卖点而加入不必要的传感；群光的多类别目录提供选择，不代表每项都应进入终端设计。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "接洽：选择视讯或模组客户窗口",
+        "text": "官网明确区分视讯影像产品与相机模组的客户联系，项目可据交付层级选择入口。询问时应说明需要成品采集设备、嵌入式模组还是联合开发，并核对实际合同主体；不能把供应商采购窗口当成产品销售或技术支持渠道。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      },
+      {
+        "title": "接洽：准备电脑和使用场景清单",
+        "text": "对于电脑摄像项目，应提交目标系统、应用、画面比例、安装位置和对焦距离，说明哪些功能由主机软件完成。这样可以减少接口与上层应用责任不清的问题，也能避免把一台展示样机的体验误当成所有电脑配置都能复现。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "验证：视频稳定性与图像行为一起测",
+        "text": "应在目标电脑和实际应用中观察长时间采集、重新连接、自动对焦以及不同照明下的画面变化。摄像模组能够输出视频并不代表正式会议稳定，测试还要区分应用压缩和硬件输入的问题，保留可复现设置与原始记录。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "验证：不同模组类别需要不同门槛",
+        "text": "红外、深度与普通彩色采集的验收条件不同，应按料号确认标定、光学窗口和主控处理方式。不能用窄边框设计经验推断深度输出质量，也不能把公司制造能力替代具体版本的批次验证，本轮没有这些测试或工厂审核结果。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断：模组与成品设备的费用边界",
+        "text": "采购摄像模组后可能还需要外壳、驱动和整机调试，购买更完整方案则可能承担不同工程费用。报价应把这些交付分别列明，不以某款电脑周边的零售价格估算定制相机成本，也不根据集团规模猜测样品门槛或价格优势。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "待确认：版本维护和替代物料安排",
+        "text": "电脑系统和相机组件都可能改版，项目应确认驱动维护、硬件变更通知及售后备件如何处理。公开公司介绍没有给出本项目供货期、订单量或交期，团队需要与实际客户窗口取得书面条件，不能把多地制造视为自动可调度库存。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "风险：目录名称容易掩盖功能差别",
+        "text": "同样叫相机模组，可能输出普通图像、深度或用于身份识别的特定信号，接口与验证方式并不一致。若只按名称寻找替代，可能在外壳完成后才发现主控或光学窗口不匹配，因此应先锁定实际输出与安装要求再比较供应方案。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "风险：集团关联不能证明终端采用",
+        "text": "群光官网列出的业务和集团关系不能说明本目录某台AI摄像头采用其模组，也不能据此推断其他关联公司共同供货。没有逐产品或系列点名证据时，所有链接只表示能力匹配，不把市场常见供应格局当作原机BOM。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "下一步：用同一电脑流程筛选候选",
+        "text": "建立固定的连接、启动、采集和关闭流程，在目标会议或直播应用中比较不同方案，记录需要人工恢复的步骤。再单独测试对焦或深度输出，避免用一个图像清晰度分数代替系统体验，也不从单次试用推算产品商业成功。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "title": "下一步：把业务窗口和技术资料对应起来",
+        "text": "保存实际承接团队、推荐料号、系统版本和验收记录，确认模组与成品设备由谁负责维护。只有获得可公开引用的点名供货文件，才能升级关系类型；本轮未联系厂商，也没有取得本目录设备的采购或制造证明。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s3"
+        ]
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "s1",
+      "title": "群光公司简介",
+      "url": "https://www.chicony.com/chicony/en/about/profile",
+      "note": "已打开，明确新北总部、公开制造分支与影像产品业务。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s2",
+      "title": "群光相机模组目录",
+      "url": "https://www.chicony.com/chicony/en/Product/Camera*Module",
+      "note": "已打开，支持窄边框、ToF、红外、OIS和AF等类别。",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s3",
+      "title": "群光客户与供应商窗口",
+      "url": "https://esg.chicony.com/chicony/en/contact/",
+      "note": "已打开，区分视讯影像及相机模组客户窗口与采购渠道。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "chicony",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "自动对焦摄像模组与电脑视觉输入候选",
+      "rationale": "群光公开摄像模组、自动对焦及视觉影像产品能力，可作为Tiny 2图像输入工程的候选；仍需核对目标传感规格、USB控制、低延迟和云台空间，不应把笔记本相机模组直接视为可装入原机，也没有公开点名其为Tiny 2供应商。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "obsbot-tiny-2",
+      "productName": "OBSBOT Tiny 2",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "chicony",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "手机连接底座的电子接口工程候选",
+      "rationale": "群光公开输入外设与电子产品整合业务，可作为Tempo Core连接周边的工程候选，但本轮未取得Core具体接口、电路及授权要求，必须进一步核验。该关联不包含手机相机供应，也不证明群光实际制造Move或具有现成兼容底座。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "tempo-move",
+      "productName": "Tempo Move",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "chicony",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "顶部扫描摄像模组工程候选",
+      "rationale": "Chicony公开摄像模组与视觉影像工程，可用于ET24 Pro采集链路的候选研究，但静态页面细节、景深、接口和软件校准需核对，普通电脑相机不等于可直接替换扫描头。当前没有实际采用或制造关系证据，也不涵盖ABBYY授权。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "czur-et24-pro",
+      "productName": "CZUR ET24 Pro",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "chicony",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "智能跟随模块视觉输入候选",
+      "rationale": "Chicony公开摄像模组与图像工程，可作为RS 4 Mini跟随模块输入候选，但尺寸、视场、功耗与跟踪软件配合需确认，普通电脑摄像模组不等于完整识别附件。当前没有DJI点名供货证据，也不涉及相机本体自动对焦。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "dji-rs-4-mini",
+      "productName": "DJI RS 4 Mini（智能跟随组合）",
+      "category": "gimbals",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "chicony",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "内置多目标视觉输入候选",
+      "rationale": "Chicony公开摄像模组与视觉工程，可用于MT3 Pro感知输入候选研究，但视场、功耗和目标模型配合需专项确认，摄像模组本身不提供人宠物车辆完整跟踪能力。当前没有原机采用或传感器型号证据，也不涵盖相机本体对焦。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "hohem-isteady-mt3-pro",
+      "productName": "Hohem iSteady MT3 Pro",
+      "category": "gimbals",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "chicony",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "窄边框观看位置采集模组候选",
+      "rationale": "G90XF需要顶部摄像输入支撑眼部与观看位置跟踪，群光公开窄边框、红外和深度相关相机模组能力，可作为感知子系统候选。实际光路、接口和算法标定仍需匹配，没有证据显示该型号采用群光，不能把候选当作供货披露。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "samsung-odyssey-3d-g90xf",
+      "productName": "Samsung Odyssey 3D G90XF（27英寸）",
+      "category": "spatial",
+      "status": "on_sale"
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "id": "canon-powershot-v1",
+  "name": "Canon PowerShot V1",
+  "brand": "Canon",
+  "category": "imaging",
+  "audience": "prosumer",
+  "tagline": "固定镜头相机中的深度学习主体跟踪",
+  "officialUrl": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+  "statusEvidence": "英国官方商店明确In stock online与Add to Basket。美国页同时含库存及停售模板，未采用其冲突文字；以英国当前购买证据为准。",
+  "regions": [
+    "英国官方商店"
+  ],
+  "price": {
+    "text": "英国官方 £859.99",
+    "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "Dual Pixel CMOS AF II for PowerShot结合深度学习主体检测，对人和猫狗进行识别跟踪；不把普通光学防抖、变焦或所有自动曝光都统一称为AI。",
+    "dependency": "内置镜头与机内主体识别可独立拍摄；素材传输、直播连接和固件功能有系统要求，主体类型及场景限制以官方说明为准。"
+  },
+  "highlights": [
+    "固定镜头相机中的深度学习主体跟踪",
+    "无需另配镜头的视频创作工具",
+    "面向个人旅行与讲解记录"
+  ],
+  "analysis": {
+    "demand": "需求假设：个人创作者希望比手机拥有更多拍摄控制，又不想管理多支镜头，主体识别可以减轻自拍对焦负担。应观察从取出相机到开始录制的时间，确认整机便利性真正超过现有手机。",
+    "userProfile": "画像推断：以旅行、宠物和单人讲解为主，偏好一机一镜的人较匹配。内置广角变焦覆盖明确场景，也限制远摄和镜头升级，不能把无需换镜头的便利描述成对所有拍摄任务都更适合。",
+    "competition": "竞争判断：固定镜头视频机、手机和入门可换镜头相机相互竞争，深度学习对焦已不是孤立能力。V1的差异是镜头、散热和视频操作集成，应比较整套准备成本而非只比较单项AI标签。",
+    "supplyChain": "供应链推断：内置变焦镜头、传感器、翻转屏和散热风道形成紧凑整机，光学维修通常涉及较多部件。官方未披露具体工厂及完整物料成本，镜头损伤、风道清洁和地区保修需要关注。",
+    "technology": "官方明确深度学习辅助识别人和猫狗，属于感知对焦而非生成影像。技术判断应测试主体转身、遮挡与背景干扰，不能把识别范围扩大为所有动物，也不将厂家宣传理解为零失焦保证。",
+    "aesthetics": "审美判断：厚实握柄、镜头环和翻转屏突出随身拍摄工具属性，防风毛罩会改变外观与收纳。内置镜头使整体比例稳定，但单手自拍、竖拍与包内收纳仍需要按个人习惯体验。",
+    "risks": "风险判断：固定镜头的焦段限制和算法误识别会影响特定题材，长录制也需核对电源与环境条件。官方不同地区页面可能有模板差异，购买时应以所选地区实际库存和保修为准。",
+    "opportunity": "市场观察：可以让手机创作者进行相同的旅行或产品讲解任务，记录成功对焦、重拍和素材传输步骤。只有整体拍摄流程改善才可能支持换设备，不用画面参数或AI对焦名称推算需求规模。"
+  },
+  "niche": {
+    "level": "emerging",
+    "reason": "面向个人旅行与讲解记录形成具体使用场景；本轮没有销量与市场份额证据。"
+  },
+  "architecture": [
+    {
+      "name": "内置光学",
+      "detail": "变焦镜头与传感器采集画面。",
+      "evidence": "official"
+    },
+    {
+      "name": "主体检测",
+      "detail": "深度学习识别人和猫狗目标。",
+      "evidence": "official"
+    },
+    {
+      "name": "对焦执行",
+      "detail": "机内自动对焦跟随被选主体。",
+      "evidence": "official"
+    },
+    {
+      "name": "视频操作",
+      "detail": "翻转屏、音频和散热支持录制。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PowerShot V1英国官方商店",
+      "url": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "Canon官方深度学习功能说明",
+      "url": "https://hk.canon/en/consumer/powershot-v1-embargo/news",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    },
+    {
+      "title": "Canon香港型号介绍",
+      "url": "https://hk.canon/en/consumer/powershot-v1/main/product",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "dependency"
+      ],
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+    }
+  ],
+  "checkedAt": "2026-11-04",
+  "status": "on_sale",
+  "saleMode": "retail",
+  "china": {
+    "availability": "unclear",
+    "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+  },
+  "deepDive": {
+    "sources": [
+      {
+        "id": "s1",
+        "title": "PowerShot V1英国官方商店",
+        "url": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：status,price。已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s2",
+        "title": "Canon官方深度学习功能说明",
+        "url": "https://hk.canon/en/consumer/powershot-v1-embargo/news",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：technology,dependency。已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "id": "s3",
+        "title": "Canon香港型号介绍",
+        "url": "https://hk.canon/en/consumer/powershot-v1/main/product",
+        "note": "沿用原目录已核查资料；本次用于展开模块、用途与依赖分析。原支持范围：technology,dependency。已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "需求假设：一个人完成日常视频",
+          "text": "PowerShot V1把固定变焦镜头、主体跟踪和视频操作放在一台相机内，适合讨论单人旅行、讲解与宠物记录的任务。真正的需求触发可能是手机对焦不稳或拍摄控制不足，而不是笼统想要AI相机；这两种触发应在访谈中分别追问。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "价值判断：减少准备和重拍成本",
+          "text": "固定镜头的价值在于减少镜头选择与装卸，但它也限定了用户能够使用的视角。若创作者大部分任务恰好落在其适用范围，主体识别可能减少重拍；若经常需要远处特写，自动对焦再好也不能弥补光学选择不足。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "验证方案：从完整拍摄任务观察",
+          "text": "让参与者各用手机和V1完成同一段走动讲解与宠物记录，统计开机准备、失焦重拍、转移文件和选片时间。访谈应询问哪些镜头最终被保留、哪些操作最费力，而不是仅让用户看样片后评价是否喜欢清晰画面。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "画像假设：愿意多带一台工具的人",
+          "text": "候选用户是已经反复创作视频、愿意为更稳定的拍摄流程携带独立设备的人。他们未必需要可换镜头系统，却应当有整理文件与给设备充电的习惯；只偶尔拍生活片段的人，可能仍更重视手机随身和即时分享的便利。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "使用约束：固定镜头与自拍视频",
+          "text": "这款相机的使用者需要接受固定镜头覆盖范围，并判断自己的自拍视频距离、室内空间和宠物活动范围是否适合。不能把单人拍摄者当成同一人群，桌面讲解、街头步行和家庭儿童记录的握持、收音与构图问题明显不同。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "访谈重点：从旧行为找购买理由",
+          "text": "应让受访者展示最近一次失败拍摄或未完成的视频，询问当时是否愿意换设备、带额外电池或花时间导出素材。把已有创作频率、拍摄地点和实际不满对应起来，才能判断V1解决的是持续问题，还是对新相机短期感兴趣。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "替代方案：手机和入门相机并存",
+          "text": "V1的替代不仅是同类固定镜头相机，还包括手机加支架，以及入门可换镜头机身加常用镜头。比较应按完整可用套装和任务流程进行，手机的现成账户与编辑习惯也属于竞争优势，不能只把相机参数表放在一起排名。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "差异判断：集成便利有适用边界",
+          "text": "它的差异是把镜头、跟踪对焦和视频操作集中在稳定的整机形态中，而不是提供无限扩展。对不想进入镜头系统的人可能更直观，对已经拥有摄影器材的人却可能重复；这两类用户的购买理由不能被同一个AI卖点替代。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "比较方法：控制题材与交付标准",
+          "text": "选择同样的题材、录制长度和发布格式，让不同方案完成从拍摄到交付的全过程，并保留失败片段。比较成功率、操作负担和素材处理时间后，再询问愿意支付的条件；不要从某一品牌热度或单次样片偏好推算市场份额。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能拆分：光学、声音和显示协作",
+          "text": "V1的公开形态包含固定变焦光学、图像采集与处理、翻转显示、音频输入、散热及供电安装等环节。AI主体识别只是其中的软件与处理能力，不能据此推导整机由单一AI芯片供应商完成，也不能把概念爆炸图当作实际物料清单。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "制造判断：集成镜头改变维修边界",
+          "text": "固定镜头使整机使用更统一，也意味着镜头损伤、屏幕转轴和散热结构需要在装配与维修中共同考虑。供应链评估应关注光轴一致性、外壳公差和长期配件，而非只猜测电子元件成本；本轮没有取得原机工厂或零件供应合同。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "候选选型：从部件能力开始询证",
+          "text": "舜宇可作为小型成像光学能力的候选，瑞声可讨论结构、转轴与声学空间协同，欣旺达可讨论消费电源方案。它们的公开业务并不证明已进入V1，选型仍需核对图像圈、变焦机构、接口与保护策略，所有关联保持候选关系。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露能力：深度学习辅助主体跟踪",
+          "text": "Canon公开说明V1的对焦系统结合深度学习进行人和猫狗等主体检测与跟踪。这里的AI价值是识别并保持拍摄目标，而不是生成新的实拍内容；普通变焦、防抖与曝光控制也不能因同处一台相机就全部被归为AI功能。",
+          "evidence": "official",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "技术判断：识别正确仍需对焦执行",
+          "text": "主体检测给出的目标必须与镜头对焦、曝光和画面输出共同工作，才会形成用户认为可用的片段。遮挡、多人和背景变化可能改变选择，评价时应区分识别到谁、焦点是否准确以及构图是否合意，不能只看屏幕出现检测框。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2"
+          ]
+        },
+        {
+          "title": "验证方案：包含不理想的真实场景",
+          "text": "应测试人物转身、宠物快速离开画面、低对比背景和前景物体遮挡，记录误选后能否快速人工纠正。使用同一拍摄设置保留完整视频，再与用户预期核对；仅展示顺利跟踪的片段，无法说明失败边界或不同任务下的可靠性。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外形判断：面向拿起就拍的工具",
+          "text": "固定镜头、右侧握持区域和翻转屏让V1的形态围绕手持与自拍展开，防风附件又会改变上方轮廓。审美评价应把真实使用状态纳入，而不是只看不带线缆与配件的产品正面图；用户是否愿意带出门比静物精致程度更关键。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "交互判断：形态应服务操作节奏",
+          "text": "相机的按钮、镜头环和屏幕转向需要支持从横拍到竖拍、从拍别人到拍自己的切换。可将每次改变姿势时的重新握持和误操作记录下来，判断外观是否帮助操作；小体积或专业外形并不能自动说明长时间使用舒适。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ]
+        },
+        {
+          "title": "体验验证：用自己的收纳与拍摄习惯",
+          "text": "让用户把V1放进平常使用的包，安装常用附件并连续拍摄一段真实活动，再讨论握持、收音附件和取出速度。记录不愿携带或需要临时拆卸的原因，比让人给外观打分更能说明设计是否适合具体生活和创作场景。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s3"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "功能风险：自动识别与题材边界",
+          "text": "主体跟踪可能选错目标，固定镜头也无法覆盖所有距离与画面要求。重要录制应事先确认模式和人工接管方式，不能把深度学习描述理解为零失焦保证；本目录没有进行实机测试，也不将厂商演示当作独立成功率证据。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "购买风险：地区页面和配置要对应",
+          "text": "原目录核查时英国店明确可购，而美国页面出现相互冲突的模板文字，因此采用英国购买证据。实际决策仍应核对地区保修、附带物品和当前交期，不能把一地有货推导为大陆现货，更不能忽略相机以外的存储和供电准备。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1"
+          ]
+        },
+        {
+          "title": "验证安排：保留失败和原始素材",
+          "text": "在试用阶段应同时保存成功与失败视频，记录温度、模式、供电和操作过程，再判断问题来自算法、光学还是使用条件。对重要内容先备份原始文件，避免自动筛选或转码成为唯一副本；这些是使用验证计划，不是已经发生的故障。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "研究方向：降低独立创作者的操作负担",
+          "text": "V1展示的可研究方向是把复杂拍摄能力做成较少准备步骤的独立工具，尤其关注单人创作者如何从失败片段中恢复。可以研究更清楚的模式提示和导出流程，但不能由此断言需要再做一款相机，用户也可能更需要软件或教学帮助。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "title": "执行计划：围绕重复任务做纵向观察",
+          "text": "招募有稳定拍摄习惯的用户，持续记录数周的题材、重拍、携带和素材交付，访谈中追问具体一次省时或放弃使用的原因。把第一次上手与后续真实使用分开，检验集成便利是否持续存在，而不是只看开箱后的满意评价。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "title": "决策边界：用行为证据替代成功预测",
+          "text": "只有当同类任务反复出现、替代方案确实增加负担且用户愿意改变习惯时，才有理由进一步投入验证。供应商候选、算法描述和外观评价都不能预测创业成功，本轮案头分析也不提供访谈结果、销量估计或市场份额结论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "sunny-optical",
+        "role": "optics",
+        "relationship": "candidate",
+        "component": "固定镜头与紧凑成像光学候选",
+        "rationale": "舜宇公开覆盖镜头与成像模组，可作为固定镜头系统的能力询问对象；但V1的变焦结构、图像圈和整机校准要求尚未与具体供应料号匹配，不能把手机或机器人镜头目录直接视为可替换原厂光学，也没有实际供货证据。",
+        "sourceIds": [
+          "s2",
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s3"
+        ]
+      },
+      {
+        "supplierId": "aac-technologies",
+        "role": "mechanical",
+        "relationship": "candidate",
+        "component": "翻转屏转轴与声学结构协同候选",
+        "rationale": "瑞声公开精密结构、转轴和声学联合设计能力，与V1翻转显示及紧凑机身中的声音和空间约束存在功能对应；仍需确认相机载荷、寿命、散热及装配公差是否在项目范围内，此处不是对其制造V1机身或零件的披露。",
+        "sourceIds": [
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "supplierId": "sunwoda",
+        "role": "power",
+        "relationship": "candidate",
+        "component": "便携相机电池系统候选",
+        "rationale": "欣旺达消费电池业务可作为便携相机电源方案候选，但必须根据V1正式电池和充电规格核对尺寸、保护逻辑与录制负载，不能仅凭容量接近替换。当前没有点名该相机的供应文件，关联只支持后续选型沟通。",
+        "sourceIds": [
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "innovationProfile": {
+      "needKey": "portable-personal-imaging",
+      "needName": "个人便携影像记录",
+      "difference": "这款围绕一体式相机的个人视频流程，把主体识别与独立拍摄工具结合，用户不必先建立可换镜头组合。差异要由准备、持握和实际成片体现，不能仅凭AI或独立相机形态另算新需求；手机与已有相机仍能承担相近记录任务，是否愿意持续携带是主要限制。",
+      "comparisonBasis": "与手机视频、已有便携相机及可换镜头个人拍摄流程比较。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/canon-powershot-v1/product.webp",
+      "sourceUrl": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+      "sourceImageUrl": "https://i1.adis.ws/i/canon/6390C001_PowerShot-V1_01_AE_Logo?aspect=1%3A1&bg=rgb%28245%2C246%2C246%29&fmt=webp&qlt=100&sm=aspect&w=940",
+      "caption": "Canon PowerShot V1 · 官方产品图",
+      "alt": "Canon PowerShot V1官方外观产品图",
+      "credit": "Canon · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 251282,
+      "sha256": "431bbdefc50ece45cc568e86f0d33430afb1087c496bf570009e5e72ac2c5f03"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/canon-powershot-v1/reference.webp",
+      "sourceUrl": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+      "sourceImageUrl": "https://i1.adis.ws/i/canon/6390C001_PowerShot-V1_04?aspect=1%3A1&bg=rgb%28245%2C246%2C246%29&fmt=webp&qlt=80&sm=aspect&w=940",
+      "caption": "Canon PowerShot V1 · 官方参考图",
+      "alt": "Canon PowerShot V1官方场景或外观角度参考",
+      "credit": "Canon · 官方图片",
+      "checkedAt": "2026-11-04",
+      "verified": true,
+      "bytes": 37514,
+      "sha256": "96ce363c918133ed6ecb5e2e669160ddcbf16fcbe3a5700fd547073d4a8944d3"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/canon-powershot-v1/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Canon PowerShot V1的AI生成概念结构图，隐藏内部为功能推断",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-04",
+      "promptPath": "content/hardware/prompts/canon-powershot-v1.txt",
+      "referencePaths": [
+        "assets/hardware/canon-powershot-v1/product.webp"
+      ],
+      "verified": true,
+      "bytes": 1719531,
+      "sha256": "8669f7e617f7b036d54515ce57e3a6e7e08a53ada16ffc00f7ce7513a9c53f00"
+    }
+  ],
+  "mediaNotes": []
+}

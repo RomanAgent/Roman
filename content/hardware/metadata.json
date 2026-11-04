@@ -197,6 +197,12 @@
       "name": "个人移动与助力",
       "description": "消费级穿戴助力与个人行动辅助",
       "group": "户外与兴趣"
+    },
+    {
+      "id": "spatial",
+      "name": "空间显示与交互",
+      "description": "裸眼空间内容、多视图与空间交互辅助",
+      "group": "创作与兴趣"
     }
   ],
   "coverageBacklog": [

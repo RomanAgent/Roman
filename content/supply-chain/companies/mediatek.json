@@ -1,0 +1,322 @@
+{
+  "id": "mediatek",
+  "name": "MediaTek 联发科技",
+  "legalName": "MediaTek Inc.（联发科技股份有限公司）",
+  "country": "中国台湾",
+  "locations": [
+    "中国台湾新竹",
+    "中国大陆多地",
+    "美国",
+    "欧洲及亚洲其他地区"
+  ],
+  "tier": "global",
+  "tierNote": "按多领域系统芯片与公开全球办公室覆盖分组，不量化规模或交付能力。",
+  "roles": [
+    "chip",
+    "connectivity",
+    "software"
+  ],
+  "capabilities": [
+    "Genio 700 边缘 AI 应用处理器",
+    "多媒体与双显示处理",
+    "Android、Yocto Linux 与 Ubuntu 平台支持",
+    "Helio P35移动应用平台（rabbit r1公开采用）"
+  ],
+  "productCategories": [
+    "computing",
+    "glasses",
+    "audio"
+  ],
+  "website": "https://www.mediatek.com/",
+  "contactUrl": "https://www.mediatek.com/company/contact-us",
+  "summary": "联发科技的 Genio 产品适合讨论带显示、摄像头与多媒体任务的边缘设备。Genio 700 的公开资料同时涉及中央处理、图形、神经网络、影像和操作系统支持，因此更接近完整应用平台候选。对于极小电池穿戴设备，仍需另找具体低功耗系列资料，不能把应用处理器的能力直接迁移过去。",
+  "sources": [
+    {
+      "title": "MediaTek Genio 700",
+      "url": "https://www.mediatek.com/products/iot/genio-iot/genio-700",
+      "note": "支持处理器组成、边缘人工智能、多媒体、显示及操作系统支持范围。",
+      "id": "s1",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "MediaTek Contact Us",
+      "url": "https://www.mediatek.com/company/contact-us",
+      "note": "支持新竹总部、公开地区办公室与业务联系路径。",
+      "id": "s2",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "title": "Who We Are",
+      "url": "https://www.mediatek.com/who-we-are",
+      "note": "支持集团系统芯片业务定位；不将集团子公司能力自动归入 Genio 700。",
+      "id": "s3",
+      "accessedAt": "2026-11-04"
+    },
+    {
+      "id": "s4",
+      "title": "MediaTek Helio P35 official product",
+      "url": "https://www.mediatek.com/products/smartphones/mediatek-helio-p35",
+      "note": "本轮已打开：Helio P35应用处理、多媒体与4G平台；芯片通用能力不自动等于r1实际启用功能或全部AI本地运行。",
+      "accessedAt": "2026-11-04"
+    }
+  ],
+  "analysis": {
+    "positioning": [
+      {
+        "title": "官方｜应用平台定位",
+        "text": "公开的处理器资料将中央处理、图形计算、神经网络、影像和显示能力组合在同一应用平台中，并列出多种操作系统支持。这种定位适合需要完整界面与多媒体流程的设备，不能仅因带有人工智能加速器，就视为适合所有低功耗可穿戴产品。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜对创业团队的价值",
+        "text": "联发科技值得在电子纸终端、带屏助手和视觉交互设备的早期架构中比较，因为这些产品需要模型以外的系统能力。选型时应判断界面流畅度、相机链路和应用生态哪个最重要，再决定是否接受较复杂的系统软件与外部存储配置。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "capability": [
+      {
+        "title": "官方｜系统支持范围",
+        "text": "官网列出面向安卓与嵌入式操作系统的支持路径，并提供开发资源入口，说明采购讨论不能只停留在硬件规格。实际项目采用哪个系统版本、哪些外设驱动已经可用，以及升级是否影响模型运行，都需要针对目标开发板和软件包进一步核对。",
+        "evidence": "official",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜神经网络部署",
+        "text": "处理器具备神经网络计算能力并不保证任意模型都能高效运行。应拿真实的识别或摘要前处理模型测试转换成功率、量化损失和内存峰值；若有算子回落到中央处理器，还要观察界面与音频任务是否因此卡顿，而不是只比较标称算力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "官方｜P35与Genio分别记录",
+        "text": "Helio P35是公开的移动应用处理平台，提供处理器、多媒体与蜂窝连接能力；rabbit当前支持页明确点名r1使用该芯片。这条采用证据不能转成r1使用Genio，也不能把P35的全部通用相机功能当作成品已启用；目录保留具体系列与系统软件之间的边界。",
+        "evidence": "official",
+        "sourceIds": [
+          "s4"
+        ]
+      }
+    ],
+    "fit": [
+      {
+        "title": "判断｜适配电子纸终端",
+        "text": "对带手写、文档识别和联网助手的电子纸设备，应用处理器可承担内容管理与模型预处理，但屏幕刷新控制仍是独立问题。候选验证要包括笔迹输入到显示、文档翻页和后台推理的相互影响，避免用普通液晶界面的演示替代真实阅读体验。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜穿戴适配边界",
+        "text": "镜腿或戒指中的空间、电源和散热约束，与带屏桌面设备差别很大。即使平台支持摄像与人工智能，也不能据此判断适合无风扇眼镜；若评估穿戴用途，必须得到目标封装、待机模式和短时工作负载的证据，必要时改选更小的处理路径。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "engagement": [
+      {
+        "title": "判断｜提出可回答的问题",
+        "text": "接洽时应给出显示接口、相机数量、音频通路和模型输入尺寸，以及计划使用的操作系统。这样能让技术团队判断现有平台是否覆盖主要外设，并区分需要自行开发的驱动与可复用的软件，减少后期才发现关键接口缺失的风险。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜区域支持与主体",
+        "text": "联络页面公开多个地区办公室，便于寻找合适的商务入口，但办公室存在并不等于项目已经获得本地工程支持。合作前应确认实际销售主体、支持语言、问题升级渠道和量产阶段责任，尤其要明确平台方、模组方与整机团队之间如何分工。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "quality": [
+      {
+        "title": "判断｜系统并发验证",
+        "text": "质量评估应安排摄像、显示、存储写入和模型推理同时运行，记录帧丢失、音频中断与温升变化。应用处理器往往服务多个任务，单项演示流畅不足以证明真实工作负载可靠；测试结果需要关联到明确的软件版本和内存配置，便于复现。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜长期更新责任",
+        "text": "基于完整操作系统的设备需要持续处理安全修复和外设兼容变化。应确认内核、图形组件、模型运行时与应用层各自由谁维护，并测试更新后的回退路径；对于长期保存个人笔记的终端，数据迁移可靠性应与运行速度一样进入验收标准。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "commercial": [
+      {
+        "title": "判断｜成本比较口径",
+        "text": "比较平台成本时，应纳入内存、闪存、电源管理、无线连接及软件适配工作，并保持相同的显示和模型任务。较强的多媒体能力可能减少外置器件，也可能增加未使用能力的成本，只有结合目标功能和预计维护周期才有意义。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜采购条件核实",
+        "text": "官网没有为所有项目统一承诺起订量、工程服务价格或供货年限，因此目录不提供这些数字。可以先询问评估板、授权渠道与具体料号生命周期，再根据实际需求讨论量产协议；公开办公室列表只能证明联系路径，不能代替正式供货文件。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜平台绑定风险",
+        "text": "如果模型转换、显示驱动和相机调校都依赖平台特定工具，后续换芯片会带来较大迁移成本。产品应保留文档格式、数据接口和模型训练流程的可移植性，并记录硬件相关优化，避免把一代产品的临时适配变成长期无法替换的系统核心。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜集团能力混用风险",
+        "text": "集团具有广泛产品线并不代表某一颗处理器同时具备所有无线、音频和电源功能。对外展示供应链时，应引用具体系列的产品资料，并把外置器件与集成模块区分开；不能用集团介绍页填补目标料号数据手册中缺失的接口或功能。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ]
+      }
+    ],
+    "verification": [
+      {
+        "title": "判断｜可执行评估顺序",
+        "text": "先用目标操作系统启动评估板，接入真实屏幕和相机，再部署一个代表性模型并收集完整功耗曲线。若核心任务通过，再增加后台同步与更新操作；这种逐层验证能分辨接口、软件和推理瓶颈，避免一次性投入定制主板后才定位问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "title": "判断｜选型通过条件",
+        "text": "设计冻结前应明确软件包版本、关键外设兼容表、模型部署路径和长期支持责任，并取得目标采购渠道的书面答复。评估结果应保留失败样本与极端负载，而非只展示最好的一次运行；当前目录只确认能力适配，不推断具体成品采用关系。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "title": "判断｜已采用不等于全部本地AI",
+        "text": "芯片被点名后仍需分开核对外部模型、账户、网络和设备端计算。应用处理器能够支持相机和屏幕，不证明当前生成式问答全部在本地执行，也不能据此推算性能；供应研究应继续确认其他器件与制造资料，避免一项公开关系被扩写成完整物料清单。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "s4"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-04",
+  "relatedProducts": [
+    {
+      "supplierId": "mediatek",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "电子纸书写终端应用处理平台候选",
+      "rationale": "Scribe 需要文档、笔输入、显示和服务协同，联发科技应用平台可作为同类新设计候选。需核对电子纸控制、待机、笔延迟和系统内容接口，当前没有点名采用；通用芯片不等于可替换 Amazon 自有平台，也不自动获得 Kindle 账户、阅读生态或生成式笔记服务。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "kindle-scribe-2025",
+      "productName": "Amazon Kindle Scribe（2025，第三代）",
+      "category": "computing",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "mediatek",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "多应用阅读与输入平台候选",
+      "rationale": "联发科技应用处理器路线可用于比较类似电子纸设备的系统与模型前处理，但需验证显示、笔接口、内存和持续功耗。当前没有 Air5 C 供货证据，不能因安卓应用支持推断具体芯片；平台能力也不保证第三方软件适合电子纸或全部 AI 可离线使用。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "boox-note-air5c",
+      "productName": "BOOX Note Air5 C",
+      "category": "computing",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "mediatek",
+      "role": "chip",
+      "relationship": "disclosed",
+      "component": "已披露MediaTek Helio P35应用处理器",
+      "rationale": "rabbit当前官方支持页明确将r1芯片列为MediaTek Helio P35，联发科技产品页可核对该平台角色，因此采用关系已有点名依据。证据不覆盖整机工厂、其他器件和所有批次，也不证明OS3或生成式模型全部本地运行；不能将公司Genio系列的能力混入这一具体平台。",
+      "sourceIds": [
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s4"
+      ],
+      "relationshipEvidence": "rabbit官方当前“what is rabbit r1”规格栏明确点名Chipset为MediaTek Helio P35；这支持应用处理器采用，不证明整机工厂、完整BOM或所有AI本地执行。",
+      "productId": "rabbit-r1",
+      "productName": "rabbit r1",
+      "category": "computing",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "mediatek",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "手写与文档终端的应用处理平台候选",
+      "rationale": "AiPaper 需要文档、笔输入、显示和在线服务协同，联发科技应用平台可作为同类新设计候选。需验证电子纸控制、笔延迟、待机和系统接口，当前没有点名采用；通用处理器不提供 Viwoods 的工作流或云模型授权，也不能直接替换现有设备并保证全部体验。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "viwoods-aipaper",
+      "productName": "Viwoods AiPaper",
+      "category": "computing",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "mediatek",
+      "role": "chip",
+      "relationship": "candidate",
+      "component": "口袋电子纸阅读终端的应用平台候选",
+      "rationale": "Reader 需要文档、显示、按键和在线模型交互，联发科技应用平台可作为同类新设计候选。需核对电子纸控制、待机和系统，移动通信模组及地区认证须另核，当前没有采用点名；平台能力不等于完整联网权益或 Viwoods 服务，也不能直接替换现有硬件。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "viwoods-aipaper-reader",
+      "productName": "Viwoods AiPaper Reader",
+      "category": "computing",
+      "status": "on_sale"
+    }
+  ]
+}
