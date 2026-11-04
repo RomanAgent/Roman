@@ -1,0 +1,8 @@
+Use case: infographic-diagram. Create an accurate-looking but explicitly CONCEPTUAL exploded functional illustration of one Birdfy Bath Pro, for a consumer hardware research directory.
+The input photos are official exterior and usage references, NOT teardown evidence. Preserve the exact recognizable product silhouette and generation. Focus on ONE device; omit bundle duplicates, phones, animals, people, warranty badges and promotional scenery.
+White background, restrained neutral grayscale industrial rendering, thin alignment leader lines, generous space, clear module separation, small assembled exterior reference in lower right. Landscape 4:3. Use short English functional labels only.
+Known public function: 集成相机识别访鸟物种并记录洗浴活动，结合太阳能鸟浴和水流结构；水循环本身不算AI。
+Functional layers: 鸟浴结构: 盆体、水流和落脚空间。 (official) | 相机观察: 防溅相机记录洗浴活动。 (official) | AI鸟种: 物种识别与事件通知。 (official) | 能源: 太阳能与电池供电。 (official) | 清洁维护: 水路维护和App管理。 (official).
+Unknown internal structure must be smooth generic functional blocks labelled CONCEPT. Do not invent real PCB traces, chip names, exact internal locations, connector counts, batteries or sensor models. Software and cloud services must be separate schematic callouts outside the physical device. Do not depict any unverified internal position as actual engineering.
+Do not add specifications, numeric performance, capacities, clinical accuracy, chip part numbers, suction power or marketing claims not explicitly supplied. Do not claim medical diagnosis or health improvement. Prefer a small set of clearly readable modules over decorative detail. No futuristic glow or colorful circuitry.
+Title exactly: "Birdfy Bath Pro". Subtitle: "FUNCTIONAL CONCEPT". Footer exactly and clearly readable: "AI CONCEPT · NOT A TEARDOWN".

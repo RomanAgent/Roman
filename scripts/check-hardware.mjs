@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 const root = new URL('../',import.meta.url);
 const read = path => readFileSync(new URL(path,root),'utf8');
 const catalog = JSON.parse(read('content/hardware/catalog.json'));
-const research = readdirSync(new URL('content/hardware/',root)).filter(f=>/^research-.+\.json$/.test(f)).flatMap(f=>JSON.parse(read(`content/hardware/${f}`)));
+const research = readdirSync(new URL('content/hardware/',root)).filter(f=>/^research-.+\.json$/.test(f)).flatMap(f=>JSON.parse(read(`content/hardware/${f}`))).filter(p=>['consumer','prosumer'].includes(p.audience));
 assert.equal(catalog.products.length,research.length,'目录数量与研究源数据不同，请运行 npm run catalog');
 for(const p of research){const {images,mediaNotes,...record}=catalog.products.find(c=>c.id===p.id);assert.deepEqual(record,p,`${p.id} 目录尚未同步`);assert(existsSync(new URL(`docs/hardware/${p.id}.md`,root)),`${p.id} 阅读版缺失`);}
 const market = read('docs/hardware-market.md');

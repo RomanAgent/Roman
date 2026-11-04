@@ -1,0 +1,11 @@
+Create one product-specific editorial engineering exploded CONCEPT illustration.
+Exact title: "Amazfit T-Rex 3 Pro". Mandatory footer verbatim: "AI CONCEPT · NOT A TEARDOWN".
+Use both supplied verified product images as exterior-identity references. Preserve exact silhouette and controls. Ignore people, marketing text, pricing, performance numbers and scenery in references.
+Appearance: clean white background; strictly neutral black, white and gray only, including all originally colored accents and LEDs. Landscape 3:2. Refined soft shadows, generous whitespace, 4–6 coherent separated functional groups with a small assembled reference inset. Short functional labels only; no paragraphs. No decorative science-fiction parts.
+Specific physical constraints: Exact black T-Rex 3 Pro 48 mm rugged circular watch, faceted protective bezel and four side buttons, perforated strap. Match visible screw positions but do not label counts. Show bezel/glass, display, anonymous electronics/power, rear optical sensing interface and separated strap. NO camera, no invented health sensors. Keep all dial markings generic grayscale without performance numbers.
+Actual AI function: Zepp Flow支持自然语言语音操作，Zepp Coach根据用户目标和训练记录生成或调整个性化训练计划
+Dependency boundary: 需兼容Zepp App、账号和相关网络服务；语音、消息回复与部分支付功能受地区、手机系统和语言限制
+Use simplified anonymous module envelopes for unknown interiors. Do not invent exact PCB layouts, chips, part numbers, batteries, capacities, performance figures or medical/fitness effects. Do not place app/cloud AI as a physical chip if the product relies on external computing; if needed show a small separate outline block marked External app / service. No additional cameras, motors or sensors without evidence. This is illustrative functional grouping, not an engineering blueprint or factual teardown. Keep product identity and disclaimer more prominent than annotations. Do not add any numeric specifications. Do not copy marketing claims.
+
+REVISION PROMPT (actual submitted)
+Preserve this image exactly except remove all colored pixels and accents. Make the tiny red outlines around the watch buttons neutral gray so the entire image is strictly black, white and neutral grayscale, including the assembled inset. Do not change shape, components, labels, spacing or footer. Do not add claims or numbers.

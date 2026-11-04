@@ -1,0 +1,306 @@
+[
+  {
+    "id": "elemind-sleep-headband",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/elemind-sleep-headband/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Elemind Sleep Headband的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/elemind-sleep-headband.txt",
+        "referencePaths": [
+          "assets/hardware/elemind-sleep-headband/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "frenz-brainband",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/frenz-brainband/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "FRENZ Brainband的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/frenz-brainband.txt",
+        "referencePaths": [
+          "assets/hardware/frenz-brainband/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "muse-s-athena",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/muse-s-athena/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Muse S Athena的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/muse-s-athena.txt",
+        "referencePaths": [
+          "assets/hardware/muse-s-athena/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "hohem-isteady-m7",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/hohem-isteady-m7/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Hohem iSteady M7的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/hohem-isteady-m7.txt",
+        "referencePaths": [
+          "assets/hardware/hohem-isteady-m7/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "feiyu-scorp-3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/feiyu-scorp-3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Feiyu SCORP 3的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/feiyu-scorp-3.txt",
+        "referencePaths": [
+          "assets/hardware/feiyu-scorp-3/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "zhiyun-smooth-5s-ai",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/zhiyun-smooth-5s-ai/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ZHIYUN Smooth 5S AI的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/zhiyun-smooth-5s-ai.txt",
+        "referencePaths": [
+          "assets/hardware/zhiyun-smooth-5s-ai/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "eight-sleep-pod-6",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/eight-sleep-pod-6/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Eight Sleep Pod 6的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/eight-sleep-pod-6.txt",
+        "referencePaths": [
+          "assets/hardware/eight-sleep-pod-6/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dji-neo-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dji-neo-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "DJI Neo 2的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/dji-neo-2.txt",
+        "referencePaths": [
+          "assets/hardware/dji-neo-2/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dji-mini-5-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dji-mini-5-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "DJI Mini 5 Pro的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/dji-mini-5-pro.txt",
+        "referencePaths": [
+          "assets/hardware/dji-mini-5-pro/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "hohem-isteady-mt3-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/hohem-isteady-mt3-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Hohem iSteady MT3 Pro的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/hohem-isteady-mt3-pro.txt",
+        "referencePaths": [
+          "assets/hardware/hohem-isteady-mt3-pro/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dji-rs-4-mini",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dji-rs-4-mini/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "DJI RS 4 Mini（智能跟随组合）的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/dji-rs-4-mini.txt",
+        "referencePaths": [
+          "assets/hardware/dji-rs-4-mini/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "insta360-flow-2-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/insta360-flow-2-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Insta360 Flow 2 Pro（AI Tracker组合）的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/insta360-flow-2-pro.txt",
+        "referencePaths": [
+          "assets/hardware/insta360-flow-2-pro/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "anker-solix-solarbank-3-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/anker-solix-solarbank-3-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Anker SOLIX Solarbank 3 E2700 Pro的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/anker-solix-solarbank-3-pro.txt",
+        "referencePaths": [
+          "assets/hardware/anker-solix-solarbank-3-pro/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "zendure-solarflow-2400-ac-plus",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/zendure-solarflow-2400-ac-plus/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Zendure SolarFlow 2400 AC+的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/zendure-solarflow-2400-ac-plus.txt",
+        "referencePaths": [
+          "assets/hardware/zendure-solarflow-2400-ac-plus/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ting-home-safety-sensor",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ting-home-safety-sensor/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Ting Sensor with Fire Prevention Service的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ting-home-safety-sensor.txt",
+        "referencePaths": [
+          "assets/hardware/ting-home-safety-sensor/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "bryte-balance-smart-bed",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/bryte-balance-smart-bed/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Bryte Balance Smart Bed的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/bryte-balance-smart-bed.txt",
+        "referencePaths": [
+          "assets/hardware/bryte-balance-smart-bed/product.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  }
+]

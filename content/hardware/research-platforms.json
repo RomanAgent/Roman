@@ -93,7 +93,10 @@
         "note": "区分 G1 与 EDU 的关节、计算及配置。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "developer",
+    "saleMode": "preorder",
+    "scopeNote": "主要面向机器人开发、研究或专业演示，移出C端消费目录。"
   },
   {
     "id": "unitree-go2-pro",
@@ -189,7 +192,9 @@
         "note": "系列起价与各版本功能不等同于当前结算配置。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "preorder"
   },
   {
     "id": "reachy-mini-wireless",
@@ -302,7 +307,10 @@
       "url": "https://pollen-robotics.com/assets/build/reachy-mini-plate.webp",
       "caption": "Reachy Mini 官方装配部件示意（版权归原权利人）",
       "sourceUrl": "https://pollen-robotics.com/reachy-mini/"
-    }
+    },
+    "audience": "developer",
+    "saleMode": "preorder",
+    "scopeNote": "当前研究条目以开发者实验与装配平台为主，保留在专业档案。"
   },
   {
     "id": "jetson-orin-nano-super",
@@ -408,7 +416,10 @@
         "note": "较早宣传页价格与当前FAQ冲突，保留不确定性。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "developer",
+    "saleMode": "retail",
+    "scopeNote": "AI开发套件，不是面向普通个人/家庭任务的完整消费产品。"
   },
   {
     "id": "raspberry-pi-ai-hat-plus-2",
@@ -494,7 +505,10 @@
         "note": "产品与购买组件存在，但本轮未确认具体经销商库存。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "developer",
+    "saleMode": "retail",
+    "scopeNote": "开发扩展板，需要额外主机和开发集成，不计入消费硬件目标。"
   },
   {
     "id": "macbook-air-m5",
@@ -602,7 +616,9 @@
         "note": "展示中国大陆M5配置购买入口；AI功能可用性须另行核查。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "google-pixel-11-pro",
@@ -699,6 +715,8 @@
         "note": "核查时地区列表没有中国大陆；不推定非官方进口渠道可用。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

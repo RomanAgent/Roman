@@ -100,7 +100,9 @@
         "note": "明确日本版在中国大陆不能使用，并链接中国规格渠道。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "casio-moflin",
@@ -212,7 +214,9 @@
         "note": "官方说明大陆洗护、换毛和取件维修服务。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "livingai-emo",
@@ -303,7 +307,9 @@
         "note": "网页中的开发中功能不计入已交付能力。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "loona-petbot",
@@ -399,7 +405,9 @@
         "note": "官网同时列Petbot与Deskmate，本记录仅研究Petbot。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "eilik-ai-station",
@@ -497,7 +505,9 @@
         "note": "基础触碰互动与另购AI Station的边界有明确说明。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "sony-aibo-ers1000",
@@ -596,7 +606,9 @@
         "note": "2026-06-25公告库存售罄后结束日本销售，同时说明服务继续；不推断全球停产。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "miko-3",
@@ -678,7 +690,9 @@
         "note": "同页存在Sold out及加购文案，因此库存保守标待确认；技术和语言来自产品说明。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "luka-reading-robot",
@@ -765,7 +779,9 @@
         "note": "列购买入口、1–3天发货、四语及VIP条件；功能按官方说明记录，未实测书目覆盖。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "iflytek-t30-pro",
@@ -861,7 +877,9 @@
         "note": "2024-09官方产品介绍可支持能力，不作为2026实时库存证据。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "oura-ring-4",
@@ -958,7 +976,9 @@
         "note": "说明LLM、会员、数据来源及非医疗设备边界。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "whoop-5",
@@ -1053,7 +1073,9 @@
         "note": "2026官方说明AI指导在应用中的定位。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "ultrahuman-ring-air",
@@ -1160,7 +1182,9 @@
         "note": "Jade面向全体用户推出；其中PRO硬件参数不移植到AIR。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "amazfit-balance-2",
@@ -1257,7 +1281,9 @@
         "note": "已打开日本官方地区商品页；不据此推断中国大陆版本能力。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "samsung-galaxy-watch8",
@@ -1355,6 +1381,8 @@
         "note": "确认大陆官方购买配置入口，不以动态模板推断具体库存。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

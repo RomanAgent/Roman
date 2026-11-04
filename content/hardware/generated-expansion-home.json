@@ -1,0 +1,733 @@
+[
+  {
+    "id": "petkit-purobot-ultra",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petkit-purobot-ultra/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "PETKIT Purobot Ultra AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/petkit-purobot-ultra.txt",
+        "referencePaths": [
+          "assets/hardware/petkit-purobot-ultra/product.png",
+          "assets/hardware/petkit-purobot-ultra/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "petkit-purobot-max-pro-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petkit-purobot-max-pro-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "PETKIT Purobot Max Pro 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/petkit-purobot-max-pro-2.txt",
+        "referencePaths": [
+          "assets/hardware/petkit-purobot-max-pro-2/product.png",
+          "assets/hardware/petkit-purobot-max-pro-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "petkit-yumshare-dual-hopper-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petkit-yumshare-dual-hopper-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "PETKIT YumShare Dual-hopper 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/petkit-yumshare-dual-hopper-2.txt",
+        "referencePaths": [
+          "assets/hardware/petkit-yumshare-dual-hopper-2/product.png",
+          "assets/hardware/petkit-yumshare-dual-hopper-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "petkit-eversweet-ultra",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petkit-eversweet-ultra/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "PETKIT EverSweet Ultra AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/petkit-eversweet-ultra.txt",
+        "referencePaths": [
+          "assets/hardware/petkit-eversweet-ultra/product.png",
+          "assets/hardware/petkit-eversweet-ultra/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+      "本图已局部校正：供水泵术语。修订提示词：content/hardware/prompts/petkit-eversweet-ultra-revision.txt。"
+    ]
+  },
+  {
+    "id": "petlibro-scout",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petlibro-scout/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "PETLIBRO Scout Smart Camera AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/petlibro-scout.txt",
+        "referencePaths": [
+          "assets/hardware/petlibro-scout/product.png",
+          "assets/hardware/petlibro-scout/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "furbo-360-dog-camera",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/furbo-360-dog-camera/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Furbo 360° Dog Camera AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/furbo-360-dog-camera.txt",
+        "referencePaths": [
+          "assets/hardware/furbo-360-dog-camera/product.png",
+          "assets/hardware/furbo-360-dog-camera/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "petcube-play-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petcube-play-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Petcube Play 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/petcube-play-2.txt",
+        "referencePaths": [
+          "assets/hardware/petcube-play-2/product.jpg",
+          "assets/hardware/petcube-play-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "petcube-bites-2-lite",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petcube-bites-2-lite/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Petcube Bites 2 Lite AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/petcube-bites-2-lite.txt",
+        "referencePaths": [
+          "assets/hardware/petcube-bites-2-lite/product.jpg",
+          "assets/hardware/petcube-bites-2-lite/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "petpace-3-collar",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petpace-3-collar/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "PetPace 3.0 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/petpace-3-collar.txt",
+        "referencePaths": [
+          "assets/hardware/petpace-3-collar/product.webp",
+          "assets/hardware/petpace-3-collar/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "maven-pet-health-tracker",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/maven-pet-health-tracker/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Maven Pet Health Tracker AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/maven-pet-health-tracker.txt",
+        "referencePaths": [
+          "assets/hardware/maven-pet-health-tracker/product.jpg",
+          "assets/hardware/maven-pet-health-tracker/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "birdfy-feeder-2-duo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/birdfy-feeder-2-duo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Birdfy Feeder 2 Duo AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/birdfy-feeder-2-duo.txt",
+        "referencePaths": [
+          "assets/hardware/birdfy-feeder-2-duo/product.png",
+          "assets/hardware/birdfy-feeder-2-duo/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+      "本图已局部校正：补齐独立侧摄像头。修订提示词：content/hardware/prompts/birdfy-feeder-2-duo-revision.txt。"
+    ]
+  },
+  {
+    "id": "birdfy-bath-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/birdfy-bath-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Birdfy Bath Pro AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/birdfy-bath-pro.txt",
+        "referencePaths": [
+          "assets/hardware/birdfy-bath-pro/product.png",
+          "assets/hardware/birdfy-bath-pro/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "birdfy-nest-duo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/birdfy-nest-duo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Birdfy Nest Duo AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/birdfy-nest-duo.txt",
+        "referencePaths": [
+          "assets/hardware/birdfy-nest-duo/product.png",
+          "assets/hardware/birdfy-nest-duo/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "birdfy-hum-feeder-duo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/birdfy-hum-feeder-duo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Birdfy Hum Feeder Duo AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/birdfy-hum-feeder-duo.txt",
+        "referencePaths": [
+          "assets/hardware/birdfy-hum-feeder-duo/product.png",
+          "assets/hardware/birdfy-hum-feeder-duo/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "birdbuddy-home",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/birdbuddy-home/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Birdbuddy Home AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/birdbuddy-home.txt",
+        "referencePaths": [
+          "assets/hardware/birdbuddy-home/product.webp",
+          "assets/hardware/birdbuddy-home/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "nanit-pro-baby-monitor",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/nanit-pro-baby-monitor/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Nanit Pro / Smart Baby Monitor AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/nanit-pro-baby-monitor.txt",
+        "referencePaths": [
+          "assets/hardware/nanit-pro-baby-monitor/product.png",
+          "assets/hardware/nanit-pro-baby-monitor/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "eufy-indoor-cam-s350",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/eufy-indoor-cam-s350/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "eufy Indoor Cam S350 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/eufy-indoor-cam-s350.txt",
+        "referencePaths": [
+          "assets/hardware/eufy-indoor-cam-s350/product.png",
+          "assets/hardware/eufy-indoor-cam-s350/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "arlo-ultra-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/arlo-ultra-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Arlo Ultra 2 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/arlo-ultra-2.txt",
+        "referencePaths": [
+          "assets/hardware/arlo-ultra-2/product.jpg",
+          "assets/hardware/arlo-ultra-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "enabot-ebo-max",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/enabot-ebo-max/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Enabot EBO Max AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/enabot-ebo-max.txt",
+        "referencePaths": [
+          "assets/hardware/enabot-ebo-max/product.jpg",
+          "assets/hardware/enabot-ebo-max/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+      "本图已局部校正：删除错误相机复数与Hub标签。修订提示词：content/hardware/prompts/enabot-ebo-max-revision.txt。"
+    ]
+  },
+  {
+    "id": "enabot-rola-petpal",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/enabot-rola-petpal/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Enabot ROLA PetPal AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/enabot-rola-petpal.txt",
+        "referencePaths": [
+          "assets/hardware/enabot-rola-petpal/product.jpg",
+          "assets/hardware/enabot-rola-petpal/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "amazon-echo-dot-2026",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/amazon-echo-dot-2026/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Amazon Echo Dot（2026） AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/amazon-echo-dot-2026.txt",
+        "referencePaths": [
+          "assets/hardware/amazon-echo-dot-2026/product.jpg",
+          "assets/hardware/amazon-echo-dot-2026/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "amazon-echo-studio-home-camera",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/amazon-echo-studio-home-camera/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Amazon Echo Studio with Home Camera AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/amazon-echo-studio-home-camera.txt",
+        "referencePaths": [
+          "assets/hardware/amazon-echo-studio-home-camera/product.jpg",
+          "assets/hardware/amazon-echo-studio-home-camera/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "amazon-echo-show-16",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/amazon-echo-show-16/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Amazon Echo Show 16 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/amazon-echo-show-16.txt",
+        "referencePaths": [
+          "assets/hardware/amazon-echo-show-16/product.jpg",
+          "assets/hardware/amazon-echo-show-16/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "amazon-alexa-photo-frame",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/amazon-alexa-photo-frame/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Amazon Alexa Photo Frame AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/amazon-alexa-photo-frame.txt",
+        "referencePaths": [
+          "assets/hardware/amazon-alexa-photo-frame/product.jpg",
+          "assets/hardware/amazon-alexa-photo-frame/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "beatbot-aquasense-2-ultra",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/beatbot-aquasense-2-ultra/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Beatbot AquaSense 2 Ultra AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/beatbot-aquasense-2-ultra.txt",
+        "referencePaths": [
+          "assets/hardware/beatbot-aquasense-2-ultra/product.png",
+          "assets/hardware/beatbot-aquasense-2-ultra/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+      "本图已局部校正：移除上盖重复履带。修订提示词：content/hardware/prompts/beatbot-aquasense-2-ultra-revision.txt。"
+    ]
+  },
+  {
+    "id": "wybot-s3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/wybot-s3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "WYBOT S3 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/wybot-s3.txt",
+        "referencePaths": [
+          "assets/hardware/wybot-s3/product.jpg",
+          "assets/hardware/wybot-s3/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "wybot-c2-vision",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/wybot-c2-vision/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "WYBOT C2 Vision AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/wybot-c2-vision.txt",
+        "referencePaths": [
+          "assets/hardware/wybot-c2-vision/product.jpg",
+          "assets/hardware/wybot-c2-vision/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "tapo-c260",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tapo-c260/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "TP-Link Tapo C260 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/tapo-c260.txt",
+        "referencePaths": [
+          "assets/hardware/tapo-c260/product.jpg",
+          "assets/hardware/tapo-c260/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "philips-i9000-prestige-ultra",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/philips-i9000-prestige-ultra/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Philips Norelco i9000 Prestige Ultra AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/philips-i9000-prestige-ultra.txt",
+        "referencePaths": [
+          "assets/hardware/philips-i9000-prestige-ultra/product.jpg",
+          "assets/hardware/philips-i9000-prestige-ultra/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。",
+      "本图已局部校正：删除未核实订阅与云服务说明。修订提示词：content/hardware/prompts/philips-i9000-prestige-ultra-revision.txt。"
+    ]
+  },
+  {
+    "id": "home-assistant-voice-pe",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/home-assistant-voice-pe/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Home Assistant Voice Preview Edition AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/home-assistant-voice-pe.txt",
+        "referencePaths": [
+          "assets/hardware/home-assistant-voice-pe/product.webp",
+          "assets/hardware/home-assistant-voice-pe/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "google-home-speaker-2026",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/google-home-speaker-2026/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Google Home Speaker（2026） AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/google-home-speaker-2026.txt",
+        "referencePaths": [
+          "assets/hardware/google-home-speaker-2026/product.jpg",
+          "assets/hardware/google-home-speaker-2026/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "oral-b-io10",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/oral-b-io10/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Oral-B iO10 AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/oral-b-io10.txt",
+        "referencePaths": [
+          "assets/hardware/oral-b-io10/product.jpg",
+          "assets/hardware/oral-b-io10/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  },
+  {
+    "id": "matic-floor-robot",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/matic-floor-robot/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Matic Floor-Cleaning Robot AI功能爆炸示意，内部模块为概念表达而非实际拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/matic-floor-robot.txt",
+        "referencePaths": [
+          "assets/hardware/matic-floor-robot/product.png",
+          "assets/hardware/matic-floor-robot/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据官方外观参考与公开功能生成；未披露的内部布局只作概念模块，不构成BOM或真实结构证据。"
+    ]
+  }
+]

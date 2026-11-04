@@ -1,0 +1,8 @@
+Use case: infographic-diagram. Create an accurate-looking but explicitly CONCEPTUAL exploded functional illustration of one Petcube Play 2, for a consumer hardware research directory.
+The input photos are official exterior and usage references, NOT teardown evidence. Preserve the exact recognizable product silhouette and generation. Focus on ONE device; omit bundle duplicates, phones, animals, people, warranty badges and promotional scenery.
+White background, restrained neutral grayscale industrial rendering, thin alignment leader lines, generous space, clear module separation, small assembled exterior reference in lower right. Landscape 4:3. Use short English functional labels only.
+Known public function: AI识别人和宠物及声音事件，依赖Care服务发送智能提醒；手机操控激光和自动播放并不等同于AI自主照护。
+Functional layers: 视频声音: 家庭画面和声音采集。 (official) | AI提醒: 人宠区分及叫声等事件识别。 (official) | 激光互动: 手机控制和自动播放的激光游戏。 (official) | 网络服务: Care视频历史与App访问。 (official) | 安全边界: 出射与停止控制作为概念功能层。 (inferred).
+Unknown internal structure must be smooth generic functional blocks labelled CONCEPT. Do not invent real PCB traces, chip names, exact internal locations, connector counts, batteries or sensor models. Software and cloud services must be separate schematic callouts outside the physical device. Do not depict any unverified internal position as actual engineering.
+Do not add specifications, numeric performance, capacities, clinical accuracy, chip part numbers, suction power or marketing claims not explicitly supplied. Do not claim medical diagnosis or health improvement. Prefer a small set of clearly readable modules over decorative detail. No futuristic glow or colorful circuitry.
+Title exactly: "Petcube Play 2". Subtitle: "FUNCTIONAL CONCEPT". Footer exactly and clearly readable: "AI CONCEPT · NOT A TEARDOWN".

@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "positive-grid-spark-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/positive-grid-spark-2/product.jpg",
+        "sourceUrl": "https://www.positivegrid.com/products/spark-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1094/6716/files/2_ab40273d-69a0-40d8-964a-28aaf734dad2_1.jpg?v=1726176703",
+        "caption": "Positive Grid Spark 2 · 官方产品图",
+        "alt": "Positive Grid Spark 2官方外观产品图",
+        "credit": "Positive Grid · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/positive-grid-spark-2/reference.jpg",
+        "sourceUrl": "https://www.positivegrid.com/products/spark-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1094/6716/files/02_8a1a37a9-f36b-4a92-bfd5-caf478196b53_1.jpg?v=1726176703",
+        "caption": "Positive Grid Spark 2 · 官方参考图",
+        "alt": "Positive Grid Spark 2官方场景或外观角度参考",
+        "credit": "Positive Grid · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "主图与参考图为同款不同颜色，不作为两个产品计数。"
+    ]
+  },
+  {
+    "id": "positive-grid-spark-neo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/positive-grid-spark-neo/product.jpg",
+        "sourceUrl": "https://www.positivegrid.com/products/spark-neo",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1094/6716/files/01_d0cda8ec-6fc0-4668-9f34-a9d3a3c4a6a9.jpg?v=1738693469",
+        "caption": "Positive Grid Spark NEO · 官方产品图",
+        "alt": "Positive Grid Spark NEO官方外观产品图",
+        "credit": "Positive Grid · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/positive-grid-spark-neo/reference.jpg",
+        "sourceUrl": "https://www.positivegrid.com/products/spark-neo",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1094/6716/files/03_6c94cdbc-e9d3-438e-93d0-e402d65309f9.jpg?v=1739404966",
+        "caption": "Positive Grid Spark NEO · 官方参考图",
+        "alt": "Positive Grid Spark NEO官方场景或外观角度参考",
+        "credit": "Positive Grid · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "positive-grid-spark-edge",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/positive-grid-spark-edge/product.jpg",
+        "sourceUrl": "https://www.positivegrid.com/products/spark-edge",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1094/6716/files/01_eb9d93ce-90e1-45a1-bc63-e15d8fbfdf7e.jpg?v=1727809744",
+        "caption": "Positive Grid Spark EDGE · 官方产品图",
+        "alt": "Positive Grid Spark EDGE官方外观产品图",
+        "credit": "Positive Grid · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/positive-grid-spark-edge/reference.jpg",
+        "sourceUrl": "https://www.positivegrid.com/products/spark-edge",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1094/6716/files/02_d155eb9b-606b-4e0f-b6d2-61a6e9e351d8.jpg?v=1727809744",
+        "caption": "Positive Grid Spark EDGE · 官方参考图",
+        "alt": "Positive Grid Spark EDGE官方场景或外观角度参考",
+        "credit": "Positive Grid · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "neural-dsp-quad-cortex",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/neural-dsp-quad-cortex/product.png",
+        "sourceUrl": "https://neuraldsp.jp/products/quad-cortex",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0747/8109/8202/files/Quad_Cortex_retail_photos_-_Transparent_background_1_2.png?v=1781229375",
+        "caption": "Neural DSP Quad Cortex · 官方产品图",
+        "alt": "Neural DSP Quad Cortex官方外观产品图",
+        "credit": "Neural DSP · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/neural-dsp-quad-cortex/reference.png",
+        "sourceUrl": "https://neuraldsp.jp/products/quad-cortex",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0747/8109/8202/files/QuadCortexretailphotos-Transparentbackground_2_1.png?v=1781229397",
+        "caption": "Neural DSP Quad Cortex · 官方参考图",
+        "alt": "Neural DSP Quad Cortex官方场景或外观角度参考",
+        "credit": "Neural DSP · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "neural-dsp-nano-cortex",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/neural-dsp-nano-cortex/product.png",
+        "sourceUrl": "https://neuraldsp.jp/products/nano-cortex",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0747/8109/8202/files/NanoCortexretailphotos-Transparentbackground_1_3.png?v=1781229660",
+        "caption": "Neural DSP Nano Cortex · 官方产品图",
+        "alt": "Neural DSP Nano Cortex官方外观产品图",
+        "credit": "Neural DSP · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/neural-dsp-nano-cortex/reference.webp",
+        "sourceUrl": "https://neuraldsp.com/nano-cortex",
+        "sourceImageUrl": "https://neuraldsp.com/_next/static/media/nc-controls.81433233.webp",
+        "caption": "Neural DSP Nano Cortex · 官方参考图",
+        "alt": "Neural DSP Nano Cortex官方场景或外观角度参考",
+        "credit": "Neural DSP · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "参考图是官方控制位置说明，不是内部拆机。"
+    ]
+  },
+  {
+    "id": "ik-tonex-pedal",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ik-tonex-pedal/product.jpg",
+        "sourceUrl": "https://ikmultimedia.com/products/tonexpedal",
+        "sourceImageUrl": "https://ikmultimedia.com/cdn/shop/files/TONEX-Pedal---Studio-57101.jpg?v=1783348434&width=1100",
+        "caption": "IK Multimedia TONEX Pedal · 官方产品图",
+        "alt": "IK Multimedia TONEX Pedal官方外观产品图",
+        "credit": "IK Multimedia · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ik-tonex-pedal/reference.jpg",
+        "sourceUrl": "https://ikmultimedia.com/products/tonexpedal",
+        "sourceImageUrl": "https://ikmultimedia.com/cdn/shop/files/ToneX_Pedal_IMG_0038_r.jpg?v=1783348439&width=1100",
+        "caption": "IK Multimedia TONEX Pedal · 官方参考图",
+        "alt": "IK Multimedia TONEX Pedal官方场景或外观角度参考",
+        "credit": "IK Multimedia · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "valeton-gp5",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/valeton-gp5/product.png",
+        "sourceUrl": "https://shop.valeton.net/products/gp-5",
+        "sourceImageUrl": "https://shop.valeton.net/cdn/shop/files/GP-5_Front_WithScreen_Hi_V01_250425_1500x.png?v=1747797183",
+        "caption": "Valeton GP-5 · 官方产品图",
+        "alt": "Valeton GP-5官方外观产品图",
+        "credit": "Valeton · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/valeton-gp5/reference.png",
+        "sourceUrl": "https://shop.valeton.net/products/gp-5",
+        "sourceImageUrl": "https://shop.valeton.net/cdn/shop/files/GP-5_Perspective_WithScreen_Hi_V01_250425_1500x.png?v=1747797183",
+        "caption": "Valeton GP-5 · 官方参考图",
+        "alt": "Valeton GP-5官方场景或外观角度参考",
+        "credit": "Valeton · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "romi-lacatan",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/romi-lacatan/product.png",
+        "sourceUrl": "https://shop.romi.ai/products/romi-lacatan",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0701/9941/0971/files/1_f3ef0429-3b09-4c22-916b-76d25c5a7480.png?v=1780373885",
+        "caption": "Romi Lacatan · 官方产品图",
+        "alt": "Romi Lacatan官方外观产品图",
+        "credit": "MIXI / Romi · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/romi-lacatan/reference.png",
+        "sourceUrl": "https://shop.romi.ai/products/romi-lacatan",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0701/9941/0971/files/3.png?v=1780374039",
+        "caption": "Romi Lacatan · 官方参考图",
+        "alt": "Romi Lacatan官方场景或外观角度参考",
+        "credit": "MIXI / Romi · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "两张均为Lacatan型号，不同颜色不单独计数。"
+    ]
+  },
+  {
+    "id": "panasonic-nicobo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/panasonic-nicobo/product.jpg",
+        "sourceUrl": "https://news.panasonic.com/jp/press/jn260304-3",
+        "sourceImageUrl": "https://news.panasonic.com/uploads/tmg_block_page_image/file/38071/l-jn260304-3-1.jpg",
+        "caption": "Panasonic NICOBO · 官方产品图",
+        "alt": "Panasonic NICOBO官方外观产品图",
+        "credit": "Panasonic · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/panasonic-nicobo/reference.jpg",
+        "sourceUrl": "https://news.panasonic.com/jp/stories/14261",
+        "sourceImageUrl": "https://news.panasonic.com/uploads/tmg_block_page_image/file/16506/image-2.jpg",
+        "caption": "Panasonic NICOBO · 官方参考图",
+        "alt": "Panasonic NICOBO官方场景或外观角度参考",
+        "credit": "Panasonic · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "采用2026官方新闻图与2023官方同型号外观资料；没有使用企业专用版本或相近机器人替代。"
+    ]
+  },
+  {
+    "id": "looi-robot",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/looi-robot/product.png",
+        "sourceUrl": "https://looirobot.com/products/looi-robot",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0704/8809/6981/files/7faff43646b1579592b02588a48c8d22_2aa24c0a-7b34-4fea-a4b9-49902163dede.png?v=1793608038",
+        "caption": "LOOI Robot · 官方产品图",
+        "alt": "LOOI Robot官方外观产品图",
+        "credit": "Tangobotics / LOOI · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/looi-robot/reference.png",
+        "sourceUrl": "https://looirobot.com/products/looi-robot",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0704/8809/6981/files/a924207a73fe87f543088b3c3f3d78ec.png?v=1773643379",
+        "caption": "LOOI Robot · 官方参考图",
+        "alt": "LOOI Robot官方场景或外观角度参考",
+        "credit": "Tangobotics / LOOI · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "手机需自备；官方场景中两台机器人用于展示，不代表单机订单包含两台。"
+    ]
+  },
+  {
+    "id": "livingai-aibi-pocket",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/livingai-aibi-pocket/product.jpg",
+        "sourceUrl": "https://living.ai/product/aibi-pocket/",
+        "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2023/12/2023121605.jpg?fit=2000%2C2000&quality=89&ssl=1",
+        "caption": "LivingAI AIBI Pocket · 官方产品图",
+        "alt": "LivingAI AIBI Pocket官方外观产品图",
+        "credit": "LivingAI · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/livingai-aibi-pocket/reference.jpg",
+        "sourceUrl": "https://living.ai/product/aibi-pocket/",
+        "sourceImageUrl": "https://i0.wp.com/living.ai/wp-content/uploads/2023/12/2024081201-scaled.jpg?fit=2560%2C2560&quality=89&ssl=1",
+        "caption": "LivingAI AIBI Pocket · 官方参考图",
+        "alt": "LivingAI AIBI Pocket官方场景或外观角度参考",
+        "credit": "LivingAI · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "yukai-bocco-emo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/yukai-bocco-emo/product.jpg",
+        "sourceUrl": "https://store.ux-xu.com/products/bocco-emo",
+        "sourceImageUrl": "https://store.ux-xu.com/cdn/shop/products/product_bocco_emo.jpg?v=1592317204&width=1946",
+        "caption": "BOCCO emo Wi-Fi · 官方产品图",
+        "alt": "BOCCO emo Wi-Fi官方外观产品图",
+        "credit": "Yukai Engineering · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/yukai-bocco-emo/reference.jpg",
+        "sourceUrl": "https://store.ux-xu.com/products/bocco-emo",
+        "sourceImageUrl": "https://store.ux-xu.com/cdn/shop/products/img_bocco_emo_01.jpg?v=1592987067&width=1946",
+        "caption": "BOCCO emo Wi-Fi · 官方参考图",
+        "alt": "BOCCO emo Wi-Fi官方场景或外观角度参考",
+        "credit": "Yukai Engineering · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "curio-grok",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/curio-grok/product.jpg",
+        "sourceUrl": "https://heycurio.com/product/grok",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0836/7934/7004/files/ProfessionalStudioProductphotographyofasubtlePlushtoycopy-fotor-20231206193526.jpg?v=1702075754",
+        "caption": "Curio Grok · 官方产品图",
+        "alt": "Curio Grok官方外观产品图",
+        "credit": "Curio · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/curio-grok/reference.jpg",
+        "sourceUrl": "https://heycurio.com/product/grok",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0836/7934/7004/files/Grok-Side.jpg?v=1702075754",
+        "caption": "Curio Grok · 官方参考图",
+        "alt": "Curio Grok官方场景或外观角度参考",
+        "credit": "Curio · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "haivivi-bubblepal",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/haivivi-bubblepal/product.png",
+        "sourceUrl": "https://www.haivivi.com/",
+        "sourceImageUrl": "https://www.haivivi.cn/assets/product-icon/bubble-pal.png?w=256&q=75",
+        "caption": "Haivivi BubblePal · 官方产品图",
+        "alt": "Haivivi BubblePal官方外观产品图",
+        "credit": "Haivivi · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/haivivi-bubblepal/reference.png",
+        "sourceUrl": "https://www.haivivi.cn/product/bubblepal",
+        "sourceImageUrl": "https://www.haivivi.cn/assets/product-hero-mobile.png",
+        "caption": "Haivivi BubblePal · 官方参考图",
+        "alt": "Haivivi BubblePal官方场景或外观角度参考",
+        "credit": "Haivivi · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "不同颜色仅用于官方外观参考，不重复计数。"
+    ]
+  },
+  {
+    "id": "chessup-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/chessup-2/product.jpg",
+        "sourceUrl": "https://playchessup.com/products/chessup-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0589/6703/1989/files/01-01-03.jpg?v=1793474387",
+        "caption": "ChessUp 2 · 官方产品图",
+        "alt": "ChessUp 2官方外观产品图",
+        "credit": "Bryght Labs / ChessUp · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/chessup-2/reference.png",
+        "sourceUrl": "https://playchessup.com/products/chessup-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0589/6703/1989/files/image_27.png?v=1781220003",
+        "caption": "ChessUp 2 · 官方参考图",
+        "alt": "ChessUp 2官方场景或外观角度参考",
+        "credit": "Bryght Labs / ChessUp · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chessnut-evo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/chessnut-evo/product.jpg",
+        "sourceUrl": "https://www.chessnutech.com/products/chessnut-evo-the-future-of-ultra-smart-ai-chessboard",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0630/9543/9612/files/Chessnut_EVO.jpg?v=1776066358",
+        "caption": "Chessnut EVO · 官方产品图",
+        "alt": "Chessnut EVO官方外观产品图",
+        "credit": "Chessnut · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/chessnut-evo/reference.png",
+        "sourceUrl": "https://www.chessnutech.com/products/chessnut-evo-the-future-of-ultra-smart-ai-chessboard",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0630/9543/9612/files/Chessnut_EVO_4.png?v=1776066426",
+        "caption": "Chessnut EVO · 官方参考图",
+        "alt": "Chessnut EVO官方场景或外观角度参考",
+        "credit": "Chessnut · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dgt-centaur",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dgt-centaur/product.jpg",
+        "sourceUrl": "https://www.dgtshop.com/products/chess-computers-2/centaur-chess-computer-2",
+        "sourceImageUrl": "https://digital-game-technology-2021.imgix.net/media/Products/Chess-Computers/DGT-Centaur-Chess-Computer-670x646.jpg?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=598&ixlib=php-3.3.1&q=82&w=718",
+        "caption": "DGT Centaur · 官方产品图",
+        "alt": "DGT Centaur官方外观产品图",
+        "credit": "DGT · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dgt-centaur/reference.jpg",
+        "sourceUrl": "https://www.dgtshop.com/products/chess-computers-2/centaur-chess-computer-2",
+        "sourceImageUrl": "https://digital-game-technology-2021.imgix.net/media/Products/Chess-Computers/DGT-Centaur-Chess-Computer-4-670x646.jpg?auto=format&crop=focalpoint&domain=digital-game-technology-2021.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=500&ixlib=php-3.3.1&q=82&w=700",
+        "caption": "DGT Centaur · 官方参考图",
+        "alt": "DGT Centaur官方场景或外观角度参考",
+        "credit": "DGT · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "particula-gochess-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/particula-gochess-pro/product.png",
+        "sourceUrl": "https://particula-tech.com/products/gochess-lite-modern",
+        "sourceImageUrl": "https://particula-tech.com/cdn/shop/files/lite_modern.png?v=1791453741&width=1946",
+        "caption": "Particula GoChess Pro Modern · 官方产品图",
+        "alt": "Particula GoChess Pro Modern官方外观产品图",
+        "credit": "Particula · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/particula-gochess-pro/reference.png",
+        "sourceUrl": "https://particula-tech.com/products/gochess-lite-modern",
+        "sourceImageUrl": "https://particula-tech.com/cdn/shop/files/5.1version_58051c84-36d3-4c56-9179-bf7164132336.webp?v=1776162929&width=1946",
+        "caption": "Particula GoChess Pro Modern · 官方参考图",
+        "alt": "Particula GoChess Pro Modern官方场景或外观角度参考",
+        "credit": "Particula · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "millennium-king-performance",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/millennium-king-performance/product.png",
+        "sourceUrl": "https://computerchess.com/en/The-King-Performance/M830",
+        "sourceImageUrl": "https://computerchess.com/media/26/f9/65/1644233549/M830_chess%20board%20with%20pieces.png",
+        "caption": "Millennium The King Performance · 官方产品图",
+        "alt": "Millennium The King Performance官方外观产品图",
+        "credit": "Millennium · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/millennium-king-performance/reference.jpg",
+        "sourceUrl": "https://computerchess.com/en/The-King-Performance/M830",
+        "sourceImageUrl": "https://computerchess.com/media/e4/d7/98/1644233650/M830_couple-playing-chess-outside.jpg",
+        "caption": "Millennium The King Performance · 官方参考图",
+        "alt": "Millennium The King Performance官方场景或外观角度参考",
+        "credit": "Millennium · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chessnut-move",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/chessnut-move/product.png",
+        "sourceUrl": "https://www.chessnutech.com/products/chessnut-move-advanced-robotic-chessboard-with-wooden-pieces",
+        "sourceImageUrl": "https://www.chessnutech.com/cdn/shop/files/mutou.png?v=1780041675&width=1946",
+        "caption": "Chessnut Move · 官方产品图",
+        "alt": "Chessnut Move官方外观产品图",
+        "credit": "Chessnut · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/chessnut-move/reference.png",
+        "sourceUrl": "https://www.chessnutech.com/products/chessnut-move-advanced-robotic-chessboard-with-wooden-pieces",
+        "sourceImageUrl": "https://www.chessnutech.com/cdn/shop/files/1_5_1f858d20-fe3a-45c9-bedb-f6cbb2b17812.png?v=1787562670&width=1946",
+        "caption": "Chessnut Move · 官方参考图",
+        "alt": "Chessnut Move官方场景或外观角度参考",
+        "credit": "Chessnut · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dimehead-nam-player",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dimehead-nam-player/product.jpg",
+        "sourceUrl": "https://www.dimehead.de/product/nam-player/",
+        "sourceImageUrl": "https://www.dimehead.de/wp-content/uploads/2024/09/Order1.jpg",
+        "caption": "Dimehead NAM Player · 官方产品图",
+        "alt": "Dimehead NAM Player官方外观产品图",
+        "credit": "Dimehead · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dimehead-nam-player/reference.jpg",
+        "sourceUrl": "https://www.dimehead.de/product/nam-player/",
+        "sourceImageUrl": "https://www.dimehead.de/wp-content/uploads/2024/09/Order2.jpg",
+        "caption": "Dimehead NAM Player · 官方参考图",
+        "alt": "Dimehead NAM Player官方场景或外观角度参考",
+        "credit": "Dimehead · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chessnut-companion",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/chessnut-companion/product.png",
+        "sourceUrl": "https://www.chessnutech.com/products/chessnut-companion",
+        "sourceImageUrl": "https://www.chessnutech.com/cdn/shop/files/Chessnut_Companion_Smart_AI_Chess_Clock.png?v=1781769758&width=1946",
+        "caption": "Chessnut Companion · 官方产品图",
+        "alt": "Chessnut Companion官方外观产品图",
+        "credit": "Chessnut · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/chessnut-companion/reference.png",
+        "sourceUrl": "https://www.chessnutech.com/products/chessnut-companion",
+        "sourceImageUrl": "https://www.chessnutech.com/cdn/shop/files/Chessnut_Companion_Everyday_Chess_Play.png?v=1781769973&width=1946",
+        "caption": "Chessnut Companion · 官方参考图",
+        "alt": "Chessnut Companion官方场景或外观角度参考",
+        "credit": "Chessnut · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "viwoods-aipaper",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/viwoods-aipaper/product.jpg",
+        "sourceUrl": "https://viwoods.com/products/viwoods-aipaper",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_hero.webp?v=1782810034",
+        "caption": "Viwoods AiPaper · 官方产品图",
+        "alt": "Viwoods AiPaper官方外观产品图",
+        "credit": "Viwoods · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/viwoods-aipaper/reference.jpg",
+        "sourceUrl": "https://viwoods.com/products/viwoods-aipaper",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_paper_tablet_e-ink_tablet_5.webp?v=1782955594",
+        "caption": "Viwoods AiPaper · 官方参考图",
+        "alt": "Viwoods AiPaper官方场景或外观角度参考",
+        "credit": "Viwoods · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "viwoods-aipaper-reader",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/viwoods-aipaper-reader/product.jpg",
+        "sourceUrl": "https://viwoods.com/products/viwoods-aipaper-reader",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_reader_hero.webp?v=1782810107",
+        "caption": "Viwoods AiPaper Reader · 官方产品图",
+        "alt": "Viwoods AiPaper Reader官方外观产品图",
+        "credit": "Viwoods · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/viwoods-aipaper-reader/reference.jpg",
+        "sourceUrl": "https://viwoods.com/products/viwoods-aipaper-reader",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0729/7368/0674/files/viwoods_aipaper_reader_hero_aimage_4.webp?v=1782956456",
+        "caption": "Viwoods AiPaper Reader · 官方参考图",
+        "alt": "Viwoods AiPaper Reader官方场景或外观角度参考",
+        "credit": "Viwoods · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "boox-note-air5c",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/boox-note-air5c/product.jpg",
+        "sourceUrl": "https://shop.boox.com/products/noteair5c",
+        "sourceImageUrl": "https://shop.boox.com/cdn/shop/files/01_36f01cab-06ea-40e1-b564-9a2d837064f1.jpg?v=1760437629",
+        "caption": "BOOX Note Air5 C · 官方产品图",
+        "alt": "BOOX Note Air5 C官方外观产品图",
+        "credit": "BOOX · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/boox-note-air5c/reference.jpg",
+        "sourceUrl": "https://shop.boox.com/products/noteair5c",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0604/6410/3654/files/03_31d43319-2332-4c09-a868-6d62393b7a61.jpg?v=1761015092",
+        "caption": "BOOX Note Air5 C · 官方参考图",
+        "alt": "BOOX Note Air5 C官方场景或外观角度参考",
+        "credit": "BOOX · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "makeblock-mbot2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/makeblock-mbot2/product.jpg",
+        "sourceUrl": "https://www.makeblock.com/products/buy-mbot2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0070/5901/3716/files/P1010132_mBot2.webp?v=1766999460",
+        "caption": "Makeblock mBot2 · 官方产品图",
+        "alt": "Makeblock mBot2官方外观产品图",
+        "credit": "Makeblock · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/makeblock-mbot2/reference.jpg",
+        "sourceUrl": "https://www.makeblock.com/products/buy-mbot2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0070/5901/3716/files/Step2__Play.jpg?v=1731391578&width=2048",
+        "caption": "Makeblock mBot2 · 官方参考图",
+        "alt": "Makeblock mBot2官方场景或外观角度参考",
+        "credit": "Makeblock · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "robotical-marty-v2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/robotical-marty-v2/product.jpg",
+        "sourceUrl": "https://robotical.io/product/marty-the-robot-v2/",
+        "sourceImageUrl": "https://67b43dae.delivery.rocketcdn.me/wp-content/uploads/2021/02/Marty-the-Robot.jpg",
+        "caption": "Robotical Marty the Robot V2 · 官方产品图",
+        "alt": "Robotical Marty the Robot V2官方外观产品图",
+        "credit": "Robotical · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/robotical-marty-v2/reference.jpg",
+        "sourceUrl": "https://robotical.io/product/marty-the-robot-v2/",
+        "sourceImageUrl": "https://67b43dae.delivery.rocketcdn.me/wp-content/uploads/2025/09/Physical-Computing.jpg",
+        "caption": "Robotical Marty the Robot V2 · 官方参考图",
+        "alt": "Robotical Marty the Robot V2官方场景或外观角度参考",
+        "credit": "Robotical · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "makeblock-codey-rocky",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/makeblock-codey-rocky/product.jpg",
+        "sourceUrl": "https://www.makeblock.com/products/buy-codey-rocky",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0070/5901/3716/files/SKU-CodeyRocky.webp?v=1766999230",
+        "caption": "Makeblock Codey Rocky · 官方产品图",
+        "alt": "Makeblock Codey Rocky官方外观产品图",
+        "credit": "Makeblock · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/makeblock-codey-rocky/reference.jpg",
+        "sourceUrl": "https://www.makeblock.com/products/buy-codey-rocky",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0070/5901/3716/files/PC-codey_rocky.jpg?v=1711105285",
+        "caption": "Makeblock Codey Rocky · 官方参考图",
+        "alt": "Makeblock Codey Rocky官方场景或外观角度参考",
+        "credit": "Makeblock · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "kindle-scribe-2025",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/kindle-scribe-2025/product.jpg",
+        "sourceUrl": "https://www.amazon.com/dp/B0FC1ZS9QZ",
+        "sourceImageUrl": "https://m.media-amazon.com/images/I/616QLgnAn6L._AC_SL1500_.jpg",
+        "caption": "Amazon Kindle Scribe（2025，第三代） · 官方产品图",
+        "alt": "Amazon Kindle Scribe（2025，第三代）官方外观产品图",
+        "credit": "Amazon · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/kindle-scribe-2025/reference.jpg",
+        "sourceUrl": "https://www.amazon.com/dp/B0FC1ZS9QZ",
+        "sourceImageUrl": "https://m.media-amazon.com/images/G/01/kindle/journeys/TyLOXJtbOiD1ZxRNClkSSQxh961s27StsY6FbvVbHpg3D/NmUwMGMxZDIt._CB799488765_.jpg",
+        "caption": "Amazon Kindle Scribe（2025，第三代） · 官方参考图",
+        "alt": "Amazon Kindle Scribe（2025，第三代）官方场景或外观角度参考",
+        "credit": "Amazon · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "insta360-ace-pro-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/insta360-ace-pro-2/product.png",
+        "sourceUrl": "https://store.insta360.com/product/ace-pro-2",
+        "sourceImageUrl": "https://wassets.insta360.com/store/93bb64af59314190801a7d11946e641c/8827_53907e3f-98e0-4ac3-96ac-b18c29aa3741.png",
+        "caption": "Insta360 Ace Pro 2 · 官方产品图",
+        "alt": "Insta360 Ace Pro 2官方外观产品图",
+        "credit": "Insta360 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/insta360-ace-pro-2/reference.jpg",
+        "sourceUrl": "https://store.insta360.com/product/ace-pro-2",
+        "sourceImageUrl": "https://wassets.insta360.com/store/133b2e9de5d747f5bd344dbfd0713920/13762_7b07aec5-4d82-4c92-911d-285360439841.jpg",
+        "caption": "Insta360 Ace Pro 2 · 官方参考图",
+        "alt": "Insta360 Ace Pro 2官方场景或外观角度参考",
+        "credit": "Insta360 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "insta360-x5",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/insta360-x5/product.png",
+        "sourceUrl": "https://store.insta360.com/product/x5",
+        "sourceImageUrl": "https://res.insta360.com/dynamic/store/425b39024abae85975ddbfb24d67961b/404_0e155d9f-5268-4582-bd1f-bc8ab5b33971.png",
+        "caption": "Insta360 X5 · 官方产品图",
+        "alt": "Insta360 X5官方外观产品图",
+        "credit": "Insta360 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/insta360-x5/reference.jpg",
+        "sourceUrl": "https://store.insta360.com/product/x5",
+        "sourceImageUrl": "https://wassets.insta360.com/store/b8e0a72650ed425aadbc57c8a67c81e8/331_560fa73d-5ee4-4555-91a0-679adf2f0c3a.jpg",
+        "caption": "Insta360 X5 · 官方参考图",
+        "alt": "Insta360 X5官方场景或外观角度参考",
+        "credit": "Insta360 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "insta360-go-ultra",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/insta360-go-ultra/product.png",
+        "sourceUrl": "https://store.insta360.com/product/go-ultra",
+        "sourceImageUrl": "https://res.insta360.com/dynamic/store/5409431d311915be34372c2afec1219b/314_da52bdad-a6a4-41bb-8268-668cf1332716.png",
+        "caption": "Insta360 GO Ultra · 官方产品图",
+        "alt": "Insta360 GO Ultra官方外观产品图",
+        "credit": "Insta360 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/insta360-go-ultra/reference.jpg",
+        "sourceUrl": "https://store.insta360.com/product/go-ultra",
+        "sourceImageUrl": "https://res.insta360.com/dynamic/store/4b94f18017a9ccd1eca54eacfb5e8214/314_9fcd41a0-17b9-418c-948b-215ce654b4c9.jpg",
+        "caption": "Insta360 GO Ultra · 官方参考图",
+        "alt": "Insta360 GO Ultra官方场景或外观角度参考",
+        "credit": "Insta360 · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "sony-zv-e1",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/sony-zv-e1/product.png",
+        "sourceUrl": "https://www.sony-asia.com/interchangeable-lens-cameras/products/zv-e1",
+        "sourceImageUrl": "https://sony.scene7.com/is/image/sonyglobalsolutions/01_Dimensions?%24highlightsImages%24=&fmt=png-alpha",
+        "caption": "Sony ZV-E1 · 官方产品图",
+        "alt": "Sony ZV-E1官方外观产品图",
+        "credit": "Sony · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/sony-zv-e1/reference.jpg",
+        "sourceUrl": "https://www.sony-asia.com/interchangeable-lens-cameras/products/zv-e1",
+        "sourceImageUrl": "https://sony.scene7.com/is/image/sonyglobalsolutions/02_Feature3_Mobile?%24toutMobile%24=",
+        "caption": "Sony ZV-E1 · 官方参考图",
+        "alt": "Sony ZV-E1官方场景或外观角度参考",
+        "credit": "Sony · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "主图为官方外观与尺寸参考；场景图中的镜头与收音附件不包含在机身报价中。"
+    ]
+  },
+  {
+    "id": "canon-powershot-v1",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/canon-powershot-v1/product.webp",
+        "sourceUrl": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+        "sourceImageUrl": "https://i1.adis.ws/i/canon/6390C001_PowerShot-V1_01_AE_Logo?aspect=1%3A1&bg=rgb%28245%2C246%2C246%29&fmt=webp&qlt=100&sm=aspect&w=940",
+        "caption": "Canon PowerShot V1 · 官方产品图",
+        "alt": "Canon PowerShot V1官方外观产品图",
+        "credit": "Canon · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/canon-powershot-v1/reference.webp",
+        "sourceUrl": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+        "sourceImageUrl": "https://i1.adis.ws/i/canon/6390C001_PowerShot-V1_04?aspect=1%3A1&bg=rgb%28245%2C246%2C246%29&fmt=webp&qlt=80&sm=aspect&w=940",
+        "caption": "Canon PowerShot V1 · 官方参考图",
+        "alt": "Canon PowerShot V1官方场景或外观角度参考",
+        "credit": "Canon · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "nikon-z50ii",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/nikon-z50ii/product.png",
+        "sourceUrl": "https://www.nikonusa.com/p/z50ii/1784/overview",
+        "sourceImageUrl": "https://images.contentstack.io/v3/assets/blt0e5ec1de4817c440/blta6cee6b49edcf6d0/67211ed15fe9d401b360cc56/hero-slider-front.png",
+        "caption": "Nikon Z50II · 官方产品图",
+        "alt": "Nikon Z50II官方外观产品图",
+        "credit": "Nikon · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/nikon-z50ii/reference.png",
+        "sourceUrl": "https://www.nikonusa.com/p/z50ii/1784/overview",
+        "sourceImageUrl": "https://images.contentstack.io/v3/assets/blt0e5ec1de4817c440/blt050a94cd44b92229/67223b704469ca70e07b85de/hero-slider-top.png",
+        "caption": "Nikon Z50II · 官方参考图",
+        "alt": "Nikon Z50II官方场景或外观角度参考",
+        "credit": "Nikon · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "官方照片装有镜头；所列价格是机身价，镜头须按套装另行核对。"
+    ]
+  },
+  {
+    "id": "fujifilm-x-m5",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/fujifilm-x-m5/product.jpg",
+        "sourceUrl": "https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1",
+        "sourceImageUrl": "https://eshop.fujifilm-x.com/media/catalog/product/cache/495b3925f2d882830dd92457c3f7d74d/x/-/x-m5_front_cmos_black.jpg",
+        "caption": "FUJIFILM X-M5 · 官方产品图",
+        "alt": "FUJIFILM X-M5官方外观产品图",
+        "credit": "Fujifilm · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/fujifilm-x-m5/reference.jpg",
+        "sourceUrl": "https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1",
+        "sourceImageUrl": "https://eshop.fujifilm-x.com/media/wysiwyg/HL-XSeries-590/X-M5_Touchscreen-LCD.jpg",
+        "caption": "FUJIFILM X-M5 · 官方参考图",
+        "alt": "FUJIFILM X-M5官方场景或外观角度参考",
+        "credit": "Fujifilm · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "主图黑色、参考图银色，均为X-M5，不作为两个产品计数。"
+    ]
+  },
+  {
+    "id": "3dmakerpro-moose",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/3dmakerpro-moose/product.png",
+        "sourceUrl": "https://store.3dmakerpro.com/products/moose",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0563/9290/8869/files/Moose_627f8cd8-9952-4c17-b627-52bf65bdb019.webp?v=1775201860",
+        "caption": "3DMakerpro Moose · 官方产品图",
+        "alt": "3DMakerpro Moose官方外观产品图",
+        "credit": "3DMakerpro · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/3dmakerpro-moose/reference.png",
+        "sourceUrl": "https://store.3dmakerpro.com/products/moose",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0563/9290/8869/files/1000x1000-1_-2.png?v=1775201860",
+        "caption": "3DMakerpro Moose · 官方参考图",
+        "alt": "3DMakerpro Moose官方场景或外观角度参考",
+        "credit": "3DMakerpro · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "czur-et24-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/czur-et24-pro/product.jpg",
+        "sourceUrl": "https://shop.czur.com/products/etscanner",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0249/3140/1776/products/czur-et-scanner-professional-document-scanner-640218.jpg?v=1764921970",
+        "caption": "CZUR ET24 Pro · 官方产品图",
+        "alt": "CZUR ET24 Pro官方外观产品图",
+        "credit": "CZUR · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/czur-et24-pro/reference.png",
+        "sourceUrl": "https://www.czur.com/detail/news/241",
+        "sourceImageUrl": "https://abroad.czur.com/news/202204111037431403.png",
+        "caption": "CZUR ET24 Pro · 官方参考图",
+        "alt": "CZUR ET24 Pro官方场景或外观角度参考",
+        "credit": "CZUR · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "参考图来自ET24 Pro官方历史发布资料，仅用于外观核对，不作为当前销售证据。"
+    ]
+  },
+  {
+    "id": "bambu-lab-h2d",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/bambu-lab-h2d/product.jpg",
+        "sourceUrl": "https://us.store.bambulab.com/products/h2d",
+        "sourceImageUrl": "https://store.bblcdn.com/s7/default/b58fc9b7bcd148fd845feb15cac444a1/H2D.jpg",
+        "caption": "Bambu Lab H2D · 官方产品图",
+        "alt": "Bambu Lab H2D官方外观产品图",
+        "credit": "Bambu Lab · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/bambu-lab-h2d/reference.jpg",
+        "sourceUrl": "https://us.store.bambulab.com/products/h2d",
+        "sourceImageUrl": "https://store.bblcdn.com/s7/default/11f4bf65d80c4c2d9201d43f3f121bd8/6.jpg",
+        "caption": "Bambu Lab H2D · 官方参考图",
+        "alt": "Bambu Lab H2D官方场景或外观角度参考",
+        "credit": "Bambu Lab · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "参考图包含AMS及可选激光配置；基础H2D报价不包含全部展示附件。"
+    ]
+  },
+  {
+    "id": "elegoo-saturn4-ultra-16k",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/elegoo-saturn4-ultra-16k/product.jpg",
+        "sourceUrl": "https://us.elegoo.com/products/saturn-4-ultra-16k-10inch-monochrome-lcd-resin-3d-printer",
+        "sourceImageUrl": "https://us.elegoo.com/cdn/shop/files/S4U16K-_01_b0176288-f27d-4f4c-b922-84e67b87acae.jpg?v=1792635383",
+        "caption": "ELEGOO Saturn 4 Ultra 16K · 官方产品图",
+        "alt": "ELEGOO Saturn 4 Ultra 16K官方外观产品图",
+        "credit": "ELEGOO · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/elegoo-saturn4-ultra-16k/reference.jpg",
+        "sourceUrl": "https://us.elegoo.com/products/saturn-4-ultra-16k-10inch-monochrome-lcd-resin-3d-printer",
+        "sourceImageUrl": "https://us.elegoo.com/cdn/shop/files/AI_4k.jpg?v=1787636436",
+        "caption": "ELEGOO Saturn 4 Ultra 16K · 官方参考图",
+        "alt": "ELEGOO Saturn 4 Ultra 16K官方场景或外观角度参考",
+        "credit": "ELEGOO · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  }
+]

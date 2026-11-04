@@ -1,0 +1,230 @@
+[
+  {
+    "id": "dgt-centaur",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dgt-centaur/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "DGT Centaur的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/dgt-centaur.txt",
+        "referencePaths": [
+          "assets/hardware/dgt-centaur/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "particula-gochess-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/particula-gochess-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Particula GoChess Pro Modern的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/particula-gochess-pro.txt",
+        "referencePaths": [
+          "assets/hardware/particula-gochess-pro/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "millennium-king-performance",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/millennium-king-performance/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Millennium The King Performance的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/millennium-king-performance.txt",
+        "referencePaths": [
+          "assets/hardware/millennium-king-performance/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chessnut-move",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/chessnut-move/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Chessnut Move的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/chessnut-move.txt",
+        "referencePaths": [
+          "assets/hardware/chessnut-move/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "insta360-x5",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/insta360-x5/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Insta360 X5的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/insta360-x5.txt",
+        "referencePaths": [
+          "assets/hardware/insta360-x5/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "insta360-go-ultra",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/insta360-go-ultra/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Insta360 GO Ultra的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/insta360-go-ultra.txt",
+        "referencePaths": [
+          "assets/hardware/insta360-go-ultra/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "sony-zv-e1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/sony-zv-e1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Sony ZV-E1的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/sony-zv-e1.txt",
+        "referencePaths": [
+          "assets/hardware/sony-zv-e1/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "canon-powershot-v1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/canon-powershot-v1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Canon PowerShot V1的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/canon-powershot-v1.txt",
+        "referencePaths": [
+          "assets/hardware/canon-powershot-v1/product.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "nikon-z50ii",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/nikon-z50ii/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Nikon Z50II的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/nikon-z50ii.txt",
+        "referencePaths": [
+          "assets/hardware/nikon-z50ii/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "fujifilm-x-m5",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/fujifilm-x-m5/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "FUJIFILM X-M5的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/fujifilm-x-m5.txt",
+        "referencePaths": [
+          "assets/hardware/fujifilm-x-m5/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "bambu-lab-h2d",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/bambu-lab-h2d/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Bambu Lab H2D的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/bambu-lab-h2d.txt",
+        "referencePaths": [
+          "assets/hardware/bambu-lab-h2d/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "elegoo-saturn4-ultra-16k",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/elegoo-saturn4-ultra-16k/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ELEGOO Saturn 4 Ultra 16K的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/elegoo-saturn4-ultra-16k.txt",
+        "referencePaths": [
+          "assets/hardware/elegoo-saturn4-ultra-16k/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  }
+]

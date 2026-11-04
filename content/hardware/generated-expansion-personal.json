@@ -1,0 +1,1080 @@
+[
+  {
+    "id": "tonal-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tonal-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Tonal 2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/tonal-2.txt",
+        "referencePaths": [
+          "assets/hardware/tonal-2/product.webp",
+          "assets/hardware/tonal-2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "tempo-studio",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tempo-studio/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Tempo Studio的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/tempo-studio.txt",
+        "referencePaths": [
+          "assets/hardware/tempo-studio/product.webp",
+          "assets/hardware/tempo-studio/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "aeke-k1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/aeke-k1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "AEKE K1的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/aeke-k1.txt",
+        "referencePaths": [
+          "assets/hardware/aeke-k1/product.webp",
+          "assets/hardware/aeke-k1/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "speediance-gym-monster-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/speediance-gym-monster-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Speediance Gym Monster 2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/speediance-gym-monster-2.txt",
+        "referencePaths": [
+          "assets/hardware/speediance-gym-monster-2/product.webp",
+          "assets/hardware/speediance-gym-monster-2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "tempo-move",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tempo-move/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Tempo Move的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/tempo-move.txt",
+        "referencePaths": [
+          "assets/hardware/tempo-move/product.webp",
+          "assets/hardware/tempo-move/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "peloton-cross-training-bike-plus",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/peloton-cross-training-bike-plus/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Peloton Cross Training Bike+的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/peloton-cross-training-bike-plus.txt",
+        "referencePaths": [
+          "assets/hardware/peloton-cross-training-bike-plus/product.webp",
+          "assets/hardware/peloton-cross-training-bike-plus/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "form-smart-swim-2-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/form-smart-swim-2-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "FORM Smart Swim 2 PRO的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/form-smart-swim-2-pro.txt",
+        "referencePaths": [
+          "assets/hardware/form-smart-swim-2-pro/product.webp",
+          "assets/hardware/form-smart-swim-2-pro/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "peloton-cross-training-row-plus",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/peloton-cross-training-row-plus/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Peloton Cross Training Row+的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/peloton-cross-training-row-plus.txt",
+        "referencePaths": [
+          "assets/hardware/peloton-cross-training-row-plus/product.webp",
+          "assets/hardware/peloton-cross-training-row-plus/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "peloton-tread-plus-vision",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/peloton-tread-plus-vision/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Peloton Tread+ Vision的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/peloton-tread-plus-vision.txt",
+        "referencePaths": [
+          "assets/hardware/peloton-tread-plus-vision/product.webp",
+          "assets/hardware/peloton-tread-plus-vision/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "playermaker-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/playermaker-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Playermaker 2.0的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/playermaker-2.txt",
+        "referencePaths": [
+          "assets/hardware/playermaker-2/product.webp",
+          "assets/hardware/playermaker-2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "oticon-own-si",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/oticon-own-si/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Oticon Own SI的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/oticon-own-si.txt",
+        "referencePaths": [
+          "assets/hardware/oticon-own-si/product.webp",
+          "assets/hardware/oticon-own-si/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "starkey-edge-ai",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/starkey-edge-ai/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Starkey Edge AI的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/starkey-edge-ai.txt",
+        "referencePaths": [
+          "assets/hardware/starkey-edge-ai/product.jpg",
+          "assets/hardware/starkey-edge-ai/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "phonak-audeo-eon-sphere",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/phonak-audeo-eon-sphere/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Phonak Audéo EON Sphere的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/phonak-audeo-eon-sphere.txt",
+        "referencePaths": [
+          "assets/hardware/phonak-audeo-eon-sphere/product.webp",
+          "assets/hardware/phonak-audeo-eon-sphere/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "oticon-intent",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/oticon-intent/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Oticon Intent的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/oticon-intent.txt",
+        "referencePaths": [
+          "assets/hardware/oticon-intent/product.webp",
+          "assets/hardware/oticon-intent/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "phonak-virto-r-infinio",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/phonak-virto-r-infinio/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Phonak Virto R Infinio的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/phonak-virto-r-infinio.txt",
+        "referencePaths": [
+          "assets/hardware/phonak-virto-r-infinio/product.webp",
+          "assets/hardware/phonak-virto-r-infinio/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "resound-vivia",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/resound-vivia/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ReSound Vivia的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/resound-vivia.txt",
+        "referencePaths": [
+          "assets/hardware/resound-vivia/product.png",
+          "assets/hardware/resound-vivia/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "starkey-omega-ai-plus",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/starkey-omega-ai-plus/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Starkey Omega AI+的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/starkey-omega-ai-plus.txt",
+        "referencePaths": [
+          "assets/hardware/starkey-omega-ai-plus/product.png",
+          "assets/hardware/starkey-omega-ai-plus/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "signia-active-pro-ix",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/signia-active-pro-ix/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Signia Active Pro IX的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/signia-active-pro-ix.txt",
+        "referencePaths": [
+          "assets/hardware/signia-active-pro-ix/product.jpg",
+          "assets/hardware/signia-active-pro-ix/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "signia-pure-charge-go-ix",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/signia-pure-charge-go-ix/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Signia Pure Charge&Go IX的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/signia-pure-charge-go-ix.txt",
+        "referencePaths": [
+          "assets/hardware/signia-pure-charge-go-ix/product.jpg",
+          "assets/hardware/signia-pure-charge-go-ix/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "widex-allure-ric",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/widex-allure-ric/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Widex Allure RIC R D的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/widex-allure-ric.txt",
+        "referencePaths": [
+          "assets/hardware/widex-allure-ric/product.jpg",
+          "assets/hardware/widex-allure-ric/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "elehear-beyond-2-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/elehear-beyond-2-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ELEHEAR Beyond 2 Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/elehear-beyond-2-pro.txt",
+        "referencePaths": [
+          "assets/hardware/elehear-beyond-2-pro/product.webp",
+          "assets/hardware/elehear-beyond-2-pro/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "elehear-delight",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/elehear-delight/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ELEHEAR Delight的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/elehear-delight.txt",
+        "referencePaths": [
+          "assets/hardware/elehear-delight/product.webp",
+          "assets/hardware/elehear-delight/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "wewalk-smart-cane-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/wewalk-smart-cane-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "WeWALK Smart Cane 2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/wewalk-smart-cane-2.txt",
+        "referencePaths": [
+          "assets/hardware/wewalk-smart-cane-2/product.png",
+          "assets/hardware/wewalk-smart-cane-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "orcam-myeye-3-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/orcam-myeye-3-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "OrCam MyEye 3 Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/orcam-myeye-3-pro.txt",
+        "referencePaths": [
+          "assets/hardware/orcam-myeye-3-pro/product.png",
+          "assets/hardware/orcam-myeye-3-pro/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "orcam-read-5",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/orcam-read-5/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "OrCam Read 5的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/orcam-read-5.txt",
+        "referencePaths": [
+          "assets/hardware/orcam-read-5/product.png",
+          "assets/hardware/orcam-read-5/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "cpen-reader-3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/cpen-reader-3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "C-Pen Reader 3的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/cpen-reader-3.txt",
+        "referencePaths": [
+          "assets/hardware/cpen-reader-3/product.webp",
+          "assets/hardware/cpen-reader-3/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "cpen-reader-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/cpen-reader-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "C-Pen Reader 2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/cpen-reader-2.txt",
+        "referencePaths": [
+          "assets/hardware/cpen-reader-2/product.webp",
+          "assets/hardware/cpen-reader-2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "rayneo-io",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/rayneo-io/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "RayNeo iO的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/rayneo-io.txt",
+        "referencePaths": [
+          "assets/hardware/rayneo-io/product.webp",
+          "assets/hardware/rayneo-io/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "rayneo-x3-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/rayneo-x3-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "RayNeo X3 Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/rayneo-x3-pro.txt",
+        "referencePaths": [
+          "assets/hardware/rayneo-x3-pro/product.webp",
+          "assets/hardware/rayneo-x3-pro/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "xiaomi-ai-glasses",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/xiaomi-ai-glasses/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "小米 AI 眼镜的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/xiaomi-ai-glasses.txt",
+        "referencePaths": [
+          "assets/hardware/xiaomi-ai-glasses/product.png",
+          "assets/hardware/xiaomi-ai-glasses/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "brilliant-halo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/brilliant-halo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Brilliant Labs Halo的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/brilliant-halo.txt",
+        "referencePaths": [
+          "assets/hardware/brilliant-halo/product.webp",
+          "assets/hardware/brilliant-halo/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "halliday-g2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/halliday-g2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Halliday G2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/halliday-g2.txt",
+        "referencePaths": [
+          "assets/hardware/halliday-g2/product.webp",
+          "assets/hardware/halliday-g2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "pongbot-pace-s-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/pongbot-pace-s-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "PONGBOT Pace S Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/pongbot-pace-s-pro.txt",
+        "referencePaths": [
+          "assets/hardware/pongbot-pace-s-pro/product.webp",
+          "assets/hardware/pongbot-pace-s-pro/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "ringconn-gen-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ringconn-gen-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "RingConn Gen 2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ringconn-gen-2.txt",
+        "referencePaths": [
+          "assets/hardware/ringconn-gen-2/product.webp",
+          "assets/hardware/ringconn-gen-2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "amazfit-active-2-round",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/amazfit-active-2-round/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Amazfit Active 2 (Round)的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/amazfit-active-2-round.txt",
+        "referencePaths": [
+          "assets/hardware/amazfit-active-2-round/product.webp",
+          "assets/hardware/amazfit-active-2-round/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "circular-ring-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/circular-ring-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Circular Ring 2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/circular-ring-2.txt",
+        "referencePaths": [
+          "assets/hardware/circular-ring-2/product.webp",
+          "assets/hardware/circular-ring-2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "amazfit-t-rex-3-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/amazfit-t-rex-3-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Amazfit T-Rex 3 Pro的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/amazfit-t-rex-3-pro.txt",
+        "referencePaths": [
+          "assets/hardware/amazfit-t-rex-3-pro/product.webp",
+          "assets/hardware/amazfit-t-rex-3-pro/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "tennibot-partner-v2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tennibot-partner-v2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Tennibot Partner V2的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/tennibot-partner-v2.txt",
+        "referencePaths": [
+          "assets/hardware/tennibot-partner-v2/product.webp",
+          "assets/hardware/tennibot-partner-v2/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "tennibot-partner-lite",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tennibot-partner-lite/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Tennibot Partner Lite的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/tennibot-partner-lite.txt",
+        "referencePaths": [
+          "assets/hardware/tennibot-partner-lite/product.webp",
+          "assets/hardware/tennibot-partner-lite/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "oxefit-xs1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/oxefit-xs1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "OxeFit XS1的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/oxefit-xs1.txt",
+        "referencePaths": [
+          "assets/hardware/oxefit-xs1/product.webp",
+          "assets/hardware/oxefit-xs1/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "hidock-h1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/hidock-h1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "HiDock H1的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/hidock-h1.txt",
+        "referencePaths": [
+          "assets/hardware/hidock-h1/product.webp",
+          "assets/hardware/hidock-h1/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "tennibot-rover",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tennibot-rover/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Tennibot Rover的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/tennibot-rover.txt",
+        "referencePaths": [
+          "assets/hardware/tennibot-rover/product.webp",
+          "assets/hardware/tennibot-rover/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "viaim-notekit",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/viaim-notekit/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "viaim NoteKit的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/viaim-notekit.txt",
+        "referencePaths": [
+          "assets/hardware/viaim-notekit/product.webp",
+          "assets/hardware/viaim-notekit/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "soundcore-work",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/soundcore-work/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Anker soundcore Work的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/soundcore-work.txt",
+        "referencePaths": [
+          "assets/hardware/soundcore-work/product.webp",
+          "assets/hardware/soundcore-work/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "viaim-recdot",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/viaim-recdot/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "viaim RecDot的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/viaim-recdot.txt",
+        "referencePaths": [
+          "assets/hardware/viaim-recdot/product.webp",
+          "assets/hardware/viaim-recdot/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "viaim-opennote",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/viaim-opennote/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "viaim OpenNote的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/viaim-opennote.txt",
+        "referencePaths": [
+          "assets/hardware/viaim-opennote/product.webp",
+          "assets/hardware/viaim-opennote/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "hidock-p1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/hidock-p1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "HiDock P1的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/hidock-p1.txt",
+        "referencePaths": [
+          "assets/hardware/hidock-p1/product.webp",
+          "assets/hardware/hidock-p1/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "ticnote-pods-wifi",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ticnote-pods-wifi/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Mobvoi TicNote Pods WiFi的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ticnote-pods-wifi.txt",
+        "referencePaths": [
+          "assets/hardware/ticnote-pods-wifi/product.webp",
+          "assets/hardware/ticnote-pods-wifi/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  },
+  {
+    "id": "ticnote-watch",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ticnote-watch/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Mobvoi TicNote Watch的AI概念爆炸示意，展示简化功能模块而非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ticnote-watch.txt",
+        "referencePaths": [
+          "assets/hardware/ticnote-watch/product.webp",
+          "assets/hardware/ticnote-watch/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "外形依据核验参考图；内部位置、模块形状与装配关系仅作AI概念展示。"
+    ]
+  }
+]

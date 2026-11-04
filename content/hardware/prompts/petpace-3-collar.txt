@@ -1,0 +1,8 @@
+Use case: infographic-diagram. Create an accurate-looking but explicitly CONCEPTUAL exploded functional illustration of one PetPace 3.0, for a consumer hardware research directory.
+The input photos are official exterior and usage references, NOT teardown evidence. Preserve the exact recognizable product silhouette and generation. Focus on ONE device; omit bundle duplicates, phones, animals, people, warranty badges and promotional scenery.
+White background, restrained neutral grayscale industrial rendering, thin alignment leader lines, generous space, clear module separation, small assembled exterior reference in lower right. Landscape 4:3. Use short English functional labels only.
+Known public function: 传感数据经AI产生健康趋势、活动和状态洞察，供主人与兽医复核；本目录不将算法评分当作诊断或治疗效果。
+Functional layers: 佩戴: 项圈结构与接触条件。 (official) | 传感: 公开体征及活动传感能力。 (official) | AI洞察: 趋势、评分与异常提示，需复核。 (official) | 连接: 无线、App与服务方案。 (official) | 照护协作: 主人与兽医查看数据的工作流。 (official).
+Unknown internal structure must be smooth generic functional blocks labelled CONCEPT. Do not invent real PCB traces, chip names, exact internal locations, connector counts, batteries or sensor models. Software and cloud services must be separate schematic callouts outside the physical device. Do not depict any unverified internal position as actual engineering.
+Do not add specifications, numeric performance, capacities, clinical accuracy, chip part numbers, suction power or marketing claims not explicitly supplied. Do not claim medical diagnosis or health improvement. Prefer a small set of clearly readable modules over decorative detail. No futuristic glow or colorful circuitry.
+Title exactly: "PetPace 3.0". Subtitle: "FUNCTIONAL CONCEPT". Footer exactly and clearly readable: "AI CONCEPT · NOT A TEARDOWN".

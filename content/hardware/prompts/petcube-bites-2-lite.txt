@@ -1,0 +1,8 @@
+Use case: infographic-diagram. Create an accurate-looking but explicitly CONCEPTUAL exploded functional illustration of one Petcube Bites 2 Lite, for a consumer hardware research directory.
+The input photos are official exterior and usage references, NOT teardown evidence. Preserve the exact recognizable product silhouette and generation. Focus on ONE device; omit bundle duplicates, phones, animals, people, warranty badges and promotional scenery.
+White background, restrained neutral grayscale industrial rendering, thin alignment leader lines, generous space, clear module separation, small assembled exterior reference in lower right. Landscape 4:3. Use short English functional labels only.
+Known public function: 结合Care进行人宠区分与声音事件提醒；相机观察和投零食机构提供实体交互，定时投食本身不算AI。
+Functional layers: 采集: 相机、夜视和音频观察。 (official) | AI识别: Care人宠与声音事件理解。 (official) | 分发: 料仓与投零食机构。 (official) | 交互: 手机控制、双向音频及安装。 (official) | 云历史: 订阅历史、通知与账号权限。 (official).
+Unknown internal structure must be smooth generic functional blocks labelled CONCEPT. Do not invent real PCB traces, chip names, exact internal locations, connector counts, batteries or sensor models. Software and cloud services must be separate schematic callouts outside the physical device. Do not depict any unverified internal position as actual engineering.
+Do not add specifications, numeric performance, capacities, clinical accuracy, chip part numbers, suction power or marketing claims not explicitly supplied. Do not claim medical diagnosis or health improvement. Prefer a small set of clearly readable modules over decorative detail. No futuristic glow or colorful circuitry.
+Title exactly: "Petcube Bites 2 Lite". Subtitle: "FUNCTIONAL CONCEPT". Footer exactly and clearly readable: "AI CONCEPT · NOT A TEARDOWN".

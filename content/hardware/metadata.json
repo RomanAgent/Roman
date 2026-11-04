@@ -1,31 +1,209 @@
 {
-  "title": "AI 智能硬件市场目录",
-  "edition": "2026.11 / 第一轮研究",
+  "title": "C端 AI 智能硬件市场目录",
+  "edition": "2026.11 / 消费市场扩展",
   "checkedAt": "2026-11-04",
-  "scope": "全球市场，按具体型号或产品系列收录，单独标注中国大陆购买与服务限制。首轮是可追溯的代表性产品研究，不是全球全部 SKU 的穷尽清单。",
-  "methodology": "销售状态以核查日可读取的官方商店、订购入口及交付说明为依据；未完成支付或实际收货验证。产品页存在本身不代表现货，地区库存冲突归入待复核。",
+  "scope": "面向个人、家庭和个人创作者的全球消费级 AI 硬件，包含公开销售、验配销售和可付费预订的产品。不同颜色、容量与同款套装合并，企业专用设备及纯开发板移入专业档案。",
+  "methodology": "以核查日官方商店、消费购买/验配渠道与交付说明核验状态。C端身份依据最终个人/家庭使用场景及消费渠道，不因价格高或需要安装而自动排除。纯APP、无电子的识别道具、企业专用设备、普通自动化、只有发布或候补名单的项目不计入200款可购目标。",
   "analysisNote": "分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。",
   "categories": [
-    {"id":"glasses","name":"AI 眼镜","description":"视觉理解、显示与随身助手","group":"个人设备"},
-    {"id":"recording","name":"录音与记忆","description":"会议、转写与个人知识记录","group":"个人设备"},
-    {"id":"audio","name":"翻译与音频","description":"跨语言对话与语音交互","group":"个人设备"},
-    {"id":"wearables","name":"健康与穿戴","description":"运动、睡眠与健康信息解读","group":"个人设备"},
-    {"id":"computing","name":"手机与 AI PC","description":"通用终端上的个人智能能力","group":"个人设备"},
-    {"id":"companion","name":"陪伴与宠物","description":"情感交互、桌面与家庭机器人","group":"家庭与生活"},
-    {"id":"education","name":"教育与学习","description":"阅读、辅导与学习交互","group":"家庭与生活"},
-    {"id":"home-security","name":"家庭安防","description":"门铃、摄像头与事件识别","group":"家庭与生活"},
-    {"id":"cleaning","name":"清洁机器人","description":"环境识别、避障与自主清洁","group":"家庭与生活"},
-    {"id":"garden","name":"庭院与自然","description":"割草、户外感知与物种识别","group":"家庭与生活"},
-    {"id":"kitchen","name":"厨房与烹饪","description":"食材识别、温控与烹饪辅助","group":"家庭与生活"},
-    {"id":"imaging","name":"影像与创作","description":"自动构图、跟拍与内容制作","group":"生产与开发"},
-    {"id":"robotics","name":"具身机器人","description":"人形、四足与可编程实体交互","group":"生产与开发"},
-    {"id":"maker","name":"开发与制造","description":"边缘算力、开发套件与制造工具","group":"生产与开发"}
+    {
+      "id": "glasses",
+      "name": "AI 眼镜",
+      "description": "视觉理解、显示与随身助手",
+      "group": "个人设备"
+    },
+    {
+      "id": "recording",
+      "name": "录音与记忆",
+      "description": "会议、转写与个人知识记录",
+      "group": "个人设备"
+    },
+    {
+      "id": "audio",
+      "name": "翻译与音频",
+      "description": "跨语言对话与语音交互",
+      "group": "个人设备"
+    },
+    {
+      "id": "wearables",
+      "name": "健康与穿戴",
+      "description": "运动、睡眠与健康信息解读",
+      "group": "健康与运动"
+    },
+    {
+      "id": "computing",
+      "name": "手机与 AI PC",
+      "description": "通用终端上的个人智能能力",
+      "group": "个人设备"
+    },
+    {
+      "id": "companion",
+      "name": "陪伴与宠物",
+      "description": "情感交互、桌面与家庭机器人",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "education",
+      "name": "教育与学习",
+      "description": "阅读、辅导与学习交互",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "home-security",
+      "name": "家庭安防",
+      "description": "门铃、摄像头与事件识别",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "cleaning",
+      "name": "清洁机器人",
+      "description": "环境识别、避障与自主清洁",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "garden",
+      "name": "庭院与自然",
+      "description": "割草、户外感知与物种识别",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "kitchen",
+      "name": "厨房与烹饪",
+      "description": "食材识别、温控与烹饪辅助",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "imaging",
+      "name": "影像与创作",
+      "description": "自动构图、跟拍与内容制作",
+      "group": "创作与兴趣"
+    },
+    {
+      "id": "robotics",
+      "name": "消费机器人",
+      "description": "个人娱乐、互动与兴趣用途的实体机器人",
+      "group": "创作与兴趣"
+    },
+    {
+      "id": "maker",
+      "name": "创客与小型制造",
+      "description": "个人可购买使用的AI创作和制造工具",
+      "group": "创作与兴趣"
+    },
+    {
+      "id": "accessibility",
+      "name": "无障碍与辅助沟通",
+      "description": "阅读、视觉与行动辅助",
+      "group": "个人设备"
+    },
+    {
+      "id": "hearing",
+      "name": "助听与听力",
+      "description": "个人消费或验配型AI助听设备",
+      "group": "健康与运动"
+    },
+    {
+      "id": "sports",
+      "name": "运动与训练",
+      "description": "家庭健身、运动记录与AI训练",
+      "group": "健康与运动"
+    },
+    {
+      "id": "sleep",
+      "name": "睡眠与放松",
+      "description": "家用睡眠、脑电与温控交互",
+      "group": "健康与运动"
+    },
+    {
+      "id": "health-home",
+      "name": "居家健康",
+      "description": "个人家庭健康信息采集与AI解读",
+      "group": "健康与运动"
+    },
+    {
+      "id": "personal-care",
+      "name": "护理与美容",
+      "description": "口腔、剃须与个性化护理",
+      "group": "健康与运动"
+    },
+    {
+      "id": "pet-care",
+      "name": "宠物照护",
+      "description": "喂养、观察、清洁和宠物状态识别",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "home-assistant",
+      "name": "家庭助手",
+      "description": "语音终端、屏幕与家庭智能交互",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "home-energy",
+      "name": "家庭能源",
+      "description": "家庭电力识别、储能与优化",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "home-safety",
+      "name": "家居安全",
+      "description": "风险识别、跌倒与家用感知",
+      "group": "家庭与生活"
+    },
+    {
+      "id": "music",
+      "name": "音乐与乐器",
+      "description": "AI音色、练习反馈与音乐创作",
+      "group": "创作与兴趣"
+    },
+    {
+      "id": "creative-tools",
+      "name": "专业兴趣工具",
+      "description": "面向个人创作者的AI实体工具",
+      "group": "创作与兴趣"
+    },
+    {
+      "id": "drones",
+      "name": "飞行影像",
+      "description": "消费无人机与自主跟拍",
+      "group": "户外与兴趣"
+    },
+    {
+      "id": "gimbals",
+      "name": "智能云台",
+      "description": "手机与相机的AI跟踪云台",
+      "group": "户外与兴趣"
+    },
+    {
+      "id": "games",
+      "name": "游戏与桌游",
+      "description": "实体AI对弈与游戏交互",
+      "group": "创作与兴趣"
+    }
   ],
   "coverageBacklog": [
-    {"category":"工业与商业设备","note":"工业机械臂、仓储 AMR、商用服务机器人、农业自动化：大量为询价制，尚未逐个核验可交付配置。"},
-    {"category":"医疗与辅助设备","note":"助听、康复、医疗影像与无障碍设备：需补充地区准入、临床或性能证据，不能依据AI宣传推导疗效。"},
-    {"category":"汽车、无人机与出行","note":"车辆辅助驾驶、消费无人机、骑行与运动相机：首轮尚未全量展开车型、软件包及地区差异。"},
-    {"category":"手机、电脑、电视与家电长尾","note":"首轮仅收代表性终端；不同配置、地区 SKU 和传统AI家电未逐款穷尽。"},
-    {"category":"众筹与预售长尾","note":"未能确认仍可付款预订、交付地区与时间的项目，不进入已核查在售／预售清单。"}
-  ]
+    {
+      "category": "地区与版本长尾",
+      "note": "保留地区、语言、售后与交付差异，不按颜色、容量或同款套装重复计数。"
+    },
+    {
+      "category": "用户与供应链实证",
+      "note": "尚未开展实物拆机、销量审计和用户访谈；公开资料与需求假设保持区分。"
+    },
+    {
+      "category": "消费适配边界",
+      "note": "医疗/助听类只收个人最终使用且有消费或验配渠道的设备，不能将厂商效果宣称当临床验证。"
+    }
+  ],
+  "target": {
+    "minimumAvailableConsumerProducts": 200,
+    "countedStatuses": [
+      "on_sale",
+      "preorder"
+    ],
+    "countedAudiences": [
+      "consumer",
+      "prosumer"
+    ]
+  }
 }

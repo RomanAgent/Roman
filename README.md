@@ -20,7 +20,7 @@
 | --- | --- | --- |
 | **01 · 行业 AI 历程** | 技术演进、关键节点与值得继续追问的问题 | 有一手资料来源的历史时间线，以及行业观察编辑初稿 |
 | **02 · 我的创业经历** | 每段经历的背景、选择、行动、结果与复盘 | 序章编辑初稿、经历填写模板，等待真实材料逐篇补充 |
-| **03 · 智能硬件方向** | 面向具体使用场景的想法、问题与后续验证 | 全球市场目录：60款 / 系列、14类、逐款八维分析与产品对比 |
+| **03 · 智能硬件方向** | 面向具体使用场景的想法、问题与后续验证 | 全球C端市场目录：203款可购产品、28类、逐款八维分析与产品对比 |
 
 ## 01 · 行业 AI 历程
 
@@ -57,26 +57,26 @@
 
 [阅读全文](docs/journal.md) · [开始提交一段经历](content/journey-template.md)
 
-## 03 · AI 智能硬件市场目录
+## 03 · C端 AI 智能硬件市场目录
 
-[打开市场目录](https://romanagent.github.io/Roman/#hardware) · [GitHub 分类阅读版](docs/hardware-market.md) · [市场横向观察](docs/hardware-market-insights.md) · [研究方法](docs/hardware-methodology.md) · [180张图像与生成记录](docs/hardware-media-index.md)
+[打开市场目录](https://romanagent.github.io/Roman/#hardware) · [GitHub 分类阅读版](docs/hardware-market.md) · [市场横向观察](docs/hardware-market-insights.md) · [研究方法](docs/hardware-methodology.md) · [633张图像与生成记录](docs/hardware-media-index.md)
 
-[![市场目录界面](assets/hardware-preview.jpg)](https://romanagent.github.io/Roman/#hardware)
+[![市场目录界面](assets/hardware-consumer-preview.png)](https://romanagent.github.io/Roman/#hardware)
 
-首轮核查 **60 款 / 系列、14 个分类**，核查日期 **2026-11-04**。其中 48 款有官方在售依据、3 款接受预订或延期订单、8 款待复核、1 款停售观察。默认网页只显示在售与预售 / 延期订单；地区库存、型号与交付条件保留在详情中。
+本轮收录 **211 款消费产品 / 系列、28 个分类**，核查日期 **2026-11-04**。其中 **203 款可购产品：199 款在售、4 款预售 / 延期交付**；另有 7 款待复核、1 款停售观察，不计入200款目标。默认网页只显示可购产品；地区库存、个人验配渠道和交付条件保留在详情中。
 
-覆盖 AI 眼镜、录音与记忆、翻译音频、健康穿戴、手机与 AI PC、陪伴宠物、教育学习、家庭安防、清洁机器人、庭院自然、厨房烹饪、影像创作、具身机器人、开发与制造。
+覆盖个人、家庭与个人创作者可购买的AI硬件，扩展了无障碍辅助、助听、睡眠、运动训练、宠物照护、观鸟、家庭能源、音乐乐器与实体对弈等细分场景。85款标为“细分专业”，这是定性判断，不代表蓝海。4款原有开发或科研设备移入[专业档案](docs/hardware-professional-archive.md)，不计入消费目录。
 
 - 每款包含需求、用户画像、竞争、供应链、技术、审美、风险、市场空间八项案头分析。
-- 支持产品 / 品牌 / AI能力搜索，销售状态、国内购买情况、竞争类型和AI类型筛选。
+- 支持产品 / 品牌 / AI能力搜索，销售状态、国内购买情况、竞争类型和AI类型筛选；每页24款，可切换结果页和直接进入细分场景。
 - 最多三款产品横向对比；可导出当前筛选结果的完整研究 JSON。
 - 每款均有真实产品图、参考图及单独生成的 AI 爆炸示意；来源和图像类型明确标注，支持切换、放大和打开原图。
 - AI 爆炸示意由内置 ImageGen 生成，内部未知部分为概念推断，不是实际拆机或精确 BOM；生成提示词与引用图片一并保存。
 - 内容可直接在 GitHub 阅读，无需打开网站。
 
-[![产品视觉档案与AI示意](assets/hardware-gallery-preview.jpg)](https://romanagent.github.io/Roman/#hardware/product/reachy-mini-wireless)
+[![产品视觉档案与AI示意](assets/hardware-consumer-gallery.png)](https://romanagent.github.io/Roman/#hardware/product/elemind-sleep-headband)
 
-**边界：这是首轮代表性案头研究，不是全球全部 SKU 的穷尽清单。** 未开展用户访谈、销量审计或实物测试；“细分专业”不等于蓝海。厂商声明、资料事实与分析推断分开标注，不虚构未披露供应商、BOM 成本或成功概率。
+**边界：这是消费市场案头研究，不是全球全部 SKU 的穷尽清单。** 未开展用户访谈、销量审计或实物测试；“细分专业”不等于蓝海。厂商声明、资料事实与分析推断分开标注，不虚构未披露供应商、BOM 成本或成功概率。
 
 Idea 投稿与在线 AI 分析按当前要求暂缓。
 
@@ -119,6 +119,7 @@ node scripts/export-content.mjs
 npm run catalog
 npm run check
 npm run media:check
+npm run target:check
 ```
 
 将修改后的 JSON 和生成的 Markdown 一起提交。网页读取 JSON，GitHub 直接展示 Markdown，两种阅读方式保持相同的正文与资料来源。

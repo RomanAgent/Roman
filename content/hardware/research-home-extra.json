@@ -91,7 +91,9 @@
         "note": "已打开；明确AI监控/校准相机和LAN控制；云功能表述应按当前固件再核对。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
   },
   {
     "id": "swarovski-ax-visio",
@@ -197,6 +199,8 @@
         "note": "已打开；说明API可访问显示、传感器、相机图像与视频流。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

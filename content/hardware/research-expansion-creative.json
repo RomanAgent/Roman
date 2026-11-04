@@ -1,0 +1,3855 @@
+[
+  {
+    "id": "positive-grid-spark-2",
+    "name": "Positive Grid Spark 2",
+    "brand": "Positive Grid",
+    "category": "music",
+    "audience": "consumer",
+    "tagline": "将文字音色描述与居家练琴音箱连接",
+    "officialUrl": "https://www.positivegrid.com/products/spark-2",
+    "statusEvidence": "官方商品页列价格和配送；页面结构化商品数据将标准款标为InStock。核查的是标准Spark 2，不重复计颜色或翻新款。",
+    "regions": [
+      "美国官网"
+    ],
+    "price": {
+      "text": "标准款官网 US$244",
+      "note": "所见促销快照；颜色、翻新SKU、税费及配送不同，按当前结算确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Spark App可按文字描述匹配音色，并以Smart Jam分析演奏提供伴奏；不是将普通音箱放大或每种DSP效果都称为AI。",
+      "dependency": "智能音色与伴奏功能依赖兼容手机、Spark App及账户，音箱本地音效播放与云端匹配应分开理解。"
+    },
+    "highlights": [
+      "自然语言音色匹配",
+      "跟随演奏的智能伴奏",
+      "桌面练琴与循环录音"
+    ],
+    "analysis": {
+      "demand": "需求假设：家中练琴者希望更快找到某首歌的感觉，减少反复调旋钮的时间。应比较从描述到愿意保留的音色需要几轮修改，并观察智能伴奏是否增加真实练习时长，而不是只看首次演示。",
+      "userProfile": "画像推断：已有电吉他、在居家空间练习且愿意配合手机操作的人较匹配。对专业现场音量或完全脱离应用的要求应另行评估，初学者还需要能理解音量、增益和听力保护的基本使用方式。",
+      "competition": "竞争判断：居家数字练琴音箱已有多品牌，手机音效软件加音频接口也能替代部分功能。此款的差异是音箱、手机音色匹配与伴奏流程连贯，不代表接入自然语言后就形成没有竞争的新品类。",
+      "supplyChain": "供应链推断：扬声器、音频转换、功放、旋钮和外壳需要共同控制底噪与一致性。官方本轮未披露整机工厂及完整物料清单；可选电池、固件维护和应用支持也属于长期交付的一部分。",
+      "technology": "官方说明文字音色匹配和跟随演奏的伴奏能力。技术判断应将语言匹配、伴奏分析和本地音效处理分开测试；匹配到一个社区预设与生成全新音频不是同一件事，不能混用宣传术语。",
+      "aesthetics": "审美判断：传统音箱比例和织物面网适合放在居家书桌或乐器角，实体旋钮保留直觉操作。手机仍是部分功能入口，线缆、摆位和通知干扰会影响整体体验，不能只凭产品照片评估便利性。",
+      "risks": "风险判断：云端匹配、账户或应用变化可能影响智能功能，演奏录音还需注意个人内容的处理方式。预设之间音量和增益可能不同，应人工试听；官方音色形容不构成对音质或学习效果的保证。",
+      "opportunity": "市场观察：它更适合与现有练琴流程比较，而非按模型名称排列高低。后续验证可记录每次找音色的耗时、修改次数和实际练习频率，确定智能功能是否解决了经常发生的问题。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "居家练琴设备竞争充分，语言音色匹配是流程差异。"
+    },
+    "architecture": [
+      {
+        "name": "演奏输入",
+        "detail": "吉他信号进入音箱与练习流程。",
+        "evidence": "official"
+      },
+      {
+        "name": "智能应用",
+        "detail": "文字音色匹配和Smart Jam在Spark应用中呈现。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地声音处理",
+        "detail": "已选音色与效果由音箱音频系统播放。",
+        "evidence": "official"
+      },
+      {
+        "name": "声学反馈",
+        "detail": "扬声器和实体控制形成练琴反馈。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Spark 2官方商店",
+        "url": "https://www.positivegrid.com/products/spark-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开；结构化商品Offer为InStock。"
+      },
+      {
+        "title": "Spark App官方能力",
+        "url": "https://www.positivegrid.com/pages/spark-app",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，说明文字匹配音色与Smart Jam，不声称全部端侧运行。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "positive-grid-spark-neo",
+    "name": "Positive Grid Spark NEO",
+    "brand": "Positive Grid",
+    "category": "music",
+    "audience": "consumer",
+    "tagline": "将AI音色探索放进安静练琴的耳机形态",
+    "officialUrl": "https://www.positivegrid.com/products/spark-neo",
+    "statusEvidence": "官方商品页显示US$174及预计配送，结构化商品Offer为InStock；本条仅计原Spark NEO，不重复计其他颜色或套装。",
+    "regions": [
+      "美国官网"
+    ],
+    "price": {
+      "text": "官网 US$174",
+      "note": "促销快照，实际含税金额和配送以官方结算为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "耳机连接Spark App进行AI音色探索、练习与伴奏；AI用于音色选择及练习流程，耳机声学驱动本身不是生成模型。",
+      "dependency": "需手机Spark App及账户访问AI功能；无线乐器连接与应用音频功能的条件不同，应按手册核对。"
+    },
+    "highlights": [
+      "安静练琴耳机形态",
+      "无线乐器连接",
+      "Spark应用中的AI音色功能"
+    ],
+    "analysis": {
+      "demand": "需求假设：共享住宅或夜间练琴的人需要不外放的完整吉他音色，并希望快速尝试不同风格。应验证无线准备步骤、佩戴时间和找音色效率是否优于普通耳机加接口，不能仅以小体积推定方便。",
+      "userProfile": "画像推断：有电吉他且需要安静练习的学生、租住者及旅行乐手较匹配。耳机同时承担乐器监听和日常听音，但头部尺寸、眼镜、耳压与佩戴时间会改变接受度，需通过试戴具体确认。",
+      "competition": "竞争判断：普通监听耳机搭配小型耳放、无线吉他系统和手机音效应用都构成替代。耳机一体化属于明确场景，但已有同类个人监听产品，不能将无线与AI两个标签叠加后称为蓝海。",
+      "supplyChain": "供应链推断：耳机声学单元、无线接收、头梁转轴与电池需要同时兼顾延迟和舒适。官方未公开完整工厂和成本资料，耳垫磨损、无线配对及固件兼容将影响长期维护与用户退换。",
+      "technology": "官方将智能音箱技术和应用AI功能放入耳机使用流程。技术判断应分别测试无线链路、音色参数和应用匹配，耳机播放模型化声音并不意味着所有语言理解都在耳机内部完成。",
+      "aesthetics": "审美判断：封闭式耳机外形让产品自然融入居家和差旅场景，也减少音箱与线缆的可见负担。头梁、耳罩和无线发射器仍需形成一致体验，外观简洁不能替代长时佩戴和收纳实测。",
+      "risks": "风险判断：无线环境与手机后台限制可能影响连接，AI音色也可能出现不合预期的增益。听音音量、长时佩戴以及账户功能变化应纳入评估，不能把语义推荐当作适合每个人的声学结论。",
+      "opportunity": "市场观察：本款与桌面Spark音箱的区别是个人安静监听，而非颜色或容量变化。比较时应记录练习地点、连接成功率和连续佩戴时间，明确一体式耳机是否比已有分体方案省事。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "安静吉他练习较聚焦，但普通耳机与小型耳放替代明确。"
+    },
+    "architecture": [
+      {
+        "name": "乐器连接",
+        "detail": "无线乐器输入进入个人监听链路。",
+        "evidence": "official"
+      },
+      {
+        "name": "音色控制",
+        "detail": "Spark应用提供音色控制与AI探索。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地音频",
+        "detail": "耳机内声学与音频处理用于监听。",
+        "evidence": "official"
+      },
+      {
+        "name": "佩戴反馈",
+        "detail": "头梁耳罩和耳机单元形成个人声音体验。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Spark NEO官方商店",
+        "url": "https://www.positivegrid.com/products/spark-neo",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开；有配送信息及InStock结构化Offer。"
+      },
+      {
+        "title": "Spark NEO官方用户手册",
+        "url": "https://assets.positivegrid.com/support/files/spark_neo_user_manual_v1_0_0.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "官方手册说明Spark AI与应用连接账户要求。"
+      },
+      {
+        "title": "Spark应用能力",
+        "url": "https://www.positivegrid.com/pages/spark-app",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "说明智能音色和练琴流程。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "positive-grid-spark-edge",
+    "name": "Positive Grid Spark EDGE",
+    "brand": "Positive Grid",
+    "category": "music",
+    "audience": "prosumer",
+    "tagline": "面向街头与小型演出的AI音色扩声设备",
+    "officialUrl": "https://www.positivegrid.com/products/spark-edge",
+    "statusEvidence": "官方商品页当前列售，结构化Offer为InStock，所见价格US$359；它是多通道扩声设备，与单人耳机和桌面练琴用途不同。",
+    "regions": [
+      "美国官网"
+    ],
+    "price": {
+      "text": "官网 US$359",
+      "note": "促销快照；可选电池另售，不能把带电池演示当作基础套装全部包含。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Spark App提供基于提示的音色选项、Smart Jam及自动和弦分析；硬件负责多通道音频混合与扩声。",
+      "dependency": "AI匹配与自动分析使用手机应用；基本扩声与应用服务分开，外出电池是另购配件。"
+    },
+    "highlights": [
+      "小型演出的多通道扩声",
+      "按提示匹配音色",
+      "可选电池与循环演奏"
+    ],
+    "analysis": {
+      "demand": "需求假设：街头表演者或小型聚会乐手希望一台设备连接乐器和人声，并快速准备演出音色。验证重点是搭建时间、通道平衡和实际覆盖场景，不能由AI匹配功能推断它适用于任意场地。",
+      "userProfile": "画像推断：个人弹唱者、家庭小乐队和需要移动扩声的内容创作者较匹配。他们通常同时关注搬运、供电和接口；只在卧室用耳机练琴的用户可能不需要多通道扩声及相应体积。",
+      "competition": "竞争判断：便携扩声系统、传统电池音箱和小型调音台组合都能满足部分需求。此款通过应用音色和伴奏整合形成区别，但演出者仍会把可靠性、声压体验及维护放在模型名称之前。",
+      "supplyChain": "供应链推断：低音与高音单元、功放、混音接口、提手和可选电池需一起验证运输及使用可靠性。官方未披露整机工厂和物料成本；电池另售会影响库存、售后及完整购入预算。",
+      "technology": "官方明确多通道、智能音色、伴奏和和弦分析路径。技术判断应将实时扩声与依赖应用的智能功能分开，在断网或手机退到后台时验证基本演出链路，而不是把全部功能归为云端AI。",
+      "aesthetics": "审美判断：竖直箱体和顶部控制强调可搬运的小型扩声工具属性，适合放在表演者旁边。线缆走向、提手和控制可见性比装饰更关键，外观照片无法说明搬运疲劳或现场操作便利。",
+      "risks": "风险判断：场地噪声、供电、可选电池和无线连接会改变演出体验。AI建议音色仍需排练验证；基础套装、另购配件与广告中完整演示配置应分别核实，避免购入后才发现关键附件缺失。",
+      "opportunity": "市场观察：该产品代表从个人练习向小型公开演出延伸的硬件路径。应记录一场演出的准备与撤场时间、通道调整次数和备用方案，判断一体化是否真实减少随身设备和操作负担。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人移动演出需求明确，便携扩声替代仍多。"
+    },
+    "architecture": [
+      {
+        "name": "多路输入",
+        "detail": "乐器与人声进入独立输入通道。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用智能",
+        "detail": "提示音色、智能伴奏及和弦分析。",
+        "evidence": "official"
+      },
+      {
+        "name": "混音处理",
+        "detail": "本地混音和效果处理控制输出。",
+        "evidence": "official"
+      },
+      {
+        "name": "移动扩声",
+        "detail": "扬声器与可选电池支持不同场地。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Spark EDGE官方商店与规格",
+        "url": "https://www.positivegrid.com/products/spark-edge",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开；Offer标InStock，注明电池另售。"
+      },
+      {
+        "title": "Spark App官方说明",
+        "url": "https://www.positivegrid.com/pages/spark-app",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开，说明AI匹配、伴奏与和弦分析。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "neural-dsp-quad-cortex",
+    "name": "Neural DSP Quad Cortex",
+    "brand": "Neural DSP",
+    "category": "music",
+    "audience": "prosumer",
+    "tagline": "将真实放大器响应学习为可演奏的神经音色模型",
+    "officialUrl": "https://neuraldsp.jp/products/quad-cortex",
+    "statusEvidence": "日本官方在线商店有购买和加购入口；其结构化Offer为InStock，官方产品数据available为true。未把插件、配色或组合套装另计。",
+    "regions": [
+      "日本官方商店"
+    ],
+    "price": {
+      "text": "日本官网 ¥279,000",
+      "note": "日元含税页面快照，不是中国到手价；服务地区和运输需按当地规则确认。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Neural Capture通过学习物理音箱、箱体或驱动设备的声音响应建立可播放模型，属于非生成式神经建模，不只是固定DSP效果。",
+      "dependency": "已保存模型在设备上演奏；分享与下载使用Cortex Cloud，捕获配置与兼容性按当前固件说明。"
+    },
+    "highlights": [
+      "真实设备响应的Neural Capture",
+      "触屏与脚控演出操作",
+      "本地演奏与云端模型库分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人乐手希望把常用实体音箱的响应带到排练和演出，减少搬运并保持熟悉手感。应在相同输入和监听条件下比较动态反应、准备时间与可重复性，不能只凭音色数量判断价值。",
+      "userProfile": "画像推断：已有吉他设备、理解信号链并愿意准备演出预设的乐手和个人录音创作者较匹配。只需要简单练习音色的初学者，可能更看重低成本与少设置，而非复杂触屏和捕获流程。",
+      "competition": "竞争判断：舞台音色处理已有传统音箱、建模器、电脑插件及多种神经采样设备。高价专业细分也有密集竞争，用户会按接口、现场切换、兼容库和售后选择，不会只看是否使用神经网络。",
+      "supplyChain": "供应链推断：脚踏开关、旋钮、触屏、低噪音频接口和处理模块需经反复踩踏与连接测试。官方本轮未公开完整代工厂及物料表；维护、备份和跨区域保修也是实际拥有成本。",
+      "technology": "官方说明Neural Capture可学习设备声音特征。技术判断需区分捕获某个设置下的响应与重建所有旋钮行为，模型播放、普通效果和云端内容也应分别评估，不把数字模拟都视为同类AI。",
+      "aesthetics": "审美判断：金属踏板与大触屏呈现专业演出工具语言，脚控和旋转操作有清晰功能目的。舞台低光、脚位间距和可读性会影响操作，精致产品渲染不能替代演出环境中的快速识别。",
+      "risks": "风险判断：捕获质量取决于输入输出连接、原设备状态及监听环境，下载模型也不保证适合每把琴。固件、模型库和演出备份需要管理，重要演出应保留稳定预设及故障后的替代链路。",
+      "opportunity": "市场观察：该条的AI价值来自对真实声音响应的学习和硬件实时播放。对比时应测试捕获流程、相同力度下的反应及舞台切换，而不是以专业外观或社区预设数量推算商业成功。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "神经音色采样服务个人乐手，使用知识和价格形成细分门槛。"
+    },
+    "architecture": [
+      {
+        "name": "音频采样",
+        "detail": "真实乐器与目标设备提供音频响应。",
+        "evidence": "official"
+      },
+      {
+        "name": "神经学习",
+        "detail": "Neural Capture学习目标声音特征。",
+        "evidence": "official"
+      },
+      {
+        "name": "模型演奏",
+        "detail": "已保存捕获和效果构成本地信号链。",
+        "evidence": "official"
+      },
+      {
+        "name": "操作与共享",
+        "detail": "触屏脚控和Cortex Cloud管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Quad Cortex日本官方商店",
+        "url": "https://neuraldsp.jp/products/quad-cortex",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已打开，官方商品结构化库存和产品数据均可购。"
+      },
+      {
+        "title": "Quad Cortex全球官方能力",
+        "url": "https://neuraldsp.com/quad-cortex",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，说明Neural Capture与信号处理。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "neural-dsp-nano-cortex",
+    "name": "Neural DSP Nano Cortex",
+    "brand": "Neural DSP",
+    "category": "music",
+    "audience": "prosumer",
+    "tagline": "把设备内神经采样放进可随身带走的小踏板",
+    "officialUrl": "https://neuraldsp.jp/products/nano-cortex",
+    "statusEvidence": "日本官方在线商店显示¥89,800、购买和加入购物车入口，未显示售罄。本次按官方零售页面确认，未下单验证配送。",
+    "regions": [
+      "日本官方商店"
+    ],
+    "price": {
+      "text": "日本官网 ¥89,800",
+      "note": "日元含税页面快照，实际地区售价、税费和配送另核。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "可在设备内创建Neural Capture，学习物理音箱、过载或箱体响应；已捕获模型可用于吉他和贝斯演奏。",
+      "dependency": "官方说明创建捕获无需电脑、互联网或应用；云端模型发现和管理功能仍涉及Cortex Cloud，不能把插件兼容性与Quad Cortex等同。"
+    },
+    "highlights": [
+      "本机创建Neural Capture",
+      "便携踏板形态",
+      "云端发现与本地演奏分离"
+    ],
+    "analysis": {
+      "demand": "需求假设：需要轻装排练或在不同场所演奏的人，可能希望保留一组熟悉音色而减少大踏板携带。验证应记录装包、接线和找预设的实际时间，并确认紧凑控制是否增加临场操作困难。",
+      "userProfile": "画像推断：已有乐器与监听设备、希望便携备用系统或小型踏板链的个人乐手较匹配。它与大型触屏设备的需求不同，用户需要接受更少的机身控制，并愿意使用应用管理较复杂的内容。",
+      "competition": "竞争判断：小型音色踏板同时面对其他神经模型播放器、传统耳放和手机音效接口。便携并不等于新市场，关键差异是能否在小设备内完成捕获以及保存的声音是否稳定满足演奏习惯。",
+      "supplyChain": "供应链推断：紧凑金属壳体中的脚控、接口、处理与供电需要兼顾空间和耐用性。官方未披露制造工厂或完整物料清单；频繁搬运、供电适配和接口寿命比静态参数更影响日常体验。",
+      "technology": "官方明确设备内捕获无需电脑或网络，并通过云端管理扩展声音。技术判断应检查捕获、模型格式和本地效果的版本边界，不能把大型同品牌产品的全部插件能力直接复制到此型号。",
+      "aesthetics": "审美判断：低矮金属小踏板与少量实体控制适合融入已有踏板板，减少额外屏幕占用。控制密度和标签可读性需要结合实际脚位与光照检查，外观极简也可能意味着更多应用内操作。",
+      "risks": "风险判断：小体积会带来控制和连接取舍，原设备捕获条件与模型版本仍影响结果。云端库、移动应用和固件变化需分别记录；演出前应验证稳定预设，不以厂商相似度措辞代替听音判断。",
+      "opportunity": "市场观察：Nano的独立意义是便携且可本机捕获，与完整舞台触屏设备有不同使用路径。可以比较其作为主系统、备用系统和现有踏板补充时的使用次数，避免只按体积或价格推导需求。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "便携且本机可捕获形成细分，仍需比较其他小型模型踏板。"
+    },
+    "architecture": [
+      {
+        "name": "采样输入",
+        "detail": "连接目标音箱或驱动设备获取响应。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备内学习",
+        "detail": "本机生成Neural Capture。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "保存的模型与本地效果处理乐器信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "管理层",
+        "detail": "实体脚控及Cortex Cloud应用。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nano Cortex日本官方商店",
+        "url": "https://neuraldsp.jp/products/nano-cortex",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已打开，页面明确购买和加入购物车。"
+      },
+      {
+        "title": "Nano Cortex全球技术说明",
+        "url": "https://neuraldsp.com/nano-cortex",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，官方说明设备内捕获不需要电脑与网络。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "ik-tonex-pedal",
+    "name": "IK Multimedia TONEX Pedal",
+    "brand": "IK Multimedia",
+    "category": "music",
+    "audience": "prosumer",
+    "tagline": "在实体踏板上播放机器学习得到的音箱音色",
+    "officialUrl": "https://ikmultimedia.com/products/tonexpedal",
+    "statusEvidence": "官方产品商店有Buy Now；官方Shopify产品数据available为true，另一个官方购物入口提供加入购物车。只计标准硬件，不把贝斯预设或周年配色另计。",
+    "regions": [
+      "官方国际商店"
+    ],
+    "price": {
+      "text": "以地区官方结算为准",
+      "note": "官方不同入口显示欧元及美元报价；模型软件权益和税费应按所选地区确认，不把预设特别版重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI Machine Modeling在配套建模流程中学习真实音箱或效果器，TONEX Pedal保存并实时播放Tone Models；普通EQ和混响不是本条AI依据。",
+      "dependency": "建立自有Tone Models使用配套软件及采集链路，踏板可离线演奏已加载模型；ToneNET下载和账户权益另有条件。"
+    },
+    "highlights": [
+      "AI Machine Modeling音色模型",
+      "离线播放已加载模型",
+      "软件建模与踏板演奏职责不同"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人乐手希望把录音室选择的音箱响应带到演出现场，而不用携带全部原设备。应比较模型准备与舞台调用的完整流程，并检查演奏动态是否合适，不能只数能保存多少个音色。",
+      "userProfile": "画像推断：愿意在电脑上准备声音、现场偏好脚控操作的吉他或贝斯用户较匹配。需要设备直接完成全部捕获的人应注意软件依赖，偶尔居家练习者也可能已有更简单的低成本方案。",
+      "competition": "竞争判断：音色模型踏板与多效果器、电脑插件、传统放大器同时竞争。机器学习是声音获取方式的差异，但模型格式、软件库和切换习惯会形成迁移成本，不能仅凭AI名称认为更适合用户。",
+      "supplyChain": "供应链推断：音频转换、脚控、旋钮与坚固外壳需要满足反复演出使用，软件授权同样属于交付。官方未公开具体组装工厂和完整成本，模型库支持与更新兼容应计入产品生命周期。",
+      "technology": "官方区分机器学习建模软件与实体踏板的模型播放。技术判断应避免把离线演奏误写为离线训练所有模型，采样、训练、传输和实时音效也应分别测试，才便于比较不同技术路线。",
+      "aesthetics": "审美判断：传统踏板形式让已有乐手容易理解连接和踩踏，显示与旋钮服务于音色调用。信息是否足够清楚取决于舞台光照和预设命名；外形熟悉并不能证明首次设置一定简单。",
+      "risks": "风险判断：模型的原始采样和制作方式会影响效果，现场听感还受箱体与监听设备影响。软件账户、内容授权及设备兼容须按当前方案核对，不能把所有下载音色视为可自由再发布素材。",
+      "opportunity": "市场观察：它适合呈现软件学习与硬件执行结合的消费创作路径。评估应记录准备一套真实演出预设所需时间、失败恢复和更新依赖，避免把模型下载数量当作付费需求或长期使用证据。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "针对需要真实设备音色的乐手，格式与使用链路是主要差异。"
+    },
+    "architecture": [
+      {
+        "name": "建模来源",
+        "detail": "配套软件采集真实音箱和效果器响应。",
+        "evidence": "official"
+      },
+      {
+        "name": "学习模型",
+        "detail": "AI Machine Modeling形成Tone Models。",
+        "evidence": "official"
+      },
+      {
+        "name": "踏板播放",
+        "detail": "本地实时运行已加载模型及效果。",
+        "evidence": "official"
+      },
+      {
+        "name": "操作共享",
+        "detail": "脚控、编辑软件和ToneNET管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "TONEX Pedal官方商店",
+        "url": "https://ikmultimedia.com/products/tonexpedal",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "已打开，购买按钮与官方产品数据可购。"
+      },
+      {
+        "title": "TONEX Pedal官方购物入口",
+        "url": "https://www.ikmultimedia.com/shop/cart.php?alias=tonex-pedal",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "已打开，提供加入购物车；地区报价与新商店可能不同。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "valeton-gp5",
+    "name": "Valeton GP-5",
+    "brand": "Valeton",
+    "category": "music",
+    "audience": "consumer",
+    "tagline": "用小型踏板承载转换后的神经音箱模型",
+    "officialUrl": "https://shop.valeton.net/products/gp-5",
+    "statusEvidence": "官方商店显示US$79.99、Add to cart及美国仓发货说明；页面结构化Offer为InStock。通用Sale/Sold out模板不单独作为库存判断。",
+    "regions": [
+      "美国官方仓"
+    ],
+    "price": {
+      "text": "官网 US$79.99",
+      "note": "官方美元价格快照，运税与具体配送地址以结算为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "SnapTone将第三方NAM神经音箱模型转换导入硬件，再用于实时演奏。它不是声称每一种内置效果都由AI生成，也不等于本机训练任意NAM模型。",
+      "dependency": "模型转换和文件管理使用电脑或移动应用；支持格式受固件和转换器限制，已加载内容可本地使用。"
+    },
+    "highlights": [
+      "NAM文件转换导入",
+      "紧凑单踏板形态",
+      "本地模型播放与应用管理"
+    ],
+    "analysis": {
+      "demand": "需求假设：预算有限或踏板空间紧张的个人乐手希望尝试神经采样音色，而不购买大型设备。验证应把模型导入和转换耗时算进去，并比较实际想保留的声音，不能仅凭低标价推断总成本低。",
+      "userProfile": "画像推断：已有吉他和耳机或扩声设备、愿意使用手机或电脑管理模型的爱好者较适合。需要大量现场直接调参的人可能更在意控制数量；新手也需要理解模型格式而不只是下载文件。",
+      "competition": "竞争判断：小型多效果器和入门耳放已经竞争密集，支持神经模型提供新的内容入口。低价不等于没有替代，模型转换兼容、控制便利性和售后支持可能比内置效果数量更影响选择。",
+      "supplyChain": "供应链推断：小金属机身、音频接口、脚开关和紧凑处理板需要控制噪声与装配一致性。官方未披露实际工厂与完整物料成本；转换软件、应用维护和退换问题同样影响长期交付。",
+      "technology": "官方说明SnapTone支持NAM文件转换导入。技术判断必须区分转换后播放与原生运行全部格式，不能把任意新架构文件都视为兼容；应先用具体文件和当前固件验证再评价声音差异。",
+      "aesthetics": "审美判断：口袋踏板形态与简短控制适合小型设备板，金属外壳表达工具感。屏幕面积有限，需要测试光照下的可读性和脚踩误触；产品尺寸小并不必然意味着操作步骤也更少。",
+      "risks": "风险判断：文件版本、转换超时或手机兼容会让低成本硬件产生额外设置成本。用户下载的模型质量参差，试听增益也应逐个检查；不以厂商对模拟真实性的描述替代实际对比录音。",
+      "opportunity": "市场观察：这类产品展示神经音色如何进入入门价位，而非自动证明更大的市场空间。后续应记录导入成功率、常用预设数量和应用依赖，判断它是否让新用户更容易形成稳定演奏流程。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "入门小踏板替代多，神经模型兼容与软件流程是主要区别。"
+    },
+    "architecture": [
+      {
+        "name": "模型输入",
+        "detail": "通过配套工具导入兼容NAM文件。",
+        "evidence": "official"
+      },
+      {
+        "name": "格式转换",
+        "detail": "SnapTone转换为设备可用内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "实时处理",
+        "detail": "本机播放模型并串联音频效果。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制反馈",
+        "detail": "脚控、小屏和移动应用管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Valeton GP-5官方商店",
+        "url": "https://shop.valeton.net/products/gp-5",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已打开；Offer为InStock并说明美国仓供货。"
+      },
+      {
+        "title": "Valeton GP-5官方功能",
+        "url": "https://www.valeton.net/product/gp-5/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，明确NAM到SnapTone转换，而非本机训练声明。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "romi-lacatan",
+    "name": "Romi Lacatan",
+    "brand": "MIXI / Romi",
+    "category": "companion",
+    "audience": "consumer",
+    "tagline": "以视觉对话和记忆参与日常交流的小型机器人",
+    "officialUrl": "https://shop.romi.ai/products/romi-lacatan",
+    "statusEvidence": "官方商店有加购入口，官方产品数据四种颜色available均为true；未把旧预售页面标题或通用Sold Out模板当作当前库存。颜色只计一款。",
+    "regions": [
+      "日本官方商店"
+    ],
+    "price": {
+      "text": "日本本体 ¥98,780；服务另计",
+      "note": "日元含税硬件价；月费按当前Romi方案选择，旧活动折扣不作为当前统一售价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方说明以深度学习构建回复，Lacatan增加用户请求时的视觉交互和长期记忆；语音版本与功能上线以当前固件为准。",
+      "dependency": "需要配套账户、联网和持续会费；核心对话与可用语言受服务范围影响，不能推断大陆完整可用。"
+    },
+    "highlights": [
+      "用户请求时启用视觉对话",
+      "会话记忆与角色表达",
+      "硬件与持续会费分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望家中有一个容易开启交谈对象的人，可能重视被记住及自然轮流说话，而非任务效率。应长期观察主动对话和重复话题，不能把流畅的首次问答当成关系建立或健康改善。",
+      "userProfile": "画像推断：愿意用日语互动、能设置网络和账户且接受会费的人较匹配。送给家人时购买者与使用者可能不同，需确认对方愿意对设备讲话，并能处理声音、记忆和隐私相关设置。",
+      "competition": "竞争判断：小型对话机器人面对手机聊天、智能音箱和其他桌面宠物的替代。视觉与记忆带来定位差异，但持续云服务、语言质量和角色可信度都影响留存，不能仅凭外形可爱判断竞争优势。",
+      "supplyChain": "供应链推断：显示、摄像、音频、动作机构和紧凑电池需协调发热与机械声，服务后台同样重要。官方未披露完整代工厂和物料表；维修、软件维护与长期记忆迁移也属于拥有体验。",
+      "technology": "官方说明深度学习回复、请求触发视觉及记忆能力。技术判断需区分视觉理解、话轮控制和长期信息保存，并逐项核查功能版本；同一角色的声音自然不代表所有回答事实可靠。",
+      "aesthetics": "审美判断：圆润小体积和正面表情让它易留在桌面，细微动作与语音承担角色感。屏幕亮度、夜间活动和摆放距离会影响接受度；图片无法说明真实机械声或多人的目光互动效果。",
+      "risks": "风险判断：视觉和长期对话记忆涉及家庭信息，生成回复也可能出现错误。会费、地区账户及语言服务须在购买前核对；不把对话陪伴宣传解读为医疗、心理治疗或替代真实社会支持。",
+      "opportunity": "市场观察：Romi的差异是明确的对话与记忆取向，而非以移动能力取胜。验证应记录四周后的主动交谈、记忆纠错和静默时间，判断用户是否愿意为这种具体互动持续承担费用。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "具备视觉和记忆的小型对话陪伴仍在形成习惯，替代品广泛。"
+    },
+    "architecture": [
+      {
+        "name": "会话输入",
+        "detail": "麦克风与请求触发的视觉输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "对话模型",
+        "detail": "深度学习支持自然回复。",
+        "evidence": "official"
+      },
+      {
+        "name": "记忆上下文",
+        "detail": "保留互动信息支持个性化对话。",
+        "evidence": "official"
+      },
+      {
+        "name": "角色输出",
+        "detail": "屏幕、语音和动作提供反馈。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Romi Lacatan官方商店",
+        "url": "https://shop.romi.ai/products/romi-lacatan",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已打开，官方产品数据可购，颜色不重复计数。"
+      },
+      {
+        "title": "Romi Lacatan官方能力",
+        "url": "https://romi.ai/lp/lacatan/en/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开；标为计划更新的细项不当作必然已交付。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "panasonic-nicobo",
+    "name": "Panasonic NICOBO",
+    "brand": "Panasonic",
+    "category": "companion",
+    "audience": "consumer",
+    "tagline": "通过表情、触碰与有限语言形成轻量陪伴",
+    "officialUrl": "https://ec-plus.panasonic.jp/store/ap/storeaez/a2A/ProductDetail?HB=RW-NC1-H",
+    "statusEvidence": "Panasonic官方商店RW-NC1-H页面明确显示在库、60,500日元及加入购物车。本条不重复计颜色，不使用已失效的旧分期SKU。",
+    "regions": [
+      "日本"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "日本官方页面要求配套服务及账户，且说明不接受海外发行信用卡；未确认中国大陆官方销售与完整服务。"
+    },
+    "price": {
+      "text": "本体 ¥60,500；基本服务 ¥1,100/月起",
+      "note": "日元含税日本官方方案；部分套餐有最低期限及提前终止条件，需按当前官方页面确认。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方披露人脸与表情识别、声源和语音识别，以及影响行为的情感引擎；不是自由生成长篇回答的通用聊天机器人。",
+      "dependency": "基本服务要求网络、智能手机应用和月费；可理解的词语与行为范围有限，不能把简单复述等同通用语言理解。"
+    },
+    "highlights": [
+      "人脸及表情识别",
+      "声音方向与触碰响应",
+      "非移动式针织外观"
+    ],
+    "analysis": {
+      "demand": "需求假设：部分家庭希望有一个偶尔回应、可以触摸且不承担任务的同住物件，有限语言可能比持续聊天更容易接受。应观察日常互动与照护负担，不能把厂商用户感受当作医疗效果证据。",
+      "userProfile": "画像推断：偏好柔软针织外观、能够在室内固定摆放并接受月费的个人或家庭较匹配。它不能自主移动，也不面向户外使用，送礼前应确认使用者对有限语言和依赖照护的角色有兴趣。",
+      "competition": "竞争判断：非移动轻陪伴处于较窄市场，但普通毛绒、Moflin和其他电子宠物仍是替代。产品的“不擅长做事”可以形成角色定位，却不代表需求自动成立或没有长期闲置风险。",
+      "supplyChain": "供应链推断：针织外套、内部弹性结构、显示和音频感知需一起支持反复触碰。官方提供维护与织物更换服务，但未披露完整制造工厂及物料表；清洁、磨损和维修安排是持续成本。",
+      "technology": "官方说明人脸表情与语音识别，并用情感引擎形成行为变化。技术判断需要区分对熟悉词语的回应与开放生成对话，有限能力是否合适取决于角色预期，不能仅按模型规模评价。",
+      "aesthetics": "审美判断：圆形针织身体、短尾巴和双眼削弱了机械设备感，更接近可以抱起的居家物件。织物起球、触感和摇动节奏会直接影响长期观感，官网场景照不能代替实际触摸与声音体验。",
+      "risks": "风险判断：基本月费、维修和区域支付条件会改变拥有成本，摄像与语音用途也需按官方隐私说明理解。不能将陪伴或用户评价转述为心理治疗承诺，长期使用仍应保留真实人际互动。",
+      "opportunity": "市场观察：该产品有助于比较“有限而可预测的回应”和开放式对话两种陪伴路径。后续可记录用户喜欢与厌烦的具体行为、维护频次和静置时长，而不把可爱程度评分当作商业预测。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "非移动、有限语言的软体陪伴定位较窄，长期照护与留存是关键。"
+    },
+    "architecture": [
+      {
+        "name": "感知输入",
+        "detail": "摄像、麦克风与惯性传感器。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别判断",
+        "detail": "人脸表情、语言和声源识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "行为引擎",
+        "detail": "官方情感引擎影响回应状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "柔性反馈",
+        "detail": "眼部显示、声音和摇动结构。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NICOBO日本官方零售SKU",
+        "url": "https://ec-plus.panasonic.jp/store/ap/storeaez/a2A/ProductDetail?HB=RW-NC1-H",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "dependency"
+        ],
+        "note": "已打开，明确在库和购物车入口。"
+      },
+      {
+        "title": "NICOBO官方技术与使用",
+        "url": "https://ec-plus.panasonic.jp/store/page/NICOBO/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开；对用户评价不作效果推断。"
+      },
+      {
+        "title": "NICOBO官方费用",
+        "url": "https://ec-plus.panasonic.jp/store/page/NICOBO/price/",
+        "kind": "official-spec",
+        "supports": [
+          "price",
+          "dependency"
+        ],
+        "note": "已打开，硬件与服务费用明确区分。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail"
+  },
+  {
+    "id": "looi-robot",
+    "name": "LOOI Robot",
+    "brand": "Tangobotics / LOOI",
+    "category": "companion",
+    "audience": "consumer",
+    "tagline": "让已有手机成为桌面机器人的表情与感知入口",
+    "officialUrl": "https://looirobot.com/products/looi-robot",
+    "statusEvidence": "官方商品页有Add to cart；官方产品数据LOOI Solo各颜色available为true。只计单个机器人，Twins和组合套装不另计。",
+    "regions": [
+      "美国及官网列出的配送市场"
+    ],
+    "price": {
+      "text": "官方单机 US$220",
+      "note": "官网产品数据价格；需要用户自备兼容手机，运税和服务权益按当前地区结算确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "利用手机与机器人底座进行视觉、多模态对话、记忆及桌面行为，官网介绍ChatGPT支持会话；不是只把手机当遥控器。",
+      "dependency": "必须自备兼容手机并运行LOOI应用；模型、账户、网络及对话权限受服务方案影响，不能当作完全独立机器人。"
+    },
+    "highlights": [
+      "手机提供屏幕与部分感知能力",
+      "会话记忆和多模态回应",
+      "实体底座提供桌面运动"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有闲置或日常手机的用户可能愿意用较少独立屏幕硬件获得桌面陪伴。应验证手机被占用后是否妨碍原有用途，以及装卸、充电和启动应用的成本是否抵消了复用设备的便利。",
+      "userProfile": "画像推断：喜欢桌面机器人并愿意为其保留兼容手机的个人用户较匹配。不同手机尺寸、系统和电池状态可能影响体验；如果只有一部工作手机，陪伴角色与通讯任务可能频繁争夺屏幕。",
+      "competition": "竞争判断：它与内置屏幕的桌面宠物、手机虚拟宠物和充电支架同时竞争。复用手机形成硬件成本结构差异，但兼容维护与用户占用感也更明显，不能仅由设备数量少推断价值更高。",
+      "supplyChain": "供应链推断：底座运动、手机固定和充电接口需适应不同机型，软件适配是交付的重要部分。官方未披露完整工厂或物料表；手机系统升级、摄像方向和壳体厚度可能增加售后复杂度。",
+      "technology": "官方说明视觉、多模态回应、记忆和实体动作的结合。技术判断应区分手机侧感知、联网会话和底座实时控制，避免把全部算力写在机器人本体；桌缘检测仍需在真实表面条件下验证。",
+      "aesthetics": "审美判断：手机屏幕变成大表情面部，底座姿态形成角色感，也让不同机型带来不同外观。屏幕黑边、手机壳和充电线会影响统一感；宣传渲染中的整洁不能代表用户实际桌面的样子。",
+      "risks": "风险判断：手机权限、摄像头、会话记忆和账户服务需要清晰管理，桌面杂物与边缘仍有物理限制。兼容手机清单和订阅权益应逐项确认，不能把可安装应用等同所有功能长期可用。",
+      "opportunity": "市场观察：该产品代表“复用用户已有计算终端”的陪伴路径，区别于整机复制手机能力。可记录手机占用时间、每日主动启动和固定失败情况，确认这种成本取舍是否适合具体使用者。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "手机与机器人底座结合较有差异，兼容与占用成本仍待真实使用验证。"
+    },
+    "architecture": [
+      {
+        "name": "手机输入",
+        "detail": "兼容手机提供屏幕及视觉语音入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "智能会话",
+        "detail": "应用与联网模型支持对话和记忆。",
+        "evidence": "official"
+      },
+      {
+        "name": "行为控制",
+        "detail": "感知与角色状态影响动作选择。",
+        "evidence": "official"
+      },
+      {
+        "name": "实体输出",
+        "detail": "底座运动与手机表情共同回应。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "LOOI官方零售页",
+        "url": "https://looirobot.com/products/looi-robot",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开；单机available为true，不计重复套装。"
+      },
+      {
+        "title": "LOOI官方介绍",
+        "url": "https://looirobot.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，说明复用手机与ChatGPT对话定位。"
+      },
+      {
+        "title": "LOOI官方使用指南",
+        "url": "https://looirobot.com/pages/guide",
+        "kind": "official-spec",
+        "supports": [
+          "dependency"
+        ],
+        "note": "已打开，供核对手机与应用使用要求。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "livingai-aibi-pocket",
+    "name": "LivingAI AIBI Pocket",
+    "brand": "LivingAI",
+    "category": "companion",
+    "audience": "consumer",
+    "tagline": "可随身携带的微型表情机器人",
+    "officialUrl": "https://living.ai/product/aibi-pocket/",
+    "statusEvidence": "官方商品页提供Add to cart，并说明订单约两周内发货；以当前零售页为准，不沿用旧介绍页的Pre-order字样。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "官网 US$249",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "具有人脸识别、拍照和离线语音指令；复杂问题可联网调用ChatGPT。简单动画和动作不全部归为生成式AI。",
+      "dependency": "离线指令与在线问答能力不同；联网服务、账户与可用地区须核对，挂载和充电依赖配件。"
+    },
+    "highlights": [
+      "可随身携带的微型表情机器人",
+      "人脸识别与离线语音指令",
+      "复杂问题使用联网问答"
+    ],
+    "analysis": {
+      "demand": "需求假设：喜欢随身角色的人可能希望在桌面、衣物和出行之间延续同一只电子宠物，而不追求移动机器人任务能力。应观察实际携带频率和主动互动次数，确认便携是否真的增加使用。",
+      "userProfile": "画像推断：能够管理充电、配对和随身配件的成年玩具爱好者较匹配；面部朝向、环境噪声与穿戴位置会影响交互。送礼者不能仅凭小巧外形假定所有年龄和生活方式都适合。",
+      "competition": "竞争判断：它同时面对桌面电子宠物、手机虚拟角色及普通潮玩，随身形态是主要差别。微型化并不消除内容更新和留存竞争，用户可能把它作为收藏品而不是每天交谈的工具。",
+      "supplyChain": "供应链推断：小体积内的显示、音频、摄像和动作结构会争夺空间，并增加防跌落与充电可靠性的要求。官方本轮未披露完整工厂和物料表；磁吸配件遗失也会影响实际使用。",
+      "technology": "官方区分离线指令、人脸识别与在线复杂问答。技术判断应分别测试嘈杂场景唤醒、人物识别和网络等待，不把屏幕表情丰富等同对情绪的可靠理解，也不推断所有算力都在设备内。",
+      "aesthetics": "审美判断：圆形头部、明亮眼睛和短小身体更接近可以携带的角色物件，配件会决定它在衣物上的存在感。佩戴重量、固定稳定性和环境中的声音，需要实际试戴才能判断接受度。",
+      "risks": "风险判断：随身拍照、语音与网络问答涉及旁人和个人信息，外出还会遇到掉落、遮挡和噪声。复杂回答可能出错，提醒功能也不应被当成重要事务或健康管理的唯一保障。",
+      "opportunity": "市场观察：值得验证的是便携角色能否跨场景保持有意义的互动，而非把更小尺寸直接换算为更大需求。可记录四周的携带天数、充电中断和功能使用结构，区分收藏与持续陪伴。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "复杂问题使用联网问答形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "感知入口",
+        "detail": "摄像与麦克风支持人物和语音输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地响应",
+        "detail": "离线指令触发设备行为。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网问答",
+        "detail": "复杂问题通过在线模型处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "角色反馈",
+        "detail": "屏幕表情、声音与小型动作。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AIBI官方购买页",
+        "url": "https://living.ai/product/aibi-pocket/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "AIBI官方能力",
+        "url": "https://living.ai/aibi/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "yukai-bocco-emo",
+    "name": "BOCCO emo Wi-Fi",
+    "brand": "Yukai Engineering",
+    "category": "companion",
+    "audience": "consumer",
+    "tagline": "把家庭留言与记忆会话放进同一机器人",
+    "officialUrl": "https://store.ux-xu.com/products/bocco-emo",
+    "statusEvidence": "官方商店可加购，结构化商品Offer为InStock；标准Wi-Fi本体只计一款，LTE租赁方案不重复计数。",
+    "regions": [
+      "日本"
+    ],
+    "price": {
+      "text": "本体 ¥33,000；自然会话方案 ¥1,700/月",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "语音识别及消息转写支持家庭通信；当前Premium方案支持自然会话、声纹区分和会话记忆。基础免费功能与新增自然会话服务分别列明。",
+      "dependency": "需要Wi-Fi、手机应用与账户；自然会话需Premium和指定版本更新。官方明确不能提供所有实时新闻或附近商家信息。"
+    },
+    "highlights": [
+      "把家庭留言与记忆会话放进同一机器人",
+      "基础通信与付费自然会话分开",
+      "面向日语家庭的固定摆放陪伴"
+    ],
+    "analysis": {
+      "demand": "需求假设：异地家庭可能希望消息传递具有声音和角色回应，同时在日常独处时进行短会话。应分别观察家人真实留言量和用户主动聊天量，确认两种价值是否共存而非相互替代。",
+      "userProfile": "画像推断：有日语使用环境、固定网络和能够管理家庭账户的人较匹配。购买者可能是远方家属，使用者可能不常用手机，因此配网、房间所有者权限和后续服务续费需有人负责。",
+      "competition": "竞争判断：视频通话、智能音箱和日语陪伴机器人都能满足部分需求，BOCCO的差异是家庭消息与角色记忆结合。已有通信习惯未必愿意迁移，不能仅由功能更多推断家庭接受度。",
+      "supplyChain": "供应链推断：固定底座的麦克风、灯光、动作机构和通信模块需要与持续云服务配合。官方未披露完整工厂和物料表；家庭成员换机、网络变更及软件升级也会产生服务成本。",
+      "technology": "官方说明注册声音后可区分家庭成员并保存相关记忆。技术判断需测试相似声音误认、多人轮流说话与背景电视干扰，不能把记忆能力写成准确无误的人物理解或实时知识查询。",
+      "aesthetics": "审美判断：白色圆润身体、会发光的脸颊和顶部摆动部件形成柔和家居角色，表达不依赖大屏幕。固定位置的可听性和夜间灯光会影响相处体验，应该在真实房间而非静物照片中评估。",
+      "risks": "风险判断：Premium费用、家庭账户权限和会话历史可见范围必须明确；官方提醒电视可能误触发。重要通信不宜完全依赖单一设备，角色回应也不能视作对生活或健康问题的可靠判断。",
+      "opportunity": "市场观察：本款适合研究旧家庭通信硬件叠加自然会话后是否增加留存。可分开记录留言完成率、声纹纠错和付费后的主动交流，避免把新功能上线或旧用户故事当成新的市场证据。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向日语家庭的固定摆放陪伴形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "家庭输入",
+        "detail": "语音与应用消息进入同一家庭房间。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别转写",
+        "detail": "语音识别和注册声音区分。",
+        "evidence": "official"
+      },
+      {
+        "name": "会话记忆",
+        "detail": "Premium支持自然会话与记忆。",
+        "evidence": "official"
+      },
+      {
+        "name": "具身输出",
+        "detail": "声音、脸颊灯和动作反馈。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "BOCCO emo官方商店",
+        "url": "https://store.ux-xu.com/products/bocco-emo",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "BOCCO emo当前Premium功能",
+        "url": "https://www.bocco.me/living/premium/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "BOCCO emo基础功能",
+        "url": "https://www.bocco.me/en/?language=en",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "curio-grok",
+    "name": "Curio Grok",
+    "brand": "Curio",
+    "category": "companion",
+    "audience": "consumer",
+    "tagline": "将生成式英语会话放入毛绒火箭",
+    "officialUrl": "https://heycurio.com/product/grok",
+    "statusEvidence": "官方商品页仍标Pre-Order、Shop Now及约30天；页面商品数据availableForSale=true。FAQ写七天发货，与商品页不一致，因此保守列为预售，不承诺现货。",
+    "regions": [
+      "美国"
+    ],
+    "price": {
+      "text": "商品页 US$99 起；结算为准",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "毛绒火箭内的联网Voice Box进行语音识别和生成式角色会话；这里的Grok是Curio玩具角色，不是将xAI应用本身列作硬件。",
+      "dependency": "需要Curio账户、应用和Wi-Fi；FAQ当前主要支持英语。基础聊天与Plus无限会话权益不同，长期权益按当期条款。"
+    },
+    "highlights": [
+      "将生成式英语会话放入毛绒火箭",
+      "可拆出的Voice Box承载交互",
+      "亲子共同使用的无屏角色玩具"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭可能希望用可以抱起的角色发起英语故事和问答，减少儿童为了聊天而拿起屏幕。应观察共同玩耍的质量和话题变化，不能用无屏外观直接推定学习效果或使用更健康。",
+      "userProfile": "画像推断：能理解英语、愿意陪同设置并关注会话内容的亲子家庭较匹配。儿童对角色声音和火箭形象的喜好可能不同，购买前应测试真实语速、轮流对话和理解失败时的反应。",
+      "competition": "竞争判断：故事音箱、录音毛绒和手机语音角色都能满足部分场景，生成回复带来变化也带来不确定性。品牌角色与内容管理可能比模型标签更影响信任，不能只凭合作人物热度判断需求。",
+      "supplyChain": "供应链推断：毛绒外壳与可拆电子盒需协调触感、清洁、充电及音频通透性。官方未披露完整代工厂和物料清单；电子盒代次、换绑账户和持续服务支持是拥有体验的重要组成。",
+      "technology": "官方说明联网处理器、麦克风和角色会话，并公开语音转写及记录处理方式。技术判断应测试儿童发音、打断和故事连续性，不能把持续回复误解为事实正确或具备人类理解能力。",
+      "aesthetics": "审美判断：圆润火箭毛绒及角色声音把电子盒隐藏在可拥抱的玩具中，适合以故事建立辨识度。面料清洁、盒体硬点和充电操作可能破坏整体体验，需让实际使用者触摸与操作。",
+      "risks": "风险判断：儿童话语会经过云端转写，家长应了解记录保留与删除功能。官网预售和发货文案不一致，交付时间需按订单核对；生成内容不能替代成人监督，也不保证教育或情绪效果。",
+      "opportunity": "市场观察：可执行验证是连续记录角色被主动拿起的次数、家长介入原因和不恰当回答处理。将火箭外形吸引力、语言能力和服务稳定性分别观察，避免用一次流畅演示推断长期陪伴。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "亲子共同使用的无屏角色玩具形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "软体载体",
+        "detail": "毛绒火箭包裹可拆Voice Box。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音入口",
+        "detail": "麦克风与主动启用的会话模式。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端角色",
+        "detail": "联网处理语言并生成角色回应。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "扬声器及状态灯反馈。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Curio Grok官方预订页",
+        "url": "https://heycurio.com/product/grok",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Curio官方FAQ",
+        "url": "https://heycurio.com/faq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "preorder",
+    "saleMode": "preorder",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "haivivi-bubblepal",
+    "name": "Haivivi BubblePal",
+    "brand": "Haivivi",
+    "category": "companion",
+    "audience": "consumer",
+    "tagline": "让已有毛绒玩具成为语音角色",
+    "officialUrl": "https://www.haivivi.com/",
+    "statusEvidence": "Haivivi官网Shop BubblePal直接链接Amazon商品；已打开该链接，页面卖家为Haivivi、Amazon发货且有Add to cart。毛绒套装和核心模块不重复计数。",
+    "regions": [
+      "美国"
+    ],
+    "price": {
+      "text": "以官网直达商店当前报价为准",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方明确采用语音识别、自然语言处理和AIGC，按住气泡按钮讲话后生成角色回答，可共创故事；不是仅播放预录音的毛绒挂件。",
+      "dependency": "家长使用Haivivi Pal应用和2.4GHz Wi-Fi设置；标准版含阶段性会员，后续完整权益可能收费，不能沿用Founder版终身权益。"
+    },
+    "highlights": [
+      "让已有毛绒玩具成为语音角色",
+      "按住气泡按钮发起生成式会话",
+      "电子模块与毛绒载体可分离"
+    ],
+    "analysis": {
+      "demand": "需求假设：孩子已依恋某只毛绒时，家长可能愿意让原有玩具开口回应，而不再引入一个新角色。应验证挂载后是否仍愿意抱持，以及按钮操作是否帮助孩子理解什么时候在收听。",
+      "userProfile": "画像推断：有喜爱毛绒、能在成人陪同下使用按键并有稳定家庭网络的儿童家庭较匹配。家长需要负责角色设置和会员管理，已有玩具的尺寸与佩戴位置也会影响声音和触感。",
+      "competition": "竞争判断：它与整只AI毛绒、故事播放器和手机语音模式竞争，复用原有玩具是明确差异。模块便宜或可转移并不自动降低持续服务成本，角色内容、隐私与退款规则仍会影响选择。",
+      "supplyChain": "供应链推断：硅胶按钮、固定带、扬声器与电池需承受儿童反复按压和拉扯，电子模块不能随毛绒直接清洗。官方未公开完整工厂和物料表，挂载兼容性与售后指引需要细致验证。",
+      "technology": "官方披露语音识别和生成式角色回复，按住再松开形成明确话轮。技术判断应测试儿童短句、混合语言与网络等待，不能将角色数量或故事生成能力当作事实正确性和教育效果证明。",
+      "aesthetics": "审美判断：透明气泡按钮提供直观的发光交互，但挂在熟悉玩具上也可能显得突兀。不同毛绒比例、固定带长度和按钮位置会改变整体角色感，官方套装图片不能代表所有旧玩具。",
+      "risks": "风险判断：标准会员与Founder权益不同，购买渠道和地区保修也有限制；云端儿童会话需家长了解数据处理。生成回答可能不适合当下情境，不能把厂商安全措辞解读为绝对无风险。",
+      "opportunity": "市场观察：重点是复用已有情感载体能否减少新鲜感衰退，而非仅降低硬件数量。可比较原毛绒与新套装的主动互动、拆卸频次和家长纠错时间，识别模块形态的真实优势与代价。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "电子模块与毛绒载体可分离形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "挂载载体",
+        "detail": "电子模块固定在用户毛绒玩具上。",
+        "evidence": "official"
+      },
+      {
+        "name": "按键语音",
+        "detail": "气泡按钮控制收听话轮。",
+        "evidence": "official"
+      },
+      {
+        "name": "角色生成",
+        "detail": "联网语音识别与AIGC回应。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音反馈",
+        "detail": "扬声器与气泡灯反馈状态。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Haivivi官网购买入口",
+        "url": "https://www.haivivi.com/",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "官网直达Haivivi卖家商品",
+        "url": "https://www.amazon.com/dp/B0GS9ZN8D8",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "官网明确直达；已核对卖家Haivivi、Amazon发货和加购入口。"
+      },
+      {
+        "title": "Haivivi官方帮助中心",
+        "url": "https://haivivi.gorgias.help/en-US",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "chessup-2",
+    "name": "ChessUp 2",
+    "brand": "Bryght Labs / ChessUp",
+    "category": "games",
+    "audience": "consumer",
+    "tagline": "触碰棋子即可看到灯光走法建议",
+    "officialUrl": "https://playchessup.com/products/chessup-2",
+    "statusEvidence": "官方商店Add to cart，公开商品数据available=true；标准ChessUp 2只计一款，不计颜色或棋子套装。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "官网 US$349.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "触摸棋子后以灯光给出合法走法与棋力建议，并提供Stockfish对弈。属于棋类搜索和决策AI，不是通用生成式对话。",
+      "dependency": "基础较低级别AI可本地运行，更高等级Stockfish与部分辅助需联网；竞赛在线模式禁用辅助，不能将训练提示用于作弊。"
+    },
+    "highlights": [
+      "触碰棋子即可看到灯光走法建议",
+      "本地与联网棋力层级明确区分",
+      "面向初学者的实体训练反馈"
+    ],
+    "analysis": {
+      "demand": "需求假设：初学者容易在记规则和判断好坏之间失去练习动力，棋盘灯光可以把提示放在正在触摸的位置。应观察减少了多少查屏步骤，以及关闭提示后是否仍能理解选择原因。",
+      "userProfile": "画像推断：希望和孩子共同下棋、或独自学习规则的家庭较匹配，触摸即提示也适合不愿反复切换手机的人。更强棋手可能关注棋谱导出和网络公平性，不能只用新手演示代表所有用户。",
+      "competition": "竞争判断：免费棋类应用、普通棋盘加教练及其他发光棋盘均是替代，低门槛并不意味着低竞争。ChessUp的差别在即时触摸反馈和内置界面，是否值得硬件溢价需与现有学习流程对比。",
+      "supplyChain": "供应链推断：棋子识别、格位灯光和触控屏需稳定对应，否则一次错误提示就可能打断对弈。官方未披露完整代工工厂和物料表；丢失棋子、校准和软件升级会影响长期维护成本。",
+      "technology": "官方明确本地AI与更高级联网Stockfish的区别。技术判断应测试提示延迟、摆错棋子后的恢复和断网降级，不把搜索引擎的强棋力直接当成适合儿童解释策略的教学能力。",
+      "aesthetics": "审美判断：棋盘外观保留传统棋类布局，彩色格位把抽象建议变成可见动作，小屏集中显示状态。明亮提示可能有帮助也可能分散注意，需在自然光和长局环境下观察可读性。",
+      "risks": "风险判断：辅助提示可能让用户依赖推荐而不进行思考，联网平台和竞赛模式也有使用规则。应明确何时关闭训练帮助，避免把人机练习能力误用为在线比赛优势或学习成果保证。",
+      "opportunity": "市场观察：可用同一组练习比较实体即时提示与手机提示，记录设置时间、弃局原因和关闭辅助后的理解。设备销量和教学效果未在本轮验证，不能根据互动顺滑程度预测市场成功。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "面向初学者的实体训练反馈形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "棋子输入",
+        "detail": "触碰与棋子传感获得操作位置。",
+        "evidence": "official"
+      },
+      {
+        "name": "棋力判断",
+        "detail": "本地或联网Stockfish分析走法。",
+        "evidence": "official"
+      },
+      {
+        "name": "提示映射",
+        "detail": "建议映射到棋盘格位灯光。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互显示",
+        "detail": "屏幕、灯光及实体棋子构成训练反馈。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ChessUp 2官方商店",
+        "url": "https://playchessup.com/products/chessup-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "ChessUp 2官方棋力与局面设置",
+        "url": "https://chessup2-knowledge-base.helpscoutdocs.com/article/183-board-editor",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "chessnut-evo",
+    "name": "Chessnut EVO",
+    "brand": "Chessnut",
+    "category": "games",
+    "audience": "consumer",
+    "tagline": "大屏与实体棋盘合为独立棋类终端",
+    "officialUrl": "https://www.chessnutech.com/products/chessnut-evo-the-future-of-ultra-smart-ai-chessboard",
+    "statusEvidence": "官方商店Add to cart且公开商品数据available=true；棋盘与侧边屏幕作为一台EVO计数，配件不另计。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "官网 US$629.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "完整棋子识别与内置Stockfish、Maia棋力引擎结合，提供不同风格的人机对弈；官方还介绍按历史棋局建立个性化模型的服务。",
+      "dependency": "基本对弈使用设备内置屏幕和引擎；账户、联网平台、模型训练及新增服务的权限需另行核对。"
+    },
+    "highlights": [
+      "大屏与实体棋盘合为独立棋类终端",
+      "内置Stockfish和Maia引擎",
+      "不必持续占用个人手机"
+    ],
+    "analysis": {
+      "demand": "需求假设：经常研究棋局的人希望实体触感与数字分析同时存在，并减少手机支架和配对步骤。应观察侧边大屏是否缩短复盘流程，还是让用户最终仍主要盯着屏幕而忽略棋盘。",
+      "userProfile": "画像推断：有固定桌面、愿意花时间研究残局和不同对手风格的家庭棋迷较匹配。大屏增加信息量也占据空间，偏好便携或极简对弈的人可能不需要这种一体化终端。",
+      "competition": "竞争判断：普通平板加电子棋盘能够完成类似组合，独立棋类电脑也有长期产品积累。EVO的集成和棋子识别提供差异，但不能因配置更丰富就假定学习效果或付费意愿更高。",
+      "supplyChain": "供应链推断：侧边屏幕、棋盘传感和系统软件形成多模块整机，校准及屏幕维修的成本值得关注。品牌公开提及自有研发制造，但本轮未核实具体工厂、物料清单和供应商，不作延伸猜测。",
+      "technology": "官方披露不同棋力引擎和完整棋子识别，Maia的人类风格目标不同于单纯追求最强走法。技术判断应分别检查摆局识别、引擎切换和模型服务，不把个性化宣传等同真实人格复制。",
+      "aesthetics": "审美判断：棋盘旁的大屏明确展示数字学习工具定位，牺牲了一部分传统棋盘的对称感。阅读角度、桌面宽度和长期亮屏会影响使用，不能只凭产品平面图判断家庭空间适配。",
+      "risks": "风险判断：系统更新、在线账户和模型服务可能改变功能入口；棋子识别错误也会中断摆局。使用者需要保留棋谱及账户迁移方法，不能把引擎评价当作无需解释的唯一学习标准。",
+      "opportunity": "市场观察：比较重点应是独立终端节省的准备步骤与增加的体积和成本。可记录每周复盘次数、真实使用的引擎以及屏幕占用比例，辨别它是常用棋类工作台还是偶尔展示的设备。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "不必持续占用个人手机形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "棋子识别",
+        "detail": "检测完整棋子身份与所在格位。",
+        "evidence": "official"
+      },
+      {
+        "name": "内置引擎",
+        "detail": "Stockfish及Maia等提供对弈。",
+        "evidence": "official"
+      },
+      {
+        "name": "学习服务",
+        "detail": "联网模型与棋谱服务按权限调用。",
+        "evidence": "official"
+      },
+      {
+        "name": "双重界面",
+        "detail": "实体棋盘与侧边大屏显示分析。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "EVO官方购买页",
+        "url": "https://www.chessnutech.com/products/chessnut-evo-the-future-of-ultra-smart-ai-chessboard",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Chessnut官方支持与手册",
+        "url": "https://www.chessnutech.com/pages/welcome-to-chessnut-support",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "dgt-centaur",
+    "name": "DGT Centaur",
+    "brand": "DGT",
+    "category": "games",
+    "audience": "consumer",
+    "tagline": "根据对局表现调整棋力",
+    "officialUrl": "https://www.dgtshop.com/products/chess-computers-2/centaur-chess-computer-2",
+    "statusEvidence": "DGT官方商店列出价格及Add to cart；只计普通Centaur，不另计透明Crystal外观版本。",
+    "regions": [
+      "欧洲官方商店"
+    ],
+    "price": {
+      "text": "官方商店 €400 含税",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "棋类引擎在对局中分析玩家表现并调整挑战强度，属于经典博弈决策AI；环形灯光提示落子，电子纸显示棋谱与评价。",
+      "dependency": "独立棋类电脑，无须以手机运行核心对弈；传感棋盘记录操作，不能推断具备摄像识别或自动搬动棋子的机构。"
+    },
+    "highlights": [
+      "根据对局表现调整棋力",
+      "电子纸与环形落子灯",
+      "无需手机的安静实体对弈"
+    ],
+    "analysis": {
+      "demand": "需求假设：休闲棋手常常缺少水平接近且随时有空的对手，自动调整挑战可以降低反复设定等级的负担。应观察用户是否觉得对局有趣而非刻意放水，不能只以引擎最高棋力衡量价值。",
+      "userProfile": "画像推断：偏好传统棋子触感、希望减少屏幕和账户操作的家庭棋迷较匹配。它更适合固定空间中直接开局，追求网络赛事、复杂课程或自动摆子的人需要确认其功能边界。",
+      "competition": "竞争判断：经典电子棋类电脑已有成熟替代，免费手机引擎也足够强。Centaur的差别是自适应对手和简化独立体验，传统外观并不代表市场空白，应比较实际开局意愿而非功能数量。",
+      "supplyChain": "供应链推断：平整棋盘、传感层、环形灯和电子纸需要保持操作与反馈一致，轻薄机身也要应对搬动。官方未公开完整工厂和物料成本；棋子遗失、按压磨损及电池维护会影响寿命。",
+      "technology": "官方说明棋力根据玩家在对局中的表现调整，电子纸提供设置与棋局信息。技术判断应观察不同开局和明显失误后的响应，不能把自适应算法描述成理解玩家情绪或拥有生成式语言能力。",
+      "aesthetics": "审美判断：低亮度电子纸和传统棋盘比例提供较安静的桌面存在，环形灯只在需要时引导注意。薄机身与棋子重量的搭配需要实物体验，产品照片不能说明按压手感和长局舒适度。",
+      "risks": "风险判断：自适应强度可能不符合每位棋手对公平挑战的期待，用户也可能希望固定棋力作比较。它没有替代真人交流的承诺，训练价值应通过对局体验和理解过程评估而非获胜比例。",
+      "opportunity": "市场观察：该款适合检验少账户、少设置的专用硬件是否仍有消费价值。可以比较开始一盘棋所需时间、被中断后的恢复和四周留存，避免将低屏幕使用与更好学习效果直接关联。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "无需手机的安静实体对弈形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "操作感知",
+        "detail": "传感棋盘记录用户落子操作。",
+        "evidence": "official"
+      },
+      {
+        "name": "棋力适应",
+        "detail": "引擎分析对局并调整挑战。",
+        "evidence": "official"
+      },
+      {
+        "name": "局面反馈",
+        "detail": "环形LED提示机器走法。",
+        "evidence": "official"
+      },
+      {
+        "name": "状态显示",
+        "detail": "电子纸显示设置、棋谱与评价。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DGT Centaur官方商店",
+        "url": "https://www.dgtshop.com/products/chess-computers-2/centaur-chess-computer-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "DGT Centaur官方功能",
+        "url": "https://www.digitalgametechnology.com/products/chess-computers/dgt-centaur-chess-computer",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "particula-gochess-pro",
+    "name": "Particula GoChess Pro Modern",
+    "brand": "Particula",
+    "category": "games",
+    "audience": "consumer",
+    "tagline": "将应用棋力提示投射到实体棋盘",
+    "officialUrl": "https://particula-tech.com/products/gochess-lite-modern",
+    "statusEvidence": "官方商品页提供Add to cart；当前名称Pro Modern，官网明确旧包装Lite Modern是同一GCHSN1-LITEM棋盘，因此只计一次。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "官网 US$299.95；Pro续费另计",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "配套应用提供AI对手、走法提示和失误提醒，并通过实体格位灯光显示；不是只有远程联机功能的蓝牙棋盘。",
+      "dependency": "棋盘通过蓝牙连接手机，手机承担应用和联网；首年Pro权益与后续按年付费续订需区分，部分基础功能免费。"
+    },
+    "highlights": [
+      "将应用棋力提示投射到实体棋盘",
+      "蓝牙手机连接而非完全独立运行",
+      "同一棋盘新旧名称不重复计数"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有手机的棋手希望保留实体对弈触感，又能随时查看好走法和失误提醒。应验证灯光是否减少切屏，而不是让连接手机、支架和账户步骤增加了开始下棋的阻力。",
+      "userProfile": "画像推断：愿意使用配套应用并接受会员管理的家庭棋迷较匹配，面对面练习与线上比赛可能交替发生。若希望完全脱离手机，则需要提前理解本款的蓝牙和应用依赖。",
+      "competition": "竞争判断：电子棋盘与免费棋类应用的组合十分常见，AI对手本身不构成稀缺能力。GoChess的区别是提示灯映射与整合体验，会员价值应按实际使用功能评估，而非按品牌命名推断升级。",
+      "supplyChain": "供应链推断：薄型格位传感与灯光需要兼顾平整、续航和棋子识别，手机兼容维护同样影响交付。官方未披露完整工厂和物料表；新旧包装名称统一和配件补购也关系售后清晰度。",
+      "technology": "官方说明应用提供AI难度与提示，蓝牙棋盘借助手机联网。技术判断应分别测试传感、蓝牙断连和建议展示，不把应用侧推理全部写成棋盘端侧能力，也不把自动亮灯误作自动移动棋子。",
+      "aesthetics": "审美判断：现代黑白棋盘和轻薄轮廓便于融入家庭桌面，彩色提示增加训练工具感。手机支架与线缆会改变最终布局，真实摆放是否整洁需要把辅助设备一同纳入观察。",
+      "risks": "风险判断：Pro方案首年后自动续订，部分高级提示和平台集成受会员影响，购买硬件不代表全部功能永久免费。旧包装标Lite并非另一款产品，二手购买还应核对账户与权益转移。",
+      "opportunity": "市场观察：值得测量的是用户愿意持续为哪一种具体训练辅助付费，而非把所有AI提示混在一起。可记录免费与会员功能使用比例、断连次数和续费理由，避免由订阅价格反推市场规模。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "同一棋盘新旧名称不重复计数形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "棋盘输入",
+        "detail": "传感棋盘记录实体棋子移动。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机连接",
+        "detail": "蓝牙将操作传入GoChess应用。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI训练",
+        "detail": "应用提供棋力、提示与失误判断。",
+        "evidence": "official"
+      },
+      {
+        "name": "灯光反馈",
+        "detail": "格位灯显示建议和对手走法。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GoChess Pro Modern官方商店",
+        "url": "https://particula-tech.com/products/gochess-lite-modern",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "GoChess官方系列能力",
+        "url": "https://particula-tech.com/pages/gochess",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "millennium-king-performance",
+    "name": "Millennium The King Performance",
+    "brand": "Millennium",
+    "category": "games",
+    "audience": "consumer",
+    "tagline": "可配置对手风格的独立棋类电脑",
+    "officialUrl": "https://computerchess.com/en/The-King-Performance/M830",
+    "statusEvidence": "官方M830全新A-Goods页面显示Available和Add to shopping cart。页面配送文字含异常Instant download，不采信为实物交期；B-Goods及棋子套装不重复计数。",
+    "regions": [
+      "欧洲官方商店"
+    ],
+    "price": {
+      "text": "官网 €284.87 未含VAT",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "内置The King棋类引擎，提供自适应难度、可配置对手风格、局面分析和Chess960；属于经典搜索决策AI，而非语言生成模型。",
+      "dependency": "基础人机对弈可独立运行；联网对战需要另购ChessLink模块及应用，便携供电等配件也需单独核对。"
+    },
+    "highlights": [
+      "可配置对手风格的独立棋类电脑",
+      "木框与压力感应棋盘",
+      "联网能力通过额外模块扩展"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有棋类兴趣的人希望对手既能调整难度又保持某种下棋风格，并愿意在实体棋盘上研究。应观察是否真正使用风格设置，还是多数时候只需要简单的固定等级对手。",
+      "userProfile": "画像推断：喜欢木框和实体棋子、在家庭固定空间下棋的爱好者较匹配；专家模式适合愿意阅读说明的人。需要即插即用联网的人应理解额外模块与应用设置，不能按主机照片推断全套功能。",
+      "competition": "竞争判断：传统棋类电脑、手机引擎及带屏电子棋盘都能提供强对手，风格可调与独立操作形成细分差异。木质外观可能吸引礼品购买，但不能将收藏审美等同稳定训练需求。",
+      "supplyChain": "供应链推断：木框、手工棋子与压力感应棋盘的装配一致性影响触感，控制屏和接口也需长期维护。官方未公开完整代工及物料表；全新与检验过的B品价格不同，不能混为同一库存。",
+      "technology": "官方披露The King程序、自适应等级和对手风格配置。技术判断要区分经典棋类搜索与机器学习术语，压力传感也不是完整棋子身份识别；棋谱恢复和摆错后的操作值得逐项测试。",
+      "aesthetics": "审美判断：木框和加重棋子延续传统棋具语言，下方显示和按键让它仍是一台专用电脑。桌面占用、按压幅度和屏幕角度会影响长局体验，细节手感无法由官方静物图完全判断。",
+      "risks": "风险判断：联网模块、便携电源和收纳配件另购会提高总成本，官网交期字段也有模板异常。购买前应确认配送和保修范围，不把引擎标称棋力或风格描述视为实际学习成果保证。",
+      "opportunity": "市场观察：本款说明消费AI并不只等于大模型，经典决策引擎也能服务明确兴趣。可比较独立开局、风格调整和实体收纳频率，验证专用棋具的价值，而不以模型新旧决定市场判断。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "联网能力通过额外模块扩展形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "压力输入",
+        "detail": "棋盘压力感应记录落子操作。",
+        "evidence": "official"
+      },
+      {
+        "name": "对手引擎",
+        "detail": "The King计算走法和自适应难度。",
+        "evidence": "official"
+      },
+      {
+        "name": "风格配置",
+        "detail": "用户设置对手风格与游戏模式。",
+        "evidence": "official"
+      },
+      {
+        "name": "实体反馈",
+        "detail": "LED、显示和按键形成独立交互。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The King Performance官方全新商品",
+        "url": "https://computerchess.com/en/The-King-Performance/M830",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Millennium官方手册与更新",
+        "url": "https://computerchess.com/en/Downloads/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "chessnut-move",
+    "name": "Chessnut Move",
+    "brand": "Chessnut",
+    "category": "games",
+    "audience": "consumer",
+    "tagline": "让AI走法通过实体棋子自动执行",
+    "officialUrl": "https://www.chessnutech.com/products/chessnut-move-advanced-robotic-chessboard-with-wooden-pieces",
+    "statusEvidence": "当前官方商品页Add to cart，结构化Offer明确为InStock；旧落地页仍有Preorder文案，具体交期以当前订单与shipping-update为准。木塑棋子版本只计同一硬件。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "木棋子版官网 US$799",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "内置Stockfish等棋类引擎可独立对弈，棋盘识别完整棋子与位置，带自移动底座的棋子执行对手走法和自动摆局；不是只有电机的遥控玩具。",
+      "dependency": "独立引擎可在本地对弈，在线平台需要配套应用；棋盘和棋子均需充电，移动区域必须平整、清洁且无阻挡。"
+    },
+    "highlights": [
+      "让AI走法通过实体棋子自动执行",
+      "棋盘与自移动棋子共同工作",
+      "独立引擎加自动摆局体验"
+    ],
+    "analysis": {
+      "demand": "需求假设：棋手希望独自对弈时不必替机器移动棋子，并可快速摆出残局研究。应把充电、清理桌面和错误恢复的时间一并计算，确认自动移动是否真的降低准备成本而非只增加观赏性。",
+      "userProfile": "画像推断：有宽裕固定桌面、喜欢实体机械动作且愿意维护多枚棋子的爱好者较匹配。频繁外出或希望随手收纳的人可能不适合，家庭中的儿童和宠物也会影响自动移动空间。",
+      "competition": "竞争判断：自动棋盘较小众，但传统独立棋机和手机引擎仍以低成本提供对弈。Move的区别是实体动作和自动摆局，低品类热度不意味着没有替代，也不能用机械新奇度推算消费市场大小。",
+      "supplyChain": "供应链推断：大量自移动棋子底座、定位和同步充电增加一致性与维修要求，单枚故障就可能影响整局。官方列出备用底座安排，但本轮未核实具体工厂和物料表，不猜测内部驱动细节。",
+      "technology": "官方披露完整棋子位置识别、独立棋力引擎和自动移动。技术判断应把棋力决策、定位和执行三环分别测试，尤其关注拥挤局面、棋子被手移动及低电量时的恢复，而非只看正常演示。",
+      "aesthetics": "审美判断：木棋子保留传统对弈形象，自动移动让静态棋具产生明显戏剧感，较大棋盘也需要专门位置。底座比例、动作声音和充电收纳会改变体验，应在真实居家桌面中观察。",
+      "risks": "风险判断：自动动作可能受灰尘、桌面倾斜和阻挡影响，官方要求不要强行拉动运行中的棋子。棋子与棋盘充电、备用底座和交期都需确认，不能把精度宣传直接当作任何环境下的可靠性。",
+      "opportunity": "市场观察：最值得验证的是残局摆设和机器代走这两项动作是否形成持续价值。记录每周自动摆局次数、手动介入和维护时间，区分长期棋类工具与一次性展示体验，不以演示视频预测销量。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "独立引擎加自动摆局体验形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "棋局识别",
+        "detail": "棋盘识别棋子身份与位置。",
+        "evidence": "official"
+      },
+      {
+        "name": "棋力决策",
+        "detail": "内置Stockfish等引擎计算走法。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作控制",
+        "detail": "系统协调自移动棋子执行目标位置。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电维护",
+        "detail": "棋盘及棋子通过对应充电方式补能。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chessnut Move当前官方商品",
+        "url": "https://www.chessnutech.com/products/chessnut-move-advanced-robotic-chessboard-with-wooden-pieces",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Chessnut Move官方介绍",
+        "url": "https://www.chessnutech.com/pages/chessnut-move",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Chessnut官方交付更新",
+        "url": "https://www.chessnutech.com/pages/shipping-update",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "delivery"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "dimehead-nam-player",
+    "name": "Dimehead NAM Player",
+    "brand": "Dimehead",
+    "category": "music",
+    "audience": "prosumer",
+    "tagline": "专门承载NAM神经音色的实体踏板",
+    "officialUrl": "https://www.dimehead.de/product/nam-player/",
+    "statusEvidence": "制造商官方商店显示Add to cart和具体配送国家；按当前NAM Player本体计数，电源及USB存储介质需求另列。",
+    "regions": [
+      "欧盟",
+      "英国",
+      "美国",
+      "日本",
+      "加拿大",
+      "澳大利亚",
+      "新西兰及官网所列市场"
+    ],
+    "price": {
+      "text": "官网 €535.50 含德国VAT",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "在实体踏板内播放以深度学习训练的NAM音箱与踏板响应模型，可加载组合模型；模型训练通常在外部完成，不把普通延时或混响都称为AI。",
+      "dependency": "使用USB存储介质导入兼容模型与固件；加载后可独立演奏。输入增益与模型版本会影响效果，单声道限制须按官方FAQ理解。"
+    },
+    "highlights": [
+      "专门承载NAM神经音色的实体踏板",
+      "模型导入后本地演奏",
+      "面向已有模型文件的个人乐手"
+    ],
+    "analysis": {
+      "demand": "需求假设：已经使用NAM音色的个人乐手可能希望在演出或排练时摆脱电脑，并保留熟悉模型。应比较文件准备、增益校准与现场切换耗时，确认专用踏板解决的是实际流程而非模型数量焦虑。",
+      "userProfile": "画像推断：理解音频信号链、会管理模型和USB文件的吉他或贝斯爱好者较匹配。需要完全自动找音色的新手可能更看重简化入口，不能把硬件可独立运行等同无需前期学习和配置。",
+      "competition": "竞争判断：大型建模器、低价神经模型踏板和电脑插件都能播放类似内容，专用NAM定位较窄但替代明确。开放格式带来内容自由，也让硬件必须靠控制、可靠性和支持形成区别。",
+      "supplyChain": "供应链推断：脚控、音频接口、显示和实时处理模块需共同保证反复连接与踩踏稳定。官方未公开完整工厂和物料清单；跨境维修、固件维护及外接电源选择会改变实际拥有成本。",
+      "technology": "官方解释NAM模型来自深度学习，并提醒输入增益对模型表现很重要。技术判断应以同一文件和校准输入比较响应，不能把厂家延迟或逼真度形容直接当作本轮测量，也不保证所有新模型兼容。",
+      "aesthetics": "审美判断：金属盒体、醒目屏幕和脚开关表达明确舞台工具语言，功能集中而没有大面积装饰。舞台低光、站立视角和线缆插拔空间会影响操作，图片不能替代实际脚控体验。",
+      "risks": "风险判断：模型格式变化和输入校准会造成声音差异，单声道设计也不适合所有演出链路。官方配送地区不含所有国家，购买前需确认维修与电源条件，重要演出仍应准备可恢复的预设。",
+      "opportunity": "市场观察：该款可以检验开放神经音色生态是否带来专用硬件需求。后续记录模型导入成功率、现场换音色次数及电脑替代程度，区分稳定演奏工具与一次性尝鲜，不用社区热度推断销量。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向已有模型文件的个人乐手形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "文件导入",
+        "detail": "USB介质导入兼容NAM与IR文件。",
+        "evidence": "official"
+      },
+      {
+        "name": "神经模型播放",
+        "detail": "在设备上运行已训练音频响应模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音链路",
+        "detail": "输入输出与普通音频效果配合。",
+        "evidence": "official"
+      },
+      {
+        "name": "现场操作",
+        "detail": "显示、旋钮、脚控和MIDI控制。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dimehead官方商品",
+        "url": "https://www.dimehead.de/product/nam-player/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Dimehead官方NAM与兼容FAQ",
+        "url": "https://www.dimehead.de/faq/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "chessnut-companion",
+    "name": "Chessnut Companion",
+    "brand": "Chessnut",
+    "category": "games",
+    "audience": "consumer",
+    "tagline": "把AI复盘放进专用实体棋钟",
+    "officialUrl": "https://www.chessnutech.com/products/chessnut-companion",
+    "statusEvidence": "官方商品页可加购；结构化Offer标准容量为InStock，较大容量为OutOfStock。只计同一型号，不以容量变体凑数。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "可购标准容量官网 US$459",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "将棋钟、棋局识别和Grandeur AI棋局分析结合，生成阶段建议与复盘摘要；可识别棋盘或网页棋局，自动按钟模拟对手节奏。",
+      "dependency": "完整实体对局流程需兼容棋盘；Grandeur使用服务器资源，免费积分与Premium权益不同，不能当作所有分析离线无限可用。"
+    },
+    "highlights": [
+      "把AI复盘放进专用实体棋钟",
+      "兼容棋盘与视觉局面识别",
+      "云端分析权益与计时功能分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有电子棋盘的人可能希望在桌边完成计时、记录与复盘，减少手机和电脑切换。应验证独立棋钟是否真正成为常用入口，还是与已有棋类应用重复而增加了设备管理负担。",
+      "userProfile": "画像推断：经常进行家庭或俱乐部式限时对弈、已有兼容棋盘的个人爱好者较匹配。单独购买前需要确认能获得哪些局面输入，不能把照片中的整套棋盘误认为棋钟订单自带。",
+      "competition": "竞争判断：普通棋钟价格较低，手机与平板也能做棋局分析，组合硬件必须证明流程连贯性。自动按钟和桌边摘要是差异，但小众棋钟市场不等于缺少软件替代或存在确定的增长机会。",
+      "supplyChain": "供应链推断：大屏、按钟机构、连接模块和电池需要支持频繁操作及稳定计时。品牌未在本轮资料中披露该型号具体工厂或物料清单，机械按键维修与兼容固件维护都属于长期成本。",
+      "technology": "官方说明Grandeur分析与局面识别，而计时和按钟是另一层功能。技术判断应分别验证视觉录入、棋盘同步和文本解释，生成的策略描述可能与强引擎评分不同，不能当作绝对正确的教练。",
+      "aesthetics": "审美判断：横向大屏和顶部棋钟按钮把传统竞技器具变成桌面终端，较普通棋钟更加醒目。屏幕信息密度、两侧玩家视角和实体按键手感会影响对弈节奏，需要在真实棋桌上观察。",
+      "risks": "风险判断：免费积分和订阅限制决定AI分析的实际使用量，兼容范围也排除部分一体棋类电脑。比赛场景需要遵守规则，不能在禁止辅助的对局中使用实时分析，也不把复盘摘要当作学习保证。",
+      "opportunity": "市场观察：验证应从已有棋盘用户开始，记录计时、复盘和语音功能各自的使用频次。比较整套设备准备时间与手机方案，明确购买棋钟后的新增价值，不由功能整合数量推断付费意愿。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "云端分析权益与计时功能分开形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "局面输入",
+        "detail": "兼容棋盘连接或视觉功能识别局面。",
+        "evidence": "official"
+      },
+      {
+        "name": "棋局分析",
+        "detail": "Grandeur服务提供策略说明和复盘。",
+        "evidence": "official"
+      },
+      {
+        "name": "实体计时",
+        "detail": "棋钟与自动按钟机构配合。",
+        "evidence": "official"
+      },
+      {
+        "name": "显示交互",
+        "detail": "触屏、语音及账户权益管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Chessnut Companion官方商品",
+        "url": "https://www.chessnutech.com/products/chessnut-companion",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Chessnut Companion官方能力与会员",
+        "url": "https://www.chessnutech.com/pages/chessnut-companion",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "viwoods-aipaper",
+    "name": "Viwoods AiPaper",
+    "brand": "Viwoods",
+    "category": "computing",
+    "audience": "consumer",
+    "tagline": "从手写输入连接到AI文本整理",
+    "officialUrl": "https://viwoods.com/products/viwoods-aipaper",
+    "statusEvidence": "官方商品页有Add to cart；公开商品数据标准手写套装available=true。手写平板与口袋Reader用途不同，笔尖、保护套不另计产品。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "官网 US$549",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "内置工作流可将手写转为文本，再用AI命令摘要、翻译、润色和整理选中内容；不是仅因支持安卓安装应用而被列入。",
+      "dependency": "AI功能需要联网访问所选模型；基本阅读、手写和本地笔记可离线。云同步可选，模型账户、区域与权限需按当前服务核对。"
+    },
+    "highlights": [
+      "从手写输入连接到AI文本整理",
+      "电子纸阅读与文档批注",
+      "本地笔记和联网AI分别工作"
+    ],
+    "analysis": {
+      "demand": "需求假设：习惯手写的人希望保留草稿过程，又能在事后快速整理和查找内容。应测试真实潦草笔记转写后的修改量，确认摘要节省的时间超过核对和修正成本，而非只看整洁演示样本。",
+      "userProfile": "画像推断：经常阅读文档、写日记或做个人项目笔记，且偏好电子纸的人较匹配。需要高速视频、复杂排版或完整桌面软件的人可能仍需其他终端，不能将安卓系统等同普通平板体验。",
+      "competition": "竞争判断：纸笔加扫描、普通平板和其他手写电子纸都有替代能力，内置AI命令主要改善内容迁移流程。低品牌知名度不意味着竞争较少，应具体比较手写手感、导出质量与服务依赖。",
+      "supplyChain": "供应链推断：大尺寸电子纸、笔输入层与轻薄结构需要控制装配和运输损伤，笔尖耗材也影响长期体验。官方未披露完整工厂和物料表，屏幕维修、配件供货与系统更新需纳入成本。",
+      "technology": "官方支持手写转文字和对选中文本执行AI命令。技术判断应拆分识别错误与模型改写错误，并保留原笔迹供核对，不能把润色后的流畅文字当作忠实记录，也不声称所有推理都在本机。",
+      "aesthetics": "审美判断：浅色窄边和纸页式界面让产品接近数字笔记本，手写笔与保护套构成完整随身物件。屏幕反射、笔触摩擦及单手持握比渲染中的轻薄更重要，需实际连续书写体验。",
+      "risks": "风险判断：个人笔记送入在线模型前需要理解内容范围与账户设置，摘要可能遗漏限定条件。显示屏维修和地区服务也影响长期可用性，重要原稿应独立备份，不仅保留AI整理结果。",
+      "opportunity": "市场观察：可跟踪一周真实笔记从书写到再次使用的全过程，记录转写纠错、导出和检索成功率。需求来自信息复用而非单纯增加AI入口，不能由电子纸偏好推算大规模购买意愿。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "本地笔记和联网AI分别工作形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "手写输入",
+        "detail": "电子笔与触控层记录笔迹。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地文档",
+        "detail": "阅读、批注与笔记组织。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别整理",
+        "detail": "手写转文字进入AI命令流程。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网模型",
+        "detail": "在线摘要、翻译和文本处理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AiPaper官方商店",
+        "url": "https://viwoods.com/products/viwoods-aipaper",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Viwoods官方工作流支持",
+        "url": "https://viwoods.com/pages/support-center",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Viwoods官方联网与隐私FAQ",
+        "url": "https://viwoods.com/pages/frequently-asked-questions-about-viwoods",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "viwoods-aipaper-reader",
+    "name": "Viwoods AiPaper Reader",
+    "brand": "Viwoods",
+    "category": "computing",
+    "audience": "consumer",
+    "tagline": "通过实体AI键调用阅读解释",
+    "officialUrl": "https://viwoods.com/products/viwoods-aipaper-reader",
+    "statusEvidence": "官方黑白Reader页面Add to cart，公开产品数据available=true；不把彩色屏变体或不同保护套再计为新产品。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "黑白Reader官网 US$279",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "专用AI按键可在阅读流程中解释段落、摘要和问答，并切换支持的在线模型；其定位是口袋阅读，不是AiPaper手写平板的容量变化。",
+      "dependency": "AI需Wi-Fi或可用移动网络；本地文档阅读可离线。SIM、频段、套餐和模型可达性受地区影响，不把有4G硬件等同全球服务可用。"
+    },
+    "highlights": [
+      "通过实体AI键调用阅读解释",
+      "口袋电子纸阅读终端",
+      "移动联网与离线阅读用途分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：通勤阅读者可能希望遇到陌生概念时直接提问，而不是切回容易分心的手机。应记录提问是否帮助继续阅读，以及模型回应和联网等待是否反而打断了原有节奏。",
+      "userProfile": "画像推断：经常阅读长文章、外语资料并愿意多携带一台小设备的人较匹配。它不能完全替代手机，实际口袋空间和设备充电管理会影响接受度，不能只由轻量外形判断携带成本。",
+      "competition": "竞争判断：手机阅读、普通阅读器加词典和其他安卓电子纸均是替代，实体AI键属于流程差异。口袋尺寸与大手写板用途不同，但低知名度和新形态都不意味着用户愿意为第二终端付费。",
+      "supplyChain": "供应链推断：小型电子纸、按键与移动通信模块需兼顾握持、信号和续航，屏幕维修与保护套也重要。官方未公开完整工厂和物料表，地区频段及运营商适配可能带来额外售后负担。",
+      "technology": "官方说明专用按键调用在线模型解释与摘要，移动网络只提供连接并不等于离线AI。技术判断应测试选取文本范围、跨应用权限和回答来源，不把一键操作简单等同模型理解可靠。",
+      "aesthetics": "审美判断：窄长比例和少量实体键适合单手翻页，电子纸呈现与手机不同的视觉节奏。握持边框、按键误触和户外反射需要实测，界面能安装大量应用也可能增加视觉复杂度。",
+      "risks": "风险判断：插卡不保证当地频段和数据套餐兼容，在线AI服务也可能有地区限制。阅读文件交给模型处理时需了解权限，重要概念应回查原文，不能仅凭无订阅宣传假定权益永不变化。",
+      "opportunity": "市场观察：应观察双设备用户的真实通勤行为，记录读完篇数、主动提问和回到手机的原因。对照普通阅读器与手机方案，验证专用AI键是否形成持续阅读价值，而非仅提高首次上手的新奇感。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "移动联网与离线阅读用途分开形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "阅读入口",
+        "detail": "电子纸显示与实体翻页操作。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI触发",
+        "detail": "独立AI键选取阅读上下文。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网通道",
+        "detail": "Wi-Fi或可用SIM网络访问模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "文本反馈",
+        "detail": "解释、摘要和问答返回阅读界面。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AiPaper Reader官方商店",
+        "url": "https://viwoods.com/products/viwoods-aipaper-reader",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Viwoods官方联网与型号FAQ",
+        "url": "https://viwoods.com/pages/frequently-asked-questions-about-viwoods",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "boox-note-air5c",
+    "name": "BOOX Note Air5 C",
+    "brand": "BOOX",
+    "category": "computing",
+    "audience": "consumer",
+    "tagline": "彩色电子纸中的内置阅读解释",
+    "officialUrl": "https://shop.boox.com/products/noteair5c",
+    "statusEvidence": "官方页面Order Now，结构化商品Offer所列美国标准套装为InStock。仅收这一代可购型号，不同时堆叠Air4、Air6或容量变体。",
+    "regions": [
+      "美国官网所列仓库与配送区域"
+    ],
+    "price": {
+      "text": "官方美国标准套装 US$529.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "内置阅读AI Assistant解释术语与复杂句子；Smart Scribe辅助整理手写和草图。普通刷新算法与可以安装应用本身不作为AI收录依据。",
+      "dependency": "联网助手的账户、模型与地区服务需另核对；本地阅读手写和系统显示优化是不同功能。第三方应用可用性受系统与电子纸适配限制。"
+    },
+    "highlights": [
+      "彩色电子纸中的内置阅读解释",
+      "手写草图与文本辅助",
+      "面向阅读批注和轻量创作"
+    ],
+    "analysis": {
+      "demand": "需求假设：阅读论文、教材或个人资料的人希望在批注时快速解释难句，同时保留颜色标记。应比较实际长文中的提示质量与切屏次数，确认彩色和AI服务是否支持同一个高频需求。",
+      "userProfile": "画像推断：常做文档批注、草图和个人学习笔记，愿意调整电子纸显示设置的人较匹配。它有安卓应用自由，也存在刷新和配色取舍，不能当作通用娱乐平板或专业绘图屏的直接替代。",
+      "competition": "竞争判断：手写电子纸和平板市场都有成熟产品，阅读助手还会受到手机软件替代。此款的差异是彩色标记、笔输入和内置解释衔接，不能用更多系统功能直接证明更适合所有阅读者。",
+      "supplyChain": "供应链推断：彩色电子纸、笔触层、前光和轻薄金属结构对装配与屏幕保护有要求，笔尖和键盘套也是维护环节。官方未披露完整工厂和物料表，维修与固件支持需按销售地区确认。",
+      "technology": "官方区分阅读AI Assistant与Smart Scribe等输入辅助。技术判断应分别观察术语解释是否准确、手写整理是否改变原意，以及复杂页面的响应，不能把刷新更顺滑等同语言模型更可靠。",
+      "aesthetics": "审美判断：宽握持边与柔和色彩延续数字纸张风格，笔和可选键盘套提供不同使用姿势。彩色电子纸的饱和度与背景亮度不能按宣传屏幕图判断，需要在实际照明下查看自己的材料。",
+      "risks": "风险判断：账户地区、在线服务和第三方应用权限会影响助手功能；彩色屏幕也可能需要更频繁调光。重要笔记应保留原始导出，模型解释需回查原文，不以厂商护眼措辞作医疗效果承诺。",
+      "opportunity": "市场观察：后续可按教材、科研阅读和个人绘画分别记录使用，不把多个场景混成单一用户。比较批注复用率、设置时间和助手纠错成本，判断这套组合是否超出普通平板已经满足的需求。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向阅读批注和轻量创作形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "彩色显示",
+        "detail": "电子纸与前光显示文档和标记。",
+        "evidence": "official"
+      },
+      {
+        "name": "笔触输入",
+        "detail": "手写笔与触控层记录批注草图。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容辅助",
+        "detail": "Smart Scribe和阅读AI助手处理内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "系统连接",
+        "detail": "应用、网络与文档同步服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Note Air5 C官方商店",
+        "url": "https://shop.boox.com/products/noteair5c",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Note Air5 C官方功能介绍",
+        "url": "https://shop.boox.com/blogs/news/introducing-note-air5-c-the-10-3-color-epaper-notebook-for-light-productivity",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "makeblock-mbot2",
+    "name": "Makeblock mBot2",
+    "brand": "Makeblock",
+    "category": "education",
+    "audience": "consumer",
+    "tagline": "让语音识别结果驱动可编程机器人",
+    "officialUrl": "https://www.makeblock.com/products/buy-mbot2",
+    "statusEvidence": "官方单机器人页有购买入口并说明两工作日发货、当前直送美国本土；本条不是学校六台组合，mBot Neo旧名称与同款扩展套装不重复计数。",
+    "regions": [
+      "美国本土官方直送"
+    ],
+    "price": {
+      "text": "单机器人官网 US$149.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方课程使用内置麦克风进行语音识别，将较重识别计算交给云服务；也可配合mBlock与电脑摄像头训练图像分类后驱动机器人。巡线避障不单独算AI。",
+      "dependency": "需要兼容电脑或移动应用和学习配置；语音识别需网络，视觉课程通常使用外部摄像头或另购AI Camera，基础套装不默认含视觉模块。"
+    },
+    "highlights": [
+      "让语音识别结果驱动可编程机器人",
+      "完整家庭STEM套件而非裸开发板",
+      "学习软件与实体动作形成反馈"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭学习者希望通过看得见的动作理解语音识别和分类结果，而不仅在屏幕上拖动积木。应观察孩子是否理解数据、判断与行动之间的关系，不能只用机器人完成任务来代表学习。",
+      "userProfile": "画像推断：愿意陪同搭建、设置软件并共同完成项目的亲子家庭较匹配。它需要学习活动和稳定桌面空间，若购买者只希望开箱自动陪玩，则编程配置和故障排查可能成为持续使用门槛。",
+      "competition": "竞争判断：编程机器人、积木套件和免费浏览器机器学习课程都有替代，实体反馈是主要区别。课程数量多不等于家庭能持续使用，家长投入、语言支持和项目难度梯度可能更影响选择。",
+      "supplyChain": "供应链推断：金属构件、电机、传感器和可拆线缆让产品可扩展，也增加零件遗失与接错的可能。官方未披露完整工厂和物料成本；课程维护、备件和不同套装清晰标识都是交付环节。",
+      "technology": "官方课程明确语音识别可交给云服务，机器学习项目可结合电脑摄像头。技术判断应区分外部推理与本机控制，不能把全部感知都画在机器人上，也不能将固定阈值避障当成机器学习。",
+      "aesthetics": "审美判断：外露金属框架和模块接口突出可搭建工具属性，双眼式超声波部件增加亲和感。线缆整理、锐边处理与孩子拿取方式影响真实体验，整洁样机照片不能反映组装后的状态。",
+      "risks": "风险判断：小零件、运动机构和电池需要按年龄与说明使用，网络和账户变化可能影响语音课程。AI Camera等扩展件并非基础订单标配，购买时应按具体项目核对，不保证教育成果。",
+      "opportunity": "市场观察：可以通过四周家庭项目记录评估持续价值，包括独立完成步骤、求助频率和失败后的重试意愿。把家长时间计入成本，区分可玩的机器人和真正帮助理解AI流程的学习工具。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "学习软件与实体动作形成反馈形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体套件",
+        "detail": "金属底盘、电机和传感模块构成机器人。",
+        "evidence": "official"
+      },
+      {
+        "name": "学习输入",
+        "detail": "麦克风或外部摄像头收集学习输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别学习",
+        "detail": "mBlock与云语音或外部模型处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作反馈",
+        "detail": "程序将识别结果映射到电机和显示。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "mBot2官方单机购买页",
+        "url": "https://www.makeblock.com/products/buy-mbot2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "audience"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "mBot2官方课后课程指南",
+        "url": "https://res-us.makeblock.com/doc/course/mBot2/After-school%20program%20guide%20for%20mBot2.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。"
+      },
+      {
+        "title": "mBot2官方能力与扩展区分",
+        "url": "https://www.makeblock.com/pages/mbot2-coding-robot",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "robotical-marty-v2",
+    "name": "Robotical Marty the Robot V2",
+    "brand": "Robotical",
+    "category": "education",
+    "audience": "consumer",
+    "tagline": "把图像分类预测变成步行动作",
+    "officialUrl": "https://robotical.io/product/marty-the-robot-v2/",
+    "statusEvidence": "官方单台商品有Add to cart，结构化Offer为InStock；按一台完整Marty V2计数，学校多机包和灯光配件不另计。",
+    "regions": [
+      "所列官方国际商店"
+    ],
+    "price": {
+      "text": "官网 US$449 未含税",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Robotical Blocks可用电脑或平板摄像头采集样本、训练和测试图像分类，再通过蓝牙让Marty响应预测；AI并非全部内置在机器人中。",
+      "dependency": "需兼容浏览器、外部电脑或平板及摄像头权限；机器人连接蓝牙执行动作。更高级扩展板与摄像配件不默认包含，也不是收录裸开发板。"
+    },
+    "highlights": [
+      "把图像分类预测变成步行动作",
+      "可自建训练样本的家庭学习机器人",
+      "外部学习计算与机器人执行分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：学习者可能更容易通过机器人的步行与转向理解分类模型结果，而不是只看屏幕置信度。应观察是否能解释模型在新背景下失败的原因，不能仅以成功识别一次物体代表掌握机器学习。",
+      "userProfile": "画像推断：愿意用电脑或平板共同完成项目的家庭学习者与个人机器人爱好者较匹配。人形步行有吸引力，也需要平整活动区域和调试耐心，购买者应接受学习工具与自动玩具的区别。",
+      "competition": "竞争判断：轮式编程机器人、虚拟角色和免费机器学习网站都能提供部分学习体验，人形动作是具体区别。外形更生动不保证教学更有效，课程可理解性、维修与家庭支持时间同样关键。",
+      "supplyChain": "供应链推断：关节执行器、腿部结构和可更换部件需要经反复步行测试，连接和姿态校准也影响可靠性。官方未披露完整工厂及物料表，备件、教学软件与支持文档会决定长期维护成本。",
+      "technology": "官方图像模型指南明确使用电脑或平板摄像头，并通过蓝牙连接Marty执行预测结果。技术判断应测试未见样本和背景变化，避免把训练集表现写成通用视觉理解，也不虚构机器人自带摄像头。",
+      "aesthetics": "审美判断：方形头部、短肢体和可变化眼部表达形成易辨认的角色，步行动作增强学习反馈。动作声音、站立稳定性和孩子拿取姿势都需真实观察，静态照片难以说明机械互动的舒适度。",
+      "risks": "风险判断：训练结果可能随光照和样本偏差变化，机器人动作需在清空的稳定表面运行。浏览器权限与蓝牙兼容也会影响课程，不能把演示中的顺利行走视为任何地面都可靠或学习成果保证。",
+      "opportunity": "市场观察：可比较屏幕分类项目和加入Marty动作后的参与度与理解，记录重训、求助和维修频率。只有在孩子能解释失败并愿意继续探索时，实体反馈才可能提供超出普通动画的价值。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "外部学习计算与机器人执行分开形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "样本收集",
+        "detail": "外部电脑或平板摄像头采集图像。",
+        "evidence": "official"
+      },
+      {
+        "name": "分类训练",
+        "detail": "Robotical Blocks训练并测试模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "通信控制",
+        "detail": "蓝牙将分类结果映射为动作命令。",
+        "evidence": "official"
+      },
+      {
+        "name": "人形执行",
+        "detail": "机器人关节和表情输出学习反馈。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Marty V2官方单台商品",
+        "url": "https://robotical.io/product/marty-the-robot-v2/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Robotical官方图像分类教程",
+        "url": "https://userguides.robotical.io/martyv2/userguides/martyblocks/machinelearning/image",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "makeblock-codey-rocky",
+    "name": "Makeblock Codey Rocky",
+    "brand": "Makeblock",
+    "category": "education",
+    "audience": "consumer",
+    "tagline": "以表情与履带动作承载AI编程项目",
+    "officialUrl": "https://www.makeblock.com/products/buy-codey-rocky",
+    "statusEvidence": "官方单台商品页列购买入口与两工作日发货说明，直送美国本土；蓝牙适配器组合不另计型号。",
+    "regions": [
+      "美国本土官方直送"
+    ],
+    "price": {
+      "text": "官网 US$139.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "配合mBlock可进行人脸识别等AI学习项目并驱动实体机器人；普通巡线、颜色检测与遥控不作为AI依据。官方FAQ明确本体没有独立语音识别模块。",
+      "dependency": "AI项目依赖mBlock、兼容电脑及相应外部输入或扩展；语音控制须按官方要求搭配模块，不把可编程小车写成内置通用对话机器人。"
+    },
+    "highlights": [
+      "以表情与履带动作承载AI编程项目",
+      "mBlock学习功能需要配套终端",
+      "轻量入门机器人而非自由对话玩具"
+    ],
+    "analysis": {
+      "demand": "需求假设：初学者希望把简单识别结果变成表情和行走动作，获得比屏幕积木更直观的反馈。应确认家庭实际完成的是AI识别项目，而非长期只使用遥控和巡线功能后仍称为AI学习。",
+      "userProfile": "画像推断：偏好较少机械组装、愿意与成人一起使用图形编程软件的低龄学习者较匹配。主控与底盘分离方便探索，也可能需要解释不同模块作用，不能假定可爱外观意味着无需引导。",
+      "competition": "竞争判断：同价位编程玩具、积木和移动应用很多，轻量角色外观与模块化底盘形成差异。若用户只使用遥控，普通玩具可能足够，因此需要区分编程需求、陪伴期待和礼物新鲜感。",
+      "supplyChain": "供应链推断：履带底盘、主控连接和点阵显示需承受反复拆装与桌面跌落，触点和传动部件也会磨损。官方未披露完整工厂和物料表；固件工具、适配器和备件可用性影响交付体验。",
+      "technology": "官方将AI能力放在mBlock学习生态中，同时明确本体无语音识别模块。技术判断必须标清外部摄像与软件依赖，不把颜色传感或固定避障逻辑描述成通用视觉，也不声称可直接自由聊天。",
+      "aesthetics": "审美判断：白色圆角主控、点阵表情与黑色履带让它像一个小角色，降低工具的陌生感。表情可读性、拆装阻力和地面运行声音需要实际体验，图片中的友好感不代表所有孩子都感兴趣。",
+      "risks": "风险判断：AI课程与基础玩法的硬件条件不同，购买者容易误以为识别能力全部内置。电脑兼容、固件更新和小零件管理需要成人参与，不能将厂商能力描述直接转写成孩子独立学习保证。",
+      "opportunity": "市场观察：后续可记录家庭从遥控转向编程和识别项目的比例，询问在哪一步停止使用及需要何种帮助。把软件配置和成人陪同时间纳入总成本，判断实体角色是否真正支持持续探索。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "轻量入门机器人而非自由对话玩具形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "角色主控",
+        "detail": "点阵显示和传感输入构成Codey。",
+        "evidence": "official"
+      },
+      {
+        "name": "学习软件",
+        "detail": "mBlock及外部输入承载AI项目。",
+        "evidence": "official"
+      },
+      {
+        "name": "程序映射",
+        "detail": "识别结果触发表情或动作。",
+        "evidence": "official"
+      },
+      {
+        "name": "履带执行",
+        "detail": "Rocky底盘执行运动控制。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Codey Rocky官方单机商品",
+        "url": "https://www.makeblock.com/products/buy-codey-rocky",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Makeblock官方AI项目说明",
+        "url": "https://www.makeblock.com/blogs/for-educators/ai-projects",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Makeblock家庭项目与识别能力",
+        "url": "https://www.makeblock.com/blogs/for-family/10-engaging-stem-activities-for-kids-in-2023",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Codey Rocky官方能力边界FAQ",
+        "url": "https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "kindle-scribe-2025",
+    "name": "Amazon Kindle Scribe（2025，第三代）",
+    "brand": "Amazon",
+    "category": "computing",
+    "audience": "consumer",
+    "tagline": "电子纸手写与生成式笔记搜索",
+    "officialUrl": "https://www.amazon.com/dp/B0FC1ZS9QZ",
+    "statusEvidence": "已打开Amazon官方第三代64GB新机商品，卖家与发货方为Amazon.com且有Add to cart；不把翻新报价、容量和无前光版重复计数。",
+    "regions": [
+      "美国Amazon官方商店"
+    ],
+    "price": {
+      "text": "以Amazon所选容量当前报价为准",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "内置生成式笔记摘要、手写整理及自然语言笔记搜索；官方将相关新功能的可用范围标为美国，不能把全球可买硬件等同所有AI功能可用。",
+      "dependency": "需要Amazon账户与相应联网服务；语言、地区和功能版本受限制。基础阅读、原始手写与在线AI处理是不同环节。"
+    },
+    "highlights": [
+      "电子纸手写与生成式笔记搜索",
+      "可保留原笔迹并整理分享",
+      "Kindle阅读生态中的专用书写终端"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有Kindle阅读习惯的人可能希望把批注、个人笔记和查找内容放在同一设备中。应观察用户是否真会回顾自己的笔记，以及AI搜索能否找到关键原句而不只是生成看似合理的摘要。",
+      "userProfile": "画像推断：重视长文阅读和手写、已经接受Amazon账户生态的个人用户较匹配。对中文资料、开放应用或复杂绘图有要求的人需先核对支持范围，不能只按大屏和附笔判断适合所有笔记任务。",
+      "competition": "竞争判断：普通Kindle加纸笔、其他电子纸手写板和iPad都构成替代，品牌阅读生态是主要区别。AI摘要在软件中也很常见，硬件价值需要由阅读书写的连贯性与长期内容管理体现。",
+      "supplyChain": "供应链推断：大电子纸、前光、笔输入和轻薄机身需要可靠屏幕保护，笔尖与保护套影响持续书写成本。官方未在本轮资料中披露具体工厂和完整物料表，不推算制造利润或内部芯片布局。",
+      "technology": "官方说明自然语言笔记搜索、摘要和手写整理，并限定部分功能的地区范围。技术判断应将识别笔迹、检索原文和生成概括分别测试，检查省略和错引，不能将流畅总结当作完全忠实记录。",
+      "aesthetics": "审美判断：中性色窄边机身与大纸页保持阅读器的克制外观，手写笔让产品成为随身笔记物件。实际持握重心、前光均匀性和笔尖摩擦影响长时体验，展示图无法替代连续阅读书写。",
+      "risks": "风险判断：地区账户和服务政策会决定AI功能是否可用，私人笔记处理前需理解云端与分享范围。导出的摘要可能丢失细节，重要记录应保留原笔迹；不把无通知或电子纸视为注意力改善保证。",
+      "opportunity": "市场观察：适合从现有Kindle用户和普通笔记用户分别验证，记录阅读到写作转换次数、笔记找回成功率及纠错。生态熟悉度与AI价值应分开考察，不能由品牌体量推断这类手写需求规模。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "Kindle阅读生态中的专用书写终端形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "纸页显示",
+        "detail": "电子纸及前光呈现书籍与笔记。",
+        "evidence": "official"
+      },
+      {
+        "name": "笔迹输入",
+        "detail": "附带手写笔记录原始内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "笔记处理",
+        "detail": "摘要、整理与自然语言搜索。",
+        "evidence": "official"
+      },
+      {
+        "name": "账户连接",
+        "detail": "Amazon账户与联网服务管理内容。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kindle Scribe第三代Amazon官方新机",
+        "url": "https://www.amazon.com/dp/B0FC1ZS9QZ",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "已核对新机Amazon.com卖家与加购入口，未使用Amazon Resale库存。"
+      },
+      {
+        "title": "Amazon官方Scribe生成式功能说明",
+        "url": "https://www.aboutamazon.com/news/devices/kindle-scribe-gen-ai-notebook",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "insta360-ace-pro-2",
+    "name": "Insta360 Ace Pro 2",
+    "brand": "Insta360",
+    "category": "imaging",
+    "audience": "prosumer",
+    "tagline": "把机内AI高光筛选用于运动素材管理",
+    "officialUrl": "https://store.insta360.com/product/ace-pro-2",
+    "statusEvidence": "官方商城显示通常两天内发货；公开页面商品数据标准套餐isOutOfStock=false且可零售。颜色、电池套餐和握把组合不重复计数。",
+    "regions": [
+      "美国官方商城及当地授权市场"
+    ],
+    "price": {
+      "text": "美国官网标准双电套餐 US$389.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "设备AI图像处理参与低光优化，AI Highlights Assistant在相机中识别值得保留的片段；应用另提供自动剪辑与生成特效，端侧筛片和付费云效果分别列明。",
+      "dependency": "基本拍摄与机内高光筛选可独立使用；应用自动剪辑、自拍杆擦除和AI Warp等功能依赖兼容手机、网络及相应额度，不保证所有模式同时支持。"
+    },
+    "highlights": [
+      "把机内AI高光筛选用于运动素材管理",
+      "翻转屏的广角运动相机",
+      "拍摄处理与应用生成效果分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：运动和旅行创作者常积累大量未整理视频，希望更快找到值得保留的片段。应测试筛选是否遗漏用户真正想记录的瞬间，并比较从拍摄到成片的总时间，而不是只看自动剪辑速度。",
+      "userProfile": "画像推断：经常骑行、旅行或自拍视频且愿意使用小型运动相机的人较匹配。广角、翻转屏和固定支架适合特定场景，但手机已经满足轻度记录者，购买前应明确为何需要独立拍摄设备。",
+      "competition": "竞争判断：运动相机已有多品牌和手机替代，AI降噪及剪辑也逐渐普及，不能把AI芯片视作独占优势。此款的差别在拍摄姿态、低光流程和机内筛片结合，价值应通过具体素材验证。",
+      "supplyChain": "供应链推断：镜头、传感器、翻转屏铰链和防护密封需要协调光学与耐用性，配件接口也影响使用。官方未披露完整代工及物料表，镜片损伤、维修与电池替换都是创作者拥有成本。",
+      "technology": "官方将图像AI处理、机内高光助手与应用生成效果分开介绍。技术判断应比较原始细节保留、误删建议和导出时间，不能将降噪画面自然等同真实细节恢复，也不推断未知芯片型号。",
+      "aesthetics": "审美判断：紧凑黑色机身、正面镜头和可翻转大屏表达明确拍摄工具定位，适合在运动装备中存在。翻屏占用、戴手套操作和麦克风防风附件会改变外形与手感，需要在目标场景下体验。",
+      "risks": "风险判断：算法筛选可能漏掉低动作但有意义的片段，应用生成效果可能收费并改变原始内容。户外拍摄还需遵守安全和场所规则，重要素材应先备份，不把防护宣传或AI建议当作使用保证。",
+      "opportunity": "市场观察：可让真实旅行用户用同一路线比较手机与相机，记录携带、安装、筛片和分享耗时。将画质、操作便利与AI节省的整理时间分别衡量，不以参数总量和品牌宣传推算市场成功。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "拍摄处理与应用生成效果分开形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "光学采集",
+        "detail": "镜头和传感器记录广角画面。",
+        "evidence": "official"
+      },
+      {
+        "name": "图像处理",
+        "detail": "机内AI辅助低光与画面处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "素材筛选",
+        "detail": "机内高光助手提示值得保留片段。",
+        "evidence": "official"
+      },
+      {
+        "name": "创作输出",
+        "detail": "翻转屏操作及应用编辑导出。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ace Pro 2官方商城",
+        "url": "https://store.insta360.com/product/ace-pro-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Ace Pro 2官方AI功能",
+        "url": "https://www.insta360.com/product/insta360-ace-pro2",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "insta360-x5",
+    "name": "Insta360 X5",
+    "brand": "Insta360",
+    "category": "imaging",
+    "audience": "prosumer",
+    "tagline": "在全景记录中使用AI低光处理",
+    "officialUrl": "https://store.insta360.com/product/x5",
+    "statusEvidence": "官方商城标明通常两天内发货，标准套餐公开商品数据isOutOfStock=false。只计X5，不将配色、赛事纪念版或自拍杆组合另计。",
+    "regions": [
+      "美国官方商城"
+    ],
+    "price": {
+      "text": "官网标准套餐 US$549.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "PureVideo使用AI降噪与动态范围优化处理低光全景画面；应用提供自动取景与编辑辅助。双镜头拼接、普通防抖和生成式效果不混为同一能力。",
+      "dependency": "拍摄与机内图像处理可独立完成；全景重构图和部分编辑依赖Insta360应用或电脑软件，具体模式与服务权限按固件和账户核对。"
+    },
+    "highlights": [
+      "在全景记录中使用AI低光处理",
+      "拍摄后再决定平面取景",
+      "双镜头与可更换镜片的运动创作工具"
+    ],
+    "analysis": {
+      "demand": "需求假设：运动与旅行用户希望先记录周围环境，再在事后选择角度，降低错过画面的担忧。应测试重构图需要的额外时间与实际分享率，确认全景自由度没有变成持续堆积素材的负担。",
+      "userProfile": "画像推断：愿意学习全景编辑、经常骑行或户外旅行的个人创作者较匹配。对随手拍完即发的人来说，双镜头保护、文件传输和后期选择可能增加步骤，不能按广视角直接推定更方便。",
+      "competition": "竞争判断：全景相机、广角运动相机和手机有不同取舍，AI低光处理只是竞争的一部分。可后期选角度形成差异，但用户可能只需要固定视角，不能把记录范围更大等同更强的消费价值。",
+      "supplyChain": "供应链推断：两组凸出光学镜片、传感器同步和防护密封需保持一致，可更换镜片也增加备件与安装要求。官方未披露完整工厂和物料清单，镜片损伤、保护罩和校准会影响拥有成本。",
+      "technology": "官方明确PureVideo使用AI降噪与动态范围优化。技术判断应在真实低光运动场景比较细节、拖影和拼接边缘，不能把算法生成的平滑画面视为真实细节恢复，也不把全部编辑都写成端侧。",
+      "aesthetics": "审美判断：竖长机身和双面凸镜让全景能力易于辨认，也让收纳保护成为外观的一部分。自拍杆、镜头罩与安装位置会改变携带体验，产品正面图无法代表实际户外装备组合。",
+      "risks": "风险判断：全景会录入拍摄者没有注意到的旁人和环境，分享前需检查取景范围；低光算法与拼接也可能产生瑕疵。镜片更换需要按说明操作，重要原片应先备份再进行自动剪辑。",
+      "opportunity": "市场观察：可以记录一次真实旅行中的拍摄、传输、选角度和分享全过程，比较最终采用的视角数量。只有额外自由度被持续使用才形成价值，不用全景参数或短视频演示推算市场规模。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "双镜头与可更换镜片的运动创作工具形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "双向采集",
+        "detail": "双镜头与传感器记录全景素材。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI图像处理",
+        "detail": "PureVideo进行降噪和动态范围优化。",
+        "evidence": "official"
+      },
+      {
+        "name": "全景处理",
+        "detail": "拼接与画面方向管理。",
+        "evidence": "official"
+      },
+      {
+        "name": "创作输出",
+        "detail": "应用或电脑软件重构图并导出。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "X5官方商城",
+        "url": "https://store.insta360.com/product/x5",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "X5官方AI与全景功能",
+        "url": "https://www.insta360.com/product/insta360-x5",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "insta360-go-ultra",
+    "name": "Insta360 GO Ultra",
+    "brand": "Insta360",
+    "category": "imaging",
+    "audience": "prosumer",
+    "tagline": "将佩戴式拍摄与视觉语音助手结合",
+    "officialUrl": "https://store.insta360.com/product/go-ultra",
+    "statusEvidence": "官方商城显示通常两天内发货，标准套餐数据isOutOfStock=false；本条只计GO Ultra，颜色与磁吸附件套装不另计。",
+    "regions": [
+      "美国官方商城"
+    ],
+    "price": {
+      "text": "官网标准套餐 US$449.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "PureVideo使用AI降噪；当前官网还披露语音助手的拍照问答、语音问答与翻译，以及Moments Pro素材整理。问答使用联网大模型，不是仅靠相机芯片独立完成。",
+      "dependency": "小相机与Action Pod用途不同；语音问答和Moments Pro依赖网络与云服务，实际语言地区和权限应核对。存储卡另配，磁吸固定与使用条件按说明确认。"
+    },
+    "highlights": [
+      "将佩戴式拍摄与视觉语音助手结合",
+      "相机本体可离开显示充电底座",
+      "第一视角记录与云端问答分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：做饭、亲子活动或旅行时双手忙碌的人，希望从自身视角持续记录而不用拿着手机。应观察实际佩戴时长和有价值片段比例，确认免手持并没有增加无用素材与后期整理。",
+      "userProfile": "画像推断：经常进行第一视角记录、接受胸前或帽檐固定方式的个人创作者较匹配。相机本体与底座分离后需要管理两件设备，衣物材质、活动强度和场所规则都会影响适用范围。",
+      "competition": "竞争判断：小型运动相机、手机胸挂和普通穿戴摄像头都是替代，云端视觉问答又面对手机助手。GO Ultra的差异是拍摄姿态和可拆底座结合，不能仅凭多个AI入口认定形成独占场景。",
+      "supplyChain": "供应链推断：小相机、磁吸固定、显示底座和充电触点需要共同保持连接可靠，防护等级也不完全相同。官方未披露完整工厂和物料表；配件兼容、跌落与卡槽维护会增加售后复杂度。",
+      "technology": "官方说明图像降噪在拍摄链路中，而问答依赖联网大模型。技术判断应分别评估佩戴画面、语音唤醒和云端视觉回答，不能把看到场景等同事实判断准确，也不将底座与本体能力混写。",
+      "aesthetics": "审美判断：小方形相机让记录装置更容易隐藏在日常衣物中，翻转屏底座又恢复手持相机的熟悉操作。固定夹、挂绳和衣物轮廓会改变外观，需要真实佩戴而非只观察整机渲染。",
+      "risks": "风险判断：佩戴拍摄可能无意记录旁人，云端问答还会传输所选画面；磁吸配件存在特定使用限制。相机和底座防护不同，自动生成旅行视频也需检查内容，不应完全依赖算法决定保留什么。",
+      "opportunity": "市场观察：可以用一周生活记录比较佩戴相机与手机，记录主动开启、错误固定、云问答和最终分享次数。区分拍摄价值与助手价值，避免用设备轻巧或模型能力推断用户愿意长期随身携带。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "第一视角记录与云端问答分开形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "可拆相机",
+        "detail": "小型镜头传感与麦克风记录第一视角。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机影像",
+        "detail": "AI降噪等处理拍摄素材。",
+        "evidence": "official"
+      },
+      {
+        "name": "显示底座",
+        "detail": "Action Pod提供显示、控制与补能。",
+        "evidence": "official"
+      },
+      {
+        "name": "在线助手",
+        "detail": "云端模型完成问答及部分视频创作。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "GO Ultra官方商城",
+        "url": "https://store.insta360.com/product/go-ultra",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "GO Ultra官方功能与云服务脚注",
+        "url": "https://www.insta360.com/product/insta360-go-ultra",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "sony-zv-e1",
+    "name": "Sony ZV-E1",
+    "brand": "Sony",
+    "category": "imaging",
+    "audience": "prosumer",
+    "tagline": "用主体识别帮助单人拍摄自动构图",
+    "officialUrl": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilczve1-b",
+    "statusEvidence": "Sony美国黑色机身官方商品页显示Add to Cart与具体预计配送日期；机身和镜头套装只计同一型号。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "price": {
+      "text": "美国官方机身 US$2,199.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "专用AI处理支持人物等主体识别，Auto Framing根据识别目标自动裁切和调整构图。它改变画面取景，不会驱动相机机械转动，也不是生成实拍内容。",
+      "dependency": "需要兼容镜头和存储介质；自动构图有模式限制及裁切代价。基础识别在相机内运行，手机远程操作与云服务另行配置。"
+    },
+    "highlights": [
+      "用主体识别帮助单人拍摄自动构图",
+      "机内裁切而非机械云台运动",
+      "面向个人视频创作者的全画幅工具"
+    ],
+    "analysis": {
+      "demand": "需求假设：单人录制访谈、讲解或日常视频时，希望固定机位仍能跟随主要人物构图。应比较自动裁切是否减少重拍和剪辑，而不是只看人物始终居中，画面节奏与信息完整性仍需创作者判断。",
+      "userProfile": "画像推断：已有镜头或愿意投入镜头系统、经常独自拍摄的个人视频创作者较匹配。只做轻量记录的人可能更需要手机和简易支架，不能把专业传感器和AI追踪当成所有人都需要的组合。",
+      "competition": "竞争判断：手机人像追踪、软件后期重构图和其他相机都能替代部分自动构图，ZV-E1的区别是机内识别与全画幅视频链路。价格门槛较高，不能仅以AI处理器名称判断竞争强弱。",
+      "supplyChain": "供应链推断：传感器、镜头卡口、图像处理和散热结构需要保持长期稳定，镜头生态扩大了整套成本。官方未披露本轮型号具体代工厂和完整物料表，不由外壳或处理器宣传猜测内部布局。",
+      "technology": "官方帮助说明自动构图通过裁切跟随目标，并存在模式和画质取舍。技术判断应测试多人优先级、遮挡与边缘主体，不能把自动裁切画成云台电机，也不保证所有场景都能识别正确。",
+      "aesthetics": "审美判断：小型机身与可换镜头形成专业创作工具形象，翻转屏和防风附件服务自拍操作。镜头尺寸往往决定最终体积，机身轻巧的照片不能代表整套携带重量与握持感。",
+      "risks": "风险判断：裁切会减少可用视角和画面细节，多人场景也可能选择错误主体。重要录制应保留合适的原始视角并事先测试，镜头、存储、长时散热和地区保修都需要计入实际使用条件。",
+      "opportunity": "市场观察：可让个人创作者完成同一段录制，比较固定全景、机内自动构图和后期裁切的时间与满意度。将少重拍、少操作和画质代价分别记录，不用传感器规格预测内容产出或商业成功。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向个人视频创作者的全画幅工具形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "光学采集",
+        "detail": "可换镜头与全画幅传感器记录画面。",
+        "evidence": "official"
+      },
+      {
+        "name": "主体识别",
+        "detail": "AI处理识别主要拍摄目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "构图控制",
+        "detail": "算法裁切并调整画面构图。",
+        "evidence": "official"
+      },
+      {
+        "name": "录制交互",
+        "detail": "翻转屏、音频与存储组成拍摄流程。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sony美国ZV-E1官方商店",
+        "url": "https://electronics.sony.com/imaging/interchangeable-lens-cameras/all-interchangeable-lens-cameras/p/ilczve1-b",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Sony ZV-E1自动构图官方帮助",
+        "url": "https://helpguide.sony.net/ilc/2310/v1/en/contents/221h_auto_framing.html",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Sony亚太ZV-E1官方介绍",
+        "url": "https://www.sony-asia.com/interchangeable-lens-cameras/products/zv-e1",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "canon-powershot-v1",
+    "name": "Canon PowerShot V1",
+    "brand": "Canon",
+    "category": "imaging",
+    "audience": "prosumer",
+    "tagline": "固定镜头相机中的深度学习主体跟踪",
+    "officialUrl": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+    "statusEvidence": "英国官方商店明确In stock online与Add to Basket。美国页同时含库存及停售模板，未采用其冲突文字；以英国当前购买证据为准。",
+    "regions": [
+      "英国官方商店"
+    ],
+    "price": {
+      "text": "英国官方 £859.99",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Dual Pixel CMOS AF II for PowerShot结合深度学习主体检测，对人和猫狗进行识别跟踪；不把普通光学防抖、变焦或所有自动曝光都统一称为AI。",
+      "dependency": "内置镜头与机内主体识别可独立拍摄；素材传输、直播连接和固件功能有系统要求，主体类型及场景限制以官方说明为准。"
+    },
+    "highlights": [
+      "固定镜头相机中的深度学习主体跟踪",
+      "无需另配镜头的视频创作工具",
+      "面向个人旅行与讲解记录"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人创作者希望比手机拥有更多拍摄控制，又不想管理多支镜头，主体识别可以减轻自拍对焦负担。应观察从取出相机到开始录制的时间，确认整机便利性真正超过现有手机。",
+      "userProfile": "画像推断：以旅行、宠物和单人讲解为主，偏好一机一镜的人较匹配。内置广角变焦覆盖明确场景，也限制远摄和镜头升级，不能把无需换镜头的便利描述成对所有拍摄任务都更适合。",
+      "competition": "竞争判断：固定镜头视频机、手机和入门可换镜头相机相互竞争，深度学习对焦已不是孤立能力。V1的差异是镜头、散热和视频操作集成，应比较整套准备成本而非只比较单项AI标签。",
+      "supplyChain": "供应链推断：内置变焦镜头、传感器、翻转屏和散热风道形成紧凑整机，光学维修通常涉及较多部件。官方未披露具体工厂及完整物料成本，镜头损伤、风道清洁和地区保修需要关注。",
+      "technology": "官方明确深度学习辅助识别人和猫狗，属于感知对焦而非生成影像。技术判断应测试主体转身、遮挡与背景干扰，不能把识别范围扩大为所有动物，也不将厂家宣传理解为零失焦保证。",
+      "aesthetics": "审美判断：厚实握柄、镜头环和翻转屏突出随身拍摄工具属性，防风毛罩会改变外观与收纳。内置镜头使整体比例稳定，但单手自拍、竖拍与包内收纳仍需要按个人习惯体验。",
+      "risks": "风险判断：固定镜头的焦段限制和算法误识别会影响特定题材，长录制也需核对电源与环境条件。官方不同地区页面可能有模板差异，购买时应以所选地区实际库存和保修为准。",
+      "opportunity": "市场观察：可以让手机创作者进行相同的旅行或产品讲解任务，记录成功对焦、重拍和素材传输步骤。只有整体拍摄流程改善才可能支持换设备，不用画面参数或AI对焦名称推算需求规模。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向个人旅行与讲解记录形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "内置光学",
+        "detail": "变焦镜头与传感器采集画面。",
+        "evidence": "official"
+      },
+      {
+        "name": "主体检测",
+        "detail": "深度学习识别人和猫狗目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "对焦执行",
+        "detail": "机内自动对焦跟随被选主体。",
+        "evidence": "official"
+      },
+      {
+        "name": "视频操作",
+        "detail": "翻转屏、音频和散热支持录制。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PowerShot V1英国官方商店",
+        "url": "https://www.canon.co.uk/store/canon-powershot-v1-camera-black/6390C001/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Canon官方深度学习功能说明",
+        "url": "https://hk.canon/en/consumer/powershot-v1-embargo/news",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Canon香港型号介绍",
+        "url": "https://hk.canon/en/consumer/powershot-v1/main/product",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "nikon-z50ii",
+    "name": "Nikon Z50II",
+    "brand": "Nikon",
+    "category": "imaging",
+    "audience": "prosumer",
+    "tagline": "面向入门摄影的深度学习场景识别",
+    "officialUrl": "https://www.nikon.co.uk/en_GB/product/cameras/mirrorless/z50ii-VOA150AE",
+    "statusEvidence": "Nikon英国官方店标In Stock与三至五工作日配送，结构化Offer同为InStock；不同镜头套装只计同一机身型号。",
+    "regions": [
+      "英国官方商店"
+    ],
+    "price": {
+      "text": "英国官方机身 £839",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方说明深度学习在自动模式中识别主体和场景，辅助对焦、曝光与闪光设置；主体识别跟踪是收录依据，普通滤镜和无线传图不单独算AI。",
+      "dependency": "核心自动模式和识别在相机中使用；需要兼容镜头与存储，云端配方和传图另需网络及账户，不把所有智能模式说成通用视觉模型。"
+    },
+    "highlights": [
+      "面向入门摄影的深度学习场景识别",
+      "自动模式兼顾主体与拍摄参数",
+      "可换镜头的个人摄影学习工具"
+    ],
+    "analysis": {
+      "demand": "需求假设：从手机转向相机的用户可能希望得到更稳定的自动设置，同时逐渐学习手动控制。应观察识别与参数建议能否减少明显失败，而不是让用户始终不知道为何某个场景得到这样的结果。",
+      "userProfile": "画像推断：希望拍摄家庭、旅行和日常照片，愿意逐步了解镜头与曝光的个人爱好者较匹配。需要一台长期随身相机的人还要考虑镜头体积，不能只比较机身与手机的尺寸。",
+      "competition": "竞争判断：入门无反相机已有广泛选择，手机自动摄影也非常成熟，深度学习识别不是独占卖点。Z50II的差异在自动模式和可换镜头系统衔接，价值需结合用户是否愿意持续携带。",
+      "supplyChain": "供应链推断：卡口、传感器、机械操作与取景显示需要一致性，镜头和电池配件扩大了产品系统。官方未披露该型号具体工厂及完整物料清单，维修网络与配件成本比猜测制造价格更有意义。",
+      "technology": "官方说明自动模式利用深度学习分析主体与场景，再优化相关设置。技术判断应测试复杂背景和非典型场景，区分识别正确与拍摄结果合意，不能把自动化判断当作唯一审美标准。",
+      "aesthetics": "审美判断：传统握柄和取景器让产品保留熟悉相机形态，翻转屏支持更多拍摄姿势。实体按键、眼镜取景与镜头重心会影响体验，照片中的紧凑外观不能代替实际长时间持握。",
+      "risks": "风险判断：自动识别仍会出现误选主体，某些场景需要手动干预，镜头与存储也带来额外费用。云服务和地区保修须按实际购买版本核对，不把入门定位视为无需学习或不会拍摄失败。",
+      "opportunity": "市场观察：适合记录新用户从手机迁移的真实过程，包括携带频率、自动模式失败和主动学习设置。将成片满意度与设备复杂度一起比较，避免单靠识别主体数量或品牌忠诚判断商业潜力。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "可换镜头的个人摄影学习工具形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "镜头采集",
+        "detail": "可换镜头与图像传感器采集场景。",
+        "evidence": "official"
+      },
+      {
+        "name": "场景识别",
+        "detail": "深度学习辅助主体和场景判断。",
+        "evidence": "official"
+      },
+      {
+        "name": "拍摄控制",
+        "detail": "对焦、曝光和闪光设置联动。",
+        "evidence": "official"
+      },
+      {
+        "name": "使用反馈",
+        "detail": "取景器、翻转屏与实体操作。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Z50II英国官方购买页",
+        "url": "https://www.nikon.co.uk/en_GB/product/cameras/mirrorless/z50ii-VOA150AE",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Nikon官方深度学习能力公告",
+        "url": "https://www.nikonusa.com/press-room/nikon-z50ii",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Nikon Z50II官方型号与画廊",
+        "url": "https://www.nikonusa.com/p/z50ii/1784/overview",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "fujifilm-x-m5",
+    "name": "FUJIFILM X-M5",
+    "brand": "Fujifilm",
+    "category": "imaging",
+    "audience": "prosumer",
+    "tagline": "在紧凑机身中提供深度学习主体对焦",
+    "officialUrl": "https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1",
+    "statusEvidence": "已读取英国FUJIFILM官方eShop，显示X-M5 Body、In stock、Add to Cart及三工作日配送。历史URL含x-t3文字，实际页面型号与照片明确为X-M5；不计颜色套装。",
+    "regions": [
+      "英国官方商店"
+    ],
+    "price": {
+      "text": "英国官方机身 £799 起",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "X-Processor 5提供基于深度学习的主体识别自动对焦，识别人和多类动物、交通工具。胶片模拟是独立色彩风格功能，不将其全部归为生成式AI。",
+      "dependency": "主体检测在机内使用，需要兼容镜头；机身、镜头、存储和远程应用各有条件，具体跟踪对象与模式按当前固件说明。"
+    },
+    "highlights": [
+      "在紧凑机身中提供深度学习主体对焦",
+      "胶片色彩风格与AI识别分开",
+      "面向随身摄影与个人视频创作"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望随身拍照的人可能偏好较小的可换镜头机身，同时让主体跟踪降低操作负担。应观察它是否真的被带出门，以及用户更在意色彩风格还是识别功能，避免把多种动机混为一谈。",
+      "userProfile": "画像推断：喜欢日常摄影、色彩风格与轻量视频，并愿意使用屏幕取景的个人创作者较匹配。小机身搭配大镜头可能失去体积优势，握持和操作也需要结合实际镜头而不是只看裸机。",
+      "competition": "竞争判断：紧凑无反、固定镜头相机与高端手机都争夺随身记录场景，AI对焦已广泛出现。Fujifilm色彩和机身语言可能影响选择，但热度与缺货讨论不能直接转化为可持续市场需求。",
+      "supplyChain": "供应链推断：小机身内的卡口、传感器、屏幕转轴和处理系统需要兼顾空间与散热，镜头生态影响总成本。官方未披露具体工厂及完整物料表，不根据相机外观或地域品牌猜测代工安排。",
+      "technology": "官方明确主体检测采用深度学习，并将胶片模拟另列为色彩功能。技术判断应分别测试移动主体和风格输出，不能把审美预设称作生成模型，也不将检测类别丰富等同所有场景都可靠。",
+      "aesthetics": "审美判断：简洁机顶拨盘和小型轮廓延续传统相机语言，黑银配色提供风格选择但属于同一产品。按键尺寸、翻屏位置和单手握持比宣传照片更影响使用，需要真实拍摄过程来判断。",
+      "risks": "风险判断：主体识别可能在复杂场景中误选，镜头、稳定方式和长录制条件也影响成片。不同地区库存页面可能不同，实际购买应确认版本、交期和保修，不能用旧搜索摘要代替当前下单证据。",
+      "opportunity": "市场观察：可分别访谈因色彩、体积和对焦而购买的人，记录四周后的真实携带及拍摄任务。将风格偏好与AI节省的操作步骤拆开验证，不用社交讨论量或审美评分预测产品成功。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向随身摄影与个人视频创作形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "影像输入",
+        "detail": "镜头与图像传感器采集场景。",
+        "evidence": "official"
+      },
+      {
+        "name": "主体识别",
+        "detail": "深度学习辅助目标检测跟踪。",
+        "evidence": "official"
+      },
+      {
+        "name": "画面处理",
+        "detail": "机内色彩和视频处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "创作交互",
+        "detail": "实体拨盘与可翻转触屏。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "X-M5英国官方eShop",
+        "url": "https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "已读取当前官方商品HTML；页面实际型号为X-M5，非URL旧名称。"
+      },
+      {
+        "title": "FUJIFILM X-M5官方技术",
+        "url": "https://www.fujifilm-x.com/en-us/products/cameras/x-m5/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "3dmakerpro-moose",
+    "name": "3DMakerpro Moose",
+    "brand": "3DMakerpro",
+    "category": "creative-tools",
+    "audience": "prosumer",
+    "tagline": "用AI跟踪辅助中型物体三维扫描",
+    "officialUrl": "https://store.3dmakerpro.com/products/moose",
+    "statusEvidence": "官方商品数据Standard变体available=true，商店提供购买与美国仓配送说明；通用Sold out模板不作为唯一库存判断，不把Moose Lite及附件组合重复计数。",
+    "regions": [
+      "美国仓及官方配送市场"
+    ],
+    "price": {
+      "text": "官方标准组合 US$489",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI视觉跟踪辅助表面特征定位，JMStudio进行错误点云剔除与自动对齐；把实体物体转换为可编辑三维数据，精度宣传属于厂商测试而非本轮实测。",
+      "dependency": "需要兼容电脑与JMStudio；不同表面可能需扫描喷剂或转台，软件处理、后期清理和导出是工作流的一部分，不是按一次键就必然得到可打印模型。"
+    },
+    "highlights": [
+      "用AI跟踪辅助中型物体三维扫描",
+      "扫描、点云纠错与对齐连成流程",
+      "面向个人建模与复制兴趣"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人创作者希望把已有物件转成模型，用于修改、收藏展示或打印复制，减少从零建模。应把表面准备、反复扫描和网格修复时间一起计算，确认扫描确实比手工建模更合适。",
+      "userProfile": "画像推断：已有电脑、愿意学习三维文件处理并经常接触实物建模的爱好者较匹配。只想偶尔扫描一个物件的人可能更适合外包服务，不能将扫描仪可购买等同所有用户都能即刻输出可用模型。",
+      "competition": "竞争判断：手机摄影测量、深度扫描设备和人工建模服务都能替代部分需求，专用扫描器属于较窄创作工具。低大众热度不代表没有竞争，软件易用性和实际对象适配比最高精度更关键。",
+      "supplyChain": "供应链推断：投光、摄像与外壳的相对位置需稳定，运输与校准影响光学一致性，数据线也承担持续连接。官方未披露完整工厂和物料表；校准维护、喷剂和电脑性能都是实际交付成本。",
+      "technology": "官方披露AI跟踪、点云纠错和自动对齐，技术判断应分别看跟踪丢失、错误清除与拼接结果。光滑、反光或透明物件需要额外处理，不能把厂商精度数字当成所有材料和扫描姿态的保证。",
+      "aesthetics": "审美判断：手持盒体与纵向光学窗口强调工具性，较紧凑外形利于围绕物体移动。握持疲劳、线缆拖拽和实时预览位置影响使用，精致渲染无法说明长时间扫描中的手部稳定性。",
+      "risks": "风险判断：跟踪中断、表面反射和误删点云会影响模型完整性，扫描他人物件还需注意使用权限。后期修复和测量校验不能省略，不把扫描结果直接当作安全关键零件或精密工程依据。",
+      "opportunity": "市场观察：选择用户真正想复制的三种物体进行完整任务测试，记录重扫次数、修复时间和成功导出。需求应由反复出现的建模任务证明，而不是以扫描演示漂亮或硬件精度排名推断市场。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向个人建模与复制兴趣形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "结构光采集",
+        "detail": "投光与摄像获取物体表面信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉跟踪",
+        "detail": "AI辅助定位表面特征。",
+        "evidence": "official"
+      },
+      {
+        "name": "点云处理",
+        "detail": "JMStudio纠错、对齐与优化。",
+        "evidence": "official"
+      },
+      {
+        "name": "模型导出",
+        "detail": "三维数据进入建模或打印流程。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Moose官方商店",
+        "url": "https://store.3dmakerpro.com/products/moose",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "Moose官方AI跟踪说明",
+        "url": "https://store.3dmakerpro.com/pages/moose",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "czur-et24-pro",
+    "name": "CZUR ET24 Pro",
+    "brand": "CZUR",
+    "category": "creative-tools",
+    "audience": "prosumer",
+    "tagline": "将成册书页转换为可检索数字资料",
+    "officialUrl": "https://shop.czur.com/products/etscanner",
+    "statusEvidence": "官方ET系列商店可选ET24 Pro并加购，公开产品数据该变体available=true。ET Max、ET18和ET16仅为同页其他型号，不混用报价或外观。",
+    "regions": [
+      "美国及官方配送市场"
+    ],
+    "price": {
+      "text": "ET24 Pro官方变体 US$579",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方说明图像算法与AI辅助书页展平、分页和手指移除，配套ABBYY OCR输出可检索文档；不是将顶部相机拍照本身称为生成式AI。",
+      "dependency": "需要兼容电脑与CZUR扫描软件；OCR、版面和图像处理效果受原稿与照明影响，部分新软件仍标Beta，不保证跨平台功能完全相同。"
+    },
+    "highlights": [
+      "将成册书页转换为可检索数字资料",
+      "AI图像处理辅助展平与去手指",
+      "面向个人研究与档案整理"
+    ],
+    "analysis": {
+      "demand": "需求假设：研究者、家庭档案整理者或创作者希望保存成册资料而不拆装订，自动展平和识别可减少后期处理。应测试真实旧书、照片和混合版面，确认节省的时间超过重扫与文字校对成本。",
+      "userProfile": "画像推断：有较稳定扫描需求、可提供桌面空间并愿意使用电脑处理文件的个人用户较匹配。偶尔扫描收据的人用手机可能足够，不能将专业书刊形态与更高识别效率直接推广到所有家庭。",
+      "competition": "竞争判断：手机扫描、平板扫描仪和人工数字化服务都能解决部分问题，成册展平形成相对专门的场景。小众工具并不意味着蓝海，需要明确用户一年处理多少页以及为何现有方式不够用。",
+      "supplyChain": "供应链推断：顶部摄像、激光辅助感知、侧灯和支架需保持几何关系，脚踏与线缆影响连续工作。官方未披露完整工厂和物料清单；软件兼容、灯光维护和桌面环境也属于拥有成本。",
+      "technology": "官方将AI图像处理与OCR列为核心辅助能力，技术判断应分开展平几何、手指去除和文字识别。书页边缘、插图和旧字体可能产生错误，不能把自动处理后的整洁页面当成对原稿的忠实保证。",
+      "aesthetics": "审美判断：高立柱和横向扫描头明显占据桌面，更接近个人工作台工具而非随身消费电子。侧灯、黑垫和脚踏组成完整使用环境，产品单体照片不能反映实际收纳与摆放需求。",
+      "risks": "风险判断：算法可能删去与手指相近的原稿内容或识别错字，扫描有版权的资料也需遵守使用许可。重要档案应保存未处理原图并抽样校对，不能仅以一页速度或支持语言数保证整批质量。",
+      "opportunity": "市场观察：可让真实用户处理一批既有资料，记录摆放、翻页、重扫与检索全过程。按个人研究、家庭照片和手稿归档分别评估价值，不把企业案例或厂商历史销量宣传当作当前消费需求证据。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向个人研究与档案整理形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "顶部采集",
+        "detail": "相机与照明记录成册书页。",
+        "evidence": "official"
+      },
+      {
+        "name": "形状感知",
+        "detail": "激光辅助获得页面弯曲信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "图像处理",
+        "detail": "AI辅助展平、分页与手指移除。",
+        "evidence": "official"
+      },
+      {
+        "name": "文字输出",
+        "detail": "OCR与软件导出可检索文档。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "CZUR ET系列官方商店与ET24变体",
+        "url": "https://shop.czur.com/products/etscanner",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "CZUR官方ET系列AI算法说明",
+        "url": "https://shop.czur.com/blogs/blog/why-and-how-to-choose-czur-et-series-book-scanners",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "ET24 Pro官方型号公告",
+        "url": "https://www.czur.com/detail/news/241",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "audience"
+        ],
+        "note": "历史公告仅支持能力与个人研究用途，不作为当前在售证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "bambu-lab-h2d",
+    "name": "Bambu Lab H2D",
+    "brand": "Bambu Lab",
+    "category": "creative-tools",
+    "audience": "prosumer",
+    "tagline": "用本机视觉检测辅助发现打印失败",
+    "officialUrl": "https://us.store.bambulab.com/products/h2d",
+    "statusEvidence": "已实际读取美国官方商店公开页面，H2D基础3D打印配置提供Add to Cart和Buy Now。AMS、激光与切割组合均作为可选配置，不重复计数。",
+    "regions": [
+      "美国本土官方商店"
+    ],
+    "price": {
+      "text": "美国官方H2D本体 US$1,599",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "喷嘴相机与腔内相机支持AI检测缠料、空打和面条状失败；官方说明部分检测在本机NPU运行。自动调平与普通传感联锁不全部归为AI。",
+      "dependency": "打印需要切片、材料配置和定期维护；检测应启用并满足光照要求，灵敏度会影响误报。激光等模块需另购和按条件安装，本条不默认包含。"
+    },
+    "highlights": [
+      "用本机视觉检测辅助发现打印失败",
+      "双喷嘴个人制造设备",
+      "AI报警与人工维护责任分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人模型制作和多材料打印耗时较长，用户希望更早发现失败，减少材料和时间损失。应比较报警发生时实际挽救了多少打印，而不是仅看相机能否识别明显的失败照片。",
+      "userProfile": "画像推断：有固定工作区、经常制作模型或功能件，并愿意维护设备的个人创作者较匹配。基础打印与可选激光需要不同空间和操作条件，不能将多功能宣传视为任何家庭都适合的一体方案。",
+      "competition": "竞争判断：桌面打印机与外置监控方案都可提供失败提醒，双喷嘴和完整软件生态形成差异。高端个人制造仍有成熟竞争，AI检测不能独立解释整机价格，也不能替代对实际材料任务的比较。",
+      "supplyChain": "供应链推断：双喷嘴、运动系统、加热腔和相机需要共同稳定运行，多材料配件增加耗材与维护环节。官方未披露完整工厂和物料成本；热端更换、校准与跨区配件支持都影响长期交付。",
+      "technology": "官方检测说明区分喷嘴与腔内视觉，并披露本机NPU处理及光照条件。技术判断应测试不同材料、颜色和失败阶段，记录漏报与误报，不能把报警能力当作打印必成功或无人值守安全保证。",
+      "aesthetics": "审美判断：封闭箱体、可视门与集中控制屏让设备更像个人工作台家电，材料系统仍会增加上方体积。运行声音、桌面振动和维护空间影响家庭接受度，整洁渲染不能替代实际工作环境。",
+      "risks": "风险判断：AI可能误报或漏报，热端、运动机构和材料处理仍需按说明操作；新增激光模块带来不同使用要求。网络与软件更新也会影响流程，重要任务应保留稳定配置和人工检查。",
+      "opportunity": "市场观察：可以记录个人创作者一个月的真实打印任务，统计报警后人工介入、节省材料与维护时间。把双喷嘴、材料系统和AI监测分别评估，不用机器参数或自动化程度预测创业项目成功。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "AI报警与人工维护责任分开形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "材料与运动",
+        "detail": "双喷嘴及运动系统执行切片任务。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉输入",
+        "detail": "喷嘴和腔内相机观察打印状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机检测",
+        "detail": "AI判断缠料、空打与失败形态。",
+        "evidence": "official"
+      },
+      {
+        "name": "操作反馈",
+        "detail": "界面报警、暂停与人工检查维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "H2D美国官方零售页",
+        "url": "https://us.store.bambulab.com/products/h2d",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已读取官方公开商品HTML，按基础3D打印配置报价。"
+      },
+      {
+        "title": "H2D官方智能检测手册",
+        "url": "https://wiki.bambulab.com/en/h2/manual/intelligent-detection",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已读取官方手册，包含本机NPU、光照和灵敏度说明。"
+      },
+      {
+        "title": "Bambu官方H2D个人制造介绍",
+        "url": "https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  },
+  {
+    "id": "elegoo-saturn4-ultra-16k",
+    "name": "ELEGOO Saturn 4 Ultra 16K",
+    "brand": "ELEGOO",
+    "category": "creative-tools",
+    "audience": "prosumer",
+    "tagline": "用AI相机辅助树脂模型失败监测",
+    "officialUrl": "https://us.elegoo.com/products/saturn-4-ultra-16k-10inch-monochrome-lcd-resin-3d-printer",
+    "statusEvidence": "官方美国店Add to Cart，结构化Offer为InStock且本体报价US$399。原12K版本、清洗固化套装和树脂组合不另计型号。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "price": {
+      "text": "美国官方本体 US$399",
+      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "带照明的AI相机观察成型区域，对空平台和模型翘曲发出提醒；机械残渣检测、加热和自动调平是不同系统，不混同AI视觉。",
+      "dependency": "需要切片软件、树脂与后处理流程；检测受模型、树脂、光照和相机可见范围影响，网络监看与固件兼容按当前软件支持。"
+    },
+    "highlights": [
+      "用AI相机辅助树脂模型失败监测",
+      "带照明的成型区域观察",
+      "面向微缩模型和精细个人创作"
+    ],
+    "analysis": {
+      "demand": "需求假设：制作微缩模型和精细摆件的人希望尽早发现空平台或翘曲，避免长时间等待后才发现失败。应观察报警时能否采取有效行动，并把清洗固化和废料处理计入完整制作时间。",
+      "userProfile": "画像推断：有合适工作区、愿意学习树脂材料和后处理的个人模型爱好者较匹配。它不是只需放在书桌上按键的日用品，空间、清洁和耗材管理会决定家庭是否能够持续使用。",
+      "competition": "竞争判断：树脂打印机、FDM设备及模型代打印服务满足不同需求，AI相机只是减少部分观察负担。高分辨率与低促销价并不自动形成优势，使用者更在意实际模型质量、维护与后处理成本。",
+      "supplyChain": "供应链推断：曝光屏、光源、升降与倾斜机构、树脂槽和相机需共同保持一致性，耗材与易损膜也影响寿命。官方未披露完整工厂及物料表；屏幕更换、树脂适配和配件供货属于长期成本。",
+      "technology": "官方说明AI相机可检测空平台和翘曲，并明确结果受环境、模型与树脂影响。技术判断应分别记录可见失败、遮挡和误报，不把机械残渣传感或自动调平归为视觉AI，也不保证所有变形都能发现。",
+      "aesthetics": "审美判断：深色翻盖箱体和正面触屏带来整齐的工作台外观，内部照明让过程更可见。开盖高度、树脂槽取放和清洗工具会显著增加空间需求，单机照片不能代表实际使用环境。",
+      "risks": "风险判断：树脂接触、清洗和固化需要遵守材料说明，AI相机不能替代操作管理或发现视野外问题。促销套餐可能包含不同后处理设备，购买时应核对真实配置，不把报警宣传当作安全保证。",
+      "opportunity": "市场观察：用用户常做的微缩模型进行一轮完整制作，记录失败发现时间、人工检查和耗材损失。将精度、生产节奏和AI提醒分开衡量，不以单个漂亮样件或高分辨率数字推算市场需求。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向微缩模型和精细个人创作形成具体使用场景；本轮没有销量与市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "曝光成型",
+        "detail": "光源、曝光屏与树脂槽逐层成型。",
+        "evidence": "official"
+      },
+      {
+        "name": "机械执行",
+        "detail": "升降和倾斜释放机构完成动作。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉监测",
+        "detail": "带照明AI相机观察空平台与翘曲。",
+        "evidence": "official"
+      },
+      {
+        "name": "操作管理",
+        "detail": "触屏、切片软件与人工后处理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Saturn 4 Ultra 16K美国官方商品",
+        "url": "https://us.elegoo.com/products/saturn-4-ultra-16k-10inch-monochrome-lcd-resin-3d-printer",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      },
+      {
+        "title": "ELEGOO官方16K型号与相机介绍",
+        "url": "https://www.elegoo.com/blogs/news/elegoo-unveils-saturn-4-ultra-16k-a-major-leap-in-accuracy-and-user-experience",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "status": "on_sale",
+    "saleMode": "retail",
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    }
+  }
+]

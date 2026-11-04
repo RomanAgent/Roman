@@ -1,0 +1,5196 @@
+[
+  {
+    "id": "tonal-2",
+    "name": "Tonal 2",
+    "brand": "Tonal",
+    "category": "sports",
+    "tagline": "墙面力量训练与机器视觉动作反馈",
+    "officialUrl": "https://tonal.com/products/tonal-2",
+    "status": "on_sale",
+    "statusEvidence": "官方Tonal 2商品页显示Add to cart、主机与附件价格、安装通常2–4周，属于面向家庭的零售/安装交付；未把Glacier外观款另计型号。",
+    "regions": [
+      "美国官方销售地区（具体配送地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "US$4,295 主机；所见含基础附件选择 US$4,790",
+      "note": "安装与会员另计；官网所见会员US$59.95/月且有初始承诺期，价格按地区与结算变化。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Smart View用内置前置摄像头与机器学习分析动作，并结合拉索数据提供姿态反馈和训练个性化。",
+      "dependency": "多数智能训练功能需账户、联网和有效会员；摄像头可与手机侧面视角协作，不能把安装后的主机等同完全离线教练。"
+    },
+    "highlights": [
+      "墙面安装的双拉索力量系统",
+      "内置摄像头Smart View",
+      "动作提示与训练回看",
+      "会员和安装成本需单列"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望在家完成力量训练的人，既需要可调阻力，也希望知道动作是否偏离目标。设备价值应以训练执行与错误反馈的可用性验证，不能把自动加重直接等同训练效果更好。",
+      "userProfile": "画像推断：有稳定训练习惯、愿意为家庭空间安装设备的人更匹配；短期尝鲜者可能难以摊薄安装与订阅成本。初学者仍需要理解动作要求，不能将画面提示视为现场专业指导的完整替代。",
+      "competition": "案头判断：与自由重量、传统综合训练器和其他数字力量系统竞争，家庭力量方向并不冷清。其墙面形态与视觉反馈有差异，但没有销量或访谈证据支持其比健身房更容易长期坚持。",
+      "supplyChain": "官方披露数字阻力、拉索位置和内置视觉反馈，具体电机、相机及整机代工厂未公开。制造与服务重点可推断为负载控制、墙体安装和拉索耐久，但不据外观估计物料成本或良率。",
+      "technology": "可核实AI是摄像头与机器学习支持的Smart View，不只是电机自动调阻力。运动数据和图像共同支持反馈；具体模型、端云分配与误识别率未完整披露，本目录不填补为确定参数。",
+      "aesthetics": "图示观察：纵向大屏与可收合拉臂把训练器融入墙面，视觉比多组配重架简洁。安装后仍是固定家居设施，实际房间留白、镜头视野与动作活动范围不能只看宣传照片判断。",
+      "risks": "风险在于安装条件、拉索活动范围、误识别以及会员服务变化。自动保护和提示不能保证每次动作安全，尤其需要区分正常训练辅助和受伤后的康复指导，本研究未进行实机或医疗验证。",
+      "opportunity": "市场差异是阻力控制与动作理解形成同一闭环。尚待验证的购买理由是这种闭环能否减少设置和复盘负担，并让家庭用户在持有期内频繁使用，而不是设备在墙上看起来更先进。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "人体与拉索输入",
+        "detail": "摄像头和拉索数据构成输入；功能示意非实物拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "阻力执行",
+        "detail": "数字阻力系统与可调整拉臂承接力量训练。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作理解",
+        "detail": "Smart View使用机器学习分析动作并给出提示。",
+        "evidence": "official"
+      },
+      {
+        "name": "账户与课程",
+        "detail": "会员、课程与手机应用组织训练和回看。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "屏幕/声音提供指导，用户决定是否调整动作。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tonal 2官方购买页",
+        "url": "https://tonal.com/products/tonal-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，Add to cart、安装与会员条件可见；未实际下单。"
+      },
+      {
+        "title": "Tonal官方产品介绍",
+        "url": "https://tonal.com/pages/meet-tonal",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，介绍摄像头与拉索追踪、Smart View。"
+      },
+      {
+        "title": "Tonal Smart View官方支持",
+        "url": "https://knowledge.tonal.com/kb/guide/en/tonal-smart-view-vhQ3eTzB5A/Steps/3958423",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开；官方索引明确前置摄像头与machine learning，动态正文读取有限。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "speediance-gym-monster-2",
+    "name": "Speediance Gym Monster 2",
+    "brand": "Speediance",
+    "category": "sports",
+    "tagline": "可移动力量平台与订阅式AI训练规划",
+    "officialUrl": "https://www.speediance.com/products/speediance-gym-monster-2",
+    "status": "on_sale",
+    "statusEvidence": "官方当前商品页显示Gym Monster 2、US$2,771与Add to Cart；另有官方在售集合页和退换/保修信息。",
+    "regions": [
+      "美国官方销售地区（具体配送地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "所见美国站促销 US$2,771",
+      "note": "报价随附件包、促销和地区变化；Wellness AI训练计划另计，不把Basic/Works等附件包重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Wellness Plus结合训练记录、目标与恢复信息生成和调整个性化计划，设备执行数字阻力训练。",
+      "dependency": "AI计划与指导需要对应Wellness服务及账户；官方说明不订阅仍能使用多数基础训练功能。本款不据AI名称推断内置视觉摄像头。"
+    },
+    "highlights": [
+      "落地折叠式力量平台",
+      "数字阻力与训练数据记录",
+      "Wellness Plus个性化AI计划",
+      "基础训练与AI订阅边界明确"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望把多种拉索动作集中在家中，并减少每次选课和配重的准备。AI计划有价值的前提是训练记录足够准确、建议能执行；智能阻力本身不能证明计划更适合所有人。",
+      "userProfile": "画像推断：没有健身房通勤条件、但有固定室内训练空间的人更匹配。愿意使用训练App的人可能较快上手；只想偶尔做几组运动的人，未必需要整机与持续的个性化服务。",
+      "competition": "案头判断：与Tonal、传统拉索机和自由重量竞争，属于拥挤的家用力量方向。其免墙装与平台结构是可比较差异；没有用户访谈、销量审计或长期留存资料支持优劣排序。",
+      "supplyChain": "官网可确认数字阻力、平台与附件组合，电机、编码器、处理芯片和整机工厂本次不明。推断可靠性重点在拉索传动、折叠结构和负载反馈，不能由国产品牌身份推定具体供应商。",
+      "technology": "真实AI证据来自官方Wellness计划说明：用目标和训练数据形成自适应建议。机械阻力调节与AI服务是不同层；模型部署、训练数据和建议质量未完整披露，不假造机身摄像头。",
+      "aesthetics": "图示观察：竖屏、折叠底板和收纳附件比墙装系统更像可移动器材，家庭空间适配是设计重点。移动和收纳便捷度仍受重量、地面与房间布局影响，不能据折叠照片判定轻松搬运。",
+      "risks": "风险包括附件与会员总成本、数据缺失导致计划不匹配，以及数字阻力控制的使用边界。需要依照设备说明训练；健康数据关联和生成建议也不等同诊断、康复处方或伤害预防保证。",
+      "opportunity": "市场差异是家用力量硬件与独立付费AI服务的组合。尚待验证的购买理由是用户是否真正需要持续计划调整，以及基础训练已足够时，AI订阅能否带来可感知且可复查的帮助。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "力量输入",
+        "detail": "拉索动作与训练记录为反馈来源，非实物拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "数字阻力",
+        "detail": "平台和电机控制承接可调负载训练。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备账户",
+        "detail": "屏幕及App同步训练历史和用户目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI规划",
+        "detail": "Wellness Plus提供个性化计划、指导与调整。",
+        "evidence": "official"
+      },
+      {
+        "name": "反馈执行",
+        "detail": "用户查看建议后选择训练；具体控制拓扑未披露。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gym Monster 2官方商品页",
+        "url": "https://www.speediance.com/products/speediance-gym-monster-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture"
+        ],
+        "note": "已打开，Add to Cart可见；附件包不作为独立型号。"
+      },
+      {
+        "title": "Speediance Wellness官方说明",
+        "url": "https://www.speediance.com/pages/wellness-ai-personal-trainer",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，明确多数基础功能可脱离AI计划，AI服务依会员。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "aeke-k1",
+    "name": "AEKE K1",
+    "brand": "AEKE",
+    "category": "sports",
+    "tagline": "带视觉动作指导的折叠家用力量屏",
+    "officialUrl": "https://aeke.com/products/aeke-home-gym-k1",
+    "status": "on_sale",
+    "statusEvidence": "已打开AEKE国际站K1商品页，显示具体套餐、US$3,598及ADD TO CART；未将S1 Pro或单独长凳视为本款。",
+    "regions": [
+      "国际官网支持配送地区（逐地址确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "所见国际站 US$3,598",
+      "note": "套装、长凳和地区价格不同，欧洲页面部分配置库存口径不同；本条以可加入购物车的国际站配置为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方AI系统分析训练状态和动作表现，提供实时姿态指导、身体评估及个性化训练计划。",
+      "dependency": "需要设备系统、账户及相应软件功能；厂商宣称无需订阅不代表所有未来服务永久不变，区域功能按实际版本确认。"
+    },
+    "highlights": [
+      "折叠底座与大屏结合",
+      "AI动作指导与训练评估",
+      "数字阻力多种训练模式",
+      "家庭多用户档案"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户想在小一些的家庭空间完成有指导的力量训练，并即时了解动作偏差。需要验证的是提示是否准确且不会打断训练，而不是把屏幕尺寸或功能数量当作训练效果。",
+      "userProfile": "画像推断：愿意在家持续训练、喜欢屏幕带练和数据反馈的人更匹配；需要自由重量竞赛动作或复杂技术指导者需求不同。个性化计划不能自动替代教练对个人动作与状态的评估。",
+      "competition": "案头判断：与镜面健身屏、数字力量机和传统器材竞争，方向已有多家参与。折叠结构和收费方式可比较，但没有销量、用户访谈或持有成本研究支持它处于低竞争市场。",
+      "supplyChain": "官方披露触屏、数字阻力与AI视觉用途，具体相机、电机、主控及整机工厂未公开。推断重要环节包括底座稳定性、活动关节和负载校准，不能根据产品宣传推算供应链成熟度。",
+      "technology": "AI证据是官方实时动作指导与个性化分析系统；这应与普通阻力模式分开。摄像头处理和服务端推理的详细边界未完全披露，厂商评估项目也不能直接视为医学测量或诊断。",
+      "aesthetics": "图示观察：纵向屏幕与可折叠地板形成完整训练区域，收起时更接近大型立式家电。实际视觉压力、镜头可见范围和配件摆放取决于房间；效果图并不能证明适合任何小户型。",
+      "risks": "风险包括不同站点库存与套餐差异、姿态误判、配重选择及家庭成员误触。AI指导和保护功能仍需遵守使用说明，不能将宣传中的身体评估理解为医疗检查或伤害预防保证。",
+      "opportunity": "市场差异在于把动作理解、阻力训练与家庭收纳集中到一台设备。尚待验证的购买理由是用户是否持续使用指导功能，以及少订阅的价格结构能否在长期软件更新中保持明确。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "人体感知",
+        "detail": "官方AI视觉系统观察动作；功能示意非实物拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "训练执行",
+        "detail": "数字阻力与拉索附件提供力量训练。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作分析",
+        "detail": "AI系统给出动作指导和训练评估。",
+        "evidence": "official"
+      },
+      {
+        "name": "个性化计划",
+        "detail": "账户档案与历史表现用于计划调整。",
+        "evidence": "official"
+      },
+      {
+        "name": "屏幕反馈",
+        "detail": "屏幕呈现课程和指导，用户决定实际动作。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AEKE K1国际商店",
+        "url": "https://aeke.com/products/aeke-home-gym-k1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，具体K1套餐与ADD TO CART可见；地区库存不能互相替代。"
+      },
+      {
+        "title": "AEKE AI系统",
+        "url": "https://aeke.com/pages/aeke-ai-tech",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，官方AI训练系统说明。"
+      },
+      {
+        "title": "AEKE官方FAQ",
+        "url": "https://aeke.com/pages/faq",
+        "kind": "official-spec",
+        "supports": [
+          "dependency",
+          "technology"
+        ],
+        "note": "已打开，用于核对设备功能与服务边界。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "tempo-studio",
+    "name": "Tempo Studio",
+    "brand": "Tempo",
+    "category": "sports",
+    "tagline": "用三维动作感知辅助自由重量训练",
+    "officialUrl": "https://shop.tempo.fit/",
+    "status": "on_sale",
+    "statusEvidence": "官方商城仍列Studio Starter及其他套餐，显示Add to cart和通常2–4周配送说明；可购买主体为家庭Studio系统。",
+    "regions": [
+      "美国官方销售地区（具体配送地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "US$2,495 起",
+      "note": "基础Studio硬件套装所见价；送装、税费和训练会员另计，附加器械套餐不重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "3D动作传感器与AI分析用于动作反馈、次数记录、重量建议及训练计划。",
+      "dependency": "需Studio系统和训练会员；设备的三维感知与App服务共同工作，不能把屏幕里的教练视频本身当作AI。"
+    },
+    "highlights": [
+      "独立落地显示终端",
+      "3D动作捕捉",
+      "自由重量动作反馈",
+      "器械收纳与家庭账户"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户保留自由重量训练方式，但希望在没有现场教练时获得动作反馈。价值在于能否识别常见动作与错误、帮助复盘；跟着视频练和收到准确个体反馈是两种不同需求。",
+      "userProfile": "画像推断：偏好哑铃杠铃且愿意清出完整拍摄空间的家庭用户更匹配。多人同时进入画面、空间遮挡或偏离课程动作可能改变体验，不能仅凭家用定位推断所有居住环境都适合。",
+      "competition": "案头判断：与健身镜、手机视觉训练软件和自由重量课程竞争，内容与感知质量共同重要。没有销量或访谈证据证明大屏优于手机；相似套餐的配件数量不应被算成多个AI产品。",
+      "supplyChain": "官方披露三维动作感知、屏幕和器械收纳，传感器供应商、整机工厂及算法标定细节本次不明。推断制造之外还需内容动作库和环境适配，不应单凭主机外形估计物料成本。",
+      "technology": "可确认AI是依据3D动作数据形成的实时反馈与建议，并非显示课程视频的普通屏幕。具体识别模型和训练覆盖范围未完整公开；重量建议及动作提示应作为可复查辅助信息。",
+      "aesthetics": "图示观察：落地屏与下方器械柜形成家居化训练站，器械收纳降低散乱感。大屏尺寸与整体重量也意味着固定空间投入；照片不能代替真实动作区、光线和家庭通行路线评估。",
+      "risks": "风险集中在动作遮挡、识别边界、会员持续服务和大件搬运安装。反馈可能遗漏动作问题，重量建议也未必适合当日状态；本研究没有实测识别准确率或任何体能改善效果。",
+      "opportunity": "市场差异是自由重量与视觉感知结合，而不是用电机替代配重。尚待验证的购买理由是动作反馈能否持续指导练习，以及用户是否愿意为专用传感器和大屏承担高于手机方案的成本。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "动作输入",
+        "detail": "3D传感器观察用户动作，功能图非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "器械交互",
+        "detail": "自由重量由用户操控，系统识别训练表现。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI反馈",
+        "detail": "动作、次数与重量建议由感知软件产生。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容与账户",
+        "detail": "会员课程和家庭账户组织训练。",
+        "evidence": "official"
+      },
+      {
+        "name": "查看复盘",
+        "detail": "屏幕及App展示反馈和历史表现。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tempo官方商城Studio",
+        "url": "https://shop.tempo.fit/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，Studio套餐、Add to cart和配送可见。"
+      },
+      {
+        "title": "Tempo官方Studio介绍",
+        "url": "https://buy.tempo.fit/cost-compare/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，3D传感器与AI动作/重量/计划指导说明；不以营销保证作效果证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "tempo-move",
+    "name": "Tempo Move",
+    "brand": "Tempo",
+    "category": "sports",
+    "tagline": "借助手机视觉的紧凑家庭力量套件",
+    "officialUrl": "https://shop.tempo.fit/collections/move",
+    "status": "on_sale",
+    "statusEvidence": "官方Move集合页中Light/MagSafe配置显示US$985与Add to Cart，部分其他配置仅Waitlist。仅计同一Move硬件系统一次，不计配色与器械套装。",
+    "regions": [
+      "美国官方销售地区（具体配送地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "可购MagSafe配置所见 US$985",
+      "note": "同页部分较便宜Lightning配置仅Waitlist，不用于本条在售结论；实际套装与会员时长以结算确认。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "手机摄像头与Tempo AI识别动作、重量和次数，形成实时指导及个性化训练建议。",
+      "dependency": "需要兼容iPhone、Tempo Core连接配件、显示设备与有效会员；柜体与哑铃没有被声称内置大模型，是硬件套件加手机计算。"
+    },
+    "highlights": [
+      "紧凑器械柜与连接底座",
+      "AI感知依赖兼容iPhone",
+      "动作/次数/重量反馈",
+      "不同接口库存需逐配置确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有兼容手机和电视的人，希望以较小体积获得视觉训练反馈。需要比较整套准备时间、镜头摆放与自由重量练习便利度，不能把使用手机算力简单视作完整系统成本很低。",
+      "userProfile": "画像推断：空间有限、已有兼容iPhone、喜欢跟练的家庭用户更匹配。安卓用户或没有合适显示设备的人会遇到不同门槛；软件会员与设备兼容条件应先于柜体外观进入选择。",
+      "competition": "案头判断：与普通哑铃加手机课程及其他视觉训练App高度重叠，属于成熟需求上的组合方案。没有销量或访谈证据支持套件更容易坚持；颜色、连接接口和配重包不重复算产品。",
+      "supplyChain": "官方确认器械柜、自由重量和手机连接底座，AI感知使用外部手机。柜体工厂、配件制造与软件基础设施供应商未披露，不能把手机相机性能当作套件自己的芯片或传感器规格。",
+      "technology": "AI来自手机视觉追踪、动作识别及反馈服务，硬件套件提供可识别器械和稳定连接场景。需明确算力依赖，不能把Tempo Studio的专用3D传感器或主机参数移植到Move。",
+      "aesthetics": "图示观察：小型器械柜适合收纳哑铃，外观可接近普通边几。真正训练时仍需要手机、屏幕和无遮挡动作区；收纳后的体积不能用来代表展开训练所需空间或使用便利度。",
+      "risks": "风险包括手机版本兼容、连接准备、动作被遮挡与会员费用。同页有候补配置，不能用最低展示价推断全部可买；AI建议没有独立实测保证，也不能代替对疼痛或身体异常的专业判断。",
+      "opportunity": "市场差异在于复用个人手机计算与家居化器械收纳。尚待验证的购买理由是专用套件能否减少普通手机跟练的准备摩擦，以及用户升级手机后能否保持兼容和历史训练连续性。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "外部视觉输入",
+        "detail": "兼容iPhone摄像头负责观察，不是柜体自带摄像头。",
+        "evidence": "official"
+      },
+      {
+        "name": "物理训练套件",
+        "detail": "自由重量、收纳柜与Core底座组织家庭训练。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI分析",
+        "detail": "Tempo软件识别动作、次数和重量并给出反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "显示与会员",
+        "detail": "电视/显示屏和有效会员提供完整体验。",
+        "evidence": "official"
+      },
+      {
+        "name": "训练复盘",
+        "detail": "App承接历史与计划，用户判断是否采纳建议。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tempo Move官方销售集合",
+        "url": "https://shop.tempo.fit/collections/move",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，区分Add to Cart与Waitlist配置，选择实际可购的MagSafe配置。"
+      },
+      {
+        "title": "Tempo Move官方FAQ",
+        "url": "https://support.tempo.fit/support/solutions/articles/151000154612-tempo-move-faqs",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开，明确Core、手机相机与电视的依赖。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "peloton-cross-training-bike-plus",
+    "name": "Peloton Cross Training Bike+",
+    "brand": "Peloton",
+    "category": "sports",
+    "tagline": "专用骑行器械与Peloton IQ视觉训练反馈",
+    "officialUrl": "https://www.onepeloton.com/shop/bike-plus",
+    "status": "on_sale",
+    "statusEvidence": "已打开该具体型号官方购买页，显示型号、美元价与Add to cart；未将翻新Original系列、商业Pro设备或其他机械类型混为同一产品。",
+    "regions": [
+      "美国官方销售地区（具体配送地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "US$2,695",
+      "note": "美国官方硬件价；All-Access会员另计。Tread+ Vision另列必需安装费，其他送装与税费按订单确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Peloton IQ利用Movement-Tracking Camera进行动作/次数反馈，并结合个人历史生成训练计划与建议。",
+      "dependency": "需要All-Access会员及适用联网服务；摄像头是可选启用功能。部分视觉功能用于离机力量课，不等于所有骑行动作都有视觉评估。"
+    },
+    "highlights": [
+      "家庭可购买的骑行硬件",
+      "Movement-Tracking Camera",
+      "Peloton IQ个性化指导",
+      "硬件、会员与安装分别核算"
+    ],
+    "analysis": {
+      "demand": "需求假设：在骑行和离车力量课之间切换时，希望训练记录和动作反馈保持连续。真正应验证的是反馈是否准确、是否能帮助完成当次训练，而不是把更丰富的数据界面自动视为更好的体能结果。",
+      "userProfile": "画像推断：已有室内骑行习惯、愿意持续订阅课程并安排离车训练空间的人更匹配。偶发锻炼者未必需要专用联网器械；家庭成员的身高、动作习惯和课程偏好不同，不能用单一宣传场景覆盖所有消费者。",
+      "competition": "案头判断：与传统骑行器械、普通课程屏和同类联网健身平台竞争，属于已有强替代的家庭健身方向。没有用户访谈、销量或留存证据，因此不将平台知名度当作该型号需求已验证。",
+      "supplyChain": "官方可以核对车架、飞轮/阻力机构与旋转显示屏，具体电机、相机、屏幕供应商与整机工厂未公开。推断交付质量还涉及装配、维护与会员软件，不能只凭硬件售价推算制造成本。",
+      "technology": "可确认AI是Peloton IQ的视觉动作反馈与个性化建议，普通自动阻力或自动坡度本身不单独算AI。具体模型与识别误差未完整披露，视觉指导适用范围应以该型号和课程说明为准。",
+      "aesthetics": "图示观察：紧凑车架与可旋转屏幕适合在同一区域切换骑行和地面动作。家居效果图无法证明实际噪声、屏幕反光或动线体验，需要结合使用房间和展开训练空间评估。",
+      "risks": "风险包括会员依赖、姿态误识别与数据权限；踩踏动作、扣踏鞋和离车空间都有实际使用要求。AI反馈不能保证无伤害或作为康复处方，本研究没有医学或实机验证。",
+      "opportunity": "市场差异是专用骑行机械系统与跨训练视觉反馈的结合。尚待验证的购买理由是用户是否同时需要课程、动作识别和长期计划，以及相较普通器械加软件能否减少实际使用摩擦。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "训练输入",
+        "detail": "骑行器械记录运动数据，摄像头观察支持的动作；非实物拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "机械执行",
+        "detail": "车架、飞轮/阻力机构与旋转显示屏提供训练交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI分析",
+        "detail": "Peloton IQ提供动作、次数与个性化训练相关反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "会员与账户",
+        "detail": "All-Access会员和个人账户组织课程与历史。",
+        "evidence": "official"
+      },
+      {
+        "name": "屏幕与用户",
+        "detail": "显示指导和记录，用户控制实际动作与负载。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peloton Cross Training Bike+官方购买页",
+        "url": "https://www.onepeloton.com/shop/bike-plus",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，具体型号Add to cart可见；未实际支付。"
+      },
+      {
+        "title": "Peloton Cross Training Bike+官方说明",
+        "url": "https://www.onepeloton.com/bike-plus",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，用于核对具体硬件形态及视觉功能范围。"
+      },
+      {
+        "title": "Peloton IQ官方功能边界",
+        "url": "https://www.onepeloton.com/peloton-iq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，区分通用计划与指定硬件视觉功能，会员另需。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "peloton-tread-plus-vision",
+    "name": "Peloton Tread+ Vision",
+    "brand": "Peloton",
+    "category": "sports",
+    "tagline": "专用跑步器械与Peloton IQ视觉训练反馈",
+    "officialUrl": "https://www.onepeloton.com/shop/tread-plus",
+    "status": "on_sale",
+    "statusEvidence": "已打开该具体型号官方购买页，显示型号、美元价与Add to cart；未将翻新Original系列、商业Pro设备或其他机械类型混为同一产品。",
+    "regions": [
+      "美国官方销售地区（具体配送地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "US$6,695",
+      "note": "美国官方硬件价；All-Access会员另计。Tread+ Vision另列必需安装费，其他送装与税费按订单确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Peloton IQ利用Movement-Tracking Camera进行动作/次数反馈，并结合个人历史生成训练计划与建议。",
+      "dependency": "需要All-Access会员及适用联网服务；摄像头是可选启用功能。跑步姿态分析适用于官网指定模式。"
+    },
+    "highlights": [
+      "家庭可购买的跑步硬件",
+      "Movement-Tracking Camera",
+      "Peloton IQ个性化指导",
+      "硬件、会员与安装分别核算"
+    ],
+    "analysis": {
+      "demand": "需求假设：在家跑步的人，希望除了配速外，还能获得姿态和效率方面的可理解反馈。真正应验证的是反馈是否准确、是否能帮助完成当次训练，而不是把更丰富的数据界面自动视为更好的体能结果。",
+      "userProfile": "画像推断：有稳定跑步需求、足够承重和活动空间并接受大件安装的人更匹配。偶发锻炼者未必需要专用联网器械；家庭成员的身高、动作习惯和课程偏好不同，不能用单一宣传场景覆盖所有消费者。",
+      "competition": "案头判断：与传统跑步器械、普通课程屏和同类联网健身平台竞争，属于已有强替代的家庭健身方向。没有用户访谈、销量或留存证据，因此不将平台知名度当作该型号需求已验证。",
+      "supplyChain": "官方可以核对板条跑带、驱动系统与带摄像头的显示屏，具体电机、相机、屏幕供应商与整机工厂未公开。推断交付质量还涉及装配、维护与会员软件，不能只凭硬件售价推算制造成本。",
+      "technology": "可确认AI是Peloton IQ的视觉动作反馈与个性化建议，普通自动阻力或自动坡度本身不单独算AI。具体模型与识别误差未完整披露，视觉指导适用范围应以该型号和课程说明为准。",
+      "aesthetics": "图示观察：大型板条跑台与高位屏幕强调固定训练区域，空间存在感明显。家居效果图无法证明实际噪声、屏幕反光或动线体验，需要结合使用房间和展开训练空间评估。",
+      "risks": "风险包括会员依赖、姿态误识别与数据权限；跑带运行、儿童和宠物接近、大件电气安装都需要严格遵循说明。AI反馈不能保证无伤害或作为康复处方，本研究没有医学或实机验证。",
+      "opportunity": "市场差异是专用跑步机械系统与跨训练视觉反馈的结合。尚待验证的购买理由是用户是否同时需要课程、动作识别和长期计划，以及相较普通器械加软件能否减少实际使用摩擦。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "训练输入",
+        "detail": "跑步器械记录运动数据，摄像头观察支持的动作；非实物拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "机械执行",
+        "detail": "板条跑带、驱动系统与带摄像头的显示屏提供训练交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI分析",
+        "detail": "Peloton IQ提供动作、次数与个性化训练相关反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "会员与账户",
+        "detail": "All-Access会员和个人账户组织课程与历史。",
+        "evidence": "official"
+      },
+      {
+        "name": "屏幕与用户",
+        "detail": "显示指导和记录，用户控制实际动作与负载。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peloton Tread+ Vision官方购买页",
+        "url": "https://www.onepeloton.com/shop/tread-plus",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，具体型号Add to cart可见；未实际支付。"
+      },
+      {
+        "title": "Peloton Tread+ Vision官方说明",
+        "url": "https://www.onepeloton.com/tread-plus",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，用于核对具体硬件形态及视觉功能范围。"
+      },
+      {
+        "title": "Peloton IQ官方功能边界",
+        "url": "https://www.onepeloton.com/peloton-iq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，区分通用计划与指定硬件视觉功能，会员另需。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "peloton-cross-training-row-plus",
+    "name": "Peloton Cross Training Row+",
+    "brand": "Peloton",
+    "category": "sports",
+    "tagline": "专用划船器械与Peloton IQ视觉训练反馈",
+    "officialUrl": "https://www.onepeloton.com/shop/row-plus",
+    "status": "on_sale",
+    "statusEvidence": "已打开该具体型号官方购买页，显示型号、美元价与Add to cart；未将翻新Original系列、商业Pro设备或其他机械类型混为同一产品。",
+    "regions": [
+      "美国官方销售地区（具体配送地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "US$3,495",
+      "note": "美国官方硬件价；All-Access会员另计。Tread+ Vision另列必需安装费，其他送装与税费按订单确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Peloton IQ利用Movement-Tracking Camera进行动作/次数反馈，并结合个人历史生成训练计划与建议。",
+      "dependency": "需要All-Access会员及适用联网服务；摄像头是可选启用功能。部分视觉功能用于离机力量课，不等于所有划船动作都有视觉评估。"
+    },
+    "highlights": [
+      "家庭可购买的划船硬件",
+      "Movement-Tracking Camera",
+      "Peloton IQ个性化指导",
+      "硬件、会员与安装分别核算"
+    ],
+    "analysis": {
+      "demand": "需求假设：划船练习者希望把节奏、动作顺序和离机力量训练放入同一训练记录。真正应验证的是反馈是否准确、是否能帮助完成当次训练，而不是把更丰富的数据界面自动视为更好的体能结果。",
+      "userProfile": "画像推断：愿意练习划船技术并能安排长条动作区的家庭用户更匹配。偶发锻炼者未必需要专用联网器械；家庭成员的身高、动作习惯和课程偏好不同，不能用单一宣传场景覆盖所有消费者。",
+      "competition": "案头判断：与传统划船器械、普通课程屏和同类联网健身平台竞争，属于已有强替代的家庭健身方向。没有用户访谈、销量或留存证据，因此不将平台知名度当作该型号需求已验证。",
+      "supplyChain": "官方可以核对长导轨、滑座、拉柄阻力机构和显示屏，具体电机、相机、屏幕供应商与整机工厂未公开。推断交付质量还涉及装配、维护与会员软件，不能只凭硬件售价推算制造成本。",
+      "technology": "可确认AI是Peloton IQ的视觉动作反馈与个性化建议，普通自动阻力或自动坡度本身不单独算AI。具体模型与识别误差未完整披露，视觉指导适用范围应以该型号和课程说明为准。",
+      "aesthetics": "图示观察：长导轨与可转动屏幕形成鲜明器械感，竖立收纳仍需固定与空间。家居效果图无法证明实际噪声、屏幕反光或动线体验，需要结合使用房间和展开训练空间评估。",
+      "risks": "风险包括会员依赖、姿态误识别与数据权限；导轨行程、座椅移动及竖立收纳需要按设备说明操作。AI反馈不能保证无伤害或作为康复处方，本研究没有医学或实机验证。",
+      "opportunity": "市场差异是专用划船机械系统与跨训练视觉反馈的结合。尚待验证的购买理由是用户是否同时需要课程、动作识别和长期计划，以及相较普通器械加软件能否减少实际使用摩擦。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "训练输入",
+        "detail": "划船器械记录运动数据，摄像头观察支持的动作；非实物拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "机械执行",
+        "detail": "长导轨、滑座、拉柄阻力机构和显示屏提供训练交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI分析",
+        "detail": "Peloton IQ提供动作、次数与个性化训练相关反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "会员与账户",
+        "detail": "All-Access会员和个人账户组织课程与历史。",
+        "evidence": "official"
+      },
+      {
+        "name": "屏幕与用户",
+        "detail": "显示指导和记录，用户控制实际动作与负载。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Peloton Cross Training Row+官方购买页",
+        "url": "https://www.onepeloton.com/shop/row-plus",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，具体型号Add to cart可见；未实际支付。"
+      },
+      {
+        "title": "Peloton Cross Training Row+官方说明",
+        "url": "https://www.onepeloton.com/row-plus",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，用于核对具体硬件形态及视觉功能范围。"
+      },
+      {
+        "title": "Peloton IQ官方功能边界",
+        "url": "https://www.onepeloton.com/peloton-iq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，区分通用计划与指定硬件视觉功能，会员另需。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "form-smart-swim-2-pro",
+    "name": "FORM Smart Swim 2 PRO",
+    "brand": "FORM",
+    "category": "sports",
+    "tagline": "在泳镜中显示数据与个性化游泳提示",
+    "officialUrl": "https://www.formswim.com/products/smart-swim-2-pro-goggles",
+    "status": "on_sale",
+    "statusEvidence": "官方PRO商品页显示具体镜款、US$189促销价及Add to Cart；官方当前产品比较也确认PRO型号，未沿用已停产Smart Swim 1。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "英国",
+      "欧洲与澳大利亚官方区域站"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "所见美国站促销 US$189",
+      "note": "硬件标价与Premium会员分别展示；核心跟踪与HeadCoach高级服务范围不同，不将LT/普通版仅按镜片或套餐重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方HeadCoach为AI个性化教练，使用游泳传感数据提供技术分析、适应性计划与镜内提示。",
+      "dependency": "部分HeadCoach和计划功能需Premium，App同步训练；不同泳姿、泳池或开放水域的功能范围不同，不能推定全部泳姿都支持同样反馈。"
+    },
+    "highlights": [
+      "镜内数据显示",
+      "动作传感与心率输入",
+      "HeadCoach个性化训练",
+      "PRO镜片与基础款区分"
+    ],
+    "analysis": {
+      "demand": "需求假设：游泳时停下来查看手表会打断节奏，镜内提示可能让训练更连续。价值应验证在真实水下可读性、注意力占用和反馈时机，而不是把数据始终可见自动等同技术提升。",
+      "userProfile": "画像推断：有规律泳池训练或铁人三项计划、愿意跟踪动作的个人更匹配。休闲戏水或尚未建立基本游泳技能的人需求不同，智能显示也不能替代安全看护或水中技能训练。",
+      "competition": "案头判断：显示泳镜较少见，但仍与运动手表、教练和传统训练计划竞争，属于专业细分而非无人竞争。没有销量或访谈证据支持普遍佩戴意愿，PRO与LT的镜片和传感差异不用于凑数。",
+      "supplyChain": "官方可核对显示光学、运动传感和镜片材料，具体光机、传感器芯片及整机工厂未披露。推断密封、镜片耐久和佩戴贴合是制造重点；不能从品牌宣传直接推算防水寿命或良率。",
+      "technology": "官方AI证据来自HeadCoach个性化分析与计划，而不是普通计圈功能。镜内提示与手机端分析分工存在，具体模型未公开；官方限制说明强调泳姿和装备会影响评分，不自行扩大适用范围。",
+      "aesthetics": "图示观察：泳镜侧面的电子模块使外观区别于普通泳镜，但镜片与绑带仍维持熟悉形态。是否压迫眼眶、起雾或适合不同鼻梁需实际试戴，宣传图不能代替水中长时佩戴反馈。",
+      "risks": "风险包括显示分心、数据缺失和对开放水域导航的过度依赖；技术评分也可能受脚蹼等装备影响。应把它看作训练辅助，不能根据AI提示判断水域安全，会员变化也会影响高级功能。",
+      "opportunity": "市场差异是把训练提示直接放入水下视野。尚待验证的购买理由是用户能否在不增加注意负担的情况下使用反馈，以及镜片、密封与订阅服务在长期训练中是否保持可接受体验。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "泳姿数据",
+        "detail": "运动及心率相关传感输入，功能图非实物拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备处理",
+        "detail": "本机跟踪与镜内显示提供实时游泳信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "训练同步",
+        "detail": "App同步历史，部分功能受Premium授权影响。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI教练",
+        "detail": "HeadCoach分析技术并提供个性化计划和提示。",
+        "evidence": "official"
+      },
+      {
+        "name": "镜内反馈",
+        "detail": "用户在支持场景中查看指导；不替代水域安全判断。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FORM PRO官方商店",
+        "url": "https://www.formswim.com/products/smart-swim-2-pro-goggles",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，PRO型号与Add to Cart可见，会员单列。"
+      },
+      {
+        "title": "FORM HeadCoach官方说明",
+        "url": "https://support.formswim.com/hc/en-us/articles/22278213164691-What-is-HeadCoach",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，明确反馈与泳姿/装备限制。"
+      },
+      {
+        "title": "FORM官方AI教练介绍",
+        "url": "https://www.formswim.com/blogs/media/form-expands-its-lineup-with-smart-swim-2-lt-the-simplest-way-to-get-started-with-the-form-swim-system",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开，明确HeadCoach为AI-powered；本条不另计LT款。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "playermaker-2",
+    "name": "Playermaker 2.0",
+    "brand": "Playermaker",
+    "category": "sports",
+    "tagline": "把双脚运动变成个人足球训练记录",
+    "officialUrl": "https://www.playermaker.com/products/playermaker",
+    "status": "on_sale",
+    "statusEvidence": "官方个人产品页明确In stock、Worldwide shipping和购买Continue入口，列双脚传感器、绑带与充电盒；不是球队专用采购方案。",
+    "regions": [
+      "国际官网支持配送地区（逐地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实海外官方渠道，未确认同型号中国大陆官方销售、安装和完整软件服务。支持中文或品牌来自中国均不等同大陆可购买。"
+    },
+    "price": {
+      "text": "US$199",
+      "note": "所见套件含首年跟踪权益；官方FAQ列续费方案，具体费用与账号条件按结算。CITYPLAY使用同类硬件，不重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "AI算法过滤非训练时间、识别足部相关动作与球场表现，并生成个性化训练洞察。",
+      "dependency": "需配套App及有效会员进行新训练同步/处理；可先在传感器记录再接近手机同步，云服务与个人档案仍是依赖。"
+    },
+    "highlights": [
+      "左右脚独立运动传感器",
+      "自动会话记录与同步",
+      "个人足球技术分析",
+      "非球队专用系统，个人可购买"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人足球训练缺少可持续的技术记录，脚部传感器能把触球与移动转成复盘线索。应验证这些线索是否可理解并指导下一次练习，而不是把指标越多视为球技改善越快。",
+      "userProfile": "画像推断：规律训练的业余球员和有监护人参与的青少年家庭更匹配。年龄、位置与训练内容会改变数据意义；个人报告不应被当成选拔结论或证明某个孩子具备确定职业潜力。",
+      "competition": "案头判断：与GPS背心、教练录像、手机分析和其他鞋部传感器竞争，属于足球专业细分。没有销量审计或访谈支撑需求规模；官方说明CITYPLAY主要是内容体验变化，因此不重复计算。",
+      "supplyChain": "官网披露足部传感器、固定绑带和充电盒，具体惯性器件、主控与整机工厂未公开。推断可靠性集中在冲击、固定、左右配对与数据标定，不能由职业球队使用宣传推算制造标准。",
+      "technology": "可核实AI包括过滤无关时间、动作分析和训练建议；数据来自足部运动而非球内传感器。不同指标属于算法估算，不能把每个统计都理解为直接测量，也不补写未公开模型和误差率。",
+      "aesthetics": "图示观察：传感器通过鞋外绑带佩戴，避免额外背心，但也改变鞋面外观和触球感受。实际固定稳定性与不同鞋型适配需试用，商品图片不能证明跑动与对抗中完全无感。",
+      "risks": "风险包括绑带佩戴错误、设备损坏、会员失效导致无法记录新会话，以及对评分和排名的过度解读。涉及未成年人的训练数据需要由家庭合理管理，本研究未评估任何竞技提升效果。",
+      "opportunity": "市场差异是从脚部而非身体中心采集足球动作。尚待验证的购买理由是球员能否利用报告调整训练、教练是否愿意解释指标，以及佩戴和同步流程能否在日常练习中长期持续。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "依据用途与替代品的案头分类；不是销量、市场份额或用户访谈结论。"
+    },
+    "architecture": [
+      {
+        "name": "双脚感知",
+        "detail": "左右脚运动传感器记录动作，功能示意非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机会话",
+        "detail": "离盒开始、入盒结束，保存训练会话。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机同步",
+        "detail": "靠近手机后同步到App与个人账户。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI分析",
+        "detail": "过滤无关时间并形成技术指标和训练建议。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户复盘",
+        "detail": "App显示个人报告，使用者与教练解释数据。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Playermaker 2.0官方个人商店",
+        "url": "https://www.playermaker.com/products/playermaker",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，明确在库与个人套件组成；未采用球队采购页面。"
+      },
+      {
+        "title": "Playermaker官方FAQ",
+        "url": "https://www.playermaker.com/pages/faq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开，AI过滤、会员要求与CITYPLAY相同硬件路线均有说明。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "phonak-audeo-eon-sphere",
+    "name": "Phonak Audéo EON Sphere",
+    "brand": "Phonak",
+    "category": "hearing",
+    "tagline": "环境识别与语音分离整合到同一日常佩戴设备",
+    "officialUrl": "https://www.phonak.com/en-us/hearing-devices/hearing-aids/audeo-eon-sphere",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方Phonak AI和Spheric Speech Clarity 3.0实时区分语音与背景噪声，AutoSense OS AI识别听音环境。",
+      "dependency": "个人专业验配与合适参数是前提；部分连接和管理功能依赖兼容手机，核心声音处理不等于云端聊天。"
+    },
+    "highlights": [
+      "耳背主机与耳道受话器连接的RIC形态",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：走动和多人谈话时希望降低频繁手调听音设置的负担。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估适合RIC形态、经常在多声源环境中交流的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：环境识别与语音分离整合到同一日常佩戴设备形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对耳背主机与耳道受话器连接的RIC形态及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "官方Phonak AI和Spheric Speech Clarity 3.0实时区分语音与背景噪声，AutoSense OS AI识别听音环境。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：耳背小主机与细连接线更强调低存在感，实际贴合仍取决于耳形和受话器选择。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "功能和技术级别需以验配合同确认，不沿用Infinio Sphere的旧芯片、续航或价格。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于环境识别与语音分离整合到同一日常佩戴设备。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "官方Phonak AI和Spheric Speech Clarity 3.0实时区分语音与背景噪声，AutoSense OS AI识别听音环境。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Phonak Phonak Audéo EON Sphere官方产品页",
+        "url": "https://www.phonak.com/en-us/hearing-devices/hearing-aids/audeo-eon-sphere",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Phonak官方消费者验配渠道",
+        "url": "https://www.phonak.com/en-us/find-a-provider",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "phonak-virto-r-infinio",
+    "name": "Phonak Virto R Infinio",
+    "brand": "Phonak",
+    "category": "hearing",
+    "tagline": "定制外壳、充电与AI环境分类的组合",
+    "officialUrl": "https://www.phonak.com/en-us/hearing-devices/hearing-aids/virto-infinio",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方明确AutoSense OS 7.0由人工智能训练，用于识别听音环境并调整SmartSpeech相关处理。",
+      "dependency": "个人专业验配与合适参数是前提；部分连接和管理功能依赖兼容手机，核心声音处理不等于云端聊天。"
+    },
+    "highlights": [
+      "按耳形定制的可充电耳内形态",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望在定制耳内外形中获得环境自适应，而不只追求更小体积。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估适合耳内定制、重视佩戴隐蔽性和充电便利的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：定制外壳、充电与AI环境分类的组合形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对按耳形定制的可充电耳内形态及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "官方明确AutoSense OS 7.0由人工智能训练，用于识别听音环境并调整SmartSpeech相关处理。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：外壳依耳形与颜色定制，无法像通用耳机那样只看照片判断大小和隐蔽程度。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "定制壳体、技术档位和无线功能影响报价；不把同系列钛壳或电池款当成本款。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于定制外壳、充电与AI环境分类的组合。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "官方明确AutoSense OS 7.0由人工智能训练，用于识别听音环境并调整SmartSpeech相关处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Phonak Phonak Virto R Infinio官方产品页",
+        "url": "https://www.phonak.com/en-us/hearing-devices/hearing-aids/virto-infinio",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Phonak官方消费者验配渠道",
+        "url": "https://www.phonak.com/en-us/find-a-provider",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "oticon-intent",
+    "name": "Oticon Intent",
+    "brand": "Oticon",
+    "category": "hearing",
+    "tagline": "把运动与谈话上下文纳入声音处理，不仅判断环境有多吵",
+    "officialUrl": "https://www.oticon.com/products/hearing-aids/family/intent",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方DNN 2.0结合头部/身体运动、谈话活动和环境信息，调整MoreSound Intelligence的听音支持。",
+      "dependency": "个人专业验配与合适参数是前提；部分连接和管理功能依赖兼容手机，核心声音处理不等于云端聊天。"
+    },
+    "highlights": [
+      "耳背微型主机与耳道受话器连接形态",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：相同噪声环境中，用户转头、靠近或参与谈话时所需支持会改变。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估适合该设备、希望减少活动过程中手动切换程序的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：把运动与谈话上下文纳入声音处理，不仅判断环境有多吵形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对耳背微型主机与耳道受话器连接形态及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "官方DNN 2.0结合头部/身体运动、谈话活动和环境信息，调整MoreSound Intelligence的听音支持。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：小型耳背主体保持传统助听器轮廓，按键、细线与耳塞兼顾维护和日常佩戴。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "用户意图是算法依据传感信息作出的估计，不是读取思想或保证理解每次关注目标。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于把运动与谈话上下文纳入声音处理，不仅判断环境有多吵。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "官方DNN 2.0结合头部/身体运动、谈话活动和环境信息，调整MoreSound Intelligence的听音支持。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oticon Oticon Intent官方产品页",
+        "url": "https://www.oticon.com/products/hearing-aids/family/intent",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Oticon官方消费者验配渠道",
+        "url": "https://www.oticon.com/find-hearing-center",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      },
+      {
+        "title": "Oticon官方技术或应用说明",
+        "url": "https://www.oticon.com/professionals/campaigns-b2b/intent/intent-technology",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，用于确认AI机制和兼容边界；厂商性能宣传不作为独立疗效证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "oticon-own-si",
+    "name": "Oticon Own SI",
+    "brand": "Oticon",
+    "category": "hearing",
+    "tagline": "持续DNN声音处理与深耳道定制外壳的结合",
+    "officialUrl": "https://www.oticon.com/products/hearing-aids/family/own-si",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方明确采用持续运行的Deep Neural Network，使用真实声音场景训练来处理复杂听音环境。",
+      "dependency": "核心DNN声音处理在设备端；按个人耳道定制并专业验配，不假定该IIC/CIC型号支持蓝牙、手机App或充电。"
+    },
+    "highlights": [
+      "按耳形定制的IIC/CIC耳道形态",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望减少外露部件，同时在小型耳道设备中保留AI声音处理。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估适合耳道定制、日常需要配戴眼镜或口罩的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：持续DNN声音处理与深耳道定制外壳的结合形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对按耳形定制的IIC/CIC耳道形态及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "官方明确采用持续运行的Deep Neural Network，使用真实声音场景训练来处理复杂听音环境。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：外露面板较小且取出结构清楚，最终外观高度依赖耳道尺寸与定制结果。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "IIC和CIC形态及档位功能需验配确认，不默认拥有耳背机的蓝牙、App或可充电能力。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于持续DNN声音处理与深耳道定制外壳的结合。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "官方明确采用持续运行的Deep Neural Network，使用真实声音场景训练来处理复杂听音环境。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "验配与维护",
+        "detail": "通过专业验配渠道调整、随访和维护；不以手机连接作为该型号功能前提。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oticon Oticon Own SI官方产品页",
+        "url": "https://www.oticon.com/products/hearing-aids/family/own-si",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Oticon官方消费者验配渠道",
+        "url": "https://www.oticon.com/find-hearing-center",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "starkey-edge-ai",
+    "name": "Starkey Edge AI",
+    "brand": "Starkey",
+    "category": "hearing",
+    "tagline": "端侧场景分类与用户触发优化同时存在",
+    "officialUrl": "https://www.starkey.com/hearing-aids/edge-artificial-intelligence-hearing-aids",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方描述端侧AI实时分类复杂声音场景、突出语音并抑制噪声，Edge Mode提供按需声音优化。",
+      "dependency": "个人专业验配与合适参数是前提；部分连接和管理功能依赖兼容手机，核心声音处理不等于云端聊天。"
+    },
+    "highlights": [
+      "系列内提供多种个人验配形态，图片以RIC款为代表",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：不想在不同生活场景里反复选择预设，却希望保留按需调整入口。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估需要助听支持、并愿意使用配套App管理设备的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：端侧场景分类与用户触发优化同时存在形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对系列内提供多种个人验配形态，图片以RIC款为代表及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "官方描述端侧AI实时分类复杂声音场景、突出语音并抑制噪声，Edge Mode提供按需声音优化。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：RIC款外观接近日常耳背助听器，充电盒与配套App决定了整体使用体验而不只是机身。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "系列不同佩戴形态的防护、连接和功能不完全相同，不能将一个款式的规格推广到全系。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于端侧场景分类与用户触发优化同时存在。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "官方描述端侧AI实时分类复杂声音场景、突出语音并抑制噪声，Edge Mode提供按需声音优化。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Starkey Starkey Edge AI官方产品页",
+        "url": "https://www.starkey.com/hearing-aids/edge-artificial-intelligence-hearing-aids",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Starkey官方消费者验配渠道",
+        "url": "https://locations.starkey.com/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      },
+      {
+        "title": "Starkey官方技术或应用说明",
+        "url": "https://www.starkey.com/hearing-aids",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，用于确认AI机制和兼容边界；厂商性能宣传不作为独立疗效证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "starkey-omega-ai-plus",
+    "name": "Starkey Omega AI+",
+    "brand": "Starkey",
+    "category": "hearing",
+    "tagline": "官方披露的多DNN声音处理架构及跨款式扩展",
+    "officialUrl": "https://www.starkey.com/hearing-aids/omega-artificial-intelligence-plus-hearing-aids",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方2026年发布说明披露Quad DNN架构，在设备侧协同分析和处理声音；不同款式的AI功能按型号提供。",
+      "dependency": "个人专业验配与合适参数是前提；部分连接和管理功能依赖兼容手机，核心声音处理不等于云端聊天。"
+    },
+    "highlights": [
+      "个人验配助听器系列，主图采用官方展示形态",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望声音处理能随着场景持续调整，并在日常维护中减少操作负担。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估、在意长期佩戴与声音个性化的新购或升级用户更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：官方披露的多DNN声音处理架构及跨款式扩展形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对个人验配助听器系列，主图采用官方展示形态及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "官方2026年发布说明披露Quad DNN架构，在设备侧协同分析和处理声音；不同款式的AI功能按型号提供。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：外形延续小型耳背或定制助听器思路，产品代际差异主要不体现在夸张外观上。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "不把厂商比较百分比、健康监测或睡眠功能写成医疗效果，具体款式和地区开放范围需确认。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于官方披露的多DNN声音处理架构及跨款式扩展。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "官方2026年发布说明披露Quad DNN架构，在设备侧协同分析和处理声音；不同款式的AI功能按型号提供。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Starkey Starkey Omega AI+官方产品页",
+        "url": "https://www.starkey.com/hearing-aids/omega-artificial-intelligence-plus-hearing-aids",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Starkey官方消费者验配渠道",
+        "url": "https://locations.starkey.com/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      },
+      {
+        "title": "Starkey官方技术或应用说明",
+        "url": "https://www.starkey.com/press/press-releases/2026/10/starkey-takes-intelligent-hearing-to-the-next-level-with-Introduction-of-omega-ai-plus",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，用于确认AI机制和兼容边界；厂商性能宣传不作为独立疗效证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "resound-vivia",
+    "name": "ReSound Vivia",
+    "brand": "ReSound",
+    "category": "hearing",
+    "tagline": "DNN语音突出与个人关注、环境感知的组合定位",
+    "officialUrl": "https://www.resound.com/en-us/hearing-aids/resound-hearing-aids/resound-vivia",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方Intelligent Focus使用以真实声音训练的DNN处理语音和噪声，目标是帮助用户聚焦谈话。",
+      "dependency": "个人专业验配与合适参数是前提；部分连接和管理功能依赖兼容手机，核心声音处理不等于云端聊天。"
+    },
+    "highlights": [
+      "官方主推小型可充电microRIE形态",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：在公共空间交流时既想突出谈话，也希望保留对周边声音的感知。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估适合microRIE、经常参与社交或公共活动的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：DNN语音突出与个人关注、环境感知的组合定位形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对官方主推小型可充电microRIE形态及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "官方Intelligent Focus使用以真实声音训练的DNN处理语音和噪声，目标是帮助用户聚焦谈话。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：小耳背机身与多配色选择强调日常融入，细线和受话器仍需按个人情况匹配。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "官方页面的全系列连接或AI描述可能随技术档位与形态变化，不能以Auracast支持等同AI能力。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于DNN语音突出与个人关注、环境感知的组合定位。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "官方Intelligent Focus使用以真实声音训练的DNN处理语音和噪声，目标是帮助用户聚焦谈话。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ReSound ReSound Vivia官方产品页",
+        "url": "https://www.resound.com/en-us/hearing-aids/resound-hearing-aids/resound-vivia",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "ReSound官方消费者验配渠道",
+        "url": "https://www.resound.com/en-us/find-a-professional",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "widex-allure-ric",
+    "name": "Widex Allure RIC R D",
+    "brand": "Widex",
+    "category": "hearing",
+    "tagline": "AI偏好建议通过App作用于实际助听器设置，区别于只有手动均衡器",
+    "officialUrl": "https://www.widex.com/en-us/hearing-aids/allure/",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "配套Allure App的AI Quick Assistant和AI Sound Assistant依据偏好提供声音设置建议，并应用到兼容Allure设备。",
+      "dependency": "AI设置助手依赖兼容手机、联网和地区支持；基础助听设置由专业验配确定。"
+    },
+    "highlights": [
+      "可充电RIC耳背主体与耳道受话器",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：同一环境下不同人对声音有不同偏好，希望在验配后继续做可撤回的个性化调整。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估、愿意借助手机交互表达声音偏好的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：AI偏好建议通过App作用于实际助听器设置，区别于只有手动均衡器形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对可充电RIC耳背主体与耳道受话器及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "配套Allure App的AI Quick Assistant和AI Sound Assistant依据偏好提供声音设置建议，并应用到兼容Allure设备。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：小型RIC主体和简洁充电器偏重低调家用，App字体和可操作性与外观一样影响接受度。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "不能把仅适用于更新Allure AI RIC的Clarity Boost自动归给基础Allure RIC R D；本条仅计已确认AI助手功能。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于AI偏好建议通过App作用于实际助听器设置，区别于只有手动均衡器。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "配套Allure App的AI Quick Assistant和AI Sound Assistant依据偏好提供声音设置建议，并应用到兼容Allure设备。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Widex Widex Allure RIC R D官方产品页",
+        "url": "https://www.widex.com/en-us/hearing-aids/allure/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Widex官方消费者验配渠道",
+        "url": "https://www.widex.com/en-us/shop-finder/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      },
+      {
+        "title": "Widex官方技术或应用说明",
+        "url": "https://www.widex.com/en-us/hearing-aids/apps/allure-app/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，用于确认AI机制和兼容边界；厂商性能宣传不作为独立疗效证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "signia-pure-charge-go-ix",
+    "name": "Signia Pure Charge&Go IX",
+    "brand": "Signia",
+    "category": "hearing",
+    "tagline": "云端AI助手与实体助听器设置之间的闭环",
+    "officialUrl": "https://www.signia.net/en-us/hearing-aids/integrated-xperience/pure-charge-go-ix/",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "兼容的Signia Assistant使用云端神经网络，根据用户对听音问题的回答推荐并应用声音设置。",
+      "dependency": "AI设置助手依赖兼容手机、联网和地区支持；基础助听设置由专业验配确定。"
+    },
+    "highlights": [
+      "可充电RIC耳背与受话器形态",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：验配之间遇到特定听音问题时，希望有即时且可撤回的设置辅助。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估、拥有兼容手机并能描述听音偏好的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：云端AI助手与实体助听器设置之间的闭环形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对可充电RIC耳背与受话器形态及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "兼容的Signia Assistant使用云端神经网络，根据用户对听音问题的回答推荐并应用声音设置。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：RIC机身、实体按键与便携充电器保持熟悉的助听器形态，手机界面承担更复杂交互。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "AI助手需要网络、Bluetooth兼容设备及地区支持；不将CROS或无连接款纳入同一AI承诺。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于云端AI助手与实体助听器设置之间的闭环。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "兼容的Signia Assistant使用云端神经网络，根据用户对听音问题的回答推荐并应用声音设置。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Signia Signia Pure Charge&Go IX官方产品页",
+        "url": "https://www.signia.net/en-us/hearing-aids/integrated-xperience/pure-charge-go-ix/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Signia官方消费者验配渠道",
+        "url": "https://www.signia.net/en-us/store-locator/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      },
+      {
+        "title": "Signia官方技术或应用说明",
+        "url": "https://www.signia.net/en/support/app/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，用于确认AI机制和兼容边界；厂商性能宣传不作为独立疗效证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "signia-active-pro-ix",
+    "name": "Signia Active Pro IX",
+    "brand": "Signia",
+    "category": "hearing",
+    "tagline": "耳机化形态加AI设置助手，而不是把普通耳机ANC改称助听AI",
+    "officialUrl": "https://www.signia.net/en-in/hearing-aids/integrated-xperience/active-ix/",
+    "status": "on_sale",
+    "statusEvidence": "官方当前消费者产品页持续展示该型号，并提供试用/验配或官方门店渠道。属于个人经专业验配获得的消费设备，saleMode为consumer-fitting；不声明具体门店库存。",
+    "regions": [
+      "美国及所列官方区域验配网络（具体型号当地确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "品牌可能具有中国渠道，但本次未核实该具体型号、技术档位与AI软件在大陆的上市和支持范围；需由国内授权验配渠道确认。"
+    },
+    "price": {
+      "text": "未公布统一零售价；按个人验配方案报价",
+      "note": "报价通常受单/双耳、技术档位、定制、服务和地区影响；不以历史媒体价格或其他型号拼凑。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方Active Pro IX页列AI-powered Signia Assistant，用于按环境与偏好定制声音；其神经网络处理依赖联网App。",
+      "dependency": "AI设置助手依赖兼容手机、联网和地区支持；基础助听设置由专业验配确定。"
+    },
+    "highlights": [
+      "外观接近真无线耳机的即戴式耳内助听器",
+      "厂商明确AI/神经网络相关功能",
+      "个人消费者验配渠道",
+      "适配和效果需个别确认"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望助听设备看起来更接近日常耳机，同时能根据个人偏好调整声音。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。",
+      "userProfile": "画像推断：经专业评估适合即戴耳内形态、在意外观与手机使用便利的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。",
+      "competition": "案头判断：耳机化形态加AI设置助手，而不是把普通耳机ANC改称助听AI形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。",
+      "supplyChain": "官方可核对外观接近真无线耳机的即戴式耳内助听器及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。",
+      "technology": "官方Active Pro IX页列AI-powered Signia Assistant，用于按环境与偏好定制声音；其神经网络处理依赖联网App。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。",
+      "aesthetics": "图示观察：圆润耳塞与充电盒具有消费电子外观；这种熟悉感可能降低佩戴顾虑，但属于待验证审美假设。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。",
+      "risks": "不同市场可能同时列Active Mini IX等款式；本条仅指Active Pro IX，不自动复制Mini的体积或连接规格。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。",
+      "opportunity": "市场差异在于耳机化形态加AI设置助手，而不是把普通耳机ANC改称助听AI。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "听觉辅助属于专业消费用途，已有成熟供应商；此分类不表示蓝海或疗效优越。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "麦克风采集外界声音；为功能架构，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "个体配置",
+        "detail": "专业验配确定与个人听音需求相适应的参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI声音处理",
+        "detail": "官方Active Pro IX页列AI-powered Signia Assistant，用于按环境与偏好定制声音；其神经网络处理依赖联网App。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音输出",
+        "detail": "受话器向耳道输出经处理声音；具体物理布局不公开。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理与随访",
+        "detail": "按具体型号使用兼容应用或专业渠道调整和维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Signia Signia Active Pro IX官方产品页",
+        "url": "https://www.signia.net/en-in/hearing-aids/integrated-xperience/active-ix/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开当前面向消费者的产品介绍及验配/试用入口；没有把医院诊断仪器或B2B订货设备计入。"
+      },
+      {
+        "title": "Signia官方消费者验配渠道",
+        "url": "https://www.signia.net/en-us/store-locator/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开官方验配/门店定位渠道，消费者经专业验配购买；不代表每家门店现货或统一价格。"
+      },
+      {
+        "title": "Signia官方技术或应用说明",
+        "url": "https://www.signia.net/en/support/app/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，用于确认AI机制和兼容边界；厂商性能宣传不作为独立疗效证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "consumer-fitting"
+  },
+  {
+    "id": "elehear-beyond-2-pro",
+    "name": "ELEHEAR Beyond 2 Pro",
+    "brand": "ELEHEAR",
+    "category": "hearing",
+    "tagline": "耳背RIC主机与可更换受话器与AI个性化听音",
+    "officialUrl": "https://elehear.com/products/elehear-beyond-2-pro",
+    "status": "on_sale",
+    "statusEvidence": "已打开官方具体商品页，显示基础配置价格、Add to Cart/Buy Now及1–2工作日发货说明；未将候补颜色或额外服务算为在售硬件。",
+    "regions": [
+      "美国官方OTC零售地区（具体地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实美国官方OTC销售；未确认同型号中国大陆准入、正式销售及应用服务。海外OTC身份不等同在中国无需验配或可直接使用。"
+    },
+    "price": {
+      "text": "US$799/对（所见基础配置）",
+      "note": "官网另有Dry Box套装和远程服务，不能把套装价视为基础硬件价；促销、税费和配送按结算。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "VOCCLEAR 3.0 AI声音处理用于环境适应、语音与噪声区分及反馈控制。",
+      "dependency": "需按厂商说明和当地适用条件设置；App个性化与远程支持需要兼容手机及相应服务，部分核心声音处理在设备侧。"
+    },
+    "highlights": [
+      "耳背RIC主机与可更换受话器",
+      "明确VOCCLEAR AI平台",
+      "官方个人零售入口",
+      "基础配置与Dry Box套装分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望通过消费零售方式获得可在App内个性化的听音辅助。需求要在个人听音场景中检验；易买到和外观熟悉不等于适配所有情况，也不能把购买便利直接转写成医学效果。",
+      "userProfile": "画像推断：符合当地OTC产品适用范围、能够完成App设置并理解使用说明的成年人更匹配。需要专业诊断或复杂验配的人群不能据在线宣传自行套用，本目录不进行个体适配建议。",
+      "competition": "案头判断：该耳背RIC主机与可更换受话器与其他OTC助听、传统验配方案及辅助听音产品竞争。没有销量、复购或用户访谈依据，不把较低硬件价格理解为更高性价比或相同服务水平。",
+      "supplyChain": "官网披露耳背RIC主机与可更换受话器及专有声音处理平台，具体芯片制造商、声学器件和装配厂未公开。推断舒适、密封和长期维护与算法同样重要，但不凭厂商自研表述估计物料成本。",
+      "technology": "已核实AI机制为VOCCLEAR 3.0 AI声音处理用于环境适应、语音与噪声区分及反馈控制，而非把普通蓝牙或ANC当成AI。厂商比较数字未经本研究复核，模型细节、不同声音场景的误差与个体体验也不作推定。",
+      "aesthetics": "图示观察：较扁的耳背主体和可选择长度的连接部件强调日常佩戴适配。实际耳廓贴合、操作按键和取放充电的便利需要试用；消费电子外观不改变产品适用范围，也不证明长时间佩戴一定舒适。",
+      "risks": "主要风险是把OTC零售资格当成对所有听力情况都合适，以及套装、远程服务和配置价格混淆。官网存在不同颜色开放时间，只有可加购物车配置计入在售；本研究不提供疗效或适配保证。",
+      "opportunity": "市场差异是耳背RIC主机与可更换受话器与AI声音处理、App设置和线上支持的组合。尚待验证的购买理由是个人真实场景体验与长期维护是否可接受，而不是仅由标价或营销准确率决定。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "消费OTC听音辅助是专业细分，已有多家竞品；不把耳塞外形或AI名称当作疗效证据。"
+    },
+    "architecture": [
+      {
+        "name": "环境声音",
+        "detail": "声学输入进入助听处理链；概念功能架构，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "个性化设置",
+        "detail": "按产品说明通过App配置听音偏好与参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI处理",
+        "detail": "VOCCLEAR 3.0 AI声音处理用于环境适应、语音与噪声区分及反馈控制。",
+        "evidence": "official"
+      },
+      {
+        "name": "耳道输出",
+        "detail": "受话器输出处理后声音，具体内部布置未披露。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理支持",
+        "detail": "应用、充电与可选远程支持构成日常使用系统。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ELEHEAR Beyond 2 Pro官方商品页",
+        "url": "https://elehear.com/products/elehear-beyond-2-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，基础配置、加入购物车与发货说明可见；未采用候补颜色。"
+      },
+      {
+        "title": "ELEHEAR官方型号比较",
+        "url": "https://elehear.com/pages/four-elehear-hearing-aids-compared",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开，区分不同形态与AI平台。其营销性能数字不作为本研究独立证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "elehear-delight",
+    "name": "ELEHEAR Delight",
+    "brand": "ELEHEAR",
+    "category": "hearing",
+    "tagline": "带软耳翼的耳塞式OTC助听器与AI个性化听音",
+    "officialUrl": "https://elehear.com/products/elehear-delight",
+    "status": "on_sale",
+    "statusEvidence": "已打开官方具体商品页，显示基础配置价格、Add to Cart/Buy Now及1–2工作日发货说明；未将候补颜色或额外服务算为在售硬件。",
+    "regions": [
+      "美国官方OTC零售地区（具体地址结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次核实美国官方OTC销售；未确认同型号中国大陆准入、正式销售及应用服务。海外OTC身份不等同在中国无需验配或可直接使用。"
+    },
+    "price": {
+      "text": "US$299/对（所见基础配置）",
+      "note": "官网另有Dry Box套装和远程服务，不能把套装价视为基础硬件价；促销、税费和配送按结算。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "VOCCLEAR AI平台用于环境扫描、语音突出和噪声相关处理。",
+      "dependency": "需按厂商说明和当地适用条件设置；App个性化与远程支持需要兼容手机及相应服务，部分核心声音处理在设备侧。"
+    },
+    "highlights": [
+      "带软耳翼的耳塞式OTC助听器",
+      "明确VOCCLEAR AI平台",
+      "官方个人零售入口",
+      "基础配置与Dry Box套装分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：在熟悉的耳塞外形中使用听音辅助，而不愿采用外露耳背连接线。需求要在个人听音场景中检验；易买到和外观熟悉不等于适配所有情况，也不能把购买便利直接转写成医学效果。",
+      "userProfile": "画像推断：符合当地OTC产品适用范围、能够完成App设置并理解使用说明的成年人更匹配。需要专业诊断或复杂验配的人群不能据在线宣传自行套用，本目录不进行个体适配建议。",
+      "competition": "案头判断：该带软耳翼的耳塞式OTC助听器与其他OTC助听、传统验配方案及辅助听音产品竞争。没有销量、复购或用户访谈依据，不把较低硬件价格理解为更高性价比或相同服务水平。",
+      "supplyChain": "官网披露带软耳翼的耳塞式OTC助听器及专有声音处理平台，具体芯片制造商、声学器件和装配厂未公开。推断舒适、密封和长期维护与算法同样重要，但不凭厂商自研表述估计物料成本。",
+      "technology": "已核实AI机制为VOCCLEAR AI平台用于环境扫描、语音突出和噪声相关处理，而非把普通蓝牙或ANC当成AI。厂商比较数字未经本研究复核，模型细节、不同声音场景的误差与个体体验也不作推定。",
+      "aesthetics": "图示观察：圆润耳塞、软耳翼和充电盒接近日常真无线耳机，但功能定位为助听设备。实际耳廓贴合、操作按键和取放充电的便利需要试用；消费电子外观不改变产品适用范围，也不证明长时间佩戴一定舒适。",
+      "risks": "主要风险是把OTC零售资格当成对所有听力情况都合适，以及套装、远程服务和配置价格混淆。官网存在不同颜色开放时间，只有可加购物车配置计入在售；本研究不提供疗效或适配保证。",
+      "opportunity": "市场差异是带软耳翼的耳塞式OTC助听器与AI声音处理、App设置和线上支持的组合。尚待验证的购买理由是个人真实场景体验与长期维护是否可接受，而不是仅由标价或营销准确率决定。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "消费OTC听音辅助是专业细分，已有多家竞品；不把耳塞外形或AI名称当作疗效证据。"
+    },
+    "architecture": [
+      {
+        "name": "环境声音",
+        "detail": "声学输入进入助听处理链；概念功能架构，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "个性化设置",
+        "detail": "按产品说明通过App配置听音偏好与参数。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI处理",
+        "detail": "VOCCLEAR AI平台用于环境扫描、语音突出和噪声相关处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "耳道输出",
+        "detail": "受话器输出处理后声音，具体内部布置未披露。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "管理支持",
+        "detail": "应用、充电与可选远程支持构成日常使用系统。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ELEHEAR Delight官方商品页",
+        "url": "https://elehear.com/products/elehear-delight",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开，基础配置、加入购物车与发货说明可见；未采用候补颜色。"
+      },
+      {
+        "title": "ELEHEAR官方型号比较",
+        "url": "https://elehear.com/pages/four-elehear-hearing-aids-compared",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开，区分不同形态与AI平台。其营销性能数字不作为本研究独立证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "wewalk-smart-cane-2",
+    "name": "WeWALK Smart Cane 2",
+    "brand": "WeWALK",
+    "category": "accessibility",
+    "tagline": "传统白杖手柄中的AI语音与导航入口",
+    "officialUrl": "https://wewalk.io/en/",
+    "status": "on_sale",
+    "statusEvidence": "官方订购页可选择国家、杖长及附加服务并继续至Checkout；这是具体实物订单流程，不是仅填写邮箱的候补名单。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "按国家与AI附加服务动态报价；未读取到统一总价",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "AI Assistant通过自然语言提供地点、交通及日常问答，白杖另有上半身障碍探测；不把普通探障传感器单独算作AI",
+      "dependency": "智能功能依配套手机App、地区地图与网络；AI权限取决于购买附加包或订阅，基础白杖仍可脱网使用"
+    },
+    "highlights": [
+      "传统白杖手柄中的AI语音与导航入口",
+      "带物理按键的智能手柄、可折叠白杖与声音/振动反馈",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：白杖使用者希望在持杖时查路线与周边信息，减少同时掏手机的步骤。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：已掌握基本白杖使用方法，愿意配置手机与语音功能的视障或低视力个人更匹配。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与普通白杖、手机无障碍导航和专业出行训练形成替代与互补关系。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对带物理按键的智能手柄、可折叠白杖与声音/振动反馈，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "AI Assistant通过自然语言提供地点、交通及日常问答，白杖另有上半身障碍探测；不把普通探障传感器单独算作AI。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：手柄保留握持和触觉按键，杖身延续熟悉的白杖形态而不是改成机器人。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "语音回答、地图和障碍探测各有盲点，不能承担道路通行决策或替代定向行走技能。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于传统白杖手柄中的AI语音与导航入口。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "带物理按键的智能手柄、可折叠白杖与声音/振动反馈；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "AI Assistant通过自然语言提供地点、交通及日常问答，白杖另有上半身障碍探测；不把普通探障传感器单独算作AI",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "智能功能依配套手机App、地区地图与网络；AI权限取决于购买附加包或订阅，基础白杖仍可脱网使用",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "WeWALK当前产品与AI说明",
+        "url": "https://wewalk.io/en/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "WeWALK官方订购页",
+        "url": "https://wewalk.io/en/checkout/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions"
+        ],
+        "note": "已打开国家、杖长及Continue to Checkout流程；没有提交订单。"
+      },
+      {
+        "title": "WeWALK AI权限与订阅边界",
+        "url": "https://support.wewalk.io/en/article/if-i-own-a-wewalk-smart-cane-do-i-also-need-to-purchase-a-wewalk-subscription-2/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "WeWALK AI Assistant指令说明",
+        "url": "https://support.wewalk.io/en/article/what-skills-does-the-voice-assistant-have-2/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "orcam-myeye-3-pro",
+    "name": "OrCam MyEye 3 Pro",
+    "brand": "OrCam",
+    "category": "accessibility",
+    "tagline": "眼镜夹式视觉读取与连屏AI问答",
+    "officialUrl": "https://www.orcam.com/en-us/orcam-myeye",
+    "status": "on_sale",
+    "statusEvidence": "Get OrCam（Amit Systems自述授权经销商）具体MyEye 3 Pro页显示US$4,250及Add to Cart；OrCam当前目录及官方用户手册确认型号。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "授权销售页 US$4,250",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "视觉识别把文字、人脸及物品等信息转成语音；Smart Magnifier的Just Ask提供基于内容的交互问答与摘要",
+      "dependency": "基础视觉读取与连接智能屏的AI功能需要分开；Smart Magnifier/Just Ask依网络和兼容电脑或移动设备，具体语言与地区支持另核"
+    },
+    "highlights": [
+      "眼镜夹式视觉读取与连屏AI问答",
+      "磁吸在镜腿的小型相机模组、触控条和声音输出",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：有视觉读取困难的人希望不持手机也能听取眼前文字，并可对长文本追问。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：愿意学习指向、头部定位和语音操作，能使用音频反馈的个人及其家庭更匹配。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与手机读屏、普通放大器和其他辅助相机竞争，夹式专机的优势要与价格和学习成本一起比较。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对磁吸在镜腿的小型相机模组、触控条和声音输出，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "视觉识别把文字、人脸及物品等信息转成语音；Smart Magnifier的Just Ask提供基于内容的交互问答与摘要。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：小型镜腿附件与原有眼镜分离，桌面支架扩展了固定读取场景。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "它提供信息辅助而不恢复视力；识别失误、联网问答幻觉与环境声音都可能影响关键内容理解。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于眼镜夹式视觉读取与连屏AI问答。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "磁吸在镜腿的小型相机模组、触控条和声音输出；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "视觉识别把文字、人脸及物品等信息转成语音；Smart Magnifier的Just Ask提供基于内容的交互问答与摘要",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "基础视觉读取与连接智能屏的AI功能需要分开；Smart Magnifier/Just Ask依网络和兼容电脑或移动设备，具体语言与地区支持另核",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OrCam当前型号和销售联系目录",
+        "url": "https://www.orcam.com/en-us/distributor",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "model"
+        ],
+        "note": "已打开，官网当前列MyEye 3 Pro及销售渠道；具体可购证据另引授权经销商。"
+      },
+      {
+        "title": "OrCam MyEye 3官方用户指南入口",
+        "url": "https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "technology"
+        ],
+        "note": "已打开官方支持的该代用户指南入口。"
+      },
+      {
+        "title": "Amit Systems MyEye 3 Pro购买与功能",
+        "url": "https://www.getorcam.com/product-page/myeye-3-pro",
+        "kind": "independent",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开Add to Cart；页面自述Authorized Worldwide Distributor，为经销商而非制造商官网。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "orcam-read-5",
+    "name": "OrCam Read 5",
+    "brand": "OrCam",
+    "category": "accessibility",
+    "tagline": "手持整页读取与可追问的阅读辅助",
+    "officialUrl": "https://www.orcam.com/en-us/orcam-read-5",
+    "status": "on_sale",
+    "statusEvidence": "厂家当前Read 5页面提供Find Us Near You；Amit Systems具体Read 5购买页显示US$2,790、数量和Add to Cart。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "授权销售页 US$2,790",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "相机读取纸面或屏幕文字，配套AI助手回答与文本相关的问题、生成摘要，并通过Smart Magnifier提供放大阅读",
+      "dependency": "在线问答和部分放大功能依兼容手机或智能屏及网络；不要把所有语言、手写或云端功能说成全部在手持设备离线运行"
+    },
+    "highlights": [
+      "手持整页读取与可追问的阅读辅助",
+      "手持条形相机、实体按钮、声音输出和可选桌面支架",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：长段文字或包装说明难以逐行读取，希望直接拍摄整页并通过听觉获得内容。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：有阅读疲劳、低视力或阅读差异，且能稳定对准材料的个人更可能受益。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与手机OCR、扫描笔和桌面放大器竞争，整页拍摄与追问有别于逐字划扫。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对手持条形相机、实体按钮、声音输出和可选桌面支架，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "相机读取纸面或屏幕文字，配套AI助手回答与文本相关的问题、生成摘要，并通过Smart Magnifier提供放大阅读。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：条形设备像一支较粗的遥控器，独立按钮和支架利于在手持与桌面模式切换。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "问答可能误解文意；支付、用药等重要内容不能仅凭AI摘要，手持指向与网络状况也影响体验。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于手持整页读取与可追问的阅读辅助。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "手持条形相机、实体按钮、声音输出和可选桌面支架；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "相机读取纸面或屏幕文字，配套AI助手回答与文本相关的问题、生成摘要，并通过Smart Magnifier提供放大阅读",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "在线问答和部分放大功能依兼容手机或智能屏及网络；不要把所有语言、手写或云端功能说成全部在手持设备离线运行",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OrCam Read 5官方产品说明",
+        "url": "https://www.orcam.com/en-us/orcam-read-5",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "OrCam官方销售目录",
+        "url": "https://www.orcam.com/en-us/distributor",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Amit Systems Read 5实际购买页",
+        "url": "https://www.getorcam.com/product-page/orcam-read-5",
+        "kind": "independent",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开并确认Add to Cart，销售方自述授权经销商；非厂家直营。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "cpen-reader-2",
+    "name": "C-Pen Reader 2",
+    "brand": "C-Pen",
+    "category": "accessibility",
+    "tagline": "逐行划扫纸面文字的离线AI阅读笔",
+    "officialUrl": "https://cpen.com/products/c-pen-reader-2",
+    "status": "on_sale",
+    "statusEvidence": "已在浏览器打开Scanning Pens同集团官方销售页，单支型号显示明确价格、数量1及启用的Add to Basket；不是班级批量包或学校专用采购。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$399，税前",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方明确采用AI-based embedded OCR，将笔端扫描的印刷文字转换为文字和语音",
+      "dependency": "核心识别与朗读在笔上离线完成，无需Wi-Fi、手机或云端聊天；更新及导出按说明使用电脑"
+    },
+    "highlights": [
+      "逐行划扫纸面文字的离线AI阅读笔",
+      "笔端扫描窗、物理导航按键、小型屏幕和扬声器",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望把纸本中的难词或句子立即变成可听内容，又不在学习时频繁切换手机。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：需要纸面阅读支持的家庭、学生与成人，能够沿文字稳定移动扫描端的人更匹配。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与低价词典笔、手机OCR及阅读软件竞争；Reader 2与Reader 3有触屏和联网硬件差异，未以语言包或十支套装重复计数。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对笔端扫描窗、物理导航按键、小型屏幕和扬声器，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "官方明确采用AI-based embedded OCR，将笔端扫描的印刷文字转换为文字和语音。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：较窄的笔状机身与实体方向键强调盲操作和单行划扫。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "扫描角度、字体、对比度与版式影响识别；不能推断能读手写或所有电子屏，支持语言和考试规则也需单独确认。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于逐行划扫纸面文字的离线AI阅读笔。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "笔端扫描窗、物理导航按键、小型屏幕和扬声器；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "官方明确采用AI-based embedded OCR，将笔端扫描的印刷文字转换为文字和语音",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "核心识别与朗读在笔上离线完成，无需Wi-Fi、手机或云端聊天；更新及导出按说明使用电脑",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "C-Pen Reader 2官方产品页",
+        "url": "https://cpen.com/products/c-pen-reader-2",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Scanning Pens Reader 2官方销售页",
+        "url": "https://www.scanningpens.com/c-pen_reader_2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "网页抓取超时后通过实际浏览器打开，确认单支售价、数量及Add to Basket；Reader 3 FAQ明确OCR+AI。"
+      },
+      {
+        "title": "C-Pen官方AI OCR FAQ",
+        "url": "https://www.scanningpens.com.au/DSA/_Reader2%20FAQ%20LR.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "cpen-reader-3",
+    "name": "C-Pen Reader 3",
+    "brand": "C-Pen",
+    "category": "accessibility",
+    "tagline": "逐行划扫纸面文字的触屏AI阅读笔",
+    "officialUrl": "https://cpen.com/products/c-pen-reader-3",
+    "status": "on_sale",
+    "statusEvidence": "已在浏览器打开Scanning Pens同集团官方销售页，单支型号显示明确价格、数量1及启用的Add to Basket；不是班级批量包或学校专用采购。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$449，税前",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方销售FAQ明确OCR与AI识别配合，支持朗读、词义与联网翻译",
+      "dependency": "基础读取可独立离线使用；额外语言翻译需Wi-Fi，蓝牙用于兼容音频设备，不把联网服务描述为完全本机运行"
+    },
+    "highlights": [
+      "逐行划扫纸面文字的触屏AI阅读笔",
+      "笔端扫描窗、彩色触屏、物理导航键和扬声器",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望把纸本中的难词或句子立即变成可听内容，又不在学习时频繁切换手机。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：需要纸面阅读支持的家庭、学生与成人，能够沿文字稳定移动扫描端的人更匹配。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与低价词典笔、手机OCR及阅读软件竞争；Reader 2与Reader 3有触屏和联网硬件差异，未以语言包或十支套装重复计数。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对笔端扫描窗、彩色触屏、物理导航键和扬声器，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "官方销售FAQ明确OCR与AI识别配合，支持朗读、词义与联网翻译。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：较长触屏便于查看与点选文字，仍保留实体导航键和可定位的扫描端。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "扫描角度、字体、对比度与版式影响识别；不能推断能读手写或所有电子屏，支持语言和考试规则也需单独确认。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于逐行划扫纸面文字的触屏AI阅读笔。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "笔端扫描窗、彩色触屏、物理导航键和扬声器；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "官方销售FAQ明确OCR与AI识别配合，支持朗读、词义与联网翻译",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "基础读取可独立离线使用；额外语言翻译需Wi-Fi，蓝牙用于兼容音频设备，不把联网服务描述为完全本机运行",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "C-Pen Reader 3官方产品页",
+        "url": "https://cpen.com/products/c-pen-reader-3",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Scanning Pens Reader 3官方销售页",
+        "url": "https://www.scanningpens.com/c-pen_reader_3",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "网页抓取超时后通过实际浏览器打开，确认单支售价、数量及Add to Basket；Reader 3 FAQ明确OCR+AI。"
+      },
+      {
+        "title": "C-Pen官方Reader 3用户手册",
+        "url": "https://www.scanningpens.com.au/site/sca/PDFs/C_Pen_Reader_3_User_Guide.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "halliday-g2",
+    "name": "Halliday G2",
+    "brand": "Halliday",
+    "category": "glasses",
+    "tagline": "无摄像头双目显示中的会议AI提示",
+    "officialUrl": "https://www.hallidayglobal.com/products/halliday-g2",
+    "status": "on_sale",
+    "statusEvidence": "官方G2订单页显示US$499、Add to cart及非处方订单3工作日发货，处方镜片另有制作周期；不是旧代DigiWindow眼镜。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "核查日促销 US$499；标价US$599",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Halliday AI与Meeting Flow理解语音内容，生成摘要、待办和上下文检索提示，并在镜内呈现翻译字幕",
+      "dependency": "配套App、网络与会员积分决定高级会议功能；无摄像头，不能由其外形推断视觉问答或照片拍摄"
+    },
+    "highlights": [
+      "无摄像头双目显示中的会议AI提示",
+      "双目波导显示、镜腿麦克风、开放式扬声器和触控条",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：谈话和演示中希望减少低头看手机，同时能回看刚才的讨论重点。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：经常做演讲、跨语言交流或个人会议记录，愿意配镜并管理音频权限的用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与Even G2、无屏AI眼镜及普通录音笔竞争，实时显示与会议摘要解决不同环节。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对双目波导显示、镜腿麦克风、开放式扬声器和触控条，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "Halliday AI与Meeting Flow理解语音内容，生成摘要、待办和上下文检索提示，并在镜内呈现翻译字幕。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：偏日常的深色镜框把显示光学藏在镜片与镜腿内，触控区域清楚。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "无相机仍会采集语音，须考虑在场者知情；现场提示可能分散注意，处方镜片退货条件与服务费用不同。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于无摄像头双目显示中的会议AI提示。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "双目波导显示、镜腿麦克风、开放式扬声器和触控条；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "Halliday AI与Meeting Flow理解语音内容，生成摘要、待办和上下文检索提示，并在镜内呈现翻译字幕",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "配套App、网络与会员积分决定高级会议功能；无摄像头，不能由其外形推断视觉问答或照片拍摄",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Halliday G2官方订单页",
+        "url": "https://www.hallidayglobal.com/products/halliday-g2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Halliday G2官方规格与服务",
+        "url": "https://www.hallidayglobal.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Halliday Meeting Flow",
+        "url": "https://www.hallidayglobal.com/flow",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "rayneo-x3-pro",
+    "name": "RayNeo X3 Pro",
+    "brand": "RayNeo",
+    "category": "glasses",
+    "tagline": "相机与全彩AR显示结合的AI眼镜",
+    "officialUrl": "https://www.rayneo.com/products/x3-pro-ai-display-glasses",
+    "status": "on_sale",
+    "statusEvidence": "官方具体X3 Pro商品页显示US$1,299及Add To Cart；当前AI系列页区分X3 Pro可购与X2售罄，不计入X2。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$1,299",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Gemini支持结合视觉与语音的问答，配合RayNeo AIOS提供翻译、记录和抬头信息展示",
+      "dependency": "AI服务和应用依网络、账号与地区版本；国际站所列模型不直接等同中国版，开发功能与日常使用也应分开"
+    },
+    "highlights": [
+      "相机与全彩AR显示结合的AI眼镜",
+      "前向相机、双目全彩显示光学、镜腿音频与计算模块",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望随身查看环境相关答案、翻译和导航，不反复在相机与手机界面之间切换。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：愿意接受较厚镜腿、充电与软件配置的个人科技爱好者和跨语言交流用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与轻量音频眼镜、无相机显示眼镜和外接屏AR设备竞争，后者不能仅因有显示就算AI。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对前向相机、双目全彩显示光学、镜腿音频与计算模块，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "Gemini支持结合视觉与语音的问答，配合RayNeo AIOS提供翻译、记录和抬头信息展示。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：宽镜腿和明显镜桥区域强调集成光学与相机，设备感强于普通眼镜。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "视野内信息可能干扰出行，拍摄及环境识别涉及旁人；续航、应用兼容性和地区模型限制需实际确认。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于相机与全彩AR显示结合的AI眼镜。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "前向相机、双目全彩显示光学、镜腿音频与计算模块；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "Gemini支持结合视觉与语音的问答，配合RayNeo AIOS提供翻译、记录和抬头信息展示",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "AI服务和应用依网络、账号与地区版本；国际站所列模型不直接等同中国版，开发功能与日常使用也应分开",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "RayNeo X3 Pro官方商店",
+        "url": "https://www.rayneo.com/products/x3-pro-ai-display-glasses",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "RayNeo官方AI眼镜系列与功能",
+        "url": "https://www.rayneo.com/collections/ai-glasses",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "RayNeo官方配送政策",
+        "url": "https://www.rayneo.com/policies/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "status"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "rayneo-io",
+    "name": "RayNeo iO",
+    "brand": "RayNeo",
+    "category": "glasses",
+    "tagline": "轻量无相机显示眼镜中的语音记忆与字幕",
+    "officialUrl": "https://www.rayneo.com/products/rayneo-io-ai-glasses",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页明确Polar Night Grey Standard为In Stock并可Add To Cart；金色配置Sold Out未作为可购依据，充电盒套装不另计。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "灰色Standard US$499",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "RayNeo AI及可选大模型处理语音问答，Lifelog提取待办与摘要，显示翻译字幕和随声滚动的提词内容",
+      "dependency": "兼容App、网络及部分高级模型订阅；产品无摄像头，音频记录与云端服务仍有隐私和区域条件"
+    },
+    "highlights": [
+      "轻量无相机显示眼镜中的语音记忆与字幕",
+      "透明显示光学、镜腿麦克风、Smart Crown与轻量镜框",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：需要轻量的镜内字幕和记录功能，但不希望为拍摄相机增加重量和社交负担。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：经常阅读提示、做演示或整理个人对话笔记，愿意管理记录权限的用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与Halliday、Even以及手机转录竞争，细分优势来自显示与轻量佩戴取舍。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对透明显示光学、镜腿麦克风、Smart Crown与轻量镜框，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "RayNeo AI及可选大模型处理语音问答，Lifelog提取待办与摘要，显示翻译字幕和随声滚动的提词内容。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：较细的镜框和圆润镜形接近日常眼镜，按键冠形交互形成辨识。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "无摄像头不代表没有音频隐私风险；会员、模型更替和字幕错误会影响实际可用性，处方配镜另需核对。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于轻量无相机显示眼镜中的语音记忆与字幕。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "透明显示光学、镜腿麦克风、Smart Crown与轻量镜框；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "RayNeo AI及可选大模型处理语音问答，Lifelog提取待办与摘要，显示翻译字幕和随声滚动的提词内容",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "兼容App、网络及部分高级模型订阅；产品无摄像头，音频记录与云端服务仍有隐私和区域条件",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "RayNeo iO官方在售配置",
+        "url": "https://www.rayneo.com/products/rayneo-io-ai-glasses",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "RayNeo官方AI眼镜分类",
+        "url": "https://www.rayneo.com/collections/ai-glasses",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "RayNeo官方配送政策",
+        "url": "https://www.rayneo.com/policies/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "status"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "brilliant-halo",
+    "name": "Brilliant Labs Halo",
+    "brand": "Brilliant Labs",
+    "category": "glasses",
+    "tagline": "开放软硬件的视觉记忆与AI对话眼镜",
+    "officialUrl": "https://brilliant.xyz/products/halo",
+    "status": "on_sale",
+    "statusEvidence": "官方Halo商品页明确Shipping now、US$399和Buy now，非此前Frame库存，也不是仅付意向金。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$399；进口税费另计",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Noa对所见所闻进行自然语言对话并保留长期记忆，Miniapps允许以自然语言创建体验；官方披露低功耗光学传感与端侧AI处理",
+      "dependency": "配套手机和AI服务仍参与功能；官网同时描述phone models和cloud agent，未完整交代各任务部署，不笼统承诺所有AI离线"
+    },
+    "highlights": [
+      "开放软硬件的视觉记忆与AI对话眼镜",
+      "圆框眼镜、彩色显示、低功耗光学传感器、麦克风与骨传导输出",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：想把个人看见与听见的信息变成可追问记忆，并尝试自行扩展眼镜功能。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：愿意接受早期软件、明确管理记录范围的个人开发爱好者与尝鲜用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与封闭生态AI眼镜及手机记忆App竞争，开放设计不等同普遍消费者更容易使用。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对圆框眼镜、彩色显示、低功耗光学传感器、麦克风与骨传导输出，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "Noa对所见所闻进行自然语言对话并保留长期记忆，Miniapps允许以自然语言创建体验；官方披露低功耗光学传感与端侧AI处理。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：轻薄圆角矩形框架与局部光学部件有区别于传统相机眼镜的外观。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "持续记忆可能记录旁人或敏感场景；日使用额度、网络和模型部署边界需核实，不把开放源码等同绝对隐私保证。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于开放软硬件的视觉记忆与AI对话眼镜。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "圆框眼镜、彩色显示、低功耗光学传感器、麦克风与骨传导输出；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "Noa对所见所闻进行自然语言对话并保留长期记忆，Miniapps允许以自然语言创建体验；官方披露低功耗光学传感与端侧AI处理",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "配套手机和AI服务仍参与功能；官网同时描述phone models和cloud agent，未完整交代各任务部署，不笼统承诺所有AI离线",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Halo官方购买页",
+        "url": "https://brilliant.xyz/products/halo",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Brilliant Halo官方规格",
+        "url": "https://brilliant.xyz/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "dependency"
+        ],
+        "note": "已打开，区分端侧处理、配套手机及官网所述云端agent，部署口径未完全清晰。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "xiaomi-ai-glasses",
+    "name": "小米 AI 眼镜",
+    "brand": "Xiaomi",
+    "category": "glasses",
+    "tagline": "在中国服务生态中使用的相机与超级小爱入口",
+    "officialUrl": "https://www.mi.com/prod/xiaomi-ai-glasses",
+    "status": "on_sale",
+    "statusEvidence": "实际浏览器打开小米商城product_id=21399，标准版页面显示小米自营、有现货、¥1,599与加入购物车；具体颜色及收货地区库存仍随订单变化。",
+    "regions": [
+      "中国大陆官方渠道"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "已在小米商城打开具体型号，页面显示自营、现货和加入购物车；未登录或下单。"
+    },
+    "price": {
+      "text": "标准版核查日 ¥1,599 起",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方详情已确认：超级小爱提供语音与图文问答、动植物及文字识别、同声翻译和会议摘要；相机与语音输入共同构成多模态入口。",
+      "dependency": "需要兼容手机、小米眼镜App及相应服务权限，复杂智能对话依网络；不默认中国与海外账号拥有相同能力"
+    },
+    "highlights": [
+      "在中国服务生态中使用的相机与超级小爱入口",
+      "D形镜框、单前向相机、镜腿麦克风/开放式音频和物理控制",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望把随手拍摄和即时语音查询放到眼镜上，并使用熟悉的中国本地服务。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：已有小米或兼容手机，愿意在日常场合佩戴相机眼镜并管理记录的人。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与国内AI相机眼镜和Meta同类产品竞争，中文服务及本地售后是差异而非冷门蓝海。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对D形镜框、单前向相机、镜腿麦克风/开放式音频和物理控制，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "通过超级小爱完成语音识别、自然语言智能对话和语音控制；相机提供第一人称采集，视觉问答等功能需按当前软件版本确认。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：经典D形较像普通太阳镜，镜腿需要容纳电子件；标准与变色镜片是配置差异。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "拍摄提示、旁人知情、服务权限和户外分心均需考虑；镜片处方和变色选项不是独立AI型号，配镜后的退货条件不同。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于在中国服务生态中使用的相机与超级小爱入口。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "D形镜框、单前向相机、镜腿麦克风/开放式音频和物理控制；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "通过超级小爱完成语音识别、自然语言智能对话和语音控制；相机提供第一人称采集，视觉问答等功能需按当前软件版本确认",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要兼容手机、小米眼镜App及相应服务权限，复杂智能对话依网络；不默认中国与海外账号拥有相同能力",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "小米AI眼镜官方详情",
+        "url": "https://www.mi.com/prod/xiaomi-ai-glasses",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "小米AI眼镜官方实际购买页",
+        "url": "https://www.mi.com/shop/buy/detail?product_id=21399",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions"
+        ],
+        "note": "已用浏览器查看加载后的具体产品，现货及加入购物车可见；未登录和下单。"
+      },
+      {
+        "title": "超级小爱第三方数据共享说明",
+        "url": "https://privacy.mi.com/xiaomihyperxiaoai-s/zh_CN/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已用浏览器打开，XiaoAiWear SDK条目明确小米眼镜的语音识别、合成和智能对话。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "amazfit-active-2-round",
+    "name": "Amazfit Active 2 (Round)",
+    "brand": "Amazfit",
+    "category": "wearables",
+    "tagline": "腕上数据与Zepp AI训练规划",
+    "officialUrl": "https://us.amazfit.com/products/active-2-round",
+    "status": "on_sale",
+    "statusEvidence": "已打开当前美国官方商品页，具体配置Add to cart可见；公开商品数据available=true。只计一代产品，颜色、表带与尺寸不重复。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "Black Sport Silicone US$99.99",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Zepp Flow支持自然语言语音操作，Zepp Coach根据用户目标和训练记录生成或调整个性化训练计划",
+      "dependency": "需兼容Zepp App、账号和相关网络服务；语音、消息回复与部分支付功能受地区、手机系统和语言限制"
+    },
+    "highlights": [
+      "腕上数据与Zepp AI训练规划",
+      "圆形触屏、光学健康传感器、惯性传感器、麦克风与扬声器",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：用较低硬件预算记录日常运动，同时以自然语言完成一些腕上操作。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：规律运动且希望持续复盘，接受App同步并能辨别估算指标与真实身体感受的人。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与成熟运动手表、健身App和普通手环竞争，AI语音与计划不让一般计步自动变成独有技术。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对圆形触屏、光学健康传感器、惯性传感器、麦克风与扬声器，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "Zepp Flow支持自然语言语音操作，Zepp Coach根据用户目标和训练记录生成或调整个性化训练计划。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：圆形金属外观配运动表带，在普通腕表和运动追踪之间取舍。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "运动、睡眠和恢复分数属于辅助估算，不可依据AI计划忽略不适；地理导航、天气和软件支持期限应单独核对。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于腕上数据与Zepp AI训练规划。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "圆形触屏、光学健康传感器、惯性传感器、麦克风与扬声器；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "Zepp Flow支持自然语言语音操作，Zepp Coach根据用户目标和训练记录生成或调整个性化训练计划",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需兼容Zepp App、账号和相关网络服务；语音、消息回复与部分支付功能受地区、手机系统和语言限制",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amazfit Active 2 (Round)官方商店",
+        "url": "https://us.amazfit.com/products/active-2-round",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开商品页并读取公开商品JSON，核实可售具体规格。"
+      },
+      {
+        "title": "Zepp官方Active 2功能说明",
+        "url": "https://www.zepp.com/press-release/amazfit-announces-the-active-2-the-ultimate-everyday-smartwatch-for-active-and-healthy-living",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "amazfit-t-rex-3-pro",
+    "name": "Amazfit T-Rex 3 Pro",
+    "brand": "Amazfit",
+    "category": "wearables",
+    "tagline": "腕上数据与Zepp AI训练规划",
+    "officialUrl": "https://us.amazfit.com/products/t-rex-3-pro",
+    "status": "on_sale",
+    "statusEvidence": "已打开当前美国官方商品页，具体配置Add to cart可见；公开商品数据available=true。只计一代产品，颜色、表带与尺寸不重复。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$399.99",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Zepp Flow支持自然语言语音操作，Zepp Coach根据用户目标和训练记录生成或调整个性化训练计划",
+      "dependency": "需兼容Zepp App、账号和相关网络服务；语音、消息回复与部分支付功能受地区、手机系统和语言限制"
+    },
+    "highlights": [
+      "腕上数据与Zepp AI训练规划",
+      "户外表壳、触屏、实体按键、定位和运动传感器、音频输入输出",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：户外或跑步训练时把运动记录、计划和语音操作留在手腕。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：规律运动且希望持续复盘，接受App同步并能辨别估算指标与真实身体感受的人。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与成熟运动手表、健身App和普通手环竞争，AI语音与计划不让一般计步自动变成独有技术。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对户外表壳、触屏、实体按键、定位和运动传感器、音频输入输出，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "Zepp Flow支持自然语言语音操作，Zepp Coach根据用户目标和训练记录生成或调整个性化训练计划。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：厚实表圈与四枚实体按键强调户外器材感，大小款不作为不同AI型号。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "运动、睡眠和恢复分数属于辅助估算，不可依据AI计划忽略不适；地理导航、天气和软件支持期限应单独核对。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于腕上数据与Zepp AI训练规划。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "户外表壳、触屏、实体按键、定位和运动传感器、音频输入输出；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "Zepp Flow支持自然语言语音操作，Zepp Coach根据用户目标和训练记录生成或调整个性化训练计划",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需兼容Zepp App、账号和相关网络服务；语音、消息回复与部分支付功能受地区、手机系统和语言限制",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amazfit T-Rex 3 Pro官方商店",
+        "url": "https://us.amazfit.com/products/t-rex-3-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开商品页并读取公开商品JSON，核实可售具体规格。"
+      },
+      {
+        "title": "Zepp官方T-Rex系列说明",
+        "url": "https://us.amazfit.com/pages/t-rex-series-smartwatches",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "circular-ring-2",
+    "name": "Circular Ring 2",
+    "brand": "Circular",
+    "category": "wearables",
+    "tagline": "手指传感数据与Kira AI解释",
+    "officialUrl": "https://shop.circular-ring.com/products/circular-ring-2",
+    "status": "on_sale",
+    "statusEvidence": "Circular原域circular.xyz已跳转当前circular-ring.com，官方商店具体Ring 2显示价格、尺码和Add to cart；Ring 3仅候补，未计入。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "Obsidian Black US$349 起",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Kira AI学习个人基线，把戒指采集的活动与生理数据整理为自然语言解释和日常建议",
+      "dependency": "需配套App、个人账户与一段基线积累；核心数据与部分Pro服务有收费区分。AI解释不是诊断，未核实的血压/医疗效果不作为收录依据"
+    },
+    "highlights": [
+      "手指传感数据与Kira AI解释",
+      "金属戒指外壳、内侧光学/温度/运动传感与ECG接触界面",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望以无屏、较少打扰的方式获得连续生活数据，并理解图表可能代表什么。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：愿意长期佩戴并校准个人基线，重视无屏外观而非腕上消息操作的用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与Oura、RingConn和手表竞争，AI解读的差异需要与数据质量和服务稳定性一起比较。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对金属戒指外壳、内侧光学/温度/运动传感与ECG接触界面，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "Kira AI学习个人基线，把戒指采集的活动与生理数据整理为自然语言解释和日常建议。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：外表接近宽版首饰戒指，内侧传感窗口及充电方式更接近电子设备。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "戒围、皮肤接触和数据缺失会影响指标，疾病或药物相关建议不能仅凭Kira输出；新旧代宣传功能不可混用。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于手指传感数据与Kira AI解释。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "金属戒指外壳、内侧光学/温度/运动传感与ECG接触界面；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "Kira AI学习个人基线，把戒指采集的活动与生理数据整理为自然语言解释和日常建议",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需配套App、个人账户与一段基线积累；核心数据与部分Pro服务有收费区分。AI解释不是诊断，未核实的血压/医疗效果不作为收录依据",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Circular Ring 2官方商店",
+        "url": "https://shop.circular-ring.com/products/circular-ring-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Circular官方产品及Kira说明",
+        "url": "https://www.circular-ring.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开原域重定向后的官方页；只采用Kira与传感功能，不据营销文字断言医疗效用。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "ringconn-gen-2",
+    "name": "RingConn Gen 2",
+    "brand": "RingConn",
+    "category": "wearables",
+    "tagline": "低干扰戒指形态中的机器学习呼吸与活动洞察",
+    "officialUrl": "https://ringconn.com/products/ringconn-gen-2",
+    "status": "on_sale",
+    "statusEvidence": "实际浏览器加载后Royal Gold含尺码套件选项显示US$279与启用的Add to cart；静态抓取中的Out of stock是未选规格模板，未据此一概判断停售。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "浏览器所见US$279；页面比较表仍标US$299",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方注明Sleep Breathing Insights采用跨模态对比表征学习模型；采集生理信号后形成呼吸和活动趋势洞察",
+      "dependency": "需合适戒围、稳定配戴和App同步；研究算法指标不等于个人诊断能力。AI Health Partner测试服务不作为所有购买者已可用功能"
+    },
+    "highlights": [
+      "低干扰戒指形态中的机器学习呼吸与活动洞察",
+      "戒指内侧光学传感窗口、温度/运动传感与便携充电盒",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：不喜欢睡觉或日常戴手表，却希望连续查看活动、恢复和夜间呼吸趋势。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：可长期佩戴戒指、愿意按自己的基线查看趋势而非追求即时医学答案的用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与其他健康戒指和手表竞争，无屏与充电频率是取舍，AI功能不能独立证明更可靠。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对戒指内侧光学传感窗口、温度/运动传感与便携充电盒，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "官方注明Sleep Breathing Insights采用跨模态对比表征学习模型；采集生理信号后形成呼吸和活动趋势洞察。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：外轮廓略方、内圈圆润，传感窗口集中于内侧，金属表面保留首饰感。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "戒指是一般健康辅助设备，呼吸异常提示不能确诊或排除疾病；地区功能名称、库存、尺码与App服务均会变化。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于低干扰戒指形态中的机器学习呼吸与活动洞察。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "戒指内侧光学传感窗口、温度/运动传感与便携充电盒；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "官方注明Sleep Breathing Insights采用跨模态对比表征学习模型；采集生理信号后形成呼吸和活动趋势洞察",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需合适戒围、稳定配戴和App同步；研究算法指标不等于个人诊断能力。AI Health Partner测试服务不作为所有购买者已可用功能",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "RingConn Gen 2官方购买及模型脚注",
+        "url": "https://ringconn.com/products/ringconn-gen-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已用浏览器核对有效购买选项，并读到Cross-Modal Contrastive Representation Learning模型脚注；不引用营销准确率为疗效。"
+      },
+      {
+        "title": "RingConn Gen 2官方功能页",
+        "url": "https://ringconn.com/pages/ringconn-gen-2",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "RingConn新加坡产品功能",
+        "url": "https://ringconnsg.com/pages/gen-2",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开，明确AI-powered sleep health tracking；区域旧术语不替代全球站当前非医疗边界。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "pongbot-pace-s-pro",
+    "name": "PONGBOT Pace S Pro",
+    "brand": "PONGBOT",
+    "category": "sports",
+    "tagline": "根据球员位置变化调整出球策略的训练球机",
+    "officialUrl": "https://store.pongbotsports.com/products/pace-s-pro",
+    "status": "on_sale",
+    "statusEvidence": "官方具体Pace S Pro页明确In Stock and Ready to Ship、48小时内发货与Add to Cart；普通Pace S与附件包未另计。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "核查日基本配置 US$1,219.99",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Smart Pace采用厂商自研AI算法，根据Smart Tracker的球员位置与移动轨迹调整落点和出球节奏",
+      "dependency": "高级自适应功能需要Smart Tracker Set、校准和配套App；手册区分基础离线出球与联网/账号功能，不假设仅有球机就具备所有跟踪能力"
+    },
+    "highlights": [
+      "根据球员位置变化调整出球策略的训练球机",
+      "球斗、滚轮发球机构、转向/仰角执行机构、可拆电池和穿戴定位组件",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：独自练球时希望机器在自己回位或移动后调整节奏，而不是持续固定间隔喂球。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：拥有稳定球场使用条件、愿意携带球机和穿戴定位器的业余进阶球员。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与固定程序球机、陪练和视觉球机竞争；传感定位路线与摄像机识别不同，不把预置随机出球称为机器学习。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对球斗、滚轮发球机构、转向/仰角执行机构、可拆电池和穿戴定位组件，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "Smart Pace采用厂商自研AI算法，根据Smart Tracker的球员位置与移动轨迹调整落点和出球节奏。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：箱式球机上方突出球斗，轮子和提手优先服务球场搬运而非家庭装饰。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "出球速度、球场清空、供球堵塞与定位误差都需按说明处理；训练建议不保证进步或防止受伤。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于根据球员位置变化调整出球策略的训练球机。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "球斗、滚轮发球机构、转向/仰角执行机构、可拆电池和穿戴定位组件；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "Smart Pace采用厂商自研AI算法，根据Smart Tracker的球员位置与移动轨迹调整落点和出球节奏",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "高级自适应功能需要Smart Tracker Set、校准和配套App；手册区分基础离线出球与联网/账号功能，不假设仅有球机就具备所有跟踪能力",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PONGBOT Pace S Pro官方商店",
+        "url": "https://store.pongbotsports.com/products/pace-s-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "PONGBOT官方支持中心",
+        "url": "https://store.pongbotsports.com/pages/support",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "PACE S系列厂家用户手册",
+        "url": "https://www.pong-bot.de/wp-content/uploads/2025/11/PACE-S-SERIES-User-Manual_V1.2.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "dependency"
+        ],
+        "note": "已打开完整厂家手册，明确Pro独有Smart Tracker、位置反馈和Smart Pace AI算法。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "tennibot-partner-v2",
+    "name": "Tennibot Partner V2",
+    "brand": "Tennibot",
+    "category": "sports",
+    "tagline": "个人球场训练中的AI出球与视觉跟踪",
+    "officialUrl": "https://www.tennibot.com/tennis/ball-machine/",
+    "status": "on_sale",
+    "statusEvidence": "当前官网具体型号页列美元价格、面向个人球员的用途和Buy now；已打开对应Stripe嵌入式Checkout入口，未填资料或支付。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$2,275",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "AI相机追踪球员与球，AI Custom Drills生成出球序列，Rally模式模拟不同对手风格",
+      "dependency": "需要充电、配套App与适合的球场；按官网型号选择网球配置。AI训练和OTA在当前说明中包含，未来变更及地区支持仍需核对"
+    },
+    "highlights": [
+      "个人球场训练中的AI出球与视觉跟踪",
+      "上置球斗、发球机构、AI相机及可自行移动的驱动底座",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：独自练球时希望来球来自不同场地位置，使脚步和判断不局限于固定机位。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：可经常使用网球场、愿意自行运输和维护设备的个人爱好者或个人教练。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与传统发球机、手动拾球篮和真人陪练竞争，移动发球、固定发球与拾球是不同机械用途；没有按球色或附件凑数。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "厂家当前官网明确设计、制造及支持位于美国阿拉巴马州Auburn；这能支持生产地区描述，但未披露具体装配工序或模块供应商。视觉标定、运动控制与球场适应性可作为制造关注点，不据此推定BOM或良率。",
+      "technology": "AI相机追踪球员与球，AI Custom Drills生成出球序列，Rally模式模拟不同对手风格。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：球斗与移动底盘的比例突出，摄像机与出球口有清楚工作方向。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "自动移动或出球可能与场地使用者相互干扰，需按说明设定边界并监督；AI轨迹识别不能保证所有球面和遮挡环境可靠。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于个人球场训练中的AI出球与视觉跟踪。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "上置球斗、发球机构、AI相机及可自行移动的驱动底座；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "AI相机追踪球员与球，AI Custom Drills生成出球序列，Rally模式模拟不同对手风格",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要充电、配套App与适合的球场；按官网型号选择网球配置。AI训练和OTA在当前说明中包含，未来变更及地区支持仍需核对",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tennibot Partner V2官方型号与购买入口",
+        "url": "https://www.tennibot.com/tennis/ball-machine/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Tennibot官方系列比较",
+        "url": "https://www.tennibot.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Tennibot官方Rally功能",
+        "url": "https://www.tennibot.com/rally/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "tennibot-partner-lite",
+    "name": "Tennibot Partner Lite",
+    "brand": "Tennibot",
+    "category": "sports",
+    "tagline": "个人球场训练中的AI出球与视觉跟踪",
+    "officialUrl": "https://www.tennibot.com/tennis/ball-machine/lite/",
+    "status": "on_sale",
+    "statusEvidence": "当前官网具体型号页列美元价格、面向个人球员的用途和Buy now；已打开对应Stripe嵌入式Checkout入口，未填资料或支付。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$1,525",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "厂家说明保留Partner的AI相机、定制训练和出球策略，但没有V2自动移动底座",
+      "dependency": "需要充电、配套App与适合的球场；按官网型号选择网球配置。AI训练和OTA在当前说明中包含，未来变更及地区支持仍需核对"
+    },
+    "highlights": [
+      "个人球场训练中的AI出球与视觉跟踪",
+      "上置球斗、发球机构、AI相机与固定支撑底部",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望保留位置识别和自定义训练，同时减少自行移动底盘的价格和搬运负担。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：可经常使用网球场、愿意自行运输和维护设备的个人爱好者或个人教练。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与传统发球机、手动拾球篮和真人陪练竞争，移动发球、固定发球与拾球是不同机械用途；没有按球色或附件凑数。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "厂家当前官网明确设计、制造及支持位于美国阿拉巴马州Auburn；这能支持生产地区描述，但未披露具体装配工序或模块供应商。视觉标定、运动控制与球场适应性可作为制造关注点，不据此推定BOM或良率。",
+      "technology": "厂家说明保留Partner的AI相机、定制训练和出球策略，但没有V2自动移动底座。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：固定底部比V2少移动结构，视觉上仍是带球斗的专用训练器。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "自动移动或出球可能与场地使用者相互干扰，需按说明设定边界并监督；AI轨迹识别不能保证所有球面和遮挡环境可靠。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于个人球场训练中的AI出球与视觉跟踪。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "上置球斗、发球机构、AI相机与固定支撑底部；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "厂家说明保留Partner的AI相机、定制训练和出球策略，但没有V2自动移动底座",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要充电、配套App与适合的球场；按官网型号选择网球配置。AI训练和OTA在当前说明中包含，未来变更及地区支持仍需核对",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tennibot Partner Lite官方型号与购买入口",
+        "url": "https://www.tennibot.com/tennis/ball-machine/lite/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Tennibot官方系列比较",
+        "url": "https://www.tennibot.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Tennibot官方Rally功能",
+        "url": "https://www.tennibot.com/rally/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "tennibot-rover",
+    "name": "Tennibot Rover",
+    "brand": "Tennibot",
+    "category": "sports",
+    "tagline": "个人球场训练中的自主视觉拾球",
+    "officialUrl": "https://www.tennibot.com/tennis/ball-collector/",
+    "status": "on_sale",
+    "statusEvidence": "当前官网具体型号页列美元价格、面向个人球员的用途和Buy now；已打开对应Stripe嵌入式Checkout入口，未填资料或支付。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$2,275",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "AI视觉识别网球并规划收集路径，绕开球员及器材，完成自主拾球",
+      "dependency": "需要充电、配套App与适合的球场；按官网型号选择网球配置。AI训练和OTA在当前说明中包含，未来变更及地区支持仍需核对"
+    },
+    "highlights": [
+      "个人球场训练中的自主视觉拾球",
+      "轮式底盘、视觉模块、地面拾球入口与集球篮",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：密集练习后不希望反复弯腰和走动拾球，尽量保持训练节奏。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：可经常使用网球场、愿意自行运输和维护设备的个人爱好者或个人教练。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与传统发球机、手动拾球篮和真人陪练竞争，移动发球、固定发球与拾球是不同机械用途；没有按球色或附件凑数。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "厂家当前官网明确设计、制造及支持位于美国阿拉巴马州Auburn；这能支持生产地区描述，但未披露具体装配工序或模块供应商。视觉标定、运动控制与球场适应性可作为制造关注点，不据此推定BOM或良率。",
+      "technology": "AI视觉识别网球并规划收集路径，绕开球员及器材，完成自主拾球。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：低位拾取机构与高位集球容器呈现明确工具属性，与发球机外形不同。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "自动移动或出球可能与场地使用者相互干扰，需按说明设定边界并监督；AI轨迹识别不能保证所有球面和遮挡环境可靠。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于个人球场训练中的自主视觉拾球。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "轮式底盘、视觉模块、地面拾球入口与集球篮；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "AI视觉识别网球并规划收集路径，绕开球员及器材，完成自主拾球",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要充电、配套App与适合的球场；按官网型号选择网球配置。AI训练和OTA在当前说明中包含，未来变更及地区支持仍需核对",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tennibot Rover官方型号与购买入口",
+        "url": "https://www.tennibot.com/tennis/ball-collector/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Tennibot官方系列比较",
+        "url": "https://www.tennibot.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "Tennibot官方Rally功能",
+        "url": "https://www.tennibot.com/tennis/ball-collector/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "oxefit-xs1",
+    "name": "OxeFit XS1",
+    "brand": "OxeFit",
+    "category": "sports",
+    "tagline": "多种数字力量训练与OxeAI自适应计划",
+    "officialUrl": "https://www.oxefit.com/corev/configure/xs1-flow",
+    "status": "on_sale",
+    "statusEvidence": "旧美元商店在实际浏览器跳转至当前区域站；已打开XS1 FLOW配置页，显示明确阿联酋价格、Consumer use only与CONTINUE TO CHECKOUT。当前页面只承诺UAE配送，未沿用旧美元价格。",
+    "regions": [
+      "阿联酋官方区域渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "阿联酋官方FLOW配置 AED34,138.44",
+      "note": "此为当前阿联酋FLOW配置含附件及首年软件的所见价格，不将PEAK附件包另计型号；实际送装与税费按合同。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "OxeAI结合评估和训练表现生成个人训练协议并随训练进度调整，平台记录力量、速度、负载与平衡相关数据",
+      "dependency": "家庭订单含首年软件会员，之后续订条件另核；需要电源、适当空间与安装。AI计划不等于所有动作均由摄像机识别"
+    },
+    "highlights": [
+      "多种数字力量训练与OxeAI自适应计划",
+      "竖屏、双侧拉索、带传感反馈的训练平台与多运动附件",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望在家用一套数字负载系统完成力量与部分心肺训练，并自动组织计划。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：有较大固定训练空间、稳定预算和长期使用意愿的个人家庭。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与Tonal、Speediance和传统综合力量机竞争，平台平衡反馈和多运动附件增加用途但也增加交付复杂度。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对竖屏、双侧拉索、带传感反馈的训练平台与多运动附件，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "OxeAI结合评估和训练表现生成个人训练协议并随训练进度调整，平台记录力量、速度、负载与平衡相关数据。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：宽底板与高位屏幕更接近固定家庭健身区，收纳和安装体验需结合真实房间。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "当前地区站交付文案同时出现24–48小时和通常2–4周，须以订单确认；负载控制、安装与会员依赖是实际限制。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于多种数字力量训练与OxeAI自适应计划。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "竖屏、双侧拉索、带传感反馈的训练平台与多运动附件；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "OxeAI结合评估和训练表现生成个人训练协议并随训练进度调整，平台记录力量、速度、负载与平衡相关数据",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "家庭订单含首年软件会员，之后续订条件另核；需要电源、适当空间与安装。AI计划不等于所有动作均由摄像机识别",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OxeFit XS1 FLOW当前官方家庭订单",
+        "url": "https://www.oxefit.com/corev/configure/xs1-flow",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "regions"
+        ],
+        "note": "已用浏览器打开，具体价格、家庭用途、UAE配送及继续结算可见；没有下单。"
+      },
+      {
+        "title": "OxeFit官方购买与会员要求",
+        "url": "https://support.oxefit.com/hc/en-us/articles/18864328136983-Purchase-Device",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "dependency"
+        ],
+        "note": "已打开，XS1零售与XP1联系销售渠道区分明确。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "hidock-h1",
+    "name": "HiDock H1",
+    "brand": "HiDock",
+    "category": "recording",
+    "tagline": "个人音频采集硬件与HiNotes会议整理",
+    "officialUrl": "https://www.hidock.com/products/hidock-h1-audio-dock",
+    "status": "on_sale",
+    "statusEvidence": "已打开官方具体型号商品页，价格、数量和Add to cart可见；H1E、颜色及套装未重复计数。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "所见硬件标价US$289；购物车促销另核",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "HiNotes对采集的通话和现场音频转录，识别说话人并用大模型生成结构化摘要、行动项和重点",
+      "dependency": "录音硬件与HiNotes服务配合，转录、说话人区分和高级摘要存在不同会员条件；不能把拓展坞当作本地运行大模型的电脑"
+    },
+    "highlights": [
+      "个人音频采集硬件与HiNotes会议整理",
+      "桌面多接口扩展坞、扬声器、麦克风与实体录音控制",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：桌面会议同时需要连接电脑外设与整理记录，希望避免再摆一个录音器。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：经常远程交流、采访或自用记录的个人工作者，愿意复核转录并配置音频输入输出。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与系统录音、手机软件、专用录音器和扩展坞竞争；音频链路与记录服务整合是差异，普通降噪并非收录AI理由。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对桌面多接口扩展坞、扬声器、麦克风与实体录音控制，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "HiNotes对采集的通话和现场音频转录，识别说话人并用大模型生成结构化摘要、行动项和重点。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：桌面楔形扩展坞兼有旋钮和音频格栅，优先融入固定工作台。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "通话与会议记录需要处理在场者知情、权限和敏感内容；说话人归属和摘要可能错误，不能自动把行动项当成对方承诺。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于个人音频采集硬件与HiNotes会议整理。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "桌面多接口扩展坞、扬声器、麦克风与实体录音控制；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "HiNotes对采集的通话和现场音频转录，识别说话人并用大模型生成结构化摘要、行动项和重点",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "录音硬件与HiNotes服务配合，转录、说话人区分和高级摘要存在不同会员条件；不能把拓展坞当作本地运行大模型的电脑",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "HiDock H1官方购买页",
+        "url": "https://www.hidock.com/products/hidock-h1-audio-dock",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "HiNotes官方功能与服务",
+        "url": "https://www.hidock.com/pages/hinotes",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "HiDock当前促销规则",
+        "url": "https://www.hidock.com/pages/hot-deals",
+        "kind": "official-spec",
+        "supports": [
+          "price"
+        ],
+        "note": "已打开，价格按商品和购物车适用活动变化；不以未实际应用的优惠当作成交价。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "hidock-p1",
+    "name": "HiDock P1",
+    "brand": "HiDock",
+    "category": "recording",
+    "tagline": "个人音频采集硬件与HiNotes会议整理",
+    "officialUrl": "https://www.hidock.com/products/hidock-p1-ai-voice-recorder",
+    "status": "on_sale",
+    "statusEvidence": "已打开官方具体型号商品页，价格、数量和Add to cart可见；H1E、颜色及套装未重复计数。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "所见US$199；自动优惠按结算",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "HiNotes将双向通话或房间录音转成文本、摘要与行动项；BlueCatch负责音频连接，不单独作为AI证据",
+      "dependency": "需兼容电脑/手机、耳机蓝牙链路与HiNotes账号；USB-C和蓝牙的具体接法影响是否采集双向声音，高级摘要按服务权限"
+    },
+    "highlights": [
+      "个人音频采集硬件与HiNotes会议整理",
+      "便携金属录音主机、双麦克风、USB-C与蓝牙音频桥接",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：用自己的蓝牙耳机通话时希望保留双向音频，而不是换成特定品牌耳机。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：经常远程交流、采访或自用记录的个人工作者，愿意复核转录并配置音频输入输出。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与系统录音、手机软件、专用录音器和扩展坞竞争；音频链路与记录服务整合是差异，普通降噪并非收录AI理由。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对便携金属录音主机、双麦克风、USB-C与蓝牙音频桥接，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "HiNotes将双向通话或房间录音转成文本、摘要与行动项；BlueCatch负责音频连接，不单独作为AI证据。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：扁平金属机身和显著录音控制适合随电脑携带，形态不同于桌面扩展坞。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "通话与会议记录需要处理在场者知情、权限和敏感内容；说话人归属和摘要可能错误，不能自动把行动项当成对方承诺。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于个人音频采集硬件与HiNotes会议整理。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "便携金属录音主机、双麦克风、USB-C与蓝牙音频桥接；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "HiNotes将双向通话或房间录音转成文本、摘要与行动项；BlueCatch负责音频连接，不单独作为AI证据",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需兼容电脑/手机、耳机蓝牙链路与HiNotes账号；USB-C和蓝牙的具体接法影响是否采集双向声音，高级摘要按服务权限",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "HiDock P1官方购买页",
+        "url": "https://www.hidock.com/products/hidock-p1-ai-voice-recorder",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "HiNotes官方功能与服务",
+        "url": "https://www.hidock.com/pages/hinotes",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "HiDock当前促销规则",
+        "url": "https://www.hidock.com/pages/hot-deals",
+        "kind": "official-spec",
+        "supports": [
+          "price"
+        ],
+        "note": "已打开，价格按商品和购物车适用活动变化；不以未实际应用的优惠当作成交价。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "viaim-recdot",
+    "name": "viaim RecDot",
+    "brand": "viaim",
+    "category": "audio",
+    "tagline": "多场景音频记录与viaim AI摘要",
+    "officialUrl": "https://store.viaim.ai/products/viaim-recdot",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页提供Add to cart；已读取官方公开商品JSON，单机变体available=true，排除了页面隐藏的Sold Out模板与耳机+NoteKit套装重复计数。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$229，单机",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件",
+      "dependency": "需要viaim App或电脑应用、账户与网络AI处理；部分硬件录音可先保存，AI转换不是全部离线运行，免费和高级权限依当前计划"
+    },
+    "highlights": [
+      "多场景音频记录与viaim AI摘要",
+      "入耳式耳机、耳柄触控录音、麦克风与充电盒",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：在电话、视频内容与面对面交流中复用一副耳机来记录，减少额外设备。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：愿意自行整理访谈、课程或工作对话的个人用户，能接受录音提示和云端处理流程。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与手机会议转录、其他录音耳机和桌面录音设备竞争，RecDot、OpenNote与USB NoteKit是不同音频采集形态。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对入耳式耳机、耳柄触控录音、麦克风与充电盒，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：带短柄的入耳式形态接近日常无线耳机，录音操作隐藏于熟悉佩戴方式。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "耳机形态可能让对方难以意识到正在录音，用户需明确沟通；转录错词、口音、多人重叠和账号数据流均影响可信度。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于多场景音频记录与viaim AI摘要。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "入耳式耳机、耳柄触控录音、麦克风与充电盒；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要viaim App或电脑应用、账户与网络AI处理；部分硬件录音可先保存，AI转换不是全部离线运行，免费和高级权限依当前计划",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "viaim RecDot官方商店",
+        "url": "https://store.viaim.ai/products/viaim-recdot",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开商品页并核实公开product.js单机库存，页面售罄文案不代表所选可购变体。"
+      },
+      {
+        "title": "viaim官方AI计划",
+        "url": "https://store.viaim.ai/collections/viaim-ai-subscription-plans",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "viaim官方销售与服务渠道",
+        "url": "https://store.viaim.ai/pages/shop",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "viaim-opennote",
+    "name": "viaim OpenNote",
+    "brand": "viaim",
+    "category": "audio",
+    "tagline": "多场景音频记录与viaim AI摘要",
+    "officialUrl": "https://store.viaim.ai/products/viaim-opennote",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页提供Add to cart；已读取官方公开商品JSON，单机变体available=true，排除了页面隐藏的Sold Out模板与耳机+NoteKit套装重复计数。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$229，单机",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件",
+      "dependency": "需要viaim App或电脑应用、账户与网络AI处理；部分硬件录音可先保存，AI转换不是全部离线运行，免费和高级权限依当前计划"
+    },
+    "highlights": [
+      "多场景音频记录与viaim AI摘要",
+      "开放式挂耳耳机、录音控制、麦克风与充电盒",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：长时沟通和记录时保持对周围环境的听觉，不反复摘戴入耳耳机。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：愿意自行整理访谈、课程或工作对话的个人用户，能接受录音提示和云端处理流程。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与手机会议转录、其他录音耳机和桌面录音设备竞争，RecDot、OpenNote与USB NoteKit是不同音频采集形态。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对开放式挂耳耳机、录音控制、麦克风与充电盒，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：挂耳和开放声学结构更明显，强调全天沟通场景而非封闭聆听。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "耳机形态可能让对方难以意识到正在录音，用户需明确沟通；转录错词、口音、多人重叠和账号数据流均影响可信度。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于多场景音频记录与viaim AI摘要。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "开放式挂耳耳机、录音控制、麦克风与充电盒；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要viaim App或电脑应用、账户与网络AI处理；部分硬件录音可先保存，AI转换不是全部离线运行，免费和高级权限依当前计划",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "viaim OpenNote官方商店",
+        "url": "https://store.viaim.ai/products/viaim-opennote",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开商品页并核实公开product.js单机库存，页面售罄文案不代表所选可购变体。"
+      },
+      {
+        "title": "viaim官方AI计划",
+        "url": "https://store.viaim.ai/collections/viaim-ai-subscription-plans",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "viaim官方销售与服务渠道",
+        "url": "https://store.viaim.ai/pages/shop",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "viaim-notekit",
+    "name": "viaim NoteKit",
+    "brand": "viaim",
+    "category": "recording",
+    "tagline": "多场景音频记录与viaim AI摘要",
+    "officialUrl": "https://store.viaim.ai/products/viaim-notekit",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页提供Add to cart；已读取官方公开商品JSON，单机变体available=true，排除了页面隐藏的Sold Out模板与耳机+NoteKit套装重复计数。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$79.99，单机",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件",
+      "dependency": "需要viaim App或电脑应用、账户与网络AI处理；部分硬件录音可先保存，AI转换不是全部离线运行，免费和高级权限依当前计划"
+    },
+    "highlights": [
+      "多场景音频记录与viaim AI摘要",
+      "小型USB电脑音频录制设备与近场麦克风",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：电脑会议不想戴耳机，但仍希望同时留下系统音频和身边讲话。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：愿意自行整理访谈、课程或工作对话的个人用户，能接受录音提示和云端处理流程。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与手机会议转录、其他录音耳机和桌面录音设备竞争，RecDot、OpenNote与USB NoteKit是不同音频采集形态。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对小型USB电脑音频录制设备与近场麦克风，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：细长USB适配器作为电脑旁边的工具更容易理解，外观不需要模仿可穿戴设备。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "耳机形态可能让对方难以意识到正在录音，用户需明确沟通；转录错词、口音、多人重叠和账号数据流均影响可信度。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于多场景音频记录与viaim AI摘要。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "小型USB电脑音频录制设备与近场麦克风；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "viaim服务将录音转换为文本、翻译、结构化摘要与行动项；选择高级AI模型和额度的计划独立于硬件",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要viaim App或电脑应用、账户与网络AI处理；部分硬件录音可先保存，AI转换不是全部离线运行，免费和高级权限依当前计划",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "viaim NoteKit官方商店",
+        "url": "https://store.viaim.ai/products/viaim-notekit",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开商品页并核实公开product.js单机库存，页面售罄文案不代表所选可购变体。"
+      },
+      {
+        "title": "viaim官方AI计划",
+        "url": "https://store.viaim.ai/collections/viaim-ai-subscription-plans",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "viaim官方销售与服务渠道",
+        "url": "https://store.viaim.ai/pages/shop",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "regions"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "soundcore-work",
+    "name": "Anker soundcore Work",
+    "brand": "Anker soundcore",
+    "category": "recording",
+    "tagline": "硬币式佩戴录音与可追问的AI笔记",
+    "officialUrl": "https://www.soundcore.com/products/d3200-soundcore-work-ai-voice-recorder",
+    "status": "on_sale",
+    "statusEvidence": "官方具体Work商品页显示容量选项、价格、预计配送以及Add to Cart/Buy Now；不同容量和配色只计同一型号。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "所见配置US$159.99；容量和优惠需结算确认",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "配套服务对音频转录、识别说话人、生成结构化摘要，Anka问答可从记录中提取关键信息和行动项",
+      "dependency": "初次设置需App登录；云端转录和存储开关具有不同数据流程，免费月额度及Pro/Unlimited权益分别核对"
+    },
+    "highlights": [
+      "硬币式佩戴录音与可追问的AI笔记",
+      "硬币形双麦克风录音器、实体按键、夹持/磁吸附件和充电收纳部件",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望随时按一下开始记录，并在之后查找重点，而不是保持全天自动录音。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：做个人访谈、学习或会议复盘，愿意主动选择录音时机并复核摘要的用户。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与Plaud、Bee、手机录音和其他佩戴式记录器竞争，按钮交互与充电便利比单纯小型化更值得比较。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对硬币形双麦克风录音器、实体按键、夹持/磁吸附件和充电收纳部件，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "配套服务对音频转录、识别说话人、生成结构化摘要，Anka问答可从记录中提取关键信息和行动项。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：小圆片能夹在衣领或作为项链佩戴，桌面、身体与手机之间具有不同使用姿态。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "厂商安全声明不代表所有数据默认永不离开设备；生成摘要可能遗漏否定或条件，重要决定需要回听原音确认。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于硬币式佩戴录音与可追问的AI笔记。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "硬币形双麦克风录音器、实体按键、夹持/磁吸附件和充电收纳部件；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "配套服务对音频转录、识别说话人、生成结构化摘要，Anka问答可从记录中提取关键信息和行动项",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "初次设置需App登录；云端转录和存储开关具有不同数据流程，免费月额度及Pro/Unlimited权益分别核对",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "soundcore Work官方购买页",
+        "url": "https://www.soundcore.com/products/d3200-soundcore-work-ai-voice-recorder",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "soundcore Work官方功能说明",
+        "url": "https://www.soundcore.com/soundcore-work-ai-voice-recorder",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "ticnote-pods-wifi",
+    "name": "Mobvoi TicNote Pods WiFi",
+    "brand": "Mobvoi / TicNote",
+    "category": "audio",
+    "tagline": "个人随身记录入口与TicNote Agent",
+    "officialUrl": "https://ticnote.ai/products/ticnote-pods-wifi-ai-transcription-earbuds",
+    "status": "on_sale",
+    "statusEvidence": "官方单机商品页显示美元价格和Add to cart；公开商品JSON available=true，可个人购买一件，无企业采购门槛。未把WiFi/4G容量或Enterprise软件包分拆计数。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$219.99",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "耳机采集通话、盒子采集现场，TicNote服务转录并整理摘要、翻译及可检索笔记",
+      "dependency": "需要TicNote账号、网络服务及适用转录额度；本条WiFi耳机不具备4G版独立蜂窝链路，离线采集与在线AI整理分开。"
+    },
+    "highlights": [
+      "个人随身记录入口与TicNote Agent",
+      "无线耳机、带录音按键和麦克风的充电盒、Wi-Fi传输",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：把电话与现场对话交给不同拾音部件，仍在同一个个人笔记库里回看。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：频繁在通勤、课程或个人工作中记录，愿意管理云端笔记权限并逐条确认输出的人。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与普通耳机/手表加录音App及专用录音器竞争，入口便利度和后续检索才是购买取舍，不能只看AI标签。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对无线耳机、带录音按键和麦克风的充电盒、Wi-Fi传输，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "耳机采集通话、盒子采集现场，TicNote服务转录并整理摘要、翻译及可检索笔记。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：耳机与盒子保留常见消费耳机形态，盒子的录音控制让它成为独立工作入口。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "持续戴在身体上的设备容易采集旁人声音；生成文档和翻译可能扩大原话含义，健康功能不作为医疗效果证据。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于个人随身记录入口与TicNote Agent。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "无线耳机、带录音按键和麦克风的充电盒、Wi-Fi传输；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "耳机采集通话、盒子采集现场，TicNote服务转录并整理摘要、翻译及可检索笔记",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要TicNote账号、网络服务及适用转录额度；本条WiFi耳机不具备4G版独立蜂窝链路，离线采集与在线AI整理分开。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mobvoi TicNote Pods WiFi官方单机购买页",
+        "url": "https://ticnote.ai/products/ticnote-pods-wifi-ai-transcription-earbuds",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开并核实公开商品JSON可售；Pods产品图片沿用Enterprise命名，但所购为普通WiFi单机，个人零售可用。"
+      },
+      {
+        "title": "TicNote官方常见问题",
+        "url": "https://ticnote.ai/pages/faq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "TicNote官方产品生态",
+        "url": "https://ticnote.ai/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "ticnote-watch",
+    "name": "Mobvoi TicNote Watch",
+    "brand": "Mobvoi / TicNote",
+    "category": "wearables",
+    "tagline": "个人随身记录入口与TicNote Agent",
+    "officialUrl": "https://ticnote.ai/products/ticnote-watch",
+    "status": "on_sale",
+    "statusEvidence": "官方单机商品页显示美元价格和Add to cart；公开商品JSON available=true，可个人购买一件，无企业采购门槛。未把WiFi/4G容量或Enterprise软件包分拆计数。",
+    "regions": [
+      "所列官方区域或授权零售渠道；配送地址与服务支持需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。"
+    },
+    "price": {
+      "text": "US$199",
+      "note": "核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "TicNote Agent将腕上录音转为转录、会议摘要、研究文档或可检索知识库，另有翻译和字幕功能",
+      "dependency": "需要TicNote账号、网络服务及适用转录额度；腕上录音与在线转录、摘要分开，不默认可脱离所有手机或云端依赖。"
+    },
+    "highlights": [
+      "个人随身记录入口与TicNote Agent",
+      "腕表屏幕、实体按钮、麦克风与日常运动传感器",
+      "AI与联网服务边界单列",
+      "个人可使用的实体产品"
+    ],
+    "analysis": {
+      "demand": "需求假设：有想法或需要临时记录时不想翻找手机，希望直接从手腕启动记录。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。",
+      "userProfile": "画像推断：频繁在通勤、课程或个人工作中记录，愿意管理云端笔记权限并逐条确认输出的人。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。",
+      "competition": "案头判断：与普通耳机/手表加录音App及专用录音器竞争，入口便利度和后续检索才是购买取舍，不能只看AI标签。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。",
+      "supplyChain": "公开资料可核对腕表屏幕、实体按钮、麦克风与日常运动传感器，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。",
+      "technology": "TicNote Agent将腕上录音转为转录、会议摘要、研究文档或可检索知识库，另有翻译和字幕功能。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。",
+      "aesthetics": "图示观察：圆形腕表屏幕和表带是熟悉的穿戴语言，AI记录入口比健康评分更能体现本款定位。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。",
+      "risks": "持续戴在身体上的设备容易采集旁人声音；生成文档和翻译可能扩大原话含义，健康功能不作为医疗效果证据。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。",
+      "opportunity": "市场差异主要在于个人随身记录入口与TicNote Agent。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "按任务与形态作案头分类，无访谈、销量或市场份额证据。"
+    },
+    "architecture": [
+      {
+        "name": "实体输入",
+        "detail": "腕表屏幕、实体按钮、麦克风与日常运动传感器；仅功能层示意，非拆机。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与控制",
+        "detail": "设备把输入转为可处理的信息并接收用户操作；具体内部布局未知。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI功能",
+        "detail": "TicNote Agent将腕上录音转为转录、会议摘要、研究文档或可检索知识库，另有翻译和字幕功能",
+        "evidence": "official"
+      },
+      {
+        "name": "服务依赖",
+        "detail": "需要TicNote账号、网络服务及适用转录额度；腕上录音与在线转录、摘要分开，不默认可脱离所有手机或云端依赖。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户反馈",
+        "detail": "用户通过声音、屏幕或配套应用接收结果，并对重要信息复核。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mobvoi TicNote Watch官方单机购买页",
+        "url": "https://ticnote.ai/products/ticnote-watch",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已打开官方腕表单机购买页并核实公开商品JSON可售，个人消费者可单件下单。"
+      },
+      {
+        "title": "TicNote官方常见问题",
+        "url": "https://ticnote.ai/pages/faq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      },
+      {
+        "title": "TicNote官方产品生态",
+        "url": "https://ticnote.ai/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  }
+]

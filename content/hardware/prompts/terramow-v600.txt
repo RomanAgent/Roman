@@ -1,0 +1,10 @@
+Use case: infographic-diagram. Create an accurate-looking but explicitly CONCEPTUAL exploded functional illustration of one TerraMow V600, for a consumer hardware research directory.
+The input photos are official exterior and usage references, NOT teardown evidence. Preserve the exact recognizable product silhouette and generation. Focus on ONE device; omit bundle duplicates, phones, animals, people, warranty badges and promotional scenery.
+White background, restrained neutral grayscale industrial rendering, thin alignment leader lines, generous space, clear module separation, small assembled exterior reference in lower right. Landscape 4:3. Use short English functional labels only.
+Known public function: 三摄TerraVision视觉进行自动建图、边界理解和避障，无需传统边界线或RTK天线。
+Functional layers: 三摄感知: TerraVision视觉观察草坪。 (official) | 建图决策: 边界、地图更新与障碍判断。 (official) | 割草执行: 轮驱和刀盘完成维护。 (official) | 能源停靠: 电池及充电基站。 (official) | App服务: 任务、区域及远程连接。 (official).
+Unknown internal structure must be smooth generic functional blocks labelled CONCEPT. Do not invent real PCB traces, chip names, exact internal locations, connector counts, batteries or sensor models. Software and cloud services must be separate schematic callouts outside the physical device. Do not depict any unverified internal position as actual engineering.
+Do not add specifications, numeric performance, capacities, clinical accuracy, chip part numbers, suction power or marketing claims not explicitly supplied. Do not claim medical diagnosis or health improvement. Prefer a small set of clearly readable modules over decorative detail. No futuristic glow or colorful circuitry.
+Title exactly: "TerraMow V600". Subtitle: "FUNCTIONAL CONCEPT". Footer exactly and clearly readable: "AI CONCEPT · NOT A TEARDOWN".
+
+Ignore all award logos, certification badges, marketing text and colored visual overlays in the reference; none should be reproduced.

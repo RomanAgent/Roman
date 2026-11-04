@@ -1,0 +1,249 @@
+[
+  {
+    "id": "terramow-v600",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/terramow-v600/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "TerraMow V600的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/terramow-v600.txt",
+        "referencePaths": [
+          "assets/hardware/terramow-v600/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "lymow-one-plus",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/lymow-one-plus/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Lymow One Plus的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/lymow-one-plus.txt",
+        "referencePaths": [
+          "assets/hardware/lymow-one-plus/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "anthbot-genie",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/anthbot-genie/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ANTHBOT Genie 系列的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/anthbot-genie.txt",
+        "referencePaths": [
+          "assets/hardware/anthbot-genie/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "yarbo-y40-lawn-mower-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/yarbo-y40-lawn-mower-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Yarbo Y40 + Lawn Mower Pro的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/yarbo-y40-lawn-mower-pro.txt",
+        "referencePaths": [
+          "assets/hardware/yarbo-y40-lawn-mower-pro/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "sunseeker-x5",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/sunseeker-x5/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Sunseeker X5的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/sunseeker-x5.txt",
+        "referencePaths": [
+          "assets/hardware/sunseeker-x5/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "beatbot-aquasense-x",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/beatbot-aquasense-x/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Beatbot AquaSense X的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/beatbot-aquasense-x.txt",
+        "referencePaths": [
+          "assets/hardware/beatbot-aquasense-x/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "posha-robot-chef",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/posha-robot-chef/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Posha Robot Chef的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/posha-robot-chef.txt",
+        "referencePaths": [
+          "assets/hardware/posha-robot-chef/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "upliance-2o-plus",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/upliance-2o-plus/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Upliance 2.O+的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/upliance-2o-plus.txt",
+        "referencePaths": [
+          "assets/hardware/upliance-2o-plus/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "anova-precision-oven-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/anova-precision-oven-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Anova Precision Oven 2.0的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/anova-precision-oven-2.txt",
+        "referencePaths": [
+          "assets/hardware/anova-precision-oven-2/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "cuboai-monitor-3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/cuboai-monitor-3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "CuboAi Smart Baby Monitor 3的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/cuboai-monitor-3.txt",
+        "referencePaths": [
+          "assets/hardware/cuboai-monitor-3/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "aqara-doorbell-g410",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/aqara-doorbell-g410/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Aqara Doorbell Camera Hub G410的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/aqara-doorbell-g410.txt",
+        "referencePaths": [
+          "assets/hardware/aqara-doorbell-g410/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "oclean-x-ultra-s",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/oclean-x-ultra-s/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Oclean X Ultra S的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/oclean-x-ultra-s.txt",
+        "referencePaths": [
+          "assets/hardware/oclean-x-ultra-s/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "aqara-camera-hub-g5-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/aqara-camera-hub-g5-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Aqara Camera Hub G5 Pro的AI生成概念结构图，隐藏内部为功能推断",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/aqara-camera-hub-g5-pro.txt",
+        "referencePaths": [
+          "assets/hardware/aqara-camera-hub-g5-pro/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  }
+]

@@ -101,7 +101,9 @@
         "note": "已打开；说明 StarSight 和 SmartPlan。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "dreame-x50-ultra",
@@ -187,7 +189,9 @@
         "note": "已打开并定位购物按钮和 AI RGB / 3D structured light 说明；参数为厂商声明。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "narwal-flow-2",
@@ -273,7 +277,9 @@
         "note": "已打开；基础基站版本可购买，双摄与 FlowWash 说明来自厂商。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "segway-navimow-i105",
@@ -368,7 +374,9 @@
         "note": "已查看；页面显示 Sold Out，地区情况不同。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "mammotion-luba-3-awd",
@@ -453,7 +461,9 @@
         "note": "已打开；不同规格出现购物入口与缺货信息，故谨慎列待复核。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "birdbuddy-nook-solar",
@@ -549,7 +559,9 @@
         "note": "已打开；Nook Solar 列价并提供购买入口。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "ring-wired-doorbell-4k-pro",
@@ -646,7 +658,9 @@
         "note": "已打开；说明部分机型、美国/加拿大英语和订阅条件，不能泛化为所有地区。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "google-nest-cam-battery",
@@ -733,7 +747,9 @@
         "note": "已打开；Buy、内置识别与会员差异均列明。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "reolink-trackmix-wifi",
@@ -826,7 +842,9 @@
         "note": "已打开；本次返回 No Product Found，因此标注待复核。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "insta360-link-2",
@@ -933,7 +951,9 @@
         "note": "官方指南说明与电脑连接方式，不等同手机 App 摄像机。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
   },
   {
     "id": "obsbot-tiny-2",
@@ -1029,7 +1049,9 @@
         "note": "已查阅官方规格，图像传感器和视频格式来自厂商。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
   },
   {
     "id": "obsbot-tail-air",
@@ -1124,7 +1146,9 @@
         "note": "已查阅；Tail Air 列价并提供 Buy Now。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
   },
   {
     "id": "brisk-it-zelos-450",
@@ -1211,7 +1235,9 @@
         "note": "已打开；列库存、购物入口、AI 生成食谱和订阅提示，自动烹饪效果为厂商声明。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "brisk-it-neoma-oven",
@@ -1298,6 +1324,8 @@
         "note": "已打开；库存、购物入口、AI 餐单和订阅提示明确。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

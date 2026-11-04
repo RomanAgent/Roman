@@ -1,0 +1,450 @@
+[
+  {
+    "id": "elemind-sleep-headband",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/elemind-sleep-headband/product.png",
+        "sourceUrl": "https://elemindtech.com/products/elemind",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0766/3543/9378/files/PDP_STATIC1_1.png?v=1776640070",
+        "caption": "Elemind Sleep Headband 官方产品图",
+        "alt": "Elemind Sleep Headband 产品主图",
+        "credit": "Elemind",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/elemind-sleep-headband/reference.png",
+        "sourceUrl": "https://elemindtech.com/products/elemind",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0766/3543/9378/files/phone_screen_for_website_0c3340ff-8217-49e7-be5e-084ded526cbe.png?v=1746548141",
+        "caption": "Elemind 官方App记录界面参考（示例数据）",
+        "alt": "Elemind App官方睡眠信息界面示例",
+        "credit": "Elemind",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "frenz-brainband",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/frenz-brainband/product.png",
+        "sourceUrl": "https://frenzband.com/products/frenz-brainband",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0666/9330/0444/files/Grey_a30bcd9b-32b1-4cc0-9eb6-782cffa7e79c.png?v=1706933793",
+        "caption": "FRENZ Brainband 官方产品图",
+        "alt": "FRENZ Brainband 产品主图",
+        "credit": "Earable Neuroscience",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/frenz-brainband/reference.jpg",
+        "sourceUrl": "https://frenzband.com/products/frenz-brainband",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0666/9330/0444/files/grey-05.jpg?v=1710008239",
+        "caption": "FRENZ Brainband 官方外观 / 使用参考图",
+        "alt": "FRENZ Brainband 参考图",
+        "credit": "Earable Neuroscience",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "hohem-isteady-m7",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/hohem-isteady-m7/product.jpg",
+        "sourceUrl": "https://store.hohem.com/products/hohem-isteady-m7-big-phone-gimbal",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0232/8182/7918/files/M7_-_7.webp?v=1780045650",
+        "caption": "Hohem iSteady M7 官方产品图（相机/手机用于展示，非默认随附）",
+        "alt": "Hohem iSteady M7 产品主图",
+        "credit": "Hohem",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/hohem-isteady-m7/reference.jpg",
+        "sourceUrl": "https://store.hohem.com/products/hohem-isteady-m7-big-phone-gimbal",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0232/8182/7918/files/M7_-_1.webp?v=1780045606",
+        "caption": "Hohem iSteady M7 官方外观 / 使用参考图（相机/手机用于展示，非默认随附）",
+        "alt": "Hohem iSteady M7 参考图",
+        "credit": "Hohem",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "zhiyun-smooth-5s-ai",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/zhiyun-smooth-5s-ai/product.png",
+        "sourceUrl": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0049/0101/1502/files/5SAI_a3d725bd-5286-4bf8-b8b5-d2955f32e15a.png?v=1783504812",
+        "caption": "ZHIYUN Smooth 5S AI 官方产品图",
+        "alt": "ZHIYUN Smooth 5S AI 产品主图",
+        "credit": "ZHIYUN 智云",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/zhiyun-smooth-5s-ai/reference.jpg",
+        "sourceUrl": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0049/0101/1502/files/5SAI.jpg?v=1719289494",
+        "caption": "ZHIYUN Smooth 5S AI 官方外观 / 使用参考图",
+        "alt": "ZHIYUN Smooth 5S AI 参考图",
+        "credit": "ZHIYUN 智云",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "feiyu-scorp-3",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/feiyu-scorp-3/product.jpg",
+        "sourceUrl": "https://store.feiyu-tech.com/products/feiyu-scorp-3",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1759/9593/files/FeiyuSCORP3CameraGimbal_2_98159952-91a4-4a05-92a3-a72dabb0cf0c.webp?v=1773822434",
+        "caption": "Feiyu SCORP 3 官方产品图（相机/手机用于展示，非默认随附）",
+        "alt": "Feiyu SCORP 3 产品主图",
+        "credit": "FeiyuTech 飞宇",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/feiyu-scorp-3/reference.jpg",
+        "sourceUrl": "https://store.feiyu-tech.com/products/feiyu-scorp-3",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1759/9593/files/FeiyuSCORP3CameraGimbal_3.webp?v=1773822434",
+        "caption": "Feiyu SCORP 3 官方外观 / 使用参考图（相机/手机用于展示，非默认随附）",
+        "alt": "Feiyu SCORP 3 参考图",
+        "credit": "FeiyuTech 飞宇",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "muse-s-athena",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/muse-s-athena/product.jpg",
+        "sourceUrl": "https://choosemuse.com/products/muse-s-athena",
+        "sourceImageUrl": "https://choosemuse.com/cdn/shop/files/01_Athena-ProductImage-9.jpg?v=1742256253&width=1000",
+        "caption": "Muse S Athena 官方产品图",
+        "alt": "Muse S Athena 产品主图",
+        "credit": "Muse / InteraXon",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/muse-s-athena/reference.jpg",
+        "sourceUrl": "https://choosemuse.com/products/muse-s-athena",
+        "sourceImageUrl": "https://choosemuse.com/cdn/shop/files/03_Athena-ProductImage.jpg?v=1742256253&width=1000",
+        "caption": "Muse S Athena 官方外观 / 使用参考图",
+        "alt": "Muse S Athena 参考图",
+        "credit": "Muse / InteraXon",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "eight-sleep-pod-6",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/eight-sleep-pod-6/product.jpg",
+        "sourceUrl": "https://www.eightsleep.com/product/pod-cover/",
+        "sourceImageUrl": "https://res.cloudinary.com/eightsleep/image/upload/c_fill,g_auto,f_auto,dpr_1.0,h_1000,q_80/v1790086327/pod6-shop-dual-cover-lead-plate-white-pillows.jpg",
+        "caption": "Eight Sleep Pod 6 官方产品图",
+        "alt": "Eight Sleep Pod 6 产品主图",
+        "credit": "Eight Sleep",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/eight-sleep-pod-6/reference.png",
+        "sourceUrl": "https://www.eightsleep.com/product/pod-cover/",
+        "sourceImageUrl": "https://res.cloudinary.com/eightsleep/image/upload/c_crop,w_2824,h_1215,x_0,y_124/c_fill,g_auto,f_auto,dpr_1.0,w_632,h_272,q_80/v1789596959/pod6-intro-card-header-v2.png",
+        "caption": "Eight Sleep Pod 6 官方外观 / 使用参考图",
+        "alt": "Eight Sleep Pod 6 参考图",
+        "credit": "Eight Sleep",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dji-neo-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dji-neo-2/product.jpg",
+        "sourceUrl": "https://store.dji.com/de/product/dji-neo-2",
+        "sourceImageUrl": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/e13298d62ca4306e571b5d920a830e82@ultra.jpg?format=webp",
+        "caption": "DJI Neo 2 官方产品图",
+        "alt": "DJI Neo 2 产品主图",
+        "credit": "DJI",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dji-neo-2/reference.jpg",
+        "sourceUrl": "https://store.dji.com/de/product/dji-neo-2",
+        "sourceImageUrl": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/61dae2255c85099d9fcab59698d6acbf@ultra.jpg?format=webp",
+        "caption": "DJI Neo 2 官方外观 / 使用参考图",
+        "alt": "DJI Neo 2 参考图",
+        "credit": "DJI",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dji-mini-5-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dji-mini-5-pro/product.jpg",
+        "sourceUrl": "https://store.dji.com/au/product/dji-mini-5-pro",
+        "sourceImageUrl": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/2738b91eed7c870d58218efd2cb93541@ultra.jpg?format=webp",
+        "caption": "DJI Mini 5 Pro 官方产品图",
+        "alt": "DJI Mini 5 Pro 产品主图",
+        "credit": "DJI",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dji-mini-5-pro/reference.jpg",
+        "sourceUrl": "https://store.dji.com/au/product/dji-mini-5-pro",
+        "sourceImageUrl": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/1c832f9e1bb82fb5df4b0c2281d71412@ultra.jpg?format=webp",
+        "caption": "DJI Mini 5 Pro 官方外观 / 使用参考图",
+        "alt": "DJI Mini 5 Pro 参考图",
+        "credit": "DJI",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dji-rs-4-mini",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dji-rs-4-mini/product.jpg",
+        "sourceUrl": "https://store.dji.com/product/dji-rs-4-mini",
+        "sourceImageUrl": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/f5adc1d3640456fcce261b4b0250f291@ultra.jpg?format=webp",
+        "caption": "DJI RS 4 Mini（智能跟随组合） 官方产品图（相机/手机用于展示，非默认随附）",
+        "alt": "DJI RS 4 Mini（智能跟随组合） 产品主图",
+        "credit": "DJI",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dji-rs-4-mini/reference.jpg",
+        "sourceUrl": "https://store.dji.com/product/dji-rs-4-mini",
+        "sourceImageUrl": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/3e7647055a5c3f8fc34fe1c9dbc8dedb@ultra.jpg?format=webp",
+        "caption": "DJI RS 4 Mini（智能跟随组合） 官方外观 / 使用参考图（相机/手机用于展示，非默认随附）",
+        "alt": "DJI RS 4 Mini（智能跟随组合） 参考图",
+        "credit": "DJI",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "hohem-isteady-mt3-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/hohem-isteady-mt3-pro/product.jpg",
+        "sourceUrl": "https://store.hohem.com/products/hohem-isteady-mt3-pro-camera-gimbal-stabilizer",
+        "sourceImageUrl": "https://store.hohem.com/cdn/shop/files/MT3_Pro_-_3_6a66d4b7-ec38-45c3-81d5-19801514b422.jpg?v=1776335510&width=2000",
+        "caption": "Hohem iSteady MT3 Pro 官方产品图（相机/手机用于展示，非默认随附）",
+        "alt": "Hohem iSteady MT3 Pro 产品主图",
+        "credit": "Hohem",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/hohem-isteady-mt3-pro/reference.jpg",
+        "sourceUrl": "https://store.hohem.com/products/hohem-isteady-mt3-pro-camera-gimbal-stabilizer",
+        "sourceImageUrl": "https://store.hohem.com/cdn/shop/files/MT3_Pro_-_1.jpg?v=1777275305&width=2000",
+        "caption": "Hohem iSteady MT3 Pro 官方外观 / 使用参考图（相机/手机用于展示，非默认随附）",
+        "alt": "Hohem iSteady MT3 Pro 参考图",
+        "credit": "Hohem",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "insta360-flow-2-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/insta360-flow-2-pro/product.png",
+        "sourceUrl": "https://store.insta360.com/product/flow-2-pro",
+        "sourceImageUrl": "https://res.insta360.com/dynamic/store/fbcdc1ca1ba8f05015d9a9919c3968fd/391_e3aefc32-78fb-4ba4-b3e0-b8c9a026573d.png",
+        "caption": "Insta360 Flow 2 Pro（AI Tracker组合） 官方产品图（相机/手机用于展示，非默认随附）",
+        "alt": "Insta360 Flow 2 Pro（AI Tracker组合） 产品主图",
+        "credit": "Insta360",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/insta360-flow-2-pro/reference.jpg",
+        "sourceUrl": "https://store.insta360.com/product/flow-2-pro",
+        "sourceImageUrl": "https://res.insta360.com/dynamic/store/0b3fb422477f2a841609975d3536134b/586_04beaf19-f53e-4293-ae10-87a55e42a854.jpg",
+        "caption": "官方DockKit路径参考：该路径与外置AI Tracker功能不同（相机/手机用于展示，非默认随附）",
+        "alt": "Insta360 Flow 2 Pro官方Apple原生跟踪兼容说明",
+        "credit": "Insta360",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "anker-solix-solarbank-3-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/anker-solix-solarbank-3-pro/product.png",
+        "sourceUrl": "https://www.anker.com/de/products/a17c5",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/1054/0698/8369/files/A17C53Z1_10667d0d-0e7f-412c-a54c-80f0afff708c.png?v=1784771812&width=1600",
+        "caption": "Anker SOLIX Solarbank 3 E2700 Pro官方产品图",
+        "alt": "Anker SOLIX Solarbank 3 E2700 Pro官方产品图",
+        "credit": "Anker SOLIX",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/anker-solix-solarbank-3-pro/reference.jpg",
+        "sourceUrl": "https://www.anker.com/de/products/a17c5",
+        "sourceImageUrl": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cf7994fc-c6bb-4874-9c7e-1c1394375394.__CR0,1,1464,600_PT0_SX1464_V1___.jpg",
+        "caption": "官方光伏输入组合参考；太阳能板需按套餐另行确认，图中数值为厂商宣传",
+        "alt": "官方光伏输入组合参考；太阳能板需按套餐另行确认，图中数值为厂商宣传",
+        "credit": "Anker SOLIX",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "zendure-solarflow-2400-ac-plus",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/zendure-solarflow-2400-ac-plus/product.png",
+        "sourceUrl": "https://zendure.com/products/zendure-solarflow-2400-ac-plus",
+        "sourceImageUrl": "https://zendure.com/cdn/shop/files/2400AC_-reddot.png?v=1777288956&width=1080",
+        "caption": "Zendure SolarFlow 2400 AC+官方产品图",
+        "alt": "Zendure SolarFlow 2400 AC+官方产品图",
+        "credit": "Zendure",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/zendure-solarflow-2400-ac-plus/reference.jpg",
+        "sourceUrl": "https://zendure.com/products/zendure-solarflow-2400-ac-plus",
+        "sourceImageUrl": "https://zendure.com/cdn/shop/files/2400AC_-reddot_2.jpg?v=1777288954&width=1080",
+        "caption": "官方扩展电池叠放参考；扩展模块不默认包含于基础配置",
+        "alt": "官方扩展电池叠放参考；扩展模块不默认包含于基础配置",
+        "credit": "Zendure",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "bryte-balance-smart-bed",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/bryte-balance-smart-bed/product.webp",
+        "sourceUrl": "https://www.bryte.com/shop-bryte",
+        "sourceImageUrl": "https://cdn.prod.website-files.com/620c829f8cae7c794703e81a/6aa7969a47d62244c90b024c_signature-wide.webp",
+        "caption": "Bryte Balance Smart Bed官方产品图",
+        "alt": "Bryte Balance Smart Bed官方产品图",
+        "credit": "Bryte",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/bryte-balance-smart-bed/reference.webp",
+        "sourceUrl": "https://www.bryte.com/shop-bryte",
+        "sourceImageUrl": "https://cdn.prod.website-files.com/620c829f8cae7c794703e81a/6ac8a6faa24b03c201d177fd_2.webp",
+        "caption": "官方不同舒适层选项对照；本目录按Bryte Balance产品系列计一款",
+        "alt": "官方不同舒适层选项对照；本目录按Bryte Balance产品系列计一款",
+        "credit": "Bryte",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ting-home-safety-sensor",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ting-home-safety-sensor/product.jpg",
+        "sourceUrl": "https://shop.tingfire.com/products/ting-sensor-and-1-year-service",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0700/7220/5539/files/TingSensor-Fixed.jpg?v=1731775049",
+        "caption": "Ting Sensor with Fire Prevention Service官方产品图",
+        "alt": "Ting Sensor with Fire Prevention Service官方产品图",
+        "credit": "Ting / Ting Labs",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ting-home-safety-sensor/reference.jpg",
+        "sourceUrl": "https://shop.tingfire.com/products/ting-sensor-and-1-year-service",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0700/7220/5539/files/sensorandphone-3.jpg?v=1731775049",
+        "caption": "官方App状态界面与传感器参考，界面数值为演示",
+        "alt": "官方App状态界面与传感器参考，界面数值为演示",
+        "credit": "Ting / Ting Labs",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": []
+  }
+]

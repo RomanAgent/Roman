@@ -1,0 +1,10 @@
+Use case: infographic-diagram. Create an accurate-looking but explicitly CONCEPTUAL exploded functional illustration of one ANTHBOT Genie 系列, for a consumer hardware research directory.
+The input photos are official exterior and usage references, NOT teardown evidence. Preserve the exact recognizable product silhouette and generation. Focus on ONE device; omit bundle duplicates, phones, animals, people, warranty badges and promotional scenery.
+White background, restrained neutral grayscale industrial rendering, thin alignment leader lines, generous space, clear module separation, small assembled exterior reference in lower right. Landscape 4:3. Use short English functional labels only.
+Known public function: 全频段RTK与多相机AI视觉结合，进行障碍识别、边界判断和弱信号区域导航。
+Functional layers: 定位: RTK信号支持位置估计。 (official) | AI视觉: 多相机识别障碍与边界。 (official) | 规划: 区域地图和割草路径。 (official) | 移动切割: 轮驱与刀盘执行。 (official) | App连接: 调度、4G配置和远程状态。 (official).
+Unknown internal structure must be smooth generic functional blocks labelled CONCEPT. Do not invent real PCB traces, chip names, exact internal locations, connector counts, batteries or sensor models. Software and cloud services must be separate schematic callouts outside the physical device. Do not depict any unverified internal position as actual engineering.
+Do not add specifications, numeric performance, capacities, clinical accuracy, chip part numbers, suction power or marketing claims not explicitly supplied. Do not claim medical diagnosis or health improvement. Prefer a small set of clearly readable modules over decorative detail. No futuristic glow or colorful circuitry.
+Title exactly: "ANTHBOT Genie 系列". Subtitle: "FUNCTIONAL CONCEPT". Footer exactly and clearly readable: "AI CONCEPT · NOT A TEARDOWN".
+
+Ignore all award logos, certification badges, marketing text and colored visual overlays in the reference; none should be reproduced.

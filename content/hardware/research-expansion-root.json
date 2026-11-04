@@ -1,0 +1,1607 @@
+[
+  {
+    "id": "elemind-sleep-headband",
+    "name": "Elemind Sleep Headband",
+    "brand": "Elemind",
+    "category": "sleep",
+    "tagline": "把脑电采集与个性化声音反馈放进睡前头带。",
+    "officialUrl": "https://elemindtech.com/products/elemind",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "官网实际可见 Buy Now 按钮可用，默认商品数据 available=true；抓取文本中的 Sold out 是模板残留，已用可见页面核对。",
+    "regions": [
+      "美国",
+      "加拿大（具体结算确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "US$399",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "厂商称其通过EEG信号分析和AI Sleep Tailor适配声音反馈，用于个人睡眠体验；本目录未独立验证其效果。",
+      "dependency": "基础功能与部分睡眠统计随硬件提供；更细统计等属于可选Premium服务。需兼容手机App，公开标注的未来功能不当作已经交付。"
+    },
+    "highlights": [
+      "贴肤采集",
+      "信号处理",
+      "音频反馈"
+    ],
+    "analysis": {
+      "demand": "需求假设：愿意调整睡前习惯的个人希望减少入睡过程中的干扰，并获得比手表更直接的脑电信息。购买动机需和舒适度、实际佩戴频率共同验证，不能由官网成功案例推算总体效果。",
+      "userProfile": "画像推断：对消费神经科技感兴趣、能接受额前传感器接触和手机配套的成年人。对头带触感、声音和头发接触敏感的人，可能比参数更在意长期使用负担；不将其描述成适合所有人的医疗设备。",
+      "competition": "竞争判断：它同时面对EEG头带、普通睡眠音频、腕表记录与非硬件睡眠服务。只有个性化实时反馈对具体用户产生可感知增量，额外佩戴一件设备才有充分理由，品牌研究宣传不等于独立比较。",
+      "supplyChain": "公开页面列出脑电电极、运动传感和骨传导输出，完整芯片和代工信息未披露。供应链分析重点是电极接触一致性、软性材料、贴肤耐久、充电与清洁维护，而非猜测某家工厂或单机成本。",
+      "technology": "技术路径是信号采集、状态分析与声音反馈的闭环。与纯粹播放固定助眠音频相比，差异在于根据脑电和反馈适配；算法是否稳定识别个体状态，以及脱落接触的影响，仍需要实测。",
+      "aesthetics": "设计观察：柔软头带和隐藏电子模块让产品更接近寝具配件，而非实验室仪器。长发、侧卧和皮肤接触会影响感知舒适度；外形简洁无法直接证明整夜佩戴的接受度。",
+      "risks": "主要风险是效果个体差异、佩戴质量、数据解释与订阅边界。厂商明确消费健康用途，不应由营销文案推导诊断或治疗能力；购买前还需核对支持地区和未来功能是否真正上线。",
+      "opportunity": "可验证的市场差异是个性化反馈是否值得硬件与维护成本。适合先观察连续使用、停用原因和真实改善感受，再比较原有方案；本轮没有临床结果复核、用户访谈或留存数据。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "消费EEG睡眠反馈属于较窄场景，但已有替代设备和非硬件服务，冷门并不等于需求已验证。"
+    },
+    "architecture": [
+      {
+        "name": "贴肤采集",
+        "detail": "官网列出的EEG电极与运动感知用于读取状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "信号处理",
+        "detail": "厂商描述AI Sleep Tailor个性化适配。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频反馈",
+        "detail": "骨传导/声音输出用于反馈，效果未独立验证。",
+        "evidence": "official"
+      },
+      {
+        "name": "头带与供电",
+        "detail": "柔软绑带、充电和电源支撑可穿戴使用。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机与会员",
+        "detail": "App承载控制和统计，可选Premium扩展功能。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Elemind 官方商品页",
+        "url": "https://elemindtech.com/products/elemind",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际可见购买按钮与公开商品数据均可用；并未完成下单。"
+      },
+      {
+        "title": "Elemind FAQ",
+        "url": "https://elemindtech.com/pages/faq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "区分消费用途、会员与基本功能。"
+      },
+      {
+        "title": "Elemind 公开商品状态",
+        "url": "https://elemindtech.com/products/elemind.js",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "默认商品available=true，补充排除隐藏售罄模板误读。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "frenz-brainband",
+    "name": "FRENZ Brainband",
+    "brand": "Earable Neuroscience",
+    "category": "sleep",
+    "tagline": "以睡眠信号采集与个性化音频反馈构成个人夜间可穿戴设备。",
+    "officialUrl": "https://frenzband.com/products/frenz-brainband",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "官方商品数据available=true，可见页面存在Add to cart；本轮按美国当前购买页面记录，不把旧描述中的全球配送承诺扩展到全部地区。",
+    "regions": [
+      "美国官方店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "US$680",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方称FRENZ AI分析睡眠相关信号并选择个性化音频，硬件与手机App共同工作；医学或疗效宣称不作为本目录独立结论。",
+      "dependency": "当前商品页强调手机App、iOS兼容及服务条件，Android和其他地区支持需单独确认；订阅、租赁和买断方案分别核价。"
+    },
+    "highlights": [
+      "信号采集",
+      "AI状态分析",
+      "音频反馈"
+    ],
+    "analysis": {
+      "demand": "需求假设：对夜间状态和个性化音频有兴趣的人，可能希望把记录与反馈放在同一个可穿戴设备中。需要验证的是持续佩戴后是否减少操作负担，而不是将“AI睡眠”标签本身当成付费动机。",
+      "userProfile": "画像推断：愿意付出较高硬件费用并认真记录习惯的成年人，以及已有可穿戴经验的技术爱好者。手机系统兼容和睡姿会直接缩小适用人群，不能把所有睡眠困扰者当作同一目标市场。",
+      "competition": "竞争判断：它和Elemind、Muse、手表及传统声音方案竞争，也可能被更简单的寝具改变替代。不同方案在采集信号、反馈方式和持续费用上差异很大，需要固定同一使用任务才能比较。",
+      "supplyChain": "公开资料描述多模态生理感知和骨传导，未披露完整BOM或供应商合同。分析应关注传感器接触、织物舒适性、电池、音频耦合以及长期支持，不能通过外观推断真实代工和采购成本。",
+      "technology": "技术价值来自把信号转换为状态判断，再选择时机与音频内容。识别、解释和反馈是不同环节，任何一环都可能受佩戴和环境影响；本目录没有把厂商性能描述转写为实测准确率。",
+      "aesthetics": "设计观察：柔性织物与低轮廓模块更适合卧室环境，视觉上弱化实验器材感。头侧和后脑接触、出汗清洁及夜间翻身仍是工业设计的核心验证点，仅靠静态图片不能评价整夜舒适。",
+      "risks": "风险包括服务地区、系统兼容、订阅条款和个体体验差异。官网对效果的积极描述不能当作疾病治疗证据；涉及个人生理数据的保存和退出方式，也应在真实购买前核清。",
+      "opportunity": "待验证购买理由是设备能否带来稳定、低打扰的个人反馈流程。后续研究应纳入停用者和不愿佩戴者，观察数周使用及替代方案成本，本轮不提供商业成功概率或疗效建议。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "睡眠神经科技属于消费可穿戴的窄分支，需要验证舒适度与持续价值，不能以技术复杂度推定蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "信号采集",
+        "detail": "官方描述脑电等睡眠相关信号感知。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI状态分析",
+        "detail": "厂商FRENZ AI对信号作个性化解读。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频反馈",
+        "detail": "骨传导输出个性化音频。",
+        "evidence": "official"
+      },
+      {
+        "name": "织物与电源",
+        "detail": "可穿戴结构、电源和接触可靠性共同影响体验。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "App与服务",
+        "detail": "手机系统和服务方案是交付的一部分。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FRENZ 官方商品页",
+        "url": "https://frenzband.com/products/frenz-brainband",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "美国商品页面与可见加购控件。"
+      },
+      {
+        "title": "FRENZ 官方能力介绍",
+        "url": "https://frenzband.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "厂商AI、信号与个性化音频的描述。"
+      },
+      {
+        "title": "FRENZ 官方公开商品数据",
+        "url": "https://frenzband.com/products/frenz-brainband.js",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "当前默认款available=true；仅作核查时点依据。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "muse-s-athena",
+    "name": "Muse S Athena",
+    "brand": "Muse / InteraXon",
+    "category": "sleep",
+    "tagline": "脑电与多传感头带，加上订阅中的AI教练解释层。",
+    "officialUrl": "https://choosemuse.com/products/muse-s-athena",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商品页面提供Headband Only与会员组合入口，实看页面存在Add to Cart。不同套餐价格及Premium权益分开记录。",
+    "regions": [
+      "美国官网",
+      "其他官方地区店另查"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "US$474.99（所选美国页面方案）",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "硬件采集EEG等信号提供生物反馈，Premium中的Enso AI Coach把数据转成解释和计划。AI教练属于应用服务层，并非仅靠头带即可获得全部功能。",
+      "dependency": "基础记录与部分反馈随硬件提供，Enso等Premium功能另有订阅条件；要核对手机、账户、地区和方案。"
+    },
+    "highlights": [
+      "感知头带",
+      "状态估计",
+      "声音与界面"
+    ],
+    "analysis": {
+      "demand": "需求假设：已经练习冥想或关注自我状态的人，希望得到更具体的反馈和解释，而不是只看一串分数。AI教练是否让数据更容易行动化需要验证，不能把传感器数量视为用户价值的直接替代。",
+      "userProfile": "画像推断：有持续练习意愿、接受头带和App组合的成年人，以及对消费级脑科学工具感兴趣的人。初次尝试者和长期练习者的期望不同，后者可能更关注可复现反馈和数据可读性。",
+      "competition": "竞争判断：它面对EEG头带、腕表记录、冥想课程和普通音频App。优势假设是将生物反馈与解释整合，但订阅服务是否比现有工具更有用需要任务对照，而不是只比较厂商演示。",
+      "supplyChain": "官方披露EEG、心率与相关光学感知类别，具体部件供应商和校准流程未完整披露。分析重点是接触一致性、皮肤材料、织物清洁、充电及软件维护，完整成本仍需要实物或报价证据。",
+      "technology": "技术应分成信号采集、状态估计、反馈呈现和Enso解释层。后者是订阅服务，不代表所有推断都由设备离线完成；脑龄等派生指标的科学含义不能仅凭界面数字自行扩展。",
+      "aesthetics": "设计观察：灰色织物、低矮传感模块和可调头围接近日常可穿戴用品。设备是否影响发型、躺卧和清洁，会决定长期使用接受度；简洁外观不应掩盖传感接触所需的准备步骤。",
+      "risks": "关键风险是会员功能与硬件能力混淆，以及把状态评分当成诊断结论。购买时需确认具体套餐、续费与数据获取方式，长期舒适度和个人解释的稳定性尚需独立验证。",
+      "opportunity": "适合验证的市场问题是使用者能否根据反馈形成可持续练习。应同时记录主动使用、闲置原因和不认可AI建议的场景，本轮没有把品牌评价或用户星级当作可靠的留存统计。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人生物反馈是较窄的消费任务；已有设备和课程替代，AI解释需要证明持续价值。"
+    },
+    "architecture": [
+      {
+        "name": "感知头带",
+        "detail": "EEG及官方列出的多传感输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "状态估计",
+        "detail": "信号转为反馈与统计，准确性需独立验证。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音与界面",
+        "detail": "通过App呈现反馈和练习体验。",
+        "evidence": "official"
+      },
+      {
+        "name": "Enso AI教练",
+        "detail": "Premium中的解释与计划层。",
+        "evidence": "official"
+      },
+      {
+        "name": "织物与供电",
+        "detail": "可调头带、接触与充电形成可穿戴系统。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Muse S Athena 官方商品页",
+        "url": "https://choosemuse.com/products/muse-s-athena",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实看美国地区页面可加购，方案与价格需匹配。"
+      },
+      {
+        "title": "Muse Premium 与 Enso",
+        "url": "https://choosemuse.com/pages/premium-subscription",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "AI教练和基础硬件功能分开列出。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "eight-sleep-pod-6",
+    "name": "Eight Sleep Pod 6",
+    "brand": "Eight Sleep",
+    "category": "sleep",
+    "tagline": "在现有床垫上增加按个人状态适配的双侧温控系统。",
+    "officialUrl": "https://www.eightsleep.com/product/pod-cover/",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "当前美国官方购买页为Pod 6，提供尺寸选择与结算方案。未把仍出现Pod 5的地区缓存或旧宣传价格混入本条。",
+    "regions": [
+      "美国官网",
+      "其他地区型号与方案另查"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "US$2,899 起，Autopilot方案另计",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Autopilot依据个体偏好、睡眠相关感知和环境数据调整床面温控；可选底座功能需另核具体组合。厂商改善睡眠的描述未经本目录独立验证。",
+      "dependency": "联网、App和Autopilot方案是系统交付的重要部分；初始会员要求与续费条件需按结算页核对。不同床宽和配件不重复计数。"
+    },
+    "highlights": [
+      "床面覆盖层",
+      "状态感知",
+      "Autopilot"
+    ],
+    "analysis": {
+      "demand": "需求假设：对冷热敏感、伴侣温度偏好不同的家庭，可能愿意为不用频繁手动调节的床面温控付费。实际价值应与普通空调、床品和简单温控垫对照，不能单凭“智能睡眠”概念推导需求。",
+      "userProfile": "画像推断：有稳定卧室环境、较高预算并愿意接受联网寝具的个人或伴侣。租房搬迁、维护意愿和双人温差会影响采用；不宜将所有关注睡眠的人都归为同一价格敏感度群体。",
+      "competition": "竞争判断：温控寝具与智能床已有多种方案，竞争涉及体验、维护、订阅和售后。软件自适应可能是差异，但硬件温控的基本舒适性仍是前提，不能用应用分数掩盖实体使用问题。",
+      "supplyChain": "公开结构包含覆盖层与Hub，完整泵、传感器和控制板供应链未披露。分析关键点是液路或热管理、柔性材料、噪声、密封、清洁及大件物流，单机成本无法由营销图片可靠计算。",
+      "technology": "技术链路包括感知、个体建模、控制策略及热管理执行。模型需要在有限噪声、反应速度和舒适性之间取舍；自动调节并不意味着对每个人或每个夜晚都有确定效果。",
+      "aesthetics": "设计观察：可叠加覆盖层减少更换整床的门槛，Hub隐藏于床边或床下有利融入卧室。线缆、管路、夜间噪声和维护入口是实际审美的一部分，不能只评价正面产品照。",
+      "risks": "风险主要是订阅退出、维护故障、跨地区服务与大件退换成本。官网睡眠改善指标需要结合试验条件看待；本目录没有把健康评分或自动控制能力解释成疾病诊疗效果。",
+      "opportunity": "值得验证的是双人温差和夜间舒适问题能否被稳定解决。后续应记录真实使用频率、维护时间、伴侣反馈和停订后的体验，商业空间判断不能只引用品牌累计睡眠夜数。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "高价温控寝具面向较窄的家庭问题，但已有成熟替代和持续服务竞争。"
+    },
+    "architecture": [
+      {
+        "name": "床面覆盖层",
+        "detail": "官方展示覆盖现有床垫的温控层。",
+        "evidence": "official"
+      },
+      {
+        "name": "状态感知",
+        "detail": "采集官方描述的睡眠相关与环境信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "Autopilot",
+        "detail": "根据偏好与反馈适配控制策略。",
+        "evidence": "official"
+      },
+      {
+        "name": "Hub执行",
+        "detail": "实体热管理系统实现温度调整。",
+        "evidence": "official"
+      },
+      {
+        "name": "App与会员",
+        "detail": "方案、账户和可选底座决定完整体验。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Pod 6 官方购买页",
+        "url": "https://www.eightsleep.com/product/pod-cover/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "当前美国页为Pod6，价格与选配单列。"
+      },
+      {
+        "title": "Eight Sleep Autopilot",
+        "url": "https://www.eightsleep.com/au/autopilot/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "说明个体与环境数据驱动的自适应。"
+      },
+      {
+        "title": "首年Autopilot要求",
+        "url": "https://help.eightsleep.com/en_us/can-i-buy-the-pod-without-autopilot-S1BzQo5rn",
+        "kind": "official-spec",
+        "supports": [
+          "subscription"
+        ],
+        "note": "首期会员及后续选择需与当前结算页共同核对。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "hohem-isteady-m7",
+    "name": "Hohem iSteady M7",
+    "brand": "Hohem",
+    "category": "gimbals",
+    "tagline": "通过独立AI追踪器和可拆触屏，让一个人完成手机跟拍。",
+    "officialUrl": "https://store.hohem.com/products/hohem-isteady-m7-big-phone-gimbal",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "官方可见加购入口，公开商品数据M7 Standalone为available=true。不同灯光、麦克风套装合并为同一产品。",
+    "regions": [
+      "美国官方店",
+      "其它配送地区以结算为准"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "US$249.99（M7单机）",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方描述端侧AI追踪器可识别人、宠物、车辆和物体，配合三轴云台与可拆触屏选择目标。",
+      "dependency": "独立追踪模块支持手机原生相机和第三方App，具体手机兼容、磁吸安装及固件功能要单独确认。"
+    },
+    "highlights": [
+      "视觉输入",
+      "跟踪计算",
+      "三轴执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：独自拍摄、演示或运动记录的人希望减少反复调整手机和重拍的时间。远端可视取景是比普通防抖更具体的购买理由，但要在真实拍摄任务中证明它减少了多少准备与纠错。",
+      "userProfile": "画像推断：个人短视频作者、直播讲解者和需要录制家庭活动的人，已有性能足够的手机。愿不愿额外携带和配平云台，与拍摄频率相关，不能把所有手机用户都当成潜在付费客户。",
+      "competition": "竞争判断：手机云台、桌面追踪支架和手机内置裁切都有替代作用。M7的差异在独立追踪和远端预览组合；如果用户始终手持近距离拍摄，复杂配件可能反而增加使用负担。",
+      "supplyChain": "公开信息包含视觉追踪器、触屏、电机与夹具，未披露全部芯片和代工厂。分析重点是电机一致性、机械间隙、磁吸可靠性、传输和电池；不能从售价反推可信的零件采购成本。",
+      "technology": "技术由目标识别、轨迹估计、构图和三轴控制组成。端侧追踪减少对特定手机App的依赖，但遮挡、低光和快速运动仍需实测；厂家极限指标不等于每个手机组合都能达到。",
+      "aesthetics": "设计观察：可拆屏幕增强单人拍摄的操作可见性，较大的支架也更像拍摄工具。便携性、单手持握和夹具安装成本决定它是否能进入日常包中，而不是只在开箱时觉得专业。",
+      "risks": "风险包括重手机兼容、画面传输延迟、追踪丢失和配件漏购。不同套装不应混同为全部功能标配，长期云台闲置常与携带、配平和开机步骤有关，仍需实际用户研究。",
+      "opportunity": "可验证市场差异是个人创作时远端取景与自动跟拍的完整流程。应比较普通三脚架、另一款云台及M7的成片率和准备时间，本轮没有访谈、独立跟踪准确率或销量证据。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "手机跟拍工具已有成熟竞争；单人创作是明确细分任务，但不能把AI追踪本身视为新蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "视觉输入",
+        "detail": "AI跟踪模块或应用视觉输入识别目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "跟踪计算",
+        "detail": "将目标位置转换为构图和运动决策。",
+        "evidence": "official"
+      },
+      {
+        "name": "三轴执行",
+        "detail": "电机和关节保持拍摄方向，实际表现需测试。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "屏幕、按键或App提供个人操作入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池与结构",
+        "detail": "供电、夹具与配重影响持续拍摄。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hohem M7 官方商品页",
+        "url": "https://store.hohem.com/products/hohem-isteady-m7-big-phone-gimbal",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "单机和附件套装区分，商品数据确认可售。"
+      },
+      {
+        "title": "Hohem M7 官方技术介绍",
+        "url": "https://www.hohem.com/product/isteady-m7",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "描述端侧多目标追踪及可拆触屏。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "hohem-isteady-mt3-pro",
+    "name": "Hohem iSteady MT3 Pro",
+    "brand": "Hohem",
+    "category": "gimbals",
+    "tagline": "面向个人相机创作者的AI目标跟踪与远程取景组合。",
+    "officialUrl": "https://store.hohem.com/products/hohem-isteady-mt3-pro-camera-gimbal-stabilizer",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "当前官方Pro Kit页面有Add to Cart与明确套装清单。普通MT3、Pro及不同附件不拆成重复条目，本条按Pro配置分析。",
+    "regions": [
+      "美国官方店",
+      "其他可配送市场"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "Pro Kit参考US$359.99",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方称Pro内置视觉AI模型可跟踪人、宠物、车辆和物体；可拆屏幕与套装对焦电机服务单人相机拍摄。",
+      "dependency": "相机、镜头、线缆控制和载荷组合需按兼容表核验，AI构图不代表相机自动对焦与所有功能都受支持。"
+    },
+    "highlights": [
+      "视觉输入",
+      "跟踪计算",
+      "三轴执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：已经使用微单相机的个人创作者，希望一个人完成跟随构图、远程预览和部分镜头控制。用户真正需要的是减少拍摄协助，而非单纯追求更高承载或更多模式。",
+      "userProfile": "画像推断：个人影像作者、独立讲解者和轻量活动记录者，拥有相机和基础配平经验。它的学习成本高于手机支架，应按拍摄频率和镜头组合区分使用者，不把专业外观当成需求证据。",
+      "competition": "竞争判断：相机云台、自动追踪云台头、相机内置识别以及人工协作均是替代。Pro的多目标跟踪与控制组合值得比较，但和普通MT3的能力边界必须明确，不能只看同一系列名称。",
+      "supplyChain": "公开信息涉及视觉模块、可拆控制器、电机与可选对焦组件，供应商和完整BOM未知。分析重点是结构刚度、快装精度、马达调校、接口与线缆可靠性，以及个人购买后的维修成本。",
+      "technology": "技术要把目标识别、机械构图、相机对焦和镜头电机分开。内置AI可以减少对手机App的依赖，但相机型号与镜头能力依然影响结果，不能从一套演示画面推断所有组合兼容。",
+      "aesthetics": "设计观察：相机承载平台与可拆屏幕有明确工具属性，快装和手柄会影响使用的流畅感。消费者实际感受到的品质包括摆放稳定、线缆走向和收纳便利，而不仅是外壳材质。",
+      "risks": "主要风险是套装差异、相机兼容、配平失败与追踪遮挡。设备并不会替代所有拍摄判断，也不保证自动对焦；采购应把镜头、电机和控制线的真实组合放在一起核对。",
+      "opportunity": "值得验证的购买理由是降低独立拍摄中的协作需求。可比较同一拍摄脚本下的准备时间、追踪重置次数和有效片段，本轮未进行实拍或用户研究，也不以功能数量预测销量。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人相机跟拍是专业兴趣细分场景，市场已有多类替代，价值依赖实际工作流。"
+    },
+    "architecture": [
+      {
+        "name": "视觉输入",
+        "detail": "AI跟踪模块或应用视觉输入识别目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "跟踪计算",
+        "detail": "将目标位置转换为构图和运动决策。",
+        "evidence": "official"
+      },
+      {
+        "name": "三轴执行",
+        "detail": "电机和关节保持拍摄方向，实际表现需测试。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "屏幕、按键或App提供个人操作入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池与结构",
+        "detail": "供电、夹具与配重影响持续拍摄。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hohem MT3 Pro 官方商品页",
+        "url": "https://store.hohem.com/products/hohem-isteady-mt3-pro-camera-gimbal-stabilizer",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "当前加购入口、Pro Kit组成和AI视觉模块。"
+      },
+      {
+        "title": "Hohem AI追踪系列官方店",
+        "url": "https://store.hohem.com/collections/hohem-ai-tracker",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "区分手机与相机设备，不能将附件另作完整产品。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "zhiyun-smooth-5s-ai",
+    "name": "ZHIYUN Smooth 5S AI",
+    "brand": "ZHIYUN 智云",
+    "category": "gimbals",
+    "tagline": "把磁吸AI追踪模块、手机稳定与补光组合成个人拍摄工具。",
+    "officialUrl": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "官方Combo商品页有加购，公开系列商品数据Combo可售；同页部分预售模板文案与库存显示并存，交期仍按具体结算确认。",
+    "regions": [
+      "美国官方店",
+      "欧洲官方配送市场"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "Combo约US$153（商品数据促销参考）",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI追踪模块识别人脸或拍摄主体并联动三轴云台；不同套装是否包含追踪模块和补光附件必须核对。",
+      "dependency": "主要功能取决于安装的追踪器、手机和App组合。标准、Combo、Pro合并为一款，不把未随附的AI附件写成所有包装标配。"
+    },
+    "highlights": [
+      "视觉输入",
+      "跟踪计算",
+      "三轴执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：独自拍摄者希望获得稳定画面、自动跟随和可用的补光，而不搭建复杂机位。组合是否更省事取决于真实拍摄环境；只增加硬件部件并不必然减少用户需要操作的步骤。",
+      "userProfile": "画像推断：个人主播、手机视频作者以及经常录制人物内容的用户，愿意为可控画面携带配件。只偶尔随手记录的人可能更看重轻便，不能把手机摄影兴趣直接等同于购买高阶云台。",
+      "competition": "竞争判断：与Hohem、Insta360、DJI及普通自动追踪支架竞争，价格带和兼容性都很拥挤。差异需要落到独立AI模块、操作手感及补光组合，而不是只强调同类产品普遍具备的防抖。",
+      "supplyChain": "已公开磁吸追踪与灯光模块、三轴结构和电池类别，具体器件供应链未知。分析关键是夹具兼容、磁吸连接、电机调校、灯光散热和装配一致性，不推定厂商的真实采购合同与BOM。",
+      "technology": "技术链路由视觉识别、运动预测和三轴控制组成，追踪不等于相机本身的对焦。独立模块与App模式的兼容边界需要按所买套装确认，本轮没有在不同光照和遮挡下测试表现。",
+      "aesthetics": "设计观察：透明或半透明细节与外接模块突出技术工具感，补光也改变了握持重量。收纳、装配和竖屏转向是否自然，是比单张官方渲染图更值得观察的消费体验。",
+      "risks": "风险在于套餐复杂、同页促销与交期模板混杂，以及购买后发现缺少AI模块。兼容的手机尺寸和操作系统需要核对；没有现场测试时不能接受所有极限续航和追踪承诺为事实。",
+      "opportunity": "可验证的市场空间是稳定加追踪加灯光能否形成低摩擦的单人拍摄流程。建议比较同一任务中的装配时间和补拍次数，本轮未进行成片率测试或推断品牌市场占有率。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "手机云台属于竞争密集的消费创作工具，AI附件是体验差异，不意味着冷门蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "视觉输入",
+        "detail": "AI跟踪模块或应用视觉输入识别目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "跟踪计算",
+        "detail": "将目标位置转换为构图和运动决策。",
+        "evidence": "official"
+      },
+      {
+        "name": "三轴执行",
+        "detail": "电机和关节保持拍摄方向，实际表现需测试。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "屏幕、按键或App提供个人操作入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池与结构",
+        "detail": "供电、夹具与配重影响持续拍摄。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Smooth 5S AI Combo 官方店",
+        "url": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai-combo",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "按含AI模块的Combo理解功能，不另计套装。"
+      },
+      {
+        "title": "Smooth 5S AI 官方商品数据",
+        "url": "https://store.zhiyun-tech.com/products/zhiyun-smooth-5s-ai.js",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "核查时Combo available=true，价格以当前地区结算为准。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "feiyu-scorp-3",
+    "name": "Feiyu SCORP 3",
+    "brand": "FeiyuTech 飞宇",
+    "category": "gimbals",
+    "tagline": "将无需额外App的AI人脸跟踪放进个人相机云台。",
+    "officialUrl": "https://store.feiyu-tech.com/products/feiyu-scorp-3",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页有Add to cart，基础款公开商品数据available=true。Kit为附件组合，不另计数；相机需自行配备。",
+    "regions": [
+      "美国",
+      "英国",
+      "欧盟部分地区",
+      "加拿大"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "US$339.15（美国页面促销）",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方规格注明内置AI追踪模块和手势控制，不需额外App或配件。对象能力以官方当前说明为准，不能把人脸跟踪扩展成任意物体识别。",
+      "dependency": "相机和镜头的重量、配平与控制兼容需要分别确认，部分相机控制需线缆。AI模块不会自动解决相机本身的对焦与曝光。"
+    },
+    "highlights": [
+      "视觉输入",
+      "跟踪计算",
+      "三轴执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人相机作者想在对镜讲解或独立拍摄时保持构图，减少额外助手和手机控制环节。内置模块的价值应体现在准备更少，而不是把每个自动拍摄模式都理解为一种新增需求。",
+      "userProfile": "画像推断：拥有微单或单反并愿意学习配平的个人影像爱好者和创作者。设备重量、持握和镜头组合决定其接受范围，拍摄频率较低的人可能更愿意使用三脚架或轻量手机方案。",
+      "competition": "竞争判断：它面对其他相机云台及独立追踪机位，竞争基础包括兼容、手感、自动识别和售后。人脸追踪更适合明确人物场景，不能因为内置AI就认为能覆盖所有体育或宠物任务。",
+      "supplyChain": "公开规格披露主要机身材料、载荷和内置追踪模块，未披露具体主控与供应商。分析应看电机一致性、结构刚性、快装和线缆管理，真实成本与故障率仍需要供应与实测证据。",
+      "technology": "内置视觉追踪将感知与机械执行组合，但拍摄系统还包含镜头和相机控制。厂商的响应时间描述有条件，本目录不将它换算成真实场景成功率，也不猜测内部模型或芯片架构。",
+      "aesthetics": "设计观察：双手持握与快装结构强调个人创作工具属性，整洁走线和低学习成本比外壳装饰更重要。云台长期会经历背包运输、配重和多机位切换，这些都应计入审美与体验评价。",
+      "risks": "关键风险是相机兼容、AI追踪对象范围和套装配件的误读。产品页说的内置识别不能替代相机对焦，操作负担和电池维护也可能使设备闲置；尚无本轮独立使用数据。",
+      "opportunity": "值得验证的差异是内置模块能否使个人拍摄更可靠省时。应采用固定脚本对照普通三脚架和竞品，记录构图恢复、配平与有效片段，而不是根据宣传追踪距离判断商业前景。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人相机创作是专业兴趣场景，已有强竞争，内置AI需要通过实际流程优势获得购买理由。"
+    },
+    "architecture": [
+      {
+        "name": "视觉输入",
+        "detail": "AI跟踪模块或应用视觉输入识别目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "跟踪计算",
+        "detail": "将目标位置转换为构图和运动决策。",
+        "evidence": "official"
+      },
+      {
+        "name": "三轴执行",
+        "detail": "电机和关节保持拍摄方向，实际表现需测试。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "屏幕、按键或App提供个人操作入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池与结构",
+        "detail": "供电、夹具与配重影响持续拍摄。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SCORP 3 官方商品页",
+        "url": "https://store.feiyu-tech.com/products/feiyu-scorp-3",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "美国页面基础款可加购，促销价339.15美元。"
+      },
+      {
+        "title": "SCORP 3 官方规格",
+        "url": "https://store.feiyu-tech.com/pages/scorp-3-specs",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "明确内置AI跟踪与无需额外App的能力边界。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "insta360-flow-2-pro",
+    "name": "Insta360 Flow 2 Pro（AI Tracker组合）",
+    "brand": "Insta360",
+    "category": "gimbals",
+    "tagline": "以手机云台、系统跟踪与可选AI模块支持个人创作。",
+    "officialUrl": "https://store.insta360.com/product/flow-2-pro",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "官方Flow 2系列页面列出Pro的AI Tracker Bundle与正常发货说明，AI Tracker另有官方可加购页面。颜色与不同包装合并为一款。",
+    "regions": [
+      "美国官方店",
+      "其他官方地区另查"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "AI Tracker Bundle US$179.99",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Flow 2 Pro提供手机跟拍，AI Tracker模块进一步支持跨App与更多手机的视觉追踪；Apple DockKit和Insta360 App的对象范围不同。",
+      "dependency": "本条按含AI Tracker的组合分析。标准Pro套装不含该模块，系统版本、App和手机平台会改变可用功能，不把所有模式混为一种能力。"
+    },
+    "highlights": [
+      "视觉输入",
+      "跟踪计算",
+      "三轴执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人创作者需要在原生相机、直播和视频通话之间继续保持人物或目标构图。系统兼容是比单纯三轴稳定更清晰的问题，但是否频繁跨App使用还需要真实场景验证。",
+      "userProfile": "画像推断：手机视频作者、远程讲解者和希望记录家庭运动的个人，已拥有兼容手机。iOS与Android用户面对的功能路径不同，不能用一个演示账户的体验代表所有消费者。",
+      "competition": "竞争判断：它与其他AI手机云台、追踪支架及手机裁切竞争。模块与系统跟踪的组合提供灵活性，但也增加选购理解成本；买家可能更重视常用App是否顺手，而非模式数量。",
+      "supplyChain": "公开资料区分云台、磁吸夹具和AI Tracker，具体芯片及全套供应商未公开。分析重点是磁吸可靠性、视觉模块装配、马达调校和折叠寿命，不能将附件零售价直接当作制造成本。",
+      "technology": "技术上需分清DockKit、Insta360 Deep Track和外置AI Tracker三条识别路径。它们的对象范围和运行条件不同，不能因为某一模式能追宠物就推定全部相机App都能做到。",
+      "aesthetics": "设计观察：折叠、自拍杆与三脚架整合降低携带件数，小型AI模块却需要清晰的安装反馈。日常使用品质来自收纳、展开和切换操作，不应仅凭金属或透明细节判断高级感。",
+      "risks": "风险在于套装缺件、系统升级后的兼容变化和追踪丢失。标准版价格不包含所有AI能力，本目录因此以组合价说明；稳定的跨App体验仍需要在目标手机上验证。",
+      "opportunity": "可验证的购买理由是减少跨App拍摄时重新布置机位的步骤。应比较常用平台上的准备和恢复时间，并纳入不愿携带配件的人群，本轮不以兼容App数量预测市场规模。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "AI手机云台竞争密集，跨平台兼容属于实际细分需求而非天然空白市场。"
+    },
+    "architecture": [
+      {
+        "name": "视觉输入",
+        "detail": "AI跟踪模块或应用视觉输入识别目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "跟踪计算",
+        "detail": "将目标位置转换为构图和运动决策。",
+        "evidence": "official"
+      },
+      {
+        "name": "三轴执行",
+        "detail": "电机和关节保持拍摄方向，实际表现需测试。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "屏幕、按键或App提供个人操作入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池与结构",
+        "detail": "供电、夹具与配重影响持续拍摄。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Flow 2 Pro 官方系列商店",
+        "url": "https://store.insta360.com/product/flow-2-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "区分标准与AI Tracker组合，提供发货与方案信息。"
+      },
+      {
+        "title": "Flow 2 系列 AI Tracker 官方页",
+        "url": "https://store.insta360.com/product/flow-2-pro-ai-tracker",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "说明额外模块与跨App追踪能力，不另计一款主产品。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "dji-neo-2",
+    "name": "DJI Neo 2",
+    "brand": "DJI",
+    "category": "drones",
+    "tagline": "围绕人物跟拍、手掌起降与小型机身构建的消费飞行相机。",
+    "officialUrl": "https://store.dji.com/de/product/dji-neo-2",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "德国官方商品页显示In den Warenkorb与Jetzt Bestellen，包含裸机和套装选项。各电池、遥控器组合合并，不把页面可购推定为所有地区现货。",
+    "regions": [
+      "德国官方商店",
+      "英国目录有销售入口"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "€239 起（德国裸机页）",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方描述ActiveTrack人物跟踪、手势识别及视觉与LiDAR结合的障碍感知，属于视觉识别和决策型AI。",
+      "dependency": "跟踪和避障受环境、模式、固件及配件条件影响；不把自动跟拍理解为可在任意场所无人监管飞行。"
+    },
+    "highlights": [
+      "影像输入",
+      "人物与障碍识别",
+      "飞控与跟拍"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人旅行、运动或家庭记录希望让相机离开手臂，获得能跟随自己的视角。真正购买理由是省去掌镜协作，而不是单纯把小型飞机当成AI新奇玩具，使用场地会限制频次。",
+      "userProfile": "画像推断：重视轻量携带和人物记录的个人创作者、旅行者与运动爱好者。是否愿意提前规划场地、维护电池和学习控制，比对参数的兴趣更能决定实际长期使用。",
+      "competition": "竞争判断：它与其他自主跟拍飞行相机、普通无人机、运动相机和手机云台竞争。轻量和简化操作是差异，但不能把低学习门槛解释为没有操作边界或完全替代传统拍摄技能。",
+      "supplyChain": "公开信息包括视觉感知、前向LiDAR、云台和保护结构，供应商与完整BOM未知。分析关注电机一致性、轻量外壳、传感器标定、电池和维修件，飞行产品的售后成本不能从零售价简单推算。",
+      "technology": "技术链路是识别人物、估计运动、规划相对机位和控制飞行。视觉与其他传感可改善感知覆盖，但具体条件下的可靠性需实测；官方影像演示不代表所有遮挡和环境都可处理。",
+      "aesthetics": "设计观察：紧凑机身与保护结构降低外观上的专业设备门槛，也会影响噪声和收纳体积。产品是否自然融入日常记录，取决于启动、携带和回收过程，不只看展开后的照片。",
+      "risks": "关键风险是跟踪丢失、环境感知边界、地区使用限制和电池维护。不同遥控或眼镜套装不代表相同体验，本轮没有实飞，也未将厂商条件性续航和传输距离当成普通使用保证。",
+      "opportunity": "值得验证的市场差异是小型自主跟拍是否成为重复使用的记录方式。应比较单人出行的有效成片、准备时间和闲置原因，而不是根据一次精彩演示或拍摄模式数量推算需求。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "消费自主跟拍形态仍在变化，但与传统影像工具有明显竞争；特定运动场景不等于普遍需求。"
+    },
+    "architecture": [
+      {
+        "name": "影像输入",
+        "detail": "相机与官方描述的视觉感知提供输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "人物与障碍识别",
+        "detail": "ActiveTrack、手势及多传感感知。",
+        "evidence": "official"
+      },
+      {
+        "name": "飞控与跟拍",
+        "detail": "将目标位置转为相对机位与飞行动作。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "机身与推进",
+        "detail": "轻量结构、云台、推进与保护部件。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源与控制",
+        "detail": "电池和不同控制配件决定使用组合。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DJI Neo 2 德国官方商店",
+        "url": "https://store.dji.com/de/product/dji-neo-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "核查到当前购买控件与完整产品描述。"
+      },
+      {
+        "title": "DJI 英国官方在售目录",
+        "url": "https://store.dji.com/uk?set_region=GB",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "列出Neo2消费跟拍产品；报价按具体地区区分。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "dji-mini-5-pro",
+    "name": "DJI Mini 5 Pro",
+    "brand": "DJI",
+    "category": "drones",
+    "tagline": "面向个人旅行影像的紧凑视觉跟踪与障碍感知无人机。",
+    "officialUrl": "https://store.dji.com/au/product/dji-mini-5-pro",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "澳大利亚官方商品页有Add to Cart与Buy Now，列出不同控制器/电池组合。仅确认所核查地区，不将美国或其他地区库存一概扩展。",
+    "regions": [
+      "澳大利亚官方商店",
+      "英国目录有购买入口"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "AUD $1,119 起",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方列出ActiveTrack 360°、多视觉传感与前向LiDAR等能力，用于目标跟踪、机位控制和感知辅助。",
+      "dependency": "相机、飞行控制与应用配套共同工作，环境和模式限制需要按当前官方说明核对；扩展电池和控制器不是所有包装标配。"
+    },
+    "highlights": [
+      "相机与云台",
+      "多传感输入",
+      "识别与跟踪"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人影像爱好者希望在便携范围内获得更高质量的旅行镜头和辅助跟拍。与手机或运动相机相比，使用准备和可用场地更多，因此需要证明飞行视角对真实创作任务的增量。",
+      "userProfile": "画像推断：已有拍摄经验、愿意规划旅行场景的个人创作者和高频户外记录者。首次入门者与升级用户的需求不同，前者更看重学习与售后，后者可能关心镜头、感知和控制的一致性。",
+      "competition": "竞争判断：紧凑无人机已经是成熟竞争市场，AI跟踪不等于独占能力。它还面对更便宜的旧款、手机工具和更大机型；应按具体携带与成片需求比较，而非以最高参数排序。",
+      "supplyChain": "公开产品页描述相机、LiDAR、多视觉与电池，完整供应商和BOM未核实。供应链分析应重视云台标定、传感同步、装配公差和售后维修，不能将高集成外观当成低制造难度的证据。",
+      "technology": "技术由目标识别、空间感知、飞控及影像处理构成。多传感并不消除所有环境限制，某项返回或跟踪能力还受光照等条件影响；本目录未开展实飞或计算端到端成功率。",
+      "aesthetics": "设计观察：可折叠结构和紧凑机身服务旅行携带，云台保护与收纳步骤影响日常使用。细小部件的可靠感、噪声和外观一致性都属于体验，但静态照片不能验证实际飞行稳定。",
+      "risks": "风险包括地区库存与使用条件、配件差异、损坏维修及复杂环境中的识别失误。购买更高配置不自动降低全部风险，本轮保留具体条件，不将宣传测试数据理解为无条件使用承诺。",
+      "opportunity": "市场差异需要通过个人工作流证明，例如同一旅行任务的携带负担、有效镜头和返修成本。用户是否愿意持续带出门，比一次样片更能说明价值，本轮没有用户访谈或销量归因。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "紧凑消费无人机竞争成熟，视觉AI已成为常见差异维度，需要具体创作任务验证购买理由。"
+    },
+    "architecture": [
+      {
+        "name": "相机与云台",
+        "detail": "官方列出影像模块和机械稳定结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "多传感输入",
+        "detail": "视觉传感与前向LiDAR用于环境感知。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别与跟踪",
+        "detail": "ActiveTrack 360°等主体识别能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "飞行执行",
+        "detail": "飞控、推进和机身结构实现相对机位。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "电源与遥控",
+        "detail": "电池、遥控器与App方案需按组合确认。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DJI Mini5Pro 澳洲官方店",
+        "url": "https://store.dji.com/au/product/dji-mini-5-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "当前购买按钮与感知跟踪能力。"
+      },
+      {
+        "title": "DJI 英国官方消费目录",
+        "url": "https://store.dji.com/uk?set_region=GB",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "独立列出Mini5Pro消费影像机型。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "dji-rs-4-mini",
+    "name": "DJI RS 4 Mini（智能跟随组合）",
+    "brand": "DJI",
+    "category": "gimbals",
+    "tagline": "为个人相机创作增加智能跟随与构图的轻量云台组合。",
+    "officialUrl": "https://store.dji.com/product/dji-rs-4-mini",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "美国官方页面有购买按钮并区分基础款与Combo。本条按包含智能跟随模块的组合讨论AI能力，附加配件不另计数。",
+    "regions": [
+      "美国官方店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "智能跟随Combo参考US$369；基础款US$309",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "可配的智能跟随模块用于人物识别和构图，配合三轴云台。普通稳定、轴锁等自动化功能本身不作为AI收录依据。",
+      "dependency": "需要匹配跟随模块、相机和镜头组合；基础包装不应默认包含所有AI能力，相机控制与识别功能也须分开核验。"
+    },
+    "highlights": [
+      "视觉输入",
+      "跟踪计算",
+      "三轴执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：个人创作者在单人拍摄和出镜讲解时希望维持构图，同时减少携带重量。小型云台的购买理由要看实际镜头组合与使用频次，不能仅因为添加智能模块就视作全新刚需。",
+      "userProfile": "画像推断：使用轻量微单或手机拍摄的个人作者，愿意做基本配平且重视便携。普通家庭偶尔拍摄可能更适合简单支架，重型镜头用户又可能超出这类设备的目标范围。",
+      "competition": "竞争判断：轻量相机云台、手机云台与桌面追踪系统形成重叠市场。模块化跟随提供选择，也增加套装理解成本；只有在具体个人拍摄流程中更省时，才构成可靠的差异化理由。",
+      "supplyChain": "公开资料展示稳定结构、快装和智能跟随模块，供应商及完整BOM未知。分析重点是马达标定、机械间隙、夹装、供电和接头耐久；售后与镜头兼容比推测芯片品牌更有实际意义。",
+      "technology": "技术应区分视觉跟随、机械防抖、自动轴锁和相机控制。只有前者涉及本条强调的AI识别，普通自动化不能混为AI；兼容性和遮挡下的恢复能力仍需要目标机型实测。",
+      "aesthetics": "设计观察：小型化和更少外露附件有助于个人携带，但装上追踪器和相机后才是完整使用形态。外观简洁是否转化为操作简洁，需要观察装配、收纳和拍摄模式切换。",
+      "risks": "风险在于基础价格与智能组合混淆、相机控制兼容及误认为AI会负责全部拍摄判断。目标识别、自动对焦和成片质量是不同环节，本目录不以厂商演示替代独立可靠性测试。",
+      "opportunity": "可验证市场空间是让个人完成原本需要助手维持构图的内容。应对照普通三脚架和其他轻量云台，记录准备、追踪重设及有效片段，本轮没有给出成功概率或虚构销量。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人轻量相机拍摄是专业兴趣场景，已有成熟替代；智能跟随的价值取决于具体任务。"
+    },
+    "architecture": [
+      {
+        "name": "视觉输入",
+        "detail": "AI跟踪模块或应用视觉输入识别目标。",
+        "evidence": "official"
+      },
+      {
+        "name": "跟踪计算",
+        "detail": "将目标位置转换为构图和运动决策。",
+        "evidence": "official"
+      },
+      {
+        "name": "三轴执行",
+        "detail": "电机和关节保持拍摄方向，实际表现需测试。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "屏幕、按键或App提供个人操作入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池与结构",
+        "detail": "供电、夹具与配重影响持续拍摄。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DJI RS4Mini 官方商店",
+        "url": "https://store.dji.com/product/dji-rs-4-mini",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "区分基础与智能跟随Combo。"
+      },
+      {
+        "title": "DJI RS4Mini 官方能力说明",
+        "url": "https://www.dji.com/au/rs-4-mini",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "面向创作者的智能跟随与构图，条件依模块和组合。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "anker-solix-solarbank-3-pro",
+    "name": "Anker SOLIX Solarbank 3 E2700 Pro",
+    "brand": "Anker SOLIX",
+    "category": "home-energy",
+    "tagline": "面向住户阳台光伏的储能设备，以AI预测安排充放电。",
+    "officialUrl": "https://www.anker.com/de/products/a17c5",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "德国官方产品页同时提供加入购物车和立即订购按钮。扩展电池、面板与不同套装不拆分计数；本条仅核实当前所列地区。",
+    "regions": [
+      "德国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查德国版与当地销售方案。中国大陆型号、计量设备、安装和售后需单独确认，不能把欧版并网产品直接当作国内通用配置。"
+    },
+    "price": {
+      "text": "德国官方页 €1,299",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Anker Intelligence Smart Mode学习家庭用电、发电和价格模式，预测后续需求并调整储能策略；普通定时充电本身不作为AI能力。",
+      "dependency": "App、联网、可兼容计量设备及当地电价方案影响完整功能。断开计量或使用模式变化时预测可能偏差，不承诺固定省钱数额。"
+    },
+    "highlights": [
+      "数据输入",
+      "预测与策略",
+      "储能与变换"
+    ],
+    "analysis": {
+      "demand": "需求假设：已有或准备安装阳台光伏的住户，希望把发电与家庭用电错峰匹配，减少频繁手动设置。是否值得购买取决于真实用电曲线、安装环境和电价，不能把宣传年节省额套到所有家庭。",
+      "userProfile": "画像推断：有适合光伏条件的自住房家庭或获准安装的租住者，愿意理解能源App和配件组合。没有可用光照、固定电价差很小或经常搬家的人，可能得到不同的消费价值。",
+      "competition": "竞争判断：它与其他阳台储能、简单定时储能和直接用电策略竞争。AI预测可能减少管理负担，但不是唯一区别；硬件寿命、售后和本地安装适配往往同样重要，不能因AI标签忽略成熟竞争。",
+      "supplyChain": "公开产品页说明储能和变换等主要模块，具体电芯供应商、控制芯片与完整BOM未核实。分析关注电源安全、散热、计量兼容、耐候及本地售后，制造成本不能从零售价直接反推。",
+      "technology": "官方FAQ说明Smart Mode会学习历史用电和发电模式，并结合价格安排能量计划。它属于系统层面的预测与调度，不能推断为所有计算都在电池本体离线完成，数据质量会影响结果。",
+      "aesthetics": "设计观察：紧凑箱式结构适合与阳台设备一同布置，但接口、线缆和扩展电池会改变实际占地。消费者体验包括安装后的视觉整洁、维护入口和App可理解性，不只是单个箱体的外观。",
+      "risks": "关键风险是地区电力环境、配件兼容、预测误差和安装维护费用。不同电价与计量条件会改变收益；本目录没有提供电气接线方案、统一回本期限或保证性的省钱结论。",
+      "opportunity": "值得验证的是家庭是否真正减少手动调度，并在完整成本下获得可感知价值。后续应比较同一住户的使用记录、维护时间和不同策略，而不是用品牌测算案例代替消费者实证。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "家庭能源预测是较少被普通消费电子目录覆盖的场景，但储能硬件竞争激烈，价值高度依赖住户条件。"
+    },
+    "architecture": [
+      {
+        "name": "数据输入",
+        "detail": "用电、发电或计量数据为系统提供输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "预测与策略",
+        "detail": "厂商AI服务根据使用模式进行预测与调度。",
+        "evidence": "official"
+      },
+      {
+        "name": "储能与变换",
+        "detail": "电池和电力变换模块执行能量转移。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与界面",
+        "detail": "App和通信承载设置、监测及支持服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "结构与维护",
+        "detail": "安装、散热和耐候要求需按当地配置确认。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Solarbank 3 Pro 德国官方店",
+        "url": "https://www.anker.com/de/products/a17c5",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "核查时购物车和订购入口可见，所示德国配置价1299欧元。"
+      },
+      {
+        "title": "Anker Smart Mode 官方FAQ",
+        "url": "https://support.ankersolix.com/de/s/article/Was-ist-der-Smart-Modus-Wie-profitierst-du-davon",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "已实看动态页面：KI学习用电、发电和价格模式；说明数据变化与预测限制。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "zendure-solarflow-2400-ac-plus",
+    "name": "Zendure SolarFlow 2400 AC+",
+    "brand": "Zendure",
+    "category": "home-energy",
+    "tagline": "用家庭用能预测和电价预测管理可扩展AC储能。",
+    "officialUrl": "https://zendure.com/products/zendure-solarflow-2400-ac-plus",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "当前欧盟商品页展示Add to cart及3–5个工作日库存说明。不同扩展电池和智能电表套装合并，不能把旧2400 AC与AC+的规格混用。",
+    "regions": [
+      "欧盟官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查欧盟型号和销售页；中国大陆供货、计量接入、安装与售后未验证，不将跨境购买等同于当地完整可用。"
+    },
+    "price": {
+      "text": "欧盟页面 €839 起（所选基础配置）",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方描述ZENKI 2.0学习使用模式并预测光伏产出及价格，用于充放电计划；硬件负责储能与执行。",
+      "dependency": "联网、App、支持的计量和电价数据共同影响AI计划。部分系统配置或服务可能另计，不将所有配套能力视为基础包内置。"
+    },
+    "highlights": [
+      "数据输入",
+      "预测与策略",
+      "储能与变换"
+    ],
+    "analysis": {
+      "demand": "需求假设：拥有屋顶或阳台光伏的家庭，希望在用电与发电不一致时更方便地管理能量。AI的价值应体现在更少操作和更合理的计划，而不是仅仅因为电池具有联网功能。",
+      "userProfile": "画像推断：愿意维护能源设备并有稳定用电场景的住户，通常已经理解光伏或储能基础。不同住宅的安装、计量和电价条件差异很大，不宜用统一画像假设所有家庭都有相同回报。",
+      "competition": "竞争判断：家庭AC储能与光储一体设备已有多个供应商，也存在简单定时方案。ZENKI的差异化需要同条件比较预测和调度效果；容量扩展并非独立新品类，更不应该用套装数量凑市场样本。",
+      "supplyChain": "公开资料描述电池、双向电力变换、BMS和通信，未披露完整上游供应与成本。分析重点是散热、保护、计量兼容、扩展连接及本地售后，不将品牌材料中的模块示意当成真实BOM。",
+      "technology": "技术路径由家庭数据、预测、策略与硬件执行组成。官方把使用模式和光伏、电价预测纳入ZENKI，但实际模型与误差未公开；因此只能记录功能声明，不能给出未测试的控制准确率。",
+      "aesthetics": "设计观察：规则箱体适合与其他家庭能源设备组合，接口区域和扩展线缆决定最终空间观感。安装后的维护可达性、状态提示和App信息层次，比单纯外壳材质更影响消费者的长期体验。",
+      "risks": "风险包括当地配置兼容、预测偏差、扩展套装误选和安装成本。设备必须在适合的电力环境中使用；本目录不提供接线指导，也不会把厂商省钱案例直接转化为所有买家的收益承诺。",
+      "opportunity": "可验证的市场问题是AI计划能否减少住户管理负担并改善整体能量利用。应记录不同天气和用电习惯下的实际运行与人工干预，本轮没有家庭试用、回本测算或供应商报价。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "家庭能源调度属于消费电子中的细分场景，但与多品牌储能及人工策略竞争，不代表未经开发的蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "数据输入",
+        "detail": "用电、发电或计量数据为系统提供输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "预测与策略",
+        "detail": "厂商AI服务根据使用模式进行预测与调度。",
+        "evidence": "official"
+      },
+      {
+        "name": "储能与变换",
+        "detail": "电池和电力变换模块执行能量转移。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与界面",
+        "detail": "App和通信承载设置、监测及支持服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "结构与维护",
+        "detail": "安装、散热和耐候要求需按当地配置确认。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "SolarFlow 2400 AC+ 欧盟官方店",
+        "url": "https://zendure.com/products/zendure-solarflow-2400-ac-plus",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "当前基础配置、可购入口和库存交期。"
+      },
+      {
+        "title": "Zendure HEMS 官方说明",
+        "url": "https://pl.zendure.com/pages/hems",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "介绍Zenki AI家庭能源管理；地区适配和方案需单独确认。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "ting-home-safety-sensor",
+    "name": "Ting Sensor with Fire Prevention Service",
+    "brand": "Ting / Ting Labs",
+    "category": "home-safety",
+    "tagline": "以插座式传感器分析家庭电力信号，并连接风险提醒服务。",
+    "officialUrl": "https://www.tingfire.com/get-ting/",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "官方Get Ting页面列出零售购买入口，官方商店Frontpage显示1项在库。按个人住宅产品收录，不将面向电网企业的Ting Insights另算消费硬件。",
+    "regions": [
+      "美国零售渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮是美国120V/60Hz住宅版本与服务。不能直接视为中国大陆220V配置或当地可用服务；国内购买、供电适配和支持没有得到确认。"
+    },
+    "price": {
+      "text": "US$99 含首年服务；其后标准零售续期US$49/年",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "厂商说明AI结合专用传感器分析家庭电力信号以发现潜在异常，并由服务团队协助后续处理。检测不等于自动修复或保证覆盖所有风险。",
+      "dependency": "需要适配的供电环境、Wi-Fi、手机App及有效服务方案。保险合作计划与直接零售的费用、资格和支持可能不同。"
+    },
+    "highlights": [
+      "插座感知",
+      "AI异常分析",
+      "联网与App"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望更早获得隐藏电气异常的提示，并知道收到提示后由谁协助处理。购买理由由检测和服务共同构成，不能只看一个传感插头的硬件成本，也不能把提醒等同于消除风险。",
+      "userProfile": "画像推断：重视住宅维护、愿意使用联网安全服务的住户或业主，也包括通过保险合作获得设备的家庭。租住者能否采取后续修复行动会影响价值，消费者和保险渠道的需求并不完全相同。",
+      "competition": "竞争判断：它与传统烟感、专业电气检查、家庭监测系统和保险服务存在互补及替代。覆盖隐藏电气信号是较窄切入点，但没有本轮独立测试就不能声称比所有替代方案更可靠。",
+      "supplyChain": "公开资料披露插座传感、联网和服务架构，内部器件与完整供应链未公开。分析重点是长期测量稳定性、供电保护、无线连接、售后及人工服务资源，不能凭小体积推定整套服务成本很低。",
+      "technology": "技术链路包括电力信号采集、算法识别、异常通知与服务响应。官方研究是厂商证据而非本目录独立验证，检测覆盖和误报率需要清楚的实测条件，不把宣传比例当成普通家庭保证。",
+      "aesthetics": "设计观察：小型插座式外壳便于融入家居，减少安装时的视觉负担。长期使用体验还包括提示是否清晰、App是否令人理解和收到告警后的响应，外观克制不能代替可解释的服务流程。",
+      "risks": "风险在于供电规格、服务地区、续费与对安全能力的过度依赖。设备本身不修复隐患，也不替代必要的专业处理；本条只作市场研究，不给电气安装或故障处理操作建议。",
+      "opportunity": "值得验证的是用户对早期提醒和后续服务是否持续付费。应分析真实使用后的误报负担、服务响应和续期原因，本轮未开展住户访谈或独立事故统计，也不复述厂商效果为确定结论。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭电气信号监测与后续服务是较窄消费场景，但需要长期信任和服务交付，不能因少见就判断容易进入。"
+    },
+    "architecture": [
+      {
+        "name": "插座感知",
+        "detail": "专用传感器读取家庭电力相关信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI异常分析",
+        "detail": "厂商描述AI技术用于分析信号模式。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网与App",
+        "detail": "Wi-Fi和手机界面传达提醒与状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "服务协作",
+        "detail": "有效服务方案支持后续风险沟通。",
+        "evidence": "official"
+      },
+      {
+        "name": "外壳与供电",
+        "detail": "内部电气结构为概念推断，不提供接线依据。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ting 家庭零售产品页",
+        "url": "https://www.tingfire.com/get-ting/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "99美元包含首年；展示美版供电及续期条件。"
+      },
+      {
+        "title": "Ting 官方商店库存目录",
+        "url": "https://shop.tingfire.com/collections/frontpage",
+        "kind": "official-store",
+        "supports": [
+          "status"
+        ],
+        "note": "当前显示一项在库个人住宅传感器。"
+      },
+      {
+        "title": "Ting 厂商技术与案例分析",
+        "url": "https://www.tingfire.com/blog/ting-performance-update-2023/",
+        "kind": "official-spec",
+        "supports": [
+          "technology"
+        ],
+        "note": "明确AI和专用传感器；效果比例仅属厂商材料，不作为本目录验证结论。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "bryte-balance-smart-bed",
+    "name": "Bryte Balance Smart Bed",
+    "brand": "Bryte",
+    "category": "sleep",
+    "tagline": "围绕床面支撑与AI睡眠解释构建的家用智能床垫。",
+    "officialUrl": "https://www.bryte.com/shop-bryte",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "status": "on_sale",
+    "statusEvidence": "官方Shop Bryte页面提供尺寸与可选底座，显示Add to cart和1–2周发货说明。不同尺寸、材料与底座套装合并为一条，不按组合凑数。",
+    "regions": [
+      "美国官方消费购买渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    },
+    "price": {
+      "text": "美国官网常规US$4,799起；核查时基础促销US$3,839.20",
+      "note": "为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方描述实时自适应支撑及AI Sleep Concierge应用体验。其舒适或健康效果属于厂商声明，本目录未独立验证。",
+      "dependency": "完整体验依赖床垫硬件、App、账户和服务支持；可选底座并非所有配置标配，不将所有历史Pro版本功能混入当前基础选项。"
+    },
+    "highlights": [
+      "床面与舒适层",
+      "感知与反馈",
+      "支撑执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望减少手动调节、关注床面支撑和伴侣差异的家庭，可能愿意选择可适应的床垫。购买理由仍应以长期舒适和维护为核心，而不是把AI解释或睡眠评分直接等同于良好体验。",
+      "userProfile": "画像推断：有稳定卧室、较高预算且愿意接受联网寝具的个人或伴侣。搬家频率、对床垫触感的偏好和退换便利会影响接受度，不能把高收入或关注睡眠简单当作同一个消费画像。",
+      "competition": "竞争判断：它面对传统高端床垫、可调支撑系统和温控寝具等替代。自适应与AI应用增加了维度，也增加维护复杂性；消费者究竟为舒适、解释还是服务付费需要真实研究。",
+      "supplyChain": "公开资料展示床垫结构和自适应功能，完整传感器、驱动与供应商信息未核实。分析重点是材料耐久、支撑执行、噪声、清洁、配送和售后，不能由宣传剖面图估算确定的单机BOM。",
+      "technology": "技术需拆成感知、状态判断、支撑调节与App解释，不能把显示在手机里的AI结论等同于床体直接测得事实。厂商自适应描述有具体条件，本轮没有体验对比或算法准确率测量。",
+      "aesthetics": "设计观察：外观保持常见床垫形态，降低卧室中的科技突兀感；真正的设计取舍在于支撑变化是否安静自然，以及维护是否便利。静态照片无法判断长期躺卧舒适、边缘支撑或双人干扰。",
+      "risks": "主要风险是大件退换成本、个人偏好差异、连接与服务延续。医疗或疼痛改善表述需独立证据，不应由商品宣传推导；同时要把可选底座和当前型号功能与历史版本分开。",
+      "opportunity": "可验证的市场差异是自适应支撑能否带来长期、低打扰的体验。后续应观察试睡、退换和维护原因，并与传统床垫比较完整成本，本轮不提供统一收益、疗效或商业成功判断。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "高价自适应床垫是家庭消费中的细分场景，但有传统高端床品和多类智能寝具竞争。"
+    },
+    "architecture": [
+      {
+        "name": "床面与舒适层",
+        "detail": "官方外观和家用床垫形态。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知与反馈",
+        "detail": "厂商描述用于自适应支撑的感知功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "支撑执行",
+        "detail": "动态支撑模块属于功能层，精确布局未验证。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI应用体验",
+        "detail": "官方列出AI Sleep Concierge与App体验。",
+        "evidence": "official"
+      },
+      {
+        "name": "外壳与连接",
+        "detail": "供电、结构和可选底座需按具体配置核对。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bryte 官方消费购买页",
+        "url": "https://www.bryte.com/shop-bryte",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "尺寸、可选底座、加购与交期说明。"
+      },
+      {
+        "title": "Bryte 官方产品说明",
+        "url": "https://www.bryte.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "design"
+        ],
+        "note": "实时支撑与AI应用声明，未作为独立效果证明。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]

@@ -1,0 +1,5023 @@
+[
+  {
+    "id": "petkit-purobot-ultra",
+    "name": "PETKIT Purobot Ultra",
+    "brand": "PETKIT",
+    "category": "pet-care",
+    "tagline": "把个体识别、如厕记录与自动封袋结合的家用猫砂盆",
+    "officialUrl": "https://www.petkit.com/products/purobot-ultra",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示Purobot Ultra单机价格和Add to cart；未使用其它型号或耗材套装作为销售证据。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$799.99",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "旋转AI相机识别不同猫、记录如厕与排泄物外观，配合自动清洁和封袋；健康提示是厂商算法推断，不是兽医诊断。",
+      "dependency": "远程视频、历史和部分AI服务依赖PETKIT App、网络及Care+方案；机械清洁和摄像服务的权益应分别核对。"
+    },
+    "highlights": [
+      "多猫面部识别",
+      "排泄物与如厕记录",
+      "自动清理和封袋"
+    ],
+    "analysis": {
+      "demand": "需求假设：多猫家庭不仅需要少铲砂，还想分辨是谁改变了如厕习惯。应跟踪封袋失败、人工清理及身份混淆次数，验证省时和记录价值；没有用户访谈或真实健康改善数据支持销量推断。",
+      "userProfile": "画像推断：养多只猫、愿意提供较大摆放空间，并能坚持维护耗材的家庭。照护老年猫的主人可能更关注趋势，但猫是否愿意进入装置和主人能否理解告警，比科技兴趣更决定留存。",
+      "competition": "竞争判断：自动猫砂盆与普通猫砂盆都是替代方案；Ultra的封袋减少直接接触污物，但增加耗材依赖。与只做相机识别的产品相比，机械可靠性、气味控制和维修便利更难被软件迅速复制。",
+      "supplyChain": "供应链分析：滚筒、密封件、称重传感、相机与袋材机构需要联调，材料应耐清洗与猫抓。具体芯片、代工工厂和BOM未披露；应核查袋材兼容性、密封寿命与安全停机测试，不据外观估成本。",
+      "technology": "已披露AI相机、多猫识别与排泄物记录。技术判断：相似毛色、遮挡和特殊猫砂会改变输入分布；需要把身份置信、机械安全与健康提示分开，识别失败时不应触发危险清洁动作。",
+      "aesthetics": "审美判断：白色圆舱将卫生工具家电化，有利于融入住宅，但体积和进出口决定猫的接受程度。垃圾袋出口、抽屉把手与清洗后的晾干路径同样属于设计质量，不能只评价正面照片。",
+      "risks": "风险判断：幼猫、行动受限猫和多猫同时靠近会增加机械安全要求；算法健康提示可能误报或漏报。用户需遵守重量与使用限制，出现排尿异常仍需兽医判断，不能依赖设备替代就诊。",
+      "opportunity": "机会假设：先研究多猫家庭最难追踪的异常和最厌烦的维护步骤，比较相机外挂与整机方案。可验证指标是有效记录率、人工接管和耗材年成本，而不是从AI健康概念直接推导复购。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭宠物照护是细分消费任务，需求取决于宠物习惯、主人投入与长期服务；已有替代产品，冷门不等于低竞争或高利润。"
+    },
+    "architecture": [
+      {
+        "name": "观察输入",
+        "detail": "相机与重量等传感记录猫和使用事件。",
+        "evidence": "official"
+      },
+      {
+        "name": "个体与行为",
+        "detail": "AI区分猫与如厕记录；健康提示需人工复核。",
+        "evidence": "official"
+      },
+      {
+        "name": "清理执行",
+        "detail": "机械分离猫砂和废物。",
+        "evidence": "official"
+      },
+      {
+        "name": "袋材维护",
+        "detail": "自动封袋与补袋构成功能模块。",
+        "evidence": "official"
+      },
+      {
+        "name": "App服务",
+        "detail": "视频和历史权益按地区及订阅配置。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PETKIT Purobot Ultra 官方商店",
+        "url": "https://www.petkit.com/products/purobot-ultra",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "PETKIT Health 官方AI能力说明",
+        "url": "https://www.petkit.com/pages/petkit-health",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "petkit-purobot-max-pro-2",
+    "name": "PETKIT Purobot Max Pro 2",
+    "brand": "PETKIT",
+    "category": "pet-care",
+    "tagline": "以低入口和个体如厕记录服务家庭猫照护",
+    "officialUrl": "https://www.petkit.com/products/purobot-max-pro-2-automatic-cat-litter-box-with-ai-camera",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示Purobot Max Pro 2单机、明确价格与Add to cart，Fence 2.0为该页面随附物，不另计为产品。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$499.99",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI相机结合重量传感区分多只猫，记录如厕、叫声和排泄物外观；异常提示需要兽医或主人复核。",
+      "dependency": "需要PETKIT App进行个体档案和远程查看；视频保存及高级功能以Care+当前方案为准，不预设全部免费。"
+    },
+    "highlights": [
+      "AI相机与重量识别",
+      "较大低入口",
+      "密闭废物收集与可拆维护"
+    ],
+    "analysis": {
+      "demand": "需求假设：想减少铲砂、又希望低入口方便老年或短腿猫进出的家庭，可能更看重进入与清洗体验。应把猫主动使用率和记录完整度与传统猫砂盆比较，不能只凭大入口宣传推定动物更舒适。",
+      "userProfile": "画像推断：多猫、相近体重猫或关注老年猫日常变化的主人，通常同时承担清洁与费用。其数字能力未必高，需要理解每条记录属于哪只猫、异常如何复核，而非学习复杂的监控面板。",
+      "competition": "竞争判断：Max Pro 2与Ultra在废物处理方式、空间和预算上形成不同取舍，不能作为颜色变体计算。市场替代也包括廉价称重记录和普通猫砂盆；应验证省维护是否足以支撑额外投入。",
+      "supplyChain": "供应链分析：重点是大开口舱体、称重结构、视觉窗口与密封废物仓的协同。真实芯片和工厂未披露；清洗拆装重复寿命、粉尘对镜头的影响和安全传感冗余比推算电子元件单价更重要。",
+      "technology": "官方描述相机与重量融合识别，以及如厕事件分类。技术判断：个体身份错误会污染长期档案，应提供纠错与不确定状态；叫声或猫砂颜色的解释仅是筛查线索，不能自动成为疾病结论。",
+      "aesthetics": "审美判断：圆舱和低门槛使它接近家用电器，入口与猫身体比例是重点。可拆部件、废物仓和旁边散落猫砂会影响实际整洁度，外观评价应涵盖日常使用后的场景而非空机摆拍。",
+      "risks": "风险判断：仍有机械动作、耗材与网络服务依赖，猫的适应期和清洁死角也可能带来退货。健康档案存在误识别与误解释风险；如果主人只关注设备告警，可能遗漏需要主动观察的行为。",
+      "opportunity": "机会假设：围绕老年猫进入便利、主人清洗和多猫纠错建立真实任务测试。若主要问题是身份归属与解释，完善软件和售后教育可能比增加传感器更有效，需要先验证长期使用意愿。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭宠物照护是细分消费任务，需求取决于宠物习惯、主人投入与长期服务；已有替代产品，冷门不等于低竞争或高利润。"
+    },
+    "architecture": [
+      {
+        "name": "传感",
+        "detail": "AI相机及重量传感器观察使用情况。",
+        "evidence": "official"
+      },
+      {
+        "name": "档案",
+        "detail": "多猫身份和事件记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "清理",
+        "detail": "滚筒与废物仓处理猫砂。",
+        "evidence": "official"
+      },
+      {
+        "name": "结构维护",
+        "detail": "低入口、可拆部件与密封构成维护体验。",
+        "evidence": "official"
+      },
+      {
+        "name": "服务",
+        "detail": "App提示、历史及订阅权益。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PETKIT Purobot Max Pro 2 官方商店",
+        "url": "https://www.petkit.com/products/purobot-max-pro-2-automatic-cat-litter-box-with-ai-camera",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "PETKIT Health 官方AI能力说明",
+        "url": "https://www.petkit.com/pages/petkit-health",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "petkit-yumshare-dual-hopper-2",
+    "name": "PETKIT YumShare Dual-hopper 2",
+    "brand": "PETKIT",
+    "category": "pet-care",
+    "tagline": "把双料仓出粮与AI进食记录放在同一台喂食器",
+    "officialUrl": "https://www.petkit.com/products/yumshare-dual-hopper-2-automatic-feeder-with-camera",
+    "status": "on_sale",
+    "statusEvidence": "官方商店提供Dual-hopper 2独立型号和Add to cart；不把单料仓、容量或耗材套装另算。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$145.99",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI相机识别猫及进食事件，整理喂食活动；出粮定时本身不是AI，多猫识别也不等同于阻止其它猫抢食。",
+      "dependency": "App和部分录像历史依赖网络与Care+服务；断网出粮、识别和回看需要按当前固件分别确认。"
+    },
+    "highlights": [
+      "猫身份与进食记录",
+      "双料仓配方组合",
+      "摄像观察与远程补餐"
+    ],
+    "analysis": {
+      "demand": "需求假设：主人不在家时想确认食物是否真正被吃掉，并区分多只猫的访问。应记录卡粮、实际出粮偏差和身份误分；按时出粮并不能证明营养摄入正确，也不能用画面出现代替吃完。",
+      "userProfile": "画像推断：工作日离家较久、采用干粮且愿意定期补粮清洗的家庭。多宠家庭还需处理抢食，付款人往往高估相机的管理能力；因此应明确观察记录与单猫授权进食是不同需求。",
+      "competition": "竞争判断：自动喂食器已是成熟品类，双料仓和摄像头都有替代品。差异在能否把访问与进食归到具体宠物，并把异常转化成可操作信息；仅增加摄像头像素未必提高持续付费意愿。",
+      "supplyChain": "供应链分析：料仓密封、出粮螺旋或叶轮、食品接触碗、相机和控制板都需验证。代工厂和实际BOM未披露；不同颗粒、油脂积累、防潮及可清洗路径会直接影响可靠性，不能只估电子成本。",
+      "technology": "官方披露AI活动分类与猫识别。技术判断：碗边遮挡、相似外形和多人移动背景会影响识别；应为漏识保留原始片段和人工更正。算法记录不能替代称量摄入，也不应自动给营养处方。",
+      "aesthetics": "审美判断：竖向料仓减少台面占地，相机嵌入机身让设备相对整齐。食盆朝向、猫胡须接触和电线保护比装饰灯更重要，用户日常能否迅速拆洗决定它是否长期留在喂食位置。",
+      "risks": "风险判断：卡粮、断电、过度投喂和误识别可能共同影响宠物照护；摄像头还会采集家庭画面。外出较久仍需要可靠的人工照看，不应把云端通知或订阅服务视作不断供的保证。",
+      "opportunity": "机会假设：先验证多猫家庭对抢食、漏吃和实际摄入的优先级，再决定称重碗、个体门禁或相机哪种组合合适。用饲喂任务完成率和维护时间评价，避免把所有自动喂食统称为AI。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭宠物照护是细分消费任务，需求取决于宠物习惯、主人投入与长期服务；已有替代产品，冷门不等于低竞争或高利润。"
+    },
+    "architecture": [
+      {
+        "name": "食物供给",
+        "detail": "双料仓与出粮机构。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉观察",
+        "detail": "摄像头记录访食和进食。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI记录",
+        "detail": "个体识别与活动分类。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互",
+        "detail": "App、远程查看与喂食设置。",
+        "evidence": "official"
+      },
+      {
+        "name": "安全维护",
+        "detail": "食品接触件、密封与断电策略需验证。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PETKIT YumShare Dual-hopper 2 官方商店",
+        "url": "https://www.petkit.com/products/yumshare-dual-hopper-2-automatic-feeder-with-camera",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "PETKIT YumShare 官方功能说明",
+        "url": "https://www.petkit.com/pages/petkit-yumshare-smart-feeder-with-camera",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "petkit-eversweet-ultra",
+    "name": "PETKIT EverSweet Ultra",
+    "brand": "PETKIT",
+    "category": "pet-care",
+    "tagline": "通过相机识别把家庭饮水观察细化到每只宠物",
+    "officialUrl": "https://www.petkit.com/products/eversweet-ultra-with-camera-pet-water-fountain",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示白色EverSweet Ultra单机价格及Add to cart，摄像头版本与普通无摄像饮水机区分。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$249.99",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI相机识别不同宠物及饮水行为，帮助把饮水事件归属到个体；供水泵和水路本身不属于AI。",
+      "dependency": "需要App配对获取个体和饮水洞察；录像、摘要及其它增值功能可能受Care+方案约束，需确认服务地区。"
+    },
+    "highlights": [
+      "AI多宠识别",
+      "饮水活动记录",
+      "清水与废水分离的饮水结构"
+    ],
+    "analysis": {
+      "demand": "需求假设：多猫家庭难以知道究竟哪只猫更少喝水，普通水位变化也无法区分蒸发与饮用。应比较视频归属、漏记和日常清洗劳动，确认个体观察是否比简单换水提醒更有价值。",
+      "userProfile": "画像推断：已愿意使用宠物饮水机、关注多宠饮水习惯的主人，尤其希望把记录提供给兽医的人。需要理解次数与饮水量并非一回事，设备数据不能被当成完整的健康诊断或治疗目标。",
+      "competition": "竞争判断：饮水机本身竞争密集，AI个体识别是较窄的新功能。它同时与分区放置普通水碗、称重方案和宠物摄像头竞争；高价能否被接受取决于有用信息与维护负担的平衡。",
+      "supplyChain": "供应链分析：食品接触水路、泵、滤芯、密封、电源隔离与相机标定需同时设计。芯片厂商和制造工厂未披露；水垢、生物膜、清洗残留与耗材供应比单次算法演示更影响长期体验。",
+      "technology": "官方确认AI多宠识别和饮水习惯追踪。技术判断：动物头部遮挡、反光水面和夜间条件影响判断，应区分接近、舔水与喝水。未经称重或流量验证，不应把识别事件直接换算为精确摄入量。",
+      "aesthetics": "审美判断：透明水箱让余量可见，家电化外壳方便融入生活区。相机角度、宠物站位及泵的声音影响接受度；拆洗时是否能避开电子部件，也应纳入设计评价而不只是比较外壳轮廓。",
+      "risks": "风险判断：漏水、电源、滤芯更换和污水清理仍是基础风险，AI并不减少必要清洁。饮水数据可能受到其它水源影响，健康异常应结合真实观察与兽医意见，不能仅依据设备曲线行动。",
+      "opportunity": "机会假设：研究主人真正需要的是缺水提醒、个体访问还是可信饮用量，选择最简单的传感方案。可以先用小样本人工标注视频验证漏记和误归属，再评估专用硬件及订阅是否合理。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭宠物照护是细分消费任务，需求取决于宠物习惯、主人投入与长期服务；已有替代产品，冷门不等于低竞争或高利润。"
+    },
+    "architecture": [
+      {
+        "name": "水路",
+        "detail": "清水、饮用区域及废水管理。",
+        "evidence": "official"
+      },
+      {
+        "name": "相机",
+        "detail": "观察宠物与饮水动作。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI区分",
+        "detail": "多宠身份和饮水活动识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源控制",
+        "detail": "泵、电源与保护控制为功能模块。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "App洞察",
+        "detail": "个体记录、提醒及服务权益。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PETKIT EverSweet Ultra 官方商店",
+        "url": "https://www.petkit.com/products/eversweet-ultra-with-camera-pet-water-fountain",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "PETKIT Health 官方AI能力说明",
+        "url": "https://www.petkit.com/pages/petkit-health",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "petlibro-scout",
+    "name": "PETLIBRO Scout Smart Camera",
+    "brand": "PETLIBRO",
+    "category": "pet-care",
+    "tagline": "按宠物身份整理家庭影像的AI观察相机",
+    "officialUrl": "https://petlibro.com/products/scout-smart-camera",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页列Scout单机与购物入口，核查时预计11月6—9日送达；页面同时含未激活的售罄/预售模板，实际SKU库存另外核对。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$79.99",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "AI区分宠物、标注进食饮水等活动，并生成视频描述与每日摘要；官方提醒相似外貌宠物可能难以区分。",
+      "dependency": "AI活动追踪与回顾依赖Video Cloud AI订阅和网络；官方说明不支持SD卡，基础直播与付费服务需分开评估。"
+    },
+    "highlights": [
+      "多宠身份归档",
+      "行为描述与每日摘要",
+      "云台追踪与实体隐私盖"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户不愿翻看全天录像，只想知道某只宠物是否正常活动。应比较摘要误报、找片段所需时间和打开频次，判断AI整理是否真正节省注意力；本轮没有用户访谈和付费留存数据。",
+      "userProfile": "画像推断：养两只以上外貌可区分的猫狗、白天外出且习惯看App的主人。相似毛色宠物家庭和网络不稳定地区要单独测试，不能因为支持多宠就推断每只宠物的历史都可靠。",
+      "competition": "竞争判断：与Furbo、Petcube及普通家用摄像头竞争，价值在个体活动归档与少打扰通知。硬件售价不是完整成本；若摘要只重复画面表面信息，持续订阅可能比一次购机更难说服用户。",
+      "supplyChain": "供应链分析：云台电机、图像模组、麦克风、扬声器、隐私盖和网络服务共同交付体验。实际芯片、代工厂及BOM未知；还需计入云存储、视频分析和软件维护，不能只估摄像头硬件毛利。",
+      "technology": "官方明确AI多宠识别、活动标签和摘要。技术判断：云台跟随会改变画面分布，可能影响行为分类；应提供原片、纠错和低置信标记。识别饮水或如厕不等于测量摄入量或诊断健康状态。",
+      "aesthetics": "审美判断：柔和的低矮机身让它更像家庭用品，手动隐私盖提供明确状态。镜头可见性与摆放高度会影响宠物互动，电线、墙装配件和旋转噪声也应纳入用户长期接受度评价。",
+      "risks": "风险判断：无本地卡存储意味着部分体验依赖云端，停订、断网和服务变化影响回顾。画面可能包含家人和访客，宠物身份及行为也会误判；不能用AI总结代替实际探视或照护。",
+      "opportunity": "机会假设：针对多宠家庭设计可纠正的事件时间线和异常复核，测试通知密度与有效信息比例。若主人只需要确认食盆或睡眠位置，较简单的固定视角方案可能已足够，不必先增加生成式聊天。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "宠物摄像头已有多个品牌及普通家庭摄像头替代，竞争集中在识别、通知、互动与订阅体验，不属于空白市场。"
+    },
+    "architecture": [
+      {
+        "name": "采集",
+        "detail": "摄像头、拾音及云台观察家庭场景。",
+        "evidence": "official"
+      },
+      {
+        "name": "身份",
+        "detail": "AI多宠识别与追踪。",
+        "evidence": "official"
+      },
+      {
+        "name": "行为",
+        "detail": "活动标签、文字描述与摘要。",
+        "evidence": "official"
+      },
+      {
+        "name": "云服务",
+        "detail": "Video Cloud AI与历史存储。",
+        "evidence": "official"
+      },
+      {
+        "name": "隐私交互",
+        "detail": "实体隐私盖、App及双向音频。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PETLIBRO Scout Smart Camera 官方商店",
+        "url": "https://petlibro.com/products/scout-smart-camera",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "PETLIBRO Scout 官方使用问答",
+        "url": "https://ca.petlibro.com/pages/camera-1",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "furbo-360-dog-camera",
+    "name": "Furbo 360° Dog Camera",
+    "brand": "Furbo",
+    "category": "pet-care",
+    "tagline": "把宠物观察、事件提醒和零食互动连接起来",
+    "officialUrl": "https://furbo.com/us/products/furbo-360-dog-camera",
+    "status": "on_sale",
+    "statusEvidence": "官方美国页明确显示硬件优惠US$54加所选首年Nanny费用US$83.92，Add to cart合计US$137.92；不把硬件补贴价误写为完整体验价格。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$137.92（页面所选首年套餐）",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Furbo Nanny提供宠物事件理解、智能通知及摘要，结合摄像头和投食互动；普通旋转与投零食动作不是AI判断本身。",
+      "dependency": "高级AI告警、视频历史和摘要依赖Nanny方案与网络；补贴硬件套餐、独立硬件及续费条件需要分别核对。"
+    },
+    "highlights": [
+      "AI宠物事件提醒",
+      "转动视角与追踪",
+      "远程投零食互动"
+    ],
+    "analysis": {
+      "demand": "需求假设：狗主人外出时希望知道宠物是否焦躁或出现异常，并用声音、零食建立短暂联系。应测量通知的有效比例和互动是否让宠物更平静，不能从投食动作直接推导改善分离焦虑。",
+      "userProfile": "画像推断：经常离家、愿意支付服务费用且已有家庭Wi-Fi的狗主人。对食物敏感、过度兴奋或不适合零食的狗，互动方式需要调整；购买者还要能管理投食频率和家庭共享权限。",
+      "competition": "竞争判断：Furbo与宠物相机和普通安防摄像头均存在替代关系，投食是显著的实体差异。竞争也围绕订阅补贴、告警质量与隐私信任；低首付不意味着总体成本较低。",
+      "supplyChain": "供应链分析：投食机构、料仓、旋转底座、相机和声学组件需要协同，食物碎屑会影响机械寿命。具体代工和BOM未披露；云推理与客服成本也不能忽略，应验证不同零食形状和长期卡料率。",
+      "technology": "官方展示Nanny的AI通知及视频理解。技术判断：叫声识别需要区分电视、邻居和自家狗，误分类会消耗用户注意力。应保留原始视频与可调告警，不把文本总结视为事实确定的行为诊断。",
+      "aesthetics": "审美判断：竖向白色机身和木质感顶部有家居友好性，摄像头与出粮口易辨认。摆放稳定、宠物推倒风险、补粮手感和清洁料仓路径，比新增屏幕或灯效更影响日常使用。",
+      "risks": "风险判断：频繁投食可能打乱饮食，远程互动也不能替代遛狗与人工照护。补贴套餐的续费、云端影像和账号共享需要明确；AI健康或行为描述不能替代专业兽医及行为评估。",
+      "opportunity": "机会假设：先验证主人愿为哪些少见但重要的事件付费，例如真正有效的异常提醒与人工联系流程。新产品应比较不带投食的观察方案，避免把复杂互动机构当成所有宠物家庭的必要配置。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "宠物摄像头已有多个品牌及普通家庭摄像头替代，竞争集中在识别、通知、互动与订阅体验，不属于空白市场。"
+    },
+    "architecture": [
+      {
+        "name": "观察",
+        "detail": "相机、声音和转动视角。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI服务",
+        "detail": "Nanny事件理解、智能提醒和摘要。",
+        "evidence": "official"
+      },
+      {
+        "name": "互动",
+        "detail": "双向音频与投零食。",
+        "evidence": "official"
+      },
+      {
+        "name": "料仓机构",
+        "detail": "储粮与分发的功能模块，非实际拆机。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "手机端",
+        "detail": "订阅、历史、通知和共享权限。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Furbo 360° Dog Camera 官方商店",
+        "url": "https://furbo.com/us/products/furbo-360-dog-camera",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "Furbo Nanny 官方服务说明",
+        "url": "https://furbo.com/us/pages/furbo-nanny",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "petcube-play-2",
+    "name": "Petcube Play 2",
+    "brand": "Petcube",
+    "category": "pet-care",
+    "tagline": "带激光互动的家用宠物摄像头",
+    "officialUrl": "https://petcube.com/store/product/play-2/",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示Play 2、当前价格与Back in stock，并提供Add to cart；页面也渲染其它状态按钮模板，商品反馈以当前SKU为准。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$79.99",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI识别人和宠物及声音事件，依赖Care服务发送智能提醒；手机操控激光和自动播放并不等同于AI自主照护。",
+      "dependency": "直播与基础提醒可用范围应与Care付费视频历史、AI告警区分；Wi-Fi、手机和云服务共同决定体验。"
+    },
+    "highlights": [
+      "AI人宠与声音识别",
+      "激光游戏互动",
+      "双向语音与视频回看"
+    ],
+    "analysis": {
+      "demand": "需求假设：猫主人希望在外也能观察并提供短时活动，激光互动减少了额外玩具设备。应测试宠物是否愿意参与、互动时延和游戏结束后的状态，不能将自动播放时长当成运动质量。",
+      "userProfile": "画像推断：主要在室内养猫、熟悉手机视频且愿意远程互动的家庭。宠物对光点的反应差异大，幼猫或高兴奋个体尤其需要监督；用户也要愿意提供真实可捕获玩具作为互动补充。",
+      "competition": "竞争判断：它与普通宠物相机、独立玩具和主人主动游戏竞争，AI告警并非激光机构独有。差异在观察与互动是否顺畅连接；单靠旧硬件低售价可能无法抵消订阅与长期服务压力。",
+      "supplyChain": "供应链分析：激光发射及转向机构、相机、声学模组和无线连接集成在小型外壳。具体供应商与BOM未披露；应核查光学安全、机械转动寿命和跌落后方向控制，而不是只比较摄像头像素。",
+      "technology": "官网明确AI人宠识别和声音提醒。技术判断：需要分清远程操控、定时游戏和机器学习识别三层能力；识别到宠物并不意味着自动安排的互动一定合适，用户应能快速停止游戏。",
+      "aesthetics": "审美判断：紧凑方体适合书架和边柜，功能相对隐蔽；镜头和激光出射位置应易理解。实际摆放高度会决定游戏范围和盲区，线缆固定与宠物接触比产品照片中的材料质感更重要。",
+      "risks": "风险判断：激光游戏需要遵守厂商安全指引并观察宠物反应，设备不能替代主人互动。云服务停用会减少历史与智能提醒，声音和视觉误报也可能制造焦虑，应避免将通知解释为健康结论。",
+      "opportunity": "机会假设：比较远程互动前后宠物行为和主人操作负担，验证是否真的优于普通玩具加摄像头。可研究低时延控制与更明确的结束反馈，而不是继续堆叠缺少场景价值的AI标签。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "宠物摄像头已有多个品牌及普通家庭摄像头替代，竞争集中在识别、通知、互动与订阅体验，不属于空白市场。"
+    },
+    "architecture": [
+      {
+        "name": "视频声音",
+        "detail": "家庭画面和声音采集。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI提醒",
+        "detail": "人宠区分及叫声等事件识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "激光互动",
+        "detail": "手机控制和自动播放的激光游戏。",
+        "evidence": "official"
+      },
+      {
+        "name": "网络服务",
+        "detail": "Care视频历史与App访问。",
+        "evidence": "official"
+      },
+      {
+        "name": "安全边界",
+        "detail": "出射与停止控制作为概念功能层。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Petcube Play 2 官方商店",
+        "url": "https://petcube.com/store/product/play-2/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "Petcube Care 官方AI提醒与视频历史",
+        "url": "https://petcube.com/care/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "petcube-bites-2-lite",
+    "name": "Petcube Bites 2 Lite",
+    "brand": "Petcube",
+    "category": "pet-care",
+    "tagline": "把AI宠物提醒与可控零食分发组合的家用相机",
+    "officialUrl": "https://petcube.com/store/product/bites-2-lite/",
+    "status": "on_sale",
+    "statusEvidence": "官方商店提供Bites 2 Lite单机US$99.99选项及Add to cart，也有绑定Care的优惠套餐；本条不以订阅补贴价作为单机售价。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$99.99",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "结合Care进行人宠区分与声音事件提醒；相机观察和投零食机构提供实体交互，定时投食本身不算AI。",
+      "dependency": "智能告警和云视频历史依赖Care；直播、手机投食、网络与服务费用应按当前方案分别确认。"
+    },
+    "highlights": [
+      "AI人宠与声音告警",
+      "远程投食与料仓",
+      "桌面或墙面安装"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户在查看宠物后希望发出声音或少量零食反馈，而不只接收警报。应测试投食成功率、宠物是否围守设备以及告警是否可操作，不能把互动次数简单解释为陪伴效果。",
+      "userProfile": "画像推断：白天外出且已用零食训练的猫狗家庭，主人愿意清理料仓和管理饮食。对湿粮、特殊颗粒或严格控制热量的宠物，需要单独验证适用性，不能假设所有养宠者都需要投食相机。",
+      "competition": "竞争判断：Furbo是直接替代，普通摄像头搭配独立喂食器也可完成部分任务。Bites 2 Lite的竞争点在分发可靠性、装配便利和服务费用；应关注整体任务成本，而不只看促销硬件价。",
+      "supplyChain": "供应链分析：料仓、出粮通道、电机、相机与网络模组决定基本可靠性，食物碎屑和油脂是长期挑战。芯片、制造工厂和采购价未知；需要建立颗粒尺寸、清洗与卡粮恢复的测试矩阵。",
+      "technology": "官方描述Care智能提醒和人宠识别。技术判断：需要将机械投食、普通运动检测和AI事件分类分开验证，误识别不能直接驱动无限投食；画面应提供上下文，避免用户误解宠物行为。",
+      "aesthetics": "审美判断：圆角竖向机身强调家庭用品感，料仓和摄像头位置让功能容易识别。墙装可减少占地，但补粮高度、线缆和宠物撞击需要考虑；真实家居中的摆放比单独白底图更有参考意义。",
+      "risks": "风险判断：过量零食、卡料和设备倾倒会影响照护，云端通知也有延迟与误报。应遵守适配零食和清洁要求，长时间外出仍需人工照看；AI告警不能成为判断宠物安全或健康的唯一依据。",
+      "opportunity": "机会假设：从远程确认进食、定量训练或照护协作中选择一个明确任务，测试投食和录像是否形成闭环。若价值主要是安心感，应量化持续使用和误报，避免用花哨互动替代可靠基本功能。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "宠物摄像头已有多个品牌及普通家庭摄像头替代，竞争集中在识别、通知、互动与订阅体验，不属于空白市场。"
+    },
+    "architecture": [
+      {
+        "name": "采集",
+        "detail": "相机、夜视和音频观察。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI识别",
+        "detail": "Care人宠与声音事件理解。",
+        "evidence": "official"
+      },
+      {
+        "name": "分发",
+        "detail": "料仓与投零食机构。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互",
+        "detail": "手机控制、双向音频及安装。",
+        "evidence": "official"
+      },
+      {
+        "name": "云历史",
+        "detail": "订阅历史、通知与账号权限。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Petcube Bites 2 Lite 官方商店",
+        "url": "https://petcube.com/store/product/bites-2-lite/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "Petcube Care 官方AI提醒与视频历史",
+        "url": "https://petcube.com/care/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "petpace-3-collar",
+    "name": "PetPace 3.0",
+    "brand": "PetPace",
+    "category": "pet-care",
+    "tagline": "面向家庭宠物主人的连续体征与AI趋势项圈",
+    "officialUrl": "https://petpace.com/product/collar-v3/",
+    "status": "on_sale",
+    "statusEvidence": "官方个人宠物主人页面提供尺寸选择、US$299项圈价和Add to cart，并明确与兽医/K9及商业研究版本分开；订阅套餐另选。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$299（项圈，服务另计）",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "传感数据经AI产生健康趋势、活动和状态洞察，供主人与兽医复核；本目录不将算法评分当作诊断或治疗效果。",
+      "dependency": "长期趋势与提醒依赖App、基站或连接服务及所选订阅；需要核对宠物尺寸、佩戴条件和当地服务覆盖。"
+    },
+    "highlights": [
+      "连续体征记录",
+      "AI趋势洞察",
+      "主人与兽医共享数据"
+    ],
+    "analysis": {
+      "demand": "需求假设：老年或需持续观察的宠物，单次就诊难以体现日常变化，主人希望获得连续趋势。应验证佩戴有效时长、可解释告警和后续行动，不能因监测更频繁就假定能减少疾病或医疗支出。",
+      "userProfile": "画像推断：愿与兽医沟通、能坚持佩戴充电且承担服务费用的宠物家庭，特别是长期照护者。需要区分主人需要的安心感与兽医需要的数据质量，健康焦虑较高的人也可能被误报增加负担。",
+      "competition": "竞争判断：与普通活动项圈、其它健康穿戴和定期人工观察竞争，专业数据能力是差异但并不自动带来消费留存。购买决策同时受佩戴舒适、解释服务和兽医是否愿意使用数据影响。",
+      "supplyChain": "供应链分析：体征传感、柔性佩戴结构、电池、无线连接和防护壳需要长期接触宠物。具体芯片与代工未知；皮肤接触、毛发、松紧度、抗水和活动伪影的验证比精美仪表盘更关键。",
+      "technology": "官方列出AI洞察和多项体征。技术判断：必须区分直接测量、算法估计与组合评分，并说明有效佩戴条件；不同体型、毛长和活动状态可能改变结果，不能将训练集表现泛化为所有宠物。",
+      "aesthetics": "审美判断：项圈是持续贴身物件，应优先重量分布、扣具和不易勾挂的外形，而非突出电子感。不同颈围下模块位置可能变化，佩戴舒适与可清洗性比颜色选择更影响使用质量。",
+      "risks": "风险判断：误报可能增加焦虑，漏报可能使主人延误观察；设备不替代兽医检查。项圈松紧、充电停用和服务中断还会造成数据缺口，不能把连续曲线误认为完整或无偏的健康记录。",
+      "opportunity": "机会假设：选择一种明确照护任务，与主人及兽医共同定义何种变化值得通知，再做小规模验证。相比增加指标，数据可解释、佩戴依从和照护沟通可能更有价值，但本轮没有临床结论。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭宠物照护是细分消费任务，需求取决于宠物习惯、主人投入与长期服务；已有替代产品，冷门不等于低竞争或高利润。"
+    },
+    "architecture": [
+      {
+        "name": "佩戴",
+        "detail": "项圈结构与接触条件。",
+        "evidence": "official"
+      },
+      {
+        "name": "传感",
+        "detail": "公开体征及活动传感能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI洞察",
+        "detail": "趋势、评分与异常提示，需复核。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接",
+        "detail": "无线、App与服务方案。",
+        "evidence": "official"
+      },
+      {
+        "name": "照护协作",
+        "detail": "主人与兽医查看数据的工作流。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "PetPace 3.0 官方商店",
+        "url": "https://petpace.com/product/collar-v3/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "PetPace 官方传感与佩戴规格",
+        "url": "https://petpace.com/specs/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "maven-pet-health-tracker",
+    "name": "Maven Pet Health Tracker",
+    "brand": "Maven",
+    "category": "pet-care",
+    "tagline": "以连续佩戴数据和AI趋势为核心的家庭宠物观察套件",
+    "officialUrl": "https://maven.pet/dog-health-tracker/",
+    "status": "on_sale",
+    "statusEvidence": "官方页面可选择年付/月付及覆盖宠物数，并有Buy now入口和硬件传感器套件说明；不将按月展示值当成硬件买断价。",
+    "regions": [
+      "美国官方零售；其他地区须分别确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实国际官方渠道；未核实中国大陆该型号的官方现货、地区服务与保修，不把跨境硬件可送达等同于全部AI功能可用。"
+    },
+    "price": {
+      "text": "US$25/月起（订阅方案）",
+      "note": "核查日官方页面参考；税运、订阅及优惠条件另计。会员价、服务套餐与硬件买断价不可直接混用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "佩戴传感器数据由AI分析活动、休息及健康相关趋势，输出提示；同一传感器可用于猫狗，不把猫版页面另计产品。",
+      "dependency": "需要配套传感器、家庭连接设备、App和会员服务；无GPS定位能力不能被当作防丢追踪器，具体配置按官网套件核对。"
+    },
+    "highlights": [
+      "AI趋势检测",
+      "活动与休息等记录",
+      "硬件套件加订阅服务"
+    ],
+    "analysis": {
+      "demand": "需求假设：主人希望发现长期行为变化，却无法全天观察宠物。需要测试传感器是否持续佩戴、提示是否帮助沟通以及误报负担，不能从网站健康故事推导实际诊断能力或普遍疗效。",
+      "userProfile": "画像推断：照护老年宠物、关心慢性变化并愿意长期订阅的家庭。传感器附在既有项圈上，用户需接受充电和记录维护；只想防丢或偶尔看活动的人可能并不适合这类健康观察服务。",
+      "competition": "竞争判断：Maven与PetPace、普通活动项圈和人工观察竞争，服务解释与连续使用是核心。较低月费展示可能掩盖长期费用，应比较完整周期成本及数据是否能帮助解决具体问题。",
+      "supplyChain": "供应链分析：可穿戴传感器、电池、固定夹和家庭连接部件形成系统，真实供应商及工厂未公开。量产应关注防水、啃咬、佩戴稳定与电池衰减，云算法和客户支持同样属于交付成本。",
+      "technology": "官方说明AI持续分析传感数据。技术判断：运动、睡姿和接触条件会影响信号，应把原始趋势、算法估计与提醒区分展示；模型需要处理个体基线变化，不应把单次波动直接解释为疾病。",
+      "aesthetics": "审美判断：小型附着式传感器便于复用既有项圈，避免让宠物承担过大的新物件。夹具易装但不易脱落、充电接触点清洁以及宠物睡卧时是否硌到，比品牌色或屏幕装饰更重要。",
+      "risks": "风险判断：家庭连接、订阅及佩戴依从会造成记录缺口，健康告警也可能误报。产品定位是辅助观察，异常仍应咨询兽医；用户不能把健康趋势设备当成GPS定位或紧急救助保证。",
+      "opportunity": "机会假设：先验证主人愿为哪一种可行动趋势持续付费，并研究兽医如何阅读简短记录。若设备只增加难解释的曲线，留存可能较弱；更好的数据摘要与沟通流程可能比更多传感器有效。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭宠物照护是细分消费任务，需求取决于宠物习惯、主人投入与长期服务；已有替代产品，冷门不等于低竞争或高利润。"
+    },
+    "architecture": [
+      {
+        "name": "佩戴传感",
+        "detail": "附在宠物项圈上的硬件传感器。",
+        "evidence": "official"
+      },
+      {
+        "name": "信号传递",
+        "detail": "家庭连接与手机接入。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI趋势",
+        "detail": "连续数据分析和个体变化提示。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户观察",
+        "detail": "App中补充症状与实际观察。",
+        "evidence": "official"
+      },
+      {
+        "name": "照护复核",
+        "detail": "告警后由主人与专业人员判断。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Maven Pet Health Tracker 官方商店",
+        "url": "https://maven.pet/dog-health-tracker/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开；核查购物入口、产品形态与AI声明，未完成支付或收货。"
+      },
+      {
+        "title": "Maven 官方工作方式",
+        "url": "https://maven.pet/how-it-works/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription"
+        ],
+        "note": "已实际打开的官方技术或服务说明；厂商声明不视为独立性能或疗效验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "birdfy-feeder-2-duo",
+    "name": "Birdfy Feeder 2 Duo",
+    "brand": "Birdfy",
+    "category": "garden",
+    "tagline": "通过多视角和AI选片记录家庭庭院访鸟",
+    "officialUrl": "https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页显示In Stock、预计3—7工作日及Add to cart；集合页另有US$329.99活动价，保留地区和活动差异，以结账配置为准。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$359.99（所查商品页）",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "双摄与多镜头记录访鸟，AI识别鸟种、跟随主体并筛选精彩画面；这是自然观察功能，不是普通定时喂鸟器。",
+      "dependency": "识别、提醒和历史依赖App及云端。核查页宣称设备生命周期Bird ID免费，旧FAQ仍保留订阅版本说明，购买时需确认当前权益。"
+    },
+    "highlights": [
+      "多视角采集",
+      "AI识别",
+      "食仓与落脚"
+    ],
+    "analysis": {
+      "demand": "需求假设：观鸟者希望不守在窗边也能看清访鸟，并快速挑出可分享片段。应比较有效访鸟记录、误识和通知疲劳；多镜头是否增加乐趣需要长期观察，不能用照片数量代替用户满意度。",
+      "userProfile": "画像推断：有庭院或合规悬挂位置的自然爱好者、亲子家庭和赠礼用户。使用者仍要清洁、补粮并了解野鸟习性；购买者与维护者可能不同，礼物开箱热情不等于长期活跃。",
+      "competition": "竞争判断：与Birdbuddy、普通观鸟摄像头及人工望远镜观察竞争，双视角与自动选片提供具体差异。此类产品用户较窄，但已有多品牌，不能因消费认知低就认定没有竞争或获客容易。",
+      "supplyChain": "供应链分析：摄像模组、太阳能、电池、户外壳体与食仓共同决定体验。实际芯片和工厂未披露；防晒、进水、鼠咬和食物接触清洁是重点，云视频费用也应计入长期交付而非只算硬件。",
+      "technology": "官方披露多镜头捕捉、AI鸟种识别与自动选片。技术判断：逆光、快速移动和不同地区鸟种会影响识别，应支持人工更正并保留原片；数量化的识别种类不代表任意场景准确率。",
+      "aesthetics": "审美判断：喂食器需要与植物和住宅外墙协调，多摄像头不能妨碍鸟类落脚。安装位置、清洗拆卸与太阳能板走线会改变整体观感，评价应基于实际庭院而不是单张干净产品图。",
+      "risks": "风险判断：喂鸟维护不当可能带来卫生问题，识别错误也会误导观察记录。官方免费AI条款与旧订阅FAQ并存，需要确认服务边界；摄像头取景应避免不必要地覆盖邻居活动空间。",
+      "opportunity": "机会假设：在本地鸟种、社区自然教育和家庭分享场景验证长期留存，比较多视角与单镜头的实际增益。若核心价值是内容整理，先做可纠错的软件服务可能比增加摄像头更有效。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "自然观察属于场景较窄的消费兴趣市场，竞争已有多个品牌；多镜头是形态差异，不代表蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "多视角采集",
+        "detail": "双摄与不同视角记录访鸟。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI识别",
+        "detail": "鸟种判断、主体跟随与选片。",
+        "evidence": "official"
+      },
+      {
+        "name": "食仓与落脚",
+        "detail": "供鸟访问的食仓和结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "太阳能供电",
+        "detail": "面板与电池共同提供电力。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端分享",
+        "detail": "App、历史和服务条款。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Birdfy Feeder 2 Duo 官方商品页",
+        "url": "https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "Birdfy App 官方识别与服务说明",
+        "url": "https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "birdfy-bath-pro",
+    "name": "Birdfy Bath Pro",
+    "brand": "Birdfy",
+    "category": "garden",
+    "tagline": "把家庭鸟浴转成可记录的自然观察设备",
+    "officialUrl": "https://www.birdfy.com/products/birdfy-bath-pro",
+    "status": "on_sale",
+    "statusEvidence": "官方页明确In Stock、3—7工作日配送和Add to cart；本条按不含支架主机，不将支架或颜色套装重复收录。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$199.99（不含支架）",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "集成相机识别访鸟物种并记录洗浴活动，结合太阳能鸟浴和水流结构；水循环本身不算AI。",
+      "dependency": "需要App和家庭网络；AI识别服务与高级会员权益按核查时方案确认，水源清洁和设备维护仍由用户完成。"
+    },
+    "highlights": [
+      "鸟浴结构",
+      "相机观察",
+      "AI鸟种"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户想观察喂食之外的洗浴行为，同时为野鸟提供可用水源。应评估鸟是否愿意使用、摄像头能否抓到关键动作和清洗频率，不能把造景装饰需求与AI识别价值混为一谈。",
+      "userProfile": "画像推断：有庭院、愿意维护水盆的观鸟爱好者及园艺家庭。与普通摄像头用户不同，他们可能在意季节性访鸟和景观完整度；没有户外水源管理能力的赠礼接收者未必适合。",
+      "competition": "竞争判断：普通鸟浴盆加相机、喂鸟器相机和人工观察都是替代，Birdfy的优势在集成与双视角。相比通用喂鸟器更细分，但用户量可能更小，不能把更冷门直接换算为更好的商业机会。",
+      "supplyChain": "供应链分析：水盆、泵、太阳能、电池与相机防护要同时承受户外环境。供应商及BOM未披露；水垢、生物膜、低温结冰和镜头飞溅是核心测试项，实际维护成本可能高于干式喂鸟器。",
+      "technology": "官方说明AI鸟类识别与洗浴活动通知。技术判断：水花、反射和多只鸟同时进入增加检测难度，模型需要避免把水面变化当动物；鸟类识别结果应可修正，不代替专业物种记录确认。",
+      "aesthetics": "审美判断：盆形和水流是庭院装饰的一部分，相机突出程度会影响自然感。支架高度、排水清洗与太阳能板的位置同样重要；好看且容易维护的组合比堆叠屏幕与灯效更有价值。",
+      "risks": "风险判断：清洁不足、蚊虫和结冰会影响水源安全，设备AI不负责解决这些基础问题。供水部件和镜头需要维护，云端服务也可能变化；应遵守当地野生动物与用水相关要求。",
+      "opportunity": "机会假设：研究炎热或干旱地区家庭对清洁水源和自然记录的真实投入，先用普通鸟浴与摄像头验证。可从易拆洗、少干扰通知和水质维护切入，而不是只扩大识别物种清单。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "鸟浴观察比喂食观察更细分且需要庭院维护，已有普通鸟浴及摄像头替代，不应把窄用户群误判为低竞争。"
+    },
+    "architecture": [
+      {
+        "name": "鸟浴结构",
+        "detail": "盆体、水流和落脚空间。",
+        "evidence": "official"
+      },
+      {
+        "name": "相机观察",
+        "detail": "防溅相机记录洗浴活动。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI鸟种",
+        "detail": "物种识别与事件通知。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源",
+        "detail": "太阳能与电池供电。",
+        "evidence": "official"
+      },
+      {
+        "name": "清洁维护",
+        "detail": "水路维护和App管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Birdfy Bath Pro 官方商品页",
+        "url": "https://www.birdfy.com/products/birdfy-bath-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "Birdfy Bath Pro 官方安装与能力",
+        "url": "https://support.birdfy.com/product/birdfy-bath-pro/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "birdfy-nest-duo",
+    "name": "Birdfy Nest Duo",
+    "brand": "Birdfy",
+    "category": "garden",
+    "tagline": "用双摄与AI故事记录家门口的筑巢过程",
+    "officialUrl": "https://www.birdfy.com/products/birdfy-nest-duo",
+    "status": "on_sale",
+    "statusEvidence": "官方页显示双摄Nest Duo、In Stock、3—7工作日及Add to cart；不把Nest、Ebony和材质变体额外计数。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$249.99",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "内外相机观察筑巢与出入，AI Story识别鸟类和行为并整理筑巢过程内容；不是只提供视频直播的普通鸟屋。",
+      "dependency": "App、云端故事与识别依赖服务连接；繁殖期间应避免开巢或重置设备，外部控制结构降低但不能消除人为干扰。"
+    },
+    "highlights": [
+      "生态外壳",
+      "双摄观察",
+      "AI故事"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望长期观察筑巢过程而不打开鸟屋，AI故事帮助整理零散影像。应验证鸟类入住、记录连续性和观察者的实际复看行为，不能将放置鸟屋等同保证鸟会筑巢。",
+      "userProfile": "画像推断：有适合鸟屋地点的自然爱好者、学校家庭教育者和园艺用户。其使用周期受季节影响，需要耐心与维护知识；相比普通摄像头购买者，更应重视不打扰动物而非频繁操作。",
+      "competition": "竞争判断：与普通鸟屋加内窥相机、专业巢箱摄像系统和人工观察竞争，优势在双视角及自动整理。细分需求明确但季节性强，商业评估需要考虑淡季留存、内容分享和设备耐久。",
+      "supplyChain": "供应链分析：木或竹结构、通风排水、低干扰照明、相机与外部控制共同构成产品。制造工厂与BOM未知；材料老化、虫害、相机固定和维修时机需要验证，不能只按安防相机成本估价。",
+      "technology": "官方描述内外双摄及AI Story。技术判断：暗处幼鸟、相似羽色和遮挡会让行为识别困难，重要阶段应保留完整原片；自动剪辑不能删去用户需要复核的上下文，识别须允许不确定。",
+      "aesthetics": "审美判断：自然材质有助融入庭院，但孔径、内部抓握、排水和通风首先服务鸟类。外部电池或控制盒的线缆需要整齐且防动物接触，外观设计不应为了镜头效果破坏巢箱适宜性。",
+      "risks": "风险判断：繁殖期打开巢箱、移位或强光可能干扰动物；断网与软件错误会导致内容缺失。设备识别不提供野生动物照护资格，应遵循当地鸟类保护要求，避免为了拍摄频繁操作。",
+      "opportunity": "机会假设：为自然教育提供低干扰的季节记录和可追溯时间线，比增加互动功能更合理。应先评估适宜安装地点和观察需求，再考虑智能化，无法保证入住的产品不适合用即时娱乐来承诺。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "筑巢记录是季节性自然教育细分场景，用户较少且维护有生态边界；不能因少见就宣称商业风险低。"
+    },
+    "architecture": [
+      {
+        "name": "生态外壳",
+        "detail": "鸟屋、入口、通风与排水。",
+        "evidence": "official"
+      },
+      {
+        "name": "双摄观察",
+        "detail": "巢内和巢外相机记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI故事",
+        "detail": "识别鸟与行为并整理片段。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部控制",
+        "detail": "在巢外处理电源与设置。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容服务",
+        "detail": "App记录与云端分享。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Birdfy Nest Duo 官方商品页",
+        "url": "https://www.birdfy.com/products/birdfy-nest-duo",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "Birdfy Nest 官方维护说明",
+        "url": "https://support.birdfy.com/product/birdfy-nest/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "birdfy-hum-feeder-duo",
+    "name": "Birdfy Hum Feeder Duo",
+    "brand": "Birdfy",
+    "category": "garden",
+    "tagline": "面向蜂鸟高速访问场景的双摄喂食器",
+    "officialUrl": "https://www.birdfy.com/products/birdfy-hum-feeder",
+    "status": "on_sale",
+    "statusEvidence": "官方页展示Hum Feeder Duo、Shop now和11月7—11日配送区间；同页单摄与会员套餐不重复计数。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$199.99",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "双相机拍摄蜂鸟，AI识别鸟种并产生访鸟记录；喂食液容器与太阳能供电是物理功能，不能本身算AI。",
+      "dependency": "需要App和网络，Bird ID与Plus内容服务分开；地区蜂鸟分布和服务支持决定实际使用价值。"
+    },
+    "highlights": [
+      "喂食液容器",
+      "双摄成像",
+      "AI识别"
+    ],
+    "analysis": {
+      "demand": "需求假设：蜂鸟访问短促且速度快，用户希望获得普通手机难以持续捕捉的近距离影像。应测量有效捕捉、误触发和分享意愿，而不是仅用分辨率或摄像头数量推定体验提升。",
+      "userProfile": "画像推断：居住在有蜂鸟活动地区、有合适悬挂位置的自然爱好者。用户还需愿意正确维护喂食液与容器；中国大陆常见居住场景不应直接套用北美蜂鸟画像或预期出现相同动物。",
+      "competition": "竞争判断：普通蜂鸟喂食器加相机和其它智能喂鸟产品都是替代，特殊鸟种场景使竞争范围更窄。真正差异在捕捉与易清洁，而不是把通用识别模型包装成新硬件就能形成优势。",
+      "supplyChain": "供应链分析：液体容器、防漏口、相机、防水连接、电池和太阳能支架需要协同。供应商及BOM未披露；糖液污染、蚂蚁、清洁死角与季节性储存会影响寿命，不能照搬干粮食仓设计。",
+      "technology": "官方披露双摄和AI鸟种识别。技术判断：翅膀高速运动、强反光与近距离遮挡对成像和识别均有挑战，应记录失焦和漏拍；识别范围广不代表对所有当地蜂鸟都可靠。",
+      "aesthetics": "审美判断：透明容器和自然外观需要兼顾鸟的访问路径，镜头不应妨碍喂食。悬挂稳定、液体余量可见和拆洗便利比华丽外壳更重要，使用后的洁净度决定长期庭院观感。",
+      "risks": "风险判断：不当配液或清洗可能影响野鸟健康，AI提示无法替代正确喂养知识。软件与太阳能供电存在环境限制，用户不能将设备的访鸟次数或物种判断当作专业生态调查数据。",
+      "opportunity": "机会假设：在真实蜂鸟地区先验证长期维护与捕捉质量，再研究本地物种内容和家庭分享。对于无蜂鸟市场，应寻找当地动物的真实观察场景，不能简单复制海外外形和宣传预期。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "需求高度依赖蜂鸟地理分布和维护习惯，是窄场景消费品；更窄不意味着可直接迁移到中国大陆。"
+    },
+    "architecture": [
+      {
+        "name": "喂食液容器",
+        "detail": "蜂鸟访问与防漏结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "双摄成像",
+        "detail": "从不同方向记录蜂鸟。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI识别",
+        "detail": "访鸟物种和事件信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源支架",
+        "detail": "太阳能、电池与悬挂。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端记录",
+        "detail": "App、历史与会员内容。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Birdfy Hum Feeder Duo 官方商品页",
+        "url": "https://www.birdfy.com/products/birdfy-hum-feeder",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "Birdfy App 官方识别与服务说明",
+        "url": "https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "birdbuddy-home",
+    "name": "Birdbuddy Home",
+    "brand": "Birdbuddy",
+    "category": "garden",
+    "tagline": "通过较完整的庭院机身与AI记录连接家庭观鸟",
+    "officialUrl": "https://mybirdbuddy.com/product/birdbuddy-home/",
+    "status": "on_sale",
+    "statusEvidence": "官方Home商品页显示US$219和Buy Now；自动识别对应Family Premium选项，首月后年费另计，硬件与服务不混为同一价。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$219（硬件）",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI物种识别、命名返回访鸟和内容洞察连接家庭自然记录；与已收录Nook相比是不同机身及双太阳能形态，不按颜色另计。",
+      "dependency": "自动识别与部分内容能力依赖Premium；基础影像、人工识别和高级服务权益不同，具体方案需按当前页核对。"
+    },
+    "highlights": [
+      "外壳食仓",
+      "成像观察",
+      "能源"
+    ],
+    "analysis": {
+      "demand": "需求假设：已经形成观鸟习惯的家庭可能需要更稳定的供电和更丰富的访鸟记录。应比较维护间隔、漏拍和每周复看次数；比入门款更大或更多太阳能，不必然让所有用户获得等比例价值。",
+      "userProfile": "画像推断：愿长期补粮清洁、希望与家人分享自然观察的庭院用户。购买动机可能来自礼物或园艺兴趣而非AI，需分别验证设备维护者与远程观看者是否都愿持续投入。",
+      "competition": "竞争判断：同品牌入门Nook、Birdfy多摄产品及普通喂鸟相机都是替代。Home需要证明长期维护和观察体验的增益，不能仅靠套餐或新名称成为独立需求；本条只计一个硬件型号。",
+      "supplyChain": "供应链分析：户外相机、电池、双太阳能屋顶和食仓结构共同决定可靠性，制造工厂与BOM未披露。重点是阴雨天供电、塑料老化、食品残留与拆装寿命，软件内容成本也应纳入评估。",
+      "technology": "官方披露AI识别与会员内容能力。技术判断：个体命名和物种识别是不同任务，不应把人为命名当作已经可靠区分同种个体；地区物种、光照和多鸟遮挡需要独立验证。",
+      "aesthetics": "审美判断：家屋式轮廓和大屋顶让它更接近庭院摆件，减少安防相机感。相机位置、落脚台与清洁开口应服务自然观察；太阳能板的角度和安装线材同样影响整体外观。",
+      "risks": "风险判断：自动识别的订阅要求可能被一次硬件价格掩盖，云服务变化影响长期体验。喂食卫生和邻居隐私仍需用户管理，鸟类健康提示不应被用于未经专业确认的处理行动。",
+      "opportunity": "机会假设：围绕家庭共看、老人友好操作或地方自然教育验证价值。先比较低价相机加共享相册与专用产品的使用差异，再决定更复杂的硬件与会员生态是否值得投入。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭自然观察是兴趣驱动的细分市场，品牌与内容生态已有竞争，需要验证持续使用而非只看礼物购买。"
+    },
+    "architecture": [
+      {
+        "name": "外壳食仓",
+        "detail": "Home机身、落脚与供粮空间。",
+        "evidence": "official"
+      },
+      {
+        "name": "成像观察",
+        "detail": "摄像模块捕捉访鸟。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源",
+        "detail": "双太阳能与电池支持观察。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别服务",
+        "detail": "鸟种、内容与个体命名功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭分享",
+        "detail": "App与Premium权益。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Birdbuddy Home 官方商品页",
+        "url": "https://mybirdbuddy.com/product/birdbuddy-home/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "Birdbuddy 官方会员说明",
+        "url": "https://mybirdbuddy.com/memberships/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "terramow-v600",
+    "name": "TerraMow V600",
+    "brand": "TerraMow",
+    "category": "garden",
+    "tagline": "用纯视觉降低家庭草坪首次安装门槛",
+    "officialUrl": "https://www.terramow.com/products/v600",
+    "status": "on_sale",
+    "statusEvidence": "官方V600商品页显示欧元价格、EU/UK/US规格选择和Add to Cart；S800已售罄未纳入，V1000容量版本不另计。",
+    "regions": [
+      "欧盟官方商店；英美配置需结账确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "€849（所查EU配置）",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "三摄TerraVision视觉进行自动建图、边界理解和避障，无需传统边界线或RTK天线。",
+      "dependency": "核心任务依赖机上视觉和控制，App、4G及远程功能受服务地区与套餐约束；雨雪、光照和地形仍影响可用性。"
+    },
+    "highlights": [
+      "三摄感知",
+      "建图决策",
+      "割草执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：小中庭院房主希望避免埋线或安装RTK基站，快速获得可用割草路线。应测量首次设置、边界错误与每周救援时间；省安装步骤只有在长期边界稳定时才成为真实优势。",
+      "userProfile": "画像推断：有相对清晰草坪边界、愿使用手机设置但不想施工的家庭。树荫、碎石过渡和复杂台阶会改变适用性，面积并非唯一选型条件，不能把所有小庭院都归为容易场景。",
+      "competition": "竞争判断：与RTK割草机、其它纯视觉机和人工割草竞争。视觉路线降低配套设备，却可能把难度转给环境识别；新团队应比较整季维护成本，而不是仅宣传无需天线这一单点特征。",
+      "supplyChain": "供应链分析：三摄标定、镜头清洁、算力板、电池、轮驱和刀盘需要协同，供应商及BOM未公开。户外温漂、振动、镜头水滴和维修校准是量产门槛，不能按室内移动机器人经验直接推算。",
+      "technology": "官方披露TerraVision 2.0三摄视觉和自动地图更新。技术判断：草色季节变化、阴影和临时物体会影响语义边界，应设计低置信停止与人工修正，纯视觉不等同任何天气都能运行。",
+      "aesthetics": "审美判断：紧凑机身和清晰控制区适合家庭庭院工具，少一套外部定位设施能减少安装杂乱。提手、刀盘清洁、充电站屋顶与冬季收纳也需要评价，不能只看草坪上的英雄图。",
+      "risks": "风险判断：刀盘、台阶和动物活动需要物理安全边界；视觉失效不能靠AI名词消除。订阅或4G赠送期限、App地区以及备件会影响长期成本，购买前应确认实际庭院条件与售后覆盖。",
+      "opportunity": "机会假设：针对明确边界的小院验证低安装成本，再逐步扩展复杂地面。可以先提供场景筛查和地图复核服务，通过真实边界错误率决定是否需要更多传感器，而不是一开始追求全场景。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭草坪是地域性专业消费场景；纯视觉是技术路线差异，已有直接替代，不应称无人赛道。"
+    },
+    "architecture": [
+      {
+        "name": "三摄感知",
+        "detail": "TerraVision视觉观察草坪。",
+        "evidence": "official"
+      },
+      {
+        "name": "建图决策",
+        "detail": "边界、地图更新与障碍判断。",
+        "evidence": "official"
+      },
+      {
+        "name": "割草执行",
+        "detail": "轮驱和刀盘完成维护。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源停靠",
+        "detail": "电池及充电基站。",
+        "evidence": "official"
+      },
+      {
+        "name": "App服务",
+        "detail": "任务、区域及远程连接。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "TerraMow V600 官方商品页",
+        "url": "https://www.terramow.com/products/v600",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "TerraMow V系列官方视觉技术",
+        "url": "https://www.terramow.com/pages/v-series",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "lymow-one-plus",
+    "name": "Lymow One Plus",
+    "brand": "Lymow",
+    "category": "garden",
+    "tagline": "面向坡地和复杂私家庭院的履带割草机器人",
+    "officialUrl": "https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示One Plus 10A版本、Add to cart及美国/加拿大1—3工作日发货；5A和配件组合不重复计数。",
+    "regions": [
+      "美国",
+      "加拿大"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$2,599（所选10A版本）",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "RTK与VSLAM结合AI视觉和超声障碍感知，驱动履带式家用割草平台；履带和刀片动作本身不是AI。",
+      "dependency": "定位环境、App与连接服务决定远程体验；不同地区频段、配件和固件支持需确认，不预设国内同名可用。"
+    },
+    "highlights": [
+      "定位视觉",
+      "融合规划",
+      "履带驱动"
+    ],
+    "analysis": {
+      "demand": "需求假设：较大、坡度明显或草较密的家庭庭院，需要更稳定通过和切割能力。应比较人工补割、草坪损伤和救援次数，履带能爬坡不代表每块湿草地都适用，也不代表能完全取消人工维护。",
+      "userProfile": "画像推断：有较大私家庭院、能承担设备重量和维护的房主，通常已在园艺服务或骑乘设备上投入。普通小院用户可能不需要其体量，购买理由应来自真实地形而非机器人新鲜感。",
+      "competition": "竞争判断：与Yarbo、四驱轮式机器人、骑乘式割草机和园艺服务竞争。履带提供不同通过策略，但也带来复杂维护；需要以整季任务结果比较，而不是把更强机械规格直接等同更高价值。",
+      "supplyChain": "供应链分析：履带、张紧结构、刀盘、电机、定位与视觉模块都要求户外耐久。实际代工及BOM未披露；草屑泥沙、履带更换、刀片配套与运输维修的成本，是新团队容易低估的部分。",
+      "technology": "官方说明RTK、VSLAM和AI视觉避障。技术判断：定位置信与视觉遮挡需要融合处理，湿滑、窄通道和动物移动应实测；实验室坡度和覆盖数据不能替代用户庭院的成功率。",
+      "aesthetics": "审美判断：履带与宽体结构强调工具可靠性，适合园艺场景但不够轻巧。搬运、冲洗位置、刀片访问和基站摆放会影响日常体验，工业设计应把维护动作纳入，而不是只强调机械力量感。",
+      "risks": "风险判断：高重量与刀盘意味着更严格的安全操作要求，孩子和宠物活动区域需管理。新旧型号配件未必兼容，云端与定位服务也可能变化；购买前应核对当地售后和冬季保养。",
+      "opportunity": "机会假设：先围绕某类坡地、草种或维护服务建立验证，量化设备代替了多少人工工作。若用户主要痛点是安装与维修，提供可靠服务可能比增加传感器或推出更大平台更有效。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "复杂私家庭院属于高门槛细分消费任务，设备昂贵且维护要求高，少见并不意味着容易进入。"
+    },
+    "architecture": [
+      {
+        "name": "定位视觉",
+        "detail": "RTK、VSLAM与AI视觉感知。",
+        "evidence": "official"
+      },
+      {
+        "name": "融合规划",
+        "detail": "根据地形和障碍规划路线。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "履带驱动",
+        "detail": "履带底盘提供移动。",
+        "evidence": "official"
+      },
+      {
+        "name": "割草模块",
+        "detail": "双旋转刀片完成切割。",
+        "evidence": "official"
+      },
+      {
+        "name": "停靠服务",
+        "detail": "充电、App与配件维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lymow One Plus 官方商品页",
+        "url": "https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "Lymow 官方产品与使用场景",
+        "url": "https://www.lymow.com/?lv=true",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "anthbot-genie",
+    "name": "ANTHBOT Genie 系列",
+    "brand": "ANTHBOT",
+    "category": "garden",
+    "tagline": "以多相机和RTK融合覆盖家庭草坪维护",
+    "officialUrl": "https://anthbot.com/products/genie-robot-lawn-mower",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页提供Genie配置选择、Add to Cart与Buy Now；600/1000/3000按同一系列收录，不用面积和电池变体凑数。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$699起（所查600e配置）",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "全频段RTK与多相机AI视觉结合，进行障碍识别、边界判断和弱信号区域导航。",
+      "dependency": "需按具体配置确认4G和赠送服务，基础定位、App调度与远程访问不是同一种依赖；区域支持另行核对。"
+    },
+    "highlights": [
+      "定位",
+      "AI视觉",
+      "规划"
+    ],
+    "analysis": {
+      "demand": "需求假设：房主希望在有树荫与多个区域的庭院减少漏割和人工挪机。应比较边界重建、弱信号恢复和通知负担，更多相机并不自动等于更少人工接管，需要完整季节的实际记录。",
+      "userProfile": "画像推断：有多个草坪分区、愿设置App地图且需要规律割草的家庭用户。选型应根据边界、窄道和坡度，而不是只看面积；技术维护能力较弱的用户更需要清晰的故障恢复流程。",
+      "competition": "竞争判断：RTK加视觉路线已经有多家品牌，竞争包含价格、地图体验、备件与服务。低起价不代表各配置权益相同，创业分析应把4G、安装附件和长期维修放到同一成本框架。",
+      "supplyChain": "供应链分析：相机标定、定位天线、控制板、轮驱、电池与刀盘构成系统。供应商和BOM未知；户外摄像头污染、传感器更换后的标定以及不同地区无线认证，是重要交付工作。",
+      "technology": "官方披露多相机AI避障与RTK融合。技术判断：需要验证动物、玩具和细小物体的漏检，以及GPS不足时的漂移；官网识别类别数量不能当作真实家庭环境的安全保证或准确率。",
+      "aesthetics": "审美判断：产品外观偏工具化，清晰的停止控制和可见状态优先于装饰。基站、天线和线缆影响庭院整洁，清洗与换刀步骤也是用户感知设计的一部分，不能只评价机身造型。",
+      "risks": "风险判断：刀片与自主移动要求用户管理儿童宠物活动区域，AI识别不能替代安全边界。订阅赠送期限、地区定位和型号配件差异都可能增加后续成本，跨境购买需特别核对保修。",
+      "opportunity": "机会假设：研究普通房主如何理解地图错误和恢复流程，验证安装指导与维护服务是否提升可用性。若用户无法顺利救援，增加识别对象数量可能不如减少故障步骤更有价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "机器人割草是专业家庭场景，已有多个RTK加视觉品牌；竞争不因AI多摄配置而消失。"
+    },
+    "architecture": [
+      {
+        "name": "定位",
+        "detail": "RTK信号支持位置估计。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI视觉",
+        "detail": "多相机识别障碍与边界。",
+        "evidence": "official"
+      },
+      {
+        "name": "规划",
+        "detail": "区域地图和割草路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "移动切割",
+        "detail": "轮驱与刀盘执行。",
+        "evidence": "official"
+      },
+      {
+        "name": "App连接",
+        "detail": "调度、4G配置和远程状态。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ANTHBOT Genie 系列 官方商品页",
+        "url": "https://anthbot.com/products/genie-robot-lawn-mower",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "ANTHBOT 官方视觉与导航介绍",
+        "url": "https://official.anthbot.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "sunseeker-x5",
+    "name": "Sunseeker X5",
+    "brand": "Sunseeker",
+    "category": "garden",
+    "tagline": "面向家庭多区草坪的全轮驱动（AWD）视觉割草机",
+    "officialUrl": "https://shopsunseekertech.com/products/x5-wireless-robot-lawn-mower-0-5-acres",
+    "status": "on_sale",
+    "statusEvidence": "当前官方X5商品页显示价格与Add to cart；旧X7链接重定向到X5，故按实际页面型号收录，未把X7名称或参数搬过来。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$1,499.99",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "双目Vision AI与RTK/VSLAM参与障碍感知和导航，配合全轮驱动（AWD）底盘；定时排程本身不是AI。",
+      "dependency": "地图和远程管理通过App，定位及地区服务需确认；真实草种、坡度和遮挡条件仍决定表现。"
+    },
+    "highlights": [
+      "双目视觉",
+      "融合定位",
+      "全轮驱动（AWD）执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：中型私家庭院需要规律割草，但用户不想埋边界线或手推设备。应测量实际漏割、边缘补修和卡住后的恢复时间；设备面积参数只是选型线索，不能等同每日完整覆盖。",
+      "userProfile": "画像推断：有前后院、愿安装基站并使用手机管理的房主，对稳定维护的需求高于尝鲜。小而规则的草坪可能不需要全轮驱动（AWD），高坡复杂地块又可能超出条件，应按真实任务细分。",
+      "competition": "竞争判断：与Mammotion、Navimow、ANTHBOT及普通园艺工具直接竞争，品牌之间在传感路线和售后上存在取舍。X5的AI不能孤立评价，安装、维修、配件与整季切割结果共同决定价值。",
+      "supplyChain": "供应链分析：全轮驱动（AWD）轮组、双目摄像、RTK组件、电池与刀盘要求可靠集成。具体芯片、代工厂及BOM未披露；泥沙、水汽、坡地负载和长期镜头清洁是重要测试，不能仅按室内电子产品估风险。",
+      "technology": "官方说明Vision AI双目避障及融合导航。技术判断：阴影、反光水面和临时杂物会影响感知，低置信时应保持安全行为；定位精度、识别效果与最终切割质量是不同指标。",
+      "aesthetics": "审美判断：外壳与大轮体现庭院工具属性，清晰的停止键比复杂屏幕更适合户外。安装后天线与基站的体量、洗护时的手部空间，以及冬季收纳方式都应纳入工业设计评估。",
+      "risks": "风险判断：不能依赖视觉AI保证避开所有儿童、宠物和野生动物；刀盘安全、边界与用户监督仍然必要。旧链接会跳转新型号，采购时必须核对实际SKU、地区配置和配件兼容性。",
+      "opportunity": "机会假设：围绕中型家庭庭院提供可靠选型和安装复核，比单纯增加算法标签更贴近需求。可用边缘补割时间、接管频率与售后解决时长来验证产品和服务的真实竞争力。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭割草属于细分消费场景，但RTK与视觉全轮驱动（AWD）产品已有强竞争，不属于无人覆盖赛道。"
+    },
+    "architecture": [
+      {
+        "name": "双目视觉",
+        "detail": "Vision AI观察障碍。",
+        "evidence": "official"
+      },
+      {
+        "name": "融合定位",
+        "detail": "RTK与VSLAM支持路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "全轮驱动（AWD）执行",
+        "detail": "驱动轮和割草机构。",
+        "evidence": "official"
+      },
+      {
+        "name": "停靠充电",
+        "detail": "电池与基站构成功能模块。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机管理",
+        "detail": "地图、区域和通知。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Sunseeker X5 官方商品页",
+        "url": "https://shopsunseekertech.com/products/x5-wireless-robot-lawn-mower-0-5-acres",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "Sunseeker 官方选型与技术比较",
+        "url": "https://shopsunseekertech.com/pages/find-your-mower",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "yarbo-y40-lawn-mower-pro",
+    "name": "Yarbo Y40 + Lawn Mower Pro",
+    "brand": "Yarbo",
+    "category": "garden",
+    "tagline": "用一个履带核心承载大型私家庭院的自动割草",
+    "officialUrl": "https://www.yarbo.com/products/yarbo-lawn-mower-pro",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页明确Y40 Core与Lawn Mower Pro Module、In Stock、预计3—8工作日和Shop Now；仅计可工作的核心加割草模块，不把配件模块或多套装重复计数。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实海外官方销售；中国大陆同型号现货、售后与云服务未确认。庭院条件、物种范围或定位服务也需按地区验证。"
+    },
+    "price": {
+      "text": "US$5,999",
+      "note": "核查时官方页面参考，价格保留原币种；套装、配件、订阅、税运及地区条件分别确认，不把容量版本重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "PPVS融合RTK、视觉相机及运动传感进行导航与障碍判断，驱动履带核心和可换家用庭院模块。",
+      "dependency": "定位、App、远程与可换模块支持需要按地区配置核对；模块化不等于每个附件都具备相同自动能力。"
+    },
+    "highlights": [
+      "履带核心",
+      "多传感感知",
+      "AI导航"
+    ],
+    "analysis": {
+      "demand": "需求假设：拥有较大私家庭院的房主希望把反复割草交给自主设备，并可能复用核心做季节任务。应验证换模块、安装和救援是否抵消省时，模块多并不自动形成更低的全生命周期成本。",
+      "userProfile": "画像推断：有较大地块、可提供停靠供电并愿意维护重型设备的家庭，而非普通公寓或小院。购买者可能已使用骑乘割草机，决策更依赖可用性、运输维修和服务，而不是单纯AI兴趣。",
+      "competition": "竞争判断：与履带或四驱割草机器人、骑乘工具和园艺服务竞争。模块化提供可扩展性，但也增加采购和维护复杂度；是否值得用一个核心承担多任务，需要真实使用频率支持。",
+      "supplyChain": "供应链分析：履带核心、电池、模块连接、刀盘与多传感导航共同构成高集成系统。实际制造工厂和BOM未披露；接口磨损、泥沙密封、重物运输和跨季节备件供应是关键成本。",
+      "technology": "官方说明PPVS融合定位与视觉障碍感知。技术判断：需要验证弱卫星信号、湿滑坡地和模块负载变化下的定位控制；机械通过能力与AI识别是不同能力，不能从宣传演示推定通用自主作业。",
+      "aesthetics": "审美判断：履带与外接模块形成明显的园艺工具感，适合大地块但体量很难在小庭院隐藏。停靠、换模块抓握、线缆与非工作季收纳应与外壳一并评价，专业外观不代表家庭使用轻松。",
+      "risks": "风险判断：重量、刀盘与自主移动要求可靠安全措施，孩子和动物活动时不能只依赖AI避障。模块与核心版本兼容、运输售后和地区定位服务会影响长期使用，购买前需明确实际交付配置。",
+      "opportunity": "机会假设：先验证一种高频庭院任务，比较自主设备与现有工具、人工服务的总劳动和总成本。若用户只偶尔换模块，平台化价值可能被高首付抵消，应避免凭扩展数量判断市场空间。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "大型私家庭院是高客单、重服务的消费细分，少见但有园艺工具和人工服务替代，不适合泛化成低门槛蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "履带核心",
+        "detail": "可移动核心与能源平台。",
+        "evidence": "official"
+      },
+      {
+        "name": "多传感感知",
+        "detail": "RTK、视觉及运动传感融合。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI导航",
+        "detail": "障碍与路径的功能决策层。",
+        "evidence": "official"
+      },
+      {
+        "name": "割草模块",
+        "detail": "与核心连接的Lawn Mower Pro。",
+        "evidence": "official"
+      },
+      {
+        "name": "服务与维护",
+        "detail": "App、停靠及模块兼容管理。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Yarbo Y40 + Lawn Mower Pro 官方商品页",
+        "url": "https://www.yarbo.com/products/yarbo-lawn-mower-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "已实际打开并核查购买与交付入口；未实际下单。"
+      },
+      {
+        "title": "Yarbo 官方家庭割草与AI导航说明",
+        "url": "https://www.yarbo.com/collections/robot-lawn-mower?p=lm",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "subscription",
+          "support"
+        ],
+        "note": "已实际打开的官方能力、服务或维护说明；不代表独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "beatbot-aquasense-x",
+    "name": "Beatbot AquaSense X",
+    "brand": "Beatbot",
+    "category": "cleaning",
+    "tagline": "将视觉清洁与滤网维护合并的家庭泳池机器人",
+    "officialUrl": "https://eu.beatbot.com/products/aquasense-x",
+    "status": "on_sale",
+    "statusEvidence": "欧洲商品页提供购买入口，公开商品数据available=true；旧FAQ残留早期预订日期，因此以当前可售库存为准。",
+    "regions": [
+      "欧洲官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "€3,999",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "HybridSense视觉与其他传感融合，识别池底和水面杂物、规划路线；AstroRinse底座自动清洗滤网，后者是机械自动化而非AI本身。",
+      "dependency": "需用户将设备放入清洗底座；App和网络用于管理，泳池形状、照明、水质与滤网维护影响识别。"
+    },
+    "highlights": [
+      "视觉感知",
+      "路径决策",
+      "水下清洁"
+    ],
+    "analysis": {
+      "demand": "需求假设：私家泳池业主希望减少打捞、刷洗和冲洗滤网的反复劳动。自动洗滤网能否节省时间，应把搬运机器人、底座供水和倒垃圾的劳动一起计算，而非只看机器人工作时长。",
+      "userProfile": "画像推断：有固定泳池、可布置底座并愿意支付较高首付的房主；频繁有树叶落入泳池的家庭可能更有动力。普通公寓没有相同场景，季节性使用者则需要评估闲置和收纳成本。",
+      "competition": "竞争判断：与WYBOT自集污系统、普通泳池机器人及人工维护服务竞争。清洗底座是具体差异，但并不取消化学水质管理，不能把一个清洁环节的自动化当作完整泳池托管。",
+      "supplyChain": "供应链分析：水下驱动、密封、电池、摄像头、滤网和底座水路共同决定可靠性；实际代工厂和BOM未知。氯水腐蚀、干湿连接、长期滤网耗材与重物维修运输是交付重点。",
+      "technology": "官方披露AI相机与红外、超声等感知融合，支持杂物检测和路径优化。技术判断：反光、浑水及池壁纹理会影响视觉，识别目标数量不是准确率；自动清洗效果需要单独测试。",
+      "aesthetics": "审美判断：机器人和大底座组成完整庭院物件，整洁走线、排水与滤网取出姿势比科技灯效更重要。外观应与泳池设备区融合，同时让用户清楚知道哪里需要清洁或人工接管。",
+      "risks": "风险判断：用户仍需搬运、检查滤网与维持水质，AI不保证所有杂物都被发现。底座安装条件、耗材、冬季存放和区域保修会影响总成本，官网早期预订文案也可能与当前库存并存。",
+      "opportunity": "机会假设：围绕维护步骤而非吸力参数测试价值，记录一周实际人工分钟和漏清位置。若洗滤网是最大痛点，可优先验证可维护底座和耗材服务，不必同时扩张所有清洁模式。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "私人泳池为窄场景高客单消费市场，已有多家机器人品牌；滤网自动维护比普通吸尘更细分。"
+    },
+    "architecture": [
+      {
+        "name": "视觉感知",
+        "detail": "AI相机与其他传感观察杂物和池形。",
+        "evidence": "official"
+      },
+      {
+        "name": "路径决策",
+        "detail": "导航与目标区域清洁。",
+        "evidence": "official"
+      },
+      {
+        "name": "水下清洁",
+        "detail": "履带、刷洗和过滤功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "洗滤底座",
+        "detail": "AstroRinse冲洗滤网并收集废物。",
+        "evidence": "official"
+      },
+      {
+        "name": "管理服务",
+        "detail": "App与维护提示，概念功能层。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Beatbot AquaSense X 官方购买页",
+        "url": "https://eu.beatbot.com/products/aquasense-x",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "AquaSense X 官方技术说明",
+        "url": "https://beatbot.com/pages/aquasense-x",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "官方公开商品库存数据",
+        "url": "https://eu.beatbot.com/products/aquasense-x.js",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际读取商店公开商品JSON，available为true；不是只凭页面存在判断在售。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "beatbot-aquasense-2-ultra",
+    "name": "Beatbot AquaSense 2 Ultra",
+    "brand": "Beatbot",
+    "category": "cleaning",
+    "tagline": "利用视觉复查遗漏区域的多模式泳池清洁机",
+    "officialUrl": "https://beatbot.com/products/aquasense-2-ultra",
+    "status": "on_sale",
+    "statusEvidence": "美国商品页显示Add to Cart、Buy Now与下单后发货说明；技术落地页可能显示不同促销价，记录商品页价格。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$2,699",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "HybridSense AI视觉建立泳池理解并发现遗漏杂物，引导追加清洁；同时执行池底、池壁、水线和水面维护。",
+      "dependency": "本机感知结合App控制；用户仍负责滤网清洗、取放和水质管理，不具有X型号的AstroRinse自动洗滤站。"
+    },
+    "highlights": [
+      "HybridSense视觉",
+      "AI巡检",
+      "执行机构"
+    ],
+    "analysis": {
+      "demand": "需求假设：家用泳池需要同时处理沉底杂物和漂浮物，用户希望减少多台工具切换。应分别测池底覆盖、水线刷洗和表面捞取效果，不能用模式数量代替全部任务都能完成的证据。",
+      "userProfile": "画像推断：拥有较复杂池形并愿意维护无线机器人的家庭，可能已用过随机碰撞式产品。是否需要高价视觉版本取决于漏清问题和使用频率，简单小池用户未必得到相同收益。",
+      "competition": "竞争判断：与AquaSense X、WYBOT视觉产品和传统有线清洁器竞争。它强调多区域清洁与视觉复查，维护仍以人工为主；分析时应区分真正传感差异与同系列普通型号的营销命名。",
+      "supplyChain": "供应链分析：水密电机、摄像模组、电池、履带、滚刷及过滤组件需要长期水下验证。具体供应商及BOM未披露；售后换件、密封老化和锂电运输限制可能比初始电子元件成本更重要。",
+      "technology": "官方描述HybridSense AI映射与杂物再次检测。技术判断：视觉复查的收益取决于水清晰度、底色和光线；路径规划、吸附能力与杂物识别应分别验证，不能由某一个演示推定全面可靠。",
+      "aesthetics": "审美判断：圆润上盖与履带兼顾家电感和工具属性，抓握与提水后排水体验更关键。泳池边停放时需要稳定、不易绊倒的状态，清洁脏污后能否方便恢复外观也影响长期接受度。",
+      "risks": "风险判断：高价多功能设备仍需人工清洗滤网，性能受泳池台阶与几何条件影响。应核对当地保修和配件供应，AI巡检不能替代泳池安全措施，也不提供对水中人员的保护保证。",
+      "opportunity": "机会假设：以顽固漏清点和用户取放劳动为研究入口，比较基础款、视觉款与人工服务的总投入。若大多数池形简单，轻量、易提取和售后便利可能比扩展AI目标种类更有价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "消费泳池清洁为专业场景，视觉复查是差异但竞争已成熟；不能与普通AquaSense 2版本混为一类。"
+    },
+    "architecture": [
+      {
+        "name": "HybridSense视觉",
+        "detail": "相机与传感融合观察池形。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI巡检",
+        "detail": "发现残余杂物并调整清洁。",
+        "evidence": "official"
+      },
+      {
+        "name": "执行机构",
+        "detail": "履带、刷洗、吸入和过滤。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源停靠",
+        "detail": "电池与充电底座。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机管理",
+        "detail": "模式控制及清洁记录。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Beatbot AquaSense 2 Ultra 官方购买页",
+        "url": "https://beatbot.com/products/aquasense-2-ultra",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "AquaSense 2 Ultra 官方能力",
+        "url": "https://beatbot.com/pages/aquasense-2-ultra",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "wybot-s3",
+    "name": "WYBOT S3",
+    "brand": "WYBOT",
+    "category": "cleaning",
+    "tagline": "带基站集污的家庭泳池视觉清洁系统",
+    "officialUrl": "https://www.eu.wybotpool.com/products/wybot-s3-self-emptying-robotic-pool-cleaner-3d-mapping-ai-vision",
+    "status": "on_sale",
+    "statusEvidence": "欧洲商品页提供Buy Now，公开商品JSON标注available=true与当前价格；未使用返回404的旧美国链接。",
+    "regions": [
+      "欧洲官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "€2,499.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI视觉辨识杂物并结合三维映射与位置估计优化清洁，设备返回池边基站转移垃圾和补能。",
+      "dependency": "基站安装、泳池环境和App设置是使用前提；自动排污不能免除基站垃圾收集和定期维护。"
+    },
+    "highlights": [
+      "AI视觉",
+      "空间映射",
+      "清洁底盘"
+    ],
+    "analysis": {
+      "demand": "需求假设：泳池主希望少捞起机器人清理垃圾，并在多天周期内维持水底整洁。应记录实际自主返回成功率和基站维护频次，自动排污宣传不能直接换算成长期完全无需照看的承诺。",
+      "userProfile": "画像推断：具备固定私人泳池和基站安装位置的家庭，尤其在意长期维护便利。租房、季节性充气池或经常改变布局的用户安装收益较低，不能把所有泳池拥有者看成同一市场。",
+      "competition": "竞争判断：自集污基站使其与普通无绳池底机拉开形态差异，也与Beatbot洗滤底座竞争。两者的搬运、返回与滤网维护链路不同，需用实际流程比较，不能只根据基站存在判断优劣。",
+      "supplyChain": "供应链分析：水下机器人、定位感知、充电和垃圾转移基站构成系统；实际工厂及BOM未公开。水密接口、软管堵塞、池边固定可靠性和跨季节保养是供应链与售后共同承担的成本。",
+      "technology": "官方说明三维映射、位置估计与AI视觉清洁。技术判断：定位漂移和基站对接会影响整体任务完成，检测杂物只是其中一步；透明水体中的反光及相似池壁纹理都需要实地验证。",
+      "aesthetics": "审美判断：水池旁新增基站带来固定设备感，位置安排和线缆管理会影响景观。结构应便于清理集污容器、辨认状态和离水检修，较大的设备体量不宜只用宣传渲染图判断接受度。",
+      "risks": "风险判断：复杂系统可能把人工捞取问题变成对接故障与基站维护问题。购买前需确认池形兼容、安装条件和当地服务；自动排污不代表水质消毒，设备运行也不能替代家庭泳池安全管理。",
+      "opportunity": "机会假设：围绕真实家庭的维护链路建立试用，比较人工取放次数、返航失败和容器处理时间。若核心问题在安装，可先提供选型与安装服务，再决定是否开发更复杂的自主基站。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "私人泳池自集污系统属于较窄消费品类，竞争者少于普通清洁机但机械交付门槛更高。"
+    },
+    "architecture": [
+      {
+        "name": "AI视觉",
+        "detail": "相机检测杂物。",
+        "evidence": "official"
+      },
+      {
+        "name": "空间映射",
+        "detail": "三维地图与位置估计。",
+        "evidence": "official"
+      },
+      {
+        "name": "清洁底盘",
+        "detail": "水下移动、刷洗和过滤。",
+        "evidence": "official"
+      },
+      {
+        "name": "服务基站",
+        "detail": "返回、充电和垃圾转移。",
+        "evidence": "official"
+      },
+      {
+        "name": "调度界面",
+        "detail": "App任务与维护状态。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "WYBOT S3 官方购买页",
+        "url": "https://www.eu.wybotpool.com/products/wybot-s3-self-emptying-robotic-pool-cleaner-3d-mapping-ai-vision",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "WYBOT S3 官方技术页",
+        "url": "https://www.eu.wybotpool.com/pages/wybot-s3",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "官方公开商品库存数据",
+        "url": "https://www.eu.wybotpool.com/products/wybot-s3-self-emptying-robotic-pool-cleaner-3d-mapping-ai-vision.js",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际读取商店公开商品JSON，available为true；不是只凭页面存在判断在售。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "wybot-c2-vision",
+    "name": "WYBOT C2 Vision",
+    "brand": "WYBOT",
+    "category": "cleaning",
+    "tagline": "以摄像头寻找池底杂物的家庭无绳泳池机",
+    "officialUrl": "https://www.wybotpool.com/products/wybot-c2-vision-cordless-robotic-pool-cleaner",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商品页有Buy Now；公开商品JSON三个颜色均available=true，本条只计一个C2 Vision型号。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$629.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "前置AI视觉在专用AI VISION模式寻找杂物并优化目标清洁；普通C2与C2 Vision不同，不把App计时或全部模式统称AI。",
+      "dependency": "AI模式与普通池壁、水线模式需分别选择；App连接、滤网清洗、充电和取放仍需用户完成。"
+    },
+    "highlights": [
+      "AI摄像",
+      "专用视觉模式",
+      "清洁模块"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户想以较低投入改善随机清扫的遗漏，特别是池底集中落叶或可见碎屑。应与同价基础机比较清洁时间和漏检，而不是仅比较导航图或宣称的理论清扫效率。",
+      "userProfile": "画像推断：有小中型私人泳池、愿意亲自取放和洗滤网的房主，可能首次购买带视觉的机型。相较带大型基站的产品，这类家庭更关注价格、提取重量与维修配件可得性。",
+      "competition": "竞争判断：它既面对其他视觉泳池机，也面对没有AI但价格更低的普通C2等产品。视觉功能需要带来可见清洁改善才能形成溢价，颜色和年度包装变化不应再拆为独立产品充数。",
+      "supplyChain": "供应链分析：相机防水窗、驱动、滚刷、电池和双层过滤构成主要功能模块，实际芯片和BOM未知。水下图像清晰度、镜窗划伤、密封老化及可替换滤网供应决定长期可用性。",
+      "technology": "官方列出独立AI VISION清洁模式及视觉目标识别。技术判断：应明确该模式覆盖边界，不能把普通池壁路线也说成视觉自主；不同池底颜色、颗粒大小与浑水条件可能显著改变结果。",
+      "aesthetics": "审美判断：紧凑一体底盘利于收纳，提手、滤盖和状态灯应让日常维护容易理解。水下机器的真实观感包括水渍和磨损，评价重点是抓握安全与易清洗，不是装饰性科技线条。",
+      "risks": "风险判断：AI模式并非任意区域或任意杂物都能识别，官网清洁模式需要分开理解。用户仍承担滤网、充电与取放，跨境保修和电池运输会增加成本，不应将低首付等同低全寿命成本。",
+      "opportunity": "机会假设：针对落叶密集的小池验证视觉的增量价值，记录每次遗漏与人工补扫。若摄像头收益有限，优化滤网清洗和轻量提取可能更能提高复购推荐，值得作为对照研究。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "视觉泳池清洁是细分消费市场中的中价路线，有多品牌和普通自动机竞争，不能以AI命名认定冷门。"
+    },
+    "architecture": [
+      {
+        "name": "AI摄像",
+        "detail": "寻找池内可见杂物。",
+        "evidence": "official"
+      },
+      {
+        "name": "专用视觉模式",
+        "detail": "目标识别与路径调整。",
+        "evidence": "official"
+      },
+      {
+        "name": "清洁模块",
+        "detail": "滚刷、吸入与双层过滤。",
+        "evidence": "official"
+      },
+      {
+        "name": "移动能源",
+        "detail": "驱动和可充电电源，概念分层。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "App",
+        "detail": "不同清洁模式与时间设置。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "WYBOT C2 Vision 官方购买页",
+        "url": "https://www.wybotpool.com/products/wybot-c2-vision-cordless-robotic-pool-cleaner",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "WYBOT C2 Vision 官方技术",
+        "url": "https://www.wybotpool.com/pages/wybot-c2-vision",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "官方公开商品库存数据",
+        "url": "https://www.wybotpool.com/products/wybot-c2-vision-cordless-robotic-pool-cleaner.js",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际读取商店公开商品JSON，available为true；不是只凭页面存在判断在售。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "posha-robot-chef",
+    "name": "Posha Robot Chef",
+    "brand": "Posha",
+    "category": "kitchen",
+    "tagline": "用视觉反馈控制家庭一锅烹饪的台面机器人",
+    "officialUrl": "https://www.posha.com/private-chef",
+    "status": "preorder",
+    "statusEvidence": "官方接受US$25可退预订，余款发货时支付；核查页面写新订单等待6—8个月、下一批May 2027，按预售收录。",
+    "regions": [
+      "美国预订"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$1,500限时整机价；US$25预订定金",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Culinary AI通过相机观察锅中食物状态，调整加热、搅拌及配方执行；用户先处理并装好原料，不是自动采购和切菜机器人。",
+      "dependency": "需App与可用食谱；整机含基础食谱，无限食谱Circle会员页面为US$14.95/月，备料和清洗仍由用户负责。"
+    },
+    "highlights": [
+      "食材调味",
+      "视觉观察",
+      "烹饪执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：忙碌家庭愿意保留自己选食材的控制感，同时减少守锅和翻炒时间。应把切配、装盒、洗锅与收纳一起计时，只有完整做饭流程节省劳动，才可能替代外卖或传统锅具。",
+      "userProfile": "画像推断：美国有足够台面空间、经常在家吃饭且接受固定食谱体系的家庭，可能重视个性化口味。高频炒菜和多菜同时出锅的用户需求不同，不能把所有不爱做饭的人视为目标。",
+      "competition": "竞争判断：与Nosh、智能料理机、普通电锅和备餐服务竞争。视觉闭环和自动投料是具体区别，但菜式适配、清洗及交付等待同样重要；机器人外观并不能直接形成稳定的订阅意愿。",
+      "supplyChain": "供应链分析：食物容器、调味仓、搅拌臂、加热面、相机和食品接触件协同工作，具体工厂和BOM未披露。耐油污、过热保护、清洁拆装和长期耗材供应比原型演示更决定量产质量。",
+      "technology": "官方说明用摄像头观察锅中变化并适应备料差异。技术判断：水汽遮挡、食物颜色和原料份量会影响视觉，应设计低置信处置；观察食物状态不等于能保证任意自创配方安全熟透。",
+      "aesthetics": "审美判断：台面机器人必须与厨房长期共存，锅与配料盒的摆放、擦拭死角和开盖空间影响真实体验。简洁外观可以降低机器感，但不能牺牲对热区、运动部件与清洁步骤的清晰提示。",
+      "risks": "风险判断：当前新订单等待数月，预订不是即买即用；页面食谱会员费用需与硬件分开评估。食品过敏、原料存放和烹饪完成检查仍需用户负责，AI不能代替日常食品安全判断。",
+      "opportunity": "机会假设：先验证一个家庭每周重复做的少数菜式，比较守锅分钟、清洗时间和愿意复做的比例。若真实需求是省备料，单纯加深视觉控制未必足够，应把食材准备服务作为对照。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭自动一锅烹饪较少见但存在料理机和外卖强替代，硬件与菜谱适配构成交付门槛。"
+    },
+    "architecture": [
+      {
+        "name": "食材调味",
+        "detail": "用户备料后装入容器和调味仓。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉观察",
+        "detail": "相机观察锅中烹饪状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "烹饪执行",
+        "detail": "加热与搅拌配合。",
+        "evidence": "official"
+      },
+      {
+        "name": "Culinary AI",
+        "detail": "适配原料差异的功能决策层。",
+        "evidence": "official"
+      },
+      {
+        "name": "食谱服务",
+        "detail": "App、基础食谱及可选会员。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Posha Robot Chef 官方购买页",
+        "url": "https://www.posha.com/private-chef",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Posha 官方使用与清洁说明",
+        "url": "https://www.posha.com/how-posha-works",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "preorder"
+  },
+  {
+    "id": "upliance-2o-plus",
+    "name": "Upliance 2.O+",
+    "brand": "upliance.ai",
+    "category": "kitchen",
+    "tagline": "把生成式食谱与引导式料理机结合",
+    "officialUrl": "https://upliance.ai/products/upliance2-0",
+    "status": "on_sale",
+    "statusEvidence": "印度官方页显示Add to cart、On Sale和按邮编查询配送；商品公开数据available=true。",
+    "regions": [
+      "印度官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "₹34,499",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "UpAI辅助生成和调整食谱，设备协同加热、搅拌及切碎；官方披露利用电机负载反馈判断加工状态，用户按步骤添加原料。",
+      "dependency": "联网获取食谱和更新；进行中的烹饪可离线完成。官方写关键软件更新7年、食谱和AI更新免费至2028年1月，之后权益需确认。"
+    },
+    "highlights": [
+      "食物加工",
+      "状态反馈",
+      "UpAI食谱"
+    ],
+    "analysis": {
+      "demand": "需求假设：印度家庭需要降低多步骤菜式的学习负担，同时保留食材和调味选择。要测量用户按提示称量、加料和清洗的完整投入，生成更多菜谱并不自动意味着更容易完成晚餐。",
+      "userProfile": "画像推断：愿意按屏幕指引操作、经常做炖煮或搅拌类菜式的家庭与独居者，尤其在意可复制步骤。喜欢自由大火翻炒或同时做多道菜的用户可能不适合，应避免泛化为所有厨房。",
+      "competition": "竞争判断：与传统多功能料理机、Thermomix、家用锅具和短视频菜谱竞争。UpAI生成与调整配方是软件差异，单容器的加工边界仍存在；本条只计2.O+，不把额外料理杯套装重复统计。",
+      "supplyChain": "供应链分析：加热、刀片、电机、称重、屏幕和食品级容器需共同校准，供应商与BOM未公开。电机负载反馈、容器密封、清洁可达性与本地上门服务会影响长期口碑及运营成本。",
+      "technology": "官方披露电机反馈、同步热搅拌和AI食谱能力。技术判断：生成配方需要约束份量、温度与加料顺序，文本可读不等于机器可安全执行；专利存在也不代表每种食材都能可靠处理。",
+      "aesthetics": "审美判断：锅杯、屏幕和旋钮形成明确操作中心，适合连续跟随步骤。台面占用、杯体提起重量与拆洗刀片的安全感比发光装饰更重要，屏幕语言和提示密度也应适应家庭使用。",
+      "risks": "风险判断：用户依然需要加料，不能把引导烹饪描述为完全无人操作。AI与食谱免费期有截止日期，未来费用、离线功能和维修覆盖需确认；生成食谱的食品安全边界不能交由模型自由发挥。",
+      "opportunity": "机会假设：用一周家庭菜单检验可完成菜式、失败恢复和清洗时间，比较是否真正降低学习成本。若用户主要复做固定菜谱，可靠引导和本地食材适配可能比开放聊天更有商业价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "印度家庭料理机已有替代品，生成式配方与反馈控制的组合较新，但受菜式和人工加料边界制约。"
+    },
+    "architecture": [
+      {
+        "name": "食物加工",
+        "detail": "杯体、刀片、电机与加热协同。",
+        "evidence": "official"
+      },
+      {
+        "name": "状态反馈",
+        "detail": "读取电机工作负载。",
+        "evidence": "official"
+      },
+      {
+        "name": "UpAI食谱",
+        "detail": "生成与调整烹饪步骤。",
+        "evidence": "official"
+      },
+      {
+        "name": "人机交互",
+        "detail": "屏幕、旋钮、称重和分步加料。",
+        "evidence": "official"
+      },
+      {
+        "name": "服务更新",
+        "detail": "App与食谱更新服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Upliance 2.O+ 官方购买页",
+        "url": "https://upliance.ai/products/upliance2-0",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Upliance 官方专利与系统说明",
+        "url": "https://upliance.ai/pages/patents",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "anova-precision-oven-2",
+    "name": "Anova Precision Oven 2.0",
+    "brand": "Anova",
+    "category": "kitchen",
+    "tagline": "带食物识别和食谱转换的台面蒸烤箱",
+    "officialUrl": "https://anovaculinary.com/products/anova-precision-oven",
+    "status": "on_sale",
+    "statusEvidence": "美国官网商品页显示US$1,299、Add to cart及配送说明，型号明确为Precision Oven 2.0。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$1,299",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "内置相机支持食物识别，Anova Intelligence提供烹饪引导及食谱转换；蒸汽和温控是执行基础，不能单独作为AI证据。",
+      "dependency": "联网与App用于智能引导和食谱能力，基础手动烹饪与AI服务需区分；用户负责食材处理、装盘及清洁。"
+    },
+    "highlights": [
+      "食物成像",
+      "AI引导",
+      "热湿控制"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭烘焙或备餐用户希望减少不同烤箱、蒸汽和配方参数间的试错。应比较识别后需要人工纠正多少次、最终熟度是否一致，而不是把预置菜单数量当作智能水平。",
+      "userProfile": "画像推断：有较大台面、愿学习蒸汽烹饪且在意重复结果的家庭烹饪爱好者，可能已使用低温慢煮设备。只需快速加热的用户未必愿意为相机和配方转换付费，应按任务而非收入细分。",
+      "competition": "竞争判断：与普通蒸烤箱、嵌入式智能烤箱和其他视觉烹饪设备竞争。开放食谱转换是差异，但空间、清洁和食物识别范围同样限制价值，不能从AI名称推定比熟练手动设置更好。",
+      "supplyChain": "供应链分析：加热元件、蒸汽水路、温度湿度反馈、相机和门体密封共同决定结果，工厂及BOM未披露。水垢、镜头蒸汽、热循环和售后更换件是关键可靠性问题，不仅是计算模块成本。",
+      "technology": "官方说明食物识别和Anova Intelligence引导。技术判断：相同外形可能对应不同厚度与初温，视觉识别只能提供起点；配方转换应让用户复核，不能把模型输出直接当作食物安全保证。",
+      "aesthetics": "审美判断：黑色玻璃门和简洁面板适合现代厨房，但大体积和水箱位置会影响台面布局。开门空间、蒸汽排出、擦洗便利和关机状态的视觉安静，应与展示屏一起评估。",
+      "risks": "风险判断：摄像头和联网服务增加维护与隐私边界，食谱转换错误可能造成食材浪费。应确认地区电压、软件服务条件与维修支持，蒸汽清洁和水路保养也不会因AI功能而消失。",
+      "opportunity": "机会假设：用家庭常做的面包、烤肉和复热任务验证识别是否降低操作负担，记录改参数和失败次数。若价值来自稳定蒸汽与温控，可优先提升基础可靠性，而非不断增加聊天式功能。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "高端家庭蒸烤是细分兴趣消费，AI识别仍面临食谱和食物多样性；普通蒸烤箱是强替代。"
+    },
+    "architecture": [
+      {
+        "name": "食物成像",
+        "detail": "内置相机供食物识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI引导",
+        "detail": "识别与食谱转换服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "热湿控制",
+        "detail": "蒸汽和加热执行。",
+        "evidence": "official"
+      },
+      {
+        "name": "腔体与传感",
+        "detail": "烹饪腔及状态反馈功能层。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互服务",
+        "detail": "屏幕与App烹饪流程。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Anova Precision Oven 2.0 官方购买页",
+        "url": "https://anovaculinary.com/products/anova-precision-oven",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Anova Oven 2.0 官方AI说明",
+        "url": "https://anovaculinary.com/pages/anova-precision-oven",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "oclean-x-ultra-s",
+    "name": "Oclean X Ultra S",
+    "brand": "Oclean",
+    "category": "personal-care",
+    "tagline": "用区域识别与即时语音指导刷牙动作",
+    "officialUrl": "https://oclean.com.au/products/sonic-electric-toothbrush-x-ultra-s",
+    "status": "on_sale",
+    "statusEvidence": "澳大利亚官方商店显示型号、价格与Add To Cart；页面另列部分刷头Sold Out，不将刷头缺货误判为主机停售。",
+    "regions": [
+      "澳大利亚官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "A$449.95",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI区域检测结合实时语音和屏幕反馈提示刷牙遗漏与动作，声波电机完成清洁；蓝牙、计时和多个模式本身不是AI。",
+      "dependency": "基础模式和屏幕反馈可独立使用，历史记录与个性化通过App；刷头作为耗材需单独确认供应。"
+    },
+    "highlights": [
+      "声波执行",
+      "动作感知",
+      "AI指导"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户不容易知道自己是否遗漏某些区域，又不愿每次刷牙都看手机。即时语音与手柄反馈能否改变习惯，需要连续使用验证，单次评分提高不等于实际口腔健康改善。",
+      "userProfile": "画像推断：愿意接受反馈的日常电动牙刷用户，以及关注刷牙动作的家庭；噪声敏感或不喜欢提示的人可能关闭语音。购买者常被功能吸引，但长期坚持和刷头成本会影响留存。",
+      "competition": "竞争判断：与Oral-B位置跟踪、Philips SenseIQ及普通压力提醒牙刷竞争。语音与区域识别提供交互差异，但若建议重复或误判，用户可能退回最简单模式，不能只凭AI配置推定溢价成立。",
+      "supplyChain": "供应链分析：声波电机、动作与压力感知、语音反馈、触屏、电池和密封壳体需要长期稳定。具体芯片及BOM未公开；防水、充电安全和替换刷头供应是高频个护硬件的持续交付重点。",
+      "technology": "官方明确AI区域检测和实时反馈。技术判断：手握方式、左右手和口腔差异可能影响位置估计，报告应允许不确定性；刷牙动作识别不是牙病诊断，也不能替代专业口腔检查。",
+      "aesthetics": "审美判断：细长手柄和屏幕需要在湿手、牙膏泡沫环境中保持易读易握。充电座占地、刷头卫生收纳与清洁死角比界面动画更重要，语音音量也影响浴室多人使用时的感受。",
+      "risks": "风险判断：官网同页续航表述存在不同数值，本目录不采用这些冲突参数。用户可能过度相信评分而忽略不适，刷头缺货也会影响持续使用；AI指导不应被宣传为疾病预防或治疗保证。",
+      "opportunity": "机会假设：围绕不用看手机的低干扰指导测试产品，比较用户是否愿意保持提示开启。若缺少长期行为改善证据，先优化易懂反馈和刷头供应，比增加更多评分指标更稳妥。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "AI牙刷是成熟个护市场的高价细分，头部品牌竞争充分；无屏或基础电动牙刷是低成本替代。"
+    },
+    "architecture": [
+      {
+        "name": "声波执行",
+        "detail": "电机与可替换刷头。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作感知",
+        "detail": "区域与动作反馈所需感知功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI指导",
+        "detail": "区域检测及实时语音提示。",
+        "evidence": "official"
+      },
+      {
+        "name": "机身反馈",
+        "detail": "触屏展示过程与记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "App与耗材",
+        "detail": "历史管理和刷头维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oclean X Ultra S 官方购买页",
+        "url": "https://oclean.com.au/products/sonic-electric-toothbrush-x-ultra-s",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Oclean 官方型号与AI区域检测说明",
+        "url": "https://www.oclean.com/blogs/electric-toothbrush/oclean-sonic-toothbrush-guide-2025",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "philips-i9000-prestige-ultra",
+    "name": "Philips Norelco i9000 Prestige Ultra",
+    "brand": "Philips",
+    "category": "personal-care",
+    "tagline": "把压力与动作指导加入高端旋转剃须刀",
+    "officialUrl": "https://www.usa.philips.com/c-p/XP9400_89/i9000-prestige-ultra-wet-dry-electric-shaver-with-senseiq-pr",
+    "status": "on_sale",
+    "statusEvidence": "美国官网XP9400/89商品页显示价格与Add to cart；仅计一个i9000 Prestige Ultra机型，不把地区或清洁套装编号重复收录。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$429.96（XP9400/89）",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "SenseIQ Pro使用AI支持的压力与动作反馈辅助调整剃须方式，并结合胡须状态控制；旋转刀头和普通定时提醒不等于AI。",
+      "dependency": "本机反馈与可选App指导共同工作；刀头、清洁用品和地区售后需长期维护，不提供皮肤病诊断。"
+    },
+    "highlights": [
+      "剃须头",
+      "感知反馈",
+      "SenseIQ Pro"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望减少反复来回剃须和不合适用力，尤其难以判断颈部压力时。应验证提示是否被理解、是否减少无效动作，不能直接从AI反馈推断更少皮肤刺激或医疗效果。",
+      "userProfile": "画像推断：经常使用旋转剃须刀、愿意为舒适反馈和高端工艺付费的人群，可能已有Philips生态配件。首次剃须或偏好往复式、手动刀片的用户习惯不同，不应由价格档位推定需求。",
+      "competition": "竞争判断：与Braun、Panasonic高端剃须刀和手动刀片竞争，压力和动作引导是交互差异。刀头贴合、实际胡须处理与耗材费用仍是核心，AI标签不能替代长期剃须体验对比。",
+      "supplyChain": "供应链分析：精密刀网、浮动刀头、电机、感知、密封和充电系统构成整机；具体代工与BOM未披露。刀头一致性、可替换部件、清洁耗材和多年保修履约会明显影响全寿命成本。",
+      "technology": "官方说明SenseIQ Pro由AI支持并提供压力、动作指导。技术判断：动作识别与控制能否适应不同胡须和面部曲线需要实测，提示系统不能测出全部皮肤状况，也不是临床评估工具。",
+      "aesthetics": "审美判断：金属质感、刀头结构和光环反馈形成高端个护语言，但湿手握持与清洗便利更加实际。充电和清洁配件的台面空间、旅行收纳和用后干燥方式同样属于产品设计体验。",
+      "risks": "风险判断：用户可能把提示灯视为适合所有皮肤的保证，而个体敏感和剃须习惯存在差异。应核对当地刀头供应及保修条款；不同地区套装所含附件不同，不能照搬整套配置和价格。",
+      "opportunity": "机会假设：对反复剃须和压力控制困难的用户做长期行为研究，记录是否持续使用反馈。若大多数用户忽略App，可把指导留在机身并提升可维护性，避免为了数据报告增加操作负担。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "高端AI剃须已有大品牌竞争，不是空白赛道；机会更可能来自明确人群的反馈可用性与耗材服务。"
+    },
+    "architecture": [
+      {
+        "name": "剃须头",
+        "detail": "旋转刀网与浮动贴合结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知反馈",
+        "detail": "压力和动作状态输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "SenseIQ Pro",
+        "detail": "AI支持的个性化指导层。",
+        "evidence": "official"
+      },
+      {
+        "name": "驱动能源",
+        "detail": "电机和充电电源，概念功能层。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "交互维护",
+        "detail": "机身提示、App及清洁维护。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Philips Norelco i9000 Prestige Ultra 官方购买页",
+        "url": "https://www.usa.philips.com/c-p/XP9400_89/i9000-prestige-ultra-wet-dry-electric-shaver-with-senseiq-pr",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Philips i9000 Ultra 官方SenseIQ技术",
+        "url": "https://www.usa.philips.com/c-m-pe/face-shavers/wet-dry-electric-shaver-i9000-prestige-ultra-with-sense-iq",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "invoxia-biotracker-2026",
+    "name": "Invoxia Biotracker Edition 2026",
+    "brand": "Invoxia",
+    "category": "pet-care",
+    "tagline": "用生理和行为数据辅助理解犬只日常变化",
+    "officialUrl": "https://www.invoxia.com/en-US/shop/petcare",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商店明确列出Biotracker Edition 2026与Add to cart；不同GPS服务配置只计同一硬件系列一款。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "按官方地区商店与服务方案结账",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "分析犬只活动、休息心率和呼吸等信号，学习个体基线并生成自然语言日记与数据问答；模拟狗的语气不是读取动物真实思想。",
+      "dependency": "基础健康与活动功能和付费Plus/Max GPS分层；AI提示、日记与问答属于付费层，服务与定位覆盖按购买地区确认。"
+    },
+    "highlights": [
+      "佩戴传感",
+      "个体分析",
+      "位置连接"
+    ],
+    "analysis": {
+      "demand": "需求假设：狗主人希望在不全天陪伴时了解日常活动与休息变化，并在需要时向兽医提供记录。应评估记录完整性和可解释性，不能把更频繁的通知直接当作更早发现疾病的证据。",
+      "userProfile": "画像推断：愿意长期给狗佩戴设备并查看趋势的家庭，可能有年长犬或频繁外出需求。不同体型、毛发和佩戴习惯会影响数据与舒适度，健康焦虑也可能导致过度依赖自动报告。",
+      "competition": "竞争判断：与PetPace、Maven和普通GPS定位器竞争，生理记录与生成式日记是差异。用户可能只需要防走失，购买分析需拆开定位、健康趋势和故事化互动，避免把全部功能价值相加。",
+      "supplyChain": "供应链分析：佩戴固定件、生理与运动感知、无线连接、电池和防水壳体组成系统，具体工厂与BOM未知。持续服务、定位网络、丢失更换和小型犬舒适性会影响实际交付成本。",
+      "technology": "官方说明学习个体基线、生成每日自然语言报告并基于记录回答问题。技术判断：佩戴松紧和活动会影响信号，语言模型应清楚表达测量缺失；拟人化回答不能证明它知道狗的真实感受。",
+      "aesthetics": "审美判断：小型附着模块需与项圈协调，并减少晃动、啃咬和卡住风险。用户看重的是狗愿意长期佩戴、易拆充电和耐污，App叙事风格也应避免把健康不确定性包装成过度确定的故事。",
+      "risks": "风险判断：AI健康提示和日记是付费方案，基础无强制订阅不等于所有AI免费。异常提示应交由兽医判断，不用于自行调整药物；定位覆盖、隐私及拟人化语言造成的误解都需明确。",
+      "opportunity": "机会假设：把有效趋势、漏测说明和便于兽医阅读的摘要作为验证重点，比较故事化日记是否提高理解。若用户只在异常时打开App，少而可信的提醒可能比每天生成长报告更有价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "犬只生理监测比普通宠物定位更细分，仍有专业品牌竞争，医疗边界与持续订阅是主要门槛。"
+    },
+    "architecture": [
+      {
+        "name": "佩戴传感",
+        "detail": "记录活动和休息时生理信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "个体分析",
+        "detail": "学习基线与识别变化。",
+        "evidence": "official"
+      },
+      {
+        "name": "位置连接",
+        "detail": "GPS及无线服务按方案启用。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI叙事",
+        "detail": "日记与问答在App服务层。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源外壳",
+        "detail": "电池、防水与项圈固定功能。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Invoxia Biotracker Edition 2026 官方购买页",
+        "url": "https://www.invoxia.com/en-US/shop/petcare",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Invoxia Biotracker 官方技术和方案",
+        "url": "https://www.invoxia.com/en-US/petcare/biotracker",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "aqara-camera-hub-g5-pro",
+    "name": "Aqara Camera Hub G5 Pro",
+    "brand": "Aqara",
+    "category": "home-security",
+    "tagline": "将户外摄像头与本地智能家居网关合并",
+    "officialUrl": "https://us.aqara.com/products/camera-hub-g5-pro",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商店显示Add to cart，商品JSON available=true；Wi-Fi与PoE连接版本合并为一个G5 Pro，不按颜色及套装重复计数。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$199.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "本地视觉AI识别人脸、车辆、动物、包裹及滞留，音频AI识别部分声音事件，并触发家庭自动化。",
+      "dependency": "本地识别和自动化可在部分断网场景运行，远程查看及云存储依赖网络和服务；Matter与HomeKit功能边界分别核对。"
+    },
+    "highlights": [
+      "视觉采集",
+      "本地AI",
+      "家庭网关"
+    ],
+    "analysis": {
+      "demand": "需求假设：房主希望少看无关录像，并把门口事件连接到灯光或家居提示。应评估误报、事件检索和断网后的可用功能，识别类别多不代表家庭更容易配置或实际更安全。",
+      "userProfile": "画像推断：已有Aqara或Apple Home生态、愿意设置自动化的房主，尤其需要户外观察和网关整合。租住用户与只想简单录像的人可能不需要协议整合，应按安装和维护意愿细分。",
+      "competition": "竞争判断：与独立户外摄像头、HomeBase系统和单独智能网关竞争。合并设备可减少盒子，也增加兼容性和单点故障影响；本地AI是明确差异，但同类隐私主张已较普遍。",
+      "supplyChain": "供应链分析：相机、补光、无线协议、算力、存储和户外密封需要整合，具体代工及BOM未知。不同供电版本、热设计、防水与多年固件维护会影响总成本，不能只按相机模组报价估算。",
+      "technology": "官方披露本地视觉及音频识别和联动能力。技术判断：人脸与车牌式外观识别受角度光照影响，声音也可能混淆；应提供误报纠正和明确置信边界，不能保证每个事件被正确理解。",
+      "aesthetics": "审美判断：支架与圆角机身应融入门廊和外墙，补光亮度与镜头存在感需要平衡。供电走线、安装角度和便于擦拭的外壳决定真实观感，产品图的干净背景无法体现施工后的效果。",
+      "risks": "风险判断：家庭门口可能拍到邻居和访客，人脸识别应有清晰权限及删除路径。协议兼容不等于所有平台功能完全一致，云订阅、设备故障和网关离线都可能影响依赖它的联动。",
+      "opportunity": "机会假设：以少而可信的事件联动切入，验证用户是否能独立设置并修复误触发。若主要价值来自跨平台安装服务，优先完善引导与本地故障恢复，可能比继续增加识别类别更有效。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "家用安防竞争充分；户外本地AI兼网关是较窄组合，并非无人覆盖的蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "视觉采集",
+        "detail": "摄像、夜间成像及补光。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地AI",
+        "detail": "视觉对象和音频事件识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭网关",
+        "detail": "Zigbee、Thread和Matter关联能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "记录连接",
+        "detail": "本地存储与远程服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装供电",
+        "detail": "Wi-Fi或PoE配置按版本。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Aqara Camera Hub G5 Pro 官方购买页",
+        "url": "https://us.aqara.com/products/camera-hub-g5-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Aqara G5 Pro 官方产品说明",
+        "url": "https://www.aqara.com/en/product/camera-hub-g5-pro/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "aqara-doorbell-g410",
+    "name": "Aqara Doorbell Camera Hub G410",
+    "brand": "Aqara",
+    "category": "home-security",
+    "tagline": "具备本地人脸识别和室内网关的门铃",
+    "officialUrl": "https://us.aqara.com/collections/smart-cameras",
+    "status": "on_sale",
+    "statusEvidence": "美国官方摄像头商店集合页明确G410、US$144.99、Add to cart与Buy now；旧独立链接失效，保留实际可售入口。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$144.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "门铃端的人脸识别与毫米波在场感知辅助区分访客和滞留，室内铃声网关连接家庭自动化。",
+      "dependency": "人脸识别在设备侧；远程查看、云录像和第三方生态各有条件，官方说明RTSP需有线供电。"
+    },
+    "highlights": [
+      "门外感知",
+      "本地身份",
+      "访客交互"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望及时知道谁到门口，同时减少树影或经过行人的无关提示。应分别测试毫米波在场检测和人脸判断，门铃响起、录像可查与身份识别是不同层次的价值。",
+      "userProfile": "画像推断：有独立门口或允许安装门铃的家庭，尤其已使用Apple Home或Aqara设备者。公寓门外公共空间、旧门铃电源和无线覆盖可能限制部署，不能把家庭数量直接视为可达市场。",
+      "competition": "竞争判断：与Ring、Nest、Tapo门铃和普通视频门铃竞争，室内铃声兼网关及本地人脸是差异。已有生态和历史录像迁移会形成转换成本，硬件参数领先不必然让用户更换整套系统。",
+      "supplyChain": "供应链分析：门外相机、毫米波模块、按钮、供电和室内铃声网关共同组成产品；芯片供应商与BOM未披露。户外密封、门口信号、持续供电和按键耐久是量产交付重点。",
+      "technology": "官方披露设备端人脸识别与毫米波在场检测。技术判断：帽子、背光和安装高度都会影响识别，雷达只能提供存在信息而非身份；自动化应避免把一次人脸推断直接当作高风险动作授权。",
+      "aesthetics": "审美判断：门铃是访客第一眼看到的家居物件，按钮位置、状态提示和安装厚度比复杂界面更重要。室内铃声盒与供电线也属于整体设计，电池模式和有线模式的施工观感不同。",
+      "risks": "风险判断：人脸资料、门口录像及访客告知需要妥善管理；识别错误不能作为排除危险或确认身份的保证。RTSP等功能依赖供电方式，购买前需按实际安装条件核对而不是只看协议图标。",
+      "opportunity": "机会假设：围绕老门铃改装和跨生态使用做需求访谈，记录安装失败、误报和录像查找时间。若客户最大的难点是施工和网络，可靠的安装包与诊断工具可能比更多AI功能更有价值。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "门铃本身是成熟市场，兼本地人脸和网关的组合较细分，但安装与生态竞争强。"
+    },
+    "architecture": [
+      {
+        "name": "门外感知",
+        "detail": "相机与毫米波观察访客。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地身份",
+        "detail": "设备端人脸识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "访客交互",
+        "detail": "按钮、双向音频和提示。",
+        "evidence": "official"
+      },
+      {
+        "name": "室内铃声网关",
+        "detail": "铃声与家庭协议联动。",
+        "evidence": "official"
+      },
+      {
+        "name": "存储供电",
+        "detail": "本地或云存储及有线/电池选项。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Aqara Doorbell Camera Hub G410 官方购买页",
+        "url": "https://us.aqara.com/collections/smart-cameras",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Aqara G410 官方技术",
+        "url": "https://www.aqara.com/en/product/doorbell-camera-hub-g410/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "tapo-c260",
+    "name": "TP-Link Tapo C260",
+    "brand": "TP-Link",
+    "category": "home-security",
+    "tagline": "以本地人脸分类和云台跟随整理家庭事件",
+    "officialUrl": "https://us.store.tapo.com/collections/all-products/products/4k-ultra-hd-pan-tilt-indoor-security-camera-tapo-c260",
+    "status": "on_sale",
+    "statusEvidence": "美国官方商店显示C260 RoomCam 360、价格及Add to cart；按单机收录，多台套装不重复计数。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$59.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "本地机器学习识别人脸、人物、宠物和部分声音事件，云台跟随主体；转动和录像计时本身不是AI。",
+      "dependency": "本地人脸处理与可选Tapo Care云录像分开；官方提示美国部分州的人脸功能不可用，地区能力需核对。"
+    },
+    "highlights": [
+      "影像音频",
+      "本地AI",
+      "云台跟随"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户想知道家里发生了什么，又不想收到每一次画面变化的通知。应比较熟人分类、宠物跟随和检索能否减少人工查看，低价摄像头的分辨率提升不等于事件理解可靠。",
+      "userProfile": "画像推断：关注家中宠物、共享空间或短时离家的普通家庭，可能首次购买AI摄像头。室友和其他居住者也受到拍摄影响，购买者的方便不应自动代表所有家庭成员都接受持续录像。",
+      "competition": "竞争判断：与小米、eufy和Aqara室内云台机直接竞争，低首付和本地人脸是具体定位。家庭安防已有大量成熟品牌，市场可达不等于低竞争，长期软件支持和通知质量影响留存。",
+      "supplyChain": "供应链分析：云台电机、相机、麦克风、本地处理、存储卡接口和电源构成系统；具体芯片与BOM未披露。电机耐久、低光成像、隐私遮挡机构和固件更新是基础交付工作。",
+      "technology": "官方明确本地人脸AI、物体分类和声音检测。技术判断：背脸、遮挡和多人交叠可能导致错认，自动变焦也可能漏掉画面外事件；厂商实验准确率不能直接等同实际家庭识别效果。",
+      "aesthetics": "审美判断：小型白色云台机易放在书架，但持续转动可能让人产生被注视感。物理镜头遮挡是可感知的隐私设计，状态灯、供电线和安装高度应能让家庭成员明确判断工作状态。",
+      "risks": "风险判断：人脸识别存在地区限制，云录像另有订阅条件。误报和漏报不能完全避免，儿童哭声提示也不是医疗监护；用户需要管理共享账号、隐私区域和软件更新，避免录像扩大到无关空间。",
+      "opportunity": "机会假设：以低干扰通知和可解释的熟人分类测试价值，记录用户关闭提醒的原因。若分类带来更多困惑，优先做简洁回看和隐私控制，比在便宜硬件上堆叠复杂自动化更有效。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "室内AI云台摄像头竞争拥挤，机会在通知质量与隐私体验，而非摄像头加AI的概念本身。"
+    },
+    "architecture": [
+      {
+        "name": "影像音频",
+        "detail": "相机与麦克风记录环境。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地AI",
+        "detail": "人脸及人物宠物等分类。",
+        "evidence": "official"
+      },
+      {
+        "name": "云台跟随",
+        "detail": "转动与自动主体居中。",
+        "evidence": "official"
+      },
+      {
+        "name": "隐私记录",
+        "detail": "物理遮挡、隐私区域和存储。",
+        "evidence": "official"
+      },
+      {
+        "name": "App服务",
+        "detail": "通知、管理及可选云录像。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "TP-Link Tapo C260 官方购买页",
+        "url": "https://us.store.tapo.com/collections/all-products/products/4k-ultra-hd-pan-tilt-indoor-security-camera-tapo-c260",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Tapo C260 官方本地AI与规格",
+        "url": "https://www.tapo.com/us/product/smart-camera/tapo-c260/v1/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "cuboai-monitor-3",
+    "name": "CuboAi Smart Baby Monitor 3",
+    "brand": "CuboAi",
+    "category": "home-security",
+    "tagline": "以视觉与声音提醒辅助家庭婴儿照护",
+    "officialUrl": "https://ca.getcubo.com/products/cuboai-smart-baby-monitor",
+    "status": "on_sale",
+    "statusEvidence": "加拿大官网第三代商品页显示Add to Cart与配送、保修说明，按摄像机主体计一款，壁挂及落地支架不分别收录。",
+    "regions": [
+      "加拿大官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "按加拿大官方支架配置结账",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI视觉检测脸部遮挡、翻身和设定区域事件，音频分类区分哭声与环境声；功能用于辅助查看，不是防窒息保证。",
+      "dependency": "需要手机App、网络和正确安装角度；高级历史与分析按CuboAi Care方案，呼吸传感垫是另售硬件，本条不将其算作相机内置功能。"
+    },
+    "highlights": [
+      "婴儿影像",
+      "声音采集",
+      "AI检测"
+    ],
+    "analysis": {
+      "demand": "需求假设：照护者希望离开房间时仍能及时查看婴儿状态，并少做无效的反复打开视频。应评估通知是否可行动、延迟和漏报，而不能用父母焦虑下降或安全保证替代实际使用研究。",
+      "userProfile": "画像推断：家有婴幼儿、多人轮流照护并接受手机查看的家庭；购买者可能是父母或赠礼者。网络条件、夜间作息及不同照护者的技术熟悉度会影响体验，不是所有家庭都需要云分析。",
+      "competition": "竞争判断：与Nanit、普通无线婴儿监视器和家庭摄像头竞争。脸部遮挡和哭声分类提供功能差异，但专用支架、订阅与家庭隐私都是购买因素，不能把婴儿安全焦虑直接换算为市场规模。",
+      "supplyChain": "供应链分析：相机、夜视、麦克风、支架、电源和云端服务共同交付，实际代工和BOM未知。支架稳定、线缆远离婴儿可达区域、长期网络可靠性和售后替换比单个传感器参数更重要。",
+      "technology": "官方说明视觉遮挡与翻身识别及AI哭声分类。技术判断：毯子、光照、体位和安装角度可能影响识别；额外睡眠垫的信号不能误写成摄像机直接测量，任何告警都需要照护者确认。",
+      "aesthetics": "审美判断：小鸟外形降低工具感，适合婴儿房，但外观亲和不应掩盖镜头和运行状态。落地杆、墙支架、夜灯与线缆的整体摆放需要稳定清晰，拆装清洁也应避免给照护者增加负担。",
+      "risks": "风险判断：本品不能替代成人照护，也不保证预防窒息或婴儿猝死。误报可能增加焦虑，漏报则可能造成过度信赖；录影、家庭共享权限、服务中断和订阅变动需要保持明确边界。",
+      "opportunity": "机会假设：研究夜间提醒如何影响照护协作，重点看有用提醒比例和多人的响应分工。若提醒只增加查看次数，可优先改善状态解释与本地可用性，而非增加更多未经验证的健康结论。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "专用婴儿AI监视器是家庭照护细分，品牌竞争已存在，信任、误报与隐私门槛高。"
+    },
+    "architecture": [
+      {
+        "name": "婴儿影像",
+        "detail": "相机、夜视与安装支架。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音采集",
+        "detail": "麦克风获取声音事件。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI检测",
+        "detail": "遮挡、翻身、哭声与区域识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "通知查看",
+        "detail": "App实时提示和家庭共享。",
+        "evidence": "official"
+      },
+      {
+        "name": "服务分层",
+        "detail": "历史分析及另售附件边界。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "CuboAi Smart Baby Monitor 3 官方购买页",
+        "url": "https://ca.getcubo.com/products/cuboai-smart-baby-monitor",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "CuboAi 官方视觉与哭声识别",
+        "url": "https://ca.getcubo.com/pages/cuboai-feature-safety",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "nanit-pro-baby-monitor",
+    "name": "Nanit Pro / Smart Baby Monitor",
+    "brand": "Nanit",
+    "category": "home-security",
+    "tagline": "将俯视婴儿影像转为睡眠和照护记录",
+    "officialUrl": "https://www.nanit.com/products/smart-baby-monitor",
+    "status": "on_sale",
+    "statusEvidence": "原Nanit Pro购买链接跳转现名Smart Baby Monitor；官方提供CUSTOMIZE + BUY和Add to Cart配置流程，仅计同一摄像机，不拆分支架、显示器和衣物套装。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "按美国官网支架与配件配置结账",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI分析睡眠记录并生成睡眠评分及日程提示；配合专用Breathing Wear图案通过视觉估计呼吸运动，不是相机测血氧。",
+      "dependency": "需要App及网络，部分历史、分析和指导依赖会员；呼吸运动功能需要对应穿戴图案和正确拍摄，非医疗设备。"
+    },
+    "highlights": [
+      "俯视采集",
+      "图案运动",
+      "AI睡眠"
+    ],
+    "analysis": {
+      "demand": "需求假设：父母希望知道婴儿什么时候睡着、醒来和需要照顾，而不必手工记每一段时间。应验证自动记录与实际照护日志的一致性，预测下一次小睡并不意味着所有孩子都该遵循同一安排。",
+      "userProfile": "画像推断：愿意使用固定俯视支架、记录作息且可能共享照护权限的家庭。家庭需求会随婴儿成长改变，短期高频查看未必能支持多年会员，购买者应理解专用衣物与摄像头的配合条件。",
+      "competition": "竞争判断：与CuboAi、常规婴儿监视器和手工记录App竞争，自动睡眠日志与图案运动估计是差异。可行动的解释、家庭协作和服务费用比更多评分更重要，不能把健康相关术语当作医疗级优势。",
+      "supplyChain": "供应链分析：相机、俯视支架、夜视、电源和专用图案织物组成体验，实际工厂与BOM未知。硬件安装、云视频成本、尺寸适配及耗材供应需要同时考虑，衣物本身没有电子传感器。",
+      "technology": "官方披露AI睡眠评分和视觉呼吸运动跟踪。技术判断：图案遮挡、姿势和拍摄距离会影响估计，不能把运动频率混同血氧或疾病诊断；模型生成作息建议需要承认个体差异和测量缺失。",
+      "aesthetics": "审美判断：简洁摄像头与细长支架适合固定婴儿床视角，但支架占位和线缆管理影响房间布局。界面应清楚区分实时画面、估计值和历史趋势，避免漂亮图表让推断显得过度精确。",
+      "risks": "风险判断：官方明确不是医疗设备，可能出现假阳性或假阴性，不能替代成人照护或专业诊疗。家庭影像隐私、订阅结束后的功能变化、联网故障和衣物使用条件均需要在购买前理解。",
+      "opportunity": "机会假设：用真实照护记录验证自动日志能否减少沟通遗漏，并比较是否改善多人交接。若报告主要带来压力，优先提供可纠错日志和简洁摘要，避免把所有家庭引导到持续追分的使用方式。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "婴儿睡眠记录是专业消费细分，已有专用监视器竞争；信任与服务持续性构成重要门槛。"
+    },
+    "architecture": [
+      {
+        "name": "俯视采集",
+        "detail": "固定相机与夜视观察。",
+        "evidence": "official"
+      },
+      {
+        "name": "图案运动",
+        "detail": "识别专用Breathing Wear的运动。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI睡眠",
+        "detail": "睡眠记录、评分与时段预测。",
+        "evidence": "official"
+      },
+      {
+        "name": "照护界面",
+        "detail": "App日志、通知与共享。",
+        "evidence": "official"
+      },
+      {
+        "name": "服务维护",
+        "detail": "会员历史和安装条件。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nanit Pro / Smart Baby Monitor 官方购买页",
+        "url": "https://www.nanit.com/products/smart-baby-monitor",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Nanit 官方AI睡眠与行为分析",
+        "url": "https://www.nanit.com/pages/all-in-one-parenting-app",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "Nanit 官方呼吸运动技术与限制",
+        "url": "https://www.nanit.com/products/breathing-wear-swaddle",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "limitations"
+        ],
+        "note": "实际打开，说明专用图案与AI视觉配合，明确非医疗设备及误报漏报风险。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "google-home-speaker-2026",
+    "name": "Google Home Speaker（2026）",
+    "brand": "Google",
+    "category": "home-assistant",
+    "tagline": "以Gemini自然对话连接家庭音频和设备控制",
+    "officialUrl": "https://store.google.com/us/product/google_home_speaker?hl=en-US",
+    "status": "on_sale",
+    "statusEvidence": "美国Google Store显示Buy、US$79.99和活动结束提示；这是2026年Gemini新音箱，不是早期Google Home或Nest Audio改名。",
+    "regions": [
+      "美国Google Store"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$79.99（核查时活动价）",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Gemini for Home理解自然语言请求、连续对话和家庭任务，部分高级对话及复杂自动化需要Google Home Premium。",
+      "dependency": "依赖Google账号、网络与地区语言支持；基础功能与Premium分层，页面试用时长文案存在30天和6个月并存，购买以结账权益为准。"
+    },
+    "highlights": [
+      "声音输入",
+      "Gemini服务",
+      "家庭连接"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望用自然说法控制家居、询问信息和处理轻任务，而不必记固定命令。应比较真实家庭的成功率、纠错次数与响应时间，聊天更流畅并不意味着执行动作更可靠。",
+      "userProfile": "画像推断：使用Google Home生态、愿接受云语音处理的家庭，可能希望长辈或孩子也能操作设备。多人说话、不同口音和共享账号会影响效果，不能仅用单人安静环境演示代表家庭体验。",
+      "competition": "竞争判断：与Amazon Echo、手机助手和开放本地语音系统竞争。Gemini与Google生态提供连接价值，但现有音箱的替换意愿取决于音乐、控制和订阅费用，单纯模型升级不保证硬件换新需求。",
+      "supplyChain": "供应链分析：远场麦克风、扬声器、声学结构、无线和电源组成终端，具体工厂与BOM未披露。云推理成本、长期服务、软件更新和退换货也属于交付成本，不能只比较音频硬件价格。",
+      "technology": "官方说明Gemini语义理解和实时对话。技术判断：嘈杂房间的语音前端、身份上下文与工具执行共同决定体验；回答可能不准确，控制设备时需明确可用状态，不能把生成文本当成已完成动作。",
+      "aesthetics": "审美判断：圆润织物外形与底部状态光减少屏幕存在感，适合书架和餐边柜。麦克风静音开关应容易找到，线材与音量交互需要日常可用，避免装饰光效在夜间造成额外干扰。",
+      "risks": "风险判断：语音误触发、共享家庭资料和云端服务变化会影响信任。高级Gemini与自动化需要订阅且受地区限制；页面试用期表述不一致，不能宣传为所有购买者都能永久免费使用全部AI。",
+      "opportunity": "机会假设：挑选家庭高频的少数任务测试自然语言是否真正减少操作步骤，记录失败恢复与多人切换。若主要用途仍是音乐，隐私、音质和稳定性可能比更长的AI对话更能推动持续使用。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "智能音箱整体成熟且竞争激烈，生成式语音是升级方向；特定语言和家庭任务仍可形成细分。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "远场麦克风与静音控制。",
+        "evidence": "official"
+      },
+      {
+        "name": "Gemini服务",
+        "detail": "云端自然语言和对话能力。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭连接",
+        "detail": "Google Home设备与任务。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频输出",
+        "detail": "扬声器与声学结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互状态",
+        "detail": "灯环、音量与账号服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Home Speaker（2026） 官方购买页",
+        "url": "https://store.google.com/us/product/google_home_speaker?hl=en-US",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Google 官方Gemini音箱说明",
+        "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "amazon-echo-dot-2026",
+    "name": "Amazon Echo Dot（2026）",
+    "brand": "Amazon",
+    "category": "home-assistant",
+    "tagline": "将生成式语音交互放入小型家居音箱",
+    "officialUrl": "https://www.amazon.com/dp/B0FXN2JWST",
+    "status": "on_sale",
+    "statusEvidence": "实际打开Amazon官方商品页；2026年10月28日官方发布说明新Echo Dot已发货并给出购买链接和价格，按在售收录。",
+    "regions": [
+      "美国Amazon官方渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$99.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Alexa+提供生成式对话与家庭任务，设备侧AI加速改善对话检测和背景噪声处理；内置家居协议本身不是AI。",
+      "dependency": "需要账号、网络和受支持地区；部分功能需要Alexa+，官方说明其包含在Prime中，音乐内容可能另订阅。"
+    },
+    "highlights": [
+      "远场采集",
+      "设备侧AI",
+      "Alexa+"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望在厨房或桌边快速控制灯光、查询信息和播放内容，不愿频繁拿手机。应验证自然语言是否降低指令学习成本，尤其是多人和噪声环境，而不是只比较聊天回答长度。",
+      "userProfile": "画像推断：已使用Alexa或愿意以低于大屏设备成本进入生态的家庭，可能每个房间配置一台。房间数量不等于需求数量，实际常用位置、隐私接受程度和网络稳定性需要逐户确认。",
+      "competition": "竞争判断：与Google Home Speaker、旧Echo及手机语音助手竞争，新增家居网关与AI语音前端是差异。成熟生态带来便利也形成锁定，不能把新一代型号视为完全新开辟的消费赛道。",
+      "supplyChain": "供应链分析：麦克风、扬声器、声学腔体、无线网关和电源共同组成终端，实际制造厂与BOM未知。长期云服务和固件维护需要持续成本，低硬件售价可能依赖生态而非单机利润。",
+      "technology": "官方披露设备侧AI加速对话检测与降噪，Alexa+负责复杂语言任务。技术判断：本地识别唤醒与云端推理不同，不能称全部离线AI；语音成功理解也不代表连接的家居动作必定执行。",
+      "aesthetics": "审美判断：球形织物外壳适合融入桌面和书架，实体音量与静音控制易于理解。状态光应在远处可读且夜间克制，多房间安装时电源线和摆放高度也会影响家庭整体观感。",
+      "risks": "风险判断：误唤醒、共享账号和语音购买权限需要清晰配置，儿童使用还涉及内容边界。Alexa+地区与订阅条件不同，不能将美国的功能清单直接搬到其他国家或认定所有任务永久免费。",
+      "opportunity": "机会假设：聚焦厨房计时、无障碍控制或家庭清单等高频任务，测量纠错和实际节省步骤。若用户只听音乐，进一步增加对话复杂度未必促进换机，可靠执行和明确状态可能更重要。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "入门智能音箱是拥挤市场，差异集中在生态和语音可靠性，非天然冷门方向。"
+    },
+    "architecture": [
+      {
+        "name": "远场采集",
+        "detail": "麦克风与噪声处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "设备侧AI",
+        "detail": "唤醒及对话检测辅助。",
+        "evidence": "official"
+      },
+      {
+        "name": "Alexa+",
+        "detail": "云端语言理解与任务服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "家居网关",
+        "detail": "连接兼容设备与协议。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频交互",
+        "detail": "扬声器、按键和状态灯。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amazon Echo Dot（2026） 官方购买页",
+        "url": "https://www.amazon.com/dp/B0FXN2JWST",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Amazon 官方新音箱技术与上市说明",
+        "url": "https://www.aboutamazon.com/news/devices/echo-speaker-lineup",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "Amazon 2026新品上市公告",
+        "url": "https://www.aboutamazon.com/news/devices/new-alexa-devices-2026",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际打开，明确新Echo Dot ships today及上市价格；不使用旧代产品状态。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "amazon-echo-studio-home-camera",
+    "name": "Amazon Echo Studio with Home Camera",
+    "brand": "Amazon",
+    "category": "home-assistant",
+    "tagline": "把看物问答加入家庭音乐音箱",
+    "officialUrl": "https://www.amazon.com/dp/B0CVJSF8JR",
+    "status": "on_sale",
+    "statusEvidence": "实际打开官方购买链接；2026年10月28日Amazon发布页明确带Home Camera型号已发货、US$249.99，区别于无摄像头Studio。",
+    "regions": [
+      "美国Amazon官方渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$249.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "摄像头给Alexa+提供视觉输入，可识别用户展示的物品并解释信息，音频系统还根据房间适配播放；不把未上线功能写成可用。",
+      "dependency": "云端视觉与对话需要Alexa+及网络；官方称部分Fire TV视频通话功能稍后提供，麦克风和摄像头可关闭。"
+    },
+    "highlights": [
+      "视觉输入",
+      "语音前端",
+      "Alexa+多模态"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望不拿手机就询问眼前物品，例如包装和桌游规则，同时保留高质量音乐体验。应验证看物问答是否足够高频，不能因摄像头加入音箱就推定家庭愿意让它长期观看房间。",
+      "userProfile": "画像推断：已用Alexa、重视客厅音乐且愿意尝试视觉交互的家庭，与只需语音控制的用户不同。设备放置高度、镜头方向和展示物品的距离会影响使用，不能由音箱用户基数直接推算需求。",
+      "competition": "竞争判断：与无摄像头Studio、智能屏幕及手机多模态助手竞争。它保留音箱形态同时增加视觉，但手机通常更容易对准物品；是否值得独立硬件，需要比较实际任务成功率和隐私成本。",
+      "supplyChain": "供应链分析：扬声器、声学腔体、麦克风、相机与本地处理模块需要在紧凑机身协同，实际工厂及BOM未知。回声处理、热设计、镜头防污和长期云推理成本都影响产品交付。",
+      "technology": "官方披露视觉识物与Alexa+问答、房间音频适配。技术判断：包装文字、距离和光照影响识别，模型可能误解物品或规则；视觉识别应给出可复核内容，不应把回答准确性视作必然。",
+      "aesthetics": "审美判断：织物音箱更易融入客厅，但镜头会改变用户对物件的感受，运行指示和关闭方式需要明显。屏幕缺席使回答依赖声音，长解释、隐私提示和物品对准反馈应保持简洁。",
+      "risks": "风险判断：室内视觉和语音数据可能涉及其他家庭成员，需清晰权限与物理控制。商品识别若关联购买应防止误操作，尚未上线的Fire TV通话不能提前计入当前价值或作为已可用卖点。",
+      "opportunity": "机会假设：研究用户在厨房、桌游和无障碍场景中是否愿意主动展示物品，比较手机拍摄方案。若视觉使用很少，采用明确的按需开启和短反馈流程，可能比持续环境感知更容易获得信任。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "视觉音箱比普通语音音箱少见，但与智能屏和手机强竞争；隐私与实际高频任务是验证重点。"
+    },
+    "architecture": [
+      {
+        "name": "视觉输入",
+        "detail": "Home Camera提供可见物品画面。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音前端",
+        "detail": "麦克风和对话检测。",
+        "evidence": "official"
+      },
+      {
+        "name": "Alexa+多模态",
+        "detail": "云端看物理解与问答。",
+        "evidence": "official"
+      },
+      {
+        "name": "空间音频",
+        "detail": "扬声器与房间适配。",
+        "evidence": "official"
+      },
+      {
+        "name": "隐私控制",
+        "detail": "关闭控制及视觉工作指示。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amazon Echo Studio with Home Camera 官方购买页",
+        "url": "https://www.amazon.com/dp/B0CVJSF8JR",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Amazon 官方视觉音箱说明",
+        "url": "https://www.aboutamazon.com/news/devices/echo-speaker-lineup",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "Amazon 2026新品上市公告",
+        "url": "https://www.aboutamazon.com/news/devices/new-alexa-devices-2026",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际打开，明确带摄像头型号ships today，不与旧Studio合并。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "amazon-echo-show-16",
+    "name": "Amazon Echo Show 16",
+    "brand": "Amazon",
+    "category": "home-assistant",
+    "tagline": "以生成式交互卡片组织家庭日程和控制",
+    "officialUrl": "https://www.amazon.com/dp/B0G37245M5",
+    "status": "preorder",
+    "statusEvidence": "官方商品链接已实际打开，2026年10月28日发布页明确接受预订、计划年内发货；按预售，不把标准屏和Nanomatte表面版本拆成两款。",
+    "regions": [
+      "美国Amazon预订"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "标准屏US$499.99；预售活动减US$100",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Alexa+理解多轮请求并组合实时视觉内容、日历和操作卡片，Visual ID与环境感知辅助家庭成员识别及个性化。",
+      "dependency": "需要账号、网络与Alexa+地区支持；部分功能依赖会员，支架另外购买，预售交付时间以订单为准。"
+    },
+    "highlights": [
+      "公共触屏",
+      "摄像语音",
+      "Alexa+内容"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望把共享日历、购物比较和家居状态放到公共屏幕，减少每人分别查看手机。应验证生成卡片能否降低沟通遗漏，屏幕变大和内容更丰富不必然让多人协作更容易。",
+      "userProfile": "画像推断：有固定厨房或客厅安装位、多人共享日程且已用Alexa的家庭。独居者或已用平板者可能缺少额外价值，访客和不同账号成员的权限边界也会影响共享屏幕是否被持续使用。",
+      "competition": "竞争判断：与旧Echo Show、平板加支架、家庭日历屏和电视控制界面竞争。生成内容与生态整合有差异，但显示尺寸和防眩表面不是独立赛道，本目录避免把屏面选项当作多个产品。",
+      "supplyChain": "供应链分析：大屏、触控、相机、音频、环境传感和支架系统共同构成硬件；具体工厂与BOM未披露。墙面安装、散热、待机功耗、面板运输和多年内容服务会形成持续成本。",
+      "technology": "官方描述动态交互卡片、Visual ID和传感融合。技术判断：生成内容需要与真实日历和设备状态一致，身份识别也可能失败；模型提供的比较或计划应可复核，不能假定所有卡片都准确执行。",
+      "aesthetics": "审美判断：薄边框和相框式布局适合公共空间，屏幕长期亮起时的信息密度与广告存在感同样重要。壁挂、台面支架和线缆必须整体考虑，简洁待机界面比持续炫技更符合家居需求。",
+      "risks": "风险判断：当前为预售，发货和部分软件体验仍需到货后确认。共享屏可能暴露日历、照片与购买记录，摄像头和语音权限需可见可控；AI生成卡片不能直接视作已核实的家庭事实。",
+      "opportunity": "机会假设：以家庭真实的一周计划测试任务交接和找信息时间，比较普通共享日历屏。若主要使用停留在天气和照片，复杂生成交互可能增加负担，应优先提供稳定、可预测的公共界面。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "家庭共享大屏已有多种替代，生成式卡片较新；预售阶段需要验证多人协作而非仅看硬件规模。"
+    },
+    "architecture": [
+      {
+        "name": "公共触屏",
+        "detail": "显示家庭卡片与控制界面。",
+        "evidence": "official"
+      },
+      {
+        "name": "摄像语音",
+        "detail": "视觉身份和语音输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "Alexa+内容",
+        "detail": "生成和组织交互信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭感知",
+        "detail": "Omnisense与兼容设备联动。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装音频",
+        "detail": "支架/墙面安装与扬声器。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amazon Echo Show 16 官方购买页",
+        "url": "https://www.amazon.com/dp/B0G37245M5",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Amazon Echo Show 16 官方预售及技术",
+        "url": "https://www.aboutamazon.com/news/devices/echo-show-16-smart-display",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "preorder"
+  },
+  {
+    "id": "amazon-alexa-photo-frame",
+    "name": "Amazon Alexa Photo Frame",
+    "brand": "Amazon",
+    "category": "home-assistant",
+    "tagline": "用语义检索和自动选片把家庭照片带回桌面",
+    "officialUrl": "https://www.amazon.com/dp/B0H3CPKKVN",
+    "status": "on_sale",
+    "statusEvidence": "官方商品链接已打开；2026年10月28日官方页明确available starting at US$199.99，材质与颜色版本只计一款。",
+    "regions": [
+      "美国Amazon官方渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$199.99起",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Alexa+按人物、时间、画面内容和语义选择及检索照片，建立跨时间照片关联；自动同步和环境调光本身不是AI。",
+      "dependency": "与Amazon Photos及网络关联，部分AI功能需要Alexa+；官方写含90天Alexa+，Prime包含相应服务，照片共享权限需配置。"
+    },
+    "highlights": [
+      "照片显示",
+      "语音输入",
+      "AI整理"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭照片留在手机里很少被重新观看，用户希望相框自动挑出有意义的内容。应验证选片是否符合家人的偏好、是否避开敏感画面，自动更新频率不能代替情感价值和持续观看。",
+      "userProfile": "画像推断：想给长辈赠送持续更新照片的家庭，以及有大量Amazon Photos内容的用户。购买者和观看者可能不同，远程管理、误传处理与简单语音使用比复杂编辑能力更关键。",
+      "competition": "竞争判断：与Aura等联网相框、智能屏幕和普通照片打印竞争，语义搜索和跨时间关联形成软件差异。屏幕本身可替代性强，真正壁垒可能在照片库、家庭分享和隐私信任，而非相框外观。",
+      "supplyChain": "供应链分析：显示面板、触控、麦克风、环境感知和相框材料构成终端；实际工厂与BOM未知。云相册存储、人物识别、内容推理及赠礼售后是持续成本，不能只按显示器硬件估算。",
+      "technology": "官方披露按人脸、时间与画面语义选片，并用自然语言寻找照片。技术判断：表情和情绪的推断不等于真实意义，家庭合照与儿童隐私需控制；自动关联结果应容易删除、更正或关闭。",
+      "aesthetics": "审美判断：相框的价值在于像家居物件一样安静呈现照片，半哑光屏与实体边框比科技灯效更合适。亮度、夜间关闭、摆放方向和电源线影响真实观感，语音状态不能抢走照片主体。",
+      "risks": "风险判断：自动展示可能把敏感照片、陌生截图或不想回忆的人物带到公共空间，分享权限必须易理解。试用期后AI权益可能变化，不能把订阅能力宣传成购买硬件后永久免费拥有。",
+      "opportunity": "机会假设：以赠礼家庭的长期更新和观看频率验证需求，比较人工选片与AI自动选片的满意度。若用户只需要少量精选照片，可优先做可控的家庭协作，而非追求模型不断制造新关联。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "AI相框比通用智能屏更专注且少见，但联网相框已有成熟竞争，情感价值与误展示风险并存。"
+    },
+    "architecture": [
+      {
+        "name": "照片显示",
+        "detail": "触屏与家居相框结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音输入",
+        "detail": "Alexa自然语言请求。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI整理",
+        "detail": "语义选片、检索与照片关联。",
+        "evidence": "official"
+      },
+      {
+        "name": "相册连接",
+        "detail": "Amazon Photos同步和共享。",
+        "evidence": "official"
+      },
+      {
+        "name": "环境交互",
+        "detail": "亮度感知及状态管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amazon Alexa Photo Frame 官方购买页",
+        "url": "https://www.amazon.com/dp/B0H3CPKKVN",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Amazon AI相框官方能力与在售说明",
+        "url": "https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "eufy-indoor-cam-s350",
+    "name": "eufy Indoor Cam S350",
+    "brand": "eufy",
+    "category": "home-security",
+    "tagline": "用双镜头和AI跟随观察家庭活动",
+    "officialUrl": "https://www.ankerjapan.com/products/t8416",
+    "status": "on_sale",
+    "statusEvidence": "Anker日本官方商店显示在庫わずか、カートに入れる和价格，按单机收录；其他地区库存需另查。",
+    "regions": [
+      "日本官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "¥14,990（日元）",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "双镜头结合AI主体跟踪，云台与变焦保持家人或宠物在画面内；普通转动、录像和网络连接不作为AI证据。",
+      "dependency": "App用于配置和远程查看，可结合HomeBase 3；云备份和带缩略图通知可能上传内容，不能笼统声称全部数据只在本地。"
+    },
+    "highlights": [
+      "双镜采集",
+      "AI跟踪",
+      "云台执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：固定室内摄像头容易丢失移动宠物或家人，用户希望回看时能看清主体。应测试跟随是否及时、是否频繁切错目标，以及用户是否需要全景背景，不能只看自动变焦演示。",
+      "userProfile": "画像推断：有宠物或需要查看共享空间的家庭，愿意把摄像头固定在可供电位置。多人同时活动时需求不同，购买者也需要取得其他住户对录像的理解，不能默认全天跟随被所有人接受。",
+      "competition": "竞争判断：与Tapo、小米和Aqara云台摄像头竞争，双镜头加跟随是具体差异。较高价格需要由成像和实际事件记录支撑，已有家庭生态、存储方式和隐私开关也会影响更换决策。",
+      "supplyChain": "供应链分析：广角与长焦模组、云台电机、音频、无线和本地存储需协调，工厂及BOM未披露。镜头标定、机械耐久、回声处理和固件维护是持续成本，双镜头并非简单把两个模组相加。",
+      "technology": "官方明确AI跟踪控制平移、俯仰和变焦。技术判断：遮挡、多人交叉和宠物快速移动可能使跟踪切换，保持目标在画面不等于理解行为；不能将无关HomeBase功能自动归给单机。",
+      "aesthetics": "审美判断：双眼式镜头结构很容易被注意到，放在家庭书架时要兼顾视野和被观察感。隐私模式转向与状态提示应直观，电源线、底座稳定和清洁方便程度也影响长期接受度。",
+      "risks": "风险判断：跟随可能离开用户关心的原始视角，不能保证同时覆盖多个事件。云备份与缩略图服务涉及上传，账号共享、家庭隐私和网络中断需要管理，设备不能替代照护或安全责任。",
+      "opportunity": "机会假设：研究宠物快速走动或大客厅的实际拍摄遗漏，比较单镜头广角与双镜跟随的有效片段。若用户常关闭自动跟踪，优化固定视角和事件回放可能比更多运动控制更有效。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "室内AI摄像头竞争激烈，双镜跟随是特定交互路线，不能仅因硬件复杂就判断为冷门。"
+    },
+    "architecture": [
+      {
+        "name": "双镜采集",
+        "detail": "广角与长焦视角。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI跟踪",
+        "detail": "识别人或宠物并保持主体。",
+        "evidence": "official"
+      },
+      {
+        "name": "云台执行",
+        "detail": "平移、俯仰和变焦配合。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频连接",
+        "detail": "双向声音与App管理。",
+        "evidence": "official"
+      },
+      {
+        "name": "存储隐私",
+        "detail": "录像配置与隐私模式。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "eufy Indoor Cam S350 官方购买页",
+        "url": "https://www.ankerjapan.com/products/t8416",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "eufy S350 官方AI跟踪说明",
+        "url": "https://us.eufy.com/pages/indoorcam-s350",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "eufycam-s3-pro",
+    "name": "eufyCam S3 Pro",
+    "brand": "eufy",
+    "category": "home-security",
+    "tagline": "以低光成像和家庭本地识别连接户外事件",
+    "officialUrl": "https://www.eufy.com/eu-en/products/t81623w1",
+    "status": "on_sale",
+    "statusEvidence": "欧洲官网单摄像头页显示Add to Cart、Buy Now和€279；对应整套配置另售，不把不同摄像头数量套装重复收录。",
+    "regions": [
+      "欧洲官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "€279单摄像头；HomeBase需另配",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "HomeBase系统结合AI识别人脸、人物、车辆与宠物，摄像头提供低光画面，雷达与PIR辅助触发；太阳能充电本身不是AI。",
+      "dependency": "单摄像头需要兼容HomeBase系统；本地存储与云备份选项不同，太阳能补能取决于安装光照。"
+    },
+    "highlights": [
+      "户外成像",
+      "事件触发",
+      "HomeBase AI"
+    ],
+    "analysis": {
+      "demand": "需求假设：房主希望在夜间看清门廊和庭院活动，同时减少风吹树动导致的提醒。应分别测量夜间图像可辨认性和AI事件判断，亮画面并不代表每次目标都能被识别或通知。",
+      "userProfile": "画像推断：有庭院、门廊或车道且愿布置HomeBase的家庭，尤其想减少电源布线者。太阳能条件、网络距离和季节光照不同，公寓内或长期遮阴位置未必适合相同方案。",
+      "competition": "竞争判断：与Arlo电池相机、Ring和有线PoE设备竞争，本地系统与低光成像提供差异。用户需要比较整套基站成本、扩展和维修，不能拿单摄像头价格对比别人可独立工作的完整方案。",
+      "supplyChain": "供应链分析：光学成像、补光、雷达/PIR、太阳能、电池和无线系统共同工作，工厂及BOM未知。户外密封、充电温度、基站兼容和长期电池更换决定售后负担，不能只计算摄像模组。",
+      "technology": "官方说明人脸与对象AI识别及自学习系统。技术判断：事件触发、目标识别和身份判断是不同步骤，应验证跨摄像头一致性；低光增强可能改变细节，不能把宣传样片当作任意夜间条件的保证。",
+      "aesthetics": "审美判断：白色机身与深色前脸具有明确安防属性，太阳能与支架安装会影响外墙观感。清晰状态、适当补光和简洁走线比装饰性设计更实际，设备位置也要兼顾维护时的可达性。",
+      "risks": "风险判断：单机需要HomeBase，未配齐系统无法获得完整功能；日照不足可能需要人工补电。人脸误判、邻居隐私和服务变化需管理，AI告警不能作为防盗或人身安全的保证。",
+      "opportunity": "机会假设：以住宅安装条件和夜间误报为研究入口，比较用户整季维护投入。若核心痛点是联网和补电，可优先做选址、安装与电池维护服务，而非不断增加更难解释的识别类别。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "家庭户外安防是成熟拥挤赛道，太阳能低光加本地AI是系统路线，不代表没有替代。"
+    },
+    "architecture": [
+      {
+        "name": "户外成像",
+        "detail": "低光相机与补光。",
+        "evidence": "official"
+      },
+      {
+        "name": "事件触发",
+        "detail": "雷达及PIR感知。",
+        "evidence": "official"
+      },
+      {
+        "name": "HomeBase AI",
+        "detail": "人物、车辆、宠物与人脸分析。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源无线",
+        "detail": "太阳能补能和电池。",
+        "evidence": "official"
+      },
+      {
+        "name": "记录管理",
+        "detail": "基站存储与App通知。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "eufyCam S3 Pro 官方购买页",
+        "url": "https://www.eufy.com/eu-en/products/t81623w1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "eufy S3 Pro 官方识别与系统说明",
+        "url": "https://www.eufy.com/eufycam-pro",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "arlo-ultra-2",
+    "name": "Arlo Ultra 2",
+    "brand": "Arlo",
+    "category": "home-security",
+    "tagline": "通过订阅AI事件分类管理家用无线录像",
+    "officialUrl": "https://us.arlo.com/products/arlo-ultra-2",
+    "status": "on_sale",
+    "statusEvidence": "官网Ultra 2商品页仍提供配置，实际读取公开商品JSON available=true、price=18999；不与Ultra 3代混淆。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$189.99起（商品公开数据）",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "结合Arlo Secure对录像进行人物、车辆、动物和包裹分类；高级自然语言摘要等取决于型号、地区和订阅，不默认全部已开通。",
+      "dependency": "需兼容SmartHub和App；AI告警与云存储主要依赖付费方案，购买摄像头不等于获得永久完整AI服务。"
+    },
+    "highlights": [
+      "视频采集",
+      "无线能源",
+      "SmartHub"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望从大量户外运动录像中快速找出人、车或包裹事件，而不是不断检查无关提醒。应比较分类后节省的回看时间与订阅成本，不能把录像分辨率提升等同更可靠的安全判断。",
+      "userProfile": "画像推断：已有Arlo基站或愿意采用其云服务的房主，可能需要无线安装和多台相机管理。对订阅敏感、要求完全本地运行的家庭需求不同，应该明确摄像头与基站的完整使用条件。",
+      "competition": "竞争判断：与eufy、Nest、Ring及本地录像系统竞争，Arlo的价值包括云服务体验和现有生态。Ultra 2虽已有后续型号，当前可售并不等于更值得购买，需要把软件寿命和配件兼容纳入比较。",
+      "supplyChain": "供应链分析：可充电相机、光学模组、无线、密封和SmartHub构成系统，实际工厂及BOM未披露。换电池、户外老化、视频带宽与云推理成本影响长期服务，不应只看促销硬件价格。",
+      "technology": "官方方案说明视觉对象分类及部分AI摘要能力。技术判断：分类和文字说明可能漏掉上下文，功能需按Ultra 2实际支持范围复核；不能把面向全系列的最新计划功能全部写成单台相机已具备。",
+      "aesthetics": "审美判断：小型圆角机身便于挂在外墙和门廊，但支架朝向、充电取下动作与安装高度决定日常体验。家庭摄像头的状态与视野应可理解，简洁外形不应掩盖持续拍摄的事实。",
+      "risks": "风险判断：高级AI和云历史需要持续付费，部分识别受地区限制，试用结束后功能会变化。账号泄露、网络中断、误报和漏报都可能影响体验，不能用分类结果替代人工确认可疑事件。",
+      "opportunity": "机会假设：研究已有基站用户为何扩容或退出订阅，比较云摘要是否真正减少查看负担。若用户主要需要可靠录像，本地存储和透明计划边界可能比更多生成式描述更有商业价值。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "无线家庭安防已有强品牌竞争，订阅AI并非冷门；价值取决于安装生态和长期服务体验。"
+    },
+    "architecture": [
+      {
+        "name": "视频采集",
+        "detail": "户外相机、夜视与音频。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线能源",
+        "detail": "电池供电及基站连接。",
+        "evidence": "official"
+      },
+      {
+        "name": "SmartHub",
+        "detail": "兼容基站与记录链路。",
+        "evidence": "official"
+      },
+      {
+        "name": "云AI分类",
+        "detail": "Arlo Secure事件分析。",
+        "evidence": "official"
+      },
+      {
+        "name": "App计划",
+        "detail": "通知、历史与订阅管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Arlo Ultra 2 官方购买页",
+        "url": "https://us.arlo.com/products/arlo-ultra-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Arlo Secure 官方AI功能与计划",
+        "url": "https://us.arlo.com/pages/arlo-secure",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "官方公开商品库存数据",
+        "url": "https://us.arlo.com/products/arlo-ultra-2.js",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际读取商店公开商品JSON，available为true；不是只凭页面存在判断在售。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "home-assistant-voice-pe",
+    "name": "Home Assistant Voice Preview Edition",
+    "brand": "Nabu Casa",
+    "category": "home-assistant",
+    "tagline": "面向家庭爱好者的开放可配置语音终端",
+    "officialUrl": "https://www.home-assistant.io/voice-pe/",
+    "status": "on_sale",
+    "statusEvidence": "官方硬件页提供购买入口；实际打开Seeed商品页显示In stock和US$59。它是可购买的完整语音终端，Preview为产品名称而非未开放预订。",
+    "regions": [
+      "Seeed全球渠道（配送地以结账为准）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$59（所查Seeed渠道）",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "通过本地或云端语音模型识别请求，可连接本地大模型或AI供应商处理自然语言家居任务；机身主要承担音频采集和反馈。",
+      "dependency": "必须配合Home Assistant主机；本地大模型及通用语音识别需要额外算力，不应宣称小终端独立运行全部大模型。"
+    },
+    "highlights": [
+      "音频终端",
+      "本地前端",
+      "实体交互"
+    ],
+    "analysis": {
+      "demand": "需求假设：一部分家庭希望语音控制可自主管理，减少对单一平台和云服务的依赖。应验证实际配置时间、语言识别成功率和家人是否愿意使用，开源本身不等于普通家庭无需学习。",
+      "userProfile": "画像推断：已经使用Home Assistant的家庭爱好者或愿意维护本地主机的用户，属于消费级进阶人群。它不是企业开发板，但也不是独立即用音箱；家中其他成员可能更在意稳定而非可定制。",
+      "competition": "竞争判断：与Echo、Google音箱及DIY语音卫星竞争，开放协议、可选本地处理和实体隐私开关提供差异。较窄用户群不代表低成本获客，文档、社区和售后能力常是产品可用性的组成部分。",
+      "supplyChain": "供应链分析：音频处理、麦克风、扬声器、旋钮、无线和外壳构成成品，官方公开部分设计但具体BOM价格未知。跨地区渠道、固件支持与用户主机性能差异会增加服务和兼容测试成本。",
+      "technology": "官方支持本地语音模型以及连接大模型服务。技术判断：语音前端、语音转写、意图处理和执行在不同设备或服务完成，必须明确部署边界；局部离线能力不能被描述为所有语言的完整离线助手。",
+      "aesthetics": "审美判断：低矮方形机身、旋钮和物理断麦开关适合桌面，刻意减少屏幕与装饰。状态灯和按键反馈需要让非技术家人也理解，透明可维修设计与家居融入之间可以保持平衡。",
+      "risks": "风险判断：系统维护、模型服务费用和兼容性由用户部分承担，本地模式也可能受语言和算力限制。云模型连接会改变数据路径，配置错误或更新可能影响家居执行，不宜把Preview宣传成所有家庭成熟即用。",
+      "opportunity": "机会假设：围绕特定语言、无障碍操作或隐私偏好提供配置完善的家庭套餐，测试安装和故障恢复时间。若只服务爱好者，应以透明边界和长期维护建立信任，而不是夸大通用智能水平。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "开放家庭语音终端是较窄爱好者市场，具有差异但需要配置服务；不是普通联网音箱换标签。"
+    },
+    "architecture": [
+      {
+        "name": "音频终端",
+        "detail": "双麦克风与扬声器。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地前端",
+        "detail": "音频处理和唤醒功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "实体交互",
+        "detail": "旋钮、按钮和断麦开关。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部智能",
+        "detail": "Home Assistant主机与可选模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭执行",
+        "detail": "已配置设备和自动化接口。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Home Assistant Voice Preview Edition 官方购买页",
+        "url": "https://www.home-assistant.io/voice-pe/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Home Assistant 官方Assist说明",
+        "url": "https://www.home-assistant.io/voice_control/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "Seeed渠道商品与库存",
+        "url": "https://www.seeedstudio.com/Home-Assistant-Voice-p-6998.html",
+        "kind": "independent",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际打开的零售商一手库存页，显示In stock；渠道价与品牌建议价可能不同。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "matic-floor-robot",
+    "name": "Matic Floor-Cleaning Robot",
+    "brand": "Matic",
+    "category": "cleaning",
+    "tagline": "用立体视觉理解家居环境的非圆盘清洁机器人",
+    "officialUrl": "https://maticrobots.com/product",
+    "status": "on_sale",
+    "statusEvidence": "官网当前配置页显示Buy Matic、US$1,495起和Ships in 2 weeks；本条以Matic基础型号为准，Serene降噪版本不另外重复计数。",
+    "regions": [
+      "美国本土官方渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$1,495起",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "视觉模型识别日常物体、低矮障碍和宠物污物并更新三维地图，规划吸尘拖地路线；视觉识别不是仅靠碰撞转向。",
+      "dependency": "清洁和地图处理强调设备侧设计，App用于控制和更新；语音手势Matic Cues须按所选配置确认，不自动归为基础机标配。"
+    },
+    "highlights": [
+      "视觉感知",
+      "空间地图",
+      "清洁执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望减少扫地机被杂物卡住、宠物污物扩散和反复整理地面的工作。应测量实际接管、漏清及耗材处理时间，非圆盘形态和三维地图本身不能证明比成熟清洁机更省事。",
+      "userProfile": "画像推断：有宠物、混合地面并愿意为不同清洁结构支付较高首付的美国家庭，可能对传统圆盘机不满意。家具底部高度和房间门槛会限制适用性，不能从大轮子推定任意家居都能通过。",
+      "competition": "竞争判断：与Roborock、Dreame和Narwal等成熟系统竞争，视觉感知与非圆盘结构形成差异。成熟竞品的耗材和售后网络也有价值，应比较清洁全流程，不把新外形直接当成更强自主能力。",
+      "supplyChain": "供应链分析：多相机、轮驱、清洁头、水路和过滤耗材组成系统；官方说明在美国设计、测试、组装和支持，但详细供应商与BOM未知。量产一致性、耗材与维修运输仍是重要交付工作。",
+      "technology": "官方披露用视觉识别物体并通过图像构建动态三维地图，宠物污物模型使用数据训练。技术判断：低照、透明物和地毯边缘需要验证，地图精度宣传不能替代端到端清洁与避障实测。",
+      "aesthetics": "审美判断：竖向主体与大轮突破传统圆盘家电轮廓，可读性强但更显眼。用户每天看到的停靠状态、脏污容器取出和家具下可达性应纳入设计评价，外形新颖不自动意味着家居融合更好。",
+      "risks": "风险判断：当前官方销售与保修重点在美国，转运海外可能失去完整保障。视觉避障仍可能漏检，耗材和清洁头需要维护；不同配置及后续功能不能都算作基础机已交付能力。",
+      "opportunity": "机会假设：围绕有宠物家庭的接管与清洁事故建立对照试用，比较真实人工干预分钟。若痛点集中于污物识别，可优先提高保守避让和错误恢复，而不是追求更复杂的拟人交互。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "清洁机器人整体拥挤，非圆盘视觉路线相对少见；美国交付和维护能力需要与成熟品牌比较。"
+    },
+    "architecture": [
+      {
+        "name": "视觉感知",
+        "detail": "多视角相机识别家居对象。",
+        "evidence": "official"
+      },
+      {
+        "name": "空间地图",
+        "detail": "动态三维定位与路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "清洁执行",
+        "detail": "吸尘、滚刷和湿式清洁。",
+        "evidence": "official"
+      },
+      {
+        "name": "维护耗材",
+        "detail": "过滤及清洁容器。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制更新",
+        "detail": "App和软件迭代。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Matic Floor-Cleaning Robot 官方购买页",
+        "url": "https://maticrobots.com/product",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Matic 官方视觉感知与导航",
+        "url": "https://maticrobots.com/innovation",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "oral-b-io10",
+    "name": "Oral-B iO10",
+    "brand": "Oral-B",
+    "category": "personal-care",
+    "tagline": "以牙面覆盖识别指导日常刷牙动作",
+    "officialUrl": "https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/",
+    "status": "on_sale",
+    "statusEvidence": "品牌官方页保留iO10和零售导购；实际打开John Lewis黑色iO10商品页显示Add to basket与配送。部分法国特别版缺货，不据此宣称全球官网直售均有货。",
+    "regions": [
+      "英国零售渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "£800（所查John Lewis英国渠道）",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI位置检测与三维牙面跟踪估计刷牙覆盖，iO Sense充电座及App提供过程反馈；压力感应和计时不是全部AI功能。",
+      "dependency": "需要与App及iO Sense按功能配合；基本电动刷牙可独立使用，替换刷头与充电配件的地区供应需确认。"
+    },
+    "highlights": [
+      "清洁执行",
+      "姿态感知",
+      "AI覆盖"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户常难发现刷牙遗漏区域，希望在不持续看手机时得到明确反馈。应观察长期覆盖习惯是否改变，刷牙分数提高不等于疾病风险下降，也不能把设备提示当成专业口腔检查。",
+      "userProfile": "画像推断：已经接受电动牙刷、愿意为可视指导和高端充电配件付费的人群，可能关注刷牙动作规范。礼品购买者与长期使用者的意愿可能不同，刷头成本和手机连接习惯也会影响留存。",
+      "competition": "竞争判断：与Oclean语音指导、Philips感知适配和普通压力提醒牙刷竞争。iO Sense底座减少看手机的需求，但高价需要由日常易用性证明，颜色和旅行套装不能被当作独立技术产品重复统计。",
+      "supplyChain": "供应链分析：磁驱动刷头、运动与压力感知、显示、蓝牙及充电座需要协同，具体代工及BOM未披露。防水、密封老化、充电可靠性与专用刷头供应是高频个护设备长期体验的基础。",
+      "technology": "官方明确AI三维牙面跟踪与位置检测。技术判断：刷头姿态和握持习惯会影响区域估计，应区分估计覆盖和实际清洁效果；它不能测量每颗牙的健康状态或替代牙医判断。",
+      "aesthetics": "审美判断：手柄、显示和充电座组成完整浴室物件，湿手操作和反馈可读性比动画更重要。充电底座占地、旅行盒体积和刷头收纳会影响真实便利，漂亮材质也需要容易擦洗。",
+      "risks": "风险判断：部分特别版官网缺货，渠道价格差异较大，当前零售状态不代表所有地区都有官方保修。用户不应过度依赖评分，刷头耗材费用、蓝牙连接和长期软件支持也需纳入总成本。",
+      "opportunity": "机会假设：针对经常遗漏区域的用户比较底座反馈、语音反馈与简单计时，记录提示是否持续开启。若用户不愿连接App，简洁且可靠的本机引导可能比增加数据报告更能形成长期价值。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "高端AI牙刷竞争充分，设备和耗材生态成熟；可验证机会在反馈可用性而不是AI命名。"
+    },
+    "architecture": [
+      {
+        "name": "清洁执行",
+        "detail": "圆形刷头与电动驱动。",
+        "evidence": "official"
+      },
+      {
+        "name": "姿态感知",
+        "detail": "刷牙动作及压力输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI覆盖",
+        "detail": "位置与三维牙面跟踪。",
+        "evidence": "official"
+      },
+      {
+        "name": "iO Sense",
+        "detail": "充电底座提供过程引导。",
+        "evidence": "official"
+      },
+      {
+        "name": "App记录",
+        "detail": "个性化反馈与历史。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Oral-B iO10 官方购买页",
+        "url": "https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Oral-B 官方App指导",
+        "url": "https://oralb.com/en-us/oral-b-app/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "John Lewis iO10实时购买页",
+        "url": "https://www.johnlewis.com/oral-b-io10-electric-toothbrush/black/p111132636",
+        "kind": "independent",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际打开零售商一手页面，显示Add to basket及配送；本轮购买证据来自英国渠道，不声称品牌美国官网有现货。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "eufy-lawn-mower-e15",
+    "name": "eufy Robot Lawn Mower E15",
+    "brand": "eufy",
+    "category": "garden",
+    "tagline": "用纯视觉降低家庭机器人割草的安装负担",
+    "officialUrl": "https://www.eufy.com/products/t28801a1?ref=robot-lawn-mower-e-series",
+    "status": "on_sale",
+    "statusEvidence": "官方E15商品页显示Add to Cart、Buy Now及价格；本条只计E15，不把覆盖面积不同的E18另计一款。",
+    "regions": [
+      "美国官方商店"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$1,799.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "V-FSD纯视觉路线使用相机进行环境理解、三维障碍感知、自动建图与割草路径规划，不需要埋边界线或RTK基站。",
+      "dependency": "仍需App配置、合适草种与草坪条件；网络覆盖不足时可选4G订阅，弱光或雨天回站不等于全天候自主。"
+    },
+    "highlights": [
+      "视觉采集",
+      "V-FSD",
+      "三维避障"
+    ],
+    "analysis": {
+      "demand": "需求假设：房主希望自动割草，但不愿埋线或安装卫星定位天线。应测试开箱建图、季节变化和地图恢复所需劳动，免RTK不意味着所有庭院都无需准备或任何边界都能识别。",
+      "userProfile": "画像推断：有较平整小庭院、草种符合限制并愿意按App管理的家庭，可能第一次尝试机器人割草。高坡、密草和复杂边缘用户需要其他方案，不能把最大面积参数等同所有地形的适用性。",
+      "competition": "竞争判断：与TerraMow纯视觉、Navimow融合定位及传统手推工具竞争。安装简单是价值主张，但光线、边界和草种限制需要一同比较，用户最终购买的是稳定的庭院维护而不是导航名词。",
+      "supplyChain": "供应链分析：相机、处理单元、轮驱、刀盘、电池和充电站构成系统，实际工厂及BOM未知。镜头污染、户外密封、刀片供应和季节保养关系到交付质量，不能只按室内机器人经验估算。",
+      "technology": "官方将E15称为视觉AI割草机，披露V-FSD和三维障碍感知。技术判断：草坪边缘、阴影和低矮物体增加识别挑战，应验证低置信时的安全行为；不能把免RTK等同完全不依赖环境条件。",
+      "aesthetics": "审美判断：较简洁机身和无需定位天线降低庭院设备感，但充电站、线缆和安全停止按钮仍需清晰。泥草附着后是否易清洁、提取和冬季收纳，比宣传图中的平滑外壳更影响日常体验。",
+      "risks": "风险判断：官网明确草高、坡度、草种与地面条件限制，必须按实际院落核对。刀盘与自主移动不能只依靠AI避开孩子或动物，4G服务、雨天中断和低光回站也会改变维护频率。",
+      "opportunity": "机会假设：在小而规则的住宅草坪验证纯视觉是否减少安装成本，记录边缘补割和接管次数。若大部分麻烦来自维护，完善草种选型与季节指导可能比增加覆盖面积更有实际竞争力。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "纯视觉割草在家庭庭院中相对细分，但已有多品牌；草坪适配与维护服务决定真实门槛。"
+    },
+    "architecture": [
+      {
+        "name": "视觉采集",
+        "detail": "相机观察草坪和障碍。",
+        "evidence": "official"
+      },
+      {
+        "name": "V-FSD",
+        "detail": "视觉建图与路线规划。",
+        "evidence": "official"
+      },
+      {
+        "name": "三维避障",
+        "detail": "感知障碍并调整行驶。",
+        "evidence": "official"
+      },
+      {
+        "name": "切割能源",
+        "detail": "轮驱、刀盘与充电站。",
+        "evidence": "official"
+      },
+      {
+        "name": "App网络",
+        "detail": "地图调度及可选4G服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "eufy Robot Lawn Mower E15 官方购买页",
+        "url": "https://www.eufy.com/products/t28801a1?ref=robot-lawn-mower-e-series",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "eufy E系列官方视觉导航说明",
+        "url": "https://www.eufy.com/robot-lawn-mower-e-series?wvideo=akzb57a5z3",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "enabot-ebo-max",
+    "name": "Enabot EBO Max",
+    "brand": "Enabot",
+    "category": "home-assistant",
+    "tagline": "在家中移动并结合视觉和语音交互的家庭机器人",
+    "officialUrl": "https://enabot.sg/products/ebo-max",
+    "status": "on_sale",
+    "statusEvidence": "新加坡品牌渠道页面同时含可买和缺货模板，实际读取公开商品JSON available=true；记录新加坡可售，不据此判断美国库存。",
+    "regions": [
+      "新加坡品牌渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "S$889",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "多模态AI结合视觉、语音、身份与记忆处理家庭请求，V-SLAM支持移动巡查；会移动的摄像头并不等于具备物理抓取能力。",
+      "dependency": "语音和远程交互需要网络及App，录像与高级服务条件需按地区；官方页面的人脸容量数字互有差异，本目录不采用。"
+    },
+    "highlights": [
+      "视听输入",
+      "多模态AI",
+      "空间移动"
+    ],
+    "analysis": {
+      "demand": "需求假设：用户希望从固定相机看不到的位置查看宠物和家人，同时通过语音发起简单巡视。应验证移动带来的视角增益是否值得维护成本，机器人有记忆的宣传不能直接证明陪伴需求成立。",
+      "userProfile": "画像推断：有宠物、接受地面移动设备并愿维护地图的家庭，可能同时关注远程查看和互动。多层住宅、门槛和地面杂物会限制覆盖，儿童把它当玩具时还需要明确使用与隐私边界。",
+      "competition": "竞争判断：与固定云台摄像头、Loona等陪伴机器人和手机视频通话竞争。移动加多模态交互形成组合差异，但如果主要用途是偶尔查看宠物，更简单廉价的固定相机仍是强替代。",
+      "supplyChain": "供应链分析：履带底盘、相机、麦克风、屏幕、电池与回充系统协同，实际工厂及BOM未披露。毛发缠绕、轮组清洁、充电接触和固件升级是持续维护工作，移动结构增加售后复杂度。",
+      "technology": "官方说明视觉语音融合、家庭成员识别、记忆与V-SLAM。技术判断：理解请求、定位和执行需分别验证，不能从自然对话推定通用自主能力；跌倒提示等不应被当成经过临床验证的监护。",
+      "aesthetics": "审美判断：小型拟人表情与履带结构具有亲和力，但镜头、静音和记录状态仍应明确。地面视角与实际室内摆设可能显得局促，充电座、清理轮组和避免被宠物啃咬也属于外观使用设计。",
+      "risks": "风险判断：页面同时保留库存模板和不同人脸数量说明，采购需按实际变体确认。移动可能卡住，AI识人或跌倒检测会误报漏报；录像、家庭记忆和远程控制权限都需要用户妥善管理。",
+      "opportunity": "机会假设：挑选固定相机确实覆盖不到的家庭任务，比较到达成功率、接管和回充次数。若交互价值很快下降，可优先做可靠远程巡视与隐私控制，避免把记忆能力包装成真正理解家庭情感。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "家庭移动视觉助手比固定相机少见，但已有陪伴机器人竞争；实际用途和可靠移动比外形新奇更关键。"
+    },
+    "architecture": [
+      {
+        "name": "视听输入",
+        "detail": "相机、麦克风与声源定位。",
+        "evidence": "official"
+      },
+      {
+        "name": "多模态AI",
+        "detail": "语义、身份及记忆服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "空间移动",
+        "detail": "V-SLAM与履带行走。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互反馈",
+        "detail": "表情与双向通信。",
+        "evidence": "official"
+      },
+      {
+        "name": "回充维护",
+        "detail": "停靠、电池和App管理。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Enabot EBO Max 官方购买页",
+        "url": "https://enabot.sg/products/ebo-max",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Enabot EBO Max 官方能力",
+        "url": "https://store.enabot.com/products/ebo-max-familybot",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "官方公开商品库存数据",
+        "url": "https://enabot.sg/products/ebo-max.js",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际读取商店公开商品JSON，available为true；不是只凭页面存在判断在售。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "enabot-rola-petpal",
+    "name": "Enabot ROLA PetPal",
+    "brand": "Enabot",
+    "category": "pet-care",
+    "tagline": "把移动观察、AI拍宠和模块化互动放在一起",
+    "officialUrl": "https://enabot.sg/products/rola-petpal-robot-for-cats-and-dogs",
+    "status": "on_sale",
+    "statusEvidence": "新加坡商品页与公开商品数据核实available=true；按PetPal主体加零食模块计一款，互动玩具附件与其他套装不重复收录。",
+    "regions": [
+      "新加坡品牌渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "S$369（含零食模块）",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "AI宠物识别和自动拍摄捕捉宠物活动，配合移动底盘、远程互动和可换零食/玩具模块；定时喂食自身不算AI。",
+      "dependency": "App和家庭网络用于远程查看，自动逗宠需要对应互动玩具模块；本条购买配置为零食模块，不能把所有附件视为标配。"
+    },
+    "highlights": [
+      "移动主体",
+      "宠物感知",
+      "模块接口"
+    ],
+    "analysis": {
+      "demand": "需求假设：外出主人希望查看宠物并提供少量互动，而固定相机有视角盲区。应验证宠物是否主动接近、零食是否适量，以及移动会不会打扰休息，不能以遥控动作数量代替动物福利和使用价值。",
+      "userProfile": "画像推断：家有猫或小中型犬、地面较通畅且愿清洁设备的主人，可能常常离家工作。胆小、会啃咬或对机器应激的宠物未必适合，购买者的娱乐偏好也不等于宠物愿意长期互动。",
+      "competition": "竞争判断：与Furbo等固定投食摄像头、普通宠物玩具和EBO移动相机竞争。可换模块提供任务差异，但增加附件成本与清洁步骤；移动并不自动优于稳定固定视角，需要实际环境对比。",
+      "supplyChain": "供应链分析：移动轮组、相机、宠物识别处理、零食通道、电池和回充构成系统，工厂及BOM未知。毛发堵塞、食物碎屑、啃咬耐久及可拆洗设计会影响售后，食品接触件需单独管理。",
+      "technology": "官方披露AI宠物捕捉、自动照片与模块化互动。技术判断：宠物躲藏和快速移动会使识别失败，遥控投食不等于模型懂得合适喂养；路径、拍摄与出粮可靠性需要分别验证。",
+      "aesthetics": "审美判断：圆润低矮机身与可换模块降低工具感，但地面滚动、提示音和体量可能影响宠物接受度。接口应易装卸且不留食物死角，清晰显示当前模块比夸张表情更利于日常使用。",
+      "risks": "风险判断：互动玩具与零食模块功能不同，不能把官网所有演示都算进购买配置。自动投食需由主人管理份量，机器不能替代陪伴和照护；网络延迟、卡粮和宠物啃咬都需要有人工处置路径。",
+      "opportunity": "机会假设：以宠物自愿参与的互动时间、拒绝率和主人实际查看频次验证需求。若主要价值是记录可爱片段，先完善低干扰AI拍摄和清洁设计，可能比扩展更多投食或逗宠附件更有价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "模块化移动逗宠属于较窄消费场景，但有投食摄像头和普通玩具替代；动物接受度是重要验证点。"
+    },
+    "architecture": [
+      {
+        "name": "移动主体",
+        "detail": "低矮行走与回充底盘。",
+        "evidence": "official"
+      },
+      {
+        "name": "宠物感知",
+        "detail": "相机与AI宠物捕捉。",
+        "evidence": "official"
+      },
+      {
+        "name": "模块接口",
+        "detail": "零食或互动玩具模块。",
+        "evidence": "official"
+      },
+      {
+        "name": "远程交互",
+        "detail": "App查看与操作。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容记录",
+        "detail": "自动拍摄及事件片段。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Enabot ROLA PetPal 官方购买页",
+        "url": "https://enabot.sg/products/rola-petpal-robot-for-cats-and-dogs",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "ROLA PetPal 官方AI宠物识别",
+        "url": "https://www.enabot.com/pet-robot/rola-petpal",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      },
+      {
+        "title": "官方公开商品库存数据",
+        "url": "https://enabot.sg/products/rola-petpal-robot-for-cats-and-dogs.js",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际读取商店公开商品JSON，available为true；不是只凭页面存在判断在售。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "google-nest-doorbell-wired-3",
+    "name": "Google Nest Doorbell（wired, 3rd gen）",
+    "brand": "Google",
+    "category": "home-security",
+    "tagline": "用事件理解与语义检索整理门口录像",
+    "officialUrl": "https://store.google.com/us/product/nest_doorbell_wired_3rd_gen?hl=en-US",
+    "status": "on_sale",
+    "statusEvidence": "美国Google Store明确第3代有线门铃、US$199.99与Buy入口；不与电池版或前代有线型号混用。",
+    "regions": [
+      "美国Google Store"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核实所列海外官方渠道；中国大陆同型号现货、保修及服务可用性未确认。进口前需核对供电、网络、配件和地区条款。"
+    },
+    "price": {
+      "text": "US$199.99",
+      "note": "核查时官方地区参考价，保留原币种；订阅、税运、附件及优惠以结账为准，预订定金不等于整机价格。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "基础事件感知识别人、动物和车辆；付费Google Home Premium的Gemini能力可描述事件、语义检索和摘要，具体功能随计划而变。",
+      "dependency": "需要兼容门铃供电、Google账号和网络；高级Gemini依赖订阅与地区支持，不能把基础事件预览等同完整长期云录像。"
+    },
+    "highlights": [
+      "门口采集",
+      "事件感知",
+      "Gemini服务"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭想快速了解门口谁来过、做了什么，并避免从长录像中逐段查找。应验证文字描述和语义检索是否减少找事件的时间，描述更详细不必然更准确，也不能替代查看原片。",
+      "userProfile": "画像推断：已有Google Home、具备兼容有线门铃供电且接受云服务的房主。租户、无固定供电或重视完全本地录像的用户需求不同，安装条件和现有生态比单纯AI兴趣更能决定购买。",
+      "competition": "竞争判断：与Ring、Aqara和其他智能门铃竞争，Gemini事件描述与搜索是软件差异。用户还会比较延迟、机械门铃兼容、录像期限和订阅费用，模型能力不是门口安防的唯一体验来源。",
+      "supplyChain": "供应链分析：相机、门铃按钮、音频、无线、供电与户外外壳构成硬件，具体供应商与BOM未知。变压器兼容、密封耐候、安装支持和云视频长期存储形成持续成本，不能只比较机身售价。",
+      "technology": "官方说明对象事件检测及Gemini描述、搜索和摘要。技术判断：模糊、遮挡和同时发生的动作可能导致文字误解，检索应保留原始录像可复核；生成描述不能作为身份或意图的确定证据。",
+      "aesthetics": "审美判断：竖向圆角门铃形态克制，按钮应让访客容易识别，镜头存在感和提示灯也要明确。旧门铃孔位、转角支架与电线处理影响最终观感，不能仅凭产品正面图判断安装效果。",
+      "risks": "风险判断：高级AI与云历史需要付费，地区和计划限制会影响购买后的实际能力。门口录像可能包含邻居和访客，描述错误、联网中断或电源不兼容都需要用户确认，AI不能保证防止盗窃。",
+      "opportunity": "机会假设：用真实收包裹和访客场景比较事件通知、文字摘要与原片回看，记录误导和省时效果。若核心困难是安装和长期费用，可优先提供透明套餐与本地化支持，而非只宣传模型名称。"
+    },
+    "niche": {
+      "level": "crowded",
+      "reason": "智能门铃市场成熟，生成式录像理解是服务升级；安装、隐私和订阅成本仍构成主要竞争维度。"
+    },
+    "architecture": [
+      {
+        "name": "门口采集",
+        "detail": "相机、音频与门铃按钮。",
+        "evidence": "official"
+      },
+      {
+        "name": "事件感知",
+        "detail": "人物、动物和车辆检测。",
+        "evidence": "official"
+      },
+      {
+        "name": "Gemini服务",
+        "detail": "按订阅提供描述与检索。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭交互",
+        "detail": "App通知、通话与家居连接。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电安装",
+        "detail": "有线供电及户外安装。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Google Nest Doorbell（wired, 3rd gen） 官方购买页",
+        "url": "https://store.google.com/us/product/nest_doorbell_wired_3rd_gen?hl=en-US",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology"
+        ],
+        "note": "实际打开核查当前购买或预订入口，未实际下单；价格与交付按具体地区。"
+      },
+      {
+        "title": "Nest Doorbell 3代官方规格及安装",
+        "url": "https://store.google.com/us/product/nest_doorbell_wired_3rd_gen_specs?hl=en-US",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "support"
+        ],
+        "note": "实际打开的官方技术与使用资料，宣传效果并非本轮独立实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  }
+]

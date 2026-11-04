@@ -1,0 +1,94 @@
+[
+  {
+    "id": "invoxia-biotracker-2026",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/invoxia-biotracker-2026/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Invoxia Biotracker Edition 2026 的AI功能结构示意，内部排列为概念而非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/invoxia-biotracker-2026-assist-creative-repair.txt",
+        "referencePaths": [
+          "assets/hardware/invoxia-biotracker-2026/product.webp",
+          "assets/hardware/invoxia-biotracker-2026/reference.webp",
+          "assets/hardware/invoxia-biotracker-2026/ai-exploded-assist-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对型号、外形、功能标签与非拆机声明；内部模块为概念，不代表实测结构。",
+      "已将感知标签修正为活动数据与静息信号，避免扩展为活动期间的生理测量声明。"
+    ]
+  },
+  {
+    "id": "eufycam-s3-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/eufycam-s3-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "eufyCam S3 Pro 的AI功能结构示意，内部排列为概念而非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/eufycam-s3-pro-assist-creative.txt",
+        "referencePaths": [
+          "assets/hardware/eufycam-s3-pro/product.png",
+          "assets/hardware/eufycam-s3-pro/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对型号、外形、功能标签与非拆机声明；内部模块为概念，不代表实测结构。"
+    ]
+  },
+  {
+    "id": "eufy-lawn-mower-e15",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/eufy-lawn-mower-e15/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "eufy Robot Lawn Mower E15 的AI功能结构示意，内部排列为概念而非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/eufy-lawn-mower-e15-assist-creative-repair.txt",
+        "referencePaths": [
+          "assets/hardware/eufy-lawn-mower-e15/product-e15.png",
+          "assets/hardware/eufy-lawn-mower-e15/reference.png",
+          "assets/hardware/eufy-lawn-mower-e15/ai-exploded-assist-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对型号、外形、功能标签与非拆机声明；内部模块为概念，不代表实测结构。",
+      "使用更正后的E15官方主图；AI规划在外部说明，机内仅标概念控制模块。功能说明采用中英标签。"
+    ]
+  },
+  {
+    "id": "google-nest-doorbell-wired-3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/google-nest-doorbell-wired-3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Google Nest Doorbell（wired, 3rd gen） 的AI功能结构示意，内部排列为概念而非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/google-nest-doorbell-wired-3-assist-creative.txt",
+        "referencePaths": [
+          "assets/hardware/google-nest-doorbell-wired-3/product.jpg",
+          "assets/hardware/google-nest-doorbell-wired-3/reference-web.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对型号、外形、功能标签与非拆机声明；内部模块为概念，不代表实测结构。"
+    ]
+  }
+]

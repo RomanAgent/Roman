@@ -1,0 +1,10 @@
+Use case: infographic-diagram. Create an accurate-looking but explicitly CONCEPTUAL exploded functional illustration of one Lymow One Plus, for a consumer hardware research directory.
+The input photos are official exterior and usage references, NOT teardown evidence. Preserve the exact recognizable product silhouette and generation. Focus on ONE device; omit bundle duplicates, phones, animals, people, warranty badges and promotional scenery.
+White background, restrained neutral grayscale industrial rendering, thin alignment leader lines, generous space, clear module separation, small assembled exterior reference in lower right. Landscape 4:3. Use short English functional labels only.
+Known public function: RTK与VSLAM结合AI视觉和超声障碍感知，驱动履带式家用割草平台；履带和刀片动作本身不是AI。
+Functional layers: 定位视觉: RTK、VSLAM与AI视觉感知。 (official) | 融合规划: 根据地形和障碍规划路线。 (inferred) | 履带驱动: 履带底盘提供移动。 (official) | 割草模块: 双旋转刀片完成切割。 (official) | 停靠服务: 充电、App与配件维护。 (official).
+Unknown internal structure must be smooth generic functional blocks labelled CONCEPT. Do not invent real PCB traces, chip names, exact internal locations, connector counts, batteries or sensor models. Software and cloud services must be separate schematic callouts outside the physical device. Do not depict any unverified internal position as actual engineering.
+Do not add specifications, numeric performance, capacities, clinical accuracy, chip part numbers, suction power or marketing claims not explicitly supplied. Do not claim medical diagnosis or health improvement. Prefer a small set of clearly readable modules over decorative detail. No futuristic glow or colorful circuitry.
+Title exactly: "Lymow One Plus". Subtitle: "FUNCTIONAL CONCEPT". Footer exactly and clearly readable: "AI CONCEPT · NOT A TEARDOWN".
+
+Ignore all award logos, certification badges, marketing text and colored visual overlays in the reference; none should be reproduced.

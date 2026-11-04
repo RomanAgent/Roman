@@ -107,7 +107,9 @@
         "note": "已查看图像；营销效果描述未作为独立验证结果。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "iflytek-dictionary-x9-pro",
@@ -213,7 +215,9 @@
         "note": "已从官网打开并查看，写明星火+DeepSeek、查词与发音评测。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "samsung-galaxy-ring",
@@ -310,6 +314,8 @@
         "note": "具体SKU显示已售完，同时给出传感、机器学习及兼容条件。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

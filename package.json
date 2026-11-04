@@ -8,6 +8,7 @@
     "export": "node scripts/export-content.mjs",
     "check": "node --check app.js && node --check hardware.js && node scripts/check-content.mjs && node scripts/check-hardware.mjs",
     "catalog": "node scripts/build-hardware.mjs",
-    "media:check": "node scripts/check-hardware-media.mjs"
+    "media:check": "node scripts/check-hardware-media.mjs",
+    "target:check": "node scripts/check-consumer-target.mjs"
   }
 }

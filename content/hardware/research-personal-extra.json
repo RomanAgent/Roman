@@ -96,7 +96,9 @@
         "note": "已打开并沿官方链接访问产品页及天猫；该文章注明通义千问生成，仅用作入口和生态说明，不采用其效能、续航或权益数字。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "iflytek-magic-recorder",
@@ -196,7 +198,9 @@
         "note": "已打开，¥899、三麦克风、64GB、RTOS等；两个发布日期不擅自解释成两个硬件代际。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "iflytek-s8-offline",
@@ -304,7 +308,9 @@
         "note": "已打开并定位本型号段落，支持转写、翻译和安全芯片厂商陈述；不采用系列销量宣传推算本型号市场。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   },
   {
     "id": "rabbit-r1",
@@ -415,6 +421,8 @@
         "note": "已打开，明确本地录音、联网后转写摘要与电池限制。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

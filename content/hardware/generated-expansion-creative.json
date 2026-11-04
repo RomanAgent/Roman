@@ -1,0 +1,622 @@
+[
+  {
+    "id": "positive-grid-spark-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/positive-grid-spark-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Positive Grid Spark 2 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/positive-grid-spark-2.txt",
+        "referencePaths": [
+          "assets/hardware/positive-grid-spark-2/product.jpg",
+          "assets/hardware/positive-grid-spark-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "positive-grid-spark-neo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/positive-grid-spark-neo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Positive Grid Spark NEO 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/positive-grid-spark-neo.txt",
+        "referencePaths": [
+          "assets/hardware/positive-grid-spark-neo/product.jpg",
+          "assets/hardware/positive-grid-spark-neo/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "neural-dsp-quad-cortex",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/neural-dsp-quad-cortex/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Neural DSP Quad Cortex 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/neural-dsp-quad-cortex-repair.txt",
+        "referencePaths": [
+          "assets/hardware/neural-dsp-quad-cortex/product.png",
+          "assets/hardware/neural-dsp-quad-cortex/reference.png",
+          "assets/hardware/neural-dsp-quad-cortex/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "positive-grid-spark-edge",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/positive-grid-spark-edge/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Positive Grid Spark EDGE 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/positive-grid-spark-edge-repair.txt",
+        "referencePaths": [
+          "assets/hardware/positive-grid-spark-edge/product.jpg",
+          "assets/hardware/positive-grid-spark-edge/reference.jpg",
+          "assets/hardware/positive-grid-spark-edge/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "neural-dsp-nano-cortex",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/neural-dsp-nano-cortex/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Neural DSP Nano Cortex 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/neural-dsp-nano-cortex.txt",
+        "referencePaths": [
+          "assets/hardware/neural-dsp-nano-cortex/product.png",
+          "assets/hardware/neural-dsp-nano-cortex/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "ik-tonex-pedal",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ik-tonex-pedal/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "IK Multimedia TONEX Pedal 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/ik-tonex-pedal.txt",
+        "referencePaths": [
+          "assets/hardware/ik-tonex-pedal/product.jpg",
+          "assets/hardware/ik-tonex-pedal/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "valeton-gp5",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/valeton-gp5/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Valeton GP-5 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/valeton-gp5.txt",
+        "referencePaths": [
+          "assets/hardware/valeton-gp5/product.png",
+          "assets/hardware/valeton-gp5/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "romi-lacatan",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/romi-lacatan/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Romi Lacatan 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/romi-lacatan.txt",
+        "referencePaths": [
+          "assets/hardware/romi-lacatan/product.png",
+          "assets/hardware/romi-lacatan/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "panasonic-nicobo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/panasonic-nicobo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Panasonic NICOBO 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/panasonic-nicobo.txt",
+        "referencePaths": [
+          "assets/hardware/panasonic-nicobo/product.jpg",
+          "assets/hardware/panasonic-nicobo/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "looi-robot",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/looi-robot/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "LOOI Robot 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/looi-robot.txt",
+        "referencePaths": [
+          "assets/hardware/looi-robot/product.png",
+          "assets/hardware/looi-robot/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "livingai-aibi-pocket",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/livingai-aibi-pocket/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "LivingAI AIBI Pocket 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/livingai-aibi-pocket.txt",
+        "referencePaths": [
+          "assets/hardware/livingai-aibi-pocket/product.jpg",
+          "assets/hardware/livingai-aibi-pocket/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "yukai-bocco-emo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/yukai-bocco-emo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "BOCCO emo Wi-Fi 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/yukai-bocco-emo.txt",
+        "referencePaths": [
+          "assets/hardware/yukai-bocco-emo/product.jpg",
+          "assets/hardware/yukai-bocco-emo/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "curio-grok",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/curio-grok/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Curio Grok 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/curio-grok-repair.txt",
+        "referencePaths": [
+          "assets/hardware/curio-grok/product.jpg",
+          "assets/hardware/curio-grok/reference.jpg",
+          "assets/hardware/curio-grok/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "haivivi-bubblepal",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/haivivi-bubblepal/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Haivivi BubblePal 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/haivivi-bubblepal.txt",
+        "referencePaths": [
+          "assets/hardware/haivivi-bubblepal/product.png",
+          "assets/hardware/haivivi-bubblepal/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "chessup-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/chessup-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ChessUp 2 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/chessup-2.txt",
+        "referencePaths": [
+          "assets/hardware/chessup-2/product.jpg",
+          "assets/hardware/chessup-2/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "chessnut-evo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/chessnut-evo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Chessnut EVO 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/chessnut-evo.txt",
+        "referencePaths": [
+          "assets/hardware/chessnut-evo/product.jpg",
+          "assets/hardware/chessnut-evo/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "dimehead-nam-player",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dimehead-nam-player/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Dimehead NAM Player 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/dimehead-nam-player.txt",
+        "referencePaths": [
+          "assets/hardware/dimehead-nam-player/product.jpg",
+          "assets/hardware/dimehead-nam-player/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "chessnut-companion",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/chessnut-companion/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Chessnut Companion 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/chessnut-companion.txt",
+        "referencePaths": [
+          "assets/hardware/chessnut-companion/product.png",
+          "assets/hardware/chessnut-companion/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "viwoods-aipaper",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/viwoods-aipaper/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Viwoods AiPaper 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/viwoods-aipaper.txt",
+        "referencePaths": [
+          "assets/hardware/viwoods-aipaper/product.jpg",
+          "assets/hardware/viwoods-aipaper/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "viwoods-aipaper-reader",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/viwoods-aipaper-reader/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Viwoods AiPaper Reader 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/viwoods-aipaper-reader.txt",
+        "referencePaths": [
+          "assets/hardware/viwoods-aipaper-reader/product.jpg",
+          "assets/hardware/viwoods-aipaper-reader/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "boox-note-air5c",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/boox-note-air5c/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "BOOX Note Air5 C 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/boox-note-air5c.txt",
+        "referencePaths": [
+          "assets/hardware/boox-note-air5c/product.jpg",
+          "assets/hardware/boox-note-air5c/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "makeblock-mbot2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/makeblock-mbot2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Makeblock mBot2 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/makeblock-mbot2.txt",
+        "referencePaths": [
+          "assets/hardware/makeblock-mbot2/product.jpg",
+          "assets/hardware/makeblock-mbot2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "robotical-marty-v2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/robotical-marty-v2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Robotical Marty the Robot V2 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/robotical-marty-v2.txt",
+        "referencePaths": [
+          "assets/hardware/robotical-marty-v2/product.jpg",
+          "assets/hardware/robotical-marty-v2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "makeblock-codey-rocky",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/makeblock-codey-rocky/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Makeblock Codey Rocky 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/makeblock-codey-rocky.txt",
+        "referencePaths": [
+          "assets/hardware/makeblock-codey-rocky/product.jpg",
+          "assets/hardware/makeblock-codey-rocky/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "kindle-scribe-2025",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/kindle-scribe-2025/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Amazon Kindle Scribe（2025，第三代） 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/kindle-scribe-2025.txt",
+        "referencePaths": [
+          "assets/hardware/kindle-scribe-2025/product.jpg",
+          "assets/hardware/kindle-scribe-2025/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "insta360-ace-pro-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/insta360-ace-pro-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Insta360 Ace Pro 2 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/insta360-ace-pro-2.txt",
+        "referencePaths": [
+          "assets/hardware/insta360-ace-pro-2/product.png",
+          "assets/hardware/insta360-ace-pro-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "3dmakerpro-moose",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/3dmakerpro-moose/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "3DMakerpro Moose 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/3dmakerpro-moose-repair.txt",
+        "referencePaths": [
+          "assets/hardware/3dmakerpro-moose/product.png",
+          "assets/hardware/3dmakerpro-moose/reference.png",
+          "assets/hardware/3dmakerpro-moose/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  },
+  {
+    "id": "czur-et24-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/czur-et24-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "CZUR ET24 Pro 的AI结构示意；内部布局为推断，不是实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/czur-et24-pro.txt",
+        "referencePaths": [
+          "assets/hardware/czur-et24-pro/product.jpg",
+          "assets/hardware/czur-et24-pro/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对外形、标签与非拆机声明；不代表内部结构经实测验证。"
+    ]
+  }
+]

@@ -7,15 +7,18 @@ const dir = new URL('content/hardware/', root);
 const metadata = JSON.parse(await readFile(new URL('metadata.json', dir), 'utf8'));
 metadata.insightsMarkdown = await readFile(new URL('docs/hardware-market-insights.md',root),'utf8');
 const researchFiles = (await readdir(dir)).filter(f => /^research-.+\.json$/.test(f)).sort();
-const products = (await Promise.all(researchFiles.map(async f => JSON.parse(await readFile(new URL(f,dir),'utf8'))))).flat();
+const allProducts = (await Promise.all(researchFiles.map(async f => JSON.parse(await readFile(new URL(f,dir),'utf8'))))).flat();
+const products=allProducts.filter(p=>['consumer','prosumer'].includes(p.audience));
+const excludedProducts=allProducts.filter(p=>!['consumer','prosumer'].includes(p.audience));
 const categories = new Set(metadata.categories.map(c => c.id));
 const ids = new Set();
 const dimensions = {demand:'需求与市场',userProfile:'用户画像',competition:'竞争与替代',supplyChain:'供应链',technology:'技术路径',aesthetics:'产品审美',risks:'关键风险',opportunity:'机会与验证'};
-for (const p of products) {
+for (const p of allProducts) {
   assert.match(p.id, /^[a-z0-9-]+$/);
   assert(!ids.has(p.id), `重复ID ${p.id}`); ids.add(p.id);
   assert(categories.has(p.category), `未知分类 ${p.category}`);
   assert(['on_sale','preorder','needs_check','discontinued'].includes(p.status));
+  assert(['consumer','prosumer','developer','business'].includes(p.audience),`${p.id} 缺少消费市场归属`);
   assert(p.statusEvidence && p.checkedAt && p.ai.description && p.ai.dependency && p.price.note && p.china.note);
   for (const key of Object.keys(dimensions)) assert(typeof p.analysis[key] === 'string' && p.analysis[key].length >= 20, `${p.id}: ${key} 不完整`);
   assert(p.sources.length && p.sources.some(s => s.supports.includes('status')),`${p.id} 缺销售状态来源`);
@@ -55,6 +58,7 @@ for(const row of mediaRows){
 const mediaOrder={product:0,reference:1,'official-structure':1,'ai-exploded':2};
 for(const p of products){const m=mediaMap.get(p.id);p.images=(m?.images||[]).sort((a,b)=>mediaOrder[a.kind]-mediaOrder[b.kind]);p.mediaNotes=m?.notes||[];}
 metadata.mediaCoverage={products:products.filter(p=>p.images.some(i=>i.kind==='product')).length,references:products.filter(p=>p.images.some(i=>['reference','official-structure'].includes(i.kind))).length,aiExploded:products.filter(p=>p.images.some(i=>i.kind==='ai-exploded')).length,totalImages:products.reduce((n,p)=>n+p.images.length,0)};
+metadata.excludedProducts=excludedProducts.map(p=>({id:p.id,name:p.name,reason:p.scopeNote||'非个人/家庭消费用途，保留在专业设备档案。'}));
 products.sort((a,b)=>metadata.categories.findIndex(c=>c.id===a.category)-metadata.categories.findIndex(c=>c.id===b.category)||a.brand.localeCompare(b.brand));
 await writeFile(new URL('catalog.json',dir),JSON.stringify({...metadata,products},null,2)+'\n');
 const labels={on_sale:'在售',preorder:'预售 / 接受延期订单',needs_check:'待复核',discontinued:'停售'};
@@ -69,11 +73,11 @@ function mediaMarkdown(p){
  ]),...p.mediaNotes.map(n=>`> ${md(n)}`)]:[];
 }
 for (const p of products) {
- const text=[`# ${md(p.name)}`,`**${p.brand}** · ${metadata.categories.find(c=>c.id===p.category).name} · 核查 ${p.checkedAt}`,p.tagline,...mediaMarkdown(p),`> ${metadata.analysisNote}`,`## 销售与购买`,`- 状态：${labels[p.status]}。${p.statusEvidence}`,`- 地区：${p.regions.join('、')}`,`- 价格：${p.price.text}。${p.price.note}`,`- 中国大陆：${p.china.note}`,`- [官方产品 / 商店](<${p.officialUrl}>)`,`## AI 的实际作用`,p.ai.description,`服务与联网依赖：${p.ai.dependency}`,`## 是否冷门`,`${p.niche.level === 'crowded'?'竞争密集':p.niche.level==='emerging'?'新兴竞争':'细分专业'}（研究判断）：${p.niche.reason}`,...Object.entries(dimensions).flatMap(([key,label])=>[`## ${label}`,p.analysis[key]]),`## 功能分层示意`,`这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。`,...p.architecture.map((a,i)=>`${i+1}. **${a.name}**：${a.detail}（${a.evidence==='official'?'官方披露':'分析推断'}）`),`## 来源`,...p.sources.map((s,i)=>`${i+1}. [${s.title}](<${s.url}>) — ${s.note || s.supports.join('、')}`),`[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/${p.id})`].join('\n\n');
+ const text=[`# ${md(p.name)}`,`**${p.brand}** · ${metadata.categories.find(c=>c.id===p.category).name} · 核查 ${p.checkedAt}`,p.tagline,`消费渠道：${({retail:'个人零售',preorder:'消费预订','consumer-fitting':'个人验配渠道'})[p.saleMode]||'以官方渠道为准'}。`,...mediaMarkdown(p),`> ${metadata.analysisNote}`,`## 销售与购买`,`- 状态：${labels[p.status]}。${p.statusEvidence}`,`- 地区：${p.regions.join('、')}`,`- 价格：${p.price.text}。${p.price.note}`,`- 中国大陆：${p.china.note}`,`- [官方产品 / 商店](<${p.officialUrl}>)`,`## AI 的实际作用`,p.ai.description,`服务与联网依赖：${p.ai.dependency}`,`## 是否冷门`,`${p.niche.level === 'crowded'?'竞争密集':p.niche.level==='emerging'?'新兴竞争':'细分专业'}（研究判断）：${p.niche.reason}`,...Object.entries(dimensions).flatMap(([key,label])=>[`## ${label}`,p.analysis[key]]),`## 功能分层示意`,`这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。`,...p.architecture.map((a,i)=>`${i+1}. **${a.name}**：${a.detail}（${a.evidence==='official'?'官方披露':'分析推断'}）`),`## 来源`,...p.sources.map((s,i)=>`${i+1}. [${s.title}](<${s.url}>) — ${s.note || s.supports.join('、')}`),`[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/${p.id})`].join('\n\n');
  pages.push(writeFile(new URL(`docs/hardware/${p.id}.md`,root),text+'\n'));
 }
 await Promise.all(pages);
-const index=['# AI 智能硬件市场目录',`核查日期：${metadata.checkedAt} · 收录 ${products.length} 款 / 系列`,`> ${metadata.scope}`,metadata.methodology,`> ${metadata.analysisNote}`,'[打开可筛选、对比的网页目录](https://romanagent.github.io/Roman/#hardware)',...metadata.categories.flatMap(c=>{
+const index=[`# ${metadata.title}`,`核查日期：${metadata.checkedAt} · 收录 ${products.length} 款 / 系列`,`> ${metadata.scope}`,metadata.methodology,`> ${metadata.analysisNote}`,'[打开可筛选、对比的网页目录](https://romanagent.github.io/Roman/#hardware)',...metadata.categories.flatMap(c=>{
  const group=products.filter(p=>p.category===c.id); if(!group.length) return [];
  return [`## ${c.name}`, ['| 产品 | 销售状态 | 已查地区 | 价格参考 |', '| --- | --- | --- | --- |',...group.map(p=>`| [${md(p.name)}](hardware/${p.id}.md) | ${labels[p.status]} | ${md(p.regions.join('、'))} | ${md(p.price.text)} |`)].join('\n')];
 }),'## 尚待扩展的范围',...metadata.coverageBacklog.map(b=>`- **${b.category}**：${b.note}`),'[研究方法](hardware-methodology.md) · [项目首页](../README.md)'].join('\n\n');
@@ -84,4 +88,5 @@ const mediaIndex=['# 产品图像档案',`核查与生成日期：2026-11-04。�
  return `| [${md(p.name)}](hardware/${p.id}.md) | ${original(photo)} | ${original(ref)} | ${ai?`[AI 生成图](../${ai.path})`:'待补充'} | ${ai?`[完整提示词](../${ai.promptPath})`:'待补充'} |`;
 })].join('\n\n').replace(/\|\n\n\|/g,'|\n|');
 await writeFile(new URL('docs/hardware-media-index.md',root),mediaIndex+'\n');
+await writeFile(new URL('docs/hardware-professional-archive.md',root),['# 专业设备档案','以下原有条目不计入C端消费目录与200款可购目标，保留历史研究供查阅。',...excludedProducts.map(p=>`- [${p.name}](hardware/${p.id}.md)：${p.scopeNote||'非个人/家庭消费用途。'}`),'[返回消费目录](hardware-market.md)'].join('\n\n')+'\n');
 console.log(JSON.stringify({products:products.length,categories:new Set(products.map(p=>p.category)).size,statuses:Object.fromEntries(Object.keys(labels).map(k=>[k,products.filter(p=>p.status===k).length])),media:metadata.mediaCoverage}));
