@@ -20,7 +20,7 @@
 | --- | --- | --- |
 | **01 · 行业 AI 历程** | 技术演进、关键节点与值得继续追问的问题 | 有一手资料来源的历史时间线，以及行业观察编辑初稿 |
 | **02 · 我的创业经历** | 每段经历的背景、选择、行动、结果与复盘 | 序章编辑初稿、经历填写模板，等待真实材料逐篇补充 |
-| **03 · 智能硬件方向** | 面向具体使用场景的想法、问题与后续验证 | 全球C端市场目录：203款可购产品、28类、逐款八维分析与产品对比 |
+| **03 · 智能硬件方向** | 面向具体使用场景的想法、问题与后续验证 | 全球C端市场目录：219款可订购产品、32类、完整八维详析与供应链关联 |
 
 ## 01 · 行业 AI 历程
 
@@ -59,16 +59,17 @@
 
 ## 03 · C端 AI 智能硬件市场目录
 
-[打开市场目录](https://romanagent.github.io/Roman/#hardware) · [GitHub 分类阅读版](docs/hardware-market.md) · [市场横向观察](docs/hardware-market-insights.md) · [研究方法](docs/hardware-methodology.md) · [633张图像与生成记录](docs/hardware-media-index.md)
+[打开市场目录](https://romanagent.github.io/Roman/#hardware) · [GitHub 分类阅读版](docs/hardware-market.md) · [市场横向观察](docs/hardware-market-insights.md) · [研究方法](docs/hardware-methodology.md) · [688张图像与生成记录](docs/hardware-media-index.md)
 
 [![市场目录界面](assets/hardware-consumer-preview.png)](https://romanagent.github.io/Roman/#hardware)
 
-本轮收录 **211 款消费产品 / 系列、28 个分类**，核查日期 **2026-11-04**。其中 **203 款可购产品：199 款在售、4 款预售 / 延期交付**；另有 7 款待复核、1 款停售观察，不计入200款目标。默认网页只显示可购产品；地区库存、个人验配渠道和交付条件保留在详情中。
+本轮收录 **229 款消费产品 / 系列、32 个产品分类**，核查日期 **2026-11-04**。其中 **219 款可订购：215 款在售（含明确标注的硬件租赁）、4 款正式预售 / 延期交付**；另有 2 款付费预约、7 款待复核、1 款停售观察，不计入可订购数量。付费排队的定金不等于整机售价，也不等于正式产品订单。
 
-覆盖个人、家庭与个人创作者可购买的AI硬件，扩展了无障碍辅助、助听、睡眠、运动训练、宠物照护、观鸟、家庭能源、音乐乐器与实体对弈等细分场景。85款标为“细分专业”，这是定性判断，不代表蓝海。4款原有开发或科研设备移入[专业档案](docs/hardware-professional-archive.md)，不计入消费目录。
+覆盖个人、家庭与个人创作者可购买的AI硬件，扩展了无障碍辅助、助听、睡眠、运动训练、宠物照护、观鸟、家庭能源、音乐乐器与实体对弈等细分场景。96款标为“细分专业”，这是定性判断，不代表蓝海。4款原有开发或科研设备移入[专业档案](docs/hardware-professional-archive.md)，不计入消费目录。
 
-- 每款包含需求、用户画像、竞争、供应链、技术、审美、风险、市场空间八项案头分析。
+- 每款包含需求、用户画像、竞争、供应链、技术、审美、风险、市场空间八项详析；每项至少三个实质分项，标明资料、判断与待验证。
 - 支持产品 / 品牌 / AI能力搜索，销售状态、国内购买情况、竞争类型和AI类型筛选；每页24款，可切换结果页和直接进入细分场景。
+- [按独立场景看差异](https://romanagent.github.io/Roman/#hardware/scenes)：109个核心需求组，相似型号作为同组实现比较，不冒充新的品类。
 - 最多三款产品横向对比；可导出当前筛选结果的完整研究 JSON。
 - 每款均有真实产品图、参考图及单独生成的 AI 爆炸示意；来源和图像类型明确标注，支持切换、放大和打开原图。
 - AI 爆炸示意由内置 ImageGen 生成，内部未知部分为概念推断，不是实际拆机或精确 BOM；生成提示词与引用图片一并保存。
@@ -76,9 +77,29 @@
 
 [![产品视觉档案与AI示意](assets/hardware-consumer-gallery.png)](https://romanagent.github.io/Roman/#hardware/product/elemind-sleep-headband)
 
+[![八维详细分析与供应链](assets/hardware-deep-preview.png)](https://romanagent.github.io/Roman/#hardware/product/hohem-isteady-m7/dimension-supplyChain)
+
 **边界：这是消费市场案头研究，不是全球全部 SKU 的穷尽清单。** 未开展用户访谈、销量审计或实物测试；“细分专业”不等于蓝海。厂商声明、资料事实与分析推断分开标注，不虚构未披露供应商、BOM 成本或成功概率。
 
 Idea 投稿与在线 AI 分析按当前要求暂缓。
+
+## 供应链公司目录
+
+[![供应链公司目录预览](assets/supply-chain-preview.png)](https://romanagent.github.io/Roman/#supply-chain)
+
+[打开供应链目录](https://romanagent.github.io/Roman/#supply-chain) · [GitHub 分类阅读版](docs/supply-chain.md) · [证据与研究口径](docs/supply-chain-methodology.md)
+
+已完成 **123 家公司**的八项研究，覆盖芯片、传感、光学、声学、显示、电源、运动、结构、电子装联、整机制造、工程、软件与检测等环节。包含跨地区公司与细分专业供应商，规模分组不使用猜测的员工或营收数字。
+
+产品页与公司页通过 **498 条关联**双向跳转，其中 **3 条为公开点名关系**；其余为能力候选，用于新方案选型，不代表原产品已采用。支持按环节、地区、定位和关系证据筛选、搜索、分页及导出。
+
+每家公司分析定位、能力、适用场景、合作导入、质量交付、商业成本、风险替代和询价验证。未公开MOQ、报价、工厂与BOM保持边界，不由客户标志推断逐型号采购。
+
+## 创新产品的扩展与去重
+
+继续向千级产品规模研究，优先独特任务、明显差异与可核验消费渠道。已建立[1,382条CES官方奖项发现线索](content/discovery/ces-award-leads.json)，**线索不是已核验产品，不计入可订购数量**。研究过程与排除口径见[发现记录](docs/hardware-discovery-log.md)。
+
+
 
 ## 本地预览
 
@@ -100,6 +121,8 @@ python3 -m http.server 4173
 | [`content/ai-articles.json`](content/ai-articles.json) | 行业与智能硬件观察文章；生成 [`content/ai-notes.md`](content/ai-notes.md) |
 | [`content/journal.json`](content/journal.json) | 创业手记文章及展示状态；生成 [`docs/journal.md`](docs/journal.md) |
 | [`content/journey-template.md`](content/journey-template.md) | 逐篇提交真实经历的模板 |
+| [`content/supply-chain/`](content/supply-chain/) | 公司原始资料、角色定义与生成公司目录 |
+| [`content/hardware/deep/`](content/hardware/deep/) | 产品八维详细分析、独立需求分组与公司关联 |
 | [`content/hardware/metadata.json`](content/hardware/metadata.json) | 硬件分类、研究边界与覆盖缺口 |
 | [`content/hardware/`](content/hardware/) 中的 `research-*.json` | 逐产品原始研究记录；合并生成 `catalog.json` 与 `docs/hardware/` |
 | `content/hardware/media-*.json`、`generated-*.json` | 原始图片与AI图的来源、核查记录和生成溯源 |
@@ -120,6 +143,7 @@ npm run catalog
 npm run check
 npm run media:check
 npm run target:check
+npm run supply:check
 ```
 
 将修改后的 JSON 和生成的 Markdown 一起提交。网页读取 JSON，GitHub 直接展示 Markdown，两种阅读方式保持相同的正文与资料来源。

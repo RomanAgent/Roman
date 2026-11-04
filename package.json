@@ -7,8 +7,9 @@
     "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
     "export": "node scripts/export-content.mjs",
     "check": "node --check app.js && node --check hardware.js && node scripts/check-content.mjs && node scripts/check-hardware.mjs",
-    "catalog": "node scripts/build-hardware.mjs",
+    "catalog": "node scripts/build-supply-chain.mjs && node scripts/build-hardware.mjs",
     "media:check": "node scripts/check-hardware-media.mjs",
-    "target:check": "node scripts/check-consumer-target.mjs"
+    "target:check": "node scripts/check-consumer-target.mjs",
+    "supply:check": "node --check supply-chain.js && node scripts/check-supply-chain.mjs"
   }
 }

@@ -60,33 +60,187 @@ Birdfy Feeder 2 Duo 官方外观、使用场景或功能参考图 · 来源：[B
 
 需求假设：观鸟者希望不守在窗边也能看清访鸟，并快速挑出可分享片段。应比较有效访鸟记录、误识和通知疲劳；多镜头是否增加乐趣需要长期观察，不能用照片数量代替用户满意度。
 
+### 产品任务与边界 · 研究判断
+
+Feeder 2 Duo 用多视角拍摄、鸟种识别和自动选片帮助用户不守在窗边也能看清访鸟。需求是获得值得回看和分享的自然片段，更多照片或镜头并不自动等于更多乐趣，必须观察长期内容使用而非初次演示效果。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 需求判断 · 研究判断
+
+双摄可能减少单一角度遮挡，也可能产生大量重复通知和内容。用户需要的也许是少量精彩片段而非完整录像，因此需求分析应把有效记录、选片和维护一起衡量，不能以拍摄数量替代满意度或订阅价值。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 需求验证 · 待验证
+
+可连续记录访鸟事件、可分享片段、错识和通知被关闭的情况，与单镜头方案比较。同步统计补粮、清洗和充电，确认多视角提高观察价值而没有显著增加处理负担，避免只看几张最漂亮的宣传照片。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
 ## 用户画像
 
 画像推断：有庭院或合规悬挂位置的自然爱好者、亲子家庭和赠礼用户。使用者仍要清洁、补粮并了解野鸟习性；购买者与维护者可能不同，礼物开箱热情不等于长期活跃。
+
+### 适用行为与条件 · 研究判断
+
+较匹配有庭院或合适悬挂位置的自然爱好者、亲子家庭及赠礼用户，仍需有人长期补粮和清洁。购买者与维护者可能不同，用户也需要理解野鸟观察并非控制宠物，不能把喜欢动物自动等同愿意承担维护。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 人群取舍 · 研究判断
+
+摄影爱好者可能重视不同视角，初学者可能更需要自动识别和简短分享，家庭成员对通知频率也不同。画像应包含观察习惯、网络位置和维护分工，不能仅用有花园或愿意买礼物来推断持续使用。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 画像验证 · 待验证
+
+画像验证应让用户自行完成安装、补粮和一次选片分享，记录多镜头内容是否被实际使用。再观察赠礼家庭由谁处理设备和谁远程观看，区分购买动机与长期角色，避免将开箱兴奋视为完整需求成立。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
 
 ## 竞争与替代
 
 竞争判断：与Birdbuddy、普通观鸟摄像头及人工望远镜观察竞争，双视角与自动选片提供具体差异。此类产品用户较窄，但已有多品牌，不能因消费认知低就认定没有竞争或获客容易。
 
+### 比较对象与差异 · 研究判断
+
+Feeder 2 Duo 与 Birdbuddy、普通观鸟摄像头及人工观察竞争，多视角和自动选片是具体差异。消费认知较低不代表没有竞争，用户还会比较外观、维护和内容服务，不能仅凭窄赛道就判断获客容易。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 竞争判断 · 研究判断
+
+多镜头增加拍摄机会，也增加成像与服务成本，优势需要由单镜无法获得的有效片段证明。当前免费识别说法与旧订阅说明并存，竞争比较必须核对实际权益，不能以不清楚的终身宣传直接计算更低拥有成本。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 竞争验证 · 待验证
+
+可在同一访鸟位置比较单镜与双摄的有效角度、重复内容及选片时间，向用户说明当前服务边界。再检查四周后是否仍主动查看不同视角，避免把镜头数量、识别物种总数或短期分享热度当作长期优势。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
 ## 供应链
 
 供应链分析：摄像模组、太阳能、电池、户外壳体与食仓共同决定体验。实际芯片和工厂未披露；防晒、进水、鼠咬和食物接触清洁是重点，云视频费用也应计入长期交付而非只算硬件。
+
+### 功能模块拆分 · 研究判断
+
+功能层包括多视角摄像、鸟种和主体识别及选片、食仓落脚结构、太阳能与电池、应用历史和分享。公开资料没有完整芯片和工厂，双摄与多镜头也应按官方形态理解，不能随意推定所有图像处理都发生在机内。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 制造与供应约束 · 研究判断
+
+制造约束是不同视角、食仓和太阳能在户外协同，既要让鸟进入有效画面，也要便于清洗和防积水。日晒、进水和啮咬影响寿命，云视频与内容筛选成本同样重要，不能只把两个相机模组相加作为完整成本。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 候选与证据缺口 · 研究判断
+
+华勤可作为多镜联网终端工程候选，RapidDirect 可支持食仓、落脚与相机固定原型。没有 Feeder 2 Duo 点名合作证据，户外、食物接触与鸟种模型需分别验证，候选不代表实际供方或任何识别效果保证。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
 
 ## 技术路径
 
 官方披露多镜头捕捉、AI鸟种识别与自动选片。技术判断：逆光、快速移动和不同地区鸟种会影响识别，应支持人工更正并保留原片；数量化的识别种类不代表任意场景准确率。
 
+### 已披露技术边界 · 研究判断
+
+官方披露多视角捕捉、AI 鸟种识别、主体跟随和精选内容，应用与云服务参与完整体验。技术分析应区分检测到访鸟、判断物种和选出片段，不把识别种类数量理解为任意地区、光线和姿态下的准确率。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 系统难点判断 · 研究判断
+
+逆光、快速动作和多鸟遮挡可能让不同镜头得到不一致信息，系统需要选择合适片段并允许用户复核。自动选片若忽略短暂或稀有事件，可能降低观察价值，因此成像、识别和内容筛选应分别评价而非合成一个智能分数。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 技术验证 · 待验证
+
+验证应按当地鸟种和不同光照记录错识、漏拍及选片遗漏，保留原片供人工核对。还需核查当前设备生命周期识别权益与旧说明的差别，不能把某一购买页的条件泛化到所有旧设备、地区或未来服务。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
 ## 产品审美
 
 审美判断：喂食器需要与植物和住宅外墙协调，多摄像头不能妨碍鸟类落脚。安装位置、清洗拆卸与太阳能板走线会改变整体观感，评价应基于实际庭院而不是单张干净产品图。
+
+### 外观与交互语言 · 研究判断
+
+喂食器需要与植物和外墙协调，多摄结构不能妨碍鸟类落脚或让清洁入口难以触达。相机、太阳能板和线材共同形成实际外观，审美评价应基于真实庭院和维护状态，而不只看干净背景中的机身。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 使用中审美判断 · 研究判断
+
+更多镜头可能增强技术感，也可能让生活方式产品显得像监控设备，设计需要保持用途清楚。食仓残粮、水渍和太阳能走线会影响长期观感，维护后是否容易恢复整洁，比装饰细节更能决定用户愿意长期悬挂。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 设计验证 · 待验证
+
+设计验证应观察补粮、拆洗、调整摄像与太阳能的全过程，检查是否影响落脚或画面。还要让用户在真实安装后评价周边视觉与隐私感，避免将宣传中的理想位置当作所有家庭都能复制的条件。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
 
 ## 关键风险
 
 风险判断：喂鸟维护不当可能带来卫生问题，识别错误也会误导观察记录。官方免费AI条款与旧订阅FAQ并存，需要确认服务边界；摄像头取景应避免不必要地覆盖邻居活动空间。
 
+### 主要失效与依赖 · 研究判断
+
+风险包括喂食卫生、物种误识、云端历史和邻近空间隐私，当前识别权益还存在新旧说明差异。用户需要确认实际订单服务边界，不能把免费 AI 字样理解为所有能力永久不变，也不能据识别提示采取未经确认的鸟类处理。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 风险传播判断 · 研究判断
+
+多镜头内容可能增加通知疲劳，让用户最终关闭全部提醒，反而错过想看的事件。若设备维护由另一位家庭成员承担，内容价值与劳动分配不匹配也会导致闲置，因此风险不只是算法错误，还包括持续使用流程。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 风险验证 · 待验证
+
+风险验证应演练弱网、低电量、历史权限变化和错误物种纠正，检查用户能否理解缺失内容。同步核对当前购买权益与真实取景，不能以多摄和自动选片存在推断长期无遗漏、无维护或隐私天然得到保障。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
 ## 机会与验证
 
 机会假设：在本地鸟种、社区自然教育和家庭分享场景验证长期留存，比较多视角与单镜头的实际增益。若核心价值是内容整理，先做可纠错的软件服务可能比增加摄像头更有效。
+
+### 可能的机会入口 · 研究判断
+
+机会在于本地鸟种、家庭分享和可纠错的内容整理，未必需要继续增加摄像头。新项目可先研究用户真正想保留的片段和识别问题，再决定硬件视角是否必要，避免将自然观察兴趣简单转化为更复杂设备需求。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 机会成立条件 · 研究判断
+
+机会成立需要多视角产生持续被使用的内容，并且维护与通知负担可接受。如果单镜头加更好筛选已满足需求，软件服务可能更合理；如果主要是礼物购买，应把一次性体验与长期会员价值分开设计。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+### 下一步验证 · 待验证
+
+下一步可比较单镜与多视角一个月的有效片段、复看、分享和维护，再访谈关闭通知或闲置的原因。用真实内容收益决定镜头和服务投入，避免依据照片总量、厂商识别数量或产品热度预测市场空间。
+
+依据：[Birdfy Feeder 2 Duo 官方商品页](<https://www.birdfy.com/collections/bird-feeders/products/birdfy-feeder-2-duo>) · [Birdfy App 官方识别与服务说明](<https://support.birdfy.com/help/birdfy-app/introduction-birdfyapp/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [huaqin](../supply-chain/huaqin.md) — **能力候选 · 非已采用** / 多视角观鸟相机联网工程：华勤的多媒体与联网终端研发制造能力可对应多镜采集和电子整合，但鸟种模型、选片及太阳能场景需另行验证；没有 Feeder 2 Duo 点名合作证据，不能认定实际供方。
+
+- [rapiddirect](../supply-chain/rapiddirect.md) — **能力候选 · 非已采用** / 食仓落脚与多摄固定结构原型：RapidDirect 的模塑和机械原型服务可用于比较食仓、落脚及多摄支架，但食物接触、户外老化和鸟类实际使用需专项确认；未见 Feeder 2 Duo 供货披露，仅列结构候选。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

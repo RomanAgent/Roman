@@ -62,33 +62,189 @@
 
 需求假设：长时间打印失败会浪费材料与机时，用户希望更早发现问题。应以同类模型的失败发现时延、误报和报废量验证 AI 价值，而不是把相机存在等同无人值守成功。
 
+### 需求假设：长时打印需要更早发现浪费 · 研究判断
+
+K2 Plus Combo的AI监控针对打印失败直到很晚才被发现的情况，用户希望减少材料、机时和反复查看。需求应追问具体失败何时发生、何时被察觉，而不是泛称需要无人值守；相机存在不代表所有失败都能识别或自动修复。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 价值判断：监测、校准与多材料分开 · 研究判断
+
+本型号将监控与校准相机、多材料系统结合，但三者解决不同问题：发现异常、辅助机器调整和管理材料切换。用户可能只需要其中一项，研究应分别观察使用收益，不能把功能相加为统一AI价值，也不将更多颜色视为所有创作任务必需。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 验证方案：沿相同模型记录全过程 · 待验证
+
+选择用户本来要制作的模型，记录切片、换料、开机准备、打印监测和清理，再与原有流程比较。保留异常发现时延、误报和材料废弃情况，区分模型、材料与机器原因，避免只打印厂商优化样件就判断长时制作可靠。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
 ## 用户画像
 
 画像假设：创客、小型设计工作室、模型制作人及学校实验室。高频使用者更关注维护、重复性和材料兼容；偶尔打印玩具的用户未必能消化大机身和多材料系统的复杂度。
+
+### 画像假设：有重复制作任务的个人创作者 · 研究判断
+
+较匹配者可能是经常制作模型、功能样件或小批创作物的爱好者与个人工作室，愿意管理耗材和维护。偶尔打印玩具的家庭可能无法消化体积与多材料流程，画像应包含每月任务和故障处理意愿，不能只按喜欢创客文化划分。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 使用约束：Combo与扩展配置不同 · 研究判断
+
+原目录明确基础Combo包含一套CFS，更多颜色需要扩展，用户必须理解实际购买组合与展示上限。已有打印经验者可能能自行配置材料流程，新用户则需要学习切片、维护与换料，不能用同一标价或宣传色数描述两类使用成本。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 访谈重点：失败后的工作由谁承担 · 待验证
+
+应询问用户最近一次废件如何处理、是否愿意清理喷头和材料通路，以及谁负责设备维护。对家庭或共享工作室，还需了解他人能否接手任务，按真实维护责任和打印频率判断适合度，而不是仅询问是否希望自动发现问题。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
 
 ## 竞争与替代
 
 竞争判断：桌面 FDM 打印已有 Bambu Lab、Prusa 等生态与成熟设备，AI 监控是增强能力。新项目要同时面对机器精度、材料体系、切片软件和售后竞争，不能只围绕算法宣传。
 
+### 替代方案：成熟打印生态与人工巡视 · 研究判断
+
+K2 Plus Combo面对其他桌面FDM设备，也与现有打印机加摄像头、人工检查和更稳妥的材料流程竞争。AI异常检测只是整体的一部分，比较需包含切片、配件与维修，不能把某个视觉功能作为整机打印质量优于其他方案的证明。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 差异判断：两类相机作用不能混合 · 研究判断
+
+监控相机关注打印过程，校准相机服务机器调整，二者可能降低不同类型的操作负担。差异是否有价值取决于用户常见失败原因，若主要问题来自模型或材料准备，增加监测未必解决根源，应把发现问题与减少问题分开评价。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 比较方法：交付相同可用成品 · 待验证
+
+让不同方案制作同一任务的成品，记录准备、失败、人工巡视和重新打印的时间与材料，而不只比较最高速度。最终需要检查尺寸、外观和功能是否满足使用，自动通知数量不能代替可用成品数量，误报造成的中断也应纳入。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
 ## 供应链
 
 供应链推断：运动框架、导轨、电机、挤出热端、加热平台、温度传感器与相机共同构成系统。具体供应商、代工安排与 BOM 未披露；重复精度、耗材通路、热稳定和维修件是重点。
+
+### 功能拆分：视觉之外仍是完整成型系统 · 研究判断
+
+公开结构包括运动框架、挤出与加热、材料管理、相机和连接控制，AI监控依附于这些机械热系统。不能把打印异常识别写成自动设计可制造模型，具体电机、导轨、主控与工厂也未披露，功能拆分不代表真实BOM或成本核算。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 制造判断：材料通路与热稳定共同限制 · 研究判断
+
+多材料流程增加进料、切换与维护环节，运动、热端和相机标定也需要保持一致。供应评估应围绕重复成型与易修复，而不是只看框架坚固或相机分辨率，本轮没有取得装配公差、材料兼容测试或量产失效率，不能据外观推定成熟度。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 候选选型：运动和视觉模块分别询证 · 研究判断
+
+鸣志可作为运动驱动候选，DINGS可讨论线性与定位机构，Arducam可研究监测相机输入；具体热环境、接口和标定需进一步确认。它们均未被公开点名为K2 Plus供应商，标准工业模块也不一定适合直接替换整机中的专用零件。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
 
 ## 技术路径
 
 官方支持页明确列出监控及校准 AI 相机，并支持局域网控制。技术判断：视觉异常识别有材料颜色和光照边界，检测到问题后的停止与恢复更重要；不能把打印监控视为自动生成可制造设计。
 
+### 已披露能力：监控与校准视觉 · 官方资料
+
+官方支持资料列出监控及校准AI相机，局域网控制与云绑定功能又形成不同连接路径。机器视觉用于发现或辅助调整，不等于理解用户设计意图，也不保证每种材料和光线下都能识别全部异常，功能范围应按固件与手册确认。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 技术判断：发现异常之后才开始恢复任务 · 研究判断
+
+检测到异常可能需要暂停、通知、清理或重新打印，用户最关心的是接下来如何避免继续浪费。研究应检查通知是否提供足够上下文、是否容易误判和恢复，而不是只看相机识别画框；识别准确与处理有效是两项不同指标。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 验证方案：分开记录检测与处理结果 · 待验证
+
+对真实打印过程保存异常片段、设备提示和用户决定，记录是否及时发现、是否误报以及最终采取什么操作。材料颜色、照明和模型结构应作为条件记录，不主动制造危险故障，也不将未测试的缺陷类别写成产品已支持或已失败的事实。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
 ## 产品审美
 
 审美判断：封闭方箱与上置耗材模块更像工作设备，秩序感较强但体积显著。门体开启、换料路径、可见线缆和噪声影响工作台体验；工业设计应服务维修与清洁，不只遮住机械结构。
+
+### 外形判断：封闭机箱与上置耗材占用空间 · 研究判断
+
+K2 Plus Combo的方箱与耗材模块形成完整工作设备，视觉秩序之外还需要考虑门体、换料和维修空间。宣传图中的整洁摆放不能证明适合任何家庭桌面，用户使用时的材料卷、废料和工具也属于真实外观与收纳体验。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 交互判断：清楚显示当前材料和任务状态 · 研究判断
+
+多材料设备需要用户理解正在使用的材料、切换过程和异常来源，否则自动化反而增加排查负担。界面应帮助区分打印、进料和连接问题，不能把屏幕信息多当作专业；机械状态与相机画面需要形成可操作的解释。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 体验验证：从换料到清洁完整走一遍 · 待验证
+
+在真实工作台上让用户装料、启动任务、查看状态、取件和清理，记录门体开启、耗材路径和工具拿取。再询问哪些步骤影响再次使用，比只观看打印中的整机更能评估设计，尤其能区分高频创作者和偶尔打印家庭的不同负担。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
 
 ## 关键风险
 
 风险判断：高温、活动机构和不同材料释放物需要按厂商要求通风与操作，AI 相机不是安全认证。误报停机会影响长时打印；云端模型文件与摄像画面也有保密需求。
 
+### 运行风险：视觉监控不是安全认证 · 研究判断
+
+高温与运动机构仍需按厂商使用和环境要求管理，AI相机不能代替这些条件，也不保证无人值守安全。不同材料和维护方式需要核对说明，本轮没有实机或材料排放测试，因此不将检测功能描述成防止全部事故或确保任何家庭场所可用。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 购买与数据风险：时间文案及云路径需确认 · 研究判断
+
+原商店曾显示过期预计发货日期，当前订单时间应重新确认，不能只由加购入口推断立即发出。局域网与云绑定服务也涉及不同模型文件和摄像画面路径，用户应按真实需求选择并核对版本，本轮未审核其账户与网络设置。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 验证安排：记录误报和人工修复负担 · 待验证
+
+试用不仅统计被正确发现的异常，也要记录误报停止、需要重复确认和恢复失败的情况，并区分连接与机械问题。重要设计文件保留原始版本，检测结果应可复核；这里是研究安排，不声称该设备已经出现某种特定故障率。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
 ## 机会与验证
 
 可验证机会：为打印农场或学校开发透明的异常复核和维护记录，先验证能否节省人工巡检。若用户痛点在切片、材料或售后，不应仅因 AI 检测热度而另造整机。
+
+### 研究方向：把异常解释与维护记录接起来 · 研究判断
+
+K2 Plus Combo提供了研究从监测到处理闭环的样本，机会可能在更清楚的异常复核、维护提醒和材料记录。若用户主要痛点是切片或耗材通路，继续增加识别功能未必有效，应先观察问题实际发生在哪一环，而不是因AI热度另造整机。
+
+依据：[Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 执行计划：跟踪多个真实打印任务 · 待验证
+
+连续记录不同模型与材料任务，整理用户查看画面、接收通知、处理废件和维护的行为，访谈时回放具体异常。将节省的巡视与新增的确认工作分别计算，不只问是否喜欢AI，也不把一个顺利完成的大模型作为长期可用性的全部证据。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+### 决策边界：设备能力与创业机会分开 · 研究判断
+
+视觉、运动与材料管理说明技术路径，并不能证明市场仍缺少类似整机或用户愿意更换设备。应比较现有生态能否通过流程改进解决问题，再评估自研必要性，本轮没有访谈、销量或成本报价，不用功能分数预测商业成功。
+
+依据：[Creality K2 Plus Combo 美国官方商店](<https://store.creality.com/products/creality-k2-plus-combo-3d-printer>) · [Creality K2 Plus 官方支持及规格](<https://www.creality.com/uk/support/creality-k2-plus-cfs-combo>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [moons-industries](../supply-chain/moons-industries.md) — **能力候选 · 非已采用** / 打印运动驱动与控制组合候选：鸣志公开步进、闭环驱动和线性运动组合，与K2 Plus执行打印轨迹的需求具有对应；但实际速度、热环境、噪声、主控协议及结构需要专项验证，工业标准组合不能直接替换原机，也没有点名证据证明鸣志进入该型号供应链。
+
+- [arducam](../supply-chain/arducam.md) — **能力候选 · 非已采用** / 打印监测视觉输入候选：Arducam提供多接口相机模组和图像驱动工程，可用于讨论K2 Plus监控与校准相机的输入层；两类相机的视场、标定、照明与热环境要求不同，必须分别验证。该候选不提供原机检测算法，也不表示实际采用Arducam器件。
+
+- [dings-motion](../supply-chain/dings-motion.md) — **能力候选 · 非已采用** / 线性定位及运动传动工程备选：DINGS公开丝杆、旋转与线性执行方案，可作为打印机定位机构的工程备选，但需先核对原任务是否适合该传动路线，不能把所有打印轴都假设成丝杆。当前没有K2 Plus点名供货证据，关联只用于比较能力与待确认的结构条件。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

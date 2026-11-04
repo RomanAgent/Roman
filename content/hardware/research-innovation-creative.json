@@ -1,0 +1,626 @@
+[
+  {
+    "id": "hypershell-x-pro-s",
+    "name": "Hypershell X Pro S",
+    "brand": "Hypershell 极壳",
+    "category": "mobility",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "根据连续步态调整髋部助力的消费外骨骼",
+    "officialUrl": "https://hypershell.tech/products/new-hypershell-x-series?variant=47628563939564",
+    "status": "on_sale",
+    "statusEvidence": "核查日全球官网X Pro S变体显示US$999、Add to Cart、现货发出；公开商品数据该变体available=true。中国官网对应X Pro S显示¥6,999及官方商城、京东自营入口。仅收这一髋部系列代表。",
+    "regions": [
+      "中国大陆",
+      "美国等全球站支持地区（按地址确认）"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "中国官网X Pro S有官方商城及极壳京东自营入口；价格和售后按国内版本核对。"
+    },
+    "price": {
+      "text": "中国官网¥6,999；全球站US$999",
+      "note": "核查日X Pro S选定变体价格；税费、地区运费及后续促销另计，不使用Ultra/Max价格。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "HyperIntuition端到端运动控制读取连续动作、姿态与节奏，直接调整助力输出；不是只按固定运动标签切换预设规则。",
+      "dependency": "依赖可穿戴驱动、运动感知和电池形成闭环；具体芯片及模型结构未披露。使用者须能独立行走和保持平衡，非医疗康复设备。"
+    },
+    "highlights": [
+      "髋部执行与大腿绑带传力",
+      "端到端连续运动控制",
+      "国内官方渠道可核",
+      "同系列仅保留一个需求代表"
+    ],
+    "analysis": {
+      "demand": "案头判断：核心需求是在徒步、旅行和步行通勤中降低使用者主动抬腿的负担。动力输出必须与个人节奏同步；是否值得多穿一件有重量的装置，应通过同路线试穿和长时舒适度验证。",
+      "userProfile": "更适合能独立行走、已有稳定户外习惯且愿意携带充电设备的人。不是为需要医疗康复或不能保持平衡的人设计；腰围、大腿接触、背包腰带冲突比泛化的年龄标签更影响适配。",
+      "competition": "竞争包括其他髋部外骨骼，也包括登山杖、减轻背包和调整路线等低成本方案。本目录不把同系列不同功率或材料型号重复当成创新，重点比较连续助力是否比额外负重更有用。",
+      "supplyChain": "功能链包含腰带软性接触、髋部驱动、腿部连杆、运动感知、电池与控制。上游工厂和具体电机供应商未披露；候选选型要同时验证噪声、热量、传力和跌倒时的机械脱离条件。",
+      "technology": "官方明确HyperIntuition以端到端数据驱动替代分步识别加规则输出。模型名称不等于所有地形都被验证；从静止到迈步、突然转向与上下坡的助力过渡需要实测，而非引用单一响应数字。",
+      "aesthetics": "腰带与短腿杆的外形比全腿机甲更接近户外装备，银黑结构清楚暴露关节。分析上，服装搭配之外还要看坐下、穿脱和收进包里的便利，展示图无法证明长时皮肤接触舒适。",
+      "risks": "消费定位不代表无使用限制。关键风险是尺寸不合、异常助力或没电后的负重感，以及用户把厂家体能宣传当成自身保证。产品明确不是医疗辅助，不应据此给疾病或伤后训练建议。",
+      "opportunity": "机会假设在租前试穿、路线适配和本地维护服务，而不只是继续增加峰值动力。可比较一段固定步道的穿脱时间、主观舒适、停用原因和再次携带意愿，再判断是否形成持续需求。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "消费外骨骼已有多个品牌进入，实际穿戴和售后仍是重要门槛；不能由关注度低推断蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "身体接触",
+        "detail": "宽腰带与大腿绑带固定设备并传递力。",
+        "evidence": "official"
+      },
+      {
+        "name": "髋部驱动",
+        "detail": "左右髋部执行机构与短腿杆形成助力路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知与控制",
+        "detail": "HyperIntuition根据连续动作调整助力；具体传感器和芯片未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源",
+        "detail": "可更换智能电池为驱动及控制供电。",
+        "evidence": "official"
+      },
+      {
+        "name": "工程概念边界",
+        "detail": "内部布置只作功能推断，不代表拆机、真实PCB或供应商BOM。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hypershell X Pro S全球商品页",
+        "url": "https://hypershell.tech/products/new-hypershell-x-series?variant=47628563939564",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开选定Pro S变体；核查购买按钮、现货、价格、消费用途与独立行走限制。"
+      },
+      {
+        "title": "HyperIntuition与传统控制算法的区别",
+        "url": "https://support.hypershell.tech/en-US/what-is-the-difference-between-classic-motion-control-algorithm-and-hyperintuition-9112881",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开官方支持；连续动作输入与端到端输出机制。"
+      },
+      {
+        "title": "Hypershell X Pro S中国商品页",
+        "url": "https://hypershell.cn/products/new-hypershell-x-series?variant=48991306121443",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开国内Pro S价格及官方商城、京东自营入口；不挪用Ultra参数。"
+      },
+      {
+        "title": "HyperIntuition官方技术介绍",
+        "url": "https://hypershell.tech/en-us/blogs/news/how-the-new-hypershell-x-series-redefines-outdoor-exploration-with-hyperintuition",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；仅用于算法流程，不将旧文型号命名或宣传改善比例当实测。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "dnsys-z1-dual-joint",
+    "name": "DNSYS Z1 Dual Joint",
+    "brand": "DNSYS",
+    "category": "mobility",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "将动力执行放在膝部的双腿户外助力装置",
+    "officialUrl": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商品数据Z1 Dual Joint / Basic / Carbon black变体available=true，US$1,299；页面有Add to Cart及现货说明。明确欧盟及美洲可发，亚太文字存在地区及批次差异，不能视作全球现货。",
+    "regions": [
+      "欧盟",
+      "美洲（按配送地址确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未核实中国大陆官方零售与售后渠道。页面亚太交期信息有不同批次表述，跨境购买须另确认目的地与版本。"
+    },
+    "price": {
+      "text": "官方标准双膝版US$1,299",
+      "note": "选定Basic标准版；不含X1髋部组合，不套用Pro价格或滑雪能力。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "DNNAS Smart Propulsion结合多维运动传感与深度神经网络，识别运动意图并调整膝部助力。",
+      "dependency": "依赖膝部电机、支撑结构与电池；使用者须可独立行走、抬腿和保持平衡。标准版不包含Pro专属滑雪模式。"
+    },
+    "highlights": [
+      "膝部执行与大腿、小腿接触",
+      "DNNAS神经网络助力控制",
+      "标准版与Pro功能明确区分",
+      "非医疗消费助力"
+    ],
+    "analysis": {
+      "demand": "案头需求是户外行走时对膝关节动作施加有节奏的机械辅助。与腰髋装置相比，接触位置和屈伸体验不同；能否减少长下坡的不适不能由电机参数推出，更不能作医疗结论。",
+      "userProfile": "潜在人群是能独立行走和稳定控制身体、常有坡道旅行或徒步的人。裤装、腿围及膝部对位影响实际体验；需要先验证穿着和活动范围，不能以高龄或膝痛直接划定适用用户。",
+      "competition": "它与髋部外骨骼有共同的步行需求，但执行关节、绑缚位置和承力路径不同。本轮保留这个明确技术路线代表，不再添加同装置的Pro、配色或X1组合来增加产品数量。",
+      "supplyChain": "膝部机电总成需和大腿、小腿支撑配合，电池、传感与控制还受运动冲击和接触压力限制。具体工厂未披露；候选电驱厂仅代表能力匹配，不能写成DNSYS已使用某家电机。",
+      "technology": "官方把DNNAS描述为多维感知和深度神经网络的控制系统。关键验证对象是屈伸阶段助力方向与使用者意图是否一致，并记录中途停止、转身和上下台阶，不能只看宣传负担降低比例。",
+      "aesthetics": "两条独立膝部支架使穿戴结构清晰，圆角黑色外壳弱化裸露机械感。推断上，膝侧体积可能影响狭窄通道、坐姿和裤装；绑带是否滑移比灯光效果更决定日常接受度。",
+      "risks": "同一商品页混有标准版、Pro与髋膝套装，图片和功能容易串用。必须按SKU确认；此外个人平衡、助力中断与错误对位风险需要试穿记录，不能把消费助力等同于康复支具。",
+      "opportunity": "可验证机会是对有坡道路线的人提供标准化试穿和适配说明。用同一参与者比较无装置、膝部与髋部方案，记录穿脱、屈伸干涉、信任和携带意愿，而非凭模型评分预测胜出者。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "膝部消费助力仍需建立适配与安全体验，已有髋部和髋膝竞品；实际体验差异比热度更重要。"
+    },
+    "architecture": [
+      {
+        "name": "接触支撑",
+        "detail": "两腿的大腿与小腿接触结构保持膝部执行位置。",
+        "evidence": "official"
+      },
+      {
+        "name": "膝部执行",
+        "detail": "双侧膝部驱动总成施加机械辅助；标准版不作为滑雪设备描述。",
+        "evidence": "official"
+      },
+      {
+        "name": "DNNAS控制",
+        "detail": "多维感知与深度神经网络调节运动助力。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池与操作",
+        "detail": "电池供电与本机交互维持运动过程。",
+        "evidence": "official"
+      },
+      {
+        "name": "内部概念",
+        "detail": "未披露的电路及传动布局仅作功能示意，非拆机。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DNSYS Z1标准版商品页",
+        "url": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开商品页并读取公开商品JSON；标准黑色Basic现售，分清Pro和X1组合。"
+      },
+      {
+        "title": "DNSYS Z1官方产品说明",
+        "url": "https://dnsys.ai/pages/dnsys-z1-exoskeleton",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；DNNAS、膝部助力及使用者能力限制，区域交付文字需结合当前SKU。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "zwo-seestar-s30-pro",
+    "name": "ZWO Seestar S30 Pro",
+    "brand": "ZWO Seestar",
+    "category": "astronomy",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "把天文采集和App AI图像增强连起来的便携观测设备",
+    "officialUrl": "https://www.seestar.com/products/seestar-s30-pro",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商品页US$699、In stock - Ready to be shipped及Add to cart；官方2026年9月比较页也列S30 Pro在售。中国官网有S30 Pro天猫入口。",
+    "regions": [
+      "中国大陆",
+      "美国",
+      "欧洲",
+      "全球站支持地区"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "Seestar中国官网列S30 Pro官方天猫入口。大陆与海外版本有激活地域差异；大陆版官方限定大陆、香港、澳门激活使用。"
+    },
+    "price": {
+      "text": "全球官网US$699；国内渠道价格为准",
+      "note": "核查日官方价格；不沿用早期US$599信息，税运费与地区版本另核。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方手册与教程明确Seestar App提供AI Denoise / AI Enhance，对望远镜拍摄的叠加图像作降噪等增强；当前产品页另列AI助手。普通自动寻星、跟踪和拼接不作为AI判定依据。",
+      "dependency": "图像AI功能依赖Seestar App；官方教程允许下载素材后离线处理，移动设备性能会影响完成率。语音助手的模型、联网范围未充分披露。"
+    },
+    "highlights": [
+      "双光学视角与一体化转台",
+      "明确App AI图像增强",
+      "下载素材后可离线后期",
+      "大陆及海外激活版本区分"
+    ],
+    "analysis": {
+      "demand": "案头需求是把深空题材从复杂器材组合变成能随身带走的采集流程，并降低初次后期门槛。AI作用主要在已拍影像处理，不能消除天气、遮挡和光污染，也不能代替观测时间。",
+      "userProfile": "适合想拍到自己获取的星云或银河画面、愿意使用手机App的入门爱好者和家庭观测者。追求目镜直视或严谨科学测光的人需求不同，不应因为同属天文兴趣就默认这台一体机适配。",
+      "competition": "竞争包括其他智能望远镜、传统相机加赤道仪及电脑后期软件。本轮只保留一个小型天文成像代表，避免按口径与传感器升级堆型号；比较重点是架设、采集和处理的总时间。",
+      "supplyChain": "公开模块包含长焦与广角光学、图像传感器、转台、控制、电池与App。官网点名Sony传感器但未披露完整代工链；镜头装调、转轴精度与户外温差下的成像一致性需要共同验证。",
+      "technology": "AI图像处理在官方App工作流中有明确入口，教程还说明移动设备性能不足时可降低处理分辨率。自动寻星是另一条控制能力，不混称为AI；本机与App的计算边界要向用户讲清楚。",
+      "aesthetics": "白色折叠机身和短三脚架比传统长镜筒更便携，结构上让光学臂的转动可见。分析上，夜间指示灯、手套操作、镜头保护和收纳仍需实测，外形简洁并不等于无需维护。",
+      "risks": "风险集中在地域激活误购、处理结果与原始数据混用，以及把天气条件和厂家样片当作保证。太阳观测须遵循官方滤镜说明；AI后期应保存原图，便于区分采集信息与增强效果。",
+      "opportunity": "机会假设是观测活动与简单后期教学，而非再增加一个同规格望远镜。可招募初学者完成首次架设、选目标、导出原图和增强对照，统计失败步骤及隔月是否再次观测。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "天文爱好者是明确但有限的兴趣场景；专业操作障碍可降低，天气和观测频次仍限制家庭留存。"
+    },
+    "architecture": [
+      {
+        "name": "双光学采集",
+        "detail": "长焦与广角光学及图像传感器获取天空图像。",
+        "evidence": "official"
+      },
+      {
+        "name": "机械指向",
+        "detail": "一体化转台、调焦与跟踪维持拍摄，普通自动控制不等于AI。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与连接",
+        "detail": "本机控制和无线连接配合Seestar App。",
+        "evidence": "official"
+      },
+      {
+        "name": "图像处理",
+        "detail": "App的AI Denoise / AI Enhance处理下载或叠加图像，可保留前后对照。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源与机身",
+        "detail": "内置电池、折叠光学臂、机壳与三脚架构成便携系统。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Seestar S30 Pro官方商店",
+        "url": "https://www.seestar.com/products/seestar-s30-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；现货、699美元、Sony双传感器、一体结构及地域激活限制。"
+      },
+      {
+        "title": "Seestar S30 Pro用户手册",
+        "url": "https://cdn.shopify.com/s/files/1/0756/5728/1827/files/Seestar_S30_Pro_User_Manual.pdf?v=1768828988",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开34页官方PDF；机身结构及深空示例中的AI Denoise入口。"
+      },
+      {
+        "title": "Seestar AI Enhance官方教程",
+        "url": "https://www.seestar.com/blogs/seestar-guide/seestar-ai-enhance",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；App图像增强、导出比较、性能限制与下载后离线处理。"
+      },
+      {
+        "title": "Seestar中国官网",
+        "url": "https://www.seestar.cn/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；S30 Pro官方天猫入口，未断言国内结算价格。"
+      },
+      {
+        "title": "Seestar在售型号比较",
+        "url": "https://helpdesk.zwoastro.com/hc/en-us/articles/48476700259213-Seestar-S30-S50-S50-Pro-S30-Pro-Comparison",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；2026年9月更新列S30 Pro在售，旧S30/S50下架。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "nex-playground",
+    "name": "Nex Playground",
+    "brand": "Nex",
+    "category": "games",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "用本机视觉识别身体动作的电视体感游戏主机",
+    "officialUrl": "https://www.nexplayground.com/shop/nex-playground",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商店显示US$299购买入口；官方购买地区页列美国官网及美国、加拿大、德国、英国和爱尔兰零售渠道。官网直送范围仅美国，不推断中国可直邮。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "德国",
+      "英国",
+      "爱尔兰"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "已核官方销售地区不含中国大陆，官网直送仅美国；未核大陆授权商及内容服务支持。跨境持有硬件不等于本地售后或订阅可用。"
+    },
+    "price": {
+      "text": "官方硬件US$299",
+      "note": "含5款入门游戏；可选Play Pass核查价US$89/12个月或US$49/3个月。内容、税费与地区价格以官网为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "广角摄像头与本机计算机视觉AI追踪身体关键点，转换为多人游戏输入，无需手持动作控制器。",
+      "dependency": "需电视HDMI、摆放与活动空间；联网下载后游戏可离线运行。更多内容依赖可选Play Pass，遥控器用于菜单操作。"
+    },
+    "highlights": [
+      "本机视觉身体追踪",
+      "双手自由的客厅互动游戏",
+      "摄像头磁吸隐私盖",
+      "入门游戏与订阅库分开"
+    ],
+    "analysis": {
+      "demand": "案头需求是让家庭在电视前用身体动作一起玩，不必逐人学习手柄。它把运动变成游戏输入而非医疗或健身评估；价值取决于一家人是否愿意反复清出活动空间并共同参与。",
+      "userProfile": "主要假设是有电视、足够活动区域且愿意陪玩的家庭成员和聚会人群。身体高度差、视角遮挡和理解游戏规则的能力影响体验；年龄或儿童标签不足以代替实际任务测试。",
+      "competition": "替代方案包括传统游戏机动作游戏、手机投屏运动内容和非电子亲子游戏。视觉追踪减少手持配件，但也把可靠性转移到空间、光线和遮挡，不能只凭免控制器判断全面领先。",
+      "supplyChain": "硬件主要是相机、本地处理、连接与供电和散热外壳；更持续的交付在游戏适配和维护。具体代工厂未披露，摄像头模组候选与PCBA厂匹配只是工程路线，不代表真实BOM。",
+      "technology": "官方说明动作识别在设备本地完成，下载的游戏可离线运行。无需把家庭视频送云端做实时识别，但部分游戏有短暂本地回放功能，应准确区分处理、临时回放与保存上传。",
+      "aesthetics": "彩色立方体和显眼镜头把玩具属性与摄像用途同时表达，磁吸盖提供可见的遮挡方式。分析上，把镜头放在电视附近仍需明确开关状态；产品材质配色保留真实图片而不统一改灰。",
+      "risks": "风险包括活动时碰撞家具、多人遮挡误识别、订阅续费与内容生命周期。大陆没有本轮核实的官方渠道，跨境买到机器后仍可能碰到服务与售后条件，不能由可连接HDMI推断全可用。",
+      "opportunity": "可验证机会在短时家庭共同游戏，而不只是增加游戏库数字。建议观察真实客厅首次启动、轮流参与、错误识别和三周后再开机频次，并询问有无不续订也愿意留下的玩法。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "客厅视觉游戏的输入方式明确，仍受普通游戏机、移动娱乐与家庭空间竞争，需求需通过持续使用验证。"
+    },
+    "architecture": [
+      {
+        "name": "视觉采集",
+        "detail": "前置广角相机获取身体动作，配磁吸隐私盖。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机识别",
+        "detail": "计算机视觉AI在设备内追踪身体动作，转换游戏输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "游戏输出",
+        "detail": "通过HDMI输出至电视，遥控器主要用于菜单选择。",
+        "evidence": "official"
+      },
+      {
+        "name": "内容分发",
+        "detail": "联网获取游戏及更新；已下载游戏支持离线运行，扩展库有订阅。",
+        "evidence": "official"
+      },
+      {
+        "name": "内部概念",
+        "detail": "电源、散热、处理与连接的具体电路布局未披露，仅作功能拆分。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nex Playground官方商店",
+        "url": "https://www.nexplayground.com/shop/nex-playground",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；硬件价格与购买、含入门游戏、接口和隐私盖。"
+      },
+      {
+        "title": "Nex动作追踪官方说明",
+        "url": "https://support.nexplayground.com/en/articles/13139469-how-does-the-nex-playground-track-my-movements",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；本机CV/AI、身体关键点、多人和离线运行。"
+      },
+      {
+        "title": "Nex官方购买地区",
+        "url": "https://support.nexplayground.com/en/articles/13146847-where-can-i-buy-nex-playground",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；官网美国直送与各国零售渠道，未列中国大陆。"
+      },
+      {
+        "title": "Nex Play Pass",
+        "url": "https://www.nexplayground.com/play-pass",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；可选订阅、当前期间价格及5款入门游戏。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "arccos-air",
+    "name": "Arccos Air",
+    "brand": "Arccos Golf",
+    "category": "sports",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "不在每支球杆装传感器的口袋击球记录器",
+    "officialUrl": "https://www.arccosgolf.com/products/air",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商品页显示US$349.99、含首年Game Tracking、Add to cart；另有现有会员硬件版US$224.99购买入口。Link Pro为同硬件更新名称，不另计一款。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "英国",
+      "欧盟",
+      "澳大利亚",
+      "日本",
+      "其他官方结算支持地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方称全球多数地区可送，具体国家仅结算列出；本轮未确认大陆官方店、送达及中国球场数据覆盖，不作本地可完整服务承诺。"
+    },
+    "price": {
+      "text": "US$349.99含首年订阅；续费US$199.99/年",
+      "note": "核查日官方价；现有会员可购US$224.99硬件版。两种销售组合算同款，不重复收录。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "内置陀螺仪、加速度计与GPS结合AI动作模式识别，区分实际击球和练习挥杆；无球杆传感器时球杆种类可由历史数据推断或手动补录。",
+      "dependency": "回合后与手机App同步并依赖Game Tracking订阅获得分析。部分官方FAQ仍写Android无传感器模式待推出，新App文说明Android更新，具体客户端功能须现场确认。"
+    },
+    "highlights": [
+      "口袋式击球感知与定位",
+      "AI区分击球与练习挥杆",
+      "同Link Pro硬件可软件升级",
+      "球杆身份推断可人工校正"
+    ],
+    "analysis": {
+      "demand": "案头需求是留下真实下场的击球与位置记录，同时不在每支球杆安装标签或不断掏手机。它解决的是记录摩擦，不是挥杆纠正器；是否改善决策取决于记录完整性和用户如何复盘。",
+      "userProfile": "更适合有稳定下场频率、愿意看回合分析，或旅行时使用租赁球杆的球友。已有Link Pro用户不需因改名重买；偶尔娱乐且不愿订阅的人可能用纸卡或手机记录就足够。",
+      "competition": "替代包括逐杆传感器、手表记录和人工记分。Air减少球杆安装，但无传感器时杆号可以是AI推断，和直接识别并不等价；应比较修正错误的总时间而不是只看自动采集。",
+      "supplyChain": "公开功能需要惯性运动感知、定位、本机处理、电池和充电盒，具体元件及代工未披露。小尺寸设计要兼顾口袋姿态变化、无线天线和充电接触，候选供应商不等于实际采用。",
+      "technology": "AI把动作签名与定位结合，区分实际击球和练习挥杆；App再进行统计与策略分析。杆号由历史推断时需要可编辑机制，官方训练数据规模不能当成对每种打法都准确的证明。",
+      "aesthetics": "黑色口袋小件和充电盒减少在球场展示科技设备的负担，外壳状态灯与按钮较克制。分析上，带夹固定、手套操作、遗忘充电和赛后取出同步仍是比外观照片更关键的体验。",
+      "risks": "风险在漏记、误判或杆号推断影响后续统计，以及订阅中断后的价值变化。官方Android功能说明存在新旧表述，购买前应确认目标手机上无杆传感器模式，不能泛称全平台一致。",
+      "opportunity": "机会假设是降低旅行球手和更换球杆时的记录成本。可让参与者同步人工记分和自动记录，回合后逐杆核对，用修正时间、复盘行动和续费意愿检验，而不声称硬件必然降杆。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "高尔夫统计已有成熟替代，口袋无杆标签是明确输入差异；场景小众并不等于缺少竞争或自动形成订阅。"
+    },
+    "architecture": [
+      {
+        "name": "运动采集",
+        "detail": "陀螺仪与加速度计采集挥杆运动，GPS定位击球区域。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI击球识别",
+        "detail": "动作模型区别实际击球与练习挥杆，非光学测球雷达。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机存储与连接",
+        "detail": "设备记录回合并与App同步；具体芯片与电路未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池及充电盒",
+        "detail": "独立可穿戴小件和专用充电盒维持携带与补能。",
+        "evidence": "official"
+      },
+      {
+        "name": "App数据工作流",
+        "detail": "订阅提供统计、策略和可编辑杆号；无标签的杆号推断不能当确定测量。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Arccos Air官方商店",
+        "url": "https://www.arccosgolf.com/products/air",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；当前349.99美元购买、首年与续费、杆号推断和回合同步。"
+      },
+      {
+        "title": "Arccos Air技术介绍",
+        "url": "https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；陀螺仪、加速度计、GPS及AI区别实际击球和练习；不采用宣传降杆统计。"
+      },
+      {
+        "title": "Link Pro升级Arccos Air说明",
+        "url": "https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；同硬件软件升级，避免改名产品重复计数。"
+      },
+      {
+        "title": "Arccos硬件版与兼容FAQ",
+        "url": "https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；硬件版购买、充电盒、App依赖及仍有Android功能待推出旧表述。"
+      },
+      {
+        "title": "Arccos新版Android App说明",
+        "url": "https://www.arccosgolf.com/blogs/community/the-new-arccos-app-is-now-on-android",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；确认新版App已在Android上线，未由此推断所有旧FAQ功能差异消失。"
+      },
+      {
+        "title": "Arccos配送范围",
+        "url": "https://support.arccosgolf.com/hc/en-us/articles/8635873227924-Where-does-Arccos-ship-to",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；各地区站点及全球多数目的地配送，但本轮未结算核对中国地址。"
+      }
+    ],
+    "checkedAt": "2026-11-04"
+  }
+]

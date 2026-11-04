@@ -58,33 +58,187 @@
 
 需求假设：拍孩子、做饭或步行时，拿手机会打断动作。第一视角采集能降低启动成本，但真正值得验证的是用户是否持续拍摄与调用问答，而不是初次体验的新鲜感。
 
+### 官方｜日常框型中的采集入口 · 官方资料
+
+本型号把相机、开放式音频和 Meta AI 放进 Wayfarer 眼镜，并通过兼容手机与应用使用相关功能。它没有镜内显示，因此需求是减少拿手机拍摄、通话或提问的动作，而不是在眼前阅读字幕；摄影与蓝牙播放本身也应和真正的模型理解分开评价。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>) · [Meta Store · Ray-Ban Meta 产品比较](<https://www.meta.com/ai-glasses/ray-ban-meta/>)
+
+### 判断｜双手忙碌时的价值 · 研究判断
+
+做饭、陪伴家人或短途步行时，取手机可能打断正在进行的事情，第一视角拍摄有机会保留这些瞬间。但用户仍要决定是否值得记录并在之后整理，拍得更多不一定更有用；购买理由应来自反复发生的任务，而不是第一次语音拍照带来的新鲜感。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 验证｜从触发到保留内容 · 待验证
+
+可让用户在相同活动中使用眼镜和手机，比较错过片段、操作次数、最终保存内容与整理时间。还应记录何时用户宁愿拿手机确认取景，以及语音失败后如何重试；只有完整流程更顺畅，才能说明眼镜位置产生价值，当前案头资料不构成实机效果证明。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
 ## 用户画像
 
 画像推断：已经日常戴眼镜、经常旅行或创作短内容的人更容易接受这一形态；只偶尔需要 AI 问答的人可能继续使用手机。应区分配镜刚需与为了技术额外戴镜两类用户。
+
+### 判断｜已有戴镜习惯的人 · 研究判断
+
+本来就日常戴眼镜或太阳镜的人，可能更容易把电子功能融入现有习惯，而不是额外承担一种穿戴设备。仍需区分处方用户、仅户外佩戴者和为了技术首次戴镜的人，因为三者的购买成本与使用频率不同，不能用同一个创作者画像覆盖所有潜在用户。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 判断｜旧代购买与升级人群 · 研究判断
+
+目前旧代仍列售，首次购买者可能把价格与核心任务放在首位，已有设备的人则更关注是否值得升级。两类用户对续航、框型和服务的评价标准不同，应分别研究；不能因为新一代上市就认定旧代没有价值，也不能把较低起价当作所有配置都更划算。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>) · [Meta Store · Ray-Ban Meta 产品比较](<https://www.meta.com/ai-glasses/ray-ban-meta/>)
+
+### 验证｜生活场景与权限习惯 · 待验证
+
+研究应观察用户在家、通勤和社交场合是否愿意佩戴并开启采集，记录主动关闭相机或助手的原因。还要测试首次配对、照片导入和权限管理的学习成本，避免只邀请熟悉技术的人体验；持续使用需要功能、佩戴与记录边界同时适合个人习惯。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
 
 ## 竞争与替代
 
 案头判断：与同品牌 Gen 3、Rokid Style、手机和耳机争夺同一使用时刻，属于拥挤方向。品牌、配镜和售后渠道构成门槛；此判断没有销量统计、用户访谈或份额证据。
 
+### 判断｜同品牌代际竞争 · 研究判断
+
+本型号直接面对仍在同一系列页面展示的新一代，比较重点应是核心任务、交互和实际佩戴，而非只按代次判断。较低价格可能吸引首次用户，但镜片、服务和长期支持也影响选择；目录没有价格弹性或销量研究，不能据在售状态推断旧代仍拥有多大市场。
+
+依据：[Meta Store · Ray-Ban Meta 产品比较](<https://www.meta.com/ai-glasses/ray-ban-meta/>)
+
+### 判断｜手机与耳机的替代 · 研究判断
+
+手机提供可检查的取景和丰富界面，耳机提供熟悉的音频体验，眼镜则把部分功能放在更随手的位置。用户可能仍保留手机和耳机，因此应比较整套使用流程，而不是只数合并了多少功能；如果多数任务仍回到手机完成，额外设备的价值需要更具体解释。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 验证｜相同任务与配置 · 待验证
+
+可比较一次第一视角拍摄、一次通话和一次视觉提问的完成情况，并保持手机、网络与镜片配置一致。不同地区或变色处方配置的价格不能直接对照基础起价，官方最长续航也不能替代同负载测试；当前竞争判断仅为案头分析，不包含份额或用户满意度结论。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>) · [Meta Store · Ray-Ban Meta 产品比较](<https://www.meta.com/ai-glasses/ray-ban-meta/>)
+
 ## 供应链
 
 官方能确认 Ray-Ban 与 Meta 的产品协作及 EssilorLuxottica 保修角色；本次未取得整机代工厂、摄像头供应商或成本资料。推断难点在镜腿集成、装配一致性与配镜售后。
+
+### 官方｜协作与已知模块 · 官方资料
+
+官方资料能确认眼镜品牌与 Meta 的产品协作，以及相机、多麦克风、无线、存储和音频等功能模块。具体整机工厂、传感器料号及采购价格仍未确认，保修或渠道角色也不能推导成代工关系；目录的结构示意只表达功能，不作为真实拆机或物料证据。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>) · [Meta Store · Ray-Ban Meta 产品比较](<https://www.meta.com/ai-glasses/ray-ban-meta/>)
+
+### 判断｜配镜与电子维护 · 研究判断
+
+镜腿中的电子、铰链和电池要与镜架调整及镜片服务共同工作，售后可能不同于普通眼镜或耳机。应确认配镜、镜架调整和电子故障分别由谁处理，不能从成熟品牌渠道直接推断维修便捷；这些工程与服务约束会影响拥有成本，不能仅看首次购买价格。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 判断｜候选模块与未知关系 · 研究判断
+
+高通的相机眼镜平台可作为主控重设计候选，英飞凌麦克风可作为声音输入候选，但当前产品来源未点名二者。评估需要确认热预算、相机与音频接口及服务兼容，不能视为现成替换；尤其不能把旧代或其他眼镜的公开芯片案例自动迁移到本型号。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
 
 ## 技术路径
 
 官方披露摄像头、五麦克风、蓝牙、Wi-Fi 与存储；生成式能力通过 Meta AI 呈现。端侧降噪与云端问答如何细分并未完整公开，不能由功能列表反推出精确芯片或模型部署。
 
+### 官方｜手机与服务参与 · 官方资料
+
+本型号通过兼容手机、Meta AI 应用和账户使用视觉或语音问答，功能还受地区与语言条件影响。相机和音频由眼镜采集不代表全部理解在本地完成，端侧处理与云端任务未完整公开；目录不会从硬件功能列表推导精确模型版本或统一离线能力。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 判断｜看见与理解之间 · 研究判断
+
+视觉提问需要先取得适合模型的画面，用户视线与相机画面并不完全等同，目标被遮挡或模糊会影响回答。系统应让用户理解取景与答案的不确定性，尤其涉及文字、数字或细小物体时；流畅语音并不能证明模型确实读到了用户想问的内容。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 验证｜断连与弱网链路 · 待验证
+
+应分别测试手机断连、应用后台和网络受限时的拍摄、导入及助手功能，记录失败提示与恢复步骤。再用相同场景重复视觉提问，比较答案是否可由原图核对；这种实验能确定功能边界，当前资料不足以保证所有任务在任何网络或地区都同样可用。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
 ## 产品审美
 
 官网图示延续 Wayfarer 的日常眼镜比例，能减少明显的设备感；镜腿体积和摄像头仍会影响他人的感知。外观判断来自图片，鼻梁压力、滑落和长时佩戴舒适度尚未实测。
+
+### 判断｜熟悉外形的作用 · 研究判断
+
+Wayfarer 的日常轮廓可能降低设备感，让用户更愿意把它作为眼镜而非专用相机携带。但熟悉外形不代表所有脸型都舒适，较厚镜腿和摄像部件也会改变他人感知；审美分析应与实际佩戴、社交反馈分别进行，不能只依据品牌和照片给出体验结论。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 判断｜功能状态需要可见 · 研究判断
+
+当设备看起来接近普通眼镜，旁人更可能不清楚何时正在拍摄或处理声音。设计研究应检查指示与操作反馈是否足以解释状态，以及用户是否需要额外沟通；外形低调可以是一种风格选择，却不能直接视为隐私优势或不影响他人的证明。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 验证｜镜片与连续佩戴 · 待验证
+
+试戴应覆盖室内外光线、坐姿交流和走动，记录鼻梁压力、镜腿夹持及用户何时摘下。处方和不同镜片配置需要分别确认，不能用一张太阳镜效果图代表全天体验；官方外观与规格适合初筛，长时间舒适和稳定仍需真实使用验证。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
 
 ## 关键风险
 
 主要风险是拍摄对旁人的影响、不同地区 AI 功能差异，以及照片导出和账号服务的长期依赖。语音回答仍需核验；有摄像头并不意味着设备适合持续记录所有工作或生活场景。
 
+### 判断｜旁人和敏感场景 · 研究判断
+
+第一视角相机容易把他人带入记录，会议或私人场所也可能涉及不适合采集的内容。用户需要清楚的开始、停止与删除流程，并理解照片导入后的保存位置；目录不把随手拍的便利解释为所有场景都适合记录，开放式音频也不消除注意力与环境声音问题。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 判断｜地区与长期依赖 · 研究判断
+
+账号、应用和服务更新会影响可用功能，海外商品页或中文翻译能力不能证明大陆官方渠道和完整服务开放。购买旧代还应确认后续支持与保修条件，不能只根据页面仍列售推断维护周期；总成本需要包含镜片、配件和可能的跨境服务差异。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>) · [Meta Store · Ray-Ban Meta 产品比较](<https://www.meta.com/ai-glasses/ray-ban-meta/>)
+
+### 验证｜重要答案需回查 · 待验证
+
+测试应包含识别错误的文字、物体和数字，观察用户能否获得原始画面并发现问题。对于重要信息，应回查来源而不是直接采用语音答案；同时检查服务失效时基础拍摄和音频是否仍可使用，让失败可见且可恢复，而非把所有异常都归为用户操作不当。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
 ## 机会与验证
 
 市场差异在于第一视角输入、日常框型和成熟配镜渠道共同降低使用门槛。尚待验证的购买理由是用户是否频繁调用这些能力，以及Gen 2相对较低价格能否覆盖旧代设备的取舍。
+
+### 判断｜旧代仍可能满足核心任务 · 研究判断
+
+本型号的价值判断不必围绕最新功能，而应看第一视角记录、音频与基本问答是否已经覆盖用户重复任务。若这些任务足够稳定，旧代价格可能有意义；若用户的主要问题是触发、佩戴或电量，则应具体比较新代改善，不能仅凭折扣或代次作结论。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>) · [Meta Store · Ray-Ban Meta 产品比较](<https://www.meta.com/ai-glasses/ray-ban-meta/>)
+
+### 判断｜渠道与习惯的组合 · 研究判断
+
+日常框型、配镜和电子服务共同决定使用门槛，任何单一环节都不足以解释购买。研究应观察用户是否愿意把原有眼镜替换为此设备，以及充电和媒体管理是否成为负担；这种组合价值需要真实流程证据，不能把成熟品牌渠道直接等同人工智能硬件需求已成立。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>)
+
+### 验证｜持续使用的购买理由 · 待验证
+
+可跟踪数周内拍摄、通话和问答的实际使用、保留内容及失败重试，结合镜片与维护费用判断拥有成本。还应记录何时回到手机或普通耳机，理解替代边界；当前目录提出可检验的购买理由，不以功能清单、品牌或短期尝鲜代替长期需求验证。
+
+依据：[Meta Store · Wayfarer Gen 2 SKU](<https://www.meta.com/ai-glasses/ray-ban-meta-wayfarer-gen-2/>) · [Meta Store · Ray-Ban Meta 产品比较](<https://www.meta.com/ai-glasses/ray-ban-meta/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [qualcomm](../supply-chain/qualcomm.md) — **能力候选 · 非已采用** / 相机、声音与无线协同主平台：本型号包含摄像、多麦克风和手机协同，高通的相机眼镜平台与这类任务组合相关，可作为重设计候选。现有产品来源未明确点名采用，仍需核对代次、热预算、传感器调校及 Meta 服务接口；不能把其他代产品的公开关系直接迁移过来。
+
+- [infineon](../supply-chain/infineon.md) — **能力候选 · 非已采用** / 多麦克风声音输入前端：本型号需要多通道声音输入，英飞凌 MEMS 麦克风的匹配与小型化能力可进入前端候选比较。实际声孔、风噪、回声和接口需在镜架中验证，当前没有其供货点名证据；器件指标也不能直接证明本型号的通话或助手识别表现。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

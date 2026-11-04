@@ -56,33 +56,187 @@ X-Processor 5提供基于深度学习的主体识别自动对焦，识别人和�
 
 需求假设：希望随身拍照的人可能偏好较小的可换镜头机身，同时让主体跟踪降低操作负担。应观察它是否真的被带出门，以及用户更在意色彩风格还是识别功能，避免把多种动机混为一谈。
 
+### 需求假设：随身摄影与轻量视频并存 · 研究判断
+
+X-M5的紧凑机身、可换镜头和主体识别适合讨论日常摄影与个人视频之间的切换需求。购买触发可能来自手机的操控限制，也可能是对特定色彩表达的偏好，二者不能都归因于AI；应让用户说明最近一次真正想换设备的任务。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 价值判断：携带意愿决定技术收益 · 研究判断
+
+如果相机因为镜头体积或准备步骤经常留在家里，主体检测能力就难以形成持续价值。X-M5的判断重点应是整套机身与常用镜头能否融入用户日常，而不是裸机足够小；拍摄频率与最终保留的内容比功能数量更有解释力。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 验证方案：记录真实的随身使用 · 待验证
+
+让用户带着自己的常用包和选定镜头完成日常出行，记录何时主动拍摄、何时仍拿出手机，以及素材何时被整理或分享。访谈应追问没有使用相机的原因，避免只根据一次安排好的试拍和漂亮样片判断需求成立。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
 ## 用户画像
 
 画像推断：喜欢日常摄影、色彩风格与轻量视频，并愿意使用屏幕取景的个人创作者较匹配。小机身搭配大镜头可能失去体积优势，握持和操作也需要结合实际镜头而不是只看裸机。
+
+### 画像假设：有明确表达偏好的创作者 · 研究判断
+
+潜在用户包括希望获得可控色彩与镜头选择、同时在意随身负担的个人摄影者。是否专业并不是唯一分界，更重要的是已有拍摄频率、愿意整理素材及接受镜头管理；仅被外形吸引的人，可能与持续创作用户有不同留存路径。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 使用边界：屏幕取景和小机身操作 · 研究判断
+
+X-M5的平顶小机身与侧翻屏带来特定操作方式，使用者需要确认自己是否习惯屏幕取景、较小握持区域以及单手调节。不同镜头会改变重心，因此画像不能只写成喜欢轻量的人，还要具体到题材、拍摄姿势和常用镜头组合。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 访谈重点：区分色彩、体积和识别动机 · 待验证
+
+要求受访者排序最近三次拍摄中最重要的因素，并展示实际作品，追问主体跟踪是否曾改变操作。这样能区分因色彩风格、外形或AI对焦而感兴趣的人，避免把社交讨论中的共同标签误当成同一种购买需求。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
 
 ## 竞争与替代
 
 竞争判断：紧凑无反、固定镜头相机与高端手机都争夺随身记录场景，AI对焦已广泛出现。Fujifilm色彩和机身语言可能影响选择，但热度与缺货讨论不能直接转化为可持续市场需求。
 
+### 替代方案：多种随身记录路径 · 研究判断
+
+X-M5面对手机、固定镜头相机和其他紧凑无反的替代，每种方案都在携带、镜头自由和分享流程上有不同取舍。比较应包含用户已经拥有的镜头与编辑工具，不应只按新机价格或算法检测对象数量来排列优劣。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 差异判断：色彩与AI属于不同价值 · 研究判断
+
+官方将胶片模拟与深度学习主体检测分别介绍，前者影响视觉风格，后者减轻目标选择与对焦负担。两者可能共同吸引用户，也可能只有其中一项被持续使用；不能将所有喜好都归为AI优势，或用品牌热度替代功能价值验证。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 比较方法：同题材和同交付流程 · 待验证
+
+让不同方案完成同样的街拍、家庭活动和短视频任务，记录操作中断、失焦和后期处理时间，并在匿名样片比较后追问选择原因。这样可以把色彩偏好与拍摄成功率分开，避免用一次盲测或单一模型分数预测市场表现。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
 ## 供应链
 
 供应链推断：小机身内的卡口、传感器、屏幕转轴和处理系统需要兼顾空间与散热，镜头生态影响总成本。官方未披露具体工厂及完整物料表，不根据相机外观或地域品牌猜测代工安排。
+
+### 功能拆分：机身系统与镜头生态 · 研究判断
+
+X-M5的公开能力由镜头接口、图像传感与处理、主体检测、显示操作和录制存储等环节共同形成。可换镜头让部分体验取决于外部镜头，不能把机身概念图当作完整系统拆解，更不能由处理器名称推断全部零件供应商。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 制造判断：小型结构仍需系统验证 · 研究判断
+
+平顶机身、拨盘、卡口和翻转屏需要在有限空间中协调机械强度与操作，常用镜头又会改变载荷。供应评估应考虑转轴、安装公差和售后拆装，而不是只估算电子元件成本；本轮没有获得该型号工厂、良率或采购合同信息。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 候选选型：结构与电源优先询问 · 研究判断
+
+瑞声的精密结构和转轴能力可以作为机身交互部分的候选，欣旺达消费电池业务可用于电源方案讨论。二者都需要按相机的具体载荷、空间和保护接口确认，公开业务不证明已有合作，也不能将一般消费电子经验直接套用为原机BOM。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
 
 ## 技术路径
 
 官方明确主体检测采用深度学习，并将胶片模拟另列为色彩功能。技术判断应分别测试移动主体和风格输出，不能把审美预设称作生成模型，也不将检测类别丰富等同所有场景都可靠。
 
+### 已披露能力：深度学习主体检测 · 官方资料
+
+Fujifilm说明X-M5的处理系统支持基于深度学习的主体识别与跟踪，并将多类检测对象列在功能页。胶片模拟则属于独立的色彩表现路线；分析时应保持两者边界，不把预设色彩风格描述成生成模型，也不把所有自动操作称作AI。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 技术判断：目标检测与成片之间有距离 · 研究判断
+
+检测到主体后仍需对焦执行、曝光和用户构图共同配合，最终画面才可能符合预期。复杂背景、主体交叉或镜头变化可能影响表现，因此不能只以检测框出现判断成功，也不能从可识别类别的广度推断每一类场景都可靠。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 验证方案：覆盖移动与低对比情况 · 待验证
+
+使用固定镜头组合测试目标快速进入画面、被遮挡后重新出现以及背景相近等情况，记录自动选择和人工接管的代价。保留完整拍摄序列而非精选照片，再与用户想拍的主体核对，才能判断AI是否减少了实际操作负担。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
 ## 产品审美
 
 审美判断：简洁机顶拨盘和小型轮廓延续传统相机语言，黑银配色提供风格选择但属于同一产品。按键尺寸、翻屏位置和单手握持比宣传照片更影响使用，需要真实拍摄过程来判断。
+
+### 外形判断：传统相机语言与轻量轮廓 · 研究判断
+
+X-M5用平顶机身、拨盘和紧凑轮廓表达传统相机的操作感，黑银配色只是同一产品的外观选择。审美分析应连接到用户是否愿意携带和使用，而不是把复古或精致当作客观优势，更不能由外形偏好推断拍摄需求强度。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 交互判断：拨盘和翻屏需要身体配合 · 研究判断
+
+拨盘尺寸、侧翻屏位置和握持区域会影响从拍照到自拍视频的切换，也可能被镜头和附件改变。应观察用户能否快速找到所需控制、是否需要改变握持，而不是只评价机身正面是否整洁；外观简洁不代表操作步骤一定少。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 体验验证：以自己的镜头和包为条件 · 待验证
+
+让参与者装上真实常用镜头并连续拍摄，记录屏幕转向、单手持握和收纳时的动作。随后讨论哪些外观细节促进了使用、哪些只是初次吸引，避免在不带镜头的静物展示中得出轻量机身适合所有人的结论。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
 
 ## 关键风险
 
 风险判断：主体识别可能在复杂场景中误选，镜头、稳定方式和长录制条件也影响成片。不同地区库存页面可能不同，实际购买应确认版本、交期和保修，不能用旧搜索摘要代替当前下单证据。
 
+### 功能风险：识别失误仍需要人工选择 · 研究判断
+
+深度学习主体检测可能在复杂场景选择错误目标，用户也可能希望对焦在系统不优先关注的位置。试用应确认人工接管方式和模式限制，不能把类别丰富理解为零失焦保证；本轮没有测量该型号的实际识别准确率。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 采购风险：库存与套装信息要对应 · 研究判断
+
+原目录采用英国官方eShop的当前在售证据，页面历史URL含旧名称但实际型号明确为X-M5。购买时仍需确认颜色、机身或镜头组合及保修地区，不能用别处搜索摘要的低价或库存替代当前所选配置的真实结算条件。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>)
+
+### 验证安排：保存原片和失败原因 · 待验证
+
+在长期试用中记录未携带、拍摄失败和没有分享的素材，并区分是镜头限制、操作习惯还是算法表现所致。重要内容保留原始文件与设置记录，不仅留下AI辅助后的成功样片；这些记录才能支持下一轮产品或服务改进。
+
+依据：[FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
 ## 机会与验证
 
 市场观察：可分别访谈因色彩、体积和对焦而购买的人，记录四周后的真实携带及拍摄任务。将风格偏好与AI节省的操作步骤拆开验证，不用社交讨论量或审美评分预测产品成功。
+
+### 研究方向：让小相机更容易融入生活 · 研究判断
+
+X-M5值得研究的是外形、镜头自由和自动识别如何共同降低随身创作负担。机会不必是再造同类硬件，也可能存在于镜头选择、收纳、素材迁移和使用引导；应从用户反复遇到的阻力出发，而不是从热门功能倒推需求。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 执行计划：按动机进行纵向观察 · 待验证
+
+分别招募重视色彩、体积和对焦的用户，在数周内记录实际题材和操作，并追问最近一次省时或放弃使用的原因。用行为变化验证各项能力是否产生持续价值，避免把开箱满意、品牌偏好和真实创作收益混合为一个指标。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+### 决策边界：不以审美或模型评分押注 · 研究判断
+
+只有当具体人群持续使用、替代路径有明确不足且愿意承担整套设备成本时，才值得深入验证商业方案。候选供应商与技术可行性不能预测销量，本轮也没有访谈、市场份额或付费实验数据，所有机会判断仍是案头假设。
+
+依据：[X-M5英国官方eShop](<https://eshop.fujifilm-x.com/uk/catalog/product/view/_ignore_category/1/id/3158/s/fujifilm-x-t3-body-1>) · [FUJIFILM X-M5官方技术](<https://www.fujifilm-x.com/en-us/products/cameras/x-m5/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [aac-technologies](../supply-chain/aac-technologies.md) — **能力候选 · 非已采用** / 小型机身结构与侧翻屏转轴候选：瑞声公开结构件、转轴与空间协同设计能力，与X-M5的紧凑机身和侧翻显示存在功能对应；但相机卡口载荷、屏幕寿命和外观材料要求需按项目重新确认，不能将手机结构经验直接等同原机制造，更没有公开点名供货证据。
+
+- [sunwoda](../supply-chain/sunwoda.md) — **能力候选 · 非已采用** / 便携影像电源方案候选：欣旺达的消费电池产品线可作为X-M5这类便携影像终端的电源工程候选，需以正式电池规格、保护接口和拍摄负载确认尺寸及兼容性。此链接不表示可直接替换专用电池，也不证明其为Fujifilm该型号供应电芯或电池包。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

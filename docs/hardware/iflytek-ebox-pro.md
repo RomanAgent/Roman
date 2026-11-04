@@ -58,33 +58,187 @@
 
 需求假设：家庭希望用专门设备完成英语听说练习，避免每次都借用手机或打开大平板。研究应区分听力素材播放、跟读练习和自由问答的使用频率，不能仅因新增对话就推断学习有效。
 
+### 任务与触发场景 · 研究判断
+
+英语宝的核心任务应从听力播放、跟读和口语练习出发：孩子在固定时段能否不用借家长手机就开始练习，并在遇到问题时获得可理解的反馈。官方新增答疑与对话只是能力扩展，不等于每次自由聊天都有学习价值。研究首先应记录家庭原先的练习流程，以及被设备减少的查找和切换动作。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 流程中的收益与代价 · 研究判断
+
+专用设备可能减少通用手机里的消息干扰，但也要求家庭维护另一台设备、选择内容并检查回答。若每天实际使用的只是播放已有音频，普通播放器或家长手机也可能完成任务；如果发音反馈和追问能连接到练习目标，额外硬件才可能获得更明确的理由。不能把使用时长直接视为学习收益。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 需求如何验证 · 待验证
+
+建议以同一段听力和同一组口语任务比较英语宝、手机应用与原有学习方法，观察孩子能否独立启动、理解反馈并在下一次练习改进。另记录家长准备内容、处理网络和纠正回答的时间。当前没有开展家庭实验，不能凭官方功能图推断提分效果、练习留存或真实付费意愿。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
 ## 用户画像
 
 用户画像推断：有固定英语练习任务、希望设备便携且家长愿意选内容的学生家庭较匹配。对成人商务翻译或全科长时间课堂学习的需求，这种小型听说设备未必是同等合适的选择。
+
+### 优先使用者 · 研究判断
+
+优先研究有明确英语听说任务、已经形成一定练习节奏的学生家庭。孩子是否愿意开口、能否理解评分或解释、是否需要家长陪同，比单纯年龄段更能区分使用方式。小型设备的价值可能在于容易拿起和快速继续，而不一定在于提供比大屏学习机更多的功能。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 购买者与使用者 · 研究判断
+
+家长可能负责购买、内容筛选和使用管理，孩子才是日常操作与接受反馈的人。两者评价可能不同：家长重视学习目标，孩子重视是否容易听懂、回答是否有趣和能否快速完成任务。需要分别访谈，不以家长对AI的期待代替孩子的使用记录，也不把愿意购买等同长期主动练习。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 不适配与分层验证 · 待验证
+
+主要需要全科视频课程、复杂图形题或成人商务沟通的人，未必适合这类英语听说终端。建议先按任务强度、已有工具和家长参与程度分层，再选择试用者。对不愿再次使用的家庭，应保留具体原因，例如反馈不易理解、内容不匹配或维护麻烦，不能简单归因于学习积极性。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
 
 ## 竞争与替代
 
 竞争判断：英语听力机、词典笔、手机口语应用和学习机都能覆盖部分需求，竞争已较密集。EBOX的比较重点应是听说流程是否连续、素材是否适配，以及额外AI功能会否分散主要任务。
 
+### 直接与间接替代 · 研究判断
+
+直接替代包括传统英语听力设备、口语应用和同类便携学习终端，间接替代还包括词典笔、大屏学习机和家长陪读。它们覆盖的输入方式与内容范围不同，应先固定一个听说任务再比较。不能仅因英语宝加入生成问答，就把所有教育设备视为失去价值的旧方案。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 具体差异与条件 · 研究判断
+
+该产品的可检验差异是便携设备中的听力、口语反馈与答疑能否自然衔接。如果孩子每次仍需把问题转移到手机或大屏，专用硬件并未减少主要步骤；如果自由对话分散原先练习目标，也可能带来相反效果。模型品牌和功能数量都不足以直接证明优于已有应用。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 同条件比较方法 · 待验证
+
+比较时建议使用一致材料、网络和账号权限，分别记录识别失败、反馈理解、操作次数和完成时间。还应比较内容更新、家长管理与退换支持，而非只比容量或标价。当前没有同条件竞品实验、销售数据或市场份额，因此只能把竞争判断作为进一步研究的假设。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
 ## 供应链
 
 供应链推断：屏幕、扬声器、输入部件和便携外壳需支持频繁儿童使用，内容维护也是交付成本。官方未披露制造工厂；容量和颜色SKU以及小程序渠道需要一致的权益与售后说明。
+
+### 功能与交付拆分 · 研究判断
+
+公开外观与功能支持把系统拆为便携机身、屏幕交互、声音输入输出、供电和内容服务等层，但没有披露完整芯片或代工厂。供应链研究不能止于电子料件，词汇素材、口语反馈、问答服务与账号权益同样影响交付。各层应明确由品牌、算法方还是制造服务方维护。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 制造与服务约束 · 研究判断
+
+儿童频繁拿取和播放的使用方式，使按键、接口、扬声器开孔与外壳耐受成为样机验证重点。与此同时，识别和回答质量还取决于音频链路、网络及服务配置，不能通过更换单个扬声器解决全部问题。容量和颜色可以产生不同SKU，但不应使内容权益与售后描述含糊。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 候选公司与导入 · 研究判断
+
+候选公司可分别从带屏消费终端工程与声学集成能力寻找，用于重新开发时询问尺寸、声音表现、功耗与装配测试。下方链接不表示英语宝已经使用这些公司的零件。应先带真实学习场景和结构样机询问，再取得具体方案、费用、最小批量及版本责任的书面答复。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
 
 ## 技术路径
 
 已查看官方说明图，新增能力包括答疑、百科问答和对话，但未公布完整模型部署。推断应分别核验发音反馈、听力内容及生成回答的准确性，不能把营销中的“秒懂”作为实测结论。
 
+### 已知功能与处理链路 · 研究判断
+
+官方功能图展示听说、答疑、百科问答与对话，完整模型和端云分工并未公开。理解产品时可以把声音输入、识别、内容检索或生成、反馈和输出拆开分析，但不能声称这些步骤全部在机内执行。页面上流畅的回答演示也不代表每种口音或题目都能被同样处理。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 主要技术约束 · 研究判断
+
+技术评估应区分发音反馈是否一致、素材是否与学习目标匹配、生成回答是否正确，以及网络变化后哪些能力仍然保留。若同一句话在相近条件下反馈差异很大，用户可能难以理解应该怎样改进；若回答过长，也可能超过小屏和儿童注意方式所能承受的范围。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 系统验证方法 · 待验证
+
+建议建立一组固定听说任务和常见错误输入，保留声音环境、软件版本、联网状态与输出记录，分别核对识别、解释和操作反馈。测试中要允许孩子追问，并记录是否真正解决疑惑。尚未进行这些实验，因此不把快速回应、双向对话或角色动画当作算法质量证明。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
 ## 产品审美
 
 审美判断：橙色机身和便携屏幕更接近学习播放器，降低大平板的存在感，角色动画则强化儿童兴趣。色彩与图标密度可能影响不同年龄接受度，不能把活泼外观直接当作学习动力。
+
+### 形态与使用环境 · 研究判断
+
+橙色便携机身与小屏让英语宝更接近随手使用的学习播放器，弱化大平板占据书桌的感觉。这样的形态可能帮助家庭建立专用练习入口，但是否受到不同阶段孩子接受，需要实际观察。外观活泼只是设计表达，不能直接推断它能增加学习动力或改善情绪。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 交互与身体体验 · 研究判断
+
+应检查孩子拿起设备后能否一眼找到播放、录音、重复和返回，以及错误反馈是否有清晰下一步。角色、图标和文字过密可能抢占本来用于听说的注意力；过少反馈又可能让用户不知道录音是否成功。音量、按钮触感和屏幕可读性都应放进交互评估，而非只评价配色。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 长期维护与设计验证 · 待验证
+
+长期体验还包括接口是否容易找到、充电与收纳是否自然、外壳和声音开孔是否容易清洁，以及孩子能否自主恢复到上次任务。建议连续观察多次练习开始和结束，记录家长介入位置。当前没有材料、跌落或耐久实测，不能由产品照片推定机身寿命和清洁表现。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
 
 ## 关键风险
 
 风险判断：官方目录可购买不代表所有容量和地区立即有货，最终由小程序确认。生成答疑可能出现错误，情绪化对话也不应替代家长沟通；本目录不承诺提分或心理改善效果。
 
+### 主要失败情形 · 研究判断
+
+最需要关注的失败不是设备不会回答，而是回答看似完整却没有被理解，或把不准确的解释当成确定答案。口语反馈也可能受噪声与发音方式影响，不能直接等同语言能力评价。研究应观察孩子遇到不一致反馈时如何处理，以及家长是否能够发现并纠正明显错误。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 购买与持续服务 · 研究判断
+
+本轮官方商城提供商品陈列、标价与小程序购买入口，但没有登录核验每种配置即时库存；详情未载入时出现的模板价格也不能当作售价。购买评估还需要核对材料、联网权益、账户、更新和售后，不能把一项硬件价格视为未来所有内容与服务都包含在内。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 风险验证及停止条件 · 待验证
+
+试用前可设定明确停止条件，例如核心练习必须反复借助手机、孩子无法理解反馈、家长纠错负担显著增加，或常用内容与学习目标长期错配。保存这些失败实例与成功任务一起复盘。这里没有实际提分或心理效果数据，任何进一步效果结论都需要独立研究支持。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
 ## 机会与验证
 
 市场观察：此条补充了大屏学习机之外的专用听说设备。比较时应同时列出基础素材、口语反馈、生成问答及联网权益，避免把单科工具与全科平板仅按价格放在同一排名中。
+
+### 可检验的差异 · 研究判断
+
+可探索的差异是把特定英语练习做得更连贯，例如从听一句、跟读、理解反馈到再次尝试能否在短流程内完成。与其把终端扩成泛用聊天工具，不如检验哪些辅助问答真正帮助当前任务。专用硬件是否必要，仍取决于它是否减少准备、干扰和成人协助。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 实现与商业约束 · 研究判断
+
+商业约束包括内容持续更新、服务可用性、家庭管理和售后支持，不能只依赖一次硬件交付。若主要购买理由是某一套学习内容，品牌需要证明该内容的持续适配；若理由是便携交互，就需要与已有手机方案比较。当前没有成本与付费留存数据，不计算市场规模或利润率。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+### 下一阶段验证 · 待验证
+
+下一阶段可以选定一种明确练习任务，招募已有稳定学习流程的家庭短期对照，记录实际使用、主动重试、反馈理解和家长时间。只在发现手机流程无法合理解决的摩擦后再考虑新硬件设计。未支持原假设的结果也要进入档案，而不是只挑愿意继续使用的家庭。
+
+依据：[讯飞官方商城目录](<https://www.xunfei.cn/>) · [EBOX Pro官方商品页](<https://www.xunfei.cn/goods?goodsId=2345>) · [EBOX Pro官方功能图：答疑](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro02.jpg>) · [EBOX Pro官方功能图：问答与对话](<https://img.xunfei.cn/mall/iflytek-mall/detalls/2026-10-13/Pro03.jpg>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [huaqin](../supply-chain/huaqin.md) — **能力候选 · 非已采用** / 带屏便携学习终端工程候选：华勤公开提供智能终端研发与制造，可用于重新开发便携学习设备时询问系统整合。尺寸、儿童交互、声学和内容服务仍需单独设计；本目录没有英语宝由华勤制造的点名证据，不能把能力匹配当成已采用关系。
+
+- [goertek](../supply-chain/goertek.md) — **能力候选 · 非已采用** / 声音输入输出与小型机身集成候选：听说任务依赖声音采集与输出，歌尔公开声学及智能整机能力可作为重新选型入口。需要按实际外壳、播放音量和拾音环境验证，不能只比较器件规格；当前没有证据确认它为EBOX Pro供货。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

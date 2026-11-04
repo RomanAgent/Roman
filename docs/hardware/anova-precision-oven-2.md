@@ -1,6 +1,6 @@
 # Anova Precision Oven 2.0
 
-**Anova** · 厨房与烹饪 · 核查 2026-11-04
+**Anova** · 厨房与食物管理 · 核查 2026-11-04
 
 带食物识别和食谱转换的台面蒸烤箱
 
@@ -56,33 +56,187 @@ Anova Precision Oven 2.0 官方外观、结构或使用参考 · 来源：[Anova
 
 需求假设：家庭烘焙或备餐用户希望减少不同烤箱、蒸汽和配方参数间的试错。应比较识别后需要人工纠正多少次、最终熟度是否一致，而不是把预置菜单数量当作智能水平。
 
+### 产品任务与边界 · 研究判断
+
+Anova Precision Oven 2.0 以相机识别和智能引导连接蒸汽、加热与配方转换，任务是减少家庭烘焙和备餐的参数试错。需求应看用户是否少改设置且结果更可重复，不能把菜单或模型能力数量直接当作烹饪质量。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 需求判断 · 研究判断
+
+对已经关心蒸汽和熟度的人，智能引导可能降低学习成本；只想快速复热的人未必需要相机。完整劳动还包括备料、装盘、清洁和水路保养，因此应比较整个做饭周期，而不是仅看烤箱自动运行期间无需调节。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 需求验证 · 待验证
+
+可选家庭经常重复的面包、烤肉和复热任务，记录识别纠正、参数修改和最终结果的一致性，再计入清洁时间。比较手动蒸烤与智能引导，确认 AI 减少了哪种具体试错，不以一次成功成品证明普遍效果。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
 ## 用户画像
 
 画像推断：有较大台面、愿学习蒸汽烹饪且在意重复结果的家庭烹饪爱好者，可能已使用低温慢煮设备。只需快速加热的用户未必愿意为相机和配方转换付费，应按任务而非收入细分。
+
+### 适用行为与条件 · 研究判断
+
+较匹配有足够台面、愿意学习蒸汽烹饪并追求重复结果的家庭爱好者，可能已有低温烹饪经验。用户需要接受较大设备与水箱维护，不能只按收入或喜欢新家电来推定愿意长期使用这些能力。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 人群取舍 · 研究判断
+
+烘焙者、备餐者与只做简单加热的人关注不同任务，食谱转换也要求用户理解原配方和设备边界。画像应包含日常菜式、清洁习惯和厨房空间，而不是把所有不想做饭的人都当作智能烤箱目标用户。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 画像验证 · 待验证
+
+画像验证应让用户用自己常做的食谱完成一周烹饪，记录哪些任务主动选择智能引导、哪些仍手动设置。再观察水箱和腔体维护是否可接受，识别真正从稳定热湿控制与配方辅助获益的人群。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
 
 ## 竞争与替代
 
 竞争判断：与普通蒸烤箱、嵌入式智能烤箱和其他视觉烹饪设备竞争。开放食谱转换是差异，但空间、清洁和食物识别范围同样限制价值，不能从AI名称推定比熟练手动设置更好。
 
+### 比较对象与差异 · 研究判断
+
+该产品与普通蒸烤箱、嵌入式设备和其他视觉烹饪家电竞争，食物识别及配方转换是软件差异。比较应包括空间、清洁和熟练手动操作，不能仅因有 AI 就认定对已有经验的用户更好或值得替换现有烤箱。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 竞争判断 · 研究判断
+
+蒸汽和温控的基础可靠性可能比生成引导更影响结果，如果相机经常需要纠正，软件优势会减弱。竞争壁垒需要把识别、用户确认与可重复执行连接起来，不能只将通用模型加到成熟炉体就假定形成新需求。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 竞争验证 · 待验证
+
+可使用同一配方和食材比较智能识别、手动蒸烤和普通烤箱的设置与结果，保留厚度、份量及初始条件。将台面占用与保养计入比较，避免只看一张成品照片或预置菜单数量而忽略日常使用负担。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
 ## 供应链
 
 供应链分析：加热元件、蒸汽水路、温度湿度反馈、相机和门体密封共同决定结果，工厂及BOM未披露。水垢、镜头蒸汽、热循环和售后更换件是关键可靠性问题，不仅是计算模块成本。
+
+### 功能模块拆分 · 研究判断
+
+功能层包括内置相机、食物识别与配方引导、加热和蒸汽、水路与腔体状态、屏幕及应用。蒸汽温控不是独立 AI 证据，公开资料没有详细工厂和物料清单，功能架构不能用于推定具体探头、芯片或密封布局。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 制造与供应约束 · 研究判断
+
+制造约束是热循环、蒸汽、相机窗口、门体密封和水路共同保持稳定，水垢与油污可能影响长期状态。售后更换件和清洁可达性需要与电子设计一起考虑，不能仅以计算模块或模型调用成本判断整机经济性。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 候选与证据缺口 · 研究判断
+
+金宝可作为家电电子与结构制造候选，SGS 可支持材料、电气及环境测试范围评审。没有 Anova 2.0 点名合作证据，热湿控制与食物识别需要专项验证，检测机构能力不能证明任意生成食谱安全或烹饪效果。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
 
 ## 技术路径
 
 官方说明食物识别和Anova Intelligence引导。技术判断：相同外形可能对应不同厚度与初温，视觉识别只能提供起点；配方转换应让用户复核，不能把模型输出直接当作食物安全保证。
 
+### 已披露技术边界 · 研究判断
+
+官方说明相机识别及 Anova Intelligence 引导，基础手动烹饪和联网配方能力应分开理解。相同外形可能对应不同厚度、份量和初温，视觉只能提供部分信息，不能把识别标签当成准确熟度或食品安全判断。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 系统难点判断 · 研究判断
+
+系统难点是将配方文字转换为设备可执行的热湿步骤，同时让用户确认真实食材条件。相机受蒸汽与污渍影响也可能降低信息质量，因此需要可解释的参数与纠错，而不是把流畅建议直接当成可靠物理控制。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 技术验证 · 待验证
+
+验证应比较不同份量、厚度及相机窗口状态下的识别与执行，记录用户改参数和失败恢复。对联网及手动模式分别测试，不能从一次自动识别或漂亮成品推断所有食谱都能转换，也不能以模型输出代替用户结果确认。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
 ## 产品审美
 
 审美判断：黑色玻璃门和简洁面板适合现代厨房，但大体积和水箱位置会影响台面布局。开门空间、蒸汽排出、擦洗便利和关机状态的视觉安静，应与展示屏一起评估。
+
+### 外观与交互语言 · 研究判断
+
+黑色玻璃门和简洁面板适合现代厨房，但大体积、水箱和开门空间决定能否长期留在台面。审美应包括蒸汽排出、擦洗和关机状态，而不是只评价亮屏界面，日常清洁后的观感同样影响接受。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 使用中审美判断 · 研究判断
+
+用户在油污和湿手环境中操作，需要清楚热区、状态与可拿取部位，过度简化可能增加理解成本。水箱和门体若为了整洁隐藏入口，会让维护困难，设计应把操作与外观结合，而非只强调镜面和科技感。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 设计验证 · 待验证
+
+设计验证应观察装盘、开门、补水和擦洗，记录台面空间与蒸汽方向是否影响其他厨房活动。还要比较用户在手动和智能流程中能否理解当前阶段，避免外观精致让人忽略真实维护及安全操作要求。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
 
 ## 关键风险
 
 风险判断：摄像头和联网服务增加维护与隐私边界，食谱转换错误可能造成食材浪费。应确认地区电压、软件服务条件与维修支持，蒸汽清洁和水路保养也不会因AI功能而消失。
 
+### 主要失效与依赖 · 研究判断
+
+风险包括生成配方错误、联网与地区电压支持、相机和水路维护，以及食材浪费。AI 引导不能提供任意食物熟透的保证，用户仍需按实际情况确认结果，软件功能也不会取消蒸汽清洁和保养。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 风险传播判断 · 研究判断
+
+如果设备把识别和建议表达得过于确定，用户可能忽略份量或初温差异，导致结果不符预期。服务中断还可能影响习惯的配方流程，产品应清楚区分仍可用的基础烹饪与依赖网络的智能辅助，避免统一包装造成误解。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 风险验证 · 待验证
+
+风险验证应演练识别错误、网络中断和配方修改后的流程，检查用户能否复核并转为手动。还需核对地区维修及维护件，不把基础电气测试、厂商描述或模型名称当作食品结果与所有使用情境的保障。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
 ## 机会与验证
 
 机会假设：用家庭常做的面包、烤肉和复热任务验证识别是否降低操作负担，记录改参数和失败次数。若价值来自稳定蒸汽与温控，可优先提升基础可靠性，而非不断增加聊天式功能。
+
+### 可能的机会入口 · 研究判断
+
+机会在于稳定蒸汽与温控结合清楚配方引导，帮助用户完成少量高频任务，而不必增加聊天式功能。新项目可先研究重复烹饪的失败原因，确认问题来自参数选择还是基础热工，再选择软件或硬件投入。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 机会成立条件 · 研究判断
+
+机会成立需要减少操作与失败且维护可接受，如果用户主要依赖手动经验，开放食谱转换可能只是偶尔使用。对简单复热家庭，更轻量设备可能足够，应按任务细分，不把多功能台式烤箱默认推荐给所有厨房。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+### 下一步验证 · 待验证
+
+下一步可用一周常做菜式记录修改、失败、清洁和复做意愿，比较有无智能引导，再针对最常见错误改进。用可重复的结果与劳动判断价值，避免由相机、蒸汽或 AI 食谱数量直接预测市场空间。
+
+依据：[Anova Precision Oven 2.0 官方购买页](<https://anovaculinary.com/products/anova-precision-oven>) · [Anova Oven 2.0 官方AI说明](<https://anovaculinary.com/pages/anova-precision-oven>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [new-kinpo-group](../supply-chain/new-kinpo-group.md) — **能力候选 · 非已采用** / 蒸烤家电控制与结构制造评估：金宝公开家电、PCBA及模塑能力可对应控制电子和结构制造，但蒸汽、热循环及相机整合需专项确认；没有 Anova 2.0 点名供货证据，候选不能解释为实际代工关系。
+
+- [sgs](../supply-chain/sgs.md) — **能力候选 · 非已采用** / 蒸烤设备电气材料与环境测试：SGS 的电气、材料和环境测试可用于评估炉体及部件的具体要求，但需确认实验室和方法；未见 Anova 型号合作披露，检测不能证明生成配方或食物识别的实际烹饪效果。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

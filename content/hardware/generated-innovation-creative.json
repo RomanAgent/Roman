@@ -1,0 +1,112 @@
+[
+  {
+    "id": "hypershell-x-pro-s",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/hypershell-x-pro-s/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Hypershell X Pro S 功能模块概念爆炸示意，未知内部为抽象体块，不代表真实拆机或物料布局。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/hypershell-x-pro-s.txt",
+        "referencePaths": [
+          "assets/hardware/hypershell-x-pro-s/product.png",
+          "assets/hardware/hypershell-x-pro-s/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。"
+    ]
+  },
+  {
+    "id": "nex-playground",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/nex-playground/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Nex Playground 功能模块概念爆炸示意，未知内部为抽象体块，不代表真实拆机或物料布局。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/nex-playground.txt",
+        "referencePaths": [
+          "assets/hardware/nex-playground/product.jpg",
+          "assets/hardware/nex-playground/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。"
+    ]
+  },
+  {
+    "id": "dnsys-z1-dual-joint",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dnsys-z1-dual-joint/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "DNSYS Z1 Dual Joint 功能模块概念爆炸示意，未知内部为抽象体块，不代表真实拆机或物料布局。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/dnsys-z1-dual-joint.txt",
+        "referencePaths": [
+          "assets/hardware/dnsys-z1-dual-joint/product.png",
+          "assets/hardware/dnsys-z1-dual-joint/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。"
+    ]
+  },
+  {
+    "id": "zwo-seestar-s30-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/zwo-seestar-s30-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "ZWO Seestar S30 Pro 功能模块概念爆炸示意，未知内部为抽象体块，不代表真实拆机或物料布局。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/zwo-seestar-s30-pro.txt",
+        "referencePaths": [
+          "assets/hardware/zwo-seestar-s30-pro/product.jpg",
+          "assets/hardware/zwo-seestar-s30-pro/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。"
+    ]
+  },
+  {
+    "id": "arccos-air",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/arccos-air/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Arccos Air 功能模块概念爆炸示意，未知内部为抽象体块，不代表真实拆机或物料布局。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/arccos-air.txt",
+        "referencePaths": [
+          "assets/hardware/arccos-air/reference-case.jpg",
+          "assets/hardware/arccos-air/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。"
+    ]
+  }
+]

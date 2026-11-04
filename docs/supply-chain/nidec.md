@@ -1,0 +1,159 @@
+# Nidec 尼得科
+
+Nidec覆盖小型精密到大型电机及相关组件，本轮重点核查相机平移俯仰与低噪齿轮电机等可对应消费运动机构的能力。集团目录明确产品承办公司，因此不能把集团总能力理解为同一团队或工厂交付；同时保留其官方披露的质量与变更管理整改背景，具体项目仍需审核当前料号、制造与验证资料。
+
+核查 2026-11-04 · 日本 · 综合与跨地区供应商
+
+依据公开跨应用电机与集团产品组合分组，不采用未经核验的份额或排名；集团子公司不重复计数。
+
+[官网](<https://www.nidec.com/en/>) · [公开联系入口](<https://www.nidec.com/en/inquiry/request/motor/?ext_10=1&products_category_b=electronic-devices&products_category_m=lens-shutter>)
+
+公开地区：日本京都（公司公开所在地）、全球集团产品与制造网络（具体项目地点需确认）
+
+能力：小型精密电机、相机平移俯仰齿轮电机、低噪齿轮驱动、镜头与相关光机组件、按产品公司分工的工程支持
+
+## 公司定位与边界
+
+### 已披露定位：跨应用的电机集团 · 官方资料
+
+公司概要列出小型精密、家电、汽车和工业电机及相关电子光学业务，公开所在地为京都。目录以集团为一条记录，避免产品公司重复计数，同时不把大型动力或工业方案自动用于消费产品，必须沿实际承办公司和产品类别寻找对应。
+
+依据：[Nidec 官方公司概要](<https://www.nidec.com/en/corporate/about/outline/>)
+
+### 定位判断：广泛能力需要具体入口 · 研究判断
+
+Nidec的产品范围很广，优势不能只用什么都能转概括，早期团队需要明确低噪定位、连续旋转或其他动作任务。集团规模不是适配证明，若没有所需料号与负责窗口，丰富目录也可能增加沟通成本，研究应把需求缩小到可核模块。
+
+依据：[Nidec 官方公司概要](<https://www.nidec.com/en/corporate/about/outline/>) · [Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)
+
+## 产品与技术能力
+
+### 已披露能力：相机运动与齿轮组件 · 官方资料
+
+官方镜头相关目录实际列出低噪齿轮电机、相机平移俯仰用齿轮电机及其他光学组件，并标注承办公司。这里支持机械跟拍与定位机构候选研究，但不能从产品名称推断力矩、控制接口或价格，也不将车载镜头指标移植到桌面云台。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)
+
+### 能力边界：目录中的光学与驱动分开 · 研究判断
+
+同一目录包含电机与镜头单元，不代表它们已被集成成完整AI摄像系统。团队应区分机械运动、图像输入和算法控制，确认需要单一组件还是组合工程，不能把摄像机存在识别功能就归因于电机或镜头供应商。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)
+
+## 适用场景与匹配
+
+### 匹配判断：真实机械转动的摄像设备 · 研究判断
+
+带实体平移俯仰结构的摄像头或云台，可按运动要求将Nidec的相关组件列为候选，重点核查噪声、回差、负载与控制。关联不适用于纯数字裁切自动构图，也不能因为产品使用了跟踪算法就推断内部采用Nidec电机。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)
+
+### 不匹配边界：其他消费运动仍需另证 · 研究判断
+
+护理设备、清洁机器人和小型机械装置属于可能需要电机的方向，但本轮相机组件资料不能直接证明具体系列适用。若要关联这些产品，应再核对对应运动模块，不应以集团业务广泛为由给所有带电机设备添加同一个候选链接。
+
+依据：[Nidec 官方公司概要](<https://www.nidec.com/en/corporate/about/outline/>) · [Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)
+
+## 合作与导入流程
+
+### 已披露入口：开发、报价和规格分流 · 官方资料
+
+产品目录提供新产品开发、报价与规格确认入口，并在每一项标明负责产品公司，便于将问题发给合适业务。不同入口对应不同阶段，团队应先明确模块与参数，不能把集团总入口视为某一工厂的直接销售，也未在本轮提交任何请求。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>) · [Nidec 官方新产品询问入口](<https://www.nidec.com/en/inquiry/request/motor/?ext_10=1&products_category_b=electronic-devices&products_category_m=lens-shutter>)
+
+### 接洽建议：将执行机构要求具体化 · 研究判断
+
+对于云台或跟拍，应提供载荷、转动轨迹、安装空间、声音限制和反馈需求，并说明上层追踪如何产生指令。这样能讨论电机与减速的真实匹配，避免只要求支持AI跟拍；具体量产、软件和机械责任仍需由负责团队书面确认。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>) · [Nidec 官方新产品询问入口](<https://www.nidec.com/en/inquiry/request/motor/?ext_10=1&products_category_b=electronic-devices&products_category_m=lens-shutter>)
+
+## 质量与交付能力
+
+### 已披露背景：质量与变更管理整改 · 官方资料
+
+公司风险页披露二〇二六年开展质量调查，并涉及未经客户确认的材料、工艺或设计变更及检验数据问题，随后公布管理改进。目录保留这一供应审核背景，但不据此断言所有产品不合格，也不推断本站任何终端受到影响。
+
+依据：[Nidec 官方风险与质量整改披露](<https://www.nidec.com/en/ir/management/risk/>)
+
+### 质量验证：按实际料号索取变更记录 · 研究判断
+
+选择Nidec候选时应要求对应生产主体说明当前料号的验证、变更审批和可追溯资料，不能仅凭集团品牌省略审核。对云台还需在整机中测试低速与反向表现，整改声明和能力目录都不能替代客户项目的具体验收结果。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>) · [Nidec 官方风险与质量整改披露](<https://www.nidec.com/en/ir/management/risk/>)
+
+## 商业与成本结构
+
+### 商务边界：集团目录不提供统一条件 · 研究判断
+
+不同承办公司与产品类别的样品、数量、开发费用和交期可能不同，本轮没有取得针对本站项目的报价。不能因为集团规模大就推断低价或高门槛，也不将某一电机目录的联系入口视为所有集团产品可以合并采购的承诺。
+
+依据：[Nidec 官方公司概要](<https://www.nidec.com/en/corporate/about/outline/>) · [Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)
+
+### 商业判断：验证投入应纳入方案比较 · 研究判断
+
+选择运动组件时，报价之外还要计算调试、结构和供应审核成本，尤其需要确认变更和长期维护责任。现有公开整改背景说明不能省略这些环节，但是否影响某项目仍需具体证据，目录不据此作投资判断或预测公司的商业结果。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>) · [Nidec 官方风险与质量整改披露](<https://www.nidec.com/en/ir/management/risk/>)
+
+## 风险与替代路径
+
+### 证据风险：集团问题不可泛化到每个器件 · 研究判断
+
+官方披露了治理与质量方面的具体问题和整改，研究应按其范围描述，而不是用笼统可信或不可信替代事实。当前没有证据确认本站产品的器件或批次受影响，供应商候选仍需要按具体料号审核，不能将集团新闻直接写成终端故障。
+
+依据：[Nidec 官方风险与质量整改披露](<https://www.nidec.com/en/ir/management/risk/>)
+
+### 集成风险：低噪组件不保证安静整机 · 研究判断
+
+齿轮电机的声音和定位会受负载、安装与控制策略影响，产品名称中的低噪不能保证任何外壳都达到用户期望。机械跟拍还涉及感知与控制协同，单独更换电机不能解决所有失跟或抖动，必须在完整任务中区分问题来源。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)
+
+## 询价与验证清单
+
+### 核验计划：复现目标动作与声学环境 · 待验证
+
+将候选电机和减速组合装入实际支架，运行慢速跟随、反向、停止和长时间动作，记录画面、声音与温度。不要只测空载转速或力矩，用户真正感知的是末端取景与可接受噪声，测试应同时保留失败条件与控制参数。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)
+
+### 核验计划：核实质量整改与交付责任 · 待验证
+
+向具体产品公司确认拟购料号是否涉及已披露问题、当前验证状态以及客户批准变更的执行方式，再明确合同和备件条件。当前目录未进行供应审计或取得实际采用证据，关联仅为能力候选，不构成质量、合规或交期保证。
+
+依据：[Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>) · [Nidec 官方风险与质量整改披露](<https://www.nidec.com/en/ir/management/risk/>) · [Nidec 官方新产品询问入口](<https://www.nidec.com/en/inquiry/request/motor/?ext_10=1&products_category_b=electronic-devices&products_category_m=lens-shutter>)
+
+## 关联硬件产品
+
+> 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
+
+- [OxeFit XS1](../hardware/oxefit-xs1.md) — **能力候选 · 非已采用** / 数字负载执行机构工程候选：Nidec公开电机与控制相关业务，可作为XS1数字负载执行系统的工程候选，但原机具体结构、反馈与力矩要求未披露，必须由正式资料验证，不能以相机小型电机目录套用训练器。当前不构成实际采用或原机电机品牌判断。
+
+- [Peloton Tread+ Vision](../hardware/peloton-tread-plus-vision.md) — **能力候选 · 非已采用** / 连续跑带驱动电机工程候选：Nidec公开家电与多类电机工程，可作为Tread+跑带执行层的能力候选；必须确认连续负载、控制反馈、热和机械接口，不能以小型相机齿轮电机规格套用跑台。当前没有本型号点名采用证据，且需按具体料号审核质量与变更资料。
+
+- [PONGBOT Pace S Pro](../hardware/pongbot-pace-s-pro.md) — **能力候选 · 非已采用** / 滚轮发球旋转执行工程候选：Nidec公开多类型电机研发制造能力，可作为Pace S Pro滚轮发球执行层候选，但实际转速、持续负载、控制和热要求须专项确认，不能用相机云台电机规格套用。当前无本型号点名供货证据，具体料号还需审核质量与变更记录。
+
+- [Speediance Gym Monster 2](../hardware/speediance-gym-monster-2.md) — **能力候选 · 非已采用** / 数字阻力执行电机工程候选：Nidec公开多类电机和相关工程能力，可作为Gym Monster 2数字负载执行层候选，但需取得原任务的力矩、反馈、热与控制条件，不能用小型相机电机规格套用训练器。当前无实际采用证据，具体料号还需审核质量与变更管理。
+
+- [Tennibot Partner V2](../hardware/tennibot-partner-v2.md) — **能力候选 · 非已采用** / 发球滚轮及底盘执行工程候选：Nidec公开多类电机和相关工程能力，可用于讨论Partner V2发球与移动执行，但两个任务的速度、负载和控制不同，需要分别确认具体系列。当前不表示原机使用Nidec，候选还需按料号审核质量、变更与系统集成条件。
+
+- [Tennibot Partner Lite](../hardware/tennibot-partner-lite.md) — **能力候选 · 非已采用** / 固定球机发球执行工程候选：Nidec公开电机研发制造能力，可用于讨论Partner Lite发球机构，但具体转速、负载、热和控制需要另核，不能以通用小型电机目录直接替换。此匹配不含自动行走底盘，也无实际供货证据，拟用料号需审核质量及变更资料。
+
+- [Tennibot Rover](../hardware/tennibot-rover.md) — **能力候选 · 非已采用** / 自主拾球底盘运动工程候选：Nidec的电机与相关工程能力可用于讨论Rover底盘执行，但轮式负载、速度、地面和控制接口需要明确，不能根据相机齿轮电机目录推定适配。当前没有实际采用证据，具体料号还需审核变更与质量，不覆盖未披露拾取机构细节。
+
+- [Tonal 2](../hardware/tonal-2.md) — **能力候选 · 非已采用** / 数字阻力执行系统工程候选：Nidec公开多类型电机与相关工程，可作为Tonal 2负载执行层候选，但具体传动、力矩、反馈与热条件未披露，需要专项确认，不能用小型云台电机目录套用。当前无实际采用证据，拟选料号还需审核质量与变更管理。
+
+- [Philips Norelco i9000 Prestige Ultra](../hardware/philips-i9000-prestige-ultra.md) — **能力候选 · 非已采用** / 旋转剃须执行电机工程候选：Nidec公开小型精密与家电电机能力，可作为i9000 Ultra旋转执行的候选，但负载、振动、噪声、密封和控制须专项验证，不能以相机云台电机规格替代。当前没有Philips该型号采用证据，也不覆盖精密刀网制造或剃须效果。
+
+## 来源
+
+- [Nidec 官方公司概要](<https://www.nidec.com/en/corporate/about/outline/>)：已打开；主体、京都所在地与业务范围。
+
+- [Nidec 官方相机组件目录](<https://www.nidec.com/en/products/electronic-devices/lens-shutter/camera-lens-unit/>)：已打开；低噪齿轮电机、相机Pan/Tilt与承办公司。
+
+- [Nidec 官方风险与质量整改披露](<https://www.nidec.com/en/ir/management/risk/>)：已打开质量章节；2026年调查、变更与检验问题及整改，不泛化为所有器件或本站产品受影响。
+
+- [Nidec 官方新产品询问入口](<https://www.nidec.com/en/inquiry/request/motor/?ext_10=1&products_category_b=electronic-devices&products_category_m=lens-shutter>)：已打开；由产品目录链接进入，未提交请求。
+
+[返回供应链目录](../supply-chain.md)

@@ -56,33 +56,189 @@ Bambu Lab H2D · 官方参考图 · 来源：[Bambu Lab · 官方图片](<https:
 
 需求假设：个人模型制作和多材料打印耗时较长，用户希望更早发现失败，减少材料和时间损失。应比较报警发生时实际挽救了多少打印，而不是仅看相机能否识别明显的失败照片。
 
+### 需求假设：长时多材料制作更早发现失败 · 研究判断
+
+H2D的视觉检测针对缠料、空打和面条状失败，用户希望在浪费更多材料与时间前得到提醒，双喷嘴又服务不同材料任务。需求应分别验证检测和成型流程，不能把相机能识别失败图片当作实际挽救打印，也不以双喷嘴推断每位家庭用户需要。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+### 价值判断：报警之后的人工处理才决定收益 · 研究判断
+
+检测有用的前提是用户知道怎样暂停、清理或重新安排任务，早报警却无法有效处理也未必减少损失。研究应记录每次提示带来的动作，而不只是通知次数，不能把AI监控视为打印成功或无人值守安全保证，也不代替模型和材料准备。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
+### 验证方案：跟踪一批真实制作任务 · 待验证
+
+让个人创作者使用原本需要的模型和材料，记录切片、准备、检测、干预和最终成品，比较现有设备流程。保留误报、漏报和没有采取行动的提示，不只制作漂亮样件，也不以单次高速度或成功打印证明整套监控价值。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
 ## 用户画像
 
 画像推断：有固定工作区、经常制作模型或功能件，并愿意维护设备的个人创作者较匹配。基础打印与可选激光需要不同空间和操作条件，不能将多功能宣传视为任何家庭都适合的一体方案。
+
+### 画像假设：有固定工作区的高频个人制造者 · 研究判断
+
+较匹配者经常制作模型或功能件，愿意维护热端与材料系统，并能安排完整工作区域。偶尔打印小物的家庭未必需要双喷嘴和复杂材料管理，画像应按实际任务频率与维护能力定义，不能只以创客兴趣或预算判断适合。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+### 配置约束：基础打印与可选功能不是同一环境 · 研究判断
+
+H2D宣传中存在不同模块，基础3D打印不能默认包含激光等选配，后者也有另外的操作与空间条件。研究应核对用户真正会用哪种任务，不把多功能演示当作家庭必须一次接受的整套系统，也不按最高配置描述基础价格。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+### 访谈重点：失败被发现后是否能及时处理 · 待验证
+
+请用户回忆最近一次打印失败何时发现、是否在场、能否采取措施，再观察H2D提示改变了什么。有人需要减少巡视，有人需要可靠结果，二者不完全相同，不能把远程看到问题视为已经解决，也不以消息及时推断总体效率提升。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
 
 ## 竞争与替代
 
 竞争判断：桌面打印机与外置监控方案都可提供失败提醒，双喷嘴和完整软件生态形成差异。高端个人制造仍有成熟竞争，AI检测不能独立解释整机价格，也不能替代对实际材料任务的比较。
 
+### 替代方案：其他桌面打印与外置监控 · 研究判断
+
+H2D面对成熟FDM设备、外置摄像监控和不同材料系统，双喷嘴、软件生态与AI检测共同构成取舍。比较应按具体模型任务，不仅看最高速度或摄像头数量，也不能把高端个人制造视为无人竞争，已有设备加流程改进也可能满足需要。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+### 差异判断：喷嘴与腔内观察覆盖不同问题 · 研究判断
+
+两类视觉输入观察的位置不同，可能帮助发现不同失败阶段，本机处理也改变数据与响应路径。研究应分别记录各检测对真实任务的帮助，不能把多个相机当作全部失败覆盖，也不让AI功能掩盖双喷嘴、耗材和维护的基本体验。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
+### 比较方法：交付同样的可用成品 · 待验证
+
+让不同方案制作相同用途模型，记录准备、材料切换、失败处理与维护，检查最终成品是否满足任务。不要只统计报警数量或厂商参数，也不以单个精美模型代替重复性，检测节省的材料与新增确认工作应分别记录而不是合成模糊总分。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
 ## 供应链
 
 供应链推断：双喷嘴、运动系统、加热腔和相机需要共同稳定运行，多材料配件增加耗材与维护环节。官方未披露完整工厂和物料成本；热端更换、校准与跨区配件支持都影响长期交付。
+
+### 功能拆分：双喷嘴成型与视觉检测并行 · 研究判断
+
+公开结构包含双喷嘴、运动和加热、喷嘴与腔内相机，以及本机检测和用户反馈，切片与维护仍由工作流承担。自动调平与普通传感联锁不都属于AI，具体处理器型号、模块供应商和工厂未披露，不能由NPU描述猜内部芯片。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+### 制造判断：热环境与视觉标定共同约束 · 研究判断
+
+相机需要在成型环境中观察，运动、热端和材料路径也要稳定，双喷嘴与配件增加校准和维护条件。供应评估应看完整系统一致性，本轮没有热设计、公差、易损件寿命或实际维修数据，不能从箱体封闭和价格推断制造成熟度。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+### 候选选型：运动与相机分别验证 · 研究判断
+
+MOONS可作为运动驱动候选，Arducam可讨论监控相机接口，Raystar可研究操作显示，具体温度、视场和主控软件必须核对。三家没有H2D点名供货证据，标准模块也不等于适配原机，不能把候选路线写成拆机物料或配件替换方案。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
 
 ## 技术路径
 
 官方检测说明区分喷嘴与腔内视觉，并披露本机NPU处理及光照条件。技术判断应测试不同材料、颜色和失败阶段，记录漏报与误报，不能把报警能力当作打印必成功或无人值守安全保证。
 
+### 已披露能力：不同视觉输入与本机检测 · 官方资料
+
+官方手册区分喷嘴和腔内视觉，对缠料、空打和面条状失败等提供检测，并说明部分处理在本机NPU运行。光照和灵敏度是实际条件，不能把普通调平或联锁全部称为AI，也不由本机处理推断全部服务都可脱离软件与网络。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
+### 技术判断：视野和失败阶段决定可见信息 · 研究判断
+
+某些失败在早期可能没有明显外观，材料颜色与遮挡也会改变画面，算法能识别的片段不等于全部任务都可观察。研究应区分检测输入与机械状态，并检查灵敏度取舍，不能把较少报警自动解释为更稳定，也不将所有暂停视为误报。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
+### 验证方案：保存报警前后的完整过程 · 待验证
+
+对真实制作记录启用设置、材料、光照、报警和人工处理，检查在什么阶段提供了有用信息，保留未被发现或无须处理的情况。不要只用明显失败照片评价，实际价值要看是否改变任务结果，本轮没有独立准确率或节材数据。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
 ## 产品审美
 
 审美判断：封闭箱体、可视门与集中控制屏让设备更像个人工作台家电，材料系统仍会增加上方体积。运行声音、桌面振动和维护空间影响家庭接受度，整洁渲染不能替代实际工作环境。
+
+### 外形判断：封闭工作台设备仍有外部耗材空间 · 研究判断
+
+H2D封闭箱体、可视门和集中屏幕让整机看起来有秩序，但材料系统、开门和维护会增加实际空间。设计评价应包含桌面振动、声音和工具放置，不能只看干净渲染，也不将个人制造定位解释为任何普通书桌都适合。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+### 交互判断：报警需要解释是哪一层问题 · 研究判断
+
+用户看到提示时需要知道来自喷嘴、腔内画面还是其他检测，并理解下一步检查，不能让所有异常都显示为同一种失败。研究应观察是否容易定位与恢复，而不是把通知多视为智能，自动暂停也应与用户任务和材料状态配合。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
+### 体验验证：把更换热端与取件一起纳入 · 待验证
+
+让用户完成装料、切片、打印、取件和常见维护，记录触屏、门体、耗材与工具之间的操作关系。不同家庭或工作台布局分别观察，不以一次启动成功推断长期方便，也不忽略机器停止后仍需完成的清洁和材料整理。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
 
 ## 关键风险
 
 风险判断：AI可能误报或漏报，热端、运动机构和材料处理仍需按说明操作；新增激光模块带来不同使用要求。网络与软件更新也会影响流程，重要任务应保留稳定配置和人工检查。
 
+### 运行风险：AI检测不替代热与机械要求 · 研究判断
+
+热端、活动机构和材料仍需按说明管理，视觉可能误报或漏报，不能将监控宣传当作无人值守安全保证。选配模块又有不同条件，本轮没有实机、材料或可靠性测试，不把基础3D打印和激光配置混为同一套操作范围。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+### 软件与维护风险：设置改变检测结果 · 研究判断
+
+光照、灵敏度和固件可能影响提醒，用户需要知道当前启用了什么，不能把未收到通知当作没有问题。热端与配件供货、网络和地区支持也影响长期使用，重要任务应保留可复现设置，本轮未审核任何实际用户配置或订单。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
+### 验证安排：记录误停与未能挽救的打印 · 待验证
+
+研究应保存误报、漏报以及报警后仍报废的任务，说明用户如何处理，区分检测与实际恢复能力。不要只统计识别成功的片段，也不把所有问题归因于算法，模型、材料和维护可能共同影响结果，这些边界决定完整监控价值。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
 ## 机会与验证
 
 市场观察：可以记录个人创作者一个月的真实打印任务，统计报警后人工介入、节省材料与维护时间。把双喷嘴、材料系统和AI监测分别评估，不用机器参数或自动化程度预测创业项目成功。
+
+### 研究方向：把检测转成可执行的恢复流程 · 研究判断
+
+H2D可作为研究从视觉异常到用户处理的样本，机会可能在提示解释、维护记录和材料条件，而不只是再增加检测类别。应先确认用户在哪一步无法行动，再考虑硬件或软件改进，避免因AI监控热度忽略成型与切片的基础问题。
+
+依据：[H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
+### 执行计划：按材料任务追踪一个制作周期 · 待验证
+
+连续观察真实模型、材料、提示与人工干预，记录节省和新增的工作，访谈一次报警后放弃或重做的决定。将双喷嘴、材料系统和检测分别评估，不以机器参数、社区样件或厂商销量宣传代表用户需求，也不把计划冒充已做调查。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>)
+
+### 决策边界：与其他打印监控共享核心任务 · 研究判断
+
+H2D的双喷嘴和本机检测有具体差异，但仍与其他FDM设备共享材料成型和失败监测需求，不能因型号不同制造全新品类。当前没有访谈、销量和供应报价，不以NPU名称、自动化程度或模型评分预测创业成功。
+
+依据：[H2D美国官方零售页](<https://us.store.bambulab.com/products/h2d>) · [H2D官方智能检测手册](<https://wiki.bambulab.com/en/h2/manual/intelligent-detection>) · [Bambu官方H2D个人制造介绍](<https://blog.bambulab.com/bambu-lab-launches-h2d-to-rethink-personal-manufacturing/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [moons-industries](../supply-chain/moons-industries.md) — **能力候选 · 非已采用** / 双喷嘴打印运动驱动工程候选：MOONS公开步进、闭环及运动控制组合，可作为H2D打印轴的能力候选，但真实传动、负载、速度和主控接口须专项确认，工业标准组合不能直接替换原机。当前没有Bambu Lab点名供货证据，也不涵盖视觉检测与材料算法。
+
+- [arducam](../supply-chain/arducam.md) — **能力候选 · 非已采用** / 喷嘴与腔内监控相机输入候选：Arducam公开相机模组与驱动工程，可用于H2D视觉输入的候选研究，但喷嘴和腔内的视场、光照、热环境及标定不同，必须分别验证，不能当作完整失败检测模型。当前无原机实际采用或传感器型号证据。
+
+- [raystar](../supply-chain/raystar.md) — **能力候选 · 非已采用** / 个人制造设备操作显示候选：Raystar公开中小显示和界面集成，可作为H2D操作屏的能力候选，但尺寸、触控、控制接口与工作台可读性需专项核对，标准模组不构成替换件。该关联不包含曝光成型或AI推理，也没有本型号点名供货资料。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

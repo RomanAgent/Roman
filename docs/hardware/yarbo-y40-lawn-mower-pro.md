@@ -56,33 +56,187 @@ PPVS融合RTK、视觉相机及运动传感进行导航与障碍判断，驱动�
 
 需求假设：拥有较大私家庭院的房主希望把反复割草交给自主设备，并可能复用核心做季节任务。应验证换模块、安装和救援是否抵消省时，模块多并不自动形成更低的全生命周期成本。
 
+### 产品任务与边界 · 研究判断
+
+Yarbo Y40 配 Lawn Mower Pro 以履带核心和可换模块支持大庭院割草，潜在任务还包含复用核心处理季节工作。需求必须先证明割草本身省时，再看换模块是否有价值，附件多不能自动形成更低全周期成本。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 需求判断 · 研究判断
+
+重型自主平台可能减少骑乘或手推，但安装、换模块、救援和清洁也需要劳动。若用户一年很少切换任务，平台化可能只增加首付和收纳，需求研究应记录真实使用频次，而不是把未来可能用途全部计入当前收益。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 需求验证 · 待验证
+
+可在目标家庭记录一季割草、补割、接管和模块操作，再与现有骑乘工具或园艺服务比较。明确实际交付组合和使用任务，确认核心复用是否减少总投入，避免用附件清单或多任务演示替代真实需求。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
 ## 用户画像
 
 画像推断：有较大地块、可提供停靠供电并愿意维护重型设备的家庭，而非普通公寓或小院。购买者可能已使用骑乘割草机，决策更依赖可用性、运输维修和服务，而不是单纯AI兴趣。
+
+### 适用行为与条件 · 研究判断
+
+较匹配有较大地块、停靠供电和重型设备维护条件的家庭，而非普通公寓或小院。购买者可能已有骑乘割草机，因此更关注可用、维修运输和服务，画像不应只描述对机器人或人工智能感兴趣的人。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 人群取舍 · 研究判断
+
+主要维护者是否能更换模块、清理履带和处理停机，比预算高低更重要。季节任务多的家庭与只割草的家庭需求不同，设备核心、附件和储存空间也有差别，不能将所有大院房主都视为平台化产品用户。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 画像验证 · 待验证
+
+画像验证应让实际维护者完成停靠规划、模块更换和一次异常处理，记录需要帮助或不愿承担的步骤。再询问每项季节任务的真实频次，识别确实能复用平台的人，避免把可扩展性想象当作已存在的支付需求。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
 
 ## 竞争与替代
 
 竞争判断：与履带或四驱割草机器人、骑乘工具和园艺服务竞争。模块化提供可扩展性，但也增加采购和维护复杂度；是否值得用一个核心承担多任务，需要真实使用频率支持。
 
+### 比较对象与差异 · 研究判断
+
+Yarbo 与履带或全轮驱动割草机器人、骑乘工具和园艺服务竞争，模块化是形态差异而不是通用优势。比较应以同样任务和服务条件计算投入，不能把尚未购买或很少使用的附件能力当作现有割草组合的收益。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 竞争判断 · 研究判断
+
+共用核心可能降低重复购置，也使核心故障影响多项任务，接口和兼容增加维护复杂度。竞争优势需要由实际跨季使用证明，如果用户只需一种高频任务，专用设备可能更简单，平台不应成为默认更优的定位。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 竞争验证 · 待验证
+
+可比较一套核心加实际所需模块与分离工具的购置、换装、维护和停机，保留真实任务频次。对型号与附件兼容逐项确认，不能将其他核心版本或未来模块的自动能力移植到 Y40 与割草模块组合。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
 ## 供应链
 
 供应链分析：履带核心、电池、模块连接、刀盘与多传感导航共同构成高集成系统。实际制造工厂和BOM未披露；接口磨损、泥沙密封、重物运输和跨季节备件供应是关键成本。
+
+### 功能模块拆分 · 研究判断
+
+功能层包括履带核心与电池、多源定位视觉和运动感知、导航决策、模块连接及割草刀盘、停靠与应用。公开资料没有完整工厂和物料表，模块化也不意味着每个附件都具有相同自主能力或共享相同安全边界。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 制造与供应约束 · 研究判断
+
+制造约束是履带、模块接口、能源和传感器在不同负载下保持一致，泥沙与接口磨损会影响长期可靠性。重物运输、跨季备件和兼容管理属于持续成本，不能只按单个割草模块或电子元件价格判断整个系统经济性。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 候选与证据缺口 · 研究判断
+
+PCH 可作为重型消费平台开发与供应协同候选，Fictiv 可支持模块接口和履带结构零件。没有 Yarbo 点名合作证据，导航、刀盘、负载变化和长期服务需专项验证，候选不代表实际制造或整个平台能力已可获得。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
 
 ## 技术路径
 
 官方说明PPVS融合定位与视觉障碍感知。技术判断：需要验证弱卫星信号、湿滑坡地和模块负载变化下的定位控制；机械通过能力与AI识别是不同能力，不能从宣传演示推定通用自主作业。
 
+### 已披露技术边界 · 研究判断
+
+官方 PPVS 融合定位、视觉和运动信息，支持导航与障碍判断，履带与切割承担实体执行。技术评价应区分位置、识别、通过和切割，机械力量并不证明 AI 可靠，也不能从一个模块的演示推断所有附件通用自主。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 系统难点判断 · 研究判断
+
+弱卫星信号、湿滑坡地和模块负载变化可能同时影响定位与控制，系统需要清楚处理置信下降和异常停止。共用核心还需保持不同任务的状态与安全条件一致，不能只依靠更多传感器来解释复杂平台的可靠性。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 技术验证 · 待验证
+
+验证应锁定 Y40 和实际割草模块，覆盖树荫、负载及受控障碍，记录定位、驱动和任务完成。换装后要检查状态与配置，不能用其他模块成功或宣传极限通过能力推断当前组合在所有地形都可靠。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
 ## 产品审美
 
 审美判断：履带与外接模块形成明显的园艺工具感，适合大地块但体量很难在小庭院隐藏。停靠、换模块抓握、线缆与非工作季收纳应与外壳一并评价，专业外观不代表家庭使用轻松。
+
+### 外观与交互语言 · 研究判断
+
+履带核心与外接模块形成明显园艺工具感，在大地块中合理，却难在小庭院隐藏。审美应包含停靠、换装抓握、线材和非工作季收纳，专业外观不意味着家庭使用轻松，也不能只看工作姿态而忽略存放体量。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 使用中审美判断 · 研究判断
+
+模块接口是否容易理解、重物如何支撑和清洁，会直接影响用户是否真正愿意换装。若操作复杂，可扩展形态可能长期固定为单一任务，设计应围绕真实维护者而非展示人员，让动作和状态清楚可见。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 设计验证 · 待验证
+
+设计验证应观察换模块、履带清洁、搬运和季节收纳，记录所需空间、工具和协助。还需检查停止与异常提示在户外是否清楚，避免强壮造型和复杂模块让用户高估无需监督或自动适配所有任务的能力。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
 
 ## 关键风险
 
 风险判断：重量、刀盘与自主移动要求可靠安全措施，孩子和动物活动时不能只依赖AI避障。模块与核心版本兼容、运输售后和地区定位服务会影响长期使用，购买前需明确实际交付配置。
 
+### 主要失效与依赖 · 研究判断
+
+风险包括重量、刀盘、自主移动、儿童动物活动，以及核心模块版本和地区定位服务。AI 避障不能替代安全措施，模块兼容与实际交付必须明确，运输售后也会影响长期体验，不能只凭核心可扩展就认为所有附件均可用。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 风险传播判断 · 研究判断
+
+核心一旦故障，可能同时中断多个季节任务，用户对维修速度和备件的依赖会更高。产品应提供清楚诊断和服务边界，避免把平台价值只表达为扩展数量，而没有解释共用部件带来的共同失效与恢复成本。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 风险验证 · 待验证
+
+风险验证应核对核心与模块版本，演练连接异常、定位不足和换装后的恢复，并确认重物维修运输。测试需受控且遵循使用要求，不用真实动物或儿童检验避障，也不把多模块宣传视为通用安全与可靠性证明。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
 ## 机会与验证
 
 机会假设：先验证一种高频庭院任务，比较自主设备与现有工具、人工服务的总劳动和总成本。若用户只偶尔换模块，平台化价值可能被高首付抵消，应避免凭扩展数量判断市场空间。
+
+### 可能的机会入口 · 研究判断
+
+机会在于一种高频庭院任务的可靠自动化，再根据真实季节使用决定是否平台化。新团队可先比较专用设备和服务的总劳动，若用户不常换模块，就不必为扩展想象承担复杂接口、库存和售后的投入。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 机会成立条件 · 研究判断
+
+机会成立需要核心复用确实减少总成本且维护可接受，不能只把多附件市场相加形成巨大预测。若主要痛点是运输维修或安装，服务可能比更大平台更有价值，产品路线应由实际任务频率和地块条件决定。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+### 下一步验证 · 待验证
+
+下一步可记录一整季割草与跨季任务、换装和停机，比较专用设备、共用核心及人工服务。用实际使用和维护数据判断平台化增量，避免根据附件数量、履带外观或未来兼容计划直接推断市场空间。
+
+依据：[Yarbo Y40 + Lawn Mower Pro 官方商品页](<https://www.yarbo.com/products/yarbo-lawn-mower-pro>) · [Yarbo 官方家庭割草与AI导航说明](<https://www.yarbo.com/collections/robot-lawn-mower?p=lm>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [pch-international](../supply-chain/pch-international.md) — **能力候选 · 非已采用** / 重型模块化庭院平台工程与供应协同：PCH 的产品开发、采购和制造管理可协调核心与模块的多类部件，但重型负载、刀盘及长期售后需专项确认；没有 Yarbo Y40 点名合作证据，候选不代表实际制造或平台授权。
+
+- [fictiv](../supply-chain/fictiv.md) — **能力候选 · 非已采用** / 模块连接与履带结构零件原型：Fictiv 的定制机械制造和原型服务可用于验证模块接口、履带支架及维护零件，但不证明整机导航或跨模块安全；未见 Y40 合作披露，候选限定于机械开发和零件环节。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

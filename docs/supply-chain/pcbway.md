@@ -1,0 +1,145 @@
+# PCBWay
+
+PCBWay公开重点是PCB原型和小批装配，可结合板材制造、元件采购和组装。它适合已有电子设计的家用AI项目做样机与试产候选；在线下单和制造检查不等于完整电路设计或整机功能验证，品牌仍需定义测试、固件、关键物料和最终产品条件。
+
+核查 2026-11-04 · 中国大陆 · 细分专业供应商
+
+按明确的专业工艺或服务焦点归入专业公司，目录分组不代表营收、员工数或承接订单大小。
+
+[官网](<https://www.pcbway.com/>) · [公开联系入口](<https://www.pcbway.com/about.html>)
+
+公开地区：中国大陆、全球在线服务
+
+能力：PCB原型与小批制造、代采及混合供料PCBA、SMT与复杂封装装配、板级检测及定制工艺
+
+## 公司定位与边界
+
+### 公开定位 · 官方资料
+
+PCBWay官网明确将PCB原型和小批装配作为服务重点，并把裸板制造与PCBA组合。它与完整ODM的区别在于主要围绕客户设计文件组织制造，因此目录把它作为板级落地伙伴，而不默认负责家用AI设备全部功能与市场定义。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>)
+
+### 合作边界判断 · 研究判断
+
+对已有电路设计的小团队，在线制造入口可以减少寻找工厂的门槛；真正的难点则是提交完整、可生产且可测试的资料。若设计还没有经过基本验证，快速拿到装配板只会更快暴露问题，不会自动降低产品研发风险。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+## 产品与技术能力
+
+### 公开能力 · 官方资料
+
+装配页列出SMT、BGA和其他封装相关能力，并提供自备料、混合供料和整包采购等选项，也介绍X光、AOI和功能测试。具体哪些检查包含在订单中需要确认，不能把页面所有服务默认视为每块板卡都会执行。
+
+依据：[PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+### 工程整合判断 · 研究判断
+
+家用语音或摄像原型往往需要反复修改接口和供电，PCBWay的原型小批定位与这种迭代相符。板级设计仍必须考虑最后外壳中的声学、天线和散热，否则样机在桌面工作正常也无法证明整机适合家庭长期运行。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+## 适用场景与匹配
+
+### 优先匹配场景 · 研究判断
+
+可优先用于家庭助手、教育机器人和自然观察设备的控制板样机或小批装配，尤其是品牌已有原理图与BOM时。候选任务应明确为制造与约定检测，不把能装配某种芯片解释为拥有对应产品算法或整机设计方案。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+### 不匹配条件 · 研究判断
+
+若团队只有想法和外观图，没有电路设计和测试方法，普通PCBA订单并不适合作为第一步。高功率、电池安全或水下产品也需要额外工程验证，不能因为在线平台可下单，就跳过对产品用途和环境条件的完整设计。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+## 合作与导入流程
+
+### 询盘准备 · 研究判断
+
+询盘前应准备Gerber、BOM、贴装坐标、装配说明及关键不可替换物料，并标出不装元件和需要烧录的器件。对AI设备还需定义模型与固件如何进入产品，避免拿到硬件后才发现没有可批量执行的烧录或校准接口。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+### 项目接口 · 研究判断
+
+供料方式不同会改变缺料、损耗和替代料责任，品牌应在下单前与PCBWay确认清楚。版本修改也要同步更新板文件、BOM与坐标，不能只发一封说明邮件就假设所有制造资料都会被正确替换并重新审核。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+## 质量与交付能力
+
+### 质量关注点 · 研究判断
+
+质量评审应区分裸板质量、焊接装配和产品功能，三者需要不同证据。AOI或X光能发现部分制造缺陷，却不能证明语音、视觉或无线链路正常；如果需要功能测试，应提供程序、治具和明确判定条件。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+### 验收设计 · 研究判断
+
+可用首件验收检查器件方向、关键连接、固件和输入输出，再在小批中观察一致性。对于传感板，建议保留原始信号对比和序号记录，避免只看板上指示灯亮起就认为AI功能合格，也便于后续区分设计与装配问题。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+## 商业与成本结构
+
+### 成本结构 · 研究判断
+
+报价比较要保持相同文件、物料和测试范围，分别看裸板、元件、装配、检测和运输，不能只比较页面促销起价。PCBWay公开有多种服务入口，本目录不把某个活动数量、最低价格或最快宣传时间当成具体项目承诺。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+### 合作方式判断 · 研究判断
+
+低数量迭代可以分阶段下单，但需避免每批使用不同替代料或未同步的版本，让测试结果无法比较。对于未来量产计划，应该提前确认数据交付、物料持续性和测试迁移，而不是等订单变大后才补齐工业化流程。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+## 风险与替代路径
+
+### 业务风险 · 研究判断
+
+主要风险是把可制造性审核误认为完整设计审核，尤其电气安全、算法输入和实际用户用途仍由产品设计负责。平台接受文件并不证明电路正确或整机可销售，品牌需要保留自己的功能与环境验证，不把责任推给加工环节。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+### 证据边界 · 研究判断
+
+本轮没有PCBWay为本目录具体消费型号生产的点名资料，所有关联只为板级能力候选。公开共享项目、开发者使用同款模块或工厂照片，都不能证明某个品牌采用它制造，也不说明对应订单的质量和商务条件。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+## 询价与验证清单
+
+### 需验证的能力 · 研究判断
+
+下一轮可用设计较稳定的首件订单验证资料完整性、工程沟通和测试流程，明确哪些检查由平台完成、哪些由品牌完成。重点记录问题被发现的阶段，避免只以是否按时收到板卡评价整个制造合作质量。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+### 进入下一阶段条件 · 研究判断
+
+当设计与装配缺陷能被区分、固件和测试可重复执行、物料替代机制也清楚后，再扩大数量。若样机仍靠手工补焊和临时跳线完成主要功能，应先修订设计，而不是用更大的生产批次掩盖尚未解决的问题。
+
+依据：[PCBWay公司与服务定位](<https://www.pcbway.com/about.html>) · [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)
+
+## 关联硬件产品
+
+> 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
+
+- [IK Multimedia TONEX Pedal](../hardware/ik-tonex-pedal.md) — **能力候选 · 非已采用** / 实时音频踏板板级样机制造候选：PCBWay公开PCB和PCBA原型装配，可用于讨论TONEX同类音频控制板的制造，但需开发者提供合法电路文件并专项验证噪声、供电和接口，不提供现成建模踏板方案。当前没有TONEX真实BOM或代工证据，也不涉及复制专有设计。
+
+- [Positive Grid Spark 2](../hardware/positive-grid-spark-2.md) — **能力候选 · 非已采用** / 音箱音频与控制板样机装配候选：PCBWay公开PCB与PCBA服务，可用于Spark 2同类音频控制板按合法设计文件制造，但需开发者提供电路并验证功放、电源、噪声和无线协同，不提供现成AI音箱。当前没有原机BOM或实际制造关系，费用和数量需另询。
+
+- [Positive Grid Spark EDGE](../hardware/positive-grid-spark-edge.md) — **能力候选 · 非已采用** / 多通道音频控制板原型制造候选：PCBWay公开PCB与PCBA服务，可用于EDGE同类多通道音频板按设计文件制造，但需自行完成电路、软件与电源设计并专项验证通道和底噪，不提供现成扩声算法。当前没有原机BOM、实际代工或量产报价证据。
+
+- [Makeblock Codey Rocky](../hardware/makeblock-codey-rocky.md) — **能力候选 · 非已采用** / 编程机器人开发板与结构打样：PCBWay 的电路打样和部分结构制造服务适合早期验证主控、连接和外壳样件，但不自动提供完整课程或批量套件可靠性；未发现其为 Codey Rocky 供货，当前只列原型阶段候选。
+
+## 来源
+
+- [PCBWay公司与服务定位](<https://www.pcbway.com/about.html>)：核实原型、小批PCB及PCBA业务，未使用宣传准时率或产能数字。
+
+- [PCBWay PCB装配](<https://www.pcbway.com/pcb-assembly.html>)：核实SMT、复杂封装、供料选项与检测服务，订单条件需按实际文件确认。
+
+[返回供应链目录](../supply-chain.md)

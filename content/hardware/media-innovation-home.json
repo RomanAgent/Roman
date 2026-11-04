@@ -1,0 +1,332 @@
+[
+  {
+    "id": "gardyn-studio-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/gardyn-studio-2/product.jpg",
+        "sourceUrl": "https://mygardyn.com/products/gardyn-studio-gen2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0788/6576/0493/files/Studio_2_-_PDP_2_-_Mobile.jpg?v=1785856990",
+        "caption": "官方Studio 2整机与功能展示",
+        "alt": "Gardyn Studio 2双种植柱、灯杆与水箱",
+        "credit": "Gardyn · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/gardyn-studio-2/reference.jpg",
+        "sourceUrl": "https://mygardyn.com/products/gardyn-studio-gen2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0788/6576/0493/files/Studio_2_-_FSA_-_Mobile.webp?v=1785856905",
+        "caption": "官方家庭种植场景（含原厂营销标注）",
+        "alt": "家庭中使用Gardyn Studio 2采收植物",
+        "credit": "Gardyn · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "原图按官方文件保存，未改色或语义编辑；图片中的营销文字不视为本研究独立验证。"
+    ]
+  },
+  {
+    "id": "10minds-motion-pillow",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/10minds-motion-pillow/product.png",
+        "sourceUrl": "https://motionpillow.com/en/home.do",
+        "sourceImageUrl": "https://motionpillow.com/images/ces/system/system_set.jpg",
+        "caption": "官方Motion Pillow枕体与外置控制单元",
+        "alt": "灰色Motion Pillow、白色外置控制盒与应用示意",
+        "credit": "10minds · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/10minds-motion-pillow/reference.png",
+        "sourceUrl": "https://motionpillow.com/en/home.do",
+        "sourceImageUrl": "https://motionpillow.com/images/ces/features/key_img_02.png",
+        "caption": "官方枕体外形参考",
+        "alt": "Motion Pillow灰色织物枕体正面",
+        "credit": "10minds · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "原图按官方文件保存，未改色或语义编辑；图片中的营销文字不视为本研究独立验证。"
+    ]
+  },
+  {
+    "id": "hydrific-droplet",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/hydrific-droplet/product.png",
+        "sourceUrl": "https://hydrificwater.com/products/droplet",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0627/1015/3260/files/Carousel_2-new.png?v=1791063192",
+        "caption": "官方夹装设备与应用展示",
+        "alt": "Droplet夹装于水管并显示应用记录",
+        "credit": "Hydrific / LIXIL · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/hydrific-droplet/reference.png",
+        "sourceUrl": "https://hydrificwater.com/products/droplet",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0627/1015/3260/files/Carousel_8-new.png?v=1791064384",
+        "caption": "官方设备夹具视角（含原厂媒体引述）",
+        "alt": "Droplet后部夹具与设备外形",
+        "credit": "Hydrific / LIXIL · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "原图按官方文件保存，未改色或语义编辑；图片中的营销文字不视为本研究独立验证。"
+    ]
+  },
+  {
+    "id": "jubilee-tv-console",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/jubilee-tv-console/product.jpg",
+        "sourceUrl": "https://getjubileetv.com/products/jubilee-tv-direct",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0831/0430/1340/files/control_elderly_tv_remotely_main_sq_e8d3ae25-79ca-4f86-9521-44eb0c11e4da.webp?v=1778082072",
+        "caption": "官方Console、遥控器与应用展示",
+        "alt": "JubileeTV黑色相机主机、白色遥控器和家属应用",
+        "credit": "JubileeTV / Caavo · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/jubilee-tv-console/reference.jpg",
+        "sourceUrl": "https://getjubileetv.com/products/jubilee-tv-direct",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0831/0430/1340/files/JubileeTV-Direct-PDP-02.jpg?v=1784569659",
+        "caption": "官方电视顶部安装与远程协助场景",
+        "alt": "JubileeTV主机安装在电视上方并由家属应用控制",
+        "credit": "JubileeTV / Caavo · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "原图按官方文件保存，未改色或语义编辑；图片中的营销文字不视为本研究独立验证。"
+    ]
+  },
+  {
+    "id": "clevercharge-home-cleverkey",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/clevercharge-home-cleverkey/product.webp",
+        "sourceUrl": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+        "sourceImageUrl": "https://www.clevercharge.com/web/image/product.product/3/image_1024/%5B19-HWVK-QHMY%5D%20J1772%20NEMA%2014-50?unique=e7f5585",
+        "caption": "官方充电器、CleverKey与应用展示",
+        "alt": "CleverCharge墙盒、CleverKey、J1772连接器和手机应用",
+        "credit": "CleverCharge / Danlaw · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/clevercharge-home-cleverkey/reference.webp",
+        "sourceUrl": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+        "sourceImageUrl": "https://www.clevercharge.com/web/image/product.image/55/image_1024/J1772%20NEMA%2014-50?unique=e58d987",
+        "caption": "官方J1772与NEMA配置参考",
+        "alt": "CleverCharge墙盒及J1772插头正面",
+        "credit": "CleverCharge / Danlaw · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "原图按官方文件保存，未改色或语义编辑；图片中的营销文字不视为本研究独立验证。"
+    ]
+  },
+  {
+    "id": "mill-food-recycler-plus",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/mill-food-recycler-plus/product.jpg",
+        "sourceUrl": "https://www.mill.com/configure/food-recycler?bin_color=white&product=mill-plus",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0994/9406/8500/files/mill_plus_white_3.webp?v=1785519763",
+        "caption": "官方Mill Plus整机",
+        "alt": "带脚踏和木色顶盖的白色Mill Plus",
+        "credit": "Mill · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/mill-food-recycler-plus/reference.jpg",
+        "sourceUrl": "https://www.mill.com/configure/food-recycler?bin_color=white&product=mill-plus",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0994/9406/8500/files/mill_plus_white_1.webp?v=1785519764",
+        "caption": "官方厨余投入场景",
+        "alt": "家庭用户向打开的Mill Plus放入盘中厨余",
+        "credit": "Mill · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，官方原图未改色或语义编辑；营销文字不代表本研究独立验证。"
+    ]
+  },
+  {
+    "id": "lockin-v7-max",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/lockin-v7-max/product.jpg",
+        "sourceUrl": "https://www.lockin.com/detail/?slug=V7",
+        "sourceImageUrl": "https://www-static.lockin.com/lockin-v3/2cde1a1ab98219d101b9eca352a1df55.jpg",
+        "caption": "官方V7 Max整机与隔空供电器",
+        "alt": "鹿客V7 Max门内外面板与椭圆形供电器",
+        "credit": "Lockin · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/lockin-v7-max/reference.jpg",
+        "sourceUrl": "https://www.lockin.com/detail/?slug=V7",
+        "sourceImageUrl": "https://www-static.lockin.com/lockin-v3/43c540aff56cf4c5d22a485329801850.jpg",
+        "caption": "官方隔空供电说明（含厂商营销与认证展示）",
+        "alt": "V7 Max隔空供电器与门内接收区示意",
+        "credit": "Lockin · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，官方原图未改色或语义编辑；营销文字不代表本研究独立验证。"
+    ]
+  },
+  {
+    "id": "barsys-360",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/barsys-360/product.webp",
+        "sourceUrl": "https://us.barsys.com/shop/barsys-360",
+        "sourceImageUrl": "https://us.barsys.com/images/sterin/2026-10-10/1XVDnwcyTW_nF_QKD1W8E6cRwbYp7qbDE.webp",
+        "caption": "官方Barsys 360正面",
+        "alt": "黑色圆环形Barsys 360及中央杯座",
+        "credit": "Barsys · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/barsys-360/reference.webp",
+        "sourceUrl": "https://us.barsys.com/shop/barsys-360",
+        "sourceImageUrl": "https://us.barsys.com/images/sterin/2026-10-10/110_lbn3g-I_HESlQThlzcL1JB1x-CM-_.webp",
+        "caption": "官方原料仓补充方式",
+        "alt": "向Barsys 360上部原料仓倒入饮料",
+        "credit": "Barsys · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，官方原图未改色或语义编辑；营销文字不代表本研究独立验证。"
+    ]
+  },
+  {
+    "id": "reefkinetics-reefbot-lab",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/reefkinetics-reefbot-lab/product.png",
+        "sourceUrl": "https://www.reefkinetics.com/product/reefbot-lab/",
+        "sourceImageUrl": "https://www.reefkinetics.com/wp-content/uploads/2022/09/Reefbot-Lab-Standalone.png",
+        "caption": "官方ReefBot Lab整机",
+        "alt": "七边形透明外壳内可见试剂瓶和取样机构",
+        "credit": "Reef Kinetics · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/reefkinetics-reefbot-lab/reference.jpg",
+        "sourceUrl": "https://www.reefkinetics.com/product/reefbot-lab/",
+        "sourceImageUrl": "https://www.reefkinetics.com/wp-content/uploads/2022/09/lab-easy-connect.jpg",
+        "caption": "官方水缸与应用连接说明",
+        "alt": "ReefBot Lab连接鱼缸与手机应用的官方说明",
+        "credit": "Reef Kinetics · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，官方原图未改色或语义编辑；营销文字不代表本研究独立验证。"
+    ]
+  },
+  {
+    "id": "1x-neo-home",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/1x-neo-home/product.webp",
+        "sourceUrl": "https://www.1x.tech/order",
+        "sourceImageUrl": "https://www.1x.tech/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fqka6yvsc%2Fproduction%2F1054db069547b8a970273c62fa96fb6ae1818e8a-3665x2062.webp&w=3840&q=100",
+        "caption": "官方NEO全身",
+        "alt": "浅色织物包覆的NEO双足人形机器人",
+        "credit": "1X · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/1x-neo-home/reference.webp",
+        "sourceUrl": "https://www.1x.tech/order",
+        "sourceImageUrl": "https://www.1x.tech/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fqka6yvsc%2Fproduction%2F900c4cb36ceb21a1c3d70ff0f261558c4b471d00-3000x1686.webp&w=3840&q=100",
+        "caption": "官方NEO家庭场景",
+        "alt": "NEO在家中与人同处一室的官方展示",
+        "credit": "1X · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，官方原图未改色或语义编辑；营销文字不代表本研究独立验证。"
+    ]
+  },
+  {
+    "id": "weave-isaac-0",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/weave-isaac-0/product.webp",
+        "sourceUrl": "https://www.weaverobotics.com/isaac-0",
+        "sourceImageUrl": "https://www.weaverobotics.com/_next/image?url=%2Fimages%2Fproducts%2Fspecs.webp&w=1920&q=75",
+        "caption": "官方Isaac 0整机",
+        "alt": "双臂、立柱、双目头部与脚轮底座的Isaac 0",
+        "credit": "Weave Robotics · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/weave-isaac-0/reference.jpg",
+        "sourceUrl": "https://www.weaverobotics.com/isaac-0",
+        "sourceImageUrl": "https://www.weaverobotics.com/videos/posters/landing-hero.jpg",
+        "caption": "官方产品页视频封面中的头部细节",
+        "alt": "Isaac 0双目头部及机械颈部细节",
+        "credit": "Weave Robotics · 官方图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "实际查看并核对对应型号，官方原图未改色或语义编辑；营销文字不代表本研究独立验证。"
+    ]
+  }
+]

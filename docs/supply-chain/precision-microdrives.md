@@ -1,0 +1,143 @@
+# Precision Microdrives
+
+Precision Microdrives提供微型电机、传动与触觉机构，并公开英国设计、香港制造测试和深圳采购的集团分工。它对消费硬件的价值在把动作需求、制造和验证一起讨论，尤其适合提醒反馈与小机构研究；振动输出、位置运动和完整机械装置应分别选型，公开案例不能用来猜测本站产品的真实供应商。
+
+核查 2026-11-04 · 英国 · 细分专业供应商
+
+按微型电机、机构和触觉反馈专业方向分组；英国为公开销售研发主体所在地，官网明确集团分工而未标单一全球总部。
+
+[官网](<https://www.precisionmicrodrives.com/>) · [公开联系入口](<https://www.precisionmicrodrives.com/contact-us>)
+
+公开地区：英国伦敦（项目设计与研发）、中国香港沙田（设计制造与测试）、中国大陆深圳（采购与来料质量）
+
+能力：微型直流及无刷电机、齿轮电机与线性执行机构、振动电机和LRA触觉反馈、定制机构设计制造、寿命测试及批次验证
+
+## 公司定位与边界
+
+### 已披露定位：电机与机构同属服务范围 · 官方资料
+
+公司信息说明既可提供电机组件，也可设计制造复杂机构，并公开集团内不同地区的工程与采购职责。目录将关联主体合并为一个能力节点，不把伦敦、香港和深圳重复计为独立公司，也不从注册地址直接推断唯一总部或全部生产来源。
+
+依据：[Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>) · [Precision Microdrives 官方联系与团队](<https://www.precisionmicrodrives.com/contact-us>)
+
+### 定位判断：关注完整动作而非零件名称 · 研究判断
+
+对于穿戴提醒、护理设备或小型游戏机构，用户体验取决于动作是否清楚、可控且舒适，不只是马达转起来。PMD的机构工程方向可帮助讨论这些问题，但需要先明确输出是振动、旋转还是位移，不能把所有运动任务混为一类。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+## 产品与技术能力
+
+### 已披露能力：触觉与微型传动组合 · 官方资料
+
+消费应用页面列出直流、无刷、齿轮电机、振动、机构及线性执行方向，并提供可取样的规格目录。它支持按任务比较不同执行技术，但目录存在不代表每种外形都可以立即采购，具体样品、驱动和安装条件仍需按料号确认。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+### 已披露能力：设计到测试的地区分工 · 官方资料
+
+官方说明英国团队负责应用设计与工程，香港负责设计制造及测试，深圳负责组件采购与来料质量。这提供了可询证的工作链条，但不证明某客户的所有组件都在同一地点完成，项目仍需明确实际交付主体与责任，不能据集团分工猜原机工厂。
+
+依据：[Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>) · [Precision Microdrives 官方联系与团队](<https://www.precisionmicrodrives.com/contact-us>)
+
+## 适用场景与匹配
+
+### 匹配判断：可感知提醒与小型机械动作 · 研究判断
+
+带振动提示的穿戴、手持护理或游戏控制界面，可按输出任务将PMD列为候选；小型机器人与棋盘机构则需确认运动路径。触觉元件不会产生健康分析或棋力，供应关联应只指向已披露动作层，不把用户感到震动当作算法正确的证据。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+### 不匹配边界：振动与精确定位不能互换 · 研究判断
+
+用于提醒的偏心振动或线性共振器不等于能够精确移动棋子或控制云台的执行机构，反之精密电机也未必适合佩戴触觉。团队应根据输出形式选择路线，不能因为同一家供应商有多个系列，就用通用电机链接覆盖所有产品模块。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+## 合作与导入流程
+
+### 已披露入口：应用工程与样品目录 · 官方资料
+
+官网提供应用工程沟通和样品目录入口，明确可从需求、方案、测试走向生产，并提供保密协议资料。早期团队可先解释动作任务再选择取样，但公开流程不等于所有设计咨询都包含完整免费开发，本轮也没有联系、签约或下单。
+
+依据：[Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>) · [Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>) · [Precision Microdrives 官方联系与团队](<https://www.precisionmicrodrives.com/contact-us>)
+
+### 接洽建议：用动作和感受描述要求 · 研究判断
+
+对触觉设备应说明安装位置、提醒意义、接触结构和环境噪声，对机构则提供载荷、行程与使用频率。只有这些条件清楚，才能判断选振动元件还是完整机构；不要把强一点、安静一点当作充分规格，也不能把用户体验完全交由供应商决定。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>) · [Precision Microdrives 官方联系与团队](<https://www.precisionmicrodrives.com/contact-us>)
+
+## 质量与交付能力
+
+### 已披露方向：寿命与批次验证 · 官方资料
+
+消费页面列出寿命测试、机构设计与生产验证，公司信息说明设计经测试确认后进入制造。它为供应审核提供方向，但不代表本站项目已有测试结果，团队仍需要求对应料号和装配状态的记录，不能把管理体系介绍当作终端可靠性证明。
+
+依据：[Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>) · [Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+### 质量验证：输出通过结构传递给用户 · 研究判断
+
+触觉与振动会受到壳体、固定和接触方式影响，裸元件的参数无法直接说明用户能否辨认提醒。应在真实佩戴或握持状态下检查感受与声音，同时验证连续动作后的变化，避免只测试桌面样品，把结构差异误认为元件不一致。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+## 商业与成本结构
+
+### 商务边界：组件和机构报价范围不同 · 研究判断
+
+标准电机取样、定制组件与完整机构工程涉及不同投入，本轮未取得起订量、开发费和交期。项目应明确需要哪些设计、测试与资料，再比较完整费用，不能从微型尺寸推断便宜，也不能把公司公开支持大小客户理解为所有项目条件相同。
+
+依据：[Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>) · [Precision Microdrives 官方联系与团队](<https://www.precisionmicrodrives.com/contact-us>)
+
+### 商业判断：减少过度复杂的机械方案 · 研究判断
+
+如果用户只需一个清楚的提醒，复杂多轴机构未必带来足够收益；若需要真实位移，则简单振动无法替代。PMD的多路线能力适合帮助比较，但最终仍要由任务与可接受成本决定，这是一项分析判断，不代表已有用户或订单验证。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+## 风险与替代路径
+
+### 工程风险：集成后输出与样品不同 · 研究判断
+
+电机和触觉元件装入产品后，固定、载荷与电源会改变表现，不能把目录样品效果直接用于最终宣传。尤其是护理或睡眠用途，应避免由振动存在推断健康效果，候选企业的技术能力只支持运动输出，不支持未经验证的疗效主张。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+### 供应风险：多地区分工需要可追溯 · 研究判断
+
+公开集团分工有助于了解工程与制造链路，但项目必须确认实际负责的版本、资料与问题升级方式。关联主体并不构成多家独立备选，也不能从客户标志推断本站产品采用；当前目录仅核实能力，不提供工厂来源或交付稳定保证。
+
+依据：[Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>) · [Precision Microdrives 官方联系与团队](<https://www.precisionmicrodrives.com/contact-us>)
+
+## 询价与验证清单
+
+### 核验计划：让目标用户辨认实际输出 · 待验证
+
+将候选触觉或运动方案装入真实外壳，让用户在日常任务中辨认提醒、执行操作或观察动作，并记录误解与不适。结合电流、声音和机构状态定位问题，不用一次强烈振动或空载动作演示代替完整体验，也不预设越强越好。
+
+依据：[Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)
+
+### 核验计划：明确验收和资料留存 · 待验证
+
+进一步询问测试方法、批次记录、变更通知和定制设计资料的交付，确认量产后如何复现样品条件。当前没有实际样品、合同或本站型号的供应证据，候选链接只提供工程研究入口，不能被用作替换零件、性能或交期承诺。
+
+依据：[Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>) · [Precision Microdrives 官方联系与团队](<https://www.precisionmicrodrives.com/contact-us>)
+
+## 关联硬件产品
+
+> 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
+
+- [Chessnut Move](../hardware/chessnut-move.md) — **能力候选 · 非已采用** / 自移动棋子底座微型机构工程候选：Precision Microdrives公开微型电机与定制机构，可作为Move棋子底座执行候选，但原机传动、定位和空间未披露，噪声、同步和负载需专项验证，不能推定采用某种驱动。当前没有Chessnut点名供应证据，也不提供现成兼容底座。
+
+- [Chessnut Companion](../hardware/chessnut-companion.md) — **能力候选 · 非已采用** / 自动按钟小型执行机构候选：Precision Microdrives公开微型电机与定制机构，可作为Companion按钟执行的工程候选，但原机采用何种传动未披露，行程、受力、噪声和重复动作需验证。该关联不说明实际采用或可直接替换，也不把机械计时操作当作AI算法。
+
+## 来源
+
+- [Precision Microdrives 官方公司分工](<https://www.precisionmicrodrives.com/why-pmd/company-information>)：已打开；英国、香港与深圳关联主体及工程制造流程。
+
+- [Precision Microdrives 官方消费应用](<https://www.precisionmicrodrives.com/industries-served/consumer>)：已打开；电机、机构、触觉、取样与测试方向。
+
+- [Precision Microdrives 官方联系与团队](<https://www.precisionmicrodrives.com/contact-us>)：已打开；伦敦和香港团队责任、应用工程入口，未推断唯一总部。
+
+[返回供应链目录](../supply-chain.md)

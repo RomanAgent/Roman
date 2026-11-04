@@ -60,33 +60,187 @@ OrCam MyEye 3 Pro授权经销商型号页另一角度或使用场景参考 · �
 
 需求假设：有视觉读取困难的人希望不持手机也能听取眼前文字，并可对长文本追问。价值应由实际使用频率、任务完成与操作负担验证，不能把AI功能存在或演示流畅当作需求已得到满足。
 
+### 官方｜镜腿上的视觉读取 · 官方资料
+
+MyEye 3 Pro把小型相机固定在原有眼镜上，将眼前文字等视觉信息转成声音，并提供连接智能屏后的内容问答能力。官方目录和指南确认具体代次，经销商页面补充购买配置；这里的独立读取与联网追问需要分开理解，不能把连屏演示视为单个镜腿附件全部能独立完成的任务。
+
+依据：[OrCam当前型号和销售联系目录](<https://www.orcam.com/en-us/distributor>) · [OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 判断｜释放双手的价值 · 研究判断
+
+其需求假设是用户在翻页、寻找物品或拿取包装时，不必再腾出一只手举手机。真正减少的应是寻找镜头方向、启动识别和重新抓取物品的操作，而不是抽象的使用屏幕时间；如果每次都需要家人重新定位相机，免手持的外形也未必带来更独立的读取过程。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 验证｜从找准内容到复核 · 待验证
+
+可让试用者依次读取桌面信件、手中标签和面前屏幕，记录首次正确指向、重复拍摄、听懂关键字段和要求帮助的次数。保留原文供陪同人员核对，特别记录漏行、错字与不确定提示；这些任务完成情况比演示中连续朗读的长度更能说明它是否满足个人需求。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
 ## 用户画像
 
 画像推断：愿意学习指向、头部定位和语音操作，能使用音频反馈的个人及其家庭更匹配。个人的语言、操作习惯、环境和预算会改变适配结果，本次只有案头研究，没有用户访谈或长期使用观察。
+
+### 官方｜操作与感官前提 · 官方资料
+
+该设备以镜腿安装、触控和声音反馈为主要交互方式，扩展阅读还涉及兼容电脑或移动设备。它面向需要视觉信息辅助的个人，但产品定位本身不证明任何视力状况都适配；能够感知语音、理解提示并学习相机指向，是评估具体使用流程时需要分别确认的条件。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 判断｜已有习惯影响适配 · 研究判断
+
+已经习惯眼镜和听觉阅读、经常在多个房间读取短信息的人，可能更愿意接受镜腿附件。对长时间戴镜不舒服、需要同时听清周围环境，或难以控制头部朝向的人，手持与固定支架方案可能更易掌握；这些只是试用分组假设，不能依据年龄或残余视力直接替用户选择。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 验证｜本人主导的试用 · 待验证
+
+应让本人完成安装后触摸定位、开始与停止朗读、纠正读错目标和取下充电，陪同者只在需要时协助。分别记录学习第一天和熟悉后的操作负担，确认帮助是否持续依赖同一个人；采购或家庭支持计划应包括教学、维修联络和软件设置，而不只安排交付一件设备。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
 
 ## 竞争与替代
 
 案头判断：与手机读屏、普通放大器和其他辅助相机竞争，夹式专机的优势要与价格和学习成本一起比较。这只是用途与替代品比较，不是市场份额或销量结论；专业细分和较少曝光也不代表没有成熟竞争者。
 
+### 官方｜专机与扩展系统 · 官方资料
+
+产品以可夹在眼镜上的视觉专机提供读取入口，并通过Smart Magnifier和Just Ask扩展内容交互。核查到的Amit Systems页面自述授权经销商并展示四千二百五十美元标价；这属于所见渠道配置，不能当作制造商全球统一售价，也不代表包含所有屏幕、附件或服务。
+
+依据：[OrCam当前型号和销售联系目录](<https://www.orcam.com/en-us/distributor>) · [OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 判断｜与手机方案同题比较 · 研究判断
+
+竞争重点是与手机视觉辅助、手持读取器和桌面放大器完成同一任务时的总步骤。镜腿位置便于随身保持入口，但取景不直观且价格较高；桌面方案需要固定空间，却便于稳定材料。案头资料不足以断言哪种更有效，也不能用专业小众定位推导市场尚无竞争。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 验证｜把学习成本算入比较 · 待验证
+
+比较时应提供相同文本和相同熟悉时间，记录是否能独立开始、调整速度、重读重要句子以及回到其他活动。把设备、演示培训、兼容终端、运输维修和可选服务放在同一成本表，再由本人说明哪些步骤真正减轻负担；低频偶尔读取与每天反复读取应分别评估。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
 ## 供应链
 
 公开资料可核对磁吸在镜腿的小型相机模组、触控条和声音输出，具体整机工厂、关键模块供应商与BOM本次未确认。制造重点可从形态推断，但不能把品牌所在地、外观相似或营销合作等同代工关系。
+
+### 官方｜可见结构与未知器件 · 官方资料
+
+资料可确认镜腿磁吸固定的小型视觉模组、触控区域和声音输出，以及支持固定阅读的扩展方式。现有证据没有公开完整板级布局、主控料号、相机供应商或实际装配工厂；销售商自述授权与制造供应关系是两件事，不能据渠道页面或类似外观补齐物料清单。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 判断｜光学与佩戴共同约束 · 研究判断
+
+从产品用途推断，相机视场、近距离文字清晰度、头部运动和镜架稳定性会同时限制读取表现。仅选择更高像素传感器无法解决用户没有对准目标的问题；同类新设计需要把镜架兼容、热量、重量分布和语音反馈作为一个系统评估，不能按普通摄像挂件直接缩小。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 验证｜以实际文本选平台 · 待验证
+
+供应商比较可围绕低功耗视觉预处理和穿戴视觉主控展开，先用真实字体、标签曲面及屏幕反光样本测取景和识别链路。候选平台应证明模型可移植、内存足够及连续读取时的温升；这些验证只支持重新开发相似功能，不证明能替换OrCam现有封闭硬件或获得其算法。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
 
 ## 技术路径
 
 视觉识别把文字、人脸及物品等信息转成语音；Smart Magnifier的Just Ask提供基于内容的交互问答与摘要。这是厂商披露的功能机制；模型版本、准确率及内部结构未完整公开。架构只表示输入、处理和输出关系，不作为真实拆机或性能实测。
 
+### 官方｜两层智能需要拆开 · 官方资料
+
+已披露的视觉识别可把文字、人脸和物品相关信息转为语音，连屏功能再提供基于内容的问答与摘要。二者的数据输入、联网条件和输出可信度不同；本目录不把区域重定向出现的其他品牌型号功能自动并入MyEye 3 Pro，也不推断所有语言和智能问答都在镜腿端离线运行。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 判断｜错误会沿链路传递 · 研究判断
+
+若最初识别把数量、专名或否定词读错，后续问答可能围绕错误文本生成一段流畅解释。因此系统不仅需要读出结果，还应让用户知道当前读取的是哪一段、是否缺页以及能否重新采集。对人脸或物品的识别也应保留不确定性，避免把一个推测变成用户行动的唯一依据。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 验证｜逐层检查失败原因 · 待验证
+
+测试应区分拍不到目标、文字识别错、语音播报难懂和问答偏离原文四种问题，并分别模拟断网、屏幕连接中断与不支持语言。对同一材料保留原文与输出对照，确认基础读取仍可完成哪些任务；没有这一分层记录，很难判断改进需要发生在相机、软件还是教学流程。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
 ## 产品审美
 
 图示观察：小型镜腿附件与原有眼镜分离，桌面支架扩展了固定读取场景。宣传图片只能帮助理解外观和摆放方式，不能证明每个人的舒适度、长时使用体验或实际材料触感。
+
+### 官方｜附件化的外观逻辑 · 官方资料
+
+已核验图示显示主体附着于普通眼镜镜腿，原有镜框承担佩戴基础，外部触控和声音输出形成读取入口。桌面扩展允许在固定材料前使用，但不能由宣传图推断所有镜架都兼容、磁吸不会位移或每个人长时间佩戴均舒适；实际尺寸适配仍需逐人检查。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 判断｜易找到比隐形更重要 · 研究判断
+
+对于依赖触觉操作的用户，按钮与触控区域是否容易区分、拿起时能否辨认前后，以及设备脱落后是否容易找到，比外观极度隐蔽更直接。相机在社交场合的可见性也会影响他人理解；美学评价应兼顾本人对辅助设备身份的接受程度，而不是一律以隐藏功能为目标。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 验证｜观察一天中的切换 · 待验证
+
+可记录戴镜、换外套、坐下阅读和收纳充电等连续活动，查看设备是否被头发或镜架遮挡、触控是否误触以及语音是否影响交谈。把左右操作、听觉反馈和取下后的存放位置一起试用；照片中看不出的重量偏置与操作可达性，需要通过真实活动反馈确认。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
 
 ## 关键风险
 
 它提供信息辅助而不恢复视力；识别失误、联网问答幻觉与环境声音都可能影响关键内容理解。还需核对地区功能、软件更新与售后边界；本目录未进行实机、医学或可靠性测试，不把厂商演示当作结果保证。
 
+### 官方｜渠道与服务边界 · 官方资料
+
+官方提供销售联系目录和该代指南，具体可购证据来自自述授权的经销商页面；本轮没有证实中国大陆的该型号销售、语言配置和完整支持。线上购买按钮只能证明销售入口，不能证明当地培训、维修周转或所有连接服务可用，跨地区采购前仍需逐项获得书面确认。
+
+依据：[OrCam当前型号和销售联系目录](<https://www.orcam.com/en-us/distributor>) · [OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 判断｜辅助输出的使用边界 · 研究判断
+
+文字和场景识别提供的是信息辅助，不能恢复视力，也不能据此推导道路导航能力。涉及金额、地址或重要说明时，误识别与问答遗漏的后果高于普通阅读；同时，相机可能采集旁人和私人文件，用户需要能够判断何时启动、何时停止以及哪些连接功能会传递内容。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 验证｜关键内容可再次确认 · 待验证
+
+验收应包含错读后的重拍、重复朗读及通过其他可信渠道核对重要字段，并确认智能问答是否能回到原文。还应演练设备暂不可用时的日常替代方法、维修联络及数据处理说明；这些是具体使用流程的可靠性检查，不是对个人适配或识别效果作保证。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
 ## 机会与验证
 
 市场差异主要在于眼镜夹式视觉读取与连屏AI问答。值得进一步验证的购买理由是它能否减少既有任务中的具体步骤，以及硬件、服务与维护的总成本是否符合个人使用频率。
+
+### 官方｜两种读取环境并存 · 官方资料
+
+MyEye 3 Pro既提供随身镜腿读取入口，也能通过兼容智能屏扩大固定阅读与问答的使用方式。这个组合让购买判断不能只围绕一个便携模组，还需要明确用户实际拥有的终端与可用语言；公开资料并未证明两种模式在所有地区都有相同的功能范围。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 判断｜独立任务应保持聚焦 · 研究判断
+
+值得验证的差异是用户能否在拿取和整理物品时独立获取所需文字，并在必要时转到固定屏幕深读。若大多数时间仍由家人拿着材料和启动功能，产品的价值可能主要是家庭协作阅读；这同样有意义，但不应被包装成已经实现完全自主的视觉理解。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+### 验证｜用任务记录决定保留 · 待验证
+
+在可退换的试用条件得到确认后，可由本人选择每周最常遇到的三类读取任务，记录主动使用、成功获得信息和需要协助的次数。结束时比较原有方法与新设备的步骤、等待和疲劳感，再决定保留哪一种模式；没有长期观察和访谈，本目录只提出验证方法，不预判购买效果。
+
+依据：[OrCam MyEye 3官方用户指南入口](<https://orcam.helpjuice.com/myeye-resources/orcam-myeye-3-user-guide>) · [Amit Systems MyEye 3 Pro购买与功能](<https://www.getorcam.com/product-page/myeye-3-pro>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [ingenic](../supply-chain/ingenic.md) — **能力候选 · 非已采用** / 同类新设计的穿戴视觉与音频主控候选：君正CW080公开面向穿戴视觉并包含图像、神经网络及音频处理，可用于评估镜腿相机到语音反馈的同类新设计。需要先验证文本模型、热量、镜架空间和语言支持；未发现MyEye采用证据，也不意味着可替换原设备主控或取得其识别软件。
+
+- [himax](../supply-chain/himax.md) — **能力候选 · 非已采用** / 同类新设计的低功耗视觉预筛选候选：WiseEye2的低功耗视觉与端侧感知可用于评估目标出现、图像质量或唤醒等前置任务，帮助研究减少持续高负载读取。其定位不自动覆盖整页高精度OCR和完整语音输出，必须验证传感分辨率与识别输入要求；这里只记录功能候选，没有OrCam采购关系证据。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

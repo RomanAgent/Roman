@@ -58,33 +58,187 @@ Amazon Echo Studio with Home Camera 官方外观、结构或使用参考 · 来�
 
 需求假设：用户希望不拿手机就询问眼前物品，例如包装和桌游规则，同时保留高质量音乐体验。应验证看物问答是否足够高频，不能因摄像头加入音箱就推定家庭愿意让它长期观看房间。
 
+### 任务与触发场景 · 研究判断
+
+带Home Camera的Echo Studio把家庭声音入口扩展为可以展示物品的交互场景，用户不必先用文字完整描述眼前对象。需求应从具体展示、询问或辅助操作任务出发，而不是因设备多了相机就假设家庭需要。视觉信息是否减少解释步骤，要与手机摄像和原有声音助手比较。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 流程中的收益与代价 · 研究判断
+
+固定相机可能方便双手忙碌时展示物品，也会受到摆放位置、视角、光照和家庭隐私预期限制。音箱的播放用途与视觉助手用途可能不在同一位置最合适，需要研究二者是否冲突。若用户仍必须频繁搬动物品或拿起手机，增加相机未必带来足够流程收益。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 需求如何验证 · 待验证
+
+建议选择普通家庭物品与明确任务，让用户分别用手机、语音描述和该设备求助，记录信息输入、误识别、确认与完成步骤。不能把一次演示识物成功推广到所有场景。当前没有独立家庭研究，不承诺视觉回答正确、减少照护成本或替代专业判断。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
 ## 用户画像
 
 画像推断：已用Alexa、重视客厅音乐且愿意尝试视觉交互的家庭，与只需语音控制的用户不同。设备放置高度、镜头方向和展示物品的距离会影响使用，不能由音箱用户基数直接推算需求。
+
+### 优先使用者 · 研究判断
+
+优先画像是已经接受固定家庭语音终端，并有真实视觉询问需求的个人家庭，例如希望边做事边展示对象的人。购买理由与已有服务、房间用途和摆放条件相关，不应把所有重视音质的用户都归入视觉助手需求。需要分别确认对声音与相机功能的期待。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 购买者与使用者 · 研究判断
+
+共享空间里的相机可能影响没有购买设备的家庭成员或访客，配置者与被拍摄者的接受度不一定相同。研究应询问谁能使用、谁能关闭、何时需要反馈以及哪些区域不应进入画面。不能只以购买者同意来推断所有人在家中都接受持续存在的视觉入口。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 不适配与分层验证 · 待验证
+
+主要需要移动拍摄、离线识别或对固定相机不舒适的人，可能更适合手机等方案。建议纳入不用相机功能和停用者，观察是否因为视角、隐私、回答质量或原任务不足。地区与账号支持需要单独确认，不能从海外购买入口推断全部功能在中国大陆可用。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
 
 ## 竞争与替代
 
 竞争判断：与无摄像头Studio、智能屏幕及手机多模态助手竞争。它保留音箱形态同时增加视觉，但手机通常更容易对准物品；是否值得独立硬件，需要比较实际任务成功率和隐私成本。
 
+### 直接与间接替代 · 研究判断
+
+替代方案包括普通智能音箱配手机相机、带屏助手、移动手机视觉应用与其他家庭终端。固定视觉入口可能更随手，手机却有可移动视角和直接确认屏幕。应以同一个展示与询问任务比较，不能只把相机存在与否作为优劣，也不将所有家庭摄像头视为同类助手。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 具体差异与条件 · 研究判断
+
+官方描述视觉输入帮助Alexa+理解用户展示的物品，声音系统还涉及房间播放适配。两类能力需要分开评价，音质提升不能证明识物质量，视觉回答也不能证明播放更好。是否值得把相机和较高规格音箱合并，取决于两个任务是否经常出现在同一使用位置。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 同条件比较方法 · 待验证
+
+比较时应固定对象、距离、光照和服务权益，记录重新摆放、错误纠正及结果确认；对播放用途另做同条件体验评估。没有上线或权限不满足的功能不应计为现成能力。当前没有独立竞品测试与销量资料，不对视觉助手或音箱市场地位作推断。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
 ## 供应链
 
 供应链分析：扬声器、声学腔体、麦克风、相机与本地处理模块需要在紧凑机身协同，实际工厂及BOM未知。回声处理、热设计、镜头防污和长期云推理成本都影响产品交付。
+
+### 功能与交付拆分 · 研究判断
+
+功能层包括声音输入输出、摄像与图像传输、设备侧处理、连接供电、机身装配及Alexa+服务。具体光学、音频器件和制造商未完整公开，不能由品牌合作或外形猜BOM。视觉和声音共同进入家庭系统，也需要明确数据流、权限和软件维护的责任。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 制造与服务约束 · 研究判断
+
+固定相机的视场、低光、机身位置与声音播放环境需要共同设计，不能单独选择镜头或扬声器后假设整机体验自然成立。持续软件和云服务又可能改变功能范围，需要版本和配置管理。量产验收应区分光学、声学、连接和任务反馈，不让其中一项演示替代全链路验证。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 候选公司与导入 · 研究判断
+
+候选公司可从声学系统与摄像模组两条路线研究新设计，明确房间场景、目标对象、体积与功耗后询样。它们并未被确认是此款Echo Studio的实际供应商，也不能自动提供Alexa授权。报价、工厂、接口和配套服务都需要独立项目证据。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
 
 ## 技术路径
 
 官方披露视觉识物与Alexa+问答、房间音频适配。技术判断：包装文字、距离和光照影响识别，模型可能误解物品或规则；视觉识别应给出可复核内容，不应把回答准确性视作必然。
 
+### 已知功能与处理链路 · 研究判断
+
+公开介绍给出了摄像头为Alexa+提供视觉信息、支持用户展示物品后询问的方向。可拆为图像获取、视觉理解、语音请求、上下文处理和反馈，但具体模型与部署未完整披露。房间音频适配属于另一条功能链，不能把所有自动处理都当成同一种AI能力。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 主要技术约束 · 研究判断
+
+难点包括对象是否进入视角、光照是否足够、用户指向是否明确，以及系统是否正确关联当前问题与画面。模型给出自信解释并不等于识别到正确对象，固定设备又没有手机那样方便调整视角。需要能让用户检查、纠正与取消，不能只优化回答的自然程度。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 系统验证方法 · 待验证
+
+建议覆盖普通物品、遮挡、多对象、反光和不同摆位，并记录原始任务、输入条件与错误恢复。涉及高影响判断时，不应以助手回答代替专业验证。当前没有实测数据，因此不承诺任意物品识别、所有房间效果或发布后尚未逐项确认的功能。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
 ## 产品审美
 
 审美判断：织物音箱更易融入客厅，但镜头会改变用户对物件的感受，运行指示和关闭方式需要明显。屏幕缺席使回答依赖声音，长解释、隐私提示和物品对准反馈应保持简洁。
+
+### 形态与使用环境 · 研究判断
+
+音箱与相机合并会改变家庭成员对设备的感受：一个声音产品同时成为视觉入口，需要更清楚地表达当前状态。外观是否适合摆放不能只看扬声器风格，还要看镜头可见性、视角与家庭空间。简洁隐藏并不总是优点，如果让用户难以意识到相机状态，理解成本可能上升。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 交互与身体体验 · 研究判断
+
+交互应让人分清正在听、正在获取画面、正在分析和已经完成，尤其在没有便捷屏幕确认时更重要。需要核对关闭或暂停方式是否清楚，并观察普通成员能否理解。设计研究应以真实操作为依据，不从产品照片推定已经具备某种物理遮挡或隐私控制结构。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 长期维护与设计验证 · 待验证
+
+建议把播放、视觉询问、暂停、移动摆放与日常清洁放进连续使用流程，观察声音最佳位置与摄像最佳位置是否冲突。服务更新后提示是否保持一致也应记录。当前没有声学、光学和耐久实测，不由机身形态保证音质、识别效果或长期维护便利。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
 
 ## 关键风险
 
 风险判断：室内视觉和语音数据可能涉及其他家庭成员，需清晰权限与物理控制。商品识别若关联购买应防止误操作，尚未上线的Fire TV通话不能提前计入当前价值或作为已可用卖点。
 
+### 主要失败情形 · 研究判断
+
+主要风险是用户误认为视觉助手看清了目标，或把生成解释当成可靠识别。固定相机还带来共享空间与访客的隐私预期问题，需要明确状态、权限和数据处理。回答、建议与已经执行的动作应清楚区分，不能因交互自然就忽略错误和不确定性。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 购买与持续服务 · 研究判断
+
+实际能力受地区、账号、联网、服务权限和功能上线状态影响，不能将发布演示全部视为当前可用。购买还应区分基本音频功能与新增视觉服务的长期条件。海外官方销售并不证明大陆的全部体验与支持，需要按具体计划和设备版本核验。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 风险验证及停止条件 · 待验证
+
+试用前可定义对象反复无法进入画面、错误难以纠正、家庭成员不能理解相机状态或服务范围不满足需求等停止条件。保留这些结果，不以新鲜感或互动时长作为效果证明。当前没有独立长期数据，不对家庭隐私完整性、识别可靠性或商业机会作保证。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
 ## 机会与验证
 
 机会假设：研究用户在厨房、桌游和无障碍场景中是否愿意主动展示物品，比较手机拍摄方案。若视觉使用很少，采用明确的按需开启和短反馈流程，可能比持续环境感知更容易获得信任。
+
+### 可检验的差异 · 研究判断
+
+可探索的差异是让固定视觉入口在某类家庭任务中真正减少解释，而不是单纯增加摄像头。明确的对象确认、失败提示和可理解的数据边界可能比更多识别标签更重要。创业团队应选择一个具体场景，验证手机方案有哪些无法合理消除的动作，再考虑专用硬件。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 实现与商业约束 · 研究判断
+
+实现约束跨越光学、声学、权限和云服务，单一模型演示无法证明完整产品价值。声学与视觉摆位可能产生取舍，生态与账户也增加迁移成本。当前没有采购、运营与用户留存数据，不能从高规格音箱的售价推测视觉助手的付费空间。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+### 下一阶段验证 · 待验证
+
+下一阶段应观察家庭实际展示对象并求助的过程，记录准备、确认、错误恢复和是否回到手机，再测试更明确的交互原型。若视觉需求只是偶发，手机可能更合适。确认连续使用收益后，再进入相机、声学和系统工程候选的样机验证。
+
+依据：[Amazon Echo Studio with Home Camera 官方购买页](<https://www.amazon.com/dp/B0CVJSF8JR>) · [Amazon 官方视觉音箱说明](<https://www.aboutamazon.com/news/devices/echo-speaker-lineup>) · [Amazon 2026新品上市公告](<https://www.aboutamazon.com/news/devices/new-alexa-devices-2026>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [goertek](../supply-chain/goertek.md) — **能力候选 · 非已采用** / 家庭音箱声音系统候选：歌尔公开声学与智能音箱集成能力，可用于重新开发声音和视觉结合的家庭终端时评估音频模块。机壳、播放、拾音及软件仍须共同验证；这不证明当前Echo Studio with Home Camera由歌尔供货。
+
+- [sunny-optical](../supply-chain/sunny-optical.md) — **能力候选 · 非已采用** / 固定家庭视觉输入模组候选：舜宇公开镜头和视觉模组能力可作为新设计的成像候选，需要核对视场、光照、体积、接口及数据处理。视觉模组供应不等于完整Alexa视觉服务，也不构成现有Echo Studio采用该公司模组的证据。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

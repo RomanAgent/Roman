@@ -5,7 +5,7 @@ const available=data.products.filter(p=>['on_sale','preorder'].includes(p.status
 const min=data.target?.minimumAvailableConsumerProducts||200;
 assert(data.products.every(p=>['consumer','prosumer'].includes(p.audience)),'消费目录混入专业/开发用途条目');
 assert(available.length>=min,`尚未达到${min}款可购C端目标：当前${available.length}`);
-assert(available.every(p=>['retail','preorder','consumer-fitting'].includes(p.saleMode)),'可购产品缺少消费购买渠道');
+assert(available.every(p=>['retail','preorder','consumer-fitting','rental'].includes(p.saleMode)),'可购产品缺少消费购买渠道');
 const ids=new Set();const names=new Set();
 for(const p of available){
  assert(!ids.has(p.id),'重复产品ID');ids.add(p.id);

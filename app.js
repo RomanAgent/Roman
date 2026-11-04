@@ -52,11 +52,12 @@ function renderNotFound() {
 function route({ initial = false } = {}) {
   const [page = 'home', detail, productId] = location.hash.slice(1).split('/');
   let active = page || 'home';
-  document.title = `${({home:'个人档案',ai:'行业 AI 历程',journey:'我的创业经历',hardware:'智能硬件方向'})[active] || '记录'} · Roman`;
+  document.title = `${({home:'个人档案',ai:'行业 AI 历程',journey:'我的创业经历',hardware:'智能硬件方向','supply-chain':'供应链目录'})[active] || '记录'} · Roman`;
   if (!page || page === 'home' || page === 'main') { renderHome(); active = 'home'; }
   else if (page === 'ai') renderAI();
   else if (page === 'journey') renderJourney();
   else if (page === 'hardware') window.HardwareApp.render(detail, productId);
+  else if (page === 'supply-chain') window.SupplyChainApp.render(detail,productId);
   else if (page === 'article') active = renderArticle(detail);
   else renderNotFound();
   document.querySelectorAll('[data-nav]').forEach(link => {

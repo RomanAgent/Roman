@@ -58,33 +58,187 @@ Alexa+按人物、时间、画面内容和语义选择及检索照片，建立�
 
 需求假设：家庭照片留在手机里很少被重新观看，用户希望相框自动挑出有意义的内容。应验证选片是否符合家人的偏好、是否避开敏感画面，自动更新频率不能代替情感价值和持续观看。
 
+### 任务与触发场景 · 研究判断
+
+AI相框的核心任务是从家庭不断积累的照片中找到值得展示或回看的内容，而不是仅把手机相册搬到一个屏幕。官方描述语义、人物和时间等信息参与选择与检索，为减少手工整理提供可能。但是否真正增加有意义的回看，需要与普通自动播放和手机相册比较。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 流程中的收益与代价 · 研究判断
+
+自动选片和跨时间关联可能降低整理负担，也可能展示用户不想公开的照片或反复选择相似内容。照片的情感意义与图像模型判断并不相同，家庭需要保留选择和纠正方式。应把上传、整理、展示和回看分成不同任务，不能只用播放时长或生成解说评价价值。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 需求如何验证 · 待验证
+
+建议让家庭使用同一批允许共享的照片，比较手工挑选、普通轮播与AI检索，记录整理时间、错误选片和主动回看的原因。还应观察其他成员是否接受展示内容。当前没有家庭实验与长期数据，不把语义搜索或相册关联直接等同情感连接和购买意愿。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
 ## 用户画像
 
 画像推断：想给长辈赠送持续更新照片的家庭，以及有大量Amazon Photos内容的用户。购买者和观看者可能不同，远程管理、误传处理与简单语音使用比复杂编辑能力更关键。
+
+### 优先使用者 · 研究判断
+
+优先画像是有较多数字照片、愿意在固定家庭空间展示，并觉得整理和回看有摩擦的人。照片来源、家庭共享方式和维护习惯，比年龄或拍摄数量本身更能解释适配。经常只在个人手机查看的人，未必需要单独相框，即使很喜欢AI生成或检索功能。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 购买者与使用者 · 研究判断
+
+相框可能由一位成员购买或送礼，另一位成员负责上传，日常观看者却未参与设置。研究应区分购买、内容管理和观看三种角色，明确谁决定哪些照片适合展示。赠礼者觉得功能丰富，不等于接收者愿意维护账号、网络和图片权限，也不等于所有照片中的人都愿意被展示。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 不适配与分层验证 · 待验证
+
+缺少稳定网络、不愿连接云相册或更偏好实体照片的人，需要先确认实际使用方式。建议纳入不会主动整理数字照片的人试用，记录是否仍需要家人持续帮助。跨地区账号、服务和售后条件另需核对，不能因相框看似简单就忽略平台依赖。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
 
 ## 竞争与替代
 
 竞争判断：与Aura等联网相框、智能屏幕和普通照片打印竞争，语义搜索和跨时间关联形成软件差异。屏幕本身可替代性强，真正壁垒可能在照片库、家庭分享和隐私信任，而非相框外观。
 
+### 直接与间接替代 · 研究判断
+
+直接替代包括普通数码相框和其他智能相框，间接替代包括手机相册、电视投屏与实体相册。它们对整理、摆放和共享的要求不同，应围绕同一批照片的选择与回看比较。不能只看屏幕或是否提供AI标签，也不应把云相册中已有的检索能力全部算作新硬件独有价值。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 具体差异与条件 · 研究判断
+
+官方描述按人物、时间、内容和语义选择照片，差异可能在于减少手工找片并连接不同时间的记录。用户是否认可这种关联，需要实际验证；模型看到相似对象，不代表家庭认为这些照片有同样意义。与普通轮播相比，应研究控制、纠错和解释，而不只展示惊喜效果。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 同条件比较方法 · 待验证
+
+比较时建议固定内容权限、照片集合和网络条件，记录检索结果、误展示、重复选择及用户手动调整。还要核对订阅和账号成本，避免把硬件价格与包含服务的计划混比。当前没有同条件测试和销量资料，不推断语义相框一定优于既有产品或形成新市场。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
 ## 供应链
 
 供应链分析：显示面板、触控、麦克风、环境感知和相框材料构成终端；实际工厂与BOM未知。云相册存储、人物识别、内容推理及赠礼售后是持续成本，不能只按显示器硬件估算。
+
+### 功能与交付拆分 · 研究判断
+
+公开功能可拆为显示、机身与摆放、供电连接、照片来源、内容索引、语义分析和展示服务。完整面板、主控和制造厂没有公开，不从外观猜测BOM。照片管理与账号权限属于持续交付的重要部分，不能仅列屏幕和电路板就认为供应链研究结束。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 制造与服务约束 · 研究判断
+
+显示观感、自动展示与内容服务需要共同验证：同一图片在不同环境下的可读性和用户选择意义不同。网络中断、照片删除与索引更新也可能造成展示不一致，需要有清楚状态和恢复方式。硬件质量、云服务和内容权限应由明确主体负责，不能互相推诿。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 候选公司与导入 · 研究判断
+
+候选公司可以从显示面板和家庭带屏终端系统寻找，用于开发类似产品时验证尺寸、机身、连接和长期运行。它们不是已经确认的Amazon相框供应商，也不会自然提供相册与Alexa服务。采购条件、模组接口、软件责任和数据处理范围都应逐项目询问。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
 
 ## 技术路径
 
 官方披露按人脸、时间与画面语义选片，并用自然语言寻找照片。技术判断：表情和情绪的推断不等于真实意义，家庭合照与儿童隐私需控制；自动关联结果应容易删除、更正或关闭。
 
+### 已知功能与处理链路 · 研究判断
+
+官方AI能力主要在照片选择、检索与跨时间关联，不是普通同步或环境调光本身。可理解为照片进入、索引和内容理解、用户请求、选择排序及展示反馈几个环节。具体模型、全部部署和权限实现未完整公开，不能据相框名称推断所有分析都在本机离线完成。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 主要技术约束 · 研究判断
+
+技术约束在于识别人、物或时间并不等于理解家庭意义，错误索引还可能产生不合适展示。语义请求与照片来源之间需要可核对的关系，删除、隐藏或权限变化也应一致传播。生成式解释如果存在，更不能被当成照片中真实发生细节的独立证据。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 系统验证方法 · 待验证
+
+建议使用允许共享且背景明确的测试照片，加入模糊描述、相似人物、时间混杂和权限变化，记录结果与纠正流程。测试应分别看索引、检索和展示，而不是只评价屏幕效果。当前没有实际实验，不承诺所有照片被正确理解、关联或长期保存。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
 ## 产品审美
 
 审美判断：相框的价值在于像家居物件一样安静呈现照片，半哑光屏与实体边框比科技灯效更合适。亮度、夜间关闭、摆放方向和电源线影响真实观感，语音状态不能抢走照片主体。
+
+### 形态与使用环境 · 研究判断
+
+相框需要与家具、照片和观看距离共同评价，外观的目标可能是让内容成为中心，而不是不断强调设备本身。固定展示会使边框、供电与摆放方式比手机相册更重要。设计是否融入家庭属于场景观察，不能仅凭渲染图断定适合所有空间或观看习惯。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 交互与身体体验 · 研究判断
+
+日常界面应让观看者容易暂停、更换、隐藏或理解某张照片为何出现，内容管理者则需要清楚的上传和权限入口。两类角色不应承担相同操作负担。若AI选择难以纠正，极简界面反而可能隐藏关键控制；应观察实际手动调整与求助次数。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 长期维护与设计验证 · 待验证
+
+建议连续观察内容更新、搬动、清洁、断网恢复和家庭成员交接，记录相框是否逐渐变成无人维护的屏幕。长期审美还取决于重复播放与内容节奏，而非仅看首次画面。当前没有显示、材料和耐久实测，不以产品照片保证真实观感与可靠性。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
 
 ## 关键风险
 
 风险判断：自动展示可能把敏感照片、陌生截图或不想回忆的人物带到公共空间，分享权限必须易理解。试用期后AI权益可能变化，不能把订阅能力宣传成购买硬件后永久免费拥有。
 
+### 主要失败情形 · 研究判断
+
+主要风险包括误展示、权限理解不一致、照片识别与关联错误，以及用户误以为系统知道真实家庭故事。共享屏幕可能影响没有主动使用设备的人，需要明确内容选择与删除。AI检索的流畅表现不能替代对结果的核对，也不能承诺所有照片都符合观看者期待。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 购买与持续服务 · 研究判断
+
+购买需确认照片服务、账号、网络、地区和订阅条件，不能把相框售价视为所有长期功能都包含。原相册删除或服务变化后展示如何处理，也应检查。海外官方销售入口不等于中国大陆全部能力和支持可用，礼物接收者的实际服务条件尤其需要单独核对。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 风险验证及停止条件 · 待验证
+
+可在试用前设定误展示难以纠正、管理者持续投入过多时间、观看者不主动回看或服务条件不适配等停止条件。保留用户不喜欢AI选片的原因，与喜欢的例子一起分析。当前没有长期使用和情感效果证据，不把照片展示自动解释为关系改善。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
 ## 机会与验证
 
 机会假设：以赠礼家庭的长期更新和观看频率验证需求，比较人工选片与AI自动选片的满意度。若用户只需要少量精选照片，可优先做可控的家庭协作，而非追求模型不断制造新关联。
+
+### 可检验的差异 · 研究判断
+
+可探索的差异是让家庭更容易找到和分享有意义的照片，同时保持选择权和可理解性。比增加更多自动标签更有价值的，可能是帮助不同成员轻松贡献内容并纠正误解。创新应落在完整的整理和回看任务，而不是把模型检索能力直接等同新硬件需求。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 实现与商业约束 · 研究判断
+
+实现约束包括照片来源、权限、云服务、显示和长期维护，硬件团队不能只解决屏幕播放。送礼和自用也可能有不同的服务负担与付费理由。当前没有采购成本、持续运营和家庭留存数据，不由数字照片数量推算市场规模或订阅收入。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+### 下一阶段验证 · 待验证
+
+下一阶段可先用已有屏幕测试内容选择与共享流程，观察是否减少整理而增加主动回看，再决定专用相框形态是否必要。保留误展示、被忽略和停止使用的记录。只有确认这种流程收益后，再进入显示和终端工程候选的样机与持续运行验证。
+
+依据：[Amazon Alexa Photo Frame 官方购买页](<https://www.amazon.com/dp/B0H3CPKKVN>) · [Amazon AI相框官方能力与在售说明](<https://www.aboutamazon.com/news/devices/amazon-alexa-photo-frame>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [boe](../supply-chain/boe.md) — **能力候选 · 非已采用** / 家庭照片展示面板候选：京东方显示能力可作为新相框的面板选型入口，需要在实际观看距离、环境、机身与长期运行中验证，而非只比较尺寸。此关联不证明Amazon相框实际采用京东方，也不能保证AI选片和内容服务效果。
+
+- [huaqin](../supply-chain/huaqin.md) — **能力候选 · 非已采用** / 家庭带屏终端整合候选：华勤公开智能家居与数码相框等能力，可用于重新开发时讨论显示、联网和整机工程。照片权限、索引及Alexa服务需由项目另行确定；当前没有本型号由华勤研发制造的点名证据，不能视为已采用关系。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

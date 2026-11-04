@@ -56,33 +56,187 @@ Makeblock Codey Rocky · 官方参考图 · 来源：[Makeblock · 官方图片]
 
 需求假设：初学者希望把简单识别结果变成表情和行走动作，获得比屏幕积木更直观的反馈。应确认家庭实际完成的是AI识别项目，而非长期只使用遥控和巡线功能后仍称为AI学习。
 
+### 产品任务与边界 · 研究判断
+
+Codey Rocky 用表情主控和履带底盘把程序结果变成实体反馈，AI 学习需要配合 mBlock 及外部输入。它解决的是初学者从屏幕逻辑走向可见动作的需求，不能因为能巡线或遥控就把日常玩法全部称为人工智能。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 需求判断 · 研究判断
+
+较少机械组装可能降低开始门槛，但学习价值仍取决于用户是否从遥控转向编程和识别项目。若长期只用预设动作，普通玩具可能已经足够；需求研究应关注实际完成的活动，而不是家长购买时对科技学习的愿望。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 需求验证 · 待验证
+
+可追踪家庭从第一次遥控到第一个识别项目的过程，记录停留阶段、成人帮助和再次启动意愿。让孩子解释某个表情或动作由什么输入触发，区分理解程序、记住操作和单纯欣赏机器人反应这三种不同结果。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
 ## 用户画像
 
 画像推断：偏好较少机械组装、愿意与成人一起使用图形编程软件的低龄学习者较匹配。主控与底盘分离方便探索，也可能需要解释不同模块作用，不能假定可爱外观意味着无需引导。
+
+### 适用行为与条件 · 研究判断
+
+较匹配偏好少组装、愿意与成人共同使用图形编程的初学者，主控和底盘分离使探索具有明确对象。可爱外形不会消除软件配置和模块解释需求，因此需要能提供适度引导的家庭环境，而不是期待设备独自完成教学。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 人群取舍 · 研究判断
+
+已有电脑使用经验的孩子可能很快开始编程，主要使用平板的家庭则需先核对具体项目条件。对机械搭建兴趣较强的人，较封闭形态也可能限制探索，因此画像应围绕学习方式和终端条件，而不是只按低龄划分。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 画像验证 · 待验证
+
+画像验证应观察孩子是否愿意拆分主控与底盘、是否理解两者作用，并让家庭自行配置一次 AI 项目。记录问题来自终端、连接、代码还是概念理解，避免将所有困难归为年龄不适合或缺乏编程天赋。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
 
 ## 竞争与替代
 
 竞争判断：同价位编程玩具、积木和移动应用很多，轻量角色外观与模块化底盘形成差异。若用户只使用遥控，普通玩具可能足够，因此需要区分编程需求、陪伴期待和礼物新鲜感。
 
+### 比较对象与差异 · 研究判断
+
+Codey Rocky 与编程积木、遥控玩具和移动学习应用竞争，角色化主控与履带执行是具体差异。它比复杂搭建套件更容易开始，但是否值得保留仍取决于后续项目深度，不能只比较开箱时能做多少动作。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 竞争判断 · 研究判断
+
+如果用户只需要遥控和表情，较简单玩具可能提供相近娱乐；如果目标是机器学习，免费软件也能完成部分任务。实体底盘需要证明它增强了理解和重试意愿，而不是只为已经完成的屏幕分类增加一个昂贵动画。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 竞争验证 · 待验证
+
+竞争验证可让学习者完成相同识别任务，分别使用屏幕反馈和 Codey Rocky 动作，再解释失败原因。还需计入配套终端和扩展条件，避免将本体价格与全部学习成本混为一谈，或只比较品牌课程数量。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
 ## 供应链
 
 供应链推断：履带底盘、主控连接和点阵显示需承受反复拆装与桌面跌落，触点和传动部件也会磨损。官方未披露完整工厂和物料表；固件工具、适配器和备件可用性影响交付体验。
+
+### 功能模块拆分 · 研究判断
+
+功能层由 Codey 的点阵显示和输入、mBlock 学习软件与外部感知、识别到程序的映射，以及 Rocky 履带底盘构成。官方 FAQ 明确本体没有独立语音识别模块，系统图不能把外部 AI 能力画成全部内置。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Codey Rocky官方能力边界FAQ](<https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky>)
+
+### 制造与供应约束 · 研究判断
+
+制造约束集中在主控连接、履带传动、触点和点阵显示的反复使用，同时需要承受拆装和桌面跌落。备件、固件工具及适配说明也是交付部分，若连接问题难以判断，家庭可能把硬件故障误认为程序写错。连接触点清洁后的复装表现也应纳入样件验收。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 候选与证据缺口 · 研究判断
+
+SIIX 可作为控制板及连接测试候选，PCBWay 可支持开发阶段的小批电路与结构样件。两者没有 Codey Rocky 点名供货证据；教育软件、外部识别接口和履带耐久需要单独验证，不能从打样能力推定完整套件交付能力。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
 
 ## 技术路径
 
 官方将AI能力放在mBlock学习生态中，同时明确本体无语音识别模块。技术判断必须标清外部摄像与软件依赖，不把颜色传感或固定避障逻辑描述成通用视觉，也不声称可直接自由聊天。
 
+### 已披露技术边界 · 研究判断
+
+AI 能力主要通过 mBlock 学习生态提供，人脸等识别项目依赖外部输入或扩展，普通颜色检测和避障则属于不同技术层。技术表达必须区分这些路径，尤其不能把可编程主控描述为能够直接自由聊天的机器人。
+
+依据：[Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>) · [Codey Rocky官方能力边界FAQ](<https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky>)
+
+### 系统难点判断 · 研究判断
+
+系统难点是让初学者理解外部识别和本体执行的分工。相同的停顿可能来自软件权限、连接或控制程序，若没有清楚反馈，儿童很难判断下一步应调整什么；可解释调试比增加抽象的 AI 标签更能支持学习。
+
+依据：[Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>) · [Codey Rocky官方能力边界FAQ](<https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky>)
+
+### 技术验证 · 待验证
+
+验证应从官方 FAQ 的能力边界出发，测试外部输入、连接中断和预测错误如何影响动作，并要求学习者说明原因。语音项目需单独核对所需模块，不能把另购或外部条件隐藏在演示后，再宣称本体开箱具备相同能力。
+
+依据：[Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>) · [Codey Rocky官方能力边界FAQ](<https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky>)
+
 ## 产品审美
 
 审美判断：白色圆角主控、点阵表情与黑色履带让它像一个小角色，降低工具的陌生感。表情可读性、拆装阻力和地面运行声音需要实际体验，图片中的友好感不代表所有孩子都感兴趣。
+
+### 外观与交互语言 · 研究判断
+
+白色圆角主控、点阵表情和黑色履带使 Codey Rocky 更像小角色，降低工具的陌生感。模块分离又让它保留可探索结构，审美和学习目的相互关联，不能仅把友好外观理解为装饰或天然适合所有儿童。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 使用中审美判断 · 研究判断
+
+点阵表情的可读性、连接手感和履带声音决定真实使用体验。若拆装阻力过大或接口方向不清，角色亲和力无法消除操作挫败；设计应让主控与执行部分的关系可见，同时避免过多视觉信息干扰编程任务。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 设计验证 · 待验证
+
+设计验证应让孩子在没有成人演示时辨认模块、拆装和收纳，观察表情是否帮助理解程序状态。还需在实际桌面或地面听运动声音，避免从静态商品图的简洁外形推断长期操作同样轻松。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
 
 ## 关键风险
 
 风险判断：AI课程与基础玩法的硬件条件不同，购买者容易误以为识别能力全部内置。电脑兼容、固件更新和小零件管理需要成人参与，不能将厂商能力描述直接转写成孩子独立学习保证。
 
+### 主要失效与依赖 · 研究判断
+
+主要风险是购买者误以为所有识别能力都在本体内置，或将普通自动化当作 AI 学习。电脑兼容、固件和扩展条件需要成人管理，教育成果也不能由厂商功能列表保证，产品应明确学习活动与设备能力之间的区别。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 风险传播判断 · 研究判断
+
+如果家庭无法跨过软件配置，设备可能长期停留在遥控玩法，实际价值与购买期待脱节。接口和履带磨损还可能让调试更困难，因此售后应帮助区分机械、连接和代码问题，避免用户不断改程序却无法解决硬件原因。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 风险验证 · 待验证
+
+风险验证应核对每个 AI 项目的完整设备清单，并从新终端重新安装和连接，记录需要成人介入的步骤。对故障恢复也要测试，不以课堂或演示中的顺利运行推断普通家庭可以无人指导长期使用。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
 ## 机会与验证
 
 市场观察：后续可记录家庭从遥控转向编程和识别项目的比例，询问在哪一步停止使用及需要何种帮助。把软件配置和成人陪同时间纳入总成本，判断实体角色是否真正支持持续探索。
+
+### 可能的机会入口 · 研究判断
+
+机会在于设计从遥控到程序再到识别学习的清晰路径，让角色反馈帮助孩子理解每一步变化。新产品可以优先减少配置障碍和提供错误解释，而不是一味加入更多模型能力，使入门体验与后续探索保持连续。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 机会成立条件 · 研究判断
+
+机会成立需要家庭能够逐步进入更深项目，并在失败后愿意继续尝试。若用户普遍停在表情和遥控，产品可能更适合作为娱乐玩具定位；只有学习增量被观察到，较复杂的软件与课程维护投入才有充分依据。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+### 下一步验证 · 待验证
+
+下一步可记录四周内项目阶段迁移和求助内容，针对最常停下的步骤调整引导，再比较调整后的自主完成情况。把成人时间和终端配置计入成本，避免只用产品销量或课程点击量推断持续学习价值。
+
+依据：[Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) · [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [siix](../supply-chain/siix.md) — **能力候选 · 非已采用** / 模块主控与连接器装配测试：SIIX 公开电子制造能力可对应主控板、连接器和功能测试，但履带寿命与 mBlock 学习接口需要另外验证；没有 Codey Rocky 点名合作信息，因此不能认定实际供应关系。
+
+- [pcbway](../supply-chain/pcbway.md) — **能力候选 · 非已采用** / 编程机器人开发板与结构打样：PCBWay 的电路打样和部分结构制造服务适合早期验证主控、连接和外壳样件，但不自动提供完整课程或批量套件可靠性；未发现其为 Codey Rocky 供货，当前只列原型阶段候选。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

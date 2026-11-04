@@ -56,33 +56,187 @@ RTK与VSLAM结合AI视觉和超声障碍感知，驱动履带式家用割草平�
 
 需求假设：较大、坡度明显或草较密的家庭庭院，需要更稳定通过和切割能力。应比较人工补割、草坪损伤和救援次数，履带能爬坡不代表每块湿草地都适用，也不代表能完全取消人工维护。
 
+### 产品任务与边界 · 研究判断
+
+Lymow One Plus 用履带、融合定位和双旋转切割面向较大或地形复杂的家庭草坪，任务是减少补割和人工搬运。履带通过能力与 AI 判断不同，能爬坡不代表所有湿草地适合，需求必须由整季劳动与草坪状态验证。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 需求判断 · 研究判断
+
+重型结构可能帮助处理密草和起伏，也增加搬运、清洗和维修负担。用户价值应与现有骑乘工具或园艺服务比较，而不是只看机器人运行时不用手推；若救援困难或草坪受损，机械优势可能没有转化为省事。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 需求验证 · 待验证
+
+可记录实际坡地、密草和窄通道的补割、救援及草坪痕迹，统计维护和季节收纳时间。比较同一地块原有工具与履带机器人，确认减少了多少真实劳动，避免把实验室坡度或最大覆盖数据当作家庭结果。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
 ## 用户画像
 
 画像推断：有较大私家庭院、能承担设备重量和维护的房主，通常已在园艺服务或骑乘设备上投入。普通小院用户可能不需要其体量，购买理由应来自真实地形而非机器人新鲜感。
+
+### 适用行为与条件 · 研究判断
+
+较匹配有较大私家庭院、愿意维护重型设备并具备停靠空间的房主，通常会与园艺服务或骑乘工具比较。普通小院可能无法利用体量和切割能力，购买理由应来自地形与任务，不是仅对履带机器人感到新奇。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 人群取舍 · 研究判断
+
+主要维护者的搬运能力、泥草清理习惯和维修可达性很重要，预算足够不代表愿意承担这些工作。家庭如果已有专业服务，也可能更重视支持和停机时间，画像应按维护分工与地块条件细分而不是只按面积。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 画像验证 · 待验证
+
+画像验证应从实际地块评估、停靠布置和一次救援开始，观察用户是否能处理重量和履带维护。再询问季节收纳与售后选择，识别真正需要复杂通过能力的人，避免将高配置兴趣误认为持续使用条件成熟。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
 
 ## 竞争与替代
 
 竞争判断：与Yarbo、四驱轮式机器人、骑乘式割草机和园艺服务竞争。履带提供不同通过策略，但也带来复杂维护；需要以整季任务结果比较，而不是把更强机械规格直接等同更高价值。
 
+### 比较对象与差异 · 研究判断
+
+One Plus 与 Yarbo、全轮驱动机器人、骑乘割草机及园艺服务竞争，履带提供不同通过路线而非全面优越。比较需要包括地形适配、草坪损伤和维修，不能只用更强机械规格或更大刀片推断更高家庭价值。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 竞争判断 · 研究判断
+
+履带在某些场景可能改善移动，也增加张紧、磨损和清洁任务，重型运输又影响售后成本。竞争优势必须在完整季节里成立，若用户主要痛点是安装和支持，增加机械能力未必比可靠服务更有效。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 竞争验证 · 待验证
+
+可在同一复杂地块比较轮式、履带和现有人工工具的任务完成、补割与维护，保留湿度和草况。不同路线都应按适用条件测试，不能从一次坡地演示或厂商极限值推断真实家庭全年表现。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
 ## 供应链
 
 供应链分析：履带、张紧结构、刀盘、电机、定位与视觉模块都要求户外耐久。实际代工及BOM未披露；草屑泥沙、履带更换、刀片配套与运输维修的成本，是新团队容易低估的部分。
+
+### 功能模块拆分 · 研究判断
+
+功能层包括 RTK、视觉定位与 AI 障碍感知、超声输入、路径控制、履带驱动和双旋转切割，以及能源停靠和应用。公开资料没有完整工厂及物料表，履带动作本身不是 AI，也不能推定具体融合控制内部实现。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 制造与供应约束 · 研究判断
+
+制造约束是履带与张紧、刀盘、电机、定位和相机在泥沙振动中协同，维护后需要保持结构与感知一致。履带替换、刀片配套和重物运输都是持续成本，不能只按电子器件或首批装配费用评估交付。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 候选与证据缺口 · 研究判断
+
+PCH 可作为重型消费设备工程与供应协同候选，Fictiv 可支持履带支架和切割结构零件原型。没有 One Plus 点名合作证据，户外负载、刀盘和融合导航需专项能力，综合服务不等于已能交付这款机器。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
 
 ## 技术路径
 
 官方说明RTK、VSLAM和AI视觉避障。技术判断：定位置信与视觉遮挡需要融合处理，湿滑、窄通道和动物移动应实测；实验室坡度和覆盖数据不能替代用户庭院的成功率。
 
+### 已披露技术边界 · 研究判断
+
+官方说明 RTK、VSLAM 和 AI 视觉及超声感知，核心是位置与障碍信息共同支持移动。机械抓地、切割和识别是不同指标，技术评价应保持分层，不能因履带看起来强壮就推断视觉失效时仍能可靠自主工作。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 系统难点判断 · 研究判断
+
+弱信号、镜头遮挡和湿滑地面可能同时出现，系统需要在定位不确定与驱动负载变化之间保持可控。窄通道和动物移动尤其需要保守策略，不能只用多传感器数量解释安全，更要观察失败后的停止与恢复。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 技术验证 · 待验证
+
+验证应覆盖树荫、湿滑、窄道和受控障碍，分别记录定位、通过、草坪痕迹与切割结果，不使用真实动物冒险。所有结论需绑定地块和配置，不能把实验室坡度或最高面积等同实际家庭稳定成功率。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
 ## 产品审美
 
 审美判断：履带与宽体结构强调工具可靠性，适合园艺场景但不够轻巧。搬运、冲洗位置、刀片访问和基站摆放会影响日常体验，工业设计应把维护动作纳入，而不是只强调机械力量感。
+
+### 外观与交互语言 · 研究判断
+
+履带和宽体强调园艺工具感，适合大地块但较难隐藏，也会增加重量与收纳的视觉压力。审美应包含搬运把手、清洗位置、刀片访问和基站，不能只欣赏机械力量感而忽略用户日常接触的部分。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 使用中审美判断 · 研究判断
+
+草屑泥沙附着后，结构是否容易清理比新品外壳更影响长期体验。维护入口应清楚并避免用户为清洗过度拆装，停靠和非工作季摆放也需要规划，让强工具形态仍能适应家庭的空间与操作能力。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 设计验证 · 待验证
+
+设计验证应观察实际清洗、履带检查、搬运和收纳，记录需要帮助与容易误操作的位置。还要评估停止控制和状态提示在户外是否可读，避免专业外观让用户高估无需维护或任何地形都可运行的能力。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
 
 ## 关键风险
 
 风险判断：高重量与刀盘意味着更严格的安全操作要求，孩子和宠物活动区域需管理。新旧型号配件未必兼容，云端与定位服务也可能变化；购买前应核对当地售后和冬季保养。
 
+### 主要失效与依赖 · 研究判断
+
+风险包括重量、刀盘、坡地滑移以及儿童动物活动，AI 不能替代物理边界和操作规程。新旧型号配件、地区连接和冬季保养也需核对，用户不能因同品牌名称相近就推定所有附件和服务兼容。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 风险传播判断 · 研究判断
+
+重型设备出现故障时，救援和运输可能比轻型割草机困难，长期停机也影响草坪维护。产品应提供清楚诊断和配件路径，不能让融合导航故障、履带问题和地图错误都依赖用户反复试错才能区分。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 风险验证 · 待验证
+
+风险验证应演练定位不足、泥草积累和任务中断后的恢复，核对实际维修运输与配件。测试应在安全受控条件下进行，不把履带、双刀或 AI 识别当作全天候、所有坡地和所有动物环境的可靠保证。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
 ## 机会与验证
 
 机会假设：先围绕某类坡地、草种或维护服务建立验证，量化设备代替了多少人工工作。若用户主要痛点是安装与维修，提供可靠服务可能比增加传感器或推出更大平台更有效。
+
+### 可能的机会入口 · 研究判断
+
+机会在于明确坡地、草种或维护服务的专用适配，先量化替代了多少人工工作。新团队可从安装、诊断和维修服务切入，若主要痛点不在切割能力，未必需要再开发更大履带平台或增加传感器。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 机会成立条件 · 研究判断
+
+机会成立需要地形收益超过维护与运输负担，不能只因为复杂地块用户预算高就认为容易进入。对于小院或较平坦地块，轻量工具可能更合理，产品应接受明确边界，以真实任务选择机械复杂度。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+### 下一步验证 · 待验证
+
+下一步可建立一季坡地使用记录，比较救援、补割、草坪痕迹和维修时间，再测试服务与结构改进。用整季结果决定履带价值，避免以强大外观、极限坡度或短期演示推断长期家庭需求。
+
+依据：[Lymow One Plus 官方商品页](<https://www.lymow.com/products/lymow-one-plus-robotic-lawn-mower>) · [Lymow 官方产品与使用场景](<https://www.lymow.com/?lv=true>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [pch-international](../supply-chain/pch-international.md) — **能力候选 · 非已采用** / 重型家用庭院平台工程与供应协同：PCH 的产品开发、采购和制造管理可协调履带平台的多类部件，但实际刀盘、户外负载及售后运输需专项确认；没有 Lymow One Plus 点名合作证据，只列工程候选。
+
+- [fictiv](../supply-chain/fictiv.md) — **能力候选 · 非已采用** / 履带支撑与切割结构零件原型：Fictiv 的机械加工和多工艺网络可支持履带支架、张紧及切割结构样件，但不能证明整机坡地安全或长期耐久；未发现 One Plus 供货披露，候选限定于结构开发。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

@@ -1,0 +1,277 @@
+# Arccos Air
+
+**Arccos Golf** · 运动与训练 · 核查 2026-11-04
+
+不在每支球杆装传感器的口袋击球记录器
+
+消费渠道：个人零售。
+
+## 产品图片与结构参考
+
+### 产品图
+
+![Arccos Air 官方产品图（含包装及App展示，手机不包含在硬件内）](../../assets/hardware/arccos-air/product.jpg)
+
+Arccos Air 官方产品图（含包装及App展示，手机不包含在硬件内） · 来源：[Arccos Golf · 官方资料](<https://www.arccosgolf.com/products/air>) · [原始图片](<https://www.arccosgolf.com/cdn/shop/files/ArccosAir-ProductImage-1_5ef3a447-9816-49f7-b46c-eaf6d172bf74.jpg?v=1773785037&width=1600>)
+
+### 参考图
+
+![Arccos Air 官方外观与使用参考图](../../assets/hardware/arccos-air/reference.jpg)
+
+Arccos Air 官方外观与使用参考图 · 来源：[Arccos Golf · 官方资料](<https://www.arccosgolf.com/products/air>) · [原始图片](<https://www.arccosgolf.com/cdn/shop/files/ArccosAir-ProductImage-2.jpg?v=1773785037&width=1600>)
+
+### 参考图
+
+![Arccos Air黑色随身主机及独立充电盒](../../assets/hardware/arccos-air/reference-case.jpg)
+
+Arccos Air 主机与充电盒官方参考图（硬件版与含会员版为同一硬件） · 来源：[Arccos Golf · 官方资料](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>) · [原始图片](<https://www.arccosgolf.com/cdn/shop/files/ArccosAir-HWOnly-ProductImage-1.jpg?v=1773825523&width=1600>)
+
+### AI 生成爆炸示意
+
+![Arccos Air 功能模块概念爆炸示意，未知内部为抽象体块，不代表真实拆机或物料布局。](../../assets/hardware/arccos-air/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/arccos-air.txt)
+
+> 以官方外观图为参照，已目视核对型号、外形、未提供参数与非拆机标记；内部位置仅为功能概念。
+
+> 图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。
+
+> 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
+
+## 销售与购买
+
+- 状态：在售。核查日官方商品页显示US$349.99、含首年Game Tracking、Add to cart；另有现有会员硬件版US$224.99购买入口。Link Pro为同硬件更新名称，不另计一款。
+
+- 地区：美国、加拿大、英国、欧盟、澳大利亚、日本、其他官方结算支持地区
+
+- 价格：US$349.99含首年订阅；续费US$199.99/年。核查日官方价；现有会员可购US$224.99硬件版。两种销售组合算同款，不重复收录。
+
+- 中国大陆：官方称全球多数地区可送，具体国家仅结算列出；本轮未确认大陆官方店、送达及中国球场数据覆盖，不作本地可完整服务承诺。
+
+- [官方产品 / 商店](<https://www.arccosgolf.com/products/air>)
+
+## AI 的实际作用
+
+内置陀螺仪、加速度计与GPS结合AI动作模式识别，区分实际击球和练习挥杆；无球杆传感器时球杆种类可由历史数据推断或手动补录。
+
+服务与联网依赖：回合后与手机App同步并依赖Game Tracking订阅获得分析。部分官方FAQ仍写Android无传感器模式待推出，新App文说明Android更新，具体客户端功能须现场确认。
+
+## 是否冷门
+
+细分专业（研究判断）：高尔夫统计已有成熟替代，口袋无杆标签是明确输入差异；场景小众并不等于缺少竞争或自动形成订阅。
+
+## 需求与市场
+
+案头需求是留下真实下场的击球与位置记录，同时不在每支球杆安装标签或不断掏手机。它解决的是记录摩擦，不是挥杆纠正器；是否改善决策取决于记录完整性和用户如何复盘。
+
+### 事实：任务边界 · 官方资料
+
+Arccos Air以口袋或腰夹小件记录一轮高尔夫击球，利用运动感知与定位识别实际击球，回合后把数据同步到App。官网明确可以不在每支球杆安装传感器；本条核心任务是低打扰地留下真实下场记录，而不是直接测量球飞行轨迹或自动矫正挥杆。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>)
+
+### 判断：真实需求 · 研究判断
+
+需求假设在于用户原本希望复盘，却不愿每杆掏手机、标记或管理球杆附件。旅行租杆、临时更换球杆和不想随身带手机的场景可能更适合这一输入方式；但如果用户从来不看统计，采集再自动也不会自然转化成持续使用价值。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>)
+
+### 验证：任务完成 · 待验证
+
+研究可让参与者完成一轮正常打球，同时由本人或同行用其习惯方式保留对照记录，赛后逐项核对实际击球与自动结果。访谈问过去为何放弃记分工具、哪些数据真会改变下一次练习，以及自动记录出错时愿意花多少时间修正。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>)
+
+## 用户画像
+
+更适合有稳定下场频率、愿意看回合分析，或旅行时使用租赁球杆的球友。已有Link Pro用户不需因改名重买；偶尔娱乐且不愿订阅的人可能用纸卡或手机记录就足够。
+
+### 事实：使用条件 · 官方资料
+
+官方提供新会员含首年订阅的版本，也提供面向现有Game Tracking会员的硬件版；这只是销售组合区别。拥有可用Link Pro的人能通过软件升级获得Air体验，不能仅因更名认定需要换新硬件，也不能把两种名称计作独立产品数量。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+### 判断：人群筛选 · 研究判断
+
+潜在人群应按下场频率、复盘习惯和是否常用租赁球杆划分。经常旅行的球手可能重视不用逐杆装标签，固定装备的球手可能更看重精确杆号；偶尔娱乐的人则可能觉得年费超过记录价值，这些都需要真实访谈而非由收入标签推断。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+### 验证：参与者差异 · 待验证
+
+招募应同时覆盖既有Arccos用户和从未用过自动记录的人，记录手机平台、常去球场和杆号管理习惯。询问他们最想省掉的是手机操作还是球杆安装，并观察在获得一轮统计后是否主动打开第二次，避免把试用新鲜感当成长期需求。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+## 竞争与替代
+
+替代包括逐杆传感器、手表记录和人工记分。Air减少球杆安装，但无传感器时杆号可以是AI推断，和直接识别并不等价；应比较修正错误的总时间而不是只看自动采集。
+
+### 事实：方案范围 · 官方资料
+
+官网对比说明逐杆Smart Sensors能直接帮助识别具体球杆，Air则用单个随身装置完成击球记录；无杆标签时杆号可以由AI推断、人工填写或保持不填。Link Pro与Air实际为同一硬件路线的软件更新，本目录只保留当前Air条目。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>)
+
+### 判断：替代关系 · 研究判断
+
+相对手机或手表记录，口袋设备可以减少在比赛过程中看屏幕的次数；相对逐杆标签，它更容易随不同球杆组移动，却可能增加赛后核对杆号的工作。真正竞争指标应是用户得到可信记录的总努力，不是宣传中是否出现完全自动四个字。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>)
+
+### 验证：比较方法 · 待验证
+
+可比较人工记录、逐杆标签和Air三种方式完成同一轮后的数据差别，分别统计漏记、误记、杆号不确定和修正耗时。若用户已有Link Pro，比较对象应是升级后的使用行为而非再次购买意愿，不能把免费软件更新当作新硬件需求。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>)
+
+## 供应链
+
+公开功能需要惯性运动感知、定位、本机处理、电池和充电盒，具体元件及代工未披露。小尺寸设计要兼顾口袋姿态变化、无线天线和充电接触，候选供应商不等于实际采用。
+
+### 事实：功能组成 · 官方资料
+
+官方技术说明列出陀螺仪、加速度计与GPS，并提供随身主机和专用充电盒；电池、处理和无线连接承担记录及同步任务。本轮资料没有公布具体惯性芯片、主控、电芯和装配工厂，因此不能通过设备外观或常用穿戴方案还原真实物料清单。
+
+依据：[Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+### 判断：交付约束 · 研究判断
+
+工程判断需要同时处理口袋姿态变化、挥杆振动特征、定位可用性和低功耗运行。壳体材料、天线摆放与穿着位置可能共同影响采集，一块惯性传感器本身不能提供稳定的击球记录；充电盒也要在长期携带后保持可靠接触和清晰状态。
+
+依据：[Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+### 验证：选型缺口 · 待验证
+
+TDK InvenSense可列为穿戴惯性感知能力候选，Grepow可列为小型电池工程候选。两者仅有模块能力匹配，具体采样、功耗、尺寸、认证和协议须工程验证；没有品牌接口或点名合作材料时，不给出可直接替换的元件表或成本结论。
+
+依据：[Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+## 技术路径
+
+AI把动作签名与定位结合，区分实际击球和练习挥杆；App再进行统计与策略分析。杆号由历史推断时需要可编辑机制，官方训练数据规模不能当成对每种打法都准确的证明。
+
+### 事实：AI机制 · 官方资料
+
+Arccos官方将AI作用描述为从运动签名中区别实际击球与练习挥杆，结合GPS形成击球位置记录。无球杆传感器时，具体杆号可基于历史和击球距离推断，用户也能自行修正；这两类输出具有不同确定性，不能都写成设备直接测量所得。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>)
+
+### 判断：系统边界 · 研究判断
+
+主要技术边界在于分类错误会传递到后续统计和策略。漏掉一杆或把练习挥杆算进去，可能让某洞表现看起来不同；推断杆号出错也可能影响单杆距离。因此数据编辑、异常提示和可追溯记录是系统价值的一部分，不只是附属界面。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>)
+
+### 验证：算法与体验 · 待验证
+
+实测应对照每次实际击球，特别记录推杆、轻切、连续练习挥杆和非常规姿势，并保留穿着位置与手机平台。训练样本规模只能说明厂商披露的训练背景，不能替代独立准确率；本轮尚未取得这些对照记录，不给出精度或降杆结论。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>)
+
+## 产品审美
+
+黑色口袋小件和充电盒减少在球场展示科技设备的负担，外壳状态灯与按钮较克制。分析上，带夹固定、手套操作、遗忘充电和赛后取出同步仍是比外观照片更关键的体验。
+
+### 事实：外观与交互 · 官方资料
+
+官方图片显示小型黑色圆角主机、侧面操作部位、状态灯和较大的独立充电盒，可放入口袋或夹在腰部。外形没有显示屏或球杆上的螺纹标签；这些特征直接对应低打扰携带，本站真实参考图保留官方原色与实际使用方式。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+### 判断：使用中的形态 · 研究判断
+
+这种克制的形态可能减少球场上的设备感，但也让用户不容易在口袋里确认工作状态。手套、裤料厚度、夹扣位置和赛后是否记得取出都会影响使用；把它做得更小并不必然更好，因为操作辨识与遗失风险可能同时上升。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+### 验证：日常接受度 · 待验证
+
+可让参与者戴手套完成开关、夹取、放回充电盒与查看状态，记录需要反复翻转或拿近观察的步骤。询问设备是否妨碍走路和挥杆，以及是否曾忘在衣物里；将这些具体经历与外观偏好同时保存，避免只用主图的精致程度判断体验。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>)
+
+## 关键风险
+
+风险在漏记、误判或杆号推断影响后续统计，以及订阅中断后的价值变化。官方Android功能说明存在新旧表述，购买前应确认目标手机上无杆传感器模式，不能泛称全平台一致。
+
+### 事实：已知限制 · 官方资料
+
+当前官方硬件版FAQ仍出现Android无球杆传感器模式待推出的表述，而新版App文章确认Android更新已上线。两条信息支持范围不同，因此本条没有据新App发布推断所有功能均已一致；购买者应在目标客户端确认本条最核心的无标签模式。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>) · [Arccos新版Android App说明](<https://www.arccosgolf.com/blogs/community/the-new-arccos-app-is-now-on-android>) · [Arccos配送范围](<https://support.arccosgolf.com/hc/en-us/articles/8635873227924-Where-does-Arccos-ship-to>)
+
+### 判断：失效影响 · 研究判断
+
+风险还包括自动记录和杆号推断让用户过度信任统计，以及首年结束后订阅续费成本被忽略。官方全球配送说明没有逐一列出所有目的地，本轮未核大陆结算、球场地图和售后，跨境能收到硬件不能证明当地服务全部可用。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>) · [Arccos新版Android App说明](<https://www.arccosgolf.com/blogs/community/the-new-arccos-app-is-now-on-android>) · [Arccos配送范围](<https://support.arccosgolf.com/hc/en-us/articles/8635873227924-Where-does-Arccos-ship-to>)
+
+### 验证：风险处理 · 待验证
+
+采购前应核对手机系统、当前固件、核心模式、常去球场覆盖及年费条款；试用时把自动数据与人工记录逐杆对照。对不一致结果应允许修正并记录原因，不用厂商的降差点宣传或运动员代言推导普通用户一定获得同样成绩变化。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>) · [Arccos新版Android App说明](<https://www.arccosgolf.com/blogs/community/the-new-arccos-app-is-now-on-android>) · [Arccos配送范围](<https://support.arccosgolf.com/hc/en-us/articles/8635873227924-Where-does-Arccos-ship-to>)
+
+## 机会与验证
+
+机会假设是降低旅行球手和更换球杆时的记录成本。可让参与者同步人工记分和自动记录，回合后逐杆核对，用修正时间、复盘行动和续费意愿检验，而不声称硬件必然降杆。
+
+### 判断：可尝试切口 · 研究判断
+
+可研究的机会是为经常更换或租用球杆的人降低记录设置成本，并把不确定杆号解释得清楚、让赛后修正足够轻。若用户主要在意一轮整体表现，未必需要每支杆都被直接识别；但这一取舍要由实际记录用途决定，不应由系统替用户假设。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>)
+
+### 判断：商业边界 · 研究判断
+
+商业边界在于订阅必须持续带来可行动的复盘，而不仅是一份越来越长的统计档案。已有Link Pro可升级也说明创新可以通过软件延长硬件寿命，不能把新名称当作换机市场；本轮没有续费、退订或销量样本，暂不估算可付费用户规模。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>)
+
+### 验证：下一步调研 · 待验证
+
+下一步可跟踪四轮真实下场，逐轮记录漏记修正时间、查看分析次数和因此改变的练习内容，再询问不续费会失去什么。将实际行为、正反访谈和平台差异分别呈现，不用模型评分预测成功，也不以样本中某人少打几杆归因于设备。
+
+依据：[Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) · [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>) · [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [tdk-invensense](../supply-chain/tdk-invensense.md) — **能力候选 · 非已采用** / 穿戴惯性动作采集候选：官方Arccos技术机制需要陀螺仪和加速度计采集挥杆，TDK InvenSense公开穿戴惯性感知与边缘学习路线，具备功能匹配基础。采样、功耗、口袋姿态与动作模型仍须整机评估，本轮没有其被Arccos Air实际采用的点名证据。
+
+- [grepow](../supply-chain/grepow.md) — **能力候选 · 非已采用** / 口袋主机与充电盒电池候选：Arccos Air需要小型随身主机和充电盒供电，Grepow公开定制形态及穿戴电池工程能力，可作为空间与续航取舍的研究候选。电压、保护、充电接口及温度要求仍未公开匹配，不能把电池能力目录解释成已供货或可直接兼容。
+
+[浏览供应链目录](../supply-chain.md)
+
+## 功能分层示意
+
+这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。
+
+1. **运动采集**：陀螺仪与加速度计采集挥杆运动，GPS定位击球区域。（官方披露）
+
+2. **AI击球识别**：动作模型区别实际击球与练习挥杆，非光学测球雷达。（官方披露）
+
+3. **本机存储与连接**：设备记录回合并与App同步；具体芯片与电路未披露。（官方披露）
+
+4. **电池及充电盒**：独立可穿戴小件和专用充电盒维持携带与补能。（官方披露）
+
+5. **App数据工作流**：订阅提供统计、策略和可编辑杆号；无标签的杆号推断不能当确定测量。（官方披露）
+
+## 来源
+
+1. [Arccos Air官方商店](<https://www.arccosgolf.com/products/air>) — 实际打开；当前349.99美元购买、首年与续费、杆号推断和回合同步。
+
+2. [Arccos Air技术介绍](<https://www.arccosgolf.com/blogs/community/introducing-arccos-air-no-phone-no-sensors-just-golf>) — 实际打开；陀螺仪、加速度计、GPS及AI区别实际击球和练习；不采用宣传降杆统计。
+
+3. [Link Pro升级Arccos Air说明](<https://www.arccosgolf.com/blogs/community/your-link-pro-just-got-a-major-upgrade-meet-arccos-air>) — 实际打开；同硬件软件升级，避免改名产品重复计数。
+
+4. [Arccos硬件版与兼容FAQ](<https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only>) — 实际打开；硬件版购买、充电盒、App依赖及仍有Android功能待推出旧表述。
+
+5. [Arccos新版Android App说明](<https://www.arccosgolf.com/blogs/community/the-new-arccos-app-is-now-on-android>) — 实际打开；确认新版App已在Android上线，未由此推断所有旧FAQ功能差异消失。
+
+6. [Arccos配送范围](<https://support.arccosgolf.com/hc/en-us/articles/8635873227924-Where-does-Arccos-ship-to>) — 实际打开；各地区站点及全球多数目的地配送，但本轮未结算核对中国地址。
+
+[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/arccos-air)

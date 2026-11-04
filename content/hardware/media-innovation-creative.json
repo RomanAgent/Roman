@@ -1,0 +1,163 @@
+[
+  {
+    "id": "hypershell-x-pro-s",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/hypershell-x-pro-s/product.png",
+        "sourceUrl": "https://hypershell.tech/products/new-hypershell-x-series?variant=47628563939564",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0746/6326/4492/files/Pro_3_a21c5052-0ac4-4388-a0aa-8b73e849bdaf.png?v=1779875820&width=1600",
+        "caption": "Hypershell X Pro S 官方产品图",
+        "alt": "Hypershell X Pro S 官方产品图",
+        "credit": "Hypershell 极壳 · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/hypershell-x-pro-s/reference.png",
+        "sourceUrl": "https://hypershell.tech/products/new-hypershell-x-series?variant=47628563939564",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0746/6326/4492/files/Pro_4_257d993f-8ff1-494c-933f-a484b6c0fc9e.png?v=1779875836&width=1600",
+        "caption": "Hypershell X Pro S 官方外观与使用参考图",
+        "alt": "Hypershell X Pro S 官方外观与使用参考图",
+        "credit": "Hypershell 极壳 · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
+    ]
+  },
+  {
+    "id": "dnsys-z1-dual-joint",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dnsys-z1-dual-joint/product.png",
+        "sourceUrl": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0573/1545/9160/files/z1-carbon.png?v=1789873711&width=1600",
+        "caption": "DNSYS Z1 Dual Joint 官方产品图",
+        "alt": "DNSYS Z1 Dual Joint 官方产品图",
+        "credit": "DNSYS · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dnsys-z1-dual-joint/reference.png",
+        "sourceUrl": "https://dnsys.ai/products/dnsys-z1-exoskeleton-every-step-is-a-leap-forward?variant=43988728447064",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0573/1545/9160/files/Z1-_3.png?v=1785840773&width=1600",
+        "caption": "DNSYS Z1 Dual Joint 官方外观与使用参考图（含厂商助力宣传，非本站实测）",
+        "alt": "DNSYS Z1 Dual Joint 官方外观与使用参考图（含厂商助力宣传，非本站实测）",
+        "credit": "DNSYS · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
+    ]
+  },
+  {
+    "id": "zwo-seestar-s30-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/zwo-seestar-s30-pro/product.jpg",
+        "sourceUrl": "https://www.seestar.com/products/seestar-s30-pro",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0756/5728/1827/files/s30_pro_main.jpg?v=1776933982&width=1600",
+        "caption": "ZWO Seestar S30 Pro 官方产品图",
+        "alt": "ZWO Seestar S30 Pro 官方产品图",
+        "credit": "ZWO Seestar · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/zwo-seestar-s30-pro/reference.jpg",
+        "sourceUrl": "https://www.seestar.com/products/seestar-s30-pro",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0756/5728/1827/files/S30Pro-4.jpg?v=1772516860&width=1600",
+        "caption": "ZWO Seestar S30 Pro 官方外观与使用参考图",
+        "alt": "ZWO Seestar S30 Pro 官方外观与使用参考图",
+        "credit": "ZWO Seestar · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
+    ]
+  },
+  {
+    "id": "nex-playground",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/nex-playground/product.jpg",
+        "sourceUrl": "https://www.nexplayground.com/shop/nex-playground",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/1_Hero_Playground.jpg?v=1758295635&width=1600",
+        "caption": "Nex Playground 官方产品图",
+        "alt": "Nex Playground 官方产品图",
+        "credit": "Nex · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/nex-playground/reference.jpg",
+        "sourceUrl": "https://www.nexplayground.com/shop/nex-playground",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0737/8822/7896/files/11_Privacy_Cover.jpg?v=1759846844&width=1600",
+        "caption": "Nex Playground 官方外观与使用参考图",
+        "alt": "Nex Playground 官方外观与使用参考图",
+        "credit": "Nex · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
+    ]
+  },
+  {
+    "id": "arccos-air",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/arccos-air/product.jpg",
+        "sourceUrl": "https://www.arccosgolf.com/products/air",
+        "sourceImageUrl": "https://www.arccosgolf.com/cdn/shop/files/ArccosAir-ProductImage-1_5ef3a447-9816-49f7-b46c-eaf6d172bf74.jpg?v=1773785037&width=1600",
+        "caption": "Arccos Air 官方产品图（含包装及App展示，手机不包含在硬件内）",
+        "alt": "Arccos Air 官方产品图（含包装及App展示，手机不包含在硬件内）",
+        "credit": "Arccos Golf · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/arccos-air/reference.jpg",
+        "sourceUrl": "https://www.arccosgolf.com/products/air",
+        "sourceImageUrl": "https://www.arccosgolf.com/cdn/shop/files/ArccosAir-ProductImage-2.jpg?v=1773785037&width=1600",
+        "caption": "Arccos Air 官方外观与使用参考图",
+        "alt": "Arccos Air 官方外观与使用参考图",
+        "credit": "Arccos Golf · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/arccos-air/reference-case.jpg",
+        "sourceUrl": "https://www.arccosgolf.com/collections/arccos-products/products/air-hardware-only",
+        "sourceImageUrl": "https://www.arccosgolf.com/cdn/shop/files/ArccosAir-HWOnly-ProductImage-1.jpg?v=1773825523&width=1600",
+        "caption": "Arccos Air 主机与充电盒官方参考图（硬件版与含会员版为同一硬件）",
+        "alt": "Arccos Air黑色随身主机及独立充电盒",
+        "credit": "Arccos Golf · 官方资料",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；其中的宣传数字和效果不作为本站实测结论。"
+    ]
+  }
+]

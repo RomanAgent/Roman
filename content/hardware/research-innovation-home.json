@@ -1,0 +1,1213 @@
+[
+  {
+    "id": "gardyn-studio-2",
+    "name": "Gardyn Studio 2",
+    "brand": "Gardyn",
+    "category": "garden",
+    "tagline": "用植物影像和生长阶段指导家用水培",
+    "officialUrl": "https://mygardyn.com/products/gardyn-studio-gen2",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页有加购与发货说明；本条只计Studio 2，不将颜色和更大Home同任务型号重复收录。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方FAQ明确目前只向美国配送；未确认大陆授权销售、耗材和会员支持，不把转运视为国内可直接使用。"
+    },
+    "price": {
+      "text": "US$549起；部分配色US$599",
+      "note": "官方不同配色及套餐价格不同；Studio会员月付列US$25，基础灯光水路可无会员使用。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "相机图像经视觉模型识别发芽、收获、水根与虫害等状态，Kelby结合传感和生长阶段给出任务并调整部分浇水流程；Ask Kelby提供问答但不能直接改设备设置。",
+      "dependency": "基础定时灯光与浇水可无会员；视觉照护、聊天和部分自动功能依赖会员、网络与相机开启。"
+    },
+    "highlights": [
+      "室内水培与自动灯光水路",
+      "视觉植物状态与照护任务",
+      "会员AI与基础控制明确分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：没有户外土地但希望持续收获香草和叶菜的家庭，可能需要降低观察和照护门槛。应记录实际收获、补水剪根与清洁劳动，不能把自动灯水或植物数量直接当作省钱、环保或完全不会养死的证明。",
+      "userProfile": "画像推断：有稳定电源网络、能接受长期补光且愿意维护水培的城市家庭更适合。种植爱好者与只想便宜买菜的人动机不同，会员、耗材和日常照护需要有人负责，不能只用厨房空间小来推定购买价值。",
+      "competition": "竞争判断：与普通水培架、盆栽及购买蔬菜竞争，视觉照护和内容服务是差异。与更大Gardyn型号相比只是容量变化不再另计；应比较同一家庭的成功种植和维护，而非用更多种植位或AI名称判断优势。",
+      "supplyChain": "供应链分析：水箱、种植柱、泵、LED、相机和传感器需要共同适应潮湿环境，具体工厂与BOM未披露。水路清洗、灯具寿命、耗材和种子供应都影响交付，不能只按计算模块和塑胶结构估计长期成本。",
+      "technology": "技术判断：官方当前文章明确夜间视觉模型处理植物照片，并区分智能浇水和只能问答的Ask Kelby。识别生长阶段不等于了解全部植物问题，光照、遮挡和新物种需要验证，也不应把定时水泵本身算作AI。",
+      "aesthetics": "审美判断：竖向绿植与简洁灯架让设备接近室内景观，但补光时长、亮度和水箱占位会影响居住体验。长大后的植物、剪根和清洗状态应纳入评价，不能只看整齐新品照片或忽略夜间灯光对家庭的影响。",
+      "risks": "风险判断：会员和美国耗材配送影响完整体验，关掉相机也会减少个性化指导。实际种植仍需人工操作，算法提醒不是收获保证；潮湿水路、植物病虫与隐私设置需要管理，不能把AI名称当作免维护承诺。",
+      "opportunity": "机会假设：围绕小空间种植的可理解提醒和低负担清洁验证价值，比较普通水培加人工记录。若用户主要需要浇水提醒，简单方案可能足够；应先记录一轮作物的收获和维护，再判断视觉与订阅是否值得。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭水培比通用家电更细分，视觉照护具差异但仍有成熟水培及盆栽替代，不能因冷门推定高增长。"
+    },
+    "architecture": [
+      {
+        "name": "植物与水培结构",
+        "detail": "种植位、水箱与循环供水支持家庭栽培。",
+        "evidence": "official"
+      },
+      {
+        "name": "观察输入",
+        "detail": "固定相机及水位、温湿度传感采集植物与设备状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉与照护",
+        "detail": "视觉模型结合植物生长阶段产生提醒和照护任务。",
+        "evidence": "official"
+      },
+      {
+        "name": "灯水执行",
+        "detail": "LED与水泵按计划或支持的智能流程运行。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用服务",
+        "detail": "Kelby与会员权益连接记录、问答及远程设置。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gardyn Studio 2官方商店",
+        "url": "https://mygardyn.com/products/gardyn-studio-gen2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，列加购、发货、基础与会员能力；厂商收获及节水宣传不作为独立测量。"
+      },
+      {
+        "title": "Gardyn当前视觉与Kelby技术",
+        "url": "https://mygardyn.com/blogs/news/technology-behind-your-gardyn",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "2026-10-22官方文章，明确视觉流程、阶段约束及Ask Kelby不能改设置。"
+      },
+      {
+        "title": "Gardyn官方FAQ与配送",
+        "url": "https://mygardyn.com/pages/faq",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "regions",
+          "subscription"
+        ],
+        "note": "已打开，当前配送限美国，会员与非会员控制范围分开。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "10minds-motion-pillow",
+    "name": "10minds Motion Pillow",
+    "brand": "10minds",
+    "category": "sleep",
+    "tagline": "识别鼾声后用气囊调整枕头支撑",
+    "officialUrl": "https://en.10minds.com/Product/Detail/view/pid/1",
+    "status": "on_sale",
+    "statusEvidence": "英文官方商店列US$489与BUY NOW、Add to Cart；技术页链接购买，本条不混入CES AI Mopill或戒指概念配置。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "英文店购物指南明确仅配送美国；未确认中国大陆官方零售及保修。本条不按网页横幅的泛化全球促销文案推断。"
+    },
+    "price": {
+      "text": "US$489",
+      "note": "英文官方现售页价格；枕套或其他组合不另计型号。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "外置Motion System利用深度学习区分用户鼾声，结合头部位置驱动枕内气囊缓慢充放气；不是只有定时充气或睡眠音频播放。",
+      "dependency": "外置控制单元和枕内气囊共同工作；应用提供记录和设置，具体端云及更新边界未完全披露，不将鼾声判断视为诊断。"
+    },
+    "highlights": [
+      "深度学习鼾声识别",
+      "外置控制单元与枕内气囊",
+      "声音判断到姿态辅助的实体反馈"
+    ],
+    "analysis": {
+      "demand": "需求假设：对鼾声和同住者睡眠干扰有困扰的家庭，可能希望在不佩戴设备的情况下得到姿态辅助。应记录舒适、觉醒与误触发，不能把声音降低或厂商个案自动解释为治疗睡眠疾病或改善全部睡眠质量。",
+      "userProfile": "画像推断：愿意尝试枕体变化、可接受外置气路与控制盒的成人家庭更匹配。枕高、睡姿和同床声音各不相同，实际使用者与购买者需求需要分开，不能因同住者希望安静就假定本人愿意长期使用。",
+      "competition": "竞争判断：与普通支撑枕、睡姿辅助和其他鼾声观察方案竞争，区别是学习声音后驱动气囊。AI Mopill和戒指联动不能移植为现售版能力；需要比较真实舒适与误动作，而非仅以获奖和技术名称判断价值。",
+      "supplyChain": "供应链分析：外置声学控制、气泵气路、阀与枕内气囊及泡棉共同形成体验，工厂和BOM未披露。噪声、气密、反复充放、枕套清洁和长期材料状态影响可靠性，不应在枕内凭空添加电路板或传感芯片。",
+      "technology": "技术判断：官网明确深度学习鼾声区分和头部下方气囊动作，仍需验证同床者、环境声与姿态变化。检测声音和缓解效果是不同证据，厂商准确率及改善比例不作为本研究已独立验证的结果。",
+      "aesthetics": "审美判断：织物枕体较容易融入床铺，但外置控制盒、气管和夜间声音会影响真实体验。不同枕高与睡姿的舒适需要实际试用，不能只看卧室场景照，也不因没有枕内电子元件就推断完全无风险。",
+      "risks": "风险判断：错误声音判断可能引发不需要的动作或漏触发，气路与电源还需维护。设备不替代临床评估，不能把姿态辅助宣传当作睡眠呼吸暂停治疗；购买地区、保修与返修条件也应明确核对。",
+      "opportunity": "机会假设：先研究声音触发是否可控、枕体是否舒适以及同住者的实际负担，再考虑更多睡眠指标。若核心问题是误触发或气泵噪声，清楚状态和可靠机械可能比加入更多AI评分更有价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "鼾声识别到气囊姿态辅助是较窄消费场景，价值受舒适与适用条件限制，不能用健康焦虑推定普遍需求。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "外置单元麦克风获取声音。",
+        "evidence": "official"
+      },
+      {
+        "name": "识别判断",
+        "detail": "学习用户鼾声模式并区分其他噪声。",
+        "evidence": "official"
+      },
+      {
+        "name": "头部与气路",
+        "detail": "定位头部所在区域并通过气路驱动枕内气囊。",
+        "evidence": "official"
+      },
+      {
+        "name": "枕体支撑",
+        "detail": "记忆泡棉与气囊构成可变支撑；不画虚构枕内PCB。",
+        "evidence": "official"
+      },
+      {
+        "name": "记录交互",
+        "detail": "应用查看鼾声和气囊工作记录及设置。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Motion Pillow英文官方商店",
+        "url": "https://en.10minds.com/Product/Detail/view/pid/1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际打开，价格及购买按钮明确；不将其他CES概念配置混入。"
+      },
+      {
+        "title": "Motion Pillow官方AI与气囊技术",
+        "url": "https://motionpillow.com/en/home.do",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "dependency"
+        ],
+        "note": "已打开，明确深度学习鼾声识别和外置系统驱动气囊；医疗效果营销未作独立结论。"
+      },
+      {
+        "title": "Motion Pillow英文店配送指南",
+        "url": "https://en.10minds.com/Mobile/Help/shoppingguide",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "regions",
+          "support"
+        ],
+        "note": "已打开，配送仅美国及保修范围明确。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "hydrific-droplet",
+    "name": "Hydrific Droplet Smart Water Monitor",
+    "brand": "Hydrific / LIXIL",
+    "category": "home-safety",
+    "tagline": "夹在总水管上识别家庭用水事件",
+    "officialUrl": "https://hydrificwater.com/products/droplet",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页可加购，列美国发货与加拿大配送；双超声和机器学习来源明确，不是单纯浸水报警器。",
+    "regions": [
+      "美国",
+      "加拿大（魁北克除外）"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "已核官网只列美国和加拿大配送，未确认大陆官方购买及管材适配；不把海外可购等同国内可直接安装。"
+    },
+    "price": {
+      "text": "US$229（页面主报价）",
+      "note": "同页局部仍有US$219文案，报价以实际订单为准；官网称无需订阅，不含任何未核安装费用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "双超声采集总管流量，AI与机器学习从用水模式区分淋浴、水龙头、马桶等事件，并提示持续流量或可能泄漏；不是直接看到每个用水器具。",
+      "dependency": "需适配管材尺寸、分支前总管位置、电源及Wi-Fi；分类是推断，完整器具明细范围按当前支持，不声称能自动关水。"
+    },
+    "highlights": [
+      "非侵入式总管夹装",
+      "用水事件机器学习分类",
+      "持续流量和异常提醒"
+    ],
+    "analysis": {
+      "demand": "需求假设：房主希望知道水用在哪里并及时发现持续异常，而不愿切管或每处安装传感器。应比较可行动提醒、误分类与安装劳动，不能把高采样或机器学习标签直接当作节水和避免全部漏水损失的保证。",
+      "userProfile": "画像推断：能接触分支前总管、现场有电源网络且管材尺寸适配的家庭更合适。公寓共用总管或隐蔽管路不一定能安装，购买者也需理解分类推断，不能用所有有自来水的家庭数量估算可达市场。",
+      "competition": "竞争判断：与普通水表、浸水报警器、切管式流量及自动关水系统竞争。非侵入夹装降低施工是差异，但没有关水执行不能混同防损闭环；用户需按观察、定位和自动处置的真实任务比较。",
+      "supplyChain": "供应链分析：超声换能、管路耦合夹具、计算电源和无线共同工作，实际芯片与工厂未披露。不同管材、安装压力、温漂和湿环境影响输入质量，夹装稳定与售后适配比单个流量参数更决定长期体验。",
+      "technology": "技术判断：官方明确用超声和AI学习水流模式，当前详细分项主要为淋浴、水龙头和马桶。并发用水及不同器具可能混淆，记录需要允许人工复核，不能把总流量估计直接当作每个器具都有独立准确计量。",
+      "aesthetics": "审美判断：设备位于总管附近，清楚状态、夹具牢固和线材整理比装饰性外观更重要。安装空间和可触达性影响维护，产品图的裸露管道不能代表所有住宅，也不应为了隐藏设备牺牲正确安装条件。",
+      "risks": "风险判断：误报、漏报、网络与供电会影响提醒，设备不自动关水也不能替代现场排查。国内管材和服务尚未核实，海外转运不能保证适配；用户需要理解无异常提示不等于已排除所有泄漏。",
+      "opportunity": "机会假设：围绕安装筛查和可解释用水事件验证价值，记录用户收到提醒后的实际行动。若主要问题是隐蔽安装或误分类，适配服务和清楚置信信息可能比增加更多器具标签更有用，应先量化真实减负。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "总管夹装加事件分解比普通漏水开关更专门，但需满足住宅管路条件，市场应按可安装家庭评估。"
+    },
+    "architecture": [
+      {
+        "name": "管路耦合",
+        "detail": "夹具将设备固定到支持的总水管。",
+        "evidence": "official"
+      },
+      {
+        "name": "超声流量",
+        "detail": "双超声信号读取管内水流变化。",
+        "evidence": "official"
+      },
+      {
+        "name": "事件判断",
+        "detail": "机器学习分析模式并归类部分器具用水。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源网络",
+        "detail": "插电与Wi-Fi连接应用和通知。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭记录",
+        "detail": "显示总量、趋势和异常；本设备不包含自动关水阀。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Droplet官方商品与配送",
+        "url": "https://hydrificwater.com/products/droplet",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions",
+          "china",
+          "architecture"
+        ],
+        "note": "实际打开，购买按钮、发货、管材条件及无订阅说明明确，页面局部价格不一致已标注。"
+      },
+      {
+        "title": "Droplet官方超声与机器学习说明",
+        "url": "https://help.hydrificwater.com/en/articles/11461682-how-does-droplet-work",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，明确超声、AI水事件及当前器具分项范围，不作为独立漏检测试。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "jubilee-tv-console",
+    "name": "JubileeTV Console + Membership",
+    "brand": "JubileeTV / Caavo",
+    "category": "accessibility",
+    "tagline": "把熟悉的电视变成长者远程协助入口",
+    "officialUrl": "https://getjubileetv.com/products/jubilee-tv-direct",
+    "status": "on_sale",
+    "statusEvidence": "官网当前会员方案可加购且明确含带相机Console、遥控器与配件；这是含实体硬件的服务方案，取消会员按条款需归还设备。",
+    "regions": [
+      "美国（设备使用者）"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官网明确设备只面向居住美国的长者，境外转售未经授权；家属应用可从其他地区连接美国设备，不等于可在大陆部署。"
+    },
+    "price": {
+      "text": "US$39/月起（含硬件的会员方案）",
+      "note": "年度及All-In方案另列，当前促销按官网；取消服务需按规则归还硬件，不按一次买断设备表达。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "当前Console相机进行人物与活动状态识别；可选Voice Insights由Canary Speech AI分析通话中的声学与语言特征生成趋势。远程遥控与提醒本身不算AI。",
+      "dependency": "需要现有电视、兼容信号源、网络及会员；摄像盖关闭会停止在场检测，语音分析需双方明确开启及同意，不能作医疗诊断。"
+    },
+    "highlights": [
+      "复用现有电视与简化遥控",
+      "视觉在场和活动时间线",
+      "选择性启用通话语音AI趋势"
+    ],
+    "analysis": {
+      "demand": "需求假设：家属希望减少为调整电视而往返，同时让长者继续使用熟悉的大屏沟通。应记录远程解决、长者自主性和设置负担，不能把活动记录或语音评分当作健康改善，也不以家属安心替代使用者真实接受。",
+      "userProfile": "画像推断：美国有兼容电视网络、远方家属愿意管理权限并取得长者同意的家庭较适合。购买者与被观察者不同，简化遥控和视觉监测需要分别评估，不能只从照护者便利推定长者愿接受持续摄像。",
+      "competition": "竞争判断：与普通视频通话设备、智能电视和远程协助方案竞争，差异在复用既有电视与照护流程。硬件随会员提供并需归还，不能只比较盒子售价；AI趋势是补充，不应掩盖基础遥控和兼容是否可靠。",
+      "supplyChain": "供应链分析：相机主机、遥控、HDMI、红外、智能插座与服务后台共同交付，实际工厂与BOM未披露。电视兼容、安装支持、权限和持续维护形成主要成本，不能把通用机顶盒物料当作完整照护服务成本。",
+      "technology": "技术判断：官方文档区分插座电源监测、遥控记录、视觉活动及可选语音分析。当前相机型号与老Hub能力不同，声音趋势也可能误判；需要原始情境与纠错，不能将情绪或认知标签作为临床结论。",
+      "aesthetics": "审美判断：顶部或旁置小主机复用熟悉电视，物理摄像盖有助理解状态；线材、红外头和简化遥控仍影响家庭整洁。界面应让长者知道谁在连接和何时被观察，不能用低调外形掩盖持续采集。",
+      "risks": "风险判断：自动接听与单向查看需要清楚同意和权限，语音AI也有两步开启条件。网络、会员和美国地区限制影响使用，产品不能替代照护或医疗评估，取消服务后的硬件归还和剩余能力需要提前理解。",
+      "opportunity": "机会假设：先验证远程电视故障协助和低步骤通话，再研究可选活动信息是否真正帮助家庭。若核心痛点是遥控兼容，可靠安装与服务可能比更多健康评分更重要，需求应同时由长者和家属确认。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "长者既有电视的远程协助是明确细分，区别于普通音箱屏幕；成功取决于双方同意、兼容与持续服务。"
+    },
+    "architecture": [
+      {
+        "name": "电视连接",
+        "detail": "Console通过HDMI、红外和智能插座辅助现有电视。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉输入",
+        "detail": "带物理盖的相机观察人物和活动状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音分析",
+        "detail": "同意后通话音频由Canary Speech AI进行趋势分析。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭协助",
+        "detail": "远程屏幕查看、遥控、通话与提醒。",
+        "evidence": "official"
+      },
+      {
+        "name": "权限服务",
+        "detail": "会员、管理员权限及设备归还构成完整交付条件。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "JubileeTV当前含硬件会员方案",
+        "url": "https://getjubileetv.com/products/jubilee-tv-direct",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions",
+          "china",
+          "dependency"
+        ],
+        "note": "已打开，含Console和遥控等实体设备，可加购；只支持美国长者，取消需归还。"
+      },
+      {
+        "title": "JubileeTV官方Activity Feed机制",
+        "url": "https://docs.getjubileetv.com/activity-feed",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "limitations"
+        ],
+        "note": "已打开，说明相机存在与活动、插座电源、遥控日志及误检测机制。"
+      },
+      {
+        "title": "JubileeTV官方Voice Insights",
+        "url": "https://docs.getjubileetv.com/voice-insights",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency",
+          "privacy"
+        ],
+        "note": "已打开，点名Canary Speech AI及双方开启/同意流程，算法评分不作为诊断证据。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "rental"
+  },
+  {
+    "id": "clevercharge-home-cleverkey",
+    "name": "CleverCharge Home + CleverKey（J1772 NEMA 14-50）",
+    "brand": "CleverCharge / Danlaw",
+    "category": "home-energy",
+    "tagline": "把车辆行程需求连接到家庭充电提醒",
+    "officialUrl": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页购买按钮可用；读取公开HTML确认不可售占位为隐藏状态，套装明确含CleverKey。仅收一套，不以接口或功率变体重复计数。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方电商条款明确只向美国销售配送；该配置为J1772和NEMA接口，未验证大陆车辆、接口、应用及保修，不按国内直接可用处理。"
+    },
+    "price": {
+      "text": "US$449（商品详情）",
+      "note": "列表页部分仍列US$399，页面不一致需按订单复核；套装含一枚CleverKey，其他车辆需独立兼容配件。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "CleverKey读取兼容车辆信息，Clever AI按实际日常里程和条件估计续航及次日驾驶需求，形成个车充电提醒；普通远程开关与定时充电不作为AI依据。",
+      "dependency": "AI功能仅在车辆兼容CleverKey时可用，依赖车端接口、应用和连接；基础Level 2充电可不启用应用，未公开模型结构或全部端云分工。"
+    },
+    "highlights": [
+      "车端OBD-II信息与家庭充电结合",
+      "次日需求及个车续航推断",
+      "基础充电与AI功能分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：多电动车家庭希望知道今晚哪台车需要补能，而不是只按固定时间开关充电。应记录提醒是否符合真实次日安排及人工协调，不能把预测里程直接当作不会缺电、节省费用或电池健康改善的保证。",
+      "userProfile": "画像推断：美国有适配家用电源、兼容车辆OBD-II并愿管理应用的车主更合适。单车固定通勤与多车临时行程需求不同，车辆兼容是前提，不能用所有电动车家庭数量推定AI功能都可使用。",
+      "competition": "竞争判断：与普通定时充电器、车厂应用和能源管理系统竞争，车端信息驱动的个车提醒是差异。不同接口和功率不重复计数；应比较完整安装、车辆兼容和维护，而不是仅将AI标签视为普通充电必需升级。",
+      "supplyChain": "供应链分析：充电功率模块、电缆连接器、控制无线与车端CleverKey共同构成系统，实际零部件及BOM未披露。车辆协议、户外防护、电气保护和软件持续支持影响交付，不能只按墙盒外观推断成本或制造归属。",
+      "technology": "技术判断：官网明确Clever AI根据实际日常里程推断续航与明日需求，并强调必须使用兼容CleverKey。预测与普通定时区分，临时出行会改变结果；公开未给模型细节，不应补写训练架构或声称所有车型通用。",
+      "aesthetics": "审美判断：白色墙盒与线缆挂放适合车库，但接口可达、车辆停放和线缆整理比屏幕或灯效更重要。车端小配件也需要稳定安装，真实车库布置与维护应和充电器正面一起评估，不能只看整洁商品图。",
+      "risks": "风险判断：AI依赖车型兼容，行程预测也可能不符实际；基础充电与智能提醒需分开理解。美国电商和接口条件不能外推国内，电气安装与车辆异常需要合适专业处理，算法提示不替代实际续航和出行安排确认。",
+      "opportunity": "机会假设：围绕多车家庭的充电协调与可解释提醒测试价值，比较车厂应用和普通定时方案。若用户行程高度固定，简单设置可能足够；应先证明预测减少真实遗漏，再扩大硬件、协议和跨地区支持范围。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "车端使用模式与多车家庭充电协同有较新服务差异，但充电硬件本身成熟，兼容与预测收益必须验证。"
+    },
+    "architecture": [
+      {
+        "name": "充电执行",
+        "detail": "墙装充电器、电缆和J1772连接器。",
+        "evidence": "official"
+      },
+      {
+        "name": "车辆输入",
+        "detail": "套装CleverKey接入兼容车辆OBD-II。",
+        "evidence": "official"
+      },
+      {
+        "name": "需求推断",
+        "detail": "Clever AI利用日常里程估计续航及次日需要。",
+        "evidence": "official"
+      },
+      {
+        "name": "家庭管理",
+        "detail": "应用区分车辆、家庭位置与充电状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "安全与连接",
+        "detail": "充电保护与无线为功能层，不代表拆解具体电路。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "CleverCharge J1772套装官方商店",
+        "url": "https://www.clevercharge.com/shop/19-hwvk-qhmy-j1772-nema-14-50-3",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture"
+        ],
+        "note": "已打开并读取公开HTML，购买按钮可用、不可售占位隐藏；详情与列表价格差异已标明。"
+      },
+      {
+        "title": "CleverCharge官方AI与兼容FAQ",
+        "url": "https://www.clevercharge.com/faqs",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，具体说明实际里程、次日需求推断和CleverKey兼容前提，不将普通定时当AI。"
+      },
+      {
+        "title": "CleverCharge官方电商配送条款",
+        "url": "https://www.clevercharge.com/e-commerce-policy",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "regions",
+          "support"
+        ],
+        "note": "已打开，官方当前销售配送仅美国；不外推跨境安装和服务。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "mill-food-recycler-plus",
+    "name": "Mill Food Recycler Plus",
+    "brand": "Mill",
+    "category": "kitchen",
+    "tagline": "按投入量调整食物残渣干燥与研磨周期",
+    "officialUrl": "https://www.mill.com/configure/food-recycler?bin_color=white&product=mill-plus",
+    "status": "on_sale",
+    "statusEvidence": "当前官方配置页列Mill Plus、US$1,149加购及1–3工作日发货；不将仅商用的Gemini视觉垃圾分类混入家用版。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已确认美国官方购买；本轮未确认大陆官方配送、回收路径及维修，不把转运或同名商品页当作国内授权。"
+    },
+    "price": {
+      "text": "US$1,149起",
+      "note": "当前Plus白色配置；Essential和不同饰面不另计，旧新闻租赁价格不作为当前方案。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方家用技术说明称结合称重等传感与AI方法，根据加入食物和状态调整干燥研磨运行时间；当前商品页仍说明自适应周期。不是仅定时开关，也不是商用相机识别食物种类。",
+      "dependency": "应用和更新需要连接，基础处理、耗材与后续物料去向需按当前规则；干燥产物不是已经完成的堆肥。"
+    },
+    "highlights": [
+      "传感驱动自适应干燥研磨",
+      "可在周期中继续加入残渣",
+      "家用处理与商用视觉严格区分"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望减少湿厨余异味、频繁倒垃圾和储存负担，价值需要覆盖处理后产物去向。应记录人工清理、能源和实际回收，不能把干燥减容等同消灭废物，也不能直接宣称一定更环保或省钱。",
+      "userProfile": "画像推断：有厨房放置与电源、经常产生食物残渣并愿处理干燥产物的家庭更匹配。已有堆肥或收运者与只想少闻异味的人不同，耗材和清洁需有人负责，不能只按环保态度或收入推定持续使用。",
+      "competition": "竞争判断：与普通密封厨余桶、脱水研磨机和本地收运竞争，自适应周期和后续服务是差异。Plus与Essential不作为独立创新重复计数，也不借用商用摄像Gemini能力提高家用型号的智能程度。",
+      "supplyChain": "供应链分析：容器、加热、研磨驱动、称重、过滤、排风和控制共同工作，具体工厂及BOM未知。油脂、硬物、粉尘与热循环决定可靠性，滤材和维修也影响交付，不能只关注AI计算而忽略机械负载。",
+      "technology": "技术判断：官方家用资料明确AI结合传感确定周期，当前商品页说明可适应中途加料。公开未给模型结构和独立精度，应区分周期优化、干燥结果和商用视觉分类，不能凭公司同名技术新闻混用能力。",
+      "aesthetics": "审美判断：脚踏桶与简洁外壳接近厨房用品，但开盖、取桶、排气和清洁决定真实体验。产物处理后的粉尘与滤材更换应纳入设计，不只看新品放在橱柜旁的照片，也不将外观整洁当成长期无异味保证。",
+      "risks": "风险判断：不适配投入物、堵塞和耗材会影响运行，干燥Food Grounds不是成熟堆肥。后续处理路径因地区而异，联网服务及维修需核对；AI自适应不能保证所有残渣都可投入或完全取消人工清理。",
+      "opportunity": "机会假设：围绕湿厨余储存、清洁和产物去向验证完整劳动，比较简单密封桶与自动处理。若主要困难在收运而非干燥，服务可能更有效，应先记录一段真实家庭周期，再决定机械与算法复杂度。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭食物残渣处理是细分流程，AI周期控制提供差异但收益依赖能源、维护与后续去向，不以环保口号推定市场。"
+    },
+    "architecture": [
+      {
+        "name": "投入与容器",
+        "detail": "家用桶体及可取出的食物处理容器。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知与周期",
+        "detail": "称重等传感结合自适应算法确定运行。",
+        "evidence": "official"
+      },
+      {
+        "name": "干燥研磨",
+        "detail": "加热与搅拌研磨形成干燥Food Grounds。",
+        "evidence": "official"
+      },
+      {
+        "name": "气味与排气",
+        "detail": "过滤和排风构成维护路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用与去向",
+        "detail": "记录处理量，后续回收或园艺去向由用户及服务安排。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mill Plus当前官方配置购买页",
+        "url": "https://www.mill.com/configure/food-recycler?bin_color=white&product=mill-plus",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture"
+        ],
+        "note": "已打开，明确Plus加购、发货和传感自适应周期，不沿用历史价格。"
+      },
+      {
+        "title": "Mill家用世代AI技术公告",
+        "url": "https://www.mill.com/news/introducing-the-next-generation-of-mill",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，2024家用技术说明明确传感与AI确定运行时间；不是2026商用Gemini视觉。"
+      },
+      {
+        "title": "Mill官方处理与产物说明",
+        "url": "https://www.mill.com/food-recycler",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "limitations"
+        ],
+        "note": "已打开，区分干燥产物与堆肥；减容和气味效果为厂商声明，未独立验证。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "barsys-360",
+    "name": "Barsys 360",
+    "brand": "Barsys",
+    "category": "kitchen",
+    "tagline": "从AI饮品创意连接到六路液体配比",
+    "officialUrl": "https://us.barsys.com/shop/barsys-360",
+    "status": "on_sale",
+    "statusEvidence": "官方商店明确黑色In stock与US$375加购，白色缺货；仅计360整机，不加同款颜色、配方套装或手动Coaster。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "美国官方店配送政策明确不向美国以外发货；未确认大陆授权、应用及耗材支持，不把全球品牌展示当作本SKU可直邮。"
+    },
+    "price": {
+      "text": "US$375",
+      "note": "当前黑色整机；用户自备适合原料、冰和装饰，非自动采购；价格与运费按实际订单。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "官方Barsys AI App中的Collins/Barbot根据已有原料与偏好提供饮品创意和配方，用户选择兼容食谱后由360自动分发液体。机械定量本身不是AI，最后冰块和装饰仍人工完成。",
+      "dependency": "实时AI请求需联网，机器通过应用与兼容连接执行；六路装料、映射和清洁由用户完成，不声称所有生成食谱可直接安全执行。"
+    },
+    "highlights": [
+      "自备原料的多路配比",
+      "AI创意与兼容配方选择",
+      "自动分发与人工收尾分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭聚会主持人希望少量杯量取、多参与交流，同时尝试已有原料的新组合。应记录装料、清洗、配方采纳和重复使用，不能把生成更多饮品或自动倒液体等同口味更好或全部调酒步骤完成。",
+      "userProfile": "画像推断：有台面、经常招待且愿维护液体通道的成年用户更匹配，也可用于无酒精饮品。偶尔聚会与重视手作的人需求不同，原料和清洁需要实际操作者接受，不能只从喜欢喝饮料推定设备价值。",
+      "competition": "竞争判断：与手工量杯、预制饮品和胶囊调饮机竞争，区别是自备原料加AI创意后定量执行。只收360，不将不同颜色或小型手动测量器重复计数；应比较完整准备与清洗而不是只看出杯瞬间。",
+      "supplyChain": "供应链分析：液体容器、通道、计量分发、电源和连接控制共同工作，实际工厂与BOM未披露。黏度、清洁残留、食品接触材料与配方映射决定可靠性，不应虚构制冷压缩机或把分发画成自动搅拌全部过程。",
+      "technology": "技术判断：AI位于官方应用创意与推荐层，硬件执行用户选择的兼容配方，网络和蓝牙路径不同。文本创意不等于可靠口味或正确原料映射，设备需要复核和清洁，不能把普通定量动作全部称为AI。",
+      "aesthetics": "审美判断：环形容器和中央杯位有家庭酒吧辨识度，但瓶口、滴液与清洗路径决定长期观感。装饰灯与黑色外壳不应掩盖容量和当前原料，设备在普通厨房台面上的体量需要实际评估。",
+      "risks": "风险判断：原料错配、黏稠残留和网络错误会影响出杯，用户仍需确认饮用限制与清洁。AI配方不是营养或安全保证，无法替代对酒精、过敏和实际食材的判断；地区购买与售后也需按官方条款确认。",
+      "opportunity": "机会假设：先验证高频家庭招待的准备与清洁总劳动，再判断AI创意和自动分发各自价值。若用户只做固定饮品，可靠计量可能更重要；不应把生成模型接入或出杯数量直接当作持续需求。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭自备原料自动配比是细分娱乐烹饪流程，区别于普通烤箱或语音助手，但使用频率与清洗负担限制市场。"
+    },
+    "architecture": [
+      {
+        "name": "原料容器",
+        "detail": "六个独立液体原料位由用户装填。",
+        "evidence": "official"
+      },
+      {
+        "name": "创意服务",
+        "detail": "应用AI按原料与口味辅助发现或生成配方。",
+        "evidence": "official"
+      },
+      {
+        "name": "配方映射",
+        "detail": "用户确认兼容食谱与原料位对应。",
+        "evidence": "official"
+      },
+      {
+        "name": "液体分发",
+        "detail": "设备计量分发到杯中，未知泵阀布局只作概念。",
+        "evidence": "official"
+      },
+      {
+        "name": "人工维护",
+        "detail": "加冰装饰与清洁流程仍由用户负责。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Barsys 360当前官方商店",
+        "url": "https://us.barsys.com/shop/barsys-360",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture"
+        ],
+        "note": "已打开，黑色有货、白色缺货及六路自动分发明确。"
+      },
+      {
+        "title": "Barsys官方AI App与Collins",
+        "url": "https://us.barsys.com/app",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，AI创意、原料管理与兼容硬件连接；实时请求需网络。"
+      },
+      {
+        "title": "Barsys 360官方创意到执行说明",
+        "url": "https://360.barsys.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "limitations"
+        ],
+        "note": "已打开，Collins/Barbot生成饮品与360分发分开；宣传完美结果不作实测。"
+      },
+      {
+        "title": "Barsys美国店配送政策",
+        "url": "https://us.barsys.com/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "已打开，明确不向美国外配送；页面运费与促销以订单为准。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "reefkinetics-reefbot-lab",
+    "name": "Reef Kinetics ReefBot Lab",
+    "brand": "Reef Kinetics",
+    "category": "pet-care",
+    "tagline": "把家用水族试剂检测接入有历史依据的AI解释",
+    "officialUrl": "https://www.reefkinetics.com/product/reefbot-lab/",
+    "status": "on_sale",
+    "statusEvidence": "官方产品可加购，列US$1,599、一周内发货和全球直邮；官方AI应用明确可读取ReefBot自动测量，非把同名第三方App混入。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "欧洲部分市场",
+      "中东部分市场",
+      "官方称支持40多个国家"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方称40多个国家直邮，但本轮未确认大陆具体收货与国内授权；需核对试剂、电压、关税和应用可达性，不推断中国已售。"
+    },
+    "price": {
+      "text": "US$1,599",
+      "note": "试剂另购；官方App处于公开Beta，高级功能免费至2026-12-31，之后计划及硬件用户权益按官网。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "硬件自动进行试剂水质测试；官方应用读取测量历史、维护与生物信息，用AI解释趋势并提供可核对的对话与照片识别。机械采样和阈值告警不全部算AI，AI服务仍在Beta。",
+      "dependency": "需要适配第三方试剂、取样/清水/废液安排和应用连接；AI不是每次化学读数本身，也不自动执行加药或保证水族健康。"
+    },
+    "highlights": [
+      "试剂检测机械化",
+      "官方AI读取设备历史",
+      "观赏水族家庭与进阶爱好者使用"
+    ],
+    "analysis": {
+      "demand": "需求假设：进阶水族家庭希望减少重复试剂测试并理解多项数据变化，而非只收到超阈值通知。应记录校准、试剂补充和复核劳动，不能把更多测量或AI解释直接等同珊瑚健康、避免损失或完全无需照护。",
+      "userProfile": "画像推断：有观赏水族箱、愿维护试剂与废液并能理解测量边界的爱好者更适合。小型简单鱼缸未必需要高投入，主人仍需核对结果与动物状态，不能只因关心鱼类就推定需要自动实验设备。",
+      "competition": "竞争判断：与手工试剂、连续传感器和其他自动检测设备竞争，新增官方AI历史解释形成软件差异。需要比较测量可靠、维护和可解释性，不把聊天或综合评分当作取代基础水质方法，也不混入同名第三方ReefBot应用。",
+      "supplyChain": "供应链分析：试剂容器、移液执行、检测、电源和网络需适应水汽及腐蚀环境，实际工厂和BOM未全面披露。耗材兼容、校准、清洗和废液安排是持续交付，不应把设备外壳和一块控制板视作完整成本。",
+      "technology": "技术判断：官方明确自动试剂检测结果可以进入AI应用，模型结合历史解释并提示引用数据。当前Beta与机械测试能力需要分开，照片识别和建议可能错误，不能把文字可靠感当作检测精度或专业水族处置保证。",
+      "aesthetics": "审美判断：台面实验设备形态强调透明试剂与可维护空间，水管、电源和废液容器同样影响观感。清楚标签、易补充和防误插比科技灯效重要，不能只看干净产品图而忽略鱼缸旁潮湿拥挤环境。",
+      "risks": "风险判断：试剂过期、交叉污染、校准和网络会影响结果，AI还可能误解趋势。任何加药与换水行动需独立复核，设备不替代日常照护；Beta结束后的权限及跨境试剂供应需要核对，不能把全球宣传当作大陆保证。",
+      "opportunity": "机会假设：围绕最常测的项目和历史解释建立对照，记录是否减少漏测与错误操作。若真正痛点是读懂数据，软件可能先有价值；若试剂维护仍繁琐，则应优先改进机械与耗材，而不是增加更多AI评分。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "家庭海水水族自动试剂测试是明显专业兴趣场景，AI历史解释区别于普通水温计，但高维护与价格限制用户范围。"
+    },
+    "architecture": [
+      {
+        "name": "样品与试剂",
+        "detail": "水族取样、兼容试剂与清水废液接口。",
+        "evidence": "official"
+      },
+      {
+        "name": "机械测试",
+        "detail": "执行加样和试剂检测，具体内部机构不作拆机还原。",
+        "evidence": "official"
+      },
+      {
+        "name": "结果记录",
+        "detail": "设备测量进入官方应用和历史。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI解释",
+        "detail": "结合历史与维护上下文生成可复核分析。",
+        "evidence": "official"
+      },
+      {
+        "name": "人工照护",
+        "detail": "试剂补充、校准、清洁及实际水族处置由用户负责。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ReefBot Lab官方购买与试剂说明",
+        "url": "https://www.reefkinetics.com/product/reefbot-lab/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "已打开，当前加购、发货与第三方试剂支持明确，不用旧V2照片替代Lab。"
+      },
+      {
+        "title": "Reef Kinetics官方AI应用",
+        "url": "https://www.reefkinetics.com/app/?rk_cta=pdp-under-cart",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "dependency"
+        ],
+        "note": "已打开，明确ReefBot自动测量历史接入、AI对话与Beta期限。"
+      },
+      {
+        "title": "Reef Kinetics官方AI助手边界",
+        "url": "https://www.reefkinetics.com/app/assistant/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "limitations"
+        ],
+        "note": "已打开，历史上下文、引用和不确定性说明；示例加药建议不作为本研究指引。"
+      },
+      {
+        "title": "ReefBot官方配送与授权店",
+        "url": "https://www.reefkinetics.com/dealers/",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "china",
+          "support"
+        ],
+        "note": "已打开，40多国直邮及部分经销地区，未确认大陆。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "prosumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "1x-neo-home",
+    "name": "1X NEO Home Robot",
+    "brand": "1X",
+    "category": "robotics",
+    "tagline": "以学习动作与远程专家协助进入家庭家务",
+    "officialUrl": "https://www.1x.tech/order",
+    "status": "reservation",
+    "statusEvidence": "官网有US$200可退定金与Order Now；法律页明确是未来购买/订阅邀请的排队预订，不保证交付时间，本条列付费预约·非正式订单，不计可购/预售数量。",
+    "regions": [
+      "美国（初期）"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方当前初期交付面向美国，未确认大陆购买及服务；后续其他市场计划不作为当前国内可用证据。"
+    },
+    "price": {
+      "text": "US$200预约金；Early Access买断标价US$20,000",
+      "note": "另有US$499/月方案，交付与服务条件不同；定金不是整机售价，也不构成交付时间保证。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Redwood通用动作模型用于学习和重复家务，语音接口用于交互；早期只承诺基础自主性，复杂任务由预约远程Expert监督协助，不把全部演示视为无人自主。",
+      "dependency": "需要家庭环境部署、应用、网络和服务支持；机器人可用任务及远程介入边界按交付方案核对，未来学习能力不是当前完成率。"
+    },
+    "highlights": [
+      "明确家用付费预订",
+      "Redwood学习与实体操作",
+      "基础自主和远程专家模式分开"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望把取放、整理等实物家务交给机器人，而不只是获得语音建议。应记录真正完成、人工准备与远程协助，不能用发布演示或通用模型名称推断能独立完成所有家务，更不能把预订热度当作实际留存。",
+      "userProfile": "画像推断：美国愿意接受早期产品、提供合适空间并能管理服务与隐私的家庭更匹配。高预算不代表可以接受远程人员参与，实际家务承担者和购买者需共同评估，不能把所有需要省时的人都当作早期用户。",
+      "competition": "竞争判断：与人工家务服务、专用家电及其他家用机器人竞争，移动实体操作是区别于桌面伙伴的任务。只有一个NEO型号，不以颜色或月付买断重复计数；应比较完整任务和支持，而非以人形或算力判断优势。",
+      "supplyChain": "供应链分析：感知、关节、手部、结构、能源和充电需要长期协同，公开参数不等于完整BOM。软性外衣、家庭碰撞、维修与远程服务都是成本，不能凭外形或官方算力列表推定具体部件来源和量产可靠性。",
+      "technology": "技术判断：官方点名Redwood及基础自主与Expert模式，学习模型和人工介入应分别记录。不同物体、家庭布局和失败恢复会影响表现，不能把未来能力增长当作已交付，也不把语音流畅解释为动作安全可靠。",
+      "aesthetics": "审美判断：织物外衣与柔和色调试图降低家庭机器人压迫感，但体量、声音、行走和停靠更影响共处。设计需让正在自主或远程协助的状态清楚，不能用亲和外观掩盖实际机械动作与摄像采集。",
+      "risks": "风险判断：付费预订只是未来下单机会，交付与任务能力存在不确定；远程专家涉及家庭隐私与授权。机器人不能作为儿童或宠物照护替代，AI与机械安全需实际验证，不能用家用定位或软外衣推定无风险。",
+      "opportunity": "机会假设：先选择可衡量的少数家务，比较机器人、专用工具和人工服务的总劳动。若大部分价值依赖远程协助，应明确服务成本与边界；不应从人形机器人热度直接推导所有家庭都需要通用平台。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "付费预订的家用通用操作机器人属于早期赛道，区别于陪伴或工业部署；能力和交付仍须保守理解。"
+    },
+    "architecture": [
+      {
+        "name": "家庭感知",
+        "detail": "公开视觉、音频与动作感知支持家庭交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作模型",
+        "detail": "Redwood用于学习和重复任务。",
+        "evidence": "official"
+      },
+      {
+        "name": "实体执行",
+        "detail": "双足、机械臂和手执行；未知内部只作功能概念。",
+        "evidence": "official"
+      },
+      {
+        "name": "专家协助",
+        "detail": "复杂任务可预约远程监督与操作协助。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源服务",
+        "detail": "充电、应用调度与持续更新。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "1X NEO官方预订与能力",
+        "url": "https://www.1x.tech/order",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "实际打开，US$200定金、买断/月付、基础自主与Expert模式明确。"
+      },
+      {
+        "title": "1X官方预订条款",
+        "url": "https://www.1x.tech/legal",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "dependency",
+          "regions",
+          "risks"
+        ],
+        "note": "已打开，明确个人家庭用途和排队邀请性质，不承诺具体交付时间。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "reservation"
+  },
+  {
+    "id": "weave-isaac-0",
+    "name": "Weave Isaac 0",
+    "brand": "Weave Robotics",
+    "category": "laundry",
+    "tagline": "固定在折衣工作区的学习型双臂机器人",
+    "officialUrl": "https://www.weaverobotics.com/isaac-0/order",
+    "status": "reservation",
+    "statusEvidence": "官方订单页收US$250可退预订金、列加州4–6周估期；品牌说明已在当地家庭部署，但法律条款仍为未来订单机会，属于付费预约·非正式订单，不计可购/预售数量。",
+    "regions": [
+      "美国加州（当前）"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方当前家庭交付首先面向加州，未确认中国大陆订购、安装、远程协助及维修。其他地区计划不计当前可用。"
+    },
+    "price": {
+      "text": "US$250可退预约金；US$3,999买断后US$49/月",
+      "note": "另有US$249/月方案；采用当前订单页，不沿用旧发布价格。预订不是交付保证。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "动作AI模型学习折叠衣物，遇到难处理衣物可由Weave人员远程短时纠正再交回自主流程；固定折衣与人工协助共同构成当前能力，不是移动收衣或洗烘机。",
+      "dependency": "需要工作桌、适配电源网络、安装及持续服务；用户放入衣物和处理最终收纳，模型更新不等于任意布料都可靠。"
+    },
+    "highlights": [
+      "只聚焦家庭折衣",
+      "动作模型与远程纠正结合",
+      "当前加州家庭部署与付费预订"
+    ],
+    "analysis": {
+      "demand": "需求假设：高频洗衣家庭希望减少洗烘后重复折叠，而不是购买更多洗衣程序。应记录搬运、摆放、失败与收纳的总时间，不能把机器折叠时无需站旁边直接等同全部衣物流程完成，远程协助也要单列。",
+      "userProfile": "画像推断：加州有固定折衣桌和设备空间、衣物较多并愿接受早期服务的家庭更匹配。实际负责折衣的人需认可整理方式与隐私，预算或对机器人兴趣不能代替真实任务频次，也不能默认所有家庭都有合适工作区。",
+      "competition": "竞争判断：与手工折衣、洗衣服务和完整移动家务机器人竞争，固定位置降低任务范围是明确差异。不会再加Isaac 1同品牌扩展充数；应比较总劳动、支持与收纳，而非把双臂或学习模型视作普遍优势。",
+      "supplyChain": "供应链分析：固定结构、双臂、夹持、观察和控制需要处理柔性衣物，完整工厂和BOM未披露。布料缠绕、长期关节、工作桌适配与远程服务影响交付，不能只用机械臂价格推算家庭可用性或维护成本。",
+      "technology": "技术判断：官方明确AI动作模型及远程纠正，机器学习与人工介入不是同一能力。不同衣料、尺寸和叠放会影响操作，发布样例和周更新不代表所有衣物已可靠处理，也不应混入Isaac 1移动取放能力。",
+      "aesthetics": "审美判断：固定柱体与双臂是明显工具形态，工作桌和安全空间决定能否留在家中。线材、夹持动作与停机状态应清楚，设备照片的空旷工作区不能代表普通洗衣房，也不必用拟人外形掩盖实际维护。",
+      "risks": "风险判断：当前收取预订金但不保证交付，远程纠正涉及家庭衣物与画面权限。机械操作和布料限制需明确，用户仍需准备与收纳，不能将AI或已部署个案当作完全无人、所有衣物无损和全球服务保证。",
+      "opportunity": "机会假设：折衣是可衡量的家务切入点，先比较多周人工准备、纠错和结果接受再考虑移动扩展。若多数工作仍由远程人员完成，应透明说明成本与模式，不从人形机器人话题推定固定家务平台一定划算。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "面向家庭的柔性衣物操作仍早期，固定折衣与普通洗烘任务明显不同，但部署地区与人类协助限制规模。"
+    },
+    "architecture": [
+      {
+        "name": "工作区输入",
+        "detail": "用户将清洁衣物放到合适桌面工作区。",
+        "evidence": "official"
+      },
+      {
+        "name": "观察与模型",
+        "detail": "模型根据衣物状态驱动折叠，未披露完整传感BOM。",
+        "evidence": "official"
+      },
+      {
+        "name": "双臂执行",
+        "detail": "固定基座、双臂与夹持工具完成布料操作。",
+        "evidence": "official"
+      },
+      {
+        "name": "远程纠正",
+        "detail": "困难情境由远程人员协助后继续。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装服务",
+        "detail": "联网、安装、模型更新和维修支持。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Isaac 0官方家用订单",
+        "url": "https://www.weaverobotics.com/isaac-0/order",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "regions",
+          "china"
+        ],
+        "note": "已打开，US$250预订金、当前费用与加州交付估期明确。"
+      },
+      {
+        "title": "Isaac 0官方产品能力",
+        "url": "https://www.weaverobotics.com/isaac-0",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "dependency"
+        ],
+        "note": "已打开，固定折衣、家庭部署、自动与远程协助边界。"
+      },
+      {
+        "title": "Weave官方折衣AI说明",
+        "url": "https://www.weaverobotics.com/stories/isaac-0-announcement",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "limitations"
+        ],
+        "note": "已打开，动作AI模型与远程纠正，不把宣称任何衣物视为独立实测。"
+      },
+      {
+        "title": "Weave官方预订协议",
+        "url": "https://www.weaverobotics.com/pre-order-agreement",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "risks"
+        ],
+        "note": "已打开，预订仅为未来订单机会、可取消，不保证交付。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "reservation"
+  },
+  {
+    "id": "lockin-v7-max",
+    "name": "鹿客 Lockin V7 Max",
+    "brand": "Lockin",
+    "category": "home-security",
+    "tagline": "以红外隔空供电支撑门前识别、对话与事件检索的家用智能锁",
+    "officialUrl": "https://www.lockin.com/detail/?slug=V7",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-04实际浏览官网首页显示 V7 Max ¥4799 与购买按钮，点击指向京东商品100348216154；详情页明确 Max 配套隔空供电器。京东要求登录，未验证个人地址库存或提交订单。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "中国官网直接提供 V7 Max 的京东商品购买入口；具体门型、地区安装及结算库存需在官方渠道确认。"
+    },
+    "price": {
+      "text": "官网标价 ¥4,799",
+      "note": "为 V7 Max，非 ¥4,099 的 V7 Pro；首页与型号比较图一致，补贴、安装附加费及地区库存以官方购买渠道为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方 LockinAI 展示人脸与静脉识别、门前人物看护、自然语言检索回家画面及访客对话；隔空充电是供电机制，本身不是AI。",
+      "dependency": "依赖锁体传感器、控制与品牌软件服务；模型运行位置、离线对话边界及数据保留细节未完整披露，需逐项核实。"
+    },
+    "highlights": [
+      "V7 Max 配套红外光隔空供电器，区别于选配续航的 V7 Pro",
+      "门内外屏幕及前后面板形成入户交互界面",
+      "官方展示人物画面检索与快递访客对话；不据宣传认定开锁安全绝对可靠"
+    ],
+    "analysis": {
+      "demand": "需求假设是高频使用带屏门锁的家庭既希望少维护电池，又希望更快找到孩子到家或访客记录。V7 Max 把供电维护和门口交互合并，但是否值得整体换锁，应比较真实充电频率、检索成功率与原有门铃方案。",
+      "userProfile": "用户画像推断为愿意更换整套锁体、接受专业安装且门内有供电器摆放空间的自住房家庭。老人儿童可以通过不同识别方式进入，但无障碍便利必须实测身高、伸手范围和误拒场景，不能由宣传示意直接推导。",
+      "competition": "门锁市场整体拥挤，本型号的区别是隔空供电与双面交互共同支撑持续服务，而非新增一种颜色或更高摄像清晰度。竞争对象包括电池门锁加独立门铃，也包括有线门禁；整套升级是否更省心仍是待验证问题。",
+      "supplyChain": "功能需求涉及光电供能、光学与生物识别、显示交互、机电锁体和上门安装服务。当前所读官网没有披露整机代工、关键芯片或成本，因此只能匹配具有对应能力的候选伙伴，不能把常见门锁供应商写为实际客户。",
+      "technology": "官方图片明确红外光隔空充电和 LockinAI 的画面检索、访客回应及多模态身份入口。充电并不构成AI；智能部分应以识别和语义任务验证，并检查遮挡、断网、光线变化时回退策略，模型参数暂未公开。",
+      "aesthetics": "外观采用修长深色曲面把手与门内外屏幕，降低传统门把与摄像头分离的视觉碎片。动态图形和艺术联名更偏家居展示，但大面积屏幕可能显得抢眼；是否符合简洁住宅审美应提供待机状态而非只展示营销动画。",
+      "risks": "主要风险包括供电器摆放被遮挡、身份误拒、访客对话误解以及门前影像记录涉及他人。官网安全认证图片只是厂商证据展示，本次未逐项验真，也不能推出任何条件下无限续航或零风险；应保留机械应急流程。",
+      "opportunity": "机会假设是把门锁维护、家人到家确认和访客记录检索压缩成少量可靠任务，而不追求更多屏幕聊天。试点可先测长期供电可用性、误报与人工接管次数，并与原有锁加门铃比较实际节省的操作和维护时间。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "家用智能锁成熟拥挤；红外隔空供电结合门前语义交互属于机制差异较大的子方向，尚不能因产品新颖直接判断市场空间。"
+    },
+    "architecture": [
+      {
+        "name": "门外识别面板",
+        "detail": "官方展示摄像、指脉、人脸及掌脉识别入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "门内交互面板",
+        "detail": "屏幕与摄像相关界面提供家庭侧交互，具体布局以真实图为准。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电链路",
+        "detail": "Max 的外置红外光发射器与门内接收区构成隔空充电功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "锁体执行机构",
+        "detail": "把身份授权转换为机械开闭的功能层；未披露内部传动与零件布置。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "AI交互与记录服务",
+        "detail": "公开展示事件检索、人物看护及访客回应，云端与本地分工未详述。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "鹿客官网现售型号与购买入口",
+        "url": "https://www.lockin.com/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china"
+        ],
+        "note": "浏览器实际打开首页，V7 Max 标价4799元；购买按钮打开京东指定商品，未登录或购买。"
+      },
+      {
+        "title": "鹿客 V7 系列官方详情",
+        "url": "https://www.lockin.com/detail/?slug=V7",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "aesthetics",
+          "price"
+        ],
+        "note": "实际浏览并读取官方详情图片，区分 Max 的红外光供电和 Pro；LockinAI 展示事件检索及访客回应，具体效果未独立测试。"
+      }
+    ],
+    "checkedAt": "2026-11-04",
+    "audience": "consumer",
+    "saleMode": "retail"
+  }
+]

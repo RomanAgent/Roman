@@ -1,0 +1,171 @@
+# TDK / InvenSense
+
+TDK 与 InvenSense 在本目录合并记录，重点是惯性、声音与相关端侧处理，避免将集团和传感品牌重复计数。公开方案既有标准运动输出，也有特定型号上的模型开发和部署流程。选型必须区分普通器件、带专门软件的变体和开发套件，不能把一个演示功能扩展到整个系列或推断具体消费产品已经采用。
+
+核查 2026-11-04 · 日本（集团总部）；美国（InvenSense 业务总部） · 综合与跨地区供应商
+
+按集团传感平台与全球支持覆盖分组；TDK 与 InvenSense 不重复计数，本条不收电池或制造业务。
+
+[官网](<https://www.invensense.tdk.com/>) · [公开联系入口](<https://www.invensense.tdk.com/en-us/offices-contact>)
+
+公开地区：日本东京、美国 San Jose、中国上海与深圳、中国台湾、日本横滨、韩国
+
+能力：SmartMotion 六轴惯性传感、SmartEdgeML 传感器侧模型部署、SmartSound MEMS 麦克风、眼镜姿态、运动与声音输入、SmartSonic 超声 ToF 与已披露白杖传感合作
+
+## 公司定位与边界
+
+### 官方｜集团与品牌合并记录 · 官方资料
+
+集团资料和业务联系页分别列出 TDK 与 InvenSense 的总部及品牌关系，因此目录合并为一个供应商条目。这里聚焦传感与相关处理，不把集团其他电池、被动器件或制造能力一并当作候选；实际采购仍需核对对应业务和地区法人，不能只按集团名称签署责任。
+
+依据：[TDK at a Glance](<https://www.tdk.com/en/about_tdk/tdk_at_a_glance/index.html>) · [TDK InvenSense Offices and Contact](<https://www.invensense.tdk.com/en-us/offices-contact>)
+
+### 判断｜运动与声音的组合价值 · 研究判断
+
+眼镜和耳部设备可能同时需要姿态、声音与佩戴状态，组合感知有机会减少某些误触发或改善交互。但更多传感器也增加同步、功耗和调试，不能默认一定更好；应围绕一个明确任务验证每路输入的贡献，并删除不能改善结果的冗余数据路径。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)
+
+## 产品与技术能力
+
+### 官方｜传感器侧模型流程 · 官方资料
+
+公开方案包含特定惯性传感器、评估硬件和推理框架，用于构建、测试和部署传感器级模型。这个流程支持探索窄任务识别，但不意味着所有同系列器件都具备相同开发权限；目录保留型号和软件变体边界，避免把常规运动功能误写成任意模型可编程。
+
+依据：[TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>)
+
+### 判断｜原始数据与融合结果 · 研究判断
+
+姿态或活动输出是处理后的结果，项目仍需要理解原始数据质量、校准和时间戳。若只读取融合结果，出现漂移或误识别时可能难以定位；候选评估应确认可获得的中间信息，并区分传感器测量、算法分类和应用解释，不把它们合成一个不可复核的指标。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>) · [TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>)
+
+### 官方｜白杖中的多种感知 · 官方资料
+
+TDK官方合作案例明确点名WeWALK Smart Cane 2采用SmartMotion惯性、SmartSound麦克风和SmartSonic超声飞行时间方案。这提供了具体成品与模块系列之间的公开关系，但没有给出全部料号和内部电路；供应商文章中的器件能力仍不能替代整机的可靠探障范围与实际环境测试。
+
+依据：[TDK and WeWALK Smart Cane 2 disclosed sensor collaboration](<https://www.tdk.com/en/featured_stories/entry_084-WeWALK-Smart-Cane-2.html>)
+
+## 适用场景与匹配
+
+### 判断｜智能眼镜适配 · 研究判断
+
+眼镜的运动输入可用于头部姿态、操作或图像稳定相关任务，但每种任务对延迟和噪声要求不同。应先确定成品确实需要哪一种功能，再选择器件和软件；没有显示或空间交互的眼镜未必需要高规格追踪，不能只因应用页列出眼镜就添加未披露模块。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)
+
+### 判断｜腕部与听觉适配 · 研究判断
+
+腕部动作、耳部姿态和说话振动来自不同安装位置，数据分布也不同，不能直接共用未经验证的模型。候选应在实际佩戴结构中测试，并考虑松动和左右侧变化；助听设备还需要将声音处理与运动上下文分开验收，避免把活动识别当成听觉效果保证。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)
+
+### 判断｜辅助出行的模块边界 · 研究判断
+
+白杖应用同时要求感知、触觉或声音反馈以及传统机械使用方式，多个传感器的价值应围绕这些具体任务评估。惯性线索可以帮助理解挥杖，超声测距可以补充障碍信息，但两者都不能直接决定道路通行；已有合作证明应用可落地，不证明相同配置适合每种用户和环境。
+
+依据：[TDK and WeWALK Smart Cane 2 disclosed sensor collaboration](<https://www.tdk.com/en/featured_stories/entry_084-WeWALK-Smart-Cane-2.html>)
+
+## 合作与导入流程
+
+### 判断｜接洽资料应有时序 · 研究判断
+
+技术材料应列出采样、缓存、推理和主控读取周期，并给出安装方向和用户动作样本。这样可以判断处理放在传感器还是主控更合适，也能发现同步问题；只提供一个低功耗目标不够，需要说明每次事件触发后系统还会做什么以及持续多久。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>) · [TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>)
+
+### 判断｜软件与器件一并确认 · 研究判断
+
+采购前应确认模型框架、工具、固件和目标传感器是否属于同一支持组合，并明确哪些部分可由团队修改。地区办公室提供沟通入口，但不等于所有项目拥有同样开发资源；需要把版本、许可和问题处理范围写清楚，避免样机阶段与量产阶段条件不一致。
+
+依据：[TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>) · [TDK InvenSense Offices and Contact](<https://www.invensense.tdk.com/en-us/offices-contact>)
+
+## 质量与交付能力
+
+### 判断｜机械与温度影响 · 研究判断
+
+惯性数据会受到安装、主板弯曲、振动和温度变化影响，测试应在接近最终结构的样机中进行。对于眼镜和耳部设备，还需记录摘戴和长期佩戴后的变化；不能只在桌面静止条件下确认输出稳定，就推断运动或环境切换时也维持相同精度。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)
+
+### 判断｜动作模型的错误分布 · 研究判断
+
+模型验证应同时包含目标动作与大量日常非目标动作，统计误触发和漏报，而不是只重复标准手势。不同用户的幅度、速度和佩戴松紧会改变结果，尤其窄任务模型可能对边缘情况敏感；需要保留失败样本与配置，才能持续判断算法是否适合真实产品。
+
+依据：[TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>)
+
+## 商业与成本结构
+
+### 判断｜系统功耗比较 · 研究判断
+
+传感器侧处理可能减少主控唤醒，但增加自身计算与缓存耗电，收益应通过整机测量确认。比较时保持相同事件与响应目标，并记录无线和显示是否被误唤醒；不能只取传感器最低工作模式的数字推算全天续航，也不能忽略主控读取数据的频率。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>) · [TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>)
+
+### 判断｜集团资源不等于条件 · 研究判断
+
+集团业务广泛并不代表某个传感器项目自动获得固定交期或本地支持，采购仍需按实际料号和渠道确认。应分别核对样片、开发套件、软件许可与量产协议，目录不编造最低采购量或产能；公开总部和办公室信息只支持主体与联系路径的判断。
+
+依据：[TDK at a Glance](<https://www.tdk.com/en/about_tdk/tdk_at_a_glance/index.html>) · [TDK InvenSense Offices and Contact](<https://www.invensense.tdk.com/en-us/offices-contact>)
+
+## 风险与替代路径
+
+### 判断｜算法功能泛化风险 · 研究判断
+
+预置计步、动作中断和可部署模型属于不同层级，不能把普通传感器功能一概称为机器学习。对外描述应明确哪部分由算法推断、哪部分只是阈值或测量，并核对目标变体；否则产品容易在没有对应软件或数据验证时宣称具备更广泛的智能识别能力。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>) · [TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>)
+
+### 判断｜漂移与安全解释 · 研究判断
+
+惯性传感可以辅助姿态和导航，但单独输出不能被当作任何环境中的绝对位置或安全判断。应用需要处理漂移、校准和数据失效，尤其在辅助设备中明确不确定性；目录不把传感器应用方向扩写为防跌倒、康复或导航效果承诺，整机仍需独立验证。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)
+
+## 询价与验证清单
+
+### 判断｜从原始数据开始 · 研究判断
+
+可以先记录真实佩戴数据，在离线环境确认任务可分，再部署到目标传感器并比较输出、延迟和总耗电。若结果不同，逐步检查采样、窗口和模型转换，而不是直接更换硬件；这种流程能检验传感器侧处理是否真正减少主控负担并保持任务质量。
+
+依据：[TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>)
+
+### 判断｜采用关系的核对 · 研究判断
+
+选型通过需具备目标结构数据、软件工具可用性和采购答复，目录中的候选仍不能代替成品供货证据。只有品牌或供应方明确点名具体产品与系列，才可标为已采用；TDK 与 InvenSense 的集团关系也不意味着某款设备同时使用集团所有类型的传感器。
+
+依据：[TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>) · [TDK InvenSense Offices and Contact](<https://www.invensense.tdk.com/en-us/offices-contact>)
+
+### 判断｜合作证据与测距验证分开 · 研究判断
+
+可以将合作案例作为模块采用证据，再分别核查目标料号、安装角度、探测范围和失效提示。测试需包括不同材质、细杆、斜面和相邻移动物体，记录误报与漏报；厂商页面提及的传感器最大能力并非整机在任何环境的保证，不能用一个数字替代真实白杖使用验证。
+
+依据：[TDK and WeWALK Smart Cane 2 disclosed sensor collaboration](<https://www.tdk.com/en/featured_stories/entry_084-WeWALK-Smart-Cane-2.html>)
+
+## 关联硬件产品
+
+> 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
+
+- [Amazfit T-Rex 3 Pro](../hardware/amazfit-t-rex-3-pro.md) — **能力候选 · 非已采用** / 户外活动的惯性与运动输入候选：T-Rex 3 Pro 披露运动传感输入，TDK/InvenSense 的惯性平台可作为新设计候选，需验证安装、振动、采样和主控功耗。当前没有供货点名，传感器能力不等于 Zepp 的实际运动算法，也不提供完整定位导航或训练建议，不能由户外外形推断具体型号。
+
+- [Samsung Galaxy Watch8](../hardware/samsung-galaxy-watch8.md) — **能力候选 · 非已采用** / 腕部运动与姿态输入候选：Watch8 的活动记录需要运动输入，TDK/InvenSense 可作为新设计传感路线候选。需验证安装、采样、主控接口和功耗，当前没有供货点名；器件能力不等于三星健康的实际算法，也不能由三星品牌或同类手表常见配置推断本型号的具体传感器来源。
+
+- [Ultrahuman Ring AIR](../hardware/ultrahuman-ring-air.md) — **能力候选 · 非已采用** / 睡眠与活动分析的运动输入候选：官方说明包含运动信号，TDK/InvenSense 可作为相应新设计候选，但需按指环空间与低功耗需求选择具体器件。当前没有采用点名，不能从候选 IMU 推断 AIR 内部完整配置；运动数据不等同睡眠分类模型，也不能把 PRO 新硬件或生态其他输入移入本款。
+
+- [WeWALK Smart Cane 2](../hardware/wewalk-smart-cane-2.md) — **公开披露关系** / 已披露SmartMotion、SmartSound与SmartSonic传感方案：TDK官方合作案例明确把Smart Cane 2与其惯性、声音和超声飞行时间模块系列联系起来，因此可记录已披露的传感合作。证据没有公开完整料号、工厂和所有控制芯片，也不能将器件极限参数等同白杖整机有效范围；导航与生成式问答的执行位置仍需分别说明。
+
+- [Arccos Air](../hardware/arccos-air.md) — **能力候选 · 非已采用** / 穿戴惯性动作采集候选：官方Arccos技术机制需要陀螺仪和加速度计采集挥杆，TDK InvenSense公开穿戴惯性感知与边缘学习路线，具备功能匹配基础。采样、功耗、口袋姿态与动作模型仍须整机评估，本轮没有其被Arccos Air实际采用的点名证据。
+
+## 来源
+
+- [TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)：支持惯性、声音、磁感知与穿戴应用范围；具体型号功能仍需核对。
+
+- [TDK SmartEdgeML](<https://www.invensense.tdk.com/en-us/news-media/press/tdk-launches-smartedgeml-run-ultra-low-power-machine-learning-models-6-axis-imu>)：支持特定传感器、评估套件与模型构建部署流程，不泛化到全部 IMU。
+
+- [TDK at a Glance](<https://www.tdk.com/en/about_tdk/tdk_at_a_glance/index.html>)：支持东京集团总部、公司主体与 InvenSense 品牌归属。
+
+- [TDK InvenSense Offices and Contact](<https://www.invensense.tdk.com/en-us/offices-contact>)：支持集团与业务总部区别、公开地区支持入口。
+
+- [TDK and WeWALK Smart Cane 2 disclosed sensor collaboration](<https://www.tdk.com/en/featured_stories/entry_084-WeWALK-Smart-Cane-2.html>)：已打开。明确点名 Smart Cane 2 采用 SmartMotion、SmartSound、SmartSonic 等 TDK 方案；无具体料号和独立效果验证，不将传感器最大测距等同整机可靠探障范围。
+
+[返回供应链目录](../supply-chain.md)

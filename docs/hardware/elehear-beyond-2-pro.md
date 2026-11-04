@@ -58,33 +58,187 @@ VOCCLEAR 3.0 AI声音处理用于环境适应、语音与噪声区分及反馈�
 
 需求假设：希望通过消费零售方式获得可在App内个性化的听音辅助。需求要在个人听音场景中检验；易买到和外观熟悉不等于适配所有情况，也不能把购买便利直接转写成医学效果。
 
+### 官方｜零售入口与个性化听音 · 官方资料
+
+Beyond 2 Pro以耳背RIC主机、可更换受话器和应用设置提供个人听音辅助，官方把VOCCLEAR 3.0用于环境适应、语音与噪声处理。其零售购买流程与可选远程支持并存，不能因为可直接加入购物车就认为所有人都能用相同默认参数，也不把产品名称中的升级表述当成个体效果证据。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 判断｜方便购买后的实际困难 · 研究判断
+
+需求假设是用户希望较方便地开始使用，并能在不同交流环境里调整声音；真正的障碍可能发生在首次佩戴、分辨左右、选择合适连接长度和描述不满意的声音。零售降低购买步骤后，这些适配工作仍然存在，因此评价应延伸到交付后的使用过程，而不只比较门店与线上成交方式。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 验证｜以具体对话建立记录 · 待验证
+
+符合说明范围并完成设置后，可记录本人最常遇到的单人交谈、多人聚会和媒体收听，观察理解、重复询问及手动调整的变化。保持比较条件和原有方案，特别区分背景变轻与语音确实更容易理解；本研究没有独立听音测试，不能凭AI名称判断实际收益。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
 ## 用户画像
 
 画像推断：符合当地OTC产品适用范围、能够完成App设置并理解使用说明的成年人更匹配。需要专业诊断或复杂验配的人群不能据在线宣传自行套用，本目录不进行个体适配建议。
+
+### 官方｜厂商限定适用范围 · 官方资料
+
+商品页将本款定位为面向成年人的OTC助听产品，并限定其所述听力范围，同时提供应用支持和可选线上专业服务。这是该销售地区的厂商使用边界，不构成对某个人的适配判断；远程服务还需要选择地区确认可用性，不能假设每个买家获得同样的人员和服务时段。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>)
+
+### 判断｜愿意管理设置与维护 · 研究判断
+
+能够阅读说明、使用兼容手机并愿意处理日常清洁和受话器维护的人，可能更容易发挥零售形态的便利。若用户需要大量面对面教学，线上入口本身不一定减少总负担；家庭协助可以支持设置，但最终仍应以本人对声音和佩戴的反馈决定是否继续使用。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 验证｜第一次独立使用要拆解 · 待验证
+
+试用时分别检查取放、佩戴、应用连接、声音调节和充电，不用一条总体满意评价掩盖其中的困难。让本人说明遇到不适或听不清时将联系谁，并核对远程支持在所在地是否提供；这些具体操作记录有助于判断所需服务，而不是通过职业或年龄猜测适配程度。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
 
 ## 竞争与替代
 
 案头判断：该耳背RIC主机与可更换受话器与其他OTC助听、传统验配方案及辅助听音产品竞争。没有销量、复购或用户访谈依据，不把较低硬件价格理解为更高性价比或相同服务水平。
 
+### 官方｜配置价格和颜色状态不同 · 官方资料
+
+所见具体商品页基础配置为每对七百九十九美元，默认展示也可能是附干燥盒的套装，页面另有可选服务与附件。黑色配置同时显示候补提示，因此在售证据只覆盖可下单配置；比较页可能显示阶段促销，目录保留所见基础参考并要求以选定地区的实际结算为准。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 判断｜服务差异影响总成本 · 研究判断
+
+与传统验配方案比较时，不能只用零售硬件价对照包含多次调试和维护的整套服务。与同品牌其他型号比较，也要确认受话器结构、应用控制和连接能力是否影响本人任务；较新的算法版本与更多配置选项可以形成差异，但没有证据说明它对每位用户都值得额外支出。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 验证｜同一服务口径比较方案 · 待验证
+
+可把设备、受话器更换、清洁耗材、远程咨询、退换和后续支持列为独立项目，再比较试用中真正需要的部分。声音体验应由本人按相同场景评价，避免拿不同档位或单耳价格互比；目录没有销量、复购和用户访谈，不能据较低标价推定市场接受度或性价比。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
 ## 供应链
 
 官网披露耳背RIC主机与可更换受话器及专有声音处理平台，具体芯片制造商、声学器件和装配厂未公开。推断舒适、密封和长期维护与算法同样重要，但不凭厂商自研表述估计物料成本。
+
+### 官方｜可更换输出部件已披露 · 官方资料
+
+官方说明受话器可更换并提供不同连接长度，耳背主体承担主要电子处理，受话器在耳道侧输出声音。当前资料没有点名声音处理芯片制造商、麦克风供应商或装配工厂；VOCCLEAR是品牌平台称谓，不能仅据自有技术宣传推导芯片由谁设计、制造或实际采用哪种封装。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 判断｜机械适配与声学不能割裂 · 研究判断
+
+连接长度、耳塞贴合与耳背位置会改变日常佩戴和声学条件，可更换结构因此既是维护便利，也增加了正确配置的要求。同类新设计需要把声孔、输出路径、反馈控制和功耗一起验证；更换受话器并不意味着任意第三方部件兼容，不能把接口外观相近当作可通用的依据。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>)
+
+### 验证｜候选仅用于重新设计 · 待验证
+
+供应研究可用听觉DSP平台比较实时处理路径，以MEMS麦克风评估前端采集，但需重新建立模型、声学校准和个人设置流程。候选芯片不包含品牌算法与远程服务，也不是本款可直接换件的配方；整机制造、部件可获得性和维护工具还需另外验证，目录不编造物料成本。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
 
 ## 技术路径
 
 已核实AI机制为VOCCLEAR 3.0 AI声音处理用于环境适应、语音与噪声区分及反馈控制，而非把普通蓝牙或ANC当成AI。厂商比较数字未经本研究复核，模型细节、不同声音场景的误差与个体体验也不作推定。
 
+### 官方｜声音AI与连接功能有别 · 官方资料
+
+VOCCLEAR 3.0用于声音场景与语音噪声相关处理，应用提供个性化控制，连接能力则支持相应外部音频使用。核心听音处理与手机管理不是同一层功能，普通蓝牙本身不作为AI证据；厂家与上一代的比较数字属于内部测试表述，本目录没有复现条件，不将其当作普遍改善比例。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 判断｜参数更多未必更易用 · 研究判断
+
+用户能调节声音细节并不意味着知道哪项设置适合当前问题，反复修改还可能让后续支持难以重现问题。技术分析应关注默认状态、改动范围和恢复路径是否可理解；自动声音适应与个人偏好需要共同工作，不能把噪声更少等同所有细节更真实或每段语音都能听懂。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>)
+
+### 验证｜保留变化前后的场景 · 待验证
+
+调整时可一次记录一个变化，保留所处环境、关注的说话人和原设置，以便比较是否改善实际交流。另行测试手机断开时的核心听音，以及流媒体和外界声音之间的切换；这些记录有助于把连接问题、声音偏好和适配问题分开，而不凭一次不佳体验推断算法整体失效。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
 ## 产品审美
 
 图示观察：较扁的耳背主体和可选择长度的连接部件强调日常佩戴适配。实际耳廓贴合、操作按键和取放充电的便利需要试用；消费电子外观不改变产品适用范围，也不证明长时间佩戴一定舒适。
+
+### 官方｜耳背主体与多种连接长度 · 官方资料
+
+官方展示较扁的耳背主体和可选择的受话器连接长度，试图适应不同佩戴条件与眼镜共用场景。此类设计说明可以确认产品方向，但不能保证每种耳廓、镜腿和发型都无干扰；所见图片也不支持关于长期皮肤接触、重量感或所有颜色实际交付状态的确定结论。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>)
+
+### 判断｜取放便利也是外观价值 · 研究判断
+
+较小主体可能减少外露感，却也可能让捏取、找按键和放入充电位置更困难。用户对可见性的偏好并不一致，设计评价应同时观察是否愿意戴、是否容易维护，以及能否向他人解释自己的听音需要；仅把助听设备做得像消费电子，不会自动解决这些使用问题。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>)
+
+### 验证｜真实穿戴组合观察 · 待验证
+
+应在本人常戴眼镜、口罩或帽子的条件下完成戴取和交谈，记录耳背相互碰触、连接线位置以及取下后是否容易分辨左右。再观察清洁和充电操作是否能独立完成；所有舒适与外观判断都应来自本人试用，不能把厂商设计目标转换成未经验证的全天佩戴保证。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>)
 
 ## 关键风险
 
 主要风险是把OTC零售资格当成对所有听力情况都合适，以及套装、远程服务和配置价格混淆。官网存在不同颜色开放时间，只有可加购物车配置计入在售；本研究不提供疗效或适配保证。
 
+### 官方｜购买与专业支持分别有条件 · 官方资料
+
+本款具备当前零售订单入口，但其适用说明、可选远程服务和地区可用性各有范围，不能将网站注册或零售资格理解成针对每个人的效果认可。中国大陆的具体型号上市和完整支持本次未确认，海外发货描述也不证明跨境购买后的应用、耗材和服务同样可用。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 判断｜容易获得不等于容易适配 · 研究判断
+
+如果用户只因价格和AI宣传下单，可能低估首次设置、声音适应与长期维护的投入。复杂听音困难也不能由在线商品页或简短测试自行解释；本目录不替个人诊断或选择助听方案，应把用户能获得的支持和问题反馈路径作为产品评价的一部分，而不是附带售后信息。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>)
+
+### 验证｜交付前核对可执行服务 · 待验证
+
+需要确认具体配置、退换条件、耗材购买方式和所在地远程支持，并记录试用出现的问题是否能被响应。遇到持续不适或适配疑问时，应通过合适的专业渠道处理，而不是不断增加增益或相信营销比例；这些核验用于理解产品使用边界，不提供个体疗效保证。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
 ## 机会与验证
 
 市场差异是耳背RIC主机与可更换受话器与AI声音处理、App设置和线上支持的组合。尚待验证的购买理由是个人真实场景体验与长期维护是否可接受，而不是仅由标价或营销准确率决定。
+
+### 官方｜维护与声音平台同时升级 · 官方资料
+
+Beyond 2 Pro把新的声音处理平台、可更换受话器和个性化设置放在同一产品中，差异不只在AI版本号。官方分别展示这些能力，但没有证明哪一项是每个购买者的主要理由；对本目录而言，它仍属于复杂声场听清的需求，不能因多个升级点重复增加独立场景数量。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+### 判断｜持续使用可能依赖小维护 · 研究判断
+
+对个人而言，一次容易完成的受话器更换或一次能解释清楚的远程支持，可能比抽象算力更影响长期保留。值得研究的是维护和设置是否降低放弃使用的概率，同时保持实际交流体验；这是一条可验证的假设，不能由模块可换或线上服务存在就推导已经获得长期依从性。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>)
+
+### 验证｜跨越首次新鲜感观察 · 待验证
+
+后续可记录数周内主动佩戴、调整、清洁、求助和停止使用的原因，并比较最初列出的交流困难是否改变。把声音体验与服务响应分别评价，避免用满意度覆盖所有问题；本目录没有独立长期观察或销售证据，因此只提供具体验证路径，不声称商业需求和个人收益已经被证实。
+
+依据：[ELEHEAR Beyond 2 Pro官方商品页](<https://elehear.com/products/elehear-beyond-2-pro>) · [ELEHEAR官方型号比较](<https://elehear.com/pages/four-elehear-hearing-aids-compared>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [onsemi](../supply-chain/onsemi.md) — **能力候选 · 非已采用** / 相近OTC助听新设计的实时声音处理平台候选：Ezairo听觉平台公开支持低延迟音频和神经网络处理，可用于研究相近OTC设备的声音链路。它不包含VOCCLEAR算法、个人设置或品牌远程服务，必须重建声学校准与软件流程；当前没有Beyond 2 Pro采用证据，也不能作为现有机器更换芯片的建议。
+
+- [infineon](../supply-chain/infineon.md) — **能力候选 · 非已采用** / 相近RIC结构的声音采集前端候选：英飞凌MEMS麦克风可作为耳背声音采集的功能候选，需要结合声孔、相位匹配、佩戴摩擦和反馈路径验证。单个器件参数不代表语音辨识或降噪效果，具体封装与供电还要适应整机；未发现ELEHEAR点名采用资料，此处不推断原设备麦克风数量或供应关系。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

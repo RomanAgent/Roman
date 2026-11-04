@@ -58,33 +58,189 @@ AI 追踪、自动构图和智能降噪服务于视频通话与直播；并不�
 
 需求假设：站立授课、产品讲解和远程会议用户需要移动时仍留在画面中，减少手动调镜头。应比较普通固定摄像头下的中断次数、观众可见性和设置时间，不是所有会议都需要追踪。
 
+### 需求假设：讲解者移动时不用停下来调镜头 · 研究判断
+
+Link 2的任务重点是让站立授课、桌面演示或走动讲解的人继续留在画面内，减少伸手调摄像头的中断。对始终坐在同一位置的会议用户，追踪收益可能很小，因此应先识别移动与实物演示是否真的反复发生。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 价值判断：观众看清内容比跟住脸更重要 · 研究判断
+
+讲解时目标可能从人脸转到手里的物件或桌面操作，摄像头持续跟住人物并不必然满足观众需求。Link 2的价值应按演示可见性、讲述连贯性和人工调整次数评估，而不是只看空房间里跟随一名用户的动作是否流畅。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 验证方案：用一节完整课程或会议 · 待验证
+
+让讲师完成原有课程或产品演示，记录镜头调整、观众要求重看和因取景中断讲解的次数。与固定摄像头比较时保持相同网络和软件，并保留完整录制，避免把视频会议压缩造成的问题误归因于摄像头算法。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
 ## 用户画像
 
 画像假设：线上教师、远程咨询者、演示型主播及高频视频工作者。购买者通常自己安装电脑设备，但不同软件权限和画面比例会改变需求；普通偶发会议用户可能更看重价格与简单。
+
+### 画像假设：高频演示型电脑用户 · 研究判断
+
+潜在用户包括线上教师、需要展示实物的咨询者和小型直播创作者，他们通常愿意管理电脑设备与软件权限。偶发会议用户可能更关注简单连接和价格，不能因为所有人都参加视频通话，就推断他们都需要带云台的AI摄像头。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
+### 使用约束：电脑与会议软件共同决定体验 · 研究判断
+
+Link 2是连接电脑的摄像设备，高级设置和输出还涉及控制软件与会议或直播应用。用户需要能理解输入源、权限和画面比例，画像中应包含这种设置能力；它并不是离开电脑即可独立完成移动拍摄的网络相机。
+
+依据：[Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
+### 访谈重点：谁在承担摄像调整工作 · 待验证
+
+应询问用户最近一次演示中由谁移动镜头、是否因此丢失节奏，以及观众真正看不清什么。对于机构或家庭共用电脑，还要了解谁负责软件维护和恢复默认设置，避免只访谈购买者而忽略实际操作和支持的人。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
 
 ## 竞争与替代
 
 竞争判断：AI 云台摄像头已有 OBSBOT 等直接替代，也受高质量手机和笔记本摄像头竞争。应比较实际声音、弱光和自动构图稳定性，无法单凭 4K 或 AI 字样证明差异。
 
+### 替代方案：固定摄像头和手机机位 · 研究判断
+
+Link 2需要与高质量固定摄像头、手机加支架及其他AI云台摄像头比较。固定方案可能更可预测且无需运动机构，手机可能提供熟悉画质；是否需要追踪应由演示内容决定，不能因为带有云台就假定它在所有会议中更好。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 差异判断：部署和恢复决定日常价值 · 研究判断
+
+在高频电脑工作中，能否快速识别设备、记住合适设置和在会议前恢复稳定画面，可能比某一项最高规格更重要。Link 2的竞争分析应覆盖这些日常步骤，不能只把AI构图、降噪和分辨率列成相互独立的功能优势。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
+### 比较方法：从开会前到结束后记录 · 待验证
+
+让相同用户分别设置固定与云台方案，完成坐姿讨论、站立讲解和实物展示，再恢复隐私或收纳状态。记录每种模式的准备时间与失误，结合观众反馈判断追踪是否值得，而不是只让操作者看自己的预览画面打分。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
 ## 供应链
 
 供应链推断：图像传感器、镜头、小型云台电机、麦克风、USB 控制和磁吸安装件构成主要模块。供应商、工厂和物料成本未公开；标定、震动、接口兼容与散热是工程重点。
+
+### 功能拆分：摄像、驱动与电脑接口 · 研究判断
+
+原目录确认Link 2包含图像与语音采集、人物感知、小型云台和USB电脑连接，不能与固定式Link 2C混为同一硬件。控制软件及会议应用又构成外部链路，功能示意不代表内部电路或电机供应商已经被拆机确认。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
+### 制造判断：小型运动与成像需要同步 · 研究判断
+
+云台调整应与人物检测、画面稳定和自动对焦协作，安装支架和线缆也可能影响运动。供应评估需要关注转动噪声、长期重复动作及接口兼容，而不是只看摄像模组价格；本轮没有获得原机代工厂、驱动型号或物料成本。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 候选选型：视觉输入和运动控制分开验证 · 研究判断
+
+Arducam或e-con可以作为USB视觉输入与驱动工程的候选，maxon可讨论小型运动执行路径。它们并不一定适合直接装入Link 2，体积、成本、控制接口和噪声都需进一步确认，候选链接不能被解释为原机供应关系。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
 
 ## 技术路径
 
 官方披露追踪、构图与降噪。技术判断：算法应在主体丢失、多人进入和转身时保持可预测行为；需要验证不同电脑性能与会议软件兼容性，不能把本地摄像头算法等同云端大模型。
 
+### 已披露能力：追踪、构图与语音降噪 · 官方资料
+
+官方说明人物追踪、自动构图和智能降噪服务于视频通话与直播，控制和输出结合电脑软件完成。这里是感知与信号处理能力，不是生成内容或自动担任摄制团队；也不能因为使用AI字样就推断它依赖通用云端大模型。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
+### 技术判断：失跟后行为要可预测 · 研究判断
+
+人物离开画面、转身或多人进入时，系统是否保持原方向、选择新目标或等待用户，会直接影响正式会议。应将这些行为作为可理解性问题，而不只看正常跟随精度；一个偶尔失跟但容易接管的系统可能更符合某些演示任务。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 验证方案：分开测试摄像与传输链路 · 待验证
+
+先在本地录制中观察追踪和降噪，再通过实际会议软件比较画面和声音，记录差异来自哪一层。测试应包含背景说话、讲解者走出画面和重新进入，避免把网络压缩、软件裁切或权限问题误认为同一种AI失效。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
 ## 产品审美
 
 审美判断：紧凑桌面设备和磁吸结构适合显示器边缘，黑白选项易与工作台搭配。云台运动可见性与镜头朝向影响隐私感；收纳和遮挡状态最好明确，减少摄像头是否开启的不确定。
+
+### 外形判断：显示器边缘的长期存在 · 研究判断
+
+Link 2的紧凑云台形态适合放在显示器附近，但它会长时间处于用户视野和工作空间中。审美不仅是颜色搭配，还包括镜头朝向、线缆走向和支架占用，用户是否容易判断正在拍摄，比开箱时的机械精致感更重要。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 交互判断：运动本身会传达意图 · 研究判断
+
+云台转动既是功能反馈，也可能让人误以为设备正在关注房间中的其他对象。应观察用户如何理解转向、停止和隐私状态，避免把明显运动只当作技术展示；清楚的可控性能够影响长期摆放意愿，而不只是画面质量。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 体验验证：在真实办公桌中使用 · 待验证
+
+让用户把设备装在自己常用显示器或桌面位置，接入现有线缆并完成一天的会议和讲解。记录碰撞、遮挡、收纳及隐私操作，再询问哪些动作令人安心或不确定，比在干净展示桌上观看自动转动更接近真实体验。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
 
 ## 关键风险
 
 风险判断：自动跟踪可能产生镜头抖动、误跟随或意外拍到背景；不同系统的软件功能有差别。远程教学和直播仍需用户确认隐私边界，视频质量也受光照与网络压缩限制。
 
+### 隐私风险：自动取景可能扩大背景范围 · 研究判断
+
+追踪和构图可能把原本不在固定画面中的背景、旁人或文件带入直播，用户需要明确活动区域与可公开范围。不能因为算法跟住了主体就忽略背景内容，正式演示前应确认取景边界，本轮没有检查任何实际用户房间或权限设置。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 兼容风险：软件链路增加恢复成本 · 研究判断
+
+高级控制、会议软件和操作系统可能形成不同配置组合，设备有图像并不代表所有功能都按预期工作。需要记录稳定版本和恢复步骤，不能把官方购买入口与基础USB连接理解为每一种软件组合都已验证，维护责任也应纳入成本。
+
+依据：[Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
+### 验证安排：正式会议前演练异常 · 待验证
+
+在非正式环境下模拟目标丢失、应用切换、重新插拔和背景噪声，观察能否快速回到可用画面与声音。保留固定安全视角或可快速关闭追踪的操作路径，再决定哪些会议适合启用自动功能；这是测试建议，不是已测故障清单。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
 ## 机会与验证
 
 可验证机会：垂直场景如桌面工艺教学、无障碍演示或多人讨论可形成专门工作流。先观察摄像机是否减少讲课中断，再决定增加云台、广角或场景识别，避免为了功能而复杂化。
+
+### 研究方向：减少演示中断的完整流程 · 研究判断
+
+Link 2所代表的机会可能位于线上手工教学、桌面产品讲解或站立授课的取景流程，而不只是继续提高摄像头规格。应研究用户何时需要看脸、看手或看物件，以及如何快速切换，避免为了自动化而让讲解者多管理一套复杂系统。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+### 执行计划：把观众反馈纳入试用 · 待验证
+
+连续观察数节真实课程，记录观众要求调整画面、讲师停顿和软件设置时间，访谈双方对内容可见性的判断。只问操作者是否喜欢追踪容易忽略观众需求，应将讲解连贯性和观众看清任务的结果共同作为验证依据。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 系列官方连接指南](<https://onlinemanual.insta360.com/link/zh-cn/operating_tutorials/camera_connect/connect>)
+
+### 决策边界：先证明工作流再决定硬件 · 研究判断
+
+如果现成设备配合取景预设已经能解决问题，新的机会可能是配置服务、教学套件或交互改进，而不是重新制造摄像机。候选供应商和技术能力不能证明市场需求，本轮也没有真实访谈或销量数据，不用模型评分预测商业成功。
+
+依据：[Insta360 Link 2 中国大陆官方商店](<https://store.insta360.com/cn/product/link-2>) · [Insta360 Link 2 海外官方商店](<https://store.insta360.com/product/link-2>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [arducam](../supply-chain/arducam.md) — **能力候选 · 非已采用** / USB视觉输入与相机驱动候选：Arducam公开USB相机和底层驱动工程能力，与Link 2的电脑视觉输入层具有对应关系；但原机图像、语音和云台控制是整体系统，需要另行验证体积、延迟和接口，不能把普通USB模组当成可直接替换整机，也没有点名供货证据。
+
+- [maxon](../supply-chain/maxon.md) — **能力候选 · 非已采用** / 小型跟随机构驱动工程候选：maxon公开电机、反馈和控制联合设计能力，可作为Link 2这类小型云台执行机构的工程候选；必须确认低速平滑、噪声、尺寸和成本是否适合桌面摄像头，而非套用机器人关节规格，当前不表示原机使用其电机或控制器。
+
+- [e-con-systems](../supply-chain/e-con-systems.md) — **能力候选 · 非已采用** / 电脑相机接口与图像集成备选：e-con的嵌入式与USB相机定制、驱动和评估支持，可用于研究Link 2所需的采集链路；仍需核对主控、系统版本及多功能控制接口，不能把平台兼容等同完整云台摄像头适配，本条仅为能力备选而非实际采用披露。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

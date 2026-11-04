@@ -1,0 +1,248 @@
+[
+  {
+    "id": "mira-ultra4",
+    "name": "Mira Hormone Monitor · Ultra4 Kit",
+    "brand": "Mira",
+    "category": "health-home",
+    "tagline": "电子荧光读取器连接个人激素趋势解释",
+    "officialUrl": "https://shop.miracare.com/products/mira-hormone-monitor-ultra4-kit",
+    "status": "on_sale",
+    "statusEvidence": "官方Ultra4商品页显示20棒套装US$249、数量选择与Add to cart；电子Monitor包含在套装内。只计读取器一次，不把耗材数量或其他测试棒套装重复计数。",
+    "regions": [
+      "美国",
+      "英国",
+      "欧盟",
+      "澳大利亚",
+      "官网称全球配送，具体地址以结算为准"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官网列中国仓库并称全球配送，但仓库所在地不等于大陆正式销售或注册；未核实大陆专用渠道、应用与售后范围。"
+    },
+    "price": {
+      "text": "US$249（Monitor + 20支Ultra4，未计促销码）",
+      "note": "所见美国商品页参考，耗材持续购买；30支套装和促销不作为另一款设备，税运以地区结算为准。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Mira Core明确以个人激素测量与记录学习周期模式，提供预测、趋势解释和报告；AI在配套应用服务，读取器用荧光检测获得输入。",
+      "dependency": "需配套电子Monitor、兼容一次性测试棒与App同步；仅裸机可显示当前结果，长期历史与个性化分析依App，不能假定全部端侧离线。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "电子荧光读取器与四指标耗材组成系统",
+      "个人数据模式学习，区别于仅按日历估算",
+      "蓝牙同步与可分享报告",
+      "不作为诊断或避孕设备"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "家用激素趋势为专业消费任务；冷门判断来自输入与流程差异，非销量或竞争空白证明。"
+    },
+    "architecture": [
+      {
+        "name": "样本与耗材",
+        "detail": "一次性Ultra4测试棒承载取样及反应，棒本身不是独立电子硬件。",
+        "evidence": "official"
+      },
+      {
+        "name": "电子光学读取",
+        "detail": "Monitor读取荧光信号并显示测量结果；内部光路与料号未公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "数据连接",
+        "detail": "蓝牙把结果传给兼容Mira App，手机权限和同步状态影响历史记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "模式分析",
+        "detail": "Mira Core结合个人激素数据及日志提供模式解释、预测和报告；模型细节未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "复核与交流",
+        "detail": "用户可回看趋势并分享报告，重要健康判断仍需合适专业评估。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Mira Ultra4官方商品与配置",
+        "url": "https://shop.miracare.com/products/mira-hormone-monitor-ultra4-kit",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "regions"
+        ],
+        "note": "本轮已打开：20棒套装US$249、Add to cart、Monitor与四指标棒；性能百分比为内部实验，不作为临床效果。"
+      },
+      {
+        "title": "Mira App与Mira Core说明",
+        "url": "https://shop.miracare.com/pages/mira-app",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "dependency",
+          "technology"
+        ],
+        "note": "本轮已打开：明确AI、基于个人测量持续个性化、报告、免费App；不将营销诊断暗示视为已证实能力。"
+      },
+      {
+        "title": "Mira蓝牙配对说明",
+        "url": "https://help.miracare.com/en-US/troubleshooting-bluetooth-pairing-issues-with-mira-hormone-monitor-848147",
+        "kind": "official-spec",
+        "supports": [
+          "connectivity",
+          "dependency"
+        ],
+        "note": "本轮已打开：蓝牙与应用权限是同步条件。"
+      },
+      {
+        "title": "Mira不使用App时的结果保留边界",
+        "url": "https://help.miracare.com/en-US/can-i-test-without-the-mira-app-845958",
+        "kind": "official-spec",
+        "supports": [
+          "dependency",
+          "data"
+        ],
+        "note": "本轮已打开：裸机只显示当前结果，历史保存需同步或自行记录；不声称裸机可保存完整周期。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户希望了解多个周期中的变化，并在需要时带着有时间顺序的数据与专业人员沟通。更详细的数字可能减少部分记录空白，也可能增加不确定性和反复测试；价值应由是否帮助澄清具体问题衡量，而不能从测量项目更多推导更好的健康结果或受孕效果。",
+      "userProfile": "适配画像应关注是否愿意持续准备耗材、按说明取样、及时同步并理解趋势存在不确定性。手机熟练并不能保证能正确解释激素曲线，家庭支持也应尊重数据隐私；不同周期背景和个人目标会改变使用价值，本研究没有访谈，不能按年龄或某种症状直接推荐产品。",
+      "competition": "日历应用操作较轻但缺少直接测量，普通试纸提供另一种读数流程，专业检测又具有不同目的和支持条件。Mira的差异在电子读取与连续解释的结合，并不自动替代任何专业诊断；竞争比较应先确定用户需要趋势记录还是临床回答，不能用检测指标数量排列优劣。",
+      "supplyChain": "同类方案的可信输入取决于试剂反应、样本处理与电子光学读取协同，不能只升级控制芯片或增加模型复杂度。供应研究需要把耗材批次、环境条件和读取校准联系起来，光学器件候选也必须匹配波段与反应体系；通用生理光学模块不应直接视为可替换的荧光分析仪。",
+      "technology": "读数来自样本与检测过程，周期阶段和未来变化则是进一步解释，两者具有不同错误来源。界面若把预测与测量混在一起，用户容易将估计当成已发生事实；技术评价应关注缺测、变化和模型不确定性如何呈现，而不只看曲线平滑程度或自然语言是否听起来有把握。",
+      "aesthetics": "使用流程涉及样本与一次性耗材，设备摆放、耗材取用和测试后收纳会比表面精致更影响日常体验。圆润小型外壳可能减轻医疗感，也可能让家庭成员不清楚当前状态；审美分析应同时关注隐私、操作辨识和台面空间，而不只将白色外观视为易用或卫生的证明。",
+      "risks": "周期、症状和用药日志属于敏感个人信息，长期记录的价值与账号访问、分享及删除控制直接相关。数字也可能带来反复检查或把相关性理解成原因的风险；AI解释不能据此诊断或决定治疗，本目录关注产品信息流程，不对个人激素状况、生育能力或医疗选择作判断。",
+      "opportunity": "值得继续验证的是用户能否用更完整的时间记录表达自己关心的问题，而不是收集更多数字却不理解。若报告帮助专业沟通，它的价值可能在信息准备；若只是增加焦虑和耗材消耗，就需要重新评估使用方式。这个判断允许得到不同结果，不能从AI或荧光技术存在预设收益。"
+    },
+    "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "lumen-metabolism-tracker",
+    "name": "Lumen Metabolism Tracker",
+    "brand": "Lumen / Meta Flow",
+    "category": "health-home",
+    "tagline": "呼气测量连接营养记录与代谢趋势解释",
+    "officialUrl": "https://www.lumen.me/shop",
+    "status": "on_sale",
+    "statusEvidence": "官方商店显示设备、首年会员套餐US$279与Continue to checkout；这是实物购买入口，非候补名单。",
+    "regions": [
+      "所见美元官网及结算支持的配送地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "配送政策仅允许其结算指定地区，未核实大陆地址、中文服务和官方售后；不把美元价格或全球营销页等同国内正式销售。"
+    },
+    "price": {
+      "text": "US$279（所见设备+首12个月会员）",
+      "note": "核查页续费显示US$149/年；活动和入口价格可能不同，实际地区结算及续费条款优先。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "服务条款明确AI结合呼气测量与生活记录推断趋势并生成个性化解释；当前商店另明确AI食物记录。硬件传感本身不等于语言模型。",
+      "dependency": "设备与手机App、账号和会员服务组成系统；模型执行位置及全部版本未公开，不能声称所有建议在呼气器内离线生成。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "实体呼气测量器，含CO₂与气流等输入",
+      "个人测量与生活日志共同解释",
+      "AI服务和会员成本单列",
+      "不把呼气估计当全面代谢或疾病诊断"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "呼气输入区别于常见腕部趋势，但已有营养记录与专业测量替代；本判断无销量和访谈证据。"
+    },
+    "architecture": [
+      {
+        "name": "呼气入口",
+        "detail": "用户通过手持设备的口部气路完成采集，动作和气路状态影响输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "传感链路",
+        "detail": "官方披露CO₂、气流、气压和温度感知，具体料号及内部布局未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集控制",
+        "detail": "控制电路汇集测量并与应用连接；具体无线主控与协议实现未核实。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "应用分析",
+        "detail": "AI与分析算法结合呼气和生活数据形成趋势解释、记录及建议。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户复核",
+        "detail": "结果为健康信息辅助；建议、估计与原始测量需区分。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lumen官方商店与会员套餐",
+        "url": "https://www.lumen.me/shop",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "ai",
+          "dependency"
+        ],
+        "note": "本轮已打开：US$279设备套餐、首12个月、US$149年续费、Continue to checkout及AI food logging；不采用其他营销入口混合价格。"
+      },
+      {
+        "title": "Lumen服务条款中的AI功能",
+        "url": "https://www.lumen.me/terms-of-use",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "dependency",
+          "risks"
+        ],
+        "note": "本轮已打开，2026-03-02版本第6节明确AI与分析算法；列举功能有may边界，不当作所有账号完整交付清单。"
+      },
+      {
+        "title": "Lumen官方传感与系统说明",
+        "url": "https://get.lumen.me/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "本轮已打开：明确CO₂、气流、气压、温度感知和App配合；减重与疾病宣传不作为独立效果。"
+      },
+      {
+        "title": "Lumen官方配送政策",
+        "url": "https://www.lumen.me/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "status"
+        ],
+        "note": "本轮web及公开HTML已读，仅结算指定地区可配送，未获得大陆正式渠道证据。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是已有饮食、运动或睡眠记录的人，希望看到另一种身体信号并了解日常行为之间的关系。增加呼气数据可能帮助提出更具体的问题，也可能让用户过度关注单次分数；价值应来自更容易理解自己的记录，而不是设备让每个饮食决定都变得确定。",
+      "userProfile": "更可能适配的使用习惯是愿意维护设备、遵循采集流程，并能接受同一个人的数据也会波动。若用户希望得到无需理解的一条健康指令，流畅的AI解释反而容易制造过高信任；已有健康问题或特殊营养需要的人，也不能仅凭消费设备自行替代适当专业支持。",
+      "competition": "普通营养记录应用成本较低但没有呼气输入，专业代谢测量则有不同流程、环境和解释目的。Lumen的差异是个人可重复使用的便携入口与应用反馈，并不自动替代专业检测；对已有多种穿戴设备的人，新增信号是否有意义要看其改变了什么信息任务，而不是增加一个分数。",
+      "supplyChain": "同类新设计需要处理气体经过通道的时序、残余气体、温湿度变化与传感响应，不能把室内空气质量传感器直接移入呼气器就认为完成测量。硬件、采集动作和算法校准应共同验证；增加气体通道也可能改变阻力与清洁流程，因此器件参数只能是选型起点。",
+      "technology": "应用把饮食、睡眠、运动与呼气变化放在一起，可能帮助发现重复模式，却不能仅凭相关性确定某项行为造成变化。单次输出还可能受采集条件和记录缺失影响；技术评价应关注系统是否明确解释依据、数据缺口和不确定性，而不只看建议是否个性化或语气是否坚定。",
+      "aesthetics": "设备是否容易拿起、辨认方向、观察状态和放回，会影响用户愿不愿意每天使用。精致的黑色外观并不自动意味着气路容易清洁或状态提示清楚；如果每次需要同时拿手机、寻找充电和重新尝试，便携尺寸带来的便利也可能被完整流程中的摩擦抵消。",
+      "risks": "呼气数据与自然语言解释容易让人觉得已经掌握身体全部状态，但测量范围与算法推断都有限。用户不应依据单次分数自行处理疾病或改变既有医疗安排，营养建议也不能替代个人需要的专业意见；研究应同时考虑敏感日志、账号访问和分享范围，而不只关注测量新奇感。",
+      "opportunity": "值得进一步研究的是用户能否通过更一致的记录发现需要讨论的模式，并理解哪些结论仍不确定。若工具只是让人反复追逐更好的分数，数据增加并未形成信息价值；机会应建立在可理解、可纠正的反馈与可持续使用，而不是把所有生活行为都变成AI指令。"
+    },
+    "checkedAt": "2026-11-04"
+  }
+]

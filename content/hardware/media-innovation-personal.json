@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mira-ultra4",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/mira-ultra4/product.png",
+        "sourceUrl": "https://shop.miracare.com/products/mira-hormone-monitor-ultra4-kit",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0755/9620/2277/files/Mira_Ultra4_Kit_At_Home_Hormone_Monitor_with_LH_PDG_E3G_and_FSH.png?v=1755158997&width=1200",
+        "caption": "Mira Ultra4官方套装：电子读取器与一次性测试棒",
+        "alt": "Mira Ultra4官方套装：电子读取器与一次性测试棒",
+        "credit": "Mira · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/mira-ultra4/reference.png",
+        "sourceUrl": "https://shop.miracare.com/products/mira-hormone-monitor-ultra4-kit",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0755/9620/2277/files/Ultra4_Carousel_2.png?v=1774941722&width=1200",
+        "caption": "Mira读取器与官方应用图表示意；界面数字及宣传文字不作为效果证据",
+        "alt": "Mira读取器与官方应用图表示意；界面数字及宣传文字不作为效果证据",
+        "credit": "Mira · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已逐张查看原图；测试棒为被动耗材，计数实体为电子读取器。参考图含官方营销文字，不能替代独立效果证据。"
+    ]
+  },
+  {
+    "id": "lumen-metabolism-tracker",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/lumen-metabolism-tracker/product.webp",
+        "sourceUrl": "https://www.lumen.me/shop",
+        "sourceImageUrl": "https://src.metaflow.co/html-images/shop-black/feature-device.webp",
+        "caption": "Lumen官方产品与局部结构展示；不作为独立拆机证据",
+        "alt": "Lumen官方产品与局部结构展示；不作为独立拆机证据",
+        "credit": "Lumen · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/lumen-metabolism-tracker/reference.webp",
+        "sourceUrl": "https://www.lumen.me/",
+        "sourceImageUrl": "https://src.metaflow.co/html-images/home-black/v3/hero-device.webp",
+        "caption": "Lumen官方另一角度外形参考",
+        "alt": "Lumen官方另一角度外形参考",
+        "credit": "Lumen · 官方产品图片",
+        "checkedAt": "2026-11-04",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "两张源图均实际查看，来自当前官网同一外形；未改色或重绘。"
+    ]
+  }
+]

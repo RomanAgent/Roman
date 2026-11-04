@@ -58,33 +58,187 @@ Oticon Own SI官方另一角度或使用场景参考 · 来源：[Oticon · 官�
 
 需求假设：希望减少外露部件，同时在小型耳道设备中保留AI声音处理。真正的使用价值需要在个人真实交流场景中验证，不能从AI名称或厂商演示推定每个人都获得同样改善。
 
+### 官方｜小型定制耳道机持续处理声音 · 官方资料
+
+Own SI把持续运行的深度神经网络用于声音处理，并采用按耳形定制的IIC或CIC形态。官方强调小型、低可见度和复杂环境中的听音支持，这些描述确认了感知AI与定制外壳的结合；模型训练场景数量和品牌技术名称不直接证明某个使用者在每次谈话中都会获得相同帮助。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 判断｜减少耳背占用的需求 · 研究判断
+
+核心需求可能来自希望减少外露部件，或不愿让设备与眼镜、帽子和口罩在耳背区域相互干扰的人。把电子部件移入耳道会改变佩戴和维护方式，却没有改变交流听清的基本任务；如果追求隐蔽导致本人难以取放或管理小件，外观收益也可能被操作负担抵消。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 验证｜同时观察交流与取放 · 待验证
+
+经专业适配后，应把本人最在意的谈话场景与每天的取放、清洁分开记录。比较是否减少交流中的重复询问，也检查是否愿意持续使用和能否独立维护；本目录没有个人试戴或独立效果研究，不能凭小型外壳和持续DNN就认定既隐蔽又适配。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
 ## 用户画像
 
 画像推断：经专业评估适合耳道定制、日常需要配戴眼镜或口罩的个人更值得评估。具体是否适配应由听力需求、耳形和操作能力共同决定，本目录不根据年龄、职业或自述症状替人选择医疗产品。
+
+### 官方｜个人耳形与专业流程 · 官方资料
+
+该产品通过专业渠道按个人耳形定制和验配，最终外观与可实现配置受到具体耳道和技术级别影响。官方门店定位提供消费者咨询路径，但不证明所有店铺都有相同型号现货或相同服务；本轮没有核实中国大陆对应版本的上市、档位和完整支持范围。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
+### 判断｜操作偏好比手机熟练度重要 · 研究判断
+
+本款不能默认具有耳背机的蓝牙、应用或充电能力，因此用户画像应优先关注定制佩戴、细小部件操作和随访安排。较少手机交互可能符合部分人的偏好，但不能据此称为更简单；日常维护仍需要本人或支持者掌握，具体工作量必须结合交付款式确认。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 验证｜让本人完成日常动作 · 待验证
+
+试戴时可观察正确放入、辨认左右、取出和按说明维护，避免全部由验配人员完成后只询问声音是否满意。还应确认本人如何描述不合适的感觉，以及需要调整时如何联系专业渠道；如果必须长期依赖家人，服务计划应承认这一事实，不把定制交付等同独立使用。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
 
 ## 竞争与替代
 
 案头判断：持续DNN声音处理与深耳道定制外壳的结合形成可比较特征，但消费助听已有多个成熟品牌和验配渠道。没有销量审计、用户访谈或疗效对照，专业细分不意味着竞争稀少。
 
+### 官方｜形态与技术级别需具体报价 · 官方资料
+
+官方将Own SI列为定制助听系列，具体耳道形态和技术配置由专业渠道确认，未提供可套用所有人的统一零售价。报价需要说明单耳或双耳、定制与后续服务内容，不能用另一型号或另一地区的历史标价补齐，也不能把系列宣传中的每项能力直接视为每个档位都有。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
+### 判断｜与耳背和其他定制方案比较 · 研究判断
+
+与耳背机比较，Own SI更关注耳道内佩戴和低可见度，可能减少耳背空间冲突，但连接与控制方式要另核；与其他定制机比较，应看个人声学适配、维护和交流任务。小型外观是有意义的取舍，却不足以证明技术领先，更不能据专业小众定位推断市场缺少成熟竞争。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 验证｜使用同样的优先级排序 · 待验证
+
+可以先让本人排列听音、可见度、取放、连接和维护的重要性，再在合适的专业试用条件下比较。保留真实谈话场景与完整服务报价，避免只听安静室内短演示或只比较最小尺寸；目录没有销量和用户访谈，不能把厂商训练数据规模转写成可量化的购买优势。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
 ## 供应链
 
 官方可核对按耳形定制的IIC/CIC耳道形态及相应声音功能；具体麦克风、受话器、电池供应商与整机工厂本次未确认。品牌或法定制造商名称不等于实际装配工厂，也不据此估计BOM与良率。
+
+### 官方｜定制外壳并未公开完整供应 · 官方资料
+
+公开资料支持按耳形制作的小型外壳、声音输入输出及设备端DNN处理，无法据此确定具体麦克风、受话器和处理器制造商。品牌与产品名称不能替代工厂证据，概念内部图也不是实际拆机；每个人的定制形状不同，尤其不能假设所有内部模块都采用同一空间布局。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 判断｜声学空间随耳形改变 · 研究判断
+
+同类定制新设计要把外壳、声孔、输出通路和可维护性共同考虑，不能只将通用电路板缩小后塞进耳道。空间限制会影响器件、供电和散热选择，具体取舍还与个人适配相关；这些是工程分析，不表示已获得Own SI的内部尺寸、公差、良率或制造方式资料。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 验证｜候选平台不能直接换件 · 待验证
+
+供应研究可比较听觉DSP和微型声音输入，但需重新建立定制结构、声学校准与专业调试工具。onsemi或麦克风供应商只是相近产品开发的功能候选，不能替换Oticon封闭平台或获得其DNN；验证还应包含重复取放、清洁与长期声学变化，不能只在开发板上跑通模型。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
 
 ## 技术路径
 
 官方明确采用持续运行的Deep Neural Network，使用真实声音场景训练来处理复杂听音环境。这是已披露机制；精确模型、内部电路与个体表现未完全公开。普通放大、蓝牙和自动模式本身不单独作为AI收录理由。
 
+### 官方｜持续DNN而非云端聊天 · 官方资料
+
+官方说明Own SI使用持续工作的深度神经网络，并以真实声音场景训练，另介绍对突发声音的处理。这里确认的是设备端感知与声音加工，不是语音助手或生成式问答；本目录不把其他Oticon型号的运动感知、蓝牙、应用和充电能力自动移植到这一IIC与CIC系列。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 判断｜连续处理也需个人参数 · 研究判断
+
+持续算法可以减少用户选择场景的动作，但不会自动解决所有个人听音偏好和耳道声学差异。某个场景更安静也不代表重要信息更容易理解；技术评价应区分环境处理、个人参数和实际交流结果，避免用模型一直运行来推导它一直准确地知道用户想听什么。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
+### 验证｜观察突发声音与连续交流 · 待验证
+
+在专业适配后的日常环境中，可记录普通谈话受到开门、物体放置等声音打断时的感受，同时观察是否仍能继续理解内容。无需人为制造过强刺激来验证宣传；将具体事件和个人反馈带回随访，才能区分一次偶发体验与反复出现的问题，本研究不作个体效果判断。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
 ## 产品审美
 
 图示观察：外露面板较小且取出结构清楚，最终外观高度依赖耳道尺寸与定制结果。实际耳内尺寸、舒适感和维护便利仍需验配或试戴确认；宣传图不能证明隐形、无负担或适合所有耳形。
+
+### 官方｜最终外观受耳形决定 · 官方资料
+
+官方强调小型耳道佩戴与个性化外壳，图示显示较少外露部分和便于取出的外部结构。具体是否可见、贴合程度及与帽子眼镜的关系都受到个人耳形影响；图片中几乎看不见的效果不能作为所有用户的保证，产品描述中的全天舒适也需由实际试戴确认。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 判断｜隐蔽不是唯一设计目标 · 研究判断
+
+对某些人，减少可见设备可以降低社交顾虑；对另一些人，更容易看见和操作反而有助于维护与沟通。小型面板也会限制抓取和识别空间，因此设计评价应尊重本人优先级；把辅助设备完全隐藏并不天然更好，更不能用外观偏好评价用户对自身需求的接受程度。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 验证｜在真实穿戴中检查交互 · 待验证
+
+可在本人戴眼镜、帽子及常用衣物时观察取放，记录是否需要镜子或协助，以及清洁后能否正确放回。还应确认取出结构和细小部件是否容易找到，避免只展示佩戴完成后的照片；外观和舒适记录应由本人表达，不能从定制工艺名称直接推导无负担体验。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
 
 ## 关键风险
 
 IIC和CIC形态及档位功能需验配确认，不默认拥有耳背机的蓝牙、App或可充电能力。AI设置辅助与噪声处理不能替代专业适配、随访或对异常听力变化的评估，本研究没有诊断、独立实测或疗效结论。
 
+### 官方｜具体款式功能不能互借 · 官方资料
+
+Own SI的IIC与CIC配置应由当地专业渠道确认，本目录没有将蓝牙、手机应用或可充电能力作为默认功能。系列级宣传、其他耳背产品和地区页面可能采用不同配置，采购清单需要具体到实际交付款式；官方在售入口只支持可咨询验配，不证明所有功能和库存全球一致。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
+### 判断｜定制并非一次即可完成 · 研究判断
+
+按耳形制作有助于针对个人结构，但仍可能需要适配后的反馈和调整，不能把定制等同永远不需要随访。声音不合适、取放困难或维护变化都可能影响持续使用；本目录没有诊断及独立疗效证据，不应让AI宣传替代专业评估，也不据尺寸对任何个人提出选型结论。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
+### 验证｜把返修与调整路径说清 · 待验证
+
+交付前应确认定制调整、技术档位、维护用品和后续服务如何计费，并让本人知道如何提出佩戴或听音问题。试用中记录需要停戴、帮助和重新调整的原因，不只记录最初清晰感；这些可执行流程有助于理解产品风险，不能被解释为个人一定适配或一定获得改善。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
 ## 机会与验证
 
 市场差异在于持续DNN声音处理与深耳道定制外壳的结合。尚待验证的购买理由是其在个人场景中的可感知帮助、操作便利和售后支持，而不是追求更多AI术语或用统一分数替代实际试戴。
+
+### 官方｜把感知计算放入定制形态 · 官方资料
+
+Own SI的公开差异是在小型定制耳道结构中提供持续DNN声音处理，保留专业验配路径。它与其他助听器共享复杂声音环境中参与交流的需求，外壳位置本身不创造一个全新任务；目录记录形态和处理方式的具体取舍，而不以型号或耳道深浅增加创新场景数量。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 判断｜降低穿戴冲突可能更实际 · 研究判断
+
+值得继续研究的是，当用户原本因耳背空间冲突或外露顾虑少戴设备时，定制形态是否让其更愿意持续参与交流。这个增量必须同时满足声音和维护要求；如果操作困难或支持不足，隐蔽外观就未转成日常价值，研究应允许得出不适合某种使用习惯的结论。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>)
+
+### 验证｜关注数周后的日常保留 · 待验证
+
+后续可追踪本人主动佩戴、交流参与、取放协助和随访原因，比较原有方案与新设备的实际差异。把外观接受与声音效果分开记录，再结合完整服务成本判断是否保留；当前案头资料没有长期用户观察，不能凭定制和神经网络宣称独立性、依从性或商业需求已得到验证。
+
+依据：[Oticon Oticon Own SI官方产品页](<https://www.oticon.com/products/hearing-aids/family/own-si>) · [Oticon官方消费者验配渠道](<https://www.oticon.com/find-hearing-center>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [onsemi](../supply-chain/onsemi.md) — **能力候选 · 非已采用** / 同类定制耳道助听器的声音处理重设计候选：Ezairo听觉处理平台可以用于研究小型定制耳道设备的低延迟声音与神经网络执行，但必须重新核对封装、供电、存储和专业调试链路。它不包含Oticon的DNN与验配软件，不能直接替换Own SI现有主控；目前没有点名采购证据，候选只用于新架构评估。
+
+- [infineon](../supply-chain/infineon.md) — **能力候选 · 非已采用** / 同类定制耳道结构的微型声音输入候选：英飞凌MEMS麦克风可作为定制耳道设备的采集候选，必须结合实际耳形、声孔、防护与输出反馈路径测试。器件本身不决定个人听音效果，封装是否能进入特定外壳也尚待确认；未发现Own SI采用证据，因此不指定原机料号或鼓励消费者自行更换器件。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

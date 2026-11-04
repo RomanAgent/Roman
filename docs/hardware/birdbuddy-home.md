@@ -58,33 +58,187 @@ AI物种识别、命名返回访鸟和内容洞察连接家庭自然记录；与
 
 需求假设：已经形成观鸟习惯的家庭可能需要更稳定的供电和更丰富的访鸟记录。应比较维护间隔、漏拍和每周复看次数；比入门款更大或更多太阳能，不必然让所有用户获得等比例价值。
 
+### 产品任务与边界 · 研究判断
+
+Birdbuddy Home 将庭院访鸟拍摄、物种识别和家庭分享连接起来，任务是让用户更容易发现并回看身边自然。它的需求属于生活方式与观察体验，不是安防，照片更多也不必然更有价值，关键是用户是否愿意持续观看和维护。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 需求判断 · 研究判断
+
+较完整的机身与双太阳能形态可能减少部分充电操作，但补粮、清洁和选址仍由用户承担。相较入门型号，升级需要证明观察和维护有实际改善，不能把更大屋顶或更多太阳能直接换算为每个家庭都更值得购买。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 需求验证 · 待验证
+
+可连续记录有效访鸟、漏拍、充电、补粮及每周复看分享次数，并比较同品牌入门款或普通相机。区分礼物开箱后的热情与长期使用，确认用户喜欢的是自然观察、自动识别还是精选内容，再判断完整系统的价值。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
 ## 用户画像
 
 画像推断：愿长期补粮清洁、希望与家人分享自然观察的庭院用户。购买动机可能来自礼物或园艺兴趣而非AI，需分别验证设备维护者与远程观看者是否都愿持续投入。
+
+### 适用行为与条件 · 研究判断
+
+较匹配有庭院或合适安装位置、愿意长期补粮清洁的自然爱好者与家庭，设备维护者和远程观看者可能不同。购买动机也可能来自送礼或园艺兴趣，因此不能只用科技爱好者画像解释需求，更不能忽略实际照护劳动。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 人群取舍 · 研究判断
+
+已有观鸟习惯的人可能关注记录完整和物种判断，新手则需要简单发现与分享；老年使用者可能更在意易维护而不是功能丰富。画像应包含网络、安装、补粮与观看的分工，不能将同一家庭的购买者偏好当作所有成员需求。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 画像验证 · 待验证
+
+画像验证应让家庭自行选择位置并完成一次补粮、清洁和内容分享，记录谁持续承担这些步骤。再比较不同观察经验的人如何使用识别结果，识别愿意长期维护的用户，而不是只统计收到礼物后是否觉得外观可爱。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
 
 ## 竞争与替代
 
 竞争判断：同品牌入门Nook、Birdfy多摄产品及普通喂鸟相机都是替代。Home需要证明长期维护和观察体验的增益，不能仅靠套餐或新名称成为独立需求；本条只计一个硬件型号。
 
+### 比较对象与差异 · 研究判断
+
+Home 与 Birdbuddy Nook、Birdfy 多摄设备和普通喂鸟相机竞争，完整屋顶与供电形态是硬件区别。它需要证明长期维护和观察体验的增量，不能仅凭新名称或套餐更丰富就认为创造了独立需求，比较必须保持同一家庭任务。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 竞争判断 · 研究判断
+
+物种识别和内容服务容易成为共同功能，竞争优势还来自错误纠正、分享及清洁结构。更大硬件可能改善部分场景，也可能增加安装和收纳负担；用户是否愿意承担会员和维护，比单纯识别物种数量更能影响留存。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 竞争验证 · 待验证
+
+可让同一家庭比较 Home、入门相机与共享相册的使用，记录有效内容、主动复看和维护间隔。提供真实会员条件后再询问升级意愿，避免把试用期间完整识别服务与基础免费方案直接对比而高估硬件溢价。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
 ## 供应链
 
 供应链分析：户外相机、电池、双太阳能屋顶和食仓结构共同决定可靠性，制造工厂与BOM未披露。重点是阴雨天供电、塑料老化、食品残留与拆装寿命，软件内容成本也应纳入评估。
+
+### 功能模块拆分 · 研究判断
+
+功能层包括家屋式食仓与落脚结构、摄像模块、电池和双太阳能、物种及内容识别、应用分享和会员。个体命名与物种识别是不同任务，公开资料没有完整工厂及物料表，不能推定具体摄像传感器或个体识别实现。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 制造与供应约束 · 研究判断
+
+制造约束是户外相机、食仓与太阳能在风雨和日晒中保持稳定，同时便于补粮和清洁。食品残留、积水及塑料老化会改变长期体验，云内容成本也应计入交付，不能只按相机和太阳能组件报价判断整体经济性。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 候选与证据缺口 · 研究判断
+
+龙旗可作为联网摄像电子工程候选，RapidDirect 可支持食仓、屋顶和可拆结构原型。两者没有 Home 点名供货证据，户外材料、食物接触和自然观察算法需分别验证，不能将通用制造服务当作完整喂鸟产品方案。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
 
 ## 技术路径
 
 官方披露AI识别与会员内容能力。技术判断：个体命名和物种识别是不同任务，不应把人为命名当作已经可靠区分同种个体；地区物种、光照和多鸟遮挡需要独立验证。
 
+### 已披露技术边界 · 研究判断
+
+官方披露 AI 物种识别及会员内容能力，并提供返回访鸟命名等体验。人为给鸟命名不等于系统已可靠区分同种个体，技术说明需要保留这一边界，也不能把所有自动识别能力视为完全离线或永久随硬件开放。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 系统难点判断 · 研究判断
+
+地区物种、季节羽色、逆光和多鸟遮挡会影响识别，模型结果应支持查看原片及人工纠正。系统还需要从大量片段中选择值得看的内容，若精选只增加通知或漏掉稀有事件，识别准确也未必带来更好的观察体验。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 技术验证 · 待验证
+
+验证应按当地常见物种和真实光照记录识别与漏拍，再检查命名、纠错和精选流程。不同会员状态需要分别测试，不能用物种总数或一张清晰照片的成功结果推断所有季节和地区均可靠，也不将健康提示当作诊断。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
 ## 产品审美
 
 审美判断：家屋式轮廓和大屋顶让它更接近庭院摆件，减少安防相机感。相机位置、落脚台与清洁开口应服务自然观察；太阳能板的角度和安装线材同样影响整体外观。
+
+### 外观与交互语言 · 研究判断
+
+家屋式轮廓与大屋顶让 Home 更接近庭院摆件，减少传统安防相机感。审美应同时服务鸟类落脚、镜头视野与人类清洁，太阳能角度和安装结构也会进入整体外观，不能只看正面照片中的亲和形象。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 使用中审美判断 · 研究判断
+
+屋顶、食仓开口和相机位置如果只追求完整造型，可能增加补粮和清洁困难。长期使用后的水渍、残粮和表面老化更能影响接受度，因此设计应让用户容易恢复整洁，而不是把维护过程藏在宣传场景之外。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 设计验证 · 待验证
+
+设计验证应在真实植物和外墙环境完成安装，观察补粮、拆洗及调整太阳能的动作，并记录是否需要额外工具。还要比较用户与鸟类实际使用的空间，避免让可爱屋顶妨碍视野、落脚或清洁入口。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
 
 ## 关键风险
 
 风险判断：自动识别的订阅要求可能被一次硬件价格掩盖，云服务变化影响长期体验。喂食卫生和邻居隐私仍需用户管理，鸟类健康提示不应被用于未经专业确认的处理行动。
 
+### 主要失效与依赖 · 研究判断
+
+风险包括自动识别的会员边界、云服务变化、邻近空间隐私及喂食卫生。一次硬件价格可能掩盖长期费用，鸟类健康相关提示也不能用于未经专业确认的处理行动，用户仍需按实际环境管理位置和清洁。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 风险传播判断 · 研究判断
+
+礼物购买者可能期待远程共享，却把补粮和维护留给收礼者，长期负担分配不清会导致闲置。若服务变化让自动识别减少，角色与内容价值也可能下降，因此产品应清楚说明硬件、免费能力和会员之间的关系。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 风险验证 · 待验证
+
+风险验证应检查会员变化、弱网和低电量时的记录范围，观察用户能否理解漏拍及识别错误。还需审查实际取景和清洁流程，不把太阳能或自动识别当作无人照看、所有物种准确或对野鸟健康有保障的证明。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
 ## 机会与验证
 
 机会假设：围绕家庭共看、老人友好操作或地方自然教育验证价值。先比较低价相机加共享相册与专用产品的使用差异，再决定更复杂的硬件与会员生态是否值得投入。
+
+### 可能的机会入口 · 研究判断
+
+机会在于家庭共看、简单分享和地方自然观察，让维护者与观看者都获得价值。新项目可先比较普通相机与专用产品的差别，确认真正需要的是硬件供电、识别还是内容整理，再决定是否建立更复杂会员生态。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 机会成立条件 · 研究判断
+
+机会成立需要数周后仍有主动复看且维护可接受，如果内容只在开箱时被分享，礼物需求与长期订阅需求应分别设计。对新手用户，易理解的观察记录和纠错可能比更多物种标签更有效，不必把技术复杂度作为主要卖点。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+### 下一步验证 · 待验证
+
+下一步可让家庭记录一个月的补粮、有效内容和共享行为，比较不同供电与内容方案，再访谈停止使用的原因。依据真实留存和维护分工选择产品方向，避免从自然兴趣或宠物相关热度直接推断市场增长。
+
+依据：[Birdbuddy Home 官方商品页](<https://mybirdbuddy.com/product/birdbuddy-home/>) · [Birdbuddy 官方会员说明](<https://mybirdbuddy.com/memberships/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [longcheer](../supply-chain/longcheer.md) — **能力候选 · 非已采用** / 户外观鸟摄像与联网电子工程：龙旗智能硬件和联网终端能力可对应相机、连接及供电电子评估，但鸟种模型、太阳能布局和食仓卫生需独立验证；没有 Birdbuddy Home 点名合作证据，此处仅列能力候选。
+
+- [rapiddirect](../supply-chain/rapiddirect.md) — **能力候选 · 非已采用** / 食仓屋顶及可拆清洁结构原型：RapidDirect 的模塑和机械原型服务适合比较食仓、太阳能屋顶及清洁开口，但户外老化和食物接触材料需专项确认；未见 Home 供货披露，候选不代表实际制造关系。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

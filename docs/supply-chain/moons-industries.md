@@ -1,0 +1,147 @@
+# MOONS' 鸣志
+
+鸣志公开运动控制组合包括步进、闭环步进、伺服、驱动器和线性执行器，并强调电机与驱动的匹配。它适合桌面制造、自动棋盘与小型定位机构的候选研究，相关区域品牌按同一集团记录；工业通信和高性能选项不必全部进入消费产品，实际方案需要围绕动作、噪声、空间及成本取舍。
+
+核查 2026-11-04 · 中国大陆 · 综合与跨地区供应商
+
+依据公开运动控制组合与区域网络分组；上海总部由官方介绍明确，不采用自述步进电机排名与出货量。
+
+[官网](<https://www.moonsindustries.com/>) · [公开联系入口](<https://www.moonsindustries.com/about-us/contact-us>)
+
+公开地区：上海（总部）、美国区域业务、日本区域业务、新加坡区域业务、欧洲区域业务
+
+能力：混合与永磁步进电机、闭环步进及伺服驱动系统、一体化电机驱动控制、线性运动与执行器、无槽空心杯及无刷电机方向
+
+## 公司定位与边界
+
+### 已披露定位：运动控制关键组件平台 · 官方资料
+
+官网明确上海总部，并将运动控制与其他业务分别呈现，产品中心覆盖电机、驱动和控制组合。目录只取与消费运动任务相关的范围，集团列出的区域品牌不重复计数，也不把公开排名或历史出货量当作本站产品供应关系的证据。
+
+依据：[MOONS 官方公司介绍](<https://www.moonsindustries.com/about-us>) · [MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>)
+
+### 定位判断：电机与驱动配套是重点 · 研究判断
+
+鸣志的公开技术说明强调电机表现依赖合适驱动，这比只采购一颗电机更接近实际机构需求。团队应以位置、速度和负载要求选择系统，不能只比较额定力矩，也不应把工业协议越多当作消费设备方案越完整。
+
+依据：[MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+## 产品与技术能力
+
+### 已披露能力：开环与闭环路线并存 · 官方资料
+
+官方目录区分普通步进、闭环步进、伺服和一体化系统，线性产品又提供不同机构方向。这些路线让团队可以按反馈与安装需求比较，但不能把闭环作为所有任务的必需条件，也不能将一体化节省空间的宣传当成任意外壳中的固定结果。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+### 能力判断：标准机构需要与末端负载协同 · 研究判断
+
+线性执行器、旋转电机和驱动控制可以构成不同运动路径，实际选择还需看导向、传动和终端动作。自动棋盘与桌面打印的行程、连续性和噪声要求并不相同，不能因为都使用步进系统就采用相同配置或共享一份验收标准。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+## 适用场景与匹配
+
+### 匹配判断：重复定位的个人创作设备 · 研究判断
+
+桌面打印、小型制造和机械棋盘可以根据运动轴与反馈需求将鸣志列为候选，重点验证位置保持、重复动作与控制接口。AI检测打印失败或计算棋步属于上层任务，电机系统只负责执行，不能从闭环运动直接推断感知或决策准确。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+### 不匹配边界：体积和接口可能超出需求 · 研究判断
+
+部分工业驱动与通信配置可能不适合轻量消费产品，团队应确认哪些功能确有必要，避免为不使用的能力增加结构与开发负担。微小穿戴、极轻云台或玩具舵机也不能直接套用桌面设备电机，必须取得对应系列与实际尺寸条件。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>)
+
+## 合作与导入流程
+
+### 已披露入口：选型、文档与区域联系 · 官方资料
+
+产品中心提供技术资料、选型工具、在线商店和地区联系入口，可用于先确认标准组合，再讨论工程需求。页面出现购买链接不代表全部系列有现货或适用于所有地区，实际料号与条件仍需核对，本轮没有下单或提交任何项目请求。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>) · [MOONS 官方区域联系](<https://www.moonsindustries.com/about-us/contact-us>)
+
+### 接洽建议：带轨迹和控制系统说明 · 研究判断
+
+询问时应给出轴数、负载、行程、速度变化、保持要求及主控接口，并说明可用电源和空间。对家庭设备还需要描述允许噪声与故障恢复方式，不能仅要求电机更安静或更精准；这些输入能帮助判断标准、闭环或一体化路线。
+
+依据：[MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>) · [MOONS 官方区域联系](<https://www.moonsindustries.com/about-us/contact-us>)
+
+## 质量与交付能力
+
+### 质量判断：驱动兼容与动作结果一起验收 · 研究判断
+
+官方说明并非所有驱动都适合所有电机，因此选型应以正式配套和控制条件为依据。验收需要观察目标机构的起停、反向、保持与重复动作，而非只检查单个组件能否上电，系统兼容也不能等同末端任务已经满足用户要求。
+
+依据：[MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+### 质量验证：打印与棋盘分别设定任务 · 研究判断
+
+打印设备需关注连续轨迹与重复路径，棋盘则更重视棋子到位和家庭可接受的运动表现，测试应按各自目标设计。相同电机品牌不代表相同质量结果，导向、传动和结构装配都可能影响体验，本轮没有对应样机的实测记录。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+## 商业与成本结构
+
+### 商务边界：公开购买入口不是统一报价 · 研究判断
+
+标准电机、配套驱动与定制机构可能由不同渠道和条件交付，本轮没有取得本站项目的价格、最低数量或开发周期。页面个别型号的交付描述不能推广到全部产品，采购应核对实际料号和地区，而不是从在线商店存在推断量产安排。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+### 商业判断：系统集成度需要适合团队 · 研究判断
+
+一体化电机可能减少部分接线与装配，但也可能改变维护和控制方式，应与分立方案按整体投入比较。团队应确认自己能调试和长期支持哪种结构，不能只以组件数量较少判断更便宜或更可靠，这些结果需要在具体项目中验证。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+## 风险与替代路径
+
+### 工程风险：闭环名词掩盖实际机械问题 · 研究判断
+
+闭环能够提供反馈路径，却不能自动解决导向松动、结构变形或末端碰撞，系统仍需完整机械设计。对AI硬件也不能把位置控制叫作自主理解，候选目录应明确控制层与感知层，避免技术标签让产品能力被扩大解释。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+### 供应风险：集团品牌不能当独立备份 · 研究判断
+
+官网列出的区域运动品牌与集团能力存在关联，采购多品牌时需要确认是否真正形成独立供应路径。目录不把它们重复计为多家公司，也不从集团客户或应用类别推断本站型号实际采用，具体生产主体、版本和长期供应仍待核验。
+
+依据：[MOONS 官方公司介绍](<https://www.moonsindustries.com/about-us>) · [MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>)
+
+## 询价与验证清单
+
+### 核验计划：用真实负载比较控制路线 · 待验证
+
+在目标机构中分别验证拟选开环、闭环或一体化组合，记录末端误差、噪声、发热和恢复操作，保持同一动作任务。不要只比较控制器显示的位置或电机空载行为，应观察用户实际需要移动的对象是否正确到位并可重复完成。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)
+
+### 核验计划：明确配套版本和资料交付 · 待验证
+
+进一步取得电机与驱动配套表、参数配置、机械图和变更通知安排，确认区域渠道与技术支持责任。当前目录没有实际项目合同、样品测试或本站产品的点名采用证据，所有关联保持候选，不能用作原机BOM、交期或性能保证。
+
+依据：[MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>) · [MOONS 官方区域联系](<https://www.moonsindustries.com/about-us/contact-us>)
+
+## 关联硬件产品
+
+> 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
+
+- [Creality K2 Plus Combo](../hardware/creality-k2-plus-combo.md) — **能力候选 · 非已采用** / 打印运动驱动与控制组合候选：鸣志公开步进、闭环驱动和线性运动组合，与K2 Plus执行打印轨迹的需求具有对应；但实际速度、热环境、噪声、主控协议及结构需要专项验证，工业标准组合不能直接替换原机，也没有点名证据证明鸣志进入该型号供应链。
+
+- [Bambu Lab H2D](../hardware/bambu-lab-h2d.md) — **能力候选 · 非已采用** / 双喷嘴打印运动驱动工程候选：MOONS公开步进、闭环及运动控制组合，可作为H2D打印轴的能力候选，但真实传动、负载、速度和主控接口须专项确认，工业标准组合不能直接替换原机。当前没有Bambu Lab点名供货证据，也不涵盖视觉检测与材料算法。
+
+- [ELEGOO Saturn 4 Ultra 16K](../hardware/elegoo-saturn4-ultra-16k.md) — **能力候选 · 非已采用** / 树脂成型升降与定位驱动候选：MOONS公开步进、驱动和线性运动组合，可作为Saturn升降与定位机构候选，但释放动作、负载、行程和控制需专项确认，不能按普通打印轴直接替换原机。当前无ELEGOO点名采用证据，也不涵盖曝光光学与AI检测。
+
+## 来源
+
+- [MOONS 官方公司介绍](<https://www.moonsindustries.com/about-us>)：已打开；上海总部与运动控制定位，忽略自述市场排名。
+
+- [MOONS 官方产品中心](<https://www.moonsindustries.com/product-center>)：已打开；步进、伺服、闭环、一体化与线性产品分类。
+
+- [MOONS 官方运动控制系统说明](<https://www.moonsindustries.com/Motion-Control-Products-Systems>)：已打开；电机驱动匹配、开闭环与标准组合，不将个别交期或性能推广到全部产品。
+
+- [MOONS 官方区域联系](<https://www.moonsindustries.com/about-us/contact-us>)：已打开；地区联系入口，未提交表单。
+
+[返回供应链目录](../supply-chain.md)

@@ -1,8 +1,8 @@
 # C端 AI 智能硬件市场目录
 
-核查日期：2026-11-04 · 收录 211 款 / 系列
+核查日期：2026-11-04 · 收录 229 款 / 系列
 
-> 面向个人、家庭和个人创作者的全球消费级 AI 硬件，包含公开销售、验配销售和可付费预订的产品。不同颜色、容量与同款套装合并，企业专用设备及纯开发板移入专业档案。
+> 面向个人、家庭和个人创作者的全球消费级AI硬件。销售、个人验配、正式预售、硬件租赁与付费预约分别标明；预约观察不计可订购数量。不同颜色、容量和同款套装合并，按独立需求与使用场景比较差异。企业专用设备及纯开发板保留专业档案。
 
 以核查日官方商店、消费购买/验配渠道与交付说明核验状态。C端身份依据最终个人/家庭使用场景及消费渠道，不因价格高或需要安装而自动排除。纯APP、无电子的识别道具、企业专用设备、普通自动化、只有发布或候补名单的项目不计入200款可购目标。
 
@@ -127,6 +127,7 @@
 | [eufyCam S3 Pro](hardware/eufycam-s3-pro.md) | 在售 | 欧洲官方商店 | €279单摄像头；HomeBase需另配 |
 | [Google Nest Doorbell（wired, 3rd gen）](hardware/google-nest-doorbell-wired-3.md) | 在售 | 美国Google Store | US$199.99 |
 | [Google Nest Cam（电池版）](hardware/google-nest-cam-battery.md) | 在售 | 美国 | US$199.99 起 |
+| [鹿客 Lockin V7 Max](hardware/lockin-v7-max.md) | 在售 | 中国大陆 | 官网标价 ¥4,799 |
 | [Nanit Pro / Smart Baby Monitor](hardware/nanit-pro-baby-monitor.md) | 在售 | 美国官方商店 | 按美国官网支架与配件配置结账 |
 | [Reolink TrackMix WiFi](hardware/reolink-trackmix-wifi.md) | 待复核 | 美国（销售状态待复核） | 待地区商店确认 |
 | [Ring Wired Doorbell 4K Pro](hardware/ring-wired-doorbell-4k-pro.md) | 在售 | 美国 | US$249.99 |
@@ -157,6 +158,7 @@
 | [Birdfy Nest Duo](hardware/birdfy-nest-duo.md) | 在售 | 美国官方商店 | US$249.99 |
 | [Birdfy Hum Feeder Duo](hardware/birdfy-hum-feeder-duo.md) | 在售 | 美国官方商店 | US$199.99 |
 | [eufy Robot Lawn Mower E15](hardware/eufy-lawn-mower-e15.md) | 在售 | 美国官方商店 | US$1,799.99 |
+| [Gardyn Studio 2](hardware/gardyn-studio-2.md) | 在售 | 美国 | US$549起；部分配色US$599 |
 | [Lymow One Plus](hardware/lymow-one-plus.md) | 在售 | 美国、加拿大 | US$2,599（所选10A版本） |
 | [Mammotion LUBA 3 AWD](hardware/mammotion-luba-3-awd.md) | 待复核 | 美国（库存待复核） | 按具体型号与地区官方结账页确认 |
 | [Segway Navimow i105](hardware/segway-navimow-i105.md) | 在售 | 美国 | US$799 |
@@ -164,13 +166,15 @@
 | [TerraMow V600](hardware/terramow-v600.md) | 在售 | 欧盟官方商店；英美配置需结账确认 | €849（所查EU配置） |
 | [Yarbo Y40 + Lawn Mower Pro](hardware/yarbo-y40-lawn-mower-pro.md) | 在售 | 美国官方商店 | US$5,999 |
 
-## 厨房与烹饪
+## 厨房与食物管理
 
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
 | [Anova Precision Oven 2.0](hardware/anova-precision-oven-2.md) | 在售 | 美国官方商店 | US$1,299 |
+| [Barsys 360](hardware/barsys-360.md) | 在售 | 美国 | US$375 |
 | [Brisk It Zelos-450](hardware/brisk-it-zelos-450.md) | 在售 | 美国 | US$349.99 |
 | [Brisk It Neoma AI Oven](hardware/brisk-it-neoma-oven.md) | 在售 | 美国 | US$249 |
+| [Mill Food Recycler Plus](hardware/mill-food-recycler-plus.md) | 在售 | 美国 | US$1,149起 |
 | [Posha Robot Chef](hardware/posha-robot-chef.md) | 预售 / 接受延期订单 | 美国预订 | US$1,500限时整机价；US$25预订定金 |
 | [Upliance 2.O+](hardware/upliance-2o-plus.md) | 在售 | 印度官方商店 | ₹34,499 |
 
@@ -194,6 +198,7 @@
 
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
+| [1X NEO Home Robot](hardware/1x-neo-home.md) | 付费预约 · 非正式订单 | 美国（初期） | US$200预约金；Early Access买断标价US$20,000 |
 | [Unitree Go2 Pro](hardware/unitree-go2-pro.md) | 预售 / 接受延期订单 | 官方国际商店 | 具体配置以商店结算为准 |
 
 ## 创客与小型制造
@@ -208,6 +213,7 @@
 | --- | --- | --- | --- |
 | [C-Pen Reader 2](hardware/cpen-reader-2.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | US$399，税前 |
 | [C-Pen Reader 3](hardware/cpen-reader-3.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | US$449，税前 |
+| [JubileeTV Console + Membership](hardware/jubilee-tv-console.md) | 在售 | 美国（设备使用者） | US$39/月起（含硬件的会员方案） |
 | [OrCam MyEye 3 Pro](hardware/orcam-myeye-3-pro.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | 授权销售页 US$4,250 |
 | [OrCam Read 5](hardware/orcam-read-5.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | 授权销售页 US$2,790 |
 | [WeWALK Smart Cane 2](hardware/wewalk-smart-cane-2.md) | 在售 | 所列官方区域或授权零售渠道；配送地址与服务支持需结算确认 | 按国家与AI附加服务动态报价；未读取到统一总价 |
@@ -234,6 +240,7 @@
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
 | [AEKE K1](hardware/aeke-k1.md) | 在售 | 国际官网支持配送地区（逐地址确认） | 所见国际站 US$3,598 |
+| [Arccos Air](hardware/arccos-air.md) | 在售 | 美国、加拿大、英国、欧盟、澳大利亚、日本、其他官方结算支持地区 | US$349.99含首年订阅；续费US$199.99/年 |
 | [FORM Smart Swim 2 PRO](hardware/form-smart-swim-2-pro.md) | 在售 | 美国、加拿大、英国、欧洲与澳大利亚官方区域站 | 所见美国站促销 US$189 |
 | [OxeFit XS1](hardware/oxefit-xs1.md) | 在售 | 阿联酋官方区域渠道 | 阿联酋官方FLOW配置 AED34,138.44 |
 | [Peloton Cross Training Bike+](hardware/peloton-cross-training-bike-plus.md) | 在售 | 美国官方销售地区（具体配送地址结算确认） | US$2,695 |
@@ -253,11 +260,19 @@
 
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
+| [10minds Motion Pillow](hardware/10minds-motion-pillow.md) | 在售 | 美国 | US$489 |
 | [Bryte Balance Smart Bed](hardware/bryte-balance-smart-bed.md) | 在售 | 美国官方消费购买渠道 | 美国官网常规US$4,799起；核查时基础促销US$3,839.20 |
 | [FRENZ Brainband](hardware/frenz-brainband.md) | 在售 | 美国官方店 | US$680 |
 | [Eight Sleep Pod 6](hardware/eight-sleep-pod-6.md) | 在售 | 美国官网、其他地区型号与方案另查 | US$2,899 起，Autopilot方案另计 |
 | [Elemind Sleep Headband](hardware/elemind-sleep-headband.md) | 在售 | 美国、加拿大（具体结算确认） | US$399 |
 | [Muse S Athena](hardware/muse-s-athena.md) | 在售 | 美国官网、其他官方地区店另查 | US$474.99（所选美国页面方案） |
+
+## 居家健康
+
+| 产品 | 销售状态 | 已查地区 | 价格参考 |
+| --- | --- | --- | --- |
+| [Lumen Metabolism Tracker](hardware/lumen-metabolism-tracker.md) | 在售 | 所见美元官网及结算支持的配送地区 | US$279（所见设备+首12个月会员） |
+| [Mira Hormone Monitor · Ultra4 Kit](hardware/mira-ultra4.md) | 在售 | 美国、英国、欧盟、澳大利亚、官网称全球配送，具体地址以结算为准 | US$249（Monitor + 20支Ultra4，未计促销码） |
 
 ## 护理与美容
 
@@ -283,6 +298,7 @@
 | [PETKIT EverSweet Ultra](hardware/petkit-eversweet-ultra.md) | 在售 | 美国官方零售；其他地区须分别确认 | US$249.99 |
 | [PETLIBRO Scout Smart Camera](hardware/petlibro-scout.md) | 在售 | 美国官方零售；其他地区须分别确认 | US$79.99 |
 | [PetPace 3.0](hardware/petpace-3-collar.md) | 在售 | 美国官方零售；其他地区须分别确认 | US$299（项圈，服务另计） |
+| [Reef Kinetics ReefBot Lab](hardware/reefkinetics-reefbot-lab.md) | 在售 | 美国、加拿大、欧洲部分市场、中东部分市场、官方称支持40多个国家 | US$1,599 |
 
 ## 家庭助手
 
@@ -301,12 +317,14 @@
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
 | [Anker SOLIX Solarbank 3 E2700 Pro](hardware/anker-solix-solarbank-3-pro.md) | 在售 | 德国官方商店 | 德国官方页 €1,299 |
+| [CleverCharge Home + CleverKey（J1772 NEMA 14-50）](hardware/clevercharge-home-cleverkey.md) | 在售 | 美国 | US$449（商品详情） |
 | [Zendure SolarFlow 2400 AC+](hardware/zendure-solarflow-2400-ac-plus.md) | 在售 | 欧盟官方商店 | 欧盟页面 €839 起（所选基础配置） |
 
 ## 家居安全
 
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
+| [Hydrific Droplet Smart Water Monitor](hardware/hydrific-droplet.md) | 在售 | 美国、加拿大（魁北克除外） | US$229（页面主报价） |
 | [Ting Sensor with Fire Prevention Service](hardware/ting-home-safety-sensor.md) | 在售 | 美国零售渠道 | US$99 含首年服务；其后标准零售续期US$49/年 |
 
 ## 音乐与乐器
@@ -359,7 +377,27 @@
 | [Chessnut Companion](hardware/chessnut-companion.md) | 在售 | 所列官方国际商店 | 可购标准容量官网 US$459 |
 | [DGT Centaur](hardware/dgt-centaur.md) | 在售 | 欧洲官方商店 | 官方商店 €400 含税 |
 | [Millennium The King Performance](hardware/millennium-king-performance.md) | 在售 | 欧洲官方商店 | 官网 €284.87 未含VAT |
+| [Nex Playground](hardware/nex-playground.md) | 在售 | 美国、加拿大、德国、英国、爱尔兰 | 官方硬件US$299 |
 | [Particula GoChess Pro Modern](hardware/particula-gochess-pro.md) | 在售 | 所列官方国际商店 | 官网 US$299.95；Pro续费另计 |
+
+## 衣物与鞋履护理
+
+| 产品 | 销售状态 | 已查地区 | 价格参考 |
+| --- | --- | --- | --- |
+| [Weave Isaac 0](hardware/weave-isaac-0.md) | 付费预约 · 非正式订单 | 美国加州（当前） | US$250可退预约金；US$3,999买断后US$49/月 |
+
+## 天文观测
+
+| 产品 | 销售状态 | 已查地区 | 价格参考 |
+| --- | --- | --- | --- |
+| [ZWO Seestar S30 Pro](hardware/zwo-seestar-s30-pro.md) | 在售 | 中国大陆、美国、欧洲、全球站支持地区 | 全球官网US$699；国内渠道价格为准 |
+
+## 个人移动与助力
+
+| 产品 | 销售状态 | 已查地区 | 价格参考 |
+| --- | --- | --- | --- |
+| [DNSYS Z1 Dual Joint](hardware/dnsys-z1-dual-joint.md) | 在售 | 欧盟、美洲（按配送地址确认） | 官方标准双膝版US$1,299 |
+| [Hypershell X Pro S](hardware/hypershell-x-pro-s.md) | 在售 | 中国大陆、美国等全球站支持地区（按地址确认） | 中国官网¥6,999；全球站US$999 |
 
 ## 尚待扩展的范围
 

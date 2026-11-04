@@ -58,33 +58,189 @@ AI位置检测与三维牙面跟踪估计刷牙覆盖，iO Sense充电座及App�
 
 需求假设：用户常难发现刷牙遗漏区域，希望在不持续看手机时得到明确反馈。应观察长期覆盖习惯是否改变，刷牙分数提高不等于疾病风险下降，也不能把设备提示当成专业口腔检查。
 
+### 需求假设：从浴室底座获得覆盖提示 · 研究判断
+
+iO10把位置跟踪与iO Sense底座反馈结合，针对用户想知道遗漏却不愿每次持续看手机的情况。底座可以成为固定提示位置，但是否看得到、是否理解需要验证，不能把高端充电配件的存在当作健康价值，也不以一次评分提高证明实际清洁改善。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 价值判断：固定反馈点需要适合真实台面 · 研究判断
+
+底座提示可能减少手持手机操作，也可能因摆放位置、镜子和视线而被忽略，价值依赖整个浴室布局。研究应观察用户是否在刷牙中主动看提示和调整，不将可显示更多信息视为更好的指导，也不能把位置估计等同所有牙面已被清洁。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>)
+
+### 验证方案：比较日常提示路径 · 待验证
+
+让原电动牙刷用户在自己的浴室使用底座、应用与简单计时等方式，记录看向哪里、怎样理解和是否回应提示。保持原有日常任务，不为演示把底座放在特殊位置，也不将设备分数或短期感受用作口腔健康效果的独立证据。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
 ## 用户画像
 
 画像推断：已经接受电动牙刷、愿意为可视指导和高端充电配件付费的人群，可能关注刷牙动作规范。礼品购买者与长期使用者的意愿可能不同，刷头成本和手机连接习惯也会影响留存。
+
+### 画像假设：接受专用底座与高频反馈的人 · 研究判断
+
+较匹配者已使用电动牙刷，愿意为固定反馈点和过程引导投入台面空间与预算，而不只是喜欢高级材质。礼品购买者与最终使用者可能不同，画像应包含长期充电、刷头和手机习惯，不能以售价或品牌偏好推断反馈需求。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>)
+
+### 使用约束：出行与固定浴室体验不同 · 研究判断
+
+底座在日常固定位置可能方便，旅行或临时浴室则需要其他反馈路径，用户的使用场景不一定始终相同。研究应了解携带与收纳习惯，不能把家庭台面的体验推广到所有出行情境，也不因有旅行附件就推定完整智能功能同样容易使用。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 访谈重点：底座提示与手机报告各有什么用 · 待验证
+
+请用户解释一次底座反馈和一次应用报告分别改变了什么，哪些信息重复、哪些根本没有看。这样能区分即时指导与历史复盘，避免仅询问是否喜欢智能牙刷，也不把愿意连接一次应用理解为每天都会保持同样操作。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
 
 ## 竞争与替代
 
 竞争判断：与Oclean语音指导、Philips感知适配和普通压力提醒牙刷竞争。iO Sense底座减少看手机的需求，但高价需要由日常易用性证明，颜色和旅行套装不能被当作独立技术产品重复统计。
 
+### 替代方案：语音提示、压力提醒与普通计时 · 研究判断
+
+iO10与其他位置跟踪牙刷、语音反馈和简单压力计时方案竞争，核心需求仍是理解刷牙过程。底座输出是一项交互差异，不代表形成完全独立市场，比较应围绕用户能否采取适当动作，不能只按价格和模式数量排名。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 差异判断：本机、底座与应用各有成本 · 研究判断
+
+多处反馈可让用户选择，但也要求理解不同状态并管理配件，底座减少看手机并不等于完全不需要应用。研究应观察哪一层持续被使用，不把所有功能同时存在视为完整体验，也不从高价推断底座足以支撑长期溢价。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 比较方法：按同一遗漏问题观察回应 · 待验证
+
+让不同反馈方式帮助用户理解相似的遗漏情境，记录查看、犹豫和实际调整，比较是否愿意持续开启。不同品牌的自产评分不能直接当作统一标准，也不将一次完成反馈全部变绿视为健康改善，实际任务是清楚理解过程。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
 ## 供应链
 
 供应链分析：磁驱动刷头、运动与压力感知、显示、蓝牙及充电座需要协同，具体代工及BOM未披露。防水、密封老化、充电可靠性与专用刷头供应是高频个护设备长期体验的基础。
+
+### 功能拆分：刷头执行与多处反馈协同 · 研究判断
+
+公开结构包含圆形刷头与驱动、动作和压力输入、位置跟踪、手柄及底座反馈和应用记录。iO Sense不仅是外观附件，但也不能将全部AI归入充电座，具体传感、芯片和工厂未披露，功能拆分不构成真实电路或物料清单。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 制造判断：手柄与底座形成两件长期湿用物品 · 研究判断
+
+密封、充电、显示和刷头连接需要在水与牙膏环境下保持可清洁，底座放置和配件维护也影响体验。供应评估应覆盖完整组合，不仅看电机和算法，本轮没有密封寿命、充电测试或刷头供货合同，不推断制造良率与成本。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>)
+
+### 候选选型：紧凑电源与显示分别核对 · 研究判断
+
+Sunwoda可作为手柄电源候选，Raystar可讨论手柄小型显示，瑞声可询问充电与密封周边结构。具体驱动、接口、湿用和专用刷头条件仍需验证，三家均没有iO10点名供货证据，不能把候选能力写成兼容原件或实际代工关系。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
 
 ## 技术路径
 
 官方明确AI三维牙面跟踪与位置检测。技术判断：刷头姿态和握持习惯会影响区域估计，应区分估计覆盖和实际清洁效果；它不能测量每颗牙的健康状态或替代牙医判断。
 
+### 已披露能力：位置检测与三维牙面跟踪 · 官方资料
+
+官方说明AI位置与三维牙面跟踪估计覆盖，再通过应用和iO Sense提供过程反馈，压力和计时不是全部AI内容。应区分姿态输入、覆盖估计与提示，不能把三维表述扩展为直接扫描牙齿健康，也不补写未公开模型或误差率。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 技术判断：估计覆盖不等于清洁质量 · 研究判断
+
+握持、刷头位置和个人口腔条件可能影响区域解释，即使系统认为覆盖完成，也不表示实际清洁状态已被直接测量。研究应观察用户能否理解这一边界，以及错误或不确定时怎样回应，不让分数成为唯一目标，更不由报告推断疾病风险。
+
+依据：[Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 验证方案：对照提示和用户理解 · 待验证
+
+在日常使用中记录手柄、底座与应用显示，询问用户是否知道该调整哪里，并保存需要重复确认的情况。不要用系统自己的覆盖结果证明识别准确，也不将不同用户分数作为健康排名，本轮未开展清洁或医学效果验证。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
 ## 产品审美
 
 审美判断：手柄、显示和充电座组成完整浴室物件，湿手操作和反馈可读性比动画更重要。充电底座占地、旅行盒体积和刷头收纳会影响真实便利，漂亮材质也需要容易擦洗。
+
+### 外形判断：手柄和底座共同占据浴室空间 · 研究判断
+
+iO10的手柄、显示和底座形成一组浴室物件，材质与灯光之外，湿手握持、擦洗和刷头收纳才决定日常体验。台面大小、插座和镜子会影响摆放，漂亮产品图不能说明每个家庭都能看清反馈，也不代表配件没有额外负担。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>)
+
+### 交互判断：提示位置应符合刷牙视线 · 研究判断
+
+用户可能看镜子而非底座，过程反馈需要容易被察觉并理解，不能要求频繁低头或暂停动作。研究应观察底座摆放与手机使用的真实关系，不把动画精致或指示灯数量当作指导清楚，输出更多也可能增加重复与分心。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 体验验证：从充电到旅行收纳一起考虑 · 待验证
+
+让用户在自己的浴室完成日常使用、清洁和充电，再演示常见出行时如何携带，记录反馈路径是否改变。比较固定底座的便利与配件体积，不只评价开箱质感，也不把礼品吸引力当作长期使用者对提示的真实需求。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>)
 
 ## 关键风险
 
 风险判断：部分特别版官网缺货，渠道价格差异较大，当前零售状态不代表所有地区都有官方保修。用户不应过度依赖评分，刷头耗材费用、蓝牙连接和长期软件支持也需纳入总成本。
 
+### 解释风险：覆盖报告不替代口腔检查 · 研究判断
+
+用户可能因为分数良好就忽略不适或专业检查，但设备的动作估计不能说明每颗牙的健康状况。目录只描述指导机制，本轮没有口腔效果或医学测试，也不将AI跟踪、压力提示或品牌宣传写成疾病预防和治疗保证。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 购买风险：地区渠道与特别版状态不同 · 研究判断
+
+原目录的实时购买证据来自英国零售渠道，不能据此声称美国品牌官网或所有特别版都有库存，保修与配件也需按地区核对。专用刷头、底座和应用支持影响总成本，不应只比较当前促销价格或把颜色套装当作独立技术产品。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [John Lewis iO10实时购买页](<https://www.johnlewis.com/oral-b-io10-electric-toothbrush/black/p111132636>)
+
+### 验证安排：记录不看底座和不连接应用 · 待验证
+
+试用应观察用户何时忽略底座、停用应用或回到基础模式，区分提示位置、理解与维护原因。不要只统计完整使用全部功能的人，也不把没有持续查看报告解释为不重视健康，长期低负担使用才是交互价值的重要边界。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
 ## 机会与验证
 
 机会假设：针对经常遗漏区域的用户比较底座反馈、语音反馈与简单计时，记录提示是否持续开启。若用户不愿连接App，简洁且可靠的本机引导可能比增加数据报告更能形成长期价值。
+
+### 研究方向：在固定空间提供清楚过程指导 · 研究判断
+
+iO10可以帮助研究不依赖持续看手机的反馈是否有价值，机会可能在提示位置与简洁解释，而不是继续增加分数。应先观察用户实际看哪里、理解什么，再考虑新的显示或联网能力，避免把高端充电座本身当作已验证需求。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 执行计划：跟踪反馈使用与耗材行为 · 待验证
+
+连续记录底座、手柄和应用的使用选择，访谈一次明确调整动作和一次忽略提示的事件，同时核对刷头与充电管理。将即时指导和历史报告分开，不以设备分数变化证明健康改善，也不把短期兴趣或品牌好感当作留存证据。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+### 决策边界：同核心任务下比较不同输出 · 研究判断
+
+底座、语音和手机都可服务覆盖理解，应放在同一需求中比较实际差异，不能为目录数量创造多个市场。当前只有公开资料与案头假设，没有访谈、销量或临床结果，不以高价、反馈通道数或模型评分预测商业成功。
+
+依据：[Oral-B iO10 官方购买页](<https://oralb.com/en-us/products/electric-toothbrushes/io-series-10-rechargeable-electric-toothbrush-cosmic-black/>) · [Oral-B 官方App指导](<https://oralb.com/en-us/oral-b-app/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [sunwoda](../supply-chain/sunwoda.md) — **能力候选 · 非已采用** / 湿用电动牙刷手柄电源候选：Sunwoda消费电池业务可作为iO10手柄供电工程候选，但驱动负载、密封、充电通信与保护需要专项验证，不能只按容量判断。当前没有原机采用证据，也不表示现有电芯能直接替换，完整寿命和运行时间需在设备条件下测试。
+
+- [raystar](../supply-chain/raystar.md) — **能力候选 · 非已采用** / 牙刷手柄过程显示候选：Raystar公开小型OLED、TFT和交互集成能力，可用于讨论iO10手柄显示，但尺寸、湿用可读、功耗和密封需另核，不能把其一般模组视为原机替换屏。该候选不涉及iO Sense灯光布局或AI算法，也无实际供货证据。
+
+- [aac-technologies](../supply-chain/aac-technologies.md) — **能力候选 · 非已采用** / 手柄与底座精密结构工程候选：瑞声公开精密结构协同，可作为iO10手柄及底座周边的机械工程候选，但密封老化、充电固定与刷头连接为专项要求，不能据普通消费外壳经验保证适配。当前没有品牌采用证据，也不涵盖未核实的专用刷头结构或清洁效果。
+
+[浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意
 

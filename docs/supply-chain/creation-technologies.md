@@ -1,0 +1,141 @@
+# Creation Technologies
+
+Creation公开聚焦中等规模的复杂电子项目，服务覆盖工程、生产导入、PCBA、互连、系统集成与售后。它可作为家用设备控制电子与制造风险管理候选；其主要市场偏专业领域，不能直接假定适合所有消费价格区间，也不能把行业认证迁移到新产品。
+
+核查 2026-11-04 · 美国 · 综合与跨地区供应商
+
+Creation Technologies按公开跨地区运营及中低数量复杂电子制造等已核查业务归入综合与跨地区供应商；不推断员工、营收、产能，也不表示每个地点具备同一服务范围。
+
+[官网](<https://www.creationtech.com/>) · [公开联系入口](<https://www.creationtech.com/contact/>)
+
+公开地区：北美、亚洲
+
+能力：中低数量复杂电子制造、PCBA与机电系统集成、NPI阶段管理、互连测试及售后维护
+
+## 公司定位与边界
+
+### 公开定位 · 官方资料
+
+Creation官网把中等规模复杂电子项目作为重点，主要服务专业制造客户，并覆盖工程、生产导入和售后。目录记录它的项目类型和服务深度，不把这种规模定位转换成具体员工数量、固定产能或适用于所有客户的最低订单。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>)
+
+### 合作边界判断 · 研究判断
+
+对有复杂控制与长期维护需求的家用设备，Creation可以成为制造风险管理的比较对象。若品牌仍在验证市场或只需几块板卡，专业项目流程未必最合适，应该先明确工程成熟度和需要解决的风险，再判断承接方式。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+## 产品与技术能力
+
+### 公开能力 · 官方资料
+
+官网服务总览列出PCBA、互连、机电装配、系统集成、测试开发和供应链，并说明可提供维修及持续工程。生产导入采用阶段管理思路，但本轮没有核实其对本目录设备的具体阶段成果、测试范围或可用制造资源。
+
+依据：[Creation服务总览](<https://www.creationtech.com/>)
+
+### 工程整合判断 · 研究判断
+
+庭院机器人或家庭能源控制板的导入，需要让电子设计、线束和整机测试在同一版本上受控。Creation的机电及互连范围提供讨论基础，但品牌仍需定义运动或功率异常下的行为，不能让流程阶段名替代实际验证内容。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+## 适用场景与匹配
+
+### 优先匹配场景 · 研究判断
+
+可优先讨论割草、清洁和家庭能源设备中的控制电子、线束整合及生产测试，尤其当产品已有原型而缺少工业化支持。候选仅针对这些模块，不表示其已经制造本目录型号，也不说明可自动承担刀盘或电池整机认证。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+### 不匹配条件 · 研究判断
+
+如果产品以毛绒触感、角色内容或装饰外观为核心，Creation的公开专业电子强项并不是充分匹配依据。即使采购其控制板服务，仍需另行验证软体、安全接触和日常清洁，避免把机电装配等同完整消费体验开发。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+## 合作与导入流程
+
+### 询盘准备 · 研究判断
+
+询盘宜提供稳定的设计版本、主要失效和预期产量区间，说明需要从哪一生产导入阶段开始合作。对尚未完成关键验证的模块应主动标注，防止项目把设计不确定性当作制造问题，造成费用和交期预期冲突。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+### 项目接口 · 研究判断
+
+项目接口应明确阶段评审所需文件、谁签署放行、物料替代如何触发回归，以及返修数据如何反馈。Creation公开覆盖多个生命周期环节，品牌尤其需要确认阶段之间的责任不中断，而不是只接收各部门独立的完成报告。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+## 质量与交付能力
+
+### 质量关注点 · 研究判断
+
+质量评估可检查PCBA、互连和机电装配的关键失效如何被检测，并加入家庭实际使用条件。专业行业的检查流程可能提供基础，但并不自动覆盖宠物毛发、用户清洁或户外泥水等消费场景，需要按产品重新定义测试。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+### 验收设计 · 研究判断
+
+可用一组带已知缺陷的样机验证测试覆盖，观察问题是否能定位到物料、工序或软件版本。对会持续升级的AI设备，必须将模型输入条件和电子版本关联，避免量产检查只保证通电而没有发现识别性能变化。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+## 商业与成本结构
+
+### 成本结构 · 研究判断
+
+成本应包括NPI、专用测试、互连或机构工程、采购与持续维护，不能只比较贴装报价。Creation本轮没有公开适用于这些消费项目的MOQ和价格，目录不把中低数量定位解释成任意小单都可以按统一低价承接。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+### 合作方式判断 · 研究判断
+
+合作方式可以围绕阶段成果讨论，但具体是否支持、如何计费和何时转入稳定生产需询盘确认。新创品牌应优先保障设计和测试资料可交付，避免每次修改都只能依赖同一个外部团队，影响后续产品迭代自由。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+## 风险与替代路径
+
+### 业务风险 · 研究判断
+
+其核心市场偏专业和高要求领域，可能与家庭产品的价格、外观和易用性目标存在不同取舍。品牌需要把这些消费要求清楚写入，而不能认为较严格的制造流程天然带来更好的家庭体验或更高市场接受度。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+### 证据边界 · 研究判断
+
+本轮没有Creation点名参与本目录具体家用硬件的资料，全部链接保持能力候选。公开行业或客户案例即使技术相近，也不能推断本产品的工厂、设计归属、认证或采购条件，尤其不同签约法人和站点需要区分。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+## 询价与验证清单
+
+### 需验证的能力 · 研究判断
+
+下一阶段可邀请候选团队审查一套真实设计与失效清单，要求说明NPI阶段如何降低具体制造风险。重点核实执行团队、站点和可交付资料，而不是只接受通用阶段流程图，以确认方案真的能服务当前产品。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+### 进入下一阶段条件 · 研究判断
+
+当关键功能、异常状态和批次追溯在试产中得到验证，并且阶段放行、变更与资料归属明确后，再进入生产。若产品仍没有稳定使用场景，应先做需求与功能探索，不把成熟导入流程用来掩盖尚未解决的产品问题。
+
+依据：[Creation公司介绍](<https://www.creationtech.com/about/>) · [Creation服务总览](<https://www.creationtech.com/>)
+
+## 关联硬件产品
+
+> 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
+
+- [Matic Floor-Cleaning Robot](../hardware/matic-floor-robot.md) — **能力候选 · 非已采用** / 北美电子制造与产品导入：Creation Technologies 的电子制造和工程服务可对应 Matic 类控制电子及测试导入，但北美服务地点不构成实际客户证据；视觉算法、水路和耗材需另行验证，当前仅列制造候选。
+
+## 来源
+
+- [Creation公司介绍](<https://www.creationtech.com/about/>)：核实复杂电子、中等规模项目和工程至售后的定位。
+
+- [Creation服务总览](<https://www.creationtech.com/>)：核实PCBA、互连、机电装配、系统集成、测试和生产导入服务。
+
+- [Creation Technologies 官方联系](<https://www.creationtech.com/contact/>)：本轮已实际打开，列美国波士顿总部通信地址及服务联系入口；未提交表单。
+
+[返回供应链目录](../supply-chain.md)

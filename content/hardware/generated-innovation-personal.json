@@ -1,0 +1,46 @@
+[
+  {
+    "id": "mira-ultra4",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/mira-ultra4/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Mira Ultra4读取器、被动测试棒与应用分析的AI概念分层图，内部并非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/mira-ultra4.txt",
+        "referencePaths": [
+          "assets/hardware/mira-ultra4/product.png",
+          "assets/hardware/mira-ultra4/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查：灰阶、外形对应、无额外性能与医疗宣称；内部板形、光路和电源布局均为概念。"
+    ]
+  },
+  {
+    "id": "lumen-metabolism-tracker",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/lumen-metabolism-tracker/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Lumen呼气测量器的灰阶AI概念功能爆炸图，内部分层并非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/lumen-metabolism-tracker.txt",
+        "referencePaths": [
+          "assets/hardware/lumen-metabolism-tracker/product.webp",
+          "assets/hardware/lumen-metabolism-tracker/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查：外形匹配、未添加氧气传感或性能医疗宣称；气路与内部板形为概念。"
+    ]
+  }
+]

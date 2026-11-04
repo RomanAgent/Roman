@@ -1,0 +1,244 @@
+[
+  {
+    "id": "gardyn-studio-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/gardyn-studio-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Gardyn Studio 2的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/gardyn-studio-2.txt",
+        "referencePaths": [
+          "assets/hardware/gardyn-studio-2/product.jpg",
+          "assets/hardware/gardyn-studio-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "10minds-motion-pillow",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/10minds-motion-pillow/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "10minds Motion Pillow的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/10minds-motion-pillow.txt",
+        "referencePaths": [
+          "assets/hardware/10minds-motion-pillow/product.png",
+          "assets/hardware/10minds-motion-pillow/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "hydrific-droplet",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/hydrific-droplet/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Hydrific Droplet Smart Water Monitor的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/hydrific-droplet.txt",
+        "referencePaths": [
+          "assets/hardware/hydrific-droplet/product.png",
+          "assets/hardware/hydrific-droplet/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "jubilee-tv-console",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/jubilee-tv-console/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "JubileeTV Console + Membership的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/jubilee-tv-console.txt",
+        "referencePaths": [
+          "assets/hardware/jubilee-tv-console/product.jpg",
+          "assets/hardware/jubilee-tv-console/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "clevercharge-home-cleverkey",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/clevercharge-home-cleverkey/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "CleverCharge Home + CleverKey（J1772 NEMA 14-50）的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/clevercharge-home-cleverkey.txt",
+        "referencePaths": [
+          "assets/hardware/clevercharge-home-cleverkey/product.webp",
+          "assets/hardware/clevercharge-home-cleverkey/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "mill-food-recycler-plus",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/mill-food-recycler-plus/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Mill Food Recycler Plus的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/mill-food-recycler-plus.txt",
+        "referencePaths": [
+          "assets/hardware/mill-food-recycler-plus/product.jpg",
+          "assets/hardware/mill-food-recycler-plus/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "barsys-360",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/barsys-360/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Barsys 360的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/barsys-360.txt",
+        "referencePaths": [
+          "assets/hardware/barsys-360/product.webp",
+          "assets/hardware/barsys-360/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "reefkinetics-reefbot-lab",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/reefkinetics-reefbot-lab/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Reef Kinetics ReefBot Lab的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/reefkinetics-reefbot-lab.txt",
+        "referencePaths": [
+          "assets/hardware/reefkinetics-reefbot-lab/product.png",
+          "assets/hardware/reefkinetics-reefbot-lab/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "lockin-v7-max",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/lockin-v7-max/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "鹿客 Lockin V7 Max的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/lockin-v7-max.txt",
+        "referencePaths": [
+          "assets/hardware/lockin-v7-max/product.jpg",
+          "assets/hardware/lockin-v7-max/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "1x-neo-home",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/1x-neo-home/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "1X NEO Home Robot的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/1x-neo-home.txt",
+        "referencePaths": [
+          "assets/hardware/1x-neo-home/product.webp",
+          "assets/hardware/1x-neo-home/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "weave-isaac-0",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/weave-isaac-0/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Weave Isaac 0的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-04",
+        "promptPath": "content/hardware/prompts/weave-isaac-0.txt",
+        "referencePaths": [
+          "assets/hardware/weave-isaac-0/product.webp",
+          "assets/hardware/weave-isaac-0/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  }
+]
