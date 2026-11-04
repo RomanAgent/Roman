@@ -765,6 +765,25 @@
       "productName": "Starkey Omega AI+",
       "category": "hearing",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "MEMS麦克风与声音输入",
+      "rationale": "公开MEMS麦克风资料与PUC双麦克风采集需求相关，可作为输入动态范围、噪声及封装评估候选。没有该型号采购或合作证据，不能标成已披露供应商，也不能套用公开器件参数给整机背书。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "birdweather-puc",
+      "productName": "BirdWeather PUC",
+      "category": "garden",
+      "status": "on_sale"
     }
   ]
 }

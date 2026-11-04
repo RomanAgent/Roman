@@ -317,6 +317,25 @@
       "productName": "Viwoods AiPaper Reader",
       "category": "computing",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "mediatek",
+      "role": "chip",
+      "component": "同类外接视觉控制器的应用平台研究",
+      "rationale": "MediaTek Genio平台可用于研究相近外接视觉控制器的摄像、显示和应用处理，但需要核对功耗、接口、系统支持与服务接入。EYE7采用封闭手机配套，未公开此平台为现用方案；此处不主张替换手机芯片，也不把通用算力视为已有视觉增强与Eva模型。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "eyedaptic-eye7",
+      "productName": "Eyedaptic EYE7",
+      "category": "accessibility",
+      "status": "on_sale"
     }
   ]
 }

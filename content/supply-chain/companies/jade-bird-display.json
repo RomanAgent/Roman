@@ -210,5 +210,24 @@
     }
   ],
   "checkedAt": "2026-11-04",
-  "relatedProducts": []
+  "relatedProducts": [
+    {
+      "supplierId": "jade-bird-display",
+      "role": "display",
+      "component": "同类双眼字幕设备的微显示图像源候选",
+      "rationale": "JBD公开微显示与相关光机开发能力，可作为同类字幕显示图像源的候选，但需要与衍射波导、驱动、视场、功耗和个人镜片条件配合验证。没有Captify采用证据，也不假定本款显示制式或完整光学方案来自JBD；器件可用不等于整机佩戴和文字阅读已验证。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "captify-pro",
+      "productName": "Captify Pro",
+      "category": "accessibility",
+      "status": "on_sale"
+    }
+  ]
 }

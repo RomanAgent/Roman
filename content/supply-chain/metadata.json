@@ -3,23 +3,96 @@
   "checkedAt": "2026-11-04",
   "scope": "面向消费级AI硬件的芯片、元件、模组、制造、工程、软件和检测服务公司。按可核查的能力收录国际公司与专业供应商，持续扩展，不声称覆盖全球全部企业。",
   "relationshipNote": "能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。",
-  "tierLabels": {"global":"综合与跨地区供应商","specialist":"细分专业供应商","growth":"成长型技术公司"},
+  "tierLabels": {
+    "global": "综合与跨地区供应商",
+    "specialist": "细分专业供应商",
+    "growth": "成长型技术公司"
+  },
   "roles": [
-    {"id":"chip","name":"芯片与计算","description":"SoC、MCU、AI加速、接口与电源芯片"},
-    {"id":"connectivity","name":"无线与通信","description":"蓝牙、Wi-Fi、蜂窝、连接模组与协议"},
-    {"id":"sensing","name":"传感与感知","description":"图像、惯性、环境、生物及动作信号"},
-    {"id":"optics","name":"光学与视觉模组","description":"镜头、成像模组、机器视觉与光学集成"},
-    {"id":"acoustics","name":"声学与音频","description":"麦克风、扬声器、声学结构和音频系统"},
-    {"id":"display","name":"显示与交互","description":"显示面板、微显示、电子纸与触控"},
-    {"id":"power","name":"电池与供电","description":"电芯、电池包、充电与电源管理"},
-    {"id":"motion","name":"电机与运动控制","description":"电机、驱动、执行器及精密运动"},
-    {"id":"mechanical","name":"结构与材料加工","description":"模具、塑胶、金属、精密零件与加工"},
-    {"id":"pcb","name":"PCB与电子装联","description":"电路板制造、贴装、原型与小批量"},
-    {"id":"manufacturing","name":"ODM与整机制造","description":"电子制造服务、设计制造和量产交付"},
-    {"id":"engineering","name":"设计与工程服务","description":"产品开发、可制造性、样机与生产导入"},
-    {"id":"software","name":"软件与AI服务","description":"嵌入式算法、语音视觉、联网平台与SDK"},
-    {"id":"testing","name":"测试与认证服务","description":"质量、可靠性、兼容性、检测与认证服务"},
-    {"id":"distribution","name":"分销与采购服务","description":"元器件渠道、选型支持、采购与生命周期管理"}
+    {
+      "id": "chip",
+      "name": "芯片与计算",
+      "description": "SoC、MCU、AI加速、接口与电源芯片"
+    },
+    {
+      "id": "connectivity",
+      "name": "无线与通信",
+      "description": "蓝牙、Wi-Fi、蜂窝、连接模组与协议"
+    },
+    {
+      "id": "sensing",
+      "name": "传感与感知",
+      "description": "图像、惯性、环境、生物及动作信号"
+    },
+    {
+      "id": "optics",
+      "name": "光学与视觉模组",
+      "description": "镜头、成像模组、机器视觉与光学集成"
+    },
+    {
+      "id": "acoustics",
+      "name": "声学与音频",
+      "description": "麦克风、扬声器、声学结构和音频系统"
+    },
+    {
+      "id": "display",
+      "name": "显示与交互",
+      "description": "显示面板、微显示、电子纸与触控"
+    },
+    {
+      "id": "power",
+      "name": "电池与供电",
+      "description": "电芯、电池包、充电与电源管理"
+    },
+    {
+      "id": "motion",
+      "name": "电机、泵阀与执行",
+      "description": "电机、驱动、精密运动、流体泵阀及执行模块"
+    },
+    {
+      "id": "mechanical",
+      "name": "结构与材料加工",
+      "description": "模具、塑胶、金属、精密零件与加工"
+    },
+    {
+      "id": "pcb",
+      "name": "PCB与电子装联",
+      "description": "电路板制造、贴装、原型与小批量"
+    },
+    {
+      "id": "manufacturing",
+      "name": "制造与量产交付",
+      "description": "组件制造、电子制造服务、ODM与整机生产交付"
+    },
+    {
+      "id": "engineering",
+      "name": "设计与工程服务",
+      "description": "产品开发、可制造性、样机与生产导入"
+    },
+    {
+      "id": "software",
+      "name": "软件与AI服务",
+      "description": "嵌入式算法、语音视觉、联网平台与SDK"
+    },
+    {
+      "id": "testing",
+      "name": "测试与认证服务",
+      "description": "质量、可靠性、兼容性、检测与认证服务"
+    },
+    {
+      "id": "distribution",
+      "name": "分销与采购服务",
+      "description": "元器件渠道、选型支持、采购与生命周期管理"
+    }
   ],
-  "dimensions": {"positioning":"公司定位与边界","capability":"产品与技术能力","fit":"适用场景与匹配","engagement":"合作与导入流程","quality":"质量与交付能力","commercial":"商业与成本结构","risks":"风险与替代路径","verification":"询价与验证清单"}
+  "dimensions": {
+    "positioning": "公司定位与边界",
+    "capability": "产品与技术能力",
+    "fit": "适用场景与匹配",
+    "engagement": "合作与导入流程",
+    "quality": "质量与交付能力",
+    "commercial": "商业与成本结构",
+    "risks": "风险与替代路径",
+    "verification": "询价与验证清单"
+  }
 }

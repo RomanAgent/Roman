@@ -1,0 +1,267 @@
+# Dex Language Discovery Camera
+
+**Dex / Worldex Lab** · 教育与学习 · 核查 2026-11-05
+
+拍下身边物体并听见目标语言词汇的儿童探索相机
+
+消费渠道：个人零售。
+
+## 产品图片与结构参考
+
+### 产品图
+
+![Dex Language Discovery Camera 官方产品图](../../assets/hardware/dex-language-camera/product.png)
+
+Dex Language Discovery Camera 官方产品图 · 来源：[Dex / Worldex Lab · 官方资料](<https://store.dex.camera/products/dex>) · [原始图片](<https://cdn.shopify.com/s/files/1/0740/2520/6018/files/Device-2_1_b597bbb8-c824-4c23-b075-dbadd4b8ebcf.png?v=1781522026>)
+
+### 参考图
+
+![Dex Language Discovery Camera 官方外观与使用参考图](../../assets/hardware/dex-language-camera/reference.jpg)
+
+Dex Language Discovery Camera 官方外观与使用参考图 · 来源：[Dex / Worldex Lab · 官方资料](<https://store.dex.camera/products/dex>) · [原始图片](<https://cdn.shopify.com/s/files/1/0740/2520/6018/files/dex-camera-red-edition-rear-left_62a15a9c-530c-4441-bbed-8e21cb320846.jpg?v=1776771616>)
+
+### AI 生成爆炸示意
+
+![Dex Language Discovery Camera 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。](../../assets/hardware/dex-language-camera/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/dex-language-camera.txt)
+
+> 以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。
+
+> 保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。
+
+> 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
+
+## 销售与购买
+
+- 状态：在售。核查日官方商店显示US$249、Order Now和1–2工作日发货；公开商品数据红色及黄色变体available=true。同一硬件不同颜色仅计一款。
+
+- 地区：美国及官网结算支持地区（目的地另核）
+
+- 价格：官方硬件US$249；Wi-Fi基础功能免费。可选Mobile Data为US$9.99/月，Premium为US$19.99/月；不将蜂窝无Wi-Fi宣传写成离线识别。
+
+- 中国大陆：可选择中文不代表中国大陆可购买或云服务可用；本轮未核大陆授权销售、蜂窝套餐覆盖和跨境数据使用条件。
+
+- [官方产品 / 商店](<https://store.dex.camera/products/dex>)
+
+## AI 的实际作用
+
+拍照后通过云端视觉模型识别实物并返回目标语言词汇，结合语音发音与活动。隐私政策明确点名OpenAI Vision及默认Whisper语音处理。
+
+服务与联网依赖：拍照识物需要网络；免费Wi-Fi功能与可选蜂窝、个性化活动订阅分开。语音可在设置中切换本机处理，不代表图片AI也完全离线。
+
+## 是否冷门
+
+细分专业（研究判断）：以实物探索驱动语言学习的形态具体，但手机识物与传统教具替代直接，长期内容和家长参与仍有门槛。
+
+## 需求与市场
+
+案头需求是让孩子从现实物体发起语言探索，而不是只在预设词卡里选题。专用相机减少手机其它内容干扰，但学习是否发生要看能否在新情境中使用词汇，不能用拍照次数替代效果。
+
+### 事实：任务边界 · 官方资料
+
+官方产品把拍摄身边实物、取得目标语言词汇和听见发音连为一个探索动作，而不是让儿童自由浏览互联网。当前商品可以正式购买，基础拍照识物经无线网络使用；额外蜂窝与个性化活动属于可选计划，硬件并非必须付月费才能开始。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 判断：真实需求 · 研究判断
+
+需求假设是孩子会对自己主动发现的物体更愿意发问，也能把词汇与现实对象联系起来。专用手持形态可能减少借用手机时的其它内容干扰，但并不自动证明学习收益；如果家长没有后续对话，反复拍摄也可能只是短暂的新奇玩法。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 验证：任务完成 · 待验证
+
+验证可让家庭在厨房、公园和陌生房间分别探索，记录孩子选择什么对象、是否追问以及等待反馈时的行为。次日用不同实物检验能否理解同一词汇，再访谈家长是否自然加入对话；不能把上传照片数量或在线时长当作学习成果。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+## 用户画像
+
+官方面向幼儿至小学低龄儿童，实际使用仍需家长配置和陪伴。更值得筛选的是家庭是否有稳定的第二语言互动，而非只按年龄购买；网络、发音理解和拿握能力均会影响体验。
+
+### 事实：使用条件 · 官方资料
+
+官方面向儿童使用，设置由家长账户完成，家长需选择语言与活动并了解网络和数据选项。设备有独立圆形屏幕、握柄及按键，帮助把拍摄和反馈放在单一物体上；本轮没有实际儿童访谈，也没有验证中文、各口音和各地区服务的表现。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 判断：人群筛选 · 研究判断
+
+适配人群应按家庭的语言使用目标筛选：有双语交流场景、愿意一起探索的人，与希望孩子独立消磨时间的人可能获得完全不同结果。年龄只是初步条件，还要看手部控制、能否指向目标、理解发音以及遇到错误时是否愿意求助。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 验证：参与者差异 · 待验证
+
+招募家庭时可先问最近一次孩子询问物体名称发生在哪里、家长怎样回答以及目前用什么工具。试用时记录谁负责充电、联网和纠错，再区分孩子主动使用与成人安排活动；这些行为比厂商推荐年龄更能说明是否形成持续需求。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+## 竞争与替代
+
+替代方案包括手机识物翻译、纸质词卡、点读笔和家长直接讲解。Dex的差异是孩子主动拍身边物体并获得语言反馈；若只反复播放词汇，独立硬件优势需用长期使用证明。
+
+### 事实：方案范围 · 官方资料
+
+已核功能与手机识物翻译、纸质词卡及点读教具存在重叠，独立硬件的主要差异在儿童自主采集现实输入。它并非普通相机增加照片保存，也不是以聊天为主的陪伴玩具；网页展示的故事和活动应与拍照识物基础功能分开描述。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 判断：替代关系 · 研究判断
+
+竞争判断要看专用形态是否降低一次探索的组织成本。手机已经具备相机、网络和语言模型，但交给孩子可能需要额外设置；纸卡反应稳定却不能覆盖任意眼前对象。Dex多出的成本只有在真实家庭流程中更方便或更愿意使用时才有意义。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 验证：比较方法 · 待验证
+
+比较可安排相同任务分别使用家长手机、纸卡和Dex，观察目标选择、等待、误识别纠正及对话长度。随后让家庭自行决定哪种方式留在常用位置，追踪数周后选择；不把更像玩具、更少按键或能回答更多词直接等同于更好的教育效果。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+## 供应链
+
+功能链包含镜头、圆形显示、语音接口、无线连接、电池与云服务。政策披露部分软件服务商，但未公开相机、电池或工厂；硬件候选关系与真实云依赖应分别标注。
+
+### 事实：功能组成 · 官方资料
+
+隐私政策明确披露照片识别使用OpenAI Vision，语音默认通过Whisper处理，并说明可选本机语音路径。硬件层只可确认摄像、显示、语音接口、无线连接和电池等功能，未披露相机模组、电池供应商或整机工厂，不得据品牌形态补全采购关系。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 判断：交付约束 · 研究判断
+
+供应链判断需要同时考虑儿童频繁拿握和云服务持续性。镜头对近物拍摄、屏幕可读性、扬声器发音和按键耐用都影响交互，而服务接口变化、网络成本与区域接入会影响后续可用性；仅优化一次性硬件成本无法覆盖完整交付。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 验证：选型缺口 · 待验证
+
+工程选型可向视觉、显示及电池候选厂商明确近距对象、跌落、手柄重心和工作时长的测试条件，但最终需要品牌或拆机证据才能确定采用关系。上线前还应验证照片处理失败、服务限流、离线提示及订阅取消后的基础功能恢复。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+## 技术路径
+
+视觉识别使用OpenAI Vision，默认语音经Whisper，厂商允许语音切换为本机处理。识物结果可能受背景、遮挡及多义词影响；家长应能纠正词义，不能把联网和本地两种路径混写。
+
+### 事实：AI机制 · 官方资料
+
+政策写明照片发送到视觉服务识别后返回词汇，默认语音使用转录服务处理，并允许家长选择本机语音。因而本机语音不等于整台设备离线工作，移动数据套餐也只是换一种联网方式；目录将这些计算和连接边界分别列出，避免误导用户。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 判断：系统边界 · 研究判断
+
+模型可能把背景当主体、混淆相似物体或给出脱离语境的词义，发音反馈也可能受儿童语音、口音和环境声影响。技术价值在于形成可纠正的对象到语言链路，而不是宣称识别模型万能；错误结果若没有反馈入口，容易被孩子当成确定知识。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 验证：算法与体验 · 待验证
+
+测试应使用日常混杂背景、遮挡、复数物体和同名异物，记录识别词、发音及重新拍摄次数。区分网络等待与模型错误，并验证家长能否说明正确含义；若比较不同语言，需由熟悉对应语言的人检查，不能只依据界面显示了文字就判断可用。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+## 产品审美
+
+圆形屏幕和短手柄使拍摄目标与词汇反馈形成清晰动作，红色外壳带玩具属性。推断上，重量、抓握、镜头指向和误触比屏幕装饰更影响儿童使用，应观察实际拿握而非只看照片。
+
+### 事实：外观与交互 · 官方资料
+
+真实产品具有上方圆形显示体和下方短手柄，镜头位于另一侧，握柄包含主要交互按钮。不同颜色属于同一型号，不另算创新；生成结构图保留轮廓并把未知内部画成功能块，既不假装真实拆机，也不额外添加面部识别或健康检测模块。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 判断：使用中的形态 · 研究判断
+
+外观判断的核心是孩子能否自然理解镜头朝向以及屏幕为何显示一个词。圆形反馈区可能突出单一对象，短手柄也让设备容易被当作探索工具；但若握持太靠近镜头或频繁误触，视觉亲和并不能解决实际使用问题，仍需观察动作。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+### 验证：日常接受度 · 待验证
+
+试用可让孩子在没有逐步口令的情况下找到拍摄键、转向目标和重新听发音，记录需要成人调整握持的次数。还应观察桌面放置、挂绳和收纳是否顺手；不能根据厂商儿童模特图推断适合所有手型，也不能用颜色偏好代替可用性验证。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>)
+
+## 关键风险
+
+风险涉及儿童图像和声音的上传、误识别以及订阅覆盖。政策说处理后删除但可选云媒体存储改变保存方式，不能简化成不留任何数据；家庭需理解配置并核对本地区服务可达性。
+
+### 事实：已知限制 · 官方资料
+
+政策所称照片处理后删除附有条件：家长可以开启云媒体存储，声音也有云端默认与本机可选路径。免费计划依赖无线网络，蜂窝套餐覆盖需按地区核对；本轮未确认中国大陆购买和完整服务，因此不能把中文选项或海外现货写成国内可正常使用。
+
+依据：[Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>) · [Dex订阅计划](<https://store.dex.camera/pages/subscriptions>)
+
+### 判断：失效影响 · 研究判断
+
+风险判断不仅是保存多久，还包括家长是否理解哪些输入会离开设备、错误词义如何纠正，以及孩子是否无意拍到他人或家庭信息。厂商隐私声明是第一方承诺，未经独立审查不能转写成本站认证；订阅和长期服务中断同样影响硬件价值。
+
+依据：[Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>) · [Dex订阅计划](<https://store.dex.camera/pages/subscriptions>)
+
+### 验证：风险处理 · 待验证
+
+建议在家长设置阶段逐项确认云媒体开关、语音处理选项、账户删除和取消套餐后的行为，模拟网络断开及错误识别。访谈家长能否用自己的话解释数据路径，再决定是否需要更清晰提示；这些是待验证流程，不冒充已经完成的隐私审计。
+
+依据：[Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>) · [Dex订阅计划](<https://store.dex.camera/pages/subscriptions>)
+
+## 机会与验证
+
+可验证切口是亲子共同探索某个房间或散步路线，再观察词汇是否自然进入对话。记录纠错、等待、重复使用和家长介入，比较手机与纸卡流程，不用模型评分预测教育效果。
+
+### 判断：可尝试切口 · 研究判断
+
+机会假设在围绕真实对象组织短小、可重复的亲子语言任务，让孩子的发现继续进入家庭对话。硬件形态只是入口，真正需要验证的是从识别一个词到在新场景理解和使用它的路径，而不是无限增加故事和虚拟角色来替代现实互动。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex订阅计划](<https://store.dex.camera/pages/subscriptions>)
+
+### 判断：商业边界 · 研究判断
+
+商业边界包括一次性硬件成本、云识别调用、蜂窝服务与内容维护，免费基础功能和付费扩展应保持清楚。若家庭的主要价值来自偶尔拍照，昂贵长期订阅未必成立；现有公开资料没有证明各计划留存率，不能用宣传家庭数量预测收入。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex订阅计划](<https://store.dex.camera/pages/subscriptions>)
+
+### 验证：下一步调研 · 待验证
+
+可安排四周家庭日记，记录每次主动探索、家长介入、纠错和后续自然使用词汇的例子。结束访谈时要求选择继续使用、只保留免费功能或放弃，并说明原因；同时比较手机和纸卡的替代成本，不使用模型生成分数决定哪类家庭应该购买。
+
+依据：[Dex官方商品页](<https://store.dex.camera/products/dex>) · [Dex订阅计划](<https://store.dex.camera/pages/subscriptions>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [arducam](../supply-chain/arducam.md) — **能力候选 · 非已采用** / 近距实物采集相机候选：Arducam的相机模组和定制能力可用于评估儿童手持识物设备的近距视野、对焦与接口方案；还需验证真实混杂背景及跌落后的稳定性。Dex未披露使用该品牌，本关联只是工程匹配候选。
+
+- [raystar](../supply-chain/raystar.md) — **能力候选 · 非已采用** / 小型显示及界面集成候选：Raystar提供小尺寸显示与系统集成能力，可作为圆形反馈界面的方案询价方向；是否具备所需尺寸和光学指标须重新确认。目录没有证据表明Dex采用该公司面板，不把外形相似写成合作关系。
+
+- [merry-electronics](../supply-chain/merry-electronics.md) — **能力候选 · 非已采用** / 语音输入与发音扬声器候选：Merry具备消费音频设计及扬声器测试能力，可用于评估小机身体积内的发音清晰度与拾音方案。儿童距离、噪声和外壳共振仍需实测；Dex实际声学供应商未披露，本条不构成供货确认。
+
+[浏览供应链目录](../supply-chain.md)
+
+## 功能分层示意
+
+这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。
+
+1. **物体采集**：后侧镜头拍摄身边物体，识别不是仅靠录制视频。（官方披露）
+
+2. **圆屏与声音**：前侧圆屏、按键和语音接口返回词汇及发音。（官方披露）
+
+3. **云端AI**：照片传至视觉服务识物；语音默认云处理，可配置本机路径。（官方披露）
+
+4. **连接与电源**：Wi-Fi、可选蜂窝及电池支持独立手持使用。（官方披露）
+
+5. **家长控制**：家长账户配置活动、语言及可选云媒体保存；内部电路布局未披露。（官方披露）
+
+## 来源
+
+1. [Dex官方商品页](<https://store.dex.camera/products/dex>) — 实际打开；249美元、Order Now、发货、真实型号图片与实物语言学习。
+
+2. [Dex隐私政策](<https://store.dex.camera/policies/privacy-policy>) — 实际打开；OpenAI Vision、Whisper、语音本机选项、可选云媒体存储及家长配置。
+
+3. [Dex订阅计划](<https://store.dex.camera/pages/subscriptions>) — 实际打开；免费Wi-Fi、9.99美元蜂窝及19.99美元Premium区别。
+
+[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/dex-language-camera)

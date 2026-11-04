@@ -338,6 +338,25 @@
       "supplierId": "bosch-sensortec",
       "role": "sensing",
       "relationship": "candidate",
+      "component": "自由重量动作采集候选",
+      "rationale": "Bosch Sensortec具有运动感知和智能惯性器件能力，可作为哑铃轨迹与动作输入的开发候选，但握持变化、振动及算法训练需要专门验证。Gorilla未披露采用该品牌，本关联不等于现售设备的传感器型号或真实供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "gorilla-bells",
+      "productName": "Gorilla Bells",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "bosch-sensortec",
+      "role": "sensing",
+      "relationship": "candidate",
       "component": "动作与状态采集器件候选",
       "rationale": "Bosch Sensortec公开动作感知器件可作为新佩戴方案的输入研究入口。它只能支持相关模块选型，不能由运动器件能力推断呼吸或心率等完整指标，更不能认定Maven实际采用；需在动物佩戴和完整数据链路中验证。",
       "sourceIds": [

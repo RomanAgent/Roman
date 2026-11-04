@@ -255,6 +255,23 @@
       "productName": "PONGBOT Pace S Pro",
       "category": "sports",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "dings-motion",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "平板定位运动候选",
+      "rationale": "DINGS提供精密运动相关能力，可作为小型打印平台运动路线的询价候选；需要结合喷墨走位、重复定位和负载验证。官方没有点名E1电机来源，因此本关联不代表现有供货或任何具体型号兼容。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "eufymake-e1",
+      "productName": "eufyMake E1",
+      "category": "creative-tools",
+      "status": "on_sale"
     }
   ]
 }

@@ -40,7 +40,7 @@
 
 - 价格：US$159。硬件含每月300分钟基础转写额度；超额或高级服务可能需订阅。税费、促销与当地版本以地区官网为准。
 
-- 中国大陆：本次核实国际版产品，未取得同款大陆正式购买与数据服务所在地的官方证据；品牌来源或中文识别能力不作为大陆销售证明。
+- 中国大陆：2026-11-05 中国官网明确列出 Plaud Note 的人民币价格和对应天猫型号购买链接（商品 963977914722）。有官方国内渠道；未登录店铺核实当前地区库存。中国版 App、模型服务与会员权益需按 plaud.cn 的地区说明核对，不能直接套用国际版。
 
 - [官方产品 / 商店](<https://www.plaud.ai/products/plaud-note-ai-voice-recorder>)
 
@@ -259,5 +259,7 @@
 1. [Plaud · Note 官方商店](<https://www.plaud.ai/products/plaud-note-ai-voice-recorder>) — 已打开，价格、Shop Now、双模式和本地存储可见；未测试结算或实机。
 
 2. [Plaud · 官方设备比较](<https://www.plaud.ai/pages/plaud-device-comparison>) — 已打开，用于区分Note、Note Pro和NotePin，未推断未披露供应商。
+
+3. [Plaud 中国官网型号目录与购买入口](<https://www.plaud.cn/>) — 2026-11-05 中国官网明确列出 Plaud Note 的人民币价格和对应天猫型号购买链接（商品 963977914722）。有官方国内渠道；未登录店铺核实当前地区库存。中国版 App、模型服务与会员权益需按 plaud.cn 的地区说明核对，不能直接套用国际版。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/plaud-note)

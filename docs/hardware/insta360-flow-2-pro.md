@@ -36,7 +36,7 @@ Insta360 Flow 2 Pro（AI Tracker组合） 官方产品图（相机/手机用于�
 
 - 价格：AI Tracker Bundle US$179.99。为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。
 
-- 中国大陆：本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。
+- 中国大陆：2026-11-05 核实中国大陆官方商城的 Flow 2 Pro 和 AI 追踪模块套餐，页面提供人民币价格、加购与预计发货说明。标准套餐未含独立追踪模块；手机原生跟踪兼容性与跨 App 模块追踪需分开核对，库存以具体套餐为准。
 
 - [官方产品 / 商店](<https://store.insta360.com/product/flow-2-pro>)
 
@@ -257,5 +257,7 @@ Flow组合可帮助研究用户在不同手机内容任务之间如何保持取�
 1. [Flow 2 Pro 官方系列商店](<https://store.insta360.com/product/flow-2-pro>) — 区分标准与AI Tracker组合，提供发货与方案信息。
 
 2. [Flow 2 系列 AI Tracker 官方页](<https://store.insta360.com/product/flow-2-pro-ai-tracker>) — 说明额外模块与跨App追踪能力，不另计一款主产品。
+
+3. [Flow 2 系列中国大陆官方商城](<https://store.insta360.com/cn/product/flow-2-pro>) — 2026-11-05 核实中国大陆官方商城的 Flow 2 Pro 和 AI 追踪模块套餐，页面提供人民币价格、加购与预计发货说明。标准套餐未含独立追踪模块；手机原生跟踪兼容性与跨 App 模块追踪需分开核对，库存以具体套餐为准。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/insta360-flow-2-pro)

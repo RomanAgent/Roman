@@ -216,5 +216,25 @@
     }
   ],
   "checkedAt": "2026-11-04",
-  "relatedProducts": []
+  "relatedProducts": [
+    {
+      "supplierId": "wisechip",
+      "role": "display",
+      "component": "同类小型手持测量仪的显示模块候选",
+      "rationale": "WiseChip公开OLED及定制图标显示能力，可研究狭长前面板的状态提示、可读性和功耗，但要核对实际尺寸、接口及环境条件。没有Withings点名采用来源，候选不代表现机屏幕型号，也不包含测量算法或健康解释；可见外形相近不能作为直接替换证据。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s5"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "withings-beamo",
+      "productName": "Withings BeamO（StethO Sense方案）",
+      "category": "health-home",
+      "status": "on_sale"
+    }
+  ]
 }

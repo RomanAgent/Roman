@@ -465,6 +465,63 @@
       "supplierId": "grepow",
       "role": "power",
       "relationship": "candidate",
+      "component": "细长笔身电池候选",
+      "rationale": "Grepow公开提供定制形状和小型穿戴电池能力，可用于讨论细笔身的空间、续航及充电保护限制。实际电池型号与供应关系没有披露，不能由外观估算容量，也不能直接声称某现成电池可装入XNote。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "xnote-write",
+      "productName": "XNote Write",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "小型低温穿戴供电候选",
+      "rationale": "Grepow有小型和定制形状电池能力，可用于讨论夹装传感器空间及供电需求，但低温性能与保护条件必须针对样机验证。Carv实际电池供应商和内部形状未披露，本目录不推断具体电芯或替换方式。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "carv-2",
+      "productName": "Carv 2",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "小型追踪器及充电座电池候选",
+      "rationale": "Grepow提供小型与定制电池能力，可作为传感器及便携充电座供电的评估对象；汗水防护、重复充放和接触结构仍须独立设计。实际电池供应方没有披露，不从设备尺寸估计容量或宣称可直接替换。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "fightcamp-connect-gen3",
+      "productName": "FightCamp Connect Gen 3",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "grepow",
+      "role": "power",
+      "relationship": "candidate",
       "component": "小型佩戴电池方案候选",
       "rationale": "Grepow公开定制电池能力可用于新宠物佩戴原型的供电评估，但尺寸、固定、防护、充电与环境要求必须单独确认。电池供应商不承担整机算法或健康效果，本目录也没有Maven现有电池来自该公司的证据。",
       "sourceIds": [

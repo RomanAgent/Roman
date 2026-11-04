@@ -1,0 +1,477 @@
+{
+  "id": "elgato-prompter",
+  "name": "Elgato Prompter",
+  "brand": "Elgato",
+  "category": "creative-tools",
+  "audience": "prosumer",
+  "saleMode": "retail",
+  "tagline": "以电脑语音模型同步稿件的集成显示提词器",
+  "officialUrl": "https://www.elgato.com/us/en/p/prompter",
+  "status": "on_sale",
+  "statusEvidence": "核查日美国官方商品页原版Prompter显示US$299.99及Add to cart。仅收原版，XL为相同核心任务的尺寸实现，不重复计数；软件按11月4日正式版Studio 2.0说明记录。",
+  "regions": [
+    "美国（已核官方商店）及品牌地区渠道"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "本轮未核大陆授权零售。Studio 2.0当前Voice Sync支持列表不含中文；能买到硬件或显示中文稿件不代表中文语音跟稿可用。"
+  },
+  "price": {
+    "text": "美国官网US$299.99",
+    "note": "不含相机、麦克风或电脑；Studio 2.0和Voice Sync免费，显示器替代的部分Virtual Prompter功能另有收费，不混作硬件必需订阅。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "Studio 2.0将麦克风语音转成文字，再与稿件匹配以控制滚动。Windows下载各语言语音模型并在电脑GPU本地运行，macOS调用系统语音识别。",
+    "dependency": "AI在连接的电脑软件中，提词器负责USB显示和分光镜反射。需外接麦克风与相机等拍摄设备；当前版本和支持语言按官方新说明核对，不沿用旧Camera Hub条件。"
+  },
+  "highlights": [
+    "底部集成显示与分光玻璃",
+    "说话、停顿和跳行的语音跟稿",
+    "Windows本地语音模型",
+    "中文显示与中文跟稿分开判断"
+  ],
+  "analysis": {
+    "demand": "案头需求是独自录制时保持视线接近镜头，同时按自己的节奏读稿。硬件让文字与镜头同轴，语音模型减少手动滚屏；是否省时要看失步恢复和重录次数，不能仅用更自然的宣传判断。",
+    "userProfile": "适合经常录制讲解、课程或面对镜头演示的个人创作者。即兴聊天或很少照稿的人未必需要；桌面空间、相机镜头匹配和使用语言比关注是否带AI更重要。",
+    "competition": "替代包括电脑屏幕提词、平板加反光架和人工滚屏。独立显示省去占用手机，但模型本身也能在虚拟提词软件里使用；购买理由应来自光学位置与工作流，而非软件功能被硬件独占。",
+    "supplyChain": "硬件涉及分光玻璃、显示、USB控制、遮光罩和相机支架，具体面板和工厂未披露。电脑承担识别算力，不能把GPU画成设备内部BOM；光学反射、结构承重和连接稳定都需验证。",
+    "technology": "官方11月4日说明正式Studio 2.0替代旧Camera Hub，语音模型识别后匹配稿件位置。Windows本地处理与macOS系统路径不同；跟稿不等于生成内容，停顿、改词和环境声仍可能影响对齐。",
+    "aesthetics": "黑色罩体和倾斜玻璃服务相机光路，底部屏幕产生反射，玻璃不是第二块发光屏。分析上，清洁、镜头暗角、桌面支撑和读稿距离影响使用，不能把紧凑外观等同于适配任意机位。",
+    "risks": "风险集中在语音跟稿失步、电脑兼容及支持语言，当前正式版列表未包含中文。选错软件版本会套用旧硬件条件；画面和稿件涉及隐私时也应区分Windows本地识别与系统服务路径。",
+    "opportunity": "机会假设是降低单人讲解录制的反复重来。可用真实稿件比较手动、定速和语音跟稿，记录打断、跳段和恢复时间，再访谈是否愿意长期保留在机位上，而非用模型分数预测效率。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "个人视频提词是具体工作流，廉价反光架与免费虚拟提词替代直接；优势需要在真实录制中验证。"
+  },
+  "architecture": [
+    {
+      "name": "分光反射",
+      "detail": "倾斜分光玻璃将底部屏幕文字反射到接近镜头方向。",
+      "evidence": "official"
+    },
+    {
+      "name": "集成显示",
+      "detail": "设备含独立显示模块，通过USB接收电脑画面与供电。",
+      "evidence": "official"
+    },
+    {
+      "name": "外部语音AI",
+      "detail": "电脑Studio 2.0识别麦克风语音并与稿件对齐，非提词器内置模型。",
+      "evidence": "official"
+    },
+    {
+      "name": "光路及安装",
+      "detail": "遮光罩、后背板与相机支架适配不同拍摄设备。",
+      "evidence": "official"
+    },
+    {
+      "name": "概念边界",
+      "detail": "内部USB电路和显示供应商未披露，只作功能模块示意。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Elgato Prompter官方商店",
+      "url": "https://www.elgato.com/us/en/p/prompter",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "technology",
+        "availability"
+      ],
+      "note": "实际打开；299.99美元加购、原版结构、外部设备和XL对比。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "title": "Elgato Studio 2.0正式版说明",
+      "url": "https://www.elgato.com/us/en/explorer/products/teleprompter/elgato-studio-2-0-prompter-cameras-capture/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "usage"
+      ],
+      "note": "实际打开11月4日更新；正式发布、语音识别模型、本地处理边界、当前语言及旧软件替代关系。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "title": "Prompter官方常见问题",
+      "url": "https://help.elgato.com/hc/en-us/articles/20470388323597-Elgato-Prompter-Frequently-Asked-Questions",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "usage"
+      ],
+      "note": "实际打开；集成显示、分光反射、安装与外部设备条件，AI版本以新正式版说明为准。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "checkedAt": "2026-11-05",
+  "deepDive": {
+    "checkedAt": "2026-11-05",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Elgato Prompter官方商店",
+        "url": "https://www.elgato.com/us/en/p/prompter",
+        "note": "实际打开；299.99美元加购、原版结构、外部设备和XL对比。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "id": "s2",
+        "title": "Elgato Studio 2.0正式版说明",
+        "url": "https://www.elgato.com/us/en/explorer/products/teleprompter/elgato-studio-2-0-prompter-cameras-capture/",
+        "note": "实际打开11月4日更新；正式发布、语音识别模型、本地处理边界、当前语言及旧软件替代关系。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "id": "s3",
+        "title": "Prompter官方常见问题",
+        "url": "https://help.elgato.com/hc/en-us/articles/20470388323597-Elgato-Prompter-Frequently-Asked-Questions",
+        "note": "实际打开；集成显示、分光反射、安装与外部设备条件，AI版本以新正式版说明为准。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "事实：任务边界",
+          "text": "Prompter把集成屏幕与分光玻璃组合，让稿件显示在接近相机镜头的方向，电脑软件根据语音匹配控制滚动。官方美国商品页当前可加购，原版与XL共享核心任务；本条选原版个人桌面形态，不以屏幕放大或不同相机组合重复增加产品数量。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：真实需求",
+          "text": "需求判断应聚焦独自面对镜头录制的人：他们需要按自己的节奏讲清稿件，又不想不断低头或操作滚轮。语音跟稿只是减少控制动作的一种方式，如果讲述习惯高度即兴，或者原稿本就不适合口述，硬件和模型都无法自动解决表达问题。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：任务完成",
+          "text": "可让创作者使用同一份真实讲解稿，分别以手动、固定速度和语音方式录制，保留重录和恢复过程。记录停顿、改词、跳段后能否继续，询问减少了哪种负担；不只比较成片观感，也不把厂商更快完成的口号当成已测量的效率收益。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "事实：使用条件",
+          "text": "当前软件正式版适用于连接的电脑，Voice Sync还需要麦克风；Prompter本身不是录音或拍摄相机。产品提供多种后背板和支架以适应不同设备，但镜头尺寸、安装承重和读稿距离仍有限制，不能由兼容手机与相机的描述推断所有机位都适用。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：人群筛选",
+          "text": "潜在人群包括稳定制作课程、评测或脚本讲解的个人创作者，也可能是需要看稿开会的人。两类任务对读稿距离、窗口内容和眼神要求不同；桌面空间、电脑系统和主要语言比主播身份更能决定是否值得买一块专用显示提词硬件。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：参与者差异",
+          "text": "访谈应查看用户现有录制位置，问最近一次重录为何发生、稿件是否经常临场修改以及是否已有平板。安装试用时记录换相机、改镜头和收纳耗时，再观察一周后是否留在常用机位；不能用一次顺利演示替代对实际工作频率的了解。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "事实：方案范围",
+          "text": "官方新软件也提供无需硬件的虚拟提词功能，语音跟稿因此不是购买Prompter才有的独占能力。硬件差异主要是集成屏幕和反射光路，使文字更靠近镜头；普通电脑窗口、平板反光架和人工操作员都能满足部分任务，需在相同录制条件下比较。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：替代关系",
+          "text": "竞争判断应拆开软件价值与光学价值：如果把稿件放在笔记本摄像头附近已经够用，独立硬件的回报可能有限；如果需要更严格的镜头视线和稳定机位，专用反射结构更有理由。不能把一个免费语音模型的便利全部归功于这台显示器。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：比较方法",
+          "text": "可比较相同字体与距离下的普通屏幕、平板架和Prompter，观察观众是否看出视线差异，以及创作者是否更易恢复稿件位置。总成本还应包含支架、相机适配和电脑占用；不按显示尺寸或软件功能列表直接给出胜负结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "事实：功能组成",
+          "text": "公开结构包括分光玻璃、独立显示、遮光罩、后背板、相机支架及USB连接，实际面板、控制芯片和整机工厂没有披露。语音识别运行在外部电脑或系统服务，不能把电脑显卡列成提词器内部元件；本目录的供应关联只做光学、显示和结构能力匹配。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：交付约束",
+          "text": "工程判断，真正影响交付的是反射文字清晰度与相机成像的平衡、不同镜头的遮挡、玻璃安装保护和桌面支撑稳定性。即使显示与语音都正常，机位移动或镜头暗角仍可能使系统不好用；选型不能只比较像素数量和接口是否存在。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：选型缺口",
+          "text": "候选厂商需要收到明确的视角、文字亮度、反射与透射要求，以及装配公差和玻璃运输条件，再开展样件验证。没有品牌点名或拆机证据前不声明实际面板来源；同时测试USB重连、休眠唤醒及不同电脑显示设置，覆盖真实录制中断。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "事实：AI机制",
+          "text": "官方11月4日正式版说明写明，Voice Sync听取麦克风语音，转成文字并与稿件比对。Windows为各语言下载模型并在电脑显卡本地处理，macOS调用系统语音识别；当前支持语言列表不含中文，不能因为屏幕可显示中文就声称中文跟稿可用。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：系统边界",
+          "text": "分析上，这是一条语音识别和文本对齐链路，并不负责替用户生成可靠稿件。口音、专有名词、跳句和背景声音都可能影响匹配；模型跟得太紧或太松也会改变讲述节奏。因此自动滚动需要明确的手动接管方式，而不应成为不可解释的黑箱。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：算法与体验",
+          "text": "技术验证可准备有数字、缩写和临时插话的稿件，分别测试正常阅读、长停顿、跳段及回读，记录屏幕位置与实际语句的差异。对比不同软件版本时须注明版本和语言，尤其不能把旧Camera Hub的限制或旧测试结果直接套给Studio正式版。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "事实：外观与交互",
+          "text": "真实图片显示倾斜玻璃与底部横置屏幕，玻璃上的文字来自反射，并非第二块发光显示。黑色罩体和相机开口服务光路，USB负责电源与画面；生成图只拆分这些大类功能，不额外添加麦克风、相机、电池或内部AI处理器来制造想象中的配置。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：使用中的形态",
+          "text": "外观分析需要在拍摄环境中进行：黑色表面可能减轻反光，但玻璃指纹、灯位和支撑高度仍影响可用性。紧凑设备也会增加相机前方体积，换机位时需要重新布置；对于共享桌面用户，是否方便拆装和清洁可能比常驻工作室用户更重要。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：日常接受度",
+          "text": "观察创作者装配、调角度、清洁和收起设备的完整过程，记录是否误把玻璃当触控屏或把外部相机当标配。让他们在实际灯光下检查暗角与文字可见性，再询问愿不愿意保持安装；不根据宣传照片直接判断家居美感或所有镜头适配。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "事实：已知限制",
+          "text": "当前正式版与旧帮助文档对系统和语言的条件存在差别，本条以11月4日发布说明为主要软件依据，并保留版本边界。官方支持列表没有中文，海外商店可买也不等于大陆语音场景已验证；外接相机和麦克风还分别有自己的权限与数据路径。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：失效影响",
+          "text": "风险判断包括跟稿失步打断录制、支架不合造成设备不稳、误认为识别必然全平台本地，以及把重要稿件放进不熟悉的软件流程。AI并不能保证表达准确或镜头自然；如果用户无法快速接管，自动功能反而可能延长录制时间。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：风险处理",
+          "text": "应在正式拍摄前验证本机的麦克风来源、模型下载与离线行为，并演练失步后的手动滚动或暂停。确认镜头、支架及软件权限后再开始实际项目，保留原稿备份；这些是待验证工作流，不宣称本站已经对所有系统完成隐私或可靠性审计。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断：可尝试切口",
+          "text": "机会假设在帮助个人创作者减少单人机位的控制动作，让稿件准备、录制和临时修改更连贯。硬件的可解释差异在光学同轴与常驻显示，而不是给任何屏幕加AI标签；如果虚拟提词已满足需求，继续销售复杂硬件未必是用户最好的选择。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：商业边界",
+          "text": "商业分析应考虑录制频率、镜头组合和现有设备，而不是仅靠低价软件功能吸引硬件购买。扩展服务可能围绕安装适配与稿件工作流，但现有资料没有证明付费意愿或节省时长；不同场景要分别验证，不用模型评分预测内容创作者的收入。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：下一步调研",
+          "text": "建议跟踪数名有真实发布计划的创作者，记录一月内使用次数、放弃使用的原因、重录比例和机位调整时间。访谈他们会保留语音、反射屏还是两者组合，再和免费虚拟提词对比；用实际选择决定是否值得继续优化配件和软件提示。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "tianma",
+        "role": "display",
+        "relationship": "candidate",
+        "component": "集成文字显示模组候选",
+        "rationale": "天马中小尺寸显示模组能力可用于评估提词器文字显示、光学贴合和接口集成，但分光反射后的可读性仍需系统测试。Elgato未披露实际面板来源，本关联不意味着天马供货，也不承诺现成模组可直接替换。",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "protolabs",
+        "role": "mechanical",
+        "relationship": "candidate",
+        "component": "遮光罩与相机支架打样候选",
+        "rationale": "Protolabs可提供结构件加工和样件验证，用于遮光罩、后背板及相机支架的配合与承重测试。光学玻璃本身需要另核工艺；目录没有证据说明其制造Prompter，本链接仅服务开发选型。",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "jlcpcb",
+        "role": "pcb",
+        "relationship": "candidate",
+        "component": "USB显示控制板开发候选",
+        "rationale": "JLCPCB的电路板制造与装配能力可用于原型阶段的USB显示控制板实现，但必须由设计方先确定接口、电源和显示方案。Prompter实际电路与工厂没有公开，本关联不是其真实BOM或代工确认。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "voice-paced-camera-teleprompting",
+      "needName": "面对镜头按语音节奏读稿",
+      "difference": "与定速提词或电脑窗口相比，Prompter用独立屏幕和分光玻璃把稿件放到接近镜头方向，再由电脑语音模型匹配稿件位置。差异是光学视线与说话节奏的组合工作流；AI并不在硬件内部，而且同软件可用于虚拟提词，是否需要独立设备仍取决于机位和支持语言。",
+      "comparisonBasis": "比较普通屏幕提词、平板反光架、定速滚动和人工操作员",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/elgato-prompter/product.jpg",
+      "sourceUrl": "https://www.elgato.com/us/en/p/prompter",
+      "sourceImageUrl": "https://elgato-assets.imgix.net/image/upload/f_auto/q_auto/w_960,c_limit/v1783513647/Products/10WAD9901/ATF/New/Prompter_ATF_01.jpg",
+      "caption": "Elgato Prompter 官方产品图",
+      "alt": "Elgato Prompter 官方产品图",
+      "credit": "Elgato · 官方资料",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 22584,
+      "sha256": "c696f65abc6c38b483ac524ba56e3f5bf4b41a22de46190402c6f2a8fa418cc8"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/elgato-prompter/reference.webp",
+      "sourceUrl": "https://www.elgato.com/us/en/p/prompter",
+      "sourceImageUrl": "https://images.ctfassets.net/h50kqpe25yx1/4sV79jrrRaTeHhyojtlNcJ/fb27634cd6d879dc0c04ce3a28aa9cf7/Prompter_Panels_Thumbnail_00.png?q=75&w=3840&fm=webp",
+      "caption": "Elgato Prompter 官方外观与使用参考图",
+      "alt": "Elgato Prompter 官方外观与使用参考图",
+      "credit": "Elgato · 官方资料",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 13220,
+      "sha256": "40555f288b9579178f197bacaadb7a4f3b52fa20129a685c419b6d79b4095b53"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/elgato-prompter/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "Elgato Prompter 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-05",
+      "promptPath": "content/hardware/prompts/elgato-prompter.txt",
+      "referencePaths": [
+        "assets/hardware/elgato-prompter/product.jpg",
+        "assets/hardware/elgato-prompter/reference.webp"
+      ],
+      "verified": true,
+      "bytes": 1488872,
+      "sha256": "bfc052e8e237c33c91543a1a770213d2a99ed178b9606d6a91906c44b8736ad5"
+    }
+  ],
+  "mediaNotes": [
+    "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。",
+    "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+  ]
+}

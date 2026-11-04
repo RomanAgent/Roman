@@ -1,0 +1,504 @@
+{
+  "id": "eyedaptic-eye7",
+  "name": "Eyedaptic EYE7",
+  "brand": "Eyedaptic",
+  "category": "accessibility",
+  "tagline": "把低视力图像增强与可调节设置的AI助手结合",
+  "officialUrl": "https://eyedaptic.com/eye7/",
+  "status": "on_sale",
+  "statusEvidence": "当前EYE7产品页、2026年3月发布及11月2日Eva正式上线资料均对应已使用设备；官方FAQ明确个人通过眼科实践方或经销商付费购买、退货和保修流程，按个人验配渠道登记。",
+  "regions": [
+    "美国为主的眼科实践方及经销渠道；具体地区需适配确认"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "厂家链接的中国网站当前可见EYE5，未核到EYE7正式购买和Eva服务条件；不因品牌有中国网站就判本型号已在大陆销售。"
+  },
+  "price": {
+    "text": "经销及个人适配报价，未核到统一现价",
+    "note": "不借EYE5硬件价或旧助手订阅图作EYE7当前价格；Ivy/Eva方案、网络及升级权益需按订单确认。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "AI视觉助手支持阅读和场景问答；最新Eva发布说明还支持以自然语言调节视觉增强设置，结合摄像与显示辅助。",
+    "dependency": "官方FAQ明确眼镜需始终通过线缆连接遥控手机并由其供电；助手账户、网络、订阅和语言区域条件需确认，不等于眼镜独立离线运行。"
+  },
+  "audience": "consumer",
+  "saleMode": "consumer-fitting",
+  "highlights": [
+    "低视力图像增强与AI视觉助手",
+    "Eva可用语言调整增强设置",
+    "手机供电与线缆连接需保留",
+    "个人经销适配，不承诺视力恢复"
+  ],
+  "niche": {
+    "level": "specialist",
+    "reason": "针对仍利用视觉信息的人，将增强画面与AI操作结合；不同于仅朗读或导航眼镜，缺少本研究独立效果及用户访谈。"
+  },
+  "architecture": [
+    {
+      "name": "环境采集",
+      "detail": "眼镜摄像区域采集视野，实际成像条件影响结果。",
+      "evidence": "official"
+    },
+    {
+      "name": "手机与控制",
+      "detail": "外接遥控手机供电、控制并承载配套软件。",
+      "evidence": "official"
+    },
+    {
+      "name": "视觉增强",
+      "detail": "处理后的画面通过眼镜显示，需个人试用调整。",
+      "evidence": "official"
+    },
+    {
+      "name": "AI助手",
+      "detail": "Ivy与Eva方案提供视觉问答等功能，Eva可按请求调节设置。",
+      "evidence": "official"
+    },
+    {
+      "name": "个人反馈",
+      "detail": "使用者判断结果是否有帮助，误答和显示不适须可退出。",
+      "evidence": "inferred"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Eyedaptic EYE7当前产品页",
+      "url": "https://eyedaptic.com/eye7/",
+      "kind": "official-spec",
+      "supports": [
+        "status",
+        "model",
+        "images",
+        "technology"
+      ],
+      "note": "已打开当前型号、视觉增强及助手；页面残留Eva早期Beta字样，与更新的正式发布说明分开记录。"
+    },
+    {
+      "title": "Eyedaptic官方FAQ：购买和手机连接",
+      "url": "https://eyedaptic.com/faqs/",
+      "kind": "official-spec",
+      "supports": [
+        "status",
+        "purchase",
+        "dependency",
+        "warranty"
+      ],
+      "note": "已打开个人经眼科实践方或经销商购买、退货保修；所有型号需线缆连接遥控手机并由手机供电。"
+    },
+    {
+      "title": "Eyedaptic Eva正式推出，2026-11-02",
+      "url": "https://eyedaptic.com/eyedaptic-launches-eva/",
+      "kind": "official-spec",
+      "supports": [
+        "ai",
+        "availability",
+        "dependency"
+      ],
+      "note": "已打开最新发布：Eva已推出，可向EYE7用户远程提供升级，能按自然语言调整增强；方案地区和个人权益仍须确认。"
+    },
+    {
+      "title": "EYE7发布与视觉助手系列，2026-03-24",
+      "url": "https://eyedaptic.com/eyedaptic-unveils-eye7-smart-glasses-the-only-platform-combining-vision-enhancement-and-ai-visual-assistant-family/",
+      "kind": "official-spec",
+      "supports": [
+        "model",
+        "technology",
+        "images"
+      ],
+      "note": "已打开EYE7与Ivy发布、当时Eva Beta；不将旧测试状态覆盖11月的新正式信息。"
+    },
+    {
+      "title": "Eyedaptic中国站当前产品范围",
+      "url": "https://eyedaptic.cn/",
+      "kind": "official-spec",
+      "supports": [
+        "china",
+        "regional-boundary"
+      ],
+      "note": "已公开打开中国站，所见产品为EYE5；仅支持品牌地区入口存在，不证明EYE7已在大陆正式销售。"
+    }
+  ],
+  "analysis": {
+    "demand": "需求假设是使用者在不同材料和环境中需要反复调整画面，而不希望每次都寻找复杂菜单。语音请求若能正确对应设置，可能减少操作中断，但理解请求与改善可见画面是两件事；实际价值仍取决于个人视觉条件、语言表达和设备反馈，不能由助手名称直接推定。",
+    "userProfile": "与完全依赖语音读物的需求相比，使用者可能希望继续看文字布局、物体轮廓或熟悉环境，因此画面增强与语音信息的比例很个人化。是否愿意同时携带手机和眼镜也影响接受程度；用户画像应围绕实际任务和试用反馈，而不是仅用某个视力诊断名称概括。",
+    "competition": "普通电子放大器强调看清材料，朗读眼镜强调把内容变成声音，而EYE7试图在增强视觉与助手操作间切换。它的差异不在多一个摄像头或换镜框，而在使用者能否更连续完成任务；也可能因为设备和订阅更复杂而增加负担，不能预设组合功能一定胜过单一工具。",
+    "supplyChain": "新设计要协调摄像输入、处理延迟、增强显示、语音交互和手机电源预算，线缆可靠性与接口也会影响日常使用。选择更强应用处理器并不能自动解决近眼显示和个人视觉适配；候选供应商只提供部分能力，不能由其通用平台推定已经实现Eyedaptic的软件和效果。",
+    "technology": "一句关于画面的问题可能包含模糊偏好，助手若误解并改变多个设置，用户可能难以知道发生了什么。技术价值在于把请求、实际改动和结果反馈连起来，同时允许恢复原状态；这种可理解性比单次回答流畅更重要，也不能仅凭生成文本质量判断视觉辅助是否可靠。",
+    "aesthetics": "使用者除了是否喜欢镜框，还要考虑手机放在哪里、线缆如何避开衣物，以及摘戴时能否保持连接。更轻的视觉印象不代表鼻梁压力或显示舒适，镜架也可能影响社交时的自我感受；审美讨论应听取本人偏好，不把隐蔽或像普通眼镜作为唯一优点。",
+    "risks": "AI读错文字或误解物体时，使用者可能把流畅回答当作可靠信息；画面增强也可能在某些条件下不合适。重要内容应保留可核对方式，设备不应被描述为保证安全导航或替代专业眼科照护；视觉助手与真实场景之间的误差需要被清楚呈现，而非被宣传语遮盖。",
+    "opportunity": "后续研究可以把重点放在用户是否知道如何表达需求、理解设置变化并自行恢复，而不是只看助手回答多少问题。若减少操作负担的同时失去对画面的掌控，价值可能有限；因此更有意义的结果是本人能否持续完成常见任务，并保留选择其他辅助方式的自由。"
+  },
+  "checkedAt": "2026-11-05",
+  "deepDive": {
+    "checkedAt": "2026-11-05",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "Eyedaptic EYE7当前产品页",
+        "url": "https://eyedaptic.com/eye7/",
+        "note": "已打开当前型号、视觉增强及助手；页面残留Eva早期Beta字样，与更新的正式发布说明分开记录。"
+      },
+      {
+        "id": "s2",
+        "title": "Eyedaptic官方FAQ：购买和手机连接",
+        "url": "https://eyedaptic.com/faqs/",
+        "note": "已打开个人经眼科实践方或经销商购买、退货保修；所有型号需线缆连接遥控手机并由手机供电。"
+      },
+      {
+        "id": "s3",
+        "title": "Eyedaptic Eva正式推出，2026-11-02",
+        "url": "https://eyedaptic.com/eyedaptic-launches-eva/",
+        "note": "已打开最新发布：Eva已推出，可向EYE7用户远程提供升级，能按自然语言调整增强；方案地区和个人权益仍须确认。"
+      },
+      {
+        "id": "s4",
+        "title": "EYE7发布与视觉助手系列，2026-03-24",
+        "url": "https://eyedaptic.com/eyedaptic-unveils-eye7-smart-glasses-the-only-platform-combining-vision-enhancement-and-ai-visual-assistant-family/",
+        "note": "已打开EYE7与Ivy发布、当时Eva Beta；不将旧测试状态覆盖11月的新正式信息。"
+      },
+      {
+        "id": "s5",
+        "title": "Eyedaptic中国站当前产品范围",
+        "url": "https://eyedaptic.cn/",
+        "note": "已公开打开中国站，所见产品为EYE5；仅支持品牌地区入口存在，不证明EYE7已在大陆正式销售。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "官方｜增强画面与视觉助手合并",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "text": "EYE7将低视力图像增强和AI视觉助手放在同一套眼镜与手机系统中，支持阅读、视觉问答及相关操作。最新Eva发布说明增加通过自然语言调节增强设置的能力；这里的AI不只是普通放大，也不能反过来把所有光学显示功能都称为生成式模型，更不意味着恢复视力。"
+        },
+        {
+          "title": "判断｜设置调节可能影响任务连续性",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "需求假设是使用者在不同材料和环境中需要反复调整画面，而不希望每次都寻找复杂菜单。语音请求若能正确对应设置，可能减少操作中断，但理解请求与改善可见画面是两件事；实际价值仍取决于个人视觉条件、语言表达和设备反馈，不能由助手名称直接推定。"
+        },
+        {
+          "title": "验证｜用本人常读内容观察调整过程",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "text": "可在适配人员支持下选择本人常见文字和物体，记录手动调节、语音调节及实际辨认之间的步骤。应同时记录误答、不合适设置和恢复原状态的方法，不只观察一次成功演示；本研究没有视力测量或临床试验，不承诺辨认改善或适合所有低视力人群。"
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "官方｜经个人经销适配购买",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "官方FAQ说明用户经眼科实践方或经销商付费购买，并按相应流程处理退货与保修；这属于个人使用设备的销售渠道。当前型号信息为EYE7，不应借EYE5报价或其他代次的配套条件填空，也不能把地区代理存在等同该型号在所有市场都已可适配和获得助手服务。"
+        },
+        {
+          "title": "判断｜保留视觉任务的人需要不同入口",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ],
+          "text": "与完全依赖语音读物的需求相比，使用者可能希望继续看文字布局、物体轮廓或熟悉环境，因此画面增强与语音信息的比例很个人化。是否愿意同时携带手机和眼镜也影响接受程度；用户画像应围绕实际任务和试用反馈，而不是仅用某个视力诊断名称概括。"
+        },
+        {
+          "title": "验证｜把整套佩戴和支持纳入试用",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "适配时需要核对镜架、显示体验、线缆、遥控手机及语音操作是否适合本人，并明确哪些设置可自行调整。还应询问助手方案、语言和网络条件，确认售后与退货范围；目录没有取得个人适配结果，也不把官方成功案例推广为所有使用者都会得到相同收益。"
+        }
+      ],
+      "competition": [
+        {
+          "title": "官方｜Eva最新发布与旧页面时间不同",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3",
+            "s4"
+          ],
+          "text": "三月发布EYE7时，Ivy已作为助手提供而Eva仍处测试阶段；十一月二日官方说明Eva已正式推出并可向EYE7用户升级。产品页仍残留早期Beta字样，因此本条按更新公告描述当前能力，并保留具体方案待确认，不将旧订阅图片或发布日期差异隐去。"
+        },
+        {
+          "title": "判断｜与朗读眼镜及普通放大器分工不同",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "普通电子放大器强调看清材料，朗读眼镜强调把内容变成声音，而EYE7试图在增强视觉与助手操作间切换。它的差异不在多一个摄像头或换镜框，而在使用者能否更连续完成任务；也可能因为设备和订阅更复杂而增加负担，不能预设组合功能一定胜过单一工具。"
+        },
+        {
+          "title": "验证｜在同一任务比较不同信息入口",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "text": "可以让使用者用原有放大或朗读工具和EYE7完成相同阅读任务，记录找设置、获得结果、纠错和退出所需过程。价格比较须包含手机、服务方案和适配支持，不能只看镜框；本目录没有市场份额、长期用户访谈或独立效果数据，不对各品牌作疗效排名。"
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "官方｜供电和计算不能都画进镜框",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "FAQ明确所有型号必须通过线缆连接遥控手机，并由手机给眼镜供电。眼镜可见摄像和显示结构，但主控、光学模块及制造厂未在所引来源完整点名；示意图因此保留外接手机，不能随意增加镜腿电池或宣称眼镜独立运行全部AI，也不能从手机照片猜测内部芯片。"
+        },
+        {
+          "title": "判断｜同类方案需要手机和显示共同设计",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "text": "新设计要协调摄像输入、处理延迟、增强显示、语音交互和手机电源预算，线缆可靠性与接口也会影响日常使用。选择更强应用处理器并不能自动解决近眼显示和个人视觉适配；候选供应商只提供部分能力，不能由其通用平台推定已经实现Eyedaptic的软件和效果。"
+        },
+        {
+          "title": "验证｜候选研究先确认系统接口",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "光学候选需确认近眼显示、成像和结构条件是否在其实际服务范围内，应用平台候选则需核对外部控制器的功耗、接口和软件支持。这里仅研究相近新设计，没有本型号采用证据，也不建议替换封闭手机内部器件；供应商链接不是完整BOM或可直接复制的产品方案。"
+        }
+      ],
+      "technology": [
+        {
+          "title": "官方｜AI回答与增强设置是两个输出",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "视觉助手可以围绕摄像内容提供阅读和问答，而Eva的新增定位还包括理解用户语言并调整画面增强。回答是否准确、调整是否符合意图以及用户是否更容易使用，分别需要验证；官方发布并未完整披露模型、训练数据或每层处理位置，目录不补充为全部离线或固定芯片执行。"
+        },
+        {
+          "title": "判断｜自然语言控制要有可见恢复路径",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s3"
+          ],
+          "text": "一句关于画面的问题可能包含模糊偏好，助手若误解并改变多个设置，用户可能难以知道发生了什么。技术价值在于把请求、实际改动和结果反馈连起来，同时允许恢复原状态；这种可理解性比单次回答流畅更重要，也不能仅凭生成文本质量判断视觉辅助是否可靠。"
+        },
+        {
+          "title": "验证｜区分识别失败与设置不适合",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "试用可保留原始场景、用户请求、助手回应和实际设置变化，分别记录读错内容、理解错请求和画面不适合的情况。还需检查网络中断或服务不可用时保留哪些基本功能；本研究只核公开资料，没有独立算法测试，不承诺特定光线、距离或语言下的表现。"
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "官方｜宽镜框与外接手机构成可见外形",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ],
+          "text": "官方EYE7图片显示宽厚镜框、中央摄像区域和双侧显示结构，使用场景中可见线缆与遥控手机。当前图像资产文件名含早期宣传字样，但实际来自现行EYE7页面；目录按具体外形核对，不借其他代次、普通眼镜头像或助手插画作为产品照片。"
+        },
+        {
+          "title": "判断｜外观接受度和线缆管理分不开",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "text": "使用者除了是否喜欢镜框，还要考虑手机放在哪里、线缆如何避开衣物，以及摘戴时能否保持连接。更轻的视觉印象不代表鼻梁压力或显示舒适，镜架也可能影响社交时的自我感受；审美讨论应听取本人偏好，不把隐蔽或像普通眼镜作为唯一优点。"
+        },
+        {
+          "title": "验证｜在完整携带状态检查动作",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "text": "试配可观察拿取手机、戴上眼镜、坐下阅读和收纳的整个过程，记录线缆牵拉、控制器位置和需要帮助的步骤。把外观评价、佩戴舒适和视觉效果分开记录；本轮没有真实触摸、重量分布或长期耐久测试，不能凭官方人物照片断言适合全天佩戴。"
+        }
+      ],
+      "risks": [
+        {
+          "title": "官方｜国内入口不证明本型号已交付",
+          "evidence": "official",
+          "sourceIds": [
+            "s2",
+            "s5"
+          ],
+          "text": "厂家链接的中国网站当前可见EYE5资料，未核到EYE7的大陆正式购买、适配及Eva服务条件。美国经销购买和远程升级说明也不能自动跨地区适用；因此本条将国内状态保留为不明，且不借旧型号硬件价格或带早期测试脚注的订阅图作为当前订单报价。"
+        },
+        {
+          "title": "判断｜错误解释可能影响后续判断",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "AI读错文字或误解物体时，使用者可能把流畅回答当作可靠信息；画面增强也可能在某些条件下不合适。重要内容应保留可核对方式，设备不应被描述为保证安全导航或替代专业眼科照护；视觉助手与真实场景之间的误差需要被清楚呈现，而非被宣传语遮盖。"
+        },
+        {
+          "title": "验证｜确认服务停止时的使用边界",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "text": "购买前应询问网络、账户、订阅或软件升级异常时哪些功能仍能使用，以及支持人员如何帮助恢复设置。语音和视觉数据的处理条件也需按实际方案核实；本研究不承诺恢复视力或避免意外，只提出产品选择时应由本人和服务方确认的具体问题。"
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "官方｜同一低视力显示任务不按代次重复",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "本条将EYE7作为视觉增强与AI设置助手结合的代表，不另收同品牌旧代次、套餐或助手名字来增加场景数量。它区别于仅朗读或纯导航的主要任务在于继续使用增强画面，并用语言辅助调节；这种差异必须与手机依赖和个人适配条件一起说明，不能只保留新功能标题。"
+        },
+        {
+          "title": "判断｜关注用户能否主动掌控画面",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "text": "后续研究可以把重点放在用户是否知道如何表达需求、理解设置变化并自行恢复，而不是只看助手回答多少问题。若减少操作负担的同时失去对画面的掌控，价值可能有限；因此更有意义的结果是本人能否持续完成常见任务，并保留选择其他辅助方式的自由。"
+        },
+        {
+          "title": "验证｜跟踪实际保留的使用场景",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "text": "可在适当支持下记录数周后仍常用的增强模式、助手请求、失败情境和改用其他工具的原因，再判断组合方案是否值得。地区支持与软件更新也应计入观察；本目录没有销量或独立临床证据，不以功能数量、发布日期或官方展示推断市场需求和个人效果。"
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "aac-technologies",
+        "role": "optics",
+        "component": "同类视觉增强设备的光学工程能力候选",
+        "rationale": "瑞声公开光学与精密集成能力，可作为同类摄像及光学结构开发的询证入口，但近眼显示、个人视觉适配和实际接口是否适用仍需专项确认。没有Eyedaptic点名采用证据，不能将一般光学模组能力等同本款显示系统，也不能据候选链接推断成像或辅助效果。",
+        "relationship": "candidate",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s4"
+        ]
+      },
+      {
+        "supplierId": "mediatek",
+        "role": "chip",
+        "component": "同类外接视觉控制器的应用平台研究",
+        "rationale": "MediaTek Genio平台可用于研究相近外接视觉控制器的摄像、显示和应用处理，但需要核对功耗、接口、系统支持与服务接入。EYE7采用封闭手机配套，未公开此平台为现用方案；此处不主张替换手机芯片，也不把通用算力视为已有视觉增强与Eva模型。",
+        "relationship": "candidate",
+        "sourceIds": [
+          "s1",
+          "s2",
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "low-vision-display-assistance",
+      "needName": "低视力图像增强与设置辅助",
+      "difference": "与语音朗读眼镜和普通电子放大器相比，EYE7把增强画面、视觉问答及可用语言调整设置的Eva助手放进同一使用流程。核心差异是让仍使用视觉信息的人更容易调节和理解眼前内容，而非镜框外观或新代次；它仍需外接手机、个人适配和相应服务，AI误答及设置不合适都可能影响任务，不能据此承诺恢复视力或安全导航。",
+      "comparisonBasis": "普通电子放大器、语音OCR眼镜及人工调节增强设置；比较任务连续性、控制、恢复与配套负担。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/eyedaptic-eye7/product.png",
+      "sourceUrl": "https://eyedaptic.com/eye7/",
+      "sourceImageUrl": "https://eyedaptic.com/wp-content/uploads/2025/10/COMING-SOON-1.png",
+      "caption": "Eyedaptic EYE7当前官方正面外形与中央摄像区域",
+      "alt": "Eyedaptic EYE7当前官方正面外形与中央摄像区域",
+      "credit": "Eyedaptic · 官方产品图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 653590,
+      "sha256": "2c49f6cce685a594f607bf4b0bc3b940b3c87b19b35cd7a51313524ccfb0beef"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/eyedaptic-eye7/reference.png",
+      "sourceUrl": "https://eyedaptic.com/eyedaptic-unveils-eye7-smart-glasses-the-only-platform-combining-vision-enhancement-and-ai-visual-assistant-family/",
+      "sourceImageUrl": "https://eyedaptic.com/wp-content/uploads/2025/10/Screenshot-2025-10-20-at-1.37.37-PM-1024x709.png",
+      "caption": "EYE7官方阅读场景，保留遥控手机与连接线参考",
+      "alt": "EYE7官方阅读场景，保留遥控手机与连接线参考",
+      "credit": "Eyedaptic · 官方产品图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 410006,
+      "sha256": "557de29d9bf156aa714758ab3ffe640068dedd9fac2ff9ddd125762b23afbd30"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/eyedaptic-eye7/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "eyedaptic-eye7的灰阶AI概念功能爆炸图，非真实内部结构",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-05",
+      "promptPath": "content/hardware/prompts/eyedaptic-eye7.txt",
+      "referencePaths": [
+        "assets/hardware/eyedaptic-eye7/product.png",
+        "assets/hardware/eyedaptic-eye7/reference.png"
+      ],
+      "verified": true,
+      "bytes": 1414138,
+      "sha256": "7d349a7b5040d4fb6887bf13c78b3da716b5d30f028f1350fa33ff0d8386c2bc"
+    }
+  ],
+  "mediaNotes": [
+    "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。",
+    "明确保留外接手机供电控制和AI服务关系；镜腿内部与显示层分离为概念，不推定独立电池或真实堆叠。",
+    "来源图片已逐张实际查看，确认具体型号；保留原图，不改色裁切。图片不能证明内部BOM、疗效或所有配置可售。",
+    "主图源文件名残留COMING-SOON，但当前EYE7官网使用该准确型号图；状态另以现行页面、FAQ及最新发布核查。"
+  ]
+}

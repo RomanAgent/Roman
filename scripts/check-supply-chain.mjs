@@ -24,4 +24,7 @@ assert.equal(supply.counts.candidateLinks+supply.counts.disclosedLinks,links);as
 assert.equal(hardware.discovery.profiledProducts,hardware.products.length);
 const sceneIds=hardware.discovery.groups.flatMap(g=>g.productIds);assert.equal(new Set(sceneIds).size,hardware.products.length);assert.equal(sceneIds.length,hardware.products.length,'场景重复计数');
 for(const p of hardware.products.filter(p=>p.status==='reservation'))assert.equal(p.saleMode,'reservation',`${p.id} 预约不能标成零售/正式预售`);
+for(const p of hardware.products.filter(p=>p.status==='assisted_program'))assert.equal(p.saleMode,'assisted-program',`${p.id} 资助申领不能标成零售/正式预售`);
+assert.equal(new Set(hardware.discovery.innovationProductIds).size,hardware.discovery.innovationProductIds.length,'创新专题产品重复');
+assert(hardware.discovery.innovationProductIds.every(id=>productMap.has(id)),'创新专题有未知产品');
 console.log(`供应链与深析检查通过：${rawCompanies.length}家公司、${rawDeep.length}款八维详析、${hardware.discovery.groups.length}个核心场景、${links}条双向关联（${disclosed}条公开披露）。`);

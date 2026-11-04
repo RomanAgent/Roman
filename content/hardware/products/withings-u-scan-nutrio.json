@@ -122,7 +122,7 @@
   },
   "checkedAt": "2026-11-04",
   "deepDive": {
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-05",
     "sources": [
       {
         "id": "s1",
@@ -405,6 +405,20 @@
         ],
         "supplierSourceIds": [
           "s1"
+        ]
+      },
+      {
+        "supplierId": "bartels-mikrotechnik",
+        "role": "motion",
+        "component": "同类小样本采样液路的压电微泵研发候选",
+        "rationale": "Bartels当前BP7公开小体积液体输送与配套驱动，可作为同类采样液路的研发候选，但尿液介质兼容、残留污染、冲洗、气泡和控制精度必须专项验证。旧mp6已停产，不应当作新采购依据；没有Withings点名采用证据，也不能把通用微泵直接认作U-Scan原件或现机替换方案。",
+        "relationship": "candidate",
+        "sourceIds": [
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s2",
+          "s3"
         ]
       }
     ],

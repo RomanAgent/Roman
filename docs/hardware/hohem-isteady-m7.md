@@ -36,7 +36,7 @@ Hohem iSteady M7 官方外观 / 使用参考图（相机/手机用于展示，�
 
 - 价格：US$249.99（M7单机）。为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。
 
-- 中国大陆：本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。
+- 中国大陆：2026-11-05 核实浩瀚中国官网 M7 型号页及其明确链接的天猫、京东旗舰店。确认品牌国内官方渠道，未登录店铺核实 M7 当前库存、套装组成与价格；不要把海外组合配置直接套用国内套餐。
 
 - [官方产品 / 商店](<https://store.hohem.com/products/hohem-isteady-m7-big-phone-gimbal>)
 
@@ -259,5 +259,7 @@ M7的支架、伸缩杆、可拆屏幕与控制部件让它呈现为一件明确
 1. [Hohem M7 官方商品页](<https://store.hohem.com/products/hohem-isteady-m7-big-phone-gimbal>) — 单机和附件套装区分，商品数据确认可售。
 
 2. [Hohem M7 官方技术介绍](<https://www.hohem.com/product/isteady-m7>) — 描述端侧多目标追踪及可拆触屏。
+
+3. [浩瀚 M7 中国官网及官方购买渠道](<https://www.hohem.com/cn/product/isteady-m7>) — 2026-11-05 核实浩瀚中国官网 M7 型号页及其明确链接的天猫、京东旗舰店。确认品牌国内官方渠道，未登录店铺核实 M7 当前库存、套装组成与价格；不要把海外组合配置直接套用国内套餐。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/hohem-isteady-m7)

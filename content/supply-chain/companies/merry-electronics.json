@@ -386,6 +386,63 @@
       "productName": "huupe mini 2",
       "category": "games",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "merry-electronics",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "语音输入与发音扬声器候选",
+      "rationale": "Merry具备消费音频设计及扬声器测试能力，可用于评估小机身体积内的发音清晰度与拾音方案。儿童距离、噪声和外壳共振仍需实测；Dex实际声学供应商未披露，本条不构成供货确认。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s4"
+      ],
+      "productId": "dex-language-camera",
+      "productName": "Dex Language Discovery Camera",
+      "category": "education",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "merry-electronics",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "动态麦克风声学工程候选",
+      "rationale": "Merry具备消费音频工程及拾音相关能力，可用于评估近讲发声、握持噪声和声学一致性对模型输入的影响。Vochlea没有披露实际胶囊或工厂，本关联不意味着Merry提供此麦克风，更不将其样件效果当成Dubler识别效果。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "vochlea-dubler-studio-kit-2",
+      "productName": "Vochlea Dubler Studio Kit 2",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "merry-electronics",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "小型练习音箱声学候选",
+      "rationale": "Merry提供消费音频和扬声器测试相关能力，可用于评估紧凑机身的声音输出与结构共振，但AI分离效果需另由算法和音频链路验证。JBL未披露采用其驱动器，本关联只是声学开发候选，不是现有供应证明。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2",
+        "s4"
+      ],
+      "productId": "jbl-bandbox-solo",
+      "productName": "JBL BandBox Solo",
+      "category": "music",
+      "status": "on_sale"
     }
   ]
 }

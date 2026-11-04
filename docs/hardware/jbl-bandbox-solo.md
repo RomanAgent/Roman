@@ -1,0 +1,269 @@
+# JBL BandBox Solo
+
+**JBL / HARMAN** · 音乐与乐器 · 核查 2026-11-05
+
+把正在播放的原曲实时拆成可消音声部的练习音箱
+
+消费渠道：个人零售。
+
+## 产品图片与结构参考
+
+### 产品图
+
+![JBL BandBox Solo 官方产品图](../../assets/hardware/jbl-bandbox-solo/product.png)
+
+JBL BandBox Solo 官方产品图 · 来源：[JBL / HARMAN · 官方资料](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [原始图片](<https://uk.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9a601c2b/LS_JBL_BANDBOX_SOLO_HERO_0006_x2.png?sh=680&sw=680>)
+
+### 参考图
+
+![JBL BandBox Solo 官方外观与使用参考图](../../assets/hardware/jbl-bandbox-solo/reference.png)
+
+JBL BandBox Solo 官方外观与使用参考图 · 来源：[JBL / HARMAN · 官方资料](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [原始图片](<https://uk.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwac372696/LS_JBL_BANDBOX_SOLO_BACK_0013_x2.png?sh=680&sw=680>)
+
+### AI 生成爆炸示意
+
+![JBL BandBox Solo 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。](../../assets/hardware/jbl-bandbox-solo/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/jbl-bandbox-solo.txt)
+
+> 以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。
+
+> 保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。
+
+> 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
+
+## 销售与购买
+
+- 状态：在售。核查日英国官方商店显示Add To Cart及In stock；美国官方站与实际浏览器显示Sold Out，不能概括为所有地区现货。仅选Solo代表本机声部分离任务，不再添加Trio尺寸和通道组合。
+
+- 地区：英国（已核官方在售）
+
+- 价格：英国官网核查显示£299.99，地区官网结算为准。搜索摘要曾出现229.99，与实际打开页面不同，不沿用旧促销。充电器不含，外部乐器、耳机和手机另备。
+
+- 中国大陆：未核大陆该型号官方零售；英国现货不代表可直邮大陆。美国本轮已售罄，购买应核目的地区域渠道和售后。
+
+- [官方产品 / 商店](<https://uk.jbl.com/BANDBOX-SOLO.html>)
+
+## AI 的实际作用
+
+Stem AI在设备本机实时分离输入歌曲的人声、吉他等声部，用户可独听或静音对应部分进行跟练；App还提供鼓声部等控制。
+
+服务与联网依赖：蓝牙或USB音频输入，本机执行分离无需云端处理；JBL One App用于更多设置。它分离现有音乐而非自动作曲，伴奏质量受原始混音和模型误差影响。
+
+## 是否冷门
+
+新兴竞争（研究判断）：实时本机声部分离提供明确流程差异，但免费软件分轨和现成伴奏替代强，优势须结合练习频率而非AI标签。
+
+## 需求与市场
+
+案头需求是直接用自己熟悉的歌曲练习，先独听某一声部，再移除它并补上自己的演奏。它不是另一台普通音箱规格升级，价值在实时分离是否少做准备；处理伪影与延迟需要真实歌曲验证。
+
+### 事实：任务边界 · 官方资料
+
+BandBox Solo把输入歌曲实时拆成人声、吉他等声部，用户可以独听难点，或静音自己要演奏的部分再跟奏。官方母公司说明处理在设备本机完成；英国站当前有购买与现货信息，美国站本轮售罄，因此本条明确区域，不由品牌全球销售推断各地库存。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 判断：真实需求 · 研究判断
+
+需求判断是乐手希望直接使用自己喜欢的原曲练习，减少寻找伴奏、上传分轨和来回切文件的准备。价值在一次选歌之后是否就能开始练，而不是音箱又多了一个AI按钮；如果分离伪影让某个乐器仍难以听清，流程便利也未必足够。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 验证：任务完成 · 待验证
+
+验证应选用户平时真正练习的歌曲，分别完成听清一小段、静音对应声部和自己跟奏三个任务。记录准备时间、重复操作和分离失败的影响，再比较现成伴奏或手机软件；不只使用厂商选择的样曲，也不把播放次数当成学习成果。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+## 用户画像
+
+适合常做翻奏练习、想听清乐器细节的歌手和乐手。完全初学者仍需要节奏和演奏基础；是否常用复杂混音、是否已有电脑分轨软件和对音质的容忍度，比单纯喜好某个品牌更影响适配。
+
+### 事实：使用条件 · 官方资料
+
+官方将设备定位为个人练习音箱，提供乐器或麦克风输入、耳机输出与USB音频连接，基础声部操作可用本机按键和旋钮完成。更多控制在JBL One App中，手机和乐器不是套装内置；实际购买还要核充电器、地区版本及自己使用的音频来源。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 判断：人群筛选 · 研究判断
+
+潜在用户是经常翻奏、需要听清某个声部或想替代原唱练习的个人乐手。已经有电脑分轨工作流的人未必需要独立设备，而希望不打开电脑就练一会儿的人可能更看重它；对分离伪影、监听方式和携带负担的容忍度也会明显不同。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 验证：参与者差异 · 待验证
+
+访谈可问用户过去三次如何获得伴奏、在哪一步放弃练习，以及是否愿意用有少量串音的处理结果。试用时观察他们更常独听、静音还是调整音色，区分购买动机；不能只因会弹乐器或喜欢唱歌，就推断他们需要本机声部分离功能。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+## 竞争与替代
+
+替代包括电脑或手机分轨软件、现成伴奏及传统练习音箱。本机处理减少上传和文件切换，与Spark的音色探索、智能伴奏不同；若用户已经准备好无主音伴奏，新增价值可能较小。
+
+### 事实：方案范围 · 官方资料
+
+目录已有Spark系列主要通过App匹配音色、分析演奏或提供伴奏，BandBox的已核重点是把正在播放的混音实时分离为可控制声部。两者都可辅助练习，但输入和输出不同；本轮不再加入Trio通道或尺寸变体，因为它们仍解决同一声部分离任务。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [HARMAN官方BandBox技术发布](<https://news-latam.harman.com/es/releases/jbl-lleva-la-inteligencia-artificial-a-los-ensayos-musicales-con-los-nuevos-bandbox-trio-y-solo-6927840>)
+
+### 判断：替代关系 · 研究判断
+
+竞争判断还包括手机、电脑分轨工具和事先制作好的伴奏。本机处理减少网络上传和文件管理，却受算力、操作界面及分离质量约束；软件可以更灵活编辑，而现成伴奏可能更干净。独立硬件是否值得购买，要看用户实际准备流程而非AI类别。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [HARMAN官方BandBox技术发布](<https://news-latam.harman.com/es/releases/jbl-lleva-la-inteligencia-artificial-a-los-ensayos-musicales-con-los-nuevos-bandbox-trio-y-solo-6927840>)
+
+### 验证：比较方法 · 待验证
+
+可用同一首歌比较本机、常用软件和现成伴奏，记录从选歌到开始练习的时间及可接受的声音质量。对独听分析和消音跟奏分别评价，因为两者对串音容忍不同；不把更高播放音量或更多音色预设直接当成AI分离能力更强的证据。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [HARMAN官方BandBox技术发布](<https://news-latam.harman.com/es/releases/jbl-lleva-la-inteligencia-artificial-a-los-ensayos-musicales-con-los-nuevos-bandbox-trio-y-solo-6927840>)
+
+## 供应链
+
+硬件需要输入连接、音频处理、放大与扬声器、电池及操作显示。模型部署在本机，但具体处理器和工厂未披露；不能从本机AI推断芯片型号，续航和散热仍须和持续播放一起测。
+
+### 事实：功能组成 · 官方资料
+
+公开组成包括蓝牙和USB音频输入、本机Stem AI、混音放大、单个全频扬声器、像素显示与电池，处理器、驱动器供应商和工厂未披露。已知本机处理并不等于知道芯片型号；供应关联只匹配声学、供电与电子制造能力，不构造实际物料表。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 判断：交付约束 · 研究判断
+
+工程判断，实时分离必须和播放延迟、功耗、热量及声音输出一起评估，不能把模型单独跑通当成整机体验完成。外壳小、接口多也会增加布线和操作约束；持续播放期间是否仍易于控制和补能，比一次短暂演示更能解释交付难度。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 验证：选型缺口 · 待验证
+
+候选选型可先提供明确音频输入、持续运行与声学空间要求，再比较方案而非猜品牌现用器件。成机测试要包括USB与蓝牙切换、低电量、耳机和App断连时的行为；没有公开采用证据前，始终保持候选关系，不把供应商目录当作拆机报告。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+## 技术路径
+
+官方操作指引明确通过Stem AI键和旋钮选择、静音或调整声部，母公司说明处理无需网络或云服务。模型分离不是拿到原工程多轨，可能出现串音与伪影；普通音效和调音器不单独算AI。
+
+### 事实：AI机制 · 官方资料
+
+官方帮助说明本机Stem AI键与旋钮可选择吉他、人声或其它声部，再静音或调节对应部分，App提供额外控制。母公司明确分离在设备内执行，无需云端；这属于从混合音频估计来源，不是获取原始工程多轨，也不是凭提示词生成整首作品。
+
+依据：[JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [HARMAN官方BandBox技术发布](<https://news-latam.harman.com/es/releases/jbl-lleva-la-inteligencia-artificial-a-los-ensayos-musicales-con-los-nuevos-bandbox-trio-y-solo-6927840>)
+
+### 判断：系统边界 · 研究判断
+
+分析上，混音中的乐器频段重叠、混响和失真会让分离更困难，结果可能含串音或残留。用它听清某个大致乐句与拿去制作专业独立音轨不是同一标准；用户应理解处理结果的边界，不能把AI分离标签当作一定无损、完全独立的保证。
+
+依据：[JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [HARMAN官方BandBox技术发布](<https://news-latam.harman.com/es/releases/jbl-lleva-la-inteligencia-artificial-a-los-ensayos-musicales-con-los-nuevos-bandbox-trio-y-solo-6927840>)
+
+### 验证：算法与体验 · 待验证
+
+技术验证可准备已知独立轨和混音的自有素材，比较处理后各声部与参考之间的差异，并观察实时控制是否跟得上练习。对复杂和简单编曲分别记录，不能只测一首歌；常规调音器、音色效果和节拍工具也应与AI分离的贡献分开分析。
+
+依据：[JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [HARMAN官方BandBox技术发布](<https://news-latam.harman.com/es/releases/jbl-lleva-la-inteligencia-artificial-a-los-ensayos-musicales-con-los-nuevos-bandbox-trio-y-solo-6927840>)
+
+## 产品审美
+
+紧凑黑色横向机身有大旋钮、顶部按键、挂环和小型像素显示，便于放在乐器旁。分析上，边演奏边操作的顺手程度和耳机监听比外观照片更重要，不把真实LED显示误画成大型触摸屏。
+
+### 事实：外观与交互 · 官方资料
+
+官方图显示黑色横向小机身、前网罩和大品牌标记、顶部实体按钮及主旋钮，侧面有挂环，背面有连接接口。像素显示是状态界面，不是大型触摸屏；生成图保留单扬声器和概念处理模块，不从外形猜测内部主板、额外低音单元或实际电池布局。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 判断：使用中的形态 · 研究判断
+
+审美与交互判断需要放在乐器旁进行：用户一手握乐器时能否找到声部键，旋钮是否便于确认当前选项，耳机线与USB线是否妨碍摆放。小巧可以促进短时练习，也可能让显示与操作更局促；外观照片不足以证明两种需求都兼顾。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 验证：日常接受度 · 待验证
+
+可让乐手在不中断太久的情况下独听、反转静音和切换输入，记录误操作与需要看手机的次数。观察实际练习桌面上的放置方向和线缆，再询问是否愿意随身带走；不把漂亮的厂商场景图当成对所有演奏姿势和空间的可用性结论。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+## 关键风险
+
+风险是把分离结果当原始独立轨、误以为所有地区有货，以及App功能与本机按键范围不清。练习体验应记录分离失误；厂商限定非商业使用，素材使用仍需遵循对应服务与权利条件。
+
+### 事实：已知限制 · 官方资料
+
+核查日美国站实际显示售罄，英国站显示现货，搜索摘要与打开页面的价格也不同，因此本条保留实际核查值与地区条件。厂商还把声部分离限定为非商业使用，素材与服务条款需自行核对；本轮没有证据证明大陆零售或任意音乐服务完全兼容。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [JBL BandBox Solo美国官方商店](<https://www.jbl.com/BANDBOX-SOLO.html>)
+
+### 判断：失效影响 · 研究判断
+
+风险判断包括误把分离音轨当原始资料、在复杂混音中听错细节，以及预期所有声部操作都能不用App完成。电子设备库存和软件服务会变化，购买前应确认目的地版本；本机AI减少了云依赖，但不代表全部设置和更新都不需要手机或网络。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [JBL BandBox Solo美国官方商店](<https://www.jbl.com/BANDBOX-SOLO.html>)
+
+### 验证：风险处理 · 待验证
+
+验证时应记录失败样曲和输入方式，清楚标注处理后的声音，避免用精选示例掩盖局限。再核对固件更新、App权限、断连后的本机操作和退换条件；对于公开发布或商业使用的素材，按实际权利与服务条件处理，不把设备能力当作授权。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) · [JBL BandBox Solo美国官方商店](<https://www.jbl.com/BANDBOX-SOLO.html>)
+
+## 机会与验证
+
+可验证机会在一次选歌就能开练的流程。让用户对熟悉和陌生歌曲分别独听、消音、跟奏，比较电脑分轨准备时间和最终可用性；询问何时愿意用普通伴奏替代，不凭宣传分离效果预测留存。
+
+### 判断：可尝试切口 · 研究判断
+
+机会假设在把喜欢的歌曲快速变为一个可练习的缺席声部，让用户少花时间找伴奏、多一次动手练的机会。这个切口与生成新音乐和智能选音色不同，也不必覆盖所有专业制作；若独听和消音流程足够顺手，就有明确的小任务价值。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 判断：商业边界 · 研究判断
+
+商业分析应考虑练习频率、已有分轨工具和是否愿意为减少准备而付硬件成本。声部分离可能成为普通音频设备的一项功能，也可能促成独立练习品类，现有资料无法判断最终形态；不凭AI热度、品牌知名度或厂商样片推导市场规模。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+### 验证：下一步调研 · 待验证
+
+建议跟踪乐手几周真实练习中的选歌、分离和放弃记录，访谈哪种曲目最有帮助、哪种宁愿改用现成伴奏。比较设备是否真的增加开始练习的次数，以及失败后是否仍愿意继续使用；不采用模型打分预测学习效果、留存或产品成功。
+
+依据：[JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) · [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [merry-electronics](../supply-chain/merry-electronics.md) — **能力候选 · 非已采用** / 小型练习音箱声学候选：Merry提供消费音频和扬声器测试相关能力，可用于评估紧凑机身的声音输出与结构共振，但AI分离效果需另由算法和音频链路验证。JBL未披露采用其驱动器，本关联只是声学开发候选，不是现有供应证明。
+
+- [sunwoda](../supply-chain/sunwoda.md) — **能力候选 · 非已采用** / 持续音频处理供电候选：欣旺达消费电池业务可用于评估本机处理和音频播放并行时的供电、充电与保护方案，具体功耗与空间要求仍需整机设计确认。BandBox实际电池来源没有披露，本条不推断型号、内部形状或任何已采用关系。
+
+- [jlcpcb](../supply-chain/jlcpcb.md) — **能力候选 · 非已采用** / 音频控制板原型制造候选：JLCPCB具备电路板制造与装配能力，可为设计方验证接口、控制及音频处理原型提供服务，但它不自动提供分离模型或完整声学方案。官方未披露BandBox主板工厂，本关联仅是开发阶段的能力匹配。
+
+[浏览供应链目录](../supply-chain.md)
+
+## 功能分层示意
+
+这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。
+
+1. **音乐与乐器输入**：蓝牙或USB歌曲输入，另有乐器或麦克风连接。（官方披露）
+
+2. **本机Stem AI**：实时估计并分离声部，支持独听与静音，不是云端作曲。（官方披露）
+
+3. **混音与扩声**：处理后的音乐及输入声音经放大和单全频扬声器输出。（官方披露）
+
+4. **交互与连接**：实体按键、主旋钮、像素显示及JBL One App控制。（官方披露）
+
+5. **电池及机身**：内置电池与手持机壳；具体处理器和内部布局未披露。（官方披露）
+
+## 来源
+
+1. [JBL BandBox Solo英国官方商店](<https://uk.jbl.com/BANDBOX-SOLO.html>) — 实际打开；英国现货加购、当前页面价、接口及非商业使用说明。
+
+2. [JBL Stem AI官方操作说明](<https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html>) — 实际打开；实体控制、输入、声部选择及App扩展，区分分离与原始多轨。
+
+3. [HARMAN官方BandBox技术发布](<https://news-latam.harman.com/es/releases/jbl-lleva-la-inteligencia-artificial-a-los-ensayos-musicales-con-los-nuevos-bandbox-trio-y-solo-6927840>) — 实际打开母公司发布；明确Stem AI本机执行、无需互联网或云端。
+
+4. [JBL BandBox Solo美国官方商店](<https://www.jbl.com/BANDBOX-SOLO.html>) — 实际网页与浏览器均显示Sold Out，本条不把美国列为当前现货地区。
+
+[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/jbl-bandbox-solo)

@@ -535,6 +535,62 @@
       "productName": "TapXR",
       "category": "wearables",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "nordic-semiconductor",
+      "role": "connectivity",
+      "component": "同类触觉显示设备的BLE连接候选",
+      "rationale": "Nordic低功耗无线平台可用于比较本类设备的BLE连接、状态同步和功耗管理，但需要验证点阵内容传输、重连和主机兼容。它不能提供Dot专有执行器或文档转换软件，也无本产品点名采用证据；连接方案可行不等于已经完成可用的触觉阅读系统。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s5"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "dot-pad-x",
+      "productName": "Dot Pad X（Dot Vista AI工作流）",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "nordic-semiconductor",
+      "role": "connectivity",
+      "component": "同类脑电头戴的无线数据连接候选",
+      "rationale": "Nordic低功耗无线平台可比较脑电设备的数据传输、时间戳、重连和电源管理，需结合连续采样带宽与实际主机接口评估。它不提供Emotiv软件许可或脑电分类模型，未发现Insight点名采用来源；无线连接可行不能单独证明整个训练式控制链可靠。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "emotiv-insight",
+      "productName": "Emotiv Insight（EmotivBCI训练式控制）",
+      "category": "wearables",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "nordic-semiconductor",
+      "role": "connectivity",
+      "component": "同类连续生物传感贴片的BLE数据链候选",
+      "rationale": "Nordic低功耗无线平台可研究持续生物传感数据的Bluetooth传输、状态与重连，但实际功耗、封装及主机兼容须结合传感系统确认。它不包含Lingo的葡萄糖传感器或餐照AI模型，也没有本产品公开采用证据；连接层候选不能单独证明整套健康数据可信。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s6"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "abbott-lingo",
+      "productName": "Abbott Lingo（AI餐照记录方案）",
+      "category": "health-home",
+      "status": "on_sale"
     }
   ]
 }

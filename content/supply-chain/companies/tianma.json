@@ -281,6 +281,43 @@
       "productName": "Looking Glass Go（白色版）",
       "category": "spatial",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "tianma",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "手持观察屏候选",
+      "rationale": "天马有中小尺寸显示与模组工程能力，可用于评估手持观察屏的亮度、温度和光学贴合要求；具体尺寸与参数仍需独立确认。没有证据表明Seemor采用天马面板，本项不意味着供应合同或真实物料清单。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "akaso-seemor-200",
+      "productName": "AKASO Seemor-200",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "tianma",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "集成文字显示模组候选",
+      "rationale": "天马中小尺寸显示模组能力可用于评估提词器文字显示、光学贴合和接口集成，但分光反射后的可读性仍需系统测试。Elgato未披露实际面板来源，本关联不意味着天马供货，也不承诺现成模组可直接替换。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "elgato-prompter",
+      "productName": "Elgato Prompter",
+      "category": "creative-tools",
+      "status": "on_sale"
     }
   ]
 }

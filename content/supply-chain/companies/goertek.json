@@ -597,6 +597,44 @@
       "supplierId": "goertek",
       "role": "acoustics",
       "relationship": "candidate",
+      "component": "Base音频播放及电子集成",
+      "rationale": "歌尔公开声学与智能硬件能力可对应Connect Base的录音播放、声学结构与电子集成需求。未发现该型号采购或制造披露，因此仅是候选匹配；不能把其声学能力推定为实际采用，更不能据此推断宠物学习效果。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "fluentpet-connect",
+      "productName": "FluentPet Connect Get Started Kit",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
+      "component": "小型双向语音留言声学",
+      "rationale": "歌尔公开声学与智能硬件能力可作为布面小终端麦克风、扬声器和声音交互的候选评估。未确认BoT实际采购或合作，不能套用其器件能力推导整机音质；书包内声学及儿童操作仍需具体场景测试。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "bsize-bot-talk-us",
+      "productName": "Bsize BoT Talk（美国版）",
+      "category": "wearables",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "relationship": "candidate",
       "component": "声音输入输出与小型机身集成候选",
       "rationale": "听说任务依赖声音采集与输出，歌尔公开声学及智能整机能力可作为重新选型入口。需要按实际外壳、播放音量和拾音环境验证，不能只比较器件规格；当前没有证据确认它为EBOX Pro供货。",
       "sourceIds": [

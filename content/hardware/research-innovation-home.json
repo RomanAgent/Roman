@@ -2751,5 +2751,833 @@
     "checkedAt": "2026-11-04",
     "audience": "consumer",
     "saleMode": "retail"
+  },
+  {
+    "id": "birdweather-puc",
+    "name": "BirdWeather PUC",
+    "brand": "BirdWeather",
+    "category": "garden",
+    "tagline": "用环境录音建立个人鸟声观察站，而不必先把鸟引到镜头前",
+    "officialUrl": "https://www.birdweather.com/shop-birdweather-puc",
+    "status": "on_sale",
+    "statusEvidence": "官方当前商店可点击Order Now，普通PUC为US$299；本条不含Bat Edition或配件套装。店铺当前页首明确直邮美国与加拿大，其他地区转经销商。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "部分授权国际经销地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "实际查看官方经销目录，亚洲列韩国经销商，未列中国大陆；欧洲有全球分销商但未验证大陆结算、进口和保修，不据此保证国内可购。"
+    },
+    "price": {
+      "text": "官方 US$299",
+      "note": "普通PUC主机价；蝙蝠版、保护屋及支架套装不另作新品，跨境经销价格与配送另确认。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "双麦克风采集声音并上传BirdWeather，由BirdNET对鸟类发声进行识别；重点是声音事件分类，不是生成鸟叫或通过照片识别。",
+      "dependency": "实时识别需要网络及BirdWeather服务；Recorder模式可将声音先存SD卡，后续上传分析，离线录音不代表本机离线推理。"
+    },
+    "highlights": [
+      "声学观察不依赖喂食器、鸟露脸或白天光照",
+      "支持实时站点与离线录音后上传两条路径",
+      "位置可模糊化、识别可筛选纠正，不能把自动名单当已核实物种记录"
+    ],
+    "analysis": {
+      "demand": "需求假设：有庭院或阳台的观察者希望知道未被看见的鸟类何时发声，持续录音能补足偶然目击与喂食摄像的盲区。价值取决于当地声景、安装位置和纠错负担，不能从自动生成物种数量推断识别准确或生态价值。",
+      "userProfile": "画像推断：愿意布置户外电源或更换电池、维护网络并听回音频的个人鸟类爱好者较匹配。共享庭院和密集城市的隐私、噪声与安装权限不同，不能把任何有窗台的家庭都当成适合全天上传声音的用户。",
+      "competition": "竞争判断：与手机听音识鸟、手工录音设备和喂鸟摄像头比较，差异是固定点长期采样并自动整理声音记录。普通PUC与蝙蝠版不当作不同需求新增；长期覆盖是否值得硬件成本，需要与短时手机观察直接比较。",
+      "supplyChain": "供应链分析：户外壳体、防水声学开孔、双麦克风、无线控制、存储和供电构成设备，公开页面点名部分器件但整机制造伙伴与BOM未披露。收音一致性和户外装配比单纯加装一块联网板更影响识别输入质量。",
+      "technology": "技术判断：厂商明确使用BirdNET分析上传声景，实时站点依赖服务，离线模式先记录再传输。置信度与出现概率过滤可帮助管理结果，但不等于已验证准确率，设备具有神经处理能力的芯片也不能证明当前模型在本地运行。",
+      "aesthetics": "审美判断：绿色圆角三角外壳和可见收音开孔更接近户外工具，固定在树干或支架时应保持声学通道无遮挡。设计判断需结合雨水、清洁和邻居对录音的理解，不能只用自然背景营销照片推定低干扰或隐私安全。",
+      "risks": "风险判断：风雨、昆虫、人声和邻近设备会影响声景，错误标签可能被误当作罕见物种发现。实时上传也可能包含可识别谈话，用户需理解采集范围与位置显示；断网可保留部分录音路径，却不保证实时分析继续。",
+      "opportunity": "机会假设：可从自家庭院固定点的每日变化记录验证，而不是承诺替代专业生态调查。若用户主要想看鸟外形，摄像设备可能更适合；若能减少漏听和整理时间，清晰回放与纠错比不断扩展物种清单更有持续价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "固定点声学鸟类观察是个人自然兴趣的细分任务，区别于依赖喂食或影像的设备；户外布置与误识别复核限制大众采用。"
+    },
+    "architecture": [
+      {
+        "name": "户外外壳与固定",
+        "detail": "绿色三角圆角外壳与支架/树干安装。",
+        "evidence": "official"
+      },
+      {
+        "name": "双麦克风输入",
+        "detail": "收集环境声音，不将每段声源都认定为鸟。",
+        "evidence": "official"
+      },
+      {
+        "name": "记录与连接",
+        "detail": "本地存储、网络通信与控制功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源与辅助传感",
+        "detail": "电池或USB供电、位置及环境数据辅助记录。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部BirdNET分析",
+        "detail": "上传声音后的识别与观察记录服务，不虚构机内AI加速板。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "BirdWeather PUC官方商店",
+        "url": "https://www.birdweather.com/shop-birdweather-puc",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture",
+          "regions"
+        ],
+        "note": "2026-11-05实际打开与浏览器核对US$299 Order Now；以页首美加配送说明为准，不沿用下方旧国际物流概述。"
+      },
+      {
+        "title": "BirdWeather PUC官方使用手册",
+        "url": "https://www.birdweather.com/owners-manual",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks",
+          "architecture"
+        ],
+        "note": "实际打开实时上传BirdNET、离线记录后上传、结果过滤及位置处理说明；不把录音离线等同AI离线。"
+      },
+      {
+        "title": "BirdWeather官方经销目录",
+        "url": "https://www.birdweather.com/puc-distributors-and-resellers",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "china"
+        ],
+        "note": "实际查看全球经销区域，未验证中国大陆直邮或本地库存。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "ondilo-ico-pool",
+    "name": "Ondilo ICO Pool v2 Chlorine/Bromine",
+    "brand": "Ondilo",
+    "category": "garden",
+    "tagline": "让家庭泳池的水质读数转成可执行维护建议，而不是自动投药",
+    "officialUrl": "https://us.ondilo.com/product/ico-pool/",
+    "status": "on_sale",
+    "statusEvidence": "美国官方当前商品页Chlorine/Bromine版本为US$449、In Stock且Add to cart可用；图片包装标ICO pool v2，规格ICOPOOL02。本条不混入Salt版本或SPA设备。",
+    "regions": [
+      "美国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "已验证美国官网在售，未找到中国大陆官方型号库存或明确直邮证据；欧版、盐池版和水疗池版的销售不能代替本条型号的国内可达性。"
+    },
+    "price": {
+      "text": "美国官网 US$449",
+      "note": "当前氯/溴池版本，页面声明无需订阅；替换探头、维护耗材及地区税费需另核，不把盐池版本的测量项目套用。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方技术页明确以AI对水质历史、泳池资料和环境信息生成维护洞察与建议；具体模型未公开，硬件测量pH、ORP与温度，不声称自动加药。",
+      "dependency": "设备通过Wi-Fi与应用连接，用户输入泳池信息并执行建议；电池充电、探头校准和替换仍需人工，离线情况下不能保证应用建议更新。"
+    },
+    "highlights": [
+      "水面漂浮或放入撇渣器，持续观察家庭泳池水质变化",
+      "当前氯/溴版本测量pH、ORP和温度；不借用盐池型号TDS能力",
+      "AI形成维护建议，药剂添加、过滤器设置和最终复核仍由人执行"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭泳池主人希望在明显浑浊前掌握变化，并减少只凭偶尔试纸判断的遗漏。持续读数与维护建议可能降低理解成本，但价值取决于探头状态、泳池参数和人工执行，不能把联网曲线直接等同安全水质。",
+      "userProfile": "画像推断：自管泳池、愿意补充药剂并维护探头的家庭更接近目标，完全外包管理者可能更需要与服务人员共享记录。泳池体积、消毒体系和网络覆盖影响适配，不能从有泳池直接推定需要持续监控或能承担维护。",
+      "competition": "竞争判断：与试纸、手持测量仪、泳池服务和自动加药系统竞争，差异在于浮式持续采样与厂商AI建议。盐池版和SPA版不重复增加本批数量；应比较减少漏检与误投的实际效果，而不是只比较应用图表丰富程度。",
+      "supplyChain": "供应链分析：耐水浮体、可更换电化学探头、温度测量、电池连接和应用共同组成系统，整机代工及BOM未知。探头批次一致性、保护结构和售后校准直接影响数据，不宜用普通环境传感器的成本和寿命替代评估。",
+      "technology": "技术判断：官方把历史和池体环境信息的分析称为AI，公开资料不足以确认具体学习模型及独立效果。ORP反映氧化还原状态，不能直接当成所有污染物检测；建议生成与实际药剂投放是不同环节，本机没有已证实自动投药执行。",
+      "aesthetics": "审美判断：白色浮体与青色顶底便于在水中识别，比固定控制柜更容易融入家庭泳池。外形评估仍需考虑漂浮碰撞、撇渣器空间和取出充电，清楚区分维护开口与密封部位，比装饰性科技灯光更重要。",
+      "risks": "风险判断：探头漂移、清洁不足、Wi-Fi覆盖和池体参数填错可能让建议失真，应用通知不能替代必要的人工复核。家中有儿童或宠物时还需按官方要求管理漂浮设备和药剂，不能因为有AI就降低水质与用药判断要求。",
+      "opportunity": "机会假设：可先验证泳池主人是否更早发现持续偏离，并能准确理解下一步操作。若维护探头的劳动超过原有测量负担，自动化价值会减弱；机会应围绕可追溯建议与低维护展开，而不是许诺彻底免管理的家庭泳池。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "私人泳池化学维护是高约束小众任务，浮式传感加建议不同于泳池清洁机器人；探头维护与人工投药限制完全自动化。"
+    },
+    "architecture": [
+      {
+        "name": "漂浮外壳",
+        "detail": "白色浮体、青色顶盖与保护开孔结构。",
+        "evidence": "official"
+      },
+      {
+        "name": "水质探测",
+        "detail": "pH、ORP及温度相关测量功能，探头可维护。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电与连接",
+        "detail": "可充电电源、Wi-Fi与蓝牙配置。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与记录",
+        "detail": "测量采集与向应用传输，不假造PCB布局。",
+        "evidence": "inferred"
+      },
+      {
+        "name": "外部分析与建议",
+        "detail": "结合水质数据、历史及池体资料的AI建议层。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Ondilo美国官方ICO Pool商品页",
+        "url": "https://us.ondilo.com/product/ico-pool/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture"
+        ],
+        "note": "2026-11-05实际打开并浏览器核对US$449 In Stock及可用加购；选择氯/溴ICOPOOL02，不混盐池版TDS。"
+      },
+      {
+        "title": "Ondilo官方AI技术说明",
+        "url": "https://us.ondilo.com/technology/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks"
+        ],
+        "note": "实际打开AI insights、历史与环境分析；技术模型未披露，文案中adjusts不解释为设备自带自动加药。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "osim-udream-ai",
+    "name": "OSIM uDream.AI Well-Being Chair",
+    "brand": "OSIM",
+    "category": "personal-care",
+    "tagline": "将手机相机推断的压力指标连接到家用按摩程序推荐",
+    "officialUrl": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+    "status": "on_sale",
+    "statusEvidence": "官方美国商品页US$12999，Shopify公开商品数据两种颜色均available:true；本条为uDream.AI，官方手册型号OS-8258，不沿用早期uDream或uDream Pro。",
+    "regions": [
+      "美国",
+      "澳大利亚"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "2026进博会OSIM展商官方资料确认uDream AI在中国展示及中文命名，但本次未核实大陆可立即下单的具体价格和库存；展会预约不等于零售订单。海外规格电源与本地售后另核。"
+    },
+    "price": {
+      "text": "美国官方 US$12,999",
+      "note": "当前标价，官网对比价US$17999；澳洲官方另有当地销售价格。颜色不另算产品，配送安装、上楼与退换条件需按地区确认，不把分期金额当整机价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "OSIM明确采用Binah.ai的rPPG，通过兼容手机等设备相机分析面部颜色变化，给出日常压力等指标并辅助按摩推荐；不是椅内摄像头自动诊断。",
+      "dependency": "AI分析依赖兼容设备、OSIM Well-Being App及相应服务；基本按摩与手动设置是另一层功能。结果用于一般舒适与放松，不替代医疗评估。"
+    },
+    "highlights": [
+      "手机视觉分析与实体按摩执行连接，区别于只手选预设程序",
+      "当前AI型号采用非接触相机输入，不借用旧款扶手传感器说明",
+      "机械按摩、灯光、声音与香氛形成家用体验，但不据此承诺治疗或睡眠改善"
+    ],
+    "analysis": {
+      "demand": "需求假设：希望在家获得可重复放松流程的人，可能需要降低挑选复杂按摩程序的负担。相机分析与推荐能提供选择起点，但其价值应由舒适度和长期使用验证，不能从压力分数下降直接推导治疗、改善疾病或替代休息。",
+      "userProfile": "画像推断：具备摆放空间、配送条件并愿意使用应用的家庭较匹配，实际坐感、身形适配与个人偏好比年龄或收入标签更重要。有特殊健康状况者需先了解官方适用限制，不把所有老人、久坐者或压力大的人都当成适用用户。",
+      "competition": "竞争判断：与普通按摩椅、人工选择程序和家庭放松用品竞争，差异是外部视觉指标与推荐接入整机体验。旧uDream、Pro与当前AI型号不并列凑数；需要比较推荐是否减少选择负担，而非用合作品牌数量证明按摩效果。",
+      "supplyChain": "供应链分析：大型壳体软包、承重运动机构、气囊滚轮、电控和感官组件需要整机协同。官方点名部分体验及AI合作方，但完整制造工厂、BOM和装配测试未披露，不能把外部技术合作等同整机代工或全部供应商清单。",
+      "technology": "技术判断：当前官方说明以兼容设备相机进行rPPG分析并生成一般健康与压力指标，模型细节和独立适用性未完整公开。应区分相机推断、推荐规则与按摩机械控制，不把身体位置检测或预设程序全部归为生成式AI。",
+      "aesthetics": "审美判断：包裹式弧形顶罩和大面积软包形成私密座舱，家居存在感也明显高于普通单椅。设计判断需看展开空间、进出和清洁，灯光与香氛可增强仪式感，但不能因豪华视觉就推定每个家庭愿意长期摆放。",
+      "risks": "风险判断：相机测量会受环境和使用条件影响，建议强度仍须个人确认，异常不适不能被AI分数解释掉。手册强调家用且并非睡床；大型配送、售后维修及地区电源差异也会改变跨境购买成本，不承诺通用适配。",
+      "opportunity": "机会假设：可以从减少程序选择与建立可持续放松习惯验证，而非承诺家庭医疗管理。若用户仍长期只用同一手动模式，AI附加价值就有限；可解释推荐和容易停止调整的交互可能比继续增加感官功能更重要。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "按摩椅大类成熟，但相机压力推断到家用多感官按摩推荐是较明确的交互机制；高价格、空间和身体适配限制人群。"
+    },
+    "architecture": [
+      {
+        "name": "座舱与支撑",
+        "detail": "弧形顶罩、侧壳、坐垫和腿足支撑。",
+        "evidence": "official"
+      },
+      {
+        "name": "按摩执行",
+        "detail": "滚轮与气囊等按摩功能，隐藏机构只作功能概念。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制与电源",
+        "detail": "本机控制及应用连接，按地区规格供电。",
+        "evidence": "official"
+      },
+      {
+        "name": "感官体验",
+        "detail": "音响、灯光与香氛等可配置体验。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部AI分析",
+        "detail": "兼容设备相机及Binah.ai相关分析服务，不虚构椅内面部相机。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "OSIM美国当前uDream.AI官方商店",
+        "url": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "architecture",
+          "regions"
+        ],
+        "note": "2026-11-05实际打开并核对公开商品数据两色可售；FAQ明确Binah.ai rPPG使用兼容设备相机，不作医学准确性背书。"
+      },
+      {
+        "title": "OSIM uDream.AI官方使用手册",
+        "url": "https://www.osim.com/Sites/user_manual/udream-ai.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "architecture",
+          "technology",
+          "risks"
+        ],
+        "note": "实际打开76页手册，型号OS-8258，家用、非睡床及操作维护条件；不同市场电压不可混用。"
+      },
+      {
+        "title": "OSIM澳洲官方AI按摩椅说明",
+        "url": "https://osim.com.au/collections/ai-massage-chair",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "regions"
+        ],
+        "note": "实际打开AI分析、推荐、应用与身形定位描述；不将普通机械扫描本身全部称AI。"
+      },
+      {
+        "title": "OSIM进博会官方展商资料",
+        "url": "https://www.ciie.org/hall/f/exhibition-hall/exhibits/145eda421977412cb62213d999e55ba9/view",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "technology"
+        ],
+        "note": "实际打开品牌展品页，中国展示不等于已验证当前本地零售库存；奖项和效果宣传不作为独立验证。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "altumview-sentinare-3",
+    "name": "AltumView Sentinare 3",
+    "brand": "AltumView",
+    "category": "home-safety",
+    "tagline": "以本地人体骨架表示支持居家活动与跌倒事件提醒",
+    "officialUrl": "https://www.altumview.ca/",
+    "status": "on_sale",
+    "statusEvidence": "官方商店当前Sold Out，但其Buy on Amazon明确指向美国B0C441Y8NK；2026-11-05实际浏览该单件型号为US$255、In Stock和可用Add to cart，由Rosspin销售、Amazon配送。不把官网缺货误写成官网直销现货。",
+    "regions": [
+      "美国",
+      "加拿大（品牌列有渠道，库存另确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方称美加Amazon可购，经销目录列美英芬兰；本次未核实中国大陆个人零售入口。隐私政策有中国数据区域，不等于已建立大陆消费销售、云可用性或售后承诺。"
+    },
+    "price": {
+      "text": "当前美国品牌指向零售渠道 US$255",
+      "note": "单件Sentinare 3，基础提醒与短期记录免费；官方Home Plan为US$30/月，包含高级AI核验与更长历史。多件装不另算产品，官网独立店当前缺货。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "机上AI从视觉输入提取人体骨架并分析活动和跌倒，默认向应用传骨架流。可选高级告警会把事件真实图上传大模型核验，不能声称所有模式永不传影像。",
+      "dependency": "持续供电、安装视野、网络、应用通知与有人响应构成链路；高级AI核验和长历史需付费并启用。设备不保证检测所有事件，也不是自动到场的救援服务。"
+    },
+    "highlights": [
+      "非穿戴的家庭活动观察，可让照护者查看抽象骨架与事件",
+      "默认骨架流降低外观暴露，但校准房间图与可选事件图有独立处理路径",
+      "基础AI感知免费，高级核验、长历史和服务计划需区别说明"
+    ],
+    "analysis": {
+      "demand": "需求假设：居家照护家庭希望知道远处亲人是否发生异常，同时减少持续观看真人视频的负担。骨架信息可能提供介于普通传感与视频之间的线索，但提醒只有接到响应流程才有意义，不能把设备安装等同事故预防或随时有人照护。",
+      "userProfile": "画像推断：被照护者愿意接受室内观察、家属有明确响应分工且能维护网络的家庭较匹配。购买者和被观察者往往不是同一人，需求不能只由家属焦虑决定；身体活动、房间遮挡和隐私偏好都需共同讨论。",
+      "competition": "竞争判断：与穿戴求助器、普通摄像头、雷达存在感知和人工联系竞争，差异是视觉骨架与事件线索。它减少真人影像展示但仍有视野限制，不能把“非穿戴”或“骨架”理解成绝对可靠，也不将多件装拆成不同创新场景。",
+      "supplyChain": "供应链分析：成像、边缘处理、音频、无线供电和固定结构构成硬件，云端核验与通知构成服务。官方公开处理器等规格，但整机工厂与BOM未知；校准、镜头质量和软件维护影响结果，不能只按摄像头硬件价格估算价值。",
+      "technology": "技术判断：核心使用本地视觉AI提取骨架并分析活动，官方另提供云端高级事件核验。隐私政策明确房间校准图会上传、可选事件图用于大模型判断，因此仅传骨架是默认监控路径描述，不能扩大为所有场景都不采集真实影像。",
+      "aesthetics": "审美判断：小型深色长方机身便于壁装，但镜头和线缆仍让人意识到监控存在。抽象骨架界面可减少外观展示，也可能让旁观者难理解动作，应清楚显示区域、时间和数据状态，不能以极简视觉掩盖正在采集的事实。",
+      "risks": "风险判断：遮挡、安装角度、误识别、网络中断和通知未被看到都可能使响应失败，厂家也明确不保证检测每次事件。可选真实图核验、账户共享与保存期限需被观察者理解；骨架仍反映生活规律，并不等于匿名无敏感信息。",
+      "opportunity": "机会假设：可围绕愿意接受低细节活动线索的家庭验证，并建立提醒确认与接管流程。若家属最终仍只能依赖电话或常规照护，AI应作为补充而非替代；市场机会取决于误报负担、信任和日常维护，不由老龄人口直接推算。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人家庭的骨架化活动照护具有明确隐私与响应约束，区别普通安防录像；视野、误报和实际接管能力限制完全自动照护。"
+    },
+    "architecture": [
+      {
+        "name": "视觉输入",
+        "detail": "前部镜头观察室内活动，区别于纯雷达。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地AI处理",
+        "detail": "人体骨架提取与活动识别，内部板只用抽象模块。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频与连接",
+        "detail": "麦克风扬声器、应用通信和语音联系。",
+        "evidence": "official"
+      },
+      {
+        "name": "外壳供电与支架",
+        "detail": "紧凑长方机身、固定支架及有线电源。",
+        "evidence": "official"
+      },
+      {
+        "name": "可选云端核验",
+        "detail": "高级告警真实图分析为可选路径，默认骨架不等于全部无图像。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AltumView官方产品与家庭计划",
+        "url": "https://www.altumview.ca/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "price",
+          "architecture",
+          "regions"
+        ],
+        "note": "实际打开本地骨架识别、免费基础与US$30月Home Plan；效果为厂商说明，未独立验证。"
+      },
+      {
+        "title": "AltumView当前官方商店及零售链接",
+        "url": "https://shop.altumview.ca/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture"
+        ],
+        "note": "实际打开独立店Sold Out与Buy on Amazon指向B0C441Y8NK，不能误写独立店现货。"
+      },
+      {
+        "title": "品牌官方指向的Amazon单件零售",
+        "url": "https://www.amazon.com/dp/B0C441Y8NK",
+        "kind": "independent",
+        "supports": [
+          "status",
+          "price"
+        ],
+        "note": "实际浏览器核实Sentinare3-1PK、US$255、In Stock和可用加购；销售方Rosspin，配送Amazon。未下单，不承诺任意地址配送。"
+      },
+      {
+        "title": "AltumView官方隐私政策",
+        "url": "https://www.altumview.ca/privacy-policy/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks",
+          "china"
+        ],
+        "note": "实际阅读4.5图像例外和数据区域：校准房间图、可选事件快照及高级核验不等同默认骨架流，不能绝对宣传从不上传真人影像。"
+      },
+      {
+        "title": "AltumView官方支持与功能限制",
+        "url": "https://www.altumview.ca/support/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks"
+        ],
+        "note": "实际打开高级核验需付费开启、个人识别与区域模式，以及不保证检测全部事件的限制。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "fluentpet-connect",
+    "name": "FluentPet Connect Get Started Kit",
+    "brand": "FluentPet",
+    "category": "pet-care",
+    "tagline": "记录宠物按键互动，并可申请外部Claude分析训练日志的Beta连接",
+    "officialUrl": "https://fluent.pet/products/connect-get-started-kit-bold-with-base",
+    "status": "on_sale",
+    "statusEvidence": "官方当前Connect入门套装美区US$200、Add to cart可用，注明美国含Connect订单11月5日发货；已浏览器核对。硬件在售不代表AI Beta自动开通，逐账户申请条件另列。",
+    "regions": [
+      "美国",
+      "其他地区以结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方有全球货币地区选择，但当前配送政策主要明确美国；未验证大陆配送、售后以及Claude服务可达性。地区下拉框出现China不等同确认能购买并使用AI连接。"
+    },
+    "price": {
+      "text": "美区官方 US$200",
+      "note": "当前入门套装含Base与六个Connect按钮；颜色、按钮扩展包不重复收录。AI自定义连接依赖FluentPet逐账户Beta开通，Claude相应付费计划或可用客户端成本不包含在硬件价中。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "官方2026年10月文档提供MCP到Claude的Beta连接，对Connect硬件产生的按钮记录和训练备注进行查询、模式总结与笔记生成；不声称按钮本体内置大模型或翻译犬猫语言。",
+      "dependency": "必须先由FluentPet为该账户开启Beta，再授权外部Claude连接；官方仅测试Claude，自定义连接需适用方案。没有开通时只是联网记录与声音播放硬件，不应承诺所有买家即买即用AI。"
+    },
+    "highlights": [
+      "实体按钮与Base自动留下互动记录，AI面向这些专属训练数据",
+      "外部AI只能写备注，不能直接改按钮、板面、动物名单或账户设置",
+      "AI笔记有标记，可审阅和修改；模型解释不是动物认知或健康结论"
+    ],
+    "analysis": {
+      "demand": "需求假设：长期教宠物使用按钮的家庭会积累大量零散记录，可能需要整理时间、组合与训练备注。AI价值在减少人工翻阅，而非证明动物真正表达了某种复杂想法；若训练尚未形成记录，额外分析也难产生可靠帮助。",
+      "userProfile": "画像推断：愿意耐心教学、持续记录背景并审阅生成解释的宠物主人较匹配。家庭成员需要一致记录谁按了按钮和当时情境，宠物不愿参与也应尊重；不能因为主人喜欢拟人化表达，就把任何随机按压理解成语言学习成果。",
+      "competition": "竞争判断：与普通录音按钮、纸笔记录及人工查看应用统计竞争，差异在无线自动记录和官方外部AI数据连接。Beta依赖意味着当前门槛高于即用硬件，不以同一Base的按钮数量、颜色或套装拆出多款创新产品。",
+      "supplyChain": "供应链分析：按压开关、反馈灯、无线电路、Base扬声器、电源及拼接板形成系统，制造工厂与BOM未披露。耐踩、易清洁和丢失事件处理影响日志质量，外部大模型能力不能补偿按钮触发不稳定或家庭记录语义不一致。",
+      "technology": "技术判断：硬件负责采集按键与播放声音，MCP提供读取记录及写备注权限，Claude在外部做生成式分析。官方逐账户启用Beta且只验证Claude，不能把接入标准当成已内置AI，更不能将相关性总结解释为动物语言翻译或医学判断。",
+      "aesthetics": "审美判断：六边形拼接板和圆按钮像家庭训练玩具，Base集中扬声器减少每个按键的声学体积。色彩与词语贴纸便于主人整理，却不证明宠物按人类语义分类；布局需要兼顾清洁、空间和脚爪操作，不只看社交媒体展示。",
+      "risks": "风险判断：误触、多人多宠混用和遗漏情境可能让AI从不可靠日志推断过多，生成笔记又会影响后续解释。Beta服务变化、外部账户费用与授权范围是实际依赖，购入硬件不保证获准连接，也不能用按钮记录替代宠物专业照护。",
+      "opportunity": "机会假设：可先验证训练者是否更容易回顾真实互动并发现记录缺口，而不是宣传宠物开始说完整句子。若简单统计已足够，生成式解释可能增加误读；可追溯原始按压与人工备注的审阅流程比人格化故事更有持续价值。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "宠物按钮教学本身是细分兴趣，专属硬件日志连接生成式分析具有不同工作流；AI仍为需逐账户启用的外部Beta，成熟度和可达性受限。"
+    },
+    "architecture": [
+      {
+        "name": "实体按钮",
+        "detail": "按下发送事件并显示反馈，不假造内置语言模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "Base扬声器",
+        "detail": "集中播放用户录制的词语或声音。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线与供电",
+        "detail": "按钮、Base与应用之间的连接和电源功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "HexTiles定位板",
+        "detail": "可拼接的按钮摆放基底，非电子AI部件。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部数据与AI Beta",
+        "detail": "按键日志进入应用，获准账户可通过MCP授权Claude分析。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FluentPet Connect当前官方商品页",
+        "url": "https://fluent.pet/products/connect-get-started-kit-bold-with-base",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture"
+        ],
+        "note": "2026-11-05实际打开US$200与加购，浏览器确认当前商品及发货提示；不同本地货币显示不混同美元价。"
+      },
+      {
+        "title": "FluentPet官方Claude连接文档",
+        "url": "https://support.fluent.pet/app/claude/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "price",
+          "risks"
+        ],
+        "note": "实际阅读2026-10-23文档，逐账户Beta、适用Claude连接方案、查询范围、仅备注写入及AI标记；未替用户申请或授权。"
+      },
+      {
+        "title": "FluentPet官方Connect说明",
+        "url": "https://support.fluent.pet/connect/",
+        "kind": "official-spec",
+        "supports": [
+          "architecture",
+          "technology"
+        ],
+        "note": "实际打开Base播放、无线按钮发送记录至应用的机制；不把原始声板自动算作AI。"
+      },
+      {
+        "title": "FluentPet官方配送政策",
+        "url": "https://fluent.pet/policies/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "china"
+        ],
+        "note": "实际打开美国配送条件；全球地区选择未作为大陆配送与AI可用性证据。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "algocare-e1-pro",
+    "name": "Algocare E1 Pro",
+    "brand": "Algocare",
+    "category": "health-home",
+    "tagline": "把家庭成员的营养建议连接到专用颗粒分发与补充管理",
+    "officialUrl": "https://www.algocare.ai/products/E1Pro-purchase",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-05实际浏览生产官网E1 Pro购买页，有立即购买按钮，页面优惠价₩1340000并含六种体验装；另有正式租赁入口。本条采用买断零售，不把标注STAGING的.link站作销售依据。",
+    "regions": [
+      "韩国"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "确认韩国个人家庭购买与本地租赁，未核实中国大陆官方销售、配送、应用开户与补充剂进口条件。不能把可访问韩文网站等同国内能持续取得耗材和服务。"
+    },
+    "price": {
+      "text": "当前韩站页面优惠价 ₩1,340,000",
+      "note": "E1 Pro含六种体验装，对比价₩1833750，具体优惠资格以结算为准；持续专用营养耗材另购。租赁有前期优惠与长期合同，月租和赠送积分不混作买断价或现金返还。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "官方MyAlgo通过对话及用户提交资料辅助生成个体营养组合与计划，连接E1系列专用颗粒分发；服务条款明确使用外部大语言模型。不是现场检测人体营养缺乏或自动诊断。",
+      "dependency": "依赖应用账户、网络、用户信息及专用营养瓶；算法建议、实际分发与真实摄入不同，推荐需适用性复核，不能承诺无副作用或代替专业营养医疗意见。"
+    },
+    "highlights": [
+      "个人家庭产品线与企业NaaS服务分开，不将办公设备当消费商品",
+      "当前E1 Pro按一个代表收录，旧E1和租赁套餐不重复计数",
+      "硬件完成专用颗粒分发，AI提供建议；出料记录不等于已吞服或吸收"
+    ],
+    "analysis": {
+      "demand": "需求假设：已经有合理补充计划的家庭可能希望减少取瓶、分配和补货步骤，多成员系统能集中整理记录。AI建议是否必要与机械分发是否方便应分别评估，不能从规律出料推断营养改善，也不能假设所有人都需要额外补充剂。",
+      "userProfile": "画像推断：愿意核对自身适用情况、维护专用耗材并管理家庭账户的人更匹配。家庭成员健康资料与选择可能不同，共用设备不等于适合同一建议；购买者的方便需求不能代替实际使用者的知情和对持续耗材成本的接受。",
+      "competition": "竞争判断：与人工分装、普通提醒盒、专业营养咨询和单独应用建议竞争，差异是对话建议连接实体配比与补货。E1与E1 Pro属于同核心任务，不用型号升级和租赁礼包增加品类数，比较应包含长期耗材及建议复核负担。",
+      "supplyChain": "供应链分析：专用营养瓶、颗粒出料、触屏、电控连接及服务平台共同工作，整机工厂与BOM未知。耗材的一致性、储存和可获得性与硬件一样关键，不能将外部模型合作视为制造披露，也不能推断适配其他品牌药片。",
+      "technology": "技术判断：官方说明MyAlgo根据用户资料和对话形成建议，条款披露外部语言模型参与，设备负责输出及记录。模型并不直接检测人体营养状态，出料日志不能证明吞服；宣传中的安全检查也不能被解释为已排除所有相互作用。",
+      "aesthetics": "审美判断：浅色台式机身与竖屏接近厨房家电，配套瓶隐藏后可以减少桌面杂乱，但大屏、接杯与开盖空间仍占位置。设计需要清楚展示当前家庭成员和选择，视觉简洁不能掩盖耗材维护、授权及建议来源。",
+      "risks": "风险判断：资料缺漏、家庭成员选错、颗粒堵塞和重复操作都可能影响分发与判断，AI文字还可能让建议显得过度确定。用户应确认适用性与实际输出，服务不能替代专业判断；跨境耗材、账户与合同条件也会限制持续使用。",
+      "opportunity": "机会假设：可从已有补充习惯中的取用和库存管理验证，优先减少重复、遗漏与记录负担，而不是创造不必要摄入需求。若专用耗材或建议复核增加复杂性，自动化价值会下降，机会应以可持续家庭工作流而非健康承诺成立。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "对话式营养建议连接家庭颗粒分发有独立实体执行环节，区别测量设备及普通提醒盒；专用耗材、适用性与信息质量限制普适性。"
+    },
+    "architecture": [
+      {
+        "name": "外壳与触屏",
+        "detail": "浅色竖立机身、黑色竖屏和前方接杯区域。",
+        "evidence": "official"
+      },
+      {
+        "name": "专用瓶位",
+        "detail": "顶部装入品牌配套营养瓶，不推定支持任意散装药品。",
+        "evidence": "official"
+      },
+      {
+        "name": "分发功能",
+        "detail": "按选定组合输出颗粒至杯中，内部机构仅画概念。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制连接与供电",
+        "detail": "用户选择、记录及应用联网。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部MyAlgo服务",
+        "detail": "对话和提交资料形成建议，非机内生物化验。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Algocare E1 Pro当前官方购买页",
+        "url": "https://www.algocare.ai/products/E1Pro-purchase",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture",
+          "regions"
+        ],
+        "note": "实际浏览器核对E1 Pro、₩1340000优惠价和立即购买，六种体验装；未下单，不把租赁首期或积分当现金售价。"
+      },
+      {
+        "title": "Algocare官方家庭系统说明",
+        "url": "https://www.algocare.ai/contents/wellness-system-overview",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture",
+          "risks"
+        ],
+        "note": "实际打开E1设备、应用、专用营养瓶及MyAlgo建议路径；作用为厂商声明，未独立验证效果。"
+      },
+      {
+        "title": "Algocare Home官方服务条款",
+        "url": "https://www.algocare.ai/agreements/terms-of-service",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "price",
+          "risks"
+        ],
+        "note": "实际阅读个人家庭服务、设备购买租赁与外部LLM条款；不作健康建议或法律结论。"
+      },
+      {
+        "title": "Algocare官方家庭使用流程",
+        "url": "https://www.algocare.ai/contents/algocare-routine",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "risks"
+        ],
+        "note": "实际打开资料输入、触屏取用、记录及补货路径，出料与真正摄入分开理解，未来奖励不作当前功能。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "bsize-bot-talk-us",
+    "name": "Bsize BoT Talk（美国版）",
+    "brand": "Bsize / BoT US",
+    "category": "wearables",
+    "tagline": "学习儿童常去地点并将偏离提醒与无屏语音留言结合",
+    "officialUrl": "https://us.shop.bot.app/products/bot-talk",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-05实际浏览美国官方商店，当前US$44.99、Add to cart可用；为无屏布面美国版，不用日本第五代带显示屏照片或规格替代。",
+    "regions": [
+      "美国（本条地区版本）"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方明确美版仅美国服务，日本版也只在日本工作，不能跨地区激活使用；未有大陆版本。中国大陆监护人能否从境外查看与设备可在大陆工作是不同问题。"
+    },
+    "price": {
+      "text": "美国官方 US$44.99",
+      "note": "GPS月费US$4.99或GPS＋Talk月费US$6.99另计，保护套另购。官方说明取消会永久停用设备，不按可随意暂停恢复理解；日本版本价格和显示屏能力不混入。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方Monitoring AI学习常去地点及日常活动范围，在到达、离开或偏离常规时提示监护人；定位组合与运动输入辅助记录，不是生成式聊天机器人。",
+      "dependency": "依赖设备在美国受支持蜂窝网络内、持续订阅、电量与监护人应用；语音为留言非实时电话，位置有间隔与误差，AI不保证安全或即时救援。"
+    },
+    "highlights": [
+      "学习日常活动模式，区别只手设固定电子围栏的定位器",
+      "小型无屏设备通过一个按钮收发语音留言，家人用应用查看",
+      "服务按地区绑定且取消不可复用，不能把无年度合约解释为无持续依赖"
+    ],
+    "analysis": {
+      "demand": "需求假设：家庭希望孩子在短途独立活动时能够联系并留下位置线索，又不希望过早引入完整手机。模式学习可能减少反复查看地图，但应以沟通与共同约定验证，不能把自动通知理解成能防止所有走失或突发事件。",
+      "userProfile": "画像推断：孩子愿意携带并理解按钮、监护人能够维护订阅与响应留言的家庭较匹配。不同学校规则和独立出行方式会改变适配，不能仅按年龄决定；设备应服务家庭沟通而非不告知孩子的隐蔽持续跟踪。",
+      "competition": "竞争判断：与儿童手表、手机、蓝牙物品标签及简单GPS终端竞争，差异是独立蜂窝无屏沟通和日常范围学习。日本带屏代次与美国无屏版不作为两种新需求重复计数，应比较孩子愿意携带、家长理解提醒和持续费用。",
+      "supplyChain": "供应链分析：布面结构、按键灯光、音频、定位运动与蜂窝通信、电池充电构成小设备，整机具体工厂和BOM未披露。官方称日本制造不等于所有器件均来自日本，订阅服务和地区运营也是实际交付链的一部分。",
+      "technology": "技术判断：官方AI学习常去地点与规律，位置来自多种信号并有更新间隔，运动状态还会影响更新。它不能证明孩子在楼内的具体楼层或解释每次偏离原因，语音留言也不是即时通话，模型与定位误差须分开理解。",
+      "aesthetics": "审美判断：布面圆角方块和隐约灯环减少屏幕诱惑，单按钮降低操作数量，但也要求清楚表达收听、录音和连接状态。放入书包可能影响触达与音量，造型友好不代表孩子能在紧张或嘈杂环境下正确使用。",
+      "risks": "风险判断：遗忘携带、低电量、室内弱信号和常规变化会使位置或提醒不完整，过度依赖可能产生虚假安心。官方地区和一次激活限制影响二手转让与取消，家庭还需谨慎管理位置权限，不能把不显示视频当作没有隐私风险。",
+      "opportunity": "机会假设：可从家庭已有独立通勤中的约定与留言流程验证，关注是否减少双方打扰并保留自主性。若学习提醒频繁误报，用户可能退回手动查看；持续机会取决于清晰解释、可靠服务与孩子接受，而非单纯追求更多追踪功能。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "儿童定位大类成熟，无屏蜂窝语音与日常模式学习提供具体交互取舍；地区订阅、一次激活和实际携带行为限制适用范围。"
+    },
+    "architecture": [
+      {
+        "name": "布面外壳与按键",
+        "detail": "圆角方形白灰机身、中心按压交互和灯光反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "位置与运动输入",
+        "detail": "卫星、无线辅助定位与运动信息。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频留言",
+        "detail": "麦克风与扬声器供家庭语音留言。",
+        "evidence": "official"
+      },
+      {
+        "name": "能源与蜂窝连接",
+        "detail": "可充电电源、USB连接及内置移动通信。",
+        "evidence": "official"
+      },
+      {
+        "name": "监护应用与学习",
+        "detail": "外部服务识别常去地点、活动范围与偏离提醒。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "BoT Talk美国官方当前商店",
+        "url": "https://us.shop.bot.app/products/bot-talk",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "architecture",
+          "risks"
+        ],
+        "note": "实际浏览器核实US$44.99可加购、两种月费与取消永久停用提示；图片为美国无屏版。"
+      },
+      {
+        "title": "BoT美国官方AI与产品说明",
+        "url": "https://www.bot.app/us",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "architecture"
+        ],
+        "note": "实际打开Monitoring AI学习常去地点、日常范围与偏离提醒，语音为留言；不沿用页面旧价格片段。"
+      },
+      {
+        "title": "Bsize官方地区与设备转让说明",
+        "url": "https://support.bot.app/hc/en-us/articles/56063899670041-Can-I-Resell-BoT-Products-at-Online-Stores-e-g-Amazon-eBay-or-Mercari",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "china",
+          "risks"
+        ],
+        "note": "实际打开美日设备地区限制及一次激活、取消后不可转用，未宣称大陆可使用。"
+      },
+      {
+        "title": "BoT美国官方服务条款",
+        "url": "https://support.bot.app/hc/en-us/articles/13216167333273-BoT-Subscription-Service-Terms",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "china",
+          "risks"
+        ],
+        "note": "实际阅读家庭个人用途、监护与持有者知情及美国使用范围；不进行任何账户注册、定位或追踪。"
+      }
+    ],
+    "checkedAt": "2026-11-05",
+    "audience": "consumer",
+    "saleMode": "retail"
   }
 ]

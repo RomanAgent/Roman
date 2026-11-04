@@ -214,5 +214,25 @@
       }
     ]
   },
-  "relatedProducts": []
+  "relatedProducts": [
+    {
+      "supplierId": "sensory",
+      "role": "software",
+      "component": "同类字幕眼镜手机端离线语音识别候选",
+      "rationale": "Sensory公开端侧语音转写能力，可研究相近字幕工作流在手机平台的离线模型、语言、时延和授权条件，但不证明覆盖Captify全部声音标签或Premium摘要。没有本产品点名采用证据，实际麦克风输入、接口和许可须确认，通用转写模型不能直接保证听障交流效果。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "captify-pro",
+      "productName": "Captify Pro",
+      "category": "accessibility",
+      "status": "on_sale"
+    }
+  ]
 }

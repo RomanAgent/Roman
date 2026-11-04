@@ -1,0 +1,517 @@
+{
+  "id": "altumview-sentinare-3",
+  "name": "AltumView Sentinare 3",
+  "brand": "AltumView",
+  "category": "home-safety",
+  "tagline": "以本地人体骨架表示支持居家活动与跌倒事件提醒",
+  "officialUrl": "https://www.altumview.ca/",
+  "status": "on_sale",
+  "statusEvidence": "官方商店当前Sold Out，但其Buy on Amazon明确指向美国B0C441Y8NK；2026-11-05实际浏览该单件型号为US$255、In Stock和可用Add to cart，由Rosspin销售、Amazon配送。不把官网缺货误写成官网直销现货。",
+  "regions": [
+    "美国",
+    "加拿大（品牌列有渠道，库存另确认）"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "官方称美加Amazon可购，经销目录列美英芬兰；本次未核实中国大陆个人零售入口。隐私政策有中国数据区域，不等于已建立大陆消费销售、云可用性或售后承诺。"
+  },
+  "price": {
+    "text": "当前美国品牌指向零售渠道 US$255",
+    "note": "单件Sentinare 3，基础提醒与短期记录免费；官方Home Plan为US$30/月，包含高级AI核验与更长历史。多件装不另算产品，官网独立店当前缺货。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "机上AI从视觉输入提取人体骨架并分析活动和跌倒，默认向应用传骨架流。可选高级告警会把事件真实图上传大模型核验，不能声称所有模式永不传影像。",
+    "dependency": "持续供电、安装视野、网络、应用通知与有人响应构成链路；高级AI核验和长历史需付费并启用。设备不保证检测所有事件，也不是自动到场的救援服务。"
+  },
+  "highlights": [
+    "非穿戴的家庭活动观察，可让照护者查看抽象骨架与事件",
+    "默认骨架流降低外观暴露，但校准房间图与可选事件图有独立处理路径",
+    "基础AI感知免费，高级核验、长历史和服务计划需区别说明"
+  ],
+  "analysis": {
+    "demand": "需求假设：居家照护家庭希望知道远处亲人是否发生异常，同时减少持续观看真人视频的负担。骨架信息可能提供介于普通传感与视频之间的线索，但提醒只有接到响应流程才有意义，不能把设备安装等同事故预防或随时有人照护。",
+    "userProfile": "画像推断：被照护者愿意接受室内观察、家属有明确响应分工且能维护网络的家庭较匹配。购买者和被观察者往往不是同一人，需求不能只由家属焦虑决定；身体活动、房间遮挡和隐私偏好都需共同讨论。",
+    "competition": "竞争判断：与穿戴求助器、普通摄像头、雷达存在感知和人工联系竞争，差异是视觉骨架与事件线索。它减少真人影像展示但仍有视野限制，不能把“非穿戴”或“骨架”理解成绝对可靠，也不将多件装拆成不同创新场景。",
+    "supplyChain": "供应链分析：成像、边缘处理、音频、无线供电和固定结构构成硬件，云端核验与通知构成服务。官方公开处理器等规格，但整机工厂与BOM未知；校准、镜头质量和软件维护影响结果，不能只按摄像头硬件价格估算价值。",
+    "technology": "技术判断：核心使用本地视觉AI提取骨架并分析活动，官方另提供云端高级事件核验。隐私政策明确房间校准图会上传、可选事件图用于大模型判断，因此仅传骨架是默认监控路径描述，不能扩大为所有场景都不采集真实影像。",
+    "aesthetics": "审美判断：小型深色长方机身便于壁装，但镜头和线缆仍让人意识到监控存在。抽象骨架界面可减少外观展示，也可能让旁观者难理解动作，应清楚显示区域、时间和数据状态，不能以极简视觉掩盖正在采集的事实。",
+    "risks": "风险判断：遮挡、安装角度、误识别、网络中断和通知未被看到都可能使响应失败，厂家也明确不保证检测每次事件。可选真实图核验、账户共享与保存期限需被观察者理解；骨架仍反映生活规律，并不等于匿名无敏感信息。",
+    "opportunity": "机会假设：可围绕愿意接受低细节活动线索的家庭验证，并建立提醒确认与接管流程。若家属最终仍只能依赖电话或常规照护，AI应作为补充而非替代；市场机会取决于误报负担、信任和日常维护，不由老龄人口直接推算。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "个人家庭的骨架化活动照护具有明确隐私与响应约束，区别普通安防录像；视野、误报和实际接管能力限制完全自动照护。"
+  },
+  "architecture": [
+    {
+      "name": "视觉输入",
+      "detail": "前部镜头观察室内活动，区别于纯雷达。",
+      "evidence": "official"
+    },
+    {
+      "name": "本地AI处理",
+      "detail": "人体骨架提取与活动识别，内部板只用抽象模块。",
+      "evidence": "official"
+    },
+    {
+      "name": "音频与连接",
+      "detail": "麦克风扬声器、应用通信和语音联系。",
+      "evidence": "official"
+    },
+    {
+      "name": "外壳供电与支架",
+      "detail": "紧凑长方机身、固定支架及有线电源。",
+      "evidence": "official"
+    },
+    {
+      "name": "可选云端核验",
+      "detail": "高级告警真实图分析为可选路径，默认骨架不等于全部无图像。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "AltumView官方产品与家庭计划",
+      "url": "https://www.altumview.ca/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "price",
+        "architecture",
+        "regions"
+      ],
+      "note": "实际打开本地骨架识别、免费基础与US$30月Home Plan；效果为厂商说明，未独立验证。"
+    },
+    {
+      "title": "AltumView当前官方商店及零售链接",
+      "url": "https://shop.altumview.ca/",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "architecture"
+      ],
+      "note": "实际打开独立店Sold Out与Buy on Amazon指向B0C441Y8NK，不能误写独立店现货。"
+    },
+    {
+      "title": "品牌官方指向的Amazon单件零售",
+      "url": "https://www.amazon.com/dp/B0C441Y8NK",
+      "kind": "independent",
+      "supports": [
+        "status",
+        "price"
+      ],
+      "note": "实际浏览器核实Sentinare3-1PK、US$255、In Stock和可用加购；销售方Rosspin，配送Amazon。未下单，不承诺任意地址配送。"
+    },
+    {
+      "title": "AltumView官方隐私政策",
+      "url": "https://www.altumview.ca/privacy-policy/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "risks",
+        "china"
+      ],
+      "note": "实际阅读4.5图像例外和数据区域：校准房间图、可选事件快照及高级核验不等同默认骨架流，不能绝对宣传从不上传真人影像。"
+    },
+    {
+      "title": "AltumView官方支持与功能限制",
+      "url": "https://www.altumview.ca/support/",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "risks"
+      ],
+      "note": "实际打开高级核验需付费开启、个人识别与区域模式，以及不保证检测全部事件的限制。"
+    }
+  ],
+  "checkedAt": "2026-11-05",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-05",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "AltumView官方产品与家庭计划",
+        "url": "https://www.altumview.ca/",
+        "note": "2026-11-05本轮实际核查；实际打开本地骨架识别、免费基础与US$30月Home Plan；效果为厂商说明，未独立验证。"
+      },
+      {
+        "id": "s2",
+        "title": "AltumView当前官方商店及零售链接",
+        "url": "https://shop.altumview.ca/",
+        "note": "2026-11-05本轮实际核查；实际打开独立店Sold Out与Buy on Amazon指向B0C441Y8NK，不能误写独立店现货。"
+      },
+      {
+        "id": "s3",
+        "title": "品牌官方指向的Amazon单件零售",
+        "url": "https://www.amazon.com/dp/B0C441Y8NK",
+        "note": "2026-11-05本轮实际核查；实际浏览器核实Sentinare3-1PK、US$255、In Stock和可用加购；销售方Rosspin，配送Amazon。未下单，不承诺任意地址配送。"
+      },
+      {
+        "id": "s4",
+        "title": "AltumView官方隐私政策",
+        "url": "https://www.altumview.ca/privacy-policy/",
+        "note": "2026-11-05本轮实际核查；实际阅读4.5图像例外和数据区域：校准房间图、可选事件快照及高级核验不等同默认骨架流，不能绝对宣传从不上传真人影像。"
+      },
+      {
+        "id": "s5",
+        "title": "AltumView官方支持与功能限制",
+        "url": "https://www.altumview.ca/support/",
+        "note": "2026-11-05本轮实际核查；实际打开高级核验需付费开启、个人识别与区域模式，以及不保证检测全部事件的限制。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "需求假设：居家照护家庭希望知道远处亲人是否发生异常，同时减少持续观看真人视频的负担。骨架信息可能提供介于普通传感与视频之间的线索，但提醒只有接到响应流程才有意义，不能把设备安装等同事故预防或随时有人照护。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "判断：家庭需要的是异常发生后有人理解情况并采取行动，骨架事件流只是其中的信息环节。它可以减少持续盯看真人视频的需求，但如果家属无暇处理提醒，或被观察者不愿接受设备，技术增加的数据未必转换成更好的照护。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "验证：先与被观察者和照护者共同定义需要提醒的具体情境与响应人，再用安全模拟和日常观察检查流程。记录通知到达、被确认和完成联系所需时间，不让脆弱用户通过真实跌倒来测试，也不把没有报警直接理解为没有风险。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "画像推断：被照护者愿意接受室内观察、家属有明确响应分工且能维护网络的家庭较匹配。购买者和被观察者往往不是同一人，需求不能只由家属焦虑决定；身体活动、房间遮挡和隐私偏好都需共同讨论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "判断：适合性取决于家人关系与照护安排，不能只依据年龄或是否独居。购买者可能希望更多信息，被观察者可能更重视安静与自主，两者需要共同选择默认骨架、可选真实图和账户权限，安装位置也应经过知情讨论。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "验证：分别访谈购买者、被观察者及替班照护者，让其说明设备看见什么、谁能看到、报警后谁处理。测试新成员加入与旧权限撤销，观察有无因不理解骨架而误判人在房间内状态，避免只用照护者满意度定义画像。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "竞争判断：与穿戴求助器、普通摄像头、雷达存在感知和人工联系竞争，差异是视觉骨架与事件线索。它减少真人影像展示但仍有视野限制，不能把“非穿戴”或“骨架”理解成绝对可靠，也不将多件装拆成不同创新场景。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "判断：穿戴设备可随人移动但需要佩戴，固定视觉传感无需佩戴却受房间视野约束；雷达不依赖图像但提供的信息不同。Sentinare的优势假设在于抽象动作线索，其存在并不使电话联系、人工照护或其他求助工具失去必要性。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "验证：围绕一个家庭已经存在的照护流程，比较设备加入前后的误报处置、遗漏检查和沟通负担。与常规摄像方案比较时同时讨论隐私配置，不把默认骨架显示直接写成全部不采集影像，也不以单个成功演示证明能覆盖所有异常。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "模块拆分：镜头输入进入本地处理形成姿态与活动事件，音频和网络支持联系与通知，支架和有线供电维持固定视野。高级核验是可选云服务，实际主板布局未知；背景校准图、骨架记录和事件真实图必须在系统图中分开表达。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "供应链分析：成像、边缘处理、音频、无线供电和固定结构构成硬件，云端核验与通知构成服务。官方公开处理器等规格，但整机工厂与BOM未知；校准、镜头质量和软件维护影响结果，不能只按摄像头硬件价格估算价值。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "候选判断：华勤的智能家居系统能力和环旭的消费电子无线整合能力可作为视觉终端研发制造候选。未发现二者与Sentinare 3的型号合作证据；照护算法、长期服务与隐私配置仍由产品体系决定，不能由通用摄像硬件供应能力替代。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "技术判断：核心使用本地视觉AI提取骨架并分析活动，官方另提供云端高级事件核验。隐私政策明确房间校准图会上传、可选事件图用于大模型判断，因此仅传骨架是默认监控路径描述，不能扩大为所有场景都不采集真实影像。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "判断：本地提取骨架能够减少默认远程展示的真人细节，但骨架仍包含位置与生活规律。官方隐私政策另列校准图和可选真实事件图上传，高级模型核验可能提升判断也改变数据路径，因此不能把所有AI推理统称完全本地。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证：逐项检查默认与付费高级功能的数据流，确认启用可选图像核验时是否能理解并撤回选择。测试遮挡、暗光、多人和家具变化对骨架与提醒的影响，保留误报与漏报记录；实际可靠性需要独立场景验证，不能仅靠厂商演示。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "审美判断：小型深色长方机身便于壁装，但镜头和线缆仍让人意识到监控存在。抽象骨架界面可减少外观展示，也可能让旁观者难理解动作，应清楚显示区域、时间和数据状态，不能以极简视觉掩盖正在采集的事实。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "判断：低调机身可能降低对家居的视觉打扰，但镜头被隐藏得过好也可能影响知情感。骨架界面的抽象程度应服务理解，明确时间、覆盖区和连接状态，避免照护者把静止图标或过期记录误认成正在发生的真实状况。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "验证：请不熟悉技术的家庭成员查看正常、缺数据和报警三种界面，解释他们认为画面意味着什么。检查壁装后清洁与线缆是否妨碍通行，并在设备迁移后重新确认覆盖范围，不能只用安装完成时的一张房间截图评价长期体验。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "风险判断：遮挡、安装角度、误识别、网络中断和通知未被看到都可能使响应失败，厂家也明确不保证检测每次事件。可选真实图核验、账户共享与保存期限需被观察者理解；骨架仍反映生活规律，并不等于匿名无敏感信息。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "判断：误报过多可能让照护者忽略通知，漏报则会产生虚假安心，两个方向都需关注。默认骨架也不等于匿名，因为时间和位置可揭示生活习惯；一旦启用事件真实图或共享账户，数据暴露范围又会扩大，需要具体权限而非口号。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "验证：模拟断电、断网和通知权限关闭，观察是否能区分设备失联与没有异常。审阅照护者轮班及无人应答时的接管安排，并核对数据保留、图像例外与撤销权限；技术只能补充既有照护，不能承诺自动预防事故或保证救援到场。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会假设：可围绕愿意接受低细节活动线索的家庭验证，并建立提醒确认与接管流程。若家属最终仍只能依赖电话或常规照护，AI应作为补充而非替代；市场机会取决于误报负担、信任和日常维护，不由老龄人口直接推算。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "判断：更有价值的机会可能是低侵扰线索、清晰数据选择与家庭响应协作，而不是更大胆的自动健康结论。若用户对可选真实图完全不知情，短期提高识别性能反而可能损害信任，透明配置应被视作产品功能的一部分。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "验证：在自愿家庭试用中记录持续接受度、误报处理与响应履约，而非仅统计摄像头在线时长。比较免费骨架提醒和高级核验是否带来可解释增益，确认不使用高级功能也能理解基础边界，再讨论扩展到更多家庭和地区。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s4",
+            "s5"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "huaqin",
+        "role": "engineering",
+        "relationship": "candidate",
+        "component": "视觉感知终端与整机集成",
+        "rationale": "华勤公开智能家居方案能力可对应家庭视觉输入、电控与整机系统的研发需求。没有Sentinare 3客户或制造关系证据，这里仅建立候选匹配；照护应用、隐私配置和算法可靠性仍需独立验证。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "usi",
+        "role": "connectivity",
+        "relationship": "candidate",
+        "component": "消费联网模块与系统制造",
+        "rationale": "环旭电子公开消费应用及无线系统能力可作为固定式活动传感器连接模块、紧凑电路与制造测试的候选。未确认其实际为AltumView供货，不能由通用无线能力推断该型号采用或承担任何照护算法责任。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "home-pose-care-alerts",
+      "needName": "骨架化家庭活动观察与照护提醒",
+      "difference": "AltumView Sentinare 3的具体差异与边界：技术判断：核心使用本地视觉AI提取骨架并分析活动，官方另提供云端高级事件核验。隐私政策明确房间校准图会上传、可选事件图用于大模型判断，因此仅传骨架是默认监控路径描述，不能扩大为所有场景都不采集真实影像。判断：穿戴设备可随人移动但需要佩戴，固定视觉传感无需佩戴却受房间视野约束；雷达不依赖图像但提供的信息不同。Sentinare的优势假设在于抽象动作线索，其存在并不使电话联系、人工照护或其他求助工具失去必要性。",
+      "comparisonBasis": "竞争判断：与穿戴求助器、普通摄像头、雷达存在感知和人工联系竞争，差异是视觉骨架与事件线索。它减少真人影像展示但仍有视野限制，不能把“非穿戴”或“骨架”理解成绝对可靠，也不将多件装拆成不同创新场景。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s4",
+        "s5"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/altumview-sentinare-3/product.png",
+      "sourceUrl": "https://www.altumview.ca/",
+      "sourceImageUrl": "https://www.altumview.ca/wp-content/uploads/2023/06/v3-hero.png",
+      "caption": "官方Sentinare 3与骨架界面示意",
+      "alt": "黑色长方形Sentinare 3传感器及应用界面",
+      "credit": "AltumView · 官方图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 927964,
+      "sha256": "52e379a8d041ca8789993b81525b71e151ebca33e8ac5c6f79cf6179cb5e8ba0"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/altumview-sentinare-3/reference.jpg",
+      "sourceUrl": "https://www.altumview.ca/",
+      "sourceImageUrl": "https://www.altumview.ca/wp-content/uploads/2024/09/Sentinare3-back-one-camera-1.jpg",
+      "caption": "官方Sentinare 3背面实物参考",
+      "alt": "Sentinare 3背面标识、散热开口、安装孔与接口",
+      "credit": "AltumView · 官方图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 71864,
+      "sha256": "724eb86e181761e13f9141b267145938c89f9c5c10e8e82b8464052ab178a5a9"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/altumview-sentinare-3/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "AltumView Sentinare 3的功能模块概念爆炸图，内部位置并非实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-05",
+      "promptPath": "content/hardware/prompts/altumview-sentinare-3.txt",
+      "referencePaths": [
+        "assets/hardware/altumview-sentinare-3/product.png",
+        "assets/hardware/altumview-sentinare-3/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1488605,
+      "sha256": "9fd11525ef1e2b01fddb89a54359bd99785f1e16bb581e25fb3e715eb1c5c493"
+    }
+  ],
+  "mediaNotes": [
+    "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。",
+    "已目视核对准确型号，保持官方图片未编辑；营销场景与界面示意不构成性能或医疗效果验证。"
+  ]
+}

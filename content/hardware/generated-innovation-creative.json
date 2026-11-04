@@ -332,5 +332,223 @@
     "notes": [
       "以已目视核对的官方图片独立生成，未知内部为功能概念，不代表真实PCB、拆机或已采用供应商。"
     ]
+  },
+  {
+    "id": "eufymake-e1",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/eufymake-e1/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "eufyMake E1 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/eufymake-e1.txt",
+        "referencePaths": [
+          "assets/hardware/eufymake-e1/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "dex-language-camera",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dex-language-camera/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Dex Language Discovery Camera 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/dex-language-camera.txt",
+        "referencePaths": [
+          "assets/hardware/dex-language-camera/reference.jpg",
+          "assets/hardware/dex-language-camera/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "xnote-write",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/xnote-write/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "XNote Write 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/xnote-write.txt",
+        "referencePaths": [
+          "assets/hardware/xnote-write/product.png",
+          "assets/hardware/xnote-write/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "akaso-seemor-200",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/akaso-seemor-200/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "AKASO Seemor-200 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/akaso-seemor-200.txt",
+        "referencePaths": [
+          "assets/hardware/akaso-seemor-200/product.jpg",
+          "assets/hardware/akaso-seemor-200/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "carv-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/carv-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Carv 2 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/carv-2.txt",
+        "referencePaths": [
+          "assets/hardware/carv-2/reference.jpg",
+          "assets/hardware/carv-2/product.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "elgato-prompter",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/elgato-prompter/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Elgato Prompter 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/elgato-prompter.txt",
+        "referencePaths": [
+          "assets/hardware/elgato-prompter/product.jpg",
+          "assets/hardware/elgato-prompter/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "fightcamp-connect-gen3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/fightcamp-connect-gen3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "FightCamp Connect Gen 3 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/fightcamp-connect-gen3.txt",
+        "referencePaths": [
+          "assets/hardware/fightcamp-connect-gen3/product.jpg",
+          "assets/hardware/fightcamp-connect-gen3/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "vochlea-dubler-studio-kit-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/vochlea-dubler-studio-kit-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Vochlea Dubler Studio Kit 2 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/vochlea-dubler-studio-kit-2.txt",
+        "referencePaths": [
+          "assets/hardware/vochlea-dubler-studio-kit-2/product.png",
+          "assets/hardware/vochlea-dubler-studio-kit-2/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "gorilla-bells",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/gorilla-bells/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Gorilla Bells 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/gorilla-bells.txt",
+        "referencePaths": [
+          "assets/hardware/gorilla-bells/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
+  },
+  {
+    "id": "jbl-bandbox-solo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/jbl-bandbox-solo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "JBL BandBox Solo 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/jbl-bandbox-solo.txt",
+        "referencePaths": [
+          "assets/hardware/jbl-bandbox-solo/product.png",
+          "assets/hardware/jbl-bandbox-solo/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。"
+    ]
   }
 ]

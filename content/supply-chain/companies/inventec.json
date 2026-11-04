@@ -215,5 +215,25 @@
       "accessedAt": "2026-11-04"
     }
   ],
-  "relatedProducts": []
+  "relatedProducts": [
+    {
+      "supplierId": "inventec",
+      "role": "engineering",
+      "component": "同类个人AI计算终端的系统工程候选",
+      "rationale": "英业达公开个人计算系统和电子工程能力，可作为同类小型终端的板级、机构、热管理与制造项目询证入口，但专用加速器适配、模型环境和目标项目规模需另确认。没有Tiiny点名合作来源，不能由计算产品经验推定现用代工关系或掌握其完整软硬件方案。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "tiiny-pocket",
+      "productName": "Tiiny Pocket",
+      "category": "computing",
+      "status": "on_sale"
+    }
+  ]
 }

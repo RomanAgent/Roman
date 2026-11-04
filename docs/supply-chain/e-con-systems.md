@@ -132,6 +132,8 @@ e-con Systems聚焦OEM嵌入式相机，把图像传感、接口、驱动与调�
 
 - [xTool F2](../hardware/xtool-f2.md) — **能力候选 · 非已采用** / 工件识别相机集成候选：F2需要相机图像进入工件定位与材料工作流，e-con Systems公开嵌入式视觉相机和定制集成能力，适合作为功能候选。成像接口、标定、照明和加工环境仍须验证，本轮没有其向xTool F2供货的点名资料。
 
+- [AKASO Seemor-200](../hardware/akaso-seemor-200.md) — **能力候选 · 非已采用** / 低光摄像模组工程候选：e-con Systems公开的相机与嵌入式视觉能力可作为低光采集路线的技术询问对象，需进一步验证光学、接口及功耗条件。Seemor并未披露使用该公司模组，本关联只说明功能匹配方向，不代表现售部件能直接替换。
+
 ## 来源
 
 - [e-con Systems公司与视觉产品](<https://www.e-consystems.com/aboutus.asp>)：已打开，支持OEM视觉定位、接口类别和相机工程能力。

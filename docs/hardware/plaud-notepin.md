@@ -40,7 +40,7 @@
 
 - 价格：US$159。核查时基础NotePin价格，含磁吸扣、夹子及基础300分钟/月转写额度；腕带等具体配件需查看所选套装。
 
-- 中国大陆：未核实本型号大陆官方销售与服务承诺；本次价格和功能基于国际版NotePin，不等同其他地区版本。
+- 中国大陆：2026-11-05 中国官网现列 NotePin S 并链接购买；本档案为原 NotePin，不能以 S 版的国内渠道证明原型号仍在国内销售。原型号大陆库存、应用版本与服务权益仍待确认。
 
 - [官方产品 / 商店](<https://www.plaud.ai/products/plaud-notepin>)
 
@@ -259,5 +259,7 @@
 1. [Plaud · NotePin 官方商店与FAQ](<https://www.plaud.ai/products/plaud-notepin>) — 已打开，FAQ明确无V.C.S、不支持电话录音；未引用NotePin S规格。
 
 2. [Plaud · 官方设备比较](<https://www.plaud.ai/pages/plaud-device-comparison>) — 已打开，区分可佩戴采集与卡片双模式录音。
+
+3. [Plaud 中国官网型号目录与购买入口](<https://www.plaud.cn/>) — 2026-11-05 中国官网现列 NotePin S 并链接购买；本档案为原 NotePin，不能以 S 版的国内渠道证明原型号仍在国内销售。原型号大陆库存、应用版本与服务权益仍待确认。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/plaud-notepin)

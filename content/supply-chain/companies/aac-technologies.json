@@ -518,6 +518,42 @@
       "productName": "ZHIYUN Smooth 5S AI",
       "category": "gimbals",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "optics",
+      "component": "同类视觉增强设备的光学工程能力候选",
+      "rationale": "瑞声公开光学与精密集成能力，可作为同类摄像及光学结构开发的询证入口，但近眼显示、个人视觉适配和实际接口是否适用仍需专项确认。没有Eyedaptic点名采用证据，不能将一般光学模组能力等同本款显示系统，也不能据候选链接推断成像或辅助效果。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s4"
+      ],
+      "productId": "eyedaptic-eye7",
+      "productName": "Eyedaptic EYE7",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "aac-technologies",
+      "role": "acoustics",
+      "component": "同类个人沟通基座的扬声器与声学集成候选",
+      "rationale": "瑞声公开声学器件与系统集成能力，可研究同类沟通基座在不同朝向和环境中的声音输出，但需结合外壳、功耗、放大接口和可懂度测试。未发现TD Pilot点名采用证据，此链接不涉及其眼控算法、AI音色许可或平板内部，也不能由器件能力承诺交流效果。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s5"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "td-pilot",
+      "productName": "Tobii Dynavox TD Pilot派乐（TD Talk AI音色方案）",
+      "category": "accessibility",
+      "status": "on_sale"
     }
   ]
 }

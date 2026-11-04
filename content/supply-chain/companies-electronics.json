@@ -2547,14 +2547,17 @@
     "roles": [
       "chip",
       "sensing",
-      "acoustics"
+      "acoustics",
+      "power"
     ],
     "capabilities": [
       "AFE4950 光学与电生理模拟前端",
       "同步 PPG 与单导联 ECG 采集",
       "模拟与嵌入式半导体",
       "TAS2781 数字输入扬声器放大与保护",
-      "ADS1299 EEG与生物电采集前端"
+      "ADS1299 EEG与生物电采集前端",
+      "USB-C供电协商与功率路径控制",
+      "LLC电源转换控制器"
     ],
     "productCategories": [
       "wearables",
@@ -2593,6 +2596,20 @@
         "url": "https://www.ti.com/product/ADS1299",
         "note": "本轮已打开：明确EEG与生物电低噪声同步采集、增益和脱落检测。采集芯片不含认知或手势AI，不据此认定任何成品实际采用。",
         "accessedAt": "2026-11-04"
+      },
+      {
+        "id": "s5",
+        "title": "TI TPS25751 USB-C Power Delivery controller",
+        "url": "https://www.ti.com/product/TPS25751",
+        "note": "已打开ACTIVE状态、USB-C受电与双角色供电控制、功率路径与保护。旧TPS25750为NRND，不拿旧型作为新设计优选。未证明Tiiny或其他目录设备采用。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "id": "s6",
+        "title": "TI UCC256404 LLC resonant power controller",
+        "url": "https://www.ti.com/product/UCC256404",
+        "note": "已打开ACTIVE状态、LLC转换控制、保护与电源参考设计；控制IC不是完整认证电源，拓扑匹配和整机验证另核。未证明任何NAS实际采用。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "analysis": {
@@ -2646,6 +2663,15 @@
           "sourceIds": [
             "s4"
           ]
+        },
+        {
+          "title": "官方｜USB供电与电源转换是不同器件层",
+          "text": "TPS25751公开支持USB接口供电协商和受电路径，UCC256404则属于谐振电源转换控制器，两者不应被写成同一种电源模块。前者处理接口角色和保护，后者仍需外部功率器件及系统设计；官网有参考设计，并不表示任一芯片可单独构成完整消费设备供电。",
+          "evidence": "official",
+          "sourceIds": [
+            "s5",
+            "s6"
+          ]
         }
       ],
       "fit": [
@@ -2679,6 +2705,15 @@
           "evidence": "analysis",
           "sourceIds": [
             "s4"
+          ]
+        },
+        {
+          "title": "判断｜区分小型AI终端和多盘位系统",
+          "text": "外接供电的个人AI终端可先研究接口协商和负载变化，多盘位存储系统则还需要结合磁盘启动、持续计算与待机等负载条件选择电源架构。TI能力只覆盖其中的控制层，不能从器件功能直接断言适合某款现机，也不能省略整体功耗、散热和接口匹配。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s5",
+            "s6"
           ]
         }
       ],
@@ -2796,10 +2831,19 @@
             "s1",
             "s2"
           ]
+        },
+        {
+          "title": "判断｜生命周期与系统认证分别核查",
+          "text": "本轮打开的旧TPS25750已不推荐新设计，后续研究采用当前仍活跃的TPS25751作为能力例子。即便芯片有相关测试或参考设计，客户设备仍须完成自身的供电、异常和认证验证；目录中的候选联系不表示品牌已采用，不构成现有设备直接换件方案。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s5",
+            "s6"
+          ]
         }
       ]
     },
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-05"
   },
   {
     "id": "analog-devices",
@@ -2819,7 +2863,8 @@
     "capabilities": [
       "MAX86176 光学 PPG 与单导联 ECG 前端",
       "多模态穿戴信号链与评估套件",
-      "模拟、数字与软件协同方案"
+      "模拟、数字与软件协同方案",
+      "电化学与生物阻抗模拟前端"
     ],
     "productCategories": [
       "wearables"
@@ -2848,6 +2893,13 @@
         "note": "支持法律主体、Wilmington 总部及模拟、数字、软件业务定位。",
         "id": "s3",
         "accessedAt": "2026-11-04"
+      },
+      {
+        "id": "s4",
+        "title": "ADI AD5940 impedance and electrochemical frontend",
+        "url": "https://www.analog.com/en/products/ad5940.html",
+        "note": "已打开推荐新设计状态、恒电位/电流/阻抗测量，官方应用明确连续葡萄糖与皮肤/身体阻抗。能力不等于传感化学、诊断模型或Lingo/NOTA实际采用。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "analysis": {
@@ -2887,6 +2939,14 @@
           "sourceIds": [
             "s2"
           ]
+        },
+        {
+          "title": "官方｜电化学与生物阻抗采集边界",
+          "text": "AD5940公开恒电位、传感电流和阻抗测量能力，应用目录包括连续葡萄糖监测及皮肤、身体阻抗。它与光学脉搏或惯性器件属于不同输入层，不能相互代替；芯片提供激励与模拟测量，不提供完整传感化学、疾病分类或面向个人的人工智能解释。",
+          "evidence": "official",
+          "sourceIds": [
+            "s4"
+          ]
         }
       ],
       "fit": [
@@ -2905,6 +2965,14 @@
           "sourceIds": [
             "s1",
             "s2"
+          ]
+        },
+        {
+          "title": "判断｜连续佩戴和短时接触约束不同",
+          "text": "连续葡萄糖传感需要考虑微小电流、长期偏置、封装和功耗，短时皮肤阻抗测量则更依赖接触方式、激励范围与重复性。即使同一前端列出两个应用，系统要求也不相同；供应研究应从实际传感接口出发，不能把通用评估能力当作现成可用的消费检测设备。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s4"
           ]
         }
       ],
@@ -3004,10 +3072,18 @@
             "s1",
             "s3"
           ]
+        },
+        {
+          "title": "判断｜采集可用不等于健康解释成立",
+          "text": "选型需要核对传感器输出、漂移、校准和整机干扰，再评价算法如何处理测量不确定性。AD5940公开支持相关应用只证明功能方向，无法确认某品牌采用、完整BOM或诊断效果；目录链接保留为候选，涉及个人健康的解释仍需要产品自身证据和适用边界。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s4"
+          ]
         }
       ]
     },
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-05"
   },
   {
     "id": "alif-semiconductor",

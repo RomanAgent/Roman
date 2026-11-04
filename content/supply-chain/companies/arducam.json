@@ -536,6 +536,57 @@
       "supplierId": "arducam",
       "role": "optics",
       "relationship": "candidate",
+      "component": "印前定位视觉候选",
+      "rationale": "Arducam有相机模组与定制工程能力，可用于评估桌面打印材料定位的视觉方案；光照、反光材料和视野仍需测试。E1未披露使用该品牌相机，本目录不把相似功能当作实际供应证明。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "eufymake-e1",
+      "productName": "eufyMake E1",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "近距实物采集相机候选",
+      "rationale": "Arducam的相机模组和定制能力可用于评估儿童手持识物设备的近距视野、对焦与接口方案；还需验证真实混杂背景及跌落后的稳定性。Dex未披露使用该品牌，本关联只是工程匹配候选。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "dex-language-camera",
+      "productName": "Dex Language Discovery Camera",
+      "category": "education",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "微型图案读取视觉工程候选",
+      "rationale": "Arducam具有相机模组及定制工程能力，可作为笔端小范围光学采集的方案讨论对象；笔身空间、焦距和功耗需要专门验证，现有相机并不自动满足要求。XNote未披露采用该公司，本关联仅为开发候选。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "xnote-write",
+      "productName": "XNote Write",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "arducam",
+      "role": "optics",
+      "relationship": "candidate",
       "component": "纸面成像与输入模组候选",
       "rationale": "Arducam公开相机模组能力可用于重新开发扫描输入原型，但近距离光学、运动条件、机身体积和识别软件必须一起验证。此处不是适用于原机的替换建议，资料也没有点名X9 Pro采用该公司模组。",
       "sourceIds": [

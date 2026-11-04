@@ -386,6 +386,24 @@
       "productName": "Millennium The King Performance",
       "category": "games",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "raystar",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "小型显示及界面集成候选",
+      "rationale": "Raystar提供小尺寸显示与系统集成能力，可作为圆形反馈界面的方案询价方向；是否具备所需尺寸和光学指标须重新确认。目录没有证据表明Dex采用该公司面板，不把外形相似写成合作关系。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "dex-language-camera",
+      "productName": "Dex Language Discovery Camera",
+      "category": "education",
+      "status": "on_sale"
     }
   ]
 }

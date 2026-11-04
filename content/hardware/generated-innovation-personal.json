@@ -223,5 +223,234 @@
     "notes": [
       "已视觉检查外形、灰阶、文字及无虚构参数；内部模块形状、板卡和布置仅为概念，不代表完整BOM。"
     ]
+  },
+  {
+    "id": "esper-hand-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/esper-hand-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "esper-hand-2的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/esper-hand-2.txt",
+        "referencePaths": [
+          "assets/hardware/esper-hand-2/product.jpg",
+          "assets/hardware/esper-hand-2/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。"
+    ]
+  },
+  {
+    "id": "dot-pad-x",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/dot-pad-x/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "dot-pad-x的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/dot-pad-x.txt",
+        "referencePaths": [
+          "assets/hardware/dot-pad-x/product.png",
+          "assets/hardware/dot-pad-x/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。"
+    ]
+  },
+  {
+    "id": "emotiv-insight",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/emotiv-insight/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "emotiv-insight的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/emotiv-insight.txt",
+        "referencePaths": [
+          "assets/hardware/emotiv-insight/product.webp",
+          "assets/hardware/emotiv-insight/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。"
+    ]
+  },
+  {
+    "id": "eyedaptic-eye7",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/eyedaptic-eye7/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "eyedaptic-eye7的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/eyedaptic-eye7.txt",
+        "referencePaths": [
+          "assets/hardware/eyedaptic-eye7/product.png",
+          "assets/hardware/eyedaptic-eye7/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。",
+      "明确保留外接手机供电控制和AI服务关系；镜腿内部与显示层分离为概念，不推定独立电池或真实堆叠。"
+    ]
+  },
+  {
+    "id": "td-pilot",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/td-pilot/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "td-pilot的灰阶AI概念功能爆炸图，非真实内部结构",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/td-pilot.txt",
+        "referencePaths": [
+          "assets/hardware/td-pilot/ai-exploded-draft.png",
+          "assets/hardware/td-pilot/product.png",
+          "assets/hardware/td-pilot/reference.jpg",
+          "assets/hardware/td-pilot/reference-interface.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已视觉检查准确外形、灰阶、标题与概念声明；未知内部模块仅为功能示意，不代表拆机、完整BOM或参数。",
+      "初稿误将AI服务连到供电，已用内置ImageGen定向修正为平板软件，并恢复参考图的背部相机开口；初稿与完整修订提示词保留。"
+    ]
+  },
+  {
+    "id": "withings-beamo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/withings-beamo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Withings withings-beamo灰阶AI概念功能分解，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/withings-beamo.txt",
+        "referencePaths": [
+          "assets/hardware/withings-beamo/ai-exploded-draft.png",
+          "assets/hardware/withings-beamo/product.jpg",
+          "assets/hardware/withings-beamo/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
+      "初稿少量蓝色显示/接口已用内置ImageGen改为中性灰阶；初稿与完整修订提示词保留。"
+    ]
+  },
+  {
+    "id": "abbott-lingo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/abbott-lingo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Abbott Lingo abbott-lingo灰阶AI概念功能分解，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/abbott-lingo.txt",
+        "referencePaths": [
+          "assets/hardware/abbott-lingo/product.png",
+          "assets/hardware/abbott-lingo/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。"
+    ]
+  },
+  {
+    "id": "ugreen-idx6011",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ugreen-idx6011/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "UGREEN ugreen-idx6011灰阶AI概念功能分解，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/ugreen-idx6011.txt",
+        "referencePaths": [
+          "assets/hardware/ugreen-idx6011/ai-exploded-draft.png",
+          "assets/hardware/ugreen-idx6011/product.png",
+          "assets/hardware/ugreen-idx6011/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。",
+      "初稿少量蓝色显示/接口已用内置ImageGen改为中性灰阶；初稿与完整修订提示词保留。"
+    ]
+  },
+  {
+    "id": "tiiny-pocket",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tiiny-pocket/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Tiiny tiiny-pocket灰阶AI概念功能分解，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/tiiny-pocket.txt",
+        "referencePaths": [
+          "assets/hardware/tiiny-pocket/product.webp",
+          "assets/hardware/tiiny-pocket/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。"
+    ]
+  },
+  {
+    "id": "captify-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/captify-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Captify captify-pro灰阶AI概念功能分解，非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/captify-pro.txt",
+        "referencePaths": [
+          "assets/hardware/captify-pro/product.jpg",
+          "assets/hardware/captify-pro/reference.jpg",
+          "assets/hardware/captify-pro/reference-angle.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已检查外形、标签与灰阶；分离模块是概念功能架构，非真实内部布局、完整BOM或性能证明。"
+    ]
   }
 ]

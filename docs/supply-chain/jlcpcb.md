@@ -148,6 +148,12 @@ JLCPCB公开把PCB制造、元件采购和装配组织为数字化电子制造�
 
 - [Nex Playground](../hardware/nex-playground.md) — **能力候选 · 非已采用** / 本机视觉处理板原型装配候选：JLCPCB公开板级装配与制造流程，可作为消费视觉主机原型PCBA能力候选。能做装配并不代表具备Nex软件、相机标定或完整整机设计，须由项目方提供BOM、板图和测试要求，本轮也没有双方实际供货关系证据。
 
+- [Elgato Prompter](../hardware/elgato-prompter.md) — **能力候选 · 非已采用** / USB显示控制板开发候选：JLCPCB的电路板制造与装配能力可用于原型阶段的USB显示控制板实现，但必须由设计方先确定接口、电源和显示方案。Prompter实际电路与工厂没有公开，本关联不是其真实BOM或代工确认。
+
+- [Vochlea Dubler Studio Kit 2](../hardware/vochlea-dubler-studio-kit-2.md) — **能力候选 · 非已采用** / USB音频转换电路原型候选：JLCPCB提供电路板制造与装配，可配合设计方验证音频转换和USB接口原型；芯片与驱动选择仍需另外确定。Dubler麦克风内部电路没有公开，本链接仅作为开发服务候选，不推断真实量产板或工厂。
+
+- [JBL BandBox Solo](../hardware/jbl-bandbox-solo.md) — **能力候选 · 非已采用** / 音频控制板原型制造候选：JLCPCB具备电路板制造与装配能力，可为设计方验证接口、控制及音频处理原型提供服务，但它不自动提供分离模型或完整声学方案。官方未披露BandBox主板工厂，本关联仅是开发阶段的能力匹配。
+
 ## 来源
 
 - [JLCPCB公司介绍](<https://jlcpcb.com/about-us>)：核实在线电子制造平台及PCB采购装配整合范围。

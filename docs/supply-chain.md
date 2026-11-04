@@ -1,6 +1,6 @@
 # 智能硬件供应链目录
 
-核查 2026-11-05 · 124 家公司 · 15 个供应环节
+核查 2026-11-05 · 129 家公司 · 15 个供应环节
 
 面向消费级AI硬件的芯片、元件、模组、制造、工程、软件和检测服务公司。按可核查的能力收录国际公司与专业供应商，持续扩展，不声称覆盖全球全部企业。
 
@@ -20,7 +20,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Ambarella 安霸](supply-chain/ambarella.md) | 美国（主要行政办公口径） | CVflow 视觉 AI 架构、图像信号处理与视频压缩、模型稀疏化、量化及编译工具、智能摄像系统参考设计 |
 | [Amlogic 晶晨](supply-chain/amlogic.md) | 美国（全球官网总部口径） | A311Y3 边缘 AI 应用处理器、多媒体编解码与多显示处理、端侧模型加速及 Android、Linux 软件平台 |
 | [ams OSRAM 艾迈斯欧司朗](supply-chain/ams-osram.md) | 奥地利（总部）；德国（联合总部） | AS7058 多生理信号模拟前端、PPG、ECG、BioZ 与 EDA 输入链路、穿戴发光与光电接收器件组合、带配套算法的型号选项 |
-| [Analog Devices 亚德诺](supply-chain/analog-devices.md) | 美国 | MAX86176 光学 PPG 与单导联 ECG 前端、多模态穿戴信号链与评估套件、模拟、数字与软件协同方案 |
+| [Analog Devices 亚德诺](supply-chain/analog-devices.md) | 美国 | MAX86176 光学 PPG 与单导联 ECG 前端、多模态穿戴信号链与评估套件、模拟、数字与软件协同方案、电化学与生物阻抗模拟前端 |
 | [Bestechnic 恒玄科技](supply-chain/bestechnic.md) | 中国大陆 | BES2800BP 智能穿戴 SoC、BECO 神经网络协处理与多核控制、蓝牙音频及可选无线局域网、音频编解码、图形与显示接口 |
 | [Bosch Sensortec 博世传感器](supply-chain/bosch-sensortec.md) | 德国 | BHI360 可编程六轴惯性传感系统、传感融合、姿态和手势处理、面向眼镜与耳部设备的运动感知、不同变体的自学习与运动软件 |
 | [Ceva](supply-chain/ceva.md) | 美国 | SensPro 视觉与传感 DSP IP、NeuPro 神经网络处理 IP、无线连接 IP 平台、传感融合与音频嵌入式软件 |
@@ -52,7 +52,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Syntiant](supply-chain/syntiant.md) | 美国 | NDP120 等常开神经决策处理器、NDP250 多模态处理器（官网组合页仍标 Sampling）、SiSonic MEMS 与 AISonic 智能麦克风、声音与传感模型处理 |
 | [TDK / InvenSense](supply-chain/tdk-invensense.md) | 日本（集团总部）；美国（InvenSense 业务总部） | SmartMotion 六轴惯性传感、SmartEdgeML 传感器侧模型部署、SmartSound MEMS 麦克风、眼镜姿态、运动与声音输入、SmartSonic 超声 ToF 与已披露白杖传感合作 |
 | [Telink 泰凌微](supply-chain/telink.md) | 中国大陆 | 低功耗多协议无线 SoC、经典蓝牙与低功耗蓝牙音频方案、无线音频与人机输入平台、与外部端侧语音处理的参考设计协作 |
-| [Texas Instruments 德州仪器](supply-chain/texas-instruments.md) | 美国 | AFE4950 光学与电生理模拟前端、同步 PPG 与单导联 ECG 采集、模拟与嵌入式半导体、TAS2781 数字输入扬声器放大与保护、ADS1299 EEG与生物电采集前端 |
+| [Texas Instruments 德州仪器](supply-chain/texas-instruments.md) | 美国 | AFE4950 光学与电生理模拟前端、同步 PPG 与单导联 ECG 采集、模拟与嵌入式半导体、TAS2781 数字输入扬声器放大与保护、ADS1299 EEG与生物电采集前端、USB-C供电协商与功率路径控制、LLC电源转换控制器 |
 | [WCH 沁恒微电子](supply-chain/wch.md) | 中国大陆 | 青稞 RISC-V 微控制器、USB 主机与设备接口、Type-C 数据与电源角色控制、低功耗蓝牙及外围互联系列 |
 
 ## 无线与通信
@@ -87,7 +87,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | 公司 | 公开地区标签 | 能力摘要 |
 | --- | --- | --- |
 | [ams OSRAM 艾迈斯欧司朗](supply-chain/ams-osram.md) | 奥地利（总部）；德国（联合总部） | AS7058 多生理信号模拟前端、PPG、ECG、BioZ 与 EDA 输入链路、穿戴发光与光电接收器件组合、带配套算法的型号选项 |
-| [Analog Devices 亚德诺](supply-chain/analog-devices.md) | 美国 | MAX86176 光学 PPG 与单导联 ECG 前端、多模态穿戴信号链与评估套件、模拟、数字与软件协同方案 |
+| [Analog Devices 亚德诺](supply-chain/analog-devices.md) | 美国 | MAX86176 光学 PPG 与单导联 ECG 前端、多模态穿戴信号链与评估套件、模拟、数字与软件协同方案、电化学与生物阻抗模拟前端 |
 | [Arducam](supply-chain/arducam.md) | 中国香港 | 嵌入式相机模组、USB与MIPI等相机接口、多相机与全局快门方案、底层驱动及固件定制、外壳与整机视觉工程协作 |
 | [BOE 京东方](supply-chain/boe.md) | 中国大陆 | 中尺寸平板显示、触控与主动笔集成、小尺寸穿戴AMOLED、VR/AR及智能家居显示产品类别、多类显示技术与模组协同 |
 | [Bosch Sensortec 博世传感器](supply-chain/bosch-sensortec.md) | 德国 | BHI360 可编程六轴惯性传感系统、传感融合、姿态和手势处理、面向眼镜与耳部设备的运动感知、不同变体的自学习与运动软件 |
@@ -98,6 +98,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Goodix 汇顶科技](supply-chain/goodix.md) | 中国大陆 | 光学健康传感模块、PPG 与多模态模拟前端、GH 系列生理信号采集、配套算法与机械光学设计指导 |
 | [Himax 奇景光电](supply-chain/himax.md) | 中国台湾 | WiseEye2 HX6538 端侧 AI 微控制器、低功耗 CMOS 图像传感器协同方案、多层电源管理与传感融合开发平台 |
 | [Infineon 英飞凌](supply-chain/infineon.md) | 德国 | XENSIV MEMS 模拟及数字麦克风、PSOC Edge 边缘 AI 微控制器、多麦克风、视觉与机器学习评估套件 |
+| [Interlink Electronics](supply-chain/interlink-electronics.md) | 美国 | FSR力敏电阻系列、定制压力与位置传感、印刷电子与交互界面、智能纺织相关工程 |
 | [LARGAN 大立光](supply-chain/largan.md) | 中国台湾 | 精密塑料光学镜头、移动成像镜头、摄像模组产品路线、音圈马达相关产品、车载及新型智能光学应用 |
 | [Leopard Imaging](supply-chain/leopard-imaging.md) | 美国 | 嵌入式相机设计制造、主动对准与图像调校、立体及飞行时间深度方案、多类计算平台驱动开发、相机OEM与ODM服务 |
 | [Luxonis](supply-chain/luxonis.md) | 美国 | OAK深度与边缘视觉设备、DepthAI开发工具、相机模组定制路径、视觉模型优化与集成测试、部署与技术支持服务 |
@@ -114,7 +115,8 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Sunny Optical 舜宇光学](supply-chain/sunny-optical.md) | 中国大陆 | 成像镜头与摄像模组、主动双目三维相机、结构光识别相机、广视场RGB相机、机器人视觉感知方案 |
 | [Syntiant](supply-chain/syntiant.md) | 美国 | NDP120 等常开神经决策处理器、NDP250 多模态处理器（官网组合页仍标 Sampling）、SiSonic MEMS 与 AISonic 智能麦克风、声音与传感模型处理 |
 | [TDK / InvenSense](supply-chain/tdk-invensense.md) | 日本（集团总部）；美国（InvenSense 业务总部） | SmartMotion 六轴惯性传感、SmartEdgeML 传感器侧模型部署、SmartSound MEMS 麦克风、眼镜姿态、运动与声音输入、SmartSonic 超声 ToF 与已披露白杖传感合作 |
-| [Texas Instruments 德州仪器](supply-chain/texas-instruments.md) | 美国 | AFE4950 光学与电生理模拟前端、同步 PPG 与单导联 ECG 采集、模拟与嵌入式半导体、TAS2781 数字输入扬声器放大与保护、ADS1299 EEG与生物电采集前端 |
+| [Tekscan](supply-chain/tekscan.md) | 美国 | FlexiForce薄膜力传感器、定制感测区域与形状、压力分布测量、OEM信号调理与标定开发工具 |
+| [Texas Instruments 德州仪器](supply-chain/texas-instruments.md) | 美国 | AFE4950 光学与电生理模拟前端、同步 PPG 与单导联 ECG 采集、模拟与嵌入式半导体、TAS2781 数字输入扬声器放大与保护、ADS1299 EEG与生物电采集前端、USB-C供电协商与功率路径控制、LLC电源转换控制器 |
 
 ## 光学与视觉模组
 
@@ -160,7 +162,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [onsemi 安森美](supply-chain/onsemi.md) | 美国 | Ezairo 8300 听觉数字信号处理平台、专用音频处理与神经网络加速、助听器及 hearable 开发工具 |
 | [Syntiant](supply-chain/syntiant.md) | 美国 | NDP120 等常开神经决策处理器、NDP250 多模态处理器（官网组合页仍标 Sampling）、SiSonic MEMS 与 AISonic 智能麦克风、声音与传感模型处理 |
 | [TDK / InvenSense](supply-chain/tdk-invensense.md) | 日本（集团总部）；美国（InvenSense 业务总部） | SmartMotion 六轴惯性传感、SmartEdgeML 传感器侧模型部署、SmartSound MEMS 麦克风、眼镜姿态、运动与声音输入、SmartSonic 超声 ToF 与已披露白杖传感合作 |
-| [Texas Instruments 德州仪器](supply-chain/texas-instruments.md) | 美国 | AFE4950 光学与电生理模拟前端、同步 PPG 与单导联 ECG 采集、模拟与嵌入式半导体、TAS2781 数字输入扬声器放大与保护、ADS1299 EEG与生物电采集前端 |
+| [Texas Instruments 德州仪器](supply-chain/texas-instruments.md) | 美国 | AFE4950 光学与电生理模拟前端、同步 PPG 与单导联 ECG 采集、模拟与嵌入式半导体、TAS2781 数字输入扬声器放大与保护、ADS1299 EEG与生物电采集前端、USB-C供电协商与功率路径控制、LLC电源转换控制器 |
 | [USI / 环旭电子](supply-chain/usi.md) | 中国大陆 | 消费PCBA及整合方案、SiP微小化技术、联合设计与DfX评估、无线音频及设备模组制造 |
 
 ## 显示与交互
@@ -196,16 +198,19 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Grepow 格瑞普](supply-chain/grepow.md) | 中国大陆 | 异形与窄型软包电芯、可充电扣式及金属壳异形电池、穿戴与智能眼镜供电方案、高倍率及低温电池方向、电池组与配套充电方案 |
 | [LARGE](supply-chain/large-electronics.md) | 中国大陆 | 定制锂电池包、电芯电气与结构设计、电池热管理、BMS保护、状态估计与通信、测试和认证支持 |
 | [Sunwoda 欣旺达](supply-chain/sunwoda.md) | 中国大陆 | 消费电子电芯与电池、小动力电池、智能硬件电池方案、电池结构与系统集成、电池生产与质量管理能力 |
+| [Texas Instruments 德州仪器](supply-chain/texas-instruments.md) | 美国 | AFE4950 光学与电生理模拟前端、同步 PPG 与单导联 ECG 采集、模拟与嵌入式半导体、TAS2781 数字输入扬声器放大与保护、ADS1299 EEG与生物电采集前端、USB-C供电协商与功率路径控制、LLC电源转换控制器 |
 
-## 电机与运动控制
+## 电机、泵阀与执行
 
-电机、驱动、执行器及精密运动
+电机、驱动、精密运动、流体泵阀及执行模块
 
 | 公司 | 公开地区标签 | 能力摘要 |
 | --- | --- | --- |
+| [Bartels Mikrotechnik](supply-chain/bartels-mikrotechnik.md) | 德国 | BP7压电微泵、微流体驱动与开发套件、微型流路集成、定制流体系统开发 |
 | [DINGS' 鼎智](supply-chain/dings-motion.md) | 中国大陆 | 步进丝杆与滚珠丝杆执行器、导向线性模组、旋转步进、直流和无刷电机、音圈电机与夹爪方向、机构、驱动及控制定制 |
 | [FAULHABER](supply-chain/faulhaber.md) | 德国 | 微型直流及无刷电机、精密减速器与编码器、线性执行器及驱动电子、光学定位与相机运动方案、标准、改型及项目制驱动开发 |
 | [FEETECH 飞特](supply-chain/feetech.md) | 中国大陆 | PWM与串行总线舵机、部分系列的状态反馈与保护、多种位置或电机工作模式、控制协议、调试与集成资料、舵机定制与工程配合 |
+| [KNF Flodos](supply-chain/knf-flodos.md) | 瑞士 | 液体隔膜泵、按介质与安装条件配置泵体、液体泵开发与组装、OEM流体输送模块导入 |
 | [LARGAN 大立光](supply-chain/largan.md) | 中国台湾 | 精密塑料光学镜头、移动成像镜头、摄像模组产品路线、音圈马达相关产品、车载及新型智能光学应用 |
 | [maxon](supply-chain/maxon.md) | 瑞士 | 有刷及无刷直流驱动、减速器与编码器组合、机器人关节驱动模块、定制机电一体化系统、驱动仿真与系统集成支持 |
 | [MOONS' 鸣志](supply-chain/moons-industries.md) | 中国大陆 | 混合与永磁步进电机、闭环步进及伺服驱动系统、一体化电机驱动控制、线性运动与执行器、无槽空心杯及无刷电机方向 |
@@ -213,6 +218,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Portescap](supply-chain/portescap.md) | 美国 | 有刷和无刷微型直流电机、多类步进与线性电机、减速器、编码器与控制配套、工程对工程定制协作、在线原型样品与询价入口 |
 | [Power HD](supply-chain/power-hd.md) | 中国大陆 | 数字与模拟舵机、无刷及高电压舵机系列、机器人舵机目录方向、兼容型号的参数编程工具、舵机规格与控制资料 |
 | [Precision Microdrives](supply-chain/precision-microdrives.md) | 英国 | 微型直流及无刷电机、齿轮电机与线性执行机构、振动电机和LRA触觉反馈、定制机构设计制造、寿命测试及批次验证 |
+| [Takasago Electric 高砂电气](supply-chain/takasago-electric.md) | 日本 | 隔离阀与夹管阀、微型蠕动及注射泵、流路歧管定制、带反馈的分液模块 |
 | [Zollner](supply-chain/zollner.md) | 德国 | 复杂机电系统、高混合低数量与自动化生产、电子机械线束整合、研发NPI至售后服务 |
 
 ## 结构与材料加工
@@ -282,9 +288,9 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Worthington Assembly](supply-chain/worthington-assembly.md) | 美国 | 原型和小批电子装配、Turn-Key元件采购、SMT及特殊器件装配、裸板供应质量管理 |
 | [Zollner](supply-chain/zollner.md) | 德国 | 复杂机电系统、高混合低数量与自动化生产、电子机械线束整合、研发NPI至售后服务 |
 
-## ODM与整机制造
+## 制造与量产交付
 
-电子制造服务、设计制造和量产交付
+组件制造、电子制造服务、ODM与整机生产交付
 
 | 公司 | 公开地区标签 | 能力摘要 |
 | --- | --- | --- |
@@ -303,12 +309,14 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Goertek / 歌尔](supply-chain/goertek.md) | 中国大陆 | 声学零组件与整机、AI音箱与家庭安防开发、光学与电子整合、模具注塑及自动化制造 |
 | [GSEO 玉晶光](supply-chain/genius-electronic-optical.md) | 中国台湾 | 紧凑光学镜头设计、光学设备与制程开发、移动及车载镜头、机器人和工业视觉镜头、AR智能眼镜光学方向 |
 | [HLH Prototypes](supply-chain/hlh-prototypes.md) | 中国大陆 | CNC原型与零件、三维打印、快速模具、注塑及低批量制造 |
+| [Interlink Electronics](supply-chain/interlink-electronics.md) | 美国 | FSR力敏电阻系列、定制压力与位置传感、印刷电子与交互界面、智能纺织相关工程 |
 | [Inventec / 英业达](supply-chain/inventec.md) | 中国台湾 | 笔记本与AIO系统ODM、个人系统工业设计、电子系统开发与质量工程、跨地区制造和系统交付 |
 | [Jabil / 捷普](supply-chain/jabil.md) | 美国 | 早期工程与产品开发、电子及系统制造、供应链管理、返修翻新与生命周期支持 |
 | [JLCPCB / 嘉立创](supply-chain/jlcpcb.md) | 中国大陆 | 在线PCB与PCBA、元件采购和贴装数据检查、原型及生产装配、电子机械制造入口 |
 | [Kaifa / 深科技](supply-chain/kaifa.md) | 中国大陆 | 物料采购至PCBA和整机装配、DFM DFT DFA评估、失效分析与产品验证、智能设备电子制造 |
 | [KINPO Group / 金宝电子](supply-chain/new-kinpo-group.md) | 中国台湾 | 家用电器制造、PCBA与电子组装、塑料注塑及模具、无线通信模块与穿戴设备 |
 | [Kitron](supply-chain/kitron.md) | 挪威 | 专业电子制造与系统装配、工业化与采购、环境与功能测试、维修升级和生命周期支持 |
+| [KNF Flodos](supply-chain/knf-flodos.md) | 瑞士 | 液体隔膜泵、按介质与安装条件配置泵体、液体泵开发与组装、OEM流体输送模块导入 |
 | [Leopard Imaging](supply-chain/leopard-imaging.md) | 美国 | 嵌入式相机设计制造、主动对准与图像调校、立体及飞行时间深度方案、多类计算平台驱动开发、相机OEM与ODM服务 |
 | [Longcheer / 龙旗科技](supply-chain/longcheer.md) | 中国大陆 | 智能终端产品定义与ODM、通信显示相机音频平台、端侧AI与自动化测试平台、结构工程与智能制造 |
 | [Luxshare / 立讯精密](supply-chain/luxshare-ict.md) | 中国大陆 | 声学与无线连接模组、精密机械与系统封装、智能音箱及消费终端整合、零组件到系统组装 |
@@ -327,6 +335,8 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Seeed Studio / 矽递科技](supply-chain/seeed-studio.md) | 中国大陆 | 开源硬件与传感模组、Fusion PCB与PCBA、原型产品化与敏捷制造、边缘AI及开发者支持 |
 | [SIIX](supply-chain/siix.md) | 日本 | 电子零件采购、PCB贴装与电子装配、塑胶成型及整机装配、物流与跨地区制造协调 |
 | [Sunwoda 欣旺达](supply-chain/sunwoda.md) | 中国大陆 | 消费电子电芯与电池、小动力电池、智能硬件电池方案、电池结构与系统集成、电池生产与质量管理能力 |
+| [Takasago Electric 高砂电气](supply-chain/takasago-electric.md) | 日本 | 隔离阀与夹管阀、微型蠕动及注射泵、流路歧管定制、带反馈的分液模块 |
+| [Tekscan](supply-chain/tekscan.md) | 美国 | FlexiForce薄膜力传感器、定制感测区域与形状、压力分布测量、OEM信号调理与标定开发工具 |
 | [Tianma 天马微电子](supply-chain/tianma.md) | 中国大陆 | 小中尺寸TFT-LCD、AMOLED显示、标准面板与定制LCM、投射电容触控和盖板贴合、工业与户外显示应用方案 |
 | [USI / 环旭电子](supply-chain/usi.md) | 中国大陆 | 消费PCBA及整合方案、SiP微小化技术、联合设计与DfX评估、无线音频及设备模组制造 |
 | [Venture Corporation](supply-chain/venture-corporation.md) | 新加坡 | 研发及产品工业化、电子与系统制造、物料和供应链管理、生活方式与健康领域技术服务 |
@@ -345,6 +355,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [华勤技术 Huaqin](supply-chain/huaqin.md) | 中国大陆 | 智能音箱ODM、数码相框方案、IP摄像机方案、产品定义到结构与整机制造 |
 | [AAC Technologies 瑞声科技](supply-chain/aac-technologies.md) | 中国大陆 | 扬声器与耳机声学单元、声学仿真及整机调音、镜头、摄像模组和光学执行器、精密结构件、散热及转轴、声学与结构联合设计 |
 | [Arducam](supply-chain/arducam.md) | 中国香港 | 嵌入式相机模组、USB与MIPI等相机接口、多相机与全局快门方案、底层驱动及固件定制、外壳与整机视觉工程协作 |
+| [Bartels Mikrotechnik](supply-chain/bartels-mikrotechnik.md) | 德国 | BP7压电微泵、微流体驱动与开发套件、微型流路集成、定制流体系统开发 |
 | [Benchmark](supply-chain/benchmark-electronics.md) | 美国 | 复杂PCBA与SMT、测试开发和自动化、电子机械产品工程、长期产品维护与供应链 |
 | [BOE 京东方](supply-chain/boe.md) | 中国大陆 | 中尺寸平板显示、触控与主动笔集成、小尺寸穿戴AMOLED、VR/AR及智能家居显示产品类别、多类显示技术与模组协同 |
 | [Celestica](supply-chain/celestica.md) | 加拿大 | 复杂电子系统装配、定制测试与制造自动化、产品导入和供应链、全生命周期制造服务 |
@@ -363,6 +374,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Goertek / 歌尔](supply-chain/goertek.md) | 中国大陆 | 声学零组件与整机、AI音箱与家庭安防开发、光学与电子整合、模具注塑及自动化制造 |
 | [GSEO 玉晶光](supply-chain/genius-electronic-optical.md) | 中国台湾 | 紧凑光学镜头设计、光学设备与制程开发、移动及车载镜头、机器人和工业视觉镜头、AR智能眼镜光学方向 |
 | [HLH Prototypes](supply-chain/hlh-prototypes.md) | 中国大陆 | CNC原型与零件、三维打印、快速模具、注塑及低批量制造 |
+| [Interlink Electronics](supply-chain/interlink-electronics.md) | 美国 | FSR力敏电阻系列、定制压力与位置传感、印刷电子与交互界面、智能纺织相关工程 |
 | [Inventec / 英业达](supply-chain/inventec.md) | 中国台湾 | 笔记本与AIO系统ODM、个人系统工业设计、电子系统开发与质量工程、跨地区制造和系统交付 |
 | [Jabil / 捷普](supply-chain/jabil.md) | 美国 | 早期工程与产品开发、电子及系统制造、供应链管理、返修翻新与生命周期支持 |
 | [Japan Display（JDI）](supply-chain/japan-display.md) | 日本 | 中小尺寸显示研发与制造、工业显示标准产品、显示触控与接口选项、客户规格显示定制、显示相关技术与器件工程 |
@@ -370,6 +382,7 @@ SoC、MCU、AI加速、接口与电源芯片
 | [Kaifa / 深科技](supply-chain/kaifa.md) | 中国大陆 | 物料采购至PCBA和整机装配、DFM DFT DFA评估、失效分析与产品验证、智能设备电子制造 |
 | [KINPO Group / 金宝电子](supply-chain/new-kinpo-group.md) | 中国台湾 | 家用电器制造、PCBA与电子组装、塑料注塑及模具、无线通信模块与穿戴设备 |
 | [Kitron](supply-chain/kitron.md) | 挪威 | 专业电子制造与系统装配、工业化与采购、环境与功能测试、维修升级和生命周期支持 |
+| [KNF Flodos](supply-chain/knf-flodos.md) | 瑞士 | 液体隔膜泵、按介质与安装条件配置泵体、液体泵开发与组装、OEM流体输送模块导入 |
 | [Kopin](supply-chain/kopin.md) | 美国 | LCD、OLED、FLCoS及MicroLED微显示方案、定制光学组件、紧凑显示驱动电子设计、集成视觉系统与防护外壳、消费近眼显示应用开发 |
 | [LARGAN 大立光](supply-chain/largan.md) | 中国台湾 | 精密塑料光学镜头、移动成像镜头、摄像模组产品路线、音圈马达相关产品、车载及新型智能光学应用 |
 | [LARGE](supply-chain/large-electronics.md) | 中国大陆 | 定制锂电池包、电芯电气与结构设计、电池热管理、BMS保护、状态估计与通信、测试和认证支持 |
@@ -398,7 +411,9 @@ SoC、MCU、AI加速、接口与电源芯片
 | [SEKONIX](supply-chain/sekonix.md) | 韩国 | 机器人RGB与红外立体相机、飞行时间深度摄像、家电内置识别相机、DLP投影光学模组、AR眼镜及车载光学方向 |
 | [Sunny Optical 舜宇光学](supply-chain/sunny-optical.md) | 中国大陆 | 成像镜头与摄像模组、主动双目三维相机、结构光识别相机、广视场RGB相机、机器人视觉感知方案 |
 | [Sunwoda 欣旺达](supply-chain/sunwoda.md) | 中国大陆 | 消费电子电芯与电池、小动力电池、智能硬件电池方案、电池结构与系统集成、电池生产与质量管理能力 |
+| [Takasago Electric 高砂电气](supply-chain/takasago-electric.md) | 日本 | 隔离阀与夹管阀、微型蠕动及注射泵、流路歧管定制、带反馈的分液模块 |
 | [teenage engineering](supply-chain/teenage-engineering.md) | 瑞典 | 消费电子工业设计、软件、电气与机械协同开发、实体交互与样机研究、公开外部设计合作 |
+| [Tekscan](supply-chain/tekscan.md) | 美国 | FlexiForce薄膜力传感器、定制感测区域与形状、压力分布测量、OEM信号调理与标定开发工具 |
 | [Tianma 天马微电子](supply-chain/tianma.md) | 中国大陆 | 小中尺寸TFT-LCD、AMOLED显示、标准面板与定制LCM、投射电容触控和盖板贴合、工业与户外显示应用方案 |
 | [Tuya / 涂鸦智能](supply-chain/tuya.md) | 中国大陆 | AIoT设备与云端平台、TuyaOpen和模组适配、应用与智能体开发、原型定义及固件生成流程 |
 | [USI / 环旭电子](supply-chain/usi.md) | 中国大陆 | 消费PCBA及整合方案、SiP微小化技术、联合设计与DfX评估、无线音频及设备模组制造 |

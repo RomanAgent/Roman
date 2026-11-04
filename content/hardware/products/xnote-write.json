@@ -1,0 +1,474 @@
+{
+  "id": "xnote-write",
+  "name": "XNote Write",
+  "brand": "XNote",
+  "category": "creative-tools",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "tagline": "把带定位图案纸张上的手写变成可检索笔记的智能笔",
+  "officialUrl": "https://xnote.ai/products/starter-set?view=xnote-set",
+  "status": "on_sale",
+  "statusEvidence": "核查日官方XNote Write商品页显示US$199、Ships now和购买按钮，公开商品变体available=true。XNote Voice是另一个预生产录音设备，本条不混用其麦克风和预售描述。",
+  "regions": [
+    "美国及官网结算支持地区（目的地另核）"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "未核中国大陆官方零售、App分发与云AI可达性；中文手写识别表现也未实测。海外可购不等于本地完整服务。"
+  },
+  "price": {
+    "text": "官方笔与本套装US$199",
+    "note": "当前页面说明手写转文字和AI笔记无需额外订阅；可选音频套餐及替换笔记本成本另计，普通纸不能同步。"
+  },
+  "ai": {
+    "type": "hybrid",
+    "description": "笔端光学传感器读取专用纸上细小定位图案并经蓝牙同步笔迹；App将手写转文字，支持搜索、AI问答和任务提取。",
+    "dependency": "须用XNote笔记本或App生成后用激光打印机打印的图案纸。笔可离线保存笔迹，首次配对、文字识别与AI需要网络；笔本身没有麦克风。"
+  },
+  "highlights": [
+    "真实墨水与纸张书写",
+    "光学图案定位并同步笔迹",
+    "App AI理解与检索笔记",
+    "笔端采集与云端理解分开"
+  ],
+  "analysis": {
+    "demand": "案头需求是在保留纸笔习惯时，减少日后找笔记、转录和整理任务的负担。硬件解决连续采集，AI解决文字与语义处理；是否省时取决于复查错误所需时间，不能只看自动生成摘要。",
+    "userProfile": "适合长期手写、有查找旧笔记需求且愿意使用专用图案纸的人。若主要画画、频繁在便签或普通纸上写，适配会受限制；购买前应核对自己实际纸张和跨设备工作流。",
+    "competition": "竞争包括拍照扫描、平板手写和其它点阵纸智能笔。XNote保留墨水手感却增加纸张依赖，独立价值在持续笔迹输入和之后的AI检索；不把同品牌预售录音器算成相同功能。",
+    "supplyChain": "笔内需要光学读取、墨水笔芯、存储、蓝牙与电池，纸张印刷也属于系统交付。工厂及关键芯片未披露；小型光学与电池候选只表示能力方向，不能凭外形推定真实采用。",
+    "technology": "光学图案用于确定笔迹所在页和位置，识别成文字及语义问答则在App云流程。离线存笔迹不等于离线AI；普通纸只能留下墨水，不能因笔上有传感器就宣称任何纸都同步。",
+    "aesthetics": "黑色笔和普通装订本把电子功能藏在熟悉的书写形态里。分析上，握持、笔帽、长时书写和充电提示影响日常接受度；无屏设计降低干扰，同时让配对状态依赖手机检查。",
+    "risks": "风险是图案纸缺货、离线笔迹同步失误及AI把潦草笔记改写成错误任务。记录中可能包含敏感会议内容，上传前要理解云处理；笔无麦克风，音频功能来自手机或其它服务。",
+    "opportunity": "可验证机会在已有稳定纸笔习惯的研究、访谈与课程整理。让用户记录真实一周，再查找特定日期的决定和待办，比较拍照扫描与人工整理的总用时，观察是否愿意持续补充纸张。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "数字纸笔已有多种成熟替代，带图案纸的连续采集是明确约束；AI整理是否有用需结合真实手写习惯。"
+  },
+  "architecture": [
+    {
+      "name": "真实书写",
+      "detail": "常规墨水笔芯在纸面留下文字。",
+      "evidence": "official"
+    },
+    {
+      "name": "定位图案读取",
+      "detail": "笔端光学传感器识别XNote纸上的细小图案，定位页与笔迹。",
+      "evidence": "official"
+    },
+    {
+      "name": "存储与蓝牙",
+      "detail": "暂存笔迹并传给配对App，具体控制芯片未披露。",
+      "evidence": "official"
+    },
+    {
+      "name": "App与云AI",
+      "detail": "手写转文字、检索、问答与任务整理需要网络。",
+      "evidence": "official"
+    },
+    {
+      "name": "纸张及电源",
+      "detail": "专用本或App图案打印纸配合可充电笔；纸本本身不是电子屏。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "XNote Write官方商店",
+      "url": "https://xnote.ai/products/starter-set?view=xnote-set",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "technology",
+        "availability"
+      ],
+      "note": "实际打开；199美元、Ships now、当前免费手写AI范围及笔无麦克风说明。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "title": "XNote工作原理",
+      "url": "https://xnote.ai/pages/how-it-works",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "usage"
+      ],
+      "note": "实际打开；光学图案、蓝牙、离线笔迹、网络条件与普通纸不兼容。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "title": "XNote App说明",
+      "url": "https://xnote.ai/pages/xnote-app",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "usage"
+      ],
+      "note": "实际打开；手写笔记、AI查询和音频来源的功能边界。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "checkedAt": "2026-11-05",
+  "deepDive": {
+    "checkedAt": "2026-11-05",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "XNote Write官方商店",
+        "url": "https://xnote.ai/products/starter-set?view=xnote-set",
+        "note": "实际打开；199美元、Ships now、当前免费手写AI范围及笔无麦克风说明。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "id": "s2",
+        "title": "XNote工作原理",
+        "url": "https://xnote.ai/pages/how-it-works",
+        "note": "实际打开；光学图案、蓝牙、离线笔迹、网络条件与普通纸不兼容。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "id": "s3",
+        "title": "XNote App说明",
+        "url": "https://xnote.ai/pages/xnote-app",
+        "note": "实际打开；手写笔记、AI查询和音频来源的功能边界。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "事实：任务边界",
+          "text": "XNote Write是当前正式发货的智能笔和纸本套装，笔端读取印在纸上的细小图案并同步手写笔迹，App再提供文字和笔记处理。它的起点是真实墨水留下的记录，和同品牌另一个预售中的Voice录音器不同，不能混用音频采集或销售状态。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：真实需求",
+          "text": "需求假设是用户愿意保留纸笔，却希望之后快速查到某个决定、日期或待办。连续采集可以减少逐页拍照，但若平时很少回看笔记，数字化可能只增加一个存储位置；价值应由找回信息与行动的任务衡量，而不是由同步页面总数衡量。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：任务完成",
+          "text": "验证时可让长期纸笔用户照常记录一周，再给出真实检索任务，例如找到某次会议的决定和责任人。比较手翻纸本、拍照扫描与XNote的总耗时，同时记录文字纠错和重复整理；询问哪些任务确实因此完成，避免把AI摘要生成视作终点。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "事实：使用条件",
+          "text": "官方当前说明支持XNote笔记本或从App生成并打印的图案纸，普通纸不能同步，首次配对和AI处理需要网络。笔可以先保存笔迹再连接手机，因而书写和语义处理发生在不同阶段；用户必须接受专用纸张、手机账户和定期充电的组合。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：人群筛选",
+          "text": "更值得考虑的人是已经有稳定手写习惯、经常查找旧内容且不想改用平板的人。经常在散纸、便签或任何临时表面写字的人会遭遇兼容限制；绘图者、文字笔记者和会议组织者对识别与整理的要求也不同，不能笼统归为知识工作者。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：参与者差异",
+          "text": "访谈可先查看参与者最近使用的三种纸张与笔记场景，询问为何不用平板或拍照。试用后记录是否为兼容设备改变纸张选择、是否忘记带笔或给笔充电，以及对中文潦草字、图文混排和任务提取的容忍度，不预设所有习惯都能迁移。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "事实：方案范围",
+          "text": "XNote的输入路径依赖光学定位图案，输出则通过App转成文字、检索和AI问答，介于传统纸笔与平板之间。已核页面明确普通纸无法同步，因此它和宣称任意纸采集的方案不同；本条只收录Write硬件，不把音频套餐或纸本尺寸当新产品。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：替代关系",
+          "text": "相对手机拍照，它可能减少每次归档动作，却增加专用纸与电子笔管理；相对平板，它保留真实纸面，却没有直接在屏幕上修改数字内容的闭环。竞争判断应围绕检索频率和书写偏好，而不是简单比较哪些产品列出的AI功能更多。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：比较方法",
+          "text": "可以在相同课程或访谈任务中交替使用普通本加扫描、平板手写与XNote，比较捕捉遗漏、检索正确性和修正工作量。之后让用户自行选择下一周工具并解释理由；若选择只由新鲜感驱动，应继续观察，不能据一次体验推断替代传统纸笔。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "事实：功能组成",
+          "text": "公开机制包括笔芯、光学图案传感、笔端暂存、蓝牙连接和充电电池，纸张上的印刷图案也是不可缺少的输入部分。官方没有公布笔端芯片、光学器件供应商或工厂；本目录关联的小型视觉、电池与结构公司仅表示可评估能力，不是实际采购关系。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：交付约束",
+          "text": "工程判断，难点不只在把电子装入细笔身，还包括握持姿态下的光学读取、笔芯更换、重心和图案印刷一致性。用户自己打印纸页时，纸张尺寸与打印质量也会影响完整链路；长期供应应同时考虑笔和纸，而不能只计算单支电子笔成本。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：选型缺口",
+          "text": "可对候选方案测试不同书写倾角、速度与纸面条件，核对更换笔芯或打印新纸后是否仍能连续定位。要求品牌明确耗材兼容表、断连数据恢复和损坏笔的迁移方式；没有拆机或品牌披露前不填具体元件型号，也不把类似外壳视作同一代工来源。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "事实：AI机制",
+          "text": "官方原理页说笔上的光学传感器读取细小定位图案，把每笔放到App中的正确页面，蓝牙负责传输。离线时保存的是笔迹数据；首次配对、手写转文字和AI需要互联网。笔端没有麦克风，手机录音或其它录音服务不应被误画进笔的内部结构。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：系统边界",
+          "text": "分析上，正确采集笔迹与正确理解内容是两个问题：字迹位置准确，也可能出现错字、日期混淆或AI把未定事项改成确定任务。用户应能回到原始手写页核对生成内容，尤其是专有名词和混合语言；自动整理的可信度不能由蓝牙同步成功推导。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：算法与体验",
+          "text": "技术验证可保存笔迹原页、识别文字和AI输出三份对照，用真实缩写、箭头、划改和表格检查信息是否遗漏。再模拟笔离线、手机断网和重新连接，核验页面顺序与重复内容；识别准确率需要明确字样和语言条件，不引用泛化的宣传数字。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "事实：外观与交互",
+          "text": "真实图片呈现黑色细长笔与纸质笔记本，电子功能隐藏在熟悉的笔帽、笔身和书写动作里，没有独立显示屏。官方还提供笔尖及上端细节图，便于识别正确产品；本目录结构示意只把内部拆成功能块，纸本保持被动介质，不假装有电子屏。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：使用中的形态",
+          "text": "审美和交互判断应看长时间握笔、笔帽放置及状态提示是否自然。外观越像普通笔，用户越可能忽略电量或同步状态；把反馈都放到手机又可能打断纸笔专注。好的设计需要在不干扰书写和及时发现采集失败之间取得可理解的平衡。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：日常接受度",
+          "text": "观察试用者连续书写、临时停笔和收纳时的动作，记录何时查看手机确认同步、何时忘记充电，以及是否因握姿调整而不适。比较单纯外观喜好与真实携带选择；不能从轻薄图片推断握持舒适，也不能为统一网站风格改掉真实产品颜色。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "事实：已知限制",
+          "text": "当前页面将手写文字和AI笔记纳入无需额外订阅的范围，音频服务另有计划；这与部分早期资料的收费表达可能不同，应以核查日页面为准。普通纸不兼容和云处理需求都是已知条件，国内App、服务可达性及中文识别表现没有在本轮确认。",
+          "evidence": "official",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：失效影响",
+          "text": "风险包括图案纸供给变化、笔迹尚未上传时设备丢失、AI误读关键决定以及用户误以为能离线完成全部处理。会议和访谈可能包含他人信息，上传前应遵循参与者约定；不能把厂商“不用于训练”的表述扩大为所有内容永不保存或完全离线。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：风险处理",
+          "text": "验证应涵盖导出格式、账户注销、取消可选计划和笔损坏后的历史数据访问，并实测离线记录到最终同步的恢复流程。让用户对照原页确认日期、金额和待办责任人，记录修正成本；这些测试尚未开展，本条不会把待验证项目写成已通过保障。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "判断：可尝试切口",
+          "text": "机会假设在把手写输入与用户已经使用的知识整理方式接好，例如访谈后的主题检索或课程后的待办提取。并非每个人都需要新的AI笔记库；如果必须长期维护两套档案，即使识别方便也可能增加负担，因此应先验证信息最终流向哪里。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "判断：商业边界",
+          "text": "商业边界包括硬件、纸本补充、云处理和支持成本，目前免费手写AI的承诺也需要持续服务支撑。对个人创作者而言，真正愿意支付的可能是可靠找回旧记录而非无限生成摘要；现有资料不足以推断续购率或软件经济性，不做销量估计。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "验证：下一步调研",
+          "text": "建议完成一轮真实项目跟踪，从首次写下信息到最后交付成果记录每次检索和修正。访谈哪些内容只在纸上保留、哪些进入数字系统，以及是否愿意继续购买兼容纸；用实际任务结果决定下一轮实验，而不是用语言模型给产品打成功概率分。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "arducam",
+        "role": "optics",
+        "relationship": "candidate",
+        "component": "微型图案读取视觉工程候选",
+        "rationale": "Arducam具有相机模组及定制工程能力，可作为笔端小范围光学采集的方案讨论对象；笔身空间、焦距和功耗需要专门验证，现有相机并不自动满足要求。XNote未披露采用该公司，本关联仅为开发候选。",
+        "sourceIds": [
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1"
+        ]
+      },
+      {
+        "supplierId": "grepow",
+        "role": "power",
+        "relationship": "candidate",
+        "component": "细长笔身电池候选",
+        "rationale": "Grepow公开提供定制形状和小型穿戴电池能力，可用于讨论细笔身的空间、续航及充电保护限制。实际电池型号与供应关系没有披露，不能由外观估算容量，也不能直接声称某现成电池可装入XNote。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "protolabs",
+        "role": "mechanical",
+        "relationship": "candidate",
+        "component": "笔身与笔帽结构打样候选",
+        "rationale": "Protolabs的加工和结构打样能力可支持笔身、笔帽及传感器窗口样件的可制造性验证，尤其需要兼顾握持与光学视野。目录未发现其参与XNote的公开证据，本项不代表量产工厂或真实结构材料。",
+        "sourceIds": [
+          "s1"
+        ],
+        "supplierSourceIds": [
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "handwriting-organization",
+      "needName": "手写笔记整理与查找",
+      "difference": "与拍照归档或电子纸手写相比，XNote通过笔端读取专用纸的定位图案，连续采集真实墨水笔迹，再把识别和AI检索放到App。差异在纸面输入不需逐页拍照且可暂存离线笔迹；局限是普通纸不能同步、语义处理需网络，AI整理错误仍须回原页核对。",
+      "comparisonBasis": "比较普通纸笔加手机扫描、平板或电子纸手写以及其它图案纸智能笔",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/xnote-write/product.png",
+      "sourceUrl": "https://xnote.ai/products/starter-set?view=xnote-set",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0643/0903/5160/files/xp-v3-set-square-800.png?v=1791356901",
+      "caption": "XNote Write 官方产品图",
+      "alt": "XNote Write 官方产品图",
+      "credit": "XNote · 官方资料",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 96980,
+      "sha256": "d7002235bfe4eab058c6c4dda879070c1208ebac791d98227546f86cefe6bf9d"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/xnote-write/reference.png",
+      "sourceUrl": "https://xnote.ai/products/starter-set?view=xnote-set",
+      "sourceImageUrl": "https://xnote.ai/cdn/shop/t/55/assets/xp-v4-gal-pen-960.webp?v=78755795331715467711791263373",
+      "caption": "XNote Write 官方笔尖与笔身细节图",
+      "alt": "XNote Write 官方笔尖与笔身细节图",
+      "credit": "XNote · 官方资料",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 116233,
+      "sha256": "821ab048f4769d06ad05b480bd37960188539ff02b3fc0b51b7f58b723dbcb9b"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/xnote-write/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "XNote Write 功能模块概念爆炸示意；内部结构与位置为推断，非实物拆机。",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-05",
+      "promptPath": "content/hardware/prompts/xnote-write.txt",
+      "referencePaths": [
+        "assets/hardware/xnote-write/product.png",
+        "assets/hardware/xnote-write/reference.png"
+      ],
+      "verified": true,
+      "bytes": 1412528,
+      "sha256": "cd89df6447d4b888f5ef3131451f30fe31f9b0f07ba80fa06b5e6bc3b1004b93"
+    }
+  ],
+  "mediaNotes": [
+    "以已目视核对的官方图片独立生成并完成目视QA；未知内部只作功能概念，不是实际PCB、拆机或供应商BOM。",
+    "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+  ]
+}

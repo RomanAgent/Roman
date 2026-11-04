@@ -248,6 +248,24 @@
       "productName": "xTool F2",
       "category": "creative-tools",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "e-con-systems",
+      "role": "optics",
+      "relationship": "candidate",
+      "component": "低光摄像模组工程候选",
+      "rationale": "e-con Systems公开的相机与嵌入式视觉能力可作为低光采集路线的技术询问对象，需进一步验证光学、接口及功耗条件。Seemor并未披露使用该公司模组，本关联只说明功能匹配方向，不代表现售部件能直接替换。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "akaso-seemor-200",
+      "productName": "AKASO Seemor-200",
+      "category": "imaging",
+      "status": "on_sale"
     }
   ]
 }

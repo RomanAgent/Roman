@@ -203,6 +203,12 @@
       "name": "空间显示与交互",
       "description": "裸眼空间内容、多视图与空间交互辅助",
       "group": "创作与兴趣"
+    },
+    {
+      "id": "lighting",
+      "name": "灯光与环境表达",
+      "group": "家庭与生活",
+      "description": "生成与调整实体灯光、像素图形和动态环境内容"
     }
   ],
   "coverageBacklog": [

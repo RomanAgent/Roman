@@ -238,6 +238,10 @@
 
 - [hlh-prototypes](../supply-chain/hlh-prototypes.md) — **能力候选 · 非已采用** / 可维护透明机身与结构原型评估：HLH Prototypes的原型与低量制造服务可支持外壳、瓶位和维护可达性测试，但不能据此推定精密液路、试剂卫生或测量准确度合格；本次未发现Reef Kinetics点名实际采用，保持候选关系。
 
+- [knf-flodos](../supply-chain/knf-flodos.md) — **能力候选 · 非已采用** / 同类取样液路的隔膜泵工程候选：ReefBot的家庭试剂检测需要稳定取样与液体转移，KNF Flodos公开液体泵及定制工程可作为新设计的执行件候选。必须另外验证盐水、试剂、清洗和气泡条件；没有Reef Kinetics点名采用证据，也不能把标准泵直接视为原机兼容件。
+
+- [takasago-electric](../supply-chain/takasago-electric.md) — **能力候选 · 非已采用** / 同类多路试剂分发与流量反馈候选：高砂公开微型管泵、阀和带流量反馈的分液模块，适合评估多试剂切换、残液与计量控制的原型方案。食品或盐水及化学试剂接触条件仍需项目确认；本链接用于同类新产品选型，并不说明ReefBot实际采用该公司或此分液模块。
+
 [浏览供应链目录](../supply-chain.md)
 
 ## 功能分层示意

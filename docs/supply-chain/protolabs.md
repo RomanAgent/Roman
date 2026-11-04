@@ -154,6 +154,20 @@ Protolabs 的公开定位覆盖定制原型至终端生产零件，使用数字�
 
 - [Looking Glass Go（白色版）](../hardware/looking-glass-go.md) — **能力候选 · 非已采用** / 折叠底座与显示外壳原型候选：Go的竖屏和折叠底座需要结构、铰链及接口布局配合，Protolabs公开原型和结构制造能力，可作为外壳与支撑样件候选。疲劳、散热、线缆与光学定位须按整机验证，不能把加工能力视为已被Looking Glass采用或可提供完整显示系统。
 
+- [eufyMake E1](../hardware/eufymake-e1.md) — **能力候选 · 非已采用** / 外壳与平台结构打样候选：Protolabs的结构加工与快速打样能力可匹配机壳、支架及平台样件验证，不能覆盖UV墨水和喷头工艺本身。候选关联针对开发阶段的机械实现，未有证据说明其制造E1量产零件。
+
+- [XNote Write](../hardware/xnote-write.md) — **能力候选 · 非已采用** / 笔身与笔帽结构打样候选：Protolabs的加工和结构打样能力可支持笔身、笔帽及传感器窗口样件的可制造性验证，尤其需要兼顾握持与光学视野。目录未发现其参与XNote的公开证据，本项不代表量产工厂或真实结构材料。
+
+- [Carv 2](../hardware/carv-2.md) — **能力候选 · 非已采用** / 雪靴夹持与外壳打样候选：Protolabs的结构加工和样件制造可服务于夹子弹性、外壳配合及不同绑带厚度测试，不能仅靠图纸确认雪地长期耐用。没有公开资料表明该公司制造Carv零件，本关联只代表原型开发的可考虑能力。
+
+- [Elgato Prompter](../hardware/elgato-prompter.md) — **能力候选 · 非已采用** / 遮光罩与相机支架打样候选：Protolabs可提供结构件加工和样件验证，用于遮光罩、后背板及相机支架的配合与承重测试。光学玻璃本身需要另核工艺；目录没有证据说明其制造Prompter，本链接仅服务开发选型。
+
+- [FightCamp Connect Gen 3](../hardware/fightcamp-connect-gen3.md) — **能力候选 · 非已采用** / 传感器外壳与固定口袋样件候选：Protolabs的结构样件加工可帮助验证传感器外壳、充电座配合与固定带口袋尺寸，但软性接触和反复冲击还要另行测试。没有资料显示其参与FightCamp量产，本链接仅表示原型阶段可考虑的结构服务。
+
+- [Vochlea Dubler Studio Kit 2](../hardware/vochlea-dubler-studio-kit-2.md) — **能力候选 · 非已采用** / 麦克风壳体与握持打样候选：Protolabs的机械加工和快速样件能力可用于验证网罩支撑、握柄外壳及线缆出口结构，声学响应仍需与拾音模块一起测试。没有公开证据表明其参与Vochlea制造，本项不构成实际供应或材料确认。
+
+- [Gorilla Bells](../hardware/gorilla-bells.md) — **能力候选 · 非已采用** / 配重与底座结构原型候选：Protolabs的加工与结构样件能力可帮助验证配重配合、握持和底座原型，锁止安全与长期疲劳仍须独立工程审查。官网没有披露它参与Gorilla制造，本项只表示可能适配的开发能力，不能当成量产结构证明。
+
 - [YSL Rouge Sur Mesure](../hardware/ysl-rouge-sur-mesure.md) — **能力候选 · 非已采用** / 外壳与可拆盘的原型和模具验证：Protolabs公开快速原型及模具服务可用于筒身、色芯接口和可拆盘装配验证，但材料与唇彩接触合规及计量性能并非自动满足；没有YSL型号采用证据，当前仅列结构工程候选。
 
 - [Moen Flo Smart Water Shutoff（900-006）](../hardware/moen-flo-shutoff-900-006.md) — **能力候选 · 非已采用** / 壳体与连接接口的原型评估：Protolabs公开加工和模具能力可支持外壳、接口与装配可达性原型，但水路承压、密封及材料接触要求不由通用加工自动保证；未见Moen该型号实际采用，仅作为结构工程候选。
@@ -161,6 +175,10 @@ Protolabs 的公开定位覆盖定制原型至终端生产零件，使用数字�
 - [SEERGRILLS Perfecta](../hardware/seergrills-perfecta.md) — **能力候选 · 非已采用** / 耐热壳体及夹架的结构原型评估：Protolabs公开加工与快速原型服务可支持炉身、夹架和可拆洗接口验证，但材料耐热、食品接触及燃气边界须专门工程确认；未见SEERGRILLS实际采用披露，只列结构能力候选而非现有供应商。
 
 - [Aveine Wine Aerator](../hardware/aveine-wine-aerator.md) — **能力候选 · 非已采用** / 瓶口接口与可清洗外壳原型：Protolabs的加工及原型服务可用于瓶口接口、外壳与装配评估，但食品接触、密封和注气路径需要专门确认；没有Aveine实际采用证据，不以通用制造能力推定本机已满足全部液体使用要求。
+
+- [Ondilo ICO Pool v2 Chlorine/Bromine](../hardware/ondilo-ico-pool.md) — **能力候选 · 非已采用** / 浮体顶盖与传感保护结构：Protolabs公开数字制造与原型服务可匹配浮体、顶盖、保护罩等结构迭代需求。该链接是候选方案而非现有供货披露，材料耐水耐化学与密封设计须针对泳池环境重新评估，不能由加工能力直接保证。
+
+- [OSIM uDream.AI Well-Being Chair](../hardware/osim-udream-ai.md) — **能力候选 · 非已采用** / 大型外壳与接触结构样件：Protolabs公开原型与数字制造能力可用于弧形外壳、支撑部件和装配样件的设计迭代。没有该OSIM型号供货证据；人体接触、承重、软包及长期运动寿命需另行验证，不由一般原型制造能力直接保证。
 
 ## 来源
 

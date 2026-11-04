@@ -420,6 +420,63 @@
       "productName": "Aveine Wine Aerator",
       "category": "kitchen",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "usi",
+      "role": "connectivity",
+      "relationship": "candidate",
+      "component": "联网记录与紧凑系统制造",
+      "rationale": "环旭公开无线通信与系统整合能力可对应户外记录器的连接和紧凑电子模块需求。这里只建立研发选型匹配，未确认PUC实际代工或模块来源，户外声学密封及校准仍须单独验证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "birdweather-puc",
+      "productName": "BirdWeather PUC",
+      "category": "garden",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "usi",
+      "role": "connectivity",
+      "relationship": "candidate",
+      "component": "消费联网模块与系统制造",
+      "rationale": "环旭电子公开消费应用及无线系统能力可作为固定式活动传感器连接模块、紧凑电路与制造测试的候选。未确认其实际为AltumView供货，不能由通用无线能力推断该型号采用或承担任何照护算法责任。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "altumview-sentinare-3",
+      "productName": "AltumView Sentinare 3",
+      "category": "home-safety",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "usi",
+      "role": "connectivity",
+      "relationship": "candidate",
+      "component": "小型蜂窝定位与无线系统",
+      "rationale": "环旭公开无线模块与消费系统能力可对应BoT的蜂窝连接、定位通信与紧凑终端集成需求。没有该美国版的供货披露，不能视为实际制造伙伴；运营商服务、地区激活与位置学习平台须另行验证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "bsize-bot-talk-us",
+      "productName": "Bsize BoT Talk（美国版）",
+      "category": "wearables",
+      "status": "on_sale"
     }
   ]
 }

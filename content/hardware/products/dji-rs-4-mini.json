@@ -13,8 +13,9 @@
     "美国官方店"
   ],
   "china": {
-    "availability": "unclear",
-    "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    "availability": "official",
+    "note": "2026-11-05 在中国大陆商城选择“DJI RS 4 Mini 套装”，核实包含 RS 智能追踪模块和手提转接手柄，页面显示加购与配送日期。基础款不包含该追踪模块；未实际下单。",
+    "checkedAt": "2026-11-05"
   },
   "price": {
     "text": "智能跟随Combo参考US$369；基础款US$309",
@@ -91,6 +92,17 @@
         "technology"
       ],
       "note": "面向创作者的智能跟随与构图，条件依模块和组合。"
+    },
+    {
+      "title": "DJI RS 4 Mini 中国大陆官方套装页",
+      "url": "https://store.dji.com/cn/product/dji-rs-4-mini?set_region=CN&vid=183291",
+      "kind": "official-store",
+      "supports": [
+        "china",
+        "regions"
+      ],
+      "note": "2026-11-05 在中国大陆商城选择“DJI RS 4 Mini 套装”，核实包含 RS 智能追踪模块和手提转接手柄，页面显示加购与配送日期。基础款不包含该追踪模块；未实际下单。",
+      "accessedAt": "2026-11-05"
     }
   ],
   "checkedAt": "2026-11-04",

@@ -1,0 +1,476 @@
+{
+  "id": "osim-udream-ai",
+  "name": "OSIM uDream.AI Well-Being Chair",
+  "brand": "OSIM",
+  "category": "personal-care",
+  "tagline": "将手机相机推断的压力指标连接到家用按摩程序推荐",
+  "officialUrl": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+  "status": "on_sale",
+  "statusEvidence": "官方美国商品页US$12999，Shopify公开商品数据两种颜色均available:true；本条为uDream.AI，官方手册型号OS-8258，不沿用早期uDream或uDream Pro。",
+  "regions": [
+    "美国",
+    "澳大利亚"
+  ],
+  "china": {
+    "availability": "unclear",
+    "note": "2026进博会OSIM展商官方资料确认uDream AI在中国展示及中文命名，但本次未核实大陆可立即下单的具体价格和库存；展会预约不等于零售订单。海外规格电源与本地售后另核。"
+  },
+  "price": {
+    "text": "美国官方 US$12,999",
+    "note": "当前标价，官网对比价US$17999；澳洲官方另有当地销售价格。颜色不另算产品，配送安装、上楼与退换条件需按地区确认，不把分期金额当整机价。"
+  },
+  "ai": {
+    "type": "perception",
+    "description": "OSIM明确采用Binah.ai的rPPG，通过兼容手机等设备相机分析面部颜色变化，给出日常压力等指标并辅助按摩推荐；不是椅内摄像头自动诊断。",
+    "dependency": "AI分析依赖兼容设备、OSIM Well-Being App及相应服务；基本按摩与手动设置是另一层功能。结果用于一般舒适与放松，不替代医疗评估。"
+  },
+  "highlights": [
+    "手机视觉分析与实体按摩执行连接，区别于只手选预设程序",
+    "当前AI型号采用非接触相机输入，不借用旧款扶手传感器说明",
+    "机械按摩、灯光、声音与香氛形成家用体验，但不据此承诺治疗或睡眠改善"
+  ],
+  "analysis": {
+    "demand": "需求假设：希望在家获得可重复放松流程的人，可能需要降低挑选复杂按摩程序的负担。相机分析与推荐能提供选择起点，但其价值应由舒适度和长期使用验证，不能从压力分数下降直接推导治疗、改善疾病或替代休息。",
+    "userProfile": "画像推断：具备摆放空间、配送条件并愿意使用应用的家庭较匹配，实际坐感、身形适配与个人偏好比年龄或收入标签更重要。有特殊健康状况者需先了解官方适用限制，不把所有老人、久坐者或压力大的人都当成适用用户。",
+    "competition": "竞争判断：与普通按摩椅、人工选择程序和家庭放松用品竞争，差异是外部视觉指标与推荐接入整机体验。旧uDream、Pro与当前AI型号不并列凑数；需要比较推荐是否减少选择负担，而非用合作品牌数量证明按摩效果。",
+    "supplyChain": "供应链分析：大型壳体软包、承重运动机构、气囊滚轮、电控和感官组件需要整机协同。官方点名部分体验及AI合作方，但完整制造工厂、BOM和装配测试未披露，不能把外部技术合作等同整机代工或全部供应商清单。",
+    "technology": "技术判断：当前官方说明以兼容设备相机进行rPPG分析并生成一般健康与压力指标，模型细节和独立适用性未完整公开。应区分相机推断、推荐规则与按摩机械控制，不把身体位置检测或预设程序全部归为生成式AI。",
+    "aesthetics": "审美判断：包裹式弧形顶罩和大面积软包形成私密座舱，家居存在感也明显高于普通单椅。设计判断需看展开空间、进出和清洁，灯光与香氛可增强仪式感，但不能因豪华视觉就推定每个家庭愿意长期摆放。",
+    "risks": "风险判断：相机测量会受环境和使用条件影响，建议强度仍须个人确认，异常不适不能被AI分数解释掉。手册强调家用且并非睡床；大型配送、售后维修及地区电源差异也会改变跨境购买成本，不承诺通用适配。",
+    "opportunity": "机会假设：可以从减少程序选择与建立可持续放松习惯验证，而非承诺家庭医疗管理。若用户仍长期只用同一手动模式，AI附加价值就有限；可解释推荐和容易停止调整的交互可能比继续增加感官功能更重要。"
+  },
+  "niche": {
+    "level": "specialist",
+    "reason": "按摩椅大类成熟，但相机压力推断到家用多感官按摩推荐是较明确的交互机制；高价格、空间和身体适配限制人群。"
+  },
+  "architecture": [
+    {
+      "name": "座舱与支撑",
+      "detail": "弧形顶罩、侧壳、坐垫和腿足支撑。",
+      "evidence": "official"
+    },
+    {
+      "name": "按摩执行",
+      "detail": "滚轮与气囊等按摩功能，隐藏机构只作功能概念。",
+      "evidence": "official"
+    },
+    {
+      "name": "控制与电源",
+      "detail": "本机控制及应用连接，按地区规格供电。",
+      "evidence": "official"
+    },
+    {
+      "name": "感官体验",
+      "detail": "音响、灯光与香氛等可配置体验。",
+      "evidence": "official"
+    },
+    {
+      "name": "外部AI分析",
+      "detail": "兼容设备相机及Binah.ai相关分析服务，不虚构椅内面部相机。",
+      "evidence": "official"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OSIM美国当前uDream.AI官方商店",
+      "url": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+      "kind": "official-store",
+      "supports": [
+        "status",
+        "price",
+        "technology",
+        "architecture",
+        "regions"
+      ],
+      "note": "2026-11-05实际打开并核对公开商品数据两色可售；FAQ明确Binah.ai rPPG使用兼容设备相机，不作医学准确性背书。"
+    },
+    {
+      "title": "OSIM uDream.AI官方使用手册",
+      "url": "https://www.osim.com/Sites/user_manual/udream-ai.pdf",
+      "kind": "official-spec",
+      "supports": [
+        "architecture",
+        "technology",
+        "risks"
+      ],
+      "note": "实际打开76页手册，型号OS-8258，家用、非睡床及操作维护条件；不同市场电压不可混用。"
+    },
+    {
+      "title": "OSIM澳洲官方AI按摩椅说明",
+      "url": "https://osim.com.au/collections/ai-massage-chair",
+      "kind": "official-spec",
+      "supports": [
+        "technology",
+        "regions"
+      ],
+      "note": "实际打开AI分析、推荐、应用与身形定位描述；不将普通机械扫描本身全部称AI。"
+    },
+    {
+      "title": "OSIM进博会官方展商资料",
+      "url": "https://www.ciie.org/hall/f/exhibition-hall/exhibits/145eda421977412cb62213d999e55ba9/view",
+      "kind": "official-spec",
+      "supports": [
+        "china",
+        "technology"
+      ],
+      "note": "实际打开品牌展品页，中国展示不等于已验证当前本地零售库存；奖项和效果宣传不作为独立验证。"
+    }
+  ],
+  "checkedAt": "2026-11-05",
+  "audience": "consumer",
+  "saleMode": "retail",
+  "deepDive": {
+    "checkedAt": "2026-11-05",
+    "sources": [
+      {
+        "id": "s1",
+        "title": "OSIM美国当前uDream.AI官方商店",
+        "url": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+        "note": "2026-11-05本轮实际核查；2026-11-05实际打开并核对公开商品数据两色可售；FAQ明确Binah.ai rPPG使用兼容设备相机，不作医学准确性背书。"
+      },
+      {
+        "id": "s2",
+        "title": "OSIM uDream.AI官方使用手册",
+        "url": "https://www.osim.com/Sites/user_manual/udream-ai.pdf",
+        "note": "2026-11-05本轮实际核查；实际打开76页手册，型号OS-8258，家用、非睡床及操作维护条件；不同市场电压不可混用。"
+      },
+      {
+        "id": "s3",
+        "title": "OSIM澳洲官方AI按摩椅说明",
+        "url": "https://osim.com.au/collections/ai-massage-chair",
+        "note": "2026-11-05本轮实际核查；实际打开AI分析、推荐、应用与身形定位描述；不将普通机械扫描本身全部称AI。"
+      },
+      {
+        "id": "s4",
+        "title": "OSIM进博会官方展商资料",
+        "url": "https://www.ciie.org/hall/f/exhibition-hall/exhibits/145eda421977412cb62213d999e55ba9/view",
+        "note": "2026-11-05本轮实际核查；实际打开品牌展品页，中国展示不等于已验证当前本地零售库存；奖项和效果宣传不作为独立验证。"
+      }
+    ],
+    "dimensions": {
+      "demand": [
+        {
+          "title": "产品任务与边界",
+          "text": "需求假设：希望在家获得可重复放松流程的人，可能需要降低挑选复杂按摩程序的负担。相机分析与推荐能提供选择起点，但其价值应由舒适度和长期使用验证，不能从压力分数下降直接推导治疗、改善疾病或替代休息。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求判断",
+          "text": "判断：按摩椅的核心任务仍是身体接触产生的舒适体验，压力指标只是帮助用户选择程序的额外输入。若扫描步骤增加操作负担，或建议和个人偏好长期冲突，AI反而可能成为开始放松前的一道门槛，而不是自然融入日常习惯。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "需求验证",
+          "text": "验证：让愿意试用的家庭交替采用手动常用程序与AI推荐，记录开始所需步骤、舒适反馈和再次使用意愿。比较应控制时间与强度，并允许随时停止；没有独立评估前，不把单次分数变化或用户好评写成疾病、睡眠改善结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "userProfile": [
+        {
+          "title": "适用行为与条件",
+          "text": "画像推断：具备摆放空间、配送条件并愿意使用应用的家庭较匹配，实际坐感、身形适配与个人偏好比年龄或收入标签更重要。有特殊健康状况者需先了解官方适用限制，不把所有老人、久坐者或压力大的人都当成适用用户。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "人群取舍",
+          "text": "判断：不同家庭成员可能共享椅子，却对力度、包裹感、声音与香氛有完全不同的偏好。能否快速找到自己的设置、理解相机扫描和退出推荐，比简单划分年轻人或老年人更有用；实际采购还受电梯、门宽和摆放位置约束。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "画像验证",
+          "text": "验证：在购买前的展示体验中分别记录进入、调整、退出和保存偏好是否顺畅，再验证家中展开及通行空间。访谈需包含实际使用者而非只问出资人，确认是否愿意长期使用相机功能，并了解官方对特殊身体状况的使用限制。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "competition": [
+        {
+          "title": "比较对象与差异",
+          "text": "竞争判断：与普通按摩椅、人工选择程序和家庭放松用品竞争，差异是外部视觉指标与推荐接入整机体验。旧uDream、Pro与当前AI型号不并列凑数；需要比较推荐是否减少选择负担，而非用合作品牌数量证明按摩效果。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争判断",
+          "text": "判断：普通按摩椅可通过预设和记忆功能满足稳定偏好，当前AI型号的增量需要来自更少试错或更清晰的选择。多感官组件和高端合作品牌可以改变体验，但无法替代这项比较，也不能用更高价格本身证明技术或舒适优势。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "竞争验证",
+          "text": "验证：将同价位手动预设方案、已有家庭按摩习惯和当前AI推荐并列体验，记录真正被使用的功能而非功能表长度。分别询问推荐、声音、灯光和香氛的贡献，避免把整机新鲜感全部归因AI，并计入配送安装与后续维护。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "supplyChain": [
+        {
+          "title": "功能模块拆分",
+          "text": "模块拆分：承重结构、软包与可调支撑负责人体接触，滚轮气囊及电控负责按摩动作，声音灯光香氛形成附加体验。AI相机输入来自兼容外部设备，不能在椅内虚构面部摄像头或脑波模块，概念图也不指定未披露的内部执行布局。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "制造与供应约束",
+          "text": "供应链分析：大型壳体软包、承重运动机构、气囊滚轮、电控和感官组件需要整机协同。官方点名部分体验及AI合作方，但完整制造工厂、BOM和装配测试未披露，不能把外部技术合作等同整机代工或全部供应商清单。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "候选与证据缺口",
+          "text": "候选判断：Protolabs可用于外壳及结构样件的迭代验证，捷普可作为电控与电子测试体系的询证候选。二者未被证实参与OSIM该型号生产；软包工艺、承重寿命和机构协调仍需专门能力，不能以电子代工资质覆盖全部整机要求。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "technology": [
+        {
+          "title": "已披露技术边界",
+          "text": "技术判断：当前官方说明以兼容设备相机进行rPPG分析并生成一般健康与压力指标，模型细节和独立适用性未完整公开。应区分相机推断、推荐规则与按摩机械控制，不把身体位置检测或预设程序全部归为生成式AI。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "系统难点判断",
+          "text": "判断：rPPG从图像中的微小变化推断指标，应用再连接推荐流程，机械按摩则由另一套控制系统执行。三个环节的数据质量与边界需要分别理解，厂商未公开的模型误差、设备兼容范围和个体适用性不能用宣传中的智能一词替代。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "技术验证",
+          "text": "验证：在官方要求的光照、姿态与兼容设备条件下检查扫描是否稳定，再比较重复扫描的推荐变化是否可解释。对信号不足和网络问题观察是否有明确提示，确认用户能直接选择或停止程序；不自行将其与临床设备等同或开展疗效结论。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "aesthetics": [
+        {
+          "title": "外观与交互语言",
+          "text": "审美判断：包裹式弧形顶罩和大面积软包形成私密座舱，家居存在感也明显高于普通单椅。设计判断需看展开空间、进出和清洁，灯光与香氛可增强仪式感，但不能因豪华视觉就推定每个家庭愿意长期摆放。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "使用中审美判断",
+          "text": "判断：包裹式座舱让用户有专门放松空间，也占据较强的视觉体量。顶罩、侧壳和腿足部分在展开时改变房间动线，软包缝隙与香氛耗材又带来维护任务，因此照片中的豪华感不能直接推出在真实小空间中同样舒适。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "设计验证",
+          "text": "验证：用真实户型测量坐入和躺回后的活动范围，观察多人共享时调整与清洁是否方便。分别关闭灯光、声音和香氛体验基本按摩，确认这些可选元素不会遮盖设备状态或停止入口，审美评价应包含长期摆放而非只看初次展示。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "risks": [
+        {
+          "title": "主要失效与依赖",
+          "text": "风险判断：相机测量会受环境和使用条件影响，建议强度仍须个人确认，异常不适不能被AI分数解释掉。手册强调家用且并非睡床；大型配送、售后维修及地区电源差异也会改变跨境购买成本，不承诺通用适配。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险传播判断",
+          "text": "判断：当系统给出看似精确的压力数值时，用户可能过度相信推荐，忽略身体当下反馈。机械运动、热感和气囊压力仍有实际使用边界，官方手册明确非睡床，也不将椅子用于自我诊断或治疗，这些限制不能被AI叙事弱化。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "风险验证",
+          "text": "验证：检查异常不适时的停止、恢复和求助说明是否容易找到，并审阅当前地区的安装及维修流程。了解应用失效后可用的基本控制，核实大件退换成本和本地电源配置；不把海外线上可购推定为大陆可直接通电且有同等售后。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ],
+      "opportunity": [
+        {
+          "title": "可能的机会入口",
+          "text": "机会假设：可以从减少程序选择与建立可持续放松习惯验证，而非承诺家庭医疗管理。若用户仍长期只用同一手动模式，AI附加价值就有限；可解释推荐和容易停止调整的交互可能比继续增加感官功能更重要。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "机会成立条件",
+          "text": "判断：可能的创新入口是把用户主观偏好与系统建议结合得更清楚，让人知道为何推荐并方便修改。若实际使用长期集中在少数熟悉程序，则应改善基本按摩和交互，不必继续堆叠更多未经验证的生理指标或感官刺激。",
+          "evidence": "analysis",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "title": "下一步验证",
+          "text": "验证：在较长使用周期记录AI推荐被采纳、被覆盖和完全跳过的情况，分别追问原因。只有当推荐降低选择负担且没有制造额外不安，才有理由讨论扩展；商业规模还需考虑家庭空间、线下体验、维修服务和产品使用寿命。",
+          "evidence": "validation",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ]
+        }
+      ]
+    },
+    "supplierLinks": [
+      {
+        "supplierId": "protolabs",
+        "role": "mechanical",
+        "relationship": "candidate",
+        "component": "大型外壳与接触结构样件",
+        "rationale": "Protolabs公开原型与数字制造能力可用于弧形外壳、支撑部件和装配样件的设计迭代。没有该OSIM型号供货证据；人体接触、承重、软包及长期运动寿命需另行验证，不由一般原型制造能力直接保证。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "supplierId": "jabil",
+        "role": "manufacturing",
+        "relationship": "candidate",
+        "component": "按摩电控与电子测试流程",
+        "rationale": "捷普公开电子系统制造和测试服务可作为电控、连接及生产验证的候选询证对象。未发现其与uDream.AI的型号合作披露，不能认定实际ODM；按摩机械与软包和本地售后仍需完整整机体系。",
+        "sourceIds": [
+          "s1",
+          "s2"
+        ],
+        "supplierSourceIds": [
+          "s1",
+          "s2"
+        ]
+      }
+    ],
+    "innovationProfile": {
+      "needKey": "guided-home-massage",
+      "needName": "压力信息辅助的家用按摩选择",
+      "difference": "OSIM uDream.AI Well-Being Chair的具体差异与边界：技术判断：当前官方说明以兼容设备相机进行rPPG分析并生成一般健康与压力指标，模型细节和独立适用性未完整公开。应区分相机推断、推荐规则与按摩机械控制，不把身体位置检测或预设程序全部归为生成式AI。判断：普通按摩椅可通过预设和记忆功能满足稳定偏好，当前AI型号的增量需要来自更少试错或更清晰的选择。多感官组件和高端合作品牌可以改变体验，但无法替代这项比较，也不能用更高价格本身证明技术或舒适优势。",
+      "comparisonBasis": "竞争判断：与普通按摩椅、人工选择程序和家庭放松用品竞争，差异是外部视觉指标与推荐接入整机体验。旧uDream、Pro与当前AI型号不并列凑数；需要比较推荐是否减少选择负担，而非用合作品牌数量证明按摩效果。",
+      "evidence": "analysis",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ]
+    }
+  },
+  "images": [
+    {
+      "kind": "product",
+      "path": "assets/hardware/osim-udream-ai/product.jpg",
+      "sourceUrl": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0259/8912/0060/files/uDream_AI_Green_Home_900x900_5a7632ac-9a0f-49f8-b911-0cd17b30e51a.png?v=1786510622&width=1200",
+      "caption": "官方uDream.AI家居场景",
+      "alt": "绿色弧形顶罩、米色软包及腿足支撑的uDream.AI",
+      "credit": "OSIM · 官方图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 119440,
+      "sha256": "66c845311b2ef74e2c38d676365427e893ef04c51fa6fdbc519b018cd3209ee5"
+    },
+    {
+      "kind": "reference",
+      "path": "assets/hardware/osim-udream-ai/reference.jpg",
+      "sourceUrl": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+      "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0259/8912/0060/files/675479525_1405134274993541_1492174403545862413_n_0f165a9f-1e87-4fa6-aee4-e19d28bf012b.jpg?v=1790727297&width=1200",
+      "caption": "官方当前AI型号内部座面参考",
+      "alt": "uDream.AI头枕、侧面软包、音响与灯光区域",
+      "credit": "OSIM · 官方图片",
+      "checkedAt": "2026-11-05",
+      "verified": true,
+      "bytes": 91969,
+      "sha256": "0c42ac065e8e81dcb827fcb28c09598a6a81da1f8f868882fd25153bf5a51e10"
+    },
+    {
+      "kind": "ai-exploded",
+      "path": "assets/hardware/osim-udream-ai/ai-exploded.png",
+      "caption": "AI 生成爆炸示意 · 非实物拆机",
+      "alt": "OSIM uDream.AI Well-Being Chair的功能模块概念爆炸图，内部位置并非实物拆机",
+      "credit": "ImageGen · AI生成",
+      "generatedAt": "2026-11-05",
+      "promptPath": "content/hardware/prompts/osim-udream-ai.txt",
+      "referencePaths": [
+        "assets/hardware/osim-udream-ai/product.jpg",
+        "assets/hardware/osim-udream-ai/reference.jpg"
+      ],
+      "verified": true,
+      "bytes": 1602486,
+      "sha256": "13b0e19c6f55c183c1320266f37ad9e662b4a5bb33ee541d1103d30a27d85184"
+    }
+  ],
+  "mediaNotes": [
+    "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。",
+    "已目视核对准确型号，保持官方图片未编辑；营销场景与界面示意不构成性能或医疗效果验证。"
+  ]
+}

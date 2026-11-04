@@ -393,6 +393,61 @@
       "productName": "Nex Playground",
       "category": "games",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "jlcpcb",
+      "role": "pcb",
+      "relationship": "candidate",
+      "component": "USB显示控制板开发候选",
+      "rationale": "JLCPCB的电路板制造与装配能力可用于原型阶段的USB显示控制板实现，但必须由设计方先确定接口、电源和显示方案。Prompter实际电路与工厂没有公开，本关联不是其真实BOM或代工确认。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "elgato-prompter",
+      "productName": "Elgato Prompter",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jlcpcb",
+      "role": "pcb",
+      "relationship": "candidate",
+      "component": "USB音频转换电路原型候选",
+      "rationale": "JLCPCB提供电路板制造与装配，可配合设计方验证音频转换和USB接口原型；芯片与驱动选择仍需另外确定。Dubler麦克风内部电路没有公开，本链接仅作为开发服务候选，不推断真实量产板或工厂。",
+      "sourceIds": [
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "vochlea-dubler-studio-kit-2",
+      "productName": "Vochlea Dubler Studio Kit 2",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "jlcpcb",
+      "role": "pcb",
+      "relationship": "candidate",
+      "component": "音频控制板原型制造候选",
+      "rationale": "JLCPCB具备电路板制造与装配能力，可为设计方验证接口、控制及音频处理原型提供服务，但它不自动提供分离模型或完整声学方案。官方未披露BandBox主板工厂，本关联仅是开发阶段的能力匹配。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "jbl-bandbox-solo",
+      "productName": "JBL BandBox Solo",
+      "category": "music",
+      "status": "on_sale"
     }
   ]
 }

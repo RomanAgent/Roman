@@ -150,6 +150,8 @@ Helio P35是公开的移动应用处理平台，提供处理器、多媒体与�
 
 - [Viwoods AiPaper Reader](../hardware/viwoods-aipaper-reader.md) — **能力候选 · 非已采用** / 口袋电子纸阅读终端的应用平台候选：Reader 需要文档、显示、按键和在线模型交互，联发科技应用平台可作为同类新设计候选。需核对电子纸控制、待机和系统，移动通信模组及地区认证须另核，当前没有采用点名；平台能力不等于完整联网权益或 Viwoods 服务，也不能直接替换现有硬件。
 
+- [Eyedaptic EYE7](../hardware/eyedaptic-eye7.md) — **能力候选 · 非已采用** / 同类外接视觉控制器的应用平台研究：MediaTek Genio平台可用于研究相近外接视觉控制器的摄像、显示和应用处理，但需要核对功耗、接口、系统支持与服务接入。EYE7采用封闭手机配套，未公开此平台为现用方案；此处不主张替换手机芯片，也不把通用算力视为已有视觉增强与Eva模型。
+
 ## 来源
 
 - [MediaTek Genio 700](<https://www.mediatek.com/products/iot/genio-iot/genio-700>)：支持处理器组成、边缘人工智能、多媒体、显示及操作系统支持范围。

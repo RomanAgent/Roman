@@ -464,6 +464,131 @@
       "supplierId": "protolabs",
       "role": "mechanical",
       "relationship": "candidate",
+      "component": "外壳与平台结构打样候选",
+      "rationale": "Protolabs的结构加工与快速打样能力可匹配机壳、支架及平台样件验证，不能覆盖UV墨水和喷头工艺本身。候选关联针对开发阶段的机械实现，未有证据说明其制造E1量产零件。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "eufymake-e1",
+      "productName": "eufyMake E1",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "笔身与笔帽结构打样候选",
+      "rationale": "Protolabs的加工和结构打样能力可支持笔身、笔帽及传感器窗口样件的可制造性验证，尤其需要兼顾握持与光学视野。目录未发现其参与XNote的公开证据，本项不代表量产工厂或真实结构材料。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "xnote-write",
+      "productName": "XNote Write",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "雪靴夹持与外壳打样候选",
+      "rationale": "Protolabs的结构加工和样件制造可服务于夹子弹性、外壳配合及不同绑带厚度测试，不能仅靠图纸确认雪地长期耐用。没有公开资料表明该公司制造Carv零件，本关联只代表原型开发的可考虑能力。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "carv-2",
+      "productName": "Carv 2",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "遮光罩与相机支架打样候选",
+      "rationale": "Protolabs可提供结构件加工和样件验证，用于遮光罩、后背板及相机支架的配合与承重测试。光学玻璃本身需要另核工艺；目录没有证据说明其制造Prompter，本链接仅服务开发选型。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "elgato-prompter",
+      "productName": "Elgato Prompter",
+      "category": "creative-tools",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "传感器外壳与固定口袋样件候选",
+      "rationale": "Protolabs的结构样件加工可帮助验证传感器外壳、充电座配合与固定带口袋尺寸，但软性接触和反复冲击还要另行测试。没有资料显示其参与FightCamp量产，本链接仅表示原型阶段可考虑的结构服务。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "fightcamp-connect-gen3",
+      "productName": "FightCamp Connect Gen 3",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "麦克风壳体与握持打样候选",
+      "rationale": "Protolabs的机械加工和快速样件能力可用于验证网罩支撑、握柄外壳及线缆出口结构，声学响应仍需与拾音模块一起测试。没有公开证据表明其参与Vochlea制造，本项不构成实际供应或材料确认。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "vochlea-dubler-studio-kit-2",
+      "productName": "Vochlea Dubler Studio Kit 2",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "配重与底座结构原型候选",
+      "rationale": "Protolabs的加工与结构样件能力可帮助验证配重配合、握持和底座原型，锁止安全与长期疲劳仍须独立工程审查。官网没有披露它参与Gorilla制造，本项只表示可能适配的开发能力，不能当成量产结构证明。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "gorilla-bells",
+      "productName": "Gorilla Bells",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
       "component": "外壳与可拆盘的原型和模具验证",
       "rationale": "Protolabs公开快速原型及模具服务可用于筒身、色芯接口和可拆盘装配验证，但材料与唇彩接触合规及计量性能并非自动满足；没有YSL型号采用证据，当前仅列结构工程候选。",
       "sourceIds": [
@@ -534,6 +659,44 @@
       "productId": "aveine-wine-aerator",
       "productName": "Aveine Wine Aerator",
       "category": "kitchen",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "浮体顶盖与传感保护结构",
+      "rationale": "Protolabs公开数字制造与原型服务可匹配浮体、顶盖、保护罩等结构迭代需求。该链接是候选方案而非现有供货披露，材料耐水耐化学与密封设计须针对泳池环境重新评估，不能由加工能力直接保证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "ondilo-ico-pool",
+      "productName": "Ondilo ICO Pool v2 Chlorine/Bromine",
+      "category": "garden",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "protolabs",
+      "role": "mechanical",
+      "relationship": "candidate",
+      "component": "大型外壳与接触结构样件",
+      "rationale": "Protolabs公开原型与数字制造能力可用于弧形外壳、支撑部件和装配样件的设计迭代。没有该OSIM型号供货证据；人体接触、承重、软包及长期运动寿命需另行验证，不由一般原型制造能力直接保证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "osim-udream-ai",
+      "productName": "OSIM uDream.AI Well-Being Chair",
+      "category": "personal-care",
       "status": "on_sale"
     }
   ]

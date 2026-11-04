@@ -336,6 +336,24 @@
       "productName": "XbotGo Falcon",
       "category": "imaging",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "faulhaber",
+      "role": "motion",
+      "component": "同类电子假手的微型驱动与传动研究",
+      "rationale": "FAULHABER公开微型电机、齿轮与定制项目能力，可作为同类假手驱动层的工程候选，但手指空间、回驱、噪声、寿命和维修结构需具体评估。未发现Esper点名采用证据，不能由外形猜测电机型号，更不能把通用驱动方案视作个人假肢的适配完成。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "esper-hand-2",
+      "productName": "Esper Hand 2",
+      "category": "accessibility",
+      "status": "on_sale"
     }
   ]
 }

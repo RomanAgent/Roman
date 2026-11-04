@@ -128,6 +128,8 @@
 
 > 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
 
+- [Dot Pad X（Dot Vista AI工作流）](../hardware/dot-pad-x.md) — **能力候选 · 非已采用** / 同类触觉显示设备的控制与缓存平台候选：Microchip公开嵌入式控制器和开发工具，可研究同类触觉设备的输入、状态控制和内容缓存；具体执行器驱动接口及刷新需求仍需确认。其机器学习工具不等于Dot Vista模型或Dot针阵技术，未发现本型号采用证据，候选只对应重新设计的通用控制层。
+
 ## 来源
 
 - [MPLAB Machine Learning Development Suite](<https://www.microchip.com/en-us/development-tool/mplab-machine-learning-development-suite>)：本轮已打开开发工具页面，支持传感识别代码生成与嵌入式模型流程；具体器件适用范围需确认。

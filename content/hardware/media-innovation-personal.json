@@ -321,5 +321,331 @@
     "notes": [
       "源图逐张实际查看，按当前具体型号核对；未改色或裁切，宣传界面与效果文案不作为实测。"
     ]
+  },
+  {
+    "id": "esper-hand-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/esper-hand-2/product.jpg",
+        "sourceUrl": "https://www.esperbionics.com/blog/esper-hand-2-technical-specifications",
+        "sourceImageUrl": "https://framerusercontent.com/images/0uFPXv1uWcsVgXNSfvGQCz0CsA.jpg?scale-down-to=1024&width=4272&height=2848",
+        "caption": "Esper Hand 2官方掌部与五指外形；红光为拍摄光线",
+        "alt": "Esper Hand 2官方掌部与五指外形；红光为拍摄光线",
+        "credit": "Esper Bionics · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/esper-hand-2/reference.png",
+        "sourceUrl": "https://www.esperbionics.com/esper-hand",
+        "sourceImageUrl": "https://framerusercontent.com/images/q5hjFi7GRQxn48d3Ge5klFWJU.png?scale-down-to=1024&width=3912&height=2184",
+        "caption": "Esper Hand 2官方持物场景；水滴照片不证明允许浸泡",
+        "alt": "Esper Hand 2官方持物场景；水滴照片不证明允许浸泡",
+        "credit": "Esper Bionics · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "来源图片已逐张实际查看，确认具体型号；保留原图，不改色裁切。图片不能证明内部BOM、疗效或所有配置可售。"
+    ]
+  },
+  {
+    "id": "dot-pad-x",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/dot-pad-x/product.png",
+        "sourceUrl": "https://www.dotincorp.com/en/product/dotpadx",
+        "sourceImageUrl": "https://www.dotincorp.com/image/product/dotpadx__section1-img.png",
+        "caption": "Dot Pad X官方斜向全机图，显示触觉图形区与盲文行",
+        "alt": "Dot Pad X官方斜向全机图，显示触觉图形区与盲文行",
+        "credit": "Dot · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "official-structure",
+        "path": "assets/hardware/dot-pad-x/reference.png",
+        "sourceUrl": "https://www.dotincorp.com/en/product/dotpadx",
+        "sourceImageUrl": "https://www.dotincorp.com/image/product/dotpadx__section5-device.png",
+        "caption": "Dot Pad X官方正面控制区域标识；非内部拆机",
+        "alt": "Dot Pad X官方正面控制区域标识；非内部拆机",
+        "credit": "Dot · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "来源图片已逐张实际查看，确认具体型号；保留原图，不改色裁切。图片不能证明内部BOM、疗效或所有配置可售。",
+      "网页内容经官方页面读取核验，静态图片公开下载成功；橙色控制区域框为厂家原图标识。"
+    ]
+  },
+  {
+    "id": "emotiv-insight",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/emotiv-insight/product.webp",
+        "sourceUrl": "https://shop.emotiv.com/emotiv-insight/",
+        "sourceImageUrl": "https://horizon-cdn.emotiv.com/horizon-frontend/products/insight/Insight-2.webp",
+        "caption": "Emotiv Insight当前官方黑色头戴设备与传感臂",
+        "alt": "Emotiv Insight当前官方黑色头戴设备与传感臂",
+        "credit": "EMOTIV · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/emotiv-insight/reference.webp",
+        "sourceUrl": "https://shop.emotiv.com/emotiv-insight/",
+        "sourceImageUrl": "https://horizon-cdn.emotiv.com/horizon-frontend/products/insight/Insight-1.webp",
+        "caption": "Emotiv Insight官方佩戴参考；不从人物推断健康或认知状态",
+        "alt": "Emotiv Insight官方佩戴参考；不从人物推断健康或认知状态",
+        "credit": "EMOTIV · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "来源图片已逐张实际查看，确认具体型号；保留原图，不改色裁切。图片不能证明内部BOM、疗效或所有配置可售。"
+    ]
+  },
+  {
+    "id": "eyedaptic-eye7",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/eyedaptic-eye7/product.png",
+        "sourceUrl": "https://eyedaptic.com/eye7/",
+        "sourceImageUrl": "https://eyedaptic.com/wp-content/uploads/2025/10/COMING-SOON-1.png",
+        "caption": "Eyedaptic EYE7当前官方正面外形与中央摄像区域",
+        "alt": "Eyedaptic EYE7当前官方正面外形与中央摄像区域",
+        "credit": "Eyedaptic · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/eyedaptic-eye7/reference.png",
+        "sourceUrl": "https://eyedaptic.com/eyedaptic-unveils-eye7-smart-glasses-the-only-platform-combining-vision-enhancement-and-ai-visual-assistant-family/",
+        "sourceImageUrl": "https://eyedaptic.com/wp-content/uploads/2025/10/Screenshot-2025-10-20-at-1.37.37-PM-1024x709.png",
+        "caption": "EYE7官方阅读场景，保留遥控手机与连接线参考",
+        "alt": "EYE7官方阅读场景，保留遥控手机与连接线参考",
+        "credit": "Eyedaptic · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "来源图片已逐张实际查看，确认具体型号；保留原图，不改色裁切。图片不能证明内部BOM、疗效或所有配置可售。",
+      "主图源文件名残留COMING-SOON，但当前EYE7官网使用该准确型号图；状态另以现行页面、FAQ及最新发布核查。"
+    ]
+  },
+  {
+    "id": "td-pilot",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/td-pilot/product.png",
+        "sourceUrl": "https://us.tobiidynavox.com/pages/td-pilot",
+        "sourceImageUrl": "https://i.shgcdn.com/37fb4ea3-c1ee-4277-847e-8fcc6ad9a2f2/-/format/auto/-/quality/normal/",
+        "caption": "TD Pilot官方前后外形：眼控、背部交流窗口与支撑结构",
+        "alt": "TD Pilot官方前后外形：眼控、背部交流窗口与支撑结构",
+        "credit": "Tobii Dynavox · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/td-pilot/reference.jpg",
+        "sourceUrl": "https://us.tobiidynavox.com/pages/td-pilot",
+        "sourceImageUrl": "https://i.shgcdn.com/e4c854b9-b3b6-40d2-b855-7c496f39c79e/-/format/auto/-/preview/3000x3000/-/quality/lighter/",
+        "caption": "TD Pilot官方背部Partner Window交流使用参考",
+        "alt": "TD Pilot官方背部Partner Window交流使用参考",
+        "credit": "Tobii Dynavox · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/td-pilot/reference-interface.jpg",
+        "sourceUrl": "https://us.tobiidynavox.com/pages/td-pilot",
+        "sourceImageUrl": "https://i.shgcdn.com/196d17a9-1755-49b6-8557-8cddf100e35b/-/format/auto/-/quality/normal/",
+        "caption": "TD Pilot官方TD Talk界面参考；界面不代表所有音色权益",
+        "alt": "TD Pilot官方TD Talk界面参考；界面不代表所有音色权益",
+        "credit": "Tobii Dynavox · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "来源图片已逐张实际查看，确认具体型号；保留原图，不改色裁切。图片不能证明内部BOM、疗效或所有配置可售。"
+    ]
+  },
+  {
+    "id": "withings-beamo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/withings-beamo/product.jpg",
+        "sourceUrl": "https://www.withings.com/en-us/products/beam-o",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0978/0169/9702/files/PACKSHOT_beam-o__71020931_INT_three-quarter-close-up_01.jpg?v=1781094532&width=1200",
+        "caption": "BeamO官方三分之四角度外形与前面板",
+        "alt": "BeamO官方三分之四角度外形与前面板",
+        "credit": "Withings · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/withings-beamo/reference.jpg",
+        "sourceUrl": "https://www.withings.com/en-us/products/beam-o",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0978/0169/9702/files/PACKSHOT_beam-o__71020931_INT_side-close-up_01.jpg?v=1781094532&width=1200",
+        "caption": "BeamO官方侧面接触区域参考",
+        "alt": "BeamO官方侧面接触区域参考",
+        "credit": "Withings · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。"
+    ]
+  },
+  {
+    "id": "abbott-lingo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/abbott-lingo/product.png",
+        "sourceUrl": "https://www.hellolingo.com/products",
+        "sourceImageUrl": "https://www.hellolingo.com/_next/image?url=https%3A%2F%2Fcms.services.abbott%2Fcontent%2Fdam%2Fbts%2Fbluebird%2Fdtc%2Fus%2Fpdp%2Fproduct-carousel%2Fpdp_slide_1_d.png%3FlastModifiedAt%3D2024-07-11-13-00&w=1200&q=90",
+        "caption": "Lingo官方电子传感器与App界面；评分和读数为厂家展示",
+        "alt": "Lingo官方电子传感器与App界面；评分和读数为厂家展示",
+        "credit": "Abbott Lingo · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/abbott-lingo/reference.png",
+        "sourceUrl": "https://www.hellolingo.com/products",
+        "sourceImageUrl": "https://www.hellolingo.com/_next/image?url=https%3A%2F%2Fcms.services.abbott%2Fcontent%2Fdam%2Fbts%2Fbluebird%2Fdtc%2Fus%2Fpdp%2Fnext-carousel%2Fpdp-next-3.png%3FlastModifiedAt%3D2024-07-12-16-00&w=640&q=85",
+        "caption": "Lingo官方上臂佩戴位置参考；不从人物推断健康状况",
+        "alt": "Lingo官方上臂佩戴位置参考；不从人物推断健康状况",
+        "credit": "Abbott Lingo · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。"
+    ]
+  },
+  {
+    "id": "ugreen-idx6011",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ugreen-idx6011/product.png",
+        "sourceUrl": "https://store.ugreen.jp/products/ugreen-idx6011-64gb-ai-nas",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0638/9245/5505/files/2_0b120411-5983-409e-ae50-83ab611a1ae9.png?v=1786359383&width=1200",
+        "caption": "普通iDX6011官方六盘位正面，非Pro前屏型号",
+        "alt": "普通iDX6011官方六盘位正面，非Pro前屏型号",
+        "credit": "UGREEN · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ugreen-idx6011/reference.jpg",
+        "sourceUrl": "https://store.ugreen.jp/products/ugreen-idx6011-64gb-ai-nas",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0638/9245/5505/files/B0FND95HPS.pt04.jpg?v=1788838300&width=1200",
+        "caption": "iDX6011官方应用场景；电脑和外接供电附件不代表包含在订单",
+        "alt": "iDX6011官方应用场景；电脑和外接供电附件不代表包含在订单",
+        "credit": "UGREEN · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。",
+      "选用普通iDX6011外形，64GB为所核购买SKU；没有借用Pro前屏或32GB规格图代表当前配置。"
+    ]
+  },
+  {
+    "id": "tiiny-pocket",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/tiiny-pocket/product.webp",
+        "sourceUrl": "https://www.tiiny.ai/products/tiiny-pocket",
+        "sourceImageUrl": "https://img-va.myshopline.com/image/store/1784520124508/tiiny-bip-114.webp?h=1200&q=80&w=1200",
+        "caption": "Tiiny Pocket官方正面斜向外形，圆形部件为电源键",
+        "alt": "Tiiny Pocket官方正面斜向外形，圆形部件为电源键",
+        "credit": "Tiiny · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/tiiny-pocket/reference.webp",
+        "sourceUrl": "https://www.tiiny.ai/products/tiiny-pocket",
+        "sourceImageUrl": "https://img-va.myshopline.com/image/store/1784520124508/tiiny-black-back.webp?h=1200&q=80&w=1200",
+        "caption": "Tiiny Pocket官方背部通风与脚垫参考",
+        "alt": "Tiiny Pocket官方背部通风与脚垫参考",
+        "credit": "Tiiny · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。",
+      "源站图片URL请求合理宽度但实际仍返回高分辨率WebP；保留源图，没有自行重采样或修改。"
+    ]
+  },
+  {
+    "id": "captify-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/captify-pro/product.jpg",
+        "sourceUrl": "https://captify.glass/products/captify-pro",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0722/1749/3736/files/captify_pro_product_1.jpg?v=1776238198&width=1200",
+        "caption": "Captify Pro官方斜向产品图与可调鼻托",
+        "alt": "Captify Pro官方斜向产品图与可调鼻托",
+        "credit": "Captify · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/captify-pro/reference.jpg",
+        "sourceUrl": "https://captify.glass/products/captify-pro",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0722/1749/3736/files/captify_pro_model_1.jpg?v=1776238198&width=1200",
+        "caption": "Captify Pro官方佩戴场景参考",
+        "alt": "Captify Pro官方佩戴场景参考",
+        "credit": "Captify · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/captify-pro/reference-angle.jpg",
+        "sourceUrl": "https://captify.glass/products/captify-pro",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0722/1749/3736/files/captify_pro_product_2.jpg?v=1776238198&width=1200",
+        "caption": "Captify Pro官方正面双眼显示外形参考",
+        "alt": "Captify Pro官方正面双眼显示外形参考",
+        "credit": "Captify · 官方产品图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "逐张实际查看确认型号与代次，保留官方源图；图片与界面中的营销内容不作为独立实测或效果保证。"
+    ]
   }
 ]

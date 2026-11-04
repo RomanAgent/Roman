@@ -40,7 +40,7 @@
 
 - 价格：US$189。核查时硬件所见价，附基础300分钟/月转写；高级计划另计。模式、地区、促销及税费需在当地官网确认。
 
-- 中国大陆：本次确认的是国际商店版本；没有以中国品牌身份推定大陆同型号渠道、服务区域和保修均已开放。
+- 中国大陆：2026-11-05 中国官网明确列出 Plaud Note Pro 的人民币价格和对应天猫型号购买链接（商品 964623891296）。有官方国内渠道；未登录店铺核实当前地区库存。中国版 App、模型服务与会员权益需按 plaud.cn 的地区说明核对，不能直接套用国际版。
 
 - [官方产品 / 商店](<https://www.plaud.ai/products/plaud-note-pro>)
 
@@ -259,5 +259,7 @@
 1. [Plaud · Note Pro 官方商店](<https://www.plaud.ai/products/plaud-note-pro>) — 已打开；明确区分30小时增强与50小时耐久模式，标称数据未经实测。
 
 2. [Plaud · 官方设备比较](<https://www.plaud.ai/pages/plaud-device-comparison>) — 已打开；用于比较不同采集形态，不代表同品牌软件永久免费。
+
+3. [Plaud 中国官网型号目录与购买入口](<https://www.plaud.cn/>) — 2026-11-05 中国官网明确列出 Plaud Note Pro 的人民币价格和对应天猫型号购买链接（商品 964623891296）。有官方国内渠道；未登录店铺核实当前地区库存。中国版 App、模型服务与会员权益需按 plaud.cn 的地区说明核对，不能直接套用国际版。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/plaud-note-pro)

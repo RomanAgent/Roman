@@ -192,6 +192,8 @@
 
 - [Starkey Omega AI+](../hardware/starkey-omega-ai-plus.md) — **能力候选 · 非已采用** / 相近多形态助听设备的声音采集候选：英飞凌MEMS麦克风可用于比较耳背或定制新设计的采集前端，但不同外壳、声孔与供电限制必须分别验证。输入器件不能代表Quad DNN处理效果，系列扩展也不证明所有款式采用相同麦克风；未发现Omega AI+点名供货资料，因此仅记录功能候选而不猜原机数量和料号。
 
+- [BirdWeather PUC](../hardware/birdweather-puc.md) — **能力候选 · 非已采用** / MEMS麦克风与声音输入：公开MEMS麦克风资料与PUC双麦克风采集需求相关，可作为输入动态范围、噪声及封装评估候选。没有该型号采购或合作证据，不能标成已披露供应商，也不能套用公开器件参数给整机背书。
+
 ## 来源
 
 - [XENSIV MEMS microphones](<https://www.infineon.com/products/sensor/mems-microphones>)：支持模拟/数字声音采集、相位与灵敏度匹配、消费耳机与眼镜等应用；器件防护不等于整机防护。

@@ -158,6 +158,10 @@ TDK官方合作案例明确点名WeWALK Smart Cane 2采用SmartMotion惯性、Sm
 
 - [Sony mocopi（标准六传感器套件）](../hardware/sony-mocopi.md) — **能力候选 · 非已采用** / 小型惯性运动采集候选：mocopi官方明确六个IMU提供加速度与旋转数据，TDK InvenSense公开惯性运动传感和穿戴方案，可作为对应采集模块候选。具体时序、精度、功耗与软件接口仍须匹配，没有点名供货证据，也不推断本机采用其边缘AI型号。
 
+- [Carv 2](../hardware/carv-2.md) — **能力候选 · 非已采用** / 鞋部惯性运动采集候选：TDK InvenSense公开覆盖穿戴惯性传感及运动处理能力，可作为鞋外运动采集的工程评估方向；需要验证温度、运动范围和佩戴变化。Carv没有披露采用该品牌，不能把其可穿戴定位当成实际供货证据。
+
+- [FightCamp Connect Gen 3](../hardware/fightcamp-connect-gen3.md) — **能力候选 · 非已采用** / 拳脚惯性采集候选：TDK InvenSense的运动感知和穿戴相关能力可用于讨论击打运动采集，但采样范围、固定方式及冲击条件必须针对本任务验证。FightCamp没有公开采用该公司器件，本关联只是工程路线候选，不将其写成现有传感器BOM。
+
 ## 来源
 
 - [TDK InvenSense Wearables](<https://www.invensense.tdk.com/en-us/wearables>)：支持惯性、声音、磁感知与穿戴应用范围；具体型号功能仍需核对。

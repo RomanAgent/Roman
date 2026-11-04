@@ -148,6 +148,8 @@ Raystar面向中小尺寸显示，提供字符和图形OLED、单色LCD、TFT及
 
 - [Millennium The King Performance](../hardware/millennium-king-performance.md) — **能力候选 · 非已采用** / 独立棋机设置与棋谱显示候选：Raystar公开小型字符、图形和其他显示模组，可作为The King Performance信息屏候选，但实际尺寸、接口、视角和主控需确认，标准模块不构成直接替换。当前没有Millennium点名采用证据，也不提供The King程序或网络服务。
 
+- [Dex Language Discovery Camera](../hardware/dex-language-camera.md) — **能力候选 · 非已采用** / 小型显示及界面集成候选：Raystar提供小尺寸显示与系统集成能力，可作为圆形反馈界面的方案询价方向；是否具备所需尺寸和光学指标须重新确认。目录没有证据表明Dex采用该公司面板，不把外形相似写成合作关系。
+
 ## 来源
 
 - [Raystar 官方公司介绍](<https://www.raystar-optronics.com/aboutus.htm>)：已打开；中小显示、OLED生产与标准OLED无MOQ的限定表述。

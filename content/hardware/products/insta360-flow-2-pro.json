@@ -14,8 +14,9 @@
     "其他官方地区另查"
   ],
   "china": {
-    "availability": "unclear",
-    "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+    "availability": "official",
+    "note": "2026-11-05 核实中国大陆官方商城的 Flow 2 Pro 和 AI 追踪模块套餐，页面提供人民币价格、加购与预计发货说明。标准套餐未含独立追踪模块；手机原生跟踪兼容性与跨 App 模块追踪需分开核对，库存以具体套餐为准。",
+    "checkedAt": "2026-11-05"
   },
   "price": {
     "text": "AI Tracker Bundle US$179.99",
@@ -93,6 +94,17 @@
         "technology"
       ],
       "note": "说明额外模块与跨App追踪能力，不另计一款主产品。"
+    },
+    {
+      "title": "Flow 2 系列中国大陆官方商城",
+      "url": "https://store.insta360.com/cn/product/flow-2-pro",
+      "kind": "official-store",
+      "supports": [
+        "china",
+        "regions"
+      ],
+      "note": "2026-11-05 核实中国大陆官方商城的 Flow 2 Pro 和 AI 追踪模块套餐，页面提供人民币价格、加购与预计发货说明。标准套餐未含独立追踪模块；手机原生跟踪兼容性与跨 App 模块追踪需分开核对，库存以具体套餐为准。",
+      "accessedAt": "2026-11-05"
     }
   ],
   "checkedAt": "2026-11-04",

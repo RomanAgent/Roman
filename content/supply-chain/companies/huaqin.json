@@ -521,6 +521,25 @@
       "supplierId": "huaqin",
       "role": "engineering",
       "relationship": "candidate",
+      "component": "视觉感知终端与整机集成",
+      "rationale": "华勤公开智能家居方案能力可对应家庭视觉输入、电控与整机系统的研发需求。没有Sentinare 3客户或制造关系证据，这里仅建立候选匹配；照护应用、隐私配置和算法可靠性仍需独立验证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "altumview-sentinare-3",
+      "productName": "AltumView Sentinare 3",
+      "category": "home-safety",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "huaqin",
+      "role": "engineering",
+      "relationship": "candidate",
       "component": "带屏便携学习终端工程候选",
       "rationale": "华勤公开提供智能终端研发与制造，可用于重新开发便携学习设备时询问系统整合。尺寸、儿童交互、声学和内容服务仍需单独设计；本目录没有英语宝由华勤制造的点名证据，不能把能力匹配当成已采用关系。",
       "sourceIds": [

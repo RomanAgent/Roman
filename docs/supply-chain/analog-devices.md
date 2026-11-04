@@ -2,7 +2,7 @@
 
 亚德诺的穿戴方案把光学、电生理、温度及相关电源与处理模块组织为信号链，适合从原始数据质量出发评估个人健康硬件。所核查前端提供同步采集和评估工具，但并不自动提供整机健康结论。目录将 MAX 产品纳入现有集团，不把历史品牌重复计数，也不把评估板的元件组合写成成品物料。
 
-核查 2026-11-04 · 美国 · 综合与跨地区供应商
+核查 2026-11-05 · 美国 · 综合与跨地区供应商
 
 按模拟、混合信号与边缘处理产品覆盖分组，不用集团规模替代具体项目评价。
 
@@ -10,7 +10,7 @@
 
 公开地区：美国马萨诸塞州 Wilmington、全球官方销售与支持地区
 
-能力：MAX86176 光学 PPG 与单导联 ECG 前端、多模态穿戴信号链与评估套件、模拟、数字与软件协同方案
+能力：MAX86176 光学 PPG 与单导联 ECG 前端、多模态穿戴信号链与评估套件、模拟、数字与软件协同方案、电化学与生物阻抗模拟前端
 
 ## 公司定位与边界
 
@@ -40,6 +40,12 @@
 
 依据：[Wearable Health Monitor Solutions](<https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/wearable-health-monitor.html>)
 
+### 官方｜电化学与生物阻抗采集边界 · 官方资料
+
+AD5940公开恒电位、传感电流和阻抗测量能力，应用目录包括连续葡萄糖监测及皮肤、身体阻抗。它与光学脉搏或惯性器件属于不同输入层，不能相互代替；芯片提供激励与模拟测量，不提供完整传感化学、疾病分类或面向个人的人工智能解释。
+
+依据：[ADI AD5940 impedance and electrochemical frontend](<https://www.analog.com/en/products/ad5940.html>)
+
 ## 适用场景与匹配
 
 ### 判断｜戒指信号链适配 · 研究判断
@@ -53,6 +59,12 @@
 腕表在运动时容易出现接触变化，前端的动态范围和环境干扰处理只是部分解决条件。应结合惯性数据、佩戴质量标志和丢失片段管理，判断下游模型是否知道输入不可靠；如果应用仍输出连续确定的结论，更多传感通道可能反而掩盖数据缺陷。
 
 依据：[MAX86176 Datasheet and Product Info](<https://www.analog.com/en/products/max86176.html>) · [Wearable Health Monitor Solutions](<https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/wearable-health-monitor.html>)
+
+### 判断｜连续佩戴和短时接触约束不同 · 研究判断
+
+连续葡萄糖传感需要考虑微小电流、长期偏置、封装和功耗，短时皮肤阻抗测量则更依赖接触方式、激励范围与重复性。即使同一前端列出两个应用，系统要求也不相同；供应研究应从实际传感接口出发，不能把通用评估能力当作现成可用的消费检测设备。
+
+依据：[ADI AD5940 impedance and electrochemical frontend](<https://www.analog.com/en/products/ad5940.html>)
 
 ## 合作与导入流程
 
@@ -124,6 +136,12 @@
 
 依据：[MAX86176 Datasheet and Product Info](<https://www.analog.com/en/products/max86176.html>) · [Analog Devices Corporate Information](<https://www.analog.com/en/who-we-are/corporate-information.html>)
 
+### 判断｜采集可用不等于健康解释成立 · 研究判断
+
+选型需要核对传感器输出、漂移、校准和整机干扰，再评价算法如何处理测量不确定性。AD5940公开支持相关应用只证明功能方向，无法确认某品牌采用、完整BOM或诊断效果；目录链接保留为候选，涉及个人健康的解释仍需要产品自身证据和适用边界。
+
+依据：[ADI AD5940 impedance and electrochemical frontend](<https://www.analog.com/en/products/ad5940.html>)
+
 ## 关联硬件产品
 
 > 能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。
@@ -136,6 +154,8 @@
 
 - [Hilo Band 血压监测系统（英国版）](../hardware/hilo-band-system.md) — **能力候选 · 非已采用** / 同类腕部PPG输入的光学生理前端候选：ADI的MAX86176等光学生理前端可用于研究腕部PPG采集，但需要针对光路、接触、动作和功耗重新验证，不能把其附加电生理能力自动加入Hilo。器件不提供血压模型或参考校准流程，也未被该品牌点名采用；此候选只对应相近新设计的输入层。
 
+- [Abbott Lingo（AI餐照记录方案）](../hardware/abbott-lingo.md) — **能力候选 · 非已采用** / 同类连续葡萄糖电子传感的电化学前端研究：ADI AD5940官方应用明确包括连续葡萄糖和电化学测量，可研究传感电流、偏置和低功耗采集条件，但并不提供Abbott传感化学或校准模型。未见Lingo点名采用证据，候选只服务相近新设计分析，不能推定现机BOM或成为消费者自行替换、改装贴片的依据。
+
 ## 来源
 
 - [MAX86176 Datasheet and Product Info](<https://www.analog.com/en/products/max86176.html>)：支持光学与单导联电生理同步采集、接口、功耗模式与评估入口；不作为成品疗效证据。
@@ -143,5 +163,7 @@
 - [Wearable Health Monitor Solutions](<https://www.analog.com/en/solutions/healthcare/vital-signs-measurements/wearable-health-monitor.html>)：支持穿戴信号链、原始及预处理数据、传感与电源组合的方案定位。
 
 - [Analog Devices Corporate Information](<https://www.analog.com/en/who-we-are/corporate-information.html>)：支持法律主体、Wilmington 总部及模拟、数字、软件业务定位。
+
+- [ADI AD5940 impedance and electrochemical frontend](<https://www.analog.com/en/products/ad5940.html>)：已打开推荐新设计状态、恒电位/电流/阻抗测量，官方应用明确连续葡萄糖与皮肤/身体阻抗。能力不等于传感化学、诊断模型或Lingo/NOTA实际采用。
 
 [返回供应链目录](../supply-chain.md)

@@ -423,6 +423,44 @@
       "productName": "Weave Isaac 0",
       "category": "laundry",
       "status": "reservation"
+    },
+    {
+      "supplierId": "pch-international",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "按钮与Base系统的制造准备",
+      "rationale": "PCH公开从产品开发到制造供应链的服务可作为按钮、Base和配件协同量产的工程候选。未确认FluentPet合作关系，材料耐踩、按压一致性和记录完整性仍须针对家庭宠物场景验证，不能由通用服务范围直接保证。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "fluentpet-connect",
+      "productName": "FluentPet Connect Get Started Kit",
+      "category": "pet-care",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "pch-international",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "整机与专用耗材接口工程",
+      "rationale": "PCH公开产品开发到制造供应链的服务可对应设备、配套瓶与接料结构的量产准备需求。没有该型号合作披露，只建立能力候选；营养配方、食材质量和医疗适用性不属于这条一般制造链接所能证明的内容。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "algocare-e1-pro",
+      "productName": "Algocare E1 Pro",
+      "category": "health-home",
+      "status": "on_sale"
     }
   ]
 }

@@ -749,5 +749,215 @@
     "notes": [
       "已目视核对当前商品页面对应外形，原图未改色或语义编辑；图片中的营销和适用年龄不替代具体说明。"
     ]
+  },
+  {
+    "id": "birdweather-puc",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/birdweather-puc/product.jpg",
+        "sourceUrl": "https://www.birdweather.com/shop-birdweather-puc",
+        "sourceImageUrl": "https://media.birdweather.com/media/277/PUC-Product-1.jpg",
+        "caption": "官方PUC与三脚架展示",
+        "alt": "绿色圆角三角PUC，双麦克风开口与中央标识",
+        "credit": "BirdWeather · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/birdweather-puc/reference.jpg",
+        "sourceUrl": "https://www.birdweather.com/shop-birdweather-puc",
+        "sourceImageUrl": "https://media.birdweather.com/media/276/PUC-Product-3.jpg",
+        "caption": "官方树干安装参考",
+        "alt": "PUC固定于树干，收音开口朝外",
+        "credit": "BirdWeather · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对官方当前商品的准确型号与外观；原图保持未编辑，商品图不替代独立性能测试。"
+    ]
+  },
+  {
+    "id": "ondilo-ico-pool",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ondilo-ico-pool/product.jpg",
+        "sourceUrl": "https://us.ondilo.com/product/ico-pool/",
+        "sourceImageUrl": "https://us.ondilo.com/assets/img/ico-pool/ico-pool-chlorine-bromine-product.jpg",
+        "caption": "官方氯溴版设备与v2包装",
+        "alt": "白色浮体及青色顶盖、保护底罩的ICO Pool v2",
+        "credit": "Ondilo · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ondilo-ico-pool/reference.jpg",
+        "sourceUrl": "https://us.ondilo.com/product/ico-pool/",
+        "sourceImageUrl": "https://us.ondilo.com/assets/img/ico-pool/ico-shot-product.jpg",
+        "caption": "官方同型号顶侧视角",
+        "alt": "ICO Pool侧放，展示青色圆顶盖与浮体",
+        "credit": "Ondilo · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对官方当前商品的准确型号与外观；原图保持未编辑，商品图不替代独立性能测试。"
+    ]
+  },
+  {
+    "id": "osim-udream-ai",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/osim-udream-ai/product.jpg",
+        "sourceUrl": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0259/8912/0060/files/uDream_AI_Green_Home_900x900_5a7632ac-9a0f-49f8-b911-0cd17b30e51a.png?v=1786510622&width=1200",
+        "caption": "官方uDream.AI家居场景",
+        "alt": "绿色弧形顶罩、米色软包及腿足支撑的uDream.AI",
+        "credit": "OSIM · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/osim-udream-ai/reference.jpg",
+        "sourceUrl": "https://us.osim.com/products/udream-ai-well-being-massage-chair",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0259/8912/0060/files/675479525_1405134274993541_1492174403545862413_n_0f165a9f-1e87-4fa6-aee4-e19d28bf012b.jpg?v=1790727297&width=1200",
+        "caption": "官方当前AI型号内部座面参考",
+        "alt": "uDream.AI头枕、侧面软包、音响与灯光区域",
+        "credit": "OSIM · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对准确型号，保持官方图片未编辑；营销场景与界面示意不构成性能或医疗效果验证。"
+    ]
+  },
+  {
+    "id": "altumview-sentinare-3",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/altumview-sentinare-3/product.png",
+        "sourceUrl": "https://www.altumview.ca/",
+        "sourceImageUrl": "https://www.altumview.ca/wp-content/uploads/2023/06/v3-hero.png",
+        "caption": "官方Sentinare 3与骨架界面示意",
+        "alt": "黑色长方形Sentinare 3传感器及应用界面",
+        "credit": "AltumView · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/altumview-sentinare-3/reference.jpg",
+        "sourceUrl": "https://www.altumview.ca/",
+        "sourceImageUrl": "https://www.altumview.ca/wp-content/uploads/2024/09/Sentinare3-back-one-camera-1.jpg",
+        "caption": "官方Sentinare 3背面实物参考",
+        "alt": "Sentinare 3背面标识、散热开口、安装孔与接口",
+        "credit": "AltumView · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对准确型号，保持官方图片未编辑；营销场景与界面示意不构成性能或医疗效果验证。"
+    ]
+  },
+  {
+    "id": "fluentpet-connect",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/fluentpet-connect/product.webp",
+        "sourceUrl": "https://fluent.pet/products/connect-get-started-kit-bold-with-base",
+        "sourceImageUrl": "https://fluent.pet/cdn/shop/files/FluentPet-Connect-Get-Started-Kit-Top.png?v=1760472280&width=1400",
+        "caption": "官方Connect入门套装",
+        "alt": "六个圆形按钮、Base扬声器与三块彩色HexTiles",
+        "credit": "FluentPet · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/fluentpet-connect/reference.webp",
+        "sourceUrl": "https://fluent.pet/products/connect-get-started-kit-bold-with-base",
+        "sourceImageUrl": "https://fluent.pet/cdn/shop/products/Connect-Get-Started-Kit-Closeup.jpg?v=1760472555&width=1400",
+        "caption": "官方同型号Base近景",
+        "alt": "六边形Connect Base扬声器及拼接板细节",
+        "credit": "FluentPet · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已目视核对准确型号，保持官方图片未编辑；营销场景与界面示意不构成性能或医疗效果验证。"
+    ]
+  },
+  {
+    "id": "algocare-e1-pro",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/algocare-e1-pro/product.png",
+        "sourceUrl": "https://www.algocare.ai/products/E1Pro-purchase",
+        "sourceImageUrl": "https://contents.algocare.link/pdp-layout-media/2026/10/30/143bf5e2-7173-4116-88cf-d24ff13bc0f3.png",
+        "caption": "官方E1 Pro当前商品展示（含促销文案）",
+        "alt": "浅色竖立E1 Pro、前置黑色触屏和接料杯",
+        "credit": "Algocare · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/algocare-e1-pro/reference.jpg",
+        "sourceUrl": "https://www.algocare.ai/products/E1Pro-purchase",
+        "sourceImageUrl": "https://contents.algocare.link/pdp-layout-media/2026/07/30/d5c0ae50-4142-4c4e-9405-fd088681f788.jpg",
+        "caption": "当前Pro商品页的专用营养瓶安装参考",
+        "alt": "顶部瓶位放入配套瓶，展示补充耗材步骤",
+        "credit": "Algocare · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已核对对应型号与地区版本，原图未改色或语义编辑；促销与效果文案为官方图内容，不构成独立验证。"
+    ]
+  },
+  {
+    "id": "bsize-bot-talk-us",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/bsize-bot-talk-us/product.webp",
+        "sourceUrl": "https://us.shop.bot.app/products/bot-talk",
+        "sourceImageUrl": "https://us.shop.bot.app/cdn/shop/files/BoT_Talk_Shopify_Product_Image_Top_NoShadow2.png?v=1763623240&width=1646",
+        "caption": "官方美国无屏版正面",
+        "alt": "白灰布面圆角方形BoT Talk与环形反馈灯",
+        "credit": "Bsize / BoT US · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/bsize-bot-talk-us/reference.webp",
+        "sourceUrl": "https://us.shop.bot.app/products/bot-talk",
+        "sourceImageUrl": "https://us.shop.bot.app/cdn/shop/files/BoT_Talk_Shopify_Product_Image_Charge.jpg?v=1776631351&width=1646",
+        "caption": "官方美国版充电侧面参考（含厂商说明）",
+        "alt": "BoT Talk侧边USB充电和布面轮廓",
+        "credit": "Bsize / BoT US · 官方图片",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "已核对对应型号与地区版本，原图未改色或语义编辑；促销与效果文案为官方图内容，不构成独立验证。"
+    ]
   }
 ]

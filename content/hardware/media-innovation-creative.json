@@ -459,5 +459,305 @@
     "notes": [
       "保留官方图片原貌；图片中的宣传数字和效果不作为本站实测。"
     ]
+  },
+  {
+    "id": "eufymake-e1",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/eufymake-e1/product.png",
+        "sourceUrl": "https://www.eufymake.com/products/eufymake-e1",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0606/0323/6501/files/V8260_TD013_V1_a78d78f5-414e-4ab2-b3f9-646996530a16_3838x.png?v=1793245618&width=1600",
+        "caption": "eufyMake E1 官方基础组合图（下方含当期促销赠品，按实际订单核对）",
+        "alt": "eufyMake E1 官方基础组合图（下方含当期促销赠品，按实际订单核对）",
+        "credit": "eufyMake · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/eufymake-e1/reference.jpg",
+        "sourceUrl": "https://www.eufymake.com/products/eufymake-e1",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0606/0323/6501/files/V8260_TD03_V1_ab6711c7-a985-40de-8435-08111c4a0d8a_3838x.jpg?v=1792374945&width=1600",
+        "caption": "eufyMake E1 官方纹理输出示例（厂商展示，非本站实测）",
+        "alt": "eufyMake E1 官方纹理输出示例（厂商展示，非本站实测）",
+        "credit": "eufyMake · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "dex-language-camera",
+    "images": [
+      {
+        "kind": "reference",
+        "path": "assets/hardware/dex-language-camera/reference.jpg",
+        "sourceUrl": "https://store.dex.camera/products/dex",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/2520/6018/files/dex-camera-red-edition-rear-left_62a15a9c-530c-4441-bbed-8e21cb320846.jpg?v=1776771616",
+        "caption": "Dex Language Discovery Camera 官方外观与使用参考图",
+        "alt": "Dex Language Discovery Camera 官方外观与使用参考图",
+        "credit": "Dex / Worldex Lab · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "product",
+        "path": "assets/hardware/dex-language-camera/product.png",
+        "sourceUrl": "https://store.dex.camera/products/dex",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0740/2520/6018/files/Device-2_1_b597bbb8-c824-4c23-b075-dbadd4b8ebcf.png?v=1781522026",
+        "caption": "Dex Language Discovery Camera 官方产品图",
+        "alt": "Dex Language Discovery Camera 官方产品图",
+        "credit": "Dex / Worldex Lab · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "xnote-write",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/xnote-write/product.png",
+        "sourceUrl": "https://xnote.ai/products/starter-set?view=xnote-set",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0643/0903/5160/files/xp-v3-set-square-800.png?v=1791356901",
+        "caption": "XNote Write 官方产品图",
+        "alt": "XNote Write 官方产品图",
+        "credit": "XNote · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/xnote-write/reference.png",
+        "sourceUrl": "https://xnote.ai/products/starter-set?view=xnote-set",
+        "sourceImageUrl": "https://xnote.ai/cdn/shop/t/55/assets/xp-v4-gal-pen-960.webp?v=78755795331715467711791263373",
+        "caption": "XNote Write 官方笔尖与笔身细节图",
+        "alt": "XNote Write 官方笔尖与笔身细节图",
+        "credit": "XNote · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "akaso-seemor-200",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/akaso-seemor-200/product.jpg",
+        "sourceUrl": "https://shopakaso.com/products/seemor",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0632/9037/6374/files/20260623-seemor_s.jpg?v=1782210654",
+        "caption": "AKASO Seemor-200 官方产品图",
+        "alt": "AKASO Seemor-200 官方产品图",
+        "credit": "AKASO · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/akaso-seemor-200/reference.jpg",
+        "sourceUrl": "https://shopakaso.com/products/seemor",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0632/9037/6374/files/IMG_3594_2.jpg?v=1789114591",
+        "caption": "AKASO Seemor-200 官方外观与使用参考图",
+        "alt": "AKASO Seemor-200 官方外观与使用参考图",
+        "credit": "AKASO · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "carv-2",
+    "images": [
+      {
+        "kind": "reference",
+        "path": "assets/hardware/carv-2/reference.jpg",
+        "sourceUrl": "https://getcarv.com/products/carv",
+        "sourceImageUrl": "https://storage.googleapis.com/craft-cms-assets-10aff94/uploads/Carv-2-pages/PDP/carousel-test2.jpg",
+        "caption": "Carv 2 官方双传感器实物与雪场使用场景",
+        "alt": "Carv 2 官方双传感器实物与雪场使用场景",
+        "credit": "Carv · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "product",
+        "path": "assets/hardware/carv-2/product.webp",
+        "sourceUrl": "https://getcarv.com/products/carv",
+        "sourceImageUrl": "https://storage.googleapis.com/craft-cms-assets-10aff94/uploads/carv-cms/ai-coach-product-image-5x4.webp",
+        "caption": "Carv 2 官方安装与App示意（雪靴、手机、耳机不随传感器提供）",
+        "alt": "Carv 2 官方安装与App示意（雪靴、手机、耳机不随传感器提供）",
+        "credit": "Carv · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "elgato-prompter",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/elgato-prompter/product.jpg",
+        "sourceUrl": "https://www.elgato.com/us/en/p/prompter",
+        "sourceImageUrl": "https://elgato-assets.imgix.net/image/upload/f_auto/q_auto/w_960,c_limit/v1783513647/Products/10WAD9901/ATF/New/Prompter_ATF_01.jpg",
+        "caption": "Elgato Prompter 官方产品图",
+        "alt": "Elgato Prompter 官方产品图",
+        "credit": "Elgato · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/elgato-prompter/reference.webp",
+        "sourceUrl": "https://www.elgato.com/us/en/p/prompter",
+        "sourceImageUrl": "https://images.ctfassets.net/h50kqpe25yx1/4sV79jrrRaTeHhyojtlNcJ/fb27634cd6d879dc0c04ce3a28aa9cf7/Prompter_Panels_Thumbnail_00.png?q=75&w=3840&fm=webp",
+        "caption": "Elgato Prompter 官方外观与使用参考图",
+        "alt": "Elgato Prompter 官方外观与使用参考图",
+        "credit": "Elgato · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "fightcamp-connect-gen3",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/fightcamp-connect-gen3/product.jpg",
+        "sourceUrl": "https://joinfightcamp.com/shop",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/2510/5836/files/CONNECT_GEN3.jpg?format=jpeg&height=1024&quality=75&width=1024",
+        "caption": "FightCamp Connect Gen 3 官方产品图",
+        "alt": "FightCamp Connect Gen 3 官方产品图",
+        "credit": "FightCamp · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/fightcamp-connect-gen3/reference.jpg",
+        "sourceUrl": "https://blog.joinfightcamp.com/for-members/the-evolution-of-fightcamp/",
+        "sourceImageUrl": "https://a.storyblok.com/f/115220/1600x1067/5c053d2ca9/on-road.jpg/m/690x460/filters:focal():format(jpeg):quality(75)",
+        "caption": "FightCamp Gen 3 官方便携充电座实物场景（手套和包为使用情境）",
+        "alt": "FightCamp Gen 3 官方便携充电座实物场景（手套和包为使用情境）",
+        "credit": "FightCamp · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "vochlea-dubler-studio-kit-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/vochlea-dubler-studio-kit-2/product.png",
+        "sourceUrl": "https://vochlea.com/products/dubler-studio-kit-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0088/2504/5073/files/english_dsk1.png?v=1780977023&width=1200",
+        "caption": "Dubler Studio Kit 2 官方麦克风与软件示意（界面不是物理屏幕）",
+        "alt": "Dubler Studio Kit 2 官方麦克风与软件示意（界面不是物理屏幕）",
+        "credit": "Vochlea · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/vochlea-dubler-studio-kit-2/reference.jpg",
+        "sourceUrl": "https://vochlea.com/products/dubler-studio-kit-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0088/2504/5073/files/updated_3_dsk_photoshoot_reu7on.jpg?v=1780977030&width=1200",
+        "caption": "Dubler 官方音乐输入使用场景（电脑和其它音乐器材另备）",
+        "alt": "Dubler 官方音乐输入使用场景（电脑和其它音乐器材另备）",
+        "credit": "Vochlea · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "gorilla-bells",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/gorilla-bells/product.png",
+        "sourceUrl": "https://www.gorillabow.com/products/gorilla-bells",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0236/0325/files/Gorilla_Bells_with_guided_shoulder_press.png?v=1791899642&width=1400",
+        "caption": "Gorilla Bells 官方产品与训练示意（屏幕非标配，界面为厂商展示）",
+        "alt": "Gorilla Bells 官方产品与训练示意（屏幕非标配，界面为厂商展示）",
+        "credit": "Gorilla Bow / Gorilla Fitness · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/gorilla-bells/reference.jpg",
+        "sourceUrl": "https://www.gorillabow.com/products/gorilla-bells",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0236/0325/files/WhatsAppImage2026-07-29at9.45.24PM_3.jpg?v=1785359605&width=1400",
+        "caption": "Gorilla Bells 官方动作计数场景参考（非本站效果实测）",
+        "alt": "Gorilla Bells 官方动作计数场景参考（非本站效果实测）",
+        "credit": "Gorilla Bow / Gorilla Fitness · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
+  },
+  {
+    "id": "jbl-bandbox-solo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/jbl-bandbox-solo/product.png",
+        "sourceUrl": "https://uk.jbl.com/BANDBOX-SOLO.html",
+        "sourceImageUrl": "https://uk.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw9a601c2b/LS_JBL_BANDBOX_SOLO_HERO_0006_x2.png?sh=680&sw=680",
+        "caption": "JBL BandBox Solo 官方产品图",
+        "alt": "JBL BandBox Solo 官方产品图",
+        "credit": "JBL / HARMAN · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/jbl-bandbox-solo/reference.png",
+        "sourceUrl": "https://uk.jbl.com/BANDBOX-SOLO.html",
+        "sourceImageUrl": "https://uk.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwac372696/LS_JBL_BANDBOX_SOLO_BACK_0013_x2.png?sh=680&sw=680",
+        "caption": "JBL BandBox Solo 官方外观与使用参考图",
+        "alt": "JBL BandBox Solo 官方外观与使用参考图",
+        "credit": "JBL / HARMAN · 官方资料",
+        "checkedAt": "2026-11-05",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方图片原貌；其中宣传效果或数据不代表本站独立测量。"
+    ]
   }
 ]

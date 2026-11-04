@@ -634,8 +634,9 @@
       "其他地区依当地官方站点与结算确认"
     ],
     "china": {
-      "availability": "unclear",
-      "note": "本次核实国际版产品，未取得同款大陆正式购买与数据服务所在地的官方证据；品牌来源或中文识别能力不作为大陆销售证明。"
+      "availability": "official",
+      "note": "2026-11-05 中国官网明确列出 Plaud Note 的人民币价格和对应天猫型号购买链接（商品 963977914722）。有官方国内渠道；未登录店铺核实当前地区库存。中国版 App、模型服务与会员权益需按 plaud.cn 的地区说明核对，不能直接套用国际版。",
+      "checkedAt": "2026-11-05"
     },
     "price": {
       "text": "US$159",
@@ -715,6 +716,17 @@
           "competition"
         ],
         "note": "已打开，用于区分Note、Note Pro和NotePin，未推断未披露供应商。"
+      },
+      {
+        "title": "Plaud 中国官网型号目录与购买入口",
+        "url": "https://www.plaud.cn/",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "2026-11-05 中国官网明确列出 Plaud Note 的人民币价格和对应天猫型号购买链接（商品 963977914722）。有官方国内渠道；未登录店铺核实当前地区库存。中国版 App、模型服务与会员权益需按 plaud.cn 的地区说明核对，不能直接套用国际版。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "checkedAt": "2026-11-04",
@@ -735,8 +747,9 @@
       "其他地区依当地官方站点与结算确认"
     ],
     "china": {
-      "availability": "unclear",
-      "note": "本次确认的是国际商店版本；没有以中国品牌身份推定大陆同型号渠道、服务区域和保修均已开放。"
+      "availability": "official",
+      "note": "2026-11-05 中国官网明确列出 Plaud Note Pro 的人民币价格和对应天猫型号购买链接（商品 964623891296）。有官方国内渠道；未登录店铺核实当前地区库存。中国版 App、模型服务与会员权益需按 plaud.cn 的地区说明核对，不能直接套用国际版。",
+      "checkedAt": "2026-11-05"
     },
     "price": {
       "text": "US$189",
@@ -816,6 +829,17 @@
           "competition"
         ],
         "note": "已打开；用于比较不同采集形态，不代表同品牌软件永久免费。"
+      },
+      {
+        "title": "Plaud 中国官网型号目录与购买入口",
+        "url": "https://www.plaud.cn/",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "2026-11-05 中国官网明确列出 Plaud Note Pro 的人民币价格和对应天猫型号购买链接（商品 964623891296）。有官方国内渠道；未登录店铺核实当前地区库存。中国版 App、模型服务与会员权益需按 plaud.cn 的地区说明核对，不能直接套用国际版。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "checkedAt": "2026-11-04",
@@ -837,7 +861,8 @@
     ],
     "china": {
       "availability": "unclear",
-      "note": "未核实本型号大陆官方销售与服务承诺；本次价格和功能基于国际版NotePin，不等同其他地区版本。"
+      "note": "2026-11-05 中国官网现列 NotePin S 并链接购买；本档案为原 NotePin，不能以 S 版的国内渠道证明原型号仍在国内销售。原型号大陆库存、应用版本与服务权益仍待确认。",
+      "checkedAt": "2026-11-05"
     },
     "price": {
       "text": "US$159",
@@ -918,6 +943,17 @@
           "competition"
         ],
         "note": "已打开，区分可佩戴采集与卡片双模式录音。"
+      },
+      {
+        "title": "Plaud 中国官网型号目录与购买入口",
+        "url": "https://www.plaud.cn/",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "2026-11-05 中国官网现列 NotePin S 并链接购买；本档案为原 NotePin，不能以 S 版的国内渠道证明原型号仍在国内销售。原型号大陆库存、应用版本与服务权益仍待确认。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "checkedAt": "2026-11-04",

@@ -36,7 +36,7 @@ DJI Mini 5 Pro 官方外观 / 使用参考图 · 来源：[DJI](<https://store.d
 
 - 价格：AUD $1,119 起。为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。
 
-- 中国大陆：本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。
+- 中国大陆：2026-11-05 在中国大陆官方商城核实 RC-N3 标准组合，页面显示加入购物车、立即购买及配送日期。长续航、增强图传和不同遥控器属于不同套餐，不能把其他地区型号的功能直接套用；未实际下单。
 
 - [官方产品 / 商店](<https://store.dji.com/au/product/dji-mini-5-pro>)
 
@@ -255,5 +255,7 @@ Mini与其他便携自主航拍产品存在相近核心任务，影像、感知�
 1. [DJI Mini5Pro 澳洲官方店](<https://store.dji.com/au/product/dji-mini-5-pro>) — 当前购买按钮与感知跟踪能力。
 
 2. [DJI 英国官方消费目录](<https://store.dji.com/uk?set_region=GB>) — 独立列出Mini5Pro消费影像机型。
+
+3. [DJI Mini 5 Pro 中国大陆官方商城](<https://store.dji.com/cn/product/dji-mini-5-pro?set_region=CN>) — 2026-11-05 在中国大陆官方商城核实 RC-N3 标准组合，页面显示加入购物车、立即购买及配送日期。长续航、增强图传和不同遥控器属于不同套餐，不能把其他地区型号的功能直接套用；未实际下单。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/dji-mini-5-pro)

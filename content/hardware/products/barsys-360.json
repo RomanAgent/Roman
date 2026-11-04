@@ -407,6 +407,21 @@
           "s1",
           "s2"
         ]
+      },
+      {
+        "supplierId": "takasago-electric",
+        "role": "motion",
+        "relationship": "candidate",
+        "component": "同类多液路饮品分发的泵阀与计量评估",
+        "rationale": "Barsys将配方转成实体液体分发，高砂的管泵和反馈分液能力可用于研究相近的新设计。含糖、含酒精液体的接触材料、残味、清洗与剂量都必须专项验证，公开泵阀目录不能保证食品适用；没有Barsys点名供货资料，只保留工程能力候选。",
+        "sourceIds": [
+          "s1",
+          "s3"
+        ],
+        "supplierSourceIds": [
+          "s2",
+          "s3"
+        ]
       }
     ],
     "innovationProfile": {

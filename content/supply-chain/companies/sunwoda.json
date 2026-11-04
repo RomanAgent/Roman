@@ -621,6 +621,76 @@
       "supplierId": "sunwoda",
       "role": "power",
       "relationship": "candidate",
+      "component": "更换式电池与保护设计候选",
+      "rationale": "欣旺达消费电池业务具备电芯及电池系统相关能力，可作为低温手持设备补能和保护方案的评估方向。AKASO的实际供应来源与本轮资料中的容量差异尚未统一，故只列候选，不推断电池厂或可替代型号。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "akaso-seemor-200",
+      "productName": "AKASO Seemor-200",
+      "category": "imaging",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "联网器材供电系统候选",
+      "rationale": "欣旺达消费电池和系统能力可用于评估联网底座与传感控制的补能方案，具体功耗、机械空间及保护需求需品牌设计确认。Gorilla真实电池布局未公开，目录不以候选关联推断内部形状、容量或采用关系。",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "gorilla-bells",
+      "productName": "Gorilla Bells",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "持续音频处理供电候选",
+      "rationale": "欣旺达消费电池业务可用于评估本机处理和音频播放并行时的供电、充电与保护方案，具体功耗与空间要求仍需整机设计确认。BandBox实际电池来源没有披露，本条不推断型号、内部形状或任何已采用关系。",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "jbl-bandbox-solo",
+      "productName": "JBL BandBox Solo",
+      "category": "music",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
+      "component": "同类辅助沟通基座的消费电池与供电研究",
+      "rationale": "欣旺达公开消费电池业务可作为同类基座供电开发的候选入口，需要核对电压、接口、保护、充电和机械安装条件。没有本型号采用来源，也不意味着可替换iPad或现有基座电池；此处只对应重新设计的电源研究，适配、运输和整机安全仍需单独验证。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s5"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "td-pilot",
+      "productName": "Tobii Dynavox TD Pilot派乐（TD Talk AI音色方案）",
+      "category": "accessibility",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
+      "relationship": "candidate",
       "component": "电源系统与电池方案能力候选",
       "rationale": "欣旺达公开电池和电源系统相关业务，可作为重新研究家庭储能时的供应能力入口。具体电芯体系、保护、寿命、环境与项目认证需逐项确认，不能由消费电池经验直接推定适配；本目录未确认Solarbank由其供货。",
       "sourceIds": [

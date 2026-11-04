@@ -36,7 +36,7 @@ DJI RS 4 Mini（智能跟随组合） 官方外观 / 使用参考图（相机/�
 
 - 价格：智能跟随Combo参考US$369；基础款US$309。为所标地区和配置的核查参考；活动、税费、物流及可选服务以实际结算为准，不进行汇率换算或保证最低价。
 
-- 中国大陆：本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。
+- 中国大陆：2026-11-05 在中国大陆商城选择“DJI RS 4 Mini 套装”，核实包含 RS 智能追踪模块和手提转接手柄，页面显示加购与配送日期。基础款不包含该追踪模块；未实际下单。
 
 - [官方产品 / 商店](<https://store.dji.com/product/dji-rs-4-mini>)
 
@@ -257,5 +257,7 @@ RS 4 Mini可以帮助研究轻量相机用户在哪些构图任务需要助手�
 1. [DJI RS4Mini 官方商店](<https://store.dji.com/product/dji-rs-4-mini>) — 区分基础与智能跟随Combo。
 
 2. [DJI RS4Mini 官方能力说明](<https://www.dji.com/au/rs-4-mini>) — 面向创作者的智能跟随与构图，条件依模块和组合。
+
+3. [DJI RS 4 Mini 中国大陆官方套装页](<https://store.dji.com/cn/product/dji-rs-4-mini?set_region=CN&vid=183291>) — 2026-11-05 在中国大陆商城选择“DJI RS 4 Mini 套装”，核实包含 RS 智能追踪模块和手提转接手柄，页面显示加购与配送日期。基础款不包含该追踪模块；未实际下单。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/dji-rs-4-mini)

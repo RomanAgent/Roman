@@ -362,6 +362,42 @@
       "productName": "Sony mocopi（标准六传感器套件）",
       "category": "creative-tools",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "tdk-invensense",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "鞋部惯性运动采集候选",
+      "rationale": "TDK InvenSense公开覆盖穿戴惯性传感及运动处理能力，可作为鞋外运动采集的工程评估方向；需要验证温度、运动范围和佩戴变化。Carv没有披露采用该品牌，不能把其可穿戴定位当成实际供货证据。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "carv-2",
+      "productName": "Carv 2",
+      "category": "sports",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "tdk-invensense",
+      "role": "sensing",
+      "relationship": "candidate",
+      "component": "拳脚惯性采集候选",
+      "rationale": "TDK InvenSense的运动感知和穿戴相关能力可用于讨论击打运动采集，但采样范围、固定方式及冲击条件必须针对本任务验证。FightCamp没有公开采用该公司器件，本关联只是工程路线候选，不将其写成现有传感器BOM。",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "fightcamp-connect-gen3",
+      "productName": "FightCamp Connect Gen 3",
+      "category": "sports",
+      "status": "on_sale"
     }
   ]
 }

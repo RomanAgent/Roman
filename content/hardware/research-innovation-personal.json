@@ -1178,5 +1178,1288 @@
       "opportunity": "值得研究的是用户在哪些没有方便键盘的场景仍需要短文本或固定指令，组合输入能否降低携带和拿取成本。对长篇写作、复杂输入法或频繁精细编辑，原有方式可能更合适；明确局部适用范围有助于判断价值，而不必依赖替代所有控制器的宣传。"
     },
     "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "esper-hand-2",
+    "name": "Esper Hand 2",
+    "brand": "Esper Bionics",
+    "category": "accessibility",
+    "tagline": "通过个体肌电适配支持日常抓握的电子假手",
+    "officialUrl": "https://www.esperbionics.com/esper-hand",
+    "status": "on_sale",
+    "statusEvidence": "现行官方FAQ说明美国和乌克兰可经处方及认证假肢师进行个人适配；2026年7月27日Hand 2技术页对应当前型号。属于个人验配渠道，非直接买一只手即可使用。",
+    "regions": [
+      "美国：个人假肢适配",
+      "乌克兰：个人假肢适配"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核到中国大陆针对Hand 2的官方个人适配购买渠道；欧洲和英国也仍列为扩展计划，不推定全球可交付。"
+    },
+    "price": {
+      "text": "按个人适配报价",
+      "note": "假手、接受腔、传感器、供电、训练及维护可能分别影响完整费用；无统一公开价，不承诺保险报销。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Hand 2官方规格明确基于机器学习的信号适应与个性化，结合肌电输入控制动作；比例控制与可选COAPT集成不等于所有配置相同。",
+      "dependency": "须由假肢师完成接受腔、传感器和控制训练；设置完成可独立使用，Esper+用于配置和训练支持，模型训练位置及具体版本未充分披露。"
+    },
+    "audience": "consumer",
+    "saleMode": "consumer-fitting",
+    "highlights": [
+      "机器学习适应个人肌电信号",
+      "五指电动抓握与多种配置",
+      "接受腔和训练属于完整流程",
+      "美国及乌克兰个人验配渠道"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "面向特定肢体条件下的个人抓握，适配服务和维护决定可用性；属于案头研究，无用户访谈、销量或功能疗效实测。"
+    },
+    "architecture": [
+      {
+        "name": "肌电采集",
+        "detail": "接受腔相关传感器采集肌肉活动，数量及配置依个人方案。",
+        "evidence": "official"
+      },
+      {
+        "name": "信号适应",
+        "detail": "官方明确机器学习适应和个性化；不等于直接读取思想。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作控制",
+        "detail": "控制系统将选定信号转换为手指和抓握动作。",
+        "evidence": "official"
+      },
+      {
+        "name": "机械执行",
+        "detail": "五个电动手指及内部驱动，概念图不代表实际传动布局。",
+        "evidence": "official"
+      },
+      {
+        "name": "个人适配与供电",
+        "detail": "接受腔、外部配套供电和训练共同构成可用系统。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Esper当前FAQ：个人适配和可用地区",
+        "url": "https://www.esperbionics.com/faq",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "fitting",
+          "regions",
+          "dependency"
+        ],
+        "note": "已打开：美国和乌克兰可用、处方与假肢师流程、App与配套条件；计划扩展市场不作现售。"
+      },
+      {
+        "title": "Esper Hand 2技术规格，2026-07-27",
+        "url": "https://www.esperbionics.com/blog/esper-hand-2-technical-specifications",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "technology",
+          "model"
+        ],
+        "note": "已打开：机器学习信号适应、五个驱动手指和六个电机、配置与防水边界；未据此声称完整假肢重量或医疗疗效。"
+      },
+      {
+        "title": "Esper Hand当前型号展示",
+        "url": "https://www.esperbionics.com/esper-hand",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "images",
+          "fitting"
+        ],
+        "note": "已打开当前产品和个人适配入口；图片用于外形，不将有水场景当作允许浸泡的证明。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户在本人生活中更稳定地取放、保持和释放物体，而不是追求更多预设手势。拿杯子、整理衣物和移动轻物各有接触与姿态条件，控制切换和穿脱设备可能影响是否愿意持续使用；这些任务价值需要本人判断，不能从机器学习名称推定功能改善。",
+      "userProfile": "这类产品的实际用户范围取决于残肢条件、可获得的肌电信号、适配服务和本人意愿，不能仅按年龄或技术熟悉程度划分。即便可以产生控制信号，也可能在穿脱、清洁或长时间佩戴中遇到不同问题；用户和专业人员应共同判断，而不是由目录代替适配结论。",
+      "competition": "同核心日常抓握需求下，不宜用多个品牌或上一代手型重复计为新场景。应比较使用者已有假肢、身体代偿或其他辅助工具在具体任务中的步骤、反馈和维护要求；更多驱动自由度可能增加灵活性，也可能增加学习和服务成本，不能预设复杂系统一定更适合本人。",
+      "supplyChain": "同类新设计既要处理狭小手部的驱动、传动和维护，也要考虑接受腔内肌电接触随姿势和佩戴而变化。仅提高电机力矩或分类模型精度不等于日常任务更可靠，接口、结构和服务流程必须共同验证；供应商候选只能支持某个能力层，不能自动组成可适配成品。",
+      "technology": "使用者某次校准后的信号分布可能与再次穿戴、不同姿势或疲劳时有所差异，个性化控制的价值在于如何处理这种变化。必须区分模型能分类、动作能执行和用户能完成任务三个层次；没有公开测试过程时，不能用手势数量或电机数量替代这些关键证据。",
+      "aesthetics": "有些使用者可能愿意明显展示机械结构，有些更在意衣物搭配、物体接触感和清洁便利，两种偏好都不能由产品照片代替。接受腔与手部组合后的整体比例也不同于孤立渲染图；审美研究应让本人表达使用场景，而不是把仿生程度作为唯一衡量标准。",
+      "risks": "抓握失误可能造成物体跌落，结构损坏或不合适的接触也会影响继续佩戴；这些风险不能只靠模型分类准确率概括。对依赖设备完成日常任务的人，维修时间、备件和就近支持同样重要，尤其跨境购买时，远程App不能替代线下接受腔与机械调整。",
+      "opportunity": "后续值得研究的是用户在哪些原本困难的日常步骤中愿意主动使用，以及哪些场景仍更适合原有方式。这个问题需要结合控制、穿脱、清洁和维护投入，不能用一次展示代替长期价值；服务可达性和选择权可能与硬件功能同样决定是否持续采用。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "dot-pad-x",
+    "name": "Dot Pad X（Dot Vista AI工作流）",
+    "brand": "Dot",
+    "category": "accessibility",
+    "tagline": "把文档和图形转成可刷新的触觉与盲文输出",
+    "officialUrl": "https://www.dotincorp.com/en/product/dotpadx",
+    "status": "on_sale",
+    "statusEvidence": "当前Dot Pad X官网提供经销入口，官方FAQ明确个人也可联系购买；按个人询价零售登记，不把演示申请或软件商店当作硬件订单。",
+    "regions": [
+      "官方个人询价与经销商网络；交付地区需报价确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核到中国大陆正式购买与支持条件；经销名单的Republic of China不能直接写作中国大陆。"
+    },
+    "price": {
+      "text": "个人询价，未公开统一价格",
+      "note": "不借用旧Dot Pad报价；配套Copilot+ PC及软件条件需分别核算。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "配套Dot Vista通过Windows AI能力把视觉文档转成触觉、盲文和音频；官方服务说明包括视觉识别与语言模型摘要。",
+      "dependency": "AI工作流依赖兼容Copilot+ PC、Windows软件和相应接口；触觉显示器本身不等于内置完整AI模型，部分其他Dot应用仍未开放。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "可刷新图形区与下方盲文行",
+      "当前个人询价购买渠道",
+      "Dot Vista支持文档AI转换",
+      "AI计算与触觉输出硬件分层"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "解决图表空间关系的触觉访问，区别于单纯语音OCR；设备、电脑和内容适配共同决定价值，无用户访谈或销量证据。"
+    },
+    "architecture": [
+      {
+        "name": "文档输入",
+        "detail": "兼容电脑载入视觉文档，保留原内容用于核对。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI转换",
+        "detail": "Dot Vista利用Windows AI能力生成触觉、盲文及音频表示。",
+        "evidence": "official"
+      },
+      {
+        "name": "通信控制",
+        "detail": "USB-C或BLE连接显示硬件，具体软件兼容范围需确认。",
+        "evidence": "official"
+      },
+      {
+        "name": "触觉执行",
+        "detail": "上方图形区与下方盲文行通过刷新点阵输出。",
+        "evidence": "official"
+      },
+      {
+        "name": "阅读操作",
+        "detail": "实体按键配合触摸阅读，错误转换需回到原内容检查。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dot Pad X官方产品页",
+        "url": "https://www.dotincorp.com/en/product/dotpadx",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "technology",
+          "images"
+        ],
+        "note": "已打开：300单元图形区、20单元盲文行、控制键、USB-C/BLE和经销入口；非LCD屏幕。"
+      },
+      {
+        "title": "Dot官方FAQ：个人购买",
+        "url": "https://www.dotincorp.com/en/faq",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "audience",
+          "purchase"
+        ],
+        "note": "已打开：个人可通过官方联系购买，机构采购另有流程；不把联系行为当作已经下单。"
+      },
+      {
+        "title": "Dot AI服务说明",
+        "url": "https://www.dotincorp.com/en/service/ai",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "software",
+          "dependency"
+        ],
+        "note": "已打开：视觉识别、语言模型与触觉转换工作流；能力属于配套计算，不归为针阵内部模型。"
+      },
+      {
+        "title": "Dot Vista Windows发布，2025-10-31",
+        "url": "https://blog.dotincorp.com/dot-vista-launches-for-windows",
+        "kind": "official-spec",
+        "supports": [
+          "software",
+          "availability",
+          "dependency"
+        ],
+        "note": "已打开：软件已在Microsoft Store提供，使用Windows AI APIs并要求Copilot+ PC；不把未来应用当已发布。"
+      },
+      {
+        "title": "Dot Pad X当前资源与应用",
+        "url": "https://www.dotincorp.com/en/resources/dotpadx",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "software",
+          "compatibility"
+        ],
+        "note": "已打开当前资源；Dot Book等仍有Coming soon，不能把整个应用生态都写成已可用。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是使用者希望主动探索图表、形状和页面中元素的相对位置，而不只听取一串文字。触觉输出可能提供另一种阅读入口，但二维材料压缩到有限点阵时会丢失细节；它是否比语音描述更有帮助，取决于原内容、转换质量及使用者的触觉阅读习惯。",
+      "userProfile": "目标使用者除了愿意通过触觉探索，还需要能获得兼容电脑、安装支持及适合的内容。已有盲文或触觉图经验可能影响学习方式，但不能据此排除不同背景的人；是否适用应围绕本人任务评估，不能由“无障碍”标签推定所有视觉条件和计算环境均能直接使用。",
+      "competition": "与语音OCR相比，触觉图形可以让使用者探索空间关系；与单行盲文相比，它增加图形区域，但仍受分辨率和刷新交互限制。两种差异不等于全面替代已有工具，复杂表格、照片和长文可能各需不同入口；应按信息类型比较，而不是以点数多少排序辅助价值。",
+      "supplyChain": "同类新设计需要在重复刷新、手指接触、执行器一致性和电源预算之间协同，同时保证文档到点阵的映射可理解。控制芯片具备分类能力并不解决触觉机构寿命，也不会自动得到Dot软件接口；供应链比较必须把自有执行器和外部通用电子层分开。",
+      "technology": "从原图到简化触觉表示时，识别、摘要和布局重排都可能改变用户最终接收的信息。系统价值不仅是生成可触摸图案，还在于能否说明它对应原文哪里、哪些内容被省略；若无法回到来源核对，用户可能难以区分原文歧义和AI引入的解释。",
+      "aesthetics": "使用者需要稳定找到图形区、盲文行和按键，并在触摸时保持设备位置；外观简洁不能替代这些操作要求。桌面空间、线缆走向和携带安排可能影响是否经常拿出来使用，尤其与键盘或另一种盲文设备共用时，整体布置比单机厚度更值得观察。",
+      "risks": "使用者接收到的是经过转换的内容，如果原图识别或摘要遗漏重要关系，清晰的触觉呈现也可能让错误更难被察觉。对重要信息，应保留其他可核对形式和人工支持；AI生成的图示不应被当作原始文件本身，也不能据一次正确转换推定长期可靠。",
+      "opportunity": "较有价值的研究起点是使用者反复需要的一类图表，而不是宣称任何视觉材料都能顺利转为触觉。若某类转换能保持关键关系，再观察是否减少寻找和解释负担；复杂照片或密集页面可能仍需人工描述，保留这些限制比单纯扩大支持格式更有判断价值。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "emotiv-insight",
+    "name": "Emotiv Insight（EmotivBCI训练式控制）",
+    "brand": "EMOTIV",
+    "category": "wearables",
+    "tagline": "用个人训练的脑电模式映射数字命令",
+    "officialUrl": "https://shop.emotiv.com/emotiv-insight/",
+    "status": "preorder",
+    "statusEvidence": "实际官方商店显示US$499具体SKU、数量、Add to cart及Checkout，同时写Pre-order/Priority Waitlist和backorder预计6–8周；按具体付费商品预售登记，不写现货，交付仍须确认。",
+    "regions": [
+      "官方国际商店；具体国家配送及限制需结算确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核到中国大陆该预售SKU的具体交付、进口与软件服务条件，不把国际商店访问成功当作本地正式销售。"
+    },
+    "price": {
+      "text": "US$499硬件预售价",
+      "note": "当前页面预计6–8周，软件许可和数据访问计划可能另收费；不保证交付日期或将全部软件写为免费。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "EmotivBCI明确通过机器学习训练使用者自己的脑电模式，并把识别结果映射成数字命令；不是理解任意思想或自动读心。",
+      "dependency": "需要正确接触、个人训练、兼容电脑及相应软件账户和许可；不同应用的数据处理位置不同，不能将全生态概括为全离线或全云端。"
+    },
+    "audience": "prosumer",
+    "saleMode": "preorder",
+    "highlights": [
+      "五通道半干式脑电头戴设备",
+      "EmotivBCI明确机器学习命令训练",
+      "当前有具体付费预售商品",
+      "个人研究与交互用途，非医疗诊断"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "针对愿意训练和配置的个人脑机交互研究，区别于被动专注评分耳机；缺少独立控制效率及长期使用数据。"
+    },
+    "architecture": [
+      {
+        "name": "脑电与接触",
+        "detail": "半干式电极通过头皮接触采集信号，佩戴质量影响输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与传输",
+        "detail": "头戴装置采集脑电及运动数据，经兼容连接送到软件。",
+        "evidence": "official"
+      },
+      {
+        "name": "个人训练",
+        "detail": "EmotivBCI机器学习训练个人模式，不等于通用思想识别。",
+        "evidence": "official"
+      },
+      {
+        "name": "命令映射",
+        "detail": "识别结果绑定支持的数字动作，需核对软件许可与接口。",
+        "evidence": "official"
+      },
+      {
+        "name": "反馈与重训",
+        "detail": "用户观察结果并调整训练，错误命令需有恢复路径。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Emotiv Insight当前官方预售商品",
+        "url": "https://shop.emotiv.com/emotiv-insight/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "model",
+          "images"
+        ],
+        "note": "已实际打开浏览器和公开页面：US$499、具体SKU、购物按钮、backorder6–8周；同时保留Priority Waitlist原文边界，不称现货。"
+      },
+      {
+        "title": "Emotiv Insight硬件介绍",
+        "url": "https://www.emotiv.com/insight",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "audience",
+          "dependency"
+        ],
+        "note": "已打开五通道、半干式传感、运动及个人研究定位；非医疗诊断和治疗。"
+      },
+      {
+        "title": "EmotivBCI机器学习训练与控制",
+        "url": "https://www.emotiv.com/emotiv-bci",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "software",
+          "dependency"
+        ],
+        "note": "已打开先进机器学习与个人Mental Commands训练；不将训练式模式分类描述为任意读心。"
+      },
+      {
+        "title": "EMOTIV官方运输政策",
+        "url": "https://www.emotiv.com/shipping",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "fulfillment",
+          "supplyChain"
+        ],
+        "note": "已打开订单交付前付清、Insight从菲律宾工厂发运的厂家表述；未披露具体厂名或所有权。商品页专门预计6–8周优先于一般政策时间。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是个人希望研究在不用常规按键时，能否通过经过训练的状态模式触发少量命令。它与快捷键或语音不同，学习、接触质量和错误恢复可能占据大量时间；是否有价值取决于具体任务和个人体验，不能由脑机接口的新奇程度推断更快或更自然。",
+      "userProfile": "更可能愿意尝试的人需要接受佩戴调整、训练和软件配置，而不只是希望立即获得一个无学习成本的控制器。个人实验、交互设计和辅助输入探索可能有不同目的，不能合并成一个用户画像；尤其不应把一般研究演示直接转述为所有运动障碍使用者都能独立操作。",
+      "competition": "与Neurable等观察个人专注变化的设备相比，这里主要研究主动训练脑电模式并控制数字动作。共同采集脑电不等于同一体验，前者更关注指标解释，后者必须处理误触发和控制恢复；比较应围绕输入任务，而不是把脑电通道数量作为创新或可用性的简单排名。",
+      "supplyChain": "同类新设计需要控制电极接触变化、运动伪迹和电源干扰，再考虑低功耗采集与无线传输。单独选择高精度前端不能保证头部真实佩戴信号可用，结构与算法必须一起评估；供应商能力候选仅支持研究某一层，不包含Emotiv训练模型和软件生态。",
+      "technology": "同一次训练里的成功不能说明隔天重戴、换姿势或状态变化后仍有相同表现。控制系统需要清楚区分空闲状态和目标模式，否则连续使用时的误触发可能比偶尔漏识别更影响任务；这类差异只能通过有记录的个人试用观察，不能从模型名称得出可靠性结论。",
+      "aesthetics": "这种外形容易让旁人知道用户正在进行某种测量或实验，是否愿意在公共环境佩戴与个人偏好有关。更实际的问题是接触臂、发型、眼镜和头部活动能否协调，以及收纳时如何保护传感器；视觉轻巧不等于长时间舒适，也不能用单一模特照片代表所有头型。",
+      "risks": "个人脑电记录具有敏感性，而训练命令输出也可能被误认为系统理解了真实意图。若进一步把其他指标用于评价本人或他人，就会引入本条没有验证的推断；这里限定本人自愿进行输入研究，不支持把这些数据用作诊断、工作考核或对他人心理状态的判断。",
+      "opportunity": "值得进一步研究的是哪些个人任务允许有限命令、明确反馈和较低操作频率，使训练成本有可能被接受。追求快速连续输入未必是最合适起点，而可暂停的个人交互实验更容易观察问题；这些是待验证假设，不是已证明存在的市场需求或使用效果。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "eyedaptic-eye7",
+    "name": "Eyedaptic EYE7",
+    "brand": "Eyedaptic",
+    "category": "accessibility",
+    "tagline": "把低视力图像增强与可调节设置的AI助手结合",
+    "officialUrl": "https://eyedaptic.com/eye7/",
+    "status": "on_sale",
+    "statusEvidence": "当前EYE7产品页、2026年3月发布及11月2日Eva正式上线资料均对应已使用设备；官方FAQ明确个人通过眼科实践方或经销商付费购买、退货和保修流程，按个人验配渠道登记。",
+    "regions": [
+      "美国为主的眼科实践方及经销渠道；具体地区需适配确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "厂家链接的中国网站当前可见EYE5，未核到EYE7正式购买和Eva服务条件；不因品牌有中国网站就判本型号已在大陆销售。"
+    },
+    "price": {
+      "text": "经销及个人适配报价，未核到统一现价",
+      "note": "不借EYE5硬件价或旧助手订阅图作EYE7当前价格；Ivy/Eva方案、网络及升级权益需按订单确认。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "AI视觉助手支持阅读和场景问答；最新Eva发布说明还支持以自然语言调节视觉增强设置，结合摄像与显示辅助。",
+      "dependency": "官方FAQ明确眼镜需始终通过线缆连接遥控手机并由其供电；助手账户、网络、订阅和语言区域条件需确认，不等于眼镜独立离线运行。"
+    },
+    "audience": "consumer",
+    "saleMode": "consumer-fitting",
+    "highlights": [
+      "低视力图像增强与AI视觉助手",
+      "Eva可用语言调整增强设置",
+      "手机供电与线缆连接需保留",
+      "个人经销适配，不承诺视力恢复"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "针对仍利用视觉信息的人，将增强画面与AI操作结合；不同于仅朗读或导航眼镜，缺少本研究独立效果及用户访谈。"
+    },
+    "architecture": [
+      {
+        "name": "环境采集",
+        "detail": "眼镜摄像区域采集视野，实际成像条件影响结果。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机与控制",
+        "detail": "外接遥控手机供电、控制并承载配套软件。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉增强",
+        "detail": "处理后的画面通过眼镜显示，需个人试用调整。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI助手",
+        "detail": "Ivy与Eva方案提供视觉问答等功能，Eva可按请求调节设置。",
+        "evidence": "official"
+      },
+      {
+        "name": "个人反馈",
+        "detail": "使用者判断结果是否有帮助，误答和显示不适须可退出。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eyedaptic EYE7当前产品页",
+        "url": "https://eyedaptic.com/eye7/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "model",
+          "images",
+          "technology"
+        ],
+        "note": "已打开当前型号、视觉增强及助手；页面残留Eva早期Beta字样，与更新的正式发布说明分开记录。"
+      },
+      {
+        "title": "Eyedaptic官方FAQ：购买和手机连接",
+        "url": "https://eyedaptic.com/faqs/",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "purchase",
+          "dependency",
+          "warranty"
+        ],
+        "note": "已打开个人经眼科实践方或经销商购买、退货保修；所有型号需线缆连接遥控手机并由手机供电。"
+      },
+      {
+        "title": "Eyedaptic Eva正式推出，2026-11-02",
+        "url": "https://eyedaptic.com/eyedaptic-launches-eva/",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "availability",
+          "dependency"
+        ],
+        "note": "已打开最新发布：Eva已推出，可向EYE7用户远程提供升级，能按自然语言调整增强；方案地区和个人权益仍须确认。"
+      },
+      {
+        "title": "EYE7发布与视觉助手系列，2026-03-24",
+        "url": "https://eyedaptic.com/eyedaptic-unveils-eye7-smart-glasses-the-only-platform-combining-vision-enhancement-and-ai-visual-assistant-family/",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "technology",
+          "images"
+        ],
+        "note": "已打开EYE7与Ivy发布、当时Eva Beta；不将旧测试状态覆盖11月的新正式信息。"
+      },
+      {
+        "title": "Eyedaptic中国站当前产品范围",
+        "url": "https://eyedaptic.cn/",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "regional-boundary"
+        ],
+        "note": "已公开打开中国站，所见产品为EYE5；仅支持品牌地区入口存在，不证明EYE7已在大陆正式销售。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是使用者在不同材料和环境中需要反复调整画面，而不希望每次都寻找复杂菜单。语音请求若能正确对应设置，可能减少操作中断，但理解请求与改善可见画面是两件事；实际价值仍取决于个人视觉条件、语言表达和设备反馈，不能由助手名称直接推定。",
+      "userProfile": "与完全依赖语音读物的需求相比，使用者可能希望继续看文字布局、物体轮廓或熟悉环境，因此画面增强与语音信息的比例很个人化。是否愿意同时携带手机和眼镜也影响接受程度；用户画像应围绕实际任务和试用反馈，而不是仅用某个视力诊断名称概括。",
+      "competition": "普通电子放大器强调看清材料，朗读眼镜强调把内容变成声音，而EYE7试图在增强视觉与助手操作间切换。它的差异不在多一个摄像头或换镜框，而在使用者能否更连续完成任务；也可能因为设备和订阅更复杂而增加负担，不能预设组合功能一定胜过单一工具。",
+      "supplyChain": "新设计要协调摄像输入、处理延迟、增强显示、语音交互和手机电源预算，线缆可靠性与接口也会影响日常使用。选择更强应用处理器并不能自动解决近眼显示和个人视觉适配；候选供应商只提供部分能力，不能由其通用平台推定已经实现Eyedaptic的软件和效果。",
+      "technology": "一句关于画面的问题可能包含模糊偏好，助手若误解并改变多个设置，用户可能难以知道发生了什么。技术价值在于把请求、实际改动和结果反馈连起来，同时允许恢复原状态；这种可理解性比单次回答流畅更重要，也不能仅凭生成文本质量判断视觉辅助是否可靠。",
+      "aesthetics": "使用者除了是否喜欢镜框，还要考虑手机放在哪里、线缆如何避开衣物，以及摘戴时能否保持连接。更轻的视觉印象不代表鼻梁压力或显示舒适，镜架也可能影响社交时的自我感受；审美讨论应听取本人偏好，不把隐蔽或像普通眼镜作为唯一优点。",
+      "risks": "AI读错文字或误解物体时，使用者可能把流畅回答当作可靠信息；画面增强也可能在某些条件下不合适。重要内容应保留可核对方式，设备不应被描述为保证安全导航或替代专业眼科照护；视觉助手与真实场景之间的误差需要被清楚呈现，而非被宣传语遮盖。",
+      "opportunity": "后续研究可以把重点放在用户是否知道如何表达需求、理解设置变化并自行恢复，而不是只看助手回答多少问题。若减少操作负担的同时失去对画面的掌控，价值可能有限；因此更有意义的结果是本人能否持续完成常见任务，并保留选择其他辅助方式的自由。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "td-pilot",
+    "name": "Tobii Dynavox TD Pilot派乐（TD Talk AI音色方案）",
+    "brand": "Tobii Dynavox",
+    "category": "accessibility",
+    "tagline": "用眼控选择自己要说的话，再通过个性化声音表达",
+    "officialUrl": "https://www.tobiidynavox.cn/pages/td-pilot",
+    "status": "on_sale",
+    "statusEvidence": "中国官网列出TD Pilot派乐具体硬件，购买页明确准备订购可联系本地代表取得价格和个人方案；TD Talk当前预装及2026年5月ElevenLabs AI音色设置支持均有官方说明。",
+    "regions": [
+      "中国大陆：官方本地联系购买",
+      "美国等官方个人沟通辅助渠道；方案因地区不同"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "硬件具有中国官网型号和本地购买联系渠道；ElevenLabs等第三方AI音色的账户、网络、许可和语言条件另行确认，不能视为大陆自动包含。"
+    },
+    "price": {
+      "text": "个人沟通辅助方案报价",
+      "note": "平板基座、配套软件、安装适配与第三方音色权益须核对完整订单；未核到统一零售价，不保证支付或资助资格。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "预装TD Talk支持个性化AI语音，2026年官方文档给出ElevenLabs音色接入；用户自己选择表达内容，AI负责声音生成，不推定眼动追踪算法为AI。",
+      "dependency": "需要眼控适配、TD Talk和有效音色方案；第三方AI语音账户、许可与网络另有条件，未确认所有地区或订单均包含。"
+    },
+    "audience": "consumer",
+    "saleMode": "consumer-fitting",
+    "highlights": [
+      "专用眼控基座与iPad沟通系统",
+      "背部Partner Window与外放声音",
+      "TD Talk支持选配个性化AI音色",
+      "中国大陆官方个人购买入口"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "为自主表达提供眼控与声音输出，区别于通用平板或自动回答助手；采用取决于个人接入条件、支持和语言服务，无疗效结论。"
+    },
+    "architecture": [
+      {
+        "name": "选择输入",
+        "detail": "眼动模块及支持的触摸或开关输入帮助用户选择内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "平板与沟通软件",
+        "detail": "iPad与TD Talk等软件组织表达，用户保有选择权。",
+        "evidence": "official"
+      },
+      {
+        "name": "选配AI音色",
+        "detail": "TD Talk可接入个性化AI语音，具体账户和许可条件另核。",
+        "evidence": "official"
+      },
+      {
+        "name": "交流输出",
+        "detail": "扬声器和背部Partner Window向对方呈现已选择内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "安装供电",
+        "detail": "专用外壳、支撑和供电满足整体使用；不拆解未知平板内部。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "TD Pilot派乐中国官方产品页",
+        "url": "https://www.tobiidynavox.cn/pages/td-pilot",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "china",
+          "technology",
+          "audience"
+        ],
+        "note": "已打开具体个人眼控沟通设备及软件、背部显示与声音结构；不以支持页序列号表推定为另一代型号。"
+      },
+      {
+        "title": "Tobii Dynavox中国官方如何购买",
+        "url": "https://www.tobiidynavox.cn/pages/how-to-buy",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "purchase",
+          "china"
+        ],
+        "note": "已打开准备订购、当地代表和个人需求联系流程；未提交个人信息、报价或购买。"
+      },
+      {
+        "title": "TD Talk当前官方介绍",
+        "url": "https://us.tobiidynavox.com/products/td-talk",
+        "kind": "official-spec",
+        "supports": [
+          "software",
+          "compatibility",
+          "dependency"
+        ],
+        "note": "已打开TD Talk预装TD Pilot、个性化声音和沟通功能；具体地区权益需核对。"
+      },
+      {
+        "title": "TD Talk设置ElevenLabs AI音色，2026-05-04",
+        "url": "https://www.tobiidynavox.com/blogs/support-articles/how-do-i-set-up-my-elevenlabs-voice-in-td-talk",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "availability",
+          "dependency"
+        ],
+        "note": "已打开具体个性化AI语音集成说明；需要个人服务账户设置，不推定所有地区可用或包含许可。"
+      },
+      {
+        "title": "TD Pilot美国官方产品与图片",
+        "url": "https://us.tobiidynavox.com/pages/td-pilot",
+        "kind": "official-spec",
+        "supports": [
+          "model",
+          "images",
+          "technology"
+        ],
+        "note": "已打开当前TD Pilot前后外形、眼控区、Partner Window和沟通使用场景；不是普通平板照片。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是使用者希望在不便使用常规口语或手部输入时，主动选择自己的表达并让对方及时理解。个性化音色可能与身份和交流偏好有关，但只有输入、编辑和发声流程可掌控才有价值；听起来自然并不等于表达更自主，也不能替代本人对声音的选择。",
+      "userProfile": "眼控只是可能的输入方式之一，使用者的视线控制、姿势、疲劳和既有沟通习惯都会影响实际流程。家人或支持人员是否能帮助安装和维护也很重要，但应保留本人表达的主导权；不能用某个诊断名称概括所有需求，更不能把照护者觉得方便等同用户本人满意。",
+      "competition": "通用平板也能输入并播放文字，但专用眼控、背部交流窗口、声音输出和安装结构形成不同的个人使用流程。个性化音色增加表达选择，却可能带来服务依赖；同核心辅助沟通任务下，不应再以屏幕尺寸或小幅型号更新堆数，而应比较接入和交流方式的真实差异。",
+      "supplyChain": "同类沟通基座需要在可懂度、声音反馈、续航、安装和重量之间协调，还要与封闭平板的软件接口合作。一般扬声器或电池能力不能自动解决眼控适配和沟通应用许可；供应候选应说明只覆盖哪个功能层，而不是暗示已有完整个人辅助设备的可复制方案。",
+      "technology": "一句话从选择到发声的等待可能影响交流时机，用户发现内容不对时也需要及时修改或停止。生成音色再逼真，如果无法知道是否正在处理、是否重复发送，仍可能带来困扰；因此技术评价应围绕用户可见的状态与控制，不只比较音色自然程度。",
+      "aesthetics": "使用者需要看清并控制正面，对话对象则可能从背部窗口获得反馈，这让安装高度和摆放方向影响交流体验。外观稳固感不等于任何桌面或轮椅位置都适用，重量和拿取也需要本人及支持者共同评估；审美应包含交流中的可见性和个人偏好，而非只看屏幕边框。",
+      "risks": "个性化声音可能与本人身份紧密相关，获取、保存和调用相关素材应尊重本人意愿及服务许可。替用户配置的人也不能把技术上可生成等同本人希望表达；本条研究的是自主沟通工具，不能将生成音色用于冒充他人或把系统输出视作未经本人确认的真实意思。",
+      "opportunity": "后续更有价值的问题是本人是否更容易发起、修改和结束交流，以及哪些环境仍需要其他沟通方式。声音个性化可以作为其中一个偏好，但不应掩盖输入和支持负担；一个可靠的局部任务也可能有意义，无须用替代所有沟通方式的承诺证明产品价值。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "withings-beamo",
+    "name": "Withings BeamO（StethO Sense方案）",
+    "brand": "Withings",
+    "category": "health-home",
+    "tagline": "把家中采集的心肺声音交给配套AI服务分析",
+    "officialUrl": "https://www.withings.com/en-us/products/beam-o",
+    "status": "on_sale",
+    "statusEvidence": "当前美国官方BeamO商品可售，公开product.js available=true、US$249.95；官方支持页已说明2026年10月推出的StethO Sense与具体设备、订阅及区域条件。",
+    "regions": [
+      "美国：本条价格和主要功能口径",
+      "欧盟及欧洲经济区：另有不同AI功能范围"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核到中国大陆正式销售及StethO Sense可用性；当前AI资格清单不含大陆，不把进口硬件等同全部服务可用。"
+    },
+    "price": {
+      "text": "US$249.95（美国官网硬件）",
+      "note": "StethO Sense需要有效Withings+订阅，地区服务和版本要求另核；不借欧洲血氧/房颤功能描述美国版。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "StethO Sense通过eMurmur和StethoMe分析上传的心肺声音；美国肺部输出为一般健康Breathing Index，欧洲有不同范围。",
+      "dependency": "需要BeamO、Withings+、兼容App/固件及支持地区；分析把录音送往第三方处理，并需授权，非设备离线诊断。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "电子听诊器与多种家用测量整合",
+      "配套服务明确心肺声音AI分析",
+      "美国与欧洲功能范围分开记录",
+      "录音采集与云端解释分层"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "将家庭身体声音记录与算法解释连接，区别于心电片段和呼气代谢信息；本条为案头研究，没有临床复核、访谈或销量结论。"
+    },
+    "architecture": [
+      {
+        "name": "身体声音及其他输入",
+        "detail": "压电听诊、温度与电接触等采集功能；区域功能并不一致。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机记录与交互",
+        "detail": "屏幕和控制键选择测量并保存结果，本机不等于运行全部声音AI。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与同步",
+        "detail": "通过支持的连接方式同步Withings App，需账户和适用版本。",
+        "evidence": "official"
+      },
+      {
+        "name": "选配分析服务",
+        "detail": "Withings+内StethO Sense将录音交eMurmur或StethoMe处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "结果与核对",
+        "detail": "用户查看结果及质量提示；输出不能排除疾病或替代医生判断。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "BeamO美国当前官方商品",
+        "url": "https://www.withings.com/en-us/products/beam-o",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "model",
+          "images"
+        ],
+        "note": "已打开商品页及公开商品JSON，US$249.95且available=true；本条不是面向临床的BeamO PrO。"
+      },
+      {
+        "title": "StethO Sense美国功能与条件",
+        "url": "https://support.withings.com/hc/en-us/articles/50669655217169-BeamO-StethO-Sense-AI-US-Only",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "dependency",
+          "privacy",
+          "limits"
+        ],
+        "note": "已打开：有效Withings+、App26.40及以上、固件771及以上，十月区域推出；肺部Breathing Index为wellness，录音送第三方，不作诊断。"
+      },
+      {
+        "title": "StethO Sense欧洲及其他地区资格",
+        "url": "https://support.withings.com/hc/en-us/articles/50400733585041-BeamO-StethO-Sense-AI-EU-and-RoW",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "ai",
+          "limits"
+        ],
+        "note": "已打开：实际列出欧盟/欧洲经济区，固件781及以上；不能仅据RoW标题推定全球包含中国。"
+      },
+      {
+        "title": "BeamO官方地区功能表",
+        "url": "https://support.withings.com/hc/en-us/articles/28094120714129-BeamO-Feature-Availability",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "technology",
+          "limits"
+        ],
+        "note": "已打开当前美国未开放SpO2和AFib；欧洲及英国口径不同，不能跨区合并功能。"
+      },
+      {
+        "title": "BeamO官方非美国版产品指南",
+        "url": "https://support.withings.com/hc/article_attachments/36113546494865",
+        "kind": "official-spec",
+        "supports": [
+          "architecture",
+          "sensing",
+          "use-boundary"
+        ],
+        "note": "已打开官方PDF：压电声音、热电堆和电极等硬件结构；只借功能结构，不把非美国功能或旧说明覆盖最新美国服务条件。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是家庭成员希望在日常时点保留身体声音信息，随后更有条理地与合适的专业人员讨论。它与仅描述某次感受不同，但录到声音不等于录得可分析，分析结果也不等于病因；研究价值在信息采集和交流过程，不应转化为自行判断疾病的承诺。",
+      "userProfile": "这类工具要求用户理解一次记录的限制，并愿意在质量不足时重新获取合适数据，而不只是寻找快速结论。家庭成员共用时，档案选择和协助关系也影响可用性；是否适合本人需要结合实际条件，不应由健康焦虑或厂家的便利性宣传代替理性评估。",
+      "competition": "与Kardia心电片段相比，BeamO在这里关注身体声音；与仅保存录音的电子听诊器相比，它增加选配算法分析和历史查看。多种测量合在一机并不意味着每一种都更适合用户，比较应围绕具体信息任务、质量提示和地区服务，而不是以功能数量推定更完整健康保障。",
+      "supplyChain": "同类新设计要处理身体接触、环境声音、手持移动与不同传感功能之间的干扰，同时兼顾清洁和界面提示。单独采购某一模拟前端不会得到可用听诊系统，显示模组也不能解决测量质量；供应研究应把传感、机械耦合、处理和远端服务分别验证。",
+      "technology": "同一个结果标签可能受录音位置、动作或环境干扰影响，用户需要知道系统分析了什么、无法判断什么。技术价值不只是给出分数，还包括不充分数据能否被拒绝，以及如何回到原录音核对；语气肯定的结果界面也不能替代对模型适用范围的理解。",
+      "aesthetics": "机身简洁可能降低拿取负担，但不同测量共用控制界面时，用户仍要知道当前档案和模式。放置、充电和清洁方式也影响它是否留在日常可用的位置；审美不只是像不像医疗仪器，还包括家庭成员是否愿意操作，以及能否看清状态而不产生混淆。",
+      "risks": "当采集和分析变得容易，用户可能更频繁查看结果，但也可能把波动或标签理解为确定病因。订阅、地区和第三方处理让信息链更长，隐私与服务连续性同样需要考虑；产品研究应解释这些实际条件，而不是只强调减少就诊或节省医疗费用等未经本研究验证的收益。",
+      "opportunity": "后续研究可重点观察记录是否足够清楚、时间与档案是否正确，以及用户和专业人员能否理解算法结果的边界。若输出只有一个难以解释的分数，家庭采集可能增加疑问而非减少；是否形成可持续需求，需要看完整信息交流，而不是设备被使用了多少次。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "abbott-lingo",
+    "name": "Abbott Lingo（AI餐照记录方案）",
+    "brand": "Abbott",
+    "category": "health-home",
+    "tagline": "把连续葡萄糖趋势与用户核对后的餐食照片关联",
+    "officialUrl": "https://www.hellolingo.com/products",
+    "status": "on_sale",
+    "statusEvidence": "美国官方当前计划页可订购两周一枚传感器US$54，列出具体订单与配送；2026年9月官方说明餐照AI识别已提供，不以其他Abbott产品或未来软件作依据。",
+    "regions": [
+      "美国：本条价格及餐照功能口径",
+      "英国：官方另有销售渠道和地区方案"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "官方当前购买地区为美国和英国，未提供中国大陆Lingo购买服务；不能借FreeStyle Libre在其他市场的渠道推定Lingo可用。"
+    },
+    "price": {
+      "text": "US$54／两周计划，含1枚传感器",
+      "note": "所见计划不自动续订；另有多枚和自动续订方案，本条不重复计数。传感器为需更换的电子耗材，实际寿命可能不足标示上限。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "配套App用AI识别餐食照片并估计份量，用户确认后与电子传感器记录的葡萄糖曲线对照；食物估计与生理测量是不同输入。",
+      "dependency": "需要皮下细丝传感器、兼容手机和Lingo账户；餐照结果需用户修正，模型处理位置未完整披露，不推定传感器内置视觉AI。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "连续电子葡萄糖感知",
+      "AI餐照识别与份量估计",
+      "用户确认食物后与趋势关联",
+      "美国成人非胰岛素使用者适用边界"
+    ],
+    "niche": {
+      "level": "emerging",
+      "reason": "关注日常餐食记录与个人生理趋势关联，区别于一次性呼气和普通食物识别App；没有本研究访谈、减重或疾病风险效果证据。"
+    },
+    "architecture": [
+      {
+        "name": "葡萄糖输入",
+        "detail": "上臂传感器的细丝位于皮肤下方，测量组织间液相关信号。",
+        "evidence": "official"
+      },
+      {
+        "name": "采集与无线传输",
+        "detail": "电子传感器持续记录并通过Bluetooth发送至兼容手机。",
+        "evidence": "official"
+      },
+      {
+        "name": "餐照AI输入",
+        "detail": "App根据照片识别食物和估计份量，不能看见所有配料。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户核对与关联",
+        "detail": "用户修正餐食后，日志和葡萄糖曲线在同一时间轴查看。",
+        "evidence": "official"
+      },
+      {
+        "name": "复核与更换",
+        "detail": "传感器有使用周期，曲线和AI估计均有边界，不作自动诊断。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Lingo美国当前购买计划",
+        "url": "https://www.hellolingo.com/products",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "audience",
+          "images"
+        ],
+        "note": "已打开两周US$54一枚、无自动续订及当前订购配送入口；成人非胰岛素使用者，不能用于疾病诊断。"
+      },
+      {
+        "title": "Lingo餐照AI记录指南，2026-09-01",
+        "url": "https://www.hellolingo.com/blog/how-to-photo-log-meals",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "software",
+          "limits"
+        ],
+        "note": "已打开AI食物识别与份量估计、用户修正和不可见油脂等限制；营养为估计，非传感器直接测量。"
+      },
+      {
+        "title": "Lingo官方销售地区",
+        "url": "https://support.hellolingo.com/hc/en-us/articles/12306276895383-Where-can-I-purchase-Lingo",
+        "kind": "official-spec",
+        "supports": [
+          "regions",
+          "china",
+          "purchase"
+        ],
+        "note": "已打开美国与英国购买渠道；不将Abbott旗下其他葡萄糖产品市场范围归给Lingo。"
+      },
+      {
+        "title": "Lingo美国销售条款",
+        "url": "https://www.hellolingo.com/terms-of-sale",
+        "kind": "official-spec",
+        "supports": [
+          "status",
+          "regions",
+          "eligibility"
+        ],
+        "note": "已打开当前条款，美国购买渠道限定当地成年且不使用胰岛素的客户；没有提交账户或订单。"
+      },
+      {
+        "title": "Lingo官方CGM测量原理",
+        "url": "https://www.hellolingo.com/blog/what-is-a-cgm",
+        "kind": "official-spec",
+        "supports": [
+          "sensing",
+          "technology",
+          "limits"
+        ],
+        "note": "已打开皮下细丝、组织间液及与血糖变化存在滞后等原理；不写成无创光学测血糖。"
+      },
+      {
+        "title": "Lingo官方用户指南",
+        "url": "https://www.hellolingo.com/s/lingo101-guide.pdf",
+        "kind": "official-spec",
+        "supports": [
+          "architecture",
+          "connectivity",
+          "maintenance"
+        ],
+        "note": "已打开Bluetooth、细丝、粘附和更换处理；旧PDF仅提iPhone，当前商品已列iOS/Android，以新页面为准。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户想回看一顿饭、活动和随后趋势之间的关系，但不愿每次手动搜索所有食物。AI照片入口可能降低记录阻力，却也可能遗漏配料或份量；即便时间上相邻也不能确定因果，价值取决于日志是否真实、完整，以及用户能否理解这种关联的局限。",
+      "userProfile": "持续佩戴并不自动产生有意义的记录，使用者仍需拍照、修正、标记时间并理解曲线不是对一顿饭的简单评分。对于只希望获得快速饮食结论的人，额外信息可能增加负担；用户画像应围绕记录目的和接受度，而不是把健康兴趣或体重目标直接当作适配依据。",
+      "competition": "Lumen提供某次呼气相关信息，普通餐照App估计食物组成，而Lingo在这里把连续生理趋势和餐食记录连接。输入时间尺度和数据来源不同，但不意味着某种方案更适合所有人；比较应围绕要了解的问题、持续佩戴负担和可解释性，不能把不同指标当成同一健康分数。",
+      "supplyChain": "同类连续传感新设计不仅需要微弱信号采集，还涉及传感材料、偏置、长期漂移、封装、粘附和更换流程。能够采购电化学前端并不等于拥有可靠葡萄糖传感器，蓝牙连接也不能证明测量质量；供应研究应把这些专有条件与通用电子能力明确分开。",
+      "technology": "如果拍摄时间、食物组成或份量不准确，用户可能把随后变化归给错误因素。连续曲线提供更多观察点，却不会自动消除记录偏差或其他生活变量；技术评价需要让用户看见哪些是传感数据、哪些是AI估计、哪些只是时间关联，避免把多个来源合成确定解释。",
+      "aesthetics": "照片中的传感器看起来简洁，但穿衣、洗浴、睡姿和日常碰触仍可能影响个人感受。有人愿意展示设备，有人希望遮盖，两种偏好都合理；审美评价不应替代粘附和皮肤体验，也不能因为体积小就默认所有生活场景都不会发生牵拉或中断。",
+      "risks": "一个数值或波动容易被理解成某种食物好坏的确定标签，但实际记录涉及份量、时间和其他变量。AI估计看起来精确，也可能让用户忽略输入不完整；研究应关注信息是否被正确理解，避免把观察工具包装成自动饮食裁判或替代专业健康支持。",
+      "opportunity": "后续有价值的问题是AI餐照是否让用户更容易维持准确日志，而不是只增加漂亮的曲线和分数。如果每顿饭都需大量纠正，便利可能有限；即使记录改善，也仍需另行判断它是否帮助本人理解信息，不能将工具使用频率直接转换为健康或商业成功。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "ugreen-idx6011",
+    "name": "UGREEN NASync iDX6011",
+    "brand": "UGREEN",
+    "category": "computing",
+    "tagline": "在个人文件库旁运行语义搜索与AI整理工具",
+    "officialUrl": "https://store.ugreen.jp/products/ugreen-idx6011-64gb-ai-nas",
+    "status": "on_sale",
+    "statusEvidence": "日本官方具体iDX6011 64GB商品有加入购物车/立即购买，公开商品JSON available=true，当前含税价JPY494,881；不采用早期众筹押金或历史优惠价判断。",
+    "regions": [
+      "日本：已核官方64GB具体商品",
+      "其他地区按各自型号及商店确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核到本条普通iDX6011具体配置的大陆官方订单；品牌中国发布资料提及Pro不能代替普通版购买证据。"
+    },
+    "price": {
+      "text": "JPY494,881（日本官网所见64GB配置，含税）",
+      "note": "HDD不包含，容量版本不重复计数；当前价格与早期众筹不同，地区、硬盘和网络配套另计。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "Uliya本地AI聊天、文件语义搜索与整理，配合文档摘要、转写和照片管理；软件运行在NAS的存储与计算环境中。",
+      "dependency": "需安装兼容硬盘、配置UGOS、账户权限与模型；本地和可选云端能力需分别确认，普通Docker支持不等于任意模型可高效运行。"
+    },
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "highlights": [
+      "六盘位普通版，不带Pro前屏",
+      "本地文件语义搜索与问答",
+      "存储、索引和AI计算相结合",
+      "硬盘及完整备份方案另备"
+    ],
+    "niche": {
+      "level": "emerging",
+      "reason": "针对个人资料积累后的查找和整理，区别于单纯云端聊天；高配NAS已有竞争，真实价值取决于文件库与维护能力，无销量或用户调研结论。"
+    },
+    "architecture": [
+      {
+        "name": "个人数据输入",
+        "detail": "用户将文件、照片等放入授权目录；兼容硬盘需另配。",
+        "evidence": "official"
+      },
+      {
+        "name": "存储与索引",
+        "detail": "六盘位存储系统建立检索和管理所需的数据组织。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地AI处理",
+        "detail": "Uliya与相关工具提供语义检索、摘要及内容处理。",
+        "evidence": "official"
+      },
+      {
+        "name": "用户访问",
+        "detail": "电脑或手机通过支持的客户端访问UGOS与结果。",
+        "evidence": "official"
+      },
+      {
+        "name": "权限及可选云服务",
+        "detail": "是否启用外部模型与连接需单独确认；备份和访问控制由系统方案负责。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "UGREEN日本iDX6011 64GB当前官方商品",
+        "url": "https://store.ugreen.jp/products/ugreen-idx6011-64gb-ai-nas",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "model",
+          "technology",
+          "images"
+        ],
+        "note": "已打开并读取公开HTML/商品JSON：available=true、JPY494881，六盘位、Core Ultra5 125H、硬盘另配。通用副标题残留32GB，与64GB SKU区分，不推定内存升级方式。"
+      },
+      {
+        "title": "UGREEN日本AI NAS功能与软件工作流",
+        "url": "https://store.ugreen.jp/pages/ugreen-ai-nas-storage",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "software",
+          "dependency",
+          "architecture"
+        ],
+        "note": "已打开本地Uliya、语义检索、整理、转写等具体功能；普通版与Pro外观分开，宣传效果不作独立性能结论。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是个人积累了较多文档、照片和视频，记得内容却记不清文件名或位置。语义检索可能减少手动翻目录，但前提是目标文件已被正确索引且有访问权限；生成答案若无法回到原件，反而可能增加核查负担，因此研究重点是找回资料的完整过程。",
+      "userProfile": "如果文件很少或已在单一云盘中容易找到，购买多盘位设备未必能减少负担。更值得观察的是既需要本地资料控制、又愿意管理存储和备份的个人；技术熟悉程度不是唯一条件，还应考虑谁处理硬盘故障、账户权限、软件更新和家庭网络问题。",
+      "competition": "云盘提供远程访问与搜索，外接硬盘便于本地保存，而AI NAS尝试把持久资料库、索引和内容处理放到同一台设备上。它可能减少部分上传需求，也增加本地维护责任；比较不能只看是否离线，还要看结果出处、共享、备份和长期访问是否符合个人使用方式。",
+      "supplyChain": "同类新设计需要协调磁盘访问、索引、模型运行、散热及网络传输，单独提高某一项性能未必改善整个文件流程。多盘位机械结构还涉及抽换、振动和灰尘管理；供应商候选应针对这些工程约束，而不能把通用计算板与电源控制器简单组合成可靠存储成品。",
+      "technology": "一个文件在目录中被限制访问后，相关索引、摘要或历史回答也可能需要重新处理，否则用户可能从派生内容看到不该访问的信息。技术评价应检查完整信息路径，而不只是原文件权限是否正确；本地部署减少某些外发环节，但不自动消除家庭共享或远程访问中的风险。",
+      "aesthetics": "多硬盘设备可能长期摆放在固定位置，拿取盘架、整理线缆、通风和噪声感受会影响生活环境。外观整齐并不能证明安静或适合卧室，图片中的简洁桌面也没有展示全部供电和网络安排；审美评价应结合实际摆放，而不是只看金属机壳与盘架排列。",
+      "risks": "如果工具只返回答案，错误主要体现在解释；若进一步整理、改名或移动文件，错误就可能影响用户的资料结构。应区分读取与修改权限，并保留可恢复的原件和备份；多盘位冗余不自动等于独立备份，本地模型也不会天然理解哪些文件对本人最重要。",
+      "opportunity": "值得进一步研究的是用户是否更快定位正确版本、减少重复整理，以及能否理解答案引用了哪些内容。生成更长摘要未必更有用，索引不完整也可能造成看似全面的遗漏；如果原有目录结构已经足够清楚，新增AI层可能只增加维护，这种不适用结果同样值得记录。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "tiiny-pocket",
+    "name": "Tiiny Pocket",
+    "brand": "Tiiny",
+    "category": "computing",
+    "tagline": "把支持的模型和Agent运行在随电脑携带的本地终端",
+    "officialUrl": "https://www.tiiny.ai/products/tiiny-pocket",
+    "status": "on_sale",
+    "statusEvidence": "本轮实际浏览器将具体Black整机加入购物车并进入US$2,099完整结算，未填信息或支付；商品页明确美国仓及订单处理后预计交付。首页残留上市通知文案，不以该通知替代实际订单证据。",
+    "regions": [
+      "美国本土连续地区首批零售，部分地址除外"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "当前零售首批仅美国本土，境外页面要求订阅后续通知；历史欧洲众筹发货不证明大陆当前可订购。"
+    },
+    "price": {
+      "text": "US$2,099（所见Black整机）",
+      "note": "税费按结算，具体配送及处理时间需订单确认；本地支持模型不按token收费不等于所有在线连接或第三方工具永久免费。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "TiinyOS提供支持模型和Agent入口，设备承担本地语言、视觉或语音推理；用户仍通过兼容电脑等客户端交互。",
+      "dependency": "需要外部供电和兼容主机；先下载支持模型，网页搜索与外部连接仍需联网，离线更新包和额外模型导入部分仍在发展。"
+    },
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "highlights": [
+      "具体本地模型与Agent软件入口",
+      "外接电脑作为交互界面",
+      "本机推理与在线连接条件分开",
+      "首批实际美国零售结算已核"
+    ],
+    "niche": {
+      "level": "emerging",
+      "reason": "面向愿意管理本地模型的个人进阶用户，区别于云端聊天附件和文件存储NAS；任务效率、兼容与持续性能未经本研究实测。"
+    },
+    "architecture": [
+      {
+        "name": "用户客户端",
+        "detail": "兼容电脑或支持终端打开TiinyOS及相关接口。",
+        "evidence": "official"
+      },
+      {
+        "name": "模型与任务配置",
+        "detail": "从支持列表选择模型及Agent，许可与工具权限需核对。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地计算",
+        "detail": "SoC和独立加速器等平台承担推理，实际芯片品牌未完整披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "内存与存储",
+        "detail": "本机保存支持模型和任务数据，具体布局不公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电、冷却和连接",
+        "detail": "外部电源配合机身散热，联网功能与离线推理分开。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tiiny Pocket当前官方商品与结算",
+        "url": "https://www.tiiny.ai/products/tiiny-pocket",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "images"
+        ],
+        "note": "已打开并以实际浏览器进入完整硬件结算：US$2099。未填个人信息或支付；当前商品首批美国仓，首页通知文案保留为证据差异。"
+      },
+      {
+        "title": "Tiiny当前本地模型工作流与FAQ",
+        "url": "https://www.tiiny.ai/",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "dependency",
+          "software"
+        ],
+        "note": "已打开：需要主机，模型下载后可本地运行，网页搜索/外部连接需网络；不采零风险、零学习等营销保证。"
+      },
+      {
+        "title": "Tiiny历史众筹发运政策",
+        "url": "https://www.tiiny.ai/policies/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "fulfillment",
+          "regions",
+          "status-boundary"
+        ],
+        "note": "已打开：主要针对Kickstarter自2026年8月分批发运，欧洲清单不扩大当前商品美国零售范围。"
+      },
+      {
+        "title": "Tiiny官方模型基准报告入口",
+        "url": "https://www.tiiny.ai/pages/benchmark-report/?from=footer",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "evaluation",
+          "limits"
+        ],
+        "note": "已打开厂家模型评估资料，属于厂商自身口径；没有进行复现实验，不将模型参数或成绩推广为任意任务效果。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是个人希望保留本地处理控制，同时让自己的电脑继续承担其他任务。专用终端可能减少频繁启动和配置不同模型的负担，但也新增一台要维护的设备；是否有价值取决于实际任务、兼容和持续运行需求，而不只是对离线或大模型参数规模的兴趣。",
+      "userProfile": "即便界面减少命令行配置，用户仍要选择模型、知道任务会读取哪些文件，并理解外部工具和账户的权限。希望获得完全托管助手的人未必愿意承担这些责任；用户画像应围绕可管理的工作流和支持条件，而非将“无需复杂设置”的宣传解释成人人都能零成本上手。",
+      "competition": "AI NAS侧重持续文件库、索引和共享，本条侧重为个人运行和编排支持的模型与Agent；两者可能有重叠任务，但系统维护重点不同。与云端助手相比，本地终端减少部分外部推理依赖，也受本机资源和模型选择限制，不能把离线处理等同更强能力或更低总成本。",
+      "supplyChain": "同类小型终端要在模型运行、内存访问、外部连接和散热空间之间协调，短时启动成功不说明长时间任务稳定。接口供电协商与整机机械设计也会影响可用性；供应商候选只能提供局部或工程能力，不能从通用计算经验推定已有该产品的软件和模型适配。",
+      "technology": "本地模型回答问题与调用外部工具是不同风险层次，后一种可能修改文件或使用账户服务。运行位置在本机并不能替用户判断每一步是否应该执行，也不能保证输入文件中的内容可信；技术评价应包含权限、确认和可恢复性，而不只是模型生成速度或参数数量。",
+      "aesthetics": "机身小并不意味着出门只带这一件物品，用户还需要电源、数据连接和交互终端。桌面摆放与收纳是否方便，可能比宣传中的口袋类比更影响真实使用；审美可以评价外壳和接口布局，但不能从照片推定安静、低温或长期握持的舒适程度。",
+      "risks": "数据留在个人设备上可以改变处理路径，但设备遗失、账户配置、外部连接和模型输出仍可能产生问题。加密或本地架构不是零风险证明，生成内容也可能出错；目录不采用绝对隐私或智能水平营销承诺，尤其不能把用于专业敏感资料的用户设想当成合规结论。",
+      "opportunity": "后续研究可先看哪些任务确实需要本地处理、反复运行或稳定环境，再观察专用终端是否减少配置和等待。若只是偶尔聊天，已有设备可能足够；如果任务依赖大量外部服务，离线优势也会缩小，这些限制需要与实际使用记录一起评估，而非靠宣传规模判断。"
+    },
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "captify-pro",
+    "name": "Captify Pro",
+    "brand": "Captify",
+    "category": "accessibility",
+    "tagline": "把对话和非语音环境声音转成眼前可读信息",
+    "officialUrl": "https://captify.glass/products/captify-pro",
+    "status": "on_sale",
+    "statusEvidence": "当前官方具体商品US$699、Add to cart，公开product.js available=true；页面说明下单后1–2周发出，再按地区配送，非仅候补申请。",
+    "regions": [
+      "美国：官方零售",
+      "其他地区：厂家称国际配送，具体地址与服务需确认"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "厂家称国际配送且支持中文，但未核到中国大陆具体订单、App和售后条件；语言支持不等于当地正式销售。"
+    },
+    "price": {
+      "text": "US$699（所见基础硬件）",
+      "note": "标准方案有免费离线字幕；Premium所见US$15/月。处方镜片另有费用和退货限制，不采用旧宣传页的全部功能永久免费或30天口径。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "配套App进行AI语音转写与非语音声音标签，眼镜显示字幕；可选Premium增加说话人区分、AI摘要和对话回查。",
+      "dependency": "需要兼容iOS/Android手机；标准字幕可离线，语言和功能范围按方案不同，可选云端同步与AI服务不能泛化为全部本地。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "持续对话字幕与环境声音标签",
+      "双眼显示与眼镜内麦克风",
+      "兼容手机承担配套处理",
+      "标准离线与可选云服务分开"
+    ],
+    "niche": {
+      "level": "specialist",
+      "reason": "关注听障用户对对话及声音上下文的视觉访问，区别于一般翻译眼镜；不能替代所有听力支持，缺少本研究独立识别和用户访谈证据。"
+    },
+    "architecture": [
+      {
+        "name": "声音输入",
+        "detail": "眼镜麦克风采集附近语音与环境声音，无摄像头工作流。",
+        "evidence": "official"
+      },
+      {
+        "name": "手机识别",
+        "detail": "配套App进行字幕与支持声音标签处理，需兼容手机。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉输出",
+        "detail": "双眼衍射波导显示字幕与提示，适配镜片需按订单确认。",
+        "evidence": "official"
+      },
+      {
+        "name": "触控与连接",
+        "detail": "眼镜触控、Bluetooth与供电维持佩戴中的交互。",
+        "evidence": "official"
+      },
+      {
+        "name": "可选AI服务",
+        "detail": "Premium提供摘要、声音区分和回查等，云端与离线条件分别核对。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Captify Pro当前具体官方商品",
+        "url": "https://captify.glass/products/captify-pro",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "images",
+          "limits"
+        ],
+        "note": "已打开及核公开JSON可售；US$699、具体发运说明、14天退货及处方镜片限制。当前页明确嘈杂/多人重叠并非理想场景。"
+      },
+      {
+        "title": "Captify Caption Vision AI工作流说明",
+        "url": "https://captify.glass/pages/landingpage",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "software",
+          "dependency"
+        ],
+        "note": "已打开AI语音转写和手机承担处理；其中旧退货期限、绝对准确与全部权益宣传不用于覆盖当前具体商品及方案页。"
+      },
+      {
+        "title": "Captify标准与Premium当前方案",
+        "url": "https://captify.glass/pages/subscription",
+        "kind": "official-spec",
+        "supports": [
+          "ai",
+          "price",
+          "offline",
+          "dependency"
+        ],
+        "note": "已打开标准离线字幕/翻译、声音标签与可选US$15/月Premium的说话人区分、摘要、云备份和Ask AI；不采98%宣传为独立实测。"
+      },
+      {
+        "title": "Captify官方FAQ",
+        "url": "https://captify.glass/pages/faqs",
+        "kind": "official-spec",
+        "supports": [
+          "purchase",
+          "compatibility",
+          "support"
+        ],
+        "note": "已打开购买和使用条件；不同页面若有版本差异，以当前具体型号与计划为准，不混旧Myvu/Light。"
+      },
+      {
+        "title": "Captify官方隐私政策",
+        "url": "https://captify.glass/pages/privacy-policy",
+        "kind": "official-spec",
+        "supports": [
+          "privacy",
+          "data-boundary"
+        ],
+        "note": "已打开账户、订单及服务数据的一般政策；未完整说明每种字幕模式的全部录音保留，不能据此承诺所有对话永不外发。"
+      }
+    ],
+    "analysis": {
+      "demand": "需求假设是用户希望减少低头看手机字幕的次数，并在交流中注意到笑声、掌声或音乐等信息。文字显示可以提供另一种访问方式，但阅读、看人和理解表情仍需要分配注意力；是否更方便取决于实际对话节奏和本人偏好，不能用“听见每个字”的宣传替代观察。",
+      "userProfile": "目标使用者可能已有助听设备、读唇习惯或手机字幕工具，希望增加一种选择。能否轻松阅读眼前文字、同时留意对方和管理手机连接，比是否追求新眼镜更关键；不能只按听力损失程度判断适合，也不能用某位用户的成功故事推断其他人获得相同体验。",
+      "competition": "一般翻译眼镜更多处理跨语言内容，助听器主要改变声音接收，而本条聚焦持续字幕和环境声音的视觉上下文。它们可有重叠功能，但用户任务和失败后恢复方式不同；比较不应简单以镜框相似判为同一产品，也不应因为加入摘要就重复计算同一字幕需求。",
+      "supplyChain": "同类字幕眼镜既需要可读的文字输出，也要获得适合识别的近场声音，同时兼顾配戴、功耗和手机连接。高亮度显示不能补救听错的人名，更多算法功能也不会自动改善鼻梁和镜片适配；供应链研究应把这几个约束联系起来，而不是只列处理器和屏幕参数。",
+      "technology": "环境提示若与说话内容混在一起，用户可能分不清某个词是对方说的还是系统对声音的解释。说话人区分也可能出错，尤其多人交叠时，不能把文字前的标记当成可靠身份确认；技术评价需要包括显示组织、时间对应和纠错，而不只看识别出来多少字。",
+      "aesthetics": "用户可能长时间在文字与真实场景之间切换，显示位置、眼镜稳定和处方镜片组合都会影响体验。看起来像普通眼镜不一定意味着旁人不会注意，也不代表所有头型都舒适；审美评价应允许不同偏好，同时把触控位置、摘戴和清洁的实际动作纳入观察。",
+      "risks": "错误人名、时间或否定词可能改变理解，生成摘要还可能省略上下文，因此重要内容仍需与交流对象核对。对话保存和云备份也涉及旁人信息，基本字幕能离线并不代表开启全部服务后数据永不外发；产品研究需要区分读取便利、记录行为和后续使用权限。",
+      "opportunity": "后续值得观察的是使用者是否更容易发起、跟上和结束交流，以及何时选择关掉字幕或回到手机。环境声音标签可能提供上下文，也可能成为干扰；需要由本人任务体验判断，而不是让产品功能数量或官方用户故事替代需求验证，更多信息不一定总是更有帮助。"
+    },
+    "checkedAt": "2026-11-05"
   }
 ]

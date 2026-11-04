@@ -40,7 +40,7 @@ RayNeo iO官方另一角度或使用场景参考 · 来源：[RayNeo · 官方�
 
 - 价格：灰色Standard US$499。核查日所见单机或基本配置价；币种、促销、税费、镜片、附件及服务依地区结算，不把颜色或套装重复计数。
 
-- 中国大陆：本次未核实该具体型号在中国大陆的官方销售和完整服务支持；海外在售不等于国内可直接启用全部功能。
+- 中国大陆：2026-11-05 核实雷鸟中国官网 iO 独立产品页，页面“立即购买”指向京东渠道。确认有国内官方购买入口，未登录商店核实当前库存；本档案国际版报价与模型服务不能直接代替国行套餐、App和售后条款。
 
 - [官方产品 / 商店](<https://www.rayneo.com/products/rayneo-io-ai-glasses>)
 
@@ -261,5 +261,7 @@ RayNeo AI及可选大模型处理语音问答，Lifelog提取待办与摘要，�
 2. [RayNeo官方AI眼镜分类](<https://www.rayneo.com/collections/ai-glasses>) — 已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。
 
 3. [RayNeo官方配送政策](<https://www.rayneo.com/policies/shipping-policy>) — 已打开一手页面；产品能力为厂商披露，未进行实机或效果验证。
+
+4. [雷鸟 iO 中国官网及购买入口](<https://rayneo.cn/io.html>) — 2026-11-05 核实雷鸟中国官网 iO 独立产品页，页面“立即购买”指向京东渠道。确认有国内官方购买入口，未登录商店核实当前库存；本档案国际版报价与模型服务不能直接代替国行套餐、App和售后条款。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/rayneo-io)

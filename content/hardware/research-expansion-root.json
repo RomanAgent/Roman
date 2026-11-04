@@ -435,8 +435,9 @@
       "其它配送地区以结算为准"
     ],
     "china": {
-      "availability": "unclear",
-      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+      "availability": "official",
+      "note": "2026-11-05 核实浩瀚中国官网 M7 型号页及其明确链接的天猫、京东旗舰店。确认品牌国内官方渠道，未登录店铺核实 M7 当前库存、套装组成与价格；不要把海外组合配置直接套用国内套餐。",
+      "checkedAt": "2026-11-05"
     },
     "price": {
       "text": "US$249.99（M7单机）",
@@ -513,6 +514,17 @@
           "technology"
         ],
         "note": "描述端侧多目标追踪及可拆触屏。"
+      },
+      {
+        "title": "浩瀚 M7 中国官网及官方购买渠道",
+        "url": "https://www.hohem.com/cn/product/isteady-m7",
+        "kind": "official-spec",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "2026-11-05 核实浩瀚中国官网 M7 型号页及其明确链接的天猫、京东旗舰店。确认品牌国内官方渠道，未登录店铺核实 M7 当前库存、套装组成与价格；不要把海外组合配置直接套用国内套餐。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "checkedAt": "2026-11-04"
@@ -830,8 +842,9 @@
       "其他官方地区另查"
     ],
     "china": {
-      "availability": "unclear",
-      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+      "availability": "official",
+      "note": "2026-11-05 核实中国大陆官方商城的 Flow 2 Pro 和 AI 追踪模块套餐，页面提供人民币价格、加购与预计发货说明。标准套餐未含独立追踪模块；手机原生跟踪兼容性与跨 App 模块追踪需分开核对，库存以具体套餐为准。",
+      "checkedAt": "2026-11-05"
     },
     "price": {
       "text": "AI Tracker Bundle US$179.99",
@@ -909,6 +922,17 @@
           "technology"
         ],
         "note": "说明额外模块与跨App追踪能力，不另计一款主产品。"
+      },
+      {
+        "title": "Flow 2 系列中国大陆官方商城",
+        "url": "https://store.insta360.com/cn/product/flow-2-pro",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "2026-11-05 核实中国大陆官方商城的 Flow 2 Pro 和 AI 追踪模块套餐，页面提供人民币价格、加购与预计发货说明。标准套餐未含独立追踪模块；手机原生跟踪兼容性与跨 App 模块追踪需分开核对，库存以具体套餐为准。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "checkedAt": "2026-11-04"
@@ -929,8 +953,9 @@
       "英国目录有销售入口"
     ],
     "china": {
-      "availability": "unclear",
-      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+      "availability": "official",
+      "note": "2026-11-05 在中国大陆官方商城核实具体型号，页面显示加入购物车、立即购买及配送日期；仅飞行器和畅飞套装分别销售。未登录或实际下单，库存与配送以结算地址和套餐为准。",
+      "checkedAt": "2026-11-05"
     },
     "price": {
       "text": "€239 起（德国裸机页）",
@@ -1007,6 +1032,17 @@
           "status"
         ],
         "note": "列出Neo2消费跟拍产品；报价按具体地区区分。"
+      },
+      {
+        "title": "DJI Neo 2 中国大陆官方商城",
+        "url": "https://store.dji.com/cn/product/dji-neo-2?set_region=CN",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "2026-11-05 在中国大陆官方商城核实具体型号，页面显示加入购物车、立即购买及配送日期；仅飞行器和畅飞套装分别销售。未登录或实际下单，库存与配送以结算地址和套餐为准。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "checkedAt": "2026-11-04"
@@ -1027,8 +1063,9 @@
       "英国目录有购买入口"
     ],
     "china": {
-      "availability": "unclear",
-      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+      "availability": "official",
+      "note": "2026-11-05 在中国大陆官方商城核实 RC-N3 标准组合，页面显示加入购物车、立即购买及配送日期。长续航、增强图传和不同遥控器属于不同套餐，不能把其他地区型号的功能直接套用；未实际下单。",
+      "checkedAt": "2026-11-05"
     },
     "price": {
       "text": "AUD $1,119 起",
@@ -1105,6 +1142,17 @@
           "status"
         ],
         "note": "独立列出Mini5Pro消费影像机型。"
+      },
+      {
+        "title": "DJI Mini 5 Pro 中国大陆官方商城",
+        "url": "https://store.dji.com/cn/product/dji-mini-5-pro?set_region=CN",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "2026-11-05 在中国大陆官方商城核实 RC-N3 标准组合，页面显示加入购物车、立即购买及配送日期。长续航、增强图传和不同遥控器属于不同套餐，不能把其他地区型号的功能直接套用；未实际下单。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "checkedAt": "2026-11-04"
@@ -1124,8 +1172,9 @@
       "美国官方店"
     ],
     "china": {
-      "availability": "unclear",
-      "note": "本轮核查海外官方消费渠道，未验证中国大陆结算、型号、保修与全部AI服务可用性；不因品牌来源或支持中文推定国内可购。"
+      "availability": "official",
+      "note": "2026-11-05 在中国大陆商城选择“DJI RS 4 Mini 套装”，核实包含 RS 智能追踪模块和手提转接手柄，页面显示加购与配送日期。基础款不包含该追踪模块；未实际下单。",
+      "checkedAt": "2026-11-05"
     },
     "price": {
       "text": "智能跟随Combo参考US$369；基础款US$309",
@@ -1202,6 +1251,17 @@
           "technology"
         ],
         "note": "面向创作者的智能跟随与构图，条件依模块和组合。"
+      },
+      {
+        "title": "DJI RS 4 Mini 中国大陆官方套装页",
+        "url": "https://store.dji.com/cn/product/dji-rs-4-mini?set_region=CN&vid=183291",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "regions"
+        ],
+        "note": "2026-11-05 在中国大陆商城选择“DJI RS 4 Mini 套装”，核实包含 RS 智能追踪模块和手提转接手柄，页面显示加购与配送日期。基础款不包含该追踪模块；未实际下单。",
+        "accessedAt": "2026-11-05"
       }
     ],
     "checkedAt": "2026-11-04"

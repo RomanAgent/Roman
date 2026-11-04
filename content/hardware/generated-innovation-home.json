@@ -438,5 +438,159 @@
     "notes": [
       "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
     ]
+  },
+  {
+    "id": "birdweather-puc",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/birdweather-puc/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "BirdWeather PUC的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/birdweather-puc.txt",
+        "referencePaths": [
+          "assets/hardware/birdweather-puc/product.jpg",
+          "assets/hardware/birdweather-puc/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "ondilo-ico-pool",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ondilo-ico-pool/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Ondilo ICO Pool v2 Chlorine/Bromine的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/ondilo-ico-pool.txt",
+        "referencePaths": [
+          "assets/hardware/ondilo-ico-pool/product.jpg",
+          "assets/hardware/ondilo-ico-pool/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "osim-udream-ai",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/osim-udream-ai/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "OSIM uDream.AI Well-Being Chair的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/osim-udream-ai.txt",
+        "referencePaths": [
+          "assets/hardware/osim-udream-ai/product.jpg",
+          "assets/hardware/osim-udream-ai/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "altumview-sentinare-3",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/altumview-sentinare-3/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "AltumView Sentinare 3的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/altumview-sentinare-3.txt",
+        "referencePaths": [
+          "assets/hardware/altumview-sentinare-3/product.png",
+          "assets/hardware/altumview-sentinare-3/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "fluentpet-connect",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/fluentpet-connect/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "FluentPet Connect Get Started Kit的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/fluentpet-connect.txt",
+        "referencePaths": [
+          "assets/hardware/fluentpet-connect/product.webp",
+          "assets/hardware/fluentpet-connect/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "algocare-e1-pro",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/algocare-e1-pro/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Algocare E1 Pro的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/algocare-e1-pro.txt",
+        "referencePaths": [
+          "assets/hardware/algocare-e1-pro/product.png",
+          "assets/hardware/algocare-e1-pro/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
+  },
+  {
+    "id": "bsize-bot-talk-us",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/bsize-bot-talk-us/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Bsize BoT Talk（美国版）的功能模块概念爆炸图，内部位置并非实物拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-05",
+        "promptPath": "content/hardware/prompts/bsize-bot-talk-us.txt",
+        "referencePaths": [
+          "assets/hardware/bsize-bot-talk-us/product.webp",
+          "assets/hardware/bsize-bot-talk-us/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "依据已核验官方外形与公开功能生成；未知内部仅为概念功能块，不代表原机电路板、芯片或实际布局。"
+    ]
   }
 ]

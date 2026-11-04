@@ -140,6 +140,8 @@
 
 - [Oticon Intent](../hardware/oticon-intent.md) — **能力候选 · 非已采用** / 头部与身体动作线索的惯性感知候选：本款公开采用动作线索，Bosch六轴惯性与融合能力可作为相近佩戴设备的运动输入研究方向。通用姿态数据并不等于用户意图，必须确认封装功耗、佩戴位置、声音同步及模型接口；未确认Intent采用BHI器件，也不能将BHI380自学习能力套给所有候选配置。
 
+- [Gorilla Bells](../hardware/gorilla-bells.md) — **能力候选 · 非已采用** / 自由重量动作采集候选：Bosch Sensortec具有运动感知和智能惯性器件能力，可作为哑铃轨迹与动作输入的开发候选，但握持变化、振动及算法训练需要专门验证。Gorilla未披露采用该品牌，本关联不等于现售设备的传感器型号或真实供货。
+
 - [Maven Pet Health Tracker](../hardware/maven-pet-health-tracker.md) — **能力候选 · 非已采用** / 动作与状态采集器件候选：Bosch Sensortec公开动作感知器件可作为新佩戴方案的输入研究入口。它只能支持相关模块选型，不能由运动器件能力推断呼吸或心率等完整指标，更不能认定Maven实际采用；需在动物佩戴和完整数据链路中验证。
 
 - [Invoxia Biotracker Edition 2026](../hardware/invoxia-biotracker-2026.md) — **能力候选 · 非已采用** / 佩戴动作感知模块候选：Bosch Sensortec公开动作传感能力可用于新犬只佩戴方案的输入研究，但不能由此推断完整生命体征测量或AI日记效果。需要按佩戴位置与动物活动验证数据链路，本目录没有Invoxia此型号实际采用该公司器件的证据。

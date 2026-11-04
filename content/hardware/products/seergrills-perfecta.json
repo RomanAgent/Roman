@@ -400,8 +400,8 @@
       }
     ],
     "innovationProfile": {
-      "needKey": "household-vertical-infrared-grilling",
-      "needName": "家庭垂直双侧红外烤制",
+      "needKey": "guided-outdoor-grilling",
+      "needName": "户外烧烤配方与过程辅助",
       "difference": "SEERGRILLS Perfecta的具体差异与边界：技术判断：官方明确强化学习和食物环境传感作为NeuralFire组成，模型训练与独立性能未完整公开。加热控制与食品安全需分开验证，未来模式仍有限制，不能把宣传最佳结果、全部食物类型或尚未发货附件写成现售能力。传统烤架需要翻面和观察，红外炉也可提供高热，但Perfecta把双侧执行与学习控制整合到特定夹持方式。与烟熏炉或烤箱比较时应对齐任务而不是全部菜谱，设备覆盖面尚有限，更多未来附件不能提前算成已经拥有的功能优势。",
       "comparisonBasis": "竞争判断：与传统燃气烤架、红外炉和人工测温竞争，差异是垂直双侧执行和学习火候。与Brisk It的烤箱或颗粒烟熏不是单纯代次替换，但套装和未来附件不新增产品；应比较完整准备、成品与维护，而非仅看最快出炉时间。",
       "evidence": "analysis",

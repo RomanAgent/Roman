@@ -1784,5 +1784,1118 @@
       }
     ],
     "checkedAt": "2026-11-04"
+  },
+  {
+    "id": "eufymake-e1",
+    "name": "eufyMake E1",
+    "brand": "eufyMake",
+    "category": "creative-tools",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "tagline": "将图片深度图变成可触摸纹理的桌面UV打印机",
+    "officialUrl": "https://www.eufymake.com/products/eufymake-e1",
+    "status": "on_sale",
+    "statusEvidence": "核查日美国官方商品页Basic Bundle显示US$2,409、In stock and ready to ship及Add to Cart；基础组合为E1与墨水套装。旋转配件、覆膜机和卷材配件属于其它组合，不混写为标配。",
+    "regions": [
+      "美国（已核官方商店）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未确认中国大陆官方零售、耗材和喷头服务；海外站现货不能证明国内送达与保修。"
+    },
+    "price": {
+      "text": "美国官网Basic Bundle促销US$2,409",
+      "note": "核查日页面与优惠码WS24e1basic对应价；区域、税费、材料及后续耗材成本另计。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方Wiki说明软件用AI从原图生成深度图，再按用户指定纹理高度计算层数与颜色图，驱动UV喷墨逐层形成表面起伏。",
+      "dependency": "AI属于印前软件流程，需与打印、材料定位、白墨及光油叠层配合；具体模型和处理部署未披露。普通相机定位与激光测高不单独当成AI。"
+    },
+    "highlights": [
+      "AI图片转深度图与分层打印",
+      "UV固化喷墨形成表面纹理",
+      "基础平板与选配滚筒明确区分",
+      "喷头维护和耗材是长期成本"
+    ],
+    "analysis": {
+      "demand": "案头需求是让个人设计师把插画或照片变成小批量带触感的实体作品。价值不只是生成一张图，而是稳定地把深度、颜色和材料结合；重复打印成本及返工率比演示样片更有判断力。",
+      "userProfile": "潜在用户是有独立操作空间、持续做定制礼物或样品的个人创作者。只偶尔打印一件纪念品的人可能外包更合算；是否接受耗材管理、设备清洁和材料测试影响购买适配。",
+      "competition": "它与普通彩色打印、外包UV服务和桌面制造工具竞争，输出是表面图像与触感而非任意立体零件。和激光雕刻相比材料作用方式不同，不宜按同为创客设备直接比较价格。",
+      "supplyChain": "系统涉及喷墨、UV固化、定位运动、相机测高与墨路维护，喷头和工厂未披露。候选电机或视觉公司仅供工程匹配；耗材稳定供应与清洗停机时间也应进入交付评估。",
+      "technology": "已核AI机制是图片生成深度图并转化为纹理层，不把所有自动校准统称智能。机器仍需正确材料、摆放和印前参数；AI生成的凹凸不必然符合原物体真实几何或用户触感预期。",
+      "aesthetics": "灰色圆角机壳与深色前窗接近桌面家电，但打印床、进料和清洁需要工作台空间。分析上，设计的关键是让用户看懂加工状态与耗材剩余，不能仅凭封闭外观判断适合任何房间。",
+      "risks": "主要风险是材料附着失败、喷头维护、墨料暴露及误把装饰纹理当结构件。官方主机与喷头保修期限不同，购买前需读当前条款；不由厂商环保宣传推导无需通风或任意接触安全。",
+      "opportunity": "机会假设在小批量定制与模板化材料工作流。可让创作者连续制作一组同图不同材质样片，记录设计修正、失败、清洗及总成本，再核验是否比外包更快且愿意持续付费。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "个人纹理UV打印有明确输出差异，但专业UV服务和其它桌面制造已形成替代；冷门不能推断低交付难度。"
+    },
+    "architecture": [
+      {
+        "name": "印前AI",
+        "detail": "原图生成深度图，结合纹理高度转为层与颜色数据。",
+        "evidence": "official"
+      },
+      {
+        "name": "喷墨及固化",
+        "detail": "压电喷墨配UV光固化，叠加白墨、颜色和光油形成纹理。",
+        "evidence": "official"
+      },
+      {
+        "name": "定位与运动",
+        "detail": "相机、测高及平板运动辅助准确落图；不是据此断言全部为AI。",
+        "evidence": "official"
+      },
+      {
+        "name": "墨路维护",
+        "detail": "墨水及自动清洁系统配合打印；喷头实际供应商未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "内部示意边界",
+        "detail": "结构图只拆分功能模块，不表示真实墨路、导轨或PCB布局。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "eufyMake E1美国官方商店",
+        "url": "https://www.eufymake.com/products/eufymake-e1",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；核对基础组合现货、2409美元、选配区别和当前保修提示。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "eufyMake UV打印官方技术介绍",
+        "url": "https://wiki.eufymake.com/en/uvprinter-introduction",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际在浏览器打开并读取；AI深度图、层计算、压电喷墨、UV固化和自动定位机制。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "dex-language-camera",
+    "name": "Dex Language Discovery Camera",
+    "brand": "Dex / Worldex Lab",
+    "category": "education",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "拍下身边物体并听见目标语言词汇的儿童探索相机",
+    "officialUrl": "https://store.dex.camera/products/dex",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商店显示US$249、Order Now和1–2工作日发货；公开商品数据红色及黄色变体available=true。同一硬件不同颜色仅计一款。",
+    "regions": [
+      "美国及官网结算支持地区（目的地另核）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "可选择中文不代表中国大陆可购买或云服务可用；本轮未核大陆授权销售、蜂窝套餐覆盖和跨境数据使用条件。"
+    },
+    "price": {
+      "text": "官方硬件US$249；Wi-Fi基础功能免费",
+      "note": "可选Mobile Data为US$9.99/月，Premium为US$19.99/月；不将蜂窝无Wi-Fi宣传写成离线识别。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "拍照后通过云端视觉模型识别实物并返回目标语言词汇，结合语音发音与活动。隐私政策明确点名OpenAI Vision及默认Whisper语音处理。",
+      "dependency": "拍照识物需要网络；免费Wi-Fi功能与可选蜂窝、个性化活动订阅分开。语音可在设置中切换本机处理，不代表图片AI也完全离线。"
+    },
+    "highlights": [
+      "实物照片转语言词汇",
+      "独立圆屏和手柄交互",
+      "照片与语音处理路径明确",
+      "家长账户与可选云媒体存储"
+    ],
+    "analysis": {
+      "demand": "案头需求是让孩子从现实物体发起语言探索，而不是只在预设词卡里选题。专用相机减少手机其它内容干扰，但学习是否发生要看能否在新情境中使用词汇，不能用拍照次数替代效果。",
+      "userProfile": "官方面向幼儿至小学低龄儿童，实际使用仍需家长配置和陪伴。更值得筛选的是家庭是否有稳定的第二语言互动，而非只按年龄购买；网络、发音理解和拿握能力均会影响体验。",
+      "competition": "替代方案包括手机识物翻译、纸质词卡、点读笔和家长直接讲解。Dex的差异是孩子主动拍身边物体并获得语言反馈；若只反复播放词汇，独立硬件优势需用长期使用证明。",
+      "supplyChain": "功能链包含镜头、圆形显示、语音接口、无线连接、电池与云服务。政策披露部分软件服务商，但未公开相机、电池或工厂；硬件候选关系与真实云依赖应分别标注。",
+      "technology": "视觉识别使用OpenAI Vision，默认语音经Whisper，厂商允许语音切换为本机处理。识物结果可能受背景、遮挡及多义词影响；家长应能纠正词义，不能把联网和本地两种路径混写。",
+      "aesthetics": "圆形屏幕和短手柄使拍摄目标与词汇反馈形成清晰动作，红色外壳带玩具属性。推断上，重量、抓握、镜头指向和误触比屏幕装饰更影响儿童使用，应观察实际拿握而非只看照片。",
+      "risks": "风险涉及儿童图像和声音的上传、误识别以及订阅覆盖。政策说处理后删除但可选云媒体存储改变保存方式，不能简化成不留任何数据；家庭需理解配置并核对本地区服务可达性。",
+      "opportunity": "可验证切口是亲子共同探索某个房间或散步路线，再观察词汇是否自然进入对话。记录纠错、等待、重复使用和家长介入，比较手机与纸卡流程，不用模型评分预测教育效果。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "以实物探索驱动语言学习的形态具体，但手机识物与传统教具替代直接，长期内容和家长参与仍有门槛。"
+    },
+    "architecture": [
+      {
+        "name": "物体采集",
+        "detail": "后侧镜头拍摄身边物体，识别不是仅靠录制视频。",
+        "evidence": "official"
+      },
+      {
+        "name": "圆屏与声音",
+        "detail": "前侧圆屏、按键和语音接口返回词汇及发音。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端AI",
+        "detail": "照片传至视觉服务识物；语音默认云处理，可配置本机路径。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与电源",
+        "detail": "Wi-Fi、可选蜂窝及电池支持独立手持使用。",
+        "evidence": "official"
+      },
+      {
+        "name": "家长控制",
+        "detail": "家长账户配置活动、语言及可选云媒体保存；内部电路布局未披露。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dex官方商品页",
+        "url": "https://store.dex.camera/products/dex",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；249美元、Order Now、发货、真实型号图片与实物语言学习。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Dex隐私政策",
+        "url": "https://store.dex.camera/policies/privacy-policy",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；OpenAI Vision、Whisper、语音本机选项、可选云媒体存储及家长配置。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Dex订阅计划",
+        "url": "https://store.dex.camera/pages/subscriptions",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；免费Wi-Fi、9.99美元蜂窝及19.99美元Premium区别。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "xnote-write",
+    "name": "XNote Write",
+    "brand": "XNote",
+    "category": "creative-tools",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "把带定位图案纸张上的手写变成可检索笔记的智能笔",
+    "officialUrl": "https://xnote.ai/products/starter-set?view=xnote-set",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方XNote Write商品页显示US$199、Ships now和购买按钮，公开商品变体available=true。XNote Voice是另一个预生产录音设备，本条不混用其麦克风和预售描述。",
+    "regions": [
+      "美国及官网结算支持地区（目的地另核）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核中国大陆官方零售、App分发与云AI可达性；中文手写识别表现也未实测。海外可购不等于本地完整服务。"
+    },
+    "price": {
+      "text": "官方笔与本套装US$199",
+      "note": "当前页面说明手写转文字和AI笔记无需额外订阅；可选音频套餐及替换笔记本成本另计，普通纸不能同步。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "笔端光学传感器读取专用纸上细小定位图案并经蓝牙同步笔迹；App将手写转文字，支持搜索、AI问答和任务提取。",
+      "dependency": "须用XNote笔记本或App生成后用激光打印机打印的图案纸。笔可离线保存笔迹，首次配对、文字识别与AI需要网络；笔本身没有麦克风。"
+    },
+    "highlights": [
+      "真实墨水与纸张书写",
+      "光学图案定位并同步笔迹",
+      "App AI理解与检索笔记",
+      "笔端采集与云端理解分开"
+    ],
+    "analysis": {
+      "demand": "案头需求是在保留纸笔习惯时，减少日后找笔记、转录和整理任务的负担。硬件解决连续采集，AI解决文字与语义处理；是否省时取决于复查错误所需时间，不能只看自动生成摘要。",
+      "userProfile": "适合长期手写、有查找旧笔记需求且愿意使用专用图案纸的人。若主要画画、频繁在便签或普通纸上写，适配会受限制；购买前应核对自己实际纸张和跨设备工作流。",
+      "competition": "竞争包括拍照扫描、平板手写和其它点阵纸智能笔。XNote保留墨水手感却增加纸张依赖，独立价值在持续笔迹输入和之后的AI检索；不把同品牌预售录音器算成相同功能。",
+      "supplyChain": "笔内需要光学读取、墨水笔芯、存储、蓝牙与电池，纸张印刷也属于系统交付。工厂及关键芯片未披露；小型光学与电池候选只表示能力方向，不能凭外形推定真实采用。",
+      "technology": "光学图案用于确定笔迹所在页和位置，识别成文字及语义问答则在App云流程。离线存笔迹不等于离线AI；普通纸只能留下墨水，不能因笔上有传感器就宣称任何纸都同步。",
+      "aesthetics": "黑色笔和普通装订本把电子功能藏在熟悉的书写形态里。分析上，握持、笔帽、长时书写和充电提示影响日常接受度；无屏设计降低干扰，同时让配对状态依赖手机检查。",
+      "risks": "风险是图案纸缺货、离线笔迹同步失误及AI把潦草笔记改写成错误任务。记录中可能包含敏感会议内容，上传前要理解云处理；笔无麦克风，音频功能来自手机或其它服务。",
+      "opportunity": "可验证机会在已有稳定纸笔习惯的研究、访谈与课程整理。让用户记录真实一周，再查找特定日期的决定和待办，比较拍照扫描与人工整理的总用时，观察是否愿意持续补充纸张。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "数字纸笔已有多种成熟替代，带图案纸的连续采集是明确约束；AI整理是否有用需结合真实手写习惯。"
+    },
+    "architecture": [
+      {
+        "name": "真实书写",
+        "detail": "常规墨水笔芯在纸面留下文字。",
+        "evidence": "official"
+      },
+      {
+        "name": "定位图案读取",
+        "detail": "笔端光学传感器识别XNote纸上的细小图案，定位页与笔迹。",
+        "evidence": "official"
+      },
+      {
+        "name": "存储与蓝牙",
+        "detail": "暂存笔迹并传给配对App，具体控制芯片未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "App与云AI",
+        "detail": "手写转文字、检索、问答与任务整理需要网络。",
+        "evidence": "official"
+      },
+      {
+        "name": "纸张及电源",
+        "detail": "专用本或App图案打印纸配合可充电笔；纸本本身不是电子屏。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "XNote Write官方商店",
+        "url": "https://xnote.ai/products/starter-set?view=xnote-set",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；199美元、Ships now、当前免费手写AI范围及笔无麦克风说明。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "XNote工作原理",
+        "url": "https://xnote.ai/pages/how-it-works",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；光学图案、蓝牙、离线笔迹、网络条件与普通纸不兼容。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "XNote App说明",
+        "url": "https://xnote.ai/pages/xnote-app",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；手写笔记、AI查询和音频来源的功能边界。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "akaso-seemor-200",
+    "name": "AKASO Seemor-200",
+    "brand": "AKASO",
+    "category": "imaging",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "用AI图像处理增强低照度观察的手持夜视设备",
+    "officialUrl": "https://shopakaso.com/products/seemor",
+    "status": "on_sale",
+    "statusEvidence": "核查日厂家Shop Now链接到官方商店；Standalone变体42983839727798显示US$203.99且公开商品数据available=true，页面有Add to cart和发货说明。不把三脚架或充电套装另计产品。",
+    "regions": [
+      "美国（已核官方商店）及商店支持地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未确认中国大陆该型号官方零售及维修渠道；不得由品牌或制造地区推断国内可购买。"
+    },
+    "price": {
+      "text": "官方Standalone变体US$203.99",
+      "note": "核查日选定标准组合价格；促销、不同配件组合与税运费另计，不沿用早期发布价。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方明确AI-ISP将AI算法作用于相机RAW图像处理，增强低光场景画面；设备另有红外照明与黑白模式，区别于普通光学望远镜。",
+      "dependency": "本机摄像、处理与显示形成观察流程；App用于连接、遥控和素材传输。处理后的颜色并非对现实颜色绝对可靠的测量，也不等于完全黑暗中真实还原。"
+    },
+    "highlights": [
+      "本机低光AI-ISP",
+      "独立后侧观察屏",
+      "相机与红外照明分开",
+      "可更换电池与本地记录"
+    ],
+    "analysis": {
+      "demand": "案头需求是在露营或自然观察时看清暗处目标，并保留可分享记录。它服务低照度观察而不是普通旅行相机升级；可见性、延迟和携带负担要在相同光照中比较，不能直接采信宣传距离。",
+      "userProfile": "潜在人群是愿意夜间静态观察的户外爱好者和自然记录者。需要步行导航、应急搜救或安全保障的人有不同要求；没有经过对应可靠性验证，不能把消费观察设备当必需安全装备。",
+      "competition": "替代包括手电、普通望远镜、相机夜景和其它数字夜视设备。AI-ISP可能提升可看性，但光学、红外照明和算法贡献需分开；不能把降噪后的平滑图像等同于额外真实细节。",
+      "supplyChain": "机身含摄像光学、红外照明、处理显示、电池与外壳密封。具体工厂和处理芯片未披露；候选镜头、显示及电池公司只是工程匹配，还需验证温差、眩光和低电量下的表现。",
+      "technology": "AI-ISP在原始图像处理链里改善低照度输出，和后期生成任意画面不同。红外黑白模式提供另一照明路径；算法处理颜色和噪声的代价应通过原始场景对照判断，不把厂家色彩百分比当测量。",
+      "aesthetics": "黑色双筒轮廓容易让人联想到传统望远镜，但后部实际是一块宽观察屏。握持纹理和实体按键有利于暗处寻找操作，推断上还要看戴手套、眼镜遮光和长时举持，而非外观参数。",
+      "risks": "主要风险是低光误判、屏幕眩光影响自身暗适应，以及把算法增强当成确定信息。页面与素材存在不同电池标注，本条不写未经统一确认的容量；应用边界限于普通消费观察。",
+      "opportunity": "机会假设在自然观察和露营的短时共享体验。可在黄昏、月光和遮挡条件下分别记录发现、辨认和拍摄结果，比较手电与手机方案，并访谈用户是否愿意为少数夜间场景携带额外设备。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "低光自然观察是明确兴趣需求，使用时段有限且有便宜替代；AI标签不能证明算法胜过光学和照明差异。"
+    },
+    "architecture": [
+      {
+        "name": "摄像采集",
+        "detail": "前端镜头与图像传感器获取低光场景。",
+        "evidence": "official"
+      },
+      {
+        "name": "红外照明",
+        "detail": "独立红外照明配合红外黑白模式，不是第二个目镜。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI图像处理",
+        "detail": "AI-ISP参与原始图像处理以增强低照度画面。",
+        "evidence": "official"
+      },
+      {
+        "name": "观察与记录",
+        "detail": "后侧宽屏、本地记录及App连接支持观看和传输。",
+        "evidence": "official"
+      },
+      {
+        "name": "电源与机身",
+        "detail": "更换式电池、实体按键与手持外壳；内部布置仅作概念。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "AKASO Seemor官方商店",
+        "url": "https://shopakaso.com/products/seemor",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开并读取公开商品数据；标准变体203.99美元可售，型号与配件图片。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "AKASO Seemor-200官方技术页",
+        "url": "https://www.akasotech.com/night-vision-seemor-200",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；AI-ISP对RAW图像处理、彩色及红外模式、显示与连接。未将宣传比例或距离写成实测结论。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "carv-2",
+    "name": "Carv 2",
+    "brand": "Carv",
+    "category": "sports",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "用鞋外运动传感与AI分析给出滑雪技术反馈的双夹式设备",
+    "officialUrl": "https://getcarv.com/products/carv",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方页面可选择Season Pass或Day Pass并有Join Now购买入口；Season Pass为US$249/年含一对归用户所有的传感器。不是硬件租赁，不把旧鞋垫版或不同会员档位重复收录。",
+    "regions": [
+      "美国及官网支持配送地区（目的地另核）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核中国大陆官方渠道、App分发及本地雪场服务；官网全球配送表述不足以证明大陆地址可下单或所有功能可达。"
+    },
+    "price": {
+      "text": "Season Pass US$249/年，含一对传感器",
+      "note": "核查日浏览器会员表：Day Pass另为硬件129美元加119美元年费，含6个滑雪日；硬件用户保留，具体续费及天数按当前条款。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "加速度计与陀螺仪融合运动信号，机器学习估计设备安装方向并分析转弯与滑雪动作，再由App提供技术和音频反馈。",
+      "dependency": "两只传感器夹于滑雪靴绑带，配手机App和会员服务；第二代没有旧款鞋内压力垫。反馈不替代现场教学、地形判断或运动安全责任。"
+    },
+    "highlights": [
+      "鞋外夹装无压力鞋垫",
+      "AI估计安装方向和滑雪模式",
+      "App回合复盘与音频反馈",
+      "硬件所有权与会员费用分开"
+    ],
+    "analysis": {
+      "demand": "案头需求是让滑雪者在独自练习时获得重复动作反馈，补足记不清每次转弯细节的问题。设备没有机械助力，价值在提示是否可理解并转化为练习，而非分数上涨本身。",
+      "userProfile": "更适合已有基础滑行能力、每季稳定上雪并愿意复盘的人。刚接触雪场的人仍需现场指导；季节天数、手机习惯和能否听懂反馈比泛化的初中高级标签更决定会员价值。",
+      "competition": "替代方案是教练课、同伴拍摄、运动相机回看和主观练习记录。Carv以鞋上运动数据降低拍摄协作需求，但无法观察全部周边环境；应比较具体纠错任务，不能宣称替代真人教练。",
+      "supplyChain": "两只小夹子需要惯性传感、电池、无线连接和稳固夹持；系统价值还依赖App和算法持续维护。供应商与工厂未披露，候选惯性与电池厂仅用于匹配，不代表实际采用。",
+      "technology": "官方说明机器学习处理不同安装位置造成的运动坐标误差，并分析滑雪动作。它测的是鞋部运动，身体技术属于推断；旧版压力垫资料不能沿用到第二代，AI分数也不等于运动安全认证。",
+      "aesthetics": "黑色长条夹子融入雪靴绑带，避免改变鞋内空间和贴合。分析上，戴手套装卸、雪水、碰撞、遗落和低温电量需要现场观察；宣传中的任意鞋兼容不能代替自己的靴型确认。",
+      "risks": "风险包括夹持变化影响估计、提示分散注意、会员续费和为追分选择不合适地形。数据反馈不是伤病或安全建议，不能凭分数推断可以挑战某条雪道；实际使用须优先现场条件。",
+      "opportunity": "可验证机会是连接教练给出的一个练习目标与个人滑行复盘。让滑雪者在可控雪道上记录反馈理解、实际动作和停用原因，再访谈一季后的续费判断，不以厂家改善比例或模型排名预测成功。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "滑雪训练频率受季节与场地限制，但鞋外输入和持续反馈任务明确；教练和视频复盘仍是重要替代。"
+    },
+    "architecture": [
+      {
+        "name": "外部夹持",
+        "detail": "左右各一枚传感器夹于滑雪靴绑带，不使用压力鞋垫。",
+        "evidence": "official"
+      },
+      {
+        "name": "惯性感知",
+        "detail": "加速度计与陀螺仪捕捉鞋部运动。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线与电源",
+        "detail": "设备电池、连接和控制模块配合手机；具体芯片未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI动作分析",
+        "detail": "机器学习估计安装方向并分析滑雪动作，不能直接当全身测量。",
+        "evidence": "official"
+      },
+      {
+        "name": "App与会员",
+        "detail": "手机显示练习记录、文字及音频指导，依赖相应会员服务。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Carv 2当前商品页",
+        "url": "https://getcarv.com/products/carv",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；当前第二代、购买入口、动作复盘与App反馈。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Carv 2官方技术介绍",
+        "url": "https://getcarv.com/blog/introducing-carv-2",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；无鞋垫设计、惯性融合、AI安装方向估计及运动分析。2024介绍仅用于硬件机制，不沿用宣传统计。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Carv当前会员与购买页",
+        "url": "https://getcarv.com/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开浏览器会员表；249美元Season Pass、硬件保留、Day Pass区别与会员起始条件。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "elgato-prompter",
+    "name": "Elgato Prompter",
+    "brand": "Elgato",
+    "category": "creative-tools",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "tagline": "以电脑语音模型同步稿件的集成显示提词器",
+    "officialUrl": "https://www.elgato.com/us/en/p/prompter",
+    "status": "on_sale",
+    "statusEvidence": "核查日美国官方商品页原版Prompter显示US$299.99及Add to cart。仅收原版，XL为相同核心任务的尺寸实现，不重复计数；软件按11月4日正式版Studio 2.0说明记录。",
+    "regions": [
+      "美国（已核官方商店）及品牌地区渠道"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮未核大陆授权零售。Studio 2.0当前Voice Sync支持列表不含中文；能买到硬件或显示中文稿件不代表中文语音跟稿可用。"
+    },
+    "price": {
+      "text": "美国官网US$299.99",
+      "note": "不含相机、麦克风或电脑；Studio 2.0和Voice Sync免费，显示器替代的部分Virtual Prompter功能另有收费，不混作硬件必需订阅。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Studio 2.0将麦克风语音转成文字，再与稿件匹配以控制滚动。Windows下载各语言语音模型并在电脑GPU本地运行，macOS调用系统语音识别。",
+      "dependency": "AI在连接的电脑软件中，提词器负责USB显示和分光镜反射。需外接麦克风与相机等拍摄设备；当前版本和支持语言按官方新说明核对，不沿用旧Camera Hub条件。"
+    },
+    "highlights": [
+      "底部集成显示与分光玻璃",
+      "说话、停顿和跳行的语音跟稿",
+      "Windows本地语音模型",
+      "中文显示与中文跟稿分开判断"
+    ],
+    "analysis": {
+      "demand": "案头需求是独自录制时保持视线接近镜头，同时按自己的节奏读稿。硬件让文字与镜头同轴，语音模型减少手动滚屏；是否省时要看失步恢复和重录次数，不能仅用更自然的宣传判断。",
+      "userProfile": "适合经常录制讲解、课程或面对镜头演示的个人创作者。即兴聊天或很少照稿的人未必需要；桌面空间、相机镜头匹配和使用语言比关注是否带AI更重要。",
+      "competition": "替代包括电脑屏幕提词、平板加反光架和人工滚屏。独立显示省去占用手机，但模型本身也能在虚拟提词软件里使用；购买理由应来自光学位置与工作流，而非软件功能被硬件独占。",
+      "supplyChain": "硬件涉及分光玻璃、显示、USB控制、遮光罩和相机支架，具体面板和工厂未披露。电脑承担识别算力，不能把GPU画成设备内部BOM；光学反射、结构承重和连接稳定都需验证。",
+      "technology": "官方11月4日说明正式Studio 2.0替代旧Camera Hub，语音模型识别后匹配稿件位置。Windows本地处理与macOS系统路径不同；跟稿不等于生成内容，停顿、改词和环境声仍可能影响对齐。",
+      "aesthetics": "黑色罩体和倾斜玻璃服务相机光路，底部屏幕产生反射，玻璃不是第二块发光屏。分析上，清洁、镜头暗角、桌面支撑和读稿距离影响使用，不能把紧凑外观等同于适配任意机位。",
+      "risks": "风险集中在语音跟稿失步、电脑兼容及支持语言，当前正式版列表未包含中文。选错软件版本会套用旧硬件条件；画面和稿件涉及隐私时也应区分Windows本地识别与系统服务路径。",
+      "opportunity": "机会假设是降低单人讲解录制的反复重来。可用真实稿件比较手动、定速和语音跟稿，记录打断、跳段和恢复时间，再访谈是否愿意长期保留在机位上，而非用模型分数预测效率。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "个人视频提词是具体工作流，廉价反光架与免费虚拟提词替代直接；优势需要在真实录制中验证。"
+    },
+    "architecture": [
+      {
+        "name": "分光反射",
+        "detail": "倾斜分光玻璃将底部屏幕文字反射到接近镜头方向。",
+        "evidence": "official"
+      },
+      {
+        "name": "集成显示",
+        "detail": "设备含独立显示模块，通过USB接收电脑画面与供电。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部语音AI",
+        "detail": "电脑Studio 2.0识别麦克风语音并与稿件对齐，非提词器内置模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "光路及安装",
+        "detail": "遮光罩、后背板与相机支架适配不同拍摄设备。",
+        "evidence": "official"
+      },
+      {
+        "name": "概念边界",
+        "detail": "内部USB电路和显示供应商未披露，只作功能模块示意。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Elgato Prompter官方商店",
+        "url": "https://www.elgato.com/us/en/p/prompter",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；299.99美元加购、原版结构、外部设备和XL对比。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Elgato Studio 2.0正式版说明",
+        "url": "https://www.elgato.com/us/en/explorer/products/teleprompter/elgato-studio-2-0-prompter-cameras-capture/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开11月4日更新；正式发布、语音识别模型、本地处理边界、当前语言及旧软件替代关系。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Prompter官方常见问题",
+        "url": "https://help.elgato.com/hc/en-us/articles/20470388323597-Elgato-Prompter-Frequently-Asked-Questions",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；集成显示、分光反射、安装与外部设备条件，AI版本以新正式版说明为准。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "fightcamp-connect-gen3",
+    "name": "FightCamp Connect Gen 3",
+    "brand": "FightCamp",
+    "category": "sports",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "把拳脚运动签名分类为组合训练反馈的四传感器套装",
+    "officialUrl": "https://joinfightcamp.com/shop",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方商店Connect显示US$269及Select购买入口，含4枚传感器、2个便携充电座、手腕和脚踝固定带。官方11月3日文章确认Gen 3与移动充电座发布；不同含沙袋套餐只计这一实现。",
+    "regions": [
+      "美国",
+      "加拿大部分地区（官方说明，地址另核）"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "已核配送说明覆盖美国与加拿大部分地区，未确认大陆官方销售和服务；跨境取得硬件仍需核App、会员与售后。"
+    },
+    "price": {
+      "text": "Connect促销US$269；会员US$44.99/月",
+      "note": "核查日商店价，会员为必需且与设备费用分开。Connect基础不含沙袋，手套可能是当期赠品，按订单确认。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方说明专有AI从运动信号学习出拳和踢击特征，区分移动与实际击打类型，再结合时间、速度及专有输出指标进行组合训练反馈。",
+      "dependency": "四枚传感器经蓝牙配手机或平板App与会员服务；可镜像电视。Gen 3便携充电座不等于旧版大Console，旧说明中的功能兼容限制不能直接沿用。"
+    },
+    "highlights": [
+      "四枚传感器覆盖拳脚",
+      "运动签名AI分类",
+      "便携充电座与固定带",
+      "设备购买与必需会员分开"
+    ],
+    "analysis": {
+      "demand": "案头需求是在独立练习时记录拳脚组合是否按要求完成，而不只是播放跟练视频。硬件将真实运动转成反馈，价值取决于识别和提示是否帮助理解动作；专有分数不是冲击力实测或安全保证。",
+      "userProfile": "适合有练习空间、愿意遵循课程且稳定进行拳击或踢拳训练的人。已有沙袋和手套者可选Connect；初学者仍需理解动作和场地条件，不能由自动计数推断可以省去所有现场指导。",
+      "competition": "替代包括普通沙袋、手机跟练、教练和视频回看。四传感器减少对机位的依赖，但不能观察全部姿态与周围空间；本目录不把Core和Elite的更多配件当作不同AI产品。",
+      "supplyChain": "小型运动感知、无线、电池、充电座和穿戴固定共同决定系统体验。芯片与工厂未披露；腕带和脚踝位置变化、汗水及重复冲击比单纯采样指标更需要工程验证。",
+      "technology": "官方将运动轨迹输入学习式算法，输出拳脚类型、时点、速度和专有输出。运动输出与真实目标受力不同，不能画成直接测力计；当前Gen 3的软件与旧Console路径应分别核对。",
+      "aesthetics": "白色细长传感器藏入固定带，两只小充电座比旧家用Console便于带走。分析上，左右或手脚配对、洗带前取出和训练前充电影响留存；套装图中的赠品不写成永久标配。",
+      "risks": "风险在误分类、佩戴松动、为了分数忽视技术和长期会员成本。部分旧帮助页仍限定Console，需按当前Gen 3说明确认；数据反馈不替代对身体能力或训练环境的判断。",
+      "opportunity": "可验证机会是将一个真实组合练习转成可复盘记录。让参与者同步视频与传感器反馈，记录误判、修正和再次练习意愿，再比较教练或普通跟练方式，不以厂商训练数据量预测效果。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "拳脚动作训练有明确任务和既有设备替代；硬件与内容会员需共同形成持续使用，而非靠排行榜热度。"
+    },
+    "architecture": [
+      {
+        "name": "穿戴固定",
+        "detail": "四枚传感器放入手腕和脚踝固定带，采集拳脚运动。",
+        "evidence": "official"
+      },
+      {
+        "name": "动作感知",
+        "detail": "运动数据用于识别击打，不直接测量沙袋受力。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI分类",
+        "detail": "专有模型识别运动签名并生成类型与组合反馈，具体模型未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与充电",
+        "detail": "蓝牙连接App，两个便携充电座服务四枚传感器。",
+        "evidence": "official"
+      },
+      {
+        "name": "训练内容",
+        "detail": "App与会员提供练习和数据记录，外部手机、沙袋与电视不是传感器内部模块。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "FightCamp当前官方商店",
+        "url": "https://joinfightcamp.com/shop",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；Gen 3 Connect四枚传感器与双座、269美元、44.99美元月费、配送及App连接。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "FightCamp运动识别技术",
+        "url": "https://joinfightcamp.com/work/technology",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；AI运动签名分类及专有输出指标，不把宣传训练样本量视为实测准确率。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "FightCamp代际更新",
+        "url": "https://blog.joinfightcamp.com/for-members/the-evolution-of-fightcamp/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开并读取官方公开HTML；11月3日Gen 3、便携座和Gen 2兼容，避免用旧Console图片。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "vochlea-dubler-studio-kit-2",
+    "name": "Vochlea Dubler Studio Kit 2",
+    "brand": "Vochlea",
+    "category": "music",
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "tagline": "用人声音高和音色实时控制MIDI乐器的软硬件套装",
+    "officialUrl": "https://vochlea.com/products/dubler-studio-kit-2",
+    "status": "on_sale",
+    "statusEvidence": "核查日实际浏览器官方Studio Kit页显示US$219及可用Add to cart；包含专用USB动态麦克风与Dubler软件等许可。文本抓取有地区不可售旧表述，以已观察的实际商品界面记录并提示配送另核。",
+    "regions": [
+      "官方美元商店支持地区（按地址确认）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核大陆官方零售和配送；软件需电脑与初次登录，不能由海外网页可加购推断大陆支付、下载和服务一定可用。"
+    },
+    "price": {
+      "text": "实际官方页面Studio Kit US$219",
+      "note": "麦克风与软件套装，不是纯软件下载价；税费、配送和附赠软件按地区订单核对，不重复计单卖麦克风。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Dubler 2官方说明使用机器学习将人声音高、节奏与音色实时转为MIDI控制；可训练自己的敲击发声触发样本，元音等控制效果参数。",
+      "dependency": "AI运行在Mac或Windows桌面软件中，麦克风负责音频采集与USB输入；也支持经校准的其它麦克风。不是自动生成整首作品，也不是麦克风内部运行模型。"
+    },
+    "highlights": [
+      "人声实时转MIDI输入",
+      "可学习个人打击发声",
+      "元音与动态控制乐器参数",
+      "专用麦克风与电脑模型分工"
+    ],
+    "analysis": {
+      "demand": "案头需求是把脑中旋律或口技节奏快速变为可编辑的乐器输入，减少先学键盘映射的阻力。套装保持表演者主动控制，和输入一句话生成歌曲不同；是否节约时间需把误音修正一起计算。",
+      "userProfile": "适合能通过哼唱或口技表达想法、且愿意学习基础音乐软件的人。不会键盘并不意味着不需理解节拍和编曲；环境噪声、发声控制和电脑音频设置比宣传的零门槛更影响适配。",
+      "competition": "替代包括MIDI键盘、鼓垫和录音后音高转换。差异是实时声音驱动多种控制与自定义打击触发；专用麦克风不是唯一入口，已有合适麦克风的用户可能只需软件，不必重复购硬件。",
+      "supplyChain": "硬件主要是动态拾音、音频转换、USB连接和机身，模型与MIDI路由在电脑端。麦克风工厂及元件未披露；不能把软件许可或电脑显卡画进麦克风BOM，接口兼容和声音校准同样重要。",
+      "technology": "官方明确机器学习转换人声到MIDI，并区别于作曲型AI。使用者训练的打击音与实时音高是不同通道，连音、爆破音和环境声可能引起错误触发，实际表现需用自己的声线与作品测试。",
+      "aesthetics": "黑色手持麦克风保留熟悉的演唱动作，新增复杂性主要位于电脑界面和音频路由。分析上，监听延迟、握持和USB线缆影响表演流畅；整齐的套装图不能证明能直接替代所有传统控制器。",
+      "risks": "风险包括音频驱动冲突、识别误触发、监听延迟与把软件预设当作创作能力保证。地区库存与抓取信息有差异，购买须确认完整实体套装；没有电脑或兼容音频流程时硬件本身不能完成AI任务。",
+      "opportunity": "机会假设是帮助有旋律想法但键盘输入不熟练的人快速做草稿。用同一段旋律与节奏比较键盘、录音转写和套装实时输入，记录修正量、可编辑性与再次选择，避免把即兴演示当普遍效率。"
+    },
+    "niche": {
+      "level": "specialist",
+      "reason": "声音作为MIDI控制器的输入差异明确，仍依赖音乐软件与个人发声能力；专业小众不等于没有替代方案。"
+    },
+    "architecture": [
+      {
+        "name": "声音采集",
+        "detail": "专用动态USB麦克风采集人声，不内置扬声器或生成模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "音频接口",
+        "detail": "音频转换与USB传输进入电脑，内部器件和工厂未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "电脑机器学习",
+        "detail": "Dubler实时处理音高、节奏和音色，并学习自定义打击发声。",
+        "evidence": "official"
+      },
+      {
+        "name": "MIDI输出",
+        "detail": "控制软件乐器、样本与效果参数，外部DAW负责后续创作。",
+        "evidence": "official"
+      },
+      {
+        "name": "硬件边界",
+        "detail": "套装中的软件不是物理模块；图只拆分麦克风的概念功能结构。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dubler Studio Kit 2官方商店",
+        "url": "https://vochlea.com/products/dubler-studio-kit-2",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际浏览器打开并看到219美元与Add to cart；麦克风和软件组成，地区购买另核。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Vochlea官方机器学习说明",
+        "url": "https://vochlea.com/education",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；明确ML人声转MIDI与不是作曲型AI，教育说明不冒充效果验证。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Dubler麦克风与工作流",
+        "url": "https://vochlea.com/products/microphone",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；动态USB麦克风、软件可校准其它麦克风、音高和音色控制路径。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "gorilla-bells",
+    "name": "Gorilla Bells",
+    "brand": "Gorilla Bow / Gorilla Fitness",
+    "category": "sports",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "把自由哑铃运动数据与自动换重和AI指导连接的训练设备",
+    "officialUrl": "https://www.gorillabow.com/products/gorilla-bells",
+    "status": "on_sale",
+    "statusEvidence": "核查日官方Gorilla Bells商品页显示Add to Cart，公开变体45824599883949为available=true、US$959.20。Kabata旧官网购买入口指向本商品，本轮仅收当前品牌一条，不把相关旧品牌另计新需求。",
+    "regions": [
+      "美国（已核官方美元商店）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核中国大陆授权销售、重型设备运费及Silverback服务；站点可切币种或称全球支持不等于大陆可完整交付。"
+    },
+    "price": {
+      "text": "核查日官方US$959.20；Silverback US$14.99/月",
+      "note": "商品页促销会变化；完整AI指导、深入分析与个性化计划属于会员。实际配送、退货与重量切换条件须按当前订单和手册核对。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "官方将运动次数、组数、节奏和速度数据用于AI训练指导与重量建议，并提供自动换重。当前未披露具体模型结构或完整姿态推断方法，不把全部计数都自动归因于AI。",
+      "dependency": "自由配重硬件、底座控制与Silverback App结合；完整AI教练和个性化计划依赖会员。重量选取与锁止需遵循当前手册，不能理解为抬举中凭空改变质量。"
+    },
+    "highlights": [
+      "自由哑铃保留传统动作",
+      "运动数据驱动训练建议",
+      "底座控制与自动换重",
+      "与家庭力量训练归同一需求组"
+    ],
+    "analysis": {
+      "demand": "案头需求是保留自由哑铃的训练方式，同时减少手动记组和切换重量的步骤。核心仍是家庭力量训练，与现有镜面或拉索系统同组；不同处是可拿起的真实配重与底座选择，而非新造场景数。",
+      "userProfile": "潜在用户是已有哑铃习惯、空间有限并愿意看数据反馈的人。对只做固定重量简单练习的人，普通哑铃可能已足够；购买前要评估可用重量、换重节奏及会员价值，而不是按年龄或目标效果推荐。",
+      "competition": "替代包括普通可调哑铃、固定配重和联网力量训练机。自动换重与动作数据是实现差异，但不能证明比手动方案更安全；是否节省时间取决于归位、选择、确认与拿起的完整流程。",
+      "supplyChain": "配重片、握柄、固定选择结构、底座控制及传感连接共同构成产品，具体工厂未披露。官网旧品牌入口的跳转不是完整供应证据，不从外形猜电机或锁止机构，也不编造真实BOM。",
+      "technology": "官方明确以速度训练数据支撑建议，AI教练与记录功能经App连接。算法细节未披露，运动推断不等于看见全身；计数、建议和自动选择配重应分开验证，不把宣传中的正确动作当保障。",
+      "aesthetics": "黑色多片配重与中央控制底座保持健身器材观感，圆形显示让当前状态可见。分析上，拿取重心、归位空间、显示辨认和异常提示比装饰灯效更关键，产品图片不能替代真实试握。",
+      "risks": "风险包括配重锁止、数据误判、自动建议过度信任及会员停止后的功能边界。使用需遵循当前说明书，不能用AI标签替代个人训练判断；大陆售后和跨境退运仍是本轮未核条件。",
+      "opportunity": "可验证机会是减少已有自由重量用户的记录与换重摩擦。观察完整训练中实际操作、误计和人工改建议次数，比较普通可调哑铃与联网方案；复盘愿意保留哪些功能，不以模型评分预测增肌或销售。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "联网哑铃是家庭力量训练的一种实现，普通配重、视觉指导和拉索设备竞争成熟；不以小众外形推断蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "自由配重",
+        "detail": "两只可调哑铃以真实配重片和握柄完成自由重量动作。",
+        "evidence": "official"
+      },
+      {
+        "name": "底座选择",
+        "detail": "共享底座提供控制与自动换重；内部锁止和驱动未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "运动采集",
+        "detail": "记录次数、组数、节奏与速度等训练数据。",
+        "evidence": "official"
+      },
+      {
+        "name": "App与AI指导",
+        "detail": "Silverback提供连接、分析、训练建议和会员计划。",
+        "evidence": "official"
+      },
+      {
+        "name": "工程推断",
+        "detail": "感知、控制与结构只作功能拆分，不展示未经公开的真实锁止或PCB布局。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gorilla Bells官方商店",
+        "url": "https://www.gorillabow.com/products/gorilla-bells",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开并核公开商品变体；可加购、959.20美元、AI指导、速度训练与14.99美元会员。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Gorilla Bells官方系列说明",
+        "url": "https://www.gorillabow.com/collections/gorilla-bells",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；当前品牌系列、自动换重、计组与训练指导。价格有促销缓存差异，以商品变体核查值为准。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "Kabata官网当前购买入口",
+        "url": "https://www.kabatafitness.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开，购买链接指向Gorilla Bells；只支持入口关联，不据此推断当前内部器件或全部旧功能仍相同。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
+  },
+  {
+    "id": "jbl-bandbox-solo",
+    "name": "JBL BandBox Solo",
+    "brand": "JBL / HARMAN",
+    "category": "music",
+    "audience": "consumer",
+    "saleMode": "retail",
+    "tagline": "把正在播放的原曲实时拆成可消音声部的练习音箱",
+    "officialUrl": "https://uk.jbl.com/BANDBOX-SOLO.html",
+    "status": "on_sale",
+    "statusEvidence": "核查日英国官方商店显示Add To Cart及In stock；美国官方站与实际浏览器显示Sold Out，不能概括为所有地区现货。仅选Solo代表本机声部分离任务，不再添加Trio尺寸和通道组合。",
+    "regions": [
+      "英国（已核官方在售）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "未核大陆该型号官方零售；英国现货不代表可直邮大陆。美国本轮已售罄，购买应核目的地区域渠道和售后。"
+    },
+    "price": {
+      "text": "英国官网核查显示£299.99，地区官网结算为准",
+      "note": "搜索摘要曾出现229.99，与实际打开页面不同，不沿用旧促销。充电器不含，外部乐器、耳机和手机另备。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "Stem AI在设备本机实时分离输入歌曲的人声、吉他等声部，用户可独听或静音对应部分进行跟练；App还提供鼓声部等控制。",
+      "dependency": "蓝牙或USB音频输入，本机执行分离无需云端处理；JBL One App用于更多设置。它分离现有音乐而非自动作曲，伴奏质量受原始混音和模型误差影响。"
+    },
+    "highlights": [
+      "本机实时Stem AI",
+      "独听难点或消音自己要演奏的声部",
+      "实体按键与旋钮控制",
+      "与音色匹配和生成伴奏明确区别"
+    ],
+    "analysis": {
+      "demand": "案头需求是直接用自己熟悉的歌曲练习，先独听某一声部，再移除它并补上自己的演奏。它不是另一台普通音箱规格升级，价值在实时分离是否少做准备；处理伪影与延迟需要真实歌曲验证。",
+      "userProfile": "适合常做翻奏练习、想听清乐器细节的歌手和乐手。完全初学者仍需要节奏和演奏基础；是否常用复杂混音、是否已有电脑分轨软件和对音质的容忍度，比单纯喜好某个品牌更影响适配。",
+      "competition": "替代包括电脑或手机分轨软件、现成伴奏及传统练习音箱。本机处理减少上传和文件切换，与Spark的音色探索、智能伴奏不同；若用户已经准备好无主音伴奏，新增价值可能较小。",
+      "supplyChain": "硬件需要输入连接、音频处理、放大与扬声器、电池及操作显示。模型部署在本机，但具体处理器和工厂未披露；不能从本机AI推断芯片型号，续航和散热仍须和持续播放一起测。",
+      "technology": "官方操作指引明确通过Stem AI键和旋钮选择、静音或调整声部，母公司说明处理无需网络或云服务。模型分离不是拿到原工程多轨，可能出现串音与伪影；普通音效和调音器不单独算AI。",
+      "aesthetics": "紧凑黑色横向机身有大旋钮、顶部按键、挂环和小型像素显示，便于放在乐器旁。分析上，边演奏边操作的顺手程度和耳机监听比外观照片更重要，不把真实LED显示误画成大型触摸屏。",
+      "risks": "风险是把分离结果当原始独立轨、误以为所有地区有货，以及App功能与本机按键范围不清。练习体验应记录分离失误；厂商限定非商业使用，素材使用仍需遵循对应服务与权利条件。",
+      "opportunity": "可验证机会在一次选歌就能开练的流程。让用户对熟悉和陌生歌曲分别独听、消音、跟奏，比较电脑分轨准备时间和最终可用性；询问何时愿意用普通伴奏替代，不凭宣传分离效果预测留存。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "实时本机声部分离提供明确流程差异，但免费软件分轨和现成伴奏替代强，优势须结合练习频率而非AI标签。"
+    },
+    "architecture": [
+      {
+        "name": "音乐与乐器输入",
+        "detail": "蓝牙或USB歌曲输入，另有乐器或麦克风连接。",
+        "evidence": "official"
+      },
+      {
+        "name": "本机Stem AI",
+        "detail": "实时估计并分离声部，支持独听与静音，不是云端作曲。",
+        "evidence": "official"
+      },
+      {
+        "name": "混音与扩声",
+        "detail": "处理后的音乐及输入声音经放大和单全频扬声器输出。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互与连接",
+        "detail": "实体按键、主旋钮、像素显示及JBL One App控制。",
+        "evidence": "official"
+      },
+      {
+        "name": "电池及机身",
+        "detail": "内置电池与手持机壳；具体处理器和内部布局未披露。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "JBL BandBox Solo英国官方商店",
+        "url": "https://uk.jbl.com/BANDBOX-SOLO.html",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际打开；英国现货加购、当前页面价、接口及非商业使用说明。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "JBL Stem AI官方操作说明",
+        "url": "https://support.jbl.com/us/en/howto/bandbox-solo-how-to-enable-stem-ai-mnjdmlrnfn7-us/000054285.html",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开；实体控制、输入、声部选择及App扩展，区分分离与原始多轨。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "HARMAN官方BandBox技术发布",
+        "url": "https://news-latam.harman.com/es/releases/jbl-lleva-la-inteligencia-artificial-a-los-ensayos-musicales-con-los-nuevos-bandbox-trio-y-solo-6927840",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "usage"
+        ],
+        "note": "实际打开母公司发布；明确Stem AI本机执行、无需互联网或云端。",
+        "accessedAt": "2026-11-05"
+      },
+      {
+        "title": "JBL BandBox Solo美国官方商店",
+        "url": "https://www.jbl.com/BANDBOX-SOLO.html",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology",
+          "availability"
+        ],
+        "note": "实际网页与浏览器均显示Sold Out，本条不把美国列为当前现货地区。",
+        "accessedAt": "2026-11-05"
+      }
+    ],
+    "checkedAt": "2026-11-05"
   }
 ]

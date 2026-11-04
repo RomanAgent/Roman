@@ -213,5 +213,25 @@
     ]
   },
   "checkedAt": "2026-11-04",
-  "relatedProducts": []
+  "relatedProducts": [
+    {
+      "supplierId": "microchip",
+      "role": "chip",
+      "component": "同类触觉显示设备的控制与缓存平台候选",
+      "rationale": "Microchip公开嵌入式控制器和开发工具，可研究同类触觉设备的输入、状态控制和内容缓存；具体执行器驱动接口及刷新需求仍需确认。其机器学习工具不等于Dot Vista模型或Dot针阵技术，未发现本型号采用证据，候选只对应重新设计的通用控制层。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "dot-pad-x",
+      "productName": "Dot Pad X（Dot Vista AI工作流）",
+      "category": "accessibility",
+      "status": "on_sale"
+    }
+  ]
 }
