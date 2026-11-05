@@ -1,0 +1,231 @@
+{
+  "id": "granola",
+  "name": "Granola",
+  "aliases": [
+    "Granola, Inc.",
+    "Granola Labs Ltd."
+  ],
+  "website": "https://www.granola.ai/",
+  "region": "美国",
+  "regionNote": "2026-09-08 隐私政策称 Granola 基于美国并在英国运营，列 Granola, Inc. 与 Granola Labs Ltd. 地址；按当前主体口径，不沿用仅英国公司的旧印象。",
+  "category": "productivity",
+  "tags": [
+    "无机器人笔记",
+    "本机音频采集",
+    "人工笔记增强",
+    "跨会议问答",
+    "团队记忆"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "桌面和移动入口公开，用户手动开始采集；本机音频入口仍需云转写和总结，不能写成全离线记录。",
+  "ownershipNote": "Granola, Inc. 及包括 Granola Labs Ltd. 的关联主体按同一业务收录，产品入口和平台版本不另计公司。",
+  "summary": "Granola 以笔记本为中心，让用户在会议中记录少量重点，再结合设备音频转写补全结构化笔记和后续问答，面向会议密集的个人与团队，强调无需机器人入会而非无需用户参与。",
+  "analysisScope": "围绕手动启动采集、人工笔记与转写增强、跨会议问答及团队共享分析，明确端侧采集和云端处理的差异；不将不保存音频理解为不处理数据，也不把第三方不训练套用于自身改进。",
+  "sources": [
+    {
+      "id": "home",
+      "title": "AI 笔记本",
+      "url": "https://www.granola.ai/",
+      "kind": "official-product",
+      "note": "核无机器人、设备音频、人工笔记增强及多平台入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "个人团队方案",
+      "url": "https://www.granola.ai/pricing",
+      "kind": "official-pricing",
+      "note": "核历史范围、集成、管理及训练退出配置。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "security",
+      "title": "安全与工作机制",
+      "url": "https://www.granola.ai/security",
+      "kind": "official-docs",
+      "note": "明确手动开始、云转写、不保存长期音频、自有改进可退出、Enterprise 默认关闭。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "privacy",
+      "title": "当前隐私政策",
+      "url": "https://docs.granola.ai/help-center/policies/privacy-policy",
+      "kind": "official-docs",
+      "note": "2026-09-08 版确认美英主体、数据处理和训练边界。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "granola-notepad",
+      "name": "Granola AI Notepad 与 Chat",
+      "url": "https://www.granola.ai/",
+      "kind": "app",
+      "stage": "available",
+      "description": "用户在会议中写下重点，应用结合设备音频转写增强笔记，并支持会前背景与跨会议问答，使人工关注点和自动记录一起形成工作资料。",
+      "users": "连续参加会议且希望保留个人笔记习惯的知识工作者。",
+      "delivery": "用户手动启动桌面或移动采集，不向会议添加机器人；转写和总结使用云服务，笔记按权限保存分享。",
+      "monetization": "免费提供有限历史等体验，Business 增加历史与集成，Enterprise 提供组织管理和保留控制，按用户方案收费。",
+      "aiRole": "语音识别补充对话记录，语言模型结合用户笔记整理结构与回答问题；人工重点可能帮助聚焦，但自动补全文字仍需核查。",
+      "limits": "无机器人不等于无需通知或完全离线，第三方不训练与 Granola 自身去标识改进需区分；企业默认训练关闭，国内交付未实测。",
+      "sourceIds": [
+        "home",
+        "plans",
+        "security",
+        "privacy"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "保留笔记习惯",
+        "text": "一些用户不想完全放弃手写重点，只希望会议后笔记更完整，Granola 围绕这种行为组织产品。需求与纯自动记录不同，价值在于把人的关注点与对话背景结合；如果自动扩写偏离原意，完整反而不如简短原笔记可靠。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "减少入会摩擦",
+        "text": "设备音频采集避免额外机器人进入会议，对某些工作环境更方便，但便利不等于没有数据处理。实际需求应看用户是否愿意手动开启并向参与者说明，不能把看不见机器人当成可以无感记录一切的卖点。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "会议密集个人",
+        "text": "经常连续开会的管理、产品或投资工作者可能需要快速回顾不同讨论，笔记增强可减少会后补写。不同人对细节和重点的偏好不同，产品应尊重用户原始记录，不能用统一摘要模板覆盖所有会议类型。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "团队使用者",
+        "text": "团队希望共享经过整理的笔记，管理员则需要历史、集成和组织保留规则。个人默认私密与团队共享是不同状态，采购要检查共享文件夹和 API 权限，不能因笔记工具看起来轻量就忽略组织数据治理要求。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "privacy"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "手动采集",
+        "text": "官方说明用户需要手动开始，应用读取麦克风及电脑会议声音后转写，移动场景有暂存音频处理。流程应明确当前是否正在采集并允许停止，用户还要理解漏开或音频输入错误会导致缺失，不能假定日历中每场会议都自动完整记录。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      },
+      {
+        "title": "增强后复核",
+        "text": "人工笔记提供重点，转写补充背景，再由模型组织成更完整的结构，用户应核对行动项和决定。扩写不能把简略猜测变成确定事实，最好保留原笔记与增强版本的区别，以便用户知道哪些信息是后来自动加入。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "端云分工",
+        "text": "设备采集不代表本地推理，官方明确转写与总结使用云端供应商，笔记和转写存储在云基础设施。技术评估需看音频如何进入服务、哪些数据保留及可否导出，不能将不保存长期录音写成完全不上传或全离线。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      },
+      {
+        "title": "训练分层",
+        "text": "官方区分第三方不得训练个人数据与自身可用去标识资料改进模型，用户可退出，企业默认关闭。目录应同时保留这些条件，不能简化成永不训练；实际组织设置还需要管理员核对，而不是依赖个人页面中的单项说明。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "privacy"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "自动记录替代",
+        "text": "会议机器人更容易集中捕获完整会议，人工笔记则更容易突出个人判断，Granola 试图结合两者。差异需要在重点保留和会后可用性上证明，若用户不愿做任何笔记或经常忘记启动，其他采集方式可能更贴合。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "知识工具竞争",
+        "text": "普通笔记软件也能加入生成摘要，会议平台也提供转写，Granola 要证明专门笔记流程减少了整理负担。用户已有资料在哪里、如何分享和查找更重要，不能仅凭无需机器人这一点推断长期壁垒或普遍更好体验。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "历史与协作收费",
+        "text": "免费和付费方案的重要区别包括历史访问和集成，企业再增加管理与保留控制。用户应按长期回顾需求选择，不能只看单次会议是否能生成笔记；团队知识价值也需要成员实际回访，而不是存储越久就越有用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "服务成本与价值",
+        "text": "云转写和总结意味着每次采集仍有服务成本，用户付费理由应是更快获得可用笔记与上下文。商业评估需要扣除核查错误和分享管理投入，不能把自动扩写字数当成果，也不从知名客户展示推断所有团队都能提升效率。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security",
+          "plans"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "人工控制感",
+        "text": "熟悉的笔记界面让用户可以继续用自己的关键词表达重点，自动增强应帮助而非取代这种选择。体验需要让用户容易删改不准确补充，并在共享前确认内容；过度完整的笔记可能掩盖原本未达成一致的问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "验收建议",
+        "text": "建议在授权测试会议中只写少量重点，检查增强是否正确补全且保留不确定性，再测试停止采集、训练退出和导出。国内应用下载、登录、支付及网络交付本轮未实测，也未把个人真实会议或日历接入验证。",
+        "evidence": "validation",
+        "sourceIds": [
+          "security",
+          "privacy"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "隐形采集认知",
+        "text": "没有机器人容易让参与者低估记录行为，因此通知和同意仍是产品使用流程的一部分。机会是更自然的笔记辅助，风险是用户把界面轻量理解成数据不出设备；应明确端云处理和共享范围，而不让便利掩盖真实边界。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      },
+      {
+        "title": "持续更新",
+        "text": "当前隐私政策已列美国主体及英国运营，应跟踪服务和数据条件而不沿用旧国别印象。后续评价重点是笔记准确、重点保留与回顾价值，不用停留时长或生成字数衡量成功，企业特殊数据需求则需实际协议和配置核对。",
+        "evidence": "validation",
+        "sourceIds": [
+          "privacy",
+          "plans"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

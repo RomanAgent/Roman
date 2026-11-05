@@ -1,0 +1,163 @@
+# SAP
+
+企业与业务流程 · 德国 · 核查 2026-11-05
+
+在企业财务、采购、人力与供应链等流程中引入Joule助手和代理，结合业务数据、关系与权限提供查询和行动；面向已有企业系统及实施团队，不能把通用对话界面理解为无需配置的完整ERP替代品。
+
+**业务入口：商务接洽**。Joule体系提供企业演示与产品入口，功能依赖所用SAP应用、数据、授权和版本；助手目录不代表任意客户自动获得所有部门能力。
+
+公司与集团：Joule Work、Assistants、Agents和Studio属于SAP Business AI产品体系，本条不按财务、人力或供应链助手重复计公司。
+
+地区口径：按官网德国办公室目录明确列示的Walldorf全球总部归类，不将美国区域服务实体当作集团总部。
+
+[公司官网](<https://www.sap.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/sap)
+
+## 重点产品
+
+### Joule Assistants、Agents与Studio
+
+平台 · 已公开提供
+
+利用业务上下文协调助手和代理处理企业任务，并通过Studio定制工作流，把查询、建议和行动连接到SAP及相关系统。
+
+目标用户：使用SAP业务应用的组织员工、流程负责人及企业开发实施团队。
+
+AI作用：模型推理结合业务知识关系与运行时身份策略，助手可协调专门代理；业务语义与工具权限决定能执行什么，不是纯通用问答模型。
+
+使用与交付：在适用SAP产品和企业环境中启用，需配置数据、身份及相应能力；具体助手、版本和地区范围通过官方方案确认。
+
+收费形式：按企业应用与AI方案采购，具体包含能力和消耗方式依合同确定；本轮未核统一单价，不将产品目录视为所有订阅免费包含。
+
+产品边界：既有主数据和流程配置可能存在错误，代理不能自动解决全部组织语义；重要财务、人事和采购决策仍需明确审批与可追溯记录。
+
+[产品入口](<https://www.sap.com/products/artificial-intelligence.html>) · [SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>) · [Joule Assistants当前功能目录](<https://www.sap.com/products/artificial-intelligence/ai-assistant.html>) · [SAP公司与业务信息](<https://www.sap.com/about/company.html>)
+
+## 八维产品分析
+
+八维围绕Joule在企业业务流程中的助手与代理协作、业务语义及实施采购展开，不覆盖SAP全部应用和每个助手；未逐一登录客户租户验证开放状态，因此按产品组合说明并保留版本与合同边界。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 业务问题需要过程背景 · 研究判断
+
+员工提出付款、采购或人员相关问题时，答案常取决于单据状态、组织规则和前后流程。Joule的需求是把这些背景带入交互，但价值必须看是否帮助完成具体工作，而不是把复杂界面换成聊天框就认为问题已经解决。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+### 跨部门协作有语义差异 · 研究判断
+
+同一供应商、员工或订单在不同系统中的定义和状态可能不一致，助手协同需要理解这些差异。研究应观察代理是否指出冲突并请求澄清，不能因平台拥有业务知识图就假定企业自己的数据已天然统一。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>) · [Joule Assistants当前功能目录](<https://www.sap.com/products/artificial-intelligence/ai-assistant.html>)
+
+## 目标用户
+
+### 业务员工与专业负责人 · 研究判断
+
+普通员工可能只需查状态或提交请求，财务、采购等负责人则承担规则和审核责任。产品设计应让两类用户看到适合其权限的解释与操作，不能为了统一入口而隐藏专业人员需要的明细和证据。
+
+依据：[Joule Assistants当前功能目录](<https://www.sap.com/products/artificial-intelligence/ai-assistant.html>)
+
+### 实施团队决定可用程度 · 研究判断
+
+Joule接入需要企业管理员和开发实施人员理解现有应用与数据，购买软件并不自动完成准备。用户研究应纳入这些角色的配置、测试和更新负担，避免只从业务使用者第一次提问的体验判断整体交付难度。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>) · [SAP公司与业务信息](<https://www.sap.com/about/company.html>)
+
+## 产品与工作流
+
+### 从问题到具体业务动作 · 研究判断
+
+Joule体系区分工作入口、助手、代理和构建工具，有助把自然语言需求映射到具体流程。落地时应明确哪些结果是查询、哪些是建议、哪些会修改单据，确保用户在执行前理解后果，而不是把所有回答统一当作完成工作。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+### 自定义流程保持审批责任 · 研究判断
+
+Studio可用于定制企业场景，但定制越深，越需要管理规则、版本和审批。建议从边界清楚的流程开始，保留异常转交与回退路径，并检查新流程是否与原有职责分离冲突，不能只看是否能够自动运行。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+## AI技术与依赖
+
+### 业务知识关系作为基础 · 研究判断
+
+官方强调业务数据、关系和过程上下文，用来支撑代理选择动作。技术验证应检查主数据、字段定义和跨系统映射，而非只测试模型理解一般问题；错误的业务关系可能让语言正确的回答指向错误对象。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+### 运行时治理与模型推理 · 研究判断
+
+产品介绍将身份、访问和策略控制放在运行时网关，模型则参与多步任务判断。两者应分开评价：权限允许不代表行动合适，推理合理也不代表具备执行资格，需要同时验证规则、数据和人工监督。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+## 竞争与替代
+
+### 与现有ERP操作比较 · 研究判断
+
+很多企业流程已有表单、报表和确定性工作流，Joule应证明它减少寻找入口和解释背景的负担。比较不能只看自然语言更友好，还要检查批量处理、审计和异常场景是否保留原有能力，避免简单任务变得更难控制。
+
+依据：[SAP公司与业务信息](<https://www.sap.com/about/company.html>) · [Joule Assistants当前功能目录](<https://www.sap.com/products/artificial-intelligence/ai-assistant.html>)
+
+### 与外部通用代理比较 · 研究判断
+
+外部代理可能提供更灵活界面，SAP内嵌能力则更接近业务对象和过程。选择应围绕现有系统、数据治理和实施能力，不能从内嵌或通用标签直接判断优劣；跨平台场景仍需验证权限和语义能否一致。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+## 商业模式
+
+### 组合采购不能只看助手名称 · 研究判断
+
+不同应用、版本和合同可能包含不同AI权益，采购要列出实际需要的流程与使用人群，再确认依赖。没有统一公开价格时不应猜测每个助手成本，更不能把目录中的所有能力算入已有企业订阅。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>) · [Joule Assistants当前功能目录](<https://www.sap.com/products/artificial-intelligence/ai-assistant.html>)
+
+### 流程改造是重要投入 · 研究判断
+
+业务采用可能需要整理主数据、重定义审批和培训员工，这些投入与AI调用本身不同。商业评估应分别记录实施和持续运维，观察系统能否在真实流程中减少返工，而不是以厂商某个客户的效率案例估计自己的收益。
+
+依据：[SAP公司与业务信息](<https://www.sap.com/about/company.html>) · [SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+## 体验与交付
+
+### 解释必须落到单据与状态 · 研究判断
+
+用户应能从回答回到相关业务对象，确认日期、金额或负责人等信息。体验验证应包括相似名称、过期记录和权限不足，观察系统是否提供清楚边界，不能只让熟悉系统的人挑选容易成功的演示问题。
+
+依据：[Joule Assistants当前功能目录](<https://www.sap.com/products/artificial-intelligence/ai-assistant.html>)
+
+### 保留专业用户的控制 · 研究判断
+
+对经常处理复杂例外的人员，聊天不一定比原表格和流程更有效。产品应让用户在对话、明细和传统操作之间切换，并保留人工修改路径；研究需要观察真实工作节奏，而不是预设所有业务操作都应自然语言化。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+## 风险与机会
+
+### 关键业务动作需要证据 · 研究判断
+
+财务、人事和采购操作会影响真实组织与个人，模型建议应与审批、职责和审计记录相连。机会在于减少资料准备并让决策更清楚，不是自动取消复核；尤其数据冲突时应明确暂停，而非给出看似确定的结果。
+
+依据：[Joule Assistants当前功能目录](<https://www.sap.com/products/artificial-intelligence/ai-assistant.html>) · [SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>)
+
+### 逐流程验证而非整个平台打分 · 研究判断
+
+应选具体业务流程定义成功、错误和人工介入条件，再观察一段实际使用周期。不同部门的复杂度和数据质量差异很大，不能用单一AI评分预测全企业采用，更不能由产品目录推断市场需求已被验证。
+
+依据：[SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>) · [SAP公司与业务信息](<https://www.sap.com/about/company.html>)
+
+## 资料来源
+
+- [SAP Joule Business AI概览](<https://www.sap.com/products/artificial-intelligence.html>) — 已读取Work、Assistants、Agents、Studio及知识图和运行时网关定位。（核查 2026-11-05）
+
+- [Joule Assistants当前功能目录](<https://www.sap.com/products/artificial-intelligence/ai-assistant.html>) — 已读取角色与流程上下文，以及财务、供应链等助手入口；不把目录数量作为实际部署数量。（核查 2026-11-05）
+
+- [SAP公司与业务信息](<https://www.sap.com/about/company.html>) — 已读取企业财务、采购、人力及供应链业务范围，未采用收入和用户数作效果证据。（核查 2026-11-05）
+
+- [SAP德国办公室与总部](<https://www.sap.com/about/company/office-locations/germany.html>) — 官方办公室页明确Headquarters Walldorf，已由协作研究核查。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

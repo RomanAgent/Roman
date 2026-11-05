@@ -1,0 +1,163 @@
+# Snowflake
+
+数据与AI工程 · 美国 · 核查 2026-11-05
+
+把模型调用、结构化查询和非结构化检索放在已有数据平台附近，帮助企业构建数据代理与分析应用；核心依赖语义视图、搜索服务、角色权限及运行资源，不是无需准备便理解所有企业数据的聊天服务。
+
+**业务入口：公开产品入口**。Cortex有试用、SQL/API与Snowsight入口，实际模型、工具和地区需账户权限及配置；文档标为Public Preview的分析搜索不视为全部正式能力。
+
+公司与集团：Cortex AI与Cortex Agents作为Snowflake数据平台内AI业务合并研究，不按模型函数、搜索服务和代理入口重复计算公司。
+
+地区口径：按2026年7月1日隐私政策第18节所列Bozeman美国联系主体口径归类；政策包含全球实体，不声称单一固定总部。
+
+[公司官网](<https://www.snowflake.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/snowflake)
+
+## 重点产品
+
+### Snowflake Cortex AI 与Cortex Agents
+
+平台 · 已公开提供
+
+在Snowflake受治理环境中构建数据代理，结合结构化查询、文档检索和可配置工具，形成面向业务问题的多步分析与响应。
+
+目标用户：已有Snowflake数据资产的数据工程师、AI开发者与业务分析团队。
+
+AI作用：模型按规划、调用工具和反思循环工作，Cortex Analyst生成SQL、Cortex Search检索非结构化资料；没有配置工具时不能访问账户数据。
+
+使用与交付：通过Snowsight、SQL或REST定义代理与工具，配置语义视图、搜索和仓库资源，再向具有相应角色权限的调用方提供。
+
+收费形式：采用使用量计费，代理编排、查询、搜索索引和计算等分别产生消耗；外部工具也可能另收费，不能只按输出文本长度估算成本。
+
+产品边界：官方明确回答与引用准确性不保证，模型地区及预览状态需核对；外部MCP和网页工具会通过互联网请求，不应笼统声称所有数据永不离开平台。
+
+[产品入口](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>) · [Snowflake Cortex AI产品](<https://www.snowflake.com/en/product/features/cortex/>) · [Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>) · [Snowflake当前使用量计费](<https://www.snowflake.com/en/pricing-options/>)
+
+## 八维产品分析
+
+分析围绕Cortex Agents使用语义视图、文档搜索和工具回答企业数据问题，以及相应权限和费用；不覆盖全部Snowflake数据库能力，也不将任何SQL查询或传统数据治理都描述为生成式AI。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 把结构化与文档信息一起用 · 研究判断
+
+业务问题可能既需要表格中的数值，也需要合同或记录里的解释，分别查询再人工拼接比较繁琐。Cortex代理的需求是协调这些来源，价值应看能否正确关联证据与口径，而不是只把多个结果写成一段连贯文字。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+### 已有数据附近构建AI · 研究判断
+
+企业已经在Snowflake维护数据时，复用权限和资源可能减少另建系统的准备。但这些优势取决于实际数据位置，若资料仍分散且语义混乱，代理不会自动解决接入问题，需求评估应先确认可用数据基础。
+
+依据：[Snowflake Cortex AI产品](<https://www.snowflake.com/en/product/features/cortex/>)
+
+## 目标用户
+
+### 开发者配置而非用户随意问 · 研究判断
+
+业务用户看到的是自然语言界面，背后仍需要开发者配置代理、工具和数据资源。产品研究应区分构建者与终端用户的任务，检查他们对覆盖范围理解是否一致，避免用户以为代理能查询账户中任何表。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+### 数据负责人需要定义口径 · 研究判断
+
+语义视图和文档检索范围应由了解业务的人参与维护，尤其指标和时间定义会影响回答。团队采用不能只由模型工程人员完成，还要观察数据负责人如何纠正错误口径和批准新增访问，保证分析结果可被理解。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+## 产品与工作流
+
+### 工具配置限定可做的事 · 研究判断
+
+文档明确代理需要通过工具访问数据，没有工具只能依赖模型一般知识。工作流应从问题清单出发选择查询、搜索或计算工具，保留无法访问时的提示，不能将正常聊天响应误当作已读取企业资料。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+### 持续会话与应用集成 · 研究判断
+
+代理可维护会话并经接口嵌入应用，方便多轮探索，但历史上下文可能携带旧假设。测试应包含切换问题、数据更新与权限变化，观察系统是否澄清而非沿用错误前提，不能只验证单轮查询能返回答案。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+## AI技术与依赖
+
+### 查询正确与业务正确不同 · 研究判断
+
+Cortex Analyst生成SQL并不保证选对业务指标，搜索到文本也不保证解释条件完整。技术评估应分别核对表、联接、时间范围和引用语义，尤其能够执行的查询也可能回答了另一个问题，不能只看运行成功。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+### 平台内外执行需要区分 · 研究判断
+
+多数工具在平台内运行，网页和远程MCP等会访问外部服务。采购与开发应明确哪些内容进入外部请求，检查工具身份和返回数据可信度，不能由安全边界的营销表述推定任何扩展工具都不产生外部数据流。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>) · [Snowflake Cortex AI产品](<https://www.snowflake.com/en/product/features/cortex/>)
+
+## 竞争与替代
+
+### 与传统查询和报表比较 · 研究判断
+
+固定报表和熟练分析师编写查询仍是重要替代方式，代理更适合临时追问与跨资料探索。比较需要使用同一业务问题和数据口径，记录澄清、校对与返工，而不是只以是否写SQL判断使用门槛。
+
+依据：[Snowflake Cortex AI产品](<https://www.snowflake.com/en/product/features/cortex/>) · [Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+### 与外部数据代理比较 · 研究判断
+
+外部代理平台可能更灵活连接不同系统，Snowflake内嵌能力则可以复用已有数据治理。选择应根据现有架构、模型需求与维护能力，不能单凭靠近数据就认定更准确或更便宜，实际查询和工具调用仍需验证。
+
+依据：[Snowflake Cortex AI产品](<https://www.snowflake.com/en/product/features/cortex/>) · [Snowflake当前使用量计费](<https://www.snowflake.com/en/pricing-options/>)
+
+## 商业模式
+
+### 成本来自多个运行环节 · 研究判断
+
+文档分别说明编排、分析查询、搜索索引和仓库等消耗，额外工具还会增加费用。预算应按典型任务及重试路径记录，不能只看模型令牌单价；持续索引和后台资源也可能在没有用户提问时产生支出。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>) · [Snowflake当前使用量计费](<https://www.snowflake.com/en/pricing-options/>)
+
+### 预算控制需要实际测试 · 研究判断
+
+代理有预算和用户额度等控制思路，但组织仍需确认超限后的行为及谁负责调整。商业验证应把失败请求和不必要的工具调用计入，避免只计算成功演示成本，本研究未获取客户账单，不提供统一节省估计。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>) · [Snowflake当前使用量计费](<https://www.snowflake.com/en/pricing-options/>)
+
+## 体验与交付
+
+### 回答应展示来源和范围 · 研究判断
+
+用户需要知道答案来自哪些表、文档以及何时的数据，并能看出有工具无法访问的情况。体验测试应故意设置缺失权限和不完整资料，观察系统是否说明限制，不能让一个自信回答掩盖实际只使用了部分来源。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+### 多步执行需要可观察 · 研究判断
+
+代理可能连续查询、计算和检索，终端用户与开发者都需要理解进度及失败原因。应检查日志、反馈和重跑是否能定位到具体工具，避免一条泛化错误提示让维护者无法判断是权限、模型还是数据问题。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+## 风险与机会
+
+### 数据访问权限仍是基础 · 研究判断
+
+调用代理需要对象和工具相关权限，扩展工具还可能具有独立执行上下文。应核对角色继承及最小访问范围，防止用户通过代理获得超出预期的数据或动作；统一入口不能替代对每个工具的权限审查。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>)
+
+### 引用与答案仍须复核 · 研究判断
+
+官方文档明确不保证模型回答与引用准确，说明平台治理和内容正确性是不同问题。建议维护代表性业务测试和错误案例，持续观察模型与数据变化后的表现，不能从一次试用或产品名称预测组织采用成功。
+
+依据：[Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>) · [Snowflake Cortex AI产品](<https://www.snowflake.com/en/product/features/cortex/>)
+
+## 资料来源
+
+- [Snowflake Cortex AI产品](<https://www.snowflake.com/en/product/features/cortex/>) — 已读取SQL/API模型访问、多模态分析与平台治理定位。（核查 2026-11-05）
+
+- [Cortex Agents运行和限制](<https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-agents>) — 已读取工具、权限、语义视图、外部联网、预览能力与费用拆分；不采用准确性保证。（核查 2026-11-05）
+
+- [Snowflake当前使用量计费](<https://www.snowflake.com/en/pricing-options/>) — 已读取按消费模型、云平台与地区选项及AI费率入口，不编具体账单。（核查 2026-11-05）
+
+- [Snowflake隐私联系实体](<https://www.snowflake.com/en/legal/privacy/privacy-policy/>) — 本轮协作研究已核第18节Bozeman Montana联系地址及多实体边界。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

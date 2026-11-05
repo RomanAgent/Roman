@@ -1,0 +1,28 @@
+{
+  "title": "AI目录",
+  "scope": "全球 AI 公司与具有独立产品体系的业务档案，覆盖模型、应用、开发工具、企业与行业服务、机器人和基础设施。集团与产品品牌尽量合并；有独立产品体系的被收购业务保留归属说明。因此条目数不是独立集团、法人数量或全球AI公司总量。",
+  "analysisNote": "以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。",
+  "coverageNote": "目录持续扩展，不声称已经穷尽所有从事AI的公司。公开使用、销售接洽、研发观察和业务调整分别标明；公司有产品页面不等于产品有效、在所有地区可用或已实现盈利。",
+  "categories": [
+    {"id":"foundation","name":"基础模型","description":"通用模型、推理、多模态与模型产品"},
+    {"id":"platforms","name":"综合平台与云AI","description":"跨产品生态、云端模型与企业平台"},
+    {"id":"search","name":"搜索与知识助手","description":"检索、问答与信息整合"},
+    {"id":"agents","name":"智能体与交互","description":"任务执行、角色互动与Agent产品"},
+    {"id":"coding","name":"编程与开发","description":"代码辅助、代理开发与工程工作流"},
+    {"id":"image-design","name":"图像与设计","description":"图像生成、编辑、视觉创作与设计"},
+    {"id":"video","name":"视频与数字人","description":"视频生成、编辑和数字人表达"},
+    {"id":"audio","name":"语音与音乐","description":"语音识别合成、音频与音乐创作"},
+    {"id":"productivity","name":"办公与个人效率","description":"会议、写作、笔记与工作协调"},
+    {"id":"enterprise","name":"企业与业务流程","description":"业务系统、企业知识、流程与决策辅助"},
+    {"id":"data-infra","name":"数据与AI工程","description":"数据、检索、评测、部署和模型工程工具"},
+    {"id":"compute","name":"算力与推理基础设施","description":"AI芯片、算力云和推理服务"},
+    {"id":"healthcare","name":"医疗与健康服务","description":"医疗机构工作流、临床辅助与健康服务"},
+    {"id":"science","name":"科研与药物发现","description":"科学计算、生物技术与研发工具"},
+    {"id":"robotics","name":"机器人与具身AI","description":"机器人模型、控制与物理任务系统"}
+  ],
+  "dimensions": {"demand":"需求与市场","users":"目标用户","workflow":"产品与工作流","technology":"AI技术与依赖","competition":"竞争与替代","business":"商业模式","experience":"体验与交付","risks":"风险与机会"},
+  "stageLabels": {"public":"公开产品入口","sales":"商务接洽","research":"研发观察","transition":"业务调整","unclear":"状态待复核"},
+  "productStageLabels": {"available":"已公开提供","preview":"预览 / 限定开放","research":"研发 / 试点","retired":"已退出 / 迁移","unclear":"开放情况待核"},
+  "audienceLabels": {"consumer":"个人用户","business":"企业与专业用户","both":"个人与企业","research":"研究与开发合作"},
+  "kindLabels": {"model":"模型","app":"应用","platform":"平台","infrastructure":"基础设施","vertical":"行业产品","robotics":"机器人系统"}
+}

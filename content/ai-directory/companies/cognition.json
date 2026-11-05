@@ -1,0 +1,223 @@
+{
+  "id": "cognition",
+  "name": "Cognition",
+  "aliases": [
+    "Devin",
+    "Windsurf",
+    "Devin Desktop"
+  ],
+  "website": "https://cognition.com/",
+  "region": "美国",
+  "regionNote": "按公司公开列示的旧金山和纽约业务办公室归类；同一公告亦列伦敦、新加坡与东京，不把美国标签理解为仅在美国交付。",
+  "category": "coding",
+  "tags": [
+    "软件工程代理",
+    "Devin",
+    "Windsurf整合"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "官网有Devin试用与应用下载，组织接入涉及仓库、环境和权限配置；公开产品不等于能独立承担全部软件工程责任。",
+  "ownershipNote": "2026年7月官方回顾确认Windsurf交易已完成，并说明产品品牌统一到Devin Desktop；Windsurf作为历史名称与产品演变记录，不单列重复公司。",
+  "checkedAt": "2026-11-05",
+  "summary": "为软件工程组织提供可委派开发任务的Devin系统，把桌面协作、云端执行、代码审查和仓库知识连接起来；强调任务执行后的人工验收，而不是以自主工程师名称代替交付证据。",
+  "products": [
+    {
+      "id": "devin",
+      "name": "Devin / Devin Desktop",
+      "url": "https://docs.devin.ai/get-started/devin-intro",
+      "kind": "platform",
+      "stage": "available",
+      "description": "围绕仓库任务进行规划、代码修改、测试与审查，并通过桌面和云端入口承接工程师交付的具体工作。",
+      "users": "维护真实软件项目的工程团队、平台团队与组织管理员。",
+      "delivery": "使用账户与配套应用接入代码库，按文档配置运行环境、知识和权限，企业场景可进一步商洽。",
+      "monetization": "产品提供商业访问与企业接洽入口，本轮未逐项核现行额度价格，不把试用或厂商保证解释为无限任务承诺。",
+      "aiRole": "模型驱动代理分解并执行工程步骤，结合仓库知识、工具与自检；官方也提供何时使用和如何下达指令的专门文档。",
+      "limits": "代理执行取决于可访问代码、环境和明确的任务定义；自检及生成测试可能遗漏同一假设错误，结果仍由维护者按真实需求验收。",
+      "sourceIds": [
+        "product",
+        "docs",
+        "ownership"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "product",
+      "title": "Cognition当前产品入口",
+      "url": "https://cognition.com/",
+      "kind": "official-product",
+      "note": "已读取Devin、试用和下载入口；公司宣传的自主程度不等于本研究实测。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "docs",
+      "title": "Devin入门与运行环境文档",
+      "url": "https://docs.devin.ai/get-started/devin-intro",
+      "kind": "official-docs",
+      "note": "已读取环境配置、仓库索引、知识接入、审查及工具文档导航，未实际接入私人代码。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "ownership",
+      "title": "Cognition与Windsurf整合一周年",
+      "url": "https://cognition.com/blog/one-year-of-building-together",
+      "kind": "official-company",
+      "note": "2026-07-14回顾明确交易完成、品牌统一Devin Desktop及全球办公室；不复述其级别或效率宣传为验证结论。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "分析集中于Devin承接明确开发任务、运行测试并交付审查成果的工作流，以及Windsurf整合后的桌面入口；不覆盖公司全部研究模型，也不评价客户项目的实际成功率。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "可委派的工程积压",
+        "text": "团队可能希望把重复迁移、测试补充和边界清晰的缺陷处理交给代理，以释放持续被打断的维护时间。价值取决于任务能否被完整说明和验收，而不是代理被称为哪个工程师级别；模糊需求仍需要人来决定取舍。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "异步执行的条件",
+        "text": "异步代理适合不要求工程师全程盯着的工作，但等待结果并不天然节省时间。如果环境安装、访问许可和验收标准每次都要重新解释，委派成本会抵消便利；需求验证应把准备和返工一起纳入任务周期。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "工程负责人和执行者",
+        "text": "使用链通常同时包含分派任务的人、维护仓库的人以及批准接入环境的人。产品需要让这几类角色理解代理正在做什么、何时需要决策，不能只优化发起任务的聊天界面而把审查压力转移给其他成员。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "不等于无需工程知识",
+        "text": "没有代码背景的人可能能描述需求，却难以判断代理是否破坏隐含约束。对这类用户，项目演示与可持续维护必须分开，尤其涉及真实数据或已有服务时，应保留能解释架构和处理故障的工程支持。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "docs"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "环境与知识先接入",
+        "text": "文档把环境配置、仓库索引和知识准备列为独立环节，说明执行不是孤立问答。评估应检查代理在相同环境中能否重现故障、运行既有测试并报告缺失依赖；仅返回一份代码补丁不足以证明任务完成。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "统一入口后的衔接",
+        "text": "官方说明桌面与原Windsurf能力统一到Devin品牌，可能减少交互式开发与云端委派的切换。需要验证任务历史、上下文和审查记录是否能在入口间顺畅延续，不能把品牌统一自动理解为所有旧功能和账户完全一致。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "ownership",
+          "docs"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "模型与工程工具组合",
+        "text": "Devin的可用能力来自模型、代码环境、知识和执行工具的组合，而不是单次生成回答。比较时要固定可访问资源，并区分模型提出方案、工具实际运行和结果验证三个环节，避免将计划文字当作已经执行的测试。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "docs"
+        ]
+      },
+      {
+        "title": "自检的证据边界",
+        "text": "官方强调测试和自我验证，但代理可能用自己假设生成测试，因而同时漏掉同一个真实需求。技术评估应加入维护者预先定义的边界条件和现有回归套件，观察失败时是否如实报告，而不是只统计自建测试通过率。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "ownership",
+          "docs"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "云代理与人在环编辑",
+        "text": "替代路径包括人在编辑器内逐步协作、传统脚本以及临时外包维护。Devin的差异在任务委派和持续执行，适合程度取决于任务拆分与团队反馈速度；不能仅凭更多自动化步骤就判断优于简短的人在环修改。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "评审能力是比较核心",
+        "text": "当多种代理都能提交代码，差异会落到改动是否贴合仓库规范、解释是否可追溯以及失败后的恢复。建议选有历史修复答案的任务做盲审，同时保留新问题测试，避免仅使用容易通过的演示案例。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "按任务价值看购买",
+        "text": "商业价值应围绕任务交付质量和人力参与变化，而不是把代理时间直接替代为某种工资。采购需核实当前套餐、运行资源和企业支持范围，并记录长任务失败时消耗；本轮没有账单或客户财务数据，不能计算投资回报。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "docs"
+        ]
+      },
+      {
+        "title": "整合改变采购边界",
+        "text": "Windsurf与Devin整合后，原本编辑器和云代理的购买决策可能汇入同一供应商体系。组织需要重新核对产品名称、账号延续和功能范围，避免沿用历史套餐理解当前权益；合并品牌本身也不证明价格更低或交付更快。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "ownership"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "监督必须可操作",
+        "text": "异步工作要求用户能看见正在执行的步骤、阻塞原因和完成证据。评估应实际尝试暂停、补充条件和回到检查点，观察代理是否延续正确任务；没有可操作监督时，等待一个完整答案可能增加后续排查负担。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "推广依赖组织准备",
+        "text": "团队采用需要把代码访问、测试环境和责任边界整理清楚，这些准备工作也可能改善人工流程。试点评估应单独记录准备带来的收益和代理执行带来的收益，避免把两者混在一起夸大工具本身的效果。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "执行权限放大影响",
+        "text": "能够运行命令和浏览资源的代理也会接触不可信输入、依赖脚本和敏感配置。研究建议从可回退环境与最小权限开始，并保持发布及合并责任明确；代理自称任务完成，不应直接触发不可逆的业务操作。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "从失败任务寻找机会",
+        "text": "有价值的验证包括代理何时求助、哪些任务反复卡住，以及维护者能否快速接手。若失败记录能转化为可复用环境和更清楚的任务约定，产品可能形成持续改善；这仍需真实团队观察，不能由模型更新公告推断。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "ownership"
+        ]
+      }
+    ]
+  }
+}

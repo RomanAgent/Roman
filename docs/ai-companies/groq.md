@@ -1,0 +1,165 @@
+# Groq
+
+算力与推理基础设施 · 美国 · 核查 2026-11-05
+
+为开发者和企业提供低延迟推理服务及专用基础设施选择，以LPU相关技术和托管软件支持模型应用；当前授权合作和未来LPX计划需要分开理解，平台加速不代表所托管模型的答案或工具操作自动正确。
+
+**业务入口：公开产品入口**。GroqCloud有开发控制台和API文档，企业平台分基础设施、推理与控制层；当前LPX说明仍写when released，不能将下一代联合机架当作已普遍交付。
+
+公司与集团：2025-12-24官方明确与NVIDIA签非独家推理技术授权，部分团队成员加入NVIDIA，但Groq继续独立运营且GroqCloud持续运行；不写成NVIDIA收购整个Groq。
+
+地区口径：按官方隐私政策明确位于美国及Mountain View公司联系主体口径归类，全球数据处理与服务地区另行确认。
+
+[公司官网](<https://groq.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/groq)
+
+## 重点产品
+
+### GroqCloud与Groq平台
+
+基础设施 · 已公开提供
+
+通过托管模型API和分层企业平台提供推理及容量选择，面向文本、语音和代理应用，治理与专用部署条件按服务层确认。
+
+目标用户：AI应用开发者、推理服务团队及需要专用容量和管理的企业。
+
+AI作用：LPU相关基础设施执行托管模型推理，API提供文本、语音、工具及结构化输出等能力；具体功能依模型和服务层，并非任意模型都能直接运行。
+
+使用与交付：开发者经控制台和API接入，企业可商洽基础设施、推理和控制层；模型、速率及特定服务等级依文档与账户配置。
+
+收费形式：Free与Developer层不同，Developer按令牌使用后付费，按月或达到阶段阈值结算，并提供支出限制；企业容量和模型单价按当前方案确认。
+
+产品边界：模型与工具支持可能变化，远程工具涉及独立数据和权限边界；NVIDIA Groq 3 LPX页面仍为未来发布表述，不能计入当前默认可用容量。
+
+[产品入口](<https://groq.com/platform>) · [Groq当前平台层次与LPX边界](<https://groq.com/platform>) · [Groq当前开发文档](<https://console.groq.com/docs/overview>) · [Groq账单常见问题](<https://console.groq.com/docs/billing-faqs>) · [Groq与NVIDIA非独家授权公告](<https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale>)
+
+## 八维产品分析
+
+分析围绕GroqCloud当前模型服务和企业平台分层，重点是推理交互、模型支持及授权合作后的交付边界；不把LPX未来规格算入现有服务，也不将公司速度宣传或模型benchmark作为用户应用的实测结果。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 推理响应影响实时应用 · 研究判断
+
+语音、聊天和代理任务需要多次模型调用，等待会影响用户是否愿意继续操作。Groq的需求位置在推理执行，但价值应看完整请求链和稳定性，不能只用输出速度代表体验，工具和网络仍可能占据主要时间。
+
+依据：[Groq当前平台层次与LPX边界](<https://groq.com/platform>) · [Groq当前开发文档](<https://console.groq.com/docs/overview>)
+
+### 企业容量需要明确服务层 · 研究判断
+
+共享API、专用基础设施和治理控制服务不同需求，团队应先确定需要哪一层。研究应观察容量、运维和控制问题是否真实存在，不能因为平台提供更多企业选项就认为所有应用必须购买完整组合。
+
+依据：[Groq当前平台层次与LPX边界](<https://groq.com/platform>)
+
+## 目标用户
+
+### 应用开发者先看功能兼容 · 研究判断
+
+开发者需要确认模型是否支持所需上下文、语音和工具调用，而不只是响应快。用户研究应包含现有应用迁移与失败处理，避免只测试厂商演示模型，忽略实际业务依赖的功能和版本差异。
+
+依据：[Groq当前开发文档](<https://console.groq.com/docs/overview>)
+
+### 企业管理者关注使用治理 · 研究判断
+
+组织需要分配项目、模型权限和支出，专用容量用户还要管理运行责任。平台体验应让开发者和管理员理解相同边界，不能一方认为只是试用，另一方却承担持续费用或敏感资料的外部调用。
+
+依据：[Groq当前开发文档](<https://console.groq.com/docs/overview>) · [Groq账单常见问题](<https://console.groq.com/docs/billing-faqs>)
+
+## 产品与工作流
+
+### 从控制台进入应用 · 研究判断
+
+开发流程包括选择模型、配置密钥和限制，再处理响应与错误。生产使用应加入监控、预算和重试策略，不能以第一条API请求成功就认为具备交付条件，尤其批量或高并发行为需要单独验证。
+
+依据：[Groq当前开发文档](<https://console.groq.com/docs/overview>) · [Groq账单常见问题](<https://console.groq.com/docs/billing-faqs>)
+
+### 工具调用与模型输出分开 · 研究判断
+
+模型可以产生调用意图，但工具执行、授权和结果检查仍是应用的一部分。研究应区分本地工具、远程MCP及平台内置工具，确认信息流和失败边界，不能把模型支持工具调用理解为可以未经控制执行任何动作。
+
+依据：[Groq当前开发文档](<https://console.groq.com/docs/overview>)
+
+## AI技术与依赖
+
+### 专用架构与模型支持共同决定效果 · 研究判断
+
+Groq平台围绕专用推理能力构建，但实际性能取决于模型、输入和服务配置。技术比较应固定质量要求与请求分布，不能只凭LPU名称或厂商峰值指标推断对所有模型和任务都更优，还应分开观察首字延迟、连续输出与并发请求的等待。
+
+依据：[Groq当前平台层次与LPX边界](<https://groq.com/platform>)
+
+### 未来LPX与当前服务区分 · 研究判断
+
+当前平台页用未来发布措辞介绍NVIDIA Groq 3 LPX，说明联合架构展示并非现货承诺。技术目录应把当前API、专用服务和下一代容量分开，不能将计划规格叠加到现有服务表现来评价。
+
+依据：[Groq当前平台层次与LPX边界](<https://groq.com/platform>) · [Groq与NVIDIA非独家授权公告](<https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale>)
+
+## 竞争与替代
+
+### 与其他推理云比较 · 研究判断
+
+GPU推理服务、专用加速平台和自托管都是替代路径，比较应在相同模型及质量条件下观察延迟、错误与费用。不能只依据单次最快响应排名，也应检查所需模型、服务地区和长期支持是否符合应用。
+
+依据：[Groq当前平台层次与LPX边界](<https://groq.com/platform>) · [Groq当前开发文档](<https://console.groq.com/docs/overview>)
+
+### 与自建基础设施的取舍 · 研究判断
+
+托管API减少部分运维，但对模型修改、部署和数据路径的控制可能不同。企业选择应围绕实际约束，不能把专用硬件优势自动等同更低整体成本，低利用率或迁移工作都可能改变商业判断。
+
+依据：[Groq当前平台层次与LPX边界](<https://groq.com/platform>)
+
+## 商业模式
+
+### 动态模型价格不能沿用旧页 · 研究判断
+
+旧价格网址已回到主页，具体费用应以当前控制台和账单文档确认。采购需要记录模型、用量与服务层，不据历史截图估算项目成本；额度与支出限制也应通过真实请求检验，避免意外超量。
+
+依据：[Groq账单常见问题](<https://console.groq.com/docs/billing-faqs>) · [Groq当前开发文档](<https://console.groq.com/docs/overview>)
+
+### 授权关系不是股权收购 · 研究判断
+
+官方明确非独家技术授权和人员转移，同时保留独立云业务。商业分析应按这一范围判断供应关系，不把NVIDIA合作标题写成整个公司被收购，也不能由合作自动承诺价格、模型覆盖或客户合同保持不变。
+
+依据：[Groq与NVIDIA非独家授权公告](<https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale>)
+
+## 体验与交付
+
+### 速度之外需要可靠错误处理 · 研究判断
+
+限流、模型调整和流式中断会影响真实应用，开发者需要清楚的状态与恢复路径。体验测试应包含失败和高负载情况，观察重试是否增加费用或重复动作，不能只观看正常生成过程就评价服务成熟度。
+
+依据：[Groq当前开发文档](<https://console.groq.com/docs/overview>) · [Groq账单常见问题](<https://console.groq.com/docs/billing-faqs>)
+
+### 平台分层要便于购买者理解 · 研究判断
+
+基础设施、推理和企业控制层的责任不同，用户应知道供应商管理哪些环节、自己仍要做什么。研究应检查文档、销售范围与运行界面是否一致，避免生产就绪宣传掩盖客户仍需配置和验证的工作。
+
+依据：[Groq当前平台层次与LPX边界](<https://groq.com/platform>)
+
+## 风险与机会
+
+### 快速生成不会消除模型错误 · 研究判断
+
+托管平台可以提高执行效率，但事实错误、提示注入和工具误用仍需应用层控制。产品机会在提供可观察的服务与明确边界，不能用更快响应证明模型更可靠，更不能把基础设施能力当作业务结果保证。
+
+依据：[Groq当前开发文档](<https://console.groq.com/docs/overview>) · [Groq当前平台层次与LPX边界](<https://groq.com/platform>)
+
+### 持续核对模型与供应变化 · 研究判断
+
+模型上下线、授权合作和服务等级可能改变实际使用条件，团队应维护代表性回归测试与备选路径。目录保留当前和未来能力区别，不从融资、计划容量或厂商benchmark推算市场份额与长期商业成功。
+
+依据：[Groq与NVIDIA非独家授权公告](<https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale>) · [Groq当前平台层次与LPX边界](<https://groq.com/platform>)
+
+## 资料来源
+
+- [Groq当前平台层次与LPX边界](<https://groq.com/platform>) — 已读取GroqMetal、GroqCore、GroqAssured及LPX when released，不引用未验证性能数字。（核查 2026-11-05）
+
+- [Groq当前开发文档](<https://console.groq.com/docs/overview>) — 已读取模型、速率、工具、语音、服务等级及生产准备入口，不假定所有功能对每个模型都开放。（核查 2026-11-05）
+
+- [Groq账单常见问题](<https://console.groq.com/docs/billing-faqs>) — 已读取Free/Developer区分、按令牌后付费、月度与阶段阈值结算及支出限制；未逐项抄录模型动态单价。（核查 2026-11-05）
+
+- [Groq与NVIDIA非独家授权公告](<https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference-technology-licensing-agreement-to-accelerate-ai-inference-at-global-scale>) — 2025-12-24正文明确非独家许可、人员转移、Groq独立及GroqCloud不中断，不扩大为全公司并购。（核查 2026-11-05）
+
+- [Groq隐私与公司地区](<https://groq.com/privacy-policy>) — 明确Groq位于美国，联系主体Groq LLC在Mountain View，全球处理地区另有边界。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

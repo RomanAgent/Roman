@@ -1,0 +1,232 @@
+{
+  "id": "fireflies-ai",
+  "name": "Fireflies.ai",
+  "aliases": [
+    "Fireflies",
+    "AskFred"
+  ],
+  "website": "https://fireflies.ai/",
+  "region": "美国",
+  "regionNote": "按当前条款对 Fireflies.AI Corp. 法务通知列明的 Pleasanton, California, USA 地址；属于公司联系地址依据，不以此核定全球总部。",
+  "category": "productivity",
+  "tags": [
+    "会议机器人",
+    "团队检索",
+    "对话分析",
+    "CRM",
+    "AskFred"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "有机器人、扩展及移动等公开采集路径，方案的转写、存储和 AI 额度不同，不能把某项无限推广到全部使用。",
+  "ownershipNote": "AskFred、会议助手及相关个人助手作为 Fireflies 同一业务收录，不把连接的会议和 CRM 平台计为自有子公司。",
+  "summary": "Fireflies.ai 面向团队对话记录和知识复用，通过会议机器人、扩展与移动入口采集声音，提供转写、摘要、问答和集成，把分散会议资料放入可搜索工作空间并支持后续行动。",
+  "analysisScope": "聚焦会议采集、AskFred 与团队查询及分享，不完整评估其新听写或所有语音代理产品；数据默认设置、企业私有存储和供应商保留条件分别判断，不把零保留宣传当作完全不存储记录。",
+  "sources": [
+    {
+      "id": "home",
+      "title": "会议采集与摘要",
+      "url": "https://fireflies.ai/",
+      "kind": "official-product",
+      "note": "核机器人自动加入、扩展、移动采集及总结入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "方案与资源",
+      "url": "https://fireflies.ai/pricing",
+      "kind": "official-pricing",
+      "note": "区分转写、存储、AI 额度、导出和组织功能。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "security",
+      "title": "数据与企业条件",
+      "url": "https://fireflies.ai/security",
+      "kind": "official-docs",
+      "note": "读取默认不训练、供应商保留和私有存储，企业 BAA 条件单列。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "terms",
+      "title": "服务条款",
+      "url": "https://fireflies.ai/terms-of-service",
+      "kind": "official-docs",
+      "note": "用于服务与内容边界，不据认证宣传提供统一法律结论。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "fireflies-meetings",
+      "name": "Fireflies 会议知识工作空间",
+      "url": "https://fireflies.ai/",
+      "kind": "app",
+      "stage": "available",
+      "description": "从线上或线下对话生成转写、摘要与行动信息，通过 AskFred 和团队检索找回会议内容，再按权限连接外部工作工具。",
+      "users": "需要共享会议背景和客户沟通资料的个人及团队。",
+      "delivery": "可邀请会议机器人或配置日历加入，也有扩展和移动采集，内容经联网处理进入工作空间，分享与接入由用户配置。",
+      "monetization": "免费和按席位付费方案区分存储、摘要、导出和管理，另有 AI 信用点及企业私有存储等条件。",
+      "aiRole": "识别模型形成文字与说话人信息，语言模型整理摘要并回答记录相关问题，对话分析帮助寻找模式；自动结论不等于已确认业务事实。",
+      "limits": "自动加入与分享需明确参与者和组织授权，默认不训练不等于不保存记录；私有存储及医疗协议有方案条件，国内完整交付未实测。",
+      "sourceIds": [
+        "home",
+        "plans",
+        "security",
+        "terms"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "分散对话",
+        "text": "客户信息和项目决定常散落在多个会议平台，集中转写与检索能减少重复询问。Fireflies 的价值应体现为更快找到正确上下文，而不是把所有会议都存下来；无差别积累记录也会增加查找噪声和权限管理负担。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "团队后续工作",
+        "text": "摘要与行动项可帮助会议结束后分工，连接业务工具进一步减少复制粘贴。需求是否强取决于这些内容有没有进入真实工作流程，如果成员从不检查或执行，生成再详细的笔记也不会自动改善协作或客户管理。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "个人和小团队",
+        "text": "个人希望少做笔记，小团队则开始需要导出和共享历史，两种需求对存储与摘要限制的敏感度不同。方案选择应依据实际记录频率和访问方式，不能把免费无限转写理解为所有生成问答、保存和下载都没有限制。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "组织管理者",
+        "text": "组织管理者关心会议何时采集、谁可访问以及内容保留多久，尤其外部客户沟通包含他人信息。企业安全能力有明确方案条件，应由管理者与使用者共同验证，不能因为某个员工能安装机器人就认为公司部署已经完成。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "多种采集路径",
+        "text": "会议机器人可被邀请或按日历加入，扩展和移动又服务不同场景。用户需要清楚哪一种路径正在工作以及录到了什么，避免重叠采集或漏记；没有机器人出现在会议里也不自动意味着可以省略参与者通知与授权。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "知识整理",
+        "text": "生成摘要后应检查决定与待办，再把有用信息分享给合适成员或外部系统。团队查询要保留原文和会议日期，防止不同客户或不同时期的相似内容混淆，自动化应减少查找而不是替代确认哪些信息已被团队认可。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home",
+          "plans"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "识别与分析",
+        "text": "说话人识别、语言检测和对话总结是不同任务，错误会沿流程传递。技术评估应分别检查身份归属、关键数字和总结逻辑，尤其混语和重叠讲话不能仅用官方整体准确率解释，真实业务样本才决定是否可用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "保存和训练",
+        "text": "官方称默认不训练，同时提供供应商保留与私有存储选项，这些条件不等于平台从不保存会议。技术架构必须区分录音、转写、模型调用和备份路径，不能把零保留字样推广到全部数据或所有企业方案。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "会议平台替代",
+        "text": "内置会议摘要、人工笔记和其他独立助手可以完成部分记录任务，Fireflies 的候选优势在跨平台归档与工作空间查询。若团队主要使用单一平台且摘要已满足需求，新增工具需要以更好的检索或集成证明价值。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "团队知识竞争",
+        "text": "文档和 CRM 系统也保存业务决定，会议工具应帮助补充可追溯背景而非制造另一份不同步事实源。竞争比较应看能否把修正后的结论接回现有系统，不能只看谁生成更多行动项或拥有更多连接器名称。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "多层资源",
+        "text": "转写、摘要、存储、视频和 AI 额度各有层级，预算需按真实使用组合计算。无限某一项不代表整套流程无限，尤其团队长期保存与高级问答的需求不同，采购应估计成员活跃度和历史增长而不是只按会议数量。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "企业附加价值",
+        "text": "私有存储、保留策略和管理规则可能构成企业付费理由，但需要明确合同适用条件。商业收益应由减少的查询和跟进时间支持，不从认证或客户规模宣传直接推导部署合规，也不能把录音小时当作节省同等人工工时。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security",
+          "plans"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "采集可见性",
+        "text": "自动加入便利也容易造成用户不清楚哪些会议会被记录，因此设置应直观并方便暂停。摘要和分享也要让用户预览范围，避免一个默认动作把内部讨论交给不合适的人；可控体验比单纯减少点击更重要。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "验收建议",
+        "text": "建议用授权测试会议验证自动加入、成员访问、摘要纠错和导出，再检查外部集成是否只收到选定内容。还要核私有存储和供应商处理边界，中国大陆会议接入与付款本轮未实测，未使用真实客户记录。",
+        "evidence": "validation",
+        "sourceIds": [
+          "security",
+          "plans"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "权限扩散",
+        "text": "把会议连接到更多工具可能放大一次误分享的影响，组织需要清楚管理员和个人的控制边界。机会在于团队可追溯记忆，风险是将临时讨论广泛持久化；默认不训练的声明不能替代对保留、共享和删除流程的实际验收。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "terms",
+          "security"
+        ]
+      },
+      {
+        "title": "持续验证",
+        "text": "后续应跟踪新助手功能与 AI 额度变化，并验证历史内容在模型更新后是否仍正确被检索。效果指标宜看实际找到信息的时间、错误行动项和任务完成，不以转写准确宣传、客户标志或记录总量代替需求与经营证据。",
+        "evidence": "validation",
+        "sourceIds": [
+          "home",
+          "plans"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

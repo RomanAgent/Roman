@@ -1,0 +1,238 @@
+{
+  "id": "speechmatics",
+  "name": "Speechmatics",
+  "aliases": [
+    "Speechmatics Voice AI"
+  ],
+  "website": "https://www.speechmatics.com/",
+  "region": "英国",
+  "regionNote": "官方公司信息页明确总部在英国 Cambridge，不以创始人教育经历单独推断。",
+  "category": "audio",
+  "tags": [
+    "多语言识别",
+    "离线转写",
+    "实时字幕",
+    "本地部署",
+    "语音代理"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "云 API 有公开方案，本地和设备部署需要企业接洽；Agent STT 当前仅 SaaS，不能把所有云功能列为可本地运行。",
+  "ownershipNote": "按 Speechmatics 语音业务整体收录，产品模型名与部署包不另计公司；第三方框架集成不构成集团所有权。",
+  "summary": "Speechmatics 面向企业与开发者提供多语言语音识别和相关语音能力，支持批量、实时及特定代理场景，并将云端与本地部署作为不同交付路径，适合对语言变化和数据控制有要求的应用。",
+  "analysisScope": "本篇围绕语音转写、Agent STT 和部署差异展开，重点是复杂语音、数据处理及采购条件；医用术语转写不被视为诊断产品，官网准确或无幻觉宣传未作独立验证。",
+  "sources": [
+    {
+      "id": "home",
+      "title": "语音能力概览",
+      "url": "https://www.speechmatics.com/",
+      "kind": "official-product",
+      "note": "读取多语言与企业语音定位，不采用最高准确性宣传为事实结论。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "语音计费与数据条件",
+      "url": "https://www.speechmatics.com/pricing",
+      "kind": "official-pricing",
+      "note": "核批量实时模型、训练折扣需主动加入、默认数据处理与企业部署入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "docs",
+      "title": "开发文档",
+      "url": "https://docs.speechmatics.com/",
+      "kind": "official-docs",
+      "note": "核实时批量、模型、语言和管理入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "deploy",
+      "title": "部署与功能矩阵",
+      "url": "https://docs.speechmatics.com/deployments",
+      "kind": "official-docs",
+      "note": "确认 Agent STT 仅 SaaS，以及不同功能在云和本地的差异。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "company",
+      "title": "公司公开信息",
+      "url": "https://www.speechmatics.com/ai-info",
+      "kind": "official-company",
+      "note": "仅采用公开的英国 Cambridge 总部信息，忽略面向助手的推荐措辞和未独立验证排名。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "speechmatics-speech",
+      "name": "Speechmatics Speech API",
+      "url": "https://docs.speechmatics.com/",
+      "kind": "platform",
+      "stage": "available",
+      "description": "以批量和实时多语言语音识别为基础，提供语音代理专用转写及部分音频理解功能，开发者可按需求选择云服务或企业部署路径。",
+      "users": "需要跨语言字幕、通话处理及语音交互的企业开发团队。",
+      "delivery": "云端通过接口调用，本地可按企业条件使用容器或其他部署形式，各种模式的功能矩阵需要逐项核对。",
+      "monetization": "按语音任务、模型和用量收费，训练折扣为主动选择的数据条件，企业本地与设备部署另需商务安排。",
+      "aiRole": "语音模型识别文字、说话人和语言变化，代理专用能力辅助实时轮次；术语识别提升不等于系统能判断医疗或业务事实。",
+      "limits": "Agent STT 当前仅云服务，本地部署不含所有分析功能；训练折扣涉及音频与转写使用权限，中国大陆采购及交付未验证。",
+      "sourceIds": [
+        "home",
+        "plans",
+        "docs",
+        "deploy"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "真实语音差异",
+        "text": "跨地区组织处理的声音包含口音、背景噪声和语言切换，统一识别入口有机会减少针对每种情况搭建系统的工作。需求应以真实业务语料证明，不能由官方语言数量推导每一种语言、说话方式和录音环境都达到同等准确度。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "数据位置需求",
+        "text": "部分组织希望声音留在自己控制的环境，本地部署因此具有独立价值。但数据控制是交付约束而不是识别效果，客户需要同时满足功能、容量与维护要求；若需要的分析仅云端提供，本地方案就不能视为完整替代。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "deploy"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "媒体与服务团队",
+        "text": "字幕、客服和会议应用的开发者都是候选用户，但对错误的敏感点不同。字幕更关注可读时间与断句，客服更关注姓名号码和轮次，研究应按任务定义验收，不能仅以整体词错率决定所有行业是否适用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "企业数据负责人",
+        "text": "数据管理人员可能参与训练折扣和部署选择，因为这不只是采购价格问题，也涉及音频与转写用途。使用团队应理解默认条件与主动加入程序的差异，不能为节约费用就在未经确认的情况下改变敏感语料的处理方式。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "批量与实时",
+        "text": "批量任务先上传文件再取得结果，实时任务边接收声音边返回内容，两者适合不同等待要求。应用应保留可回听位置和纠错途径，尤其是边说边改的文本不能被下游立即当作已确认事实，关键实体需要更明确的检查。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "部署规划",
+        "text": "团队应先列出实际需要的功能，再按官方矩阵选择云、容器或设备路径。Agent STT 仅 SaaS 的限制说明产品名相近也不代表能任意移动部署；部署前还要核资源、升级和支持责任，避免签约后才发现缺少必要能力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "deploy"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "语言与模型",
+        "text": "不同模型可能在多语言切换、字典和标点等方面有不同能力，技术比较应依据选定型号和模式。语音内容识别与语义推断要区分，尤其是医疗术语转写，即使药名更准确也不代表系统可以提供诊断或替临床人员判断。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home",
+          "docs"
+        ]
+      },
+      {
+        "title": "云端功能边界",
+        "text": "官方部署矩阵列出摘要、主题等功能与本地可用性的差异，因此技术架构需要明确哪些数据会离开本地。不能将一个本地转写容器描述成完全离线的全功能语音平台，功能组合的实际数据流才是需要验收的对象。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "deploy"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "识别供应商比较",
+        "text": "其他专业语音服务和开放模型也能提供多语言识别，Speechmatics 需要在客户自己的语音环境中体现价值。比较时要使用相同语料与人工标注，避免各厂商不同演示条件导致错误结论，尤其不能把最高准确宣传当作普遍事实。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "本地替代路径",
+        "text": "开源识别模型可提供灵活本地运行，但需要客户自行管理模型与性能，企业部署则购买商业支持与明确交付。两种方案应比较完整维护和功能缺口，而不是只看是否付许可费；低频任务也未必值得承担本地基础设施投入。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "deploy"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "数据折扣",
+        "text": "官方训练折扣要求主动加入，并说明允许使用音频与转写来改进模型，默认不启用。这个设计把价格与数据条件关联，商业采购必须让合适负责人确认，不能把最低展示价格当作与默认数据保护条件完全相同的报价。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "成本组合",
+        "text": "批量与实时模型、附加功能和企业部署有不同成本，最终应按可用结果及系统维护核算。云服务省去部分运维，本地则可能满足特定控制要求，客户需要验证其价值是否超过采购和运行负担，不能从可部署性直接推出更便宜。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "deploy"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "开发者体验",
+        "text": "清楚的模型、语言和部署文档能减少选择错误，但应用还要把不确定转写展示给终端用户。可回听、时间戳和方便纠错有助于形成可信结果；如果只显示流畅文字而无法找到原音，错误会更难被业务使用者发现。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "验收建议",
+        "text": "建议覆盖多口音、混语、重叠发言和关键号码，分别测批量与实时结果，再按目标部署复测功能。还需验证训练开关、删除与数据路径，国内账号付款与本地商务交付本轮未实测，不从语言列表推出中国大陆服务支持。",
+        "evidence": "validation",
+        "sourceIds": [
+          "plans",
+          "deploy"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "数据处理预期",
+        "text": "默认不用于训练与主动折扣程序具有不同条件，客户必须保持设置和内部授权一致。机会在于可选择的数据与部署路径，风险是费用优化过程中忽视了数据用途变化；官方认证也不能直接证明客户自身应用已经满足全部行业要求。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "持续验证",
+        "text": "后续应跟踪新模型在云和本地的开放差异，并固定业务语料检验更新后的表现。涉及专业术语时要关注关键错误而非仅整体准确率，不能把自动识别当成事实核验或诊疗建议；本篇不推断未公开的客户收益与经营指标。",
+        "evidence": "validation",
+        "sourceIds": [
+          "deploy",
+          "docs"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

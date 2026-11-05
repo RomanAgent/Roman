@@ -1,0 +1,238 @@
+{
+  "id": "weaviate",
+  "name": "Weaviate",
+  "aliases": [
+    "Weaviate Cloud",
+    "Weaviate Database"
+  ],
+  "website": "https://weaviate.io/pricing",
+  "region": "荷兰",
+  "regionNote": "当前官网隐私政策明确 Weaviate B.V. 成立于 Amsterdam, Netherlands 的公司地址；采用所列主体口径，不将云部署地区或美国商业合同混作总部。",
+  "category": "data-infra",
+  "tags": [
+    "向量数据库",
+    "混合检索",
+    "RAG",
+    "托管数据库",
+    "语义搜索"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "开源数据库及托管云有公开入口，云功能、区域与保障依层级；文档已提示 GraphQL 将于 2027-05-01 在云端关闭，旧集成需迁移。",
+  "ownershipNote": "Weaviate 数据库项目和托管云按同一业务研究，不把其集成的嵌入或语言模型提供商视为 Weaviate 子公司。",
+  "summary": "Weaviate 为开发者提供保存数据对象与向量的检索数据库，支持语义和关键词混合搜索，并以托管云减少运行维护，常作为检索增强生成与智能体应用的数据底座而非直接生成所有答案的模型。",
+  "analysisScope": "聚焦开源数据库、托管云、索引与检索集成，不把 RAG 接入等同消除幻觉，也不完整评估全部新代理服务；数据质量、权限、模型依赖和数据库运行成本分别分析。",
+  "sources": [
+    {
+      "id": "docs",
+      "title": "数据库官方概览",
+      "url": "https://docs.weaviate.io/weaviate",
+      "kind": "official-docs",
+      "note": "核对象与向量、混合搜索、RAG 和云服务分工，保留 GraphQL 弃用提示。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "云价格与资源",
+      "url": "https://weaviate.io/pricing",
+      "kind": "official-pricing",
+      "note": "核向量维度、存储、备份与地区差异，云附加 AI 服务按量收费。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "concepts",
+      "title": "架构与索引概念",
+      "url": "https://docs.weaviate.io/weaviate/concepts",
+      "kind": "official-docs",
+      "note": "读取索引、过滤、压缩、分片与复制等能力分类。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "deploy",
+      "title": "部署方式",
+      "url": "https://docs.weaviate.io/deploy",
+      "kind": "official-docs",
+      "note": "区分托管与自行部署，不把云附加服务默认套用于开源本地版本。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-evidence",
+      "title": "Weaviate B.V. 公司主体",
+      "url": "https://weaviate.io/privacy",
+      "kind": "official-company",
+      "note": "当前官网隐私政策明确 Weaviate B.V. 成立于 Amsterdam, Netherlands 的公司地址；采用所列主体口径，不将云部署地区或美国商业合同混作总部。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "weaviate-database-cloud",
+      "name": "Weaviate Database 与 Cloud",
+      "url": "https://docs.weaviate.io/weaviate",
+      "kind": "infrastructure",
+      "stage": "available",
+      "description": "保存数据对象及向量嵌入，提供语义和关键词混合检索，客户可自行部署数据库或使用托管云，再接入模型形成知识查询应用。",
+      "users": "构建知识检索、推荐和检索增强应用的开发及数据团队。",
+      "delivery": "通过开源部署或托管云实例交付，客户导入并索引数据、配置权限和模型集成，云增值服务按具体方案。",
+      "monetization": "自行部署承担计算维护，托管云按向量维度、存储与备份等资源收费，嵌入等附加服务和企业保障另核。",
+      "aiRole": "向量检索通过模型嵌入比较语义，混合关键词和过滤帮助找相关资料；数据库负责存取检索，最终生成答案仍依赖外部或接入模型。",
+      "limits": "检索相关不代表内容真实或权限自动正确，开源与云功能不完全等同；GraphQL 云端弃用已有日期，国内托管采购交付未实测。",
+      "sourceIds": [
+        "docs",
+        "plans",
+        "concepts",
+        "deploy"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "语义查找需求",
+        "text": "企业资料常使用不同词语表达相近概念，单纯关键词搜索可能漏掉相关内容，向量检索提供补充路径。Weaviate 的需求在更有效找到资料，但相关性不等于真实性，数据库无法替团队修正过时文档或互相矛盾的事实。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "运行维护需求",
+        "text": "团队可以自己运行数据库，也可以购买托管减少备份、扩容和升级工作，两类需求应分别分析。若数据量很小且已有数据库足够，自建向量底座可能不必要；是否采购应由检索质量和运维负担证明，而不是追随 RAG 热度。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "deploy"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "应用开发者",
+        "text": "构建知识问答和搜索的开发者需要把数据转换成可检索对象，并决定如何给模型提供上下文。数据库提供基础能力，但切分、嵌入和答案验证仍由应用负责，不能把接入向量数据库等同获得完整正确的企业助手。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "数据平台团队",
+        "text": "负责索引和容量的团队关心数据更新、过滤、复制和资源成本，与终端用户问答体验不同。采购需要让平台与业务共同确定召回和权限要求，不能只用查询速度评价，因为快速返回错误或越权资料仍是失败。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "concepts"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "导入到回答",
+        "text": "通常先整理资料并生成嵌入，保存对象和向量，再检索相关片段交给生成模型。每一步需要记录版本与来源，文档更新后也要同步索引，否则模型可能用旧资料生成流畅答案，数据库可访问不代表知识已经正确维护。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "过滤和更新",
+        "text": "混合搜索与条件过滤帮助限定结果范围，但团队必须定义哪些字段代表用户权限和数据状态。删除或修改资料应同步到向量与对象，不能只更新原文件就认为检索已变化，真正工作流还包括重建索引与回归检查。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "concepts"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "索引取舍",
+        "text": "向量索引、压缩和复制影响召回、内存与延迟，需要根据数据和查询特点选择。技术评测不能只看最大数据量，应在真实过滤条件下测返回质量与速度，因为狭窄权限和复杂筛选可能改变简单样例中的表现。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "concepts"
+        ]
+      },
+      {
+        "title": "模型依赖",
+        "text": "语义检索依赖嵌入模型，最终问答又依赖生成模型，数据库本身并不创造所有智能。更换嵌入可能需要重新处理数据，不能把统一接口理解为模型可无成本替换；RAG 也不会自动消除错误资料、错误引用或生成推断。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "替代数据库",
+        "text": "传统全文搜索、带向量扩展的既有数据库和其他专用向量系统都可满足部分需求。Weaviate 的差异需要在对象管理、混合检索和集成体验上证明，不能先假定专用向量数据库一定比已有系统更适合所有团队。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "云与自托管",
+        "text": "托管云减少部分运维，自行部署保留更多环境控制，两者成本结构不同。比较应包含维护、备份和故障响应，而不是只看软件是否免费；云端新增嵌入和代理服务也不能被视为开源本地版自动包含的能力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "deploy"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "资源费用",
+        "text": "托管价格与向量维度、对象存储和备份相关，嵌入模型服务又有单独用量，因此费用不只是文档条数。客户应按实际向量维数、更新频率与保留策略估算，压缩和地区也影响成本，不能照搬一个示例集群的月价。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "采购价值",
+        "text": "企业为托管、支持和保障付费的理由是减少运行风险和工程投入，不是向量功能天然稀缺。商业评估应观察检索效果和维护成本是否改善，不能从开源流行度或 AI 需求增长直接推算公司的云收入与盈利。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "deploy"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "开发可追溯",
+        "text": "好的检索开发体验应能查看哪些对象和片段被返回、为何未找到目标资料，并便于回到原文。仅展示生成答案会掩盖召回问题，团队需要单独评估检索层，以免把底层数据错误全部归咎于语言模型。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "验收建议",
+        "text": "建议用包含同义词、过期资料和权限差异的真实去敏数据测试召回，再模拟更新删除与故障恢复。还需比较云和目标自部署环境，国内网络、采购和区域托管条件本轮未实测，不以开源可下载推断当地全服务开放。",
+        "evidence": "validation",
+        "sourceIds": [
+          "concepts",
+          "deploy"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "知识与权限",
+        "text": "检索可能返回语义接近但事实错误的资料，也可能在过滤配置不当时暴露超出权限内容。机会是更可靠的知识发现，风险是把数据库接入当成答案可信保证，因此来源、时效与访问规则必须由应用持续管理。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "迁移与生命周期",
+        "text": "当前文档已提示云端 GraphQL 将在明确日期关闭，说明接口生命周期会影响长期系统。后续应提前验证迁移、备份和恢复，保存数据与模型版本，不把旧教程当永久兼容保证，也不从产品功能推导未公开商业成绩。",
+        "evidence": "validation",
+        "sourceIds": [
+          "docs",
+          "plans"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

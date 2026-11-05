@@ -1,0 +1,242 @@
+{
+  "id": "gitlab",
+  "name": "GitLab",
+  "aliases": [
+    "GitLab Duo",
+    "GitLab Orbit"
+  ],
+  "website": "https://about.gitlab.com/",
+  "region": "美国",
+  "regionNote": "按隐私政策Contact Us列示的GitLab Inc美国主体口径归类；同页列荷兰和英国实体，不声称公司只有单一固定总部。",
+  "category": "coding",
+  "tags": [
+    "DevSecOps",
+    "代码审查",
+    "流水线代理",
+    "Duo"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "Duo Agent Platform有试用与产品文档，实际能力取决于GitLab版本、部署形态、管理员开关和额度；Impact Analytics等标为Early access的部分不视为全部正式开放。",
+  "ownershipNote": "GitLab Duo与Orbit属于GitLab产品体系，在同一业务档案内分析，不按代理、上下文图或部署版本重复计算公司。",
+  "checkedAt": "2026-11-05",
+  "summary": "面向软件开发与交付组织，把AI代理放进代码审查、安全检查、流水线和协作管理，利用已有项目上下文推进变更；本条关注仓库端交付流程，区别于仅在编辑器内生成代码的工具。",
+  "products": [
+    {
+      "id": "gitlab-duo",
+      "name": "GitLab Duo Agent Platform",
+      "url": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+      "kind": "platform",
+      "stage": "available",
+      "description": "在GitLab项目内通过代理与流程承接审查、安全和流水线等任务，把代码变更后续步骤组织为可治理的工作链。",
+      "users": "使用GitLab的研发、平台工程、安全和软件交付管理团队。",
+      "delivery": "通过GitLab实例与支持的入口启用，管理员按版本、订阅和组织设置控制访问，具体能力以文档可用性为准。",
+      "monetization": "基础平台方案与GitLab Credits共同构成费用，额度可在组织中共享；赠送额度有活动条件，不当作永久免费承诺。",
+      "aiRole": "代理使用GitLab上下文处理具体任务，流程把多个步骤连接起来；模型推理与既有检查共同工作，不把传统流水线本身都称为AI。",
+      "limits": "需要适用版本、权限与执行资源；预览分析能力和不同部署并不完全一致，代理审查不能替代独立测试或组织规定的人工审批。",
+      "sourceIds": [
+        "product",
+        "pricing",
+        "docs"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "product",
+      "title": "GitLab Duo Agent Platform当前产品页",
+      "url": "https://about.gitlab.com/gitlab-duo-agent-platform/",
+      "kind": "official-product",
+      "note": "已读取仓库端审查、安全、流水线、事件与计划触发、人工检查点及Early access标记。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "pricing",
+      "title": "GitLab当前方案与Credits",
+      "url": "https://about.gitlab.com/pricing/",
+      "kind": "official-pricing",
+      "note": "已读取平台方案、额度附加项、限时赠送及Orbit独立查询包边界。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "docs",
+      "title": "Duo Agent Platform官方文档",
+      "url": "https://docs.gitlab.com/user/duo_agent_platform/",
+      "kind": "official-docs",
+      "note": "已读取代理、流程、会话、可用性、模型与上下文文档入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "availability",
+      "title": "控制Duo平台可用性",
+      "url": "https://docs.gitlab.com/user/duo_agent_platform/turn_on_off/",
+      "kind": "official-docs",
+      "note": "已打开组织控制与能力启停文档，不把产品试用等同所有成员默认有权使用。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-source",
+      "title": "GitLab隐私与联系实体",
+      "url": "https://about.gitlab.com/privacy/",
+      "kind": "official-company",
+      "note": "已核Contact Us美国、荷兰及英国实体边界，来源由协作研究提供。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "分析围绕GitLab Duo在合并请求之后的审查、安全和流水线工作，以及其额度和组织治理；Orbit仅作为关联上下文与单独费用边界说明，不把GitLab全部代码托管和传统自动化都归入生成式AI。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "代码产生之后仍有工作",
+        "text": "生成代码后，组织仍要审查、跑测试、处理安全问题并决定如何发布。Duo面向这些交接步骤，需求价值应看变更是否更顺畅且可信地到达用户，而不是新增多少代理请求；代码生成量增长也可能让后续审查压力更大。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "已有项目资料的复用",
+        "text": "工单、合并请求和流水线已经记录了很多工程背景，使用这些资料可能减少向外部助手重复解释。需要验证的是代理是否引用正确项目与当前状态，尤其旧讨论和已关闭问题不能未经区分就成为当前变更依据。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "docs"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "平台中的多角色协作",
+        "text": "开发者、安全人员和发布负责人都可能接触代理输出，他们关注的验收标准不同。产品应保留原有责任与审批边界，让每类角色能理解建议为何出现，不能为了减少交接而把需要不同专业判断的决定全部合并。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "已有GitLab组织更容易试点",
+        "text": "产品嵌入现有平台可能降低资料接入成本，但对未使用GitLab的团队，迁移仓库和交付流程仍是独立决策。用户研究应区分现有客户追加AI与新客户整体平台选型，不把前者的便利外推到所有组织。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "pricing"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "事件和计划驱动流程",
+        "text": "官方说明可由GitLab事件、计划或现有工具触发工作，并设置人工检查点。研究应测试重复触发、任务冲突和失败恢复，观察自动化是否产生重复请求，不能只验证一次理想事件成功走完流程。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "代理与流程分层",
+        "text": "代理负责特定任务，流程则将多个步骤组织起来。这个区分有助明确哪一步需要模型判断、哪一步应采用确定性规则；配置时应逐段定义输入输出和停止条件，避免长链中一个错误被后续步骤当作确定事实。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "docs"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "上下文不是无限可见",
+        "text": "平台内的项目资料能提供上下文，但权限、版本与连接范围仍限制代理所知。应验证来自不同项目的资料是否正确隔离，以及撤销访问后如何影响已有会话；同一平台中的内容也不能默认全部可被任意代理读取。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs",
+          "availability"
+        ]
+      },
+      {
+        "title": "模型推理与检查证据",
+        "text": "Duo可结合多个模型及工程工具，生成建议和解释的可靠性与实际测试结果不同。技术评估应分别记录模型判断、工具输出和人工结论，尤其安全修复不能仅凭代理解释就认定风险消除，还需独立验证原问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "docs"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "仓库端与编辑器端互补",
+        "text": "编辑器代理主要帮助编写修改，Duo试图继续处理审查与交付阶段。它们可能互补，也可能在审查或任务编排上重叠，比较需要沿完整变更链观察，而不是把所有代码助手按相同聊天体验排列。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "与规则自动化比较",
+        "text": "既有流水线和安全扫描已经能处理很多确定任务，AI应证明它能解决解释、修正或跨步骤协调的实际缺口。若只是把已有报告换一种语言复述，组织未必需要额外代理，应比较行动价值而非报告文本数量。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "docs"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "平台席位与AI用量",
+        "text": "GitLab方案和Credits存在不同费用层，组织需要同时关注席位、执行资源和代理请求。当前包含额度还可能是限时优惠，预算评估应使用实际合同和稳定用量，而不能把活动赠送计作永久的单位经济优势。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing"
+        ]
+      },
+      {
+        "title": "关联上下文的单独采购",
+        "text": "价格页对Orbit查询包有独立购买和额度安排，不能把所有上下文能力都理解为普通Duo额度内自动包含。采购者应逐项列出需要的工作流及相关费用，检查合同到期、超量与不同部署形态下的边界。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "在原有审查位置给出证据",
+        "text": "把建议放到合并请求和流水线中，有助维护者在熟悉界面里复核。体验评价应检查建议是否对应准确文件、检查和状态，并能够区分重复、过期或已解决的问题，避免自动评论过多反而妨碍关键审查。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "开关与可用性要可解释",
+        "text": "管理员控制、版本要求和预览状态会影响成员看到的功能。试点应记录启用过程、权限不足提示及升级依赖，确保使用者知道功能缺失的原因；不能把官网有试用入口理解为所有自托管版本立即可用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "availability",
+          "docs"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "自动化身份与发布责任",
+        "text": "事件触发代理会在用户未持续盯着时执行，因此身份、权限和人工检查点尤为重要。应确认自动化不能因读取不可信工单或代码文本而扩大操作范围，并把生产发布责任留在组织既定的可审计流程中。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "availability"
+        ]
+      },
+      {
+        "title": "以返工和遗漏验证价值",
+        "text": "建议跟踪真实变更的审查往返、错误修复和发布后回退，而不只看代理参与率。若自动化增加了重复评论或掩盖风险，使用增长也不代表价值；预览分析工具中的指标还应与组织自己的工程记录交叉核对。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "pricing"
+        ]
+      }
+    ]
+  }
+}

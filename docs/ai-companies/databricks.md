@@ -1,0 +1,185 @@
+# Databricks
+
+数据与AI工程 · 美国 · 核查 2026-11-05
+
+面向数据与AI团队，把模型连接、代理部署、评估和数据治理放到同一平台，并通过Genie向业务人员提供自然语言分析；核心依赖企业数据语义与权限，不能把自然语言查询视为免去数据准备。
+
+**业务入口：公开产品入口**。平台提供试用、文档和企业采购，Agent Bricks及Genie需相应工作空间、数据和治理配置；不同云与功能状态以对应文档为准。
+
+公司与集团：Databricks将数据平台、AI开发和Genie等产品统一研究，Mosaic AI作为相关产品历史与技术体系名称，不按模型、数据库或代理界面重复计公司。
+
+地区口径：按官方联系页列示Databricks Inc旧金山业务地址归类；数据驻留与云服务地区须另按实际部署确认。
+
+[公司官网](<https://www.databricks.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/databricks)
+
+## 重点产品
+
+### Agent Bricks与代理开发平台
+
+平台 · 已公开提供
+
+围绕企业数据构建、运行和治理AI代理，连接模型、工具、记忆与评估，支持团队把原型逐步推进到受控服务。
+
+目标用户：企业AI开发者、数据工程师、平台和治理团队。
+
+AI作用：代理利用企业表结构、业务定义及工具选择模型和数据，结合评估与治理；模型评判器辅助质量检查，但不能替代独立参考与人工评价。
+
+使用与交付：在Databricks工作空间中接入数据和模型，配置代理运行、工具与权限；不同云端产品可用性需按文档核对。
+
+收费形式：平台主要按实际使用产品与资源计费，并可签使用承诺合同；模型、计算和存储等成本需按具体工作负载核算。
+
+产品边界：数据语义、权限和模型地区条件影响交付，自动评估可能存在偏差；不能把统一治理或可切换模型宣传当作无迁移成本和绝对正确保证。
+
+[产品入口](<https://www.databricks.com/product/artificial-intelligence/agent-bricks>) · [Databricks AI平台概览](<https://www.databricks.com/product/artificial-intelligence>) · [Agent Bricks当前产品](<https://www.databricks.com/product/artificial-intelligence/agent-bricks>) · [Databricks代理开发文档](<https://docs.databricks.com/aws/en/agents>) · [Databricks使用计费](<https://www.databricks.com/product/pricing>)
+
+### Genie Agents
+
+应用 · 已公开提供
+
+由领域人员整理业务语义和示例，为业务团队提供自然语言数据问答及相关行动，帮助在受控范围内理解组织数据。
+
+目标用户：需要自助分析的业务人员，以及负责定义数据口径的领域专家。
+
+AI作用：模型将业务问题映射到受治理数据和工具，领域说明与示例查询帮助约束口径；输出仍需核对统计范围、联接和时间定义。
+
+使用与交付：在已有数据和Unity Catalog治理基础上建立领域代理，配置说明与示例，再向获授权成员提供访问。
+
+收费形式：随平台相关能力和使用资源计算成本，具体方案与工作空间条件需确认，不将自然语言界面解释为查询和计算完全免费。
+
+产品边界：自然语言含糊时可能选择错误指标，即使查询语法有效也可能答错业务问题；需要领域专家持续整理语义与典型问题，不能完全替代分析人员。
+
+[产品入口](<https://www.databricks.com/product/genie/agents>) · [Genie领域业务代理](<https://www.databricks.com/product/genie/agents>) · [Databricks使用计费](<https://www.databricks.com/product/pricing>)
+
+## 八维产品分析
+
+分析分别围绕Agent Bricks服务AI构建者、Genie服务业务分析使用者的路径，并讨论共同数据治理和资源计费；不覆盖Databricks全部数据工程产品，也不把所有云与预览功能视为一致交付。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 从AI原型到持续服务 · 研究判断
+
+企业团队能做出代理演示后，还要处理模型接入、运行、评估和权限。Agent Bricks对应的是这些生产准备工作，价值应看是否减少重复搭建并提高可维护性，而不是把原型部署成功当作已经满足长期业务要求。
+
+依据：[Agent Bricks当前产品](<https://www.databricks.com/product/artificial-intelligence/agent-bricks>) · [Databricks代理开发文档](<https://docs.databricks.com/aws/en/agents>)
+
+### 业务人员需要正确数据口径 · 研究判断
+
+Genie试图让业务人员用自然语言获取分析，但真正难点常是指标定义、时间范围和数据联接。需求验证应检查使用者是否获得可以行动的答案，并能识别口径差异，不能只以不写查询语言作为成功标准。
+
+依据：[Genie领域业务代理](<https://www.databricks.com/product/genie/agents>)
+
+## 目标用户
+
+### 开发者与治理团队 · 研究判断
+
+代理开发者希望快速试模型和工具，治理团队则关注数据访问、责任与成本。平台应让二者协作，而不是把治理放到原型完成以后；试点需要同时测试开发体验与管理员控制，避免只由技术爱好者评价。
+
+依据：[Agent Bricks当前产品](<https://www.databricks.com/product/artificial-intelligence/agent-bricks>)
+
+### 领域专家不可省略 · 研究判断
+
+Genie依赖专家整理说明和示例，业务用户并非面对一个天然理解公司所有指标的系统。研究应观察专家维护语义所需投入，以及普通用户遇到不确定问题时能否求助，不能把自然语言界面当作取消分析职责的理由。
+
+依据：[Genie领域业务代理](<https://www.databricks.com/product/genie/agents>)
+
+## 产品与工作流
+
+### 代理开发的完整链条 · 研究判断
+
+文档覆盖模型、工具、记忆、运行和观察，说明工作流包含多个可独立失败的环节。验证应保留版本、输入与调用记录，检查从本地实验到托管服务的变化，避免开发环境中的临时权限被无意带入正式运行。
+
+依据：[Databricks代理开发文档](<https://docs.databricks.com/aws/en/agents>)
+
+### 领域问答先设范围 · 研究判断
+
+Genie由领域人员限定数据和业务含义，适合围绕清楚范围逐步开放。应把常见问题和错误问法都纳入测试，观察系统何时澄清而非猜测，并在数据或口径变化后更新示例，不能只保存首次成功查询。
+
+依据：[Genie领域业务代理](<https://www.databricks.com/product/genie/agents>)
+
+## AI技术与依赖
+
+### 治理数据与模型结合 · 研究判断
+
+Agent Bricks强调利用表结构、业务定义和工具来支持代理，模型性能只是系统的一部分。技术比较应分开看检索、表选择、联接与最终解释，尤其数据权限正确并不意味着统计逻辑正确，需要独立业务参考。
+
+依据：[Agent Bricks当前产品](<https://www.databricks.com/product/artificial-intelligence/agent-bricks>) · [Genie领域业务代理](<https://www.databricks.com/product/genie/agents>)
+
+### 评估器不是最终真值 · 研究判断
+
+平台提供模型辅助评估和生产观察，有助快速发现问题，但评判器也可能与生成模型共享偏差。应加入人工标注、确定性检查和真实反馈，区分语言质量与任务完成，不能仅靠自动评分提升证明业务风险降低。
+
+依据：[Databricks AI平台概览](<https://www.databricks.com/product/artificial-intelligence>) · [Databricks代理开发文档](<https://docs.databricks.com/aws/en/agents>)
+
+## 竞争与替代
+
+### 与云AI服务组合比较 · 研究判断
+
+替代方案包括不同云的数据平台、模型服务与自建代理工具链。Databricks的差异在共同数据治理与开发运行衔接，是否合适取决于已有数据位置和团队技能；平台统一不一定比简单工作负载的轻量组合更经济。
+
+依据：[Databricks AI平台概览](<https://www.databricks.com/product/artificial-intelligence>) · [Agent Bricks当前产品](<https://www.databricks.com/product/artificial-intelligence/agent-bricks>)
+
+### 与传统商业分析比较 · 研究判断
+
+报表和人工分析在固定指标上仍有清楚价值，Genie更适合临时追问和自助探索。比较应验证同一业务问题的口径、可复现性和解释，不应因为输出由聊天产生就认为更灵活，也不应将固定报表全部替换。
+
+依据：[Genie领域业务代理](<https://www.databricks.com/product/genie/agents>)
+
+## 商业模式
+
+### 按使用计费要看完整负载 · 研究判断
+
+模型、代理运行、数据查询和存储可能共同产生费用，平台公开按使用付费并提供承诺合同。预算应基于真实请求、重试与数据规模测试，不能只看一次模型调用单价，也不应把空闲或失败消耗忽略。
+
+依据：[Databricks使用计费](<https://www.databricks.com/product/pricing>) · [Databricks代理开发文档](<https://docs.databricks.com/aws/en/agents>)
+
+### 共同数据底座的经济性 · 研究判断
+
+已有Databricks数据的组织可能复用治理和接入，新客户则要考虑迁移与培训。商业评估应把这两类情况分开，并观察平台是否减少重复基础设施；本研究未获取客户成本数据，不推算统一节省比例。
+
+依据：[Databricks AI平台概览](<https://www.databricks.com/product/artificial-intelligence>) · [Databricks使用计费](<https://www.databricks.com/product/pricing>)
+
+## 体验与交付
+
+### 让业务用户看见分析依据 · 研究判断
+
+Genie答案应帮助用户理解用了哪些数据、时间和指标，尤其需要能发现问题含糊时的假设。体验测试应让领域专家和普通用户共同核对，避免一方只看查询是否执行，另一方只看文字是否易懂。
+
+依据：[Genie领域业务代理](<https://www.databricks.com/product/genie/agents>)
+
+### 开发体验中的故障定位 · 研究判断
+
+代理可能在工具、模型或运行环境任一环节失败，开发者需要从观察记录定位原因。应测试超时、权限不足和数据变化，检查恢复与重跑是否清楚，不能只以部署步骤少判断平台容易长期维护。
+
+依据：[Databricks代理开发文档](<https://docs.databricks.com/aws/en/agents>)
+
+## 风险与机会
+
+### 统一权限仍需限制工具行动 · 研究判断
+
+代理访问受治理数据并不自动意味着可以执行任意后续操作，外部工具和长期记忆也有独立边界。机会在把工具权限、身份和数据流一起观察，让团队能追踪结果来源，而不是仅统计模型调用。
+
+依据：[Agent Bricks当前产品](<https://www.databricks.com/product/artificial-intelligence/agent-bricks>) · [Databricks代理开发文档](<https://docs.databricks.com/aws/en/agents>)
+
+### 持续验证语义和成本 · 研究判断
+
+数据和业务定义变化会影响回答，模型更新也会改变质量与消耗。建议维护代表性问题和失败案例，定期核对结果、权限及账单，不能让一次试点通过永久代替监测，更不能用模型评分预测组织采用成功。
+
+依据：[Genie领域业务代理](<https://www.databricks.com/product/genie/agents>) · [Databricks使用计费](<https://www.databricks.com/product/pricing>)
+
+## 资料来源
+
+- [Databricks AI平台概览](<https://www.databricks.com/product/artificial-intelligence>) — 已读取代理开发、评估和治理，不将AI评判器等同客观真值。（核查 2026-11-05）
+
+- [Agent Bricks当前产品](<https://www.databricks.com/product/artificial-intelligence/agent-bricks>) — 已读取企业语义、模型选择和全栈治理，避免照抄唯一和无缝切换宣传。（核查 2026-11-05）
+
+- [Databricks代理开发文档](<https://docs.databricks.com/aws/en/agents>) — 已读取模型连接、记忆、MCP、运行、沙箱和观察；此文档为AWS路径，其他云不能直接外推。（核查 2026-11-05）
+
+- [Genie领域业务代理](<https://www.databricks.com/product/genie/agents>) — 已读取专家说明、示例查询及Unity Catalog治理。（核查 2026-11-05）
+
+- [Databricks使用计费](<https://www.databricks.com/product/pricing>) — 已读取按使用付费和承诺使用合同，不编造具体工作负载账单。（核查 2026-11-05）
+
+- [Databricks公开公司联系页](<https://www.databricks.com/company/contact>) — 页脚列Databricks Inc旧金山地址，用于地区口径。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

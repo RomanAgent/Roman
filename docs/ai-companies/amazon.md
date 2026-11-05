@@ -1,0 +1,163 @@
+# Amazon / AWS
+
+综合平台与云AI · 美国 · 核查 2026-11-05
+
+Amazon通过AWS把自有Nova与外部模型纳入企业云开发流程，帮助团队在现有云环境中构建生成式应用；重点是模型访问、运行与费用管理，不是面向所有消费者的统一聊天订阅。
+
+**业务入口：公开产品入口**。Bedrock公开文档提供模型调用入口和定价，Nova有独立版本文档；部分模型需额外批准，提供商列表不能等同全部账户即时可用。
+
+公司与集团：Amazon、AWS、Bedrock与自有Nova模型归在同一档案；Bedrock承载的其他厂商模型保持独立公司归属，不把合作当收购。
+
+地区口径：以Amazon与AWS集团业务口径归入美国；模型可用区、跨区推理与中国区服务须单独核查。
+
+[公司官网](<https://aws.amazon.com/bedrock/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/amazon)
+
+## 重点产品
+
+### Amazon Bedrock 与 Nova 模型组合
+
+平台 · 已公开提供
+
+通过AWS托管服务访问Amazon自有Nova及合作模型，开发团队可以在统一云工作流中构建文本、多模态和代理应用，并按实际模型选择接口。
+
+目标用户：已经使用云资源或需要企业模型服务的软件与平台团队。
+
+AI作用：基础模型执行理解、生成与工具相关任务，Bedrock负责托管访问；Nova是自有模型族，外部模型仍有各自能力和使用限制。
+
+使用与交付：以AWS账户、区域端点、API和配套文档交付，模型访问权限与部署区域需要逐项确认。
+
+收费形式：根据模型和调用方式按用量收费，另有批处理及不同服务层；定制、预留或配套资源费用不能一概视为包含。
+
+产品边界：同平台不代表模型行为、价格、许可和区域一致；跨区推理、受限模型审批及版本退役都可能影响应用，不能用旧Nova文档替代当前核验。
+
+[产品入口](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>) · [Amazon Nova旧版概览与迁移提示](<https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html>) · [Amazon Nova 2更新文档](<https://docs.aws.amazon.com/nova/latest/nova2-userguide/whats-new.html>)
+
+## 八维产品分析
+
+以Amazon Bedrock与Nova模型组合为研究范围，分析企业从选择模型到调用、评估和持续运行的流程；不覆盖电商推荐、Alexa或全部AWS数据与计算产品。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 事实｜企业以托管接口访问多家模型 · 官方资料
+
+Bedrock把Amazon及外部提供商的模型放到托管调用体系中，面向构建生成式应用的团队。它不是把所有模型合成一个固定能力的助手，而是提供选择和运行入口；不同提供商及调用方式仍有差异，客户需围绕自己的应用决定使用哪一部分。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>)
+
+### 判断｜减少独立采购接口可能有价值 · 研究判断
+
+需求假设是企业希望在已有云账户和开发流程中试验多个模型，减少分别接入服务的管理负担。价值取决于所需模型是否在目标区域开放、团队是否熟悉AWS，以及切换后是否仍需大量改造；多模型数量本身不能证明更容易交付业务成果。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>)
+
+## 目标用户
+
+### 事实｜入口面向具备开发能力的组织 · 官方资料
+
+官方使用说明围绕API、账户认证和模型调用展开，Nova也通过Bedrock提供相关访问。最终用户通常使用团队构建的应用，而不是直接消费模型目录；因此本条以企业和开发者为主要用户，不把云平台的公开注册入口当作普通消费者成品。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Nova旧版概览与迁移提示](<https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html>)
+
+### 验证｜区分应用开发和平台管理需求 · 待验证
+
+可以分别访谈写业务功能的工程师和负责账户、成本及安全的平台人员，了解模型试验到上线的交接。一个角色能够调用成功不代表另一个角色已能管理持续支出；项目还应确定谁维护评测、谁批准模型变更，以及谁承担最终业务结果的验收。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>)
+
+## 产品与工作流
+
+### 事实｜不同API形态需要匹配应用 · 官方资料
+
+当前概览展示Converse、Invoke及兼容的消息或响应式接口路径，开发者应选择符合目标模型和应用的方式。统一服务名称不表示所有请求结构与特性完全可互换；已有应用迁移时仍需检查工具调用、流式返回和错误处理，而不是只替换模型名称。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>)
+
+### 判断｜应用闭环比模型目录更重要 · 研究判断
+
+企业项目最终还要连接业务资料、输出格式和执行系统，托管推理只是其中一层。若输入整理或结果确认仍依赖大量手工，换用平台不会自动完成数字化；产品研究应沿真实订单、文档或客服任务观察整个流程，避免只比较控制台里能否生成一段文字。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Nova 2更新文档](<https://docs.aws.amazon.com/nova/latest/nova2-userguide/whats-new.html>)
+
+## AI技术与依赖
+
+### 事实｜Nova产品族存在版本文档边界 · 官方资料
+
+本轮打开的Nova概览明确标为第一代并提示已有Nova2，说明历史说明仍可访问却不一定代表当前推荐配置。目录用模型族描述理解、生成及语音等方向，不把一代某个型号的区域、语言或能力扩展到全部版本，具体选型须回到对应模型文档。
+
+依据：[Amazon Nova旧版概览与迁移提示](<https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html>) · [Amazon Nova 2更新文档](<https://docs.aws.amazon.com/nova/latest/nova2-userguide/whats-new.html>)
+
+### 验证｜按模型分别建立任务评测 · 待验证
+
+应在固定输入和验收标准下记录不同模型的正确性、延迟、失败和成本，再决定路由。兼容接口可降低部分集成工作，却不能消除输出风格和工具行为差异；受限或预览模型还要检查生产资格，不能因目录有名字便直接把它写进稳定服务承诺。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>)
+
+## 竞争与替代
+
+### 判断｜主要替代路径是直连与自托管 · 研究判断
+
+客户可以直接接入模型厂商，也可部署开放权重模型，Bedrock的意义在于云端管理和多模型采购路径。选择取决于数据边界、团队运维能力和所需特性；若平台尚未提供目标功能，统一入口也可能成为约束，不能以平台规模替代具体架构判断。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>)
+
+### 验证｜把迁移工作和运行成本一起比较 · 待验证
+
+同一业务样本可比较直连、托管平台和自部署的实现步骤，记录认证、日志、模型替换及维护工作。模型调用单价较低未必意味着总成本更低，尤其在重复检索、失败重试或额外云资源较多时；本研究没有开展真实云负载或吞吐测试。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>)
+
+## 商业模式
+
+### 事实｜价格依模型与推理方式分别计算 · 官方资料
+
+官方收费页区分按需、批处理及不同服务层，也列出模型定制等相关收费路径。不同模态可能使用不同计量单位，部分预留能力需要联系账户团队；因此不能把某一项文本价格作为Bedrock统一价格，也不应把云资源和业务开发成本从预算中省略。
+
+依据：[Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>)
+
+### 判断｜采购便利不应掩盖持续用量 · 研究判断
+
+企业可能偏好把AI费用纳入现有云管理，但代理任务会产生多轮推理和工具步骤，任务增长未必与用户数量线性对应。成本评估适合按成功完成的业务工作计量，并观察高峰与异常重试；本目录不据价格折扣推定客户节约比例或供应商盈利状况。
+
+依据：[Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>) · [Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>)
+
+## 体验与交付
+
+### 事实｜公开文档和生产可用性需要分开 · 官方资料
+
+模型目录和示例有助于快速开始，但价格页对部分模型明确存在受限访问，区域及推理路径也有区别。云账户能登录并不意味着所需模型已经获准；应用体验应记录实际区域、版本和配置，不能把全球官网内容直接当作中国区完整服务清单。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>)
+
+### 验证｜观察故障和模型切换时的体验 · 待验证
+
+开发团队应测试额度不足、模型不可用和版本变化时，应用能否给出可理解的状态并保持资料一致。若需要备用模型，还要检查输出格式和行为是否可替换；用户面对的是最终应用而非云平台，底层错误不应未经处理地变成难以理解的服务中断。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Nova 2更新文档](<https://docs.aws.amazon.com/nova/latest/nova2-userguide/whats-new.html>)
+
+## 风险与机会
+
+### 判断｜创业机会在行业工作流而非目录转售 · 研究判断
+
+围绕特定行业建立输入整理、模型评测、权限和输出验收，可能比再包装一个多模型列表更有区分度。平台能减少部分基础接入工作，但不能提供每家客户的业务判断；是否存在可持续需求，要通过真实工作频率和购买者责任验证，而非按模型数量推算市场。
+
+依据：[Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) · [Amazon Nova旧版概览与迁移提示](<https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html>)
+
+### 验证｜持续检查区域、条款与模型生命周期 · 待验证
+
+上线后应跟踪版本更新、访问批准、跨区处理及收费变化，避免旧文档成为未经复核的产品承诺。数据治理与业务操作还要由应用团队完成，平台托管不取消这些责任；本条只核公开资料，没有创建资源、调用付费模型或上传企业数据。
+
+依据：[Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>) · [Amazon Nova 2更新文档](<https://docs.aws.amazon.com/nova/latest/nova2-userguide/whats-new.html>)
+
+## 资料来源
+
+- [Amazon Bedrock开发概览](<https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html>) — 已打开托管多模型服务及不同API调用入口，不能把示例模型版本当全部可用清单。（核查 2026-11-05）
+
+- [Amazon Bedrock收费说明](<https://aws.amazon.com/bedrock/pricing/>) — 已打开按需、批处理、服务层与不同模型计费；部分模型有受限访问说明。（核查 2026-11-05）
+
+- [Amazon Nova旧版概览与迁移提示](<https://docs.aws.amazon.com/nova/latest/userguide/what-is-nova.html>) — 已打开页面明确自身是Nova一代文档并指向Nova2；不把旧规格当全部当前模型。（核查 2026-11-05）
+
+- [Amazon Nova 2更新文档](<https://docs.aws.amazon.com/nova/latest/nova2-userguide/whats-new.html>) — 已打开当前第二代更新入口；本条采用产品族概览，不逐个枚举最新模型变体。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

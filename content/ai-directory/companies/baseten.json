@@ -1,0 +1,236 @@
+{
+  "id": "baseten",
+  "name": "Baseten",
+  "aliases": [
+    "Baseten Model APIs"
+  ],
+  "website": "https://docs.baseten.co/overview",
+  "region": "美国",
+  "regionNote": "浏览器实际读取2026年9月 DPA，Baseten Labs, Inc. 为 Delaware corporation 且列 San Francisco 办公地址；采用注册主体和公司联系口径，不宣称另行核定总部。",
+  "category": "compute",
+  "tags": [
+    "模型部署",
+    "专用推理",
+    "模型API",
+    "训练",
+    "混合托管"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "Model APIs 和部署文档有公开入口，单租户、自托管和混合方案需商务确认；控制平面仍由 Baseten 运行，不当成完全离线软件。",
+  "ownershipNote": "Baseten 是模型运行与训练平台，托管目录和客户私有检查点不等于其自研模型，按平台公司统一收录。",
+  "summary": "Baseten 为开发与模型团队提供托管模型接口、自定义模型部署和训练运行环境，管理容器、GPU 容量、扩缩容与可观测性，帮助客户将模型和检查点变成可持续调用的生产服务。",
+  "analysisScope": "聚焦 Model APIs、专用推理与托管选择，不完整评估其网关、沙箱或所有训练算法；清楚区分按 token 调用和按运行时间计费，以及自托管工作负载与供应商控制平面。",
+  "sources": [
+    {
+      "id": "docs",
+      "title": "Baseten 产品概览",
+      "url": "https://docs.baseten.co/overview",
+      "kind": "official-docs",
+      "note": "读取托管模型、自定义部署、训练和运维架构。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "api-pricing",
+      "title": "模型接口计费与限流",
+      "url": "https://docs.baseten.co/inference/model-apis/pricing-and-limits",
+      "kind": "official-pricing",
+      "note": "核输入输出 token、缓存、限流和预算只覆盖特定服务。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "billing",
+      "title": "资源账单说明",
+      "url": "https://docs.baseten.co/organization/billing",
+      "kind": "official-pricing",
+      "note": "核构建、冷启动、温热副本与训练运行计费，缩至零的取舍。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "hosting",
+      "title": "托管方式比较",
+      "url": "https://docs.baseten.co/hosting-options/overview",
+      "kind": "official-docs",
+      "note": "控制平面各方案均由 Baseten 运行，工作负载可多租户、单租户或客户云。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-evidence",
+      "title": "Baseten DPA 与主体地址",
+      "url": "https://www.baseten.co/dpa",
+      "kind": "official-company",
+      "note": "网页提取器仅显示脚本提示，已在 Chrome 实际读取 DPA 开头的 Delaware 主体及 San Francisco 办公地址。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "baseten-model-platform",
+      "name": "Baseten Model APIs 与专用部署",
+      "url": "https://docs.baseten.co/overview",
+      "kind": "infrastructure",
+      "stage": "available",
+      "description": "提供可直接调用的托管模型，以及自定义模型与训练检查点的专用部署路径，平台负责容器、资源调度和运行观察，客户控制模型及应用。",
+      "users": "需要部署自有模型或稳定生产推理的工程和模型团队。",
+      "delivery": "通过云账号、接口与部署工具交付，按配置选择资源和环境；客户云工作负载方案仍有供应商控制平面及共享责任。",
+      "monetization": "托管 Model APIs 按输入输出 token 计费，专用副本、构建和训练按运行资源时间计费，企业托管条件另议。",
+      "aiRole": "平台运行并优化所选模型与训练任务，提供扩缩容和监控；智能能力来自模型和客户数据，部署成功不保证回答质量或业务正确性。",
+      "limits": "冷启动和保温副本可能计费，模型 API 预算不覆盖全部专用训练费用；自托管不等于控制平面离线，中国大陆商务交付未实测。",
+      "sourceIds": [
+        "docs",
+        "api-pricing",
+        "billing",
+        "hosting"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "模型落地工作",
+        "text": "模型团队从实验走向生产时需要处理容器、资源、发布和监控，Baseten 把这些工作组织成服务。需求不只是获得 GPU，而是减少持续运维负担；如果客户只需要标准模型的一次调用，专用部署可能增加不必要复杂度。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "不同控制要求",
+        "text": "某些企业需要工作负载留在自己的云账号或隔离网络，托管选择因此具有独立价值。实际需求应明确是数据位置、网络隔离还是资源所有权，不能把这些不同要求都概括成私有化，更不能默认控制平面也由客户运行。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "hosting"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "应用团队",
+        "text": "应用开发者可以从 Model APIs 开始，不必立即部署模型，适合先验证任务。其主要工作仍包括输出校验、用户权限和失败恢复，平台管理硬件不等于完成业务产品，不能把接口兼容性当作全部模型行为一致的保证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "模型工程团队",
+        "text": "拥有私有检查点或特殊前后处理的团队需要更强部署控制，适合专用模型路径。他们关注依赖、版本和扩缩容，同时要能配合运行维护；采购应根据实际控制需求，不宜仅为拥有独立端点而承担额外资源成本。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "hosting"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "部署生命周期",
+        "text": "用户配置模型、依赖和资源后构建并部署，经过测试再把版本推向生产，运行中观察日志和指标。这个流程需要可回滚环境与固定样本，不能把容器构建成功当作最终模型质量合格，也不能省略真实请求验证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "控制与工作负载",
+        "text": "官方将编排控制平面和推理工作负载分开，自托管主要改变后者的位置与责任。企业架构应记录哪些元数据和操作仍依赖服务商，以及谁采购容量和维护网络，不能仅凭自托管名称推断所有数据和控制都留在本地。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "hosting"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "推理工程",
+        "text": "不同模型架构和推理引擎需要不同优化，平台可以减少手动配置但不会消除质量取舍。技术测试应同时看吞吐、延迟和输出精度，特别是定制前后处理与流式输出，不能只用平均响应快慢决定生产适用性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "缓存与限流",
+        "text": "文档区分缓存计费和限流，缓存命中并不意味着不占请求容量，相关会话标识也不保证一定复用。应用应监控真实命中与错误状态，不能把缓存折扣作为固定预算前提，也要处理未超限但容量暂不足的情况。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "api-pricing"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "托管接口替代",
+        "text": "模型原厂和其他推理平台也能提供直接调用，Baseten 的差异需要体现在从标准 API 到自有部署的连续性。若客户不需要定制，简单接口可能已经足够；若要运行私有模型，则应比较依赖支持与运维工具。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "自建部署替代",
+        "text": "企业可自行在云上运行模型，获得更完整控制但承担容量与升级责任。Baseten 的价值应由减少的工程工作和可预测服务证明，不能把托管自动描述成总成本更低，客户已有基础设施能力会改变这个取舍。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "hosting"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "计费生命周期",
+        "text": "构建、冷启动、温热副本和训练都可能计费，缩到零能减少空闲资源但带来下一次加载等待。预算应按真实运行过程而不是只计算成功请求，失败重跑和复杂依赖构建也可能产生费用，必须在试点中测量。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "billing"
+        ]
+      },
+      {
+        "title": "预算控制边界",
+        "text": "Model APIs 的 token 账单与专用资源不同，文档明确预算执行不覆盖全部专用推理和训练。企业应分别设置资源管理和告警，不能以为一个接口预算上限保护了整个工作空间费用，也不应将共享接口单价套用于自建模型。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "api-pricing"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "故障可观察",
+        "text": "日志、指标和版本环境让团队能定位错误来自模型还是运行资源，是专业平台的重要体验。若只提供一个最终失败状态，团队仍需大量外部排查；应测试升级、回滚和中断后恢复，而不是仅看第一次部署步骤有多少。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "验收建议",
+        "text": "建议用真实依赖和固定任务测试构建、冷启动、持续负载与缩零，再检查账单是否符合预期。客户云方案另需核控制平面与网络责任，国内账号付款和部署商务条件本轮未实测，没有运行真实客户模型或生产数据。",
+        "evidence": "validation",
+        "sourceIds": [
+          "billing",
+          "hosting"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "边界误解",
+        "text": "自托管一词容易让采购者误以为完全独立运行，官方实际上保留供应商控制平面。机会是灵活放置工作负载，风险是架构设计与真实责任不符，因此应在合同和技术验收中明确连接、元数据与运维安排。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "hosting"
+        ]
+      },
+      {
+        "title": "持续验证",
+        "text": "后续应跟踪模型 API 下架、预算及部署条件变化，用固定样本复测输出和性能。平台认证不能自动证明客户应用合规，模型许可也需独立核对，不从推理优化宣传、GPU 资源或客户标志推断稳定盈利与普遍需求。",
+        "evidence": "validation",
+        "sourceIds": [
+          "docs",
+          "api-pricing"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

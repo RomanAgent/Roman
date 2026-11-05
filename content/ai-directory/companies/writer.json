@@ -1,0 +1,248 @@
+{
+  "id": "writer",
+  "name": "WRITER",
+  "aliases": [
+    "WRITER Agent",
+    "Palmyra"
+  ],
+  "website": "https://writer.com/",
+  "region": "美国",
+  "regionNote": "按官方隐私页所列WRITER Inc旧金山美国邮寄联系地址口径归类，欧洲代表地址不等同公司总部。",
+  "category": "enterprise",
+  "tags": [
+    "企业代理",
+    "Playbooks",
+    "品牌知识",
+    "团队记忆"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "当前有Starter限时试用与企业销售入口，完整知识图、编排和治理按企业方案提供；试用不代表永久免费或全部功能无条件开放。",
+  "ownershipNote": "WRITER Agent、Enterprise Brain、Control Center与自有模型研究属于同一公司产品体系，本条不按模型版本和部门模板重复计算公司。",
+  "checkedAt": "2026-11-05",
+  "summary": "面向企业团队，把品牌知识、客户信号与重复任务组织为可共享代理流程，生成文档、表格等工作成果并连接业务工具；当前重点超出写作校对，涉及团队记忆、批准与行动管理。",
+  "products": [
+    {
+      "id": "writer-agent",
+      "name": "WRITER Agent、Playbooks与Enterprise Brain",
+      "url": "https://writer.com/product/writer-agent/",
+      "kind": "platform",
+      "stage": "available",
+      "description": "围绕目标规划并执行跨数据和工具的工作，把可重复流程整理为Playbooks，并利用团队知识与标准辅助形成交付物。",
+      "users": "营销、销售及其他需要重复资料工作与品牌一致性的企业团队。",
+      "delivery": "通过组织账户、连接器和共享工作流使用，企业方案提供更完整的编排、审批和管理控制，需配置资料范围。",
+      "monetization": "当前Starter为限时试用并限制用户与Playbooks，企业方案通过销售确认范围；不引用历史写作工具单价替代当前代理平台费用。",
+      "aiRole": "模型在企业上下文和工具之间规划任务，Enterprise Brain组织团队记忆和标准，代理可在需要时请求输入；模型版本与执行权限按配置确认。",
+      "limits": "从样本推断的品牌或合规标准可能不完整，记忆也会过时；代理生成完整资产的宣传不意味着可免审直接发布或自动满足法律要求。",
+      "sourceIds": [
+        "product",
+        "agent",
+        "brain",
+        "pricing"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "product",
+      "title": "WRITER当前平台定位",
+      "url": "https://writer.com/",
+      "kind": "official-product",
+      "note": "已读取企业增长、客户旅程与试用入口，不将宣传成效视为本研究结论。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "agent",
+      "title": "WRITER Agent工作流",
+      "url": "https://writer.com/product/writer-agent/",
+      "kind": "official-product",
+      "note": "已读取目标规划、执行中求助、交付物、Playbooks、会议和权限控制。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "brain",
+      "title": "Enterprise Brain上下文与标准",
+      "url": "https://writer.com/product/enterprise-brain/",
+      "kind": "official-product",
+      "note": "已读取Agent Memory及从资料提取公司标准；自动合规表述按厂商宣称处理。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "pricing",
+      "title": "WRITER当前计划",
+      "url": "https://writer.com/plans/",
+      "kind": "official-pricing",
+      "note": "已读取Starter限时试用、用户和Playbook限制，以及Enterprise的知识图和治理范围。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "research",
+      "title": "WRITER模型与评估研究目录",
+      "url": "https://writer.com/research/",
+      "kind": "official-company",
+      "note": "已读取自有模型与代理评估研究目录；不据目录推定每个当前任务所用模型。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-source",
+      "title": "WRITER隐私联系地址",
+      "url": "https://writer.com/legal/privacy/",
+      "kind": "official-company",
+      "note": "已读取Contact Information的111 Maiden Lane, San Francisco USA。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "分析范围是WRITER Agent将企业资料转为跨工具任务、Playbooks和交付物，以及Enterprise Brain的记忆与标准管理；不覆盖所有模型研究，也不把营销演示中的增长与时间节省当成真实客户的必然结果。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "重复活动需要稳定流程",
+        "text": "营销和销售团队经常从客户反馈、资料与品牌要求出发制作不同内容，单次提示容易重复解释规则。Playbooks对应的需求是把过程和输入结构保存下来，但应验证它是否适合任务变化，而不是只把旧提示包装成模板。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent"
+        ]
+      },
+      {
+        "title": "资料转为行动的间隙",
+        "text": "客户信号进入数据系统后，仍需要选择主题、形成材料并安排后续工作。WRITER尝试连接这段流程，价值要看信息是否准确转成行动；若原数据有偏差，自动化可能更快放大错误，不能把增长目标当作交付效果。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "brain"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "内容与业务流程负责人",
+        "text": "实际用户不仅是文案作者，还包括决定活动目标、审核品牌内容和管理工具权限的人。产品研究应观察他们是否共享同一套任务定义，避免代理生成大量资产后，审核者还要重新解释为什么这些内容不适合当前业务。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent"
+        ]
+      },
+      {
+        "title": "团队标准的维护者",
+        "text": "Enterprise Brain需要有人判断记忆和标准是否正确、是否过时，不能把它当作自动形成的公司权威。适合试点的组织应能指定资料负责人，观察不同部门的标准冲突如何解决，而不只是让使用者上传更多样本。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "brain"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "从目标反推步骤",
+        "text": "Agent官方描述从目标规划步骤、执行并在需要时请求输入。验证应检查计划是否包含必要的资料确认和批准点，尤其跨系统任务不能只追求端到端完成；用户应能够改变目标或停止错误路径，并理解已执行的部分。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent"
+        ]
+      },
+      {
+        "title": "共享Playbook后的复用",
+        "text": "把一次成功任务保存为Playbook可以减少重复配置，但复用需要定义输入、适用范围和版本。研究应测试新活动、不同数据与异常条件下的表现，避免团队把模板成功经历当作后续任务无需审查的理由。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent",
+          "pricing"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "记忆改善也可能固化错误",
+        "text": "Enterprise Brain尝试保存决定、偏好和客户信号供后续工作使用，潜在好处是减少重复上下文输入。也应测试错误决定如何撤销、过期信息如何停用，不能把记忆越来越多等同输出必然越来越准确。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "brain"
+        ]
+      },
+      {
+        "title": "模型研究与应用配置分开",
+        "text": "公司有自有模型及代理评估研究，但产品还涉及工具、知识图和企业模型互操作。技术说明应按具体任务配置确定依赖，不能从研究目录选择一个模型名称便宣称所有平台功能都由该模型本地或独立完成。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "research",
+          "pricing"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "与通用助手及品牌工具比较",
+        "text": "替代方案包括通用AI加内部模板、营销平台自动化和专业内容工具。WRITER的差异在共享流程、组织上下文和执行治理，是否值得采购需要在真实活动中比较；单次文案润色不一定需要完整代理平台。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent",
+          "brain"
+        ]
+      },
+      {
+        "title": "与确定性工作流分工",
+        "text": "固定的数据搬运和格式转换可以由现有自动化完成，模型适合处理变化的语义与内容。评估应识别哪些步骤真正需要推理，保留确定性校验和批准规则，避免为了统一入口而让所有业务逻辑都变成概率性判断。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "试用范围与企业合同",
+        "text": "当前Starter限制用户和Playbooks，完整知识图、连接器和治理在企业方案中体现。采购需要把试用验证过的能力与最终合同逐项对应，不能假定试用中的所有展示都以同样条件长期提供，也不宜沿用过去单纯写作订阅价格。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing"
+        ]
+      },
+      {
+        "title": "持续价值来自可复用工作",
+        "text": "商业价值可能在重复活动中累积，而非第一次生成的惊喜。应记录维护Playbook、更新品牌标准和处理失败所需投入，再比较是否减少了整体工作；本研究没有客户账单或增长归因数据，不估算收益率。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent",
+          "brain"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "执行状态应区别草稿与完成",
+        "text": "生成演示、更新资料和对外发送是不同完成状态，用户需要看清每一步发生了什么。体验测试应检查中断、权限不足和部分失败时的表达，避免把一个成功生成的资产误当作已在业务系统正确发布。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent"
+        ]
+      },
+      {
+        "title": "品牌控制不应压平表达",
+        "text": "共享语气和标准可帮助一致性，也可能使不同客户和场景的内容过于相似。研究应让实际内容审核者评价信息准确和适配程度，而不只是检查是否符合固定措辞，确保用户可以有理由地覆盖默认风格。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "brain"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "自动推断合规标准的限制",
+        "text": "从样本文档提取标准不等于理解全部法规和组织政策，尤其标准冲突或规则更新时更需专业确认。产品机会在显示依据、适用范围和人工批准状态，不能把厂商所说的合规输出作为对外承诺或替代独立审查。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "brain"
+        ]
+      },
+      {
+        "title": "检验是否减少返工",
+        "text": "应选择真实重复任务，记录最终被采用的成果、审核修改和失败恢复，而不是统计生成了多少材料。若共享记忆和流程让团队更容易接手工作，才形成可验证价值；公司宣传的节省比例不能代替本组织测试。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent",
+          "pricing"
+        ]
+      }
+    ]
+  }
+}

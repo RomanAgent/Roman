@@ -1,0 +1,239 @@
+{
+  "id": "replit",
+  "name": "Replit",
+  "aliases": [],
+  "website": "https://replit.com/",
+  "region": "美国",
+  "regionNote": "按2026年10月21日隐私政策第12节所列Foster City加州公司联系地址归类，不把托管地区与总部混同。",
+  "category": "coding",
+  "tags": [
+    "应用生成",
+    "对话开发",
+    "云端开发",
+    "创业原型"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "官网有注册、Agent和部署相关产品入口；具体计划、资源、外部集成及生成应用上线后的维护仍受条件约束。",
+  "ownershipNote": "以Replit当前产品业务为一条记录；本轮未核得需要合并到其他已收录集团的公开交易证据，不据投资关系推断控制权。",
+  "checkedAt": "2026-11-05",
+  "summary": "面向个人创作者、创业者与组织团队，把自然语言建应用、开发环境、数据库和发布流程放在同一平台；核心是缩短从想法到可操作原型的路径，同时保留真实应用维护与费用边界。",
+  "products": [
+    {
+      "id": "replit-agent",
+      "name": "Replit Agent 与应用构建平台",
+      "url": "https://replit.com/products/agent",
+      "kind": "platform",
+      "stage": "available",
+      "description": "通过对话提出应用需求，结合开发环境和平台组件生成并迭代项目，帮助用户推进从原型到可访问应用的流程。",
+      "users": "个人创作者、创业团队、产品经理及需要内部工具的业务团队。",
+      "delivery": "通过网页账户进入构建环境，使用平台数据库与集成等能力；上线涉及资源配置和具体项目管理。",
+      "monetization": "公开页面提供月度与年度计划入口，具体额度和部署资源以购买时所列范围为准，不将构建订阅等同无限运行费用。",
+      "aiRole": "官方明确Agent由大型语言模型驱动，以对话承接开发意图并执行相关构建步骤；生成行为具有概率性，仍可能出现错误。",
+      "limits": "能生成界面不等于认证、数据模型、权限与运行成本都合理；真实发布前需验证业务流程，并为持续更新、备份和故障处理安排责任。",
+      "sourceIds": [
+        "product",
+        "pricing",
+        "company",
+        "agent"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "product",
+      "title": "Replit当前产品入口",
+      "url": "https://replit.com/",
+      "kind": "official-product",
+      "note": "已读取Agent、数据库、集成、创作者和企业入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "pricing",
+      "title": "Replit当前计划页面",
+      "url": "https://replit.com/pricing",
+      "kind": "official-pricing",
+      "note": "已读取月/年计费入口及模型概率性说明；动态套餐细项未完整呈现，不写未经核实单价。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "company",
+      "title": "Replit公司与产品方向",
+      "url": "https://replit.com/about",
+      "kind": "official-company",
+      "note": "已读取对话式软件创作定位；未用愿景替代已交付效果。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "agent",
+      "title": "Replit Agent产品页",
+      "url": "https://replit.com/products/agent",
+      "kind": "official-product",
+      "note": "已实际打开具体Agent页面，作为产品入口与工作流来源。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-source",
+      "title": "Replit当前隐私联系地址",
+      "url": "https://replit.com/privacy-policy",
+      "kind": "official-company",
+      "note": "已读取第12节1001 E Hillsdale Blvd, Suite400, Foster City, CA94404。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "下述分析围绕Replit Agent构建应用、连接平台组件并发布迭代的路径，区分原型创作与生产维护；不声称覆盖Replit所有运行资源、企业合同或每种第三方集成的交付条件。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "从想法到可试用原型",
+        "text": "创业者和业务人员常需要先让他人试用一个流程，才能发现需求是否成立。对话式构建可能降低最初开发门槛，但应比较获得真实反馈所需的完整步骤；生成漂亮首页本身，并不说明用户已经完成核心交易或协作任务。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "agent"
+        ]
+      },
+      {
+        "title": "原型之后的需求",
+        "text": "应用开始保存资料、服务真实用户后，需求会转为可靠运行和可维护性。研究应区分一次性演示、短期内部工具与长期产品三类场景，观察平台是否支持用户理解和修复后续问题，而非只评估首次生成速度。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "pricing"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "不同技术背景的创作者",
+        "text": "平台面向创作者、产品经理、设计师和工程师等不同角色，他们能够表达需求的方式与验收能力不同。试用研究应分别观察谁能独立发现错误、谁需要工程支持，不能把低门槛输入理解为所有复杂性都已消失。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "company"
+        ]
+      },
+      {
+        "title": "组织使用需要协作边界",
+        "text": "内部工具往往接触业务数据和现有系统，发起构建的人未必拥有批准连接和发布的权限。面向组织交付需要让业务负责人、技术维护者和管理员共同确认数据范围，避免一个方便的个人原型变成无人负责的关键服务。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "对话驱动的迭代",
+        "text": "用户通过描述和反馈逐步改变应用，适合把抽象意图变成可见界面再讨论。有效工作流应保留版本、变更原因和验证结果，尤其需求来回变化时，要能发现旧行为被意外覆盖，而不是每次只接受最新页面外观。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent"
+        ]
+      },
+      {
+        "title": "构建与运行连接",
+        "text": "Replit把数据库、集成和发布相关能力放在同一产品体系，可能减少跨工具配置。也因此需要清楚区分编辑中的项目与已对外运行的版本，检查配置、访问权限和资源消耗是否一致，不能把开发环境成功直接当上线验证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "概率性生成需要验收",
+        "text": "价格页明确说明Agent由大型语言模型驱动且可能出错。技术评价应把业务规则、异常输入和数据边界转成独立测试，而不是让生成器自己描述其正确性；需求越缺少明确约束，结果越需要人工澄清。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing"
+        ]
+      },
+      {
+        "title": "平台依赖与可迁移性",
+        "text": "应用可能同时依赖生成代码、平台数据库、托管和外部集成，故障来源不止模型。建议检查数据导出、配置迁移与第三方服务失效后的行为，明确哪些部分能独立维护；本轮未逐个实际迁移项目，不能承诺无成本退出。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "agent"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "与无代码和普通开发比较",
+        "text": "替代方案包括表单数据库工具、传统无代码平台，以及工程师用普通框架搭建。Replit的机会是让定制交互与实现更接近用户意图，但若任务只是简单收集信息，成熟表单也可能更省维护，不应默认生成代码总是更好。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent"
+        ]
+      },
+      {
+        "title": "比较任务覆盖而非演示",
+        "text": "公平比较应使用相同数据和业务规则，检查不同角色能否完成创建、修改、发布及错误恢复。初始页面质量和首次响应时间只能代表一部分体验，后续权限变化或需求扩展是否容易，可能更决定平台是否适用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "订阅与运行资源分开",
+        "text": "公开计划提供月度和年度购买方式，但构建工具使用与应用持续运行应分别核对。团队需要知道哪些调用、数据库或部署资源另计费用，并在试点中观察实际消耗；没有真实账单时不应声称比外包或雇员便宜多少。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing",
+          "product"
+        ]
+      },
+      {
+        "title": "从创作者到组织客户",
+        "text": "个人创作能快速开始，组织采购则可能要求团队管理、支持和集成。商业机会在于用户从原型升级时仍愿意留在平台，但这不是已验证留存结论；应观察项目上线后的维护活动和是否继续主动使用，而不是只看注册数量。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "company"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "让失败可理解",
+        "text": "对非工程背景用户，错误提示若只展示技术日志，可能使低门槛构建在发布阶段失效。需要验证平台能否指出是需求、代码、配置还是外部服务问题，并让用户选择恢复路径；单纯让代理再次尝试不一定能解决根因。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agent"
+        ]
+      },
+      {
+        "title": "视觉反馈与真实行为",
+        "text": "可见页面有助用户表达偏好，却也容易掩盖后台数据和权限问题。体验测试应包含重新登录、不同用户访问、异常输入和保存失败等日常动作，观察创作者是否能解释结果，而不是只展示一次顺畅的成功路径。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "快速发布的责任",
+        "text": "工具越容易让应用对外访问，越需要在数据、支付和访问控制上有清楚边界。机会是把检查和可回退发布融入正常流程，而不是要求新手先理解全部基础设施；仍不能由模型代替业务负责人决定可接受的运行风险。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "pricing"
+        ]
+      },
+      {
+        "title": "验证需求而非沉迷生成",
+        "text": "创业使用的价值应是更快获得目标用户反馈并修正假设，不是反复生成没有使用者的功能。建议预先定义一个可观察任务和停止条件，记录真实完成率、人工补救和维护投入，再决定是否继续扩展项目。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "company",
+          "agent"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+# Tenstorrent
+
+算力与推理基础设施 · 美国 · 核查 2026-11-05
+
+面向开发者和企业提供自有AI计算硬件及软件栈，从板卡和桌面工作站到服务器与IP合作；重点是模型部署和底层开发的可控性，但硬件可购买不等于任意模型已经适配，也不代表整个系统全部以同一许可证开放。
+
+**业务入口：公开产品入口**。官网提供Blackhole板卡和TT-QuietBox 2购买入口及交期说明，旧QuietBox版本标售罄；软件组件和模型支持需按文档，首页TT-Forge仍有Beta标记。
+
+公司与集团：板卡、工作站、服务器和IP授权属于Tenstorrent同一业务体系，不按硬件型号或软件项目重复计公司；客户授权与合作不作为被整体收购或归属其他芯片公司的证据。
+
+地区口径：按当前官方条款列示的Tenstorrent USA及Santa Clara联系地址口径归类；公司跨多地运营，不将该地址推定为唯一总部。
+
+[公司官网](<https://tenstorrent.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/tenstorrent)
+
+## 重点产品
+
+### Blackhole板卡与TT-QuietBox 2
+
+基础设施 · 已公开提供
+
+提供用于本地模型运行、实验和底层优化的AI板卡与工作站，结合Tenstorrent驱动、编译器和内核开发工具形成开发环境。
+
+目标用户：AI开发者、模型与编译器工程师，以及需要本地实验的研究或企业团队。
+
+AI作用：Tensix计算硬件通过TT-Forge、TT-NN及TT-Metalium等层承载模型和内核工作；具体算子、模型与性能取决于软件支持和实现。
+
+使用与交付：官网列可购买板卡和工作站，实际发货地区和时间按订单确认；需要核对主机、驱动、固件及已验证模型支持。
+
+收费形式：以硬件采购为基础，软件和IP授权范围分别核对；整机标价不包含所有开发、能源和适配投入，本轮不推算普遍成本优势。
+
+产品边界：旧版本售罄不能当作新品库存，Beta编译能力和验证模型列表需单列；开放软件组件不等同硬件设计、全部模型权重和所有知识产权都开放。
+
+[产品入口](<https://tenstorrent.com/hardware/tt-quietbox>) · [Blackhole官方板卡购买页](<https://tenstorrent.com/hardware/cards>) · [TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>) · [Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>) · [Tenstorrent当前产品体系](<https://tenstorrent.com/>)
+
+## 八维产品分析
+
+分析围绕Blackhole板卡、TT-QuietBox 2和软件栈的本地模型开发路径，服务器与IP仅作公司背景；不按硬件参数排名，不把旧售罄配置当现行产品，也不把软件开放和模型许可、硬件知识产权混为同一范围。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 本地开发需要可控制计算环境 · 研究判断
+
+部分团队希望在自己的设备上运行、测试和优化模型，而非全部依赖托管API。Tenstorrent的需求位置是提供另一套可控制硬件与软件，但价值应看目标模型能否稳定工作，不能只因设备在桌面上就推断更方便或更便宜。
+
+依据：[TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>)
+
+### 底层开发与应用使用不同 · 研究判断
+
+编译器和内核工程师需要访问硬件细节，应用开发者则希望快速运行现有模型。产品应说明两类任务的准备差异，研究不能把底层开放能力直接当作普通应用用户即插即用的保证，模型适配仍可能需要专门技能。
+
+依据：[Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>)
+
+## 目标用户
+
+### 有技术能力的开发者 · 研究判断
+
+板卡与工作站服务能够配置环境、检查模型支持和处理运行问题的用户，购买入口并不等同普通消费电脑体验。用户研究应观察安装和首个真实任务，而不是只看能否打开一个预装演示界面。
+
+依据：[Blackhole官方板卡购买页](<https://tenstorrent.com/hardware/cards>) · [Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>)
+
+### 企业和研究团队的不同约束 · 研究判断
+
+研究者可能愿意尝试新算子与软件，生产团队更需要稳定版本、支持和维护计划。评估应区分探索与正式服务，避免以研究用户愿意调试的经历推断所有企业都能接受同样的适配和升级负担。
+
+依据：[Tenstorrent当前产品体系](<https://tenstorrent.com/>) · [TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>)
+
+## 产品与工作流
+
+### 硬件安装到模型验证 · 研究判断
+
+官方文档要求驱动、固件和软件环境设置，并指向已验证模型支持。工作流应先确认硬件和模型组合，再验证输出及性能，不能把板卡被系统识别视为应用已可用，也不能忽略主机和散热条件。
+
+依据：[Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>) · [Blackhole官方板卡购买页](<https://tenstorrent.com/hardware/cards>)
+
+### 编译和内核开发分层 · 研究判断
+
+TT-Forge、TT-NN和TT-Metalium提供不同抽象层，开发者应根据任务选择而不是同时重做全部栈。研究建议保留编译与运行版本，检查从高层模型到低层优化的结果一致性，避免性能改进改变模型行为却没有发现。
+
+依据：[Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>)
+
+## AI技术与依赖
+
+### 自有计算架构需要软件适配 · 研究判断
+
+Tensix硬件的能力需要通过支持的算子、数据移动和模型实现发挥，不能直接以参数替代应用验证。技术比较应使用相同模型质量、精度和负载，检查真实瓶颈，避免把峰值计算指标当作端到端推理速度。
+
+依据：[Blackhole官方板卡购买页](<https://tenstorrent.com/hardware/cards>) · [Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>)
+
+### 开放范围需要逐组件确认 · 研究判断
+
+官方强调开放软件栈，有助开发者检查和修改实现，但各组件与模型可能有不同许可。评估应区分源码可读、可修改和商业使用条件，不因一个组件开放就把硬件设计、第三方模型及全部IP都称为完全开源。
+
+依据：[TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>) · [Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>)
+
+## 竞争与替代
+
+### 与GPU工作站比较 · 研究判断
+
+成熟GPU生态可能提供更广模型支持，Tenstorrent则提供不同硬件与底层开发路径。选择应围绕目标模型、团队能力和适配投入，不能只比较购置价格，也不能因新架构有潜力就忽略已有软件依赖。
+
+依据：[Blackhole官方板卡购买页](<https://tenstorrent.com/hardware/cards>) · [Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>)
+
+### 与云API和租赁计算比较 · 研究判断
+
+本地硬件可以提供控制和持续实验环境，云服务则减少部分设备维护。研究应按实际利用率、隐私要求和开发周期比较，不能默认本地一定更省钱或云端一定更方便；设备闲置和迁移工作都会影响判断。
+
+依据：[TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>) · [Tenstorrent当前产品体系](<https://tenstorrent.com/>)
+
+## 商业模式
+
+### 硬件价格只是总投入一部分 · 研究判断
+
+板卡和工作站有公开购买入口，但主机、能源、适配及维护仍影响采用成本。商业评估应使用目标任务和运行周期，不从单次硬件标价推算所有AI应用的回本时间，也不能把宣传性能直接换算为节省。
+
+依据：[Blackhole官方板卡购买页](<https://tenstorrent.com/hardware/cards>) · [TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>)
+
+### 采购与IP合作边界不同 · 研究判断
+
+购买板卡和取得芯片IP授权属于不同交易，后者需要独立合同与工程安排。公司档案应保持这种区别，不把授权伙伴当作子公司，也不因可购买开发硬件就假定企业能获得全部设计权或无限支持。
+
+依据：[Tenstorrent当前产品体系](<https://tenstorrent.com/>) · [Tenstorrent当前网站条款与联系主体](<https://tenstorrent.com/terms>)
+
+## 体验与交付
+
+### 文档应帮助选择正确入口 · 研究判断
+
+软件层次和硬件代次较多，用户需要知道从预装工作站、板卡安装还是底层开发开始。体验研究应检查文档与实际版本是否一致，避免新用户依据旧教程或售罄型号配置环境后才发现不兼容。
+
+依据：[Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>) · [TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>)
+
+### 失败诊断影响真实可用性 · 研究判断
+
+编译失败、未支持算子和模型输出差异需要清楚解释与恢复路径。应测试一个非演示任务，观察用户能否定位问题并获得支持，不能只评价预装模型的成功运行；开发平台的可用性也包括有效暴露限制。
+
+依据：[Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>)
+
+## 风险与机会
+
+### 生态成熟度需要持续验证 · 研究判断
+
+硬件可供货和软件可下载并不保证目标模型长期稳定，版本变化可能影响功能与性能。产品机会在扩大已验证支持并减少迁移负担，不能把Beta或路线图能力当现有生产保障，更不能用接口兼容推定结果完全相同。
+
+依据：[Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>) · [Tenstorrent当前产品体系](<https://tenstorrent.com/>)
+
+### 按订单和任务核实交付 · 研究判断
+
+旧QuietBox版本售罄而新品可购买，说明状态需要逐型号记录；地区与交期也应以实际订单条件为准。本研究未下单或跑benchmark，不承诺配送、性能或成本优势，也不由投资与合作名单预测商业成功。
+
+依据：[Blackhole官方板卡购买页](<https://tenstorrent.com/hardware/cards>) · [TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>) · [Tenstorrent当前网站条款与联系主体](<https://tenstorrent.com/terms>)
+
+## 资料来源
+
+- [Tenstorrent当前产品体系](<https://tenstorrent.com/>) — 已读取板卡、工作站、服务器和IP合作入口，以及TT-Forge Beta提示，不采用线性扩展宣传。（核查 2026-11-05）
+
+- [Blackhole官方板卡购买页](<https://tenstorrent.com/hardware/cards>) — 已读取Add to Cart、库存/运输说明与Tensix软件支持，未加购或核具体地址交付。（核查 2026-11-05）
+
+- [TT-QuietBox当前代次与状态](<https://tenstorrent.com/hardware/tt-quietbox>) — 已读取QuietBox2在售与旧Blackhole/Wormhole版本售罄，不混用代次和配置。（核查 2026-11-05）
+
+- [Tenstorrent官方软件与模型文档](<https://docs.tenstorrent.com/>) — 已读取驱动固件、TT-Forge/TT-NN/TT-Metalium层次及验证模型来源，未声称任意框架完全兼容。（核查 2026-11-05）
+
+- [Tenstorrent当前网站条款与联系主体](<https://tenstorrent.com/terms>) — 页面明确当前为网站使用条款而非全部销售合同，列Tenstorrent USA及Santa Clara联系地址。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

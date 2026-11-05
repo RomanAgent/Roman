@@ -1,0 +1,241 @@
+{
+  "id": "hebbia",
+  "name": "Hebbia",
+  "aliases": [
+    "Matrix",
+    "Hebbia Max"
+  ],
+  "website": "https://www.hebbia.com/",
+  "region": "美国",
+  "regionNote": "按2026年5月8日隐私政策所列Hebbia Inc纽约联系地址归类，不由联系地址推定唯一总部或数据驻留。",
+  "category": "enterprise",
+  "tags": [
+    "机构研究",
+    "金融文档",
+    "矩阵分析",
+    "尽调"
+  ],
+  "audience": "business",
+  "stage": "sales",
+  "stageNote": "当前Max和Matrix通过登录及预约演示提供企业接洽，未核到普通个人自助购买价格；客户案例不等于所有机构开箱即用。",
+  "ownershipNote": "Max和Matrix为Hebbia同一机构研究平台中的重点产品，不按分析师代理和矩阵界面重复计公司；未据投资方或客户关系推断集团归属。",
+  "checkedAt": "2026-11-05",
+  "summary": "针对金融机构及专业团队的大量文件研究，以矩阵化分析和代理协作组织尽调、比较及报告成果；强调可回到原始句子的检查路径，成果仍需分析师核对数据口径与决策假设。",
+  "products": [
+    {
+      "id": "hebbia-matrix-max",
+      "name": "Hebbia Matrix 与Max",
+      "url": "https://www.hebbia.com/product",
+      "kind": "vertical",
+      "stage": "available",
+      "description": "Matrix对大量文件或对象执行可追溯分析，Max围绕机构研究任务组织资料并形成表格、演示和报告等交付成果。",
+      "users": "投资、银行、法律与企业发展领域的分析师及项目团队。",
+      "delivery": "通过企业账户和项目空间使用，按需要接入文件与资料系统，当前主要提供预约演示和商务交付。",
+      "monetization": "采用企业商务采购路径，具体用户、资料连接和运行范围需要询价，本轮未核实统一公开单价或按文件收费规则。",
+      "aiRole": "模型辅助逐项阅读、提取和综合资料，并将分析组织成矩阵及成果；可追溯来源帮助复核，但不证明数值和投资判断自动正确。",
+      "limits": "文件版本、财务口径和缺失披露会影响结果，追溯到句子也不能替代专业解释；不是替个人自动作投资决策或保证收益的服务。",
+      "sourceIds": [
+        "product",
+        "matrix",
+        "company",
+        "security"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "product",
+      "title": "Hebbia Max与Matrix当前概览",
+      "url": "https://www.hebbia.com/product",
+      "kind": "official-product",
+      "note": "已读取Max研究交付、Matrix跨文件分析及演示入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "matrix",
+      "title": "Matrix具体流程与追溯",
+      "url": "https://www.hebbia.com/matrix/",
+      "kind": "official-product",
+      "note": "已读取交付物、机构流程和回到原始句子的检查；客户案例仅作任务例子。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "company",
+      "title": "Hebbia机构金融定位",
+      "url": "https://www.hebbia.com/about",
+      "kind": "official-company",
+      "note": "已读取金融研究与机构知识定位，不采用资产规模或使用量宣传作市场证据。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "security",
+      "title": "Hebbia安全与数据处理入口",
+      "url": "https://www.hebbia.com/security/",
+      "kind": "official-docs",
+      "note": "已打开安全及数据处理政策入口；认证标志不外推为所有研究输出准确。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-source",
+      "title": "Hebbia隐私联系地址",
+      "url": "https://www.hebbia.com/privacy",
+      "kind": "official-company",
+      "note": "已读取Data Protection Officer邮寄地址233 Spring St, New York。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "以下围绕Matrix批量比较文件、Max组织机构研究交付物及团队复核展开，不评价机构投资表现或全部数据供应商；所有商业价值判断均为案头研究推断，不把客户案例当作可重复的收益保证。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "多文件需要一致比较口径",
+        "text": "金融研究往往要在不同文件中寻找同类条款、指标和条件，逐份聊天容易失去横向一致性。矩阵分析的需求是让问题结构和证据对应起来，价值应体现在可比较与可复核，而不是一次读取文件越多越好。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "matrix"
+        ]
+      },
+      {
+        "title": "研究最终要形成交付物",
+        "text": "分析师不仅要找答案，还要把材料转成报告、模型或演示供团队讨论。Max尝试承接这段工作，研究应观察数据、假设和引用能否随交付物保留，避免把初稿漂亮误解为已经达到可对客户或投委会使用的标准。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "有专业口径的机构团队",
+        "text": "产品面向能够判断财务、交易和法律材料的专业人员，他们需要保留自己的分析方法。普通个人投资者未必能识别模型的口径错误，因此机构工具可采购不意味着可替代个人风险判断，更不能从产品定位推断收益。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "company",
+          "product"
+        ]
+      },
+      {
+        "title": "项目协作中的不同责任",
+        "text": "初级分析师、项目负责人和审核者对结果的要求不同，工具应让后者快速检查前者的处理过程。用户研究不能只看操作矩阵的人是否满意，还应观察接手报告的人能否找到原始证据和未解决的问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "matrix"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "矩阵将问题拆成可检查单元",
+        "text": "把文件或对象与分析问题组织成矩阵，有助于发现空缺和不一致。设计工作流时应明确每个字段的定义、允许缺失的情况和汇总规则，避免模型把未披露信息补成看似完整的值，再被后续报告当作事实。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "matrix"
+        ]
+      },
+      {
+        "title": "从分析走向报告仍需审阅",
+        "text": "平台可生成多种交付物，但应让使用者在形成结论之前检查来源与口径。研究建议保留中间分析表和关键修改记录，观察更换输入文件后哪些成果需要更新，不能把自动生成报告当作研究过程已经结束。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "matrix"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "提取与综合的可靠性不同",
+        "text": "某个数字或条款可以回到原文核对，跨文件综合结论却涉及额外解释。技术评价应分别测试原始提取、单位和日期转换、条件比较以及最终归纳，避免用少量准确引用证明整份分析模型或报告都正确。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "matrix"
+        ]
+      },
+      {
+        "title": "资料范围限制推理范围",
+        "text": "机构知识和连接器能增加背景，但输入可能包含过期版本、扫描错误或选择性披露。系统需要表达资料缺口并允许用户纠正，不能因为可以处理大量文件就宣称掌握全部交易事实；本轮未实际上传机构资料测试。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "security"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "与表格加人工审阅比较",
+        "text": "传统分析师常用电子表格记录提取结果，这种方式虽慢却便于逐项检查。Matrix需要证明它减少重复阅读而没有降低口径透明度，比较应使用同一资料包和问题清单，而不是只看生成结果的速度。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "matrix"
+        ]
+      },
+      {
+        "title": "与通用研究代理比较",
+        "text": "通用代理也能搜索和写报告，Hebbia的差异在机构流程、批量结构和成果追溯。是否值得专门采购取决于任务规模与审核要求，不能将垂直定位自动等同更高准确度，也不能只按对话入口相似判断没有区别。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "company",
+          "product"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "企业报价与资料接入成本",
+        "text": "当前主要以演示和商务接洽交付，预算需要考虑账户、资料连接、实施和持续使用范围。没有公开统一单价时应如实保留待询价，而不是依据金融客户画像猜高价；也不能从机构资产规模推算软件收入。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "company"
+        ]
+      },
+      {
+        "title": "把方法沉淀为重复流程",
+        "text": "产品希望把机构分析方法形成可重复工作流，潜在商业价值在于团队接手与复用更容易。应验证方法是否仍可被解释和修改，避免只把旧项目结构复制到不适合的新交易，形成标准化外观下的系统性偏差。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "matrix"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "可追溯到句子的体验",
+        "text": "官方强调能回到原始句子，这有助审核但仍需检查上下文、附件和定义。体验测试应让用户从最终报告追到矩阵再追到完整文件，观察是否能发现条件被省略，而不只确认存在一个可点击引用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "matrix"
+        ]
+      },
+      {
+        "title": "复杂任务的进度与控制",
+        "text": "批量处理可能耗时并产生局部失败，用户需要知道哪些单元已完成、哪些无法解析。研究应测试中途修改问题、补充文件与重跑，检查结果是否清楚标版本，避免不同轮次分析混在一张看似一致的表里。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "matrix"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "结构化错误容易被继续使用",
+        "text": "错误数值进入表格后，可能被后续公式和报告反复引用，比普通聊天错误更难察觉。机会在于保留数据来源、转换规则和人工确认状态，让团队可以检查传播路径，而不是依靠专业风格掩盖不确定性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "matrix"
+        ]
+      },
+      {
+        "title": "以研究质量而非投资结果承诺",
+        "text": "工具评估应看遗漏、复核负担和交付一致性，不应把后续交易收益归因于生成式平台。市场采用还需真实访谈和采购数据，本研究未获取这些证据，因此不对销量、机构渗透或商业成功率作估计。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "company",
+          "product"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "together-ai",
+  "name": "Together AI",
+  "aliases": [
+    "Together"
+  ],
+  "website": "https://www.together.ai/",
+  "region": "美国",
+  "regionNote": "2026年5月官方条款明确 Together Computer, Inc. 为 Delaware corporation，并列 San Francisco 通知地址；采用注册主体口径，不作为本轮独立总部认证。",
+  "category": "compute",
+  "tags": [
+    "模型推理",
+    "专用端点",
+    "微调",
+    "GPU集群",
+    "开放权重生态"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "无服务器推理、专用部署与算力有公开入口，特定模型及测试功能按文档；开放模型许可与服务合同仍须分别核对。",
+  "ownershipNote": "Together AI 托管多家模型，模型目录不等于全部自有研发；推理、训练和算力作为同一服务公司合并收录。",
+  "summary": "Together AI 为开发团队提供模型推理、专用端点、微调与 GPU 计算，将开放模型从试验到服务化的基础工作集中交付，用户可以根据流量和控制需求选择共享调用或专用资源。",
+  "analysisScope": "本篇聚焦模型调用、专用推理和训练算力路径，不逐一评估全部托管模型，也不将开放权重称为无条件开源；性能、质量、地区与总成本均需在客户任务中验证。",
+  "sources": [
+    {
+      "id": "home",
+      "title": "AI 云产品",
+      "url": "https://www.together.ai/",
+      "kind": "official-product",
+      "note": "核推理、模型训练及 GPU 资源入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "推理与算力计费",
+      "url": "https://www.together.ai/pricing",
+      "kind": "official-pricing",
+      "note": "区分 token、预留吞吐、专用 GPU 和训练存储等成本。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "docs",
+      "title": "开发文档概览",
+      "url": "https://docs.together.ai/intro",
+      "kind": "official-docs",
+      "note": "核共享、专用、容器、微调与管理路径，测试功能保留标记。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-evidence",
+      "title": "Together 注册主体与服务条款",
+      "url": "https://www.together.ai/terms-of-service",
+      "kind": "official-company",
+      "note": "2026年5月官方条款明确 Together Computer, Inc. 为 Delaware corporation，并列 San Francisco 通知地址；采用注册主体口径，不作为本轮独立总部认证。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "together-cloud",
+      "name": "Together AI 推理与模型部署平台",
+      "url": "https://docs.together.ai/intro",
+      "kind": "infrastructure",
+      "stage": "available",
+      "description": "通过共享模型接口、专用端点和训练算力支持开发者运行与定制模型，减少从选模型到生产服务之间的基础设施配置工作。",
+      "users": "构建生成应用、模型定制和生产推理服务的开发团队。",
+      "delivery": "客户使用云账号和接口调用，或配置专用模型容器与 GPU 集群，依需求管理版本、权限和资源。",
+      "monetization": "共享推理按模型输入输出等用量收费，预留吞吐和专用 GPU 按容量或时长，训练及存储另核相应单位。",
+      "aiRole": "平台托管和优化模型推理及训练运行，智能输出来自客户选用模型与数据；基础设施可用不保证模型回答准确或适合业务。",
+      "limits": "不同模型许可、上下文和工具能力不同，专用资源不等于客户本地部署；测试入口不可当正式保障，中国大陆采购交付未实测。",
+      "sourceIds": [
+        "home",
+        "plans",
+        "docs"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "从模型到服务",
+        "text": "团队找到合适模型后仍要处理推理环境、容量与上线，Together 的需求在减少这些基础工作。价值不只是能调用开放模型，而是稳定服务真实流量；如果只是低频试验，复杂专用部署可能没有必要，应先明确负载与控制要求。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "定制模型需求",
+        "text": "某些任务需要用自己的资料或反馈调整模型，训练与部署路径连在一起有机会降低交接成本。需求应由任务质量差距证明，不能先假定所有应用都需要微调；提示、检索或更换模型有时已经足够解决问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "应用开发者",
+        "text": "应用团队可能希望快速接入而不维护 GPU，适合先使用共享接口验证模型是否满足任务。他们关心输出结构、限流和费用，模型选择仍需要自己负责，不能把平台提供的推荐列表当成对所有业务准确性的保证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "平台工程团队",
+        "text": "持续大流量或自有模型团队会关注专用资源、吞吐与版本控制，采购更接近基础设施。需要对峰值、平均使用和模型变更作规划，不能只根据单次响应速度购买长期容量，也不应把专用端点误认为无需运维配合。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "先验证再部署",
+        "text": "合理路径是以少量任务评估模型，再根据流量和限制选择共享或专用端点，最后接入监控和业务回退。模型能返回内容只是第一步，还需检查错误、格式和工具行为，避免将接口接通视为生产系统完成。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "训练交接",
+        "text": "定制训练需要准备合适数据、评估结果并将检查点部署成服务，每个阶段都可能改变成本和效果。团队应保留基线与数据版本，确认调整是否改善目标任务而不损害其他能力，不能把训练成功结束等同业务质量提升。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "模型与引擎",
+        "text": "平台优化运行和资源调度，模型本身的能力与许可仍各自存在，不能把全部目录都视为 Together 自研。技术评估应同时观察质量、首段延迟、吞吐和错误恢复，单一速度数字不足以决定模型在真实应用中的可用性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home",
+          "docs"
+        ]
+      },
+      {
+        "title": "资源选择",
+        "text": "共享服务、预留吞吐和专用 GPU 对容量与利用率有不同约束，专用不意味着自动更便宜。模型大小、输入输出比例和缓存命中都会改变实际消耗，应以真实请求轨迹测试，而不是照搬官网计算器的示例节省比例。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "替代供应商",
+        "text": "大云服务、模型原厂接口和其他推理平台提供不同选择，Together 的候选优势在多模型与定制路径。若应用只需要一个闭源模型，聚合价值可能有限；若需要切换和控制开放权重，则要比较可部署版本与工程支持。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "自行运行替代",
+        "text": "团队可在自有或租赁 GPU 上运行模型，获得更多控制但增加部署、升级和容量管理。采购平台的理由应是减少这些具体负担，而不是因为开放权重就不存在模型成本，也不能把云端专用部署与真正本地数据控制混同。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "多种计费",
+        "text": "推理 token、吞吐预留和 GPU 时长是不同单位，训练与存储又有额外消耗。完整成本应围绕一次可完成任务计算，包含重试和空闲容量，不能只以最低 token 单价比较平台，也不把暂时免费模型作为长期预算基础。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "规模取舍",
+        "text": "流量稳定时预留可能提高可预测性，波动大时共享调用更灵活，但结论取决于利用率。商业评估需比较工程维护与资源成本，并以真实峰值验证，不能从价格页提供节省计算器就推断任何客户切换后都能降低费用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "开发可诊断性",
+        "text": "清楚的鉴权、限流和部署状态能帮助团队定位问题，模型输出异常与平台故障也需要区分。用户应能知道某次失败是请求不合规、容量不足还是模型行为，不能只得到通用错误后反复重试并产生不可控消耗。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "验收建议",
+        "text": "建议用真实但去敏的请求集测质量与延迟，再模拟流量峰值和模型切换，记录整条任务费用。专用部署另测升级回滚与权限，国内网络和商务交付本轮未实测，公开 API 文档不证明所有地区都可无障碍采购。",
+        "evidence": "validation",
+        "sourceIds": [
+          "docs",
+          "plans"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "许可与数据",
+        "text": "模型权重可访问不等于所有商业用途和再分发都允许，客户数据也需要按实际服务合同确认。机会是降低模型部署门槛，风险是以统一云入口掩盖各模型条件，因此应把模型来源、版本和数据路径纳入架构记录。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "持续验证",
+        "text": "后续应跟踪模型下架、计费和容量条件变化，用固定任务回归检验升级结果。收益应以可靠完成任务和减少运维衡量，不从 GPU 型号、模型数量或融资规模推断商业成功，也不把测试版工具视为正式可用保障。",
+        "evidence": "validation",
+        "sourceIds": [
+          "plans"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

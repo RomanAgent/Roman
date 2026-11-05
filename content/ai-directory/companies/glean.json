@@ -1,0 +1,232 @@
+{
+  "id": "glean",
+  "name": "Glean",
+  "aliases": [],
+  "website": "https://www.glean.com/",
+  "region": "美国",
+  "regionNote": "官方产品页列示旧金山美国业务地址，按该公开业务口径归类，不推定数据全部存储在美国。",
+  "category": "enterprise",
+  "tags": [
+    "企业搜索",
+    "权限感知",
+    "组织上下文",
+    "知识代理"
+  ],
+  "audience": "business",
+  "stage": "sales",
+  "stageNote": "通过企业演示和账户入口提供搜索、助手及代理；连接与组织权限需要实施，Enterprise Graph浏览及部分主动AI仍标coming soon。",
+  "ownershipNote": "Glean搜索、助手、企业上下文和代理属于同一产品体系，本条合并分析；未根据客户名单或模型合作关系推定与其他公司的控制关系。",
+  "checkedAt": "2026-11-05",
+  "summary": "面向资料分散在不同业务应用的企业，构建权限感知的搜索和上下文层，再用于助手回答与代理行动；重点在组织知识接入和可治理使用，不把公司全部资料都已自动可见当作默认前提。",
+  "products": [
+    {
+      "id": "glean-work-ai",
+      "name": "Glean Search、Assistant与Agents",
+      "url": "https://www.glean.com/enterprise-search",
+      "kind": "platform",
+      "stage": "available",
+      "description": "连接组织应用并提供搜索、回答和代理工作流，让员工及授权AI工具利用已有公司资料处理日常知识工作。",
+      "users": "资料跨多个应用的企业员工、知识管理者与信息技术管理员。",
+      "delivery": "以企业账户、连接器和组织权限配置交付，搜索与代理入口由所购方案和接入系统决定。",
+      "monetization": "主要通过企业演示与商务采购确认范围，本轮未核实公开统一单价，不把连接器数量理解为合同内全部免费。",
+      "aiRole": "搜索结合语义理解、知识关系和用户上下文组织结果，助手生成回答，代理可衔接行动；具体模型和工具权限仍需按部署确认。",
+      "limits": "权限映射、索引覆盖和资料质量决定结果边界；官网标为即将推出的图浏览与部分主动AI不计为默认现有能力。",
+      "sourceIds": [
+        "product",
+        "search",
+        "context",
+        "agents"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "product",
+      "title": "Glean当前企业AI平台",
+      "url": "https://www.glean.com/",
+      "kind": "official-product",
+      "note": "已读取搜索、助手、代理、模型与用量控制入口及商务接洽。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "search",
+      "title": "Glean企业搜索机制",
+      "url": "https://www.glean.com/enterprise-search",
+      "kind": "official-product",
+      "note": "已读取权限感知、语义检索、个性化关系与来源定位；页脚列旧金山美国地址。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "context",
+      "title": "Glean企业上下文及路线边界",
+      "url": "https://www.glean.com/platform/enterprise-context",
+      "kind": "official-product",
+      "note": "已读取连接器、企业关系图及MCP；图浏览和主动AI的coming soon标记保留。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "agents",
+      "title": "Glean代理产品入口",
+      "url": "https://www.glean.com/ai-agents",
+      "kind": "official-product",
+      "note": "已打开代理构建、编排与治理入口，不将客户效率宣传当实测。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "分析围绕Glean把组织资料接入搜索与助手，再向代理提供上下文的工作流，重点是权限、信息质量和交付治理；不评价全部行业模板，也不将官网路线图和客户引语当作普遍效果证据。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "找资料的组织摩擦",
+        "text": "员工知道答案可能存在，却不知道在聊天、工单还是某份文件中。统一搜索的需求是减少定位和确认资料的步骤，而不是增加一个聊天窗口；应观察用户是否真正找到可用答案，及仍需向同事求证的问题类型。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "search"
+        ]
+      },
+      {
+        "title": "搜索之后能采取行动",
+        "text": "助手和代理把资料查找延伸到整理与执行，潜在价值在于减少重复复制和背景说明。但如果原始资料互相矛盾或负责人不清楚，自动行动可能放大问题，因此应先确认哪些知识适合直接用、哪些需要人工澄清。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agents",
+          "context"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "员工角色决定相关性",
+        "text": "同一问题对销售、工程和人力团队可能对应不同文件与权限，个性化搜索尝试利用这些关系。验证时应让不同角色查询同一主题，检查结果是否相关且不过度窄化，不能把更多个性化默认当作更完整的信息。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "search"
+        ]
+      },
+      {
+        "title": "知识所有者也是用户",
+        "text": "负责维护文档的人需要知道哪些内容被反复引用、何处已经过时，管理员则要管理连接和身份。产品采用不能只考虑提问者，应让资料所有者参与纠错和更新，否则统一入口可能只是更快传播旧内容。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "context",
+          "search"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "接入并保留原系统边界",
+        "text": "Glean通过连接器汇集不同工具中的知识，用户可以在一个入口查询，但原系统权限和内容责任仍然存在。实施应明确每个来源的范围、同步与删除行为，避免把索引统一误解成资料所有权或审批责任也已统一。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "search",
+          "context"
+        ]
+      },
+      {
+        "title": "向其他AI提供组织上下文",
+        "text": "MCP使组织知识可能进入员工选择的其他AI工具，减少重复建立连接。这个流程应同时传递来源与权限边界，并核对接收工具的数据处理条件；能把答案送出去不代表允许任意外部模型长期保存全部上下文。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "context"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "语义检索与关系信息",
+        "text": "搜索页说明利用深度学习和人员、内容、互动关系提高相关性，区别于仅匹配关键词。技术评估应同时检查召回遗漏和错误排序，尤其不常被访问但重要的资料不能因互动少就被忽略；相关性需要用真实任务评价。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "search"
+        ]
+      },
+      {
+        "title": "路线图能力应单列",
+        "text": "企业上下文页将图浏览和部分主动AI标为即将推出，说明平台能力并非同时成熟。研究与采购应逐项核对当前账户能用什么，不能把关系图存在、可浏览和自主安排工作三个层次混成一个已经交付的功能。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "context"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "与原系统搜索竞争",
+        "text": "替代方案包括各业务应用自带搜索、企业办公套件助手与人工知识门户。Glean的价值更可能出现在工具多、资料跨系统的组织，若信息集中且结构清楚，额外平台的实施与管理负担可能不必要。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "search"
+        ]
+      },
+      {
+        "title": "与通用助手形成分工",
+        "text": "通用助手擅长开放式生成，企业搜索平台强调授权资料和组织上下文。二者可通过接口配合，比较应看相同内部问题的引用、覆盖和权限行为，而不是只比较开放知识问答；企业专用也不保证没有幻觉。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "context",
+          "agents"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "商务采购需要清楚范围",
+        "text": "当前以演示和企业洽谈为主要入口，采购要确认用户、连接器、代理和支持分别包含哪些能力。公开展示的应用数量不能直接视为每个合同的交付清单；没有真实报价时不应估算统一人均成本或节省金额。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "agents"
+        ]
+      },
+      {
+        "title": "实施价值与软件价值区分",
+        "text": "资料清理、权限梳理和流程明确本身可能产生收益，不能全部归功于模型。试点应分别记录实施工作与日常搜索改善，让采购者判断持续费用对应什么服务，避免把一次性组织整理误当作长期AI增益。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "context",
+          "search"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "结果要能回到原处",
+        "text": "员工需要从回答返回具体文件、消息或负责人，并理解资料何时更新。体验测试应检查引用可访问性、原文条件和追问后是否仍保留来源，不能只以答案简洁评判好坏；缺少上下文的简短答案可能更容易误用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "search"
+        ]
+      },
+      {
+        "title": "权限变化的体验",
+        "text": "人员调岗、项目关闭和文档撤权会改变可见范围，搜索应让用户理解为什么结果变化。建议测试这些实际组织事件，观察旧会话、缓存和外部代理是否同步收敛权限，而不是只在管理员初次配置时检查一次。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "context",
+          "search"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "统一入口扩大错误传播",
+        "text": "集中搜索能让错误资料更容易被发现，也可能让它被更多人使用。机会在于提供来源质量、时间和纠错反馈，而非只优化生成速度；组织必须保留内容责任，避免把模型回答当作无人负责的公司正式立场。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "search",
+          "agents"
+        ]
+      },
+      {
+        "title": "以任务解决验证采用",
+        "text": "建议选入职查找、客户背景整理等真实任务，记录回答后是否还需要人工补救，以及资料维护者承担了多少工作。使用次数增长不代表信息质量提升，本研究没有企业现场访谈或留存数据，不推断普遍采购需求。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "context"
+        ]
+      }
+    ]
+  }
+}

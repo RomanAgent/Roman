@@ -1,0 +1,244 @@
+{
+  "id": "ibm",
+  "name": "IBM",
+  "aliases": [
+    "IBM watsonx",
+    "Granite",
+    "watsonx Orchestrate"
+  ],
+  "website": "https://www.ibm.com/products/watsonx-ai",
+  "region": "美国",
+  "regionNote": "按IBM公司主体归入美国；混合部署和地区报价由具体产品与合同确定，不由全球官网推定当地交付。",
+  "category": "enterprise",
+  "tags": [
+    "企业AI",
+    "混合部署",
+    "代理编排",
+    "预测与优化"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "watsonx.ai及Orchestrate提供试用、定价或商务入口；不同部署方式和模型有各自费用，方案中的起始价格不是完整项目报价。",
+  "ownershipNote": "将watsonx、Granite与本条涉及的IBM企业AI业务合并研究；Red Hat相关整合不单列凑数，第三方模型仍保留原提供商归属。",
+  "summary": "IBM面向企业把机器学习、优化和生成式模型接入现有数据与业务流程，并提供代理编排与治理工具；重点是混合环境中的交付和控制，不把公司定位简化为一个通用聊天模型。",
+  "analysisScope": "分析以watsonx.ai和watsonx Orchestrate为代表的模型开发、部署与代理编排，不覆盖IBM全部咨询、硬件及行业解决方案，也不逐个枚举Granite历史版本。",
+  "sources": [
+    {
+      "id": "studio",
+      "title": "IBM watsonx.ai产品页",
+      "url": "https://www.ibm.com/products/watsonx-ai",
+      "kind": "official-product",
+      "note": "已打开机器学习、Decision Optimization及生成式AI组合与混合基础设施说明。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "orchestrate",
+      "title": "IBM watsonx Orchestrate产品与方案",
+      "url": "https://www.ibm.com/products/watsonx-orchestrate",
+      "kind": "official-product",
+      "note": "已打开代理编排、控制平面、连接标准、云与本地部署及试用/商务方案。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "pricing",
+      "title": "IBM watsonx.ai收费说明",
+      "url": "https://www.ibm.com/products/watsonx-ai/pricing",
+      "kind": "official-pricing",
+      "note": "已打开token、托管小时与功能费项；表中部分模型不可用，未把完整表格当即时可调用清单。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "watsonx-ai",
+      "name": "IBM watsonx.ai",
+      "url": "https://www.ibm.com/products/watsonx-ai",
+      "kind": "platform",
+      "stage": "available",
+      "description": "把预测机器学习、决策优化与生成式AI纳入企业开发环境，团队可按任务选择模型和部署方式，并将能力接入已有业务系统。",
+      "users": "需要构建、评估和运行企业AI应用的数据与软件团队。",
+      "delivery": "通过云端产品和混合基础设施方案交付，具体模型、运行环境及功能依所选配置。",
+      "monetization": "模型调用按token或托管时长等计量，机器学习、文本提取和定制另有费项，试用额度不代表无限生产使用。",
+      "aiRole": "模型进行生成、预测或信息理解，优化工具处理不同类型决策问题；多种技术组合不等于所有任务都应交给生成式模型。",
+      "limits": "模型目录中列名不代表每种托管方式可用，地区价格及资源另核；业务资料质量、评估与人工责任不能由平台自动补齐。",
+      "sourceIds": [
+        "studio",
+        "pricing"
+      ]
+    },
+    {
+      "id": "watsonx-orchestrate",
+      "name": "IBM watsonx Orchestrate",
+      "url": "https://www.ibm.com/products/watsonx-orchestrate",
+      "kind": "platform",
+      "stage": "available",
+      "description": "为企业构建、连接和管理AI代理及业务工作流，提供集中控制与工具集成方向，支持在不同环境中协调已有系统的任务。",
+      "users": "需要跨业务系统组织代理和控制权限的企业运营及技术团队。",
+      "delivery": "提供云或本地部署方案、试用和商务交付入口，支持API及相关代理连接标准，集成需配置。",
+      "monetization": "按所选计划、容量和部署条件收费，提供试用与分层商业方案；敏感环境或更高隔离要求需商务确认。",
+      "aiRole": "模型负责理解任务和生成步骤，编排层连接工具、工作流及代理并提供控制；实际业务执行仍依赖已有系统权限和验证规则。",
+      "limits": "支持连接标准不保证所有第三方工具可直接兼容，跨代理流程也可能传播错误；需核环境、并发、资料隔离及人工接管安排。",
+      "sourceIds": [
+        "orchestrate"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "事实｜企业决策不只使用生成式模型",
+        "evidence": "official",
+        "sourceIds": [
+          "studio"
+        ],
+        "text": "watsonx.ai当前产品页同时强调机器学习、Decision Optimization和生成式AI，面向企业不同决策任务。这样的组合不能简化成一个聊天窗口，也不能把传统预测或优化一律改称大模型；研究应说明每项技术在业务流程中承担什么工作以及怎样确认结果。"
+      },
+      {
+        "title": "判断｜需求来自已有系统中的具体瓶颈",
+        "evidence": "analysis",
+        "sourceIds": [
+          "studio",
+          "orchestrate"
+        ],
+        "text": "IBM路线更适合从企业已经有的数据、流程和责任划分寻找问题，例如资料处理和跨系统任务协调。若业务规则尚不清楚，增加代理编排未必解决困难；市场研究应看哪个环节需要理解、哪个环节需要确定性约束，而非先追求部署更多AI组件。"
+      }
+    ],
+    "users": [
+      {
+        "title": "事实｜开发平台与编排平台服务不同角色",
+        "evidence": "official",
+        "sourceIds": [
+          "studio",
+          "orchestrate"
+        ],
+        "text": "watsonx.ai主要面向模型与应用开发，Orchestrate则突出代理和业务工具协调。数据团队、平台管理员和流程负责人因此有不同关注点；即使产品都属于watsonx体系，也不能推定相同用户会同时使用全部功能或具备相同的实施能力。"
+      },
+      {
+        "title": "验证｜把流程负责人纳入评估",
+        "evidence": "validation",
+        "sourceIds": [
+          "orchestrate"
+        ],
+        "text": "试点需要让实际承担业务结果的人参与定义任务、例外和审批，而不仅由技术团队完成连接演示。管理员还要确认谁能看到资料和调用工具；如果没有人负责异常处理，跨系统自动化可能把原来的人工问题转成更难追踪的系统问题，不能只统计代理数量。"
+      }
+    ],
+    "workflow": [
+      {
+        "title": "事实｜Orchestrate提供集中协调和连接方向",
+        "evidence": "official",
+        "sourceIds": [
+          "orchestrate"
+        ],
+        "text": "官方说明其控制平面可管理不同代理，支持API及MCP、A2A等开放标准，并提供云和本地部署选择。连接能力是组装工作流的基础，但每个业务工具仍有实际授权和接口条件；开放标准名称不能等同所有第三方系统无需适配即可互通。"
+      },
+      {
+        "title": "判断｜复杂流程需要显式状态和交接",
+        "evidence": "analysis",
+        "sourceIds": [
+          "orchestrate"
+        ],
+        "text": "多个代理或系统参与后，任务可能在不同阶段失败，用户需要知道资料是否写入、操作是否重复及下一步由谁处理。编排产品的价值应在这种连续流程中评估，而不只是演示几个工具顺序调用；清晰的状态和回退安排往往比增加一个模型更重要。"
+      }
+    ],
+    "technology": [
+      {
+        "title": "事实｜混合环境与模型选择是产品重点",
+        "evidence": "official",
+        "sourceIds": [
+          "studio",
+          "pricing"
+        ],
+        "text": "watsonx.ai页面强调模型、框架与混合基础设施的选择，价格页区分IBM和第三方模型以及不同托管路径。选择范围广不表示各模型在能力、许可和部署方式上相同；表格中出现不可用项，也说明目录展示必须与实际可调用状态分开。"
+      },
+      {
+        "title": "验证｜将生成、预测和优化分别评测",
+        "evidence": "validation",
+        "sourceIds": [
+          "studio"
+        ],
+        "text": "同一业务问题可拆成信息提取、预测与约束求解，再检查哪些环节适合模型、哪些需要规则或优化器。生成一段看似合理的解释不代表约束已经满足；团队应保留原始输入、决策依据和验收标准，而不是让统一AI标签掩盖不同技术的失败方式。"
+      }
+    ],
+    "competition": [
+      {
+        "title": "判断｜竞争集中于企业实施与控制能力",
+        "evidence": "analysis",
+        "sourceIds": [
+          "studio",
+          "orchestrate"
+        ],
+        "text": "企业可使用其他云模型平台、传统自动化或自建代理框架，IBM的差异需要在现有系统整合及管理要求中体现。混合部署可能适合特定客户，却也带来实施和维护成本；不能只因客户重视控制就判断该平台必然优于更轻量的服务。"
+      },
+      {
+        "title": "验证｜比较完整实施而非功能勾选表",
+        "evidence": "validation",
+        "sourceIds": [
+          "orchestrate",
+          "pricing"
+        ],
+        "text": "评估可要求不同方案完成同一个含权限、异常和审计的工作流，记录配置时间与后续修改成本。许多平台都能列出相似代理功能，真正差异可能在连接稳定性、责任边界和支持；本目录没有实施项目或客户访谈，不能据宣传列表给出交付成功率。"
+      }
+    ],
+    "business": [
+      {
+        "title": "事实｜费用按模型和平台能力分别计算",
+        "evidence": "official",
+        "sourceIds": [
+          "pricing",
+          "orchestrate"
+        ],
+        "text": "watsonx.ai收费页包含token、按需托管小时及文本提取等不同项目，Orchestrate另有试用与商业计划。页面上的起始月费不等于全部模型、资源和实施服务都包含，地区税费和实际方案还需确认；采购需要把两个产品的范围分别列清。"
+      },
+      {
+        "title": "判断｜经济性需要计入流程维护",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing",
+          "orchestrate"
+        ],
+        "text": "大型组织可能愿意为统一管理和支持付费，但实施、培训及业务变化后的调整同样影响成本。若流程频率低或例外过多，平台能力未必转化成净收益；创业团队应研究持续维护如何收费与交付，而不是仅靠软件转售或理论自动化比例解释商业价值。"
+      }
+    ],
+    "experience": [
+      {
+        "title": "事实｜产品有试用也有商务配置",
+        "evidence": "official",
+        "sourceIds": [
+          "studio",
+          "orchestrate"
+        ],
+        "text": "官方提供试用和演示入口，部分方案可查看价格，较高隔离或特定部署则需要联系。试用适合探索功能，但不能证明客户已经获得生产容量和全部支持；目录把产品公开可接触与具体企业交付分开，不把联系按钮视为立即可用的标准套餐。"
+      },
+      {
+        "title": "验证｜观察非技术人员能否理解执行情况",
+        "evidence": "validation",
+        "sourceIds": [
+          "orchestrate"
+        ],
+        "text": "业务使用者需要知道代理依据什么资料、调用了什么工具、为何等待以及如何纠正结果。即使后台有集中控制，若前台只返回模糊成功消息，仍可能难以验收；试点应包括失败和人工接管，而不是只让实施人员演示预先准备好的流程。"
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜机会在行业知识与可验收流程",
+        "evidence": "analysis",
+        "sourceIds": [
+          "studio",
+          "orchestrate"
+        ],
+        "text": "创业团队可围绕特定行业把输入、约束和结果评价做成可复用方案，利用平台承担部分模型与编排工作。差异来自理解客户责任和例外情况，而非简单堆积连接器；是否能规模化交付需要观察不同客户之间有多少真正共性，不能由平台开放性推断。"
+      },
+      {
+        "title": "验证｜检查混合部署承诺的实际边界",
+        "evidence": "validation",
+        "sourceIds": [
+          "studio",
+          "pricing",
+          "orchestrate"
+        ],
+        "text": "应核对哪些组件可在目标环境运行、模型如何更新、费用和数据边界由谁负责，并验证第三方接口变化后的恢复。合规或安全相关宣传也需落到具体合同配置；本条只读取公开资料，没有申请试用、连接业务系统或检验厂商宣称的效果。"
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

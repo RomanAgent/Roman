@@ -1,0 +1,248 @@
+{
+  "id": "d-id",
+  "name": "D-ID（含 simpleshow）",
+  "aliases": [
+    "D-ID",
+    "simpleshow"
+  ],
+  "website": "https://www.d-id.com/",
+  "region": "以色列",
+  "regionNote": "按官方隐私政策 Contact us 列明 De-Identification Ltd. 在 Tel Aviv, Israel 的公司联系地址；同时条款区分美国实体，采用该运营主体口径而非单一全球总部判断。",
+  "category": "video",
+  "tags": [
+    "可视数字人",
+    "实时代理",
+    "讲解视频",
+    "知识库",
+    "交互界面"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "Studio 与 API 有公开入口，实时代理和自部署能力需要按具体方案核对，未测试目标地区真实交付。",
+  "ownershipNote": "官方 About 页面说明 2025 年收购 simpleshow，本目录将其归入 D-ID 整体，未另外统计公司或假定所有产品账户已经互通。",
+  "summary": "D-ID 面向企业沟通、客户解释与培训场景，把数字人视频和可嵌入的实时视觉代理作为交付形式，支持从脚本制作内容或把知识库与对话模型连接成带形象的交互入口。",
+  "analysisScope": "重点分析 Video Studio 与 Visual AI Agents 的制作和嵌入工作流，区别预生成讲解与实时对话；不把数字人表情等同理解用户情绪，也不全面评价收购后全部 simpleshow 功能。",
+  "sources": [
+    {
+      "id": "home",
+      "title": "数字人与代理产品",
+      "url": "https://www.d-id.com/",
+      "kind": "official-product",
+      "note": "读取视频工作室、实时代理及企业沟通定位。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "Studio 计费说明",
+      "url": "https://www.d-id.com/pricing/studio/",
+      "kind": "official-pricing",
+      "note": "读取视频分钟取整、月度资源、水印与取消后数据条件。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "docs",
+      "title": "开发接口快速开始",
+      "url": "https://docs.d-id.com/docs/quickstart",
+      "kind": "official-docs",
+      "note": "区分异步视频与 WebRTC 实时代理，知识库、模型配置和嵌入入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "company",
+      "title": "公司与 simpleshow 归属",
+      "url": "https://www.d-id.com/about-us/",
+      "kind": "official-company",
+      "note": "确认 2025 收购 simpleshow，不据营销使用量估计收入。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "ethics",
+      "title": "合成媒体使用原则",
+      "url": "https://www.d-id.com/ethics-in-ai/",
+      "kind": "official-docs",
+      "note": "读取输入权利、表演者同意及合成媒体透明性承诺。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-evidence",
+      "title": "D-ID 隐私与以色列公司联系地址",
+      "url": "https://www.d-id.com/privacy-policy/",
+      "kind": "official-company",
+      "note": "按官方隐私政策 Contact us 列明 De-Identification Ltd. 在 Tel Aviv, Israel 的公司联系地址；同时条款区分美国实体，采用该运营主体口径而非单一全球总部判断。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "d-id-studio-agents",
+      "name": "D-ID Video Studio 与 Visual AI Agents",
+      "url": "https://www.d-id.com/",
+      "kind": "platform",
+      "stage": "available",
+      "description": "提供脚本到数字人讲解视频，以及连接知识库和语言模型的实时视觉代理，帮助组织以统一形象解释信息并回应用户提问。",
+      "users": "需要数字讲解和可视客服入口的企业内容及开发团队。",
+      "delivery": "通过在线 Studio 制作，或以 API 和嵌入组件集成；预生成视频与实时流交付需要不同客户端和运行配置。",
+      "monetization": "工作室按方案提供分钟资源，接口有独立定价，实际视频时长可能按规定区间取整，企业能力按商务条件。",
+      "aiRole": "人物动画、语音生成与语言模型结合形成带形象的表达，实时代理可接入知识库；可视表现不保证回答事实正确或真的理解情绪。",
+      "limits": "输入形象声音和资料需要相应权利，实时代理仍需限定工具权限及错误处理；取消后的数据保留和地区可达性应在部署前核实。",
+      "sourceIds": [
+        "home",
+        "plans",
+        "docs",
+        "ethics"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "解释复杂信息",
+        "text": "企业可能需要比静态页面更容易理解的产品介绍和流程说明，数字人能提供稳定讲解形象。需求是否成立要看观众理解与任务完成，而不是头像是否像真人；若信息只需快速检索，一段视频反而可能增加获取答案的时间。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "对话入口",
+        "text": "实时视觉代理试图让用户在同一界面提问并得到回应，比固定视频多了互动能力。它的价值需要与普通文本客服比较，尤其要验证加入形象后是否减少困惑，不能先假定有脸的代理一定更可信或更适合全部人群。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "内容制作团队",
+        "text": "培训、营销和内部沟通人员可能需要反复制作相似讲解，并希望保持人物与品牌风格。数字人可减少重复拍摄，但他们仍要整理脚本和审核内容；没有稳定知识来源时，生成视频只是放大了原稿中不清楚的表达。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "开发和运营",
+        "text": "开发者负责嵌入代理、连接知识与管理实时会话，业务运营者则要维护回答范围和转人工条件。两类用户需要共同定义成功标准，否则技术上能流畅对话的代理，可能在业务上反复给出无用答案或把用户带到错误流程。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "预生成视频",
+        "text": "脚本、形象和声音准备后生成视频，经过审核再分发，是相对确定的内容流程。计费按时长并可能取整，意味着短片批量生产应注意切段方式；项目更新时也要保留源脚本和旧版本，不能只保存最终下载文件。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "实时会话",
+        "text": "实时代理需要建立会话、接收用户输入、调用知识和模型，再把回答以声音与形象传回。每一环节都影响等待与准确性，网站嵌入只是入口，仍要处理无答案、网络中断和用户希望转人工等情况，才算完成业务交付。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "模型可替换性",
+        "text": "官方文档允许配置语言模型或接入自己的模型，并使用知识库增强上下文，说明数字人层与回答逻辑可以分工。技术评价应分别检查检索是否正确、语言回答是否可靠和动画是否自然，不能只凭表情把整套系统称为理解人类。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "流媒体依赖",
+        "text": "实时视觉交互依赖网络和流媒体链条，其延迟要求比导出一段讲解视频更高。用户在等待回答时还会观察人物动作，若语音、口型和内容不同步，拟人化可能放大不适，必须在目标设备与带宽条件下验证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs",
+          "home"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "文本和真人替代",
+        "text": "知识库页面、文本机器人与真人客服都能回应问题，数字人需要证明额外制作和运行成本值得。对学习或展示场景，稳定讲解可能有优势；对紧急复杂支持，清楚转人工和准确检索往往比视觉形象更重要。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "平台整合",
+        "text": "收购 simpleshow 说明业务整合方向，但不能直接推断原有客户和全部工作流已经统一。竞争优势仍需在脚本、视频、互动与管理之间的衔接上验证，不能以公司组合后的产品数量代替实际可用的一体化体验。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "company",
+          "docs"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "时长与会话成本",
+        "text": "预生成视频按分钟资源计算，实时代理还涉及会话与接口条件，两者不宜混算。预算应以可用内容和完成任务的对话为单位，包含失败重试、审核与长期知识维护，而不是把理论最大视频分钟数当作真实业务产出。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "企业服务价值",
+        "text": "企业可能为品牌统一、权限与嵌入支持付费，这与个人制作一段趣味视频不同。商业观察应关注内容更新频率及代理解决问题的比例，不从官网列出的客户标志、视频总量或收购事件推导持续收入和商业成功。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home",
+          "company"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "形象与透明",
+        "text": "人物界面能让内容更具可接近感，也可能使用户误以为正在与真人交谈。体验应清楚标识合成身份，并让用户容易查看文字和来源；如果视觉表达影响阅读或拖慢操作，就需要提供更直接的非视频路径。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "验收建议",
+        "text": "建议用有限且可核实的产品知识建立测试代理，检查错误问题、无答案和转人工流程，再测试不同带宽的响应。还需核形象授权与撤回、数据导出和目标地区账户条件，本轮未实际创建头像或验证中国大陆交付。",
+        "evidence": "validation",
+        "sourceIds": [
+          "docs",
+          "ethics"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "身份授权",
+        "text": "官方原则强调素材权利、同意和合成标记，但这些承诺不能证明所有用户输入都合法。机会在于透明可控的数字讲解，风险是以真实人物形象说未经确认的话，因此组织应把脚本审核与身份使用权限作为持续流程。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "ethics"
+        ]
+      },
+      {
+        "title": "退出与连续性",
+        "text": "工作室说明取消、降级和长期不活跃后的数据条件，客户不应把云端项目视作永久档案。后续应验证源素材和会话记录能否导出，以及知识更新是否可追溯；实时代理产生的错误也要有负责修正的人，而非仅增加生成能力。",
+        "evidence": "validation",
+        "sourceIds": [
+          "plans",
+          "docs"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

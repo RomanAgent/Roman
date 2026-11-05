@@ -1,0 +1,248 @@
+{
+  "id": "microsoft",
+  "name": "Microsoft（含 GitHub Copilot）",
+  "aliases": [
+    "微软",
+    "Microsoft 365 Copilot",
+    "GitHub Copilot"
+  ],
+  "website": "https://www.microsoft.com/en-us/copilot/pricing/business",
+  "region": "美国",
+  "regionNote": "按微软集团主要业务主体记录；具体云区域、租户与服务可用性不由总部地区推定。",
+  "category": "productivity",
+  "tags": [
+    "办公助手",
+    "编程代理",
+    "企业权限",
+    "应用集成"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "已核Microsoft Copilot与GitHub Copilot公开方案及产品文档；许可证、用量计费和组织策略分别决定可用功能，不等同所有Microsoft订阅都包含全部AI。",
+  "ownershipNote": "按集团合并研究Microsoft与GitHub Copilot，不把Copilot名称下的不同应用当作独立公司；提供模型的第三方仍保留自己的公司档案。",
+  "summary": "微软把AI放进办公应用、组织资料与软件开发流程中，面向已有工作系统的团队和开发者减少任务切换；本条重点比较办公Copilot与GitHub Copilot的不同授权、用量和验收方式。",
+  "analysisScope": "八维围绕Microsoft Copilot办公体验及GitHub Copilot编码工作流展开，不覆盖全部Azure模型服务、安全产品、Windows功能或微软其他软件业务。",
+  "sources": [
+    {
+      "id": "office",
+      "title": "Microsoft Copilot当前业务方案",
+      "url": "https://www.microsoft.com/en-us/copilot/pricing/business",
+      "kind": "official-pricing",
+      "note": "已打开办公套餐和部分高级任务按量计费说明，不沿用旧统一席位价。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "github",
+      "title": "GitHub Copilot当前计划与AI Credits",
+      "url": "https://github.com/features/copilot/plans",
+      "kind": "official-pricing",
+      "note": "已打开个人及组织方案、聊天和代理消耗credits、补全与编辑建议区别；没有实际订购。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "overview",
+      "title": "Microsoft Copilot概览与权限范围",
+      "url": "https://learn.microsoft.com/en-us/copilot/plan/copilot-overview",
+      "kind": "official-docs",
+      "note": "已打开数据依据、Microsoft Graph/Work IQ、用户权限及不同许可证边界；旧365概览重定向至此。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "microsoft-copilot",
+      "name": "Microsoft Copilot 办公工作流",
+      "url": "https://learn.microsoft.com/en-us/copilot/plan/copilot-overview",
+      "kind": "app",
+      "stage": "available",
+      "description": "在办公应用和聊天入口中结合网页或组织资料辅助写作、分析与工作任务，不同许可证决定能使用哪些数据和更深的应用功能。",
+      "users": "使用Microsoft办公应用并需要组织协作的个人和企业员工。",
+      "delivery": "通过Microsoft应用与组织账户交付，管理员配置和用户权限影响资料可见范围及高级功能。",
+      "monetization": "办公套餐或附加许可证提供相应权益，部分高级代理体验按用量计费，具体基础授权需另核。",
+      "aiRole": "大语言模型结合网页或Microsoft Graph及Work IQ等组织依据生成内容和调用功能；资料权限仍按用户和租户配置约束。",
+      "limits": "不能把基础聊天与完整工作资料访问混为一谈；错误权限可能影响可检索内容，生成的文档、数字及行动仍需业务人员复核。",
+      "sourceIds": [
+        "office",
+        "overview"
+      ]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot 编码与代理",
+      "url": "https://github.com/features/copilot/plans",
+      "kind": "app",
+      "stage": "available",
+      "description": "把代码补全、聊天、代码审查与代理任务连接到开发者已有工具和仓库，按个人及组织计划提供不同额度与管理范围。",
+      "users": "需要编写、修改和审查软件的独立开发者及工程团队。",
+      "delivery": "通过支持的编辑器、命令行及GitHub相关入口交付，具体模型与功能由计划及组织策略决定。",
+      "monetization": "有免费和付费计划，聊天与代理等使用AI Credits；补全及下一编辑建议具有不同用量规则。",
+      "aiRole": "模型依据代码和任务上下文生成或修改代码，代理可参与多步开发工作；实际运行、测试与合并验收仍需要项目环境及团队流程。",
+      "limits": "Microsoft办公授权不自动等于GitHub全部权益，模型和入口支持不同；代码可生成不表示正确、安全或已获项目依赖的使用许可。",
+      "sourceIds": [
+        "github"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "事实｜办公与开发使用不同工作上下文",
+        "evidence": "official",
+        "sourceIds": [
+          "overview",
+          "github"
+        ],
+        "text": "Microsoft Copilot围绕办公应用、网页和组织资料工作，GitHub Copilot则进入代码与仓库流程。两者都使用Copilot名称，但输入资料、许可和验收者不同；目录按集团合并，不把名称相同理解为一个账号购买后即可在所有入口获得相同服务。"
+      },
+      {
+        "title": "判断｜机会来自日常工作里的连续衔接",
+        "evidence": "analysis",
+        "sourceIds": [
+          "office",
+          "github"
+        ],
+        "text": "微软路线的需求假设是用户希望在原有应用中完成任务，而非反复复制资料到独立聊天工具。是否有价值取决于实际文档和代码能否被适当访问，以及输出是否减少后续整理；拥有大量办公软件用户本身不能证明每个岗位都有相同AI付费意愿。"
+      }
+    ],
+    "users": [
+      {
+        "title": "事实｜租户权限决定组织资料可见范围",
+        "evidence": "official",
+        "sourceIds": [
+          "overview"
+        ],
+        "text": "官方概览说明Copilot体验因资料依据、集成深度和许可证而不同，组织访问受用户权限约束。能够使用基本网页聊天不等于已经获得工作资料或完整应用内能力；管理员、普通员工与个人消费者需要分别核查入口，不能用单一订阅名称替代权限说明。"
+      },
+      {
+        "title": "验证｜用不同岗位测试资料与交付",
+        "evidence": "validation",
+        "sourceIds": [
+          "overview",
+          "github"
+        ],
+        "text": "适合分别选择行政写作、数据分析和软件开发任务，观察用户是否知道哪些资料可用、哪些结果需要确认。管理人员还需要检查团队费用和访问策略；不能以工程师熟悉插件的经验代表普通员工，也不能用办公文案生成效果推断代码代理可靠性。"
+      }
+    ],
+    "workflow": [
+      {
+        "title": "事实｜资料依据与应用整合组成办公链条",
+        "evidence": "official",
+        "sourceIds": [
+          "overview",
+          "office"
+        ],
+        "text": "Copilot不仅调用模型，还结合网页和组织数据入口，并在Word、Excel、PowerPoint及其他应用中提供相应体验。不同许可证下的工作资料访问和高级功能存在差别，使用者需要确认当前入口；这类集成并不意味着模型可以绕过原有用户权限读取全部文件。"
+      },
+      {
+        "title": "判断｜开发代理需要接入现有审查制度",
+        "evidence": "analysis",
+        "sourceIds": [
+          "github"
+        ],
+        "text": "代码生成的价值要沿着任务、修改、测试、审查和合并的完整链条评估。若工程团队只接受局部补全，复杂云代理可能并非主要需求；若交给代理跨文件修改，环境复现与审查时间就更重要，不能仅以生成行数或自动完成步骤数衡量交付质量。"
+      }
+    ],
+    "technology": [
+      {
+        "title": "事实｜模型选择和代理用量具有入口差异",
+        "evidence": "official",
+        "sourceIds": [
+          "github",
+          "overview"
+        ],
+        "text": "GitHub方案页说明模型选项会随功能变化，代理、聊天和代码审查消耗相应AI Credits；办公概览也说明第三方模型并非默认向所有用户开放。因此不能把某个可选模型的能力推广到所有Copilot场景，也不应假设后台始终只采用一家模型供应商。"
+      },
+      {
+        "title": "验证｜分别检查资料检索和代码执行",
+        "evidence": "validation",
+        "sourceIds": [
+          "overview",
+          "github"
+        ],
+        "text": "办公任务可以检查引用资料、数字和权限，编码任务则应检查依赖、测试与边界行为。两者都需要代表性样本，但测试标准不一样；如果组织资料命名混乱或仓库缺少可运行环境，换一个更强模型未必解决问题，应先识别失败发生在哪一层。"
+      }
+    ],
+    "competition": [
+      {
+        "title": "判断｜与独立助手比较时要计入迁移成本",
+        "evidence": "analysis",
+        "sourceIds": [
+          "office",
+          "github"
+        ],
+        "text": "办公Copilot可与独立工作助手和传统模板流程比较，GitHub Copilot则与其他编辑器代理及人工开发工具比较。原有账号和应用整合可能减少切换，但组织绑定也会增加替换成本；不能把办公生态优势直接当作某个编码模型胜出的依据。"
+      },
+      {
+        "title": "验证｜保留完成同一任务的替代路径",
+        "evidence": "validation",
+        "sourceIds": [
+          "overview",
+          "github"
+        ],
+        "text": "可让团队使用原有软件功能、独立助手和Copilot处理同一批任务，记录准备、授权、复查和返工。对于高度规则化的数据处理，传统公式或脚本可能足够；对于多步骤开发，代理可能有帮助，但最终判断要基于可维护代码与业务结果而不是界面新颖程度。"
+      }
+    ],
+    "business": [
+      {
+        "title": "事实｜席位授权和按量消耗同时存在",
+        "evidence": "official",
+        "sourceIds": [
+          "office",
+          "github"
+        ],
+        "text": "当前办公方案区分许可内日常AI和部分高级用量体验，GitHub则提供计划与AI Credits机制。订阅费不自动覆盖每种长任务，办公和开发产品也有独立收费边界；预算应从所需功能和使用者出发，不能沿用历史单一月费概括集团全部AI服务。"
+      },
+      {
+        "title": "判断｜采购需要把管理和审查时间算进去",
+        "evidence": "analysis",
+        "sourceIds": [
+          "office",
+          "github"
+        ],
+        "text": "企业可能因为统一身份、应用整合和费用管理选择同一供应体系，但这些便利未必适用于所有岗位。真正的采购问题是哪些任务值得持续使用，何处仍需要专家复核；目录不把试用入口或厂商效率宣传当作已证明的生产力收益，也不推算替代人数。"
+      }
+    ],
+    "experience": [
+      {
+        "title": "事实｜不同入口仍有独立的学习与配置",
+        "evidence": "official",
+        "sourceIds": [
+          "overview",
+          "github"
+        ],
+        "text": "办公应用、聊天、编辑器和命令行各有操作方式，官方方案页也对功能和额度作区分。熟悉Microsoft品牌不能保证用户理解资料依据或AI Credits的消费规则；管理员还可能关闭某些能力，因此产品展示需要记录测试入口和实际授权状态。"
+      },
+      {
+        "title": "验证｜看提示是否帮助用户理解执行边界",
+        "evidence": "validation",
+        "sourceIds": [
+          "overview",
+          "office"
+        ],
+        "text": "体验研究可观察用户在开始任务前能否知道会访问哪些资料、是否产生额外用量，以及输出如何回到工作文档。失败时应能理解是权限、资料还是模型问题；若用户只能不断尝试而不能定位原因，原应用内集成的便利也可能被不确定感抵消。"
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜细分机会在资料治理和验收环节",
+        "evidence": "analysis",
+        "sourceIds": [
+          "overview",
+          "github"
+        ],
+        "text": "创业团队可以研究某类组织资料如何整理成可检索依据，或某类代码改动如何自动验证并交给负责人确认。这样的服务需要具体行业和项目经验，单纯再提供一个Copilot入口较难形成差异；需求仍须通过实际工作样本和长期使用意愿验证。"
+      },
+      {
+        "title": "验证｜跟踪授权变化与版本迁移",
+        "evidence": "validation",
+        "sourceIds": [
+          "office",
+          "github",
+          "overview"
+        ],
+        "text": "应持续核对许可证、按量功能、模型选项和地区开放，并为重要流程保留权限与测试记录。组织文件原本过度共享时，AI检索可能放大可发现性，需要先处理资料边界；本条只读取公开文档，没有连接企业租户、私有仓库或验证产品效果。"
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

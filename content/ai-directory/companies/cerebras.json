@@ -1,0 +1,258 @@
+{
+  "id": "cerebras",
+  "name": "Cerebras",
+  "aliases": [
+    "Cerebras Systems",
+    "Cerebras Inference",
+    "CS-4"
+  ],
+  "website": "https://www.cerebras.ai/",
+  "region": "美国",
+  "regionNote": "按官网页脚列示Sunnyvale加州公司联系地址口径归类，不推定全部云服务数据驻留位置。",
+  "category": "compute",
+  "tags": [
+    "晶圆级计算",
+    "推理云",
+    "CS-4",
+    "专用AI系统"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "推理云有API与开发评估入口，专用容量按协议交付；CS-4官网写首批计划于本季度发运，尚未核实当前实际出货，因此系统产品标为预览，不作为已普遍交付。",
+  "ownershipNote": "Cerebras推理云与晶圆级系统作为同一公司产品业务研究；模型提供方和渠道伙伴不视为Cerebras自有模型或股权归属，当前系统页已转向CS-4。",
+  "checkedAt": "2026-11-05",
+  "summary": "以晶圆级计算系统和推理云为AI开发者、模型团队及企业提供运行能力，关注交互延迟和专用容量；基础设施加速与模型答案质量是不同问题，不能将厂商速度宣传直接当作所有工作负载的实际表现。",
+  "products": [
+    {
+      "id": "cerebras-inference",
+      "name": "Cerebras Inference",
+      "url": "https://www.cerebras.ai/inference",
+      "kind": "infrastructure",
+      "stage": "available",
+      "description": "通过托管API及专用推理选项运行支持的模型，为交互式应用、代码与代理工作负载提供模型服务基础设施。",
+      "users": "构建AI应用的开发团队、模型服务商与有专用推理需求的企业。",
+      "delivery": "开发者通过云账户与API接入，专用容量按协议确认；支持模型、速率与预览功能应以当前文档和账户条件为准。",
+      "monetization": "提供开发评估、PayGo等云访问及企业协议选项，促销额度有期限；具体模型费率和专用容量需当前价格页确认。",
+      "aiRole": "基础设施负责执行已支持模型的推理，并提供流式、工具调用和结构化输出等接口能力；模型能力仍受所选模型及参数范围限制。",
+      "limits": "免费或开发层不应直接视为生产保障，模型迁移、速率和地区条件需要核实；更快生成不保证答案正确，也不证明整个应用端到端更快。",
+      "sourceIds": [
+        "cloud",
+        "docs",
+        "pricing"
+      ]
+    },
+    {
+      "id": "cerebras-cs-four",
+      "name": "Cerebras CS-4系统",
+      "url": "https://www.cerebras.ai/cs4",
+      "kind": "infrastructure",
+      "stage": "preview",
+      "description": "采用晶圆级计算和机架级系统设计提供专用AI推理基础设施，面向需要系统容量与部署支持的机构客户。",
+      "users": "建设AI数据中心、专用推理服务或大规模模型基础设施的组织。",
+      "delivery": "通过企业商务沟通确认系统、机房和支持要求；官网写首批计划于本季度发运，本轮未确认实际出货，不能当作现货或普遍交付。",
+      "monetization": "系统及相应部署支持采用项目采购，当前未核统一公开整机价格；机房、能源和运维费用不能由芯片宣传参数直接推算。",
+      "aiRole": "以WSE-3 Turbo和机架级互连承载推理工作，系统架构与模型映射共同影响性能；不是提供独立事实判断的通用模型本身。",
+      "limits": "硬件方案仍需模型支持、集成与资源验证，厂商与GPU的速度比较受负载和配置影响；本研究不推导成本优势、能效保证或生产交期。",
+      "sourceIds": [
+        "system",
+        "company"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "cloud",
+      "title": "Cerebras推理云当前产品",
+      "url": "https://www.cerebras.ai/inference",
+      "kind": "official-product",
+      "note": "已读取云API、试用与专用推理定位，不采用倍速和成本比较作为验证结论。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "system",
+      "title": "当前CS-4系统页",
+      "url": "https://www.cerebras.ai/cs4",
+      "kind": "official-product",
+      "note": "旧product-system跳转至CS-4，已读取WSE-3 Turbo与机架级系统；页面写首批本季度开始发运，本轮未确认实际出货，因此保留预览状态。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "pricing",
+      "title": "Cerebras当前推理价格边界",
+      "url": "https://www.cerebras.ai/pricing",
+      "kind": "official-pricing",
+      "note": "已读取开发评估不用于生产、PayGo、促销期限及协议可用性，不写未呈现的完整动态单价。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "docs",
+      "title": "Cerebras推理官方文档",
+      "url": "https://inference-docs.cerebras.ai/",
+      "kind": "official-docs",
+      "note": "已读取速率、模型、流式、结构化输出及预览标记，不把预览能力当全部正式开放。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "company",
+      "title": "Cerebras公司与联系资料",
+      "url": "https://www.cerebras.ai/",
+      "kind": "official-company",
+      "note": "页脚列Sunnyvale加州地址，并说明性能比较受工作负载和配置影响。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "分析围绕Cerebras托管推理和CS-4专用系统的不同交付路径，区分接口、容量和模型能力；不覆盖所有训练或科研产品，不采用厂商最快与节省比例作独立benchmark，也不估算设备成本和客户回报。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "交互延迟影响应用设计",
+        "text": "语音、代码和多步代理可能反复等待模型输出，降低推理延迟有机会改善交互与迭代。需求应以完整用户任务验证，不能只用输出令牌速度代表体验；数据检索、工具调用和网络等待也可能成为主要瓶颈。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "cloud"
+        ]
+      },
+      {
+        "title": "专用容量与共享API需求不同",
+        "text": "小团队可能先要方便调用模型，大型服务则关心可获得容量、隔离和持续性能。Cerebras同时提供云和系统方向，但采购应先明确需求，不能因为专用硬件技术独特便假定每个应用都需要自建部署。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "cloud",
+          "system"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "开发者需要模型与接口匹配",
+        "text": "应用团队首先要确认所需模型、上下文和工具接口是否支持，再考虑速度。用户研究应包含迁移现有提示和应用的过程，避免只让用户体验预设演示模型，而忽略实际业务依赖的能力缺口。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "系统客户承担基础设施责任",
+        "text": "购买专用系统的组织需要处理机房、网络与运维，和只用API的开发者不同。评估应让容量规划和运营人员参与，明确供应商支持与客户责任，不能以云试用简单就推断整机部署同样无需准备。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "system"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "先验证接口再扩生产负载",
+        "text": "开发者可以在评估环境测试请求和输出，但正式服务还要配置用量、监控与失败处理。价格页明确开发用途边界，试用通过应作为下一步验证的输入，不能直接当作生产容量、可用性或响应时间承诺。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing",
+          "docs"
+        ]
+      },
+      {
+        "title": "专用推理需要任务基线",
+        "text": "系统部署应使用代表性模型和请求建立基线，再检查并发、长输入和持续运行。研究建议保留应用质量与性能一起比较，避免为追求更快解码改变模型或参数后，却把结果视为完全相同的服务。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "cloud",
+          "system"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "晶圆级架构与软件适配",
+        "text": "CS-4采用晶圆级和机架系统设计，性能需要结合模型支持、映射与互连来评价。技术比较应明确具体配置和工作负载，不从芯片尺寸或单项参数直接推断端到端优势，也不把所有GPU系统视为统一对照对象。官网仍写首批计划本季度发运，本轮未取得实际出货证据，不能把当前展示当作现货交付。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "system"
+        ]
+      },
+      {
+        "title": "接口特性有模型与预览边界",
+        "text": "文档分别列流式、工具调用和预览功能，说明能力不能只按一个兼容接口概括。开发者应测试实际使用的字段、错误和模型行为，尤其预览模型可能变化，不能把接口相似理解为所有语义和稳定性完全一致。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "与GPU云及其他推理服务比较",
+        "text": "替代方案包括GPU云、自托管和其他专用推理平台，选择取决于模型覆盖、延迟和运营条件。应在相同模型与质量要求下比较真实请求分布，而不是将厂商最佳演示与另一服务的不同配置直接排序。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "cloud",
+          "system"
+        ]
+      },
+      {
+        "title": "速度与功能覆盖之间的选择",
+        "text": "应用可能需要微调、特定模型或复杂工具协议，这些需求可能比最快输出更重要。研究应让团队先列必须能力，再验证性能增益是否值得迁移，不能把一个吞吐指标当作所有AI基础设施的通用优劣标准。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "评估额度和生产费用分开",
+        "text": "当前价格页将促销额度、PayGo和企业协议条件区分，免费体验不能作为长期成本估计。应根据真实输入输出及重试记录预算，检查额度耗尽后行为，本研究未获取实际账单，不推算统一应用节省金额。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing"
+        ]
+      },
+      {
+        "title": "整机采购需要完整成本口径",
+        "text": "CS-4系统价值涉及容量利用率、部署和持续运维，不能只比较硬件或单次推理费用。采购应明确负载变化与闲置风险，并核对支持及升级安排；公开产品页没有足够信息推算普遍回本周期。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "system"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "快速输出仍要可理解地失败",
+        "text": "请求限流、模型不可用或流式中断时，开发者需要清楚错误和恢复方式。体验评价应包含这些生产常见情境，不能只看成功回答的速度；如果失败重试难以控制，较快生成也可能增加整体应用复杂度。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "从开发到专用服务的衔接",
+        "text": "团队扩大使用时，需要知道账户、模型和容量条件如何变化。研究应检查监控、用量与服务支持是否一致，避免试用路径顺畅却在正式部署时出现未说明限制，尤其协议能力不能被误读为默认包含。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing",
+          "cloud"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "模型正确性不能由算力替代",
+        "text": "更快推理可能允许更多迭代，但错误答案也会更快进入应用。产品机会在提供稳定且可观察的执行基础，应用方仍需独立评估内容和工具行为，不能用基础设施速度证明模型可靠或业务决策正确。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "cloud",
+          "docs"
+        ]
+      },
+      {
+        "title": "性能宣传需按自身负载验证",
+        "text": "官方本身说明比较受模型和配置影响，采购应保留自己的代表性测试与质量要求。未来系统或模型更新也需复测，不能把一次benchmark、客户案例或计划容量直接当作持续交付和商业成功保证。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "company",
+          "system"
+        ]
+      }
+    ]
+  }
+}

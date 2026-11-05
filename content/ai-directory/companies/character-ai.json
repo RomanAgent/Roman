@@ -1,0 +1,268 @@
+{
+  "id": "character-ai",
+  "name": "Character.AI",
+  "aliases": [
+    "Character Technologies",
+    "c.ai"
+  ],
+  "website": "https://character.ai/",
+  "region": "美国",
+  "regionNote": "浏览器实际读取当前隐私政策，Character.AI 列 Menlo Park, California 法律联系地址；按服务主体联系国家归类，不将出售程序中的未来归属当成已核定总部。",
+  "category": "agents",
+  "tags": [
+    "角色对话",
+    "互动叙事",
+    "创作者社区",
+    "世界观记忆",
+    "业务调整"
+  ],
+  "audience": "consumer",
+  "stage": "transition",
+  "stageNote": "官方 2026-10-12 公告称启动自愿 Chapter 11 法院监督出售程序，平台及订阅当时继续运行；若无可执行收购方案可能关闭，不能据现有入口承诺长期交付。",
+  "ownershipNote": "以 Character.AI 产品业务整体收录；出售流程尚未完成的公告不代表已被某买家收购，本篇不根据传闻确定最终归属。",
+  "summary": "Character.AI 面向角色扮演、同人故事与日常娱乐用户，通过可创建角色、记忆和世界观材料组织持续对话；当前同时存在公开服务与公司出售流程，商业状态需要单独标注。",
+  "analysisScope": "本篇围绕角色对话、记忆与 Lorebook 创作工作流研究用户价值及商业边界，并结合最新官方业务调整公告；不把所有实验性娱乐模式视为正式稳定产品，也不评价诉讼结果。",
+  "sources": [
+    {
+      "id": "update",
+      "title": "业务调整公告",
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "kind": "official-company",
+      "note": "2026-10-12 官方称自愿 Chapter 11、出售流程、服务继续及未找到方案可能关闭。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "聊天风格与 lite 订阅",
+      "url": "https://blog.character.ai/new-styles-new-plan/",
+      "kind": "official-product",
+      "note": "读取免费及付费聊天风格、广告、记忆权益和逐步开放说明。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "memory",
+      "title": "记忆功能说明",
+      "url": "https://blog.character.ai/memory/",
+      "kind": "official-product",
+      "note": "读取 Story Memory、Facts 与记忆容量显示的功能边界。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "lore",
+      "title": "Lorebook 官方介绍",
+      "url": "https://blog.character.ai/lorebook/",
+      "kind": "official-product",
+      "note": "介绍关键词触发世界观条目；发布时 beta 且订阅者先开放。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "age",
+      "title": "年龄确认帮助入口",
+      "url": "https://support.character.ai/hc/en-us/sections/52034434819611-About-Age-Assurance",
+      "kind": "official-docs",
+      "note": "只据帮助页确认存在年龄核验与不同使用模式，未据此猜各地区具体年龄规则。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-evidence",
+      "title": "Character.AI 当前隐私与联系地址",
+      "url": "https://character.ai/privacy",
+      "kind": "official-company",
+      "note": "实际在 Chrome 读取动态页面，2026-07-01 生效政策 Contact 段列美国 Menlo Park 地址。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "character-chat",
+      "name": "Character.AI 角色对话与记忆",
+      "url": "https://character.ai/",
+      "kind": "app",
+      "stage": "available",
+      "description": "允许用户与设定角色持续互动，通过聊天风格、固定记忆和人物事实管理支持娱乐性角色扮演与长篇故事对话。",
+      "users": "以角色扮演、虚构故事和陪伴式娱乐为目的的用户。",
+      "delivery": "通过网页和移动应用联网交付，具体聊天风格、记忆容量及年龄体验受账户条件影响。",
+      "monetization": "提供免费体验及 lite、c.ai+ 等付费层级，广告、优先资源和记忆权益按当前订阅区分。",
+      "aiRole": "语言模型生成角色回答，记忆功能保存用户指定事件和抽取的人物事实；人物连续性是产品设计目标而非真人意识或可靠事实证明。",
+      "limits": "公司正在出售程序中，官方提示可能关闭且订阅暂继续；角色回答可能偏离设定，年龄核验和地区条件需按账户检查，中国完整可达性未验证。",
+      "sourceIds": [
+        "update",
+        "plans",
+        "memory",
+        "age"
+      ]
+    },
+    {
+      "id": "character-lorebook",
+      "name": "Lorebook 世界观创作",
+      "url": "https://blog.character.ai/lorebook/",
+      "kind": "app",
+      "stage": "preview",
+      "description": "创作者把地点、关系、事件等整理为可重复使用的世界观条目，再与一个或多个角色关联，帮助长故事保持背景一致。",
+      "users": "需要构建连续故事和多个关联角色的社区创作者。",
+      "delivery": "在网页创作条目和关键词并绑定角色，聊天中按相关内容取用，移动入口与具体权限依产品开放情况。",
+      "monetization": "官方发布时提供给 c.ai+ 订阅者优先使用，不能假定所有免费账户均具有同等创建与访问权限。",
+      "aiRole": "通过关键词关联检索背景知识并供生成回答使用，减少把全部世界观挤在角色定义中的需求，但关联条目不保证每次被正确引用。",
+      "limits": "官方定位为持续开发的 beta，本轮未证明已全面结束预览；世界观条目需创作者维护，现有公司业务调整也可能影响长期保存和访问。",
+      "sourceIds": [
+        "lore",
+        "memory",
+        "update"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "互动故事需求",
+        "text": "角色对话的需求更接近参与故事和即时得到回应，而不是查询正确答案。记忆与聊天风格围绕这一点减少剧情断裂；但愿意反复回到同一角色是否构成长期价值，需要区别主动创作、消遣和被通知驱动的短期使用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "memory"
+        ]
+      },
+      {
+        "title": "世界观劳动",
+        "text": "长篇角色扮演中，重复解释人物关系和场景规则会打断体验。Lorebook 将这些内容变成可编辑资源，为创作者提供明确工具价值；同时整理条目本身也需要时间，只有重复使用的故事才可能充分回收这部分投入。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "lore"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "读者与玩家",
+        "text": "消费用户可能只想快速对话，不愿学习复杂人物配置，因此默认风格和角色发现影响首次体验。重度角色扮演者却需要更长记忆和细粒度控制，两类人对速度、篇幅与设置的偏好不同，不宜以单一聊天时长概括需求。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "创作者生态",
+        "text": "角色创作者是内容供给方，也可能是付费使用者，其投入包括人设、世界观和纠错。平台需要让这些劳动可管理和可迁移；仅增加生成能力并不能保证创作者愿意持续维护人物，更不能把社区内容量等同于有效商业供给。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "lore",
+          "memory"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "长对话维护",
+        "text": "用户先选择角色与聊天方式，再通过对话建立剧情并把关键事件固定到记忆中。自动抽取事实与手动固定并存，意味着用户需要能纠正错误记忆；否则一次误解会在后续多轮互动中重复出现并侵蚀角色一致性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "memory"
+        ]
+      },
+      {
+        "title": "共用设定",
+        "text": "将同一 Lorebook 关联到多个角色，有机会减少反复维护背景资料的工作。实际流程仍要处理词语触发过宽、多个条目矛盾和旧设定更新，创作者应能理解当次回复参考了什么，而不是把条目库当作永远生效的规则引擎。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "lore"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "记忆不等于人格",
+        "text": "不同聊天风格影响回复长度和角色表达，记忆系统补充长期上下文。它们使互动看起来连续，却不证明系统拥有情感或真实经历；产品分析需要把生成语言、保存信息与用户感受分开，避免用人格化宣传替代机制解释。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "memory"
+        ]
+      },
+      {
+        "title": "检索约束",
+        "text": "官方说明世界观条目通过关键词进入相关对话，这种条件化上下文可以帮助控制生成内容。需要关注模糊指代、同义词和跨条目关系是否被处理；未公开的模型训练与评估细节不宜推断，也不能保证复杂故事的全局逻辑一致。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "lore"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "娱乐替代",
+        "text": "替代品包括互动小说、社交角色扮演和通用聊天助手，不同方案在故事控制权和即时互动上各有取舍。Character.AI 的潜在差异是角色发现与共享社区，但若用户只需要短暂闲聊，角色资产可能不足以形成持续转换成本。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "平台迁移",
+        "text": "可重复使用的世界观和人物记录提高创作深度，也增加平台依赖。业务调整使迁移问题从抽象风险变为具体需求；能否保留人物设置和重要聊天，比再增加一个新聊天风格更可能影响创作者愿意继续投入多少时间。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "lore",
+          "update"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "订阅分层",
+        "text": "免费、轻量订阅和完整订阅把资源优先级、广告与记忆管理分层出售，适合不同使用强度。需要验证用户为哪一项实际付费，而非把更长对话都归因于高级模型；不断改变权益也会影响现有订阅者对价格公平性的判断。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "经营不确定性",
+        "text": "官方公告确认出售程序并说明当时订阅仍运行，说明产品使用入口与企业持续经营必须分开描述。这里不能从社区热度推导经营健康，也不能预测出售成败；采购或长期订阅决策应考虑服务变更和数据保留安排。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "update"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "可见记忆",
+        "text": "记忆使用量和可编辑人物事实让用户有机会理解对话为何忘记或误记，是比单纯宣称更聪明更可检查的体验。若界面清楚展示哪些内容被固定，用户可以主动维护剧情；但复杂管理也可能增加轻度娱乐用户的负担。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "memory"
+        ]
+      },
+      {
+        "title": "验证人群差异",
+        "text": "应分别测试首次进入的轻度用户、长篇故事创作者和需要年龄确认的账户，观察设置是否容易理解。还需核对不同地区商店和支付是否开放；中文可输入并不等于中国大陆能稳定订阅，本轮没有完成地区交付实测。",
+        "evidence": "validation",
+        "sourceIds": [
+          "age",
+          "plans"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "连续服务边界",
+        "text": "公司公告已明确存在找不到交易方案时关闭的平台风险，同时产品涉及个性化角色互动与用户聊天记录。机会在于透明迁移和可控记忆，而非通过更强拟人化弱化用户对软件性质的理解；敏感信息处理应依最新政策核对。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "update",
+          "age"
+        ]
+      },
+      {
+        "title": "建议下一步",
+        "text": "建议在继续投入长故事前验证导出内容能否包含角色设定、固定记忆与完整上下文，并记录取消订阅及删除流程。商业评估应跟踪实际留存和用户福祉反馈，而不是只观察每日消息数量，出售进程则需后续官方公告持续更新。",
+        "evidence": "validation",
+        "sourceIds": [
+          "update",
+          "memory"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

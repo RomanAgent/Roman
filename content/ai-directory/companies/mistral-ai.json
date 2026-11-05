@@ -1,0 +1,246 @@
+{
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "aliases": [
+    "Mistral",
+    "Le Chat",
+    "Mistral Vibe",
+    "Mistral Studio"
+  ],
+  "website": "https://mistral.ai/products/vibe/",
+  "region": "法国",
+  "regionNote": "按Mistral AI法国公司业务口径记录；私有部署、云处理区域和合同主体须分别核查，不能仅凭欧洲品牌推定所有数据留欧。",
+  "category": "foundation",
+  "tags": [
+    "工作代理",
+    "代码代理",
+    "模型平台",
+    "私有部署"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "原Le Chat入口现指向Vibe，官方文档区分Vibe、Studio和Admin；免费、付费和企业方案并存，部分连接功能明确Beta。",
+  "ownershipNote": "Le Chat历史品牌、Vibe、Studio及模型族均归于Mistral AI，不把命名更新拆成公司；模型伙伴或企业部署渠道不视为公司归属变化。",
+  "summary": "Mistral以Vibe提供个人和团队工作及编码代理，以Studio提供模型与应用开发能力，并为企业提供定制部署路径；本条重点是任务入口和部署控制的组合，避免沿用只有聊天或只有权重发布的旧定位。",
+  "analysisScope": "分析Vibe工作与编码入口、Studio模型开发及企业部署边界，不覆盖全部模型变体或行业定制服务；涉及开放权重时只提醒逐模型许可核查，不给统一授权结论。",
+  "sources": [
+    {
+      "id": "vibe",
+      "title": "Mistral Vibe当前产品页",
+      "url": "https://mistral.ai/products/vibe/",
+      "kind": "official-product",
+      "note": "已打开Le Chat旧地址的重定向目标，确认工作与编码代理定位，不引用客户Logo作效果证据。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "pricing",
+      "title": "Mistral当前方案及API计费说明",
+      "url": "https://mistral.ai/pricing/",
+      "kind": "official-pricing",
+      "note": "已打开免费、Pro、Team、Enterprise与API计量说明；套餐可能包含有限API credits，具体权限与公平使用限制另核。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "docs",
+      "title": "Mistral官方平台文档",
+      "url": "https://docs.mistral.ai/",
+      "kind": "official-docs",
+      "note": "已打开Vibe、Studio、Admin三类入口，区分工作使用、开发和组织控制。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "mistral-vibe",
+      "name": "Mistral Vibe（原 Le Chat）",
+      "url": "https://mistral.ai/products/vibe/",
+      "kind": "app",
+      "stage": "available",
+      "description": "将对话、资料工作和编码任务放在共同代理入口中，支持通过所连接知识与工具推进任务；旧Le Chat名称保留为历史检索别名。",
+      "users": "希望完成研究、内容工作与软件任务的个人和协作团队。",
+      "delivery": "提供网页、移动及编码工具等使用路径，连接器、组织功能和私有部署依具体方案配置。",
+      "monetization": "有有限免费、个人和团队订阅及企业定制方案，部分套餐含有限API额度，超额及公平使用条件需另核。",
+      "aiRole": "模型结合检索和连接工具推进工作，编码代理可进入开发环境；任务规划不代表无需人工复查，连接器的权限和成熟度影响实际能力。",
+      "limits": "部分连接能力标为Beta，企业私有部署不能套到普通免费账号；套餐额度、模型和入口可能更新，不能把长期任务描述理解为任意任务保证成功。",
+      "sourceIds": [
+        "vibe",
+        "pricing",
+        "docs"
+      ]
+    },
+    {
+      "id": "mistral-studio",
+      "name": "Mistral Studio / 模型 API",
+      "url": "https://docs.mistral.ai/",
+      "kind": "platform",
+      "stage": "available",
+      "description": "为开发者提供控制台、模型接口、评估及代理开发入口，把生成、文档或音频等能力嵌入自己的应用，并通过组织管理配置访问。",
+      "users": "需要模型调用、文档处理或自有代理开发的软件团队。",
+      "delivery": "通过Studio控制台、API及SDK交付，企业自托管或定制部署需另按模型和方案确认。",
+      "monetization": "多数模型按输入输出token计费，OCR、语音和工具采用不同单位；适用套餐credits与独立使用量仍需核对。",
+      "aiRole": "模型分别承担语言、代码、文档与音频理解生成，平台组织评估和应用开发；不同模型和部署方式的能力及许可不统一。",
+      "limits": "开放权重不等于所有商业使用条件一致，需逐模型读许可；API和私有部署还涉及资源、维护及数据条款，不能用一个套餐概括全部费用。",
+      "sourceIds": [
+        "docs",
+        "pricing"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "事实｜旧Le Chat已转为Vibe产品入口",
+        "evidence": "official",
+        "sourceIds": [
+          "vibe",
+          "docs"
+        ],
+        "text": "本轮访问原Le Chat地址进入Vibe，官方文档把它描述为工作与编码统一代理，并另列Studio和Admin。目录保留历史别名帮助查找，但以当前交付方式分析；模型、聊天和开发工具不再适合用一个旧产品名称覆盖，也不因此增加公司数量。"
+      },
+      {
+        "title": "判断｜连续任务是比单轮对话更具体的需求",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vibe"
+        ],
+        "text": "用户可能需要从资料研究转到文档或代码产物，希望少重复解释背景。统一入口能否带来价值，要看上下文和工具是否真的服务同一任务；若各环节仍需手工修正，功能集合未必降低总负担，研究应观察最终结果和交接而非仅比较回答长度。"
+      }
+    ],
+    "users": [
+      {
+        "title": "事实｜个人、团队和企业部署有不同条件",
+        "evidence": "official",
+        "sourceIds": [
+          "pricing"
+        ],
+        "text": "定价页区分免费、Pro、Team和Enterprise，后者包含定制模型、代理或私有部署方向。普通用户可以探索现成工具，企业则需要确认管理和环境；不能把企业方案中的部署控制与支持直接写成每个个人账号都具备，也不把公平使用限制描述为无限容量。"
+      },
+      {
+        "title": "验证｜关注部署要求来自谁",
+        "evidence": "validation",
+        "sourceIds": [
+          "pricing",
+          "docs"
+        ],
+        "text": "一些团队只想提高资料和开发效率，另一些需要控制运行环境或组织权限，两类采购动机不同。可以先询问用户为何需要特定部署，再观察实际任务和管理员工作；如果没有明确资料边界或维护能力，私有部署本身未必值得额外投入。"
+      }
+    ],
+    "workflow": [
+      {
+        "title": "事实｜Studio与Admin承担不同平台工作",
+        "evidence": "official",
+        "sourceIds": [
+          "docs"
+        ],
+        "text": "官方文档将Studio作为开发控制台与API入口，包含密钥、试验、评估和代理相关能力，Admin负责组织、账单及访问策略。这样的划分有助于区分应用开发与治理，但仍需团队配置；不是用户打开Vibe后就自动拥有全部后台管理流程。"
+      },
+      {
+        "title": "判断｜工作与代码衔接需要可检查的产物",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vibe",
+          "pricing"
+        ],
+        "text": "研究、文稿和软件任务连接起来后，产物应能被回看、继续编辑和验证，不能只留在聊天记录里。远程编码或多步骤工作可能减少切换，也可能增加状态理解成本；评价应检查用户怎样接管和修正，而不是把代理运行时间长视为更高质量。"
+      }
+    ],
+    "technology": [
+      {
+        "title": "事实｜不同模态有不同模型和接口方向",
+        "evidence": "official",
+        "sourceIds": [
+          "pricing",
+          "docs"
+        ],
+        "text": "官方方案说明将一般任务、代码、OCR和语音等需求对应不同模型或服务，计量单位也不同。它们不能当作一个统一模型的全部能力，模型选择需要任务依据；目录不凭名称或品牌把文档识别表现推广到长任务推理，也不采用最强等宣传作结论。"
+      },
+      {
+        "title": "验证｜对文档和代码建立不同错误清单",
+        "evidence": "validation",
+        "sourceIds": [
+          "docs"
+        ],
+        "text": "文档任务可核对布局、字段和引用，编码任务需检查依赖、运行和测试；同一个回答满意度不足以覆盖两者。若底层模型或工具更新，应重新检查代表样本，特别是已有项目中的约束；本研究没有执行基准或真实部署，不声称复现官方效果。"
+      }
+    ],
+    "competition": [
+      {
+        "title": "判断｜自主部署是取舍而非万能优势",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing"
+        ],
+        "text": "Mistral的企业部署选择可能适合重视运行控制的客户，但自管也意味着环境、更新和维护责任。与托管助手或其他模型平台比较时，应确认谁负责数据和服务，而不是以欧洲公司或开放权重标签直接推断更安全、更便宜或更适合所有组织。"
+      },
+      {
+        "title": "验证｜比较迁移后的工具和管理成本",
+        "evidence": "validation",
+        "sourceIds": [
+          "docs",
+          "pricing"
+        ],
+        "text": "可用同一任务观察现成Vibe、API自建和适用企业部署之间的操作差异，检查哪些连接和管理要重新实现。权重可取得并不等于整个应用可迁移，模型许可也应逐个确认；本目录不依据一段FAQ概括所有模型的商业权利或部署成本。"
+      }
+    ],
+    "business": [
+      {
+        "title": "事实｜订阅和API存在交叉但并非无限共用",
+        "evidence": "official",
+        "sourceIds": [
+          "pricing"
+        ],
+        "text": "当前套餐展示部分API credits，同时API按模型及不同服务单位计费，超额使用另有机制。不能照搬完全独立或完全包含的旧概括；OCR按页、语音按时长和工具按调用等形式，也要求客户结合任务组合估算，而不是只比较文本token价格。"
+      },
+      {
+        "title": "判断｜付费价值需要看实际任务组合",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing",
+          "vibe"
+        ],
+        "text": "如果用户只偶尔聊天，编码和长任务额度未必形成价值；如果团队同时处理资料和软件，统一方案可能更容易管理。企业还需计入连接、复核和支持费用，本目录没有客户采用率或收入资料，不把套餐丰富或价格较低当作商业成功证明。"
+      }
+    ],
+    "experience": [
+      {
+        "title": "事实｜连接器和模式存在成熟度差异",
+        "evidence": "official",
+        "sourceIds": [
+          "pricing"
+        ],
+        "text": "定价功能表将部分连接器及自定义MCP连接标为Beta，远程编码和其他能力又有相应方案范围。产品已经公开使用，不代表每项功能都具有相同稳定性；目录分别保留成熟度和权限边界，避免用户把一张功能表理解为全部账户当前无条件可用。"
+      },
+      {
+        "title": "验证｜体验应覆盖连接失效与任务恢复",
+        "evidence": "validation",
+        "sourceIds": [
+          "vibe",
+          "docs"
+        ],
+        "text": "用户需要知道资料源断开、远程任务失败或额度不足时怎样继续，管理员则要能查看执行与费用。若失败只能重新开始，长任务代理的价值会受到限制；测试应包括这些情况以及产物导出，而不只重复官网预先准备的顺畅演示。"
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜机会在控制要求明确的工作场景",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pricing",
+          "docs"
+        ],
+        "text": "创业团队可选择对资料处理、部署和验收有明确要求的细分工作，为客户组织输入、工具及检查流程。这样更容易形成可解释差异，而不是泛称提供主权AI；需求要通过实际采购和维护责任验证，不能由地区身份或政策关注直接推定。"
+      },
+      {
+        "title": "验证｜持续核对品牌、许可和套餐变更",
+        "evidence": "validation",
+        "sourceIds": [
+          "vibe",
+          "pricing",
+          "docs"
+        ],
+        "text": "从Le Chat到Vibe的变化说明产品定位和入口会调整，团队需保留当前文档、模型和任务评测。不同权重的授权、连接器的数据访问及企业部署承诺应逐项核对；本条只读取官方资料，没有购买、安装或上传私人文件，也不提供统一许可法律结论。"
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

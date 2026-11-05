@@ -1,0 +1,179 @@
+# Apple
+
+综合平台与云AI · 美国 · 核查 2026-11-05
+
+Apple把AI嵌入设备操作系统和应用，并向开发者提供模型框架，让用户在日常沟通、内容和应用交互中使用生成能力；核心边界是终端资格、端云分工与地区开放，而非独立通用API订阅。
+
+**业务入口：公开产品入口**。Apple Intelligence已随符合条件的系统和设备交付，当前支持页另标Siri AI为Beta；中国大陆和语言条件明确受限，不按设备销量推断AI覆盖。
+
+公司与集团：Apple Intelligence、Siri及Foundation Models作为Apple同一产品体系研究，不将终端型号或模型运行位置拆成公司；外接模型提供商不并入Apple。
+
+地区口径：按Apple公司主要业务主体归入美国；产品可用性受设备、系统、语言和账户地区共同影响。
+
+[公司官网](<https://www.apple.com/apple-intelligence/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/apple)
+
+## 重点产品
+
+### Apple Intelligence / Siri AI
+
+应用 · 已公开提供
+
+在符合条件的Apple设备及系统中提供沟通、内容处理与助手功能，以用户已有应用和上下文为入口；Siri AI与其他功能需分别核对成熟度。
+
+目标用户：使用受支持Apple设备并希望减少日常应用操作的个人用户。
+
+AI作用：端侧与服务端模型参与生成、理解及应用任务，具体功能不应统一描述为完全离线；个人上下文与系统整合构成主要产品路径。
+
+使用与交付：随合资格操作系统与设备交付，部分模型先下载到设备，语言、地区和功能还存在额外条件。
+
+收费形式：主要随设备与系统体验交付；当前部分服务端功能有日限额，官方所说未来付费扩展不能当作现有定价。
+
+产品边界：Siri AI在当前支持页标为Beta，语言和地区有限；中国大陆购买设备及特定账户地区组合仍受限制，不能把硬件支持等同功能可用。
+
+[产品入口](<https://www.apple.com/apple-intelligence/>) · [Apple Intelligence与Siri产品页](<https://www.apple.com/apple-intelligence/>) · [Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+### Foundation Models 框架
+
+平台 · 已公开提供
+
+为Apple应用开发者提供语言理解、结构化生成和工具调用接口，可以按任务使用端侧或服务器模型并管理会话，使AI成为应用功能的一部分。
+
+目标用户：开发Apple平台应用并需要集成生成能力的技术团队。
+
+AI作用：模型生成符合应用结构的数据并调用自定义工具，框架管理会话和模型能力；端侧、Private Cloud Compute及其他提供商具有不同依赖。
+
+使用与交付：以开发框架和系统模型接口交付，应用需检测设备与模型可用性，并自行实现业务工具和界面。
+
+收费形式：本轮公开框架页未确立所有云模型和第三方调用的统一收费，不能用旧端侧免费描述保证全部路径无成本。
+
+产品边界：结构符合类型不代表事实正确，模型可用性随设备和系统变化；应用应处理不支持、下载或限额状态，并分别核对云端服务与第三方条款。
+
+[产品入口](<https://developer.apple.com/documentation/foundationmodels>) · [Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>) · [Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+## 八维产品分析
+
+本条分析Apple Intelligence与Siri入口，以及Foundation Models开发框架；不覆盖全部Apple硬件、芯片路线或每个系统功能，也不把端侧能力扩展到所有云端任务。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 事实｜AI直接进入操作系统应用 · 官方资料
+
+Apple Intelligence通过设备系统中的应用功能和助手入口交付，用户不必先选择一个独立模型API。当前支持资料仍要求特定设备、系统和语言，说明它是一组有条件的功能；不能因为用户持有Apple产品，就认为已经获得所有最新AI体验。
+
+依据：[Apple Intelligence与Siri产品页](<https://www.apple.com/apple-intelligence/>) · [Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+### 判断｜日常小任务的便利可能更重要 · 研究判断
+
+其需求假设是用户希望在消息、照片或网页等当前场景直接得到帮助，而不是复制内容到另一个服务。体验价值可能来自减少几个重复步骤，未必表现为长篇对话；创业研究应观察高频操作是否被简化，不宜把整机销量直接换算成独立AI市场需求。
+
+依据：[Apple Intelligence与Siri产品页](<https://www.apple.com/apple-intelligence/>)
+
+## 目标用户
+
+### 事实｜硬件资格之外仍有软件条件 · 官方资料
+
+官方支持页除设备清单外，还规定系统版本、设备与Siri语言一致以及模型存储等条件。语言变更可能需要重新下载，部分功能有不同范围；这意味着同一设备在不同状态下体验也会不同，用户画像不能只按机型或购买时间简单划分。
+
+依据：[Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+### 验证｜按真实设备与语言组合试用 · 待验证
+
+可以选取目标用户实际使用的设备、语言和账户地区，记录是否能找到功能、是否需要等待模型，以及哪些应用支持。不能只用发布演示的高配设备代替整个用户群；企业或家庭同时使用多种终端时，还应看任务是否能够跨越不支持AI的设备完成。
+
+依据：[Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+## 产品与工作流
+
+### 事实｜开发框架允许模型参与应用工具 · 官方资料
+
+Foundation Models提供会话、结构化生成和自定义工具调用接口，模型可以查询应用的数据源或调用服务。开发者需要定义这些工具和具体用途，框架并不会自动知道所有业务规则；生成合适数据结构与正确完成用户任务是两项不同的要求。
+
+依据：[Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>)
+
+### 判断｜应用内集成需要保留原有交互 · 研究判断
+
+在笔记、游戏或整理工具中，AI更适合作为完成明确动作的一步，而不是把整个应用都改成聊天。用户需要可预测的结果与撤销方式，也需要在模型不可用时继续使用基础功能；这类设计取舍比仅在界面增加一个AI按钮更能体现产品差异。
+
+依据：[Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>)
+
+## AI技术与依赖
+
+### 事实｜当前框架不再只能概括为端侧 · 官方资料
+
+本轮官方文档同时介绍端侧模型、Private Cloud Compute以及其他模型提供者路径，按任务选择能力。支持页也明确部分服务端功能存在用量条件，因此不能把Apple AI整体写成无需联网、永不上传或所有推理都在手机上完成，实际分工须对应具体功能。
+
+依据：[Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>) · [Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+### 验证｜测试资源、可用性和结果质量 · 待验证
+
+开发团队应分别测量启动、模型下载、响应和设备资源影响，再核对输出能否通过应用规则。类型约束可减少格式错误，却不能代替事实和任务验证；较小端侧任务与需要更强推理的云端任务，应有清楚边界和失败处理，而非隐藏切换后直接承诺一致体验。
+
+依据：[Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>)
+
+## 竞争与替代
+
+### 判断｜竞争重点是系统整合与跨平台限制 · 研究判断
+
+Apple的方式可减少系统内调用摩擦，但主要依托自身设备与应用生态；独立助手则可能更容易跨平台连接。比较应看资料和操作发生在哪个环境，以及用户是否愿意受硬件条件约束，不能仅以端侧标签判断隐私、质量或使用成本全面优于其他方案。
+
+依据：[Apple Intelligence与Siri产品页](<https://www.apple.com/apple-intelligence/>) · [Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>)
+
+### 验证｜比较原生功能与独立应用 · 待验证
+
+同一整理或写作任务可分别用系统功能、第三方应用和传统操作完成，观察步骤、结果修改与可导出性。若用户主要工作在非Apple终端，原生整合优势可能有限；研究应保留这些不适配情形，而不把系统级入口的易发现性等同持续使用意愿。
+
+依据：[Apple Intelligence与Siri产品页](<https://www.apple.com/apple-intelligence/>) · [Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>)
+
+## 商业模式
+
+### 事实｜系统交付与未来收费要分开 · 官方资料
+
+当前支持页将Apple Intelligence描述为合资格系统的一部分，同时对部分依赖服务端的能力设置日用量，并把付费扩展写为未来安排。目录不替未来功能填入价格，也不把系统内置等同永久无限使用；开发端和第三方模型费用还需按对应条款确认。
+
+依据：[Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+### 判断｜商业价值可能体现为设备和应用选择 · 研究判断
+
+用户不一定单独为一个模型付费，却可能因为便利功能选择设备或某个应用。开发者仍需证明AI增加的价值足以覆盖维护和支持，而非仅借系统新能力提高售价；本研究不据发布内容推断换机需求、订阅收入或某款应用会取得商业成功。
+
+依据：[Apple Intelligence与Siri产品页](<https://www.apple.com/apple-intelligence/>) · [Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>)
+
+## 体验与交付
+
+### 事实｜不同功能成熟度不能合并呈现 · 官方资料
+
+当前支持页把Siri AI另标为Beta，产品页展示的语言范围也需与其他Apple Intelligence功能区分。系统已经正式发布不意味着所有助手能力均有相同成熟度；说明用户体验时应对应具体功能和版本，避免把预览或地区条件藏在一个笼统支持标签中。
+
+依据：[Apple Intelligence与Siri产品页](<https://www.apple.com/apple-intelligence/>) · [Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+### 验证｜让不可用状态也可理解 · 待验证
+
+应用应告诉用户是设备不支持、模型未就绪、语言不符还是当前额度不足，并提供适当替代操作。若失败只显示一个通用提示，用户难以判断是否值得继续尝试；评估还应关注撤销、手动修正和结果交接，而不只测试正常情况下第一次生成是否流畅。
+
+依据：[Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>) · [Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>)
+
+## 风险与机会
+
+### 判断｜适合探索受限的本地信息任务 · 研究判断
+
+创业方向可以围绕应用已有资料设计小范围、可验证的生成或分类，让端侧能力服务明确需求。真正差异来自任务数据、交互和校验方式，而不是复制通用助手；如果需求必须跨大量外部系统或依赖未开放地区功能，则需要重新评估交付路径。
+
+依据：[Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>)
+
+### 验证｜国内可用性须按当前条件核实 · 待验证
+
+官方目前明确中国大陆购买设备及部分地区账户组合的限制，中文支持不能取代这一条件。团队还需跟踪系统和模型更新带来的行为变化，避免旧文档成为长期承诺；本条只读取官方资料，没有更改地区设置、购买设备或测试任何个人数据处理过程。
+
+依据：[Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>)
+
+## 资料来源
+
+- [Apple Intelligence与Siri产品页](<https://www.apple.com/apple-intelligence/>) — 已打开当前产品页，Siri AI展示为英语入口；功能描述仍需结合支持页资格。（核查 2026-11-05）
+
+- [Apple Intelligence当前使用条件](<https://support.apple.com/en-us/121115>) — 已打开系统、设备、语言、存储及中国大陆限制；部分服务端功能有日限额，扩展付费写作未来。（核查 2026-11-05）
+
+- [Foundation Models官方框架文档](<https://developer.apple.com/documentation/foundationmodels>) — 已通过官方提供的Markdown版本读取端侧、Private Cloud Compute、自定义模型、结构化生成和工具调用；不沿用仅端侧的旧概括。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

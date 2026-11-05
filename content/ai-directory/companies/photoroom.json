@@ -1,0 +1,236 @@
+{
+  "id": "photoroom",
+  "name": "Photoroom",
+  "aliases": [
+    "PhotoRoom"
+  ],
+  "website": "https://www.photoroom.com/",
+  "region": "法国",
+  "regionNote": "2026年3月官方隐私政策明确 Photoroom 为法国公司，并列巴黎注册及 head office 地址；按其明确主体说明归类，而非由产品语言推断。",
+  "category": "image-design",
+  "tags": [
+    "商品摄影",
+    "抠图",
+    "背景生成",
+    "批量图片",
+    "电商接口"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "消费者编辑与 API 方案公开，API 按图片资源独立计费，不能把应用订阅直接当作接口额度。",
+  "ownershipNote": "按 Photoroom 公司及编辑、批量和接口业务统一收录，不把每种图像处理工具重复统计为公司。",
+  "summary": "Photoroom 围绕电商商品视觉制作提供抠图、重打光、背景与阴影等编辑能力，服务个人卖家及处理大量商品图的平台，把已有商品照片转成更统一的上架和宣传素材。",
+  "analysisScope": "重点分析商品图编辑、批量处理和 API 接入，围绕商品真实性、目录一致性及成本判断；不完整评价所有虚拟试穿和新视频功能，也不把美化效果直接等同销售增长。",
+  "sources": [
+    {
+      "id": "home",
+      "title": "电商视觉编辑平台",
+      "url": "https://www.photoroom.com/",
+      "kind": "official-product",
+      "note": "核商品场景、批处理、目录与团队入口。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "应用方案",
+      "url": "https://www.photoroom.com/pricing",
+      "kind": "official-pricing",
+      "note": "读取应用分层，不与 API 方案合并估计权益。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "docs",
+      "title": "图像 API 介绍",
+      "url": "https://docs.photoroom.com/",
+      "kind": "official-docs",
+      "note": "明确去背景接口与图像编辑接口、输入图像及输出新图。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "api-pricing",
+      "title": "接口方案与图片资源",
+      "url": "https://www.photoroom.com/api/pricing",
+      "kind": "official-pricing",
+      "note": "核月度图片量、资源不结转及升级时未用图片变化说明。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-evidence",
+      "title": "Photoroom 法国主体与地址",
+      "url": "https://www.photoroom.com/legal/privacy",
+      "kind": "official-company",
+      "note": "2026年3月官方隐私政策明确 Photoroom 为法国公司，并列巴黎注册及 head office 地址；按其明确主体说明归类，而非由产品语言推断。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "photoroom-editor-api",
+      "name": "Photoroom 商品图编辑与 API",
+      "url": "https://www.photoroom.com/",
+      "kind": "platform",
+      "stage": "available",
+      "description": "在已有商品照片基础上分离主体、改变背景、打光和阴影，并支持批量与接口处理，帮助卖家制作更一致的上架及宣传图片。",
+      "users": "个人电商卖家、品牌目录运营和交易平台开发团队。",
+      "delivery": "可通过编辑应用处理，也可将图像发送至去背景或完整编辑接口，企业需自行组织素材审核和目录同步。",
+      "monetization": "应用订阅与 API 分开，接口按月度图片资源及操作方案收费，超出自助规模和特殊能力需商务报价。",
+      "aiRole": "图像分割识别商品主体，生成及编辑模型处理环境与光影，自动化减少重复抠图；真实商品细节是否保持仍需逐图或抽样检查。",
+      "limits": "生成背景和打光可能改变商品外观，批量成功不代表全部符合平台规则；API 未用资源与升级条件应核对，国内账号交付未实测。",
+      "sourceIds": [
+        "home",
+        "plans",
+        "docs",
+        "api-pricing"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "上架图片负担",
+        "text": "小卖家可能有真实商品照片，却缺少统一背景和合适构图，重复抠图与调整占用时间。Photoroom 的需求切口明确在商品视觉准备，价值应看上架流程是否更快，而不是只比较处理前后照片是否更漂亮。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "规模处理",
+        "text": "交易平台需要处理大量不同卖家的图片，人工逐张操作成本高，接口可把标准处理放到上传流程中。需求仍取决于输入多样性和错误率，透明物体、细小配件或复杂边缘失败时，自动化必须给出人工修正路径。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "卖家用户",
+        "text": "个人卖家希望快速得到能上传的图片，通常不想学习复杂图像工具。他们最需要保留商品真实外观和符合平台尺寸，生成场景只是辅助；如果美化改变颜色或结构，短期视觉吸引力可能带来买家预期偏差。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "目录团队",
+        "text": "品牌目录运营和平台开发者更关心批量一致性、接口稳定和审核机制，采购时还要考虑商品类别差异。一个服装样本成功不能代表珠宝、食品和透明瓶体同样可靠，因此必须建立按品类划分的评价集。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "编辑链条",
+        "text": "官方将仅去背景与完整编辑接口分开，客户应先明确要做哪些修改再选择。可以保留主体后加背景和阴影，但每一步都要检查边缘及真实细节，后处理结果应与原图并存，而不是自动覆盖唯一商品记录。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "批量目录",
+        "text": "批量处理可统一布局和背景，之后仍需审核并同步到商品目录。流程要记录哪张图属于哪个商品和哪个版本，避免更新时错配；异常图片应进入人工队列，而不是因接口返回成功就直接成为公开商品主图。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "分割与生成",
+        "text": "抠图需要识别主体边界，背景与阴影生成则增加新内容，这两种任务对真实性的影响不同。技术评估应分别检查边缘遗漏、文字变形和光影不合理，不能用统一美观分数掩盖商品本体被改变的错误。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      },
+      {
+        "title": "商品保持",
+        "text": "商品图工具必须平衡场景变化与主体保真，模型可能把细纹、商标或附件当作可重绘部分。实际应重点检查买家会用于判断型号和材质的细节，不能将生成环境自然就视为商品准确，尤其是近景和多角度目录。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "摄影与修图替代",
+        "text": "传统摄影、人工修图和一般背景移除工具仍能完成任务，Photoroom 的差异在电商流程整合和批量便利。若商品需要严谨的材质和颜色展示，真实摄影可能不可替代；生成场景应服务表达，而不是掩盖实物特征。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "接口替代",
+        "text": "平台也可自行使用分割模型加模板背景，控制较强但需要维护多种输入问题。采购接口的理由应是降低这些具体工程与运营负担，不能仅因单张试验速度快就忽略长期错误处理、版本变化和目录审核成本。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "图片资源",
+        "text": "接口按图片资源和方案计费，月度未用资源不结转，升级也有明确余额处理条件。目录生产有季节波峰，采购需按实际处理量安排，不能把应用订阅的使用体验或一张图的最低价格直接推算接口总费用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "api-pricing"
+        ]
+      },
+      {
+        "title": "卖家价值",
+        "text": "个人卖家可能为节省抠图和拍摄准备时间付费，企业则为批量接入与管理付费。商业回报应测制作工时、审核失败和商品一致性，不能从更漂亮图片直接承诺转化增长，也不据官网客户案例推算所有卖家同等收益。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "home"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "低摩擦编辑",
+        "text": "一个清楚的商品编辑流程应让用户很快看到主体和背景的变化，并容易恢复原图。对非专业卖家，默认结果和异常提示比丰富参数更重要；若透明边缘出错却难以修复，操作简单也不能形成可靠发布体验。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home"
+        ]
+      },
+      {
+        "title": "验收建议",
+        "text": "建议按商品类别测试复杂边缘、包装文字和多件套，比较原图与结果并记录人工修图时间。平台接口还需测试批量异常和目录对应，国内账户、支付与网络交付本轮未验证，不能把中文支持当作本地服务保证。",
+        "evidence": "validation",
+        "sourceIds": [
+          "docs"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "真实展示风险",
+        "text": "生成背景和光影可能使商品看起来具有实际没有的材质或尺寸关系，电商任务尤其需要保真。机会是减少重复制作，风险是用户把审美改善放在真实性之前，因此应保留原图和明确的商品细节检查，而不只优化视觉吸引力。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "home",
+          "docs"
+        ]
+      },
+      {
+        "title": "更新与退出",
+        "text": "后续应验证模型升级是否改变已有批处理结果，并核资源调整和素材保留条件。企业要能回到原始商品数据重跑流程，避免只留下合成图片；实际需求与收益应通过上架效率和错误率证明，不用生成总量代替商业成熟度。",
+        "evidence": "validation",
+        "sourceIds": [
+          "api-pricing"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

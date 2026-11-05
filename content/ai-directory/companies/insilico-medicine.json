@@ -1,0 +1,245 @@
+{
+  "id": "insilico-medicine",
+  "name": "Insilico Medicine",
+  "aliases": [
+    "英矽智能",
+    "Pharma.AI",
+    "PandaOmics",
+    "Chemistry42"
+  ],
+  "website": "https://insilico.com/",
+  "region": "中国香港",
+  "regionNote": "官方Media Kit明确波士顿与香港双总部，本条按香港总部口径归类，同时保留美国及其他多地研发业务；不是由上市地或注册地推定。",
+  "category": "science",
+  "tags": [
+    "AI药物发现",
+    "靶点研究",
+    "生成式化学",
+    "Pharma.AI"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "Chemistry42有注册、登录和订阅入口，PandaOmics及其他平台可商务接洽；软件可用与内部候选药物研发阶段分开，不把管线列为公众可购买疗法。",
+  "ownershipNote": "Pharma.AI、PandaOmics和Chemistry42属于Insilico Medicine产品体系，本条合并软件与研发背景，不按分子模型或候选药物重复计公司。",
+  "checkedAt": "2026-11-05",
+  "summary": "为药物研究团队提供靶点分析和分子设计等软件，同时推进自身研发管线；本条重点区分生物学假设、化学候选设计和必须继续完成的实验验证，不能把计算评分或临床研究进展当成已证实疗效。",
+  "products": [
+    {
+      "id": "insilico-pharma-ai",
+      "name": "Pharma.AI：PandaOmics与Chemistry42",
+      "url": "https://pharma.ai/",
+      "kind": "vertical",
+      "stage": "available",
+      "description": "以PandaOmics辅助靶点和标志物研究，以Chemistry42生成、筛选及优化小分子方案，为专业团队提供研发软件工具链。",
+      "users": "药物发现、生物信息和药物化学团队，以及具备实验支持的研究机构。",
+      "delivery": "Chemistry42提供云端账户和订阅入口，其他产品按软件许可或合作方式接入，具体模块、环境和数据使用需确认。",
+      "monetization": "软件许可、订阅及研发合作形式并存，当前可见月度和年度入口但未核完整套餐价格；候选药物权益与软件费用应分开理解。",
+      "aiRole": "结合组学和知识分析、生成式分子设计及物理方法筛选候选，研究者可设置结构和性质约束；这些计算结果用于提出假设而非替代实验。",
+      "limits": "目标排序不证明因果，性质预测和合成路线也可能失败；软件产生的分子仍需专业实验、安全和临床评价，不能供个人自行确定治疗或制造药物。",
+      "sourceIds": [
+        "product",
+        "panda",
+        "chemistry",
+        "pipeline"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "product",
+      "title": "Insilico当前Pharma.AI体系",
+      "url": "https://insilico.com/",
+      "kind": "official-company",
+      "note": "已读取生物、化学、临床研究与科学助手产品导航，未采用排名或研发效率宣传。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "panda",
+      "title": "PandaOmics官方产品",
+      "url": "https://pharma.ai/pandaomics",
+      "kind": "official-product",
+      "note": "已读取靶点和标志物研究、资料与软件合作入口，不将预测目标视为已验证治疗。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "chemistry",
+      "title": "Chemistry42官方产品与订阅",
+      "url": "https://pharma.ai/chemistry42",
+      "kind": "official-product",
+      "note": "已读取注册、月/年订阅入口、生成设计、逆合成、性质和物理计算，不编写具体套餐价格。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "pipeline",
+      "title": "Insilico研究管线",
+      "url": "https://insilico.com/pipeline",
+      "kind": "official-product",
+      "note": "已打开研究项目和目标介绍，仅作研发背景，不把面向治疗的项目名称当作获批适应证。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-source",
+      "title": "Insilico官方双总部说明",
+      "url": "https://insilico.com/mediakit",
+      "kind": "official-company",
+      "note": "Global Presence明确headquarters in Boston and Hong Kong；仅用于地区，不沿用媒体资料中的历史管线和融资数。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "分析集中于PandaOmics的靶点研究和Chemistry42的分子设计工具链，内部管线只用于区分研究与商业软件交付；不评价具体药物效果，不提供化学操作指导，也不把平台预测当作临床或监管结论。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "研究者需要筛选值得验证的方向",
+        "text": "靶点和分子空间很大，专业团队需要把资料与约束整理成可实验的候选。软件的需求在提高假设组织和比较效率，而不是无限生成新结构；是否有价值仍要看候选能否被合理验证和解释。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "panda",
+          "chemistry"
+        ]
+      },
+      {
+        "title": "生物假设与化学设计的衔接",
+        "text": "发现一个相关靶点后，还要判断是否可干预、如何设计分子及满足哪些性质。平台组合尝试连接这些阶段，但每一步证据不同，不能把靶点排名直接转化为药物开发确定性，也不能只看流程覆盖完整就认定科学问题已解决。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "panda"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "需要专业研究能力的用户",
+        "text": "产品面向能够判断组学、靶点和化学性质的人，使用者需要知道输入数据和约束含义。界面可访问并不让普通消费者具备药物研究条件，目录应保持专业用途边界，避免被理解为个人输入疾病即可获得可用药物。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "panda",
+          "chemistry"
+        ]
+      },
+      {
+        "title": "计算与实验团队共同验收",
+        "text": "计算人员提出候选，实验和药物化学人员评估合成、性质和后续方案，交付需要共同标准。研究应观察他们如何反馈失败和修改约束，不能只问软件操作者是否喜欢生成结果，而忽视实验验证的负担。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "chemistry"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "靶点分析保留证据来源",
+        "text": "PandaOmics帮助组织资料与目标优先级，合理工作流应保留支持和反对证据，并允许研究者调整标准。结果排序不能隐藏资料偏倚或研究空白，尤其文献丰富的目标与真正适合项目的目标不一定相同。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "panda"
+        ]
+      },
+      {
+        "title": "分子设计需要多目标迭代",
+        "text": "Chemistry42结合生成设计、性质评估和物理方法，用户设置目标后仍需反复比较取舍。应保存输入约束、模型与筛选过程，观察实验反馈如何改变下一轮候选，不能把一次计算分数最高的结果直接视为最终答案。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "chemistry"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "关联发现与因果验证分开",
+        "text": "组学和知识分析可以提出值得研究的关联，但疾病机制与干预效果需要额外证据。技术评价应检查不同数据和实验条件下结论是否稳定，避免将模型在已有资料上的排序表现外推为靶点必然具有治疗价值。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "panda"
+        ]
+      },
+      {
+        "title": "生成模型与物理方法互补",
+        "text": "分子生成、预测性质和物理计算回答不同问题，组合不代表所有误差会相互抵消。研究应明确每个评分的适用范围和实验校准，不能因为采用生成式AI或物理方法就宣称所有候选更安全、更容易开发。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "chemistry"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "与传统计算化学工具比较",
+        "text": "药物团队原本就使用模拟、筛选和数据库，平台需要证明它改善了哪些设计与比较步骤。评估应使用相同目标、资料和约束，记录候选多样性及实验结果，不能只比较生成数量或软件演示中的耗时。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "chemistry"
+        ]
+      },
+      {
+        "title": "软件供应商与一体化研发公司",
+        "text": "Insilico同时有软件和自有管线，合作对象可能购买工具，也可能参与研发权益。两种选择不能直接按同一价格和成效比较，用户应先明确需要的是工具能力、实验服务还是项目合作，再评估范围和责任。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "pipeline"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "订阅与研发权益不是一回事",
+        "text": "Chemistry42有月度和年度订阅入口，其他合作范围需要商务确认；内部候选项目的价值不能直接等同软件收入。商业分析应按模块、授权和项目合同区分，本轮没有完整报价，不估算统一研究成本或投资回报。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "chemistry",
+          "product"
+        ]
+      },
+      {
+        "title": "计算效率不等于研发成功率",
+        "text": "更快产生候选可能节省部分准备，也可能增加需要验证的工作。商业价值应看实验资源如何被使用，以及失败信息是否帮助下一轮决策，不能把计算速度或管线进度直接转成未来药品收入和成功概率。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pipeline",
+          "chemistry"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "研究界面应支持专业审阅",
+        "text": "使用者需要查看输入资料、约束和结果差异，而不仅是一个最终排名。体验测试应让研究者改变条件并解释结果变化，检查导出是否保留必要信息，避免漂亮可视化掩盖模型假设和不确定性。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "panda",
+          "chemistry"
+        ]
+      },
+      {
+        "title": "模块之间保持数据含义",
+        "text": "当靶点信息、分子结构和性质预测在工具间流转，单位、版本和命名一致性很重要。研究应检查交接和重复实验能否复现，尤其外部模型与内部数据库加入后，不能假定同一平台自动消除所有格式和语义问题。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "chemistry"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "研究输出不能越过验证链",
+        "text": "软件候选仍需要实验、临床和相应审批过程，任何中间结果都可能失败。产品机会在更清楚地组织假设和证据，而不是承诺跳过这些环节；目录不将研究项目名称、预测疗效或厂商案例当作公众可用治疗。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "pipeline",
+          "panda"
+        ]
+      },
+      {
+        "title": "独立结果决定科学价值",
+        "text": "平台评价应包含盲测、外部实验及适当对照，避免只展示挑选过的成功案例。公开资料能够证明工具方向与入口，却不足以复核所有项目结果，本研究不编造疗效、销量、市场规模或药物开发成功率。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "chemistry"
+        ]
+      }
+    ]
+  }
+}

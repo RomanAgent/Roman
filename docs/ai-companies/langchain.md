@@ -1,0 +1,179 @@
+# LangChain
+
+数据与AI工程 · 美国 · 核查 2026-11-05
+
+LangChain围绕智能体开发、运行追踪、评测和部署提供框架及商业平台，服务需要持续改进AI应用的工程团队；核心分析是如何把失败定位和版本验证嵌入工作流程，而不是只统计框架调用量。
+
+**业务入口：公开产品入口**。框架、LangSmith产品和价格页面均公开；自助与企业部署权限不同，具体服务仍需账户、模型和运行资源。
+
+公司与集团：按LangChain公司及其LangGraph、LangSmith产品体系建档；第三方模型与外部工具集成不作为该公司自有模型或全部交付承诺。
+
+地区口径：官方About页列明总部在旧金山，并有其他地区办公室；服务数据位置和可选部署地区需另按方案确认。
+
+[公司官网](<https://www.langchain.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/langchain)
+
+## 重点产品
+
+### LangSmith Agent工程平台
+
+平台 · 已公开提供
+
+面向智能体应用的追踪、评测和部署等工程工作，把运行记录、问题定位与后续改进连接起来。
+
+目标用户：已经构建AI应用并需要团队调试、评估和生产管理的工程组织。
+
+AI作用：支持观察模型和工具调用过程、构建评估与反馈，部分工具可用模型辅助判断；这些评估输出不自动等于业务真实答案或有效改进。
+
+使用与交付：有自助云端入口，企业计划另含混合或自托管选项；不同服务权限、地区和配置应分别核对。
+
+收费形式：公开计划包含席位与用量计费，追踪保留、存储、部署及其它平台服务的费用需要按实际配置合计。
+
+产品边界：运行记录可能包含业务输入和工具返回，需要设置采样、权限和保留策略；评估模型也会出错，厂商性能和效果陈述不代替自己的基准测试。
+
+[产品入口](<https://www.langchain.com/langsmith/observability>) · [LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>)
+
+### LangGraph / LangChain开发框架
+
+平台 · 已公开提供
+
+为开发者组织模型、工具、状态和任务执行提供框架，帮助构建有明确流程与可管理状态的智能体应用。
+
+目标用户：需要自己控制应用逻辑、状态与系统集成的软件和模型开发团队。
+
+AI作用：通过应用结构和运行逻辑连接模型推断与工具执行，具体智能表现来自选用模型、上下文和工具设计，不是框架本身自动保证任务完成。
+
+使用与交付：开源项目与商业托管平台分别交付，实际运行还需要模型、工具、计算与业务系统的访问条件。
+
+收费形式：框架开源使用与云端平台收费分开，外部模型调用、运行基础设施和工程维护不会因使用框架而消失。
+
+产品边界：需固定依赖版本并验证状态、失败恢复与权限；开源框架可用不等于所有LangSmith托管功能、企业支持和部署服务都免费或开放。
+
+[产品入口](<https://www.langchain.com/about>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+## 八维产品分析
+
+重点分析LangSmith的追踪评测流程及LangGraph等框架的运行组织价值，覆盖从原型到生产改进的工程任务；不逐一分析平台所有新发布工具，也不把社区使用情况当作商业客户数量。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 智能体失败需要可追溯 · 研究判断
+
+多步任务可能同时经过模型、检索、工具和人工处理，仅看最终回答很难知道问题从哪一环产生。LangSmith的价值假设是让团队更快定位失败并形成回归样本。是否值得采用，应观察排查时间与修复后的任务完成情况，而不是把收集更多运行记录本身当作业务收益。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+### 从演示到重复运行的差距 · 研究判断
+
+开发框架能帮助组织状态和执行步骤，但生产场景还需要可重复的评估、恢复和版本管理。真正有需求的是任务会持续变化且需要多人维护的团队。一次性演示或简单请求可能不需要完整平台，应先明确维护频率与失败代价，再决定增加多少工程工具。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+## 目标用户
+
+### 产品与工程共同定义好坏 · 研究判断
+
+工程师需要看到调用链路，产品负责人则需要知道用户任务是否完成。只有两者共同定义评估目标，运行记录才可能转成有意义的改进。采购不应只由一个开发者的框架偏好决定，还要确认团队能否安排评审、维护数据集以及处理生产反馈。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>)
+
+### 小团队先验证工作量 · 研究判断
+
+个人或小团队可从自助计划试验，但观察工具也会带来配置、数据维护和费用理解的时间。适合先选择经常失败的一条流程，比较有无平台时的排查效率。若业务尚未确定且调用极少，建立大规模评估体系可能早于实际需求，不能因工具完整就默认全量接入。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>)
+
+## 产品与工作流
+
+### 用真实失败建立评估集 · 研究判断
+
+合理流程是保留代表性任务与失败记录，标注预期结果，再比较修改前后的行为。评估应包含工具是否真正完成操作、是否遵守权限以及最终结果能否使用。只看回答措辞或模型自评，可能让系统在分数上改进却没有改善用户体验，仍需人工抽检和业务确认。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+### 框架和托管按职责组合 · 研究判断
+
+框架负责组织应用逻辑和状态，商业平台提供工程管理与运行能力，两者可以配合但不是同一个购买对象。团队应标明模型、工具、部署与数据保留分别由谁负责。这样在替换模型或部署环境时，才知道哪些配置可复用、哪些评估和访问控制需要重新验证。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+## AI技术与依赖
+
+### 可观测记录也有选择偏差 · 研究判断
+
+记录到的调用链路能够帮助解释失败，但是否采样、保留哪些字段和覆盖哪些用户，会影响观察结果。不能将少量成功轨迹当作整个系统表现。技术评估还应检查日志缺失、异步操作和失败重试是否可追踪，并确认平台记录与业务实际结果可以对应。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+### 模型评估需要校准 · 研究判断
+
+模型辅助打分可以降低初步标注工作量，但评估者同样可能偏向特定表达或漏掉业务错误。应把自动评估与人工标签、明确规则结合，并检查评分与真实完成率是否一致。框架和追踪平台提供工具，不自动解决评价标准本身不清楚的问题。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+## 竞争与替代
+
+### 与已有运维工具比较 · 研究判断
+
+团队可能已有日志、监控、测试和事件分析平台，新增Agent工程工具需要证明在调用结构和评估上的增益。比较时应使用同一组多步失败案例，记录发现、定位和修复所需工作。只比较控制台功能数量，会忽略已有工具整合成本与团队学习负担。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+### 框架选择影响迁移成本 · 研究判断
+
+直接使用模型接口、自建运行逻辑和采用其它框架都是替代路径。选择应根据任务复杂度、团队能力与长期维护责任，而不是单看社区热度。需要评估模型和工具更换时的兼容性，以及能否保留原有评估数据，避免某种抽象方式成为难以调整的固定前提。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+## 商业模式
+
+### 席位和实际工作量分开 · 研究判断
+
+当前价格页把计划席位和平台不同服务的用量分开处理，试用免费不等于所有生产运行无成本。预算应包含记录量、保留与存储、部署资源及外部模型费用，并按自己的使用曲线估算。目录没有真实账单，不将某个起步价格或赠送额度当作完整年度成本。
+
+依据：[LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+### 治理和支持是企业采购变量 · 研究判断
+
+更高计划可提供部署、身份、管理和支持选项，但应核实这些能力如何融入组织已有流程。企业愿意付费的理由可能是降低维护风险与协调成本，而非单次模型调用变便宜。采购评估需明确责任、数据边界和服务条件，并把实施与培训时间一起计入。
+
+依据：[LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+## 体验与交付
+
+### 让失败解释对团队有用 · 研究判断
+
+工程界面应帮助用户理解一次任务发生了什么，而不是把大量记录全部堆给人看。试用时可以观察新成员能否根据轨迹重现问题、找到相关输入，并提出可验证的修改。若还需要反复询问原作者才能理解，平台可视化的价值就需要继续通过工作流程设计落实。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>)
+
+### 评估结果应导向下一次行动 · 研究判断
+
+一个分数只有能指导修复或发布决策才有意义。团队需要知道失败属于模型、数据、工具还是规则，再确定负责人与验收条件。可将运行记录、反馈和版本变化放在一起复盘，但不要把自动报告完成等同于问题已经解决，最终仍需检查真实业务结果。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>)
+
+## 风险与机会
+
+### 数据保留与访问要可控 · 研究判断
+
+轨迹可能包含提示词、检索内容、个人信息和工具返回，因此接入前应决定采样、脱敏、访问和保留方式。选择云、混合或自托管也会改变责任分工。公开安全与部署能力只提供评估入口，不能直接推定任意团队上传任意数据都满足其自身要求。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+### 机会在任务评估的专业化 · 研究判断
+
+针对某种真实工作构建可维护的评估样本、失败分类和复核流程，可能比再包装一个通用聊天入口更有价值。应验证工具是否减少故障排查和重复测试，以及团队是否持续使用。这里没有留存或盈利证据，机会判断应与实际试用、维护成本和付费反馈一起更新。
+
+依据：[LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) · [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>) · [LangChain公司及产品体系](<https://www.langchain.com/about>)
+
+## 资料来源
+
+- [LangSmith可观测性产品](<https://www.langchain.com/langsmith/observability>) — 公开追踪与Agent工程能力；未进行真实业务部署或效果验证。（核查 2026-11-05）
+
+- [LangSmith官方计划与用量结构](<https://www.langchain.com/pricing>) — 当前页面同时有席位与不同服务用量，部署和存储等需分项核对，不沿用旧单价。（核查 2026-11-05）
+
+- [LangChain公司及产品体系](<https://www.langchain.com/about>) — 区分公司、开源框架和独立商业平台，并确认总部口径；不采用其客户占比作为独立市场统计。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

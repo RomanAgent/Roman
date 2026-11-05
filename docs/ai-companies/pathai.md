@@ -1,0 +1,183 @@
+# PathAI
+
+医疗与健康服务 · 美国 · 核查 2026-11-05
+
+围绕数字病理图像管理、实验室工作流和AI分析服务病理医师及药物研究者，连接切片、病例与量化结果；重点是专业审阅和具体用途，研究算法的热图或评分不应被理解为可独立诊断的医生替代。
+
+**业务入口：商务接洽**。为病理实验室和生物制药机构提供演示、平台与项目交付；AISight、AISight Dx和具体算法有不同用途，不能把一项监管资格泛化为全部产品可诊断。
+
+公司与集团：AISight平台与PathAI算法在同一公司档案研究，合作实验室和第三方算法不视为PathAI自有业务；临床平台、研究工具及具体试验资格分开记录。
+
+地区口径：PathAI官方资格公告About部分明确总部位于Boston，按该公开公司口径归类，不推定所有产品监管和服务地区相同。
+
+[公司官网](<https://www.pathai.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/pathai)
+
+## 重点产品
+
+### AISight / AISight Dx与病理工作流
+
+行业产品 · 已公开提供
+
+在病理实验室中管理病例和数字切片，连接扫描仪与信息系统，并集成适用的图像分析工具支持专业工作流。
+
+目标用户：病理实验室、病理医师、医疗机构及相关信息系统团队。
+
+AI作用：AI可支持图像量化和工作流任务，但图像管理平台本身不等于全部算法；诊断审阅与研究分析使用不同证据和许可边界。
+
+使用与交付：以机构平台和实验室集成交付，扫描仪、LIS、用户权限及具体版本须配置；诊断用途仅按适用版本与地区说明。
+
+收费形式：通过实验室平台与企业合同采购，集成、存储和算法权益需分别确认，本轮未取得统一席位或切片处理价格。
+
+产品边界：官方说明AISight及多项算法在美国为研究用途，AISight Dx在限定扫描仪组合下具诊断平台资格；不能把该资格扩大到全部算法或任意硬件。
+
+[产品入口](<https://www.pathai.com/ap-lab-solutions>) · [PathAI当前平台与业务](<https://www.pathai.com/>) · [AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>) · [AISight Dx实验室部署合作](<https://www.pathai.com/news/labcorp-expands-collaboration-with-pathai-to-deploy-fda-cleared-digital-pathology-platform-nationwide>)
+
+### PathAI研究算法与AIM-MASH AI Assist
+
+行业产品 · 已公开提供
+
+对组织病理图像进行特征和标志物量化，支持生物制药研究；AIM-MASH AI Assist按特定试验使用情境辅助组织学评估。
+
+目标用户：生物制药研究团队、临床试验申办方和受训病理专业人员。
+
+AI作用：图像模型识别并量化病理特征，协助专业人员组织一致的研究读片；模型输出必须结合样本质量、用途和人工判断解释。
+
+使用与交付：通过适用研究服务及临床试验平台交付，需按算法、组织类型和研究方案确认数据与操作条件。
+
+收费形式：采用机构研究、平台或项目服务合同，费用取决于任务和授权范围；不把监管资格理解为免费公共工具。
+
+产品边界：AIM-MASH AI Assist的FDA药物开发工具资格限于规定临床试验情境，官方明确不用于诊断；其资格不证明药物有效，也不自动适用于其他算法。
+
+[产品入口](<https://www.pathai.com/ai-product-menu>) · [PathAI研究算法目录](<https://www.pathai.com/ai-product-menu>) · [AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>)
+
+## 八维产品分析
+
+分析分别围绕AISight数字病理工作流与研究算法的组织学量化，特别保留AISight Dx平台资格和AIM-MASH试验工具资格的区别；不复核临床性能，不提供病理诊断，不把监管术语当作所有产品疗效保证。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 数字切片需要完整工作流 · 研究判断
+
+实验室不仅需要打开图像，还要管理病例、访问、协作和信息系统连接。AISight对应的是这些流程的组织需求，价值应看病理人员能否可靠接手和审阅，而不是图像查看界面看起来先进就证明诊断更好。
+
+依据：[AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>)
+
+### 研究量化需要一致性 · 研究判断
+
+药物研究可能需要在大量切片中量化组织特征，人工读片存在流程和重复性挑战。AI工具的需求是提供可检查的一致测量，但必须按组织类型和研究目的验证，不能把一致输出等同准确或临床相关。
+
+依据：[PathAI研究算法目录](<https://www.pathai.com/ai-product-menu>) · [AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>)
+
+## 目标用户
+
+### 病理专业人员主导判断 · 研究判断
+
+平台服务病理医师和实验室团队，AI结果应支持其专业审阅而非替代责任。普通个人无法仅凭热图或评分理解完整病理背景，因此不能把机构产品入口描述成患者自行上传图片即可诊断的服务。
+
+依据：[PathAI当前平台与业务](<https://www.pathai.com/>) · [AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>)
+
+### 研究申办方与实验室需求不同 · 研究判断
+
+临床实验室关注日常病例和诊断流程，试验团队则关注预先定义的终点与样本处理。产品研究应分开评估两类用户，尤其算法的研究资格不能自动满足临床诊断用途，也不应将商业部署规模当作两者共同效果证据。
+
+依据：[AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>) · [AISight Dx实验室部署合作](<https://www.pathai.com/news/labcorp-expands-collaboration-with-pathai-to-deploy-fda-cleared-digital-pathology-platform-nationwide>)
+
+## 产品与工作流
+
+### 从扫描到病例审阅 · 研究判断
+
+数字病理依赖扫描仪、图像质量、病例信息和LIS映射，平台集成应保留身份与版本。实施测试需要覆盖切片不全、扫描缺陷和信息不匹配，不能只验证正常图像能加载，便认为整个实验室工作流已正确迁移。
+
+依据：[AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>)
+
+### 算法结果进入专业流程 · 研究判断
+
+图像量化应与原始切片、分析范围和模型版本关联，便于病理人员复核。研究建议记录人工修改和不适用样本，确保结果进入报告或研究表格前经过相应审阅，避免自动评分在后续环节被当作未经限制的事实。
+
+依据：[PathAI研究算法目录](<https://www.pathai.com/ai-product-menu>) · [AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>)
+
+## AI技术与依赖
+
+### 图像模型受样本条件影响 · 研究判断
+
+组织处理、染色和扫描差异可能影响算法输入，技术验证需要覆盖实际实验室条件。不能因为模型在某组数据上表现良好就外推到其他组织或设备，尤其受限定扫描仪组合的诊断平台必须遵守对应使用范围。
+
+依据：[AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>)
+
+### 平台资格与算法资格不同 · 研究判断
+
+官方脚注区分AISight研究用途、AISight Dx诊断平台和具体研究算法，AIM-MASH又属于特定药物开发工具情境。技术目录必须逐项对应，不能用一个FDA字样概括整个AI组合，也不能将资格称为药物疗效批准。
+
+依据：[AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>) · [AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>)
+
+## 竞争与替代
+
+### 与现有数字病理平台比较 · 研究判断
+
+实验室可以选择不同图像管理和扫描体系，比较应关注兼容、病例流转、存储及审阅。AI功能只是其中一部分，若基础工作流不适合，算法数量再多也未必带来价值；不应只按是否宣称AI来排序产品。
+
+依据：[AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>)
+
+### 与人工研究读片比较 · 研究判断
+
+研究算法应在相同样本、定义和复核流程下与现有方法比较，关注偏差和不适用情形。人工和AI也可能组合使用，不能把自动化程度当作必然优于专业判断，更不能从厂商个别研究宣传推断所有用途有效。
+
+依据：[PathAI研究算法目录](<https://www.pathai.com/ai-product-menu>) · [AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>)
+
+## 商业模式
+
+### 机构采购包含多项条件 · 研究判断
+
+实验室平台费用可能涉及集成、存储、使用和算法，研究项目又有不同授权。采购需要按实际场景核对，本轮没有报价，不猜测每张切片或每位医师价格，也不把合作公告理解为所有机构都可立即以同样条件购买。
+
+依据：[AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>) · [AISight Dx实验室部署合作](<https://www.pathai.com/news/labcorp-expands-collaboration-with-pathai-to-deploy-fda-cleared-digital-pathology-platform-nationwide>)
+
+### 研究价值与临床价值分开 · 研究判断
+
+研究量化可能帮助试验流程，但它的商业价值不能直接换算成更快批准药物或改善患者结果。应记录工作量、复核和数据质量变化，并将平台收益与研究成果分开，避免用试验工具资格作为普遍商业成功证明。
+
+依据：[AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>) · [PathAI研究算法目录](<https://www.pathai.com/ai-product-menu>)
+
+## 体验与交付
+
+### 原图与结果需要易于对照 · 研究判断
+
+专业使用者应能快速定位算法关注区域、检查原图并理解评分条件。体验测试应包含边界和错误样本，观察是否便于否定或修正模型，而不只展示正确热图；越精细的可视化越需要避免制造不当确定感。
+
+依据：[AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>) · [PathAI研究算法目录](<https://www.pathai.com/ai-product-menu>)
+
+### 实验室协作依赖日常稳定性 · 研究判断
+
+病理流程涉及多角色和大量文件，权限、加载、共享和病例匹配都会影响采用。研究应观察实际交班、远程复核和故障恢复，不能仅用单人演示衡量交付；计划部署的合作也应与已运行范围分开说明。
+
+依据：[AISight Dx实验室部署合作](<https://www.pathai.com/news/labcorp-expands-collaboration-with-pathai-to-deploy-fda-cleared-digital-pathology-platform-nationwide>) · [AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>)
+
+## 风险与机会
+
+### 用途混淆是直接风险 · 研究判断
+
+研究工具如果被误当作诊断功能，可能越过验证和使用边界。目录与产品界面应清楚标注版本、地区、扫描组合和具体用途，尤其AIM-MASH试验资格不能被简化为可诊断肝病或证明某种治疗有效。
+
+依据：[AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>) · [AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>)
+
+### 以实际验证与流程结果评估 · 研究判断
+
+后续评价应结合适用样本的独立性能、专业人员复核和实验室运行记录，不能只看算法数量或客户名单。本研究只核公开产品和范围，不提供疗效、诊断准确率或市场份额估计，也不以模型评分预测采用成功。
+
+依据：[PathAI当前平台与业务](<https://www.pathai.com/>) · [PathAI研究算法目录](<https://www.pathai.com/ai-product-menu>)
+
+## 资料来源
+
+- [PathAI当前平台与业务](<https://www.pathai.com/>) — 已读取病理实验室和生物制药定位及AISight，不采用客户比例或标注规模作疗效证据。（核查 2026-11-05）
+
+- [AISight实验室方案及用途脚注](<https://www.pathai.com/ap-lab-solutions>) — 已读取LIS/扫描仪集成及脚注：AISight/多项算法美国RUO，AISight Dx诊断资格限定组合与地区。（核查 2026-11-05）
+
+- [PathAI研究算法目录](<https://www.pathai.com/ai-product-menu>) — 已读取组织病理特征、标志物量化及研究/临床开发定位，不将全部目录当诊断产品。（核查 2026-11-05）
+
+- [AISight Dx实验室部署合作](<https://www.pathai.com/news/labcorp-expands-collaboration-with-pathai-to-deploy-fda-cleared-digital-pathology-platform-nationwide>) — 2026-02-23官方说明Labcorp扩大部署合作，不将计划覆盖全网等同每处已经完成。（核查 2026-11-05）
+
+- [AIM-MASH AI Assist特定试验资格](<https://www.pathai.com/news/pathais-aim-mash-ai-assist-becomes-first-ai-powered-pathology-tool-to-receive-fda-qualification-for-mash-clinical-trials>) — 已读取2025-12-09公告及不用于诊断脚注，仅引用具体用途范围；About明确总部Boston。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

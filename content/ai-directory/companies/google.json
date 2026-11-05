@@ -1,0 +1,248 @@
+{
+  "id": "google",
+  "name": "Google（含 DeepMind / Gemini）",
+  "aliases": [
+    "Alphabet",
+    "Google DeepMind",
+    "Gemini",
+    "Google Cloud"
+  ],
+  "website": "https://one.google.com/about/google-ai-plans/",
+  "region": "美国",
+  "regionNote": "以Google集团主要业务主体口径归入美国；DeepMind在英国等地的研究活动不单列公司，服务地区由各产品另定。",
+  "category": "platforms",
+  "tags": [
+    "多模态模型",
+    "搜索与办公",
+    "开发平台",
+    "企业代理"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "已核Gemini订阅、开发者API收费与企业模型平台文档；具体模型、试验功能、国家和账号资格不能从品牌名称统一推断。",
+  "ownershipNote": "Google、DeepMind、Gemini与本条涉及的Google Cloud业务合并研究，Alphabet只作为集团别名；不把云平台所提供的第三方模型公司并入Google。",
+  "summary": "Google以Gemini面向个人完成搜索、写作和多模态任务，同时为开发者及企业提供模型调用与部署管理入口；优势与限制都需要结合已有Google应用和云资源使用方式判断。",
+  "analysisScope": "重点分析Gemini个人应用及Google AI套餐、Gemini开发者API与企业模型平台的衔接，不声称覆盖搜索广告、全部Workspace功能或DeepMind所有科研成果。",
+  "sources": [
+    {
+      "id": "plans",
+      "title": "Google AI套餐与Gemini入口",
+      "url": "https://one.google.com/about/google-ai-plans/",
+      "kind": "official-pricing",
+      "note": "已打开当前个人套餐、配额及Google应用结合说明，地区页面与实际账户资格可能不同。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "api",
+      "title": "Gemini Developer API pricing",
+      "url": "https://aistudio.google.com/docs/pricing",
+      "kind": "official-pricing",
+      "note": "已打开开发者免费、预付与按量层，页面区分内容处理条件；原ai.google.dev地址重定向至此。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "cloud",
+      "title": "Gemini Enterprise Agent Platform模型概览",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models",
+      "kind": "official-docs",
+      "note": "已打开当前模型平台、托管与自部署、评估入口；旧Vertex AI生成式文档重定向至此，未把全部模型叫开源。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "gemini-app",
+      "name": "Gemini 与 Google AI 套餐",
+      "url": "https://one.google.com/about/google-ai-plans/",
+      "kind": "app",
+      "stage": "available",
+      "description": "把对话、研究和内容生成接入个人日常信息处理，并通过Google AI套餐扩展模型及应用使用额度；具体权益依所选地区和账户展示。",
+      "users": "经常在Google应用中写作、查资料与制作内容的个人。",
+      "delivery": "以在线应用和Google账号交付，部分能力结合Google应用，需按当前套餐检查开放条件。",
+      "monetization": "存在不同订阅层及相应用量，存储等权益可能打包；不以个人套餐推定开发者API已经付费。",
+      "aiRole": "多模态模型理解文本及其他输入并生成内容，研究等能力可能结合检索和工具；模型选择与可用功能由产品入口及额度决定。",
+      "limits": "能使用中文不代表中国大陆完整服务可用；套餐中列出的能力也不保证每个地区、年龄和账号同步开放，生成结果仍需检查。",
+      "sourceIds": [
+        "plans"
+      ]
+    },
+    {
+      "id": "gemini-platform",
+      "name": "Gemini API 与企业模型平台",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models",
+      "kind": "platform",
+      "stage": "available",
+      "description": "开发者可从模型API试验进入企业平台的模型发现、托管调用或自部署流程，使用Google及合作模型构建自有应用和代理。",
+      "users": "需要接入多模态能力并管理部署与评估的开发者和企业团队。",
+      "delivery": "通过开发者API、云控制台与SDK交付；企业平台区分托管模型服务与自行部署模型。",
+      "monetization": "开发者API提供有限免费层及预付或按量形式，企业云资源和不同服务层需分别估算费用。",
+      "aiRole": "模型提供生成、理解与工具相关能力，平台支持选择、定制和评估；不同模型的模态、授权及托管方式并不相同。",
+      "limits": "免费层和付费层的数据处理条件需分别核对，模型目录存在不代表任意区域都能部署；开放权重也不自动等于无条件商业授权。",
+      "sourceIds": [
+        "api",
+        "cloud"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "事实｜个人助手与云端开发分别交付",
+        "evidence": "official",
+        "sourceIds": [
+          "plans",
+          "cloud"
+        ],
+        "text": "Google把Gemini相关能力放在个人套餐中，同时通过开发者与企业平台提供模型服务。前者让用户直接处理任务，后者让团队构建自己的产品；两条路径共享部分模型名称，但配置责任和费用范围不同，不能把同一品牌理解为完全相同的产品。"
+      },
+      {
+        "title": "判断｜既有资料位置影响实际需求",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "cloud"
+        ],
+        "text": "对于已经使用Google应用的用户，少切换窗口和更容易调用现有资料可能有价值；对于资料主要在其他系统的人，连接成本可能抵消便利。市场研究应看任务在哪里发生、结果送到哪里，而不是仅按全球账号规模推断每个人都需要付费AI套餐。"
+      }
+    ],
+    "users": [
+      {
+        "title": "事实｜开发者免费试验和生产部署有区别",
+        "evidence": "official",
+        "sourceIds": [
+          "api",
+          "cloud"
+        ],
+        "text": "Gemini开发者收费页提供有限免费入口及付费调用方式，企业平台则进一步覆盖模型管理和部署。试验阶段能成功获得回答，并不说明团队已经具备生产运行的权限、预算与数据治理；账号层级、资源项目和模型支持情况需要逐项确认。"
+      },
+      {
+        "title": "验证｜按个人、开发和治理角色取样",
+        "evidence": "validation",
+        "sourceIds": [
+          "plans",
+          "cloud"
+        ],
+        "text": "可以分别观察个人内容工作者、小团队开发者和企业平台管理员如何完成一次任务。前者更在意输入输出是否顺手，后两者还关心项目配置、监控和支持；不要用一个熟悉云控制台的开发者体验代表普通消费者，也不要反向推定企业部署容易。"
+      }
+    ],
+    "workflow": [
+      {
+        "title": "事实｜企业平台提供多种模型访问方式",
+        "evidence": "official",
+        "sourceIds": [
+          "cloud"
+        ],
+        "text": "当前企业模型文档区分托管模型服务与通过Model Garden发现、测试和部署模型，目录含Google、合作方与开放权重模型。选择模型之后仍需配置认证和端点等资源，平台提供路径并不表示每种模型的接口、调优和运行条件完全一致。"
+      },
+      {
+        "title": "判断｜原型转生产是独立的一段工作",
+        "evidence": "analysis",
+        "sourceIds": [
+          "api",
+          "cloud"
+        ],
+        "text": "开发者在交互界面调好提示后，还需要把输入整理、重试、版本选择和结果验证做成稳定流程。产品比较应覆盖这一转化过程，而不只看第一条调用代码有多短；当模型或企业平台入口更名时，团队还要维护文档和运维认知的一致性。"
+      }
+    ],
+    "technology": [
+      {
+        "title": "事实｜多模态目录不代表单模型包办",
+        "evidence": "official",
+        "sourceIds": [
+          "cloud"
+        ],
+        "text": "官方目录把文本、多模态、媒体生成、嵌入和其他能力分成不同模型与接口，同时提供定制和评估入口。这说明系统设计需要按任务选择组件，不能把Gemini品牌下某个模型支持的功能扩展到全部产品，更不能用一个上下文指标代表真实检索质量。"
+      },
+      {
+        "title": "验证｜按资料类型检查失误和成本",
+        "evidence": "validation",
+        "sourceIds": [
+          "api",
+          "cloud"
+        ],
+        "text": "可以将长文档、图片、结构化数据和短问答分别建立样本，记录输入处理、结果依据和失败模式。模型支持一种输入格式不保证能正确理解其中所有内容；免费层试验也应核对数据使用条件，含私人或企业资料的评测需要采用合适账户与配置。"
+      }
+    ],
+    "competition": [
+      {
+        "title": "判断｜与独立模型竞争也与既有软件互补",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "cloud"
+        ],
+        "text": "Gemini个人入口与其他通用助手争夺任务时间，云平台又与多模型服务和自建推理系统比较。Google应用与云资源的结合可能降低某些客户的集成成本，但也提高迁移依赖；分析应围绕资料、模型与权限能否顺畅协作，而非把生态广度直接当作胜出证据。"
+      },
+      {
+        "title": "验证｜比较可移植性与交付责任",
+        "evidence": "validation",
+        "sourceIds": [
+          "api",
+          "cloud"
+        ],
+        "text": "同一任务可以分别用直接API、企业托管和自部署模型试验，观察开发工作、质量与维护差异。需要明确换模型时提示、检索和评估是否可复用，哪些功能只在特定服务中存在；本研究没有运行跨平台基准，不能据官方模型列表给出通用性能排名。"
+      }
+    ],
+    "business": [
+      {
+        "title": "事实｜个人订阅和云端用量不是一笔费用",
+        "evidence": "official",
+        "sourceIds": [
+          "plans",
+          "api"
+        ],
+        "text": "Google AI个人套餐与Gemini开发者API有不同收费入口，后者列出免费、预付及按量调用条件。把存储和应用权益打包并不等于无限开发调用，团队也不能只比较一项token单价；实际使用何种模型、媒体能力或服务层会改变账单组成。"
+      },
+      {
+        "title": "判断｜组合套餐价值依赖真实使用组合",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "cloud"
+        ],
+        "text": "如果用户只需要偶尔改写文本，丰富的生成和存储权益未必形成持续价值；若多人共享工作流程，则管理与集成可能更重要。企业预算应结合任务量和验收成本，而非假设所有已有Google用户都会升级，本目录没有营收或付费转化的独立调查。"
+      }
+    ],
+    "experience": [
+      {
+        "title": "事实｜当前文档名称与旧入口已有迁移",
+        "evidence": "official",
+        "sourceIds": [
+          "api",
+          "cloud"
+        ],
+        "text": "本轮读取旧Gemini开发者价格地址跳转到AI Studio文档，旧Vertex AI生成式概览跳转到Gemini Enterprise Agent Platform。目录保留当前目标地址和变化说明，避免让使用者按过时名称寻找入口；这不意味着所有旧接口同时失效或全部服务已统一替换。"
+      },
+      {
+        "title": "验证｜检查用户能否找到功能与额度",
+        "evidence": "validation",
+        "sourceIds": [
+          "plans",
+          "api"
+        ],
+        "text": "体验测试应让新用户寻找所需功能、了解免费或付费边界，再完成并导出一个真实任务。套餐名称和模型更新会增加理解负担，页面可打开也不证明账户符合资格；需要记录地区、账号类型与测试时点，不能把一次展示代表全球一致的使用体验。"
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜机会在已有资料的任务化处理",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans",
+          "cloud"
+        ],
+        "text": "对于创业团队，更值得研究某类资料如何被整理成可追溯的输出，例如把企业文档变成经过复核的行动流程。单纯提供另一个Gemini聊天入口差异可能有限；能否降低准备和验收负担，需要在具体岗位里验证，而不能由模型更新频率直接推断需求。"
+      },
+      {
+        "title": "验证｜跟踪数据条件与模型生命周期",
+        "evidence": "validation",
+        "sourceIds": [
+          "api",
+          "cloud"
+        ],
+        "text": "应核对免费层与付费层内容处理规则、组织数据访问、模型退役及地区端点，并为关键任务保留评测样本。平台提供安全和评估工具不等于应用自动符合自己的要求；本条只核公开资料，没有使用私人数据、购买套餐或验证厂商宣称的效率。"
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

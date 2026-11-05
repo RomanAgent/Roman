@@ -1,0 +1,183 @@
+# 智元机器人 / AGIBOT
+
+机器人与具身AI · 中国大陆 · 核查 2026-11-05
+
+智元围绕机器人本体、具身模型和开发运营平台推进实体任务应用，面向开发者、集成商和行业客户；研究重点是怎样把数据、技能、作业流程与现场维护连接起来，而不是把单次演示视为通用自主能力。
+
+**业务入口：商务接洽**。当前有具体机器人系列、Genie Studio平台及开发资料入口，主要通过产品与项目咨询接洽；官方案例与发布指标不等于任意场景可直接部署。
+
+公司与集团：将智元机器人本体、平台与相关模型工具作为一个公司业务档案研究，不按不同机器人型号或平台模块重复计公司；合作方及外部基础模型分别保留归属。
+
+地区口径：官方公司介绍与发布材料列示上海主体及制造业务，按这一公开公司口径记录；不把海外部署或合作项目所在地当总部。
+
+[公司官网](<https://www.agibot.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/agibot)
+
+## 重点产品
+
+### AGIBOT G2及作业方案
+
+机器人系统 · 已公开提供
+
+以具体机器人本体和行业任务集成服务承接操作、转运等工作，产品资料与平台案例提供进一步接洽入口。
+
+目标用户：有具体物料和流程要求的制造、服务场景客户及机器人系统集成团队。
+
+AI作用：感知与机器人技能需要结合模型、控制和现场系统实现任务，已展示的某项作业不代表任何物体、工位与异常情况下都能自主完成。
+
+使用与交付：通过官方产品和商务入口确认配置、适配、部署与验收，站点环境和任务需要分别验证。
+
+收费形式：整机、配件、场景集成和持续维护可能构成不同费用，公开展示不提供适用于所有项目的统一总价。
+
+产品边界：应确认本体配置、任务边界、现场改造和人工接管要求；官方案例与产线数字属于公司披露，本轮未进行客户验收、可靠性或销量审计。
+
+[产品入口](<https://www.agibot.com/products/G2>) · [AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>)
+
+### Genie Studio具身开发与运营平台
+
+平台 · 已公开提供
+
+连接具身数据采集、训练、仿真评价、模型部署和机器人运行流程，让团队围绕特定任务迭代能力。
+
+目标用户：进行机器人技能开发、应用集成和多设备运营的研发及工程组织。
+
+AI作用：公开平台把模型训练、任务编排与运行监控分开，支持将数据反馈用于技能迭代；自动化效果仍取决于任务、训练数据、控制与现场条件。
+
+使用与交付：平台页面与新版发布资料公开，实际账户、可用模型、机器人适配和项目服务需向官方确认。
+
+收费形式：本轮未核统一公开订阅价，平台授权、算力、数据和部署服务需按具体项目与合同拆分。
+
+产品边界：平台页与新版发布内容要按版本区分，不将发布案例中的用时或成功率当普遍承诺；开发接口也须按机器人型号和版本核对。
+
+[产品入口](<https://genie.agibot.com/geniestudio>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>) · [AimDK开发者中心](<https://open-us-east.agibot.com/docs/aimdk>)
+
+## 八维产品分析
+
+围绕G2类机器人作业集成和Genie Studio的开发运营路径展开，分析从可重复任务到现场交付的条件；不覆盖公司全部型号，也不将某一项目的测试结果外推为所有场景的通用能力。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 从具体作业定义价值 · 研究判断
+
+潜在客户需要先明确物料、动作顺序、节拍、空间和异常处理，才能判断机器人是否适合进入流程。智元的平台与本体组合提供了研究这些任务的入口。价值应通过实际完成的工作和维护负担衡量，单次演示的观赏性、型号数量或生产下线数量不能替代客户的使用结果。
+
+依据：[AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>)
+
+### 重复任务更容易形成验收 · 研究判断
+
+较固定的工位和物料范围有助于建立训练、测试与现场验收标准，而环境变化会增加数据和控制要求。创业团队可先选择边界清楚的一段工作，记录人工介入和失败恢复。机器人本体只是系统的一部分，应用是否有需求还取决于已有设备、人员流程和改造成本。
+
+依据：[AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>)
+
+## 目标用户
+
+### 购买者和操作者关注不同问题 · 研究判断
+
+采购团队关心总费用、维护与责任，开发者关心接口和数据，现场人员则关心是否打断原有工作。项目需要让这些角色共同参与任务定义和验收。若方案只满足研发演示却增加操作与维护负担，后续持续采用就需要重新验证，不能将试点出现等同客户已认可长期价值。
+
+依据：[Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>) · [AimDK开发者中心](<https://open-us-east.agibot.com/docs/aimdk>)
+
+### 开发合作需要团队能力 · 研究判断
+
+Genie Studio面向具身研发和应用组织，使用者仍需理解数据、模型、控制以及现场系统之间的关系。只有具备相应工程资源，才可能把平台功能组合成稳定作业。个人兴趣用户即使能获取资料，也不能据此认为行业方案已变成无需配置的家庭通用服务。
+
+依据：[Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>) · [AimDK开发者中心](<https://open-us-east.agibot.com/docs/aimdk>)
+
+## 产品与工作流
+
+### 模型开发与任务编排分层 · 研究判断
+
+新版发布资料将数据与模型迭代、作业编排和运行监控分为不同模块，体现单个技能之外还需要组织完整任务。实际流程应保留数据来源、模型版本和操作记录，便于在失败时定位原因。不同机器人接口和站点设备也需要逐一适配，不能仅凭平台名称推定全部兼容。
+
+依据：[Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>)
+
+### 现场失败应回到验证过程 · 研究判断
+
+实际运行会遇到物料偏差、遮挡、设备状态变化和异常中断，应明确如何暂停、恢复和转入人工处理。将失败记录用于后续训练，是平台价值的一种可能实现。仍需通过复测确认更新是否改善旧任务且没有引入新问题，不能把采集更多数据本身当作可靠性保证。
+
+依据：[Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>)
+
+## AI技术与依赖
+
+### 感知模型与本体控制共同作用 · 研究判断
+
+机器人任务需要把感知、技能模型和运动控制连接起来，平台公开资料也涉及仿真和真实数据配合。技术效果受执行机构、传感器、对象和环境共同影响，不能只按模型名称比较。选型应固定机器人配置和任务条件，再分别检验感知、动作以及完整作业表现。
+
+依据：[Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>) · [AimDK开发者中心](<https://open-us-east.agibot.com/docs/aimdk>)
+
+### 开发文档需要对应具体版本 · 研究判断
+
+官方开发中心按机器人型号提供接口，这说明软件能力与硬件配置存在具体适配关系。项目应保存所用固件、接口与模型版本，并核对升级后的行为。某系列开放音频或高层控制，不意味着其它系列同样具备；未公开的执行位置、依赖或参数应继续保留边界。
+
+依据：[Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>) · [AimDK开发者中心](<https://open-us-east.agibot.com/docs/aimdk>)
+
+## 竞争与替代
+
+### 与专用自动化及人工流程比较 · 研究判断
+
+替代方案可能是成熟机械臂、专用设备、移动搬运系统或改进后的人工流程。比较应围绕相同产出、节拍、空间与异常，而不只是机器人的动作种类。若环境改造和人工接管需求很大，具身方案未必有更低总成本，需要在真实站点把维护和停机一起纳入评估。
+
+依据：[AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>)
+
+### 平台差异要落实到工程效率 · 研究判断
+
+不同机器人公司与独立开发平台都在组织数据、训练和部署工具，智元需要证明组合后能减少重复适配与排查工作。可用同一任务比较从样本准备到可重复运行的工程投入，并检查版本升级与迁移条件。公开集成案例有参考意义，但不能替代项目自己的验证。
+
+依据：[AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>)
+
+## 商业模式
+
+### 完整交付不只有整机价格 · 研究判断
+
+预算应包含本体、末端执行器、现场设备、模型适配、数据、算力、安装和后续维护。客户需要确认哪些由厂商交付，哪些由集成商或自己承担。本轮没有项目报价和实际运营账单，不据机器人起步价或产量自述推算回本期，也不把一次试点预算当长期采购规模。
+
+依据：[AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>)
+
+### 持续服务可能形成长期收入 · 研究判断
+
+机器人投入运行后仍需要监控、维护、任务调整和软件更新，平台服务可能参与这些工作。商业机会取决于客户是否愿意为稳定运行与持续改进付费，同时要求明确责任和服务边界。不能由平台功能数量直接判断利润，应结合人工支持、备件和现场响应成本分析。
+
+依据：[AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>)
+
+## 体验与交付
+
+### 现场人员需要清楚系统状态 · 研究判断
+
+操作者需要知道任务在什么步骤、为何暂停，以及何时需要自己接手。复杂机器人越多，明确的状态反馈和恢复流程越重要。试点应观察真实人员能否独立理解与处理常见异常，减少依赖研发人员临场解释，才能评估方案是否适合长期留在原有工作环境中。
+
+依据：[Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>) · [AimDK开发者中心](<https://open-us-east.agibot.com/docs/aimdk>)
+
+### 开发体验以复现和定位衡量 · 研究判断
+
+模型、仿真与真机之间应有可以对照的记录，使团队能够复现失败并理解配置变化的影响。平台展示的快捷部署只有在目标设备与任务上成立才有意义。评估时应记录首次接入、反复迭代与多人交接的工作量，而不是只看一次已经准备好的展示流程。
+
+依据：[Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>) · [AimDK开发者中心](<https://open-us-east.agibot.com/docs/aimdk>)
+
+## 风险与机会
+
+### 现场变化会暴露泛化边界 · 研究判断
+
+物体材质、光照、布置和人员交互的改变，都可能影响感知与执行。应在已定义范围内逐步增加变化，并为异常安排可操作的恢复机制。公司发布的特定成功率与部署时间有各自条件，不能直接变成任何客户的承诺；缺少长期数据时应保持试点评估定位。
+
+依据：[AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>)
+
+### 机会在可验收的窄工作流 · 研究判断
+
+对创业团队而言，围绕一段具体作业提供任务定义、数据与集成、反馈和维护，可能比追求所有场景通用更容易验证价值。需要检验客户真实工作是否改善、服务成本是否可持续，以及替代方案是否更合适。这些是商业假设，没有收入、留存或独立部署审计支持。
+
+依据：[AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) · [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) · [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>)
+
+## 资料来源
+
+- [AGIBOT G2官方产品资料](<https://www.agibot.com/products/G2>) — 提供具体产品与联系入口；未从页面推断完整自动化交付范围。（核查 2026-11-05）
+
+- [Genie Studio 2.0官方发布](<https://www.agibot.com/article/231/detail/130.html>) — 2026-10-26披露开发、编排与运营模块和项目案例；案例数据不是本目录独立实测。（核查 2026-11-05）
+
+- [Genie Studio平台介绍](<https://genie.agibot.com/geniestudio>) — 公开数据、训练、仿真与部署路径，具体授权和版本需确认。（核查 2026-11-05）
+
+- [AimDK开发者中心](<https://open-us-east.agibot.com/docs/aimdk>) — 说明按型号提供开发文档；A系列接口不能直接套用全部G系列产品。（核查 2026-11-05）
+
+- [智元官方公司介绍](<https://www.agibot.com/about_Zhiyuan>) — 核查上海业务主体和产品体系，不将公司自述产量视为实际终端销量。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

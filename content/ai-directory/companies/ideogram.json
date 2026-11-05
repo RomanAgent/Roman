@@ -1,0 +1,249 @@
+{
+  "id": "ideogram",
+  "name": "Ideogram",
+  "aliases": [
+    "Ideogram AI",
+    "Ideogram Studio"
+  ],
+  "website": "https://ideogram.ai/",
+  "region": "加拿大",
+  "regionNote": "按当前官方服务条款 How to Contact Us 中 Ideogram AI 的 Toronto 地址归为加拿大；这是公司联系地址口径，不等于本轮核定总部。",
+  "category": "image-design",
+  "tags": [
+    "文字图像",
+    "矢量生成",
+    "可编辑文字",
+    "广告素材",
+    "设计接口"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "官网与文档提供 Studio、矢量接口及当前订阅；Layerize Text 明确为 beta，不能写成所有编辑能力均已正式稳定。",
+  "ownershipNote": "按 Ideogram 产品业务统一收录，Studio、Vector 和文字分层均为同一业务下的产品能力；本轮未建立其他集团归属事实。",
+  "summary": "Ideogram 面向需要带文字的视觉素材和可继续编辑设计的创作者及开发者，提供图像创作、文字分层与矢量生成，把生成画面向实际广告和印刷工作流推进。",
+  "analysisScope": "分析围绕 Studio 的文字修改、矢量生成与收费交付，不宣称所有图像模型版本均已逐一测试；尤其区分应用内可编辑文字、最终位图导出与独立矢量接口三种不同结果。",
+  "sources": [
+    {
+      "id": "text",
+      "title": "Layerize Text 功能说明",
+      "url": "https://ideogram.ai/features/text-layers/",
+      "kind": "official-product",
+      "note": "确认 beta、文字重建、背景可能变化以及 Studio 不导出可编辑 PSD/SVG 的限制。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "vector",
+      "title": "矢量产品与接口",
+      "url": "https://ideogram.ai/models/vector/",
+      "kind": "official-product",
+      "note": "读取文字到矢量、图像矢量化与 SVG 接口，不与文字分层导出混用。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "plans",
+      "title": "当前方案与信用点",
+      "url": "https://docs.ideogram.ai/plans-and-billing/available-plans",
+      "kind": "official-pricing",
+      "note": "页面自注 2026-10-15 核查，Basic 不再新售，Plus/Pro/Team 与额度条件区分。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "terms",
+      "title": "服务条款",
+      "url": "https://ideogram.ai/legal/tos/",
+      "kind": "official-docs",
+      "note": "读取输入输出、用户责任、订阅与公开内容等边界，不作法律效力判断。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "ideogram-studio",
+      "name": "Ideogram Studio 与文字编辑",
+      "url": "https://ideogram.ai/features/text-layers/",
+      "kind": "app",
+      "stage": "preview",
+      "description": "围绕生成或上传的视觉素材继续修改，文字分层可把识别到的文字重建为应用内编辑对象，适合广告文案变更与个性化图案。",
+      "users": "需要持续修改海报、广告和商品图文的创作者及营销人员。",
+      "delivery": "用户登录网页工作室后调用工具并检查文字与背景，按账户方案导出最终图片，文字分层当前标注测试版。",
+      "monetization": "免费和付费方案提供不同信用点与导出能力，工具操作消耗额度，额外充值不自动升级订阅权限。",
+      "aiRole": "识别图中内容并重建可编辑文字与被覆盖背景，结合图像生成帮助制作视觉候选；识别结果和字体重建仍需用户逐字核对。",
+      "limits": "文字分层不把全图自动变成可编辑设计文件，Studio 此流程不提供可编辑 PSD 或 SVG；背景与字体可能改变，中国大陆完整交付未验证。",
+      "sourceIds": [
+        "text",
+        "plans",
+        "terms"
+      ]
+    },
+    {
+      "id": "ideogram-vector",
+      "name": "Ideogram Vector",
+      "url": "https://ideogram.ai/models/vector/",
+      "kind": "platform",
+      "stage": "available",
+      "description": "从文字描述或现有图片生成可缩放矢量图形，提供在线创作及接口路径，适合需要继续编辑图形轮廓的设计生产任务。",
+      "users": "制作图案、标识候选和印刷图形的设计师及工具开发者。",
+      "delivery": "可通过官方创作入口使用，也可经开发接口获取 SVG，再放入自己的矢量编辑与导出流程。",
+      "monetization": "按所选生成质量及输入形式进行接口计费，应用方案与接口消耗应分别核对，不假定订阅无限包含。",
+      "aiRole": "模型将描述和参考转成矢量图形或把图像转换为可编辑形状，减少初始描摹工作，但结构合理性与实际印刷适用性需要人工检查。",
+      "limits": "输出为 SVG 不代表图层命名、路径数量和字体权利已满足生产要求；与 Studio 的文字分层能力是不同流程，不能相互代替。",
+      "sourceIds": [
+        "vector",
+        "plans",
+        "terms"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "文案反复变更",
+        "text": "广告已经形成画面后，日期、价格和宣传语仍可能反复修改，重新生成整图容易破坏构图。文字分层针对这个具体摩擦提供入口；价值要看修改后原有视觉是否保持，而不是只看能否识别一行清楚的大字。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "text"
+        ]
+      },
+      {
+        "title": "从图像到图形",
+        "text": "印刷与标识任务经常需要可缩放轮廓，而普通生成图片仍是像素文件。矢量生成减少初始描摹的机会较明确，但是否节省生产时间，还取决于路径是否简洁、色块是否合理，以及导入专业工具后能否容易继续修改。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vector"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "营销编辑者",
+        "text": "高频改宣传图的运营人员可能缺少复杂图像处理技能，希望直接选择文字后换掉内容。对他们而言，清楚的界面与安全导出比大量模型选项更重要；如果小字漏检或日期错误，最终审核负担仍然会回到人工。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "text",
+          "plans"
+        ]
+      },
+      {
+        "title": "专业图形用户",
+        "text": "设计师和制作工具开发者关注可编辑资产而不仅是视觉预览，可能需要把结果放入既有规范。矢量接口面向这类需求，但真实用户还要判断颜色管理、字体与生产工艺；一个能打开的文件并不自动符合印刷交付标准。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vector"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "文字重建流程",
+        "text": "用户上传或选择图像后识别文字，再修改内容、排版和位置，最后导出成图。官方明确背景会重建，因此审校必须覆盖文字周围被填补的区域；不能只检查新文案是否出现，就忽略原产品或装饰细节被改变。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "text"
+        ]
+      },
+      {
+        "title": "矢量独立流程",
+        "text": "矢量生成和图像矢量化提供另一条流程，结果可继续检查形状。它不应与 Studio 的文字分层混为一谈，后者在应用内可编辑但最终仍导出位图；采购前应先明确团队需要哪一种文件，而不是笼统要求可编辑。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vector"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "识别与生成结合",
+        "text": "文字分层同时涉及内容识别、背景修补和字体重新呈现，不是单纯把原文字从图里无损取出。倾斜、装饰字和小尺寸说明可能更难处理，技术评估应分别记录漏字、错字和风格偏差，避免只用整体观感作为准确率。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "text"
+        ]
+      },
+      {
+        "title": "结构化输出",
+        "text": "直接得到 SVG 为后续编程和设计编辑带来便利，但几何结构仍可能复杂或不符合设计师组织习惯。需要检查重叠路径、缩放边缘和修改成本；官方展示可生成矢量并不等于模型理解了品牌规范或制造工艺的全部约束。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vector"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "替代编辑器",
+        "text": "传统设计文件原本就保留文字层，若团队拥有源文件，直接编辑通常更可靠。Ideogram 的切口是在只有扁平图像时恢复修改能力，因此应与手工修图和重新排版比较，而不是把所有设计编辑都描述为需要先由人工智能重建。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "text"
+        ]
+      },
+      {
+        "title": "矢量竞争",
+        "text": "传统描摹软件、人工绘制和其他生成平台都可提供矢量资产，差异需要看复杂图案的可用结构和修正时间。若只输出大量细碎路径，图形虽然可缩放却难编辑，模型质量的商业价值也会因此与漂亮预览出现分离。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vector"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "额度与权限",
+        "text": "当前方案把信用点、私密生成、批量任务和团队管理分层，额外充值只增加用量而不改变权限。用户需要按任务决定是缺额度还是缺功能，不能把价格最低的方案加充值简单视作高级方案的完全替代。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "plans"
+        ]
+      },
+      {
+        "title": "按成果核算",
+        "text": "接口的每次矢量生成或转换有明确计费入口，但最终成本取决于可采用率和后续修图。团队应计算一张符合生产要求的资产需要多少尝试，而不是以单价推断总预算；现有付费入口也不证明该能力已被大规模采用。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vector",
+          "plans"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "透明导出边界",
+        "text": "官方明确说明文字分层不导出可编辑 PSD 或 SVG，有助于防止用户误把应用内编辑当作开放设计文件。产品体验的关键是让这种边界在开始处理前可见，否则完成多轮修改后才发现无法交付源文件，会造成实际返工。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "text"
+        ]
+      },
+      {
+        "title": "验收用例",
+        "text": "建议选含小日期、混合字体、复杂背景和长文案的海报，比较修改前后每一处内容；矢量任务则在真实编辑器中检查路径和印刷效果。中国大陆账户、支付及导出条件需另行实测，本轮只核公开资料和产品入口。",
+        "evidence": "validation",
+        "sourceIds": [
+          "text",
+          "vector"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "权利与重建",
+        "text": "拥有一张图片不自动意味着可以改动其中商标、人物或受保护作品，服务条款把输入与输出责任交给使用者。生成字体和背景又可能偏离原图，机会在于降低重复改稿，风险是用户把技术可修改性当作已经取得使用授权。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "terms",
+          "text"
+        ]
+      },
+      {
+        "title": "版本跟踪",
+        "text": "文字分层仍标测试版，而方案文档已经更换旧套餐结构，说明功能和收费会持续调整。后续应保存使用时的方案与导出要求，重点验证从概念演示到稳定生产是否减少人工工时，不用模型版本数量充当商业成熟度指标。",
+        "evidence": "validation",
+        "sourceIds": [
+          "plans",
+          "text"
+        ]
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

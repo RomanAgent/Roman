@@ -1,0 +1,259 @@
+{
+  "id": "cohere",
+  "name": "Cohere",
+  "aliases": [
+    "North",
+    "Command",
+    "Embed",
+    "Rerank"
+  ],
+  "website": "https://cohere.com/",
+  "region": "加拿大",
+  "regionNote": "按Cohere既有加拿大业务主体口径记录；2026年9月公告计划与Aleph Alpha组合后设多伦多及柏林双总部，仍附监管条件，本轮未据此改成已完成双总部。",
+  "category": "enterprise",
+  "tags": [
+    "企业检索",
+    "重排序",
+    "私有部署",
+    "知识代理"
+  ],
+  "audience": "business",
+  "stage": "public",
+  "stageNote": "模型API有试验及生产计费，North企业平台提供演示和商务入口；具体私有部署、容量和合同范围需确认，不把演示视为通用自助订阅。",
+  "ownershipNote": "Cohere的North与模型服务合并研究。2026-09-16官方仅确认与Aleph Alpha签署最终业务组合协议且仍需监管批准，本轮未核到完成公告，不提前将两家全部产品视为已整合。",
+  "summary": "Cohere面向企业把知识检索、相关性排序和生成模型组合成资料访问与代理工作流，并提供私有或专用部署方向；其定位需要围绕企业已有知识和访问控制理解，而不是作为大众娱乐聊天工具比较。",
+  "analysisScope": "重点分析Command、Embed与Rerank模型服务组合，以及North企业知识和代理平台；不覆盖全部研究模型或拟议组合后的产品，也不将私有部署宣传视为自动合规保证。",
+  "sources": [
+    {
+      "id": "models",
+      "title": "Cohere平台及检索模型说明",
+      "url": "https://docs.cohere.com/docs/the-cohere-platform",
+      "kind": "official-docs",
+      "note": "已打开生成、嵌入、重排序、RAG与不同部署路线，区分各组件作用。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "north",
+      "title": "North当前企业平台",
+      "url": "https://cohere.com/north",
+      "kind": "official-product",
+      "note": "已打开知识访问、内容创建、自动化和私有部署方向；公司安全宣传未作独立认证。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "pricing",
+      "title": "Cohere模型和企业收费入口",
+      "url": "https://cohere.com/pricing",
+      "kind": "official-pricing",
+      "note": "已打开Trial与Production key区别、按量方式及Rerank查询单位，企业方案需另核。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "company",
+      "title": "Cohere当前产品组合",
+      "url": "https://cohere.com/",
+      "kind": "official-company",
+      "note": "已打开当前企业定位、模型产品和部署入口，不引用客户标识或宣传排名作实际采用证据。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "combination",
+      "title": "Cohere与Aleph Alpha签约公告",
+      "url": "https://cohere.com/blog/cohere-and-aleph-alpha-sign-agreement",
+      "kind": "official-company",
+      "note": "已打开2026-09-16协议，交易及相关任命以完成和监管批准为条件；双总部属于拟议安排。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "cohere-models",
+      "name": "Command / Embed / Rerank 模型服务",
+      "url": "https://docs.cohere.com/docs/the-cohere-platform",
+      "kind": "platform",
+      "stage": "available",
+      "description": "用生成模型、语义表示与相关性重排序分别支持企业问答和搜索，让团队在已有资料系统上构建检索增强应用，而非只依赖模型内部知识。",
+      "users": "需要提高内部搜索、资料分类和问答质量的企业开发与数据团队。",
+      "delivery": "可通过Cohere API、合作云或适用专用及私有部署访问，模型和部署支持范围需逐项确认。",
+      "monetization": "试验密钥与生产密钥收费不同，生产API按量；生成和重排序采用不同计量，定制部署与支持另行报价。",
+      "aiRole": "Embed表示语义以辅助召回，Rerank对候选资料排序，Command根据上下文生成；三者分工不同，检索提升不自动保证回答事实正确。",
+      "limits": "候选资料缺失时重排序不能凭空补齐，私有部署仍需配置权限和更新；API、模型许可及不同云渠道条件不一致，旧模型价格不等于新型号。",
+      "sourceIds": [
+        "models",
+        "pricing"
+      ]
+    },
+    {
+      "id": "cohere-north",
+      "name": "North 企业知识与代理平台",
+      "url": "https://cohere.com/north",
+      "kind": "platform",
+      "stage": "available",
+      "description": "把企业资料发现、内容创建和代理自动化放在面向员工的平台中，连接既有知识及工具，并提供适用私有环境和专用推理部署路线。",
+      "users": "需要在组织知识和业务工具之间完成任务的企业员工及管理员。",
+      "delivery": "以企业平台方案交付，可在适用私有云、本地环境或Model Vault等路线运行，需商务和技术配置。",
+      "monetization": "通过企业方案、部署容量及服务范围确定费用，本轮未核统一公开席位价，不能套用模型API费率作为完整平台报价。",
+      "aiRole": "平台结合检索、生成和代理工具让员工使用企业知识，控制与连接层组织访问；自动化是否可靠仍取决于资料质量和业务规则。",
+      "limits": "知识连接不保证权限天然正确，厂商私有及安全主张需对应配置和合同；演示能完成任务不代表全部业务已支持，也不推定部署无需维护。",
+      "sourceIds": [
+        "north",
+        "models",
+        "pricing"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "事实｜检索、排序和生成是不同产品环节",
+        "evidence": "official",
+        "sourceIds": [
+          "models"
+        ],
+        "text": "Cohere以Embed支持语义表示，以Rerank调整候选资料相关性，再用Command等生成内容。这样可以改善现有搜索和问答链条，而不是要求每个问题只依赖模型记忆；目录保留组件分工，不把重排序说成自动生成答案，也不把检索能力视为通用真伪判断。"
+      },
+      {
+        "title": "判断｜企业痛点常是资料找不到或难以确认",
+        "evidence": "analysis",
+        "sourceIds": [
+          "north",
+          "models"
+        ],
+        "text": "用户可能知道组织里已有答案，却无法从分散文件和系统中迅速定位。需求因此不仅是回答流畅，还包括来源、权限和版本能否被理解；若资料本身缺失或过时，换生成模型不能解决全部问题，研究应先观察知识获取过程中真正耗时的环节。"
+      }
+    ],
+    "users": [
+      {
+        "title": "事实｜平台与接口服务不同使用角色",
+        "evidence": "official",
+        "sourceIds": [
+          "north",
+          "models"
+        ],
+        "text": "North面向员工的资料与代理工作，模型API则需要开发团队集成。管理员负责数据连接和访问，员工负责理解输出，开发者还可能维护检索链条；这些角色的要求不同，不能用技术人员能调通接口推定全体员工已经能够可靠地完成业务任务。"
+      },
+      {
+        "title": "验证｜让资料所有者参与试点",
+        "evidence": "validation",
+        "sourceIds": [
+          "north"
+        ],
+        "text": "可以选择确实需要跨文档查找的岗位，让资料维护者一起确认内容版本和访问权限。用户认为答案有用不代表引用资料允许其访问，也不代表旧结论仍适用；试点应记录不知道答案或拒绝访问的情况，避免只展示已有标准答案的检索演示。"
+      }
+    ],
+    "workflow": [
+      {
+        "title": "事实｜North连接知识访问与工作执行",
+        "evidence": "official",
+        "sourceIds": [
+          "north"
+        ],
+        "text": "当前平台页面把资料发现、内容创建和自动化分别展示，并支持与既有工具、数据和监控系统连接。它试图让知识查询进入后续工作，而不只是返回搜索列表；但具体连接和业务操作仍需配置，不能根据开放API描述推定全部企业系统即插即用。"
+      },
+      {
+        "title": "判断｜检索结果应保留到最终产物",
+        "evidence": "analysis",
+        "sourceIds": [
+          "models",
+          "north"
+        ],
+        "text": "当用户把内部问答变成报告或行动时，需要知道结论依据和资料版本，而不是在生成后丢失来源。可追溯性有助于业务人员纠正错误，也能暴露知识库缺口；这比只追求回答速度更贴近企业使用，特别是多个团队共享资料但拥有不同责任时。"
+      }
+    ],
+    "technology": [
+      {
+        "title": "事实｜重排序不能替代召回与资料准备",
+        "evidence": "official",
+        "sourceIds": [
+          "models"
+        ],
+        "text": "平台文档把向量表示、搜索和Rerank列为相互配合的能力，生成还可结合检索依据与引用。组件处于不同位置，输出质量受整个链条影响；即使排序模型表现较好，候选集合没有正确资料时也无法从中选出答案，不能把一个环节成绩推广为系统准确率。"
+      },
+      {
+        "title": "验证｜分层检查召回、排序和回答",
+        "evidence": "validation",
+        "sourceIds": [
+          "models"
+        ],
+        "text": "评测可先检查正确资料是否进入候选，再看排序是否保留关键片段，最后检查生成是否忠实使用依据。这样能区分需要调整资料、检索还是模型；只让用户给最终回答打分会隐藏问题，本研究没有运行企业知识库或复现厂商对检索效果的宣传。"
+      }
+    ],
+    "competition": [
+      {
+        "title": "判断｜可作为搜索增强而非完整替换",
+        "evidence": "analysis",
+        "sourceIds": [
+          "models"
+        ],
+        "text": "企业不一定需要更换全部搜索系统，也可能仅接入Embed或Rerank改进现有流程。与完整代理平台比较，这种模块路线承担较少界面工作但需要工程团队维护；选择应看现有系统的薄弱环节，而不是默认购买更多组件就能得到更好知识管理。"
+      },
+      {
+        "title": "验证｜比较模块接入与完整平台的成本",
+        "evidence": "validation",
+        "sourceIds": [
+          "north",
+          "models"
+        ],
+        "text": "可以把同一资料任务分别放入现有搜索增强方案和North试点，比较配置、权限、用户操作与后续维护。完整平台可能减少应用开发，也可能需要组织改变习惯；本目录没有实施项目，不能凭企业定位或私有部署选项推断所有客户更愿意采用。"
+      }
+    ],
+    "business": [
+      {
+        "title": "事实｜试验密钥和生产调用有费用区别",
+        "evidence": "official",
+        "sourceIds": [
+          "pricing"
+        ],
+        "text": "官方说明Trial API key用于免费试验，Production key采用按量计费，Rerank的查询单位与生成模型token不同。不同组件组合后需要分别核算，不能拿一个聊天单价估计整个知识工作流程；企业专用部署和North平台又需依据方案范围确认价格。"
+      },
+      {
+        "title": "判断｜总成本包括知识持续更新",
+        "evidence": "analysis",
+        "sourceIds": [
+          "models",
+          "pricing"
+        ],
+        "text": "即使模型调用费用可控，企业仍要整理文档、维护权限并处理过期内容，更新检索表示也可能形成持续工作。商业价值应按员工真正找对资料和完成任务衡量，而不是只看返回答案数量；本研究不根据单价或官方客户案例推断收益和付费转化。"
+      }
+    ],
+    "experience": [
+      {
+        "title": "事实｜私有运行有多种交付路线",
+        "evidence": "official",
+        "sourceIds": [
+          "models",
+          "north"
+        ],
+        "text": "官方介绍API、专用Model Vault、合作云及适用本地或私有环境，North也提供对应部署方向。它们在控制和管理责任上不同，不能把所有路线都描述为相同的本地隔离；实际合同、配置和模型支持范围需要与企业需求逐项对应。"
+      },
+      {
+        "title": "验证｜体验要包括权限变化和资料撤回",
+        "evidence": "validation",
+        "sourceIds": [
+          "north"
+        ],
+        "text": "用户离职、文件权限改变或旧文档被撤回时，系统应如何更新可访问内容，是企业体验的重要部分。试点还应检查引用是否能打开和错误是否能回报给维护者；漂亮的答案界面无法证明这些机制可靠，本研究没有对任何部署作安全或权限测试。"
+      }
+    ],
+    "risks": [
+      {
+        "title": "事实｜与Aleph Alpha的组合仍有条件",
+        "evidence": "official",
+        "sourceIds": [
+          "combination"
+        ],
+        "text": "九月官方公告确认签署最终业务组合协议，同时说明仍需监管批准，相关领导安排也以交易完成为条件。目录保留Cohere现有业务分析，拟议多伦多与柏林双总部不写成已经落地；集团消息也不等于两家产品、客户和部署体系已完成技术整合。"
+      },
+      {
+        "title": "判断｜机会在知识质量与可控交付",
+        "evidence": "analysis",
+        "sourceIds": [
+          "models",
+          "north"
+        ],
+        "text": "创业团队可围绕某类复杂资料提供清洗、评测和业务验收，把检索模型接到实际知识工作里。差异来自对来源、权限和任务的理解，而不只是拥有一个向量库或生成模型；是否能持续服务客户，需要观察资料维护负担和结果责任，不能由主权AI口号推定。"
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

@@ -1,0 +1,239 @@
+{
+  "id": "harvey",
+  "name": "Harvey",
+  "aliases": [],
+  "website": "https://www.harvey.ai/",
+  "region": "美国",
+  "regionNote": "按隐私政策列示Harvey AI Corporation旧金山服务主体口径归类；政策同时列爱尔兰主体，不将美国标签等同唯一总部或全部数据处理地区。",
+  "category": "enterprise",
+  "tags": [
+    "法律AI",
+    "文档尽调",
+    "专业研究",
+    "法务协作"
+  ],
+  "audience": "business",
+  "stage": "sales",
+  "stageNote": "面向法律及专业服务组织提供演示与商业接洽，具体资料源、地区处理和应用范围按合同配置；不是对公众自动提供法律结论的零售咨询。",
+  "ownershipNote": "Vault、Knowledge、法律代理及相关应用统一归入Harvey产品业务，不按法律领域或工作空间重复计公司；未把模型供应商关系解释为所有权。",
+  "checkedAt": "2026-11-05",
+  "summary": "为律所和企业法务提供文档审阅、法律资料检索及协作工作空间，帮助专业人员组织证据与草稿；输出依赖资料、法域和任务范围，不能替代负责案件或合同的法律专业判断。",
+  "products": [
+    {
+      "id": "harvey-vault-knowledge",
+      "name": "Harvey Vault 与Knowledge",
+      "url": "https://www.harvey.ai/platform/vault",
+      "kind": "vertical",
+      "stage": "available",
+      "description": "围绕客户法律文档开展存储与分析，并结合Knowledge提供法律和监管资料研究，支持专业团队形成审阅成果。",
+      "users": "律所律师、企业法务、交易和诉讼相关专业服务团队。",
+      "delivery": "通过组织账户与工作空间交付，上传和连接资料、访问权限及地区处理按企业配置和合同安排。",
+      "monetization": "以企业演示和合同采购为主要形式，具体资料授权、使用范围和服务费用需要商务确认，本轮不估算律师席位价格。",
+      "aiRole": "模型用于理解、归纳和分析法律文本，并结合专业资料源支持研究；文档事实、模型推断和法律意见应在成果中明确分开。",
+      "limits": "来源覆盖并不等于所有法域和最新规则均完整，上传文档可能缺页或版本冲突；任何对外意见和关键条款仍需专业人员复核原文及适用条件。",
+      "sourceIds": [
+        "product",
+        "vault",
+        "knowledge",
+        "security"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "product",
+      "title": "Harvey当前法律AI平台",
+      "url": "https://www.harvey.ai/",
+      "kind": "official-product",
+      "note": "已读取律所与企业法务定位及Vault、Knowledge和代理入口，未采用融资或效率宣传。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "vault",
+      "title": "Harvey Vault文档分析",
+      "url": "https://www.harvey.ai/platform/vault",
+      "kind": "official-product",
+      "note": "已打开具体文档存储、审阅与尽调产品页。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "knowledge",
+      "title": "Harvey Knowledge研究资料",
+      "url": "https://www.harvey.ai/platform/knowledge",
+      "kind": "official-product",
+      "note": "已读取法律资料来源与外部信息研究，不推定全部法域覆盖。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "security",
+      "title": "Harvey数据与访问控制",
+      "url": "https://www.harvey.ai/security",
+      "kind": "official-docs",
+      "note": "已读取角色访问、工作空间隔离、保留与地区处理；基础模型不训练客户数据和定制训练例外按官方合同说明区分。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "region-source",
+      "title": "Harvey隐私政策与服务实体",
+      "url": "https://www.harvey.ai/legal/privacy-policy",
+      "kind": "official-company",
+      "note": "第12节列美国及爱尔兰主体，已由协作研究核查。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "analysisScope": "分析围绕Vault处理法律文件和Knowledge支持专业研究的组合，涉及证据组织、权限与采购；不代替法律建议，不评价全部法律代理或每个法域的准确性，也不将厂商安全承诺视为独立审计结论。",
+  "analysis": {
+    "demand": [
+      {
+        "title": "大量文档中的重复审阅",
+        "text": "交易和诉讼工作常要从不同格式文件中找到条款、事实和时间关系，重复阅读占据专业人员注意力。工具价值应体现在更容易定位和复核证据，而非仅缩短阅读时间；遗漏关键例外可能比草稿写得慢更影响工作。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vault"
+        ]
+      },
+      {
+        "title": "研究与案件资料衔接",
+        "text": "专业研究需要把外部规则与客户实际材料联系起来，两者来源和时效并不相同。Harvey组合的需求是减少切换和整理，但必须验证系统是否区分当前法域、文件版本和事实假设，不能把通顺解释当作已经适用的结论。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "knowledge",
+          "vault"
+        ]
+      }
+    ],
+    "users": [
+      {
+        "title": "专业人员是主要使用者",
+        "text": "产品面向律师和法务等能够判断材料及适用条件的人，他们需要的是可核查辅助。普通公众缺乏相同背景，容易把生成回答当成最终法律意见，因此企业产品可采购不能外推为适合任何个人自行处理复杂案件。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product"
+        ]
+      },
+      {
+        "title": "知识与安全负责人参与",
+        "text": "律所资料可能涉及不同客户与事项，文档管理员和安全负责人需要确定上传范围、访问分组和保留。采用过程应同时考虑案件负责人与治理角色，不能让方便试用的单个账户替代组织对客户材料的处理决定。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      }
+    ],
+    "workflow": [
+      {
+        "title": "从文件集合到审阅成果",
+        "text": "Vault的任务围绕文件整理和分析，合理流程应保留原文件、版本和定位方式。研究建议让专业人员从每项发现回到相关材料，并记录未覆盖或无法解析的部分，避免汇总表整齐却隐藏了输入缺失。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vault"
+        ]
+      },
+      {
+        "title": "研究成果进入专业复核",
+        "text": "Knowledge提供外部研究入口，成果应经过法域、日期、来源层级和适用情境核对后才用于客户工作。即使材料来自可信数据库，模型也可能误解限制条件，因此应把检索帮助与最终法律判断的责任明确区分。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "knowledge"
+        ]
+      }
+    ],
+    "technology": [
+      {
+        "title": "文本理解不等于法律正确",
+        "text": "模型可以归纳复杂文字，但法律文本中的例外、定义和交叉引用可能改变结论。技术验证应选择包含条件冲突和版本差异的真实匿名样本，检查模型如何处理不确定，而不是只评估简单条款提取是否流畅。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vault",
+          "knowledge"
+        ]
+      },
+      {
+        "title": "数据处理边界需对应合同",
+        "text": "官方说明角色访问、工作空间隔离和地区处理，并对模型训练作出合同承诺。采购仍需确认所选配置和子处理者范围，尤其明确请求的定制训练与通用模型训练不同；不能把某一种区域选项当作所有客户的默认部署。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      }
+    ],
+    "competition": [
+      {
+        "title": "与专业数据库比较",
+        "text": "传统法律数据库和人工检索已提供来源与研究工具，AI产品应证明其在文档结合和任务整理上的增量。比较不能只问谁回答更像律师，而应检查引用完整性、定位速度和遗漏边界，并保留专业数据库本身的覆盖差异。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "knowledge"
+        ]
+      },
+      {
+        "title": "与通用文档助手比较",
+        "text": "通用助手也能摘要文件，但专业工作还要求事项隔离、来源治理和流程适配。Harvey的差异需要在这些具体任务中验证，不能仅凭法律专用品牌推定回答更准确，也不能把企业功能与普通聊天价格直接比较。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "security"
+        ]
+      }
+    ],
+    "business": [
+      {
+        "title": "合同包含什么需要逐项问清",
+        "text": "企业购买应核对工作空间、资料来源、连接、使用范围和支持，而不仅是账号数量。某些研究资料可能有独立授权和地区条件，本轮未获得商务报价，因此不推算单位案件成本或声称比人工审阅便宜多少。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "knowledge"
+        ]
+      },
+      {
+        "title": "专业服务模式可能变化",
+        "text": "辅助审阅可能改变初稿和复核之间的时间分配，但是否提高服务质量取决于专业人员如何使用。商业研究应记录新增校对、培训和资料治理投入，避免把自动生成时间直接换算为客户收费节省或律师岗位替代。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vault",
+          "product"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "证据与草稿必须好区分",
+        "text": "使用者需要迅速辨认原文事实、模型整理和建议表达，界面不能让三者看起来同样确定。体验测试应让第二位专业人员接手成果并复核，观察能否发现来源缺口，而不只由最初提问者评价回答是否有帮助。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vault",
+          "knowledge"
+        ]
+      },
+      {
+        "title": "资料隔离影响协作体验",
+        "text": "多个客户或事项的工作空间需要方便协作，也必须避免误分享。应测试成员加入、离开和资料删除后可见性如何变化，确保团队理解哪些内容仍保留；这些日常治理动作比一次演示中的摘要质量更接近真实交付。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "security"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "title": "不完整材料造成错误信心",
+        "text": "模型可能在缺少附件、版本或背景时仍给出完整答案，专业用户也可能因格式整齐而忽视缺口。机会在明确提示覆盖范围和不确定内容，让复核更聚焦；不能依靠免责声明来替代产品对证据边界的呈现。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "vault",
+          "knowledge"
+        ]
+      },
+      {
+        "title": "以专业复核结果检验价值",
+        "text": "建议采用匿名化且有可靠参考的审阅任务，记录遗漏、纠正和接手时间，并检查是否改善客户工作。不能以回答长度、上传文件量或厂商客户名单判断成功，本研究也没有法律结果或效率的独立实测。",
+        "evidence": "analysis",
+        "sourceIds": [
+          "product",
+          "vault"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "id": "openai",
+  "name": "OpenAI",
+  "aliases": [
+    "ChatGPT",
+    "Codex"
+  ],
+  "website": "https://learn.chatgpt.com/docs",
+  "region": "美国",
+  "regionNote": "按OpenAI业务主体的美国公司口径记录；本条官网入口使用已核查的官方产品文档，不将服务可用地区等同总部或全球一致开放。",
+  "category": "foundation",
+  "tags": [
+    "通用模型",
+    "个人代理",
+    "编程代理",
+    "模型API"
+  ],
+  "audience": "both",
+  "stage": "public",
+  "stageNote": "官方文档提供ChatGPT与Codex订阅、API及代理开发入口；具体模型、地区、额度与组织权限分别受限，公开入口不代表全部功能无条件开放。",
+  "ownershipNote": "将ChatGPT、ChatGPT Work、Codex和OpenAI API归在同一公司档案，不把模型版本或客户端单列为公司，也不把云合作伙伴算作同一主体。",
+  "summary": "OpenAI同时向个人和组织提供可直接使用的工作助手、编程代理，以及供开发者构建应用的模型和代理接口；研究重点是从对话到工具执行的交付流程，而非罗列全部模型版本。",
+  "analysisScope": "本条围绕ChatGPT与Codex工作入口、模型及Agents API两组代表产品，分析订阅使用与开发集成的区别；不覆盖公司全部研究项目、行业许可或历史模型。",
+  "sources": [
+    {
+      "id": "work",
+      "title": "ChatGPT与Codex当前官方文档",
+      "url": "https://learn.chatgpt.com/docs",
+      "kind": "official-docs",
+      "note": "已打开当前工作入口、编程与项目任务说明；不将示例演示等同任意任务成功。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "subscription",
+      "title": "ChatGPT Work与Codex收费及额度",
+      "url": "https://learn.chatgpt.com/docs/pricing",
+      "kind": "official-pricing",
+      "note": "已打开订阅、共享用量、额外credits与API独立计费；具体账号以用量页及合同为准。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "api-pricing",
+      "title": "OpenAI API当前计费",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "kind": "official-pricing",
+      "note": "已打开模型与工具、容器计费类别；不把单位token价格当整个代理任务成本。",
+      "accessedAt": "2026-11-05"
+    },
+    {
+      "id": "agents",
+      "title": "Agents API概览",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "kind": "official-docs",
+      "note": "已打开托管Codex harness、会话、恢复及沙箱边界；应用方仍需提供工具与执行环境选择。",
+      "accessedAt": "2026-11-05"
+    }
+  ],
+  "products": [
+    {
+      "id": "chatgpt-codex",
+      "name": "ChatGPT / Codex 工作与编程入口",
+      "url": "https://learn.chatgpt.com/docs",
+      "kind": "app",
+      "stage": "available",
+      "description": "把自然语言任务连接到资料整理、项目操作和代码修改，个人与团队可在不同客户端继续工作；这里按共同工作流记录而不拆分每个客户端。",
+      "users": "需要整理资料、开发软件或协作完成任务的个人与团队。",
+      "delivery": "通过官方桌面、网页及开发工具等入口使用，具体功能随套餐、地区和工作区设置变化。",
+      "monetization": "提供个人与组织订阅及额度机制，部分用量可另购credits；API密钥计费另行核算。",
+      "aiRole": "语言和多模态模型理解任务、规划步骤并通过工具生成或修改产物；代理执行仍依赖连接权限、项目上下文和运行环境。",
+      "limits": "不能把订阅理解为无限任务，也不能把生成代码视为已测试交付；模型和客户端入口会迁移，关键外部操作仍应有适当授权与复核。",
+      "sourceIds": [
+        "work",
+        "subscription"
+      ]
+    },
+    {
+      "id": "openai-api",
+      "name": "OpenAI 模型与 Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "kind": "platform",
+      "stage": "available",
+      "description": "向软件团队提供模型调用和托管代理会话能力，把生成、工具执行、状态管理与恢复嵌入自有应用，而非要求最终用户进入聊天界面。",
+      "users": "构建自动化服务、企业应用与编程工具的软件开发团队。",
+      "delivery": "通过API与SDK集成，代理可在沙箱执行代码、处理文件及连接工具，实际部署由应用架构决定。",
+      "monetization": "模型按对应API用量收费，工具和托管容器另有费项；组织合同与地区处理条件也可能影响成本。",
+      "aiRole": "模型负责推理与工具选择，托管代理框架管理会话、编排、上下文压缩和恢复；业务工具与输出验收仍由开发者提供。",
+      "limits": "托管会话不等于业务流程自动正确；须验证重试、权限、幂等与任务预算，模型停用及接口更新也会影响已上线应用。",
+      "sourceIds": [
+        "agents",
+        "api-pricing"
+      ]
+    }
+  ],
+  "analysis": {
+    "demand": [
+      {
+        "title": "事实｜同时提供成品助手和开发平台",
+        "evidence": "official",
+        "sourceIds": [
+          "work",
+          "agents"
+        ],
+        "text": "ChatGPT与Codex让用户直接把任务交给助手，Agents API则把相似执行能力提供给应用开发者。两种入口都涉及模型和工具，但购买者承担的集成责任不同；公司目录按工作流合并研究，避免把一个模型在多个客户端出现误计为多个独立产品市场。"
+      },
+      {
+        "title": "判断｜价值取决于完成结果而非对话长度",
+        "evidence": "analysis",
+        "sourceIds": [
+          "work",
+          "agents"
+        ],
+        "text": "核心需求是减少资料、代码和应用之间的手工搬运，让一次任务形成可检查的产物。是否节约时间要计入提供上下文、等待、复查和返工，不能由模型输出更长或代理运行更久推定；对创业团队而言，能否重复完成特定工作比抽象能力排名更有参考价值。"
+      }
+    ],
+    "users": [
+      {
+        "title": "事实｜个人订阅与组织控制不同",
+        "evidence": "official",
+        "sourceIds": [
+          "subscription"
+        ],
+        "text": "官方定价页区分个人、Business和Enterprise等入口，组织方案包含相应管理与数据控制，具体功能依工作区而定。个人付费账号能用某种工具，不代表整个公司已建立统一权限和费用安排；同样，API密钥入口也不自动包含所有云端客户端功能。"
+      },
+      {
+        "title": "验证｜按岗位和数据边界分配试点",
+        "evidence": "validation",
+        "sourceIds": [
+          "work",
+          "subscription"
+        ],
+        "text": "可以分别选择开发人员、分析人员和非技术运营的真实任务，观察谁能提供足够输入、谁承担最后验收。团队需要先明确文件与连接器的访问边界，再决定是否集中采购；不能让一个熟练使用者的展示代表所有岗位都具有相同学习成本和交付责任。"
+      }
+    ],
+    "workflow": [
+      {
+        "title": "事实｜托管代理与业务工具各负其责",
+        "evidence": "official",
+        "sourceIds": [
+          "agents"
+        ],
+        "text": "Agents API说明由OpenAI管理会话、编排、上下文压缩与恢复，应用方提供工具并选择执行环境。沙箱内可以执行代码、编辑文件及连接MCP服务器，这些是运行能力而非业务正确性保证；客户仍要定义任务目标、可访问资源以及怎样确认产物符合要求。"
+      },
+      {
+        "title": "判断｜持续任务需要清楚的状态交接",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agents",
+          "work"
+        ],
+        "text": "从一句问题转为长任务后，用户需要知道当前完成了什么、遇到什么阻碍、哪些步骤需要批准，以及怎样接管。产品评估应观察暂停、恢复和交付后的可追溯性，避免只比较首次回答速度；自动执行增加了工作覆盖面，也让状态解释成为主要体验问题。"
+      }
+    ],
+    "technology": [
+      {
+        "title": "事实｜模型和工具均会形成资源消耗",
+        "evidence": "official",
+        "sourceIds": [
+          "api-pricing",
+          "subscription"
+        ],
+        "text": "API价格表将模型用量与搜索、文件或容器等工具费用分列，订阅文档也说明上下文、推理和工具调用影响额度。相似提示可能产生不同任务成本，因此不能把单次输入token或月费直接换算成固定可完成项目数；模型可用性和计费入口需要一并记录。"
+      },
+      {
+        "title": "验证｜用任务样本验证预算与可靠性",
+        "evidence": "validation",
+        "sourceIds": [
+          "agents",
+          "api-pricing"
+        ],
+        "text": "开发者可以对代表任务记录模型调用、工具步骤、失败重试和最终验收结果，再评估成本与延迟。长上下文并不证明所有资料都被正确使用，自动恢复也不意味着没有重复副作用；应在受控环境检查这些行为，而不是用一个成功案例推定上线稳定性。"
+      }
+    ],
+    "competition": [
+      {
+        "title": "判断｜比较对象随交付入口变化",
+        "evidence": "analysis",
+        "sourceIds": [
+          "work",
+          "agents"
+        ],
+        "text": "个人助手需要和既有搜索、办公软件及其他代理比较，API则要与其他模型服务、自托管方案和确定性程序比较。OpenAI把多种能力放在同一产品体系里可能减少切换，但也会增加迁移依赖；不能以模型某一测评成绩概括全部工作流的替代关系。"
+      },
+      {
+        "title": "验证｜保留不使用代理的任务基线",
+        "evidence": "validation",
+        "sourceIds": [
+          "agents",
+          "work"
+        ],
+        "text": "可以让同一任务分别使用人工、常规自动化和代理处理，比较准确性、返工量与权限需求。对于规则清晰、输入稳定的工作，传统程序可能更经济；只有任务确实需要理解和处理变化，模型能力才有明确贡献，避免把所有自动化改写成AI价值。"
+      }
+    ],
+    "business": [
+      {
+        "title": "事实｜套餐额度与API账单需分开理解",
+        "evidence": "official",
+        "sourceIds": [
+          "subscription",
+          "api-pricing"
+        ],
+        "text": "官方明确ChatGPT Work与Codex共享相应用量，而API按独立规则收费，企业还可能有合同约定。客户购买的不只是模型调用，也包括客户端、管理和运行服务；但额外credits、工具或容器费用仍需核对，不能把已有订阅当作任何集成调用的通用余额。"
+      },
+      {
+        "title": "判断｜商业可行性应围绕任务净收益",
+        "evidence": "analysis",
+        "sourceIds": [
+          "subscription",
+          "agents"
+        ],
+        "text": "对个人而言，持续付费取决于每月是否有足够高频任务；对企业而言，还要计入审查、集成、培训和管理成本。平台价值可能来自减少工程重复建设，但不保证客户得到同样回报；本目录不使用厂商演示推算收入、岗位替代率或普遍生产力提升。"
+      }
+    ],
+    "experience": [
+      {
+        "title": "事实｜多种入口支持不同操作习惯",
+        "evidence": "official",
+        "sourceIds": [
+          "work",
+          "subscription"
+        ],
+        "text": "当前官方文档覆盖桌面、网页、移动与开发工具等使用方式，编程和项目任务并非只能在单一聊天窗口完成。不同入口具有不同连接和云功能范围，文档也持续记录更新；因此研究以任务入口和实际账号权限为准，不把任何一端体验扩展为所有客户端能力。"
+      },
+      {
+        "title": "验证｜检查产物是否便于复核和继续编辑",
+        "evidence": "validation",
+        "sourceIds": [
+          "work",
+          "agents"
+        ],
+        "text": "评估时应看用户能否找到引用、代码改动、执行日志和文件版本，并在任务结束后继续使用产物。一个视觉完整的输出可能仍需要格式修正或事实检查；如果交接成本很高，生成速度优势会缩小，目录没有进行真实账号测试或长期使用研究。"
+      }
+    ],
+    "risks": [
+      {
+        "title": "判断｜主要机会在受控的专业工作流程",
+        "evidence": "analysis",
+        "sourceIds": [
+          "agents",
+          "work"
+        ],
+        "text": "创业切口可以是让特定团队更容易准备输入、约束工具并验证输出，而不是再包装一个无差别聊天框。关键在用户已经有明确任务和判断标准，并愿意为连续交付付费；这一方向是研究假设，仍需访谈和真实任务数据支持，不由平台流行程度直接证明。"
+      },
+      {
+        "title": "验证｜跟踪模型与接口迁移带来的变化",
+        "evidence": "validation",
+        "sourceIds": [
+          "api-pricing",
+          "subscription",
+          "agents"
+        ],
+        "text": "模型、订阅权益和接口会更新，产品团队需要保留任务评测及迁移路径，并核对数据处理和支持地区。长期代理还应检查权限撤销、外部操作授权与预算停止行为；本目录只读取公开文档，没有注册、上传私有资料或验证厂商宣称的效果。"
+      }
+    ]
+  },
+  "checkedAt": "2026-11-05"
+}

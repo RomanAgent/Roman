@@ -1,0 +1,181 @@
+# 宇树科技 / Unitree Robotics
+
+机器人与具身AI · 中国大陆 · 核查 2026-11-05
+
+宇树提供机器人本体、开发接口和运动及操作模型研究资源，服务需要开展真实机器人学习与系统集成的团队；分析重点是硬件能力、开放开发条件和模型实验之间的区别，避免把演示直接当成默认交付技能。
+
+**业务入口：商务接洽**。本条重点G1 EDU按官方页面联系销售，公开模型与SDK提供研究开发资源；标准G1与EDU的二次开发和选配不同，不能以基础款标价代表研究平台完整交付。
+
+公司与集团：将宇树机器人本体、开发工具与UnifoLM研究作为同一公司产品体系，不按硬件机型或模型小版本拆分公司；模型中的第三方组件仍有各自来源和许可。
+
+地区口径：官方GitHub组织资料标注杭州、中国，并指向公司官网；地区记录不等同所有销售、售后或数据部署范围。
+
+[公司官网](<https://www.unitree.com/>) · [网页档案](https://romanagent.github.io/Roman/#ai/company/unitree)
+
+## 重点产品
+
+### G1 EDU 机器人开发平台
+
+机器人系统 · 已公开提供
+
+面向二次开发提供人形机器人平台及可选配置，让团队在真实本体上研究感知、运动与操作任务。
+
+目标用户：具有机器人开发与测试条件的研究机构、工程团队及专业系统集成者。
+
+AI作用：产品公开强调模仿和强化学习等技术路线，感知与运动控制为任务执行提供基础；具体自主技能和模型适配仍受配置及软件版本限制。
+
+使用与交付：官方对EDU配置采用销售接洽，二次开发、算力和手部等选项需逐项确认，区别基础G1版本。
+
+收费形式：本体报价、选配、开发资源、测试条件和维护需完整核算，不能把页面基础款起步价直接套用EDU项目。
+
+产品边界：官方说明部分演示功能仍在开发测试，二次开发也按版本区分；应确认实际交付功能和安全操作条件，不承诺购买即获得通用家庭服务能力。
+
+[产品入口](<https://www.unitree.com/g1/>) · [Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>)
+
+### UnifoLM 具身模型研究
+
+模型 · 研发 / 试点
+
+通过公开模型、代码和数据说明探索视觉语言理解、世界建模与机器人动作协调，提供进一步训练和验证的研究起点。
+
+目标用户：能够复现模型环境、准备任务数据并进行机器人适配的具身智能研究开发者。
+
+AI作用：模型研究将多模态信息与机器人动作学习结合，仓库提供训练和评价路径；研究中的泛化和任务表现不等于所有现售机器人默认运行同一模型。
+
+使用与交付：公开仓库列明已发布和计划中的代码、模型与数据，实际部署需对应软件环境、机器人及计算资源。
+
+收费形式：代码与权重按各自许可使用，下载资源不包含整机、算力、适配、维护或完整商业项目服务。
+
+产品边界：需要区分代码、模型和数据的发布状态与第三方许可，官方研究结果未经本轮独立复现；公开权重不能直接作为未经场景验证的任务交付承诺。
+
+[产品入口](<https://github.com/unitreerobotics/unifolm-wla>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>) · [宇树官方GitHub组织与业务资料](<https://github.com/unitreerobotics>)
+
+## 八维产品分析
+
+围绕G1 EDU的专业开发条件与UnifoLM的公开模型研究，讨论如何从本体和学习资源形成可验证任务；不覆盖宇树全部消费及工业型号，也不把不同机器人与模型版本的能力互相套用。
+
+> 以公开一手资料开展案头研究，围绕列明的重点产品与工作流分析。官方能力与研究判断分开；没有实际注册、付费调用、性能测试、用户访谈或销量审计。未披露的收入、成本、模型依赖和运营结果不编造。
+
+## 需求与市场
+
+### 真实本体用于验证研究问题 · 研究判断
+
+机器人团队需要在真实执行机构和传感环境中检验控制与学习方法，开发平台可以减少从零制作本体的工作。需求应由研究或集成任务决定，例如需要哪些接口、动作范围和测试记录。拥有一个机器人不等于已有可运营应用，还需持续的数据、工程和试验条件。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+### 任务交付需要超出演示的证据 · 研究判断
+
+模型或动作演示可以说明某种可能性，但行业用户需要稳定完成明确工作，并能处理失败。应先定义对象、场地和验收范围，再决定是否选用人形平台。若专用机构或既有设备已经满足任务，新增机器人未必具有更低成本，商业判断仍要回到实际使用流程。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+## 目标用户
+
+### 开发条件是用户门槛 · 研究判断
+
+G1 EDU的目标使用者需要理解软件接口、机器人行为与测试环境，能够安排操作和维护。购买者、开发者与现场负责人可能不是同一个人，应共同确认配置和责任。基础型号与教育开发配置的差异也会影响选择，不能因为名称相近就认为都提供相同接口与支持。
+
+依据：[宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+### 模型研究用户有另一组要求 · 研究判断
+
+使用UnifoLM资源的研究者需要准备计算环境、数据和评价方式，并核对其与实际机器人是否匹配。开源仓库降低获取研究材料的门槛，但不自动消除适配工作。希望立即获得现成日常任务能力的个人，与愿意开展系统开发的团队，应在产品分析中分别对待。
+
+依据：[宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+## 产品与工作流
+
+### 先核配置再组织开发 · 研究判断
+
+正式开发前应确认机器人版本、选配、固件与接口，再建立可复现的测试记录和任务数据。官方表格对二次开发有区分，因此采购方案需要与开发计划对应。通过SDK可以接入系统，并不意味着所有动作或模型都已适配，团队仍需逐项验证期望的输入与输出。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+### 把研究模型部署当作独立阶段 · 研究判断
+
+公开代码和权重只是起点，实际流程还包括环境复现、数据处理、模型评价和真机适配。应先明确研究结果的适用条件，再逐步检验目标任务。模型升级或机器人配置变化后需要重新检查行为，不能把仓库下载成功或一次动作完成直接视为生产交付。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+## AI技术与依赖
+
+### 本体能力与学习能力共同约束 · 研究判断
+
+感知、执行机构、运动控制和学习模型共同影响任务，某一层更先进也不能保证其它环节自动匹配。技术比较应固定配置和任务，区分低层控制、感知输入与高层动作学习。官方对可选算力和手部配置的区分尤其重要，不能把高配展示能力套到所有标准本体。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+### 公开范围要逐组件确认 · 研究判断
+
+UnifoLM仓库列出不同代码、模型和数据发布状态，还保留第三方组件许可边界。应保存实际使用版本和依赖，理解训练、微调与推理流程的区别。研究中公布的表现属于特定测试条件，本轮没有独立复现，因此不用于对所有机器人任务作统一性能排名。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+## 竞争与替代
+
+### 与其他本体及专用设备比较 · 研究判断
+
+替代选择包括其他开发机器人、机械臂、移动底盘和专门设计的机构，甚至先用仿真或人工流程验证任务。比较应包含接口开放、维修、备件与测试空间，而不只是自由度或宣传动作。最合适的方案取决于具体任务和团队能力，不由本体外形是否像人决定。
+
+依据：[宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>) · [宇树官方GitHub组织与业务资料](<https://github.com/unitreerobotics>)
+
+### 开放研究资源需要与维护结合 · 研究判断
+
+更多公开资料有助于复现与探索，但团队仍要承担版本管理、适配和问题排查。与闭源集成方案比较时，应同时评估自主控制的收益和维护工作。社区活跃或仓库关注度不是可靠性证明，实际选择需要观察同一任务能否被团队稳定重复完成并解释失败原因。
+
+依据：[宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>) · [宇树官方GitHub组织与业务资料](<https://github.com/unitreerobotics>)
+
+## 商业模式
+
+### 开发平台总成本高于起步价 · 研究判断
+
+官方G1页面将基础型号与EDU配置分列，EDU需联系销售，二次开发与选配并非所有型号共用。预算还应包含算力、传感及末端配置、测试环境、备件和维护。本目录没有项目报价和真实运行账单，不以某一标价推算完整研发投入或用户业务回本期。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+### 模型资源与商业服务分别核算 · 研究判断
+
+公开代码和权重可能降低获取研究起点的成本，但训练、数据、部署与工程支持仍需投入。若向客户交付应用，还要安排持续维护和故障处理。应先明确哪些由本体供应商承担、哪些由团队或集成商负责，不能把开源研究材料当成已经包含全部商业交付服务。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>)
+
+## 体验与交付
+
+### 开发者需要可理解的运行状态 · 研究判断
+
+开发平台的使用体验包括文档、接口、错误反馈、升级与恢复，而不只是动作演示是否流畅。试用时应观察团队能否复现示例、理解配置差异并定位常见问题。长期研究需要可交接的记录和清楚的维护流程，否则对少数成员经验的依赖可能持续增加开发负担。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>)
+
+### 现场操作者需要可管理的边界 · 研究判断
+
+实际使用者应理解当前模式、任务状态和异常时如何停止或接手，具体操作遵循厂商文档和专业配置。项目应检查人员能否在合理流程下处理日常维护和失败，避免只由研发者完成演示。现场可理解性和可恢复性，是评价产品交付体验的重要部分。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>)
+
+## 风险与机会
+
+### 演示与默认交付不能混淆 · 研究判断
+
+官方明确部分展示功能仍在开发测试，且型号和软件能力有具体条件。采购和项目验收应对应实际交付版本，逐项确认功能，而非把页面全部演示合成一个统一能力包。对于尚未验证的开放环境或任务，应保留研究定位，并安排明确的测试与人工接管边界。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>) · [宇树官方GitHub组织与业务资料](<https://github.com/unitreerobotics>)
+
+### 机会在具体应用的适配与验证 · 研究判断
+
+围绕一个有明确对象和流程的任务，提供数据、模型适配、部署和持续评价，可能比仅销售通用机器人概念更容易形成价值。需要检验客户是否真有需求、完整运行是否可靠，以及工程与维护成本能否承担。当前没有独立商业运营证据，不从研究热度推算市场回报。
+
+依据：[Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) · [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>) · [宇树官方GitHub组织与业务资料](<https://github.com/unitreerobotics>)
+
+## 资料来源
+
+- [Unitree G1与EDU官方产品对照](<https://www.unitree.com/g1/>) — 明确基础G1与EDU二次开发、算力和选配区别，并注明部分演示功能仍在测试。（核查 2026-11-05）
+
+- [宇树官方SDK2仓库](<https://github.com/unitreerobotics/unitree_sdk2>) — 公开开发工具与文档路径；本轮没有安装或控制机器人。（核查 2026-11-05）
+
+- [UnifoLM-WLA官方研究仓库](<https://github.com/unitreerobotics/unifolm-wla>) — 读取2026年发布进度与研究范围，不把模型演示和计划功能当默认商品能力。（核查 2026-11-05）
+
+- [宇树官方GitHub组织与业务资料](<https://github.com/unitreerobotics>) — 确认组织与官网互相指向及杭州业务地区，社区仓库数据不作为销量或盈利证据。（核查 2026-11-05）
+
+[返回AI目录](../ai-directory.md)

@@ -4,13 +4,13 @@
 
 **经历与思考，持续记录。**
 
-一份持续更新的个人档案，记录行业 AI 的演进、创业过程中的选择与思考，以及智能硬件方向的探索。
+一份持续更新的个人档案，研究AI公司与产品、记录创业过程中的选择与思考，并整理智能硬件及其供应链。
 
 [浏览完整网站](https://romanagent.github.io/Roman/) · [GitHub 仓库](https://github.com/RomanAgent/Roman)
 
 </div>
 
-[![Roman 黑白界面预览](assets/preview.jpg)](https://romanagent.github.io/Roman/)
+[![Roman 黑白界面预览](assets/preview.png)](https://romanagent.github.io/Roman/)
 
 ---
 
@@ -18,31 +18,29 @@
 
 | 栏目 | 记录什么 | 首版内容 |
 | --- | --- | --- |
-| **01 · 行业 AI 历程** | 技术演进、关键节点与值得继续追问的问题 | 有一手资料来源的历史时间线，以及行业观察编辑初稿 |
+| **01 · AI目录** | 全球公司与重点产品、技术与商业模式 | 分类检索、重点产品概览、八维详析与资料来源 |
 | **02 · 我的创业经历** | 每段经历的背景、选择、行动、结果与复盘 | 序章编辑初稿、经历填写模板，等待真实材料逐篇补充 |
-| **03 · 智能硬件方向** | 面向具体使用场景的想法、问题与后续验证 | 全球C端市场目录：292款可订购产品、34类、完整八维详析与供应链关联 |
+| **03 · 智能硬件目录** | 面向具体使用场景的想法、问题与后续验证 | 全球C端市场目录：292款可订购产品、34类、完整八维详析与供应链关联 |
 
-## 01 · 行业 AI 历程
+## 01 · AI目录
 
-从早期的人工智能研究设想到深度学习、Transformer 与多模态模型，沿着关键技术节点理解行业变化。时间线中的历史事实附有原始论文或机构资料，编辑观察与事实分开呈现。
+[打开AI目录](https://romanagent.github.io/Roman/#ai) · [GitHub分类阅读版](docs/ai-directory.md)
 
-- [查看完整行业时间线与来源](docs/ai-history.md)
-- [阅读行业观察初稿](content/ai-notes.md)
+<!-- AI-DIRECTORY-SUMMARY:START -->
 
-| 年份 | 关键节点 |
-| --- | --- |
-| 1956 | 达特茅斯夏季研究项目：人工智能成为共同研究议题 |
-| 2012 | AlexNet：深度网络与 GPU 训练展示图像分类的新路径 |
-| 2016 | AlphaGo：以 4∶1 战胜李世石，复杂决策能力走入公众视野 |
-| 2017 | Transformer：注意力机制带来新的语言模型架构 |
-| 2020 | GPT-3：大规模语言模型展示少样本学习能力 |
-| 2022 | ChatGPT：自然语言对话成为大众体验生成式 AI 的入口 |
-| 2023 | Llama 2：开放权重，在许可条件下支持研究与商业使用 |
-| 2024 | GPT-4o：文本、视觉与音频的统一模型探索自然交互 |
+当前收录 **128 份公司 / 产品业务档案、170 个重点产品 / 产品组合、15 个主赛道**，最新核查 **2026-11-05**。每份档案列出重点产品、使用与收费形式，并提供八维详细分析和一手来源。公开产品、商务接洽、研发观察与业务调整分别标明；条目数量不代表全球全部AI公司或独立集团数量。
 
-各节点的一手资料与编辑观察见[完整时间线](docs/ai-history.md)。
+<!-- AI-DIRECTORY-SUMMARY:END -->
 
-时间线是经过选择的历史节点，不是完整行业史，也不代表最新市场全貌。后续可继续增加节点、修订观点并保留出处。
+支持公司、产品和用户任务检索，按主赛道、公司地区、用户类型及业务入口筛选；可比较最多三份产品研究，导出完整分析。公司与集团归属、产品开放阶段和研究边界分别说明，不把模型版本和产品套餐计作新公司。
+
+每份档案包含需求与市场、目标用户、产品与工作流、AI技术与依赖、竞争与替代、商业模式、体验与交付、风险与机会八项详细分析。
+
+[![AI公司与产品目录](assets/ai-directory-preview.png)](https://romanagent.github.io/Roman/#ai)
+
+[![公司产品八维分析](assets/ai-company-preview.png)](https://romanagent.github.io/Roman/#ai/company/openai)
+
+原有技术时间线保留为[AI历史资料归档](https://romanagent.github.io/Roman/#ai/history)，也可在[GitHub阅读历史资料](docs/ai-history.md)。
 
 ## 02 · 我的创业经历
 
@@ -57,7 +55,7 @@
 
 [阅读全文](docs/journal.md) · [开始提交一段经历](content/journey-template.md)
 
-## 03 · C端 AI 智能硬件市场目录
+## 03 · 智能硬件目录
 
 [打开市场目录](https://romanagent.github.io/Roman/#hardware) · [GitHub 分类阅读版](docs/hardware-market.md) · [市场横向观察](docs/hardware-market-insights.md) · [研究方法](docs/hardware-methodology.md) · [916张图像与生成记录](docs/hardware-media-index.md)
 
@@ -119,10 +117,11 @@ python3 -m http.server 4173
 
 ## 内容维护
 
-正文按下表注明的源文件维护。硬件与供应链的列表摘要、独立详情JSON及GitHub阅读版由脚本生成；请不要直接编辑生成文件，以免下次构建时被覆盖。网页列表按需载入，导出仍包含完整研究。
+正文按下表注明的源文件维护。AI公司、硬件与供应链的列表摘要、独立详情JSON及GitHub阅读版由脚本生成；请不要直接编辑生成文件，以免下次构建时被覆盖。网页列表按需载入，导出仍包含完整研究。
 
 | 文件 | 用途 |
 | --- | --- |
+| [`content/ai-directory/`](content/ai-directory/) | AI公司与重点产品源数据；构建独立详情、轻量索引及GitHub阅读版 |
 | [`content/ai-history.json`](content/ai-history.json) | AI 历史节点、编辑观察与来源；生成 [`docs/ai-history.md`](docs/ai-history.md) |
 | [`content/ai-articles.json`](content/ai-articles.json) | 行业与智能硬件观察文章；生成 [`content/ai-notes.md`](content/ai-notes.md) |
 | [`content/journal.json`](content/journal.json) | 创业手记文章及展示状态；生成 [`docs/journal.md`](docs/journal.md) |
@@ -140,6 +139,13 @@ python3 -m http.server 4173
 
 ```sh
 node scripts/export-content.mjs
+```
+
+AI公司目录更新后运行：
+
+```sh
+npm run ai:catalog
+npm run ai:check
 ```
 
 硬件目录的研究记录或市场观察更新后运行：
