@@ -2,11 +2,11 @@
   "id": "livingai-emo",
   "name": "EMO",
   "brand": "LivingAI",
-  "category": "companion",
+  "category": "ai-toys",
   "tagline": "以表情、动作和人物识别陪伴桌面时光",
   "officialUrl": "https://living.ai/product/emo/",
   "status": "on_sale",
-  "statusEvidence": "官方商品页显示US$279、Add to cart，并写明下单后约两周发货；这属于可订购商品，未把旧介绍页的预售措辞当作当前状态。",
+  "statusEvidence": "本轮复核官方标准EMO套装为US$279并可加购，页面约两周发货；GO HOME回充套装和其它配件不混入此标价。",
   "regions": [
     "国际官网（收货地区待结算）"
   ],
@@ -73,7 +73,7 @@
         "status",
         "price"
       ],
-      "note": "明确加购及约两周发货。"
+      "note": "本轮复核官方标准EMO套装为US$279并可加购，页面约两周发货；GO HOME回充套装和其它配件不混入此标价。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
     },
     {
       "title": "LivingAI EMO能力介绍",
@@ -87,9 +87,10 @@
       "note": "网页中的开发中功能不计入已交付能力。"
     }
   ],
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-06",
   "audience": "consumer",
   "saleMode": "retail",
+  "toyKind": "robot-pet",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

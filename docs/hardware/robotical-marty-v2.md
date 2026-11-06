@@ -1,6 +1,6 @@
 # Robotical Marty the Robot V2
 
-**Robotical** · 教育与学习 · 核查 2026-11-04
+**Robotical** · AI玩具 · 核查 2026-11-04
 
 把图像分类预测变成步行动作
 

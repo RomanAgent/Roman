@@ -1,6 +1,6 @@
 # Dex Language Discovery Camera
 
-**Dex / Worldex Lab** · 教育与学习 · 核查 2026-11-05
+**Dex / Worldex Lab** · AI玩具 · 核查 2026-11-05
 
 拍下身边物体并听见目标语言词汇的儿童探索相机
 

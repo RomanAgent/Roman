@@ -658,11 +658,11 @@
     "id": "romi-lacatan",
     "name": "Romi Lacatan",
     "brand": "MIXI / Romi",
-    "category": "companion",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "以视觉对话和记忆参与日常交流的小型机器人",
     "officialUrl": "https://shop.romi.ai/products/romi-lacatan",
-    "statusEvidence": "官方商店有加购入口，官方产品数据四种颜色available均为true；未把旧预售页面标题或通用Sold Out模板当作当前库存。颜色只计一款。",
+    "statusEvidence": "2026-11-06实际浏览器核验日本官方商店：自然白款¥98,780，显示可用加入购物车与立即购买；抓取文本中的Sold Out为模板，未在当前选中款实际界面出现。月会费在收货后另行登记，实际发货与退货条件以商店为准。",
     "regions": [
       "日本官方商店"
     ],
@@ -725,7 +725,7 @@
           "status",
           "price"
         ],
-        "note": "已打开，官方产品数据可购，颜色不重复计数。"
+        "note": "2026-11-06实际浏览器核验日本官方商店：自然白款¥98,780，显示可用加入购物车与立即购买；抓取文本中的Sold Out为模板，未在当前选中款实际界面出现。月会费在收货后另行登记，实际发货与退货条件以商店为准。"
       },
       {
         "title": "Romi Lacatan官方能力",
@@ -738,19 +738,20 @@
         "note": "已打开；标为计划更新的细项不当作必然已交付。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "status": "on_sale",
     "saleMode": "retail",
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "robot-pet"
   },
   {
     "id": "panasonic-nicobo",
     "name": "Panasonic NICOBO",
     "brand": "Panasonic",
-    "category": "companion",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "通过表情、触碰与有限语言形成轻量陪伴",
     "officialUrl": "https://ec-plus.panasonic.jp/store/ap/storeaez/a2A/ProductDetail?HB=RW-NC1-H",
@@ -847,13 +848,14 @@
     ],
     "checkedAt": "2026-11-04",
     "status": "on_sale",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "robot-pet"
   },
   {
     "id": "looi-robot",
     "name": "LOOI Robot",
     "brand": "Tangobotics / LOOI",
-    "category": "companion",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "让已有手机成为桌面机器人的表情与感知入口",
     "officialUrl": "https://looirobot.com/products/looi-robot",
@@ -949,17 +951,18 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "robot-pet"
   },
   {
     "id": "livingai-aibi-pocket",
     "name": "LivingAI AIBI Pocket",
     "brand": "LivingAI",
-    "category": "companion",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "可随身携带的微型表情机器人",
     "officialUrl": "https://living.ai/product/aibi-pocket/",
-    "statusEvidence": "官方商品页提供Add to cart，并说明订单约两周内发货；以当前零售页为准，不沿用旧介绍页的Pre-order字样。",
+    "statusEvidence": "本轮复核官方商品页有加购按钮，并写明下单约两周发货；配送国家、运税与服务仍按结算及条款核对。",
     "regions": [
       "所列官方国际商店"
     ],
@@ -1022,7 +1025,7 @@
           "status",
           "price"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "本轮复核官方商品页有加购按钮，并写明下单约两周发货；配送国家、运税与服务仍按结算及条款核对。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
       },
       {
         "title": "AIBI官方能力",
@@ -1035,13 +1038,14 @@
         "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "status": "on_sale",
     "saleMode": "retail",
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "robot-pet"
   },
   {
     "id": "yukai-bocco-emo",
@@ -1149,17 +1153,17 @@
     "id": "curio-grok",
     "name": "Curio Grok",
     "brand": "Curio",
-    "category": "companion",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "将生成式英语会话放入毛绒火箭",
     "officialUrl": "https://heycurio.com/product/grok",
-    "statusEvidence": "官方商品页仍标Pre-Order、Shop Now及约30天；页面商品数据availableForSale=true。FAQ写七天发货，与商品页不一致，因此保守列为预售，不承诺现货。",
+    "statusEvidence": "2026-11-06官方Grok商品页明确Pre-Order与约30日内发货，为正式预售 / 延期订单，不当作现货。Grok与Gen2新Voice Box系列保留版本差异，不按颜色或人物皮肤重复计数。",
     "regions": [
       "美国"
     ],
     "price": {
-      "text": "商品页 US$99 起；结算为准",
-      "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+      "text": "官网单只促销 US$99",
+      "note": "核查日页面划线US$119，单只现价US$99；运税与地区以结算为准，Plus订阅另行核对。"
     },
     "ai": {
       "type": "hybrid",
@@ -1230,19 +1234,20 @@
         "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "status": "preorder",
     "saleMode": "preorder",
     "china": {
-      "availability": "unclear",
-      "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+      "availability": "unavailable",
+      "note": "本轮官方FAQ仍说明只向美国配送且使用英语与Wi-Fi；未核实中国大陆官方销售及服务，不把跨境转运视为官方可用。"
+    },
+    "toyKind": "plush-dialogue"
   },
   {
     "id": "haivivi-bubblepal",
     "name": "Haivivi BubblePal",
     "brand": "Haivivi",
-    "category": "companion",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "让已有毛绒玩具成为语音角色",
     "officialUrl": "https://www.haivivi.com/",
@@ -1336,17 +1341,18 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "plush-dialogue"
   },
   {
     "id": "chessup-2",
     "name": "ChessUp 2",
     "brand": "Bryght Labs / ChessUp",
-    "category": "games",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "触碰棋子即可看到灯光走法建议",
     "officialUrl": "https://playchessup.com/products/chessup-2",
-    "statusEvidence": "官方商店Add to cart，公开商品数据available=true；标准ChessUp 2只计一款，不计颜色或棋子套装。",
+    "statusEvidence": "本轮复核官方商品页列US$349.99与Add to cart；颜色与配件不重复计数，库存仍以实际结算地区为准。",
     "regions": [
       "所列官方国际商店"
     ],
@@ -1410,7 +1416,7 @@
           "price",
           "technology"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "本轮复核官方商品页列US$349.99与Add to cart；颜色与配件不重复计数，库存仍以实际结算地区为准。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
       },
       {
         "title": "ChessUp 2官方棋力与局面设置",
@@ -1423,19 +1429,20 @@
         "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "status": "on_sale",
     "saleMode": "retail",
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "physical-game"
   },
   {
     "id": "chessnut-evo",
     "name": "Chessnut EVO",
     "brand": "Chessnut",
-    "category": "games",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "大屏与实体棋盘合为独立棋类终端",
     "officialUrl": "https://www.chessnutech.com/products/chessnut-evo-the-future-of-ultra-smart-ai-chessboard",
@@ -1522,22 +1529,23 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "physical-game"
   },
   {
     "id": "dgt-centaur",
     "name": "DGT Centaur",
     "brand": "DGT",
-    "category": "games",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "根据对局表现调整棋力",
     "officialUrl": "https://www.dgtshop.com/products/chess-computers-2/centaur-chess-computer-2",
-    "statusEvidence": "DGT官方商店列出价格及Add to cart；只计普通Centaur，不另计透明Crystal外观版本。",
+    "statusEvidence": "DGT官方商店列€400含税价与Add to Cart，未税价另列；运费与地区税费按实际结算确认。",
     "regions": [
       "欧洲官方商店"
     ],
     "price": {
-      "text": "官方商店 €400 含税",
+      "text": "官方 €400（含税）",
       "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
     },
     "ai": {
@@ -1595,7 +1603,7 @@
           "status",
           "price"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "DGT官方商店列€400含税价与Add to Cart，未税价另列；运费与地区税费按实际结算确认。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
       },
       {
         "title": "DGT Centaur官方功能",
@@ -1608,19 +1616,20 @@
         "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "status": "on_sale",
     "saleMode": "retail",
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "physical-game"
   },
   {
     "id": "particula-gochess-pro",
     "name": "Particula GoChess Pro Modern",
     "brand": "Particula",
-    "category": "games",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "将应用棋力提示投射到实体棋盘",
     "officialUrl": "https://particula-tech.com/products/gochess-lite-modern",
@@ -1708,22 +1717,23 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "physical-game"
   },
   {
     "id": "millennium-king-performance",
     "name": "Millennium The King Performance",
     "brand": "Millennium",
-    "category": "games",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "可配置对手风格的独立棋类电脑",
     "officialUrl": "https://computerchess.com/en/The-King-Performance/M830",
-    "statusEvidence": "官方M830全新A-Goods页面显示Available和Add to shopping cart。页面配送文字含异常Instant download，不采信为实物交期；B-Goods及棋子套装不重复计数。",
+    "statusEvidence": "官方商品页当前显示€284.87促销价、可加购和可供货；页面标注价格不含VAT及运费，实体产品的Instant download文案不能当真实物流承诺。",
     "regions": [
       "欧洲官方商店"
     ],
     "price": {
-      "text": "官网 €284.87 未含VAT",
+      "text": "官网 €284.87（未含VAT）",
       "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
     },
     "ai": {
@@ -1782,7 +1792,7 @@
           "price",
           "technology"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "官方商品页当前显示€284.87促销价、可加购和可供货；页面标注价格不含VAT及运费，实体产品的Instant download文案不能当真实物流承诺。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
       },
       {
         "title": "Millennium官方手册与更新",
@@ -1795,19 +1805,20 @@
         "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "status": "on_sale",
     "saleMode": "retail",
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "physical-game"
   },
   {
     "id": "chessnut-move",
     "name": "Chessnut Move",
     "brand": "Chessnut",
-    "category": "games",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "让AI走法通过实体棋子自动执行",
     "officialUrl": "https://www.chessnutech.com/products/chessnut-move-advanced-robotic-chessboard-with-wooden-pieces",
@@ -1904,7 +1915,8 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "physical-game"
   },
   {
     "id": "dimehead-nam-player",
@@ -2009,7 +2021,7 @@
     "id": "chessnut-companion",
     "name": "Chessnut Companion",
     "brand": "Chessnut",
-    "category": "games",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "把AI复盘放进专用实体棋钟",
     "officialUrl": "https://www.chessnutech.com/products/chessnut-companion",
@@ -2096,7 +2108,8 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "physical-game"
   },
   {
     "id": "viwoods-aipaper",
@@ -2390,7 +2403,7 @@
     "id": "makeblock-mbot2",
     "name": "Makeblock mBot2",
     "brand": "Makeblock",
-    "category": "education",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "让语音识别结果驱动可编程机器人",
     "officialUrl": "https://www.makeblock.com/products/buy-mbot2",
@@ -2458,7 +2471,7 @@
           "price",
           "audience"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
       },
       {
         "title": "mBot2官方课后课程指南",
@@ -2468,7 +2481,7 @@
           "technology",
           "dependency"
         ],
-        "note": "已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。"
+        "note": "已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
       },
       {
         "title": "mBot2官方能力与扩展区分",
@@ -2478,7 +2491,7 @@
           "technology",
           "dependency"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
       }
     ],
     "checkedAt": "2026-11-04",
@@ -2487,13 +2500,14 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "learning-play"
   },
   {
     "id": "robotical-marty-v2",
     "name": "Robotical Marty the Robot V2",
     "brand": "Robotical",
-    "category": "education",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "把图像分类预测变成步行动作",
     "officialUrl": "https://robotical.io/product/marty-the-robot-v2/",
@@ -2579,13 +2593,14 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "learning-play"
   },
   {
     "id": "makeblock-codey-rocky",
     "name": "Makeblock Codey Rocky",
     "brand": "Makeblock",
-    "category": "education",
+    "category": "ai-toys",
     "audience": "consumer",
     "tagline": "以表情与履带动作承载AI编程项目",
     "officialUrl": "https://www.makeblock.com/products/buy-codey-rocky",
@@ -2652,7 +2667,7 @@
           "status",
           "price"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
       },
       {
         "title": "Makeblock官方AI项目说明",
@@ -2662,7 +2677,7 @@
           "technology",
           "dependency"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
       },
       {
         "title": "Makeblock家庭项目与识别能力",
@@ -2672,7 +2687,7 @@
           "technology",
           "dependency"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
       },
       {
         "title": "Codey Rocky官方能力边界FAQ",
@@ -2682,7 +2697,7 @@
           "technology",
           "dependency"
         ],
-        "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+        "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
       }
     ],
     "checkedAt": "2026-11-04",
@@ -2691,7 +2706,8 @@
     "china": {
       "availability": "unclear",
       "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
-    }
+    },
+    "toyKind": "learning-play"
   },
   {
     "id": "kindle-scribe-2025",

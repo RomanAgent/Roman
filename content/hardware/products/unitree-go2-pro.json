@@ -2,7 +2,7 @@
   "id": "unitree-go2-pro",
   "name": "Unitree Go2 Pro",
   "brand": "Unitree 宇树",
-  "category": "robotics",
+  "category": "ai-toys",
   "tagline": "四足运动、环境感知与交互，先核清 Pro 和 EDU 的能力边界。",
   "officialUrl": "https://shop.unitree.com/products/unitree-go2",
   "status": "preorder",
@@ -95,6 +95,7 @@
   "checkedAt": "2026-11-04",
   "audience": "prosumer",
   "saleMode": "preorder",
+  "toyKind": "robot-pet",
   "deepDive": {
     "sources": [
       {

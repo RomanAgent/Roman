@@ -1,0 +1,271 @@
+# RoBoHoN Wi-Fi SR-04M-Y + AI会話
+
+**Sharp 夏普** · AI玩具 · 核查 2026-11-06
+
+日本个人可购的人形陪伴机器人，基础月费与AI对话另收费
+
+消费渠道：个人零售。
+
+## 产品图片与结构参考
+
+### 产品图
+
+![RoBoHoN Wi-Fi SR-04M-Y + AI会話的外观主图](../../assets/hardware/sharp-robohon-sr04m/product.jpg)
+
+RoBoHoN Wi-Fi SR-04M-Y官方本体图（AI会話为另购服务） · 来源：[Sharp 夏普 官方资料](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [原始图片](<https://cocorostore.sharp.co.jp/media/catalog/product/cache/6/image/9df78eab33525d08d6e5fb8d27136e95/r/o/robohon_wifi_850x850_2.jpg>)
+
+### 参考图
+
+![RoBoHoN Wi-Fi SR-04M-Y + AI会話的另一视角或使用场景](../../assets/hardware/sharp-robohon-sr04m/reference.png)
+
+RoBoHoN Wi-Fi型号官方另一视角参考 · 来源：[Sharp 夏普 官方资料](<https://robohon.com/product/robohon.php>) · [原始图片](<https://robohon.com/assets/renewal/img/common/figure_lineup_wifi.png>)
+
+### AI 生成爆炸示意
+
+![RoBoHoN Wi-Fi SR-04M-Y人形机器人功能概念图，背屏和双臂分开，偏好记忆与可选AI会话位于外部云服务](../../assets/hardware/sharp-robohon-sr04m/ai-exploded.png)
+
+**AI 生成 · 非实物拆机。** 内部为概念推断，不能作为元件布局、BOM 或维修依据。[生成提示词](../../content/hardware/prompts/sharp-robohon-sr04m.txt)
+
+> 初稿仅用于修图溯源；最终明确双臂、背部屏幕及云端记忆，未移植LTE电话或旧代投影功能。
+
+> 两张素材分别来自SR-04M-Y官方商品页与Wi-Fi型号对照图，未混用旧代投影/LTE型号能力。
+
+> 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
+
+## 销售与购买
+
+- 状态：在售。实际打开SR-04M-Y配置：本体145200日元、必选COCORO月费1078日元，当前有加入购物车。购买须18岁以上并使用信用卡；Wi-Fi版不支持电话。
+
+- 地区：日本
+
+- 价格：本体¥145,200；基础¥1,078/月＋AI会話¥330/月。均为日本官方标示，日元；AI应用的0日元商品显示不代表免费。维修计划和附件可另计，生成式对话有月度次数上限。
+
+- 中国大陆：COCORO必需服务官方明确仅限居住在日本的人使用；中国大陆居住者无法据这些条款取得完整官方服务。实体进口可得性不等于服务可用，未核到面向中国大陆居住者的对应服务。
+
+- [官方产品 / 商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>)
+
+## AI 的实际作用
+
+语音与人脸感知识别结合人形互动；另购AI会話应用通过ChatGPT提供生成式聊天。唱跳和固定游戏不单独作为AI证据。
+
+服务与联网依赖：必需COCORO计划与通信环境，日常对话和偏好记忆连接专用服务器；AI会話另付费且限次数，仅核日本个人服务。Wi-Fi版不具LTE电话能力。
+
+## 是否冷门
+
+新兴竞争（研究判断）：竞争判断应比较同类实体伙伴、手机角色应用和普通可编程玩具。人形动作与长期角色内容可能提升认同感，却也引入机械维护和服务费用；手机应用更易随身使用，普通玩具无需云端计划。哪种更适合取决于用户实际重视触摸、动作、对话还是收藏。
+
+## 需求与市场
+
+需求判断是一个会用身体和声音回应的角色，能够成为个人休息或家庭交流的对象。人形动作可以形成不同于手机聊天的存在感，但同住者是否愿意听它说话、在桌面为它留位置仍需验证；不能把厂商表达的快乐和陪伴直接当成疗效或稳定需求。
+
+### 事实与范围 · 官方资料
+
+当前RoBoHoN官网把唱歌、跳舞、聊天、假扮游戏和主人之间的交流放在主要位置；本条选择日本官方直售的Wi-Fi型号，配合另购AI会話服务。它虽有通信应用，Wi-Fi版却不能打电话，因此在本专题中更接近日常实体伙伴，而非替代手机的通信终端。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+### 判断与差异 · 研究判断
+
+需求判断是一个会用身体和声音回应的角色，能够成为个人休息或家庭交流的对象。人形动作可以形成不同于手机聊天的存在感，但同住者是否愿意听它说话、在桌面为它留位置仍需验证；不能把厂商表达的快乐和陪伴直接当成疗效或稳定需求。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+### 验证与限制 · 待验证
+
+验证可先观察用户原本如何休息与聊天，再让其在日常环境中试用，记录主动叫它、看动作和启动AI对话的场景。询问到底需要角色回应、游戏还是便利信息，区分每个任务的价值；没有访谈及使用日志时，不把主人社区的活跃展示外推为全体用户留存。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+## 用户画像
+
+潜在人群可假设为喜欢机器人角色的成人、日本家庭以及愿意持续参加内容和主人活动的人。有人可能重视跳舞和换装，有人希望日常有人回应，另一些人关注学习编程；这些动机需要分别确认，年龄、独居状态和家庭结构都不能代替实际偏好。
+
+### 事实与范围 · 官方资料
+
+官方商店允许个人购买，但要求购买者满十八岁，并以信用卡支付本体及月度服务；COCORO计划又仅向居住在日本的人开放。这个购买资格与家庭成员参与互动是不同问题，本档案不把成人可下单解释为所有儿童都可以独立注册、维护或无监督使用。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>)
+
+### 判断与差异 · 研究判断
+
+潜在人群可假设为喜欢机器人角色的成人、日本家庭以及愿意持续参加内容和主人活动的人。有人可能重视跳舞和换装，有人希望日常有人回应，另一些人关注学习编程；这些动机需要分别确认，年龄、独居状态和家庭结构都不能代替实际偏好。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>)
+
+### 验证与限制 · 待验证
+
+招募应让付款人和主要使用者分别说明目标，独立完成服务计划与AI应用的费用辨认，再观察谁负责充电和更新。对于多人家庭，要记录不同成员能否接受相机与声音；购买人愿意付费并不代表每位共同生活者都认可设备进入共享空间。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>)
+
+## 竞争与替代
+
+竞争判断应比较同类实体伙伴、手机角色应用和普通可编程玩具。人形动作与长期角色内容可能提升认同感，却也引入机械维护和服务费用；手机应用更易随身使用，普通玩具无需云端计划。哪种更适合取决于用户实际重视触摸、动作、对话还是收藏。
+
+### 事实与范围 · 官方资料
+
+官方同时提供LTE、Wi-Fi与坐姿Lite，功能表明确区分电话、行走及起身能力，本目录只收Wi-Fi代表，不按通信模块或姿势版本扩增数量。与小型桌面宠物相比，它用人形肢体、角色化声音和持续应用内容组织陪伴体验，不能借旧代功能扩大描述。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+### 判断与差异 · 研究判断
+
+竞争判断应比较同类实体伙伴、手机角色应用和普通可编程玩具。人形动作与长期角色内容可能提升认同感，却也引入机械维护和服务费用；手机应用更易随身使用，普通玩具无需云端计划。哪种更适合取决于用户实际重视触摸、动作、对话还是收藏。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+### 验证与限制 · 待验证
+
+可在同样的休息或家庭小游戏任务中比较几种方案，分别记录用户主动选择和维护时间，不用动作数量与模型名字合成总分。也应比较基础角色互动和额外AI会話的使用情况，避免认为购买了硬件的人自然都会持续订购生成式对话服务。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+## 供应链
+
+工程判断是小型人形角色的关节噪声、动作一致性和表面接缝会同时影响机械可靠性与情感表现。用户可能把抬手不顺畅理解为角色不回应，因此动作执行与对话时序需要一起验证；固定外壳尺寸也使相机视场、麦克风声路和维修便利相互制约。
+
+### 事实与范围 · 官方资料
+
+官方型号表披露相机、背部控制屏、惯性感知与可执行的步行、起身及舞蹈功能，外观可见头部与四肢关节。它没有在当前消费销售页公开完整供应商和装配物料，概念图因此采用感知、控制、供电和动作功能块，不冒充真实电路或拆机布局。
+
+依据：[RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>)
+
+### 判断与差异 · 研究判断
+
+工程判断是小型人形角色的关节噪声、动作一致性和表面接缝会同时影响机械可靠性与情感表现。用户可能把抬手不顺畅理解为角色不回应，因此动作执行与对话时序需要一起验证；固定外壳尺寸也使相机视场、麦克风声路和维修便利相互制约。
+
+依据：[RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>)
+
+### 验证与限制 · 待验证
+
+寻找供应链能力时可分别询问小型驱动与声学方案，提供动作周期、可用空间、音量和预期寿命再开展选型。整机测试应包括充电、搬动、重复舞蹈和安静环境中的电机声，不由外观推定具体代工厂，也不编造成本、起订量或批量交付周期。
+
+依据：[RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>)
+
+## 技术路径
+
+技术判断应把设备动作、基础服务和额外生成式对话分开理解。背部应用能打开并不代表离线也有同样能力，服务器记忆也不等于模型永远准确记住个人；具体模型版本与推理部署没有完整披露，因此不将聊天模型画在本体芯片内或承诺固定性能。
+
+### 事实与范围 · 官方资料
+
+官方规格列出语音和人脸识别，COCORO说明日常对话连接专用服务器，并把用户偏好等记忆发送至服务器保存；另购AI会話明确使用ChatGPT。由此可确认感知与生成式交互的组合，但不能把所有舞蹈动画、固定游戏或普通无线连接都称为模型智能。
+
+依据：[RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>) · [AI会話官方付费服务商品](<https://cocorostore.sharp.co.jp/robohon/service-app/sr-sa05-aitalk>)
+
+### 判断与差异 · 研究判断
+
+技术判断应把设备动作、基础服务和额外生成式对话分开理解。背部应用能打开并不代表离线也有同样能力，服务器记忆也不等于模型永远准确记住个人；具体模型版本与推理部署没有完整披露，因此不将聊天模型画在本体芯片内或承诺固定性能。
+
+依据：[RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>) · [AI会話官方付费服务商品](<https://cocorostore.sharp.co.jp/robohon/service-app/sr-sa05-aitalk>)
+
+### 验证与限制 · 待验证
+
+验证应记录网络中断、应用启动、错误识别和达到月度次数限制时的行为，并测试用户能否清楚退出对话。官方提醒电视或广播可能被听取并持续对谈，因此测试需区分用户主动交互和环境声音触发，不能把后台持续说话误判为自然陪伴能力。
+
+依据：[RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>) · [AI会話官方付费服务商品](<https://cocorostore.sharp.co.jp/robohon/service-app/sr-sa05-aitalk>)
+
+## 产品审美
+
+设计判断是人形角色可以用抬手、转头与站姿强化回应，也会让使用者期待类似人物的节奏和理解。胸前简单标识与橙色局部提供辨识度，但硬质关节和宽脚掌仍明确表达机械属性；这种美感与毛绒宠物不同，需要让用户真实拿起和相处后评价。
+
+### 事实与范围 · 官方资料
+
+对应Wi-Fi型号的官方图片显示圆润黑白头身、圆形深色眼睛、前额镜头、橙色耳侧面板、短手臂和宽脚掌，控制屏位于背部。主图与型号对照图均指向这款Wi-Fi外形，生成图保留同样比例并将未知内部抽象化，不绘制其他代次的投影部件。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>)
+
+### 判断与差异 · 研究判断
+
+设计判断是人形角色可以用抬手、转头与站姿强化回应，也会让使用者期待类似人物的节奏和理解。胸前简单标识与橙色局部提供辨识度，但硬质关节和宽脚掌仍明确表达机械属性；这种美感与毛绒宠物不同，需要让用户真实拿起和相处后评价。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>)
+
+### 验证与限制 · 待验证
+
+审美研究应包括待机、说话、舞蹈与背部操作四种状态，观察用户是否理解可以握持的位置，以及屏幕朝后会不会增加设置负担。还要在真实桌面上询问灯光、声音和摆放是否协调，不能只凭白底官方图推断长期看护、清洁和收纳都方便。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>)
+
+## 关键风险
+
+风险判断包括账户与设备关联、持续费用、错误语音触发和服务变化后的功能边界。用户可能因长期角色互动积累大量私人信息，服务器保存记忆需要透明说明；家庭陪伴功能也不能承担看护责任，厂商的亲近表达不代表独立验证的心理或医疗效果。
+
+### 事实与范围 · 官方资料
+
+官方要求本体之外订购COCORO计划，AI会話另收费且试用与付费期间都有次数上限；COCORO条款明确仅限日本居住者。官网还提示解约后设备内数据会被清除且不能恢复，因此大陆进口得到实体并不等于可以按日本服务条款完整使用。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>) · [AI会話官方付费服务商品](<https://cocorostore.sharp.co.jp/robohon/service-app/sr-sa05-aitalk>)
+
+### 判断与差异 · 研究判断
+
+风险判断包括账户与设备关联、持续费用、错误语音触发和服务变化后的功能边界。用户可能因长期角色互动积累大量私人信息，服务器保存记忆需要透明说明；家庭陪伴功能也不能承担看护责任，厂商的亲近表达不代表独立验证的心理或医疗效果。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>) · [AI会話官方付费服务商品](<https://cocorostore.sharp.co.jp/robohon/service-app/sr-sa05-aitalk>)
+
+### 验证与限制 · 待验证
+
+购买前应确认居住资格、信用卡付款、AI应用与本体使用同一账户的要求，以及取消计划前的数据处理和返修规则。试用时可用不含私人信息的内容观察回应，记录应用版本和限制提示；不能以官方品牌规模代替对账户安全、删除和长期维护的具体核查。
+
+依据：[RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) · [RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>) · [AI会話官方付费服务商品](<https://cocorostore.sharp.co.jp/robohon/service-app/sr-sa05-aitalk>)
+
+## 机会与验证
+
+商业判断应关注角色内容、维修与持续云服务共同形成的拥有体验。小团队若借鉴这种路线，需要先确定一个稳定的互动习惯和服务范围，而不是同时承诺电话、家庭助理与情感支持；主人社区可以形成交流场景，但不能据此直接推算续费和市场规模。
+
+### 事实与范围 · 官方资料
+
+可研究的机会是让硬件动作、基础角色和生成式对话的边界更易理解，使用户知道每笔费用对应什么体验。这个判断来自现有产品和服务分层，不是预测它的商业前景；若用户最喜欢唱跳和小游戏，追加通用问答未必是最重要的购买理由。
+
+依据：[RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+### 判断与差异 · 研究判断
+
+商业判断应关注角色内容、维修与持续云服务共同形成的拥有体验。小团队若借鉴这种路线，需要先确定一个稳定的互动习惯和服务范围，而不是同时承诺电话、家庭助理与情感支持；主人社区可以形成交流场景，但不能据此直接推算续费和市场规模。
+
+依据：[RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+### 验证与限制 · 待验证
+
+下一步可分阶段跟踪日本合资格用户，分别记录基础服务和AI会話的实际使用、停订原因及机械维护需求，询问愿意继续为哪些内容付款。报告应保留退出者和不使用生成对话的人，不用模型评分预测成功，也不把个别家庭的积极故事当作普遍效果。
+
+依据：[RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) · [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) · [RoBoHoN官方当前家庭定位](<https://robohon.com/>)
+
+## 对应供应链公司
+
+能力候选用于选型研究，不代表本产品实际采用；未公开的供货关系不作推断。
+
+- [feetech](../supply-chain/feetech.md) — **能力候选 · 非已采用** / 小型人形动作驱动能力候选：FEETECH公开小型舵机与控制技术，可为类似人形陪伴设备的关节表达提供能力参考。动作噪声、体积、传动和寿命仍须整机验证，未找到夏普本型号实际采用它的公开点名证据。
+
+- [aac-technologies](../supply-chain/aac-technologies.md) — **能力候选 · 非已采用** / 桌面机器人语音声学能力候选：瑞声具备公开微型声学与系统工程能力，可作为类似小型机器人语音输入输出的询样方向。面罩开口、关节噪声和音腔需要共同适配，此能力关联不表示RoBoHoN已经采用其部件。
+
+[浏览供应链目录](../supply-chain.md)
+
+## 功能分层示意
+
+这是功能关系，不是实物拆机、真实空间结构或已核实 BOM。
+
+1. **角色与人体动作**：头部、双臂和双腿提供步行、起身、舞蹈与角色表达。（官方披露）
+
+2. **输入与控制界面**：相机、语音/人脸识别和背部屏幕用于互动及应用操作。（官方披露）
+
+3. **基础云服务**：COCORO专用服务器支持日常对话及个人偏好记忆。（官方披露）
+
+4. **可选生成式对话**：AI会話另行购买，使用ChatGPT，存在试用及月度次数限制。（官方披露）
+
+5. **内部结构概念**：感知、动作控制与供电的布局为示意，不是真实拆机或供应商物料表。（分析推断）
+
+## 来源
+
+1. [RoBoHoN Wi-Fi官方本体配置商店](<https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set>) — 实际打开SR-04M-Y配置：本体145200日元、必选COCORO月费1078日元，当前有加入购物车。购买须18岁以上并使用信用卡；Wi-Fi版不支持电话。
+
+2. [RoBoHoN官方AI会話说明](<https://robohon.com/apps/app48.php>) — 明确一般消费者用ChatGPT对话，需要有偿选项；试用与付费均有次数限制，电视或广播可能触发持续对话。
+
+3. [COCORO官方服务范围与依赖](<https://robohon.com/service/cocoro.php>) — 对话连接专用服务器，偏好等记忆发送至服务器；计划仅供日本国内居住者使用，除订阅还需网络。
+
+4. [RoBoHoN官方型号比较](<https://robohon.com/product/robohon.php>) — 核Wi-Fi SR04MY与LTE、坐姿Lite边界，语音/脸识别、行走等；不移植旧代投影或LTE电话能力。
+
+5. [RoBoHoN官方当前家庭定位](<https://robohon.com/>) — 核唱跳、小游戏、角色陪伴及主人社群定位；保留取消计划会清除设备数据的官方说明，不将营销表达作疗效。
+
+6. [AI会話官方付费服务商品](<https://cocorostore.sharp.co.jp/robohon/service-app/sr-sa05-aitalk>) — 当前330日元/月，加入购物车；页面0日元是当次商品显示，不是免费服务，需与本体COCORO相同账户。
+
+[返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/sharp-robohon-sr04m)

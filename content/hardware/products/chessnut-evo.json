@@ -2,7 +2,7 @@
   "id": "chessnut-evo",
   "name": "Chessnut EVO",
   "brand": "Chessnut",
-  "category": "games",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "大屏与实体棋盘合为独立棋类终端",
   "officialUrl": "https://www.chessnutech.com/products/chessnut-evo-the-future-of-ultra-smart-ai-chessboard",
@@ -90,6 +90,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "physical-game",
   "deepDive": {
     "sources": [
       {

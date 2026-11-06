@@ -1,6 +1,6 @@
 # Chessnut Move
 
-**Chessnut** · 游戏与桌游 · 核查 2026-11-04
+**Chessnut** · AI玩具 · 核查 2026-11-04
 
 让AI走法通过实体棋子自动执行
 

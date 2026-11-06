@@ -2,7 +2,7 @@
   "id": "haivivi-bubblepal",
   "name": "Haivivi BubblePal",
   "brand": "Haivivi",
-  "category": "companion",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "让已有毛绒玩具成为语音角色",
   "officialUrl": "https://www.haivivi.com/",
@@ -97,6 +97,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "plush-dialogue",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

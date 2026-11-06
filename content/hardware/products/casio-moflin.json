@@ -2,7 +2,7 @@
   "id": "casio-moflin",
   "name": "Moflin",
   "brand": "CASIO",
-  "category": "companion",
+  "category": "ai-toys",
   "tagline": "没有屏幕的毛绒触觉陪伴",
   "officialUrl": "https://www.casio.com/us/moflin/",
   "status": "on_sale",
@@ -111,6 +111,7 @@
   "checkedAt": "2026-11-04",
   "audience": "consumer",
   "saleMode": "retail",
+  "toyKind": "robot-pet",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

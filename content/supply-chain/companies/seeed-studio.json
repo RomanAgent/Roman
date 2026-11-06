@@ -234,7 +234,7 @@
       ],
       "productId": "makeblock-mbot2",
       "productName": "Makeblock mBot2",
-      "category": "education",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -253,7 +253,7 @@
       ],
       "productId": "robotical-marty-v2",
       "productName": "Robotical Marty the Robot V2",
-      "category": "education",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -274,6 +274,159 @@
       "productName": "Home Assistant Voice Preview Edition",
       "category": "home-assistant",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "seeed-studio",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "对话模块原型与电子装联",
+      "rationale": "可利用其公开硬件原型与电子装联能力验证语音联网模块，但Kumma现有供应商未披露；需另行核实软外壳固定、充电保护及批量测试，不能视为已经采用其方案。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "folotoy-kumma",
+      "productName": "FoloToy Kumma F-202",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "seeed-studio",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "桌面语音联网原型",
+      "rationale": "公开原型工程和电子装联能力可服务花盆式联网语音装置，但Warmie当前采购来源未知；仍需核实底座固定、接口防护、整机测试及软件服务，不能把候选能力写成已供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "folotoy-warmie",
+      "productName": "FoloToy Sunflower Warmie（海外 Wi-Fi 版）",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "seeed-studio",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "触摸语音联网样机验证",
+      "rationale": "Seeed的开源感知和电子工程支持可用于验证触摸、语音与网络交互的原型；本条不是Fuzozo原厂供应链披露，显示窗口、毛绒材料、移动网络及量产测试还需专项设计与询价。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "fuzozo-ai-pet",
+      "productName": "Fuzozo 芙崽 AI Pet（英语版）",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "seeed-studio",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "语音触摸与联网原型",
+      "rationale": "Seeed公开原型工程与感知模组能力有助于验证语音触摸交互，但憨憨现有硬件来源未公开；移动网络服务、显示窗口及量产质量责任需要专项确认，此关联仅是重新开发的候选入口。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "wiko-hanhan-cellular",
+      "productName": "WIKO 智能憨憨蜂窝版 FZ1012",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "seeed-studio",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "感知控制与联网验证样机",
+      "rationale": "Seeed可为触摸、语音和网络控制的早期原型提供工程支持，但这不代表星仔使用其模组；需要另行验证运动保护、移动服务与显示反馈，以及从样机到量产的责任和交付条件。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "wiko-xingzai",
+      "productName": "WIKO 星仔 XZAI-W00",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "seeed-studio",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "联网语音和显示交互原型",
+      "rationale": "Seeed公开原型与感知模组工程可用于重新开发同类毛绒对话终端，但没有米咕实际供货证据；外套固定、声学通道、眼睛显示与账户服务需专项验证，不据候选能力推断原厂内部方案。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "siuduluv-migu",
+      "productName": "筱嘟宝 SIUDULUV 米咕",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "seeed-studio",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "语音联网毛绒控制模块原型",
+      "rationale": "Seeed公开感知联网原型与电子装联服务，可作为同类语音玩具开发的候选，但没有SkyBuds实际采用证据；需要另行确认唤醒、充电防护、声学布置与批量测试，不能把公开能力写成现有代工关系。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "skybuds-ash",
+      "productName": "SkyBuds Ash（对话毛绒系列）",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "seeed-studio",
+      "role": "manufacturing",
+      "relationship": "disclosed",
+      "component": "Reachy Mini系列优化制造与指定经销",
+      "rationale": "Seeed本轮打开的官方资料明确其优化和制造Reachy Mini，Pollen产品页也列其为部分地区购买渠道；此关系限定系列协作与经销，不代表完整BOM、每个批次的器件来源或所有地区库存。",
+      "sourceIds": [
+        "s2",
+        "s5"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "relationshipEvidence": "Seeed官方ReachyMini Getting Started明确写Reachy Mini由Seeed优化和制造，Pollen官方页指定部分区域经Seeed购买；披露范围为产品系列协作，未公开所有元件采购关系。",
+      "productId": "reachy-mini-wireless",
+      "productName": "Reachy Mini Wireless",
+      "category": "ai-toys",
+      "status": "preorder"
     }
   ]
 }

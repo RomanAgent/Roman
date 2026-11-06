@@ -286,7 +286,7 @@
       ],
       "productId": "sony-aibo-ers1000",
       "productName": "aibo ERS-1000",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "needs_check"
     },
     {
@@ -305,7 +305,7 @@
       ],
       "productId": "robotical-marty-v2",
       "productName": "Robotical Marty the Robot V2",
-      "category": "education",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {

@@ -359,13 +359,13 @@
     "id": "nex-playground",
     "name": "Nex Playground",
     "brand": "Nex",
-    "category": "games",
+    "category": "ai-toys",
     "audience": "consumer",
     "saleMode": "retail",
     "tagline": "用本机视觉识别身体动作的电视体感游戏主机",
     "officialUrl": "https://www.nexplayground.com/shop/nex-playground",
     "status": "on_sale",
-    "statusEvidence": "核查日官方商店显示US$299购买入口；官方购买地区页列美国官网及美国、加拿大、德国、英国和爱尔兰零售渠道。官网直送范围仅美国，不推断中国可直邮。",
+    "statusEvidence": "官方商店当前列US$299和购买入口，并链接Amazon、Walmart、Target等零售商；Play Pass属于额外内容服务，不把硬件价当作完整内容长期费用。",
     "regions": [
       "美国",
       "加拿大",
@@ -378,7 +378,7 @@
       "note": "已核官方销售地区不含中国大陆，官网直送仅美国；未核大陆授权商及内容服务支持。跨境持有硬件不等于本地售后或订阅可用。"
     },
     "price": {
-      "text": "官方硬件US$299",
+      "text": "官网 US$299",
       "note": "含5款入门游戏；可选Play Pass核查价US$89/12个月或US$49/3个月。内容、税费与地区价格以官网为准。"
     },
     "ai": {
@@ -443,7 +443,7 @@
           "technology",
           "availability"
         ],
-        "note": "实际打开；硬件价格与购买、含入门游戏、接口和隐私盖。"
+        "note": "官方商店当前列US$299和购买入口，并链接Amazon、Walmart、Target等零售商；Play Pass属于额外内容服务，不把硬件价当作完整内容长期费用。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
       },
       {
         "title": "Nex动作追踪官方说明",
@@ -477,7 +477,8 @@
         "note": "实际打开；可选订阅、当前期间价格及5款入门游戏。"
       }
     ],
-    "checkedAt": "2026-11-04"
+    "checkedAt": "2026-11-06",
+    "toyKind": "physical-game"
   },
   {
     "id": "arccos-air",
@@ -1892,7 +1893,7 @@
     "id": "dex-language-camera",
     "name": "Dex Language Discovery Camera",
     "brand": "Dex / Worldex Lab",
-    "category": "education",
+    "category": "ai-toys",
     "audience": "consumer",
     "saleMode": "retail",
     "tagline": "拍下身边物体并听见目标语言词汇的儿童探索相机",
@@ -1998,7 +1999,8 @@
         "accessedAt": "2026-11-05"
       }
     ],
-    "checkedAt": "2026-11-05"
+    "checkedAt": "2026-11-05",
+    "toyKind": "learning-play"
   },
   {
     "id": "xnote-write",

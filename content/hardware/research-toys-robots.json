@@ -1,0 +1,1051 @@
+[
+  {
+    "id": "ropet-kamomo",
+    "name": "Ropet KAMOMO",
+    "brand": "Ropet",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "可触摸的桌面养成宠物，离线回应与联网对话分开运行",
+    "officialUrl": "https://ropetai.com/products/ropet%E2%84%A2-ai-comfort-companion-plush-robot",
+    "status": "on_sale",
+    "statusEvidence": "本轮打开商品页，基础Pro组合US$329.99并有Add to cart；公开商品数据对应变体available=true。换装组合不重复计数。",
+    "regions": [
+      "美国",
+      "加拿大",
+      "部分欧洲国家",
+      "新加坡",
+      "中国台湾",
+      "泰国",
+      "澳大利亚",
+      "新西兰"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核到的国际站标准配送清单不含中国大陆；未据此断言其他国内官方渠道不存在，进口使用与保修须分别确认。"
+    },
+    "price": {
+      "text": "US$329.99（基础Pro组合）",
+      "note": "核查时促销价；配件、税费和目的地以结算为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "人脸及手势识别结合角色化动作；达到照顾阶段后提供GPT生成式对话。",
+      "dependency": "识别、日常行为和成长可离线；应用记忆与GPT对话依赖网络及厂商服务，具体地区可用性需确认。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "人脸与手势识别、毛绒触摸互动",
+      "基础识别可离线；GPT对话与应用功能需网络"
+    ],
+    "analysis": {
+      "demand": "需求判断应区分想要可抱摸的存在感与想要高质量问答的人。前者可能愿意重复很简单的照顾仪式，后者很快会拿它和手机助手比较；温暖触感可以形成硬件差异，但首次惊喜不能证明长期陪伴价值，本轮没有访谈或留存数据支持。",
+      "userProfile": "潜在人群是假设性的桌面玩具爱好者、喜欢换装收藏的用户，以及无法或不愿承担真实宠物照料的人。三类动机并不相同：收藏者关注外观与配件，陪伴者关注反应和记忆，送礼者还要考虑收礼人是否愿意安装应用和承担充电维护。",
+      "competition": "竞争判断要同时比较普通毛绒玩具、屏幕虚拟宠物和带移动能力的机器人。普通玩偶没有持续服务依赖，却缺少回应；移动机器人能追随用户，但要处理地面空间。KAMOMO选择桌面范围，减少移动场景，却也可能使互动始终局限在同一地点。",
+      "supplyChain": "产品化判断是毛绒与机电必须一起验证：毛套厚度和面罩位置可能影响触摸与视野，缝制尺寸偏差可能影响眼睛开口和运动间隙。持续的温暖感还涉及能耗、表面温度和材料耐受，不能把普通公仔供应链直接当成已完成电子宠物交付能力。",
+      "technology": "技术判断的关键是把同一角色的不同计算链路拆开：本地识别失败与云端对话等待可能产生相似的沉默，用户却需要不同处理办法。官网没有给出视觉模型、训练覆盖或长期记忆准确率，因此不能把识别熟人等同于稳定理解用户情绪与关系。",
+      "aesthetics": "设计判断是面罩让眼睛与摄像头具有清楚的识别位置，毛套则弱化电子产品感；两者之间仍存在视线与隐私的张力。可以换装有助于个人表达，却也增加配件管理、毛发清洁和长期审美疲劳问题，外观购买欲不能替代实际相处体验。",
+      "risks": "风险判断包括云服务变化、角色记忆和用户期待不一致，以及毛套损耗后替换渠道不足。它面向情感互动，更容易让人主动透露私人信息；宣传中的安慰和理解不代表医疗能力，也不能把机器表达亲近当成真实具有感受的证据。",
+      "opportunity": "商业模式判断应把一次性硬件、换装配件和持续云服务分开计算。外观配件可以支持表达，但如果核心角色体验依赖未来维护，免费对话不意味着运营没有成本；小团队需要先验证用户愿意为何种服务付费，而非把所有收入期待压在收藏热潮上。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断要同时比较普通毛绒玩具、屏幕虚拟宠物和带移动能力的机器人。普通玩偶没有持续服务依赖，却缺少回应；移动机器人能追随用户，但要处理地面空间。KAMOMO选择桌面范围，减少移动场景，却也可能使互动始终局限在同一地点。"
+    },
+    "architecture": [
+      {
+        "name": "外观与表达",
+        "detail": "可更换毛套、面罩和表情眼睛构成可触摸角色。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知输入",
+        "detail": "视觉识别、声音和触摸作为互动输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地行为",
+        "detail": "离线识别与照顾成长驱动角色反应；模型细节未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端对话",
+        "detail": "GPT对话及应用记忆使用互联网服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "机电与供电示意",
+        "detail": "动作、温暖触感和底座供电之间的具体布局为功能推断，非拆机。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "KAMOMO官方商品与当前可购组合",
+        "url": "https://ropetai.com/products/ropet%E2%84%A2-ai-comfort-companion-plush-robot",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "本轮打开商品页，基础Pro组合US$329.99并有Add to cart；公开商品数据对应变体available=true。换装组合不重复计数。"
+      },
+      {
+        "title": "Ropet官方照顾及设置指南",
+        "url": "https://ropetai.com/pages/parenting-guide",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "明确离线识别与照顾成长、联网应用及7天后解锁GPT对话；不挪用第三方所称其他模型或时间。"
+      },
+      {
+        "title": "Ropet官方产品功能",
+        "url": "https://ropetai.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核人脸识别、手势、触感、温暖和桌面陪伴定位。"
+      },
+      {
+        "title": "Ropet官方配送条款",
+        "url": "https://ropetai.com/policies/shipping-policy",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核国际目的地与地区限制，中国大陆未列入公开标准配送清单。"
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "switchbot-kata-friends",
+    "name": "KATA Friends",
+    "brand": "SwitchBot",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "可在家中移动的毛绒伙伴，本地感知与云服务边界需分清",
+    "officialUrl": "https://us.switch-bot.com/products/katafriends",
+    "status": "on_sale",
+    "statusEvidence": "当前商品页US$699、Add To Cart；公开Noa/Niko变体available=true；单买硬件试用后仍需服务计划。",
+    "regions": [
+      "美国",
+      "日本",
+      "其他地区以官方地区店为准"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核到美国商品与服务计划；未确认中国大陆官方配送、云功能及维修条件，不能由品牌在华有业务推断本款可完整使用。"
+    },
+    "price": {
+      "text": "US$699硬件；服务计划另计",
+      "note": "商品页基础计划US$14.99/月；一次性访问方案及其他方案另有条款。促销、税费和地区规则以结算为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "官方披露人脸识别、声源方向、触摸与本地LLM互动，结合自主移动和回充；部分聊天与日记服务依赖云。",
+      "dependency": "本地感知及部分行为可离线；Chat Mode、日记、更新及部分服务需云连接，硬件之外有Companion Care计划，具体功能随地区与固件。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "轮式移动、触摸回应与熟人识别",
+      "本地感知与云端聊天/日记分开，服务计划另计"
+    ],
+    "analysis": {
+      "demand": "需求判断中，地面可移动使它有机会在用户离开书桌后继续参与生活，但也要求家庭留出通路和充电位置。愿意长期让设备自由活动的人，未必与喜欢看短视频里可爱动作的人相同；需要验证的是相处价值是否超过维护、占地和订阅负担。",
+      "userProfile": "画像可按居住空间、家庭成员态度和维护习惯分层，而不是按年龄简单划分。独居者可能在意安静陪伴，多人家庭可能在意它是否分清各人，已有真实宠物的家庭还需观察彼此反应；这些是假设性的需求差异，不是本轮已获得的访谈结果。",
+      "competition": "竞争判断应同时比较桌面伙伴、真实宠物以及没有联网功能的毛绒玩具。轮式宠物能够跨位置出现，却受到地面条件限制；真实宠物有独立生命与照料责任，不能当成同等替代。服务计划则使用户更容易把它与持续付费的软件娱乐作比较。",
+      "supplyChain": "供应链判断是软毛覆盖与自主运动之间需要精细协调：毛套应让触摸和视觉窗口保持一致，轮组应在常见地面上控制噪声，充电座又要支持反复对接。某一个模组能采购不代表整机已稳定，装配公差、清洁方式和返修可达性同样影响交付。",
+      "technology": "技术判断要防止把宣传中的离线能力扩大到所有功能。即使表情和移动可在本地工作，也不能据此认定对话内容、相册同步或账户管理均不联网；同页还保留逐步更新对话功能的措辞，当前可用范围应以具体地区固件与应用版本为准。",
+      "aesthetics": "审美判断中，毛绒弱化了移动机械感，但腹部窗口与底部硬质结构仍会提醒用户这是一台有感知能力的设备。藏起机械不一定更好：如果用户不易看懂它正在充电、拍照还是等待回应，可爱外形反而会增加操作猜测和对隐私状态的误解。",
+      "risks": "风险判断包括续费预期、服务停止后的剩余能力、识别误差和共享家庭隐私。订阅硬件不同于一次买断的普通公仔，如果用户误以为所有记忆永远离线就可能作出错误选择；厂商关于理解情绪的描述也不等于已验证心理状态识别或治疗效果。",
+      "opportunity": "商业判断中，服务计划能支持长期内容和维护，但必须和硬件承诺一致。小团队更适合先验证一个房间内的稳定互动，再扩展复杂导航或更多角色；外观配件可以成为补充收入，却不能掩盖续费后仍无法可靠认人或找回充电座的核心问题。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断应同时比较桌面伙伴、真实宠物以及没有联网功能的毛绒玩具。轮式宠物能够跨位置出现，却受到地面条件限制；真实宠物有独立生命与照料责任，不能当成同等替代。服务计划则使用户更容易把它与持续付费的软件娱乐作比较。"
+    },
+    "architecture": [
+      {
+        "name": "毛绒与表达",
+        "detail": "毛绒外形、眼睛显示与身体动作表达角色状态。",
+        "evidence": "official"
+      },
+      {
+        "name": "多模态感知",
+        "detail": "相机、语音方向、触摸和激光避障构成输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地智能",
+        "detail": "官网披露本地LLM与互动记忆行为，未公开模型细节。",
+        "evidence": "official"
+      },
+      {
+        "name": "移动与补能",
+        "detail": "轮式底部与充电Nest形成室内移动、停靠回路。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端与服务",
+        "detail": "Chat Mode、日记和部分服务需要网络与适用计划；非全功能离线。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "KATA Friends美国官方商店",
+        "url": "https://us.switch-bot.com/products/katafriends",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "当前商品页US$699、Add To Cart；公开Noa/Niko变体available=true；单买硬件试用后仍需服务计划。"
+      },
+      {
+        "title": "KATA Friends官方技术说明",
+        "url": "https://us.switch-bot.com/pages/katafriends-technology",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核多模态感知、本地LLM和轮式移动；脚注明确Chat Mode、日记、更新及部分服务需云。对话功能另有逐步更新措辞，不认定全部语言地区已经同等开放。"
+      },
+      {
+        "title": "KATA Friends官方计划说明",
+        "url": "https://us.switch-bot.com/pages/katafriends-pricing",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "打开计划页面并结合商品页方案，区分硬件售价、持续服务与一次性访问方案。"
+      },
+      {
+        "title": "KATA Friends日本官方商店",
+        "url": "https://www.switchbot.jp/products/katafriends",
+        "note": "本轮实际打开日本商店，核Noa/Niko本体129800日元及本地服务计划；不将美国费用直接套用日本或大陆。",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "availability",
+          "price"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "doly-robot",
+    "name": "Doly",
+    "brand": "Limitbit / Doly",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "本地识别与开放编程结合的成人桌面伙伴",
+    "officialUrl": "https://shop.doly.ai/products/doly",
+    "status": "on_sale",
+    "statusEvidence": "当前完整Doly含内置计算平台与充电站，Add to cart；公开基础和高内存变体均available=true。商品提示非儿童玩具、当前英语支持。",
+    "regions": [
+      "加拿大",
+      "美国",
+      "其他地区以官方结算为准"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方商城地区列表含中国，但未完成目的地配送验证；未确认中国大陆本地售后及中文语音，当前商品说明为英语。"
+    },
+    "price": {
+      "text": "官网按地区币种显示，当前加拿大视图约C$573",
+      "note": "基础与高内存变体价格不同且动态；最终币种、税费及配送以结算为准，不重复计数。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "本地语音识别、人脸记忆识别与触摸/运动输入结合，驱动桌面反应、小游戏和移动；开放SDK允许自行扩展。",
+      "dependency": "默认感知识别与行为强调无服务器运行；设置、更新及可选在线信息仍可能需要网络。自定义LLM不是已承诺的成品默认功能。"
+    },
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "highlights": [
+      "完整桌面机器人，支持本地人脸与语音识别",
+      "面向成人创客的开放编程路径，默认不等于生成式聊天"
+    ],
+    "analysis": {
+      "demand": "需求判断是把一个会回应的角色留在桌边，同时允许用户逐步修改玩法。只想打开即聊天的人可能觉得设置和英语支持不足，喜欢编程与三维打印的人则可能看重可控性；两类目标不能靠同一功能清单混在一起，也不能把开发热情等同长期使用。",
+      "userProfile": "用户画像可假设为有固定书桌的成人机器人爱好者、愿意写少量代码的个人创作者及在家做项目的人。若只想陪孩子玩，监护者要承担设备管理和适龄判断，不能从品牌提供教育路线推断所有年龄都适用，也不自动把它当无人陪护装置。",
+      "competition": "竞争判断中，它面对封闭式桌面宠物和自组机器人两端的替代。成品减少底层装配门槛，开放软件又允许修改，但维护工具和版本也会消耗时间；封闭产品可能更易开始，自组项目则更自由，哪一种更好取决于用户是否愿意亲手参与。",
+      "supplyChain": "工程判断是履带、侧臂和底部传感器需要共同适配桌面摩擦与边缘环境，充电站的视觉定位也受摆放和光照影响。开放外壳允许个性化，却可能让新材料遮挡传感、改变重量和重心，因此可打印文件不能取代修改后重新验证整机行为。",
+      "technology": "技术判断是用户可编程与系统自带能力必须分开。有人能够接入其他模型，并不代表所有购买者已获得相同功能、隐私设置和服务保障；本地处理减少部分云端依赖，却仍需更新和可选在线信息来源，不能被表述为任何任务都完全断网可用。",
+      "aesthetics": "设计判断是外露履带和圆眼让机械玩具感清晰，可能更适合愿意展示技术物件的桌面，而非希望电子产品隐藏起来的空间。低矮身体节省视觉遮挡，但移动时仍会接近线缆和纸张；外壳可改的价值取决于是否保持感知位置清楚和操作可靠。",
+      "risks": "主要风险判断是用户期待与开放平台责任之间的落差：修改软件可能导致基础行为变化，断网或系统更新也可能影响习惯。摄像头认人涉及同住者同意，本地处理不是自动安全证明；设备在桌边运动更需要防跌落环境，而非假定传感器永不失误。",
+      "opportunity": "商业判断应把成品销售、配件和开发支持的成本分开。小团队如果主要服务成人爱好者，可以先提供清楚可恢复的示例和兼容附件，但不能承诺替每个自定义项目长期维护；依赖社区贡献也需要边界，不把免费用户劳动视作必然持续的资源。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断中，它面对封闭式桌面宠物和自组机器人两端的替代。成品减少底层装配门槛，开放软件又允许修改，但维护工具和版本也会消耗时间；封闭产品可能更易开始，自组项目则更自由，哪一种更好取决于用户是否愿意亲手参与。"
+    },
+    "architecture": [
+      {
+        "name": "角色界面",
+        "detail": "两只圆形表情眼睛、侧臂及语音输出形成互动。",
+        "evidence": "official"
+      },
+      {
+        "name": "感知",
+        "detail": "前置相机、人脸记忆、语音识别、触摸和运动输入。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地控制",
+        "detail": "内置计算平台运行默认软件，支持开放编程扩展。",
+        "evidence": "official"
+      },
+      {
+        "name": "履带与回充",
+        "detail": "履带移动、桌边感知及独立充电站组成桌面活动回路。",
+        "evidence": "official"
+      },
+      {
+        "name": "内部层次",
+        "detail": "模块布局与供电形状为示意推断，不是物料清单或实物拆机。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Doly官方成品商店",
+        "url": "https://shop.doly.ai/products/doly",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "当前完整Doly含内置计算平台与充电站，Add to cart；公开基础和高内存变体均available=true。商品提示非儿童玩具、当前英语支持。"
+      },
+      {
+        "title": "Doly官方陪伴功能",
+        "url": "https://doly.ai/companion/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核本地人脸和语音识别、履带互动、回充及无需服务器/订阅；不等同预装生成式聊天。"
+      },
+      {
+        "title": "Doly官方使用路径",
+        "url": "https://doly.ai/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核成人陪伴、个人创客和教育路线，以及开放SDK与可定制外观。"
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "energizelab-eiliko",
+    "name": "Eiliko",
+    "brand": "EnergizeLab",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "可随身挂起的对话角色；联网聊天与短期记忆有明确边界",
+    "officialUrl": "https://store.energizelab.com/products/eiliko",
+    "status": "on_sale",
+    "statusEvidence": "当前US$59.90、Add selected to cart，公开蓝色和粉色变体available=true；不把主题壳另计新产品。",
+    "regions": [
+      "官方国际商店服务地区以结算为准"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方FAQ支持普通话，但未核实中国大陆对应订单渠道和服务条款；支持中文不等于已确认本地配送与售后。"
+    },
+    "price": {
+      "text": "US$59.90",
+      "note": "核查时促销价；主题外壳、税费与配送另计。官方称对话无订阅，不等于独立验证长期服务可持续。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "离线语音命令、触摸与运动反馈配合云端生成式聊天；主题外壳关联不同角色表现。",
+      "dependency": "初次需应用与蓝牙配网；AI聊天需Wi-Fi或热点。当前FAQ仅确认短期工作记忆，长期记忆与自接模型属未来计划；安全修复状态需单独核验。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "随身挂件形态，联网AI聊天与离线命令分开",
+      "当前FAQ只确认短期记忆；存在公开安全披露，修复状态未核实"
+    ],
+    "analysis": {
+      "demand": "需求判断是把收藏挂件变成随时可短暂回应的物件，而不是要求使用者长期停留在桌边。外出时表达情绪、与朋友展示角色和在家聊天可能是不同动机；如果公共环境无法听清或不适合开口，随身形态的价值就可能主要来自表情与外观。",
+      "userProfile": "潜在人群是假设性的角色挂件收藏者、喜欢换装表达的用户以及寻求轻量语音陪伴的人。前者对造型和主题外壳敏感，后者更在意联网、回应与记忆；送礼人还要考虑对方是否愿意授权应用，而不能因为价格较低就默认收礼者会长期使用。",
+      "competition": "竞争判断应把普通潮玩挂件、电子宠物和手机语音角色放在一起比较。普通挂件没有充电和数据风险，手机角色则拥有更大的界面与更新能力；Eiliko的区别是能随身展示和触摸回应，但模型对话本身并不因此成为独有能力或稳定竞争壁垒。",
+      "supplyChain": "产品化判断是挂在包上比静置桌面多出摆动、碰撞和拉扯，挂点、屏幕保护与外壳锁合会影响长期使用。主题换壳还要保持接触可靠与外观配合，不能只验证一次装上就宣布耐久；微型扬声器在开放噪声环境中的可听性也需要整机评估。",
+      "technology": "技术判断需要把触摸动画、离线命令和云端生成回复分开。主题身体可以改变角色表达，却不证明模型经过不同训练或拥有独立人格；网络中断时一个表情仍能出现，也不代表刚才的话已被理解。当前云端服务行为应按实际版本进一步验证。",
+      "aesthetics": "审美判断是挂件需要在不交互时也值得携带，屏幕关掉后的外观和服饰搭配同样重要。过大的头部可能增强角色辨识，却增加包带摆动；主题外壳可以形成收藏兴趣，但如果换装影响握持和挂点方向，外观变化也可能降低日常便利。",
+      "risks": "风险判断不只在聊天内容是否被保存，还包括身份校验、账号与设备关联、删除请求和更新可信性。官网当前短期记忆说明不能反证历史报告，也不保证短期内容完全不留存；可爱外形和无订阅承诺均不能代替安全验证，更不应默认儿童适用。",
+      "opportunity": "商业判断应关注低价硬件与持续云调用的关系，以及换装收入是否足以支持长期服务。小团队可以先验证有限、透明的互动任务与数据最小化，再决定是否扩展记忆；免费聊天是销售承诺，不应被当成永久无成本运营或稳定复购的证据。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断应把普通潮玩挂件、电子宠物和手机语音角色放在一起比较。普通挂件没有充电和数据风险，手机角色则拥有更大的界面与更新能力；Eiliko的区别是能随身展示和触摸回应，但模型对话本身并不因此成为独有能力或稳定竞争壁垒。"
+    },
+    "architecture": [
+      {
+        "name": "随身形态",
+        "detail": "挂环、可替换主题身体和表情屏幕；不是桌面Eilik。",
+        "evidence": "official"
+      },
+      {
+        "name": "离线输入输出",
+        "detail": "触摸、运动响应及有限离线语音命令。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网控制",
+        "detail": "应用与蓝牙辅助配网，Wi-Fi承载AI聊天。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端角色",
+        "detail": "生成回复与短期记忆依赖服务，长期记忆未作为已交付功能。",
+        "evidence": "official"
+      },
+      {
+        "name": "内部概念层",
+        "detail": "控制、感知与供电采用抽象功能层；无已披露PCB布局依据。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Eiliko官方商店",
+        "url": "https://store.energizelab.com/products/eiliko",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "当前US$59.90、Add selected to cart，公开蓝色和粉色变体available=true；不把主题壳另计新产品。"
+      },
+      {
+        "title": "Eiliko官方产品与FAQ",
+        "url": "https://energizelab.com/eiliko/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "明确AI聊天需Wi-Fi，离线命令、短期记忆、长期记忆路线图；永久配对指两台Eiliko之间而非用户或手机绑定。"
+      },
+      {
+        "title": "EnergizeLab平台安全协调披露",
+        "url": "https://takeonme.org/cves/multiple-energizelab-eilik-eiliko-platform-vulnerabilities/",
+        "kind": "independent",
+        "supports": [
+          "risks"
+        ],
+        "note": "实际打开AHA对Sammy Azdoufal研究的协调披露；其状态注明来自历史研究复测，不是11月6日新审计。不复述个人数据、利用步骤或未核实规模，当前修复状态未确认。"
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "petoi-bittle-x-ai-vision",
+    "name": "Bittle X V2 + AI Vision Module",
+    "brand": "Petoi",
+    "category": "ai-toys",
+    "toyKind": "learning-play",
+    "tagline": "用另购视觉模块把识别模型接入可编程四足玩法",
+    "officialUrl": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+    "status": "on_sale",
+    "statusEvidence": "商品有Add to cart；本轮公开商品数据确认V2轻量舵机预装版US$339可购。只取该配置，机械臂与其他舵机另计且部分缺货。",
+    "regions": [
+      "美国",
+      "官方国际配送支持地区"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方有国际配送条款，但未核具体中国大陆结算、渠道与售后；不由品牌或模组产地推断国内现售。"
+    },
+    "price": {
+      "text": "US$339预装本体 + US$39视觉模块",
+      "note": "分别购买，合计参考US$378；运费税费另计，模块需安装配置。组装版与其他舵机配置价格不同。"
+    },
+    "ai": {
+      "type": "perception",
+      "description": "另购AI视觉模块部署分类/检测模型，识别人、姿态或对象，并可通过编程触发机器狗动作；基础整机不默认具备该视觉能力。",
+      "dependency": "需安装兼容视觉模块并配置模型和响应程序；基础套件、现成视觉模型与自定义开发不同。模块不能运行SLAM，不含生成式聊天。"
+    },
+    "audience": "prosumer",
+    "saleMode": "retail",
+    "highlights": [
+      "基础机器狗与AI视觉模块分别购买",
+      "模型识别经配置连接动作；不包含SLAM或自由聊天"
+    ],
+    "analysis": {
+      "demand": "需求判断是个人创作者想看到自己的识别程序影响真实物体的运动，而不是只在电脑里显示结果。小型四足身体能够把追踪、转向和姿态变成直接反馈，但组装与调试也构成门槛；纯粹寻求安静陪伴的用户可能更适合封闭式桌面伙伴。",
+      "userProfile": "用户可按对机械和软件的兴趣分别分组：有人喜欢拼装，有人想直接编程，有人只想完成一个视觉小游戏。预装选择降低机械门槛却不会消除模型设置；是否有孩子参与也不能替代成人维护责任，年龄建议不等于已经证明学习成效或普遍安全。",
+      "competition": "竞争判断应比较轮式教学机器人、纯视觉相机开发套件与封闭式机器宠物。四足运动更具表现力，也需要关节校准和稳定地面；单独相机成本与调试范围可能更小，却缺少身体反馈。真正差异在于把识别与运动程序连接起来，而不是狗形外壳本身。",
+      "supplyChain": "工程判断是模块兼容需要同时满足接口、固定位置、重量和运动时的线缆余量。将相机装进嘴部或附件上会改变视野，身体运动又会使图像出现动态变化；单次识别成功不代表机器人行走时仍稳定，也不能由开放源代码推断任意配件即插即用。",
+      "technology": "技术判断是模型输出必须经过用户编写或配置的响应逻辑才变成动作，识别和运动控制是不同环节。目标类别变化、相机角度及阈值都会影响结果，因此模块能加载模型不等于所有任务已经训练好；品牌示例不能替代特定家庭环境的效果验证。",
+      "aesthetics": "审美判断是外露关节让动作原理较容易理解，也表现出明显的模型和工程玩具风格。它与毛绒伙伴的触感和抱持预期不同，优点可能是可修可改，缺点可能是零件、线缆与维护感更强；对成人创客的吸引力不能直接外推给普通礼物购买者。",
+      "risks": "风险判断包括安装错误、供电不匹配、错误识别导致意外运动以及软件升级破坏已有程序。对家庭使用者，还应考虑小零件、活动关节和充电管理；这些是需要评估的工程风险，不表示本轮已经发现实物故障，也不能据此虚构故障发生率。",
+      "opportunity": "商业判断应把完整成品、可选视觉模块、课程和售后支持分开设计。小团队若只售一个拼装盒却缺少版本一致的教程，会把大量支持成本留到售后；反过来，过度封闭又削弱创作自由。需要验证用户愿意为什么样的成功任务或支持付费。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断应比较轮式教学机器人、纯视觉相机开发套件与封闭式机器宠物。四足运动更具表现力，也需要关节校准和稳定地面；单独相机成本与调试范围可能更小，却缺少身体反馈。真正差异在于把识别与运动程序连接起来，而不是狗形外壳本身。"
+    },
+    "architecture": [
+      {
+        "name": "基础机器狗",
+        "detail": "四足关节、身体与可编程运动平台构成实体反馈。",
+        "evidence": "official"
+      },
+      {
+        "name": "选配视觉输入",
+        "detail": "另购相机与处理模组安装在合适位置。",
+        "evidence": "official"
+      },
+      {
+        "name": "视觉模型",
+        "detail": "模块可部署现成或自定义检测/分类模型。",
+        "evidence": "official"
+      },
+      {
+        "name": "程序与动作",
+        "detail": "识别结果通过用户配置逻辑转化成运动响应。",
+        "evidence": "official"
+      },
+      {
+        "name": "供电与连接概念",
+        "detail": "具体内部走线、供电和控制布局仅作功能示意。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bittle X V2官方当前商品",
+        "url": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "商品有Add to cart；本轮公开商品数据确认V2轻量舵机预装版US$339可购。只取该配置，机械臂与其他舵机另计且部分缺货。"
+      },
+      {
+        "title": "Petoi AI视觉模块官方商品",
+        "url": "https://www.petoi.com/products/petoi-ai-vision-module-for-arduino",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "商品模块US$39并有Add to cart，公开商品数据available=true。说明兼容Bittle X，模型部署与相机安装为额外步骤，不能运行SLAM。"
+      },
+      {
+        "title": "Petoi官方模块公开商品资料",
+        "url": "https://www.petoi.com/products/petoi-ai-vision-module-for-arduino.js",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "实际读取官方商品结构化说明，明确SenseCraft及MobileNet、EfficientNet、YOLO模型路线、Wi-Fi图像传输与兼容限制；不以基础遥控动作证明AI。"
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "anki-vector-2",
+    "name": "Vector 2.0",
+    "brand": "Anki / Digital Dream Labs",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "有实体动作的桌面伙伴，语音与模型连接依赖订阅",
+    "officialUrl": "https://anki.bot/products/vector-robot",
+    "status": "on_sale",
+    "statusEvidence": "当前页面明确In stock、shipping within one business day和Add to Cart；公开商品数据黑色新机available=true、US$249.99，不用开箱价代表新机。",
+    "regions": [
+      "美国",
+      "其他地区以官方结算为准"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "本轮核到官方国际入口现货；未验证中国大陆发货、本地售后和订阅云服务可达性，不能把进口获得设备等同完整可用。"
+    },
+    "price": {
+      "text": "US$249.99黑色新机；语音订阅另计",
+      "note": "ChatGPT连接计划US$11.99/月或99.99/年，Claude计划US$14.99/月或139.99/年；当前试用与税运费以官方条款为准。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "人脸感知识别与实体表情、履带及抬升互动结合；官方订阅提供语音命令与ChatGPT/Claude连接。",
+      "dependency": "基础角色行为与云端语音分开；语音和模型服务需网络、同一账户设备绑定及有效计划。未将计划中的宠物或笑容识别列为已交付。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "履带、抬升动作与人脸识别构成桌面伙伴",
+      "语音命令及ChatGPT/Claude连接依赖有效订阅"
+    ],
+    "analysis": {
+      "demand": "需求判断是用户希望在短暂休息时得到一个有动作和眼神的回应，同时能偶尔通过语音问简单问题。主动活动可能提高存在感，也可能在工作中造成干扰；需要验证的是用户是否持续给它留空间和时间，而不是看到一个熟悉机器人造型时的怀旧兴趣。",
+      "userProfile": "用户画像可假设为熟悉桌面机器人、希望拥有可见角色，或愿意维护旧有互动生态的成人爱好者。第一次购买者可能更在意设置和售后，原有用户可能重视功能延续；不能由品牌历史或收藏热情推断其愿意接受所有云服务费用和更新要求。",
+      "competition": "竞争判断应比较新一代桌面宠物、手机聊天角色和可编程履带机器人。Vector保留鲜明的抬升动作与物理表情，但语音订阅会使用户持续比较软件价值；硬件风格、云端模型和社区项目分别形成吸引力，不能用其中一个方面推断综合领先。",
+      "supplyChain": "工程判断是小型履带和抬升结构的长期一致性会影响角色表现：动作噪声、履带磨损和机械回差都可能被用户感知为性格或反应异常。可更换电池有助维护，但还需核实际配件、说明与连接兼容，不能仅因电池舱易打开就推断维修成本很低。",
+      "technology": "技术判断要将本地角色行为与远端语音服务拆开，取消订阅后设备仍可能活动，但不等于语音命令也能正常执行。模型连接名称不能证明采用哪个具体版本，也不保证不同地区网络可达性；产品上的回应风格还取决于应用和服务层的设计。",
+      "aesthetics": "设计判断是明显机械结构使角色动作容易被观察，绿色眼睛又提供轻量人格化表达；但它的桌面存在感也取决于声音、运动幅度和充电位置。像工程车的造型可能吸引机械爱好者，却未必符合希望家居物品柔软隐形的用户审美。",
+      "risks": "风险判断包括服务变更后功能缩水、账户迁移困难，以及新机、开箱品和开发版本混买导致预期落差。官方关于不窃取数据的宣传不是独立隐私审计；摄像头与麦克风进入共享空间时仍需清楚说明处理范围，不能让角色亲切掩盖服务依赖。",
+      "opportunity": "商业判断需要同时考虑新用户的上手成本与老用户对连续性的期待，配件、电池和账户支持会影响设备实际寿命。小团队若采用订阅伙伴路线，应先验证持续价值来自内容、动作还是个性化，而不是以一次性硬件销量假定后续服务收入稳定。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断应比较新一代桌面宠物、手机聊天角色和可编程履带机器人。Vector保留鲜明的抬升动作与物理表情，但语音订阅会使用户持续比较软件价值；硬件风格、云端模型和社区项目分别形成吸引力，不能用其中一个方面推断综合领先。"
+    },
+    "architecture": [
+      {
+        "name": "感知与角色界面",
+        "detail": "面屏、相机、音频和触摸输入形成互动。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地角色行为",
+        "detail": "实体动作与感知控制维持基础表现，不等同全部语音可离线。",
+        "evidence": "official"
+      },
+      {
+        "name": "移动与抬升",
+        "detail": "履带底盘和前部抬升机构用于桌面玩法。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端语音",
+        "detail": "订阅关联语音命令及模型连接，计算不应画在机身内。",
+        "evidence": "official"
+      },
+      {
+        "name": "内部布局示意",
+        "detail": "控制、供电与连接形状为功能推断，非物料清单。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vector 2.0当前官方商品",
+        "url": "https://anki.bot/products/vector-robot",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "当前页面明确In stock、shipping within one business day和Add to Cart；公开商品数据黑色新机available=true、US$249.99，不用开箱价代表新机。"
+      },
+      {
+        "title": "Vector官方订阅说明",
+        "url": "https://anki.bot/pages/vector-membership",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核语音命令、ChatGPT/Claude连接、账号与设备关联、当前月年费及激活等待。"
+      },
+      {
+        "title": "Digital Dream Labs官方入口",
+        "url": "https://www.digitaldreamlabs.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "实际打开后跳转到anki.bot，核当前Anki品牌商城入口来源，不由第三方转售店认定官方身份。"
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "petoi-quaddle-buddy",
+    "name": "Quaddle Buddy",
+    "brand": "Petoi",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "接受正式后期预售的四足对话与手动示教玩具",
+    "officialUrl": "https://www.kickstarter.com/projects/petoi/quaddle-open-source-desktop-robot-kit/rewards",
+    "status": "preorder",
+    "statusEvidence": "本轮实际浏览确认Campaign funded后仍接受Late Pledge；Available KS Special Quaddle Buddy US$189按钮可用，预计Dec2026、Ships anywhere。早鸟回报已禁用；组装服务另加US$6，未提交付款。",
+    "regions": [
+      "官方后期支持页所列全球目的地"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "当前回报写Ships anywhere，但未单独核中国大陆的支付、税费、交期和售后；不能将全球说明等同本地现货。"
+    },
+    "price": {
+      "text": "US$189 Buddy后期支持",
+      "note": "预计2026年12月交付；组装服务另加US$6，运费税费及目的地以回报结算为准。非现货，早鸟价格不再适用。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "Buddy预售配置明确包含开放域AI对话；手动引导动作录制回放是另一种交互，不能当作学习型步态AI。",
+      "dependency": "AI对话的端云分工、模型供应及离线范围尚未充分披露，应以交付版说明为准。Buddy不包含Scout的扩展感知或选配视觉模块。"
+    },
+    "audience": "prosumer",
+    "saleMode": "preorder",
+    "highlights": [
+      "Buddy正式后期预售，预计2026年12月交付",
+      "AI对话与手动示教分开；不包含Scout专属视觉扩展"
+    ],
+    "analysis": {
+      "demand": "需求判断是把可改造的四足桌面玩具与语音角色结合，让用户既能说话，也能通过积木和简单动作表达自己的玩法。它可能吸引不想从电路开始搭建的人，但产品仍在预售，实际对话、机械可靠性和长期趣味都尚未由本轮亲身使用验证。",
+      "userProfile": "潜在用户可假设为想尝试机器人制作的成人、愿意一起搭项目的家庭以及喜欢设计外壳的创作者。无需焊接可以降低一个环节的门槛，却不保证用户能够解决所有软件问题；收礼人是否愿意维护和学习，仍比宣传中的适用年龄更值得验证。",
+      "competition": "竞争判断是它试图在封闭聊天玩具和复杂四足开发套件之间找位置：提供角色对话，同时保留编程与手动录制。封闭伙伴可能更省心，复杂套件可能更适合深入运动研究；机构简化并不自动证明成本更低或更可靠，这些仍需量产和使用证据。",
+      "supplyChain": "工程判断是少量驱动器通过机构实现动作，可以减少一种复杂度，同时把可靠性要求转移到连杆公差、关节摩擦与装配一致性上。用户在顶部加积木还可能改变重心和负载，不能只根据空载演示认定任何自定义外壳都适合持续活动。",
+      "technology": "技术判断中，对话模型、具体端云部署和服务边界尚未由已读资料充分披露，因此不能把on-board的宣传词理解为完整本地大模型。AI对话是预售承诺的明确能力，但其延迟、语言覆盖、数据处理和离线可用范围仍应等交付文档或实际版本核实。",
+      "aesthetics": "审美判断是模块化外观有助于鼓励改造，但会减少普通毛绒宠物式的一体感。积木顶部可能让用户从观看转向创造，也可能让装饰遮挡传感或破坏平衡；不同人的趣味来自角色形象还是机械结构，需要在实际手持和改造过程中分别观察。",
+      "risks": "风险判断主要是预售交付、配置变更和服务边界尚未完全明确。品牌过去交付其他产品不保证本项目按期完成；开放软件也不能替代硬件售后。对家庭而言，关节、小零件和生成式内容需要分别评估，不能从无需焊接推断无监督使用风险很低。",
+      "opportunity": "商业判断应把前期支持者与普通礼物购买者分开：前者可能愿意容忍版本变化，后者更要求可靠开箱体验。小团队可先提供少数完成度高的玩法和明确升级边界，再扩充角色与课程，避免为了丰富宣传而增加难以兑现的感知功能与服务成本。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断是它试图在封闭聊天玩具和复杂四足开发套件之间找位置：提供角色对话，同时保留编程与手动录制。封闭伙伴可能更省心，复杂套件可能更适合深入运动研究；机构简化并不自动证明成本更低或更可靠，这些仍需量产和使用证据。"
+    },
+    "architecture": [
+      {
+        "name": "角色与扩展外壳",
+        "detail": "矩形小屏身体及积木兼容顶部提供表达与改造空间。",
+        "evidence": "official"
+      },
+      {
+        "name": "AI对话配置",
+        "detail": "Buddy预售回报包含AI core和开放域对话，部署细节待核。",
+        "evidence": "official"
+      },
+      {
+        "name": "手动示教",
+        "detail": "用户手引导动作后录制回放，不等于训练新的运动策略。",
+        "evidence": "official"
+      },
+      {
+        "name": "四足运动",
+        "detail": "连杆和执行机构实现桌面动作，承载关节不等同可打印装饰。",
+        "evidence": "official"
+      },
+      {
+        "name": "概念内部",
+        "detail": "感知、控制与供电的内部布局只作推断，预售设计可能变化。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Quaddle官方后期支持回报",
+        "url": "https://www.kickstarter.com/projects/petoi/quaddle-open-source-desktop-robot-kit/rewards",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "本轮实际浏览确认Campaign funded后仍接受Late Pledge；Available KS Special Quaddle Buddy US$189按钮可用，预计Dec2026、Ships anywhere。早鸟回报已禁用；组装服务另加US$6，未提交付款。"
+      },
+      {
+        "title": "Quaddle官方产品与配置",
+        "url": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核Buddy开放域AI对话、手动示教回放、积木兼容外壳；Builder无同等对话配置，Scout传感及可选AI视觉不移植。端云部署细节未充分披露。"
+      },
+      {
+        "title": "Quaddle官方众筹项目",
+        "url": "https://www.kickstarter.com/projects/petoi/quaddle-open-source-desktop-robot-kit",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核项目身份与主众筹已结束，销售判断使用当前rewards后期支持界面，筹款成功不等于发货完成。"
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "kitto-ai-cat",
+    "name": "Kitto AI Cat",
+    "brand": "Kitto / Jason Wei",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "仍在研发的桌面电子猫，正式后期预售与未来功能分开标注",
+    "officialUrl": "https://www.kickstarter.com/projects/kitto/kitto-true-ai-agent-toy/rewards",
+    "status": "preorder",
+    "statusEvidence": "本轮实际浏览确认Late Pledge仍开放，黑/白单台HK$1800按钮可用，预计Jan2027、Ships anywhere；不采回报描述残留旧价，不把多台套餐另计。",
+    "regions": [
+      "官方回报所列全球目的地"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "回报写Ships anywhere，尚未逐地址确认中国大陆支付、税运费、应用和模型服务；不等同国内现货或保证中文首发。"
+    },
+    "price": {
+      "text": "HK$1,800单台后期支持",
+      "note": "预计2027年1月交付，运费另计；黑白与多台套餐合一款，旧描述换算价格不用于当前报价。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "预售方案将联网生成式对话与电子猫养成、语音口型和表情同步结合；项目方披露外部AI及语音服务用于该体验。",
+      "dependency": "实时对话需网络；基础养成计划可离线。应用、更多代理能力、旋转底座及自接模型仍有开发路线边界，尚未量产，最终语言与服务需交付验证。"
+    },
+    "audience": "consumer",
+    "saleMode": "preorder",
+    "highlights": [
+      "正式后期预售，预计2027年1月交付，尚未量产",
+      "联网对话与养成计划明确；旋转底座和更多代理功能仍开发中"
+    ],
+    "analysis": {
+      "demand": "需求判断是把屏幕中的猫角色固定在一个可触摸的桌面物件上，让照顾与交谈形成连续体验。硬件价值可能来自随时看得见的存在感和角色动画，而不只是换一种方式调用聊天模型；是否值得额外购买，需要与用户已有手机和桌面摆件比较。",
+      "userProfile": "潜在人群可假设为喜欢数字宠物和动画角色的成人，以及愿意参与早期产品反馈的技术爱好者。普通礼物购买者对确定交期和易用性的要求可能更高；即使外形可爱，也不说明适合无人监督儿童，更不能将独居或情绪压力当成自动购买理由。",
+      "competition": "竞争判断包括手机数字宠物、现售桌面机器人和普通角色摆件。手机方案更新和输入更方便，实体产品则可以长期占据一个可见位置；若没有明显触摸和表情体验，独立硬件可能只是昂贵外壳。预售设备的可比性还受交付时间和功能变更影响。",
+      "supplyChain": "工程判断是动画、音频与触摸响应需要共同调试，屏幕延迟和语音等待会直接影响角色感。小批样机运行成功不能证明长期散热、装配一致性和音腔效果；如果后续增加旋转底座，还会带来结构、电源与可靠性的新约束，不能当作免费软件升级。",
+      "technology": "技术判断是口型与表情同步决定角色是否连贯，但这与模型拥有记忆、准确回答或执行任务是不同能力。项目列出多个模型服务名称也不等于每个地区同时可选，具体版本和数据流仍需交付说明；养成积分影响对话机会，不应误写成无限免费聊天。",
+      "aesthetics": "设计判断是角色动画可能比硬件外壳更频繁地影响体验：表情同步自然可以维持注意力，重复循环或等待过长则会让角色感消失。赛博风格也不一定适合所有工作空间，持续亮屏、声音和养成提醒需要与用户的真实日常节奏共同评估。",
+      "risks": "风险判断包括供应链延期、软件范围缩减、云调用持续成本以及生成内容和家庭数据的处理。项目方提出未来整合代理工具，并同时承认数据安全还需完善；这不等于已经发现具体漏洞，但足以要求更清楚的权限边界，不能默认儿童或敏感对话安全。",
+      "opportunity": "商业判断中，养成积分替代订阅可能降低持续付款压力，也可能让用户感觉为了聊天必须完成任务。小团队需要验证积分是否形成愉快仪式，还是阻挡核心功能的门槛；云服务费用和动画内容维护仍存在，不能从无订阅承诺推断运营无需持续收入。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断包括手机数字宠物、现售桌面机器人和普通角色摆件。手机方案更新和输入更方便，实体产品则可以长期占据一个可见位置；若没有明显触摸和表情体验，独立硬件可能只是昂贵外壳。预售设备的可比性还受交付时间和功能变更影响。"
+    },
+    "architecture": [
+      {
+        "name": "角色表达",
+        "detail": "猫角色动画、表情和语音口型构成预售体验。",
+        "evidence": "official"
+      },
+      {
+        "name": "本地互动",
+        "detail": "触摸及运动相关输入用于养成，具体交付配置仍在优化。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网对话",
+        "detail": "实时生成对话依赖互联网与项目服务，模型供应为项目方披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "应用与未来能力",
+        "detail": "设置应用和更多代理能力仍在开发，不作为已交付硬件模块。",
+        "evidence": "official"
+      },
+      {
+        "name": "内部概念层",
+        "detail": "显示、音频、控制和供电的空间结构为推断，非量产物料表。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kitto当前官方后期支持回报",
+        "url": "https://www.kickstarter.com/projects/kitto/kitto-true-ai-agent-toy/rewards",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "technology"
+        ],
+        "note": "本轮实际浏览确认Late Pledge仍开放，黑/白单台HK$1800按钮可用，预计Jan2027、Ships anywhere；不采回报描述残留旧价，不把多台套餐另计。"
+      },
+      {
+        "title": "Kitto官方众筹FAQ",
+        "url": "https://www.kickstarter.com/projects/kitto/kitto-true-ai-agent-toy/faqs",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核联网实时对话、离线养成计划、积分模式、语言未定、应用与旋转底座开发中、自接模型为2027路线；不将未来功能写成当前成品。"
+      },
+      {
+        "title": "Kitto官方项目正文与研发风险",
+        "url": "https://www.kickstarter.com/projects/kitto/kitto-true-ai-agent-toy/description",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "本轮实际浏览全文；项目明确硬件仍优化且未进入量产，11月底硬件演示为计划。AI披露为项目方对外部服务的说明，OpenClaw深度整合是未来计划。"
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  },
+  {
+    "id": "sharp-robohon-sr04m",
+    "name": "RoBoHoN Wi-Fi SR-04M-Y + AI会話",
+    "brand": "Sharp 夏普",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "日本个人可购的人形陪伴机器人，基础月费与AI对话另收费",
+    "officialUrl": "https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set",
+    "status": "on_sale",
+    "statusEvidence": "实际打开SR-04M-Y配置：本体145200日元、必选COCORO月费1078日元，当前有加入购物车。购买须18岁以上并使用信用卡；Wi-Fi版不支持电话。",
+    "regions": [
+      "日本"
+    ],
+    "china": {
+      "availability": "unavailable",
+      "note": "COCORO必需服务官方明确仅限居住在日本的人使用；中国大陆居住者无法据这些条款取得完整官方服务。实体进口可得性不等于服务可用，未核到面向中国大陆居住者的对应服务。"
+    },
+    "price": {
+      "text": "本体¥145,200；基础¥1,078/月＋AI会話¥330/月",
+      "note": "均为日本官方标示，日元；AI应用的0日元商品显示不代表免费。维修计划和附件可另计，生成式对话有月度次数上限。"
+    },
+    "ai": {
+      "type": "hybrid",
+      "description": "语音与人脸感知识别结合人形互动；另购AI会話应用通过ChatGPT提供生成式聊天。唱跳和固定游戏不单独作为AI证据。",
+      "dependency": "必需COCORO计划与通信环境，日常对话和偏好记忆连接专用服务器；AI会話另付费且限次数，仅核日本个人服务。Wi-Fi版不具LTE电话能力。"
+    },
+    "audience": "consumer",
+    "saleMode": "retail",
+    "highlights": [
+      "日本个人直购的Wi-Fi型号，可唱跳、认人和玩小游戏",
+      "必需COCORO月费，ChatGPT对话另购且有次数限制",
+      "服务仅限日本居住者，购买须18岁以上"
+    ],
+    "analysis": {
+      "demand": "需求判断是一个会用身体和声音回应的角色，能够成为个人休息或家庭交流的对象。人形动作可以形成不同于手机聊天的存在感，但同住者是否愿意听它说话、在桌面为它留位置仍需验证；不能把厂商表达的快乐和陪伴直接当成疗效或稳定需求。",
+      "userProfile": "潜在人群可假设为喜欢机器人角色的成人、日本家庭以及愿意持续参加内容和主人活动的人。有人可能重视跳舞和换装，有人希望日常有人回应，另一些人关注学习编程；这些动机需要分别确认，年龄、独居状态和家庭结构都不能代替实际偏好。",
+      "competition": "竞争判断应比较同类实体伙伴、手机角色应用和普通可编程玩具。人形动作与长期角色内容可能提升认同感，却也引入机械维护和服务费用；手机应用更易随身使用，普通玩具无需云端计划。哪种更适合取决于用户实际重视触摸、动作、对话还是收藏。",
+      "supplyChain": "工程判断是小型人形角色的关节噪声、动作一致性和表面接缝会同时影响机械可靠性与情感表现。用户可能把抬手不顺畅理解为角色不回应，因此动作执行与对话时序需要一起验证；固定外壳尺寸也使相机视场、麦克风声路和维修便利相互制约。",
+      "technology": "技术判断应把设备动作、基础服务和额外生成式对话分开理解。背部应用能打开并不代表离线也有同样能力，服务器记忆也不等于模型永远准确记住个人；具体模型版本与推理部署没有完整披露，因此不将聊天模型画在本体芯片内或承诺固定性能。",
+      "aesthetics": "设计判断是人形角色可以用抬手、转头与站姿强化回应，也会让使用者期待类似人物的节奏和理解。胸前简单标识与橙色局部提供辨识度，但硬质关节和宽脚掌仍明确表达机械属性；这种美感与毛绒宠物不同，需要让用户真实拿起和相处后评价。",
+      "risks": "风险判断包括账户与设备关联、持续费用、错误语音触发和服务变化后的功能边界。用户可能因长期角色互动积累大量私人信息，服务器保存记忆需要透明说明；家庭陪伴功能也不能承担看护责任，厂商的亲近表达不代表独立验证的心理或医疗效果。",
+      "opportunity": "商业判断应关注角色内容、维修与持续云服务共同形成的拥有体验。小团队若借鉴这种路线，需要先确定一个稳定的互动习惯和服务范围，而不是同时承诺电话、家庭助理与情感支持；主人社区可以形成交流场景，但不能据此直接推算续费和市场规模。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "竞争判断应比较同类实体伙伴、手机角色应用和普通可编程玩具。人形动作与长期角色内容可能提升认同感，却也引入机械维护和服务费用；手机应用更易随身使用，普通玩具无需云端计划。哪种更适合取决于用户实际重视触摸、动作、对话还是收藏。"
+    },
+    "architecture": [
+      {
+        "name": "角色与人体动作",
+        "detail": "头部、双臂和双腿提供步行、起身、舞蹈与角色表达。",
+        "evidence": "official"
+      },
+      {
+        "name": "输入与控制界面",
+        "detail": "相机、语音/人脸识别和背部屏幕用于互动及应用操作。",
+        "evidence": "official"
+      },
+      {
+        "name": "基础云服务",
+        "detail": "COCORO专用服务器支持日常对话及个人偏好记忆。",
+        "evidence": "official"
+      },
+      {
+        "name": "可选生成式对话",
+        "detail": "AI会話另行购买，使用ChatGPT，存在试用及月度次数限制。",
+        "evidence": "official"
+      },
+      {
+        "name": "内部结构概念",
+        "detail": "感知、动作控制与供电的布局为示意，不是真实拆机或供应商物料表。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "RoBoHoN Wi-Fi官方本体配置商店",
+        "url": "https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "dependency"
+        ],
+        "note": "实际打开SR-04M-Y配置：本体145200日元、必选COCORO月费1078日元，当前有加入购物车。购买须18岁以上并使用信用卡；Wi-Fi版不支持电话。"
+      },
+      {
+        "title": "RoBoHoN官方AI会話说明",
+        "url": "https://robohon.com/apps/app48.php",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "明确一般消费者用ChatGPT对话，需要有偿选项；试用与付费均有次数限制，电视或广播可能触发持续对话。"
+      },
+      {
+        "title": "COCORO官方服务范围与依赖",
+        "url": "https://robohon.com/service/cocoro.php",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "对话连接专用服务器，偏好等记忆发送至服务器；计划仅供日本国内居住者使用，除订阅还需网络。"
+      },
+      {
+        "title": "RoBoHoN官方型号比较",
+        "url": "https://robohon.com/product/robohon.php",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核Wi-Fi SR04MY与LTE、坐姿Lite边界，语音/脸识别、行走等；不移植旧代投影或LTE电话能力。"
+      },
+      {
+        "title": "RoBoHoN官方当前家庭定位",
+        "url": "https://robohon.com/",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "availability",
+          "limitations"
+        ],
+        "note": "核唱跳、小游戏、角色陪伴及主人社群定位；保留取消计划会清除设备数据的官方说明，不将营销表达作疗效。"
+      },
+      {
+        "title": "AI会話官方付费服务商品",
+        "url": "https://cocorostore.sharp.co.jp/robohon/service-app/sr-sa05-aitalk",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "dependency"
+        ],
+        "note": "当前330日元/月，加入购物车；页面0日元是当次商品显示，不是免费服务，需与本体COCORO相同账户。"
+      }
+    ],
+    "checkedAt": "2026-11-06"
+  }
+]

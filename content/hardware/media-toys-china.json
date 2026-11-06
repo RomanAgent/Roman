@@ -1,0 +1,182 @@
+[
+  {
+    "id": "folotoy-kumma",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/folotoy-kumma/product.png",
+        "sourceUrl": "https://store.folotoy.com/products/folotoy-ai-teddy",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0586/6058/5547/files/kumma-overseas-cutout.png?v=1793542438",
+        "caption": "FoloToy Kumma F-202 官方产品图",
+        "alt": "FoloToy Kumma F-202外观",
+        "credit": "FoloToy · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/folotoy-kumma/reference.png",
+        "sourceUrl": "https://store.folotoy.com/products/folotoy-ai-teddy",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0586/6058/5547/files/b363db57ccaf7b36813ed705912d9e09.png?v=1781179930",
+        "caption": "FoloToy Kumma F-202 官方参考图（含厂商展示场景）",
+        "alt": "FoloToy Kumma F-202外观或使用场景参考",
+        "credit": "FoloToy · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方原图内容；场景或宣传文字不代表本研究实测，Kumma两张为同款外观展示。"
+    ]
+  },
+  {
+    "id": "folotoy-warmie",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/folotoy-warmie/product.png",
+        "sourceUrl": "https://store.folotoy.com/products/folotoy-ai-toy-ai-sunflower",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0586/6058/5547/files/11.png?v=1781180761",
+        "caption": "FoloToy Warmie海外Wi-Fi版 官方产品图",
+        "alt": "FoloToy Warmie海外Wi-Fi版外观",
+        "credit": "FoloToy · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/folotoy-warmie/reference-web.jpg",
+        "sourceUrl": "https://store.folotoy.com/products/folotoy-ai-toy-ai-sunflower",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0586/6058/5547/files/2_b300abdf-94f1-42d0-9fdf-8881383a8fe1.jpg?v=1767700714&width=1600",
+        "caption": "FoloToy Warmie海外Wi-Fi版 官方参考图（含厂商展示场景）",
+        "alt": "FoloToy Warmie海外Wi-Fi版外观或使用场景参考",
+        "credit": "FoloToy · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方原图内容；场景或宣传文字不代表本研究实测，Kumma两张为同款外观展示。"
+    ]
+  },
+  {
+    "id": "fuzozo-ai-pet",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/fuzozo-ai-pet/product.jpg",
+        "sourceUrl": "https://fuzozo.net/",
+        "sourceImageUrl": "https://fuzozo.net/cdn/shop/files/fuzozo-polu-scene-aligned-1101.jpg?v=1793539537&width=1600",
+        "caption": "Fuzozo英语版POLU 官方产品图",
+        "alt": "Fuzozo英语版POLU外观",
+        "credit": "Fuzozo / Robopoet · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/fuzozo-ai-pet/reference.png",
+        "sourceUrl": "https://fuzozo.net/",
+        "sourceImageUrl": "https://fuzozo.net/cdn/shop/files/fuzozo-designer-privacy-data-1031.png?v=1793406404&width=900",
+        "caption": "Fuzozo英语版POLU 官方参考图（含厂商展示场景）",
+        "alt": "Fuzozo英语版POLU外观或使用场景参考",
+        "credit": "Fuzozo / Robopoet · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留官方原图内容；场景或宣传文字不代表本研究实测，Kumma两张为同款外观展示。"
+    ]
+  },
+  {
+    "id": "wiko-hanhan-cellular",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/wiko-hanhan-cellular/product.png",
+        "sourceUrl": "https://www.wiko.com/ai_toys/hanhan",
+        "sourceImageUrl": "https://www.wiko.com/template/cn/zipFile/hanhan/img/sec3/s3-color.png",
+        "caption": "WIKO智能憨憨蜂窝版官方同系列配色展示（不分开计数）",
+        "alt": "WIKO智能憨憨蜂窝版完整外观",
+        "credit": "WIKO · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/wiko-hanhan-cellular/reference.jpg",
+        "sourceUrl": "https://www.wiko.com/ai_toys/hanhan",
+        "sourceImageUrl": "https://www.wiko.com/template/cn/zipFile/hanhan/img/sec3/s3-3.jpg",
+        "caption": "WIKO智能憨憨蜂窝版官方交互或应用参考图",
+        "alt": "WIKO智能憨憨蜂窝版触摸或角色养成交互展示",
+        "credit": "WIKO · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "官方原图保留原始内容，配色与配饰不另计型号；应用截图不代表独立实测。"
+    ]
+  },
+  {
+    "id": "wiko-xingzai",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/wiko-xingzai/product.png",
+        "sourceUrl": "https://www.wiko.com/ai_toys/xingzai",
+        "sourceImageUrl": "https://www.wiko.com/template/cn/zipFile/xingzai/img/sec3/s3-color.png",
+        "caption": "WIKO星仔官方同系列配色展示（不分开计数）",
+        "alt": "WIKO星仔完整外观",
+        "credit": "WIKO · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/wiko-xingzai/reference.jpg",
+        "sourceUrl": "https://www.wiko.com/ai_toys/xingzai",
+        "sourceImageUrl": "https://www.wiko.com/template/cn/zipFile/xingzai/img/sec3/s3-2.jpg",
+        "caption": "WIKO星仔官方交互或应用参考图",
+        "alt": "WIKO星仔触摸或角色养成交互展示",
+        "credit": "WIKO · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "官方原图保留原始内容，配色与配饰不另计型号；应用截图不代表独立实测。"
+    ]
+  },
+  {
+    "id": "siuduluv-migu",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/siuduluv-migu/product.webp",
+        "sourceUrl": "https://www.siuduluv.com/mall/products/42",
+        "sourceImageUrl": "https://download.soulxiaodu.com/archive/ssd-%E5%92%AA%E5%92%95/zhutu1.webp",
+        "caption": "米咕官方产品宣传图",
+        "alt": "米咕浅色毛绒与蓝色眼睛",
+        "credit": "SIUDULUV · 官方物料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/siuduluv-migu/reference.webp",
+        "sourceUrl": "https://www.siuduluv.com/mall/products/42",
+        "sourceImageUrl": "https://download.soulxiaodu.com/archive/ssd-%E5%92%AA%E5%92%95/zhutu2.webp",
+        "caption": "米咕官方场景参考物料",
+        "alt": "厂商展示米咕在日常场景中",
+        "credit": "SIUDULUV · 官方物料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "使用对应型号官方物料，宣传场景可能含合成处理，不作独立实拍、疗效或终身服务保证；未语义编辑。"
+    ]
+  }
+]

@@ -295,6 +295,151 @@
       "productName": "Withings U-Scan Nutrio",
       "category": "health-home",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "espressif",
+      "role": "connectivity",
+      "component": "同类联网毛绒的无线控制候选",
+      "rationale": "Espressif公开Wi-Fi与低功耗控制能力，可作为类似恐龙玩具联网及睡眠唤醒部分的研发候选；必须实测毛绒包覆下信号、休眠功耗和充电噪声。它并不提供bondu对话记忆或内容审核服务，当前没有品牌点名采用证据，不能据候选反推原机芯片。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "bondu",
+      "productName": "bondu AI Plush",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "espressif",
+      "role": "connectivity",
+      "component": "同类学习机器人Wi-Fi连接与控制候选",
+      "rationale": "Espressif无线平台可用于同类学习机器人配网、连接状态和低功耗控制的研究，但不能据其通用联网能力认定能承担Miko全部视觉或生成式推理。需检验移动状态和家庭网络切换时稳定性；Miko未公开采用该公司的证据，候选关系不代表原机BOM或主控归属。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "miko-mini",
+      "productName": "Miko Mini",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "espressif",
+      "role": "connectivity",
+      "component": "同类云对话玩具的联网控制候选",
+      "rationale": "Espressif无线平台可作为类似云对话玩具连接、状态控制与休眠管理的研发候选，但Meemo现有主控和具体无线实现未完整披露。必须结合应用配网、网络恢复和电源方案验证，不能从通用Wi-Fi能力推导所有语言模型本地可运行，也没有其实际供货关系证据。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "meemo-bear",
+      "productName": "Meemo Bear",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "espressif",
+      "role": "connectivity",
+      "component": "同类Wi-Fi泰迪的连接控制候选",
+      "rationale": "Espressif无线控制平台可为类似泰迪的首次配网、模式状态和断网恢复提供研发入口，但不意味着Ted实际采用，也不提供其未披露的云模型。需要验证毛绒内部天线、充电干扰及家庭网络，尤其应确保自动聆听状态不会因网络重连而产生难以察觉的变化。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "tedco-ted",
+      "productName": "Ted — Smart Teddy",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "espressif",
+      "role": "connectivity",
+      "component": "同类Wi-Fi毛绒的连接与状态控制候选",
+      "rationale": "Espressif公开Wi-Fi控制能力可用于类似Bloom的配网、按键收音状态和云端请求恢复研究，必须验证网络变化时输入是否仍受清晰控制。当前没有SkyBloom点名采用证据，也不能从无线平台推出全部AI在机内运行；候选关联不包含云模型、家长应用或具体生产厂商。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "skybloom-bloom",
+      "productName": "SkyBloom Bloom",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "espressif",
+      "role": "connectivity",
+      "component": "同类可分离语音盒的Wi-Fi及配网候选",
+      "rationale": "Espressif公开Wi-Fi与低功耗蓝牙控制能力可用于类似Voice Box的配网、连接恢复和状态研究，具体音频处理及USB-C电源仍需整机验证。当前没有Curio点名采用证据，不能把候选当白色第二代盒主控，也不包含品牌的角色云服务、数据控制或装配工厂。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "curio-voicebox-2",
+      "productName": "Curio Voice Box 2 系列（Gabbo 代表）",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "espressif",
+      "role": "connectivity",
+      "component": "同类Wi-Fi玩具的联网与离线内容控制候选",
+      "rationale": "Espressif无线平台可用于类似腹部面板玩具的Wi-Fi连接、按键状态与离线内容管理研究，但不代表Khelu采用该芯片。实际存储、音频播放和充电方案需另行验证，不能把板级能力等同云模型服务；公开资料没有具体主控或工厂点名，因此仅列能力候选。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "kheelona-khelu",
+      "productName": "Kheelona Khelu / Kheelu",
+      "category": "ai-toys",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "espressif",
+      "role": "connectivity",
+      "component": "同类Wi-Fi对话玩具连接控制候选",
+      "rationale": "Espressif无线平台可供类似Nebu的家庭Wi-Fi和云请求连接研究，但当前original主控与电源未公开，不能据候选确定量产芯片。需要验证配网、弱信号、服务器不可用和软件更新的恢复；它也不提供品牌的云模型、家长应用或秘鲁配送服务，未发现实际采用关系。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "nebu-original",
+      "productName": "Nebu original",
+      "category": "ai-toys",
+      "status": "preorder"
     }
   ]
 }

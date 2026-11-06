@@ -2,11 +2,11 @@
   "id": "loona-petbot",
   "name": "Loona Petbot Premium",
   "brand": "KEYI Tech",
-  "category": "companion",
+  "category": "ai-toys",
   "tagline": "轮式家庭宠物与GPT对话结合",
   "officialUrl": "https://keyirobot.com/products/petbot",
   "status": "on_sale",
-  "statusEvidence": "官方Petbot商品页显示Premium套装、US$429和Buy Now；本记录对应Petbot，不把官网新Deskmate或Space Edition混入同一产品。",
+  "statusEvidence": "官方Petbot Premium商品页当前列US$429与Buy Now；新Deskmate不是本条产品，所选套装与地区以结算确认。",
   "regions": [
     "国际官网（配送地区以结算为准）"
   ],
@@ -80,7 +80,7 @@
         "technology",
         "architecture"
       ],
-      "note": "已打开，明确产品版本、购买入口及传感和执行规格。"
+      "note": "官方Petbot Premium商品页当前列US$429与Buy Now；新Deskmate不是本条产品，所选套装与地区以结算确认。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
     },
     {
       "title": "KEYI Tech官方首页",
@@ -92,9 +92,10 @@
       "note": "官网同时列Petbot与Deskmate，本记录仅研究Petbot。"
     }
   ],
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-06",
   "audience": "consumer",
   "saleMode": "retail",
+  "toyKind": "robot-pet",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

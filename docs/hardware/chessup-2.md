@@ -1,6 +1,6 @@
 # ChessUp 2
 
-**Bryght Labs / ChessUp** · 游戏与桌游 · 核查 2026-11-04
+**Bryght Labs / ChessUp** · AI玩具 · 核查 2026-11-06
 
 触碰棋子即可看到灯光走法建议
 
@@ -32,7 +32,7 @@ ChessUp 2 · 官方参考图 · 来源：[Bryght Labs / ChessUp · 官方图片]
 
 ## 销售与购买
 
-- 状态：在售。官方商店Add to cart，公开商品数据available=true；标准ChessUp 2只计一款，不计颜色或棋子套装。
+- 状态：在售。本轮复核官方商品页列US$349.99与Add to cart；颜色与配件不重复计数，库存仍以实际结算地区为准。
 
 - 地区：所列官方国际商店
 
@@ -252,7 +252,7 @@ ChessUp 2可帮助研究实体即时提示是否减少切屏并支持学习，�
 
 ## 来源
 
-1. [ChessUp 2官方商店](<https://playchessup.com/products/chessup-2>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+1. [ChessUp 2官方商店](<https://playchessup.com/products/chessup-2>) — 本轮复核官方商品页列US$349.99与Add to cart；颜色与配件不重复计数，库存仍以实际结算地区为准。 本轮仅重查销售与标价，技术研究保留各项原始来源。
 
 2. [ChessUp 2官方棋力与局面设置](<https://chessup2-knowledge-base.helpscoutdocs.com/article/183-board-editor>) — 已实际打开官方页面；功能说明不等于独立性能测量。
 

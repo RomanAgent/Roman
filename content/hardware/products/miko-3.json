@@ -2,11 +2,11 @@
   "id": "miko-3",
   "name": "Miko 3",
   "brand": "Miko",
-  "category": "education",
+  "category": "ai-toys",
   "tagline": "语音互动、学习内容与家长应用结合的儿童机器人",
   "officialUrl": "https://miko.ai/products/miko-3",
-  "status": "needs_check",
-  "statusEvidence": "官方商品页显示US$299，但抓取文本同时出现Sold out、Add To Cart及Buy Now；未能确认具体颜色的实时库存，因此列待确认，不以加购模板单独断言在售。",
+  "status": "on_sale",
+  "statusEvidence": "2026-11-06实时浏览器核验官网红色款可点击Add To Cart；抓取文本同时含Sold out模板，不再据该模板单独判断缺货。未进行实际付款或配送资格确认。",
   "regions": [
     "美国官网"
   ],
@@ -15,8 +15,8 @@
     "note": "官网列普通话为支持语言之一，但语言支持不等于中国大陆销售及云服务可达性；本次未核实大陆官方购买和售后。"
   },
   "price": {
-    "text": "官网展示 US$299；部分内容另需Miko Max",
-    "note": "库存待确认；Max按地区及周期收费，页面列部分功能免费、部分需会员，不能把全部内容算作随硬件永久提供。"
+    "text": "官网美元界面 US$199",
+    "note": "2026-11-06实际页面红色款促销价，划线US$299；地区、活动和运税依结算，不能从港币/美元地区选择推断中国大陆配送。"
   },
   "ai": {
     "type": "hybrid",
@@ -75,12 +75,13 @@
         "technology",
         "dependency"
       ],
-      "note": "同页存在Sold out及加购文案，因此库存保守标待确认；技术和语言来自产品说明。"
+      "note": "2026-11-06实时浏览器核验官网红色款可点击Add To Cart；抓取文本同时含Sold out模板，不再据该模板单独判断缺货。未进行实际付款或配送资格确认。"
     }
   ],
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-06",
   "audience": "consumer",
   "saleMode": "retail",
+  "toyKind": "learning-play",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

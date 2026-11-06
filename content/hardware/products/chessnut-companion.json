@@ -2,7 +2,7 @@
   "id": "chessnut-companion",
   "name": "Chessnut Companion",
   "brand": "Chessnut",
-  "category": "games",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "把AI复盘放进专用实体棋钟",
   "officialUrl": "https://www.chessnutech.com/products/chessnut-companion",
@@ -90,6 +90,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "physical-game",
   "deepDive": {
     "sources": [
       {

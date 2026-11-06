@@ -542,7 +542,7 @@
       ],
       "productId": "chessnut-companion",
       "productName": "Chessnut Companion",
-      "category": "games",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -559,7 +559,7 @@
       ],
       "productId": "particula-gochess-pro",
       "productName": "Particula GoChess Pro Modern",
-      "category": "games",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -740,6 +740,63 @@
       "productName": "Anker SOLIX Solarbank 3 E2700 Pro",
       "category": "home-energy",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "小型消费电池工程候选",
+      "rationale": "欣旺达公开消费电池业务，可作为小体积挂件的电源工程能力候选。充电管理、冲击环境和售后替换需按整机验证，不能因产品具有电池就认定某个供应商已经供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "energizelab-eiliko",
+      "productName": "Eiliko",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "小型消费电池能力候选",
+      "rationale": "欣旺达消费电池业务与小型桌面机器人的供电工程在能力上相关，可作为新设计询样候选。现有电池舱尺寸、保护和连接器仍需核验，不表示与原机兼容或已被采用。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "anki-vector-2",
+      "productName": "Vector 2.0",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "sunwoda",
+      "role": "power",
+      "relationship": "candidate",
+      "component": "小型互动机器人电源能力候选",
+      "rationale": "欣旺达消费电池能力与小型互动机器人的持续供电需求相关，可作为新设计候选。电池形态、连接器与驱动负载必须另行匹配，此关联不指向原机实际采用或承诺直接兼容。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "petoi-quaddle-buddy",
+      "productName": "Quaddle Buddy",
+      "category": "ai-toys",
+      "status": "preorder"
     }
   ]
 }

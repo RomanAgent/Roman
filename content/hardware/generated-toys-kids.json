@@ -1,0 +1,269 @@
+[
+  {
+    "id": "bondu",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/bondu/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "bondu恐龙毛绒与概念语音、联网、供电层示意，外部云端AI及家长应用",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/bondu.txt",
+        "referencePaths": [
+          "assets/hardware/bondu/product.png",
+          "assets/hardware/bondu/reference.png",
+          "assets/hardware/bondu/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "两阶段内置ImageGen生成；修订删除未验证的外皮可维修拆卸暗示，保留初稿溯源。"
+    ]
+  },
+  {
+    "id": "miko-mini",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/miko-mini/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Miko Mini外观、概念控制供电层及外部Wi-Fi内容服务",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/miko-mini.txt",
+        "referencePaths": [
+          "assets/hardware/miko-mini/product.png",
+          "assets/hardware/miko-mini/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内部为未核实布局的功能概念，不作具体芯片、传动或维修结构依据。"
+    ]
+  },
+  {
+    "id": "meemo-bear",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/meemo-bear/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "meemo-bear 外观与概念功能分层，内部布局未核实",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/meemo-bear.txt",
+        "referencePaths": [
+          "assets/hardware/meemo-bear/product.jpg",
+          "assets/hardware/meemo-bear/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen按本产品官方参考独立生成；未知内部为概念层，不是BOM或维修依据。"
+    ]
+  },
+  {
+    "id": "tedco-ted",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/tedco-ted/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "tedco-ted 外观与概念功能分层，内部布局未核实",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/tedco-ted.txt",
+        "referencePaths": [
+          "assets/hardware/tedco-ted/product.png",
+          "assets/hardware/tedco-ted/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen按本产品官方参考独立生成；未知内部为概念层，不是BOM或维修依据。"
+    ]
+  },
+  {
+    "id": "babaru",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/babaru/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "babaru 外观与概念功能分层，内部布局未核实",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/babaru.txt",
+        "referencePaths": [
+          "assets/hardware/babaru/product.webp",
+          "assets/hardware/babaru/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen按本产品官方参考独立生成；未知内部为概念层，不是BOM或维修依据。"
+    ]
+  },
+  {
+    "id": "skybloom-bloom",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/skybloom-bloom/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "skybloom-bloom 官方外形与概念功能分层、外部AI服务示意",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/skybloom-bloom.txt",
+        "referencePaths": [
+          "assets/hardware/skybloom-bloom/product.webp",
+          "assets/hardware/skybloom-bloom/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "由协作代理使用内置ImageGen独立生成，已检查外形和功能边界；未知内部不能作为BOM或维修依据。"
+    ]
+  },
+  {
+    "id": "plai-poe",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/plai-poe/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "plai-poe 官方外形与概念功能分层、外部AI服务示意",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/plai-poe.txt",
+        "referencePaths": [
+          "assets/hardware/plai-poe/product.png",
+          "assets/hardware/plai-poe/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "由协作代理使用内置ImageGen独立生成，已检查外形和功能边界；未知内部不能作为BOM或维修依据。"
+    ]
+  },
+  {
+    "id": "wompy",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/wompy/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "wompy 外观与概念功能分层，内部布局未核实",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/wompy.txt",
+        "referencePaths": [
+          "assets/hardware/wompy/product.webp",
+          "assets/hardware/wompy/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen按本产品官方参考独立生成；未知内部为概念层，不是BOM或维修依据。"
+    ]
+  },
+  {
+    "id": "curio-voicebox-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/curio-voicebox-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "curio-voicebox-2 外观与概念功能分层，内部布局未核实",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/curio-voicebox-2.txt",
+        "referencePaths": [
+          "assets/hardware/curio-voicebox-2/product.png",
+          "assets/hardware/curio-voicebox-2/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen按本产品官方参考独立生成；未知内部为概念层，不是BOM或维修依据。"
+    ]
+  },
+  {
+    "id": "nebu-original",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/nebu-original/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "nebu-original 外观与概念功能分层，内部布局未核实",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/nebu-original.txt",
+        "referencePaths": [
+          "assets/hardware/nebu-original/product.webp",
+          "assets/hardware/nebu-original/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen按本产品官方参考独立生成；未知内部为概念层，不是BOM或维修依据。"
+    ]
+  },
+  {
+    "id": "kheelona-khelu",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/kheelona-khelu/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "kheelona-khelu 外观与概念功能分层，内部布局未核实",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/kheelona-khelu.txt",
+        "referencePaths": [
+          "assets/hardware/kheelona-khelu/product.webp",
+          "assets/hardware/kheelona-khelu/reference.jpg",
+          "assets/hardware/kheelona-khelu/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen按本产品官方参考独立生成；未知内部为概念层，不是BOM或维修依据。",
+      "修订明确离线故事在玩具播放，云AI和家长App为外部服务，初稿与修订提示词保留。"
+    ]
+  },
+  {
+    "id": "skybuds-ash",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/skybuds-ash/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "SkyBuds Ash本地唤醒音频与外部语音服务的概念分层",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/skybuds-ash.txt",
+        "referencePaths": [
+          "assets/hardware/skybuds-ash/product.webp",
+          "assets/hardware/skybuds-ash/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen独立生成并目视核验；静态刺绣眼睛、无相机屏幕，内部位置为抽象功能块。"
+    ]
+  }
+]

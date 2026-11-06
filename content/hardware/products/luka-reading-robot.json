@@ -2,7 +2,7 @@
   "id": "luka-reading-robot",
   "name": "Luka Kids Reading Robot",
   "brand": "Luka",
-  "category": "education",
+  "category": "ai-toys",
   "tagline": "围绕真实绘本进行朗读、提问与互动",
   "officialUrl": "https://luka.world/products/luka-reading-robot",
   "status": "on_sale",
@@ -86,6 +86,7 @@
   "checkedAt": "2026-11-04",
   "audience": "consumer",
   "saleMode": "retail",
+  "toyKind": "learning-play",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

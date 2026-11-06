@@ -2,7 +2,7 @@
   "id": "looi-robot",
   "name": "LOOI Robot",
   "brand": "Tangobotics / LOOI",
-  "category": "companion",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "让已有手机成为桌面机器人的表情与感知入口",
   "officialUrl": "https://looirobot.com/products/looi-robot",
@@ -99,6 +99,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "robot-pet",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

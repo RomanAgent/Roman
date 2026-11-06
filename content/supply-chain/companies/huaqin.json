@@ -229,7 +229,7 @@
       ],
       "productId": "curio-grok",
       "productName": "Curio Grok",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "preorder"
     },
     {
@@ -248,7 +248,7 @@
       ],
       "productId": "loona-petbot",
       "productName": "Loona Petbot Premium",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -267,7 +267,7 @@
       ],
       "productId": "romi-lacatan",
       "productName": "Romi Lacatan",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -286,7 +286,7 @@
       ],
       "productId": "luka-reading-robot",
       "productName": "Luka Kids Reading Robot",
-      "category": "education",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -305,8 +305,8 @@
       ],
       "productId": "miko-3",
       "productName": "Miko 3",
-      "category": "education",
-      "status": "needs_check"
+      "category": "ai-toys",
+      "status": "on_sale"
     },
     {
       "supplierId": "huaqin",

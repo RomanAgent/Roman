@@ -214,5 +214,120 @@
     }
   ],
   "checkedAt": "2026-11-04",
-  "relatedProducts": []
+  "relatedProducts": [
+    {
+      "supplierId": "feetech",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "桌面多轴机构的总线舵机选型",
+      "rationale": "飞特公开总线舵机、状态反馈和工程资料，与桌面机器人多轴动作的需求相符，但本轮未核到Reachy Mini Wireless的点名采用证据；尺寸、电压、协议、噪声和持续负载仍需确认，不能据候选能力直接替换原机部件。",
+      "sourceIds": [
+        "s1",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "reachy-mini-wireless",
+      "productName": "Reachy Mini Wireless",
+      "category": "ai-toys",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "feetech",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "小型姿态驱动能力候选",
+      "rationale": "FEETECH公开提供小型舵机及总线控制，可作为短臂与头部表达机构的能力候选。实际载荷、噪声和毛套干涉仍须整机验证，未找到本产品公开采用该公司部件的证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "switchbot-kata-friends",
+      "productName": "KATA Friends",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "feetech",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "微型动作机构能力候选",
+      "rationale": "FEETECH公开小型执行器与总线技术，可作为侧臂等表达机构选型候选。体积、桌面噪声、负载和控制接口仍需重新验证，既有公开资料没有证明它向Doly供应具体部件。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "doly-robot",
+      "productName": "Doly",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "feetech",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "小型四足执行器能力候选",
+      "rationale": "FEETECH公开小型舵机与总线控制能力，可作为类似四足项目的执行器询样方向。实际接口、动作负载和校准要求必须验证；本档案不认定Petoi现有舵机由它生产或可直接互换。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "petoi-bittle-x-ai-vision",
+      "productName": "Bittle X V2 + AI Vision Module",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "feetech",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "桌面四足动作驱动能力候选",
+      "rationale": "FEETECH公开小型舵机与控制技术，可为类似四足连杆产品提供执行能力询样方向。传力结构、示教反馈和耐久要求仍需验证，没有公开证据确认它是Quaddle实际供应商。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "petoi-quaddle-buddy",
+      "productName": "Quaddle Buddy",
+      "category": "ai-toys",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "feetech",
+      "role": "motion",
+      "relationship": "candidate",
+      "component": "小型人形动作驱动能力候选",
+      "rationale": "FEETECH公开小型舵机与控制技术，可为类似人形陪伴设备的关节表达提供能力参考。动作噪声、体积、传动和寿命仍须整机验证，未找到夏普本型号实际采用它的公开点名证据。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "sharp-robohon-sr04m",
+      "productName": "RoBoHoN Wi-Fi SR-04M-Y + AI会話",
+      "category": "ai-toys",
+      "status": "on_sale"
+    }
+  ]
 }

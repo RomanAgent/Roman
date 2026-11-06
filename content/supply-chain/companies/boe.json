@@ -450,6 +450,25 @@
       "productName": "Amazon Alexa Photo Frame",
       "category": "home-assistant",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "boe",
+      "role": "display",
+      "relationship": "candidate",
+      "component": "桌面角色显示工程候选",
+      "rationale": "京东方公开多形态显示与模组能力，可用于类似电子猫角色的显示路线评估。实际尺寸、观看角度、功耗和供应条件尚待项目定型，本条仅作能力候选，不确认现有采购、价格或可直接替换。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "kitto-ai-cat",
+      "productName": "Kitto AI Cat",
+      "category": "ai-toys",
+      "status": "preorder"
     }
   ]
 }

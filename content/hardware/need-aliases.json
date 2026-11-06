@@ -19,7 +19,11 @@
     "bird-bathing-observation": "backyard-camera-bird-observation",
     "nesting-process-observation": "backyard-camera-bird-observation",
     "signal-adaptive-sleep-audio": "signal-adaptive-sleep-feedback",
-    "signal-adaptive-sleep-haptics": "signal-adaptive-sleep-feedback"
+    "signal-adaptive-sleep-haptics": "signal-adaptive-sleep-feedback",
+    "conversational-toy-companionship": "embodied-companionship",
+    "responsive-companion-presence": "embodied-companionship",
+    "wearable-character-companionship": "embodied-companionship",
+    "child-conversational-play": "embodied-companionship"
   },
   "names": {
     "shared-household-coordination": "家庭共享日程与任务协调",
@@ -28,7 +32,8 @@
     "home-pool-cleaning": "家庭泳池清洁与日常维护",
     "conversation-record-and-review": "主动谈话记录与事后整理",
     "backyard-camera-bird-observation": "庭院鸟类影像观察与记录",
-    "signal-adaptive-sleep-feedback": "个体信号与模式驱动的睡眠反馈"
+    "signal-adaptive-sleep-feedback": "个体信号与模式驱动的睡眠反馈",
+    "embodied-companionship": "实体陪伴与日常互动"
   },
   "reasons": {
     "shared-household-coordination": "图文通知导入与语音助手采用不同入口，但核心都是家庭共享安排与责任协调；作为同组实现比较。",
@@ -37,6 +42,7 @@
     "home-pool-cleaning": "池面/池底清洁与基站滤网维护共同完成家庭泳池清洁流程；不同机器人和基站能力保留产品差异，不另增加核心需求。",
     "conversation-record-and-review": "佩戴录音、通话录音、电脑音频接入与离线转写都用于主动记录谈话并整理回顾；输入方式、隐私要求、联网限制作为组内差异，持续生活记忆和实时翻译仍独立。",
     "backyard-camera-bird-observation": "喂食器、鸟浴与巢箱吸引或观察的行为不同，但核心用户任务都是庭院鸟类影像观察；保留行为与维护差异，不用容器形态增加场景数量。",
-    "signal-adaptive-sleep-feedback": "声音与身体触觉采用不同执行路径，核心任务均是按个体信号或使用模式调整夜间反馈；组内明确脑电采样、外部数据依赖与执行方式的差异，不按输出模态重复计算需求。"
+    "signal-adaptive-sleep-feedback": "声音与身体触觉采用不同执行路径，核心任务均是按个体信号或使用模式调整夜间反馈；组内明确脑电采样、外部数据依赖与执行方式的差异，不按输出模态重复计算需求。",
+    "embodied-companionship": "对话毛绒、回应式电子宠物、随身角色和桌面伙伴都服务实体角色陪伴这一核心任务；年龄、联网、动作和记忆机制保留为实现与交付差异，不凭外壳或佩戴位置增加独立需求数。"
   }
 }

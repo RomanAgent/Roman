@@ -2,7 +2,7 @@
   "id": "dex-language-camera",
   "name": "Dex Language Discovery Camera",
   "brand": "Dex / Worldex Lab",
-  "category": "education",
+  "category": "ai-toys",
   "audience": "consumer",
   "saleMode": "retail",
   "tagline": "拍下身边物体并听见目标语言词汇的儿童探索相机",
@@ -109,6 +109,7 @@
     }
   ],
   "checkedAt": "2026-11-05",
+  "toyKind": "learning-play",
   "deepDive": {
     "checkedAt": "2026-11-05",
     "sources": [

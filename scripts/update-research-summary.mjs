@@ -17,6 +17,7 @@ assert(start>=0&&end>start,'README 研究摘要位置已改变，请更新摘要
 const assisted=count('assisted_program')?`、${count('assisted_program')} 款资格申请 / 资助发放`:'';
 text=text.slice(0,start)+`本轮收录 **${products.length} 款消费产品 / 系列、${categories} 个产品分类**，最新核查日期 **${hardware.checkedAt}**，每款保留自己的核查快照。其中 **${available} 款可订购：${count('on_sale')} 款在售（含明确标注的硬件租赁）、${count('preorder')} 款正式预售 / 延期交付**；另有 ${count('reservation')} 款付费预约、${count('needs_check')} 款待复核、${count('discontinued')} 款停售观察${assisted}，不计入可订购数量。付费排队的定金不等于整机售价，也不等于正式产品订单。`+text.slice(end);
 text=text.replace(/\d+款标为“细分专业”/,`${products.filter(p=>p.niche.level==='specialist').length}款标为“细分专业”`);
+text=text.replace(/\d+款原有开发或科研设备移入/,`${hardware.excludedProducts.length}款原有开发或科研设备移入`);
 text=text.replace(/：\d+个核心需求组/,`：${hardware.discovery.groups.length}个核心需求组`);
 text=text.replace(/已完成 \*\*\d+ 家公司\*\*/,`已完成 **${supply.counts.companies} 家公司**`);
 text=text.replace(/通过 \*\*\d+ 条关联\*\*/,`通过 **${supply.counts.candidateLinks+supply.counts.disclosedLinks} 条关联**`);

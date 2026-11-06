@@ -2,7 +2,7 @@
   "id": "particula-gochess-pro",
   "name": "Particula GoChess Pro Modern",
   "brand": "Particula",
-  "category": "games",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "将应用棋力提示投射到实体棋盘",
   "officialUrl": "https://particula-tech.com/products/gochess-lite-modern",
@@ -91,6 +91,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "physical-game",
   "deepDive": {
     "sources": [
       {

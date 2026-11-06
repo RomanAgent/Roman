@@ -1,6 +1,6 @@
 # DGT Centaur
 
-**DGT** · 游戏与桌游 · 核查 2026-11-04
+**DGT** · AI玩具 · 核查 2026-11-06
 
 根据对局表现调整棋力
 
@@ -30,11 +30,11 @@ DGT Centaur · 官方参考图 · 来源：[DGT · 官方图片](<https://www.dg
 
 ## 销售与购买
 
-- 状态：在售。DGT官方商店列出价格及Add to cart；只计普通Centaur，不另计透明Crystal外观版本。
+- 状态：在售。DGT官方商店列€400含税价与Add to Cart，未税价另列；运费与地区税费按实际结算确认。
 
 - 地区：欧洲官方商店
 
-- 价格：官方商店 €400 含税。核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。
+- 价格：官方 €400（含税）。核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。
 
 - 中国大陆：本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。
 
@@ -250,7 +250,7 @@ Centaur可用于研究人们是否愿意为随时开局与实体触感购买独�
 
 ## 来源
 
-1. [DGT Centaur官方商店](<https://www.dgtshop.com/products/chess-computers-2/centaur-chess-computer-2>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+1. [DGT Centaur官方商店](<https://www.dgtshop.com/products/chess-computers-2/centaur-chess-computer-2>) — DGT官方商店列€400含税价与Add to Cart，未税价另列；运费与地区税费按实际结算确认。 本轮仅重查销售与标价，技术研究保留各项原始来源。
 
 2. [DGT Centaur官方功能](<https://www.digitalgametechnology.com/products/chess-computers/dgt-centaur-chess-computer>) — 已实际打开官方页面；功能说明不等于独立性能测量。
 

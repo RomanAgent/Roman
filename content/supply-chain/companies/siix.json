@@ -227,7 +227,7 @@
       ],
       "productId": "casio-moflin",
       "productName": "Moflin",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -246,7 +246,7 @@
       ],
       "productId": "eilik-ai-station",
       "productName": "Eilik + AI Station",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -265,7 +265,7 @@
       ],
       "productId": "livingai-emo",
       "productName": "EMO",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -284,7 +284,7 @@
       ],
       "productId": "looi-robot",
       "productName": "LOOI Robot",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -303,7 +303,7 @@
       ],
       "productId": "makeblock-mbot2",
       "productName": "Makeblock mBot2",
-      "category": "education",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -322,7 +322,7 @@
       ],
       "productId": "makeblock-codey-rocky",
       "productName": "Makeblock Codey Rocky",
-      "category": "education",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {

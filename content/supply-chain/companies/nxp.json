@@ -238,6 +238,23 @@
       "productName": "C-Pen Reader 3",
       "category": "accessibility",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "nxp",
+      "role": "chip",
+      "component": "同类毛绒交互及显示控制候选",
+      "rationale": "NXP公开多核、图形与音频处理的嵌入式平台可供研究类似像素眼毛绒的外设控制，但Wompy对话AI官方明确在配对设备上，不能据候选加入机内大模型。需验证显示接口、能耗和连接协议；未见点名采用，实际主控、供电与工厂仍未披露。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "wompy",
+      "productName": "Wompy AI Plush",
+      "category": "ai-toys",
+      "status": "preorder"
     }
   ]
 }

@@ -629,6 +629,42 @@
       "productName": "Sunrise 家用下颌运动睡眠测试",
       "category": "health-home",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "nordic-semiconductor",
+      "role": "connectivity",
+      "component": "同类手机配对毛绒的低功耗连接候选",
+      "rationale": "Nordic低功耗无线控制能力可用于同类毛绒和手机配对的研发研究，必须先确认采用的音频与控制协议及手机后台限制。它不证明Babaru使用该芯片，也不解决厂商尚未公开的应用兼容与模型服务边界；当前只有能力候选关系，不能据Bluetooth字样推定具体主控。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "babaru",
+      "productName": "Babaru Talking Plush",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "nordic-semiconductor",
+      "role": "connectivity",
+      "component": "同类故事熊BLE控制链路候选",
+      "rationale": "Nordic低功耗无线平台可用于同类故事熊的BLE控制、状态和下载管理研究，但官方Poe还使用Classic Bluetooth音频，因此单一BLE候选不能被视为完整替代方案。必须另验音频平台协同和手机连接行为；没有Skyrocket点名采用资料，关联仅是新设计能力候选。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s3"
+      ],
+      "productId": "plai-poe",
+      "productName": "PLAi Poe the AI Story Bear",
+      "category": "ai-toys",
+      "status": "on_sale"
     }
   ]
 }

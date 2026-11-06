@@ -132,6 +132,8 @@
 
 - [C-Pen Reader 3](../hardware/cpen-reader-3.md) — **能力候选 · 非已采用** / 扫描识别与触屏交互的嵌入式候选：Reader 3 需要本地识别、声音和触屏，恩智浦嵌入式平台可作为新设计主控候选。需验证扫描接口、模型资源、语音与待机，当前没有点名采用；平台不提供 C-Pen 的词典和翻译授权，也不能由 NPU 或图形能力直接保证真实纸本识别与使用效果。
 
+- [Wompy AI Plush](../hardware/wompy.md) — **能力候选 · 非已采用** / 同类毛绒交互及显示控制候选：NXP公开多核、图形与音频处理的嵌入式平台可供研究类似像素眼毛绒的外设控制，但Wompy对话AI官方明确在配对设备上，不能据候选加入机内大模型。需验证显示接口、能耗和连接协议；未见点名采用，实际主控、供电与工厂仍未披露。
+
 ## 来源
 
 - [i.MX RT700 Crossover MCU Designed for the AI-Enabled Edge](<https://www.nxp.com/company/about-nxp/smarter-world-blog/BL-INTRODUCING-IMX-RT700>)：支持穿戴定位、多核、神经网络、图形和低功耗设计路线；不将相对性能宣传作为实测。

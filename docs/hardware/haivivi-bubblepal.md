@@ -1,6 +1,6 @@
 # Haivivi BubblePal
 
-**Haivivi** · 陪伴与宠物 · 核查 2026-11-04
+**Haivivi** · AI玩具 · 核查 2026-11-04
 
 让已有毛绒玩具成为语音角色
 

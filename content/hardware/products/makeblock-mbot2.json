@@ -2,7 +2,7 @@
   "id": "makeblock-mbot2",
   "name": "Makeblock mBot2",
   "brand": "Makeblock",
-  "category": "education",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "让语音识别结果驱动可编程机器人",
   "officialUrl": "https://www.makeblock.com/products/buy-mbot2",
@@ -70,7 +70,7 @@
         "price",
         "audience"
       ],
-      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
     },
     {
       "title": "mBot2官方课后课程指南",
@@ -80,7 +80,7 @@
         "technology",
         "dependency"
       ],
-      "note": "已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。"
+      "note": "已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
     },
     {
       "title": "mBot2官方能力与扩展区分",
@@ -90,7 +90,7 @@
         "technology",
         "dependency"
       ],
-      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
     }
   ],
   "checkedAt": "2026-11-04",
@@ -100,6 +100,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "learning-play",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

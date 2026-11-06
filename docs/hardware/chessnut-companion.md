@@ -1,6 +1,6 @@
 # Chessnut Companion
 
-**Chessnut** · 游戏与桌游 · 核查 2026-11-04
+**Chessnut** · AI玩具 · 核查 2026-11-04
 
 把AI复盘放进专用实体棋钟
 

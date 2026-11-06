@@ -1,6 +1,6 @@
 # 智能硬件目录
 
-核查日期：2026-11-05 · 收录 303 款 / 系列
+核查日期：2026-11-06 · 收录 331 款 / 系列
 
 > 面向个人、家庭和个人创作者的全球消费级AI硬件。销售、个人验配、正式预售、硬件租赁、付费预约与资格资助分别标明；预约和资助观察不计可订购数量。不同颜色、容量和同款套装合并，按独立需求与使用场景比较差异。企业专用设备及纯开发板保留专业档案。
 
@@ -9,6 +9,66 @@
 > 分析为基于公开资料的案头研究与 AI 辅助判断，未经用户访谈、销量审计或实物拆机。需求、画像、竞争冷门度、审美及商业机会均为研究假设，不是投资结论。
 
 [打开可筛选、对比的网页目录](https://romanagent.github.io/Roman/#hardware)
+
+## AI玩具
+
+| 产品 | 销售状态 | 已查地区 | 价格参考 |
+| --- | --- | --- | --- |
+| [Vector 2.0](hardware/anki-vector-2.md) | 在售 | 美国、其他地区以官方结算为准 | US$249.99黑色新机；语音订阅另计 |
+| [Babaru Talking Plush](hardware/babaru.md) | 在售 | 官网支持的国际结算目的地，逐地址确认 | US$199 |
+| [bondu AI Plush](hardware/bondu.md) | 在售 | 美国 | US$199（当前单只促销） |
+| [ChessUp 2](hardware/chessup-2.md) | 在售 | 所列官方国际商店 | 官网 US$349.99 |
+| [Moflin](hardware/casio-moflin.md) | 在售 | 美国、日本、中国大陆 | 以地区官网为准 |
+| [Chessnut EVO](hardware/chessnut-evo.md) | 在售 | 所列官方国际商店 | 官网 US$629.99 |
+| [Chessnut Move](hardware/chessnut-move.md) | 在售 | 所列官方国际商店 | 木棋子版官网 US$799 |
+| [Chessnut Companion](hardware/chessnut-companion.md) | 在售 | 所列官方国际商店 | 可购标准容量官网 US$459 |
+| [Curio Grok](hardware/curio-grok.md) | 预售 / 接受延期订单 | 美国 | 官网单只促销 US$99 |
+| [Curio Voice Box 2 系列（Gabbo 代表）](hardware/curio-voicebox-2.md) | 在售 | 美国 | US$119（Gabbo单只当前促销） |
+| [Dex Language Discovery Camera](hardware/dex-language-camera.md) | 在售 | 美国及官网结算支持地区（目的地另核） | 官方硬件US$249；Wi-Fi基础功能免费 |
+| [DGT Centaur](hardware/dgt-centaur.md) | 在售 | 欧洲官方商店 | 官方 €400（含税） |
+| [Eilik + AI Station](hardware/eilik-ai-station.md) | 在售 | 国际官网（配送地区待结算） | Eilik US$139.99；AI Station US$99 |
+| [Eiliko](hardware/energizelab-eiliko.md) | 在售 | 官方国际商店服务地区以结算为准 | US$59.90 |
+| [Nebu original](hardware/nebu-original.md) | 预售 / 接受延期订单 | 秘鲁，具体地址及预售运费需确认 | S/239（秘鲁索尔，全款预售） |
+| [FoloToy Kumma F-202](hardware/folotoy-kumma.md) | 在售 | 海外官方商店（具体配送范围以结算为准） | US$99 |
+| [FoloToy Sunflower Warmie（海外 Wi-Fi 版）](hardware/folotoy-warmie.md) | 在售 | 海外官方商店（具体配送范围以结算为准） | US$79 |
+| [LOVOT 3.0](hardware/lovot-3.md) | 在售 | 日本、中国大陆（中国规格） | 日本本体 ¥577,500；月费 ¥9,900 起 |
+| [Haivivi BubblePal](hardware/haivivi-bubblepal.md) | 在售 | 美国 | 以官网直达商店当前报价为准 |
+| [Loona Petbot Premium](hardware/loona-petbot.md) | 在售 | 国际官网（配送地区以结算为准） | US$429 |
+| [Kheelona Khelu / Kheelu](hardware/kheelona-khelu.md) | 预售 / 接受延期订单 | 印度 | ₹4,999 总价；首付₹499 + 尾款₹4,500 |
+| [Kitto AI Cat](hardware/kitto-ai-cat.md) | 预售 / 接受延期订单 | 官方回报所列全球目的地 | HK$1,800单台后期支持 |
+| [Doly](hardware/doly-robot.md) | 在售 | 加拿大、美国、其他地区以官方结算为准 | 官网按地区币种显示，当前加拿大视图约C$573 |
+| [LivingAI AIBI Pocket](hardware/livingai-aibi-pocket.md) | 在售 | 所列官方国际商店 | 官网 US$249 |
+| [EMO](hardware/livingai-emo.md) | 在售 | 国际官网（收货地区待结算） | US$279 |
+| [Luka Kids Reading Robot](hardware/luka-reading-robot.md) | 在售 | 国际官网（英语、西班牙语、德语、中文版本） | US$219.99；VIP试用后另计 |
+| [Makeblock mBot2](hardware/makeblock-mbot2.md) | 在售 | 美国本土官方直送 | 单机器人官网 US$149.99 |
+| [Makeblock Codey Rocky](hardware/makeblock-codey-rocky.md) | 在售 | 美国本土官方直送 | 官网 US$139.99 |
+| [Meemo Bear](hardware/meemo-bear.md) | 在售 | 美国 | US$99.99 |
+| [Miko 3](hardware/miko-3.md) | 在售 | 美国官网 | 官网美元界面 US$199 |
+| [Miko Mini](hardware/miko-mini.md) | 在售 | 美国官网渠道、其他地区以官方结算和服务范围为准 | US$129（本轮官网美元界面所见） |
+| [Millennium The King Performance](hardware/millennium-king-performance.md) | 在售 | 欧洲官方商店 | 官网 €284.87（未含VAT） |
+| [Romi Lacatan](hardware/romi-lacatan.md) | 在售 | 日本官方商店 | 日本本体 ¥98,780；服务另计 |
+| [Nex Playground](hardware/nex-playground.md) | 在售 | 美国、加拿大、德国、英国、爱尔兰 | 官网 US$299 |
+| [Panasonic NICOBO](hardware/panasonic-nicobo.md) | 在售 | 日本 | 本体 ¥60,500；基本服务 ¥1,100/月起 |
+| [Particula GoChess Pro Modern](hardware/particula-gochess-pro.md) | 在售 | 所列官方国际商店 | 官网 US$299.95；Pro续费另计 |
+| [Bittle X V2 + AI Vision Module](hardware/petoi-bittle-x-ai-vision.md) | 在售 | 美国、官方国际配送支持地区 | US$339预装本体 + US$39视觉模块 |
+| [Quaddle Buddy](hardware/petoi-quaddle-buddy.md) | 预售 / 接受延期订单 | 官方后期支持页所列全球目的地 | US$189 Buddy后期支持 |
+| [Reachy Mini Wireless](hardware/reachy-mini-wireless.md) | 预售 / 接受延期订单 | 欧盟 / 英国、美国 / 加拿大、其他地区经指定 Seeed 渠道 | US$499 / 欧洲店 €435 |
+| [Fuzozo 芙崽 AI Pet（英语版）](hardware/fuzozo-ai-pet.md) | 在售 | 美国、加拿大及官网列示34个地区（英语版）、日本（独立日语版） | US$199；可选Plus US$9.90/月 |
+| [Robotical Marty the Robot V2](hardware/robotical-marty-v2.md) | 在售 | 所列官方国际商店 | 官网 US$449 未含税 |
+| [Ropet KAMOMO](hardware/ropet-kamomo.md) | 在售 | 美国、加拿大、部分欧洲国家、新加坡、中国台湾、泰国、澳大利亚、新西兰 | US$329.99（基础Pro组合） |
+| [RoBoHoN Wi-Fi SR-04M-Y + AI会話](hardware/sharp-robohon-sr04m.md) | 在售 | 日本 | 本体¥145,200；基础¥1,078/月＋AI会話¥330/月 |
+| [筱嘟宝 SIUDULUV 米咕](hardware/siuduluv-migu.md) | 在售 | 中国大陆大部分地区（以结算可选地址为准） | 人民币269元 |
+| [SkyBloom Bloom](hardware/skybloom-bloom.md) | 在售 | 官网美元零售渠道，具体配送地区以结算为准 | US$149（当前单只上线价） |
+| [SkyBuds Ash（对话毛绒系列）](hardware/skybuds-ash.md) | 在售 | 美国 | 商品页US$179；FAQ仍列US$139 |
+| [PLAi Poe the AI Story Bear](hardware/plai-poe.md) | 在售 | 美国品牌授权零售渠道 | US$34.99（官网链接的Target所见） |
+| [aibo ERS-1000](hardware/sony-aibo-ers1000.md) | 待复核 | 美国（商店仍列购入）、日本（官方已公告结束国内销售） | 美国官网 US$3,199.99 |
+| [KATA Friends](hardware/switchbot-kata-friends.md) | 在售 | 美国、日本、其他地区以官方地区店为准 | US$699硬件；服务计划另计 |
+| [LOOI Robot](hardware/looi-robot.md) | 在售 | 美国及官网列出的配送市场 | 官方单机 US$220 |
+| [Ted — Smart Teddy](hardware/tedco-ted.md) | 在售 | 法国及欧洲官网市场、其他目的地以结算确认为准 | €129（法国/欧元页面） |
+| [Unitree Go2 Pro](hardware/unitree-go2-pro.md) | 预售 / 接受延期订单 | 官方国际商店 | 具体配置以商店结算为准 |
+| [WIKO 星仔 XZAI-W00](hardware/wiko-xingzai.md) | 在售 | 中国大陆 | 人民币499元参考 |
+| [WIKO 智能憨憨蜂窝版 FZ1012](hardware/wiko-hanhan-cellular.md) | 在售 | 中国大陆 | 人民币499元参考 |
+| [Wompy AI Plush](hardware/wompy.md) | 预售 / 接受延期订单 | 计划全球配送，目的地及运费发出前单独确认 | US$129（全款预售） |
 
 ## AI 眼镜
 
@@ -99,30 +159,12 @@
 
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
-| [Moflin](hardware/casio-moflin.md) | 在售 | 美国、日本、中国大陆 | 以地区官网为准 |
-| [Curio Grok](hardware/curio-grok.md) | 预售 / 接受延期订单 | 美国 | 商品页 US$99 起；结算为准 |
-| [Eilik + AI Station](hardware/eilik-ai-station.md) | 在售 | 国际官网（配送地区待结算） | Eilik US$139.99；AI Station US$99 |
-| [LOVOT 3.0](hardware/lovot-3.md) | 在售 | 日本、中国大陆（中国规格） | 日本本体 ¥577,500；月费 ¥9,900 起 |
-| [Haivivi BubblePal](hardware/haivivi-bubblepal.md) | 在售 | 美国 | 以官网直达商店当前报价为准 |
-| [Loona Petbot Premium](hardware/loona-petbot.md) | 在售 | 国际官网（配送地区以结算为准） | US$429 |
-| [LivingAI AIBI Pocket](hardware/livingai-aibi-pocket.md) | 在售 | 所列官方国际商店 | 官网 US$249 |
-| [EMO](hardware/livingai-emo.md) | 在售 | 国际官网（收货地区待结算） | US$279 |
-| [Romi Lacatan](hardware/romi-lacatan.md) | 在售 | 日本官方商店 | 日本本体 ¥98,780；服务另计 |
-| [Panasonic NICOBO](hardware/panasonic-nicobo.md) | 在售 | 日本 | 本体 ¥60,500；基本服务 ¥1,100/月起 |
-| [aibo ERS-1000](hardware/sony-aibo-ers1000.md) | 待复核 | 美国（商店仍列购入）、日本（官方已公告结束国内销售） | 美国官网 US$3,199.99 |
-| [LOOI Robot](hardware/looi-robot.md) | 在售 | 美国及官网列出的配送市场 | 官方单机 US$220 |
 | [BOCCO emo Wi-Fi](hardware/yukai-bocco-emo.md) | 在售 | 日本 | 本体 ¥33,000；自然会话方案 ¥1,700/月 |
 
 ## 教育与学习
 
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
-| [Dex Language Discovery Camera](hardware/dex-language-camera.md) | 在售 | 美国及官网结算支持地区（目的地另核） | 官方硬件US$249；Wi-Fi基础功能免费 |
-| [Luka Kids Reading Robot](hardware/luka-reading-robot.md) | 在售 | 国际官网（英语、西班牙语、德语、中文版本） | US$219.99；VIP试用后另计 |
-| [Makeblock mBot2](hardware/makeblock-mbot2.md) | 在售 | 美国本土官方直送 | 单机器人官网 US$149.99 |
-| [Makeblock Codey Rocky](hardware/makeblock-codey-rocky.md) | 在售 | 美国本土官方直送 | 官网 US$139.99 |
-| [Miko 3](hardware/miko-3.md) | 待复核 | 美国官网 | 官网展示 US$299；部分内容另需Miko Max |
-| [Robotical Marty the Robot V2](hardware/robotical-marty-v2.md) | 在售 | 所列官方国际商店 | 官网 US$449 未含税 |
 | [讯飞AI英语宝 EBOX Pro](hardware/iflytek-ebox-pro.md) | 在售 | 中国大陆 | 官方目录：128G款 ¥999 |
 | [讯飞AI词典笔 X9 Pro](hardware/iflytek-dictionary-x9-pro.md) | 在售 | 中国大陆 | 官方目录 ¥999 |
 | [讯飞AI学习机 T30 Pro](hardware/iflytek-t30-pro.md) | 待复核 | 中国大陆 | 当前有效售价待确认 |
@@ -221,7 +263,6 @@
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
 | [1X NEO Home Robot](hardware/1x-neo-home.md) | 付费预约 · 非正式订单 | 美国（初期） | US$200预约金；Early Access买断标价US$20,000 |
-| [Unitree Go2 Pro](hardware/unitree-go2-pro.md) | 预售 / 接受延期订单 | 官方国际商店 | 具体配置以商店结算为准 |
 
 ## 创客与小型制造
 
@@ -440,16 +481,8 @@
 
 | 产品 | 销售状态 | 已查地区 | 价格参考 |
 | --- | --- | --- | --- |
-| [ChessUp 2](hardware/chessup-2.md) | 在售 | 所列官方国际商店 | 官网 US$349.99 |
-| [Chessnut EVO](hardware/chessnut-evo.md) | 在售 | 所列官方国际商店 | 官网 US$629.99 |
-| [Chessnut Move](hardware/chessnut-move.md) | 在售 | 所列官方国际商店 | 木棋子版官网 US$799 |
-| [Chessnut Companion](hardware/chessnut-companion.md) | 在售 | 所列官方国际商店 | 可购标准容量官网 US$459 |
-| [DGT Centaur](hardware/dgt-centaur.md) | 在售 | 欧洲官方商店 | 官方商店 €400 含税 |
 | [GRAN EYE（2026安装套件版）](hardware/gran-eye-2026.md) | 在售 | 日本（已核官方商店）、欧洲、北美等品牌授权渠道（逐店库存另核） | 日本官方商店¥39,380日元（含税） |
 | [huupe mini 2](hardware/huupe-mini-2.md) | 在售 | 美国（本轮核实官方美元店） | 官方mini 2 US$499促销价（参考US$799） |
-| [Millennium The King Performance](hardware/millennium-king-performance.md) | 在售 | 欧洲官方商店 | 官网 €284.87 未含VAT |
-| [Nex Playground](hardware/nex-playground.md) | 在售 | 美国、加拿大、德国、英国、爱尔兰 | 官方硬件US$299 |
-| [Particula GoChess Pro Modern](hardware/particula-gochess-pro.md) | 在售 | 所列官方国际商店 | 官网 US$299.95；Pro续费另计 |
 
 ## 衣物与鞋履护理
 

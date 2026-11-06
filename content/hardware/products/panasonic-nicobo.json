@@ -2,7 +2,7 @@
   "id": "panasonic-nicobo",
   "name": "Panasonic NICOBO",
   "brand": "Panasonic",
-  "category": "companion",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "通过表情、触碰与有限语言形成轻量陪伴",
   "officialUrl": "https://ec-plus.panasonic.jp/store/ap/storeaez/a2A/ProductDetail?HB=RW-NC1-H",
@@ -100,6 +100,7 @@
   "checkedAt": "2026-11-04",
   "status": "on_sale",
   "saleMode": "retail",
+  "toyKind": "robot-pet",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

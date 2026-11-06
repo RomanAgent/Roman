@@ -1,0 +1,130 @@
+[
+  {
+    "id": "folotoy-kumma",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/folotoy-kumma/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "FoloToy Kumma F-202功能模块概念分解，内部结构未实物验证",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/folotoy-kumma.txt",
+        "referencePaths": [
+          "assets/hardware/folotoy-kumma/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "单独内置ImageGen生成并目视核验；云端与机内功能分开，未知结构为抽象功能层，不代表原厂PCB或真实装配。"
+    ]
+  },
+  {
+    "id": "folotoy-warmie",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/folotoy-warmie/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "FoloToy Warmie海外Wi-Fi版功能模块概念分解，内部结构未实物验证",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/folotoy-warmie.txt",
+        "referencePaths": [
+          "assets/hardware/folotoy-warmie/product.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "单独内置ImageGen生成并目视核验；云端与机内功能分开，未知结构为抽象功能层，不代表原厂PCB或真实装配。"
+    ]
+  },
+  {
+    "id": "fuzozo-ai-pet",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/fuzozo-ai-pet/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Fuzozo英语版POLU功能模块概念分解，内部结构未实物验证",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/fuzozo-ai-pet.txt",
+        "referencePaths": [
+          "assets/hardware/fuzozo-ai-pet/product.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "单独内置ImageGen生成并目视核验；云端与机内功能分开，未知结构为抽象功能层，不代表原厂PCB或真实装配。"
+    ]
+  },
+  {
+    "id": "wiko-hanhan-cellular",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/wiko-hanhan-cellular/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "WIKO智能憨憨蜂窝版功能层概念示意，不代表原机内部位置",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/wiko-hanhan-cellular.txt",
+        "referencePaths": [
+          "assets/hardware/wiko-hanhan-cellular/product.png",
+          "assets/hardware/wiko-hanhan-cellular/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "逐款生成并核验后针对指示线或磁吸说明修正；初稿仅作编辑输入留存，不进入展示图库。"
+    ]
+  },
+  {
+    "id": "wiko-xingzai",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/wiko-xingzai/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "WIKO星仔功能层概念示意，不代表原机内部位置",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/wiko-xingzai.txt",
+        "referencePaths": [
+          "assets/hardware/wiko-xingzai/product.png",
+          "assets/hardware/wiko-xingzai/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "逐款生成并核验后针对指示线或磁吸说明修正；初稿仅作编辑输入留存，不进入展示图库。"
+    ]
+  },
+  {
+    "id": "siuduluv-migu",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/siuduluv-migu/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "米咕表情、语音和连接功能的概念分解，端云分工未公开",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/siuduluv-migu.txt",
+        "referencePaths": [
+          "assets/hardware/siuduluv-migu/product.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "内置ImageGen独立生成并目视核验，仅显示抽象功能块；未猜测PCB、电池容量和传感器位置。"
+    ]
+  }
+]

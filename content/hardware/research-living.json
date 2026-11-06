@@ -3,7 +3,7 @@
     "id": "lovot-3",
     "name": "LOVOT 3.0",
     "brand": "GROOVE X",
-    "category": "companion",
+    "category": "ai-toys",
     "tagline": "以触碰、目光和自主行动形成陪伴关系",
     "officialUrl": "https://lovot.life/pricing",
     "status": "on_sale",
@@ -102,13 +102,14 @@
     ],
     "checkedAt": "2026-11-04",
     "audience": "consumer",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "robot-pet"
   },
   {
     "id": "casio-moflin",
     "name": "Moflin",
     "brand": "CASIO",
-    "category": "companion",
+    "category": "ai-toys",
     "tagline": "没有屏幕的毛绒触觉陪伴",
     "officialUrl": "https://www.casio.com/us/moflin/",
     "status": "on_sale",
@@ -216,17 +217,18 @@
     ],
     "checkedAt": "2026-11-04",
     "audience": "consumer",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "robot-pet"
   },
   {
     "id": "livingai-emo",
     "name": "EMO",
     "brand": "LivingAI",
-    "category": "companion",
+    "category": "ai-toys",
     "tagline": "以表情、动作和人物识别陪伴桌面时光",
     "officialUrl": "https://living.ai/product/emo/",
     "status": "on_sale",
-    "statusEvidence": "官方商品页显示US$279、Add to cart，并写明下单后约两周发货；这属于可订购商品，未把旧介绍页的预售措辞当作当前状态。",
+    "statusEvidence": "本轮复核官方标准EMO套装为US$279并可加购，页面约两周发货；GO HOME回充套装和其它配件不混入此标价。",
     "regions": [
       "国际官网（收货地区待结算）"
     ],
@@ -293,7 +295,7 @@
           "status",
           "price"
         ],
-        "note": "明确加购及约两周发货。"
+        "note": "本轮复核官方标准EMO套装为US$279并可加购，页面约两周发货；GO HOME回充套装和其它配件不混入此标价。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
       },
       {
         "title": "LivingAI EMO能力介绍",
@@ -307,19 +309,20 @@
         "note": "网页中的开发中功能不计入已交付能力。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "audience": "consumer",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "robot-pet"
   },
   {
     "id": "loona-petbot",
     "name": "Loona Petbot Premium",
     "brand": "KEYI Tech",
-    "category": "companion",
+    "category": "ai-toys",
     "tagline": "轮式家庭宠物与GPT对话结合",
     "officialUrl": "https://keyirobot.com/products/petbot",
     "status": "on_sale",
-    "statusEvidence": "官方Petbot商品页显示Premium套装、US$429和Buy Now；本记录对应Petbot，不把官网新Deskmate或Space Edition混入同一产品。",
+    "statusEvidence": "官方Petbot Premium商品页当前列US$429与Buy Now；新Deskmate不是本条产品，所选套装与地区以结算确认。",
     "regions": [
       "国际官网（配送地区以结算为准）"
     ],
@@ -393,7 +396,7 @@
           "technology",
           "architecture"
         ],
-        "note": "已打开，明确产品版本、购买入口及传感和执行规格。"
+        "note": "官方Petbot Premium商品页当前列US$429与Buy Now；新Deskmate不是本条产品，所选套装与地区以结算确认。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
       },
       {
         "title": "KEYI Tech官方首页",
@@ -405,15 +408,16 @@
         "note": "官网同时列Petbot与Deskmate，本记录仅研究Petbot。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "audience": "consumer",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "robot-pet"
   },
   {
     "id": "eilik-ai-station",
     "name": "Eilik + AI Station",
     "brand": "EnergizeLab",
-    "category": "companion",
+    "category": "ai-toys",
     "tagline": "从触碰表情玩具扩展为可对话的桌面组合",
     "officialUrl": "https://store.energizelab.com/products/ai-station",
     "status": "on_sale",
@@ -507,17 +511,18 @@
     ],
     "checkedAt": "2026-11-04",
     "audience": "consumer",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "robot-pet"
   },
   {
     "id": "sony-aibo-ers1000",
     "name": "aibo ERS-1000",
     "brand": "Sony",
-    "category": "companion",
+    "category": "ai-toys",
     "tagline": "以持续行为学习形成个性的机器犬",
     "officialUrl": "https://electronics.sony.com/more/aibo/p/ers1000",
     "status": "needs_check",
-    "statusEvidence": "美国Sony商店仍显示US$3,199.99及ADD TO CART；日本官方2026-06-25通知库存耗尽即结束国内销售，日本官网搜索结果已显示销售结束。地区状态不同，保守列待确认。",
+    "statusEvidence": "日本官方商店已明确ERS-1000系列销售结束。美国Sony页面仍保留产品介绍，本轮未确认可用的现货订单入口，故继续保留待核观察，不计当前可订购数量；没有据此推断全球云服务已经停止。",
     "regions": [
       "美国（商店仍列购入）",
       "日本（官方已公告结束国内销售）"
@@ -528,7 +533,7 @@
     },
     "price": {
       "text": "美国官网 US$3,199.99",
-      "note": "所列白色SKU含三年AI Cloud Plan；美国页面仍可加购但需核实现货及地区资格，不代表日本仍在售。"
+      "note": "美国页面历史参考US$3,199.99及所含服务条件仅供识别版本，当前能否下单、云计划及地区资格需要重新确认，不视为可成交报价。"
     },
     "ai": {
       "type": "perception",
@@ -604,21 +609,32 @@
           "dependency"
         ],
         "note": "2026-06-25公告库存售罄后结束日本销售，同时说明服务继续；不推断全球停产。"
+      },
+      {
+        "title": "Sony日本aibo商店现状",
+        "url": "https://aibo.sony.jp/store/",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "risks"
+        ],
+        "note": "2026-11-06页面明确ERS-1000系列销售结束；服务计划页仍存在，不等同宣布云服务终止。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "audience": "consumer",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "robot-pet"
   },
   {
     "id": "miko-3",
     "name": "Miko 3",
     "brand": "Miko",
-    "category": "education",
+    "category": "ai-toys",
     "tagline": "语音互动、学习内容与家长应用结合的儿童机器人",
     "officialUrl": "https://miko.ai/products/miko-3",
-    "status": "needs_check",
-    "statusEvidence": "官方商品页显示US$299，但抓取文本同时出现Sold out、Add To Cart及Buy Now；未能确认具体颜色的实时库存，因此列待确认，不以加购模板单独断言在售。",
+    "status": "on_sale",
+    "statusEvidence": "2026-11-06实时浏览器核验官网红色款可点击Add To Cart；抓取文本同时含Sold out模板，不再据该模板单独判断缺货。未进行实际付款或配送资格确认。",
     "regions": [
       "美国官网"
     ],
@@ -627,8 +643,8 @@
       "note": "官网列普通话为支持语言之一，但语言支持不等于中国大陆销售及云服务可达性；本次未核实大陆官方购买和售后。"
     },
     "price": {
-      "text": "官网展示 US$299；部分内容另需Miko Max",
-      "note": "库存待确认；Max按地区及周期收费，页面列部分功能免费、部分需会员，不能把全部内容算作随硬件永久提供。"
+      "text": "官网美元界面 US$199",
+      "note": "2026-11-06实际页面红色款促销价，划线US$299；地区、活动和运税依结算，不能从港币/美元地区选择推断中国大陆配送。"
     },
     "ai": {
       "type": "hybrid",
@@ -687,18 +703,19 @@
           "technology",
           "dependency"
         ],
-        "note": "同页存在Sold out及加购文案，因此库存保守标待确认；技术和语言来自产品说明。"
+        "note": "2026-11-06实时浏览器核验官网红色款可点击Add To Cart；抓取文本同时含Sold out模板，不再据该模板单独判断缺货。未进行实际付款或配送资格确认。"
       }
     ],
-    "checkedAt": "2026-11-04",
+    "checkedAt": "2026-11-06",
     "audience": "consumer",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "learning-play"
   },
   {
     "id": "luka-reading-robot",
     "name": "Luka Kids Reading Robot",
     "brand": "Luka",
-    "category": "education",
+    "category": "ai-toys",
     "tagline": "围绕真实绘本进行朗读、提问与互动",
     "officialUrl": "https://luka.world/products/luka-reading-robot",
     "status": "on_sale",
@@ -781,7 +798,8 @@
     ],
     "checkedAt": "2026-11-04",
     "audience": "consumer",
-    "saleMode": "retail"
+    "saleMode": "retail",
+    "toyKind": "learning-play"
   },
   {
     "id": "iflytek-t30-pro",

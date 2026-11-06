@@ -2,7 +2,7 @@
   "id": "lovot-3",
   "name": "LOVOT 3.0",
   "brand": "GROOVE X",
-  "category": "companion",
+  "category": "ai-toys",
   "tagline": "以触碰、目光和自主行动形成陪伴关系",
   "officialUrl": "https://lovot.life/pricing",
   "status": "on_sale",
@@ -102,6 +102,7 @@
   "checkedAt": "2026-11-04",
   "audience": "consumer",
   "saleMode": "retail",
+  "toyKind": "robot-pet",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

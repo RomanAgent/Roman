@@ -1,6 +1,6 @@
 # Panasonic NICOBO
 
-**Panasonic** · 陪伴与宠物 · 核查 2026-11-04
+**Panasonic** · AI玩具 · 核查 2026-11-04
 
 通过表情、触碰与有限语言形成轻量陪伴
 

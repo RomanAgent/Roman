@@ -231,7 +231,7 @@
       ],
       "productId": "loona-petbot",
       "productName": "Loona Petbot Premium",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -250,7 +250,7 @@
       ],
       "productId": "looi-robot",
       "productName": "LOOI Robot",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -269,7 +269,7 @@
       ],
       "productId": "luka-reading-robot",
       "productName": "Luka Kids Reading Robot",
-      "category": "education",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {

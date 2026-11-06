@@ -1,0 +1,744 @@
+[
+  {
+    "id": "folotoy-kumma",
+    "name": "FoloToy Kumma F-202",
+    "brand": "FoloToy",
+    "category": "ai-toys",
+    "toyKind": "plush-dialogue",
+    "tagline": "把可拆语音模块放进传统泰迪熊，提供按键式云端聊天。",
+    "officialUrl": "https://store.folotoy.com/products/folotoy-ai-teddy",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页可加购，公开商品JSON available=true；35厘米泰迪熊F-202独立成品，不把Momo同模块换壳另外计数。",
+    "regions": [
+      "海外官方商店（具体配送范围以结算为准）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方海外商店国家选择器包含China，但运输政策仅写标准配送免费，没有明确中国大陆可送达承诺；未验证大陆地址结算、税费、售后或云服务，因此国内购买情况待确认。"
+    },
+    "price": {
+      "text": "US$99",
+      "note": "价格为海外官方整机参考；旧介绍页另有试用及会员措辞，本次未验证当前结算套餐，不能写永久免费。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "用户按键录入语音，经联网服务理解话语并生成回复，再由玩具播音。静态毛绒面部、洗涤和普通按钮本身不是AI；本轮不承诺某个底层模型或永久记忆。",
+      "dependency": "需要2.4GHz Wi-Fi及云服务，热点可作为网络方式；开箱须配置连接，会员与内容规则以实际销售版本为准。"
+    },
+    "highlights": [
+      "可拆电子模块",
+      "按住说话松开听回复",
+      "Wi-Fi云端服务"
+    ],
+    "analysis": {
+      "demand": "Kumma把手机里的语音交谈移到一只可以抱住的泰迪熊上，主要任务是闲聊、问答和共同讲故事。需求可能来自喜欢毛绒触感又希望获得回应的用户，而不是需要更大屏幕或更多课程的人；是否有持续价值，要看实体接触是否改变互动习惯，不能把第一次会说话的新鲜感当作长期陪伴需求。",
+      "userProfile": "画像推断：愿意使用按键语音、家中有稳定无线网络且有人管理账户与充电的家庭，更容易完成Kumma的使用闭环。喜爱泰迪熊的成人也可能购买，不能仅凭商品有儿童场景就忽略年龄指引；实际适用年龄、监护和服务条件应按具体包装与当前条款确认。",
+      "competition": "Kumma与普通泰迪熊、儿童音频播放器和手机聊天应用竞争，优势候选是实体触感与直接语音入口，代价是联网和充电。FoloToy的Momo也采用MagicBox毛绒方案，本目录不把换成熊猫外形视为新的核心需求；比较重点应是对话控制、可维护性与服务稳定。",
+      "supplyChain": "公开信息可拆为毛绒外套、可移除对话模块、语音输入输出、无线连接和充电供电。云端模型属于外部服务，不能按整只熊的体积估计本地算力；厂家没有公开完整主板、代工厂或采购表，图中的功能块仅帮助理解职责，不代表已经验证的装配顺序或物料清单。",
+      "technology": "官方说明Kumma通过无线网络连接云端对话，按键控制语音输入，再播放系统回复。可确认的是语言理解与生成参与交互，而非单纯固定录音；但当前商品页没有足够证据确认所有语种、模型版本、长期记忆策略或本地离线推理，不应把旧推广页的技术名称写成当前硬事实。",
+      "aesthetics": "米色泰迪熊与针织围巾接近传统毛绒礼物，技术隐藏在可拆模块中，能降低电子设备的视觉存在感。这样的设计也可能让使用者忽略设备需要联网与充电；审美评价应同时包含抱持舒适、按钮寻找和维护可理解性，而不是只看摄影棚里柔软可爱的外观。",
+      "risks": "Kumma的回应依赖云服务，停服、网络问题或套餐变化会改变玩具功能，购买硬件不等于买断所有未来内容。官网安全支持期限是品牌声明，不代表每个回答适龄或不存在隐私风险；需要在使用时检查最新账户、数据和监护设置，而非把柔软外观当作安全保证。",
+      "opportunity": "机会可能在于把可维护的对话模块和熟悉毛绒结合，让已有故事与家庭交流有一个稳定入口。若使用者只需要固定儿歌和短故事，传统播放器可能更合适，因此创业验证应先证明生成式互动带来的新增行为，而不是不断更换毛绒外壳扩大型号数量。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "对话毛绒已出现多家竞争者，模块化维护是可比较特点，不等于无人竞争。"
+    },
+    "architecture": [
+      {
+        "name": "毛绒载体",
+        "detail": "静态泰迪熊造型，电子模块取出后按说明手洗或局部清洁。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音交互",
+        "detail": "按住说话、松开听回复；麦克风和播放构成输入输出。",
+        "evidence": "official"
+      },
+      {
+        "name": "可拆对话模块",
+        "detail": "公开说明可拆模块与Wi-Fi，内部主板和安装位置未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部云服务",
+        "detail": "理解与生成依赖联网云端；不把大模型画进毛绒内部。",
+        "evidence": "official"
+      },
+      {
+        "name": "充电与保护",
+        "detail": "可充电供电；电池封装及保护电路仅作功能层概念。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Kumma F-202官方商品页",
+        "url": "https://store.folotoy.com/products/folotoy-ai-teddy",
+        "note": "实际打开有99美元和Add to cart；另GET同页公开product.js，available=true，区分隐藏Sold out模板。",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "images"
+        ]
+      },
+      {
+        "title": "FoloToy商店与使用FAQ",
+        "url": "https://store.folotoy.com/",
+        "note": "实际打开说明云端对话需Wi-Fi，按住对话按钮说话并释放听回答；未把静态FAQ当效果测试。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "FoloToy当前中文产品矩阵",
+        "url": "https://folotoy.com/zh/products/",
+        "note": "官方把Kumma/Momo归内置MagicBox毛绒，区分海外款和中国小葵2.0。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "官方配送政策",
+        "url": "https://store.folotoy.com/policies/shipping-policy",
+        "note": "页面地区选择含China，标准配送免费；没有实际提交大陆收货地址或验证云服务。",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "regions",
+          "shipping"
+        ]
+      },
+      {
+        "title": "FoloToy安全与支持声明",
+        "url": "https://folotoy.com/compliance/",
+        "note": "品牌自述一次性码认证与2030年底最低安全更新期；不当作独立认证或对话无风险保证。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-06",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "folotoy-warmie",
+    "name": "FoloToy Sunflower Warmie（海外 Wi-Fi 版）",
+    "brand": "FoloToy",
+    "category": "ai-toys",
+    "toyKind": "plush-dialogue",
+    "tagline": "以桌面向日葵造型承载语音问答和故事创作。",
+    "officialUrl": "https://store.folotoy.com/products/folotoy-ai-toy-ai-sunflower",
+    "status": "on_sale",
+    "statusEvidence": "官方商品页显示加购，公开product.js返回available=true与7900美分价格；按海外Wi-Fi商品记录。",
+    "regions": [
+      "海外官方商店（具体配送范围以结算为准）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "官方海外商店国家选择器包含China，但运输政策仅写标准配送免费，没有明确中国大陆可送达承诺；未验证大陆地址结算、税费、售后或云服务，因此国内购买情况待确认。本海外Wi-Fi版不能套用中国小葵2.0的4G及服务套餐。"
+    },
+    "price": {
+      "text": "US$79",
+      "note": "核查为官方促销参考价；中国小葵2.0的移动网络和服务套餐不适用于本海外SKU，费用以结算为准。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "借助联网语音系统理解问题、生成对话和共同编故事，再通过玩具播音。向日葵外观、按钮及充电是承载交互的硬件；未据海外页证明4G、语音闹钟或主动提醒。",
+      "dependency": "本SKU公开标注Wi-Fi和USB-C充电；对话依赖云端，实际会员、语言和账户条件需按海外服务版本确认。"
+    },
+    "highlights": [
+      "桌面向日葵形态",
+      "Wi-Fi语音问答",
+      "海外与中国版本分开"
+    ],
+    "analysis": {
+      "demand": "Warmie把对话伙伴设计成可以立在桌上的向日葵，适合在书桌和家庭活动区进行短问答与故事游戏。其需求不只是让毛绒会发声，而是提供一个无需打开手机屏幕的回应对象；是否值得购买，需要验证用户是否会在这些固定位置反复主动交流，而不是仅因花朵造型有趣。",
+      "userProfile": "适合人群可能愿意接受夸张卡通花朵作为日常陪伴，并能够在固定空间保持无线网络与充电。海外页面提供多语言说明，但本轮没有验证中文效果或适龄边界，因此不能按外观可爱就覆盖所有儿童，购买者应先核实具体版本、内容规则与实际设置流程。",
+      "competition": "Warmie与会唱歌的普通向日葵、故事机和智能音箱在外观与声音入口上重叠，生成式问答是需要单独证明的差异。普通声控摇摆或重复录音不等于AI，本目录只依据本商品的云端对话介绍收录；不把桌面摆件这一形态本身视为技术门槛。",
+      "supplyChain": "从公开页面可确认花头茎叶、花盆底座、语音交互、无线联网和充电功能，云端理解与生成在机外完成。内部电路板、电机数量、驱动方式和电池位置未充分披露，概念图只拆功能块；不能依据其他会跳舞向日葵的拆机，给Warmie补出未经证实的结构。",
+      "technology": "本款AI作用集中于理解用户语音并生成回答或故事，普通无线连接和USB充电只是基础设施。官网海外商品未证明具备中国小葵2.0全部功能，也没有公开可核对的精确模型版本，分析应围绕已确认交互链路，不把同品牌的开发资料直接当作本机固件实现。",
+      "aesthetics": "大眼睛、红嘴唇和向日葵花瓣把产品定位为夸张的卡通伙伴，花盆底座使它更像桌面装饰而非移动机器人。造型容易表达亲近和幽默，也可能与成年人的工作空间不协调；审美评价应包含长期可接受程度，不仅看展示照片中的鲜艳配色。",
+      "risks": "海外SKU与中国小葵2.0功能差异是主要购买风险：中文官网的4G和提醒不能无条件套用。用户如果依据混合宣传购买，可能在开机后才发现网络和服务不匹配；目录因此明确保留版本名称、购买来源和未验证事项，不以同名向日葵保证跨地区体验一致。",
+      "opportunity": "桌面植物角色可以承接画画时的故事伙伴或短时问答，差异在于固定空间中容易被看见和再次触发。真正机会应来自形成具体的互动习惯，而不是把普通声控花升级成更多宣传词；若用户只需装饰和音乐，昂贵的持续云端服务未必能带来额外价值。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "植物角色较细分，但生成式聊天与传统声控玩具都有成熟替代，需要验证持续使用。"
+    },
+    "architecture": [
+      {
+        "name": "向日葵外形",
+        "detail": "毛绒花头、茎叶和花盆式底座形成桌面玩具。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音输入输出",
+        "detail": "通过语音问答和故事互动呈现云端内容。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线与控制",
+        "detail": "海外商品只确认Wi-Fi；主板布局及具体器件未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部对话服务",
+        "detail": "模型理解与内容生成由联网服务支持。",
+        "evidence": "official"
+      },
+      {
+        "name": "充电供电",
+        "detail": "USB-C充电；内部封装与保护方案为未知。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Warmie海外Wi-Fi版官方商品",
+        "url": "https://store.folotoy.com/products/folotoy-ai-toy-ai-sunflower",
+        "note": "实际打开79美元商品及加购，公开product.js返回available=true；页面规格是Wi-Fi版本。",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "images"
+        ]
+      },
+      {
+        "title": "FoloToy商店与联网FAQ",
+        "url": "https://store.folotoy.com/",
+        "note": "官方说明对话依赖Wi-Fi和云服务；品牌通用FAQ不当作各型号全部功能证明。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "FoloToy中文产品矩阵",
+        "url": "https://folotoy.com/zh/products/",
+        "note": "中国小葵2.0另有4G、闹钟和主动碎碎念；本档海外SKU未证明具备这些功能，不合并技术承诺。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "Warmie官方图文介绍",
+        "url": "https://store.folotoy.com/products/folotoy-ai-toy-ai-sunflower",
+        "note": "商品页的原厂说明图展示问答与共同创作故事场景，仅为官方功能说明，不是学习效果证据。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "FoloToy配送政策",
+        "url": "https://store.folotoy.com/policies/shipping-policy",
+        "note": "商店地区列表有China，政策列标准配送免费；未完成大陆地址结算及云服务试用。",
+        "kind": "official-store",
+        "supports": [
+          "china",
+          "shipping"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-06",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "fuzozo-ai-pet",
+    "name": "Fuzozo 芙崽 AI Pet（英语版）",
+    "brand": "Robopoet / 珞博智能",
+    "category": "ai-toys",
+    "toyKind": "plush-dialogue",
+    "tagline": "把对话、触摸回应和角色养成放进随身毛绒电子宠物。",
+    "officialUrl": "https://fuzozo.net/",
+    "status": "on_sale",
+    "statusEvidence": "官方英语商店各角色显示Add to cart、199美元与付款后发货说明；购买证据不来自奖项或媒体发布。",
+    "regions": [
+      "美国、加拿大及官网列示34个地区（英语版）",
+      "日本（独立日语版）"
+    ],
+    "china": {
+      "availability": "unclear",
+      "note": "核查英语版官方配送名单不含中国大陆，只列香港等地区，亦不保证中文对话；国内芙崽版本存在品牌介绍但本轮未验证具体官方订单，不推定海外款可在大陆完整使用。"
+    },
+    "price": {
+      "text": "US$199；可选Plus US$9.90/月",
+      "note": "英语版免费每日对话及移动数据有额度，Plus增加额度；日本版价格、语言与服务另行确认，不把颜色角色拆开计价。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "语音转文字后结合上下文生成角色回答，并把对话与互动用于日记、记忆和性格成长；触摸反馈与眼睛表情配合呈现。厂商未公开完整模型或证明系统真的理解情绪。",
+      "dependency": "英语版需手机App、账户与互联网，支持2.4GHz Wi-Fi和列示地区4G；联网AI限15岁以上，15—17岁需监护同意，免费额度外可选Plus。"
+    },
+    "highlights": [
+      "随身毛绒与表情眼睛",
+      "日记、记忆与角色成长",
+      "英语版联网AI限15+"
+    ],
+    "analysis": {
+      "demand": "Fuzozo英语版面向愿意与小型电子宠物建立日常互动的人，通过毛绒触感、眼睛表情、对话和回忆日记维持关系。它的核心任务是娱乐陪伴与角色养成，不是学习机或心理治疗；需求判断要看用户是否愿意反复分享生活，而不是根据可爱外观或官方用户数量推断持续价值。",
+      "userProfile": "英语版FAQ明确账户和联网AI服务只面向十五岁及以上，未成年人需要监护人的明确同意与监督。即使主页存在家庭照片，也不能将其直接推荐给幼儿；用户画像更应聚焦符合该版本要求、能理解云端对话边界且愿意管理账户的青少年和成人。",
+      "competition": "Fuzozo同时与潮流毛绒、电子宠物和手机角色聊天竞争，差异在随身触摸反馈与持续日记结合。Moflin偏向非语言情感行为，传统毛绒没有云端回应，而手机角色更容易输入长文；选择取决于用户想养成角色、随手聊天还是只要装饰，不适合统一按聪明程度排序。",
+      "supplyChain": "公开资料支持毛绒外套、表情眼睛、语音与触摸输入、无线联网和充电供电，日记与角色记忆涉及外部服务。官网说明无摄像头，因此概念图不加入视觉识别；具体显示器类型、触摸器件、天线和电池布置未披露，不能把功能层示意当作已拆机确认的真实结构。",
+      "technology": "隐私政策明确语音会转为文字，再结合上下文提供输出，互动记录也可发送云端用于偏好和关系功能。可确认的是生成式语言服务与角色状态相结合，而不是眼睛动画本身具有理解能力；官网所说性格成长不应解释为生物情感或已验证的心理识别准确率。",
+      "aesthetics": "黑色毛球、两只表情眼睛和小挂标把Fuzozo放在潮流配饰与电子宠物之间，便于随身携带，也能让用户感到它在回应。主图所示POLU只是系列代表，配色不是新硬件；审美评价需要考虑日常衣物搭配、触感和屏幕光线，而不是只看新品摄影效果。",
+      "risks": "长期记忆、亲密度和日记涉及个人叙述及互动记录，官网无持续录音宣传并不等于没有数据留存或云端处理。用户需要能够理解授权、纠正和删除的边界，尤其不能把玩具当成不会泄漏秘密的真人；本研究不对隐私合规作法律结论，也未独立审计服务。",
+      "opportunity": "机会在于让随身玩具通过短对话、触摸和可回看的日记形成轻量习惯，服务成人娱乐与角色养成。若核心价值只是毛绒收藏，持续云服务可能是额外负担，因此创业判断应先核实用户真正为哪部分付费，不以官方角色故事和情绪陪伴措辞替代需求证据。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "随身养成玩具正在出现更多竞争者，角色与服务连续性是差异候选，不等于低竞争市场。"
+    },
+    "architecture": [
+      {
+        "name": "毛绒与挂持",
+        "detail": "圆形毛绒角色可随身携带，配色与人物性格属于同一系列。",
+        "evidence": "official"
+      },
+      {
+        "name": "触摸和语音",
+        "detail": "输入触摸与语音互动；具体传感器和布置位置未披露。",
+        "evidence": "official"
+      },
+      {
+        "name": "表情与播音",
+        "detail": "眼睛显示角色表情并播放声音；无摄像头声明来自官网。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线与供电",
+        "detail": "Wi-Fi/4G连接与内置充电供电，具体电路仅作功能概念。",
+        "evidence": "official"
+      },
+      {
+        "name": "云端角色服务",
+        "detail": "对话、日记与人格成长涉及联网服务和账户数据。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fuzozo英语版官方直售",
+        "url": "https://fuzozo.net/",
+        "note": "实际打开199美元、Add to cart和出货说明；五种颜色角色不分成独立硬件。",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "technology",
+          "images"
+        ]
+      },
+      {
+        "title": "Fuzozo FAQ",
+        "url": "https://fuzozo.net/pages/faq",
+        "note": "明确联网AI年龄15+、英语服务、免费额度、可选Plus、Wi-Fi/4G与配送地区。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "Fuzozo隐私政策",
+        "url": "https://fuzozo.net/policies/privacy-policy",
+        "note": "实际打开2026-10-13政策，语音转文字作上下文处理，互动记录可上传云端；不把官网隐私宣传视为独立审计。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "Fuzozo英语店运营主体",
+        "url": "https://fuzozo.net/policies/legal-notice",
+        "note": "明确ROBOPOET TECHNOLOGY HONGKONG LIMITED为运营销售方，品牌站不等于任意同名店铺。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "Fuzozo日本官方版本",
+        "url": "https://www.fuzozo.jp/",
+        "note": "英语官网直接链接日本店，日本店明确日语版及当地价格；语言版本不同但不重复计数。",
+        "kind": "official-store",
+        "supports": [
+          "regions",
+          "status",
+          "version"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-06",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "wiko-hanhan-cellular",
+    "name": "WIKO 智能憨憨蜂窝版 FZ1012",
+    "brand": "WIKO / Fuzozo",
+    "category": "ai-toys",
+    "toyKind": "plush-dialogue",
+    "tagline": "以小艺对话和4G联网，让毛绒电子宠物随身回应。",
+    "officialUrl": "https://www.wiko.com/ai_toys/hanhan",
+    "status": "on_sale",
+    "statusEvidence": "WIKO官网指向的官方旗舰店橙色蜂窝版可加购、立即购买及配送；另一自营旧链接已下架，未用旧页面证明在售。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "WIKO中国官网直接链接京东官方旗舰店，Chrome确认橙色蜂窝版可购买；其他配色当时缺货，不保证所有地区实时库存。"
+    },
+    "price": {
+      "text": "人民币499元参考",
+      "note": "核查时橙色有促销价469元，优惠与库存因时间和收货地区变化；赠送权益及后续4G费用以官方订单说明为准。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "华为小艺大模型支持自然语音对话，产品结合触摸、摇晃反馈、表情和互动记录呈现角色性格与日记。MBTI是角色养成表达，不当成对用户人格的科学测量或心理疗效。",
+      "dependency": "需互联网，支持Wi-Fi及4G，官网提示移动网络可能收费；适配鸿蒙、Android10以上和iOS15以上，购机赠5个月SVIP，后续服务按实际权益确认。"
+    },
+    "highlights": [
+      "小艺模型与国内渠道",
+      "Wi-Fi加4G",
+      "触摸、表情与角色日记"
+    ],
+    "analysis": {
+      "demand": "憨憨蜂窝版把小艺语音对话、触摸反馈和角色日记放入可随身携带的毛绒电子宠物，需求更接近日常娱乐陪伴。相较仅在家联网的设备，移动网络可能让公园和通勤间隙也能交谈，但真实价值仍取决于这些时刻是否有主动使用，而不是把能联网直接等同长期需要。",
+      "userProfile": "适用者可能喜欢毛绒潮玩、愿意通过中文短对话维持角色互动，并有兼容手机完成账户与联网设置。官网列鸿蒙、安卓和苹果系统支持，因此不能把蜂窝版简单描述成只能由某一华为手机使用；实际应用版本、账号与服务资格仍需在购买前按官方要求确认。",
+      "competition": "憨憨与Fuzozo英语版、普通毛绒和手机小艺都有部分重叠，差异集中于国内生态、独立移动网络和具体权益。不能把海外Fuzozo的十五岁门槛、免费每日额度或英文能力直接套到憨憨，也不能因为外形相近就假定账号互通；这是一组需要按版本比较的陪伴方案。",
+      "supplyChain": "公开信息可以拆为毛绒外形、眼睛显示、语音与触摸摇晃输入、无线联网和充电供电，以及机外的角色服务。FZ1012没有公开主板、传感器型号和电池安装图，不能根据海外相似毛球拆机推断内部完全相同；概念图中的位置和连接仅表示功能关系。",
+      "technology": "官网明确小艺大模型支持自然对话，互动记录用于角色性格与日记，摸头和摇晃则通过输入与反馈增强参与感。大模型参与语言不等于所有动作都由模型决策，MBTI标签也只是角色表达；本轮不推断模型规模、端侧算力或情绪识别准确率，避免把营销拟人化当作实证。",
+      "aesthetics": "橙色毛球搭配蓝色软手脚形成鲜明的卡通形象，两只表情眼睛比普通毛绒更容易引发回应期待。它既可以放在桌面，也可作为随身配饰，但实际毛绒清洁和充电会打断装饰状态；评价应同时考虑携带舒适和操作清晰，不能只看官方三配色合影。",
+      "risks": "赠送五个月SVIP不意味着长期免费聊天，官网对移动网络收费也保留具体咨询要求。消费者应区分硬件所有权、网络流量和模型服务权益，不把一条促销标题当作永久承诺；不同颜色库存可能不同，本轮只确认橙色商品可购，没有保证所有配色和所有地区都能立即交付。",
+      "opportunity": "国内语言、常用手机生态与蜂窝网络结合，可能减少用户把普通AI玩具带出门的配置负担。机会应落在可重复的短互动和易管理的服务，而不是仅凭大模型品牌与可爱外形；如果用户只在固定桌面使用，蜂窝带来的长期费用未必能形成额外价值。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "国内生态整合有差异，但对话毛绒竞争增加，需验证蜂窝场景与续费价值。"
+    },
+    "architecture": [
+      {
+        "name": "毛绒角色",
+        "detail": "小圆毛绒、静态软肢体与双眼表情，配饰另购。",
+        "evidence": "official"
+      },
+      {
+        "name": "交互输入",
+        "detail": "语音、摸头和摇晃可触发互动，传感器位置未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "反馈呈现",
+        "detail": "眼睛表情、语音与震动反馈构成角色回应。",
+        "evidence": "official"
+      },
+      {
+        "name": "无线与供电",
+        "detail": "Wi-Fi/4G联网和内置充电供电，硬件布局不公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部小艺服务",
+        "detail": "对话与角色日记通过联网生态提供，不代表模型在机内。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "WIKO智能憨憨蜂窝版官方介绍",
+        "url": "https://www.wiko.com/ai_toys/hanhan",
+        "note": "实际打开FZ1012参数、Wi-Fi/4G、小艺、触摸、性格和日记功能及官方购买跳转。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "WIKO官方旗舰店憨憨蜂窝版",
+        "url": "https://item.jd.com/10217586998181.html",
+        "note": "Chrome实际读取精确商品标题、WIKO官方旗舰店、橙色可加入购物车和立即购买；其他配色缺货，未购买。",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china",
+          "regions"
+        ]
+      },
+      {
+        "title": "WIKO官网指向的另一自营入口",
+        "url": "https://item.jd.com/100258611861.html",
+        "note": "Chrome实际显示商品已下架，仅用于说明官网购买链接状态不一致，不作为现售证据。",
+        "kind": "official-store",
+        "supports": [
+          "status-boundary"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-06",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "wiko-xingzai",
+    "name": "WIKO 星仔 XZAI-W00",
+    "brand": "WIKO",
+    "category": "ai-toys",
+    "toyKind": "robot-pet",
+    "tagline": "把循声转头、磁吸包挂和养成式小艺对话结合。",
+    "officialUrl": "https://www.wiko.com/ai_toys/xingzai",
+    "status": "on_sale",
+    "statusEvidence": "品牌官网立即购买跳转京东WIKO官方旗舰店，Chrome确认星仔蓝499元、可加入购物车及立即购买。",
+    "regions": [
+      "中国大陆"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "WIKO中国官网直接连接官方旗舰店，当前蓝色SKU可购买；商品流量、手机应用与服务范围按国内版本确认，未推定全球漫游。"
+    },
+    "price": {
+      "text": "人民币499元参考",
+      "note": "官方赠6个月无限对话权益，含相关4G流量；到期继续聊天需续费，后续具体月季年卡费用请按官方说明核对。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "小艺大模型支撑自然语音互动，角色日记连接多次交流，配合循声头部转向、触摸与摇晃反馈。部分行为可能来自常规感知控制，不能把每次机械运动都归因于大模型。",
+      "dependency": "支持Wi-Fi和4G，需要萌物星球App激活；官方写亲密度达到700才解锁地球语，赠6个月聊天及相关流量，之后继续聊天需购买权益。"
+    },
+    "highlights": [
+      "循声头部转向",
+      "磁吸包挂",
+      "养成解锁语言与到期续费"
+    ],
+    "analysis": {
+      "demand": "星仔把可以带走的毛绒宠物与会转向说话者的头部结合，尝试在语音之外增加被关注的感觉。磁吸挂包降低携带操作，但需求仍要落到用户是否愿意在日常短时交流中使用，而不是因为有可动头部就认定陪伴更有效；它也不属于替用户完成复杂事务的通用机器人。",
+      "userProfile": "画像推断：喜欢潮流包挂、愿意照顾虚拟角色并接受解锁流程的人，比只想购买即用聊天工具的人更贴近星仔。买家还需要兼容手机、网络和管理续费的能力，不能把萌宠外观自动解释为适合所有低龄儿童，也不能只用手机品牌或消费能力定义潜在用户。",
+      "competition": "星仔与憨憨、Fuzozo和普通毛绒包挂共享实体陪伴需求，但增加磁吸和循声头部转向，并把自然对话放在养成解锁之后。它不是因为垂耳兔外形就成为新需求，目录保留的是交互机制差异；比较必须说明联网服务、费用和进入聊天的条件，而不是只比较颜色与表情数。",
+      "supplyChain": "公开信息可分为毛绒和磁吸固定、双眼显示、声音与触摸摇晃输入、头部转向、无线控制和充电供电，另有外部对话与日记服务。内部驱动器数量、磁体位置和主板布局未披露，概念图应只表示职责，不能据普通机器兔的结构补出所谓真实齿轮或完整物料清单。",
+      "technology": "官网同时描述小艺语音、声音定位、触摸摇晃和角色日记，这些功能分属语言服务、感知与执行链路。循声转头不必意味着大模型直接控制电机，日记也不等于精确长期理解用户；技术分析应区分它们的职责，本轮不推断模型参数、芯片型号或未公开的传感器配置。",
+      "aesthetics": "蓝色垂耳兔、大眼睛和前抱姿势把星仔塑造成可亲近的潮流挂件，机械动作藏在毛绒外形里。这样的设计有助于建立角色感，也让用户不容易意识到头部不能随意扭动；审美评价需要同时观察造型吸引力和使用提示，而非只依据三配色合影判断品质。",
+      "risks": "官网明确赠送六个月对话与相关流量，期限结束后继续聊天需要续费，因此硬件售价不能代表全部长期支出。亲密度解锁也容易被忽略，用户可能误以为开机马上能像普通助手说话；目录需要把这些限制与购买入口放在一起，而不是只展示无限畅聊的促销措辞。",
+      "opportunity": "星仔的机会在于让随身角色通过朝向和触摸形成比纯声音更可理解的互动，但这种身体感必须与可靠携带和维护相配。若消费者只是想听故事或查询知识，解锁等待与机械成本可能反而不必要，因此创业分析应先辨别养成娱乐的真实需求，再投入更多动作与角色。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "磁吸与循声动作提供差异，但陪伴宠物已有多个方案，不能只因新增动作推定蓝海。"
+    },
+    "architecture": [
+      {
+        "name": "毛绒与磁吸外形",
+        "detail": "垂耳兔状角色，支持磁吸包挂；配饰另购。",
+        "evidence": "official"
+      },
+      {
+        "name": "声音触摸输入",
+        "detail": "语音、摸头、摇晃参与互动，具体传感器位置未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "表情与转头",
+        "detail": "双眼表情和循声头部转向，机构数量与齿轮结构未公开。",
+        "evidence": "official"
+      },
+      {
+        "name": "联网供电控制",
+        "detail": "Wi-Fi/4G与充电供电连接本地交互和外部服务。",
+        "evidence": "official"
+      },
+      {
+        "name": "外部角色服务",
+        "detail": "小艺对话、日记与养成资格依赖App及联网权益。",
+        "evidence": "official"
+      }
+    ],
+    "sources": [
+      {
+        "title": "WIKO星仔官方产品页",
+        "url": "https://www.wiko.com/ai_toys/xingzai",
+        "note": "实际打开XZAI-W00、循声转头、磁吸、亲密度700解锁地球语、移动网络及6个月权益到期续费说明。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "WIKO官方旗舰店星仔",
+        "url": "https://item.jd.com/10224191216193.html",
+        "note": "Chrome实际读取星仔蓝商品、WIKO官方旗舰店、499元、可加购与立即购买；未提交订单。",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "china",
+          "regions"
+        ]
+      },
+      {
+        "title": "WIKO憨憨蜂窝版对照",
+        "url": "https://www.wiko.com/ai_toys/hanhan",
+        "note": "比较同品牌相邻产品的外形、移动网络、权益和交互，未把憨憨功能全部套用星仔。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-06",
+    "audience": "consumer",
+    "saleMode": "retail"
+  },
+  {
+    "id": "siuduluv-migu",
+    "name": "筱嘟宝 SIUDULUV 米咕",
+    "brand": "SIUDULUV / 筱嘟宝",
+    "category": "ai-toys",
+    "toyKind": "plush-dialogue",
+    "tagline": "以毛绒角色和表情眼睛承载日常语音陪伴。",
+    "officialUrl": "https://www.siuduluv.com/mall/products/42",
+    "status": "on_sale",
+    "statusEvidence": "品牌商城具体商品页显示米咕、库存、加购与立即购买，官方FAQ描述现货发货与大陆配送；未实际付款。",
+    "regions": [
+      "中国大陆大部分地区（以结算可选地址为准）"
+    ],
+    "china": {
+      "availability": "official",
+      "note": "中文品牌官网有人民币商品和官方购买入口，FAQ明确大陆大部分地区配送；商品与联系页运营主体表述不同，合同销售方、票据和售后归属需下单前核实。"
+    },
+    "price": {
+      "text": "人民币269元",
+      "note": "核查为米咕商品价，划线价299元；套餐、网络及后续内容收费未完整披露，不写一次买断永久免费。"
+    },
+    "ai": {
+      "type": "generative",
+      "description": "官方把米咕定位为能进行语音陪聊、故事和角色性格互动的AI毛绒，表情眼睛呈现反馈。具体模型、记忆算法与情绪判断效果没有公开可核细节，不能仅凭“AI性格”宣称真实情感。",
+      "dependency": "官方FAQ要求手机App、手机号账户、设备绑定与2.4GHz Wi-Fi；首页提端侧AI但未说明各功能的端云分工，不能写成全离线运行，长期服务费用亦需确认。"
+    },
+    "highlights": [
+      "中文商城与大陆配送",
+      "语音角色与表情眼睛",
+      "具体端云分工待核"
+    ],
+    "analysis": {
+      "demand": "米咕将聊天、讲故事和角色表情放进一只小型毛绒伙伴，面向希望把轻量互动放在生活空间中的使用者。核心需求可能是随手交流与角色陪伴，而不是精确知识检索或课程训练；是否存在长期价值，需要看用户反复开启什么任务，不能把品牌宣传的温暖与治愈直接当作需求已被验证。",
+      "userProfile": "画像推断：喜欢软触感和表情角色、能够使用手机App并愿意管理网络的人，更容易完成米咕的基本使用。官网面向家庭也展示成人场景，但具体型号没有充分可核的年龄和全部服务条件，因此不能仅凭毛绒外观把所有幼儿都视为适用对象，仍应核对包装说明与监护要求。",
+      "competition": "米咕与Kumma、Fuzozo、普通毛绒和手机角色聊天应用存在明显替代关系，主要比较点是声音互动、表情表达和服务可管理性。不同毛簇、颜色和角色名称并不自动产生新需求，本目录只选一个具体可购商品代表，不把官网所有盲盒和外观版本加总为独立创新方向。",
+      "supplyChain": "公开商品图支持毛绒角色、双眼表情和语音互动，FAQ支持手机账户及无线联网；这些足以建立功能层示意，但不能确定屏幕型号、传感器种类或主板位置。具体电源参数与端云推理分工也未充分披露，因此图里只用抽象块表达职责，不画声称来自真实拆机的内部细节。",
+      "technology": "官方以AI对话和性格互动描述米咕，图文展示眼睛变化，首页另提端侧AI，但没有说明哪些功能在本地完成、哪些请求经过外部服务。分析只能确认公开的交互定位和联网要求，不能据一句端侧宣传写成完全离线大模型，也不能将情绪感知解释为已验证的心理状态判断。",
+      "aesthetics": "浅色圆毛绒、顶部毛簇、蓝色大眼与固定微笑让米咕接近可随身携带的小型潮玩，软脚帮助构成完整角色。厂商商品图采用浓重宣传场景，不能作为独立实拍品质证明；审美评价应进一步观察实际材质、体积和长时间触摸后的状态，而不是把合成感场景当作真实家庭反馈。",
+      "risks": "商城页脚与公开联系页列出不同公司名称，品牌公开资料没有充分解释关系，下单前需确认实际销售合同主体、发票和售后责任。具体订阅与端云处理也不够透明，不能把网站的库存数字和安全原则当成全部交付条件已经明确，更不应把宣传中的终身伙伴理解为永久服务保证。",
+      "opportunity": "米咕的机会可能是为国内用户提供价格相对容易尝试的毛绒对话入口，但持续价值需要来自具体交流行为和清楚的维护服务。若用户主要为外观收藏付费，模型功能未必是决定因素，因此创业团队应区分潮玩生意与联网服务生意，不把两者混合宣传当作已经成立的复购逻辑。"
+    },
+    "niche": {
+      "level": "emerging",
+      "reason": "毛绒AI陪伴已有多家进入，国内价格与渠道是比较因素，公开技术及服务透明度仍需补证。"
+    },
+    "architecture": [
+      {
+        "name": "毛绒角色",
+        "detail": "米咕浅色圆形毛绒、顶部毛簇、软脚与固定微笑。",
+        "evidence": "official"
+      },
+      {
+        "name": "表情界面",
+        "detail": "官方图文展示双眼图形随互动变化。",
+        "evidence": "official"
+      },
+      {
+        "name": "语音输入输出",
+        "detail": "对话和故事通过语音交互，具体声学器件位置未知。",
+        "evidence": "official"
+      },
+      {
+        "name": "连接与账户",
+        "detail": "App绑定与2.4GHz Wi-Fi建立服务入口。",
+        "evidence": "official"
+      },
+      {
+        "name": "控制及供电",
+        "detail": "为交互提供基础控制与电源；内部布局和电源规格不作确认。",
+        "evidence": "inferred"
+      }
+    ],
+    "sources": [
+      {
+        "title": "米咕官方商城商品页",
+        "url": "https://www.siuduluv.com/mall/products/42",
+        "note": "Chrome实际打开米咕269元、库存、加购和立即购买；读取并目视核对该型号图组，不执行下单。",
+        "kind": "official-store",
+        "supports": [
+          "status",
+          "price",
+          "images",
+          "technology"
+        ]
+      },
+      {
+        "title": "筱嘟宝官方FAQ",
+        "url": "https://www.siuduluv.com/help/faq",
+        "note": "Chrome实际读取手机App绑定、2.4GHz Wi-Fi、中国大陆大部分地区配送和现货发货说明。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "筱嘟宝家长安全说明",
+        "url": "https://www.siuduluv.com/safety",
+        "note": "Chrome实际读取功能数据处理边界与家长查看/删除渠道；品牌原则不视为独立安全审计。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "筱嘟宝品牌介绍",
+        "url": "https://www.siuduluv.com/",
+        "note": "实际打开语音内容、角色、对话与家长控制介绍；端侧AI营销未提供可验证技术细节。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      },
+      {
+        "title": "筱嘟宝公开联系页",
+        "url": "https://www.siuduluv.com/about",
+        "note": "页面列嘉兴潇湘阁智能家居股份有限公司，商城页脚列桐乡霄享人工智能科技有限公司；主体不一致保留为下单前应确认事项，不猜两者关系。",
+        "kind": "official-spec",
+        "supports": [
+          "technology",
+          "analysis"
+        ]
+      }
+    ],
+    "checkedAt": "2026-11-06",
+    "audience": "consumer",
+    "saleMode": "retail"
+  }
+]

@@ -2,7 +2,7 @@
   "id": "makeblock-codey-rocky",
   "name": "Makeblock Codey Rocky",
   "brand": "Makeblock",
-  "category": "education",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "以表情与履带动作承载AI编程项目",
   "officialUrl": "https://www.makeblock.com/products/buy-codey-rocky",
@@ -69,7 +69,7 @@
         "status",
         "price"
       ],
-      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
     },
     {
       "title": "Makeblock官方AI项目说明",
@@ -79,7 +79,7 @@
         "technology",
         "dependency"
       ],
-      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
     },
     {
       "title": "Makeblock家庭项目与识别能力",
@@ -89,7 +89,7 @@
         "technology",
         "dependency"
       ],
-      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
     },
     {
       "title": "Codey Rocky官方能力边界FAQ",
@@ -99,7 +99,7 @@
         "technology",
         "dependency"
       ],
-      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      "note": "已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。"
     }
   ],
   "checkedAt": "2026-11-04",
@@ -109,6 +109,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "learning-play",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

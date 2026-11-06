@@ -7,7 +7,7 @@
     "dev": "python3 -m http.server 4173 --bind 127.0.0.1",
     "export": "node scripts/export-content.mjs",
     "check": "node --check app.js && node --check hardware.js && node scripts/check-content.mjs && node scripts/check-hardware.mjs && node --check ai-directory.js && node scripts/check-ai-directory.mjs",
-    "catalog": "node scripts/build-ai-directory.mjs && node scripts/build-supply-chain.mjs && node scripts/build-hardware.mjs && node scripts/update-research-summary.mjs && node scripts/build-discovery-log.mjs",
+    "catalog": "node scripts/build-ai-directory.mjs && node scripts/build-supply-chain.mjs && node scripts/build-hardware.mjs && node scripts/update-research-summary.mjs && node scripts/build-discovery-log.mjs && node scripts/build-toy-directory.mjs",
     "media:check": "node scripts/check-hardware-media.mjs",
     "target:check": "node scripts/check-consumer-target.mjs",
     "supply:check": "node --check supply-chain.js && node scripts/check-supply-chain.mjs",

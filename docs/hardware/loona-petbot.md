@@ -1,6 +1,6 @@
 # Loona Petbot Premium
 
-**KEYI Tech** · 陪伴与宠物 · 核查 2026-11-04
+**KEYI Tech** · AI玩具 · 核查 2026-11-06
 
 轮式家庭宠物与GPT对话结合
 
@@ -32,7 +32,7 @@ Loona Petbot Premium 官方侧前方参考 · 来源：[KEYI Tech · 官方图�
 
 ## 销售与购买
 
-- 状态：在售。官方Petbot商品页显示Premium套装、US$429和Buy Now；本记录对应Petbot，不把官网新Deskmate或Space Edition混入同一产品。
+- 状态：在售。官方Petbot Premium商品页当前列US$429与Buy Now；新Deskmate不是本条产品，所选套装与地区以结算确认。
 
 - 地区：国际官网（配送地区以结算为准）
 
@@ -254,7 +254,7 @@ Loona 同时面对桌面陪伴机器人、语音毛绒和遥控玩具，差异�
 
 ## 来源
 
-1. [Loona Petbot官方商品与规格](<https://keyirobot.com/products/petbot>) — 已打开，明确产品版本、购买入口及传感和执行规格。
+1. [Loona Petbot官方商品与规格](<https://keyirobot.com/products/petbot>) — 官方Petbot Premium商品页当前列US$429与Buy Now；新Deskmate不是本条产品，所选套装与地区以结算确认。 本轮仅重查销售与标价，技术研究保留各项原始来源。
 
 2. [KEYI Tech官方首页](<https://keyirobot.com/>) — 官网同时列Petbot与Deskmate，本记录仅研究Petbot。
 

@@ -2,7 +2,7 @@
   "id": "robotical-marty-v2",
   "name": "Robotical Marty the Robot V2",
   "brand": "Robotical",
-  "category": "education",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "把图像分类预测变成步行动作",
   "officialUrl": "https://robotical.io/product/marty-the-robot-v2/",
@@ -89,6 +89,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "learning-play",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

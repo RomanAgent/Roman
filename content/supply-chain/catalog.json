@@ -1,6 +1,6 @@
 {
   "title": "智能硬件供应链目录",
-  "checkedAt": "2026-11-05",
+  "checkedAt": "2026-11-06",
   "scope": "面向消费级AI硬件的芯片、元件、模组、制造、工程、软件和检测服务公司。按可核查的能力收录国际公司与专业供应商，持续扩展，不声称覆盖全球全部企业。",
   "relationshipNote": "能力候选表示该公司公开业务与产品所需功能相关，用于重新选型或询价；不表示该产品已经采用该公司的零件或服务。公开披露关系必须有点名资料，仍不代表全部型号、批次或完整BOM。",
   "tierLabels": {
@@ -98,10 +98,10 @@
   "complete": true,
   "counts": {
     "companies": 129,
-    "deepProducts": 303,
-    "products": 303,
-    "candidateLinks": 662,
-    "disclosedLinks": 7
+    "deepProducts": 331,
+    "products": 331,
+    "candidateLinks": 717,
+    "disclosedLinks": 8
   },
   "companies": [
     {
@@ -331,7 +331,7 @@
           ],
           "productId": "haivivi-bubblepal",
           "productName": "Haivivi BubblePal",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -350,7 +350,7 @@
           ],
           "productId": "livingai-aibi-pocket",
           "productName": "LivingAI AIBI Pocket",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -839,7 +839,7 @@
           ],
           "productId": "curio-grok",
           "productName": "Curio Grok",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "preorder"
         },
         {
@@ -858,7 +858,7 @@
           ],
           "productId": "loona-petbot",
           "productName": "Loona Petbot Premium",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -877,7 +877,7 @@
           ],
           "productId": "romi-lacatan",
           "productName": "Romi Lacatan",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -896,7 +896,7 @@
           ],
           "productId": "luka-reading-robot",
           "productName": "Luka Kids Reading Robot",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -915,8 +915,8 @@
           ],
           "productId": "miko-3",
           "productName": "Miko 3",
-          "category": "education",
-          "status": "needs_check"
+          "category": "ai-toys",
+          "status": "on_sale"
         },
         {
           "supplierId": "huaqin",
@@ -1816,6 +1816,154 @@
           "productName": "ClearCaptions Home Phone",
           "category": "accessibility",
           "status": "assisted_program"
+        },
+        {
+          "supplierId": "aac-technologies",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "小型扬声器与毛绒声学路径",
+          "rationale": "公开小型声学单元与整机调音能力可用于评估毛绒遮挡后的声音效果；本条只是重新选型候选，不是Kumma供货关系，实际尺寸、功耗、音量及最低订单条件尚需确认。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "folotoy-kumma",
+          "productName": "FoloToy Kumma F-202",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "aac-technologies",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "花盆底座声学单元与调试",
+          "rationale": "瑞声的扬声器和整机声学能力可用于重新评估小空间播放与毛绒遮挡影响；没有Warmie点名采用证据，尺寸、耗电、失真、声音通道及采购条件需以样机和商务确认。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "folotoy-warmie",
+          "productName": "FoloToy Sunflower Warmie（海外 Wi-Fi 版）",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "aac-technologies",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "小型毛绒声学路径",
+          "rationale": "瑞声小型声学单元和整机调试能力可用于评估声音经过毛绒材料后的表现，但本型号未披露采购关系；实际体积、功耗、音量及安全要求必须通过样机和商务确认，不能直接视为已采用。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "siuduluv-migu",
+          "productName": "筱嘟宝 SIUDULUV 米咕",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "aac-technologies",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "毛绒覆盖下的小型扬声器与拾音评估",
+          "rationale": "瑞声公开声学单元与整机调试能力可帮助评估抱持和软材料遮挡后的音频表现，但Ash未披露其器件供货；实际尺寸、功耗、音量与玩具使用条件需用样机验证，候选关联不保证可直接替换原部件。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "skybuds-ash",
+          "productName": "SkyBuds Ash（对话毛绒系列）",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "aac-technologies",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "微型语音采集与回放能力候选",
+          "rationale": "瑞声公开具备微型声学器件及系统工程能力，可作为桌面宠物语音输入输出的询样候选。毛套遮挡、动作噪声与腔体条件必须由整机验证，没有点名材料证明其为Ropet供应商。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "ropet-kamomo",
+          "productName": "Ropet KAMOMO",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "aac-technologies",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "随身角色微型音频能力候选",
+          "rationale": "瑞声公开微型声学与系统工程，可作为随身对话设备的语音输入和小型扬声器候选。实际噪声、外壳腔体和功耗需要联合验证，没有公开点名材料证明Eiliko已采用其部件。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "energizelab-eiliko",
+          "productName": "Eiliko",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "aac-technologies",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "角色语音输入输出能力候选",
+          "rationale": "瑞声公开微型声学器件与系统工程，可为类似桌面电子猫的语音输入输出提供能力参考。实际音腔、屏幕布置和延迟仍需样机验证，没有点名证据显示Kitto采用该公司产品。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "kitto-ai-cat",
+          "productName": "Kitto AI Cat",
+          "category": "ai-toys",
+          "status": "preorder"
+        },
+        {
+          "supplierId": "aac-technologies",
+          "role": "acoustics",
+          "relationship": "candidate",
+          "component": "桌面机器人语音声学能力候选",
+          "rationale": "瑞声具备公开微型声学与系统工程能力，可作为类似小型机器人语音输入输出的询样方向。面罩开口、关节噪声和音腔需要共同适配，此能力关联不表示RoBoHoN已经采用其部件。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "sharp-robohon-sr04m",
+          "productName": "RoBoHoN Wi-Fi SR-04M-Y + AI会話",
+          "category": "ai-toys",
+          "status": "on_sale"
         }
       ]
     },
@@ -4133,7 +4281,7 @@
           ],
           "productId": "nex-playground",
           "productName": "Nex Playground",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -4206,7 +4354,7 @@
           ],
           "productId": "dex-language-camera",
           "productName": "Dex Language Discovery Camera",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -5487,6 +5635,25 @@
           "productName": "Amazon Alexa Photo Frame",
           "category": "home-assistant",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "boe",
+          "role": "display",
+          "relationship": "candidate",
+          "component": "桌面角色显示工程候选",
+          "rationale": "京东方公开多形态显示与模组能力，可用于类似电子猫角色的显示路线评估。实际尺寸、观看角度、功耗和供应条件尚待项目定型，本条仅作能力候选，不确认现有采购、价格或可直接替换。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "kitto-ai-cat",
+          "productName": "Kitto AI Cat",
+          "category": "ai-toys",
+          "status": "preorder"
         }
       ]
     },
@@ -6710,6 +6877,101 @@
           "productId": "samsung-odyssey-3d-g90xf",
           "productName": "Samsung Odyssey 3D G90XF（27英寸）",
           "category": "spatial",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "chicony",
+          "role": "optics",
+          "relationship": "candidate",
+          "component": "小型视觉模组能力候选",
+          "rationale": "群光公开相机模组业务与影像工程能力，可供面部和手势识别的视觉输入选型参考。镜头视野、弱光与面罩开口需要重新适配，不能把目录能力关联当成已采用的品牌或具体物料。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "ropet-kamomo",
+          "productName": "Ropet KAMOMO",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "chicony",
+          "role": "optics",
+          "relationship": "candidate",
+          "component": "人脸识别视觉输入候选",
+          "rationale": "群光具备公开相机模组和影像工程能力，可用于评估宠物脸部镜头方案。实际视场、低照度和毛套窗口都需要重新适配，此关联仅表示能力相关，不确认厂商现有采用关系。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "switchbot-kata-friends",
+          "productName": "KATA Friends",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "chicony",
+          "role": "optics",
+          "relationship": "candidate",
+          "component": "桌面视觉模组能力候选",
+          "rationale": "群光公开相机模组与影像开发能力，与本产品的人脸和桌面视觉输入在功能上相关。实际模组体积、视野和软件适配必须重新确认，本条不将可能匹配当作现有供货关系。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "doly-robot",
+          "productName": "Doly",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "chicony",
+          "role": "optics",
+          "relationship": "candidate",
+          "component": "创作视觉模组能力候选",
+          "rationale": "群光相机模组能力可用于比较个人机器人视觉输入的工程路线，但本产品所售模块已有明确外观与部署环境。该关联只供替代设计询样，不宣称替换兼容，也不将其误列为官方模块实际供应商。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "petoi-bittle-x-ai-vision",
+          "productName": "Bittle X V2 + AI Vision Module",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "chicony",
+          "role": "optics",
+          "relationship": "candidate",
+          "component": "桌面识别相机能力候选",
+          "rationale": "群光公开相机模组与影像工程，可用于类似桌面识别人脸场景的视觉选型。具体视角、接口和低照度需要整机验证，没有公开材料证明它为当前Vector2相机供货。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "anki-vector-2",
+          "productName": "Vector 2.0",
+          "category": "ai-toys",
           "status": "on_sale"
         }
       ]
@@ -7942,7 +8204,7 @@
           ],
           "productId": "dgt-centaur",
           "productName": "DGT Centaur",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         }
       ]
@@ -8515,6 +8777,151 @@
           "productName": "Withings U-Scan Nutrio",
           "category": "health-home",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类联网毛绒的无线控制候选",
+          "rationale": "Espressif公开Wi-Fi与低功耗控制能力，可作为类似恐龙玩具联网及睡眠唤醒部分的研发候选；必须实测毛绒包覆下信号、休眠功耗和充电噪声。它并不提供bondu对话记忆或内容审核服务，当前没有品牌点名采用证据，不能据候选反推原机芯片。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "bondu",
+          "productName": "bondu AI Plush",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类学习机器人Wi-Fi连接与控制候选",
+          "rationale": "Espressif无线平台可用于同类学习机器人配网、连接状态和低功耗控制的研究，但不能据其通用联网能力认定能承担Miko全部视觉或生成式推理。需检验移动状态和家庭网络切换时稳定性；Miko未公开采用该公司的证据，候选关系不代表原机BOM或主控归属。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "miko-mini",
+          "productName": "Miko Mini",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类云对话玩具的联网控制候选",
+          "rationale": "Espressif无线平台可作为类似云对话玩具连接、状态控制与休眠管理的研发候选，但Meemo现有主控和具体无线实现未完整披露。必须结合应用配网、网络恢复和电源方案验证，不能从通用Wi-Fi能力推导所有语言模型本地可运行，也没有其实际供货关系证据。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "meemo-bear",
+          "productName": "Meemo Bear",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类Wi-Fi泰迪的连接控制候选",
+          "rationale": "Espressif无线控制平台可为类似泰迪的首次配网、模式状态和断网恢复提供研发入口，但不意味着Ted实际采用，也不提供其未披露的云模型。需要验证毛绒内部天线、充电干扰及家庭网络，尤其应确保自动聆听状态不会因网络重连而产生难以察觉的变化。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "tedco-ted",
+          "productName": "Ted — Smart Teddy",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类Wi-Fi毛绒的连接与状态控制候选",
+          "rationale": "Espressif公开Wi-Fi控制能力可用于类似Bloom的配网、按键收音状态和云端请求恢复研究，必须验证网络变化时输入是否仍受清晰控制。当前没有SkyBloom点名采用证据，也不能从无线平台推出全部AI在机内运行；候选关联不包含云模型、家长应用或具体生产厂商。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "skybloom-bloom",
+          "productName": "SkyBloom Bloom",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类可分离语音盒的Wi-Fi及配网候选",
+          "rationale": "Espressif公开Wi-Fi与低功耗蓝牙控制能力可用于类似Voice Box的配网、连接恢复和状态研究，具体音频处理及USB-C电源仍需整机验证。当前没有Curio点名采用证据，不能把候选当白色第二代盒主控，也不包含品牌的角色云服务、数据控制或装配工厂。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "curio-voicebox-2",
+          "productName": "Curio Voice Box 2 系列（Gabbo 代表）",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类Wi-Fi玩具的联网与离线内容控制候选",
+          "rationale": "Espressif无线平台可用于类似腹部面板玩具的Wi-Fi连接、按键状态与离线内容管理研究，但不代表Khelu采用该芯片。实际存储、音频播放和充电方案需另行验证，不能把板级能力等同云模型服务；公开资料没有具体主控或工厂点名，因此仅列能力候选。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "kheelona-khelu",
+          "productName": "Kheelona Khelu / Kheelu",
+          "category": "ai-toys",
+          "status": "preorder"
+        },
+        {
+          "supplierId": "espressif",
+          "role": "connectivity",
+          "component": "同类Wi-Fi对话玩具连接控制候选",
+          "rationale": "Espressif无线平台可供类似Nebu的家庭Wi-Fi和云请求连接研究，但当前original主控与电源未公开，不能据候选确定量产芯片。需要验证配网、弱信号、服务器不可用和软件更新的恢复；它也不提供品牌的云模型、家长应用或秘鲁配送服务，未发现实际采用关系。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "nebu-original",
+          "productName": "Nebu original",
+          "category": "ai-toys",
+          "status": "preorder"
         }
       ]
     },
@@ -8983,7 +9390,7 @@
           ],
           "productId": "chessnut-move",
           "productName": "Chessnut Move",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -9582,7 +9989,122 @@
         }
       ],
       "checkedAt": "2026-11-04",
-      "relatedProducts": []
+      "relatedProducts": [
+        {
+          "supplierId": "feetech",
+          "role": "motion",
+          "relationship": "candidate",
+          "component": "桌面多轴机构的总线舵机选型",
+          "rationale": "飞特公开总线舵机、状态反馈和工程资料，与桌面机器人多轴动作的需求相符，但本轮未核到Reachy Mini Wireless的点名采用证据；尺寸、电压、协议、噪声和持续负载仍需确认，不能据候选能力直接替换原机部件。",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "reachy-mini-wireless",
+          "productName": "Reachy Mini Wireless",
+          "category": "ai-toys",
+          "status": "preorder"
+        },
+        {
+          "supplierId": "feetech",
+          "role": "motion",
+          "relationship": "candidate",
+          "component": "小型姿态驱动能力候选",
+          "rationale": "FEETECH公开提供小型舵机及总线控制，可作为短臂与头部表达机构的能力候选。实际载荷、噪声和毛套干涉仍须整机验证，未找到本产品公开采用该公司部件的证据。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "switchbot-kata-friends",
+          "productName": "KATA Friends",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "feetech",
+          "role": "motion",
+          "relationship": "candidate",
+          "component": "微型动作机构能力候选",
+          "rationale": "FEETECH公开小型执行器与总线技术，可作为侧臂等表达机构选型候选。体积、桌面噪声、负载和控制接口仍需重新验证，既有公开资料没有证明它向Doly供应具体部件。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "doly-robot",
+          "productName": "Doly",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "feetech",
+          "role": "motion",
+          "relationship": "candidate",
+          "component": "小型四足执行器能力候选",
+          "rationale": "FEETECH公开小型舵机与总线控制能力，可作为类似四足项目的执行器询样方向。实际接口、动作负载和校准要求必须验证；本档案不认定Petoi现有舵机由它生产或可直接互换。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "petoi-bittle-x-ai-vision",
+          "productName": "Bittle X V2 + AI Vision Module",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "feetech",
+          "role": "motion",
+          "relationship": "candidate",
+          "component": "桌面四足动作驱动能力候选",
+          "rationale": "FEETECH公开小型舵机与控制技术，可为类似四足连杆产品提供执行能力询样方向。传力结构、示教反馈和耐久要求仍需验证，没有公开证据确认它是Quaddle实际供应商。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "petoi-quaddle-buddy",
+          "productName": "Quaddle Buddy",
+          "category": "ai-toys",
+          "status": "preorder"
+        },
+        {
+          "supplierId": "feetech",
+          "role": "motion",
+          "relationship": "candidate",
+          "component": "小型人形动作驱动能力候选",
+          "rationale": "FEETECH公开小型舵机与控制技术，可为类似人形陪伴设备的关节表达提供能力参考。动作噪声、体积、传动和寿命仍须整机验证，未找到夏普本型号实际采用它的公开点名证据。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "sharp-robohon-sr04m",
+          "productName": "RoBoHoN Wi-Fi SR-04M-Y + AI会話",
+          "category": "ai-toys",
+          "status": "on_sale"
+        }
+      ]
     },
     {
       "id": "fictiv",
@@ -11436,7 +11958,7 @@
           ],
           "productId": "casio-moflin",
           "productName": "Moflin",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -11455,7 +11977,7 @@
           ],
           "productId": "curio-grok",
           "productName": "Curio Grok",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "preorder"
         },
         {
@@ -11474,7 +11996,7 @@
           ],
           "productId": "eilik-ai-station",
           "productName": "Eilik + AI Station",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -11493,7 +12015,7 @@
           ],
           "productId": "lovot-3",
           "productName": "LOVOT 3.0",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -11512,7 +12034,7 @@
           ],
           "productId": "haivivi-bubblepal",
           "productName": "Haivivi BubblePal",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -11531,7 +12053,7 @@
           ],
           "productId": "livingai-aibi-pocket",
           "productName": "LivingAI AIBI Pocket",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -11550,7 +12072,7 @@
           ],
           "productId": "livingai-emo",
           "productName": "EMO",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -11569,7 +12091,7 @@
           ],
           "productId": "romi-lacatan",
           "productName": "Romi Lacatan",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -11588,7 +12110,7 @@
           ],
           "productId": "panasonic-nicobo",
           "productName": "Panasonic NICOBO",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -11626,8 +12148,8 @@
           ],
           "productId": "miko-3",
           "productName": "Miko 3",
-          "category": "education",
-          "status": "needs_check"
+          "category": "ai-toys",
+          "status": "on_sale"
         },
         {
           "supplierId": "goertek",
@@ -11912,6 +12434,81 @@
           "productId": "amazon-echo-studio-home-camera",
           "productName": "Amazon Echo Studio with Home Camera",
           "category": "home-assistant",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "goertek",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "音频、外观与整机整合候选",
+          "rationale": "歌尔公开声学、精密结构及智能硬件整合能力可匹配随身电子宠物的多模块协同；没有Fuzozo实际采用证据，仍需核实毛绒装配、触摸校准、体积和项目合作条件，不能据能力推定供货。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "fuzozo-ai-pet",
+          "productName": "Fuzozo 芙崽 AI Pet（英语版）",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "goertek",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "随身毛绒电子宠物整机整合",
+          "rationale": "公开声学、结构和智能硬件整合能力可作为憨憨同类方案的工程候选，但没有本型号采用证据；需另核毛绒固定、触摸识别、无线遮挡与量产检测，不能据公司规模推定其已供货。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "wiko-hanhan-cellular",
+          "productName": "WIKO 智能憨憨蜂窝版 FZ1012",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "goertek",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "循声转头与声学结构协同",
+          "rationale": "歌尔公开的声学、精密结构和整机工程能力可供同类转头萌宠选型，但没有星仔采用证据；具体驱动、磁吸固定、毛绒间隙与寿命测试仍需确认，不能把能力名单当成已建立采购关系。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "wiko-xingzai",
+          "productName": "WIKO 星仔 XZAI-W00",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "goertek",
+          "role": "acoustics",
+          "component": "同类故事播放玩具的电声器件与结构候选",
+          "rationale": "歌尔公开的声学器件及工程能力可作为类似故事熊扬声器和电声结构的研究入口，但毛绒包覆、儿童音量、电池供电和口部动作都需专项验证。当前未发现其为Poe供货或代工的证据，不能将候选扩大为实际装配工厂，也不包含云故事生成服务。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s2"
+          ],
+          "productId": "plai-poe",
+          "productName": "PLAi Poe the AI Story Bear",
+          "category": "ai-toys",
           "status": "on_sale"
         }
       ]
@@ -12398,7 +12995,7 @@
           ],
           "productId": "unitree-go2-pro",
           "productName": "Unitree Go2 Pro",
-          "category": "robotics",
+          "category": "ai-toys",
           "status": "preorder"
         },
         {
@@ -13708,7 +14305,7 @@
           ],
           "productId": "loona-petbot",
           "productName": "Loona Petbot Premium",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -13727,7 +14324,7 @@
           ],
           "productId": "looi-robot",
           "productName": "LOOI Robot",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -13746,7 +14343,7 @@
           ],
           "productId": "luka-reading-robot",
           "productName": "Luka Kids Reading Robot",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -14613,6 +15210,186 @@
           "productName": "BirdWeather PUC",
           "category": "garden",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "毛绒包覆下语音采集器件候选",
+          "rationale": "Infineon的MEMS麦克风可用于同类毛绒产品采音方案比较，重点应是拥抱遮挡、衣物摩擦和扬声器回声中的儿童语音质量。实际开孔、数量和声学结构必须另行设计，没有bondu供货关系证据，也不能由麦克风能力推导云端识别或儿童内容安全。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "bondu",
+          "productName": "bondu AI Plush",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "儿童语音输入的MEMS麦克风候选",
+          "rationale": "Infineon公开MEMS麦克风能力可作为同类机器人语音前端选择入口，尤其应检查轮式运动与自身扬声器产生的噪声。麦克风型号、数量和阵列设计仍需整机验证，不能由传感器推导识别或学习效果；未发现Miko Mini点名采用，因此仅列研发能力候选。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "miko-mini",
+          "productName": "Miko Mini",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "同类泰迪玩具麦克风输入候选",
+          "rationale": "Infineon的MEMS麦克风可用于同类泰迪的声音输入研究，需要针对长毛遮挡、手臂按键操作和连续聊天中自身播音的回声做整机验证。它不提供Meemo角色库或家长历史管理功能，当前未见品牌点名采用资料，候选关联不能解释为已确认零件或供应工厂。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "meemo-bear",
+          "productName": "Meemo Bear",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "自动聆听与按键模式的采音器件候选",
+          "rationale": "Infineon MEMS麦克风可用于研究同类玩具两种聆听模式下的输入质量，但具体触发、静音与回复逻辑需要整机软件实现。需测试衣物摩擦、抱持遮挡和自身扬声器回声；没有Ted点名器件或工厂的公开资料，关联只表示能力候选，不代表已确认供货。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "tedco-ted",
+          "productName": "Ted — Smart Teddy",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "角色毛绒语音采集器件候选",
+          "rationale": "Infineon MEMS麦克风可作为同类小丑风格毛绒的声音输入研究入口，但大头、长毛和拥抱姿势对采音的影响需要实际测试。具体声孔、阵列和回声处理未知，没有Babaru点名采用证据；选择器件不能替代模型内容、隐私规则和整机安全验证。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "babaru",
+          "productName": "Babaru Talking Plush",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "按键触发的儿童语音前端候选",
+          "rationale": "Infineon MEMS麦克风可作为同类长耳毛绒采音器件的研究入口，应测试拥抱遮挡、近距离呼吸和扬声器回声。麦克风本身不决定是否仅按键时上传，也不提供内容过滤；没有品牌点名供货资料，候选需结合整机电路、状态机和应用实测，不能推定Bloom实际BOM。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "skybloom-bloom",
+          "productName": "SkyBloom Bloom",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "同类产品语音输入方案候选",
+          "rationale": "若同类设计将采音集成到毛绒，Infineon MEMS麦克风可作为声音前端候选，但当前Wompy资料未完整说明输入器件位置与协议。需要先确认配对设备和玩具分工，再测试毛绒遮挡与回声，不能把这一条件性研究关联当作Wompy已采用或确定的内部模块。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "wompy",
+          "productName": "Wompy AI Plush",
+          "category": "ai-toys",
+          "status": "preorder"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "可换毛绒载体中的语音采集候选",
+          "rationale": "Infineon MEMS麦克风可供同类语音盒采音研究，重点是不同毛绒外皮和放置方向造成的遮挡与回声差异。器件必须配合实际声孔、扬声器和角色装配验证，不能由一个角色效果推到所有外壳；未发现Curio实际供货资料，链接只是能力候选。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "curio-voicebox-2",
+          "productName": "Curio Voice Box 2 系列（Gabbo 代表）",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "腹部扬声器附近的儿童采音候选",
+          "rationale": "Infineon MEMS麦克风可用于研究类似Khelu面板附近的语音采集，必须测试扬声器回声、近距离抱持和多个家庭成员讲话。它不负责家长账户、模型训练许可或内容过滤，也没有该产品采用关系证据；器件能力与成品的识别质量、资料规则应分别验证。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s3",
+            "s4"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "kheelona-khelu",
+          "productName": "Kheelona Khelu / Kheelu",
+          "category": "ai-toys",
+          "status": "preorder"
+        },
+        {
+          "supplierId": "infineon",
+          "role": "acoustics",
+          "component": "同类毛绒语音输入器件候选",
+          "rationale": "Infineon MEMS麦克风可作为类似圆脸毛绒语音前端的能力候选，实际声孔、外皮厚度和采音布局需要等量产设计确定后验证。当前只有外观渲染和语音功能说明，没有品牌点名供货证据；不能把器件候选或概念图当作Nebu original已完成的内部设计。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "nebu-original",
+          "productName": "Nebu original",
+          "category": "ai-toys",
+          "status": "preorder"
         }
       ]
     },
@@ -15671,7 +16448,7 @@
           ],
           "productId": "chessnut-evo",
           "productName": "Chessnut EVO",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -16667,7 +17444,7 @@
           ],
           "productId": "chessup-2",
           "productName": "ChessUp 2",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -16685,7 +17462,7 @@
           ],
           "productId": "chessnut-evo",
           "productName": "Chessnut EVO",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -16703,7 +17480,7 @@
           ],
           "productId": "chessnut-move",
           "productName": "Chessnut Move",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -16721,7 +17498,7 @@
           ],
           "productId": "dgt-centaur",
           "productName": "DGT Centaur",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -16740,7 +17517,7 @@
           ],
           "productId": "millennium-king-performance",
           "productName": "Millennium The King Performance",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -16759,7 +17536,7 @@
           ],
           "productId": "particula-gochess-pro",
           "productName": "Particula GoChess Pro Modern",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -16778,7 +17555,7 @@
           ],
           "productId": "nex-playground",
           "productName": "Nex Playground",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -20989,7 +21766,7 @@
           ],
           "productId": "unitree-go2-pro",
           "productName": "Unitree Go2 Pro",
-          "category": "robotics",
+          "category": "ai-toys",
           "status": "preorder"
         },
         {
@@ -22062,7 +22839,7 @@
           ],
           "productId": "dex-language-camera",
           "productName": "Dex Language Discovery Camera",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -23893,6 +24670,42 @@
           "productName": "Sunrise 家用下颌运动睡眠测试",
           "category": "health-home",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "connectivity",
+          "component": "同类手机配对毛绒的低功耗连接候选",
+          "rationale": "Nordic低功耗无线控制能力可用于同类毛绒和手机配对的研发研究，必须先确认采用的音频与控制协议及手机后台限制。它不证明Babaru使用该芯片，也不解决厂商尚未公开的应用兼容与模型服务边界；当前只有能力候选关系，不能据Bluetooth字样推定具体主控。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s1"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "babaru",
+          "productName": "Babaru Talking Plush",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "nordic-semiconductor",
+          "role": "connectivity",
+          "component": "同类故事熊BLE控制链路候选",
+          "rationale": "Nordic低功耗无线平台可用于同类故事熊的BLE控制、状态和下载管理研究，但官方Poe还使用Classic Bluetooth音频，因此单一BLE候选不能被视为完整替代方案。必须另验音频平台协同和手机连接行为；没有Skyrocket点名采用资料，关联仅是新设计能力候选。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s3"
+          ],
+          "productId": "plai-poe",
+          "productName": "PLAi Poe the AI Story Bear",
+          "category": "ai-toys",
+          "status": "on_sale"
         }
       ]
     },
@@ -24136,6 +24949,23 @@
           "productName": "C-Pen Reader 3",
           "category": "accessibility",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "nxp",
+          "role": "chip",
+          "component": "同类毛绒交互及显示控制候选",
+          "rationale": "NXP公开多核、图形与音频处理的嵌入式平台可供研究类似像素眼毛绒的外设控制，但Wompy对话AI官方明确在配对设备上，不能据候选加入机内大模型。需验证显示接口、能耗和连接协议；未见点名采用，实际主控、供电与工厂仍未披露。",
+          "relationship": "candidate",
+          "sourceIds": [
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1"
+          ],
+          "productId": "wompy",
+          "productName": "Wompy AI Plush",
+          "category": "ai-toys",
+          "status": "preorder"
         }
       ]
     },
@@ -25313,7 +26143,7 @@
           ],
           "productId": "makeblock-codey-rocky",
           "productName": "Makeblock Codey Rocky",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         }
       ]
@@ -25551,7 +26381,7 @@
           ],
           "productId": "lovot-3",
           "productName": "LOVOT 3.0",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -25570,7 +26400,7 @@
           ],
           "productId": "panasonic-nicobo",
           "productName": "Panasonic NICOBO",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -25589,7 +26419,7 @@
           ],
           "productId": "sony-aibo-ers1000",
           "productName": "aibo ERS-1000",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "needs_check"
         },
         {
@@ -27358,7 +28188,7 @@
           ],
           "productId": "chessnut-move",
           "productName": "Chessnut Move",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -27377,7 +28207,7 @@
           ],
           "productId": "chessnut-companion",
           "productName": "Chessnut Companion",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -27708,7 +28538,7 @@
           ],
           "productId": "sony-aibo-ers1000",
           "productName": "aibo ERS-1000",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "needs_check"
         },
         {
@@ -27727,7 +28557,7 @@
           ],
           "productId": "robotical-marty-v2",
           "productName": "Robotical Marty the Robot V2",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -29773,7 +30603,7 @@
           ],
           "productId": "chessup-2",
           "productName": "ChessUp 2",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -29791,7 +30621,7 @@
           ],
           "productId": "millennium-king-performance",
           "productName": "Millennium The King Performance",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -29809,7 +30639,7 @@
           ],
           "productId": "dex-language-camera",
           "productName": "Dex Language Discovery Camera",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -31237,7 +32067,7 @@
           ],
           "productId": "makeblock-mbot2",
           "productName": "Makeblock mBot2",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -31256,7 +32086,7 @@
           ],
           "productId": "robotical-marty-v2",
           "productName": "Robotical Marty the Robot V2",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -31277,6 +32107,159 @@
           "productName": "Home Assistant Voice Preview Edition",
           "category": "home-assistant",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "seeed-studio",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "对话模块原型与电子装联",
+          "rationale": "可利用其公开硬件原型与电子装联能力验证语音联网模块，但Kumma现有供应商未披露；需另行核实软外壳固定、充电保护及批量测试，不能视为已经采用其方案。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "folotoy-kumma",
+          "productName": "FoloToy Kumma F-202",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "seeed-studio",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "桌面语音联网原型",
+          "rationale": "公开原型工程和电子装联能力可服务花盆式联网语音装置，但Warmie当前采购来源未知；仍需核实底座固定、接口防护、整机测试及软件服务，不能把候选能力写成已供货。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "folotoy-warmie",
+          "productName": "FoloToy Sunflower Warmie（海外 Wi-Fi 版）",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "seeed-studio",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "触摸语音联网样机验证",
+          "rationale": "Seeed的开源感知和电子工程支持可用于验证触摸、语音与网络交互的原型；本条不是Fuzozo原厂供应链披露，显示窗口、毛绒材料、移动网络及量产测试还需专项设计与询价。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "fuzozo-ai-pet",
+          "productName": "Fuzozo 芙崽 AI Pet（英语版）",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "seeed-studio",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "语音触摸与联网原型",
+          "rationale": "Seeed公开原型工程与感知模组能力有助于验证语音触摸交互，但憨憨现有硬件来源未公开；移动网络服务、显示窗口及量产质量责任需要专项确认，此关联仅是重新开发的候选入口。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "wiko-hanhan-cellular",
+          "productName": "WIKO 智能憨憨蜂窝版 FZ1012",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "seeed-studio",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "感知控制与联网验证样机",
+          "rationale": "Seeed可为触摸、语音和网络控制的早期原型提供工程支持，但这不代表星仔使用其模组；需要另行验证运动保护、移动服务与显示反馈，以及从样机到量产的责任和交付条件。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "wiko-xingzai",
+          "productName": "WIKO 星仔 XZAI-W00",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "seeed-studio",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "联网语音和显示交互原型",
+          "rationale": "Seeed公开原型与感知模组工程可用于重新开发同类毛绒对话终端，但没有米咕实际供货证据；外套固定、声学通道、眼睛显示与账户服务需专项验证，不据候选能力推断原厂内部方案。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "siuduluv-migu",
+          "productName": "筱嘟宝 SIUDULUV 米咕",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "seeed-studio",
+          "role": "engineering",
+          "relationship": "candidate",
+          "component": "语音联网毛绒控制模块原型",
+          "rationale": "Seeed公开感知联网原型与电子装联服务，可作为同类语音玩具开发的候选，但没有SkyBuds实际采用证据；需要另行确认唤醒、充电防护、声学布置与批量测试，不能把公开能力写成现有代工关系。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "skybuds-ash",
+          "productName": "SkyBuds Ash（对话毛绒系列）",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "seeed-studio",
+          "role": "manufacturing",
+          "relationship": "disclosed",
+          "component": "Reachy Mini系列优化制造与指定经销",
+          "rationale": "Seeed本轮打开的官方资料明确其优化和制造Reachy Mini，Pollen产品页也列其为部分地区购买渠道；此关系限定系列协作与经销，不代表完整BOM、每个批次的器件来源或所有地区库存。",
+          "sourceIds": [
+            "s2",
+            "s5"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "relationshipEvidence": "Seeed官方ReachyMini Getting Started明确写Reachy Mini由Seeed优化和制造，Pollen官方页指定部分区域经Seeed购买；披露范围为产品系列协作，未公开所有元件采购关系。",
+          "productId": "reachy-mini-wireless",
+          "productName": "Reachy Mini Wireless",
+          "category": "ai-toys",
+          "status": "preorder"
         }
       ]
     },
@@ -32891,7 +33874,7 @@
           ],
           "productId": "casio-moflin",
           "productName": "Moflin",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -32910,7 +33893,7 @@
           ],
           "productId": "eilik-ai-station",
           "productName": "Eilik + AI Station",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -32929,7 +33912,7 @@
           ],
           "productId": "livingai-emo",
           "productName": "EMO",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -32948,7 +33931,7 @@
           ],
           "productId": "looi-robot",
           "productName": "LOOI Robot",
-          "category": "companion",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -32967,7 +33950,7 @@
           ],
           "productId": "makeblock-mbot2",
           "productName": "Makeblock mBot2",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -32986,7 +33969,7 @@
           ],
           "productId": "makeblock-codey-rocky",
           "productName": "Makeblock Codey Rocky",
-          "category": "education",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -35025,7 +36008,7 @@
           ],
           "productId": "chessnut-companion",
           "productName": "Chessnut Companion",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -35042,7 +36025,7 @@
           ],
           "productId": "particula-gochess-pro",
           "productName": "Particula GoChess Pro Modern",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -35223,6 +36206,63 @@
           "productName": "Anker SOLIX Solarbank 3 E2700 Pro",
           "category": "home-energy",
           "status": "on_sale"
+        },
+        {
+          "supplierId": "sunwoda",
+          "role": "power",
+          "relationship": "candidate",
+          "component": "小型消费电池工程候选",
+          "rationale": "欣旺达公开消费电池业务，可作为小体积挂件的电源工程能力候选。充电管理、冲击环境和售后替换需按整机验证，不能因产品具有电池就认定某个供应商已经供货。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "energizelab-eiliko",
+          "productName": "Eiliko",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sunwoda",
+          "role": "power",
+          "relationship": "candidate",
+          "component": "小型消费电池能力候选",
+          "rationale": "欣旺达消费电池业务与小型桌面机器人的供电工程在能力上相关，可作为新设计询样候选。现有电池舱尺寸、保护和连接器仍需核验，不表示与原机兼容或已被采用。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "anki-vector-2",
+          "productName": "Vector 2.0",
+          "category": "ai-toys",
+          "status": "on_sale"
+        },
+        {
+          "supplierId": "sunwoda",
+          "role": "power",
+          "relationship": "candidate",
+          "component": "小型互动机器人电源能力候选",
+          "rationale": "欣旺达消费电池能力与小型互动机器人的持续供电需求相关，可作为新设计候选。电池形态、连接器与驱动负载必须另行匹配，此关联不指向原机实际采用或承诺直接兼容。",
+          "sourceIds": [
+            "s1",
+            "s2"
+          ],
+          "supplierSourceIds": [
+            "s1",
+            "s2"
+          ],
+          "productId": "petoi-quaddle-buddy",
+          "productName": "Quaddle Buddy",
+          "category": "ai-toys",
+          "status": "preorder"
         }
       ]
     },
@@ -38132,7 +39172,7 @@
           ],
           "productId": "chessnut-evo",
           "productName": "Chessnut EVO",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {
@@ -38150,7 +39190,7 @@
           ],
           "productId": "chessnut-companion",
           "productName": "Chessnut Companion",
-          "category": "games",
+          "category": "ai-toys",
           "status": "on_sale"
         },
         {

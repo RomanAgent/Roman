@@ -1,6 +1,6 @@
 # LOOI Robot
 
-**Tangobotics / LOOI** · 陪伴与宠物 · 核查 2026-11-04
+**Tangobotics / LOOI** · AI玩具 · 核查 2026-11-04
 
 让已有手机成为桌面机器人的表情与感知入口
 

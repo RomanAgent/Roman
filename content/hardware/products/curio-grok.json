@@ -2,17 +2,17 @@
   "id": "curio-grok",
   "name": "Curio Grok",
   "brand": "Curio",
-  "category": "companion",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "将生成式英语会话放入毛绒火箭",
   "officialUrl": "https://heycurio.com/product/grok",
-  "statusEvidence": "官方商品页仍标Pre-Order、Shop Now及约30天；页面商品数据availableForSale=true。FAQ写七天发货，与商品页不一致，因此保守列为预售，不承诺现货。",
+  "statusEvidence": "2026-11-06官方Grok商品页明确Pre-Order与约30日内发货，为正式预售 / 延期订单，不当作现货。Grok与Gen2新Voice Box系列保留版本差异，不按颜色或人物皮肤重复计数。",
   "regions": [
     "美国"
   ],
   "price": {
-    "text": "商品页 US$99 起；结算为准",
-    "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
+    "text": "官网单只促销 US$99",
+    "note": "核查日页面划线US$119，单只现价US$99；运税与地区以结算为准，Plus订阅另行核对。"
   },
   "ai": {
     "type": "hybrid",
@@ -83,13 +83,14 @@
       "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
     }
   ],
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-06",
   "status": "preorder",
   "saleMode": "preorder",
   "china": {
-    "availability": "unclear",
-    "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
+    "availability": "unavailable",
+    "note": "本轮官方FAQ仍说明只向美国配送且使用英语与Wi-Fi；未核实中国大陆官方销售及服务，不把跨境转运视为官方可用。"
   },
+  "toyKind": "plush-dialogue",
   "deepDive": {
     "checkedAt": "2026-11-04",
     "sources": [

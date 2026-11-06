@@ -1,0 +1,191 @@
+[
+  {
+    "id": "ropet-kamomo",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/ropet-kamomo/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Ropet KAMOMO功能模块概念爆炸图，内部布局为推断，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/ropet-kamomo.txt",
+        "referencePaths": [
+          "assets/hardware/ropet-kamomo/product.png",
+          "assets/hardware/ropet-kamomo/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "switchbot-kata-friends",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/switchbot-kata-friends/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "KATA Friends功能模块概念爆炸图，内部布局为推断，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/switchbot-kata-friends.txt",
+        "referencePaths": [
+          "assets/hardware/switchbot-kata-friends/product.jpg",
+          "assets/hardware/switchbot-kata-friends/reference.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "doly-robot",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/doly-robot/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Doly功能模块概念爆炸图，内部布局为推断，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/doly-robot.txt",
+        "referencePaths": [
+          "assets/hardware/doly-robot/product.jpg",
+          "assets/hardware/doly-robot/reference.webp"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "energizelab-eiliko",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/energizelab-eiliko/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Eiliko功能模块概念爆炸图，内部布局为推断，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/energizelab-eiliko.txt",
+        "referencePaths": [
+          "assets/hardware/energizelab-eiliko/product.png",
+          "assets/hardware/energizelab-eiliko/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "petoi-bittle-x-ai-vision",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petoi-bittle-x-ai-vision/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Bittle X V2 + AI Vision Module功能模块概念爆炸图，内部布局为推断，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/petoi-bittle-x-ai-vision.txt",
+        "referencePaths": [
+          "assets/hardware/petoi-bittle-x-ai-vision/product.jpg",
+          "assets/hardware/petoi-bittle-x-ai-vision/reference.png",
+          "assets/hardware/petoi-bittle-x-ai-vision/official-structure.jpg"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "anki-vector-2",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/anki-vector-2/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Vector 2.0功能模块概念爆炸图，内部布局为推断，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/anki-vector-2.txt",
+        "referencePaths": [
+          "assets/hardware/anki-vector-2/product.jpg",
+          "assets/hardware/anki-vector-2/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "petoi-quaddle-buddy",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/petoi-quaddle-buddy/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Quaddle Buddy功能模块概念爆炸图，内部布局为推断，非真实拆机",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/petoi-quaddle-buddy.txt",
+        "referencePaths": [
+          "assets/hardware/petoi-quaddle-buddy/product.jpg",
+          "assets/hardware/petoi-quaddle-buddy/reference.jpg",
+          "assets/hardware/petoi-quaddle-buddy/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "初稿曾误标云端；最终已修正为部署与模型未披露。初稿仅保留作修图溯源，不作为最终展示。"
+    ]
+  },
+  {
+    "id": "kitto-ai-cat",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/kitto-ai-cat/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "Kitto电子猫预售设计的功能概念图，内部为推断，未量产，未来代理功能不作为已交付",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/kitto-ai-cat.txt",
+        "referencePaths": [
+          "assets/hardware/kitto-ai-cat/product.png",
+          "assets/hardware/kitto-ai-cat/reference.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图中网络对话属于项目方预售功能说明，量产形态与实际效果待交付确认。"
+    ]
+  },
+  {
+    "id": "sharp-robohon-sr04m",
+    "images": [
+      {
+        "kind": "ai-exploded",
+        "path": "assets/hardware/sharp-robohon-sr04m/ai-exploded.png",
+        "caption": "AI 生成爆炸示意 · 非实物拆机",
+        "alt": "RoBoHoN Wi-Fi SR-04M-Y人形机器人功能概念图，背屏和双臂分开，偏好记忆与可选AI会话位于外部云服务",
+        "credit": "ImageGen · AI生成",
+        "generatedAt": "2026-11-06",
+        "promptPath": "content/hardware/prompts/sharp-robohon-sr04m.txt",
+        "referencePaths": [
+          "assets/hardware/sharp-robohon-sr04m/product.jpg",
+          "assets/hardware/sharp-robohon-sr04m/reference.png",
+          "assets/hardware/sharp-robohon-sr04m/ai-exploded-initial.png"
+        ],
+        "verified": true
+      }
+    ],
+    "notes": [
+      "初稿仅用于修图溯源；最终明确双臂、背部屏幕及云端记忆，未移植LTE电话或旧代投影功能。"
+    ]
+  }
+]

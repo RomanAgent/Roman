@@ -1,6 +1,6 @@
 # Millennium The King Performance
 
-**Millennium** · 游戏与桌游 · 核查 2026-11-04
+**Millennium** · AI玩具 · 核查 2026-11-06
 
 可配置对手风格的独立棋类电脑
 
@@ -30,11 +30,11 @@ Millennium The King Performance · 官方参考图 · 来源：[Millennium · �
 
 ## 销售与购买
 
-- 状态：在售。官方M830全新A-Goods页面显示Available和Add to shopping cart。页面配送文字含异常Instant download，不采信为实物交期；B-Goods及棋子套装不重复计数。
+- 状态：在售。官方商品页当前显示€284.87促销价、可加购和可供货；页面标注价格不含VAT及运费，实体产品的Instant download文案不能当真实物流承诺。
 
 - 地区：欧洲官方商店
 
-- 价格：官网 €284.87 未含VAT。核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。
+- 价格：官网 €284.87（未含VAT）。核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。
 
 - 中国大陆：本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。
 
@@ -250,7 +250,7 @@ The King Performance可用于研究实体棋具与可配置对手是否产生持
 
 ## 来源
 
-1. [The King Performance官方全新商品](<https://computerchess.com/en/The-King-Performance/M830>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+1. [The King Performance官方全新商品](<https://computerchess.com/en/The-King-Performance/M830>) — 官方商品页当前显示€284.87促销价、可加购和可供货；页面标注价格不含VAT及运费，实体产品的Instant download文案不能当真实物流承诺。 本轮仅重查销售与标价，技术研究保留各项原始来源。
 
 2. [Millennium官方手册与更新](<https://computerchess.com/en/Downloads/>) — 已实际打开官方页面；功能说明不等于独立性能测量。
 

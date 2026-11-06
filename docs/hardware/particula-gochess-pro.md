@@ -1,6 +1,6 @@
 # Particula GoChess Pro Modern
 
-**Particula** · 游戏与桌游 · 核查 2026-11-04
+**Particula** · AI玩具 · 核查 2026-11-04
 
 将应用棋力提示投射到实体棋盘
 

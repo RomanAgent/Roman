@@ -784,6 +784,186 @@
       "productName": "BirdWeather PUC",
       "category": "garden",
       "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "毛绒包覆下语音采集器件候选",
+      "rationale": "Infineon的MEMS麦克风可用于同类毛绒产品采音方案比较，重点应是拥抱遮挡、衣物摩擦和扬声器回声中的儿童语音质量。实际开孔、数量和声学结构必须另行设计，没有bondu供货关系证据，也不能由麦克风能力推导云端识别或儿童内容安全。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "bondu",
+      "productName": "bondu AI Plush",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "儿童语音输入的MEMS麦克风候选",
+      "rationale": "Infineon公开MEMS麦克风能力可作为同类机器人语音前端选择入口，尤其应检查轮式运动与自身扬声器产生的噪声。麦克风型号、数量和阵列设计仍需整机验证，不能由传感器推导识别或学习效果；未发现Miko Mini点名采用，因此仅列研发能力候选。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "miko-mini",
+      "productName": "Miko Mini",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "同类泰迪玩具麦克风输入候选",
+      "rationale": "Infineon的MEMS麦克风可用于同类泰迪的声音输入研究，需要针对长毛遮挡、手臂按键操作和连续聊天中自身播音的回声做整机验证。它不提供Meemo角色库或家长历史管理功能，当前未见品牌点名采用资料，候选关联不能解释为已确认零件或供应工厂。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "meemo-bear",
+      "productName": "Meemo Bear",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "自动聆听与按键模式的采音器件候选",
+      "rationale": "Infineon MEMS麦克风可用于研究同类玩具两种聆听模式下的输入质量，但具体触发、静音与回复逻辑需要整机软件实现。需测试衣物摩擦、抱持遮挡和自身扬声器回声；没有Ted点名器件或工厂的公开资料，关联只表示能力候选，不代表已确认供货。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "tedco-ted",
+      "productName": "Ted — Smart Teddy",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "角色毛绒语音采集器件候选",
+      "rationale": "Infineon MEMS麦克风可作为同类小丑风格毛绒的声音输入研究入口，但大头、长毛和拥抱姿势对采音的影响需要实际测试。具体声孔、阵列和回声处理未知，没有Babaru点名采用证据；选择器件不能替代模型内容、隐私规则和整机安全验证。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "babaru",
+      "productName": "Babaru Talking Plush",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "按键触发的儿童语音前端候选",
+      "rationale": "Infineon MEMS麦克风可作为同类长耳毛绒采音器件的研究入口，应测试拥抱遮挡、近距离呼吸和扬声器回声。麦克风本身不决定是否仅按键时上传，也不提供内容过滤；没有品牌点名供货资料，候选需结合整机电路、状态机和应用实测，不能推定Bloom实际BOM。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "skybloom-bloom",
+      "productName": "SkyBloom Bloom",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "同类产品语音输入方案候选",
+      "rationale": "若同类设计将采音集成到毛绒，Infineon MEMS麦克风可作为声音前端候选，但当前Wompy资料未完整说明输入器件位置与协议。需要先确认配对设备和玩具分工，再测试毛绒遮挡与回声，不能把这一条件性研究关联当作Wompy已采用或确定的内部模块。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "wompy",
+      "productName": "Wompy AI Plush",
+      "category": "ai-toys",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "可换毛绒载体中的语音采集候选",
+      "rationale": "Infineon MEMS麦克风可供同类语音盒采音研究，重点是不同毛绒外皮和放置方向造成的遮挡与回声差异。器件必须配合实际声孔、扬声器和角色装配验证，不能由一个角色效果推到所有外壳；未发现Curio实际供货资料，链接只是能力候选。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "curio-voicebox-2",
+      "productName": "Curio Voice Box 2 系列（Gabbo 代表）",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "腹部扬声器附近的儿童采音候选",
+      "rationale": "Infineon MEMS麦克风可用于研究类似Khelu面板附近的语音采集，必须测试扬声器回声、近距离抱持和多个家庭成员讲话。它不负责家长账户、模型训练许可或内容过滤，也没有该产品采用关系证据；器件能力与成品的识别质量、资料规则应分别验证。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s3",
+        "s4"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "kheelona-khelu",
+      "productName": "Kheelona Khelu / Kheelu",
+      "category": "ai-toys",
+      "status": "preorder"
+    },
+    {
+      "supplierId": "infineon",
+      "role": "acoustics",
+      "component": "同类毛绒语音输入器件候选",
+      "rationale": "Infineon MEMS麦克风可作为类似圆脸毛绒语音前端的能力候选，实际声孔、外皮厚度和采音布局需要等量产设计确定后验证。当前只有外观渲染和语音功能说明，没有品牌点名供货证据；不能把器件候选或概念图当作Nebu original已完成的内部设计。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1"
+      ],
+      "productId": "nebu-original",
+      "productName": "Nebu original",
+      "category": "ai-toys",
+      "status": "preorder"
     }
   ]
 }

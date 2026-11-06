@@ -184,6 +184,10 @@ Nordic在二〇二三年的官方案例中点名Ultrahuman Ring Air采用nRF5284
 
 - [Sunrise 家用下颌运动睡眠测试](../hardware/sunrise-home-sleep-test.md) — **能力候选 · 非已采用** / 同类单夜贴附记录器的BLE数据链候选：Nordic低功耗无线平台可研究单夜运动数据的Bluetooth传输、缓冲与断连恢复，需结合封装、电源和手机兼容验证。没有本产品采用来源，也不提供Sunrise的云分析与医疗解释；候选只对应相近新设计通信层，不意味着普通开发板即可成为个人睡眠检测设备。
 
+- [Babaru Talking Plush](../hardware/babaru.md) — **能力候选 · 非已采用** / 同类手机配对毛绒的低功耗连接候选：Nordic低功耗无线控制能力可用于同类毛绒和手机配对的研发研究，必须先确认采用的音频与控制协议及手机后台限制。它不证明Babaru使用该芯片，也不解决厂商尚未公开的应用兼容与模型服务边界；当前只有能力候选关系，不能据Bluetooth字样推定具体主控。
+
+- [PLAi Poe the AI Story Bear](../hardware/plai-poe.md) — **能力候选 · 非已采用** / 同类故事熊BLE控制链路候选：Nordic低功耗无线平台可用于同类故事熊的BLE控制、状态和下载管理研究，但官方Poe还使用Classic Bluetooth音频，因此单一BLE候选不能被视为完整替代方案。必须另验音频平台协同和手机连接行为；没有Skyrocket点名采用资料，关联仅是新设计能力候选。
+
 ## 来源
 
 - [nRF54H20](<https://www.nordicsemi.com/Products/nRF54H20>)：支持多核低功耗无线、接口、安全与产品咨询入口；不证明所有音频配置均可用。

@@ -1,0 +1,365 @@
+[
+  {
+    "id": "babaru",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/babaru/product.webp",
+        "sourceUrl": "https://www.babaru.ai/shop",
+        "sourceImageUrl": "https://www.babaru.ai/static/c517c361556acbda3ac5/product-gallery-01-optimized.webp",
+        "caption": "官方Babaru正面外观",
+        "alt": "官方Babaru正面外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/babaru/reference.webp",
+        "sourceUrl": "https://www.babaru.ai/shop",
+        "sourceImageUrl": "https://www.babaru.ai/static/2900923ce76e24a77ca1/product-gallery-02-optimized.webp",
+        "caption": "官方Babaru斜侧外观",
+        "alt": "官方Babaru斜侧外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "bondu",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/bondu/product.png",
+        "sourceUrl": "https://bondu.com/products/bondu",
+        "sourceImageUrl": "https://bondu.com/cdn/shop/files/Aqua_Scroll_2.png?v=1775614839&width=1412",
+        "caption": "官方Aqua恐龙外观",
+        "alt": "官方Aqua恐龙外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/bondu/reference.png",
+        "sourceUrl": "https://bondu.com/products/bondu",
+        "sourceImageUrl": "https://bondu.com/cdn/shop/files/Main_Hero.png?v=1775614839&width=1000",
+        "caption": "官方家庭使用场景，保留原广告字样",
+        "alt": "官方家庭使用场景，保留原广告字样",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "curio-voicebox-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/curio-voicebox-2/product.png",
+        "sourceUrl": "https://heycurio.com/products/v2/gabbo-gen-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0836/7934/7004/files/Conroy-Curio11-17-25-30.png?v=1763533003",
+        "caption": "官方Gabbo第二代系列代表外观",
+        "alt": "官方Gabbo第二代系列代表外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/curio-voicebox-2/reference.png",
+        "sourceUrl": "https://heycurio.com/products/v2/gabbo-gen-2",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0836/7934/7004/files/Conroy-Curio11-17-25-311.png?v=1763533003",
+        "caption": "官方Gabbo与Voice Box 2包装参考",
+        "alt": "官方Gabbo与Voice Box 2包装参考",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "kheelona-khelu",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/kheelona-khelu/product.webp",
+        "sourceUrl": "https://kheelona.com/",
+        "sourceImageUrl": "https://kheelona.com/assets/img/kheelu-800.22d962e874.webp",
+        "caption": "官方Khelu预售外观图，量产细节仍可变",
+        "alt": "官方Khelu预售外观图，量产细节仍可变",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/kheelona-khelu/reference.jpg",
+        "sourceUrl": "https://kheelona.com/",
+        "sourceImageUrl": "https://store.kheelona.com/video/moments/learning-by-asking.jpg",
+        "caption": "官方试用家庭视频封面，所示为试用阶段样品",
+        "alt": "官方试用家庭视频封面，所示为试用阶段样品",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "meemo-bear",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/meemo-bear/product.jpg",
+        "sourceUrl": "https://www.aimeemo.com/products/meemo-bear-1",
+        "sourceImageUrl": "https://img-va.myshopline.com/image/store/1766111890996/-1.jpg?h=780&w=638",
+        "caption": "官方棕色Meemo Bear外观",
+        "alt": "官方棕色Meemo Bear外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/meemo-bear/reference.png",
+        "sourceUrl": "https://www.aimeemo.com/products/meemo-bear-1",
+        "sourceImageUrl": "https://img-va.myshopline.com/image/store/1766111890996/--1.png?h=780&w=638",
+        "caption": "官方颜色、材质与维护参考；安全和效果用语为厂商宣传",
+        "alt": "官方颜色、材质与维护参考；安全和效果用语为厂商宣传",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "miko-mini",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/miko-mini/product.png",
+        "sourceUrl": "https://miko.ai/products/miko-mini",
+        "sourceImageUrl": "https://miko.ai/cdn/shop/files/mini-flatscreen-edit.png?v=1775629258&width=416",
+        "caption": "官方紫色Mini正面外观",
+        "alt": "官方紫色Mini正面外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/miko-mini/reference.jpg",
+        "sourceUrl": "https://miko.ai/products/miko-mini",
+        "sourceImageUrl": "https://miko.ai/cdn/shop/files/mini_purple_2.jpg?v=1775642070&width=416",
+        "caption": "官方Mini内容与Max权益参考图，权益以当前页面为准",
+        "alt": "官方Mini内容与Max权益参考图，权益以当前页面为准",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "nebu-original",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/nebu-original/product.webp",
+        "sourceUrl": "https://nebu.flow-telligence.com/productos/nebu-original",
+        "sourceImageUrl": "https://nebu.flow-telligence.com/assets/images/nebu-original-v1.webp",
+        "caption": "官方开发中外观渲染，最终设计未发布",
+        "alt": "官方开发中外观渲染，最终设计未发布",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/nebu-original/reference.jpg",
+        "sourceUrl": "https://nebu.flow-telligence.com/productos/nebu-original",
+        "sourceImageUrl": "https://nebu.flow-telligence.com/productos/nebu-original",
+        "caption": "官方预售网页截图，非另一实物照片；来源图链接指原网页",
+        "alt": "官方预售网页截图，非另一实物照片；来源图链接指原网页",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true,
+        "sourceCapture": true,
+        "note": "CUA截取当前官方网页；没有独立原图地址，sourceImageUrl指被截页面。"
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。",
+      "主图是官方开发中外观渲染；参考图是CUA截取的当前官网预售页面，无独立原图URL，sourceImageUrl指原网页，不是第二张实物照片。"
+    ]
+  },
+  {
+    "id": "plai-poe",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/plai-poe/product.png",
+        "sourceUrl": "https://poeaibear.com/",
+        "sourceImageUrl": "https://poeaibear.com/_astro/poe.D_GJNHBR_Z1BvOXp.webp",
+        "caption": "官方Poe故事熊外观",
+        "alt": "官方Poe故事熊外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/plai-poe/reference.png",
+        "sourceUrl": "https://poeaibear.com/",
+        "sourceImageUrl": "https://poeaibear.com/_astro/Character_Select.CRA_WFi4_Do2I5.webp",
+        "caption": "官方故事创作应用界面，图示故事币不代表当前额度",
+        "alt": "官方故事创作应用界面，图示故事币不代表当前额度",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "skybloom-bloom",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/skybloom-bloom/product.webp",
+        "sourceUrl": "https://www.meetskybloom.com/products",
+        "sourceImageUrl": "https://www.meetskybloom.com/images/product/bloom-pink-wide.webp",
+        "caption": "官方粉色Bloom产品外观",
+        "alt": "官方粉色Bloom产品外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/skybloom-bloom/reference.webp",
+        "sourceUrl": "https://www.meetskybloom.com/products",
+        "sourceImageUrl": "https://www.meetskybloom.com/images/product/bloom-pink-face.webp",
+        "caption": "官方Bloom塑料眼与侧部织物细节",
+        "alt": "官方Bloom塑料眼与侧部织物细节",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "tedco-ted",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/tedco-ted/product.png",
+        "sourceUrl": "https://tedco.ai/products/ted-smart-teddy",
+        "sourceImageUrl": "https://tedco.ai/cdn/shop/t/8/assets/plush1.png?v=21630934881267745571787907788",
+        "caption": "官方Ted正面外观",
+        "alt": "官方Ted正面外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/tedco-ted/reference.png",
+        "sourceUrl": "https://tedco.ai/products/ted-smart-teddy",
+        "sourceImageUrl": "https://tedco.ai/cdn/shop/t/8/assets/plush2.png?v=37156498802656051561787907787",
+        "caption": "官方Ted斜侧外观",
+        "alt": "官方Ted斜侧外观",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "wompy",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/wompy/product.webp",
+        "sourceUrl": "https://wompy.world/wompy/",
+        "sourceImageUrl": "https://wompy.world/assets/wompy-sample.webp",
+        "caption": "官方当前实物样品，非最终量产承诺",
+        "alt": "官方当前实物样品，非最终量产承诺",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/wompy/reference.webp",
+        "sourceUrl": "https://wompy.world/wompy/",
+        "sourceImageUrl": "https://wompy.world/assets/wompy-detail.webp",
+        "caption": "官方样品眼部与毛绒细节，非摄像头说明",
+        "alt": "官方样品眼部与毛绒细节，非摄像头说明",
+        "credit": "产品品牌官网",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片保留官方原貌；效果、安全与性能宣传不代表本目录独立验证。"
+    ]
+  },
+  {
+    "id": "skybuds-ash",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/skybuds-ash/product.webp",
+        "sourceUrl": "https://getskybuds.com/products/ash",
+        "sourceImageUrl": "https://getskybuds.com/cdn/products/ash-0-1080.webp",
+        "caption": "Ash官方商品图片",
+        "alt": "SkyBuds Ash金橙色刺绣面部小龙毛绒",
+        "credit": "SkyBuds / Firefly Jar · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/skybuds-ash/reference.webp",
+        "sourceUrl": "https://getskybuds.com/products/ash",
+        "sourceImageUrl": "https://getskybuds.com/cdn/products/ash-life-4-1080.webp",
+        "caption": "Ash官方外观与场景参考",
+        "alt": "SkyBuds Ash金橙色刺绣面部小龙毛绒",
+        "credit": "SkyBuds / Firefly Jar · 官方图片",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "保留对应型号官方原图；原图所含认证徽章不视为本研究独立审计，角色和配色不重复计数。"
+    ]
+  }
+]

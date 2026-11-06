@@ -1,6 +1,6 @@
 # Nex Playground
 
-**Nex** · 游戏与桌游 · 核查 2026-11-04
+**Nex** · AI玩具 · 核查 2026-11-06
 
 用本机视觉识别身体动作的电视体感游戏主机
 
@@ -34,11 +34,11 @@ Nex Playground 官方外观与使用参考图 · 来源：[Nex · 官方资料](
 
 ## 销售与购买
 
-- 状态：在售。核查日官方商店显示US$299购买入口；官方购买地区页列美国官网及美国、加拿大、德国、英国和爱尔兰零售渠道。官网直送范围仅美国，不推断中国可直邮。
+- 状态：在售。官方商店当前列US$299和购买入口，并链接Amazon、Walmart、Target等零售商；Play Pass属于额外内容服务，不把硬件价当作完整内容长期费用。
 
 - 地区：美国、加拿大、德国、英国、爱尔兰
 
-- 价格：官方硬件US$299。含5款入门游戏；可选Play Pass核查价US$89/12个月或US$49/3个月。内容、税费与地区价格以官网为准。
+- 价格：官网 US$299。含5款入门游戏；可选Play Pass核查价US$89/12个月或US$49/3个月。内容、税费与地区价格以官网为准。
 
 - 中国大陆：已核官方销售地区不含中国大陆，官网直送仅美国；未核大陆授权商及内容服务支持。跨境持有硬件不等于本地售后或订阅可用。
 
@@ -256,7 +256,7 @@ Arducam可作为相机模组与视觉集成能力候选，JLCPCB可作为原型�
 
 ## 来源
 
-1. [Nex Playground官方商店](<https://www.nexplayground.com/shop/nex-playground>) — 实际打开；硬件价格与购买、含入门游戏、接口和隐私盖。
+1. [Nex Playground官方商店](<https://www.nexplayground.com/shop/nex-playground>) — 官方商店当前列US$299和购买入口，并链接Amazon、Walmart、Target等零售商；Play Pass属于额外内容服务，不把硬件价当作完整内容长期费用。 本轮仅重查销售与标价，技术研究保留各项原始来源。
 
 2. [Nex动作追踪官方说明](<https://support.nexplayground.com/en/articles/13139469-how-does-the-nex-playground-track-my-movements>) — 实际打开；本机CV/AI、身体关键点、多人和离线运行。
 

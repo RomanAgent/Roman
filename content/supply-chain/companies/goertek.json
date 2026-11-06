@@ -229,7 +229,7 @@
       ],
       "productId": "casio-moflin",
       "productName": "Moflin",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -248,7 +248,7 @@
       ],
       "productId": "curio-grok",
       "productName": "Curio Grok",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "preorder"
     },
     {
@@ -267,7 +267,7 @@
       ],
       "productId": "eilik-ai-station",
       "productName": "Eilik + AI Station",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -286,7 +286,7 @@
       ],
       "productId": "lovot-3",
       "productName": "LOVOT 3.0",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -305,7 +305,7 @@
       ],
       "productId": "haivivi-bubblepal",
       "productName": "Haivivi BubblePal",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -324,7 +324,7 @@
       ],
       "productId": "livingai-aibi-pocket",
       "productName": "LivingAI AIBI Pocket",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -343,7 +343,7 @@
       ],
       "productId": "livingai-emo",
       "productName": "EMO",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -362,7 +362,7 @@
       ],
       "productId": "romi-lacatan",
       "productName": "Romi Lacatan",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -381,7 +381,7 @@
       ],
       "productId": "panasonic-nicobo",
       "productName": "Panasonic NICOBO",
-      "category": "companion",
+      "category": "ai-toys",
       "status": "on_sale"
     },
     {
@@ -419,8 +419,8 @@
       ],
       "productId": "miko-3",
       "productName": "Miko 3",
-      "category": "education",
-      "status": "needs_check"
+      "category": "ai-toys",
+      "status": "on_sale"
     },
     {
       "supplierId": "goertek",
@@ -705,6 +705,81 @@
       "productId": "amazon-echo-studio-home-camera",
       "productName": "Amazon Echo Studio with Home Camera",
       "category": "home-assistant",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "音频、外观与整机整合候选",
+      "rationale": "歌尔公开声学、精密结构及智能硬件整合能力可匹配随身电子宠物的多模块协同；没有Fuzozo实际采用证据，仍需核实毛绒装配、触摸校准、体积和项目合作条件，不能据能力推定供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "fuzozo-ai-pet",
+      "productName": "Fuzozo 芙崽 AI Pet（英语版）",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "随身毛绒电子宠物整机整合",
+      "rationale": "公开声学、结构和智能硬件整合能力可作为憨憨同类方案的工程候选，但没有本型号采用证据；需另核毛绒固定、触摸识别、无线遮挡与量产检测，不能据公司规模推定其已供货。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "wiko-hanhan-cellular",
+      "productName": "WIKO 智能憨憨蜂窝版 FZ1012",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "engineering",
+      "relationship": "candidate",
+      "component": "循声转头与声学结构协同",
+      "rationale": "歌尔公开的声学、精密结构和整机工程能力可供同类转头萌宠选型，但没有星仔采用证据；具体驱动、磁吸固定、毛绒间隙与寿命测试仍需确认，不能把能力名单当成已建立采购关系。",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s1",
+        "s2"
+      ],
+      "productId": "wiko-xingzai",
+      "productName": "WIKO 星仔 XZAI-W00",
+      "category": "ai-toys",
+      "status": "on_sale"
+    },
+    {
+      "supplierId": "goertek",
+      "role": "acoustics",
+      "component": "同类故事播放玩具的电声器件与结构候选",
+      "rationale": "歌尔公开的声学器件及工程能力可作为类似故事熊扬声器和电声结构的研究入口，但毛绒包覆、儿童音量、电池供电和口部动作都需专项验证。当前未发现其为Poe供货或代工的证据，不能将候选扩大为实际装配工厂，也不包含云故事生成服务。",
+      "relationship": "candidate",
+      "sourceIds": [
+        "s1",
+        "s2"
+      ],
+      "supplierSourceIds": [
+        "s2"
+      ],
+      "productId": "plai-poe",
+      "productName": "PLAi Poe the AI Story Bear",
+      "category": "ai-toys",
       "status": "on_sale"
     }
   ]

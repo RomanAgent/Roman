@@ -1,0 +1,274 @@
+[
+  {
+    "id": "ropet-kamomo",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/ropet-kamomo/product.png",
+        "sourceUrl": "https://ropetai.com/products/ropet%E2%84%A2-ai-comfort-companion-plush-robot",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0671/5860/6018/files/ropetaicompanionpet.png?v=1791880303",
+        "caption": "Ropet KAMOMO 官方产品图（厂商资料）",
+        "alt": "Ropet KAMOMO的外观主图",
+        "credit": "Ropet 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/ropet-kamomo/reference.png",
+        "sourceUrl": "https://ropetai.com/products/ropet%E2%84%A2-ai-comfort-companion-plush-robot",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0671/5860/6018/files/ropetAicompanionrobotpet.png?v=1791880304",
+        "caption": "Ropet KAMOMO 官方外形或使用参考（厂商资料）",
+        "alt": "Ropet KAMOMO的另一视角或使用场景",
+        "credit": "Ropet 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "switchbot-kata-friends",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/switchbot-kata-friends/product.jpg",
+        "sourceUrl": "https://us.switch-bot.com/products/katafriends",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0648/1569/4057/files/Noa-1_3x_f38f33c5-62fe-4252-be07-7a5914a13e0c.webp?v=1778150711",
+        "caption": "KATA Friends 官方产品图（厂商资料）",
+        "alt": "KATA Friends的外观主图",
+        "credit": "SwitchBot 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/switchbot-kata-friends/reference.jpg",
+        "sourceUrl": "https://us.switch-bot.com/products/katafriends",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0648/1569/4057/files/Noa-2_3x_389ade94-9a0c-4f24-8044-2dc0b40d7faa.webp?v=1778150711",
+        "caption": "KATA Friends 官方外形或使用参考（厂商资料）",
+        "alt": "KATA Friends的另一视角或使用场景",
+        "credit": "SwitchBot 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "doly-robot",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/doly-robot/product.jpg",
+        "sourceUrl": "https://shop.doly.ai/products/doly",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0785/5308/8236/files/doly.jpg?v=1774476099",
+        "caption": "Doly 官方产品图（厂商资料）",
+        "alt": "Doly的外观主图",
+        "credit": "Limitbit / Doly 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/doly-robot/reference.webp",
+        "sourceUrl": "https://doly.ai/companion/",
+        "sourceImageUrl": "https://doly.ai/wp-content/uploads/2026/03/self_charge.webp",
+        "caption": "Doly 官方外形或使用参考（厂商资料）",
+        "alt": "Doly的另一视角或使用场景",
+        "credit": "Limitbit / Doly 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "energizelab-eiliko",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/energizelab-eiliko/product.png",
+        "sourceUrl": "https://store.energizelab.com/products/eiliko",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0601/5349/5720/files/eiliko-blue-thum_new_first_01_a1ef9584-f6ca-45a4-96ff-d8510cce21c4.png?v=1793869881",
+        "caption": "Eiliko 官方产品图（厂商资料）",
+        "alt": "Eiliko的外观主图",
+        "credit": "EnergizeLab 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/energizelab-eiliko/reference.png",
+        "sourceUrl": "https://store.energizelab.com/products/eiliko",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0601/5349/5720/files/eilik-blue-with-price_new_3f351915-76aa-463a-9744-a224c3769a49.png?v=1793095849",
+        "caption": "Eiliko 官方外形或使用参考（厂商资料）",
+        "alt": "Eiliko的另一视角或使用场景",
+        "credit": "EnergizeLab 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "petoi-bittle-x-ai-vision",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/petoi-bittle-x-ai-vision/product.jpg",
+        "sourceUrl": "https://www.petoi.com/products/petoi-robot-dog-bittle-x-voice-controlled",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/2015/9160/files/Black_YellowBittleXV2robotdog.jpg?v=1776028399",
+        "caption": "Bittle X V2 + AI Vision Module 官方产品图（厂商资料）",
+        "alt": "Bittle X V2 + AI Vision Module的外观主图",
+        "credit": "Petoi 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/petoi-bittle-x-ai-vision/reference.png",
+        "sourceUrl": "https://www.petoi.com/products/petoi-ai-vision-module-for-arduino",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/2015/9160/files/Screenshot_2024-11-05_at_23.11.59.png?v=1782525606",
+        "caption": "Bittle X V2 + AI Vision Module 官方外形或使用参考（厂商资料）",
+        "alt": "Bittle X V2 + AI Vision Module的另一视角或使用场景",
+        "credit": "Petoi 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "official-structure",
+        "path": "assets/hardware/petoi-bittle-x-ai-vision/official-structure.jpg",
+        "sourceUrl": "https://www.petoi.com/products/petoi-ai-vision-module-for-arduino",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/2015/9160/files/grove-vision-ai-v2.jpg?v=1775846208",
+        "caption": "Bittle X V2 + AI Vision Module 官方外形或使用参考（厂商资料）",
+        "alt": "Bittle X V2 + AI Vision Module的另一视角或使用场景",
+        "credit": "Petoi 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "主图为Bittle X V2基础本体；参考与模块图为另购AI Vision Module，非默认随箱配置。"
+    ]
+  },
+  {
+    "id": "anki-vector-2",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/anki-vector-2/product.jpg",
+        "sourceUrl": "https://anki.bot/products/vector-robot",
+        "sourceImageUrl": "https://anki.bot/cdn/shop/products/Vector_Product_LookingRight_1000px.jpg?v=1680192051&width=1000",
+        "caption": "Vector 2.0 官方产品图（厂商资料）",
+        "alt": "Vector 2.0的外观主图",
+        "credit": "Anki / Digital Dream Labs 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/anki-vector-2/reference.png",
+        "sourceUrl": "https://anki.bot/products/vector-robot",
+        "sourceImageUrl": "https://anki.bot/cdn/shop/products/Screenshot2023-03-15at12.48.26PM.png?v=1678993542&width=1880",
+        "caption": "Vector 2.0 官方外形或使用参考（厂商资料）",
+        "alt": "Vector 2.0的另一视角或使用场景",
+        "credit": "Anki / Digital Dream Labs 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "petoi-quaddle-buddy",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/petoi-quaddle-buddy/product.jpg",
+        "sourceUrl": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/2015/9160/files/quaddle-blue-medic.webp?v=1784535355&width=2048",
+        "caption": "Quaddle Buddy 官方产品图（厂商资料）",
+        "alt": "Quaddle Buddy的外观主图",
+        "credit": "Petoi 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/petoi-quaddle-buddy/reference.jpg",
+        "sourceUrl": "https://www.petoi.com/pages/quaddle-educational-robot-kit",
+        "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0550/2015/9160/files/quaddle-blue-standing-arm-up-v2.webp?v=1784826511&width=2048",
+        "caption": "Quaddle Buddy 官方外形或使用参考（厂商资料）",
+        "alt": "Quaddle Buddy的另一视角或使用场景",
+        "credit": "Petoi 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "两张真实来源图为厂商预售设计资料，不能证明量产出货外观；生成图另标非实物拆机。"
+    ]
+  },
+  {
+    "id": "kitto-ai-cat",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/kitto-ai-cat/product.png",
+        "sourceUrl": "https://www.kickstarter.com/projects/kitto/kitto-true-ai-agent-toy/description",
+        "sourceImageUrl": "https://i.kickstarter.com/assets/054/551/727/5379f751068443fea8f9551ef2eae864_original.png?anim=false&fit=cover&gravity=auto&height=576&origin=ugc&q=92&v=1784972570&width=1024&sig=X2sFdopgXoDAziM1ukospL5iCRYpfKiqS%2BmPwreZig4%3D",
+        "caption": "Kitto 官方众筹封面（原型 / 预售设计资料）",
+        "alt": "Kitto AI Cat的外观主图",
+        "credit": "Kitto / Jason Wei 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/kitto-ai-cat/reference.png",
+        "sourceUrl": "https://www.kickstarter.com/projects/kitto/kitto-true-ai-agent-toy/description",
+        "sourceImageUrl": "https://i.kickstarter.com/assets/055/429/455/91d849eb8aaf8af2f8951481657793e2_original.png?fit=scale-down&origin=ugc&q=100&v=1791430251&width=680&sig=qrNxU4uTjq%2B%2BqAIFHs1lsUqqm7Xz9UPm%2B2v1%2B0MCujE%3D",
+        "caption": "Kitto 白色版本官方预售设计参考（非量产证明）",
+        "alt": "Kitto AI Cat的另一视角或使用场景",
+        "credit": "Kitto / Jason Wei 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "图片为官方众筹封面和预售外形设计，不是量产交付证明。封面OpenClaw文字属于项目宣传，正文明确深度集成仍为未来计划。",
+      "浏览器实际导出资源为AVIF；只进行无语义PNG格式转换，未改色、裁切或重绘。"
+    ]
+  },
+  {
+    "id": "sharp-robohon-sr04m",
+    "images": [
+      {
+        "kind": "product",
+        "path": "assets/hardware/sharp-robohon-sr04m/product.jpg",
+        "sourceUrl": "https://cocorostore.sharp.co.jp/robohon/body/sr-04m-set",
+        "sourceImageUrl": "https://cocorostore.sharp.co.jp/media/catalog/product/cache/6/image/9df78eab33525d08d6e5fb8d27136e95/r/o/robohon_wifi_850x850_2.jpg",
+        "caption": "RoBoHoN Wi-Fi SR-04M-Y官方本体图（AI会話为另购服务）",
+        "alt": "RoBoHoN Wi-Fi SR-04M-Y + AI会話的外观主图",
+        "credit": "Sharp 夏普 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      },
+      {
+        "kind": "reference",
+        "path": "assets/hardware/sharp-robohon-sr04m/reference.png",
+        "sourceUrl": "https://robohon.com/product/robohon.php",
+        "sourceImageUrl": "https://robohon.com/assets/renewal/img/common/figure_lineup_wifi.png",
+        "caption": "RoBoHoN Wi-Fi型号官方另一视角参考",
+        "alt": "RoBoHoN Wi-Fi SR-04M-Y + AI会話的另一视角或使用场景",
+        "credit": "Sharp 夏普 官方资料",
+        "checkedAt": "2026-11-06",
+        "verified": true
+      }
+    ],
+    "notes": [
+      "两张素材分别来自SR-04M-Y官方商品页与Wi-Fi型号对照图，未混用旧代投影/LTE型号能力。"
+    ]
+  }
+]

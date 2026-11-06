@@ -11,7 +11,7 @@ const hashes=new Set();
 let imageCount=0;
 for(const p of c.products){
  const images=p.images||[];
- assert(images.some(i=>i.kind==='product'),`${p.id} 缺真实产品图`);
+ assert(images.some(i=>i.kind==='product'),`${p.id} 缺少有来源的产品图`);
  assert(images.some(i=>['reference','official-structure'].includes(i.kind)),`${p.id} 缺参考图`);
  const ai=images.filter(i=>i.kind==='ai-exploded');assert.equal(ai.length,1,`${p.id} 需要一张已检查的AI爆炸示意`);
  const expected=manifests.filter(m=>m.id===p.id).flatMap(m=>m.images).sort((a,b)=>kindOrder[a.kind]-kindOrder[b.kind]);
@@ -31,4 +31,4 @@ for(const p of c.products){
   imageCount++;
  }
 }
-console.log(`图片完整性检查通过：${c.products.length}款产品均有真实产品图、参考图及独立AI爆炸图，共${imageCount}张；来源、提示词与文件校验一致。`);
+console.log(`图片完整性检查通过：${c.products.length}款产品均具备有来源的产品图、参考图及独立AI爆炸图，共${imageCount}张；来源、提示词与文件校验一致。`);

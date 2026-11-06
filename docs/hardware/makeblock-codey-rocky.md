@@ -1,6 +1,6 @@
 # Makeblock Codey Rocky
 
-**Makeblock** · 教育与学习 · 核查 2026-11-04
+**Makeblock** · AI玩具 · 核查 2026-11-04
 
 以表情与履带动作承载AI编程项目
 
@@ -252,12 +252,12 @@ AI 能力主要通过 mBlock 学习生态提供，人脸等识别项目依赖外
 
 ## 来源
 
-1. [Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+1. [Codey Rocky官方单机商品](<https://www.makeblock.com/products/buy-codey-rocky>) — 已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。
 
-2. [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+2. [Makeblock官方AI项目说明](<https://www.makeblock.com/blogs/for-educators/ai-projects>) — 已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。
 
-3. [Makeblock家庭项目与识别能力](<https://www.makeblock.com/blogs/for-family/10-engaging-stem-activities-for-kids-in-2023>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+3. [Makeblock家庭项目与识别能力](<https://www.makeblock.com/blogs/for-family/10-engaging-stem-activities-for-kids-in-2023>) — 已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。
 
-4. [Codey Rocky官方能力边界FAQ](<https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+4. [Codey Rocky官方能力边界FAQ](<https://support.makeblock.com/hc/en-us/articles/1500004266501-FAQs-on-Codey-Rocky>) — 已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/makeblock-codey-rocky)

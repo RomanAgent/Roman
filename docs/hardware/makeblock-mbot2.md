@@ -1,6 +1,6 @@
 # Makeblock mBot2
 
-**Makeblock** · 教育与学习 · 核查 2026-11-04
+**Makeblock** · AI玩具 · 核查 2026-11-04
 
 让语音识别结果驱动可编程机器人
 
@@ -252,10 +252,10 @@ Seeed 可作为可编程硬件工程与制造候选，SIIX 可支持控制板及
 
 ## 来源
 
-1. [mBot2官方单机购买页](<https://www.makeblock.com/products/buy-mbot2>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+1. [mBot2官方单机购买页](<https://www.makeblock.com/products/buy-mbot2>) — 已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。
 
-2. [mBot2官方课后课程指南](<https://res-us.makeblock.com/doc/course/mBot2/After-school%20program%20guide%20for%20mBot2.pdf>) — 已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。
+2. [mBot2官方课后课程指南](<https://res-us.makeblock.com/doc/course/mBot2/After-school%20program%20guide%20for%20mBot2.pdf>) — 已打开官方PDF，课程明确云语音识别及电脑摄像头机器学习。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。
 
-3. [mBot2官方能力与扩展区分](<https://www.makeblock.com/pages/mbot2-coding-robot>) — 已实际打开官方页面；功能说明不等于独立性能测量。
+3. [mBot2官方能力与扩展区分](<https://www.makeblock.com/pages/mbot2-coding-robot>) — 已实际打开官方页面；功能说明不等于独立性能测量。 2026-11-06复核：海外网页正文仍可读取；部分地区请求会转至xTool中国首页，不能据此推断原产品停售。两款官方商品页仅承诺美国本土配送。
 
 [返回目录](../hardware-market.md) · [网页分析](https://romanagent.github.io/Roman/#hardware/product/makeblock-mbot2)

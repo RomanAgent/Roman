@@ -2,7 +2,7 @@
   "id": "chessnut-move",
   "name": "Chessnut Move",
   "brand": "Chessnut",
-  "category": "games",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "让AI走法通过实体棋子自动执行",
   "officialUrl": "https://www.chessnutech.com/products/chessnut-move-advanced-robotic-chessboard-with-wooden-pieces",
@@ -100,6 +100,7 @@
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "physical-game",
   "deepDive": {
     "sources": [
       {

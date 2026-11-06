@@ -2,16 +2,16 @@
   "id": "dgt-centaur",
   "name": "DGT Centaur",
   "brand": "DGT",
-  "category": "games",
+  "category": "ai-toys",
   "audience": "consumer",
   "tagline": "根据对局表现调整棋力",
   "officialUrl": "https://www.dgtshop.com/products/chess-computers-2/centaur-chess-computer-2",
-  "statusEvidence": "DGT官方商店列出价格及Add to cart；只计普通Centaur，不另计透明Crystal外观版本。",
+  "statusEvidence": "DGT官方商店列€400含税价与Add to Cart，未税价另列；运费与地区税费按实际结算确认。",
   "regions": [
     "欧洲官方商店"
   ],
   "price": {
-    "text": "官方商店 €400 含税",
+    "text": "官方 €400（含税）",
     "note": "核查日页面快照；运费、税费、会员和配送区域按官方结算确认，不视为中国到手价。"
   },
   "ai": {
@@ -69,7 +69,7 @@
         "status",
         "price"
       ],
-      "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
+      "note": "DGT官方商店列€400含税价与Add to Cart，未税价另列；运费与地区税费按实际结算确认。 本轮仅重查销售与标价，技术研究保留各项原始来源。"
     },
     {
       "title": "DGT Centaur官方功能",
@@ -82,13 +82,14 @@
       "note": "已实际打开官方页面；功能说明不等于独立性能测量。"
     }
   ],
-  "checkedAt": "2026-11-04",
+  "checkedAt": "2026-11-06",
   "status": "on_sale",
   "saleMode": "retail",
   "china": {
     "availability": "unclear",
     "note": "本轮核实所列区域官方商店；未确认中国大陆官方现货、账户及完整服务，不把境外可购等同大陆可用。"
   },
+  "toyKind": "physical-game",
   "deepDive": {
     "sources": [
       {

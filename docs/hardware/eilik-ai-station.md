@@ -1,6 +1,6 @@
 # Eilik + AI Station
 
-**EnergizeLab** · 陪伴与宠物 · 核查 2026-11-04
+**EnergizeLab** · AI玩具 · 核查 2026-11-04
 
 从触碰表情玩具扩展为可对话的桌面组合
 
