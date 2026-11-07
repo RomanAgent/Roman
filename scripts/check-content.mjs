@@ -32,6 +32,27 @@ for (const article of articles) {
     }
   }
 }
+const outline = json('journey-outline.json');
+for (const key of ['title', 'description', 'scopeNote']) assert(outline[key]?.length, `章节目录缺少 ${key}`);
+assert.match(outline.updatedAt, /^\d{4}-\d{2}-\d{2}$/);
+assert(outline.facts.length && outline.facts.every(f => f.label && f.value && f.note));
+assert(outline.writingSteps.length && outline.writingSteps.every(s => s.title && s.text));
+const outlineIds = new Set();
+assert(outline.chapters.length > 1);
+for (const [index, chapter] of outline.chapters.entries()) {
+  assert.equal(chapter.number, index, '目录应从序章开始连续编号');
+  assert.match(chapter.id, /^[a-z0-9-]+$/);
+  assert(!outlineIds.has(chapter.id), `目录ID重复：${chapter.id}`); outlineIds.add(chapter.id);
+  assert(chapter.title && chapter.summary && chapter.records);
+  assert(['awaiting', 'research', 'future'].includes(chapter.status), `未知目录状态：${chapter.status}`);
+  if (chapter.articleId) {
+    const article = articles.find(a => a.id === chapter.articleId);
+    assert(article?.category === 'journey', `目录文章不存在：${chapter.articleId}`);
+    assert.equal(chapter.status, 'research', '只有已有研究的目录项可以链接现有研究文章');
+    assert.equal(article.chapter, chapter.number, '目录与文章章节编号不一致');
+  }
+  if (chapter.status === 'research') assert(chapter.articleId, '研究状态必须链接实际文章');
+}
 let previousYear = 0;
 for (const milestone of history.milestones) {
   assert(Number(milestone.year) > previousYear, '时间线必须按年份递增');
@@ -41,3 +62,4 @@ for (const milestone of history.milestones) {
 }
 for (const path of ['index.html','styles.css','journal.css','app.js','assets/favicon.svg','content/journey-template.md']) assert(existsSync(new URL(`../${path}`, import.meta.url)), `文件缺失: ${path}`);
 console.log(`内容检查通过：${history.milestones.length} 个历史节点、${articles.length} 篇文章，ID、引用和页面资源完整。`);
+console.log(`创业目录检查通过：${outline.chapters.length} 个目录项，独立于文章计数。`);

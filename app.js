@@ -2,6 +2,7 @@
 const main = document.querySelector('main');
 const categoryNames = { ai: 'AI目录', journey: '创业手记', hardware: '智能硬件' };
 let historyData;
+let journeyOutline;
 let articles = [];
 let selectedFilter = 'all';
 const escapeHTML = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -21,7 +22,7 @@ function pageIntro(section, title, description) {
 function renderHome() {
   const directions = [
     ['ai', '01', 'AI目录', '按公司与产品梳理AI产业，研究需求、技术、竞争与商业模式。', '全球公司与重点产品 · 八维研究'],
-    ['journey', '02', '我的创业经历', '留下每一次选择、行动与复盘，让走过的路有迹可循。', '第一章 · 公司注册与主体选择'],
+    ['journey', '02', '我的创业经历', '留下每一次选择、行动与复盘，让走过的路有迹可循。', 'YotureToys · 序章与19章目录'],
     ['hardware', '03', '智能硬件目录', '研究在售与预售产品，拆解需求、技术、供应链与设计。', '全球市场目录 · 逐款分析']
   ];
   main.innerHTML = `<div class="page page-transition"><section class="hero" aria-labelledby="hero-title"><div class="hero-copy"><div class="eyebrow hero-eyebrow">ROMAN / PERSONAL ARCHIVE</div><h1 id="hero-title">记录经历，<br>也记录判断。</h1><div class="hero-actions"><a href="#journey" class="button-primary">阅读创业手记 <span aria-hidden="true">↗</span></a><a href="#ai" class="text-link">查看AI目录 <span aria-hidden="true">→</span></a></div></div><div class="hero-about"><span class="section-number">ABOUT THIS ARCHIVE</span><p>关于行业变化、创业实践，<br>以及智能硬件的未来方向。</p><p class="hero-description">把做过的事、当时的想法，和仍在思考的问题，放在这里。逐篇记录，慢慢完善。</p><div class="hero-footnote">EST. 2026 <span>持续更新的个人档案</span></div></div></section><section class="section-rule" aria-labelledby="directions-heading"><div class="section-heading"><div><span class="section-number">01 / EXPLORING</span><h2 id="directions-heading">记录的三个方向</h2></div><p>CONTENTS / 01 — 03</p></div><div class="directions">${directions.map(([id, num, title, description, caption]) => `<a href="#${id}" class="direction direction-${id}"><div class="direction-top"><span>${num}</span></div><h3>${title}</h3><p>${description}</p><div class="direction-bottom"><span>${caption}</span><span aria-hidden="true">↗</span></div></a>`).join('')}</div></section><section aria-labelledby="records-title"><div class="records-head"><div class="section-heading"><div><span class="section-number">02 / RECENT NOTES</span><h2 id="records-title">最近的记录</h2></div></div><div class="filters" aria-label="筛选记录">${[['all', '全部记录'], ...Object.entries(categoryNames)].map(([id, label]) => `<button type="button" class="filter" data-filter="${id}" aria-pressed="${selectedFilter === id}">${label}</button>`).join('')}</div></div><div class="records-grid" id="records"></div><p class="record-count" id="record-count" role="status" aria-live="polite"></p></section><aside class="home-note"><div><blockquote>保留当时的想法，也允许未来的修正。</blockquote><p>这份记录，会随着新的经历继续更新。</p></div><a href="#journey" class="text-link">继续阅读 <span aria-hidden="true">↗</span></a></aside></div>`;
@@ -36,8 +37,15 @@ function renderRecords() {
 function renderAIHistory() {
   main.innerHTML = `<div class="page page-transition">${pageIntro('ARCHIVE / AI HISTORY', 'AI历史资料', e(historyData.description)).replace('href="#home"','href="#ai"').replace('← 返回首页','← 返回AI目录')}<div class="scope-note"><span aria-hidden="true">◎</span><p>${e(historyData.scopeNote)}</p></div><div class="timeline-layout"><aside class="timeline-sidebar"><p>KEY MOMENTS</p><nav class="year-nav" aria-label="AI 时间线年份">${historyData.milestones.map(m => `<a href="#ai/history/${m.year}">${m.year}</a>`).join('')}</nav></aside><div class="timeline">${historyData.milestones.map(m => `<section class="milestone" id="year-${e(m.year)}"><div class="milestone-head"><span class="milestone-year">${e(m.year)}</span><h2>${e(m.title)}</h2></div><p>${e(m.summary)}</p><div class="insight"><span>${e(m.insightLabel)}</span>${e(m.insight)}</div><a class="source-link" href="${safeURL(m.source.url)}" target="_blank" rel="noopener noreferrer">原始资料 · ${e(m.source.title)} ↗</a></section>`).join('')}</div></div><section class="section-rule">${sectionHeading('READ FURTHER', '行业观察')}<div class="records-grid">${articles.filter(a => a.category === 'ai').map(articleCard).join('')}</div></section></div>`;
 }
-function renderJourney() {
-  main.innerHTML = `<div class="page page-transition">${pageIntro('02 / NOTES FROM THE JOURNEY', '我的创业经历', '记录出发的原因、途中的选择，以及每一次重新理解问题的时刻。经历会逐段补充，思考也会不断更新。')}<div class="scope-note"><span aria-hidden="true">✎</span><p>第一章从公司注册与主体选择开始，围绕深圳研发、国内与跨境电商的筹备问题展开。已经明确的业务方向、公开规则与待决定事项分别记录；具体注册、开户和融资结果由本人后续补充。</p></div><div class="journey-layout"><section class="journal-list" aria-label="创业手记">${articles.filter(a => a.category === 'journey').map(articleCard).join('')}</section><aside class="journey-aside"><div class="eyebrow">A LIVING ARCHIVE</div><h2>关于这份记录</h2><p>不只记下发生了什么，也留下当时为什么这样想。这会成为一份能回头阅读的成长记录。</p><ol class="journey-steps"><li><span>01</span><div>当时的处境<small>时间、背景，以及真正面对的问题</small></div></li><li><span>02</span><div>做出的选择<small>尝试过什么，为什么这样决定</small></div></li><li><span>03</span><div>结果与复盘<small>发生了什么，如今如何重新理解</small></div></li><li><span>04</span><div>下一步行动<small>哪些判断要保留，哪些需要验证</small></div></li></ol><a class="template-link" href="content/journey-template.md" download>下载一段经历的记录模板 <span aria-hidden="true">↓</span></a></aside></div></div>`;
+const journeyStatusLabels = { awaiting: '待补充经历', research: '已有筹备研究', future: '未来思考' };
+function renderJourney(chapterId) {
+  const outline = journeyOutline;
+  const chapters = outline.chapters.map(chapter => `<li><details class="journey-chapter" id="journey-${e(chapter.id)}"><summary><span class="journey-chapter-number">${chapter.number === 0 ? '序章' : String(chapter.number).padStart(2, '0')}</span><span class="journey-chapter-title">${e(chapter.title)}</span><span class="journey-chapter-status">${e(journeyStatusLabels[chapter.status])}</span><span class="journey-chapter-toggle" aria-hidden="true">+</span></summary><div class="journey-chapter-body"><p>${e(chapter.summary)}</p><p class="journey-chapter-records"><strong>值得留下的记录</strong>${e(chapter.records)}</p>${chapter.status === 'research' ? '<p class="journey-chapter-note">现有内容为筹备研究；本章真实注册过程、选择与支出，待本人补充。</p>' : ''}<div class="journey-chapter-links">${chapter.articleId ? `<a class="text-link" href="#article/${e(chapter.articleId)}">阅读现有筹备研究 →</a>` : ''}<a class="text-link" href="#journey/${e(chapter.id)}" aria-label="${e(chapter.title)}的章节链接">章节链接 ↗</a></div></div></details></li>`).join('');
+  main.innerHTML = `<div class="page journey-page page-transition">${pageIntro('02 / NOTES FROM THE JOURNEY', '我的创业经历', e(outline.description))}<section class="journey-overview" aria-labelledby="journey-brand-title"><div class="journey-overview-heading"><div><span class="section-number">A COMPANY / A JOURNEY</span><h2 id="journey-brand-title">${e(outline.title)}</h2></div><span class="journey-outline-count">序章 + ${outline.chapters.length - 1} 章 · 逐章补充</span></div><dl class="journey-facts">${outline.facts.map(fact => `<div><dt>${e(fact.label)}</dt><dd>${e(fact.value)}<small>${e(fact.note)}</small></dd></div>`).join('')}</dl><p class="journey-overview-note">背景由本人提供 · 目录整理于 ${e(outline.updatedAt.replaceAll('-', '.'))}</p></section><section class="journey-outline" aria-labelledby="journey-outline-title"><div class="journey-outline-heading"><div><span class="section-number">CONTENTS / 00 — 19</span><h2 id="journey-outline-title">创业经历章节目录</h2></div><div class="journey-outline-actions"><button type="button" data-outline-action="expand">全部展开</button><button type="button" data-outline-action="collapse">全部收起</button></div></div><p class="journey-outline-note">${e(outline.scopeNote)}</p><p class="journey-outline-help">点击章名展开写作提纲；目录不计入已完成文章。</p><ol class="journey-chapters" start="0">${chapters}</ol><a class="text-link" href="https://github.com/RomanAgent/Roman/blob/main/docs/journey-outline.md" target="_blank" rel="noopener noreferrer">在 GitHub 阅读完整目录 ↗</a></section><div class="journey-layout journey-existing"><section aria-labelledby="journey-records-title"><div class="section-heading"><div><span class="section-number">READ / EXISTING NOTES</span><h2 id="journey-records-title">已有文章与研究</h2></div></div><p class="journey-existing-note">公司注册篇保留为筹备研究，早期编辑初稿与模板继续保留。真实经历将在对应章节逐篇整理发布。</p><div class="journal-list">${articles.filter(a => a.category === 'journey').map(articleCard).join('')}</div></section><aside class="journey-aside"><div class="eyebrow">A LIVING ARCHIVE</div><h2>每一章，怎样记录</h2><p>从一个具体事件开始，留下当时的选择和今天的理解。</p><ol class="journey-steps">${outline.writingSteps.map((step, i) => `<li><span>${String(i + 1).padStart(2, '0')}</span><div>${e(step.title)}<small>${e(step.text)}</small></div></li>`).join('')}</ol><a class="template-link" href="content/journey-template.md" download>下载一段经历的记录模板 <span aria-hidden="true">↓</span></a></aside></div></div>`;
+  if (chapterId) requestAnimationFrame(() => {
+    const chapter = document.getElementById(`journey-${chapterId}`);
+    if (chapter) { chapter.open = true; chapter.scrollIntoView({behavior:'instant', block:'start'}); }
+  });
 }
 function articleRefs(article, ids = []) {
   return ids.length ? `<p class="chapter-refs">依据 ${ids.map(id => { const index = article.sources.findIndex(s => s.id === id), source = article.sources[index]; return source ? `<a href="${safeURL(source.url)}" target="_blank" rel="noopener noreferrer" title="${e(source.title)}" aria-label="资料 ${index + 1}：${e(source.title)}">[${index + 1}] ${e(source.shortTitle || source.title)}</a>` : ''; }).join(' ')}</p>` : '';
@@ -73,7 +81,7 @@ function route({ initial = false } = {}) {
   if (!page || page === 'home' || page === 'main') { renderHome(); active = 'home'; }
   else if (page === 'ai' && (detail === 'history' || /^\d{4}$/.test(detail || ''))) { renderAIHistory(); document.title = 'AI历史资料 · Roman'; }
   else if (page === 'ai') window.AIDirectoryApp.render(detail, productId, anchor);
-  else if (page === 'journey') renderJourney();
+  else if (page === 'journey') renderJourney(detail);
   else if (page === 'hardware') window.HardwareApp.render(detail, productId);
   else if (page === 'supply-chain') window.SupplyChainApp.render(detail,productId);
   else if (page === 'article') active = renderArticle(detail, productId);
@@ -89,6 +97,8 @@ function route({ initial = false } = {}) {
   else window.scrollTo({top:0,behavior:'instant'});
 }
 main.addEventListener('click', event => {
+  const outlineAction = event.target.closest('[data-outline-action]');
+  if (outlineAction) document.querySelectorAll('.journey-chapter').forEach(chapter => { chapter.open = outlineAction.dataset.outlineAction === 'expand'; });
   const button = event.target.closest('[data-filter]');
   if (button) { selectedFilter = button.dataset.filter; renderRecords(); }
 });
@@ -99,12 +109,13 @@ document.querySelector('.skip-link').addEventListener('click', event => {
 });
 async function start() {
   try {
-    const files = await Promise.all(['ai-history.json', 'journal.json', 'ai-articles.json'].map(async filename => {
+    const files = await Promise.all(['ai-history.json', 'journal.json', 'ai-articles.json', 'journey-outline.json'].map(async filename => {
       const response = await fetch(`content/${filename}`, {cache:'no-cache'});
       if (!response.ok) throw new Error(`无法读取 ${filename}`);
       return response.json();
     }));
     historyData = files[0];
+    journeyOutline = files[3];
     const featuredOrder = ['ai-opportunity', 'why-write', 'hardware-scenario'];
     const rank = article => featuredOrder.includes(article.id) ? featuredOrder.indexOf(article.id) : featuredOrder.length;
     articles = [...files[2], ...files[1]].sort((a, b) => b.date.localeCompare(a.date) || rank(a) - rank(b));

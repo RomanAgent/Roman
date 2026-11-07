@@ -3,10 +3,11 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 // Run from any directory. The JSON files also power the website.
 const root = new URL('../', import.meta.url);
 const load = async name => JSON.parse(await readFile(new URL(`content/${name}`, root), 'utf8'));
-const [history, journal, notes] = await Promise.all([
+const [history, journal, notes, outline] = await Promise.all([
   load('ai-history.json'),
   load('journal.json'),
   load('ai-articles.json'),
+  load('journey-outline.json'),
 ]);
 
 const text = value => String(value)
@@ -74,10 +75,40 @@ const historyMarkdown = [
   '[返回项目首页](../README.md) · [阅读行业观察](../content/ai-notes.md)',
 ].join('\n\n');
 
+const outlineStatus = { awaiting: '待补充经历', research: '已有筹备研究 · 真实经历待补充', future: '未来思考 · 不代表已经发生' };
+const outlineLabel = chapter => chapter.number === 0 ? '序章' : `第${chapter.number}章`;
+const outlineIndex = outline.chapters.map(chapter => `- **${outlineLabel(chapter)} · ${text(chapter.title)}** — ${outlineStatus[chapter.status]}${chapter.articleId ? `；[阅读现有筹备研究](journal-${chapter.articleId}.md)` : ''}`).join('\n');
+const outlineMarkdown = [
+  generatedNote('content/journey-outline.json'),
+  `# ${text(outline.title)} · 章节目录`,
+  `目录整理于 ${outline.updatedAt} · 序章＋${outline.chapters.length - 1}章`,
+  text(outline.description),
+  `> ${text(outline.scopeNote)}`,
+  '## 本人已提供的背景',
+  ...outline.facts.map(fact => `- **${text(fact.label)}：${text(fact.value)}**。${text(fact.note)}`),
+  '## 章节一览',
+  outlineIndex,
+  ...outline.chapters.flatMap(chapter => [
+    `## ${outlineLabel(chapter)} · ${text(chapter.title)}`,
+    `**${outlineStatus[chapter.status]}**`,
+    text(chapter.summary),
+    `**值得留下的记录：** ${text(chapter.records)}`,
+    ...(chapter.articleId ? [`[阅读现有筹备研究](journal-${chapter.articleId}.md)；本章真实注册过程、选择与支出，待本人补充。`] : []),
+    `[网页章节提纲](https://romanagent.github.io/Roman/#journey/${chapter.id})`,
+  ]),
+  '## 每一章，怎样记录',
+  outline.writingSteps.map((step, i) => `${i + 1}. **${text(step.title)}：** ${text(step.text)}`).join('\n'),
+  '[返回创业经历](journal.md) · [浏览网站目录](https://romanagent.github.io/Roman/#journey)',
+].join('\n\n');
+
 const journalMarkdown = [
-  generatedNote('content/journal.json'),
+  generatedNote('content/journal.json 与 content/journey-outline.json'),
   '# 我的创业经历',
-  '> 包含创业筹备研究、编辑初稿与填写模板。已提供的个人背景、公开资料与待决定事项分别注明；未记录的注册、开户、融资和经营结果不作虚构。日期为内容整理日期。',
+  '> 包含 YotureToys 创业经历章节目录、创业筹备研究、编辑初稿与填写模板。目录不计作已完成文章；已提供的个人背景、公开资料与待补充经历分别注明，未记录的经营结果不作虚构。日期为内容整理日期。',
+  '## YotureToys 创业经历目录',
+  '[完整目录与逐章写作提纲](journey-outline.md) · [网页浏览](https://romanagent.github.io/Roman/#journey)',
+  outlineIndex,
+  '---',
   ...journal.map(articleMarkdown),
   '[提交一段经历](../content/journey-template.md) · [返回项目首页](../README.md)',
 ].join('\n\n');
@@ -94,6 +125,7 @@ await mkdir(new URL('docs/', root), { recursive: true });
 const outputs = [
   ['docs/ai-history.md', historyMarkdown],
   ['docs/journal.md', journalMarkdown],
+  ['docs/journey-outline.md', outlineMarkdown],
   ['content/ai-notes.md', notesMarkdown],
 ];
 for (const article of journal.filter(a => a.sections)) outputs.push([`docs/journal-${article.id}.md`, [generatedNote('content/journal.json'), `# ${text(article.title)}`, `**${text(article.status)}** · 整理 ${article.date} · 资料核查 ${article.verifiedAt || article.date}`, `> ${text(article.scopeNote)}`, ...article.paragraphs.map(text), ...sectionsMarkdown(article, 2), `## ${text(article.questionsTitle || '待决定事项')}`, ...(article.questions || []).map(q => `- ${text(q)}`), '## 资料与延伸阅读', ...article.sources.map((s, i) => `${i + 1}. ${sourceLink(s)} — ${text(s.kind || '资料')}；核查 ${s.checkedAt || article.verifiedAt || article.date}${s.note ? `。${text(s.note)}` : ''}`), `[网页阅读](https://romanagent.github.io/Roman/#article/${article.id}) · [返回创业手记](journal.md)`].join('\n\n')]);
